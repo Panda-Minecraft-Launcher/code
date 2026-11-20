@@ -3434,9 +3434,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "Geteilte Instanz gesperrt"
   },
-  "app.sidebar.playing-as": {
-    "message": "Du spielst als"
-  },
   "app.skins.add-button": {
     "message": "Skin hinzufügen"
   },
@@ -4615,18 +4612,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Es wird auf die Bestätigung im Browser gewartet..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Erste Instanz erstellen"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Bei Minecraft anmelden"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Bei Modrinth anmelden"
-  },
-  "onboarding-checklist.title": {
-    "message": "Erste Schritte"
   },
   "project.server.status.offline": {
     "message": "Offline"

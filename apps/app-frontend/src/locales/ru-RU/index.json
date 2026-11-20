@@ -3383,9 +3383,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "Совместная сборка заблокирована"
   },
-  "app.sidebar.playing-as": {
-    "message": "Сейчас играет"
-  },
   "app.skins.add-button": {
     "message": "Добавить скин"
   },
@@ -4546,18 +4543,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Ожидание подтверждения браузера..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Создайте сборку"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Войдите в Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Войдите в Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Начало работы"
   },
   "project.server.status.offline": {
     "message": "Офлайн"

@@ -3443,9 +3443,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "Shared instance locked"
   },
-  "app.sidebar.playing-as": {
-    "message": "Playing as"
-  },
   "app.skins.add-button": {
     "message": "Add skin"
   },
@@ -4678,18 +4675,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Waiting for browser confirmation..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Create first instance"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Sign in to Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Sign in to Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Getting started"
   },
   "project.server.status.offline": {
     "message": "Offline"

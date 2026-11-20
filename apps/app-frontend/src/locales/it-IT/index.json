@@ -3431,9 +3431,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "Istanza condivisa bloccata"
   },
-  "app.sidebar.playing-as": {
-    "message": "Accesso effettuato come"
-  },
   "app.skins.add-button": {
     "message": "Nuova skin"
   },
@@ -4612,18 +4609,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "In attesa della conferma del browser..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Crea la prima istanza"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Accedi a Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Accedi a Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Per iniziare"
   },
   "project.server.status.offline": {
     "message": "Non in linea"

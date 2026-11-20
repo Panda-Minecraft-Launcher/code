@@ -1265,7 +1265,11 @@ enum ElyByPoll {
 }
 
 fn elyby_client_id() -> Option<&'static str> {
-    option_env!("ELY_BY_CLIENT_ID").filter(|id| !id.is_empty())
+    Some(
+        option_env!("ELY_BY_CLIENT_ID")
+            .filter(|id| !id.is_empty())
+            .unwrap_or("panda-minecraft-launcher"),
+    )
 }
 
 fn elyby_client_secret() -> Option<&'static str> {

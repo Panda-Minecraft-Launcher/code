@@ -3344,9 +3344,6 @@
   "app.shared-instance.lock-notice.delete-instance": {
     "message": "Supprimer l'instance"
   },
-  "app.sidebar.playing-as": {
-    "message": "Joue en tant que"
-  },
   "app.skins.add-button": {
     "message": "Ajouter un skin"
   },
@@ -4414,18 +4411,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "En attente de la confirmation du navigateur..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Créer votre première instance"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Se connecter à Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Se connecter à Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Premiers pas"
   },
   "project.server.status.offline": {
     "message": "Hors ligne"

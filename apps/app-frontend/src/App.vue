@@ -16,7 +16,6 @@ import {
 	SpinnerIcon,
 	ToggleRightIcon,
 	UserIcon,
-	UserPlusIcon,
 	XIcon,
 } from '@modrinth/assets'
 import {
@@ -71,7 +70,6 @@ import { RouterView, useRoute, useRouter } from 'vue-router'
 
 import { useRouteLoading } from '@/app/runtime/use-route-loading'
 import { useSharedInstanceLockSync } from '@/app/runtime/use-shared-instance-lock-sync'
-import AppSidebar from '@/app/shell/sidebar/index.vue'
 import AppTitleBar from '@/app/shell/title-bar/index.vue'
 import { trackExternalFileDownload } from '@/components/ui/download-manager/external-file-downloads'
 import ErrorModal from '@/components/ui/ErrorModal.vue'
@@ -616,10 +614,6 @@ const messages = defineMessages({
 	viewProfile: {
 		id: 'app.nav.view-profile',
 		defaultMessage: 'View profile',
-	},
-	addFriend: {
-		id: 'friends.action.add-friend',
-		defaultMessage: 'Add a friend',
 	},
 	signInToModrinthAccount: {
 		id: 'app.nav.sign-in-to-modrinth-account',
@@ -1329,12 +1323,6 @@ const modrinthAccountMenuOptions = computed(() => [
 		shown: !hasPlus.value,
 	},
 	{
-		id: 'add-friend',
-		label: formatMessage(messages.addFriend),
-		icon: UserPlusIcon,
-		action: () => sidebar.value?.showAddFriendModal(),
-	},
-	{
 		id: 'flags',
 		label: formatMessage(commonSettingsMessages.featureFlags),
 		icon: ToggleRightIcon,
@@ -1420,8 +1408,7 @@ onMounted(() => {
 	setServerUpdateToPlayModal(updateToPlayModal.value)
 })
 
-const sidebar = ref(null)
-provideMinecraftAccounts(computed(() => sidebar.value?.minecraftAccounts ?? null))
+provideMinecraftAccounts(computed(() => null))
 
 useAppEvent('command', handleCommand, appEvents)
 useAppEvent('notification', handleLiveNotification, appEvents)
@@ -2183,7 +2170,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 		v-if="stateInitialized"
 		class="app-contents"
 		:class="{
-			'sidebar-enabled': sidebarVisible,
 			'disable-advanced-rendering': !appTheme.advancedRendering,
 		}"
 	>
@@ -2240,16 +2226,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				</template>
 			</RouterView>
 		</div>
-		<AppSidebar
-			ref="sidebar"
-			:credentials="credentials"
-			:has-plus="hasPlus"
-			:show-ad="showAd"
-			:visible="sidebarVisible"
-			:request-sign-in="() => requestSignIn()"
-			@create-instance="installationModal?.show()"
-			@login-modrinth="signIn"
-		/>
+		<div id="sidebar-teleport-target" class="sidebar-teleport-content empty:hidden"></div>
 	</div>
 	<I18nDebugPanel />
 	<NotificationPanel :has-sidebar="sidebarVisible" />
@@ -2356,11 +2333,14 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 
 	display: grid;
 	grid-template-columns: 1fr 0px;
-	// transition: grid-template-columns 0.4s ease-in-out;
 
-	&.sidebar-enabled {
+	&:has(#sidebar-teleport-target:not(:empty)) {
 		grid-template-columns: 1fr 300px;
 	}
+}
+
+.sidebar-teleport-content {
+	overflow-y: auto;
 }
 
 .loading-indicator-container {

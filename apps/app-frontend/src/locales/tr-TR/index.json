@@ -2966,9 +2966,6 @@
   "app.settings.tabs.privacy": {
     "message": "Gizlilik"
   },
-  "app.sidebar.playing-as": {
-    "message": "Şu olarak oynuyor"
-  },
   "app.skins.add-button": {
     "message": "Dış görünüm ekle"
   },
@@ -3847,18 +3844,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Tarayıcı onayı bekleniyor..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Yeni kurulum oluştur"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Minecraft'a giriş yap"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Modrinth'e giriş yap"
-  },
-  "onboarding-checklist.title": {
-    "message": "Başlarken"
   },
   "search.filter.locked.instance": {
     "message": "Kurulum tarafından sağlanan"

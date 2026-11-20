@@ -3434,9 +3434,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "공유 인스턴스 잠김"
   },
-  "app.sidebar.playing-as": {
-    "message": "플레이 중인 계정은"
-  },
   "app.skins.add-button": {
     "message": "스킨 추가"
   },
@@ -4615,18 +4612,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "브라우저 확인 대기 중..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "첫 인스턴스 생성"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Minecraft에 로그인"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Modrinth에 로그인"
-  },
-  "onboarding-checklist.title": {
-    "message": "시작하기"
   },
   "project.server.status.offline": {
     "message": "오프라인"

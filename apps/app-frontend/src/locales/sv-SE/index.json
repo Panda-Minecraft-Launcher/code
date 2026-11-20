@@ -3053,9 +3053,6 @@
   "app.shared-instance.lock-notice.reason": {
     "message": "Anledning"
   },
-  "app.sidebar.playing-as": {
-    "message": "Spelar som"
-  },
   "app.skins.add-button": {
     "message": "Lägg till utseende"
   },
@@ -4003,18 +4000,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Väntar på bekräftelse från webbläsaren..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Skapa först en instans"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Logga på Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Logga in på Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Kom igång"
   },
   "project.server.status.offline": {
     "message": "Offline"

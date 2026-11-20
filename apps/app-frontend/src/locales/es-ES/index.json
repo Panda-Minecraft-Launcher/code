@@ -3314,9 +3314,6 @@
   "app.shared-instance-publish.uploading": {
     "message": "Lanzando actualización..."
   },
-  "app.sidebar.playing-as": {
-    "message": "Jugando como"
-  },
   "app.skins.add-button": {
     "message": "Añadir skin"
   },
@@ -4405,18 +4402,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Esperando la confirmación del navegador..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Crear una primera instancia"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Iniciar sesión en Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Iniciar sesión en Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Primeros pasos"
   },
   "project.server.status.offline": {
     "message": "Sin conexión"

@@ -3386,9 +3386,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "共用實例已鎖定"
   },
-  "app.sidebar.playing-as": {
-    "message": "目前遊玩帳號"
-  },
   "app.skins.add-button": {
     "message": "新增外觀"
   },
@@ -4510,18 +4507,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "等待瀏覽器確認..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "建立第一個實例"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "登入 Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "登入 Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "開始使用"
   },
   "project.server.status.offline": {
     "message": "離線"

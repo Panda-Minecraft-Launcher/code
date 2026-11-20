@@ -3419,9 +3419,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "Zablokowana zawartość udostępnianej instancji"
   },
-  "app.sidebar.playing-as": {
-    "message": "Graj jako"
-  },
   "app.skins.add-button": {
     "message": "Dodaj skórkę"
   },
@@ -4531,18 +4528,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Oczekiwanie na twoje potwierdzenie..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Utwórz pierwszą instancję"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Zaloguj się do Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Zaloguj się na Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Pierwsze kroki"
   },
   "project.server.status.offline": {
     "message": "Offline"

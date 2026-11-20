@@ -3158,9 +3158,6 @@
   "app.shared-instance-publish.uploading": {
     "message": "Frissítés közzététele…"
   },
-  "app.sidebar.playing-as": {
-    "message": "Játékfiók"
-  },
   "app.skins.add-button": {
     "message": "Kinézet hozzáadása"
   },
@@ -4207,18 +4204,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Várakozás a böngésző megerősítésére..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Első példány létrehozása"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Bejelentkezés a Minecraftba"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Jelentkezz be a Modrinthba"
-  },
-  "onboarding-checklist.title": {
-    "message": "Első lépések"
   },
   "search.filter.locked.instance": {
     "message": "Pédány által megadva"

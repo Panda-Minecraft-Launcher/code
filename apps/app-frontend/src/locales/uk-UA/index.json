@@ -3425,9 +3425,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "Спільний примірник заблоковано"
   },
-  "app.sidebar.playing-as": {
-    "message": "Ігровий профіль"
-  },
   "app.skins.add-button": {
     "message": "Додати скін"
   },
@@ -4606,18 +4603,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Ждемо підтвердження від переглядача..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Створити перший примірник"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Увійти в Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Увійти в Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Почнімо"
   },
   "project.server.status.offline": {
     "message": "Не в мережі"

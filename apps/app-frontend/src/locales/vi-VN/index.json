@@ -3062,9 +3062,6 @@
   "app.settings.tabs.privacy": {
     "message": "Quyền riêng tư"
   },
-  "app.sidebar.playing-as": {
-    "message": "Đang chơi với tên"
-  },
   "app.skins.add-button": {
     "message": "Thêm skin"
   },
@@ -4078,18 +4075,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Đang chờ xác nhận từ trình duyệt..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Tạo bản cài đặt đầu tiên"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Đăng nhập Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Đăng nhập Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "Bắt đầu"
   },
   "search.filter.locked.instance": {
     "message": "Do bản cài đặt cung cấp"

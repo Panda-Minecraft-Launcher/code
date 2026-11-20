@@ -2024,9 +2024,6 @@
   "modal.modrinth-account-required.signing-in-header": {
     "message": "מתחבר"
   },
-  "onboarding-checklist.title": {
-    "message": "בואו נתחיל"
-  },
   "project.server.status.offline": {
     "message": "לא מקוון"
   },

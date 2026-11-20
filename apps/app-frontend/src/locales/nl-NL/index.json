@@ -3272,9 +3272,6 @@
   "app.shared-instance-publish.uploading": {
     "message": "Update pushen..."
   },
-  "app.sidebar.playing-as": {
-    "message": "Spelen als"
-  },
   "app.skins.add-button": {
     "message": "Skin toevoegen"
   },
@@ -4339,18 +4336,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Wachten op bevestiging van de browser..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "Nieuwe instantie aanmaken"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Meld je aan bij Minecraft"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Bij Modrinth aanmelden"
-  },
-  "onboarding-checklist.title": {
-    "message": "Aan de slag"
   },
   "search.filter.locked.instance": {
     "message": "Aangeboden door de instantie"

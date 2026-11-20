@@ -3125,9 +3125,6 @@
   "app.shared-instance-publish.uploading": {
     "message": "رفع التحديث..."
   },
-  "app.sidebar.playing-as": {
-    "message": "اللعب كـ"
-  },
   "app.skins.add-button": {
     "message": "إضافة مظهر"
   },
@@ -4150,18 +4147,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "في انتظار تأكيد المتصفح..."
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "انشء اول مثيل"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "تسجيل الدخول إلى ماين كرافت"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "تسجيل الدخول إلى Modrinth"
-  },
-  "onboarding-checklist.title": {
-    "message": "ابدأ ألان"
   },
   "search.filter.locked.instance": {
     "message": "مقدَّم من النسخة"

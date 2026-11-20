@@ -11,7 +11,11 @@ const appLibEnvDir = resolve(projectRootDir, '../../packages/app-lib')
 const apiClientSource = resolve(projectRootDir, '../../packages/api-client/src/index.ts')
 
 // Load .env from app-lib manually instead of using Vite's envDir, which would auto-load .env.local and override values
-const envFilePath = resolve(appLibEnvDir, '.env')
+// Fall back to the tracked .env.prod when .env is absent (fresh clone, release builds)
+const envFilePath = resolve(
+	appLibEnvDir,
+	existsSync(resolve(appLibEnvDir, '.env')) ? '.env' : '.env.prod',
+)
 if (existsSync(envFilePath)) {
 	for (const line of readFileSync(envFilePath, 'utf-8').split('\n')) {
 		const trimmed = line.trim()

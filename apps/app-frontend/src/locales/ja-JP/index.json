@@ -3434,9 +3434,6 @@
   "app.shared-instance.lock-notice.title": {
     "message": "共有インスタンスはロックされています"
   },
-  "app.sidebar.playing-as": {
-    "message": "プレイ中のアカウント"
-  },
   "app.skins.add-button": {
     "message": "スキンを追加"
   },
@@ -4615,18 +4612,6 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "ブラウザからの確認を待っています…"
-  },
-  "onboarding-checklist.create-instance": {
-    "message": "最初のインスタンスを作成"
-  },
-  "onboarding-checklist.login-minecraft": {
-    "message": "Minecraftにサインイン"
-  },
-  "onboarding-checklist.login-modrinth": {
-    "message": "Modrinthへサインイン"
-  },
-  "onboarding-checklist.title": {
-    "message": "はじめる"
   },
   "project.server.status.offline": {
     "message": "オフライン"
