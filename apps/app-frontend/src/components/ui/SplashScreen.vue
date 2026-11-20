@@ -4,7 +4,7 @@
 			<div class="app-logo-wrapper" data-tauri-drag-region>
 				<div class="app-logo flex items-center gap-3">
 					<LegacyGrassBlockIcon class="h-9 w-auto shrink-0" />
-					<span class="text-3xl font-bold">{{ formatMessage(messages.wordmark) }}</span>
+					<span class="text-2xl font-bold">Panda Minecraft Launcher</span>
 				</div>
 				<ProgressBar class="loading-bar" :progress="progress" />
 				<span v-if="message" class="text-secondary">{{ message }}</span>
@@ -30,7 +30,6 @@ const theme = useTheme()
 const { formatMessage } = useVIntl()
 
 const messages = defineMessages({
-	wordmark: { id: 'app.title-bar.wordmark', defaultMessage: 'Minecraft' },
 	movingAppDirectory: {
 		id: 'app.splash.moving-app-directory',
 		defaultMessage: 'Moving your app directory...',
