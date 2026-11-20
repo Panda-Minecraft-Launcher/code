@@ -75,7 +75,7 @@
     "message": "Pemasangan Minecraft gagal"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Tidak dapat menjangkau Panda"
+    "message": "Tidak dapat menjangkau Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Tidak ada izin untuk menulis"
@@ -138,7 +138,7 @@
     "message": "Tolak semua"
   },
   "app.ads-consent.title": {
-    "message": "Privasi Anda dan bagaimana iklan mendukung Panda"
+    "message": "Privasi Anda dan bagaimana iklan mendukung Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Tampilkan instans pustaka dalam tata letak baris ringkas."
@@ -198,7 +198,7 @@
     "message": "Beranda dan konten"
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Masuk ke akun Panda untuk menyinkronkan pengaturan."
+    "message": "Masuk ke akun Panda Minecraft Launcher untuk menyinkronkan pengaturan."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Sinkronkan perilaku antarperangkat"
@@ -654,7 +654,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -741,10 +741,10 @@
     "message": "Ia mungkin memiliki nama yang berbeda dari nama pengguna Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Masukkan nama pengguna Panda..."
+    "message": "Masukkan nama pengguna Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "Apa nama pengguna Panda teman Anda?"
+    "message": "Apa nama pengguna Panda Minecraft Launcher teman Anda?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Tambah teman</link> untuk melihat apa yang mereka mainkan!"
@@ -786,7 +786,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Masuk ke akun Panda</link> untuk menambah teman dan melihat apa yang mereka mainkan!"
+    "message": "<link>Masuk ke akun Panda Minecraft Launcher</link> untuk menambah teman dan melihat apa yang mereka mainkan!"
   },
   "instance.add-server.add-and-play": {
     "message": "Tambah dan mainkan"

@@ -155,7 +155,7 @@ const messages = defineMessages({
 	externalWarningDescription: {
 		id: 'app.modal.update-to-play.shared-instance-unknown-files-description',
 		defaultMessage:
-			'This shared instance update contains files that aren’t published on Panda. We strongly recommend only installing files from sources you trust.',
+			'This shared instance update contains files that aren’t published on Panda Minecraft Launcher Minecraft Launcher. We strongly recommend only installing files from sources you trust.',
 	},
 })
 

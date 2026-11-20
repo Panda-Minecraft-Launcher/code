@@ -1272,7 +1272,7 @@
     "defaultMessage": "Moderador"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Equipa do Panda"
+    "defaultMessage": "Equipa do Panda Minecraft Launcher"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Pendente"
@@ -1386,10 +1386,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Um criador Panda."
+    "defaultMessage": "Um criador Panda Minecraft Launcher."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Um utilizador Panda."
+    "defaultMessage": "Um utilizador Panda Minecraft Launcher."
   },
   "profile.button.block": {
     "defaultMessage": "Bloquear"
@@ -1398,7 +1398,7 @@
     "defaultMessage": "Este utilizador não tem projetos!"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "A conta oficial do Panda. Obtenha assistência em <support-link></support-link> ou por e-mail em <email></email>"
+    "defaultMessage": "A conta oficial do Panda Minecraft Launcher. Obtenha assistência em <support-link></support-link> ou por e-mail em <email></email>"
   },
   "project-card.date.published.tooltip": {
     "defaultMessage": "Publicado a {date}"
@@ -2364,7 +2364,7 @@
     "defaultMessage": "Escuro"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Escolha o seu tema de cores preferido no Panda."
+    "defaultMessage": "Escolha o seu tema de cores preferido no Panda Minecraft Launcher."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Claro"
@@ -2451,7 +2451,7 @@
     "defaultMessage": "Utilizador"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Estes são os utilizadores que bloqueaste no Panda. Eles não podem:"
+    "defaultMessage": "Estes são os utilizadores que bloqueaste no Panda Minecraft Launcher. Eles não podem:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Ainda não bloqueaste ninguém."
@@ -2463,10 +2463,10 @@
     "defaultMessage": "Convidá-lo para instâncias partilhadas"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Controla quem te pode enviar pedidos de amizade no Panda."
+    "defaultMessage": "Controla quem te pode enviar pedidos de amizade no Panda Minecraft Launcher."
   },
   "settings.social.hosting-access.description": {
-    "defaultMessage": "Controle quem pode convidá-lo para gerir um servidor da Panda Alojamento."
+    "defaultMessage": "Controle quem pode convidá-lo para gerir um servidor da Panda Minecraft Launcher Alojamento."
   },
   "settings.social.hosting-access.title": {
     "defaultMessage": "Convites para acesso ao alojamento"

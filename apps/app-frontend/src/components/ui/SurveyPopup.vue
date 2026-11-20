@@ -34,7 +34,7 @@ const availableSurvey = ref<Survey | null>(null)
 const messages = defineMessages({
 	surveyTitle: {
 		id: 'app.survey.title',
-		defaultMessage: 'Hey there Panda user!',
+		defaultMessage: 'Hey there Panda Minecraft Launcher user!',
 	},
 	surveyBody: {
 		id: 'app.survey.body',
@@ -44,7 +44,7 @@ const messages = defineMessages({
 	surveyFooter: {
 		id: 'app.survey.footer',
 		defaultMessage:
-			'This feedback will go directly to the Panda team and help guide future updates!',
+			'This feedback will go directly to the Panda Minecraft Launcher team and help guide future updates!',
 	},
 	takeSurvey: {
 		id: 'app.survey.take-survey',

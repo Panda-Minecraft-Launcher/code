@@ -91,7 +91,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.staff.about.1',
-				defaultMessage: `This user works for Panda.`,
+				defaultMessage: `This user works for Panda Minecraft Launcher.`,
 			}),
 		],
 		criteria: [
@@ -114,11 +114,11 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.moderator.about.1',
-				defaultMessage: `This user works for Panda as a Content Moderator.`,
+				defaultMessage: `This user works for Panda Minecraft Launcher as a Content Moderator.`,
 			}),
 			defineMessage({
 				id: 'user.profile.badge.moderator.about.2',
-				defaultMessage: `Content Moderators on Panda review projects, handle reports, and help keep Panda safe.`,
+				defaultMessage: `Content Moderators on Panda Minecraft Launcher Minecraft Launcher review projects, handle reports, and help keep Panda Minecraft Launcher safe.`,
 			}),
 		],
 		criteria: [
@@ -186,7 +186,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.plus.about.1',
-				defaultMessage: `This user is going the extra mile to support Panda and the creators on the platform.`,
+				defaultMessage: `This user is going the extra mile to support Panda Minecraft Launcher and the creators on the platform.`,
 			}),
 		],
 		criteria: [
@@ -240,7 +240,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.early-modpack-adopter.about.1',
-				defaultMessage: `This user helped us test Modpack projects on Panda before we launched them in May 2022.`,
+				defaultMessage: `This user helped us test Modpack projects on Panda Minecraft Launcher before we launched them in May 2022.`,
 			}),
 		],
 		criteria: [
@@ -264,7 +264,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.early-resourcepack-adopter.about.1',
-				defaultMessage: `This user helped us test Resource Pack projects on Panda before we launched them in August 2022.`,
+				defaultMessage: `This user helped us test Resource Pack projects on Panda Minecraft Launcher before we launched them in August 2022.`,
 			}),
 		],
 		criteria: [
@@ -288,7 +288,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.early-plugin-adopter.about.1',
-				defaultMessage: `This user helped us test Plugin projects on Panda before we launched them in August 2022.`,
+				defaultMessage: `This user helped us test Plugin projects on Panda Minecraft Launcher Minecraft Launcher before we launched them in August 2022.`,
 			}),
 		],
 		criteria: [
@@ -312,7 +312,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.early-datapack-adopter.about.1',
-				defaultMessage: `This user helped us test Data Pack projects on Panda before we launched them in January 2023.`,
+				defaultMessage: `This user helped us test Data Pack projects on Panda Minecraft Launcher before we launched them in January 2023.`,
 			}),
 		],
 		criteria: [
@@ -332,7 +332,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.early-shader-adopter.about.1',
-				defaultMessage: `This user helped us test Shader projects on Panda before we launched them in January 2023.`,
+				defaultMessage: `This user helped us test Shader projects on Panda Minecraft Launcher Minecraft Launcher before we launched them in January 2023.`,
 			}),
 		],
 		criteria: [
@@ -352,7 +352,7 @@ const BADGES = [
 		about: [
 			defineMessage({
 				id: 'user.profile.badge.early-server-adopter.about.1',
-				defaultMessage: `This user helped us test Server projects on Panda before we launched them in March 2026.`,
+				defaultMessage: `This user helped us test Server projects on Panda Minecraft Launcher Minecraft Launcher before we launched them in March 2026.`,
 			}),
 		],
 		criteria: [

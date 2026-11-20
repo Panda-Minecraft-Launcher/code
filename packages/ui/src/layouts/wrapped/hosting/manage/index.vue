@@ -301,12 +301,12 @@ const messages = defineMessages({
 	errorSupportNotice: {
 		id: 'servers.manage.error.support-notice',
 		defaultMessage:
-			'If you require personalized support regarding the status of your server, please contact Panda Support.',
+			'If you require personalized support regarding the status of your server, please contact Panda Minecraft Launcher Support.',
 	},
 	errorDetails: { id: 'servers.manage.error.details', defaultMessage: 'Error details:' },
 	contactSupportButton: {
 		id: 'servers.manage.contact-support-button',
-		defaultMessage: 'Contact Panda Support',
+		defaultMessage: 'Contact Panda Minecraft Launcher Support',
 	},
 	reloadButton: { id: 'servers.manage.reload-button', defaultMessage: 'Reload' },
 	serversTitle: { id: 'servers.manage.servers-title', defaultMessage: 'Panda Hosting' },
@@ -376,7 +376,7 @@ const messages = defineMessages({
 	},
 	resubscribeErrorText: {
 		id: 'servers.manage.resubscribe-error.text',
-		defaultMessage: 'An error occurred while resubscribing to your Panda server.',
+		defaultMessage: 'An error occurred while resubscribing to your Panda Minecraft Launcher server.',
 	},
 })
 

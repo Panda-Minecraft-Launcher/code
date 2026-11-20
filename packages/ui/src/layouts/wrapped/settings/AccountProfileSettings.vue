@@ -444,11 +444,11 @@ const messages = defineMessages({
 	},
 	signInRequiredTitle: {
 		id: 'settings.profile.sign-in-required.title',
-		defaultMessage: 'Panda account required',
+		defaultMessage: 'Panda Minecraft Launcher account required',
 	},
 	signInRequiredDescription: {
 		id: 'settings.profile.sign-in-required.description',
-		defaultMessage: 'Sign in with a Panda account to customize your public profile.',
+		defaultMessage: 'Sign in with a Panda Minecraft Launcher account to customize your public profile.',
 	},
 	saveError: {
 		id: 'settings.profile.save-error',

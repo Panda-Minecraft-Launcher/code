@@ -142,7 +142,7 @@ const failureSummaryMessages = defineMessages({
 	},
 	modrinthUnreachable: {
 		id: 'app.action-bar.install.summary.modrinth-unreachable',
-		defaultMessage: "Couldn't reach Panda",
+		defaultMessage: "Couldn't reach Panda Minecraft Launcher",
 	},
 	packDownloadFailed: {
 		id: 'app.action-bar.install.summary.pack-download-failed',

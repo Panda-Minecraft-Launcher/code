@@ -78,7 +78,7 @@
     "message": "Minecraft kurulumu başarısız oldu"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Panda'e erişilemiyor"
+    "message": "Panda Minecraft Launcher'e erişilemiyor"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Yazmak için yetkiniz yok"
@@ -135,7 +135,7 @@
     "message": "Tümünü kabul et"
   },
   "app.ads-consent.body": {
-    "message": "Reklamlar, Panda'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir."
+    "message": "Reklamlar, Panda Minecraft Launcher'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir."
   },
   "app.ads-consent.manage": {
     "message": "Tercihleri yönet"
@@ -144,7 +144,7 @@
     "message": "Tümünü reddet"
   },
   "app.ads-consent.title": {
-    "message": "Sizin mahremiyetiniz ve reklamlar Panda'i nasıl destekler"
+    "message": "Sizin mahremiyetiniz ve reklamlar Panda Minecraft Launcher'i nasıl destekler"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Kütüphane kurulumlarını kompakt satır düzeninde göster."
@@ -207,7 +207,7 @@
     "message": "Ana sayfa ve içerik"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "Bu cihazda kitaplığınızdan gizlediğiniz örnekler. Gizlenen örnekler Panda hesabınızla senkronize edilmez."
+    "message": "Bu cihazda kitaplığınızdan gizlediğiniz örnekler. Gizlenen örnekler Panda Minecraft Launcher hesabınızla senkronize edilmez."
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "Henüz herhangi bir oturum gizlemedin."
@@ -234,7 +234,7 @@
     "message": "Bu davranış ayarlarını oturum açtığınız her yerde kullanın. Bu cihazda ayrı ayarlar tutmak için bunu kapatın."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Ayarları senkronize etmek için Panda'e giriş yapın."
+    "message": "Ayarları senkronize etmek için Panda Minecraft Launcher'e giriş yapın."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Cihazlar arası senkronizasyon davranışı"
@@ -495,7 +495,7 @@
     "message": "Bu özellik ayarlarını oturumunuzun açık olduğu her yerde kullanın. Bu cihazda farklı ayarlar tutmak için bu özelliği kapatın."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Ayarları eşitlemek için bir Panda Hesabı'yla oturum açın."
+    "message": "Ayarları eşitlemek için bir Panda Minecraft Launcher Hesabı'yla oturum açın."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Cihazlar arası özellikleri eşitle"
@@ -906,13 +906,13 @@
     "message": "Olarak giriş yap"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Panda'e giriş yapmanız gerek"
+    "message": "Panda Minecraft Launcher'e giriş yapmanız gerek"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "paylaşımlı örnek hakkında güncellemeler almak için."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Yanlış Panda hesabını kullanıyorsunuz"
+    "message": "Yanlış Panda Minecraft Launcher hesabını kullanıyorsunuz"
   },
   "app.instance.shortcut.created": {
     "message": "Kısayol oluşturuldu"
@@ -1407,7 +1407,7 @@
     "message": "Kütüphane"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {Sahibi olarak paylaştığın # oturum Panda sunucularından silinecek ve onu kullanan insanlar} other {Sahibi olarak paylaştığın # oturum Panda sunucularından silinecek ve onu kullanan insanlar}} güncelleme almayı bırakacak. {leaveCount, plural, one {Paylaşılan diğer oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.} other {Paylaşılan diğer # oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.}} Tamamı kütüphanenden kaldırılacak."
+    "message": "{unpublishCount, plural, one {Sahibi olarak paylaştığın # oturum Panda Minecraft Launcher sunucularından silinecek ve onu kullanan insanlar} other {Sahibi olarak paylaştığın # oturum Panda Minecraft Launcher sunucularından silinecek ve onu kullanan insanlar}} güncelleme almayı bırakacak. {leaveCount, plural, one {Paylaşılan diğer oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.} other {Paylaşılan diğer # oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.}} Tamamı kütüphanenden kaldırılacak."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Unpublishing and leaving shared instances"
@@ -1452,10 +1452,10 @@
     "message": "Yükle"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Bu davetiye Panda tarafından değil, başka bir Panda kullanıcısı tarafından oluşturulmuştur. Sadece güvendiğiniz kişilerden gelen davetleri kabul edin."
+    "message": "Bu davetiye Panda Minecraft Launcher tarafından değil, başka bir Panda Minecraft Launcher kullanıcısı tarafından oluşturulmuştur. Sadece güvendiğiniz kişilerden gelen davetleri kabul edin."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Bu davet Panda aksine, <creator>{username}</creator> tarafından oluşturuldu. Yalnızca güvendiğiniz kişilerden gelen davetleri kabul edin."
+    "message": "Bu davet Panda Minecraft Launcher aksine, <creator>{username}</creator> tarafından oluşturuldu. Yalnızca güvendiğiniz kişilerden gelen davetleri kabul edin."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Modpack içeriği"
@@ -1491,7 +1491,7 @@
     "message": "Yardım talepleri için <support-link>yardım ekibimizle</support-link> iletişime geçin. Hata raporları için <github-link>Github raporu</github-link> açın."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Panda'te paylaşılmayan dosyalar incelenmemiştir."
+    "message": "Panda Minecraft Launcher'te paylaşılmayan dosyalar incelenmemiştir."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Paylaşılan Kurulum"
@@ -1500,7 +1500,7 @@
     "message": "Paylaşılan kurulum içeriği"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Bu paylaşımlı örnek Panda'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
+    "message": "Bu paylaşımlı örnek Panda Minecraft Launcher'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "Bu sunucunun kullandığı mod paketi verisyonu şuanda indirilemez. Muhtemelen yayınlanmadı veya hala inceleme altında. Sonra tekrar deneyiniz ya da Sunucu sahibi ile iletişime geçiniz."
@@ -1509,7 +1509,7 @@
     "message": "Bu sunucunun mod paketi hazır değil"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Bu sunucunun mod paketi Panda'te yayınlanmamış doysaları mevcut. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
+    "message": "Bu sunucunun mod paketi Panda Minecraft Launcher'te yayınlanmamış doysaları mevcut. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Bilinmeyen dosya uyarısı"
@@ -1548,7 +1548,7 @@
     "message": "Kaldırıldı"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Bu örnek Panda'te paylaşılmayan dosyaları içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
+    "message": "Bu örnek Panda Minecraft Launcher'te paylaşılmayan dosyaları içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Güncelleme gerekiyor"
@@ -1572,7 +1572,7 @@
     "message": "Profil yükleniyor..."
   },
   "app.nav.modrinth-account": {
-    "message": "Panda hesabı"
+    "message": "Panda Minecraft Launcher hesabı"
   },
   "app.nav.modrinth-hosting": {
     "message": "Panda Hosting"
@@ -1584,7 +1584,7 @@
     "message": "Ekran görüntüleri"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Panda'e giriş yapın"
+    "message": "Panda Minecraft Launcher'e giriş yapın"
   },
   "app.nav.switch-account": {
     "message": "Hesap değiştir"
@@ -1806,7 +1806,7 @@
     "message": "ZIP dışa aktar"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda ekran görüntüleri.zip"
+    "message": "Panda Minecraft Launcher ekran görüntüleri.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} ekran görüntüleri.zip"
@@ -2118,7 +2118,7 @@
     "message": "Bazı profilleriniz bu ayarı kullanamaz"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Bu ayar Panda'in başlatma seçenekleri tarafından yönetiliyor"
+    "message": "Bu ayar Panda Minecraft Launcher'in başlatma seçenekleri tarafından yönetiliyor"
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Bir değer gir"
@@ -2952,7 +2952,7 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Reklamlar, Panda'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir. Aşağıdan tercihinizi yönetebilir veya vazgeçebilirsiniz."
+    "message": "Reklamlar, Panda Minecraft Launcher'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir. Aşağıdan tercihinizi yönetebilir veya vazgeçebilirsiniz."
   },
   "app.settings.privacy.discord-rich-presence.description": {
     "message": "Şu anki Discord aktiviteniz olarak, Panda Minecraft Launcher'i gösterin. Bu, örneğe modlar tarafından eklenen Rich Presence'ı etkilemez. Uygulamayı yeniden başlatmayı gerektirir."
@@ -2961,7 +2961,7 @@
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Panda kullanıcı deneyimimizi geliştirmek için ve deneyiminizi kişiselleştirmek için anonimleştirilmiş analiz ve kullanım verilerini toplar. Bu seçeneği devre dışı bırakarak, bundan vazgeçmiş olursunuz ve verileriniz artık toplanmayacaktır."
+    "message": "Panda Minecraft Launcher kullanıcı deneyimimizi geliştirmek için ve deneyiminizi kişiselleştirmek için anonimleştirilmiş analiz ve kullanım verilerini toplar. Bu seçeneği devre dışı bırakarak, bundan vazgeçmiş olursunuz ve verileriniz artık toplanmayacaktır."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetri"
@@ -2976,7 +2976,7 @@
     "message": "Önbellek yeniden inşa edilene kadar uygulama daha yavaş yüklenebilir."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Önbelleklenmiş veriyi temizle ve Panda'den tekrar indir. Önbellek yeniden inşa edilene kadar uygulama daha yavaş yüklenebilir."
+    "message": "Önbelleklenmiş veriyi temizle ve Panda Minecraft Launcher'den tekrar indir. Önbellek yeniden inşa edilene kadar uygulama daha yavaş yüklenebilir."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "Uygulama önbelleği"
@@ -3072,7 +3072,7 @@
     "message": "Uygulama dizini"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Uygulama günlüklerini ve tanılama verilerini Panda desteğiyle paylaşmak için ZIP dosyasına aktarın."
+    "message": "Uygulama günlüklerini ve tanılama verilerini Panda Minecraft Launcher desteğiyle paylaşmak için ZIP dosyasına aktarın."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Hata Ayıklama Bilgilerini Dışa Aktar"
@@ -3234,7 +3234,7 @@
     "message": "Bu ayarlar başka bir yerde değiştirildi"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Modlar tarafından eklenen ayarlar, Panda bunları kurulumlarınızdan birinde bulduktan sonra burada görünecek."
+    "message": "Modlar tarafından eklenen ayarlar, Panda Minecraft Launcher bunları kurulumlarınızdan birinde bulduktan sonra burada görünecek."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Kurulumlarınızda aynı oyun seçeneklerini kullanın."
@@ -3414,7 +3414,7 @@
     "message": "Reklam ayrıntılarını kopyala"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "Uygunsuz veya saldırgan bir reklam gördünüz mü? Reklam gösterilirken ayrıntılarını kopyalayın ve <support>Panda Desteği</support> adresine gönderin. İnceleyip kaldıracağız."
+    "message": "Uygunsuz veya saldırgan bir reklam gördünüz mü? Reklam gösterilirken ayrıntılarını kopyalayın ve <support>Panda Minecraft Launcher Desteği</support> adresine gönderin. İnceleyip kaldıracağız."
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "Reklamın yüklenmesini bekleyin, sonra tekrar deneyin."
@@ -3576,13 +3576,13 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Onuru"
+    "message": "Panda Minecraft Launcher Onuru"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Bu skinleri, Onur Ayı boyunca Panda'in düzenlediği bir bağış kampanyasına yaptığınız bağış karşılığında aldınız."
+    "message": "Bu skinleri, Onur Ayı boyunca Panda Minecraft Launcher'in düzenlediği bir bağış kampanyasına yaptığınız bağış karşılığında aldınız."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Kaos Dağları"
@@ -3618,7 +3618,7 @@
     "message": "Panda Minecraft Launcher deneyiminiz hakkında birkaç soruyu cevaplamak ister misiniz?"
   },
   "app.survey.footer": {
-    "message": "Bu geri bildirim doğrudan Panda ekibine gidecek ve gelecek güncellemeleri şekillendirecek!"
+    "message": "Bu geri bildirim doğrudan Panda Minecraft Launcher ekibine gidecek ve gelecek güncellemeleri şekillendirecek!"
   },
   "app.survey.no-thanks": {
     "message": "Hayır teşekkürler"
@@ -3627,7 +3627,7 @@
     "message": "Ankete katıl"
   },
   "app.survey.title": {
-    "message": "Merhaba Panda kullanıcısı!"
+    "message": "Merhaba Panda Minecraft Launcher kullanıcısı!"
   },
   "app.sync-instances-update.choose-source.data-packs": {
     "message": "Veri paketlerinizi hangi kurulumdan kopyalayacağınızı seçin. Bu paketler yalnızca ilk eşitleme için kullanılır; daha sonra herhangi bir kurulumdan düzenleyebilirsiniz."
@@ -3774,7 +3774,7 @@
     "message": "Atla"
   },
   "app.welcome-screen.title": {
-    "message": "Panda'e Hoş Geldiniz"
+    "message": "Panda Minecraft Launcher'e Hoş Geldiniz"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "example.modrinth.gg"
@@ -3843,10 +3843,10 @@
     "message": "Minecraft kullanıcı adıyla aynı olmayabilir!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Panda kullanıcı adını girin..."
+    "message": "Panda Minecraft Launcher kullanıcı adını girin..."
   },
   "friends.add-friend.username.title": {
-    "message": "Arkadaşının Panda kullanıcı adı nedir?"
+    "message": "Arkadaşının Panda Minecraft Launcher kullanıcı adı nedir?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Arkadaş ekleyerek</link> ne oynadıklarını gör!"
@@ -3891,10 +3891,10 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "Arkadaş eklemek ve ne oynadıklarını görmek için bir <link>Panda hesabına giriş yap</link>!"
+    "message": "Arkadaş eklemek ve ne oynadıklarını görmek için bir <link>Panda Minecraft Launcher hesabına giriş yap</link>!"
   },
   "hosting.play.account-changed": {
-    "message": "Panda hesabınız değişti. Devam etmek için Sunucuda oyna düğmesine tekrar basın."
+    "message": "Panda Minecraft Launcher hesabınız değişti. Devam etmek için Sunucuda oyna düğmesine tekrar basın."
   },
   "hosting.play.no-address": {
     "message": "Bu sunucunun henüz bir bağlantı adresi yok."
@@ -3978,7 +3978,7 @@
     "message": "Bağlantı kesiliyor..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Bu paylaşımlı örneği Panda'ten kaldırın ve onu kullanan kişilere güncelleme göndermeyi durdurun. Yerel örneğiniz bundan etkilenmeyecektir."
+    "message": "Bu paylaşımlı örneği Panda Minecraft Launcher'ten kaldırın ve onu kullanan kişilere güncelleme göndermeyi durdurun. Yerel örneğiniz bundan etkilenmeyecektir."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "Bu yalnızca yerel örneğinizi etkiler. Yüklediğiniz içerik bu cihazda kalacak, paylaşımlı örnek ve kullanan diğer kişiler etkilenmeyecek."
@@ -4647,7 +4647,7 @@
     "message": "Bir hesap oluştur"
   },
   "modal.modrinth-account-required.description": {
-    "message": "Bu özelliği kullanmadan önce Panda hesabınıza giriş yapmanız gerekmektedir."
+    "message": "Bu özelliği kullanmadan önce Panda Minecraft Launcher hesabınıza giriş yapmanız gerekmektedir."
   },
   "modal.modrinth-account-required.header": {
     "message": "Hesap gerekli"
@@ -4656,10 +4656,10 @@
     "message": "Tarayıcıyı yeniden aç"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Panda'e giriş yap"
+    "message": "Panda Minecraft Launcher'e giriş yap"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Bir Panda hesabına giriş yap"
+    "message": "Bir Panda Minecraft Launcher hesabına giriş yap"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Giriş yapılıyor"

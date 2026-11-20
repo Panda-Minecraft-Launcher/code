@@ -2625,7 +2625,7 @@
     "defaultMessage": "TNT"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Panda 扳手"
+    "defaultMessage": "Panda Minecraft Launcher 扳手"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "殭屍"
@@ -3387,10 +3387,10 @@
     "defaultMessage": "<actor>{actor}</actor> 邀請你加入 <entity>{entity}</entity> 實例。"
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "共用實例「<entity>{entity}</entity>」已被 Panda 管理團隊鎖定。"
+    "defaultMessage": "共用實例「<entity>{entity}</entity>」已被 Panda Minecraft Launcher 管理團隊鎖定。"
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "你的共用實例「<entity>{entity}</entity>」已被 Panda 管理團隊鎖定。"
+    "defaultMessage": "你的共用實例「<entity>{entity}</entity>」已被 Panda Minecraft Launcher 管理團隊鎖定。"
   },
   "notifications.instance-ready.launch-game": {
     "defaultMessage": "啟動遊戲"
@@ -3438,7 +3438,7 @@
     "defaultMessage": "管理員"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda 團隊"
+    "defaultMessage": "Panda Minecraft Launcher 團隊"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "待處理"
@@ -3558,10 +3558,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "一位 Panda 創作者。"
+    "defaultMessage": "一位 Panda Minecraft Launcher 創作者。"
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "一位 Panda 使用者。"
+    "defaultMessage": "一位 Panda Minecraft Launcher 使用者。"
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} 將無法向你傳送好友邀請、邀請你加入共用實例，或邀請你加入 Panda Hosting 伺服器。"
@@ -3639,7 +3639,7 @@
     "defaultMessage": "{count, plural, other {# 個專案}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "請允許 Panda 的彈出式視窗，然後再試一次。"
+    "defaultMessage": "請允許 Panda Minecraft Launcher 的彈出式視窗，然後再試一次。"
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "無法擷取 GitHub 個人檔案，請再試一次。"
@@ -3750,10 +3750,10 @@
     "defaultMessage": "受限制"
   },
   "profile.official-account": {
-    "defaultMessage": "Panda 官方帳號"
+    "defaultMessage": "Panda Minecraft Launcher 官方帳號"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Panda 的官方使用者帳號。請至 <support-link></support-link> 取得支援，或透過電子郵件 <email></email> 聯絡客服團隊"
+    "defaultMessage": "Panda Minecraft Launcher 的官方使用者帳號。請至 <support-link></support-link> 取得支援，或透過電子郵件 <email></email> 聯絡客服團隊"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "{username} 的驗證器和備用碼將被移除，並會傳送通知給他。請務必在確認其身分後再執行這個動作。"
@@ -5886,7 +5886,7 @@
     "defaultMessage": "正在安裝伺服器"
   },
   "servers.curseforge-files-review.body": {
-    "defaultMessage": "這個模組包中有 {count, plural, other {# 個檔案}}未在 Panda 上發布，或者我們無法確定{count, plural, =1 {這個} other {這些}}檔案應安裝在伺服器上、供玩家使用，還是兩者皆是。請在<bold>啟用對象</bold>欄位中檢視並完成設定。"
+    "defaultMessage": "這個模組包中有 {count, plural, other {# 個檔案}}未在 Panda Minecraft Launcher 上發布，或者我們無法確定{count, plural, =1 {這個} other {這些}}檔案應安裝在伺服器上、供玩家使用，還是兩者皆是。請在<bold>啟用對象</bold>欄位中檢視並完成設定。"
   },
   "servers.download.failed.description": {
     "defaultMessage": "下載世界檔案時發生錯誤。"
@@ -5961,13 +5961,13 @@
     "defaultMessage": "請勿輸入 Minecraft 使用者名稱。"
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Panda 使用者名稱"
+    "defaultMessage": "Panda Minecraft Launcher 使用者名稱"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "沒有找到使用者。"
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "輸入 Panda 使用者名稱"
+    "defaultMessage": "輸入 Panda Minecraft Launcher 使用者名稱"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "正在搜尋..."
@@ -6087,7 +6087,7 @@
     "defaultMessage": "與好友同樂"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "登入 Panda"
+    "defaultMessage": "登入 Panda Minecraft Launcher"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "設定伺服器就像建立單人遊戲世界一樣簡單。"
@@ -6144,7 +6144,7 @@
     "defaultMessage": "你的訂閱設定於<date>{formattedDate}</date>取消。"
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "你的伺服器已暫停服務。請聯絡 Panda 客服以取得更多資訊。"
+    "defaultMessage": "你的伺服器已暫停服務。請聯絡 Panda Minecraft Launcher 客服以取得更多資訊。"
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "你的伺服器硬體目前正在升級中，稍後將恢復上線。"
@@ -6207,7 +6207,7 @@
     "defaultMessage": "上傳中"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "聯絡 Panda 客服"
+    "defaultMessage": "聯絡 Panda Minecraft Launcher 客服"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "我們的系統會在出現問題時自動通知團隊。我們正在努力恢復系統功能。"
@@ -6222,7 +6222,7 @@
     "defaultMessage": "如果您最近購買了 Panda Hosting 伺服器，它目前正在排隊等待，準備就緒後會立即顯示在此處。 <warning>請勿嘗試購買新伺服器。 </warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "若你需要關於伺服器狀態的專屬支援，請聯絡 Panda 客服。"
+    "defaultMessage": "若你需要關於伺服器狀態的專屬支援，請聯絡 Panda Minecraft Launcher 客服。"
   },
   "servers.manage.error.title": {
     "defaultMessage": "無法載入伺服器"
@@ -6270,7 +6270,7 @@
     "defaultMessage": "重新載入"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "重新訂閱你的 Panda 伺服器時發生錯誤。"
+    "defaultMessage": "重新訂閱你的 Panda Minecraft Launcher 伺服器時發生錯誤。"
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "重新訂閱時發生錯誤"
@@ -6330,10 +6330,10 @@
     "defaultMessage": "你的 Medal 伺服器試用期已結束，且伺服器已暫停服務。請升級以繼續使用你的伺服器。"
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "你的伺服器已暫停服務。請更新你的帳務資訊，或聯絡 Panda 客服以取得更多資訊。"
+    "defaultMessage": "你的伺服器已暫停服務。請更新你的帳務資訊，或聯絡 Panda Minecraft Launcher 客服以取得更多資訊。"
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "你的伺服器已暫停服務，原因為：{reason}。請更新你的帳務資訊，或聯絡 Panda 客服以取得更多資訊。"
+    "defaultMessage": "你的伺服器已暫停服務，原因為：{reason}。請更新你的帳務資訊，或聯絡 Panda Minecraft Launcher 客服以取得更多資訊。"
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "你的伺服器硬體目前正在升級中，稍後將恢復上線。"
@@ -6678,7 +6678,7 @@
     "defaultMessage": "設定伺服器"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "從 Panda 挑選你喜愛的模組包，或是選擇載入器並自行加入想要的模組。"
+    "defaultMessage": "從 Panda Minecraft Launcher 挑選你喜愛的模組包，或是選擇載入器並自行加入想要的模組。"
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "選擇你想玩的內容"
@@ -6813,7 +6813,7 @@
     "defaultMessage": "進階繪製"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "在新分頁中開啟 Panda 的外部連結。這項設定僅適用於外部連結，內部連結和 Markdown 描述中的連結仍會在同一個分頁中開啟，而廣告和編輯頁面的連結會在新分頁中開啟。"
+    "defaultMessage": "在新分頁中開啟 Panda Minecraft Launcher 的外部連結。這項設定僅適用於外部連結，內部連結和 Markdown 描述中的連結仍會在同一個分頁中開啟，而廣告和編輯頁面的連結會在新分頁中開啟。"
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "在新分頁中開啟外部連結"
@@ -6834,7 +6834,7 @@
     "defaultMessage": "深色"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "選擇你偏好的 Panda 色彩主題。"
+    "defaultMessage": "選擇你偏好的 Panda Minecraft Launcher 色彩主題。"
   },
   "settings.display.theme.light": {
     "defaultMessage": "淺色"
@@ -6858,7 +6858,7 @@
     "defaultMessage": "在你登入的所有裝置使用這個主題。如果要在這個裝置上單獨設定主題，請關閉這個選項。"
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "登入 Panda 即可同步主題"
+    "defaultMessage": "登入 Panda Minecraft Launcher 即可同步主題"
   },
   "settings.display.theme.system": {
     "defaultMessage": "與系統同步"
@@ -6915,7 +6915,7 @@
     "defaultMessage": "個人存取權杖"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "無法將你的設定儲存到 Panda 帳號，請再試一次。"
+    "defaultMessage": "無法將你的設定儲存到 Panda Minecraft Launcher 帳號，請再試一次。"
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "無法同步設定"
@@ -6945,10 +6945,10 @@
     "defaultMessage": "更新個人檔案時發生錯誤，請再試一次。"
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "登入 Panda 帳號即可自訂你的公開個人檔案。"
+    "defaultMessage": "登入 Panda Minecraft Launcher 帳號即可自訂你的公開個人檔案。"
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "需要 Panda 帳號"
+    "defaultMessage": "需要 Panda Minecraft Launcher 帳號"
   },
   "settings.profile.username.change": {
     "defaultMessage": "變更使用者名稱"
@@ -6966,7 +6966,7 @@
     "defaultMessage": "使用者"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "以下是你在 Panda 上封鎖的使用者。他們無法："
+    "defaultMessage": "以下是你在 Panda Minecraft Launcher 上封鎖的使用者。他們無法："
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "你沒有封鎖任何使用者。"
@@ -7005,7 +7005,7 @@
     "defaultMessage": "{username} 的顯示圖片"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "控制誰可以在 Panda 向你傳送好友邀請。"
+    "defaultMessage": "控制誰可以在 Panda Minecraft Launcher 向你傳送好友邀請。"
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "好友邀請"
@@ -7044,10 +7044,10 @@
     "defaultMessage": "共用實例邀請"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "你可以透過 Panda 帳號控制誰可以與你互動，並管理被封鎖的使用者"
+    "defaultMessage": "你可以透過 Panda Minecraft Launcher 帳號控制誰可以與你互動，並管理被封鎖的使用者"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "需要 Panda 帳號"
+    "defaultMessage": "需要 Panda Minecraft Launcher 帳號"
   },
   "settings.social.title": {
     "defaultMessage": "社交"
@@ -7146,7 +7146,7 @@
     "defaultMessage": "儲存"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "輸入 Panda 使用者名稱"
+    "defaultMessage": "輸入 Panda Minecraft Launcher 使用者名稱"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "正在搜尋..."
@@ -7899,37 +7899,37 @@
     "defaultMessage": "{download_sum} 次下載"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Panda 的資料包專案，早在該功能於2023年1月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda Minecraft Launcher 的資料包專案，早在該功能於2023年1月正式推出之前。"
   },
   "user.profile.badge.early-datapack-adopter.name": {
     "defaultMessage": "資料包搶先體驗者"
   },
   "user.profile.badge.early-modpack-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Panda 的模組包專案，早在該功能於2022年5月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda Minecraft Launcher 的模組包專案，早在該功能於2022年5月正式推出之前。"
   },
   "user.profile.badge.early-modpack-adopter.name": {
     "defaultMessage": "模組包搶先體驗者"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Panda 的插件專案，早在該功能於2022年8月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda Minecraft Launcher 的插件專案，早在該功能於2022年8月正式推出之前。"
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "插件搶先體驗者"
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Panda 的資源包專案，早在該功能於2022年8月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda Minecraft Launcher 的資源包專案，早在該功能於2022年8月正式推出之前。"
   },
   "user.profile.badge.early-resourcepack-adopter.name": {
     "defaultMessage": "資源包搶先體驗者"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Panda 的伺服器專案，早在該功能於2026年3月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda Minecraft Launcher 的伺服器專案，早在該功能於2026年3月正式推出之前。"
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "伺服器搶先體驗者"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Panda 的光影包專案，早在該功能於2023年1月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda Minecraft Launcher 的光影包專案，早在該功能於2023年1月正式推出之前。"
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "光影包搶先體驗者"
@@ -7941,16 +7941,16 @@
     "defaultMessage": "Panda Hosting Alpha 測試者"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "這個使用者在 Panda 擔任內容管理員。"
+    "defaultMessage": "這個使用者在 Panda Minecraft Launcher 擔任內容管理員。"
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Panda 的內容管理員負責審查專案、處理檢舉，並維護 Panda 平臺的安全。"
+    "defaultMessage": "Panda Minecraft Launcher 的內容管理員負責審查專案、處理檢舉，並維護 Panda Minecraft Launcher 平臺的安全。"
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "內容管理員"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "這個使用者盡其所能支持了 Panda 以及平臺上的創作者。"
+    "defaultMessage": "這個使用者盡其所能支持了 Panda Minecraft Launcher 以及平臺上的創作者。"
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "按這裡了解如何成為會員。"
@@ -7959,7 +7959,7 @@
     "defaultMessage": "Panda+ 會員"
   },
   "user.profile.badge.pride.about.1": {
-    "defaultMessage": "這個使用者參與了至少一場 Panda 為 LGBTQ+ 社群舉辦的驕傲月籌款活動。"
+    "defaultMessage": "這個使用者參與了至少一場 Panda Minecraft Launcher 為 LGBTQ+ 社群舉辦的驕傲月籌款活動。"
   },
   "user.profile.badge.pride.link": {
     "defaultMessage": "按這裡前往我們最新的驕傲月籌款活動。"
@@ -7968,16 +7968,16 @@
     "defaultMessage": "驕傲月籌款活動捐款者"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "這個使用者任職於 Panda。"
+    "defaultMessage": "這個使用者任職於 Panda Minecraft Launcher。"
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Panda 團隊"
+    "defaultMessage": "Panda Minecraft Launcher 團隊"
   },
   "user.role.moderator": {
     "defaultMessage": "內容管理員"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Panda 團隊"
+    "defaultMessage": "Panda Minecraft Launcher 團隊"
   },
   "version.content.name": {
     "defaultMessage": "名稱"

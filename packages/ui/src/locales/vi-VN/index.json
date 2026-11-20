@@ -2976,7 +2976,7 @@
     "defaultMessage": "Kiểm duyệt viên"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Đội Ngũ Panda"
+    "defaultMessage": "Đội Ngũ Panda Minecraft Launcher"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Đang chờ"
@@ -3096,10 +3096,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Một nhà sáng tạo trên Panda."
+    "defaultMessage": "Một nhà sáng tạo trên Panda Minecraft Launcher."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Một người dùng Panda."
+    "defaultMessage": "Một người dùng Panda Minecraft Launcher."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} sẽ không thể gửi lời mời kết bạn, mời bạn vào bản cài đặt được chia sẻ hoặc mời bạn vào máy chủ Panda Hosting."
@@ -3168,7 +3168,7 @@
     "defaultMessage": "{count, plural, one {# dự án} other {# dự án}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Hãy cho phép cửa sổ bật lên cho Panda rồi thử lại."
+    "defaultMessage": "Hãy cho phép cửa sổ bật lên cho Panda Minecraft Launcher rồi thử lại."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Không thể lấy hồ sơ GitHub. Vui lòng thử lại."
@@ -3276,10 +3276,10 @@
     "defaultMessage": "{count, plural, one {dự án} other {dự án}}"
   },
   "profile.official-account": {
-    "defaultMessage": "Tài khoản Panda chính thức"
+    "defaultMessage": "Tài khoản Panda Minecraft Launcher chính thức"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Tài khoản người dùng chính thức của Panda. Nhận hỗ trợ tại <support-link></support-link> hoặc qua email tại <email></email>"
+    "defaultMessage": "Tài khoản người dùng chính thức của Panda Minecraft Launcher. Nhận hỗ trợ tại <support-link></support-link> hoặc qua email tại <email></email>"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "Ứng dụng xác thực và các mã dự phòng của {username} sẽ bị xóa và họ sẽ được thông báo. Chỉ thực hiện việc này sau khi đã xác minh danh tính của họ."
@@ -5172,13 +5172,13 @@
     "defaultMessage": "Không dùng tên người chơi Minecraft của họ."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Tên người dùng Panda"
+    "defaultMessage": "Tên người dùng Panda Minecraft Launcher"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "Không tìm thấy người dùng phù hợp."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Nhập tên người dùng Panda"
+    "defaultMessage": "Nhập tên người dùng Panda Minecraft Launcher"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "Đang tìm kiếm..."
@@ -5247,7 +5247,7 @@
     "defaultMessage": "Máy chủ mới"
   },
   "servers.list-empty.no-servers-description": {
-    "defaultMessage": "Cài mod, mời bạn bè, và chơi cùng nhau mà chỉ cần Ứng dụng Panda."
+    "defaultMessage": "Cài mod, mời bạn bè, và chơi cùng nhau mà chỉ cần Ứng dụng Panda Minecraft Launcher."
   },
   "servers.list-empty.one-click-mod-installs-description": {
     "defaultMessage": "Chọn bản mod mà bạn yêu thích và chúng tôi sẽ làm tất cả phần còn lại."
@@ -5256,13 +5256,13 @@
     "defaultMessage": "Cài mod với một cú nhấp"
   },
   "servers.list-empty.play-with-friends-description": {
-    "defaultMessage": "Mời bạn bè chơi trên máy chủ của bạn với tính năng vào chơi chỉ bằng một cú nhấp từ Ứng dụng Panda."
+    "defaultMessage": "Mời bạn bè chơi trên máy chủ của bạn với tính năng vào chơi chỉ bằng một cú nhấp từ Ứng dụng Panda Minecraft Launcher."
   },
   "servers.list-empty.play-with-friends-title": {
     "defaultMessage": "Chơi với bạn bè"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Đăng nhập vào Panda"
+    "defaultMessage": "Đăng nhập vào Panda Minecraft Launcher"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Thiết lập máy chủ giống như thế giới chơi đơn."
@@ -5319,7 +5319,7 @@
     "defaultMessage": "Gói đăng ký của bạn được thiết lập để hủy vào <date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "Máy chủ của bạn đã bị đình chỉ, liên hệ bên hỗ trợ Panda để biết thêm thông tin."
+    "defaultMessage": "Máy chủ của bạn đã bị đình chỉ, liên hệ bên hỗ trợ Panda Minecraft Launcher để biết thêm thông tin."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "Phần cứng máy chủ của bạn hiện đang được nâng cấp và sẽ hoạt động trở lại trong thời gian ngắn."
@@ -5382,7 +5382,7 @@
     "defaultMessage": "Đang tải lên"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Liên hệ bên hỗ trợ Panda"
+    "defaultMessage": "Liên hệ bên hỗ trợ Panda Minecraft Launcher"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Hệ thống của chúng tôi tự động báo cáo với đội ngũ khi có vấn đề. Chúng tôi đã cố gắng đưa nó trực tuyến."
@@ -5397,7 +5397,7 @@
     "defaultMessage": "Nếu bạn đã từng mua máy chủ Panda Hosting, nó đang trong hàng chờ và sẽ xuất hiện ở đây khi đã sẵn sàng. <warning>Tuyệt đối không được mua lại máy chủ mới.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Nếu bạn cần trợ giúp cá nhân liên quan đến trạng thái máy chủ, vui lòng liên hệ bên hỗ trợ Panda."
+    "defaultMessage": "Nếu bạn cần trợ giúp cá nhân liên quan đến trạng thái máy chủ, vui lòng liên hệ bên hỗ trợ Panda Minecraft Launcher."
   },
   "servers.manage.error.title": {
     "defaultMessage": "Không tải được máy chủ"
@@ -5445,7 +5445,7 @@
     "defaultMessage": "Làm mới"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Có lỗi xảy ra trong khi đăng ký lại cho máy chủ Panda."
+    "defaultMessage": "Có lỗi xảy ra trong khi đăng ký lại cho máy chủ Panda Minecraft Launcher."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Lỗi khi đăng ký lại"
@@ -5499,10 +5499,10 @@
     "defaultMessage": "Thời gian dùng thử máy chủ Medal của bạn đã kết thúc và máy chủ của bạn đã bị đình chỉ. Vui lòng nâng cấp để tiếp tục sử dụng máy chủ."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "Máy chủ của bạn đã bị đình chỉ. Vui lòng cập nhật thông tin thanh toán hoặc liên hệ với bên hỗ trợ của Panda để biết thêm thông tin."
+    "defaultMessage": "Máy chủ của bạn đã bị đình chỉ. Vui lòng cập nhật thông tin thanh toán hoặc liên hệ với bên hỗ trợ của Panda Minecraft Launcher để biết thêm thông tin."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "Máy chủ của bạn đã bị đình chỉ do: {reason}. Vui lòng cập nhật thông tin thanh toán hoặc liên hệ với bên hỗ trợ của Panda để biết thêm thông tin."
+    "defaultMessage": "Máy chủ của bạn đã bị đình chỉ do: {reason}. Vui lòng cập nhật thông tin thanh toán hoặc liên hệ với bên hỗ trợ của Panda Minecraft Launcher để biết thêm thông tin."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "Phần cứng máy chủ của bạn hiện đang được nâng cấp và sẽ hoạt động trở lại trong thời gian ngắn."
@@ -5820,7 +5820,7 @@
     "defaultMessage": "Hiển thị nâng cao"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Mở các liên kết dẫn ra ngoài Panda trong tab mới. Bất kể cài đặt này, liên kết cùng tên miền và liên kết trong mô tả Markdown sẽ mở trong cùng tab, còn liên kết trong quảng cáo và trang chỉnh sửa sẽ mở trong tab mới."
+    "defaultMessage": "Mở các liên kết dẫn ra ngoài Panda Minecraft Launcher trong tab mới. Bất kể cài đặt này, liên kết cùng tên miền và liên kết trong mô tả Markdown sẽ mở trong cùng tab, còn liên kết trong quảng cáo và trang chỉnh sửa sẽ mở trong tab mới."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Mở liên kết bên ngoài trong tab mới"
@@ -5841,7 +5841,7 @@
     "defaultMessage": "Tối"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Chọn giao diện màu bạn muốn dùng trên Panda."
+    "defaultMessage": "Chọn giao diện màu bạn muốn dùng trên Panda Minecraft Launcher."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Sáng"
@@ -5865,7 +5865,7 @@
     "defaultMessage": "Dùng giao diện này ở mọi nơi bạn đăng nhập. Tắt tùy chọn này để dùng giao diện riêng trên thiết bị này."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Đăng nhập vào Panda để đồng bộ giao diện"
+    "defaultMessage": "Đăng nhập vào Panda Minecraft Launcher để đồng bộ giao diện"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Đồng bộ với hệ thống"
@@ -5886,7 +5886,7 @@
     "defaultMessage": "Kết quả tìm kiếm"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "Khoảng {percentage}% Ứng dụng Panda đã có sẵn bằng ngôn ngữ này."
+    "defaultMessage": "Khoảng {percentage}% Ứng dụng Panda Minecraft Launcher đã có sẵn bằng ngôn ngữ này."
   },
   "settings.language.coverage.label": {
     "defaultMessage": "Hỗ trợ {percentage}%"
@@ -5922,7 +5922,7 @@
     "defaultMessage": "Khóa truy cập cá nhân"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "Không thể lưu cài đặt vào tài khoản Panda của bạn. Vui lòng thử lại."
+    "defaultMessage": "Không thể lưu cài đặt vào tài khoản Panda Minecraft Launcher của bạn. Vui lòng thử lại."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "Không thể đồng bộ cài đặt"
@@ -5949,10 +5949,10 @@
     "defaultMessage": "Đã xảy ra lỗi khi cập nhật hồ sơ. Vui lòng thử lại."
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "Đăng nhập bằng tài khoản Panda để tùy chỉnh hồ sơ công khai."
+    "defaultMessage": "Đăng nhập bằng tài khoản Panda Minecraft Launcher để tùy chỉnh hồ sơ công khai."
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "Yêu cầu tài khoản Panda"
+    "defaultMessage": "Yêu cầu tài khoản Panda Minecraft Launcher"
   },
   "settings.profile.username.description": {
     "defaultMessage": "Tên duy nhất, không phân biệt chữ hoa chữ thường, dùng để nhận diện hồ sơ của bạn."
@@ -5967,7 +5967,7 @@
     "defaultMessage": "Người dùng"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Đây là những người dùng bạn đã chặn trên Panda. Họ không thể:"
+    "defaultMessage": "Đây là những người dùng bạn đã chặn trên Panda Minecraft Launcher. Họ không thể:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Bạn chưa chặn ai."
@@ -6003,7 +6003,7 @@
     "defaultMessage": "Ảnh đại diện của {username}"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Kiểm soát ai có thể gửi lời mời kết bạn cho bạn trên Panda."
+    "defaultMessage": "Kiểm soát ai có thể gửi lời mời kết bạn cho bạn trên Panda Minecraft Launcher."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Lời mời kết bạn"
@@ -6042,10 +6042,10 @@
     "defaultMessage": "Lời mời vào bản cài đặt được chia sẻ"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "Với tài khoản Panda, bạn có thể kiểm soát ai được tương tác với mình và quản lý người dùng bị chặn"
+    "defaultMessage": "Với tài khoản Panda Minecraft Launcher, bạn có thể kiểm soát ai được tương tác với mình và quản lý người dùng bị chặn"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "Yêu cầu tài khoản Panda"
+    "defaultMessage": "Yêu cầu tài khoản Panda Minecraft Launcher"
   },
   "settings.social.title": {
     "defaultMessage": "Xã hội"
@@ -6144,7 +6144,7 @@
     "defaultMessage": "Lưu"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "Nhập tên người dùng Panda"
+    "defaultMessage": "Nhập tên người dùng Panda Minecraft Launcher"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "Đang tìm kiếm..."
@@ -6840,7 +6840,7 @@
     "defaultMessage": "{download_sum} Lượt tải xuống"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án gói dữ liệu trên Panda trước khi chúng tôi phát hành chúng vào tháng giêng 2023."
+    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án gói dữ liệu trên Panda Minecraft Launcher trước khi chúng tôi phát hành chúng vào tháng giêng 2023."
   },
   "user.profile.badge.early-datapack-adopter.name": {
     "defaultMessage": "Người dùng gói dữ liệu sớm"
@@ -6852,25 +6852,25 @@
     "defaultMessage": "Người dùng Modpack sớm"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án Plugin trên Panda trước khi chúng tôi phát hành chúng vào tháng tám 2022."
+    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án Plugin trên Panda Minecraft Launcher trước khi chúng tôi phát hành chúng vào tháng tám 2022."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "Người dùng Plugin sớm"
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án gói tài nguyên trên Panda trước khi chúng tôi phát hành chúng vào tháng tám 2022."
+    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án gói tài nguyên trên Panda Minecraft Launcher trước khi chúng tôi phát hành chúng vào tháng tám 2022."
   },
   "user.profile.badge.early-resourcepack-adopter.name": {
     "defaultMessage": "Người dùng gói tài nguyên sớm"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án máy chủ trên Panda trước khi chúng tôi phát hành chúng vào tháng ba 2026."
+    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án máy chủ trên Panda Minecraft Launcher trước khi chúng tôi phát hành chúng vào tháng ba 2026."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "Người dùng Máy chủ sớm"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án Shader trên Panda trước khi chúng tôi phát hành chúng vào tháng giêng 2023."
+    "defaultMessage": "Người dùng này đã giúp chúng tôi thử nghiệm với các dự án Shader trên Panda Minecraft Launcher trước khi chúng tôi phát hành chúng vào tháng giêng 2023."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "Người dùng Shader sớm"
@@ -6882,16 +6882,16 @@
     "defaultMessage": "Người thử nghiệm Panda Hosting"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Người dùng này làm cho bên kiểm duyệt nội dung Panda."
+    "defaultMessage": "Người dùng này làm cho bên kiểm duyệt nội dung Panda Minecraft Launcher."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Những người kiểm duyệt nội dung trên Panda xem xét các dự án, xử lý báo cáo và giúp giữ cho Panda an toàn."
+    "defaultMessage": "Những người kiểm duyệt nội dung trên Panda Minecraft Launcher xem xét các dự án, xử lý báo cáo và giúp giữ cho Panda Minecraft Launcher an toàn."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Thành viên bên kiểm duyệt nội dung"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Người dùng này đang đóng góp và hỗ trợ cho Panda và Nhà sáng tạo trên nên tảng."
+    "defaultMessage": "Người dùng này đang đóng góp và hỗ trợ cho Panda Minecraft Launcher và Nhà sáng tạo trên nên tảng."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Nhấp vào để xem cách làm thành viên."
@@ -6900,7 +6900,7 @@
     "defaultMessage": "Thành viên Panda+"
   },
   "user.profile.badge.pride.about.1": {
-    "defaultMessage": "Người dùng này đã tham gia ít nhất một trong các hoạt động gây quỹ của Panda dành cho cộng đồng LGBTQ+."
+    "defaultMessage": "Người dùng này đã tham gia ít nhất một trong các hoạt động gây quỹ của Panda Minecraft Launcher dành cho cộng đồng LGBTQ+."
   },
   "user.profile.badge.pride.link": {
     "defaultMessage": "Nhấp vào để ghé qua quỹ LGBT của chúng tôi."
@@ -6909,16 +6909,16 @@
     "defaultMessage": "Người ủng hộ quỹ LGBT"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Người dùng này là cộng tác viên Panda."
+    "defaultMessage": "Người dùng này là cộng tác viên Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Đội ngũ Panda"
+    "defaultMessage": "Đội ngũ Panda Minecraft Launcher"
   },
   "user.role.moderator": {
     "defaultMessage": "Kiểm duyệt viên nội dung"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Đội ngũ Panda"
+    "defaultMessage": "Đội ngũ Panda Minecraft Launcher"
   },
   "version.content.name": {
     "defaultMessage": "Tên"

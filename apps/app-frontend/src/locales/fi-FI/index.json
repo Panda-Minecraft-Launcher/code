@@ -231,7 +231,7 @@
     "message": "Käytä näitä asetuksia kaikkialla, missä olet kirjautuneena. Laita tämä pois päältä pitääksesi erilliset asetukset tällä laitteella."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Kirjaudu Panda -tilillä synkronoidaksesi asetukset."
+    "message": "Kirjaudu Panda Minecraft Launcher -tilillä synkronoidaksesi asetukset."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Synkronoi asetukset laitteiden välillä"
@@ -474,7 +474,7 @@
     "message": "Käytä näitä asetuksia kaikkialla, missä olet kirjautuneena. Laita tämä pois päältä pitääksesi erilliset asetukset tällä laitteella."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Kirjaudu sisään Panda -tilillä synkronoidaksesi asetukset."
+    "message": "Kirjaudu sisään Panda Minecraft Launcher -tilillä synkronoidaksesi asetukset."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Synkronoi asetukset laitteiden välillä"
@@ -522,10 +522,10 @@
     "message": "Päivitä"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Innokas Panda -botti"
+    "message": "Innokas Panda Minecraft Launcher -botti"
   },
   "app.hosting.update-required.title": {
-    "message": "Panda -ohjelman päivitys vaaditaan"
+    "message": "Panda Minecraft Launcher -ohjelman päivitys vaaditaan"
   },
   "app.install.phase.downloading_content": {
     "message": "Ladataan sisältöä"
@@ -1119,7 +1119,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"

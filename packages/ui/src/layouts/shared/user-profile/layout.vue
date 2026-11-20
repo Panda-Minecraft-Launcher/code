@@ -587,7 +587,7 @@ const messages = defineMessages({
 	},
 	githubPopupBlockedMessage: {
 		id: 'profile.details.error.github-popup-blocked',
-		defaultMessage: 'Allow pop-ups for Panda, then try again.',
+		defaultMessage: 'Allow pop-ups for Panda Minecraft Launcher, then try again.',
 	},
 	paymentMethodsLabel: {
 		id: 'profile.details.label.payment-methods',
@@ -603,11 +603,11 @@ const messages = defineMessages({
 	},
 	bioFallbackUser: {
 		id: 'profile.bio.fallback.user',
-		defaultMessage: 'A Panda user.',
+		defaultMessage: 'A Panda Minecraft Launcher user.',
 	},
 	bioFallbackCreator: {
 		id: 'profile.bio.fallback.creator',
-		defaultMessage: 'A Panda creator.',
+		defaultMessage: 'A Panda Minecraft Launcher creator.',
 	},
 	collectionLabel: {
 		id: 'profile.label.collection',
@@ -656,7 +656,7 @@ const messages = defineMessages({
 	officialAccountBio: {
 		id: 'profile.official-account.bio',
 		defaultMessage:
-			'The official user account of Panda. Get support at <support-link></support-link> or via email at <email></email>',
+			'The official user account of Panda Minecraft Launcher. Get support at <support-link></support-link> or via email at <email></email>',
 	},
 	blockButton: {
 		id: 'profile.button.block',

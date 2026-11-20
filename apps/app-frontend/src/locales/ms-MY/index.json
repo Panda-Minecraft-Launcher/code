@@ -66,7 +66,7 @@
     "message": "Tidak dapat mengemas kini data tempatan"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Tidak dapat mencapai Panda"
+    "message": "Tidak dapat mencapai Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Tiada keizinan untuk menulis"
@@ -639,7 +639,7 @@
     "message": "Beberapa pemasangan anda tidak boleh menggunakan tetapan ini"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Tetapan ini diuruskan oleh tetapan pelancaran Panda."
+    "message": "Tetapan ini diuruskan oleh tetapan pelancaran Panda Minecraft Launcher."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Masukkan nilai"
@@ -1557,7 +1557,7 @@
     "message": "Perlahanlah sikit!"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -1647,10 +1647,10 @@
     "message": "Ia mungkin berbeza daripada nama pengguna Minecraft mereka!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Masukkan nama pengguna Panda..."
+    "message": "Masukkan nama pengguna Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "Apakah nama pengguna Panda rakan anda?"
+    "message": "Apakah nama pengguna Panda Minecraft Launcher rakan anda?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Tambah rakan</link> untuk melihat apa yang mereka mainkan!"
@@ -1692,7 +1692,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Log masuk ke akaun Panda</link> untuk menambah rakan dan melihat apa yang mereka mainkan!"
+    "message": "<link>Log masuk ke akaun Panda Minecraft Launcher</link> untuk menambah rakan dan melihat apa yang mereka mainkan!"
   },
   "instance.add-server.add-and-play": {
     "message": "Tambah dan main"

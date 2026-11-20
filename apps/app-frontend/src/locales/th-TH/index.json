@@ -75,7 +75,7 @@
     "message": "การตั้งค่า Minecraft ล้มเหลว"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "ไม่สามารถเข้าถึง Panda ได้"
+    "message": "ไม่สามารถเข้าถึง Panda Minecraft Launcher ได้"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "ไม่มีสิทธิ์เขียน"
@@ -132,7 +132,7 @@
     "message": "ยอมรับทั้งหมด"
   },
   "app.ads-consent.body": {
-    "message": "โฆษณาทำให้ Panda ดำเนินต่อไปได้และเป็นแหล่งเงินทุนสำหรับการจ่ายเงินให้ครีเอเตอร์ พาร์ทเนอร์ของเราอาจจัดเก็บหรือเข้าถึงคุกกี้ในแอปเพื่อปรับแต่งโฆษณาให้เหมาะกับแต่ละบุคคลและวัดประสิทธิภาพ."
+    "message": "โฆษณาทำให้ Panda Minecraft Launcher ดำเนินต่อไปได้และเป็นแหล่งเงินทุนสำหรับการจ่ายเงินให้ครีเอเตอร์ พาร์ทเนอร์ของเราอาจจัดเก็บหรือเข้าถึงคุกกี้ในแอปเพื่อปรับแต่งโฆษณาให้เหมาะกับแต่ละบุคคลและวัดประสิทธิภาพ."
   },
   "app.ads-consent.manage": {
     "message": "จัดการการตั้งค่า"
@@ -141,7 +141,7 @@
     "message": "ปฏิเสธทั้งหมด"
   },
   "app.ads-consent.title": {
-    "message": "ความเป็นส่วนตัวของคุณและวิธีที่โฆษณาช่วยสนับสนุน Panda"
+    "message": "ความเป็นส่วนตัวของคุณและวิธีที่โฆษณาช่วยสนับสนุน Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "แสดงชุดเซิร์ฟเวอร์ในไลบรารีในรูปแบบแถวที่กะทัดรัด"
@@ -216,7 +216,7 @@
     "message": "ใช้การตั้งค่าพฤติกรรมเหล่านี้ในทุกที่ที่คุณลงชื่อเข้าใช้ ปิดตัวเลือกนี้เพื่อคงการตั้งค่าแยกต่างหากบนอุปกรณ์นี้."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "ลงชื่อเข้าใช้บัญชี Panda เพื่อซิงค์การตั้งค่า."
+    "message": "ลงชื่อเข้าใช้บัญชี Panda Minecraft Launcher เพื่อซิงค์การตั้งค่า."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "พฤติกรรมการซิงค์ระหว่างอุปกรณ์"
@@ -459,7 +459,7 @@
     "message": "ใช้การตั้งค่าคุณสมบัตินี้ทุกที่ที่คุณเข้าสู่ระบบ ปิดสิ่งนี้เพื่อเก็บการตั้งค่าแยกต่างหากบนอุปกรณ์นี้"
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "ลงชื่อเข้าใช้บัญชี Panda เพื่อซิงค์การตั้งค่า"
+    "message": "ลงชื่อเข้าใช้บัญชี Panda Minecraft Launcher เพื่อซิงค์การตั้งค่า"
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "ซิงค์คุณสมบัติข้ามอุปกรณ์"
@@ -687,7 +687,7 @@
     "message": "ชุดเซิร์ฟเวอร์บางรายการไม่รองรับการตั้งค่านี้"
   },
   "app.settings.privacy.discord-rich-presence.description": {
-    "message": "แสดงแอป Panda เป็นกิจกรรมปัจจุบันของคุณบน Discord การดำเนินการนี้จะไม่ส่งผลต่อสถานะ Rich Presence ที่เพิ่มโดยม็อดในชุดเซิร์ฟเวอร์ จำเป็นต้องรีสตาร์ทแอปพลิเคชัน"
+    "message": "แสดงแอป Panda Minecraft Launcher เป็นกิจกรรมปัจจุบันของคุณบน Discord การดำเนินการนี้จะไม่ส่งผลต่อสถานะ Rich Presence ที่เพิ่มโดยม็อดในชุดเซิร์ฟเวอร์ จำเป็นต้องรีสตาร์ทแอปพลิเคชัน"
   },
   "app.settings.resource-management.store.description": {
     "message": "ประหยัดพื้นที่ด้วยการนำชุดติดตั้งเกม ม็อด และแพ็กที่เคยใช้แล้วมาใช้ซ้ำกับหลายๆ โลกม็อดแพ็คของคุณ"
@@ -708,7 +708,7 @@
     "message": "เพิ่มชุดเซิร์ฟเวอร์ก่อนแก้ไขข้อมูลที่ซิงก์แล้ว"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "การตั้งค่าที่มาจากม็อดจะปรากฏในส่วนนี้หลังจากที่ Panda ค้นพบมันจากชุดเซิร์ฟเวอร์ใดชุดหนึ่งของคุณ"
+    "message": "การตั้งค่าที่มาจากม็อดจะปรากฏในส่วนนี้หลังจากที่ Panda Minecraft Launcher ค้นพบมันจากชุดเซิร์ฟเวอร์ใดชุดหนึ่งของคุณ"
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "ใช้ตัวเลือกเกมเดียวกันกับทุกชุดเซิร์ฟเวอร์"
@@ -849,7 +849,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -906,13 +906,13 @@
     "message": "ชุดเซิร์ฟเวอร์นี้จะเก็บสำเนาของตัวเอง คุณต้องการให้เนื้อหานี้ถูกซิงค์ในชุดเซิร์ฟเวอร์อื่น หรือลบออกจากพวกมัน"
   },
   "app.update-popup.body.download-complete": {
-    "message": "ดาวน์โหลด Panda v{version} สำเร็จแล้ว เปิดโปรแกรมใหม่อีกครั้งเพื่ออัปเดตตอนนี้ หรือจะรออัปเดตอัตโนมัติ ซึ่งจะเกิดขึ้นเมื่อคุณกดปิดโปรแกรม Panda"
+    "message": "ดาวน์โหลด Panda Minecraft Launcher v{version} สำเร็จแล้ว เปิดโปรแกรมใหม่อีกครั้งเพื่ออัปเดตตอนนี้ หรือจะรออัปเดตอัตโนมัติ ซึ่งจะเกิดขึ้นเมื่อคุณกดปิดโปรแกรม Panda Minecraft Launcher"
   },
   "app.update-popup.body.linux": {
-    "message": "Panda v{version} พร้อมให้อัปเดตแล้ว โปรดไปที่การจัดการแพ็กเกจของคุณสำหรับการอัปเดตคุณสมบัติใหม่และการแก้ไขต่าง ๆ"
+    "message": "Panda Minecraft Launcher v{version} พร้อมให้อัปเดตแล้ว โปรดไปที่การจัดการแพ็กเกจของคุณสำหรับการอัปเดตคุณสมบัติใหม่และการแก้ไขต่าง ๆ"
   },
   "app.update-popup.body.metered": {
-    "message": "Panda v{version} พร้อมให้บริการแล้ว! แต่เนื่องจากคุณเปิดโหมดจำกัดปริมาณการใช้ข้อมูลเครือข่าย เราจึงไม่ได้อัปเดตเนื้อหาโดยอัตโนมัติ"
+    "message": "Panda Minecraft Launcher v{version} พร้อมให้บริการแล้ว! แต่เนื่องจากคุณเปิดโหมดจำกัดปริมาณการใช้ข้อมูลเครือข่าย เราจึงไม่ได้อัปเดตเนื้อหาโดยอัตโนมัติ"
   },
   "app.update-popup.changelog": {
     "message": "บันทึกการเปลี่ยนแปลง"
@@ -963,10 +963,10 @@
     "message": "มันอาจแตกต่างจากชื่อในเกม Minecraft ของพวกเขา!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "กรอกชื่อผู้ใช้ Panda..."
+    "message": "กรอกชื่อผู้ใช้ Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "เพื่อนของคุณมีชื่อผู้ใช้ Panda ว่าอะไร?"
+    "message": "เพื่อนของคุณมีชื่อผู้ใช้ Panda Minecraft Launcher ว่าอะไร?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>เพิ่มเพื่อน</link> เพื่อเห็นว่าพวกเขากำลังเล่นอะไรอยู่!"
@@ -1008,7 +1008,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>ล็อกอินเข้าบัญชี Panda</link> เพื่อเพิ่มเพื่อนและเห็นว่าพวกเขากำลังเล่นอะไรอยู่!"
+    "message": "<link>ล็อกอินเข้าบัญชี Panda Minecraft Launcher</link> เพื่อเพิ่มเพื่อนและเห็นว่าพวกเขากำลังเล่นอะไรอยู่!"
   },
   "instance.add-server.add-and-play": {
     "message": "เพิ่มและเล่นทันที"

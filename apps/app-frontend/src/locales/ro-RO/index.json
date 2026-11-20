@@ -75,7 +75,7 @@
     "message": "Configurarea Minecraft a eșuat"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Panda nu a putut fi accesat"
+    "message": "Panda Minecraft Launcher nu a putut fi accesat"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Nu există permisiunea de scriere"
@@ -132,7 +132,7 @@
     "message": "Acceptă tot"
   },
   "app.ads-consent.body": {
-    "message": "Anunțurile fac posibil Panda și finanțează plățile creatorilor. Partenerii noștri pot stoca sau accesa cookie-uri în aplicație pentru a personaliza reclamele și a măsura performanța."
+    "message": "Anunțurile fac posibil Panda Minecraft Launcher și finanțează plățile creatorilor. Partenerii noștri pot stoca sau accesa cookie-uri în aplicație pentru a personaliza reclamele și a măsura performanța."
   },
   "app.ads-consent.manage": {
     "message": "Gestionează preferințele"
@@ -141,7 +141,7 @@
     "message": "Refuză tot"
   },
   "app.ads-consent.title": {
-    "message": "Confidențialitatea ta și modul în care anunțurile susțin Panda"
+    "message": "Confidențialitatea ta și modul în care anunțurile susțin Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Afișează instanțele bibliotecii într-un layout compact."
@@ -216,7 +216,7 @@
     "message": "Utilizați aceste setări de comportament pretutindeni unde sunteți conectat. Dezactivați această opțiune pentru a păstra setări separate pe acest dispozitiv."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Conectează-te la un cont Panda pentru a sincroniza setările."
+    "message": "Conectează-te la un cont Panda Minecraft Launcher pentru a sincroniza setările."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Sincronizați comportamentul între dispozitive"
@@ -459,7 +459,7 @@
     "message": "Utilizează aceste setări ale funcțiilor oriunde ești conectat. Dezactivează această opțiune pentru a păstra setări separate pe acest dispozitiv."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Conectează-te la un cont Panda pentru a sincroniza setările."
+    "message": "Conectează-te la un cont Panda Minecraft Launcher pentru a sincroniza setările."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Funcții de sincronizare între dispozitive"
@@ -498,7 +498,7 @@
     "message": "Descărcați pentru a actualiza"
   },
   "app.hosting.update-required.title": {
-    "message": "Este necesară actualizarea aplicației Panda"
+    "message": "Este necesară actualizarea aplicației Panda Minecraft Launcher"
   },
   "app.install.phase.downloading_content": {
     "message": "Descărcarea conținutului"
@@ -801,13 +801,13 @@
     "message": "Confidențialitate"
   },
   "app.update-popup.body.download-complete": {
-    "message": "Aplicația Panda v{version} a terminat descărcarea. Reîncărcați pentru a actualiza acum sau automat când închideți aplicația Panda."
+    "message": "Aplicația Panda Minecraft Launcher v{version} a terminat descărcarea. Reîncărcați pentru a actualiza acum sau automat când închideți aplicația Panda Minecraft Launcher."
   },
   "app.update-popup.body.linux": {
-    "message": "Aplicația Panda v{version} este disponibil. Utilizați managerul de pachete pentru a actualiza pentru cele mai recente funcții și remedieri!"
+    "message": "Aplicația Panda Minecraft Launcher v{version} este disponibil. Utilizați managerul de pachete pentru a actualiza pentru cele mai recente funcții și remedieri!"
   },
   "app.update-popup.body.metered": {
-    "message": "Aplicația Panda v{version} este disponibil acum! Deoarece sunteți într-o rețea cu contorizare, nu am descărcat-o automat."
+    "message": "Aplicația Panda Minecraft Launcher v{version} este disponibil acum! Deoarece sunteți într-o rețea cu contorizare, nu am descărcat-o automat."
   },
   "app.update-popup.changelog": {
     "message": "Jurnalul modificărilor"
@@ -846,10 +846,10 @@
     "message": "Poate fi diferit de numele lor de utilizator Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Introduceți numele de utilizator Panda..."
+    "message": "Introduceți numele de utilizator Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "Care este numele de utilizator Panda al prietenului tău?"
+    "message": "Care este numele de utilizator Panda Minecraft Launcher al prietenului tău?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Adaugă prieteni</link> pentru a vedea ce joacă!"
@@ -891,7 +891,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Conectează-te la un cont Panda</link> pentru a adăuga prieteni și a vedea ce joacă!"
+    "message": "<link>Conectează-te la un cont Panda Minecraft Launcher</link> pentru a adăuga prieteni și a vedea ce joacă!"
   },
   "instance.add-server.add-and-play": {
     "message": "Adaugă și joacă"

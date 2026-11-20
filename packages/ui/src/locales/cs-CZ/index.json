@@ -2769,7 +2769,7 @@
     "defaultMessage": "Moderátor"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda tým"
+    "defaultMessage": "Panda Minecraft Launcher tým"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Čekající"
@@ -2889,10 +2889,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Panda tvůrce."
+    "defaultMessage": "Panda Minecraft Launcher tvůrce."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Panda uživatel."
+    "defaultMessage": "Panda Minecraft Launcher uživatel."
   },
   "profile.block-user.admonition-title": {
     "defaultMessage": "Opravdu si přeješ zablokovat tohoto uživatele?"
@@ -2931,7 +2931,7 @@
     "defaultMessage": "{count, plural, one {# projekt} few {# projekty} other {# projektů}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Povolte vyskakovací okna pro Panda, pak to zkuste znovu."
+    "defaultMessage": "Povolte vyskakovací okna pro Panda Minecraft Launcher, pak to zkuste znovu."
   },
   "profile.details.label.email-verified": {
     "defaultMessage": "Email ověřen"
@@ -2985,7 +2985,7 @@
     "defaultMessage": "{count, plural, one {projekt} few {projekty} other {projektů}}"
   },
   "profile.official-account": {
-    "defaultMessage": "Oficiální Panda účet"
+    "defaultMessage": "Oficiální Panda Minecraft Launcher účet"
   },
   "profile.unblock-user.error-title": {
     "defaultMessage": "Odblokování uživatele selhalo"
@@ -4368,7 +4368,7 @@
     "defaultMessage": "Probíhá nahrávání"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Kontaktovat Panda Podporu"
+    "defaultMessage": "Kontaktovat Panda Minecraft Launcher Podporu"
   },
   "servers.manage.error.details": {
     "defaultMessage": "Podrobnosti chyby:"
@@ -5010,10 +5010,10 @@
     "defaultMessage": "{download_sum} Stažení"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Tento uživatel pracuje jako moderátor obsahu pro Panda."
+    "defaultMessage": "Tento uživatel pracuje jako moderátor obsahu pro Panda Minecraft Launcher."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Moderátoři obsahu na Pandau kontrolují projekty, řeší nahlášení a pomáhají udržovat Panda bezpečný."
+    "defaultMessage": "Moderátoři obsahu na Pandau kontrolují projekty, řeší nahlášení a pomáhají udržovat Panda Minecraft Launcher bezpečný."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Moderátor obsahu"
@@ -5025,10 +5025,10 @@
     "defaultMessage": "Podporovatel Pride sbírky"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Tento uživatel pracuje pro Panda."
+    "defaultMessage": "Tento uživatel pracuje pro Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Panda tým"
+    "defaultMessage": "Panda Minecraft Launcher tým"
   },
   "version.content.name": {
     "defaultMessage": "Název"

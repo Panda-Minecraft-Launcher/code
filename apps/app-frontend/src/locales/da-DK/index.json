@@ -75,7 +75,7 @@
     "message": "Opsætning af Minecraft fejlede"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Kunne ikke få forbindelse til Panda"
+    "message": "Kunne ikke få forbindelse til Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Ingen tilladelse til at skrive"
@@ -132,7 +132,7 @@
     "message": "Accepter alle"
   },
   "app.ads-consent.body": {
-    "message": "Reklamer gør Panda muligt og finansiere skaber udbetalinger. Vores partnere må gemme og tilgå cookies i appen for at personliggøre reklamer og måle effektivitet."
+    "message": "Reklamer gør Panda Minecraft Launcher muligt og finansiere skaber udbetalinger. Vores partnere må gemme og tilgå cookies i appen for at personliggøre reklamer og måle effektivitet."
   },
   "app.ads-consent.manage": {
     "message": "Administrer præferencer"
@@ -141,7 +141,7 @@
     "message": "Afvis alle"
   },
   "app.ads-consent.title": {
-    "message": "Dit privatliv og hvordan reklamer hjælper Panda"
+    "message": "Dit privatliv og hvordan reklamer hjælper Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Vis biblioteksinstanser i et kompakt række-layout."
@@ -756,7 +756,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -852,10 +852,10 @@
     "message": "Det er muligvis anderledes end deres Minecraft brugernavn!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Indskriv Panda brugernavn..."
+    "message": "Indskriv Panda Minecraft Launcher brugernavn..."
   },
   "friends.add-friend.username.title": {
-    "message": "Hvad er din vens Panda brugernavn?"
+    "message": "Hvad er din vens Panda Minecraft Launcher brugernavn?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Tilføj venner</link> for at se hvad de spiller!"
@@ -897,7 +897,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Log ind på en Panda konto</link> for at tilføje venner og se hvad de spiller!"
+    "message": "<link>Log ind på en Panda Minecraft Launcher konto</link> for at tilføje venner og se hvad de spiller!"
   },
   "instance.action.create-shortcut": {
     "message": "Opret genvej"
@@ -1194,10 +1194,10 @@
     "message": "Åbn browser igen"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Log ind på Panda"
+    "message": "Log ind på Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Log ind med en Panda konto"
+    "message": "Log ind med en Panda Minecraft Launcher konto"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Logger ind"

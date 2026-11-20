@@ -66,11 +66,11 @@ export const instanceAdmonitionsMessages = defineMessages({
 	},
 	sharedInstanceWrongAccountHeader: {
 		id: 'app.instance.shared-instance-wrong-account.warning-header',
-		defaultMessage: 'You are using the wrong Panda account',
+		defaultMessage: 'You are using the wrong Panda Minecraft Launcher account',
 	},
 	sharedInstanceSignedOutHeader: {
 		id: 'app.instance.shared-instance-wrong-account.signed-out-header',
-		defaultMessage: 'You need to sign in to Panda',
+		defaultMessage: 'You need to sign in to Panda Minecraft Launcher',
 	},
 	sharedInstanceWrongAccountSignInAs: {
 		id: 'app.instance.shared-instance-wrong-account.sign-in-as-label',

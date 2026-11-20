@@ -114,7 +114,7 @@ const messages = defineMessages({
 	unpublishAndLeaveBody: {
 		id: 'app.library.unpublish-and-leave-shared-instances.modal.admonition-body',
 		defaultMessage:
-			"{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda's servers, and people using it} other {The # shared instances you own will be deleted from Panda's servers, and people using them}} will stop receiving updates. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} All of them will be removed from your library.",
+			"{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} will stop receiving updates. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} All of them will be removed from your library.",
 	},
 })
 

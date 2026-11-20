@@ -3192,7 +3192,7 @@
     "defaultMessage": "モデレーター"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda チーム"
+    "defaultMessage": "Panda Minecraft Launcher チーム"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "保留中"
@@ -3312,10 +3312,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Panda クリエイター"
+    "defaultMessage": "Panda Minecraft Launcher クリエイター"
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Panda ユーザー"
+    "defaultMessage": "Panda Minecraft Launcher ユーザー"
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} はあなたにフレンドリクエストの送信、共有インスタンスへの招待、および Panda Hosting サーバーへの招待ができなくなります。"
@@ -3381,7 +3381,7 @@
     "defaultMessage": "アカウントのロックを解除"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Panda でのポップアップを許可してから、もう一度お試しください。"
+    "defaultMessage": "Panda Minecraft Launcher でのポップアップを許可してから、もう一度お試しください。"
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "GitHubプロファイルを取得できませんでした。もう一度やり直してください。"
@@ -3456,7 +3456,7 @@
     "defaultMessage": "組織"
   },
   "profile.official-account": {
-    "defaultMessage": "Panda 公式アカウント"
+    "defaultMessage": "Panda Minecraft Launcher 公式アカウント"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "{username}の認証コードとバックアップコードが削除され、通知されます。本人確認後にのみこれを行います。"
@@ -5217,7 +5217,7 @@
     "defaultMessage": "成功"
   },
   "servers.manage.servers-title": {
-    "defaultMessage": "Panda ホスティング"
+    "defaultMessage": "Panda Minecraft Launcher ホスティング"
   },
   "servers.manage.shared-servers-title": {
     "defaultMessage": "共有サーバー"
@@ -5235,10 +5235,10 @@
     "defaultMessage": "Medalサーバーの試用期間が終了し、サーバーがサスペンド（停止）されました。サーバーを引き続き利用するにはアップグレードしてください。"
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "サーバーがサスペンド（停止）されました。請求情報を更新するか、詳細は Panda サポートにお問い合わせください。"
+    "defaultMessage": "サーバーがサスペンド（停止）されました。請求情報を更新するか、詳細は Panda Minecraft Launcher サポートにお問い合わせください。"
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "サーバーがサスペンド（停止）されました: {reason}。請求情報を更新するか、詳細は Panda サポートにお問い合わせください。"
+    "defaultMessage": "サーバーがサスペンド（停止）されました: {reason}。請求情報を更新するか、詳細は Panda Minecraft Launcher サポートにお問い合わせください。"
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "サーバーのハードウェアをアップグレード中です。まもなくオンラインに戻ります。"
@@ -5475,7 +5475,7 @@
     "defaultMessage": "サーバーの準備が完了しました。プレイを開始する手順は以下の通りです！"
   },
   "servers.setup.onboarding.welcome.title": {
-    "defaultMessage": "Panda ホスティングへようこそ"
+    "defaultMessage": "Panda Minecraft Launcher ホスティングへようこそ"
   },
   "servers.setup.rate-limit.text": {
     "defaultMessage": "レート制限に達しました。時間をおいて再試行してください。"

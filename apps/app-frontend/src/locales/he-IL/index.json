@@ -129,7 +129,7 @@
     "message": "קבל הכל"
   },
   "app.ads-consent.body": {
-    "message": "פרסומות מאפשרות את הפעילות של Panda ואת הון התשלום ליוצרים. ייתכן כי השותפים שלנו ישמרו או יגשו לעוגיות באפליקציה על מנת להגיש פרסומות אישיות ולמדוד ביצועים."
+    "message": "פרסומות מאפשרות את הפעילות של Panda Minecraft Launcher ואת הון התשלום ליוצרים. ייתכן כי השותפים שלנו ישמרו או יגשו לעוגיות באפליקציה על מנת להגיש פרסומות אישיות ולמדוד ביצועים."
   },
   "app.ads-consent.manage": {
     "message": "ניהול העדפות"
@@ -210,7 +210,7 @@
     "message": "שתמש בהגדרות התנהגות אלו בכל מקום שבו אתה מחובר. כבה אפשרות זו כדי לשמור על הגדרות נפרדות במכשיר זה."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "התחבר לחשבון Panda כדי לסנכרן הגדרות."
+    "message": "התחבר לחשבון Panda Minecraft Launcher כדי לסנכרן הגדרות."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "סנכרן התנהגות בין מכשירים"
@@ -375,7 +375,7 @@
     "message": "שמור הגדרות הפיצ'רים האלה בכל מקום שאתה מחובר. כבה הגדרה זאת כדי להשאיר הגדרות שונות במכשיר זה."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "התחבר לחשבון Panda כדי לסנכרן הגדרות."
+    "message": "התחבר לחשבון Panda Minecraft Launcher כדי לסנכרן הגדרות."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "סנכרן פיצ'רים בין מכשירים"
@@ -414,10 +414,10 @@
     "message": "הורד על מנת לעדכן"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "רובוט Panda מתרגש"
+    "message": "רובוט Panda Minecraft Launcher מתרגש"
   },
   "app.hosting.update-required.title": {
-    "message": "אפליקציית ה- Panda דורשת עדכון"
+    "message": "אפליקציית ה- Panda Minecraft Launcher דורשת עדכון"
   },
   "app.install.phase.downloading_content": {
     "message": "מוריד תוכן"
@@ -744,7 +744,7 @@
     "message": "כדי לקבל עדכונים עבור ההתקנה המשותפת הזו."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "אתם משתמשים בחשבון Panda הלא נכון"
+    "message": "אתם משתמשים בחשבון Panda Minecraft Launcher הלא נכון"
   },
   "app.instance.shortcut.created": {
     "message": "קיצור הדרך נוצר"
@@ -1143,7 +1143,7 @@
     "message": "ספרייה"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {המופע המשותף # שבבעלותך יימחק משרתי Panda, ואנשים המשתמשים בו} other {המופעים המשותפים # שבבעלותך יימחקו משרתי Panda, ואנשים המשתמשים בהם}} יפסיקו לקבל עדכונים. {leaveCount, plural, one {תאבד גישה למופע המשותף השני ותצטרך הזמנה חדשה כדי להצטרף אליו מחדש.} other {תאבד גישה ל-# המופעים המשותפים האחרים ותצטרך הזמנה חדשה כדי להצטרף אליהם מחדש.}} כולם יוסרו מהספרייה שלך."
+    "message": "{unpublishCount, plural, one {המופע המשותף # שבבעלותך יימחק משרתי Panda Minecraft Launcher, ואנשים המשתמשים בו} other {המופעים המשותפים # שבבעלותך יימחקו משרתי Panda Minecraft Launcher, ואנשים המשתמשים בהם}} יפסיקו לקבל עדכונים. {leaveCount, plural, one {תאבד גישה למופע המשותף השני ותצטרך הזמנה חדשה כדי להצטרף אליו מחדש.} other {תאבד גישה ל-# המופעים המשותפים האחרים ותצטרך הזמנה חדשה כדי להצטרף אליהם מחדש.}} כולם יוסרו מהספרייה שלך."
   },
   "app.modal.install-to-play.additional-context": {
     "message": "הוספת הקשר"
@@ -1173,10 +1173,10 @@
     "message": "התקנה"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "הזמנה זאת נוצרה על ידי משתמש \"Panda\" לא \"Panda\" עצמו. תאשר\\י הזמנות רק מאנשים שאפשר לסמוך עליהם."
+    "message": "הזמנה זאת נוצרה על ידי משתמש \"Panda Minecraft Launcher\" לא \"Panda Minecraft Launcher\" עצמו. תאשר\\י הזמנות רק מאנשים שאפשר לסמוך עליהם."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "הזמנה זאת נוצרה על ידי <creator>{username}</creator> לא \"Panda\". תאשר\\י הזמנות רק מאנשים שאפשר לסמוך עליהם."
+    "message": "הזמנה זאת נוצרה על ידי <creator>{username}</creator> לא \"Panda Minecraft Launcher\". תאשר\\י הזמנות רק מאנשים שאפשר לסמוך עליהם."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "תוכן החבילת מודים"
@@ -1272,10 +1272,10 @@
     "message": "טוען פרופיל..."
   },
   "app.nav.modrinth-account": {
-    "message": "משתמש Panda"
+    "message": "משתמש Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "שרתי Panda"
+    "message": "שרתי Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "מחק חשבון"
@@ -1710,7 +1710,7 @@
     "message": "זה יכול להיות שונה מהמשתמש Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "שם משתמש Panda..."
+    "message": "שם משתמש Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
     "message": "מה השם משתמש של החבר שלך בPanda?"
@@ -1755,7 +1755,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "אפשר <link>להתחבר לחשבון Panda</link> כדי להוסיף חברים ולראות במה הם משחקים!"
+    "message": "אפשר <link>להתחבר לחשבון Panda Minecraft Launcher</link> כדי להוסיף חברים ולראות במה הם משחקים!"
   },
   "installation-settings.relink-shared-instance.modal.server-managed": {
     "message": "ההתקנה הזו מנוהלת על ידי שרת, לכן היא לא יכולה להיות מקושרת מחדש."
@@ -1764,7 +1764,7 @@
     "message": "הסר את המופע המשותף הזה מ-Panda והפסק לשלוח עדכונים לכל מי שמשתמש בו. המופע המקומי שלך לא יושפע."
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "פעולה זו מוחקת את המופע המשותף משרתי Panda. אנשים המשתמשים בו באפליקציית Panda יפסיקו לקבל עדכונים, אך המופע המקומי שלך והתוכן שלו יישארו במכשיר זה."
+    "message": "פעולה זו מוחקת את המופע המשותף משרתי Panda Minecraft Launcher. אנשים המשתמשים בו באפליקציית Panda Minecraft Launcher יפסיקו לקבל עדכונים, אך המופע המקומי שלך והתוכן שלו יישארו במכשיר זה."
   },
   "instance.add-server.add-and-play": {
     "message": "הוסף ושחק"

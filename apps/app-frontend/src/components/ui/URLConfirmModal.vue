@@ -65,7 +65,7 @@ async function install() {
 			<div class="button-row">
 				<div class="markdown-body">
 					<p>
-						Installing <code>{{ version.id }}</code> from Panda
+						Installing <code>{{ version.id }}</code> from Panda Minecraft Launcher
 					</p>
 				</div>
 				<div class="button-group">

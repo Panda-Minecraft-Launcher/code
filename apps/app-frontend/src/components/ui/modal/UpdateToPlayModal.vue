@@ -310,7 +310,7 @@ const messages = defineMessages({
 	externalWarningDescription: {
 		id: 'app.modal.update-to-play.server-modpack-unknown-files-description',
 		defaultMessage:
-			'This server modpack update contains files that aren’t published on Panda. We strongly recommend only installing files from sources you trust.',
+			'This server modpack update contains files that aren’t published on Panda Minecraft Launcher. We strongly recommend only installing files from sources you trust.',
 	},
 })
 

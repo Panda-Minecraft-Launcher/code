@@ -2883,16 +2883,16 @@
     "defaultMessage": "Ažuriraj datoteke kada se server promeni"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "Instaliraj Panda aplikaciju"
+    "defaultMessage": "Instaliraj Panda Minecraft Launcher aplikaciju"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "Panda aplikacija će se automatski otvoriti..."
+    "defaultMessage": "Panda Minecraft Launcher aplikacija će se automatski otvoriti..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "Otvaranje Panda aplikacije"
+    "defaultMessage": "Otvaranje Panda Minecraft Launcher aplikacije"
   },
   "modal.open-in-app.why-use": {
-    "defaultMessage": "Zašto koristiti Panda aplikaciju"
+    "defaultMessage": "Zašto koristiti Panda Minecraft Launcher aplikaciju"
   },
   "notification.error.title": {
     "defaultMessage": "Došlo je do greške"
@@ -2952,7 +2952,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda tim"
+    "defaultMessage": "Panda Minecraft Launcher tim"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Na čekanju"
@@ -3072,10 +3072,10 @@
     "defaultMessage": "Viza"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Panda kreator."
+    "defaultMessage": "Panda Minecraft Launcher kreator."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Panda korisnik."
+    "defaultMessage": "Panda Minecraft Launcher korisnik."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} nece moci da vam šalje zahteve za prijateljstvo, poziva vas u zajedničke instance niti da vas poziva na Panda Hosting servere."
@@ -3198,7 +3198,7 @@
     "defaultMessage": "{count, plural,one {projekat} other {projekta}}"
   },
   "profile.official-account": {
-    "defaultMessage": "Zvanični Panda nalog"
+    "defaultMessage": "Zvanični Panda Minecraft Launcher nalog"
   },
   "profile.official-account.bio": {
     "defaultMessage": "Zvanični nalog Panda-a. Dobiji pomoć putem <support-link></support-link> ili preko E-Mail-a na <email></email>"
@@ -4944,13 +4944,13 @@
     "defaultMessage": "Već imaš server?"
   },
   "servers.list-empty.modrinth-hosting-label": {
-    "defaultMessage": "Panda hostiranje"
+    "defaultMessage": "Panda Minecraft Launcher hostiranje"
   },
   "servers.list-empty.new-server-button": {
     "defaultMessage": "Novi server"
   },
   "servers.list-empty.no-servers-description": {
-    "defaultMessage": "Instaliraj modove, pozvi prijatelje, i igraj skupa ave u Panda aplikaciji."
+    "defaultMessage": "Instaliraj modove, pozvi prijatelje, i igraj skupa ave u Panda Minecraft Launcher aplikaciji."
   },
   "servers.list-empty.one-click-mod-installs-description": {
     "defaultMessage": "Izaberi svoje omiljene modove, a mi ćemo se pobrinuti za ostalo."
@@ -5016,7 +5016,7 @@
     "defaultMessage": "Tvoja pretplata će biti otkazana na<date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "Tvoj server je suspendovan. Molimo te da kontaktiraš Panda podršku za dodatne informacije."
+    "defaultMessage": "Tvoj server je suspendovan. Molimo te da kontaktiraš Panda Minecraft Launcher podršku za dodatne informacije."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "Hardver tvojeg servera se trenutno unapređuje i uskoro će ponovo biti dostupan."
@@ -5049,7 +5049,7 @@
     "defaultMessage": "Postavljanje u toku"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Kontaktiraj Panda podršku"
+    "defaultMessage": "Kontaktiraj Panda Minecraft Launcher podršku"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Naši sistemi automatski obaveštavaju naš tim kada dođe do problema. Već radimo na tome da ih ponovo stavimo u funkciju."
@@ -5064,7 +5064,7 @@
     "defaultMessage": "Ako si nedavno kupio svoj Panda Hosting server, on se trenutno nalazi u redu za čekanje i pojaviće se ovde čim bude spreman. <warning>Ne pokušavaj da kupiš novi server.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Ako ti je potrebna personalizovana podrška u vezi sa statusom vašeg servera, molimo te da kontaktiraš Panda podršku."
+    "defaultMessage": "Ako ti je potrebna personalizovana podrška u vezi sa statusom vašeg servera, molimo te da kontaktiraš Panda Minecraft Launcher podršku."
   },
   "servers.manage.error.title": {
     "defaultMessage": "Serveri nisu mogali biti učitani"
@@ -5094,7 +5094,7 @@
     "defaultMessage": "Ponovno učitaj"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Došlo je do greške prilikom ponovnog pretplaćivanja na tvoj Panda server."
+    "defaultMessage": "Došlo je do greške prilikom ponovnog pretplaćivanja na tvoj Panda Minecraft Launcher server."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Greška pri ponovnom pretplaćivanju"
@@ -5115,7 +5115,7 @@
     "defaultMessage": "Pretraži {count} {count, plural, one {server} other {servera}}..."
   },
   "servers.manage.servers-title": {
-    "defaultMessage": "Panda hostiranje"
+    "defaultMessage": "Panda Minecraft Launcher hostiranje"
   },
   "servers.manage.shared-servers-title": {
     "defaultMessage": "Podeleni serveri"
@@ -5133,10 +5133,10 @@
     "defaultMessage": "Tvoj probni period za Medal server je istekao i server je suspendovan. Molimo te da izvršiš nadogradnju kako bi nastavio da koristiš svoj server."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "Tvoj server je suspendovan. Molimo te da ažuriraš podatke za naplatu ili kontaktiraj Panda podršku za dodatne informacije."
+    "defaultMessage": "Tvoj server je suspendovan. Molimo te da ažuriraš podatke za naplatu ili kontaktiraj Panda Minecraft Launcher podršku za dodatne informacije."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "Tvoj server je suspendovan: {reason}. Molimo te da ažuriraš podatke za naplatu ili kontaktiraj Panda podršku za dodatne informacije."
+    "defaultMessage": "Tvoj server je suspendovan: {reason}. Molimo te da ažuriraš podatke za naplatu ili kontaktiraj Panda Minecraft Launcher podršku za dodatne informacije."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "Hardver tvojeg servera se trenutno unapređuje i uskoro će ponovo biti dostupan."
@@ -5184,7 +5184,7 @@
     "defaultMessage": "Neodbacivo"
   },
   "servers.purchase.notification.success.text": {
-    "defaultMessage": "Tvoja kupovina Panda hostiranja je uspešno završena."
+    "defaultMessage": "Tvoja kupovina Panda Minecraft Launcher hostiranja je uspešno završena."
   },
   "servers.purchase.notification.success.title": {
     "defaultMessage": "Kupovina uspešna"
@@ -5256,7 +5256,7 @@
     "defaultMessage": "Gde bi želio da se nalazi tvoj server?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Region nije naveden? <link>Javi nam gde bi želio da vidiš Panda hostiranje u budućnosti!</link>"
+    "defaultMessage": "Region nije naveden? <link>Javi nam gde bi želio da vidiš Panda Minecraft Launcher hostiranje u budućnosti!</link>"
   },
   "servers.remove-access-modal.added-label": {
     "defaultMessage": "Dodalo {time}"
@@ -5331,7 +5331,7 @@
     "defaultMessage": "Tvoj server je gotov! Evo šta treba da uradiš da bi počeo da igraš!"
   },
   "servers.setup.onboarding.welcome.title": {
-    "defaultMessage": "Dobrodošli na Panda hostiranje"
+    "defaultMessage": "Dobrodošli na Panda Minecraft Launcher hostiranje"
   },
   "servers.setup.rate-limit.text": {
     "defaultMessage": "Broj tvojih zahteva je ograničen. Molimo te da pokušaš ponovo kasnije."
@@ -5994,7 +5994,7 @@
     "defaultMessage": "Nepoznate datoteke"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "Ovaj koristnik je tu od Panda Alfa, koji je završio u novembru 2020."
+    "defaultMessage": "Ovaj koristnik je tu od Panda Minecraft Launcher Alfa, koji je završio u novembru 2020."
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "Alfa tester"
@@ -6003,7 +6003,7 @@
     "defaultMessage": "Ovaj koristnik je tu od Panda Beta, koji je završio u februaru 2022."
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "Klikni da pročitaš o pokretu Panda Bete."
+    "defaultMessage": "Klikni da pročitaš o pokretu Panda Minecraft Launcher Bete."
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "Beta tester"
@@ -6057,7 +6057,7 @@
     "defaultMessage": "Alfa tester hostinga Panda"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Ovaj koristnik radi za Panda kao moderator sadržaja."
+    "defaultMessage": "Ovaj koristnik radi za Panda Minecraft Launcher kao moderator sadržaja."
   },
   "user.profile.badge.moderator.about.2": {
     "defaultMessage": "Moderatori sadržaja na Pandau pregledaju projekate, obrađuju izveštaje, i pomože u održavanju bezbednosti Pandaa."
@@ -6066,7 +6066,7 @@
     "defaultMessage": "Moderator sadržaja"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Ovaj korisnik se posebno trudi da podrži Panda i kreatore na platformi."
+    "defaultMessage": "Ovaj korisnik se posebno trudi da podrži Panda Minecraft Launcher i kreatore na platformi."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Klikni da saznaš kako možes postati član."
@@ -6084,10 +6084,10 @@
     "defaultMessage": "Pristalica prikupljanja sredstava ponosa"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Ovaj korstnik radi za Panda."
+    "defaultMessage": "Ovaj korstnik radi za Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Panda tim"
+    "defaultMessage": "Panda Minecraft Launcher tim"
   },
   "version.content.name": {
     "defaultMessage": "Ime"

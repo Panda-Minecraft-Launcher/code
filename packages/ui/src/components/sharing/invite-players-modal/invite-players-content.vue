@@ -190,7 +190,7 @@ const messages = defineMessages({
 	},
 	searchPlaceholder: {
 		id: 'sharing.invite-players-modal.search-placeholder',
-		defaultMessage: 'Enter Panda username',
+		defaultMessage: 'Enter Panda Minecraft Launcher username',
 	},
 	addButton: {
 		id: 'sharing.invite-players-modal.add',

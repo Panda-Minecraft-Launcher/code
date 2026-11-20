@@ -156,7 +156,7 @@ const messages = defineMessages({
 	},
 	usernameTitle: {
 		id: 'friends.add-friend.username.title',
-		defaultMessage: "What's your friend's Panda username?",
+		defaultMessage: "What's your friend's Panda Minecraft Launcher username?",
 	},
 	usernameDescription: {
 		id: 'friends.add-friend.username.description',
@@ -164,7 +164,7 @@ const messages = defineMessages({
 	},
 	usernamePlaceholder: {
 		id: 'friends.add-friend.username.placeholder',
-		defaultMessage: 'Enter Panda username...',
+		defaultMessage: 'Enter Panda Minecraft Launcher username...',
 	},
 	sendFriendRequest: {
 		id: 'friends.add-friend.submit',
@@ -205,7 +205,7 @@ const messages = defineMessages({
 	signInToAddFriends: {
 		id: 'friends.sign-in-to-add-friends',
 		defaultMessage:
-			"<link>Sign in to a Panda account</link> to add friends and see what they're playing!",
+			"<link>Sign in to a Panda Minecraft Launcher account</link> to add friends and see what they're playing!",
 	},
 	addFriendsToShare: {
 		id: 'friends.add-friends-to-share',

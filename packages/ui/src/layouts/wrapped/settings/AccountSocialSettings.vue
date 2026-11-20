@@ -451,7 +451,7 @@ const messages = defineMessages({
 	},
 	friendRequestsDescription: {
 		id: 'settings.social.friend-requests.description',
-		defaultMessage: 'Control who can send you friend requests on Panda.',
+		defaultMessage: 'Control who can send you friend requests on Panda Minecraft Launcher Minecraft Launcher.',
 	},
 	sharedInstanceInvitesTitle: {
 		id: 'settings.social.shared-instance-invites.title',
@@ -503,7 +503,7 @@ const messages = defineMessages({
 	},
 	blockedUsersDescription: {
 		id: 'settings.social.blocked-users.description',
-		defaultMessage: 'These are the users you have blocked on Panda. They cannot:',
+		defaultMessage: 'These are the users you have blocked on Panda Minecraft Launcher Minecraft Launcher. They cannot:',
 	},
 	friendRequestsRestriction: {
 		id: 'settings.social.blocked-users.restriction.friend-requests',
@@ -543,12 +543,12 @@ const messages = defineMessages({
 	},
 	signInRequiredTitle: {
 		id: 'settings.social.sign-in-required.title',
-		defaultMessage: 'Panda account required',
+		defaultMessage: 'Panda Minecraft Launcher account required',
 	},
 	signInRequiredDescription: {
 		id: 'settings.social.sign-in-required.description',
 		defaultMessage:
-			'You can control who can interact with you, and manage blocked users with a Panda Account',
+			'You can control who can interact with you, and manage blocked users with a Panda Minecraft Launcher Account',
 	},
 	loadError: {
 		id: 'settings.social.blocked-users.load-error',

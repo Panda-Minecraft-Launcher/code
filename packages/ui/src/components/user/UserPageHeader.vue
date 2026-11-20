@@ -175,7 +175,7 @@ const messages = defineMessages({
 	},
 	officialAccount: {
 		id: 'profile.official-account',
-		defaultMessage: 'Official Panda account',
+		defaultMessage: 'Official Panda Minecraft Launcher account',
 	},
 	profileJoinedLabel: {
 		id: 'profile.label.joined',

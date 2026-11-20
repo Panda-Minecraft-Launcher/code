@@ -1029,7 +1029,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Koponan ng Panda"
+    "defaultMessage": "Koponan ng Panda Minecraft Launcher"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Nakabinbin"
@@ -2010,7 +2010,7 @@
     "defaultMessage": "Mag-reload"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Isang error ang naganap habang pagre-resubscribe sa iyong Panda server."
+    "defaultMessage": "Isang error ang naganap habang pagre-resubscribe sa iyong Panda Minecraft Launcher server."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Error sa muling pag-subscribe"
@@ -2643,7 +2643,7 @@
     "defaultMessage": "Ang tagagamit na ito ay nakilahok sa piniliang alpha test ng Panda Hosting bago pa inilunsad ang Beta ng Panda Hosting ng Nobyembre 2024."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Koponan ng Panda"
+    "defaultMessage": "Koponan ng Panda Minecraft Launcher"
   },
   "version.content.name": {
     "defaultMessage": "Pangalan"

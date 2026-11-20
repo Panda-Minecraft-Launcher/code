@@ -3597,10 +3597,10 @@
     "defaultMessage": "<actor>{actor}</actor> hat dich zur <entity>{entity}</entity> Instanz eingeladen."
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "Die geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda gesperrt."
+    "defaultMessage": "Die geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda Minecraft Launcher Minecraft Launcher gesperrt."
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "Deine geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda gesperrt."
+    "defaultMessage": "Deine geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda Minecraft Launcher Minecraft Launcher gesperrt."
   },
   "notifications.instance-ready.launch-game": {
     "defaultMessage": "Spiel starten"
@@ -3852,7 +3852,7 @@
     "defaultMessage": "{count, plural, one {# Projekt} other {# Projekte}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Erlaube Pop-Ups für Panda und versuche es erneut."
+    "defaultMessage": "Erlaube Pop-Ups für Panda Minecraft Launcher und versuche es erneut."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Das GitHub-Profil konnte nicht abgerufen werden. Bitte versuche es erneut."
@@ -3966,7 +3966,7 @@
     "defaultMessage": "Offizielles Panda-Konto"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Das offizielle Benutzerkonto von Panda. Erhalte Hilfe unter <support-link></support-link> oder per E-Mail unter <email></email>"
+    "defaultMessage": "Das offizielle Benutzerkonto von Panda Minecraft Launcher Minecraft Launcher. Erhalte Hilfe unter <support-link></support-link> oder per E-Mail unter <email></email>"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "Die Authentifizierungs-App und die Wiederherstellungscodes von {username} werden gelöscht, und der Benutzer wird darüber informiert. Führe diesen Schritt erst durch, nachdem du die Identität des Benutzers überprüft hast."
@@ -5220,7 +5220,7 @@
     "defaultMessage": "Dadurch wird die geteilte Instanz gelöscht und ihre Einladungslinks werden deaktiviert. Spieler erhalten keine Updates der geteilten Inhalte mehr. Dein Server und seine Inhalte bleiben verfügbar."
   },
   "server.settings.sharing.unpublish-description": {
-    "defaultMessage": "Entferne die geteilte Instanz dieses Servers von Panda und sende keine Inhaltsupdates mehr an Spieler. Dein Server und seine Inhalte sind davon nicht betroffen."
+    "defaultMessage": "Entferne die geteilte Instanz dieses Servers von Panda Minecraft Launcher Minecraft Launcher und sende keine Inhaltsupdates mehr an Spieler. Dein Server und seine Inhalte sind davon nicht betroffen."
   },
   "servers.access-page.activity-log-filter.action-group.backups": {
     "defaultMessage": "Backups"
@@ -6447,7 +6447,7 @@
     "defaultMessage": "Spiel mit Freunden"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Bei Panda anmelden"
+    "defaultMessage": "Bei Panda Minecraft Launcher anmelden"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Richte deinen Server genauso wie eine Einzelspielerwelt ein."
@@ -7224,7 +7224,7 @@
     "defaultMessage": "Server einrichten"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "Wähle dein Lieblings-Modpack von Panda aus oder wähle einen Loader und füge die gewünschten Mods hinzu."
+    "defaultMessage": "Wähle dein Lieblings-Modpack von Panda Minecraft Launcher aus oder wähle einen Loader und füge die gewünschten Mods hinzu."
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "Wähle, was du spielen möchtest"
@@ -7395,7 +7395,7 @@
     "defaultMessage": "Erweitertes Rendering"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Links, die außerhalb von Panda führen, werden in einem neuen Tab geöffnet. Unabhängig von dieser Einstellung werden Links auf der gleichen Domain und in Markdown-Beschreibungen immer im selben Tab geöffnet, während Links auf Anzeigen- und Bearbeitungsseiten immer in einem neuen Tab geöffnet werden."
+    "defaultMessage": "Links, die außerhalb von Panda Minecraft Launcher Minecraft Launcher führen, werden in einem neuen Tab geöffnet. Unabhängig von dieser Einstellung werden Links auf der gleichen Domain und in Markdown-Beschreibungen immer im selben Tab geöffnet, während Links auf Anzeigen- und Bearbeitungsseiten immer in einem neuen Tab geöffnet werden."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Externe Links in neuem Tab öffnen"
@@ -7416,7 +7416,7 @@
     "defaultMessage": "Dunkel"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Wähle dein bevorzugtes Farbschema für Panda aus."
+    "defaultMessage": "Wähle dein bevorzugtes Farbschema für Panda Minecraft Launcher aus."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Hell"
@@ -7440,7 +7440,7 @@
     "defaultMessage": "Dieses Farbschema wird überall dort verwendet, wo du angemeldet bist. Deaktiviere diese Option, um auf diesem Gerät ein separates Farbschema beizubehalten."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Bei Panda anmelden, um das Farbschema zu synchronisieren"
+    "defaultMessage": "Bei Panda Minecraft Launcher anmelden, um das Farbschema zu synchronisieren"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Mit System synchronisieren"
@@ -7548,7 +7548,7 @@
     "defaultMessage": "Nutzer"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Dies sind die Benutzer, die du auf Panda blockiert hast. Diese können nicht:"
+    "defaultMessage": "Dies sind die Benutzer, die du auf Panda Minecraft Launcher blockiert hast. Diese können nicht:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Du hast niemanden blockiert."
@@ -7587,7 +7587,7 @@
     "defaultMessage": "Avatar von {username}"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Lege fest, wer dir auf Panda Freundschaftsanfragen senden kann."
+    "defaultMessage": "Lege fest, wer dir auf Panda Minecraft Launcher Freundschaftsanfragen senden kann."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Freundschaftsanfragen"
@@ -8460,16 +8460,16 @@
     "defaultMessage": "Versionen bearbeiten und Dateien zu Versionen hinzufügen"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "Dieser Benutzer ist seit der Alpha von Panda dabei, die im November 2020 endete."
+    "defaultMessage": "Dieser Benutzer ist seit der Alpha von Panda Minecraft Launcher dabei, die im November 2020 endete."
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "Alpha-Tester"
   },
   "user.profile.badge.beta.about.1": {
-    "defaultMessage": "Dieser Benutzer ist seit der Beta von Panda dabei, die im Februar 2022 endete."
+    "defaultMessage": "Dieser Benutzer ist seit der Beta von Panda Minecraft Launcher dabei, die im Februar 2022 endete."
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "Klicke, um mehr über den Beginn der Beta von Panda zu erfahren."
+    "defaultMessage": "Klicke, um mehr über den Beginn der Beta von Panda Minecraft Launcher zu erfahren."
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "Beta-Tester"
@@ -8481,7 +8481,7 @@
     "defaultMessage": "{download_sum} Downloads"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Datenpaket-Projekte auf Panda zu testen, bevor wir sie im Januar 2023 veröffentlicht haben."
+    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Datenpaket-Projekte auf Panda Minecraft Launcher zu testen, bevor wir sie im Januar 2023 veröffentlicht haben."
   },
   "user.profile.badge.early-datapack-adopter.name": {
     "defaultMessage": "Früher Nutzer von Datenpaketen"
@@ -8493,25 +8493,25 @@
     "defaultMessage": "Früher Nutzer von Modpacks"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Plugin-Projekte auf Panda zu testen, bevor wir sie im August 2022 veröffentlicht haben."
+    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Plugin-Projekte auf Panda Minecraft Launcher zu testen, bevor wir sie im August 2022 veröffentlicht haben."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "Früher Nutzer von Plugins"
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Ressourcenpaket-Projekte auf Panda zu testen, bevor wir sie im August 2022 veröffentlicht haben."
+    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Ressourcenpaket-Projekte auf Panda Minecraft Launcher zu testen, bevor wir sie im August 2022 veröffentlicht haben."
   },
   "user.profile.badge.early-resourcepack-adopter.name": {
     "defaultMessage": "Früher Nutzer von Ressourcenpaketen"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Server-Projekte auf Panda zu testen, bevor wir sie im März 2026 veröffentlicht haben."
+    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Server-Projekte auf Panda Minecraft Launcher zu testen, bevor wir sie im März 2026 veröffentlicht haben."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "Früher Nutzer von Servern"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Shader-Projekte auf Panda zu testen, bevor wir sie im Januar 2023 veröffentlicht haben."
+    "defaultMessage": "Dieser Benutzer hat uns dabei geholfen, Shader-Projekte auf Panda Minecraft Launcher zu testen, bevor wir sie im Januar 2023 veröffentlicht haben."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "Früher Nutzer von Shadern"
@@ -8523,16 +8523,16 @@
     "defaultMessage": "Alpha-Tester von Panda Hosting"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Dieser Benutzer arbeitet bei Panda als Inhaltsmoderator."
+    "defaultMessage": "Dieser Benutzer arbeitet bei Panda Minecraft Launcher als Inhaltsmoderator."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Inhaltsmoderatoren auf Panda prüfen Projekte, kümmern sich um Meldungen und helfen dabei, Panda sicher zu halten."
+    "defaultMessage": "Inhaltsmoderatoren auf Panda Minecraft Launcher prüfen Projekte, kümmern sich um Meldungen und helfen dabei, Panda Minecraft Launcher sicher zu halten."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Inhaltsmoderator"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Dieser Benutzer geht noch einen Schritt weiter, um Panda und die Ersteller auf der Plattform zu unterstützen."
+    "defaultMessage": "Dieser Benutzer geht noch einen Schritt weiter, um Panda Minecraft Launcher und die Ersteller auf der Plattform zu unterstützen."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Klicke, um mehr darüber zu erfahren, wie du Mitglied werden kannst."
@@ -8541,7 +8541,7 @@
     "defaultMessage": "Mitglied von Panda+"
   },
   "user.profile.badge.pride.about.1": {
-    "defaultMessage": "Dieser Benutzer hat an mindestens einer Pride-Spendenaktion von Panda zur Unterstützung der LGBTQ+-Gemeinschaft teilgenommen."
+    "defaultMessage": "Dieser Benutzer hat an mindestens einer Pride-Spendenaktion von Panda Minecraft Launcher zur Unterstützung der LGBTQ+-Gemeinschaft teilgenommen."
   },
   "user.profile.badge.pride.link": {
     "defaultMessage": "Klicke, um unsere aktuelle Pride-Spendenaktion zu besuchen."
@@ -8550,7 +8550,7 @@
     "defaultMessage": "Unterstützer der Pride-Spendenaktion"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Dieser Benutzer arbeitet bei Panda."
+    "defaultMessage": "Dieser Benutzer arbeitet bei Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
     "defaultMessage": "Panda-Team"

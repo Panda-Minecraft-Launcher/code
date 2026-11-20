@@ -213,11 +213,11 @@ const messages = defineMessages({
 	},
 	targetLabel: {
 		id: 'servers.grant-access-modal.target.label',
-		defaultMessage: 'Panda username',
+		defaultMessage: 'Panda Minecraft Launcher username',
 	},
 	targetPlaceholder: {
 		id: 'servers.grant-access-modal.target.placeholder',
-		defaultMessage: 'Enter Panda username',
+		defaultMessage: 'Enter Panda Minecraft Launcher username',
 	},
 	noSuggestions: {
 		id: 'servers.grant-access-modal.target.no-suggestions',

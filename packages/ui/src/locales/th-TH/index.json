@@ -78,7 +78,7 @@
     "defaultMessage": "ยังไม่ได้เลือกวิธีการชำระเงิน"
   },
   "billing.resubscribe-modal.plan-item": {
-    "defaultMessage": "โฮสติ้ง Panda ({plan})"
+    "defaultMessage": "โฮสติ้ง Panda Minecraft Launcher ({plan})"
   },
   "billing.resubscribe-modal.plan.custom": {
     "defaultMessage": "กำหนดเอง"
@@ -105,7 +105,7 @@
     "defaultMessage": "ภาษี"
   },
   "billing.resubscribe-modal.title": {
-    "defaultMessage": "สมัครบริการโฮสติ้ง Panda อีกครั้ง"
+    "defaultMessage": "สมัครบริการโฮสติ้ง Panda Minecraft Launcher อีกครั้ง"
   },
   "browse.view-prefix": {
     "defaultMessage": "ดู:"
@@ -663,7 +663,7 @@
     "defaultMessage": "ไม่สำเร็จ"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "ทีม Panda"
+    "defaultMessage": "ทีม Panda Minecraft Launcher"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "กําลังดำเนินการ"
@@ -720,7 +720,7 @@
     "defaultMessage": "Virtual Visas"
   },
   "profile.block-user.admonition-body": {
-    "defaultMessage": "{username} จะไม่สามารถส่งคำขอเป็นเพื่อน เชิญคุณไปยังชุดเซิร์ฟเวอร์ที่แชร์ หรือเชิญคุณไปยังเซิร์ฟเวอร์โฮสติ้ง Panda ได้"
+    "defaultMessage": "{username} จะไม่สามารถส่งคำขอเป็นเพื่อน เชิญคุณไปยังชุดเซิร์ฟเวอร์ที่แชร์ หรือเชิญคุณไปยังเซิร์ฟเวอร์โฮสติ้ง Panda Minecraft Launcher ได้"
   },
   "profile.block-user.success-description": {
     "defaultMessage": "{username} ถูกบล็อกแล้ว"
@@ -909,7 +909,7 @@
     "defaultMessage": "เซิร์ฟเวอร์ไอคอน"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "เกิดข้อผิดพลาดขณะสมัครบริการเซิร์ฟเวอร์ Panda ของคุณอีกครั้ง"
+    "defaultMessage": "เกิดข้อผิดพลาดขณะสมัครบริการเซิร์ฟเวอร์ Panda Minecraft Launcher ของคุณอีกครั้ง"
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "เกิดข้อผิดพลาดในการสมัครบริการอีกครั้ง"
@@ -969,7 +969,7 @@
     "defaultMessage": "Shader แบบวานิลลา"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "ผู้ใช้รายนี้ช่วยเราทดสอบโครงการ Shader บน Panda ก่อนที่เราจะเปิดตัวพวกมันในเดือนมกราคม 2023"
+    "defaultMessage": "ผู้ใช้รายนี้ช่วยเราทดสอบโครงการ Shader บน Panda Minecraft Launcher ก่อนที่เราจะเปิดตัวพวกมันในเดือนมกราคม 2023"
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "ผู้รับ Shader กลุ่มแรก"

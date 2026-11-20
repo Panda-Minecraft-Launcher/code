@@ -544,12 +544,12 @@ const messages = defineMessages({
 	inviteWarning: {
 		id: 'app.modal.install-to-play.invite-warning',
 		defaultMessage:
-			'This invite was created by another Panda user, not Panda. Only accept invites from people you trust.',
+			'This invite was created by another Panda Minecraft Launcher user, not Panda Minecraft Launcher. Only accept invites from people you trust.',
 	},
 	inviteWarningWithCreator: {
 		id: 'app.modal.install-to-play.invite-warning-with-creator',
 		defaultMessage:
-			'This invite was created by <creator>{username}</creator>, not Panda. Only accept invites from people you trust.',
+			'This invite was created by <creator>{username}</creator>, not Panda Minecraft Launcher. Only accept invites from people you trust.',
 	},
 	reportDescription: {
 		id: 'app.modal.install-to-play.report-description',
@@ -609,7 +609,7 @@ const messages = defineMessages({
 	unknownFilesDescription: {
 		id: 'app.modal.install-to-play.shared-instance-unknown-files-description',
 		defaultMessage:
-			'This shared instance contains files that aren’t published on Panda. We strongly recommend only installing files from sources you trust.',
+			'This shared instance contains files that aren’t published on Panda Minecraft Launcher Minecraft Launcher. We strongly recommend only installing files from sources you trust.',
 	},
 	unrecognizedFiles: {
 		id: 'app.modal.install-to-play.unrecognized-files',
@@ -617,7 +617,7 @@ const messages = defineMessages({
 	},
 	reviewedFiles: {
 		id: 'app.modal.install-to-play.reviewed-files',
-		defaultMessage: "Files that aren't published to Panda aren't reviewed.",
+		defaultMessage: "Files that aren't published to Panda Minecraft Launcher aren't reviewed.",
 	},
 	installAnyway: {
 		id: 'app.modal.install-to-play.install-anyway',

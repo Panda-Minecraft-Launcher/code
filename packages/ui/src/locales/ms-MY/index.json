@@ -2121,7 +2121,7 @@
     "defaultMessage": "Penyederhana"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Pasukan Panda"
+    "defaultMessage": "Pasukan Panda Minecraft Launcher"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Menunggu"
@@ -3777,7 +3777,7 @@
     "defaultMessage": "Langganan anda ditetapkan untuk dibatalkan pada <date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "Pelayan anda telah digantung. Sila hubungi Sokongan Panda untuk maklumat lanjut."
+    "defaultMessage": "Pelayan anda telah digantung. Sila hubungi Sokongan Panda Minecraft Launcher untuk maklumat lanjut."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "Perkakasan pelayan anda sedang dinaik taraf dan akan kembali beroperasi tidak lama lagi."
@@ -3807,7 +3807,7 @@
     "defaultMessage": "Muat naik sedang berjalan"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Hubungi Sokongan Panda"
+    "defaultMessage": "Hubungi Sokongan Panda Minecraft Launcher"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Sistem kami akan memaklumkan pasukan kami secara automatik apabila terdapat masalah. Kami sedang berusaha untuk membawa mereka kembali dalam talian."
@@ -3822,7 +3822,7 @@
     "defaultMessage": "Jika anda baru-baru ini membeli pelayan Panda Hosting anda, ia sedang berada dalam barisan dan akan muncul di sini sebaik sahaja ia siap. <warning>Jangan cuba membeli pelayan baharu.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Jika anda memerlukan sokongan peribadi mengenai status pelayan anda, sila hubungi Sokongan Panda."
+    "defaultMessage": "Jika anda memerlukan sokongan peribadi mengenai status pelayan anda, sila hubungi Sokongan Panda Minecraft Launcher."
   },
   "servers.manage.error.title": {
     "defaultMessage": "Pelayan tidak dapat dimuatkan"
@@ -3846,7 +3846,7 @@
     "defaultMessage": "Muat semula"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Sebuah ralat telah berlaku semasa melanggan semula pelayan Panda anda."
+    "defaultMessage": "Sebuah ralat telah berlaku semasa melanggan semula pelayan Panda Minecraft Launcher anda."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Ralat semasa melanggan semula"
@@ -3882,10 +3882,10 @@
     "defaultMessage": "Percubaan pelayan Medal anda telah tamat dan pelayan anda telah digantung. Sila naik taraf untuk terus menggunakan pelayan anda."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "Pelayan anda telah digantung. Sila kemas kini maklumat pengebilan anda atau hubungi Sokongan Panda untuk maklumat lanjut."
+    "defaultMessage": "Pelayan anda telah digantung. Sila kemas kini maklumat pengebilan anda atau hubungi Sokongan Panda Minecraft Launcher untuk maklumat lanjut."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "Pelayan anda telah digantung: {reason}. Sila kemas kini maklumat pengebilan anda atau hubungi Sokongan Panda untuk maklumat lanjut."
+    "defaultMessage": "Pelayan anda telah digantung: {reason}. Sila kemas kini maklumat pengebilan anda atau hubungi Sokongan Panda Minecraft Launcher untuk maklumat lanjut."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "Perkakasan pelayan anda sedang dinaik taraf dan akan kembali beroperasi tidak lama lagi."
@@ -4023,7 +4023,7 @@
     "defaultMessage": "Sediakan pelayan"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "Pilih pek mod kegemaran anda daripada Panda, atau pilih pemuat dan tambahkan mod yang anda inginkan."
+    "defaultMessage": "Pilih pek mod kegemaran anda daripada Panda Minecraft Launcher, atau pilih pemuat dan tambahkan mod yang anda inginkan."
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "Pilih apa yang hendak dimainkan"
@@ -4680,31 +4680,31 @@
     "defaultMessage": "Penguji Beta"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pek Data di Panda sebelum kami melancarkannya pada Januari 2023."
+    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pek Data di Panda Minecraft Launcher sebelum kami melancarkannya pada Januari 2023."
   },
   "user.profile.badge.early-modpack-adopter.about.1": {
-    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pek Mod di Panda sebelum kami melancarkannya pada Mei 2022."
+    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pek Mod di Panda Minecraft Launcher sebelum kami melancarkannya pada Mei 2022."
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pemalam di Panda sebelum kami melancarkannya pada Ogos 2022."
+    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pemalam di Panda Minecraft Launcher sebelum kami melancarkannya pada Ogos 2022."
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pek Sumber di Panda sebelum kami melancarkannya pada Ogos 2022."
+    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pek Sumber di Panda Minecraft Launcher sebelum kami melancarkannya pada Ogos 2022."
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pelayan di Panda sebelum kami melancarkannya pada Mac 2026."
+    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pelayan di Panda Minecraft Launcher sebelum kami melancarkannya pada Mac 2026."
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pembayang di Panda sebelum kami melancarkannya pada Januari 2023."
+    "defaultMessage": "Pengguna ini telah membantu kami menguji projek Pembayang di Panda Minecraft Launcher sebelum kami melancarkannya pada Januari 2023."
   },
   "user.profile.badge.hosting-alpha.about.1": {
     "defaultMessage": "Pengguna ini telah menyertai ujian alfa tertutup Panda Hosting sebelum kami melancarkan Panda Hosting Beta pada November 2024."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Penyederhana Kandungan di Panda menyemak projek, mengendalikan laporan dan membantu memastikan Panda selamat."
+    "defaultMessage": "Penyederhana Kandungan di Panda Minecraft Launcher menyemak projek, mengendalikan laporan dan membantu memastikan Panda Minecraft Launcher selamat."
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Pengguna ini berusaha keras untuk menyokong Panda dan para pencipta pada platform ini."
+    "defaultMessage": "Pengguna ini berusaha keras untuk menyokong Panda Minecraft Launcher dan para pencipta pada platform ini."
   },
   "user.profile.badge.pride.about.1": {
     "defaultMessage": "Pengguna ini telah menyertai sekurang-kurangnya satu daripada pengumpulan dana Panda's Pride untuk komuniti LGBTQ+."
@@ -4713,7 +4713,7 @@
     "defaultMessage": "Klik untuk melawati pengumpulan dana Pride terkini kami."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Pasukan Panda"
+    "defaultMessage": "Pasukan Panda Minecraft Launcher"
   },
   "version.content.name": {
     "defaultMessage": "Nama"

@@ -1794,7 +1794,7 @@
     "message": "ZIPをエクスポート"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda screenshots.zip"
+    "message": "Panda Minecraft Launcher screenshots.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} screenshots.zip"
@@ -3402,7 +3402,7 @@
     "message": "広告の詳細をコピー"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "不適切または不適切な広告が表示されていますか？表示中にその詳細をコピーし、 <support>Panda Support</support>に送信してください。 私たちはそれを確認し削除いたします。"
+    "message": "不適切または不適切な広告が表示されていますか？表示中にその詳細をコピーし、 <support>Panda Minecraft Launcher Support</support>に送信してください。 私たちはそれを確認し削除いたします。"
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "広告が読み込まれるのを待ち、もう一度やり直してください。"
@@ -3558,10 +3558,10 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda プライド"
+    "message": "Panda Minecraft Launcher プライド"
   },
   "app.skins.section.modrinth-pride.tooltip": {
     "message": "これらのスキンは、プライド月間中にPandaのプライド募金活動に寄付したことで獲得したものです。"

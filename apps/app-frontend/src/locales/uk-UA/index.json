@@ -75,7 +75,7 @@
     "message": "Не вдалося встановити Minecraft"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Не вдалося зʼєднатися з Panda"
+    "message": "Не вдалося зʼєднатися з Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Бракує прав для запису"
@@ -132,7 +132,7 @@
     "message": "Прийняти всі"
   },
   "app.ads-consent.body": {
-    "message": "Реклама підтримує існування Panda і фінансує виплати творцям. Наші партнери можуть зберігати й отримувати доступ до cookie в застосунку, щоб персоналізувати рекламу та збирати метрики."
+    "message": "Реклама підтримує існування Panda Minecraft Launcher і фінансує виплати творцям. Наші партнери можуть зберігати й отримувати доступ до cookie в застосунку, щоб персоналізувати рекламу та збирати метрики."
   },
   "app.ads-consent.manage": {
     "message": "Налаштувати"
@@ -141,7 +141,7 @@
     "message": "Відхилити всі"
   },
   "app.ads-consent.title": {
-    "message": "Ваша приватність і як реклама підтримує Panda"
+    "message": "Ваша приватність і як реклама підтримує Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Показувати примірники у вигляді компактних рядків."
@@ -204,7 +204,7 @@
     "message": "Головна й уміст"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "Примірники, які ви приховали в бібліотеці на цьому пристрої. Приховані примірники не синхронізуються з обліковим записом Panda."
+    "message": "Примірники, які ви приховали в бібліотеці на цьому пристрої. Приховані примірники не синхронізуються з обліковим записом Panda Minecraft Launcher."
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "Ще немає прихованих примірників."
@@ -534,7 +534,7 @@
     "message": "Завантажити для оновлення"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Схвильований бот Panda"
+    "message": "Схвильований бот Panda Minecraft Launcher"
   },
   "app.hosting.update-required.title": {
     "message": "Потрібне оновлення Panda Minecraft Launcher"
@@ -888,13 +888,13 @@
     "message": "Увійти як"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Ви повинні ввійти в Panda"
+    "message": "Ви повинні ввійти в Panda Minecraft Launcher"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "щоб отримувати оновлення для цього спільного примірника."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Ви використовуєте не той обліковий запис Panda"
+    "message": "Ви використовуєте не той обліковий запис Panda Minecraft Launcher"
   },
   "app.instance.shortcut.created": {
     "message": "Ярлик створено"
@@ -1389,7 +1389,7 @@
     "message": "Бібліотека"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {Ваш # спільний примірник буде видалено із серверів Panda, а його користувачі} few {Ваші # спільні примірники буде видалено із серверів Panda, а їхні користувачі} other {Ваші # спільних примірників буде видалено із серверів Panda, а їхні користувачі}} більше не отримуватимуть оновлення. {leaveCount, plural, one {Ви втратите доступ до іншого спільного примірника та потребуватимете нового запрошення до нього.} other {Ви втратите доступ до інших # спільних примірників та потребуватимете нового запрошення до них.}} Усі з них буде видалено з вашої бібліотеки."
+    "message": "{unpublishCount, plural, one {Ваш # спільний примірник буде видалено із серверів Panda Minecraft Launcher, а його користувачі} few {Ваші # спільні примірники буде видалено із серверів Panda Minecraft Launcher, а їхні користувачі} other {Ваші # спільних примірників буде видалено із серверів Panda Minecraft Launcher, а їхні користувачі}} більше не отримуватимуть оновлення. {leaveCount, plural, one {Ви втратите доступ до іншого спільного примірника та потребуватимете нового запрошення до нього.} other {Ви втратите доступ до інших # спільних примірників та потребуватимете нового запрошення до них.}} Усі з них буде видалено з вашої бібліотеки."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Видалення публікації й вихід зі спільних примірників"
@@ -1398,7 +1398,7 @@
     "message": "Видалення публікації й вихід із {count} спільних примірників"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {Це видалить вибраний спільний примірник із серверів Panda. Люди, які його використовують, більше не отримуватимуть оновлення, і його буде видалено з вашої бібліотеки.} other {Це видалить вибрані спільні примірники із серверів Panda. Люди, які їх використовують, більше не отримуватимуть оновлення, і їх буде видалено з вашої бібліотеки.}}"
+    "message": "{count, plural, one {Це видалить вибраний спільний примірник із серверів Panda Minecraft Launcher. Люди, які його використовують, більше не отримуватимуть оновлення, і його буде видалено з вашої бібліотеки.} other {Це видалить вибрані спільні примірники із серверів Panda Minecraft Launcher. Люди, які їх використовують, більше не отримуватимуть оновлення, і їх буде видалено з вашої бібліотеки.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {Видалення публікації спільного примірника} other {Видалення публікації # спільних примірників}}"
@@ -1434,10 +1434,10 @@
     "message": "Установити"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Це запрошення створив інший користувач Panda, не сам Panda. Приймайте запрошення лише від тих людей, яким довіряєте."
+    "message": "Це запрошення створив інший користувач Panda Minecraft Launcher, не сам Panda Minecraft Launcher. Приймайте запрошення лише від тих людей, яким довіряєте."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Це запрошення створив користувач <creator>{username}</creator>, не Panda. Приймайте запрошення лише від людей, яким довіряєте."
+    "message": "Це запрошення створив користувач <creator>{username}</creator>, не Panda Minecraft Launcher. Приймайте запрошення лише від людей, яким довіряєте."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Уміст збірки"
@@ -1473,7 +1473,7 @@
     "message": "Для отримання допомоги зверніться до нашої <support-link>команди підтримки</support-link>. Для створення звіту про помилки відкрийте <github-link>issue в GitHub</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Файли, які не опубліковані на Panda, не перевіряються."
+    "message": "Файли, які не опубліковані на Panda Minecraft Launcher, не перевіряються."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Спільний примірник"
@@ -1482,7 +1482,7 @@
     "message": "Уміст спільного примірника"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Цей спільний примірник містить файли, які не опубліковані на Panda. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
+    "message": "Цей спільний примірник містить файли, які не опубліковані на Panda Minecraft Launcher. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "Версію збірки, яку використовує цей сервер, у цей час не можна завантажити. Вона може бути неопублікована або під розглядом. Спробуйте пізніше або звʼяжіться з власником сервера."
@@ -1491,7 +1491,7 @@
     "message": "Збірка цього сервера недоступна"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Ця збірка сервера містить файли, які не опубліковані на Panda. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
+    "message": "Ця збірка сервера містить файли, які не опубліковані на Panda Minecraft Launcher. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Попередження про невідомі файли"
@@ -1521,7 +1521,7 @@
     "message": "Видалено"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Це оновлення збірки сервера містить файли, які не опубліковані на Panda. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
+    "message": "Це оновлення збірки сервера містить файли, які не опубліковані на Panda Minecraft Launcher. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Додано"
@@ -1530,7 +1530,7 @@
     "message": "Видалено"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Це оновлення спільного примірника містить файли, які не опубліковані на Panda. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
+    "message": "Це оновлення спільного примірника містить файли, які не опубліковані на Panda Minecraft Launcher. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Необхідне оновлення"
@@ -1551,7 +1551,7 @@
     "message": "Завантаження профілю..."
   },
   "app.nav.modrinth-account": {
-    "message": "Обліковий запис Panda"
+    "message": "Обліковий запис Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
     "message": "Panda Hosting"
@@ -1563,7 +1563,7 @@
     "message": "Знімки екрана"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Увійти до Panda"
+    "message": "Увійти до Panda Minecraft Launcher"
   },
   "app.nav.switch-account": {
     "message": "Змінити обліковий запис"
@@ -1785,7 +1785,7 @@
     "message": "Експортувати ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Знімки екрана Panda.zip"
+    "message": "Знімки екрана Panda Minecraft Launcher.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "Знімки екрана {instance}.zip"
@@ -2097,7 +2097,7 @@
     "message": "Деякі ваші примірники не можуть використовувати це налаштування"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Цей параметр керується налаштуваннями запуску Panda."
+    "message": "Цей параметр керується налаштуваннями запуску Panda Minecraft Launcher."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Уведіть значення"
@@ -2931,7 +2931,7 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Реклама підтримує існування Panda і фінансує виплати творцям. Наші партнери можуть зберігати й отримувати доступ до cookie в застосунку, щоб персоналізувати рекламу та збирати метрики. Ви можете відмовитися від них або керувати налаштуваннями нижче."
+    "message": "Реклама підтримує існування Panda Minecraft Launcher і фінансує виплати творцям. Наші партнери можуть зберігати й отримувати доступ до cookie в застосунку, щоб персоналізувати рекламу та збирати метрики. Ви можете відмовитися від них або керувати налаштуваннями нижче."
   },
   "app.settings.privacy.discord-rich-presence.description": {
     "message": "Показувати Panda Minecraft Launcher як вашу поточну активність у Discord. Це не впливає на активність, додану модами. Потребує перезапуску застосунку."
@@ -2940,7 +2940,7 @@
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Panda збирає анонімні дані про використання, щоб покращити зручність сервісу та адаптувати його під вас. Якщо вимкнете цю опцію, то відмовитеся від цього, і ваші дані більше не збиратимуться."
+    "message": "Panda Minecraft Launcher збирає анонімні дані про використання, щоб покращити зручність сервісу та адаптувати його під вас. Якщо вимкнете цю опцію, то відмовитеся від цього, і ваші дані більше не збиратимуться."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Телеметрія"
@@ -2955,7 +2955,7 @@
     "message": "Застосунок може завантажуватися повільніше, поки кеш не відновиться."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Очистити кешовані дані та завантажити їх знову з Panda. Застосунок може завантажуватися повільніше, поки кеш відновиться."
+    "message": "Очистити кешовані дані та завантажити їх знову з Panda Minecraft Launcher. Застосунок може завантажуватися повільніше, поки кеш відновиться."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "Кеш застосунку"
@@ -3051,7 +3051,7 @@
     "message": "Каталог застосунку"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Експортує журнал застосунку та діагностичні дані в ZIP-файл, яким можна поділитися з підтримкою Panda."
+    "message": "Експортує журнал застосунку та діагностичні дані в ZIP-файл, яким можна поділитися з підтримкою Panda Minecraft Launcher."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Експортувати інформацію налагодження"
@@ -3213,7 +3213,7 @@
     "message": "Ці налаштування змінилися десь ще"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Додані модами налаштування будуть тут, коли Panda знайде їх в одному з ваших примірників."
+    "message": "Додані модами налаштування будуть тут, коли Panda Minecraft Launcher знайде їх в одному з ваших примірників."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Використовувати однакові налаштування гри у всіх примірниках."
@@ -3393,7 +3393,7 @@
     "message": "Скопіювати деталі реклами"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "Побачили неприйнятну чи образливу рекламу? Скопіюйте її деталі під час її показу та надішліть їх <support>підтримці Panda</support>. Ми переглянемо й видалимо її."
+    "message": "Побачили неприйнятну чи образливу рекламу? Скопіюйте її деталі під час її показу та надішліть їх <support>підтримці Panda Minecraft Launcher</support>. Ми переглянемо й видалимо її."
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "Дочекайтеся завантаження реклами, тоді спробуйте ще раз."
@@ -3549,7 +3549,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -3591,7 +3591,7 @@
     "message": "Не бажаєте відповісти на кілька запитань про ваш досвід користування Panda Minecraft Launcher?"
   },
   "app.survey.footer": {
-    "message": "Цей відгук надійде безпосередньо команді Panda і допоможе у створенні майбутніх оновлень!"
+    "message": "Цей відгук надійде безпосередньо команді Panda Minecraft Launcher і допоможе у створенні майбутніх оновлень!"
   },
   "app.survey.no-thanks": {
     "message": "Ні, дякую"
@@ -3600,7 +3600,7 @@
     "message": "Пройти опитування"
   },
   "app.survey.title": {
-    "message": "Привіт, користувачу Panda!"
+    "message": "Привіт, користувачу Panda Minecraft Launcher!"
   },
   "app.sync-instances-update.choose-source.data-packs": {
     "message": "Виберіть примірник, з якого потрібно скопіювати пакети даних. Вони будуть використані лише під час першої синхронізації, опісля їх можна редагувати з будь-якого примірника."
@@ -3744,7 +3744,7 @@
     "message": "Пропустити"
   },
   "app.welcome-screen.title": {
-    "message": "Вітаємо в Panda"
+    "message": "Вітаємо в Panda Minecraft Launcher"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "example.modrinth.gg"
@@ -3816,7 +3816,7 @@
     "message": "Уведіть ім’я користувача…"
   },
   "friends.add-friend.username.title": {
-    "message": "Яке ім’я користувача Panda у вашого друга?"
+    "message": "Яке ім’я користувача Panda Minecraft Launcher у вашого друга?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Додайте друзів</link>, щоб бачити, у що вони грають!"
@@ -3861,10 +3861,10 @@
     "message": "{title} — {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Увійдіть в обліковий запис Panda</link>, щоб додати друзів і бачити, у що вони грають!"
+    "message": "<link>Увійдіть в обліковий запис Panda Minecraft Launcher</link>, щоб додати друзів і бачити, у що вони грають!"
   },
   "hosting.play.account-changed": {
-    "message": "Ваш обліковий запис Panda змінився. Натисніть «Грати на сервері» знову, щоб продовжити."
+    "message": "Ваш обліковий запис Panda Minecraft Launcher змінився. Натисніть «Грати на сервері» знову, щоб продовжити."
   },
   "hosting.play.no-address": {
     "message": "Сервер ще не має адреси підʼєднання."
@@ -3948,7 +3948,7 @@
     "message": "Відвʼязування..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Видалити цей спільний примірник із Panda і припинити надсилати оновлення всім, хто ним користується. Це не вплине на ваш локальний примірник."
+    "message": "Видалити цей спільний примірник із Panda Minecraft Launcher і припинити надсилати оновлення всім, хто ним користується. Це не вплине на ваш локальний примірник."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "Це вплине лише на ваш локальний примірник. Установлений уміст залишиться на цьому пристрої, а спільний примірник й інші користувачі не зазнають змін."
@@ -4569,7 +4569,7 @@
     "message": "Створити обліковий запис"
   },
   "modal.modrinth-account-required.description": {
-    "message": "Ви повинні ввійти у свій обліковий запис Panda, перш ніж використовувати цей функціонал."
+    "message": "Ви повинні ввійти у свій обліковий запис Panda Minecraft Launcher, перш ніж використовувати цей функціонал."
   },
   "modal.modrinth-account-required.header": {
     "message": "Необхідний обліковий запис"
@@ -4578,10 +4578,10 @@
     "message": "Знову відкрити переглядач"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Увійти в Panda"
+    "message": "Увійти в Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Вхід в обліковий запис Panda"
+    "message": "Вхід в обліковий запис Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Вхід"

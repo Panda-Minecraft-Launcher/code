@@ -2778,7 +2778,7 @@
     "defaultMessage": "TNT"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Panda 렌치"
+    "defaultMessage": "Panda Minecraft Launcher 렌치"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "좀비"
@@ -3597,10 +3597,10 @@
     "defaultMessage": "<actor>{actor}</actor> 사용자가 <entity>{entity}</entity> 인스턴스에 초대했습니다."
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "공유된 인스턴스 \"<entity>{entity}</entity>\"가 Panda 운영팀에 의해 잠금 처리되었습니다."
+    "defaultMessage": "공유된 인스턴스 \"<entity>{entity}</entity>\"가 Panda Minecraft Launcher 운영팀에 의해 잠금 처리되었습니다."
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "공유하신 인스턴스 \"<entity>{entity}</entity>\"가 Panda 운영팀에 의해 잠금 처리되었습니다."
+    "defaultMessage": "공유하신 인스턴스 \"<entity>{entity}</entity>\"가 Panda Minecraft Launcher 운영팀에 의해 잠금 처리되었습니다."
   },
   "notifications.instance-ready.launch-game": {
     "defaultMessage": "게임 실행"
@@ -3651,7 +3651,7 @@
     "defaultMessage": "관리자"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda 팀"
+    "defaultMessage": "Panda Minecraft Launcher 팀"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "대기중"
@@ -3771,10 +3771,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Panda 크리에이터입니다."
+    "defaultMessage": "Panda Minecraft Launcher 크리에이터입니다."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Panda 사용자입니다."
+    "defaultMessage": "Panda Minecraft Launcher 사용자입니다."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} 사용자가 친구 요청을 보내거나, 공유 인스턴스 및 Panda Hosting 서버에 초대할 수 없게 됩니다."
@@ -3963,7 +3963,7 @@
     "defaultMessage": "제한됨"
   },
   "profile.official-account": {
-    "defaultMessage": "공식 Panda 계정"
+    "defaultMessage": "공식 Panda Minecraft Launcher 계정"
   },
   "profile.official-account.bio": {
     "defaultMessage": "Panda의 공식 사용자 계정입니다. <support-link></support-link> 또는 <email></email> 을 통해 문의해 주세요"
@@ -6300,13 +6300,13 @@
     "defaultMessage": "Minecraft 사용자 이름을 사용하지 마세요."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Panda 사용자명"
+    "defaultMessage": "Panda Minecraft Launcher 사용자명"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "일치하는 사용자를 찾을 수 없습니다."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Panda 사용자명 입력"
+    "defaultMessage": "Panda Minecraft Launcher 사용자명 입력"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "검색 중..."
@@ -6504,7 +6504,7 @@
     "defaultMessage": "구독이 <date>{formattedDate}</date>에 취소되도록 설정되어 있습니다."
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "서버가 정지되었습니다. 자세한 내용은 Panda 지원팀에 문의하십시오."
+    "defaultMessage": "서버가 정지되었습니다. 자세한 내용은 Panda Minecraft Launcher 지원팀에 문의하십시오."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "서버 하드웨어 업그레이드 작업이 진행 중이며 곧 다시 온라인 상태가 될 예정입니다."
@@ -6567,7 +6567,7 @@
     "defaultMessage": "업로드 진행 중"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Panda 지원팀에 문의하세요."
+    "defaultMessage": "Panda Minecraft Launcher 지원팀에 문의하세요."
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "저희 시스템은 문제가 발생하면 자동으로 팀에 알림을 보냅니다. 현재 시스템을 다시 정상화하기 위해 노력하고 있습니다."
@@ -6582,7 +6582,7 @@
     "defaultMessage": "최근에 Panda Hosting 서버를 구매하셨다면, 현재 대기 중이며 준비가 완료되는 대로 여기에 표시됩니다. <warning>새 서버를 구매하지 않으셔도 됩니다.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "\n서버 상태와 관련하여 개별적인 지원이 필요하시면 Panda 지원팀에 문의해 주세요."
+    "defaultMessage": "\n서버 상태와 관련하여 개별적인 지원이 필요하시면 Panda Minecraft Launcher 지원팀에 문의해 주세요."
   },
   "servers.manage.error.title": {
     "defaultMessage": "서버를 로드할 수 없습니다."
@@ -6630,7 +6630,7 @@
     "defaultMessage": "새로고침"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Panda 서버에 다시 가입하는 동안 오류가 발생했습니다."
+    "defaultMessage": "Panda Minecraft Launcher 서버에 다시 가입하는 동안 오류가 발생했습니다."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "재구독 중 오류 발생"
@@ -6690,10 +6690,10 @@
     "defaultMessage": "Medal 서버 체험판이 종료되어 서버가 일시 중지되었습니다. 계속 사용하려면 업그레이드해 주세요."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "서버가 일시 중지되었습니다. 결제 정보를 업데이트하거나 자세한 내용은 Panda 지원팀에 문의해 주세요."
+    "defaultMessage": "서버가 일시 중지되었습니다. 결제 정보를 업데이트하거나 자세한 내용은 Panda Minecraft Launcher 지원팀에 문의해 주세요."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "서버가 일시 중지되었습니다: {reason}. 결제 정보를 업데이트하거나 자세한 내용은 Panda 지원팀에 문의해 주세요."
+    "defaultMessage": "서버가 일시 중지되었습니다: {reason}. 결제 정보를 업데이트하거나 자세한 내용은 Panda Minecraft Launcher 지원팀에 문의해 주세요."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "서버의 하드웨어가 현재 업그레이드 중이며, 곧 다시 온라인 상태로 돌아올 예정입니다."
@@ -7395,7 +7395,7 @@
     "defaultMessage": "고급 렌더링"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Panda 외부로 나가는 링크를 새 탭에서 엽니다. 이 설정에 상관없이, 같은 도메인이거나 마크다운 설명의 링크는 같은 탭에서 열리며, 광고 및 편집 페이지의 링크는 새 탭에서 열립니다."
+    "defaultMessage": "Panda Minecraft Launcher 외부로 나가는 링크를 새 탭에서 엽니다. 이 설정에 상관없이, 같은 도메인이거나 마크다운 설명의 링크는 같은 탭에서 열리며, 광고 및 편집 페이지의 링크는 새 탭에서 열립니다."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "새 탭에서 외부 링크 열기"
@@ -7497,7 +7497,7 @@
     "defaultMessage": "개인 액세스 토큰"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "Panda 계정에 설정을 저장할 수 없습니다. 다시 시도해 주세요."
+    "defaultMessage": "Panda Minecraft Launcher 계정에 설정을 저장할 수 없습니다. 다시 시도해 주세요."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "설정 동기화 실패"
@@ -7527,10 +7527,10 @@
     "defaultMessage": "프로필을 업데이트하는 동안 오류가 발생했습니다. 다시 시도해 주세요."
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "공개 프로필을 설정 하려면 Panda 계정에 로그인하세요."
+    "defaultMessage": "공개 프로필을 설정 하려면 Panda Minecraft Launcher 계정에 로그인하세요."
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "Panda 계정 필요"
+    "defaultMessage": "Panda Minecraft Launcher 계정 필요"
   },
   "settings.profile.username.change": {
     "defaultMessage": "사용자 이름 변경"
@@ -7626,10 +7626,10 @@
     "defaultMessage": "공유 인스턴스 초대"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "Panda 계정이 있으면 소통 가능한 사람을 설정하고 차단된 사용자를 관리할 수 있습니다"
+    "defaultMessage": "Panda Minecraft Launcher 계정이 있으면 소통 가능한 사람을 설정하고 차단된 사용자를 관리할 수 있습니다"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "Panda 계정이 필요합니다"
+    "defaultMessage": "Panda Minecraft Launcher 계정이 필요합니다"
   },
   "settings.social.title": {
     "defaultMessage": "소셜"
@@ -7728,7 +7728,7 @@
     "defaultMessage": "저장"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "Panda 사용자 이름 입력"
+    "defaultMessage": "Panda Minecraft Launcher 사용자 이름 입력"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "검색 중..."
@@ -8460,16 +8460,16 @@
     "defaultMessage": "버전 편집 및 버전에 파일 추가"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "이 사용자는 2020년 11월에 종료된 Panda 알파 버전 시절부터 활동해 왔습니다."
+    "defaultMessage": "이 사용자는 2020년 11월에 종료된 Panda Minecraft Launcher 알파 버전 시절부터 활동해 왔습니다."
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "알파 테스터"
   },
   "user.profile.badge.beta.about.1": {
-    "defaultMessage": "이 사용자는 2022년 2월에 종료된 Panda 베타 버전 시절부터 활동해 왔습니다."
+    "defaultMessage": "이 사용자는 2022년 2월에 종료된 Panda Minecraft Launcher 베타 버전 시절부터 활동해 왔습니다."
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "Panda 베타 출시 소식을 보려면 여기를 클릭하세요."
+    "defaultMessage": "Panda Minecraft Launcher 베타 출시 소식을 보려면 여기를 클릭하세요."
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "베타 테스터"
@@ -8553,13 +8553,13 @@
     "defaultMessage": "이 사용자는 Panda에서 근무하고 있습니다."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Panda 팀"
+    "defaultMessage": "Panda Minecraft Launcher 팀"
   },
   "user.role.moderator": {
     "defaultMessage": "콘텐츠 관리자"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Panda 팀"
+    "defaultMessage": "Panda Minecraft Launcher 팀"
   },
   "version.content.name": {
     "defaultMessage": "이름"

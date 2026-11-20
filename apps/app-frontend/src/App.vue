@@ -574,12 +574,12 @@ const messages = defineMessages({
 	},
 	adsConsentTitle: {
 		id: 'app.ads-consent.title',
-		defaultMessage: 'Your privacy and how ads support Panda',
+		defaultMessage: 'Your privacy and how ads support Panda Minecraft Launcher',
 	},
 	adsConsentBody: {
 		id: 'app.ads-consent.body',
 		defaultMessage:
-			'Ads make Panda possible and fund creator payouts. Our partners may store or access cookies in the app to personalize ads and measure performance.',
+			'Ads make Panda Minecraft Launcher possible and fund creator payouts. Our partners may store or access cookies in the app to personalize ads and measure performance.',
 	},
 	adsConsentManage: {
 		id: 'app.ads-consent.manage',
@@ -611,7 +611,7 @@ const messages = defineMessages({
 	},
 	modrinthAccount: {
 		id: 'app.nav.modrinth-account',
-		defaultMessage: 'Panda account',
+		defaultMessage: 'Panda Minecraft Launcher account',
 	},
 	viewProfile: {
 		id: 'app.nav.view-profile',
@@ -619,7 +619,7 @@ const messages = defineMessages({
 	},
 	signInToModrinthAccount: {
 		id: 'app.nav.sign-in-to-modrinth-account',
-		defaultMessage: 'Sign into Panda',
+		defaultMessage: 'Sign into Panda Minecraft Launcher',
 	},
 	loadingProfile: {
 		id: 'app.nav.loading-profile',

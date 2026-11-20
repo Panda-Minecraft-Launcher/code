@@ -61,7 +61,7 @@ export type ServerPlayModals = {
 const messages = defineMessages({
 	accountChanged: {
 		id: 'hosting.play.account-changed',
-		defaultMessage: 'Your Panda account changed. Press Play server again to continue.',
+		defaultMessage: 'Your Panda Minecraft Launcher account changed. Press Play server again to continue.',
 	},
 	worldChanged: {
 		id: 'hosting.play.world-changed',

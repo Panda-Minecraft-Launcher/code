@@ -75,7 +75,7 @@
     "message": "Installationen av Minecraft misslyckade"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Kunde inte nå Panda"
+    "message": "Kunde inte nå Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Ingen behörighet att skriva"
@@ -132,7 +132,7 @@
     "message": "Godkänn alla"
   },
   "app.ads-consent.body": {
-    "message": "Annonser gör Panda möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik."
+    "message": "Annonser gör Panda Minecraft Launcher möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik."
   },
   "app.ads-consent.manage": {
     "message": "Hantera inställningar"
@@ -141,7 +141,7 @@
     "message": "Avvisa alla"
   },
   "app.ads-consent.title": {
-    "message": "Din integritet och hur annonser stödjer Panda"
+    "message": "Din integritet och hur annonser stödjer Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Visa biblioteksinstanser i en kompakt radlayout."
@@ -483,7 +483,7 @@
     "message": "Använd dessa funktions inställningar överallt du är inloggad. Stäng av detta för att hålla inställningar separerade för denna enhet."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Signera in till ett Panda konto för att synka inställningar."
+    "message": "Signera in till ett Panda Minecraft Launcher konto för att synka inställningar."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Synka funktioner mellan enheter"
@@ -879,7 +879,7 @@
     "message": "Logga in som"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Du behöver logga in på Panda"
+    "message": "Du behöver logga in på Panda Minecraft Launcher"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "för att få uppdateringar till den här delade instansen."
@@ -1401,10 +1401,10 @@
     "message": "Installera"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Denna inbjudan skapades av en annan Panda-användare, inte Panda. Acceptera endast inbjudningar från personer du litar på."
+    "message": "Denna inbjudan skapades av en annan Panda-användare, inte Panda Minecraft Launcher. Acceptera endast inbjudningar från personer du litar på."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Denna inbjudan skapades av <creator>{username}</creator>, inte Panda. Acceptera endast inbjudningar från personer du litar på."
+    "message": "Denna inbjudan skapades av <creator>{username}</creator>, inte Panda Minecraft Launcher. Acceptera endast inbjudningar från personer du litar på."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Modpaketsinnehåll"
@@ -1437,7 +1437,7 @@
     "message": "För supportärenden, kontakta vårt <support-link>supportteam</support-link>. För buggrapporter, öppna ett <github-link>GitHub issue</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Filer som inte publiceras på Panda granskas inte."
+    "message": "Filer som inte publiceras på Panda Minecraft Launcher granskas inte."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Delad instans"
@@ -1446,13 +1446,13 @@
     "message": "Delat instansinnehåll"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Denna delad instans innehåller filer som inte är publicerade på Panda. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
+    "message": "Denna delad instans innehåller filer som inte är publicerade på Panda Minecraft Launcher. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
   },
   "app.modal.install-to-play.unavailable-header": {
     "message": "Den här serverns modpaket är inte tillgängligt"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Detta server-modpaket innehåller filer som inte är utgivna på Panda. Vi rekommenderar att endast installera filer från källor du litar på."
+    "message": "Detta server-modpaket innehåller filer som inte är utgivna på Panda Minecraft Launcher. Vi rekommenderar att endast installera filer från källor du litar på."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Okända filvarningar"
@@ -1476,7 +1476,7 @@
     "message": "Tog bort"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Uppdateringen för detta server-modpaket innehåller filer som inte är utgivna på Panda. Vi rekommenderar att endast installera filer från källor du litar på."
+    "message": "Uppdateringen för detta server-modpaket innehåller filer som inte är utgivna på Panda Minecraft Launcher. Vi rekommenderar att endast installera filer från källor du litar på."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Lade till"
@@ -1485,7 +1485,7 @@
     "message": "Tog bort"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Uppdateringen för denna delad instans innehåller filer som inte är publicerade på Panda. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
+    "message": "Uppdateringen för denna delad instans innehåller filer som inte är publicerade på Panda Minecraft Launcher. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Uppdatering krävs"
@@ -1518,7 +1518,7 @@
     "message": "Skärmdumpar"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Logga in på Panda"
+    "message": "Logga in på Panda Minecraft Launcher"
   },
   "app.nav.switch-account": {
     "message": "Byt konto"
@@ -2730,13 +2730,13 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Annonser gör Panda möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik. Du kan välja bort eller hantera dina inställningar nedan."
+    "message": "Annonser gör Panda Minecraft Launcher möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik. Du kan välja bort eller hantera dina inställningar nedan."
   },
   "app.settings.privacy.discord-rich-presence.description": {
     "message": "Visa Panda Minecraft Launcher som din nuvarande aktivitet på Discord. Detta påverkar inte Rich Presence som lagts till i instanser av moddar. Kräver en app omstart."
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Panda samlar in anonymiserad statistik och användningsdata för att förbättra vår användarupplevelse och anpassa din upplevelse. Genom att inaktivera det här alternativet avanmäler du dig och din data kommer inte längre samlas in."
+    "message": "Panda Minecraft Launcher samlar in anonymiserad statistik och användningsdata för att förbättra vår användarupplevelse och anpassa din upplevelse. Genom att inaktivera det här alternativet avanmäler du dig och din data kommer inte längre samlas in."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetri"
@@ -2748,7 +2748,7 @@
     "message": "Appen kan laddas in långsammare tills cachen är återuppbyggd."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Rensa cachad data och ladda ner den igen från Panda. Appen kan laddas in långsammare tills cachen är återuppbyggd."
+    "message": "Rensa cachad data och ladda ner den igen från Panda Minecraft Launcher. Appen kan laddas in långsammare tills cachen är återuppbyggd."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "App-cache"
@@ -2871,7 +2871,7 @@
     "message": "Vi läste in de senaste inställningarna. Granska dina ändringar och spara sedan igen."
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Inställningar tillagda av moddar kommer att synas här efter att Panda hittar dem i någon av dina instanser."
+    "message": "Inställningar tillagda av moddar kommer att synas här efter att Panda Minecraft Launcher hittar dem i någon av dina instanser."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Använd samma spelinställningar mellan dina instanser."
@@ -3027,7 +3027,7 @@
     "message": "Kopiera annonsdetaljer"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "Har du sett en opassande eller kränkande annons? Kopiera dess detaljer medan den visas och skicka dem till <support>Panda Support</support>. Vi kommer att granska och ta bort den."
+    "message": "Har du sett en opassande eller kränkande annons? Kopiera dess detaljer medan den visas och skicka dem till <support>Panda Minecraft Launcher Support</support>. Vi kommer att granska och ta bort den."
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "Vänta på att annonsen läser in, försök sedan igen."
@@ -3171,7 +3171,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -3333,7 +3333,7 @@
     "message": "Hoppa över"
   },
   "app.welcome-screen.title": {
-    "message": "Välkommen till Panda"
+    "message": "Välkommen till Panda Minecraft Launcher"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "exempel.modrinth.gg"
@@ -3459,7 +3459,7 @@
     "message": "Avlänkar..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Ta bort den delade instansen från Panda och sluta skicka uppdateringar till alla som använder den. Din lokala instans kommer inte att påverkas."
+    "message": "Ta bort den delade instansen från Panda Minecraft Launcher och sluta skicka uppdateringar till alla som använder den. Din lokala instans kommer inte att påverkas."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-header": {
     "message": "Avlänkar delad instans"
@@ -3975,7 +3975,7 @@
     "message": "Öppna webbläsare igen"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Logga in på Panda"
+    "message": "Logga in på Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.sign-in-heading": {
     "message": "Logga in på ett Panda-konto"

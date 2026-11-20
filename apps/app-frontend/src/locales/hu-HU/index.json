@@ -132,7 +132,7 @@
     "message": "Összes elfogadása"
   },
   "app.ads-consent.body": {
-    "message": "A hirdetések teszik lehetővé a Panda működését, és biztosítják a tartalomkészítők juttatásait. Partnereink sütiket tárolhatnak vagy érhetnek el az alkalmazásban a hirdetések személyre szabása és a teljesítmény mérése céljából."
+    "message": "A hirdetések teszik lehetővé a Panda Minecraft Launcher működését, és biztosítják a tartalomkészítők juttatásait. Partnereink sütiket tárolhatnak vagy érhetnek el az alkalmazásban a hirdetések személyre szabása és a teljesítmény mérése céljából."
   },
   "app.ads-consent.manage": {
     "message": "Beállítások kezelése"
@@ -141,7 +141,7 @@
     "message": "Összes elutasítása"
   },
   "app.ads-consent.title": {
-    "message": "Adataid védelme és a hirdetések szerepe a Panda működésében"
+    "message": "Adataid védelme és a hirdetések szerepe a Panda Minecraft Launcher működésében"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "A könyvtári példányok megjelenítése egy összetett, soros elrendezésben."
@@ -519,7 +519,7 @@
     "message": "Letöltés a frissítéshez"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Izgatott Panda bot"
+    "message": "Izgatott Panda Minecraft Launcher bot"
   },
   "app.hosting.update-required.title": {
     "message": "Frissítés szükséges a Panda Minecraft Launcherhoz"
@@ -1284,10 +1284,10 @@
     "message": "Telepítés"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Ezt a meghívót nem a Panda, hanem egy másik Panda-felhasználó hozta létre. Csak olyan személyektől fogadd el a meghívásokat, akikben megbízol."
+    "message": "Ezt a meghívót nem a Panda Minecraft Launcher, hanem egy másik Panda-felhasználó hozta létre. Csak olyan személyektől fogadd el a meghívásokat, akikben megbízol."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Ezt a meghívót <creator>{username}</creator> készítette, nem pedig a Panda. Csak olyan személyektől fogadd el a meghívásokat, akikben megbízol."
+    "message": "Ezt a meghívót <creator>{username}</creator> készítette, nem pedig a Panda Minecraft Launcher. Csak olyan személyektől fogadd el a meghívásokat, akikben megbízol."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "A modcsomag tartalma"
@@ -1389,7 +1389,7 @@
     "message": "Profil betöltése..."
   },
   "app.nav.modrinth-account": {
-    "message": "Panda fiók"
+    "message": "Panda Minecraft Launcher fiók"
   },
   "app.nav.modrinth-hosting": {
     "message": "Panda Hosting"
@@ -1623,7 +1623,7 @@
     "message": "ZIP fájl exportálása"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda képernyőképek.zip"
+    "message": "Panda Minecraft Launcher képernyőképek.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} képernyőképek.zip"
@@ -1920,7 +1920,7 @@
     "message": "Pár példányod nem tudja ezt a beállítást alkalmazni"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Ezt a beállítást a Panda indítási beállításai kezelik."
+    "message": "Ezt a beállítást a Panda Minecraft Launcher indítási beállításai kezelik."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Adj meg egy értéket"
@@ -2754,7 +2754,7 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "A hirdetések teszik lehetővé a Panda működését, és biztosítják a tartalomkészítők juttatásait. Partnereink sütiket tárolhatnak vagy érhetnek el az alkalmazásban a hirdetések személyre szabása és a teljesítmény mérése céljából. Alább leiratkozhatsz erről, illetve beállíthatod a preferenciáidat."
+    "message": "A hirdetések teszik lehetővé a Panda Minecraft Launcher működését, és biztosítják a tartalomkészítők juttatásait. Partnereink sütiket tárolhatnak vagy érhetnek el az alkalmazásban a hirdetések személyre szabása és a teljesítmény mérése céljából. Alább leiratkozhatsz erről, illetve beállíthatod a preferenciáidat."
   },
   "app.settings.privacy.discord-rich-presence.description": {
     "message": "A Panda Minecraft Launcher megjelenítése aktuális tevékenységként a Discordon. Ez nem érinti a modok által a példányokhoz hozzáadott Rich Presence-t. Az alkalmazás újraindítását igényli."
@@ -2763,7 +2763,7 @@
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "A Panda névtelen használati és telemetriai adatokat gyűjt a felhasználói élmény javítása és személyre szabása érdekében. Ha kikapcsolod ezt a beállítást, leiratkozol erről, és a rendszer többé nem gyűjti az adataidat."
+    "message": "A Panda Minecraft Launcher névtelen használati és telemetriai adatokat gyűjt a felhasználói élmény javítása és személyre szabása érdekében. Ha kikapcsolod ezt a beállítást, leiratkozol erről, és a rendszer többé nem gyűjti az adataidat."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetria"
@@ -2796,7 +2796,7 @@
     "message": "Alkalmazáskönyvtár"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Exportáld az alkalmazás naplóit és diagnosztikai adatait egy ZIP-fájlba, hogy megoszthasd őket a Panda ügyfélszolgálatával."
+    "message": "Exportáld az alkalmazás naplóit és diagnosztikai adatait egy ZIP-fájlba, hogy megoszthasd őket a Panda Minecraft Launcher ügyfélszolgálatával."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Hibakeresési adatok exportálása"
@@ -2958,7 +2958,7 @@
     "message": "Ezek a beállítások valahol máshol módosultak"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "A modok által regisztrált beállítások itt fognak megjelenni amint a Panda érzékeli őket az egyik példányodban."
+    "message": "A modok által regisztrált beállítások itt fognak megjelenni amint a Panda Minecraft Launcher érzékeli őket az egyik példányodban."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Használd ugyanazokat a játékbeállításokat az összes példányodban."
@@ -3138,7 +3138,7 @@
     "message": "Hírdetési részletek másolása"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "Nem megfelelő vagy sértő hirdetést láttál? Másold ki az adatait, amíg megjelenik, majd küldd el a <support>Panda ügyfélszolgálatának</support>. Ellenőrizzük, és eltávolítjuk."
+    "message": "Nem megfelelő vagy sértő hirdetést láttál? Másold ki az adatait, amíg megjelenik, majd küldd el a <support>Panda Minecraft Launcher ügyfélszolgálatának</support>. Ellenőrizzük, és eltávolítjuk."
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "Várd meg amíg a hirdetés betölt, és próbáld újra."
@@ -3282,7 +3282,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -3321,7 +3321,7 @@
     "message": "Megosztanád velünk a tapasztalataidat a Panda Minecraft Launcher használatáról néhány kérdés megválaszolásával?"
   },
   "app.survey.footer": {
-    "message": "A visszajelzésed közvetlenül a Panda csapatához kerül, és segít a jövőbeli frissítések alakításában!"
+    "message": "A visszajelzésed közvetlenül a Panda Minecraft Launcher csapatához kerül, és segít a jövőbeli frissítések alakításában!"
   },
   "app.survey.no-thanks": {
     "message": "Nem, köszönöm"
@@ -3537,10 +3537,10 @@
     "message": "Más is lehet, mint a Minecraft felhasználóneve!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Barát Panda felhasználóneve..."
+    "message": "Barát Panda Minecraft Launcher felhasználóneve..."
   },
   "friends.add-friend.username.title": {
-    "message": "Mi a barátod Panda felhasználóneve?"
+    "message": "Mi a barátod Panda Minecraft Launcher felhasználóneve?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Vegyél fel barátokat</link>, hogy lásd mivel játszanak!"
@@ -3585,7 +3585,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Lépj be Panda fiókodba</link>, hogy felvehess barátokat és lásd mivel játszanak!"
+    "message": "<link>Lépj be Panda Minecraft Launcher fiókodba</link>, hogy felvehess barátokat és lásd mivel játszanak!"
   },
   "installation-settings.shared-instance.linked-title": {
     "message": "Összekapcsolt megosztott példány"

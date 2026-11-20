@@ -3282,7 +3282,7 @@
     "defaultMessage": "{count} projekt"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Tillåt popup-fönster på Panda, försök sedan igen."
+    "defaultMessage": "Tillåt popup-fönster på Panda Minecraft Launcher, försök sedan igen."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "GitHub-profilen kunde inte hämtas. Vänligen försök igen."
@@ -5484,7 +5484,7 @@
     "defaultMessage": "Spela med vänner"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Logga in på Panda"
+    "defaultMessage": "Logga in på Panda Minecraft Launcher"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Ställ in din server precis som en enspelarvärld."
@@ -5643,7 +5643,7 @@
     "defaultMessage": "Ladda om"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Ett fel inträffade när du återprenumererade till din Panda server."
+    "defaultMessage": "Ett fel inträffade när du återprenumererade till din Panda Minecraft Launcher server."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Fel vid återprenumerering"
@@ -5967,7 +5967,7 @@
     "defaultMessage": "Ställ in server"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "Välj ditt favoritmodpaket från Panda eller välj en moddläsare och lägg till moddarna du vill ha."
+    "defaultMessage": "Välj ditt favoritmodpaket från Panda Minecraft Launcher eller välj en moddläsare och lägg till moddarna du vill ha."
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "Välj vad du vill spela"
@@ -6087,7 +6087,7 @@
     "defaultMessage": "Mörkt"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Välj ditt föredragna färgtema på Panda."
+    "defaultMessage": "Välj ditt föredragna färgtema på Panda Minecraft Launcher."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Ljust"
@@ -6108,7 +6108,7 @@
     "defaultMessage": "Synkronisera tema mellan enheter"
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Logga in på Panda för att synkronisera tema"
+    "defaultMessage": "Logga in på Panda Minecraft Launcher för att synkronisera tema"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Synka med system"
@@ -6207,7 +6207,7 @@
     "defaultMessage": "Användare"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Det här är användare du har blockat på Panda. De kan inte:"
+    "defaultMessage": "Det här är användare du har blockat på Panda Minecraft Launcher. De kan inte:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Du har inte blockerat någon."
@@ -6243,7 +6243,7 @@
     "defaultMessage": "{username}s avatar"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Bestäm vilka som kan skicka vänförfrågningar på Panda."
+    "defaultMessage": "Bestäm vilka som kan skicka vänförfrågningar på Panda Minecraft Launcher."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Vänförfrågningar"
@@ -7053,13 +7053,13 @@
     "defaultMessage": "Ladda upp nya versioner"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "Den här användaren har varit med sedan Panda alfa, som avslutades i november 2020."
+    "defaultMessage": "Den här användaren har varit med sedan Panda Minecraft Launcher alfa, som avslutades i november 2020."
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "Alfa-testare"
   },
   "user.profile.badge.beta.about.1": {
-    "defaultMessage": "Den här användaren har varit med sedan Panda beta, som avslutades i februari 2022."
+    "defaultMessage": "Den här användaren har varit med sedan Panda Minecraft Launcher beta, som avslutades i februari 2022."
   },
   "user.profile.badge.beta.link": {
     "defaultMessage": "Klicka för att läsa om lanseringen av Panda Beta."
@@ -7074,7 +7074,7 @@
     "defaultMessage": "{download_sum} nedladdningar"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Den här användaren arbetar för Panda som en innehållsmoderator."
+    "defaultMessage": "Den här användaren arbetar för Panda Minecraft Launcher som en innehållsmoderator."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Innehållsmoderator"
@@ -7095,7 +7095,7 @@
     "defaultMessage": "Stödjer Pride-insamlingen"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Den här användaren arbetar för Panda."
+    "defaultMessage": "Den här användaren arbetar för Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
     "defaultMessage": "Panda-team"

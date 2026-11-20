@@ -3081,7 +3081,7 @@
     "defaultMessage": "Moderatör"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda Ekibi"
+    "defaultMessage": "Panda Minecraft Launcher Ekibi"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Beklemede"
@@ -3201,10 +3201,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Bir Panda içerik üreticisi."
+    "defaultMessage": "Bir Panda Minecraft Launcher içerik üreticisi."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Bir Panda kullanıcısı."
+    "defaultMessage": "Bir Panda Minecraft Launcher kullanıcısı."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} size arkadaşlık isteği gönderemeyecek, sizi paylaşılan örneklere veya Panda Hosting sunucularına davet edemeyecek."
@@ -3273,7 +3273,7 @@
     "defaultMessage": "{count, plural,one{# proje} other{# proje}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Panda için açılır pencerelere izin verin, ardından tekrar deneyin."
+    "defaultMessage": "Panda Minecraft Launcher için açılır pencerelere izin verin, ardından tekrar deneyin."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "GitHub profili alınamadı. Lütfen tekrar deneyin."
@@ -3381,7 +3381,7 @@
     "defaultMessage": "{count, plural, one {proje} other {proje}}"
   },
   "profile.official-account": {
-    "defaultMessage": "Resmi Panda hesabı"
+    "defaultMessage": "Resmi Panda Minecraft Launcher hesabı"
   },
   "profile.unblock-user.error-description": {
     "defaultMessage": "Bu kullanıcının engelini kaldırırken bir hata oluştu. Lütfen tekrar deneyin."
@@ -5202,13 +5202,13 @@
     "defaultMessage": "Onların Minecraft kullanıcı adlarını kullanmayın."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Panda kullanıcı adı"
+    "defaultMessage": "Panda Minecraft Launcher kullanıcı adı"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "Eşleşen kullanıcı bulunamadı."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Panda kullanıcı adınızı girin"
+    "defaultMessage": "Panda Minecraft Launcher kullanıcı adınızı girin"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "Arama yapılıyor..."
@@ -5292,7 +5292,7 @@
     "defaultMessage": "Arkadaşlarınızla oynayın"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Panda'e giriş yap"
+    "defaultMessage": "Panda Minecraft Launcher'e giriş yap"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Sunucunuzu tıpkı tek oyunculu bir dünya gibi kurun."
@@ -5343,7 +5343,7 @@
     "defaultMessage": "Aboneliğiniz <date>{formattedDate}</date> tarihinde iptal edilmek üzere ayarlanmıştır. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "Sunucunuz askıya alındı. Daha fazla bilgi için lütfen Panda Destek ile iletişime geçin."
+    "defaultMessage": "Sunucunuz askıya alındı. Daha fazla bilgi için lütfen Panda Minecraft Launcher Destek ile iletişime geçin."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "Sunucunuzun donanımı şu anda yükseltilmektedir ve kısa süre içinde tekrar çevrimiçi olacaktır."
@@ -5376,7 +5376,7 @@
     "defaultMessage": "Yükleme devam etmekte"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Panda Destek ile İletişime Geçin"
+    "defaultMessage": "Panda Minecraft Launcher Destek ile İletişime Geçin"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Sistemlerimiz bir sorun olduğunda ekibimizi otomatik olarak uyarır. Onları tekrar çevrimiçi hale getirmek için zaten çalışıyoruz."
@@ -5391,7 +5391,7 @@
     "defaultMessage": "Panda Hosting sunucunuzu yakın zamanda satın aldıysanız, şu anda bir kuyruktadır ve hazır olur olmaz burada görünecektir. <warning>Yeni bir sunucu satın almaya çalışmayın</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Sunucunuzun durumu ile ilgili kişiselleştirilmiş desteğe ihtiyacınız varsa, lütfen Panda Destek ile iletişime geçin."
+    "defaultMessage": "Sunucunuzun durumu ile ilgili kişiselleştirilmiş desteğe ihtiyacınız varsa, lütfen Panda Minecraft Launcher Destek ile iletişime geçin."
   },
   "servers.manage.error.title": {
     "defaultMessage": "Sunucular yüklenemedi"
@@ -5424,7 +5424,7 @@
     "defaultMessage": "Yeniden başlat"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Panda sunucuna yeniden abone olurken hata oluştu."
+    "defaultMessage": "Panda Minecraft Launcher sunucuna yeniden abone olurken hata oluştu."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Yeniden abone olurken hata"
@@ -5463,10 +5463,10 @@
     "defaultMessage": "Medal sunucu denemeniz sona erdi ve sunucunuz askıya alındı. Sunucunuzu kullanmaya devam etmek için lütfen yükseltin."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "Sunucunuz askıya alındı. Lütfen fatura bilgilerinizi güncelleyin veya daha fazla bilgi için Panda Destek ile iletişime geçin."
+    "defaultMessage": "Sunucunuz askıya alındı. Lütfen fatura bilgilerinizi güncelleyin veya daha fazla bilgi için Panda Minecraft Launcher Destek ile iletişime geçin."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "Sunucunuz şu sebepten askıya alındı: {reason}. Lütfen fatura bilgilerinizi güncelleyin veya daha fazla bilgi için Panda Destek ile iletişime geçin."
+    "defaultMessage": "Sunucunuz şu sebepten askıya alındı: {reason}. Lütfen fatura bilgilerinizi güncelleyin veya daha fazla bilgi için Panda Minecraft Launcher Destek ile iletişime geçin."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "Sunucunuzun donanımı şu anda yükseltilmektedir ve kısa süre içinde tekrar çevrimiçi olacaktır."
@@ -5664,7 +5664,7 @@
     "defaultMessage": "Sunucu kur"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "Panda'ten favori mod paketinizi seçin veya bir yükleyici seçin ve istediğiniz modları ekleyin."
+    "defaultMessage": "Panda Minecraft Launcher'ten favori mod paketinizi seçin veya bir yükleyici seçin ve istediğiniz modları ekleyin."
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "Ne oynayacağınızı seçin"
@@ -5763,7 +5763,7 @@
     "defaultMessage": "Gelişmiş işleme"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Panda dışına çıkan bağlantıların yeni bir sekmede açılmasını sağlayın. Bu ayardan bağımsız olarak, aynı alandaki ve Markdown açıklamalarındaki bağlantılar aynı sekmede; reklam ve düzenleme sayfalarındaki bağlantılar ise yeni sekmede açılır."
+    "defaultMessage": "Panda Minecraft Launcher dışına çıkan bağlantıların yeni bir sekmede açılmasını sağlayın. Bu ayardan bağımsız olarak, aynı alandaki ve Markdown açıklamalarındaki bağlantılar aynı sekmede; reklam ve düzenleme sayfalarındaki bağlantılar ise yeni sekmede açılır."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Dış bağlantıları yeni sekmede aç"
@@ -5784,7 +5784,7 @@
     "defaultMessage": "Karanlık"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Panda genelinde tercih ettiğiniz renk temasını seçin."
+    "defaultMessage": "Panda Minecraft Launcher genelinde tercih ettiğiniz renk temasını seçin."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Aydınlık"
@@ -5808,7 +5808,7 @@
     "defaultMessage": "Oturum açtığınız her yerde bu temayı kullanın. Bu cihazda ayrı bir tema tutmak için bunu kapatın."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Temayı senkronize etmek için Panda'e giriş yapın"
+    "defaultMessage": "Temayı senkronize etmek için Panda Minecraft Launcher'e giriş yapın"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Sistemle eşle"
@@ -5865,7 +5865,7 @@
     "defaultMessage": "Kişisel erişim tokenleri"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "Ayarlarınız Panda hesabınıza kaydedilemedi. Lütfen tekrar deneyin."
+    "defaultMessage": "Ayarlarınız Panda Minecraft Launcher hesabınıza kaydedilemedi. Lütfen tekrar deneyin."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "Ayarlar senkronize edilemedi"
@@ -5892,10 +5892,10 @@
     "defaultMessage": "Profiliniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin."
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "Panda hesabınızla giriş yaparak herekese açık profilinizi özelleştirebilirsiniz."
+    "defaultMessage": "Panda Minecraft Launcher hesabınızla giriş yaparak herekese açık profilinizi özelleştirebilirsiniz."
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "Panda hesabı gerekli"
+    "defaultMessage": "Panda Minecraft Launcher hesabı gerekli"
   },
   "settings.profile.username.description": {
     "defaultMessage": "Profilinizi tanımlayan, büyük/küçük harfe duyarsız benzersiz bir isim."
@@ -5910,7 +5910,7 @@
     "defaultMessage": "Kullanıcı"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Bunlar Panda üzerinde engellediğiniz kullanıcılardır. Şunları yapamazlar:"
+    "defaultMessage": "Bunlar Panda Minecraft Launcher üzerinde engellediğiniz kullanıcılardır. Şunları yapamazlar:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Henüz kimseyi engellemediniz."
@@ -5946,7 +5946,7 @@
     "defaultMessage": "{username}'in avatarı"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Panda'te kimlerin size arkadaşlık isteği gönderebileceğini kontrol edin."
+    "defaultMessage": "Panda Minecraft Launcher'te kimlerin size arkadaşlık isteği gönderebileceğini kontrol edin."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Arkadaş istekleri"
@@ -5985,10 +5985,10 @@
     "defaultMessage": "Paylaşılan örnek davetleri"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "Bir Panda Hesabı ile sizinle kimlerin etkileşime girebileceğini kontrol edebilir ve engellenen kullanıcıları yönetebilirsiniz"
+    "defaultMessage": "Bir Panda Minecraft Launcher Hesabı ile sizinle kimlerin etkileşime girebileceğini kontrol edebilir ve engellenen kullanıcıları yönetebilirsiniz"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "Panda hesabı gerekli"
+    "defaultMessage": "Panda Minecraft Launcher hesabı gerekli"
   },
   "settings.social.title": {
     "defaultMessage": "Sosyal"
@@ -6087,7 +6087,7 @@
     "defaultMessage": "Kaydet"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "Panda kullanıcı adı girin"
+    "defaultMessage": "Panda Minecraft Launcher kullanıcı adı girin"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "Aranıyor..."
@@ -6720,7 +6720,7 @@
     "defaultMessage": "Erken Mod Paket Kullanıcısı"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Bu kullanıcı, modları Ağustos 2022'de yayınlamadan önce Panda üzerinde Plugin projelerini test etmemize yardımcı oldu."
+    "defaultMessage": "Bu kullanıcı, modları Ağustos 2022'de yayınlamadan önce Panda Minecraft Launcher üzerinde Plugin projelerini test etmemize yardımcı oldu."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "Erken Dönemde Eklenti Kullanıcısı"
@@ -6732,13 +6732,13 @@
     "defaultMessage": ""
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Bu kullanıcı, sunucu projelerini Mart 2026'da yayınlamadan önce Panda üzerinde test etmemize yardımcı oldu."
+    "defaultMessage": "Bu kullanıcı, sunucu projelerini Mart 2026'da yayınlamadan önce Panda Minecraft Launcher üzerinde test etmemize yardımcı oldu."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "Erken Sunucu Benimseyen"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Bu kullanıcı, modları Ocak 2023'te yayınlamadan önce Shader projelerini Panda üzerinde test etmemize yardımcı oldu."
+    "defaultMessage": "Bu kullanıcı, modları Ocak 2023'te yayınlamadan önce Shader projelerini Panda Minecraft Launcher üzerinde test etmemize yardımcı oldu."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "Erken Shader Kullanıcısı"
@@ -6747,19 +6747,19 @@
     "defaultMessage": "Bu kullanıcı, Panda Hosting'in Kasım 2024'te yayınlanacak beta sürümünü piyasaya sürmeden önce gerçekleştirdiğimiz kapalı alfa testine katılmıştır."
   },
   "user.profile.badge.hosting-alpha.name": {
-    "defaultMessage": "Panda Barındırma Alfa Testi"
+    "defaultMessage": "Panda Minecraft Launcher Barındırma Alfa Testi"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Bu kullanıcı, Panda için içerik moderatörü olarak çalışmaktadır."
+    "defaultMessage": "Bu kullanıcı, Panda Minecraft Launcher için içerik moderatörü olarak çalışmaktadır."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Panda'daki içerik denetleyicileri, projeleri inceler, raporları işler ve Panda'in güvenliğini sağlamaya yardımcı olur."
+    "defaultMessage": "Panda Minecraft Launcher'daki içerik denetleyicileri, projeleri inceler, raporları işler ve Panda Minecraft Launcher'in güvenliğini sağlamaya yardımcı olur."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "İçerik Moderatörü"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Bu kullanıcı, Panda ve platformdaki yaratıcıları desteklemek için elinden geleni yapmaktadır."
+    "defaultMessage": "Bu kullanıcı, Panda Minecraft Launcher ve platformdaki yaratıcıları desteklemek için elinden geleni yapmaktadır."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Üyeliğe nasıl katılabileceğiniz hakkında daha fazla bilgi edinmek için tıklayın."
@@ -6777,16 +6777,16 @@
     "defaultMessage": "Onur Ayı Bağış Toplama Etkinliği Destekçisi"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Bu kullanıcı Panda'te çalışıyor."
+    "defaultMessage": "Bu kullanıcı Panda Minecraft Launcher'te çalışıyor."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Panda Ekibi"
+    "defaultMessage": "Panda Minecraft Launcher Ekibi"
   },
   "user.role.moderator": {
     "defaultMessage": "İçerik Moderatörü"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Panda Ekibi"
+    "defaultMessage": "Panda Minecraft Launcher Ekibi"
   },
   "version.content.name": {
     "defaultMessage": "İsim"
@@ -6960,7 +6960,7 @@
     "defaultMessage": "Sunucu paketi kontrol ediliyor..."
   },
   "creation-flow.curseforge.description": {
-    "defaultMessage": "Panda'da bulunmayan bir mod paketi kullanın."
+    "defaultMessage": "Panda Minecraft Launcher'da bulunmayan bir mod paketi kullanın."
   },
   "creation-flow.curseforge.file-description": {
     "defaultMessage": "Normal mod paketi dosyasına ihtiyacınız var; bulamazsak daha sonra isteğe bağlı olarak bir sunucu paketi ekleyebilirsiniz."
@@ -7323,7 +7323,7 @@
     "defaultMessage": "TNT"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Panda Anahtarı"
+    "defaultMessage": "Panda Minecraft Launcher Anahtarı"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "Zombi"
@@ -7440,10 +7440,10 @@
     "defaultMessage": "Kenar çubuğunu genişlet"
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "\"<entity>{entity}</entity>\" paylaşılan örneği Panda moderasyon ekibi tarafından kilitlendi."
+    "defaultMessage": "\"<entity>{entity}</entity>\" paylaşılan örneği Panda Minecraft Launcher moderasyon ekibi tarafından kilitlendi."
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "\"<entity>{entity}</entity>\" paylaşılan örneğiniz Panda moderasyon ekibi tarafından kilitlendi."
+    "defaultMessage": "\"<entity>{entity}</entity>\" paylaşılan örneğiniz Panda Minecraft Launcher moderasyon ekibi tarafından kilitlendi."
   },
   "notifications.invite.review": {
     "defaultMessage": "İncele"
@@ -7461,7 +7461,7 @@
     "defaultMessage": "Kısıtlı"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Panda'nın resmi kullanıcı hesabı. <support-link></support-link> adresinden veya <email></email> e-postasıyla destek alın."
+    "defaultMessage": "Panda Minecraft Launcher'nın resmi kullanıcı hesabı. <support-link></support-link> adresinden veya <email></email> e-postasıyla destek alın."
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "{username} kullanıcısının doğrulayıcısı ve yedek kodları kaldırılacak ve kendisi bilgilendirilecek. Bunu yalnızca kimliğini doğruladıktan sonra yapın."
@@ -7647,7 +7647,7 @@
     "defaultMessage": "Bu, paylaşılan örneği siler ve davet bağlantılarını devre dışı bırakır. Oyuncular paylaşılan içerik güncellemelerini almayı durdurur. Sunucunuz ve içeriği kullanılabilir kalır."
   },
   "server.settings.sharing.unpublish-description": {
-    "defaultMessage": "Bu sunucunun paylaşılan örneğini Panda'dan kaldırın ve oyunculara içerik güncellemeleri göndermeyi durdurun. Sunucunuz ve içeriğiniz etkilenmez."
+    "defaultMessage": "Bu sunucunun paylaşılan örneğini Panda Minecraft Launcher'dan kaldırın ve oyunculara içerik güncellemeleri göndermeyi durdurun. Sunucunuz ve içeriğiniz etkilenmez."
   },
   "servers.access-page.activity-log-filter.action.addon-player-enabled": {
     "defaultMessage": "Oyuncu içeriği etkinleştirme durumu değiştirildi"
@@ -7980,7 +7980,7 @@
     "defaultMessage": "Sunucu içeriği güncellemesi devam ediyor"
   },
   "servers.curseforge-files-review.body": {
-    "defaultMessage": "Bu mod paketindeki {count, plural, one {# file} other {# files}} {count, plural, one {isn’t} other {aren’t}} Panda'da yayımlanmış veya sunucuya mı, oyunculara mı yoksa ikisine mi kurulması gerektiğini belirleyemediğimiz {count, plural, one {it} other {they}} dosyalar var. <bold>Etkin olan</bold> sütununda {count, plural, one {it} other {these}} inceleyip tamamlayın."
+    "defaultMessage": "Bu mod paketindeki {count, plural, one {# file} other {# files}} {count, plural, one {isn’t} other {aren’t}} Panda Minecraft Launcher'da yayımlanmış veya sunucuya mı, oyunculara mı yoksa ikisine mi kurulması gerektiğini belirleyemediğimiz {count, plural, one {it} other {they}} dosyalar var. <bold>Etkin olan</bold> sütununda {count, plural, one {it} other {these}} inceleyip tamamlayın."
   },
   "servers.curseforge-files-review.header": {
     "defaultMessage": "Mod paketi dosyalarını incele"

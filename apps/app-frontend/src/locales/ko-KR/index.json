@@ -204,7 +204,7 @@
     "message": "홈 및 콘텐츠"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "이 기기의 라이브러리에서 숨긴 인스턴스입니다. 숨겨진 인스턴스는 Panda 계정과 동기화되지 않습니다."
+    "message": "이 기기의 라이브러리에서 숨긴 인스턴스입니다. 숨겨진 인스턴스는 Panda Minecraft Launcher 계정과 동기화되지 않습니다."
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "아직 숨긴 인스턴스가 없습니다."
@@ -231,7 +231,7 @@
     "message": "로그인한 모든 기기에서 이 설정을 사용합니다. 이 기기에서 별도의 설정을 사용하려면 이 옵션을 끄세요."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Panda 계정에 로그인하여 설정을 동기화하세요."
+    "message": "Panda Minecraft Launcher 계정에 로그인하여 설정을 동기화하세요."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "기기 간 동기화"
@@ -486,7 +486,7 @@
     "message": "로그인한 모든 곳에서 이 기능 설정을 사용합니다. 이를 끄면 이 기기에서 별도의 설정을 유지합니다."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Panda 계정에 로그인하여 설정을 동기화합니다."
+    "message": "Panda Minecraft Launcher 계정에 로그인하여 설정을 동기화합니다."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "기기 간 동기화"
@@ -903,7 +903,7 @@
     "message": "이 공유 인스턴스의 업데이트를 받으려면 로그인하세요."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "잘못된 Panda 계정을 사용하고 있습니다"
+    "message": "잘못된 Panda Minecraft Launcher 계정을 사용하고 있습니다"
   },
   "app.instance.shortcut.created": {
     "message": "바로가기 생성됨"
@@ -1398,7 +1398,7 @@
     "message": "라이브러리"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {본인이 소유한 #개의 공유 인스턴스는 Panda 서버에서 삭제되며,} other {본인이 소유한 #개의 공유 인스턴스는 Panda 서버에서 삭제되며,}} 이를 사용 중인 사용자들은 더 이상 업데이트를 받지 못하게 됩니다. {leaveCount, plural, one {다른 공유 인스턴스에 대한 접근 권한이 사라지며, 다시 참여하려면 새로운 초대장이 필요합니다.} other {다른 공유 인스턴스에 대한 접근 권한이 사라지며, 다시 참여하려면 새로운 초대장이 필요합니다.}} 이 모든 항목이 라이브러리에서 삭제됩니다."
+    "message": "{unpublishCount, plural, one {본인이 소유한 #개의 공유 인스턴스는 Panda Minecraft Launcher 서버에서 삭제되며,} other {본인이 소유한 #개의 공유 인스턴스는 Panda Minecraft Launcher 서버에서 삭제되며,}} 이를 사용 중인 사용자들은 더 이상 업데이트를 받지 못하게 됩니다. {leaveCount, plural, one {다른 공유 인스턴스에 대한 접근 권한이 사라지며, 다시 참여하려면 새로운 초대장이 필요합니다.} other {다른 공유 인스턴스에 대한 접근 권한이 사라지며, 다시 참여하려면 새로운 초대장이 필요합니다.}} 이 모든 항목이 라이브러리에서 삭제됩니다."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "게시 취소 및 공유 인스턴스 떠나기"
@@ -1560,7 +1560,7 @@
     "message": "프로필 불러오는 중..."
   },
   "app.nav.modrinth-account": {
-    "message": "Panda 계정"
+    "message": "Panda Minecraft Launcher 계정"
   },
   "app.nav.modrinth-hosting": {
     "message": "Panda Hosting"
@@ -1794,7 +1794,7 @@
     "message": "ZIP 내보내기"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda 스크린샷.zip"
+    "message": "Panda Minecraft Launcher 스크린샷.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} 스크린샷.zip"
@@ -3060,7 +3060,7 @@
     "message": "앱 경로"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "앱 로그와 진단 데이터를 ZIP 파일로 내보내 Panda 지원팀에 공유할 수 있습니다."
+    "message": "앱 로그와 진단 데이터를 ZIP 파일로 내보내 Panda Minecraft Launcher 지원팀에 공유할 수 있습니다."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "디버그 정보 내보내기"
@@ -3402,7 +3402,7 @@
     "message": "광고 정보 복사"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "부적절하거나 불쾌감을 주는 광고를 발견하셨나요? 광고가 표시되는 동안 광고 정보를 복사하여 <support>Panda 지원팀</support>에 보내 주세요. 검토 후 해당 광고를 삭제하겠습니다."
+    "message": "부적절하거나 불쾌감을 주는 광고를 발견하셨나요? 광고가 표시되는 동안 광고 정보를 복사하여 <support>Panda Minecraft Launcher 지원팀</support>에 보내 주세요. 검토 후 해당 광고를 삭제하겠습니다."
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "광고를 불러올 때까지 기다린 후 다시 시도하세요."
@@ -3558,13 +3558,13 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda 프라이드"
+    "message": "Panda Minecraft Launcher 프라이드"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "프라이드 월간 동안 Panda 프라이드 모금 행사에 기부하여 이 스킨들을 받았습니다."
+    "message": "프라이드 월간 동안 Panda Minecraft Launcher 프라이드 모금 행사에 기부하여 이 스킨들을 받았습니다."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3600,7 +3600,7 @@
     "message": "Panda Minecraft Launcher 이용 경험에 대한 몇 가지 질문에 답변해 주시겠어요?"
   },
   "app.survey.footer": {
-    "message": "이 피드백은 Panda 팀에 직접 전달되어 향후 업데이트에 반영됩니다!"
+    "message": "이 피드백은 Panda Minecraft Launcher 팀에 직접 전달되어 향후 업데이트에 반영됩니다!"
   },
   "app.survey.no-thanks": {
     "message": "괜찮습니다"
@@ -3609,7 +3609,7 @@
     "message": "설문 참여하기"
   },
   "app.survey.title": {
-    "message": "안녕하세요, Panda 사용자님!"
+    "message": "안녕하세요, Panda Minecraft Launcher 사용자님!"
   },
   "app.sync-instances-update.choose-source.data-packs": {
     "message": "데이터 팩을 복사할 인스턴스를 선택합니다. 팩은 초기 동기화에만 사용되며, 이후에는 아무 인스턴스에서 편집할 수 있습니다."
@@ -3822,10 +3822,10 @@
     "message": "Minecraft 사용자명과 다를 수 있습니다!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Panda 사용자명 입력..."
+    "message": "Panda Minecraft Launcher 사용자명 입력..."
   },
   "friends.add-friend.username.title": {
-    "message": "친구의 Panda 사용자명이 무엇인가요?"
+    "message": "친구의 Panda Minecraft Launcher 사용자명이 무엇인가요?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>친구 추가</link>를 통해 친구들이 무엇을 하는지 확인해 보세요!"
@@ -3870,10 +3870,10 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Panda 계정으로 로그인</link>하여 친구를 초대하고 무엇을 플레이 중인지 확인하세요!"
+    "message": "<link>Panda Minecraft Launcher 계정으로 로그인</link>하여 친구를 초대하고 무엇을 플레이 중인지 확인하세요!"
   },
   "hosting.play.account-changed": {
-    "message": "Panda 계정이 변경되었습니다. 서버 플레이를 다시 눌러 계속합니다."
+    "message": "Panda Minecraft Launcher 계정이 변경되었습니다. 서버 플레이를 다시 눌러 계속합니다."
   },
   "hosting.play.no-address": {
     "message": "아직 서버에 연결 주소가 없습니다."
@@ -4578,7 +4578,7 @@
     "message": "계정 생성"
   },
   "modal.modrinth-account-required.description": {
-    "message": "이 기능을 사용하려면 Panda 계정에 로그인해야 합니다."
+    "message": "이 기능을 사용하려면 Panda Minecraft Launcher 계정에 로그인해야 합니다."
   },
   "modal.modrinth-account-required.header": {
     "message": "계정 필요"
@@ -4587,10 +4587,10 @@
     "message": "브라우저 다시 열기"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Panda 로그인"
+    "message": "Panda Minecraft Launcher 로그인"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Panda 계정 로그인"
+    "message": "Panda Minecraft Launcher 계정 로그인"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "로그인 중"

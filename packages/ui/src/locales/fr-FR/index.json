@@ -3204,7 +3204,7 @@
     "defaultMessage": "Panda Minecraft Launcher s'ouvrira automatiquement..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "L'application Panda est en cours d'ouverture"
+    "defaultMessage": "L'application Panda Minecraft Launcher Minecraft Launcher est en cours d'ouverture"
   },
   "modal.open-in-app.why-use": {
     "defaultMessage": "Pourquoi utiliser Panda Minecraft Launcher"
@@ -3396,10 +3396,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Un créateur Panda."
+    "defaultMessage": "Un créateur Panda Minecraft Launcher."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Un utilisateur Panda."
+    "defaultMessage": "Un utilisateur Panda Minecraft Launcher."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} ne va pas pouvoir vous envoyer de demande d'ami, vous inviter aux instances partagées ni à des serveurs Panda Hosting."
@@ -3477,7 +3477,7 @@
     "defaultMessage": "{count, plural,one {# projet} other {# projets}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Autorisez les pop-ups pour Panda, puis réessayez."
+    "defaultMessage": "Autorisez les pop-ups pour Panda Minecraft Launcher, puis réessayez."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Le profil GitHub n'a pas pu être récupéré. Veuillez réessayer."
@@ -3579,10 +3579,10 @@
     "defaultMessage": "Restreint"
   },
   "profile.official-account": {
-    "defaultMessage": "Compte Panda officiel"
+    "defaultMessage": "Compte Panda Minecraft Launcher officiel"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Le compte utilisateur officiel de Panda. Obtenez de l’aide via <support-link></support-link> ou par e-mail à <email></email>"
+    "defaultMessage": "Le compte utilisateur officiel de Panda Minecraft Launcher. Obtenez de l’aide via <support-link></support-link> ou par e-mail à <email></email>"
   },
   "profile.reset-2fa.admonition-title": {
     "defaultMessage": "Voulez-vous vraiment réinitialiser l’authentification à deux facteurs ?"
@@ -5568,13 +5568,13 @@
     "defaultMessage": "N'utilisez pas son nom d'utilisateur Minecraft."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Nom d'utilisateur Panda"
+    "defaultMessage": "Nom d'utilisateur Panda Minecraft Launcher"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "Aucun utilisateur correspondant trouvé."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Saisissez le nom d'utilisateur Panda"
+    "defaultMessage": "Saisissez le nom d'utilisateur Panda Minecraft Launcher"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "Recherche en cours..."
@@ -5661,13 +5661,13 @@
     "defaultMessage": "Installez des mods en un clic"
   },
   "servers.list-empty.play-with-friends-description": {
-    "defaultMessage": "Invitez vos amis à rejoindre votre serveur en un clic depuis l'application Panda."
+    "defaultMessage": "Invitez vos amis à rejoindre votre serveur en un clic depuis l'application Panda Minecraft Launcher Minecraft Launcher."
   },
   "servers.list-empty.play-with-friends-title": {
     "defaultMessage": "Jouez avec des amis"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Connectez-vous à Panda"
+    "defaultMessage": "Connectez-vous à Panda Minecraft Launcher"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Mettez votre serveur en place tout comme un monde solo."
@@ -5724,7 +5724,7 @@
     "defaultMessage": "Votre abonnement est configuré pour annuler le <date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "Votre serveur a été suspendu. Veuillez contacter Panda Support pour plus d'informations."
+    "defaultMessage": "Votre serveur a été suspendu. Veuillez contacter Panda Minecraft Launcher Support pour plus d'informations."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "Le matériel de votre serveur est actuellement mis à niveau et sera de nouveau en ligne sous peu."
@@ -5760,7 +5760,7 @@
     "defaultMessage": "Téléchargement en cours"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Contacter Panda Support"
+    "defaultMessage": "Contacter Panda Minecraft Launcher Support"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Nos systèmes alertent automatiquement notre équipe lorsqu'il y a un problème. Nous travaillons déjà à les remettre en ligne."
@@ -5775,7 +5775,7 @@
     "defaultMessage": "Si vous avez acheté votre serveur Panda Hosting récemment, alors il fait actuellement la queue et apparaîtra ici dès qu'il est prêt. <warning>N'essayez pas d'acheter un nouveau serveur.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Si vous avez besoin de soutien personnalisé à propos du status de votre serveur, veuillez contacter Panda Support."
+    "defaultMessage": "Si vous avez besoin de soutien personnalisé à propos du status de votre serveur, veuillez contacter Panda Minecraft Launcher Support."
   },
   "servers.manage.error.title": {
     "defaultMessage": "Impossible de charger les serveurs"
@@ -5808,7 +5808,7 @@
     "defaultMessage": "Recharger"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Une erreur est survenue lors du réabonnement à votre serveur Panda."
+    "defaultMessage": "Une erreur est survenue lors du réabonnement à votre serveur Panda Minecraft Launcher."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Erreur lors du réabonnement"
@@ -5847,10 +5847,10 @@
     "defaultMessage": "La période d'essai de votre serveur Medal est terminé et a été suspendue. Veuillez mettre votre serveur à niveau pour continuer à l'utiliser."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "Votre serveur a été suspendu. Veuillez mettre vos Informations de facturation à jour ou contactez Panda Support pour plus d'informations."
+    "defaultMessage": "Votre serveur a été suspendu. Veuillez mettre vos Informations de facturation à jour ou contactez Panda Minecraft Launcher Support pour plus d'informations."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "Votre serveur a été suspendu : {reason}. Veuillez mettre vos Informations de facturation à jour ou contactez Panda Support pour plus d'informations."
+    "defaultMessage": "Votre serveur a été suspendu : {reason}. Veuillez mettre vos Informations de facturation à jour ou contactez Panda Minecraft Launcher Support pour plus d'informations."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "Le matériel de votre serveur est actuellement mis à niveau et sera de nouveau en ligne sous peu."
@@ -6003,7 +6003,7 @@
     "defaultMessage": "Où souhaitez-vous que votre serveur soit situé ?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Région non répertoriée ? <link>Faites-nous savoir où vous aimeriez voir les prochains hébergements Panda !</link>"
+    "defaultMessage": "Région non répertoriée ? <link>Faites-nous savoir où vous aimeriez voir les prochains hébergements Panda Minecraft Launcher !</link>"
   },
   "servers.remove-access-modal.added-label": {
     "defaultMessage": "Ajouté {time}"
@@ -6180,7 +6180,7 @@
     "defaultMessage": "Rendu avancé"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Les liens qui vont en dehors de Panda s'ouvrent dans un nouvel onglet. Peu importe ce paramètre, les liens sur le même domaine et dans les descriptions Markdown s'ouvriront dans le même onglet, et les liens sur les publicités et les pages d'édition s'ouvriront dans un nouvel onglet."
+    "defaultMessage": "Les liens qui vont en dehors de Panda Minecraft Launcher s'ouvrent dans un nouvel onglet. Peu importe ce paramètre, les liens sur le même domaine et dans les descriptions Markdown s'ouvriront dans le même onglet, et les liens sur les publicités et les pages d'édition s'ouvriront dans un nouvel onglet."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Ouvre les liens externes dans un nouvel onglet"
@@ -6201,7 +6201,7 @@
     "defaultMessage": "Sombre"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Sélectionnez votre thème de couleur préféré à travers Panda."
+    "defaultMessage": "Sélectionnez votre thème de couleur préféré à travers Panda Minecraft Launcher."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Clair"
@@ -6225,7 +6225,7 @@
     "defaultMessage": "Utilisez ce thème partout où vous êtes connecté. Désactivez-le pour conserver un thème distinct sur cet appareil."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Connectez-vous à Panda pour synchroniser le thème"
+    "defaultMessage": "Connectez-vous à Panda Minecraft Launcher pour synchroniser le thème"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Synchroniser avec le système"
@@ -6246,7 +6246,7 @@
     "defaultMessage": "Résultats de recherche"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "Environ {percentage}% de l'application Panda est disponible dans cette langue."
+    "defaultMessage": "Environ {percentage}% de l'application Panda Minecraft Launcher Minecraft Launcher est disponible dans cette langue."
   },
   "settings.language.coverage.label": {
     "defaultMessage": "{percentage}% supporté"
@@ -6282,7 +6282,7 @@
     "defaultMessage": "Jetons d'accès personnel"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "Vos paramètres n'ont pas pu être enregistrés sur votre compte Panda. Veuillez réessayer."
+    "defaultMessage": "Vos paramètres n'ont pas pu être enregistrés sur votre compte Panda Minecraft Launcher. Veuillez réessayer."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "Échec de la synchronisation des paramètres"
@@ -6306,10 +6306,10 @@
     "defaultMessage": "Une erreur s'est produite en essayant de mettre à jour votre profil. Veuillez réessayer."
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "Connectez-vous avec votre compte Panda pour personnaliser votre profil public."
+    "defaultMessage": "Connectez-vous avec votre compte Panda Minecraft Launcher pour personnaliser votre profil public."
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "Compte Panda requis"
+    "defaultMessage": "Compte Panda Minecraft Launcher requis"
   },
   "settings.profile.username.description": {
     "defaultMessage": "Un nom unique, insensible à la casse, permettant d'identifier votre profil."
@@ -6324,7 +6324,7 @@
     "defaultMessage": "Utilisateur"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Voici les utilisateurs que vous avez bloqués sur Panda. Ils ne peuvent pas :"
+    "defaultMessage": "Voici les utilisateurs que vous avez bloqués sur Panda Minecraft Launcher. Ils ne peuvent pas :"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Vous n'avez bloqué personne."
@@ -6360,7 +6360,7 @@
     "defaultMessage": "avatar de {username}"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Contrôlez qui peut vous envoyer des demandes d'ami sur Panda."
+    "defaultMessage": "Contrôlez qui peut vous envoyer des demandes d'ami sur Panda Minecraft Launcher."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Demandes d'ami"
@@ -6399,10 +6399,10 @@
     "defaultMessage": "Invitations d'instance partagées"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "Vous pouvez contrôler qui peut interagir avec vous, et gérer les utilisateurs bloqués avec un compte Panda"
+    "defaultMessage": "Vous pouvez contrôler qui peut interagir avec vous, et gérer les utilisateurs bloqués avec un compte Panda Minecraft Launcher"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "Compte Panda requis"
+    "defaultMessage": "Compte Panda Minecraft Launcher requis"
   },
   "settings.social.title": {
     "defaultMessage": "Social"
@@ -6501,7 +6501,7 @@
     "defaultMessage": "Enregistrer"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "Entrer le nom d'utilisateur Panda"
+    "defaultMessage": "Entrer le nom d'utilisateur Panda Minecraft Launcher"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "Recherche..."
@@ -7146,7 +7146,7 @@
     "defaultMessage": "Cet utilisateur existe depuis Panda Beta, qui a pris fin en février 2022."
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "Cliquez pour en savoir plus sur le lancement de la bêta de Panda."
+    "defaultMessage": "Cliquez pour en savoir plus sur le lancement de la bêta de Panda Minecraft Launcher."
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "Bêta Testeur"
@@ -7170,7 +7170,7 @@
     "defaultMessage": "Pionnier des Modpacks"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Cet utilisateur nous a aidés à tester les projets de Plugins sur Panda avant leur lancement en août 2022."
+    "defaultMessage": "Cet utilisateur nous a aidés à tester les projets de Plugins sur Panda Minecraft Launcher avant leur lancement en août 2022."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "Pionnier des Plugins"
@@ -7182,13 +7182,13 @@
     "defaultMessage": "Pionner des Resource Packs"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Cet utilisateur nous a aidés à tester les projets de Serveurs sur Panda avant leur lancement en mars 2026."
+    "defaultMessage": "Cet utilisateur nous a aidés à tester les projets de Serveurs sur Panda Minecraft Launcher avant leur lancement en mars 2026."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "Pionnier des Serveurs"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Cet utilisateur nous a aidés à tester les projets de Shaders sur Panda avant leur lancement en janvier 2023."
+    "defaultMessage": "Cet utilisateur nous a aidés à tester les projets de Shaders sur Panda Minecraft Launcher avant leur lancement en janvier 2023."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "Pionnier des Shaders"
@@ -7200,16 +7200,16 @@
     "defaultMessage": "Testeur Alpha de Panda Hosting"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Cet utilisateur travaille pour Panda en tant que modérateur de contenu."
+    "defaultMessage": "Cet utilisateur travaille pour Panda Minecraft Launcher en tant que modérateur de contenu."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Les modérateurs de contenu sur Panda examinent les projets, traitent les signalements et aident à maintenir la sécurité de Panda."
+    "defaultMessage": "Les modérateurs de contenu sur Panda Minecraft Launcher examinent les projets, traitent les signalements et aident à maintenir la sécurité de Panda Minecraft Launcher."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Modérateur de contenu"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Cet utilisateur s'investit à fond pour soutenir Panda et les créateurs sur la plateforme."
+    "defaultMessage": "Cet utilisateur s'investit à fond pour soutenir Panda Minecraft Launcher et les créateurs sur la plateforme."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Cliquez pour en savoir plus sur la façon de devenir membre."
@@ -7218,7 +7218,7 @@
     "defaultMessage": "Membre Panda+"
   },
   "user.profile.badge.pride.about.1": {
-    "defaultMessage": "Cet utilisateur a participé à au moins l'une des collectes de fonds de la Fierté de Panda pour la communauté LGBTQ+."
+    "defaultMessage": "Cet utilisateur a participé à au moins l'une des collectes de fonds de la Fierté de Panda Minecraft Launcher pour la communauté LGBTQ+."
   },
   "user.profile.badge.pride.link": {
     "defaultMessage": "Cliquez pour visiter notre dernière collecte de fonds Pride."
@@ -7227,7 +7227,7 @@
     "defaultMessage": "Pride Fundraiser Supporter"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Cet utilisateur travaille pour Panda."
+    "defaultMessage": "Cet utilisateur travaille pour Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
     "defaultMessage": "Panda Team"
@@ -7236,7 +7236,7 @@
     "defaultMessage": "Modérateur de contenu"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Équipe Panda"
+    "defaultMessage": "Équipe Panda Minecraft Launcher"
   },
   "version.content.name": {
     "defaultMessage": "Nom"

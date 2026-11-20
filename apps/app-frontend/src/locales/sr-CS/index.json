@@ -129,7 +129,7 @@
     "message": "Prihvati sve"
   },
   "app.ads-consent.body": {
-    "message": "Reklame omogućavaju da Panda radi i finansiraju isplate kreatorima. Naši partneri mogu da čuvaju i koriste kolačiće u aplikaciji da bi personalizovali reklame i merili performanse."
+    "message": "Reklame omogućavaju da Panda Minecraft Launcher radi i finansiraju isplate kreatorima. Naši partneri mogu da čuvaju i koriste kolačiće u aplikaciji da bi personalizovali reklame i merili performanse."
   },
   "app.ads-consent.manage": {
     "message": "Upravljaj podešavanjima"
@@ -591,7 +591,7 @@
     "message": "Instaliraj"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Ovu pozivnicu je kreirao drugi korisnik Pandaa, a ne sam Panda. Prihvataj pozivnice samo od osoba kojima veruješ."
+    "message": "Ovu pozivnicu je kreirao drugi korisnik Pandaa, a ne sam Panda Minecraft Launcher. Prihvataj pozivnice samo od osoba kojima veruješ."
   },
   "app.modal.install-to-play.mod-count": {
     "message": "{count, plural, one {# mod} other {# modova}}"
@@ -765,13 +765,13 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Ponos"
+    "message": "Panda Minecraft Launcher Ponos"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Dobio si ove skinove za donaciju za prikupljanje sredstava Panda Ponos tokom Meseca ponosa."
+    "message": "Dobio si ove skinove za donaciju za prikupljanje sredstava Panda Minecraft Launcher Ponos tokom Meseca ponosa."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -792,13 +792,13 @@
     "message": "Tiny Takeover"
   },
   "app.update-popup.body.download-complete": {
-    "message": "Preuzimanje Panda aplikacije v{version} je završeno. Ponovo učitaj da bi ažurirao sada ili automatski kada zatvoriš Panda aplikaciju."
+    "message": "Preuzimanje Panda Minecraft Launcher aplikacije v{version} je završeno. Ponovo učitaj da bi ažurirao sada ili automatski kada zatvoriš Panda Minecraft Launcher aplikaciju."
   },
   "app.update-popup.body.linux": {
-    "message": "Dostupna je Panda aplikacija v{version}. Koristi menadžer paketa da bi ažurirao za najnovije funkcije i ispravke!"
+    "message": "Dostupna je Panda Minecraft Launcher aplikacija v{version}. Koristi menadžer paketa da bi ažurirao za najnovije funkcije i ispravke!"
   },
   "app.update-popup.body.metered": {
-    "message": "Panda aplikacija v{version} je sada dostupna! Pošto si na mreži sa ograničenjem interneta, nismo je automatski preuzeli."
+    "message": "Panda Minecraft Launcher aplikacija v{version} je sada dostupna! Pošto si na mreži sa ograničenjem interneta, nismo je automatski preuzeli."
   },
   "app.update-popup.changelog": {
     "message": "Spisak promena"
@@ -897,7 +897,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Prijavi se na Panda račun</link> da bi dodao prijatelje i vidio šta igraju!"
+    "message": "<link>Prijavi se na Panda Minecraft Launcher račun</link> da bi dodao prijatelje i vidio šta igraju!"
   },
   "instance.add-server.add-and-play": {
     "message": "Dodaj i igraj"

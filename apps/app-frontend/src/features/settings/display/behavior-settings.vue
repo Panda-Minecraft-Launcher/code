@@ -42,7 +42,7 @@ const messages = defineMessages({
 	},
 	syncAcrossDevicesSignedOutTooltip: {
 		id: 'app.behavior-settings.sync-across-devices.signed-out-tooltip',
-		defaultMessage: 'Sign into a Panda account to sync settings.',
+		defaultMessage: 'Sign into a Panda Minecraft Launcher account to sync settings.',
 	},
 	startupAndNavigationTitle: {
 		id: 'app.behavior-settings.startup-and-navigation.title',
@@ -119,7 +119,7 @@ const messages = defineMessages({
 	unknownPackWarningDescription: {
 		id: 'app.appearance-settings.unknown-pack-warning.description',
 		defaultMessage:
-			"Show a safety warning before installing a Panda Pack (.mrpack) that isn't hosted on Panda.",
+			"Show a safety warning before installing a Panda Pack (.mrpack) that isn't hosted on Panda Minecraft Launcher.",
 	},
 	skipNonEssentialWarningsTitle: {
 		id: 'app.appearance-settings.skip-non-essential-warnings.title',

@@ -89,7 +89,7 @@ const messages = defineMessages({
 	},
 	modrinthSection: {
 		id: 'app.skins.section.modrinth',
-		defaultMessage: 'Panda',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 	defaultSkinsSection: {
 		id: 'app.skins.section.default-skins',

@@ -75,7 +75,7 @@
     "message": "Pumalpak ang pag-ayos ng Minecraft."
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Hindi maabot ang Panda"
+    "message": "Hindi maabot ang Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Walang permiso magsulat"
@@ -132,7 +132,7 @@
     "message": "Tanggapin lahat"
   },
   "app.ads-consent.body": {
-    "message": "Ginagawang posible ng mga advertisement ang Panda at pinopondohan nito ang mga bayad sa mga creator. Maaaring mag-imbak o mag-access ng cookies ang aming mga partner sa app upang i-personalize ang mga advertisement at sukatin ang pagsasagawa."
+    "message": "Ginagawang posible ng mga advertisement ang Panda Minecraft Launcher at pinopondohan nito ang mga bayad sa mga creator. Maaaring mag-imbak o mag-access ng cookies ang aming mga partner sa app upang i-personalize ang mga advertisement at sukatin ang pagsasagawa."
   },
   "app.ads-consent.manage": {
     "message": "Pamahalaan ang mga kagustuhan"
@@ -141,7 +141,7 @@
     "message": "Tanggihan lahat"
   },
   "app.ads-consent.title": {
-    "message": "Iyong pagkapribado at kung paano sinusuportahan ng mga ad ang Panda\n"
+    "message": "Iyong pagkapribado at kung paano sinusuportahan ng mga ad ang Panda Minecraft Launcher\n"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Ipakita ang mga instansya ng librerya sa masiksik na layout."
@@ -216,7 +216,7 @@
     "message": "Gamitin ang mga setting ng gawi na ito saanman ka naka-sign in. I-off ito upang magkaroon ng magkakahiwalay na setting sa device na ito."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Mag sign-in sayong Panda account para pagsabayin ang setting"
+    "message": "Mag sign-in sayong Panda Minecraft Launcher account para pagsabayin ang setting"
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Ipagsabay ang gawi sa iba't ibang device"
@@ -423,7 +423,7 @@
     "message": "Texture"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -486,10 +486,10 @@
     "message": "Maaaraing hindi pareho sa kanilang pangalan sa Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Ilagay ang username sa Panda..."
+    "message": "Ilagay ang username sa Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "Ano ang pangalan ng iyong kaibigan sa Panda?"
+    "message": "Ano ang pangalan ng iyong kaibigan sa Panda Minecraft Launcher?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Magdagdag ng mga kaibigan</link> upang makita ang kanilang nilalaro!"
@@ -531,7 +531,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Mag-sign in sa Panda account</link> upang maidagdag ang mga kaibigan at malaman ang kanilang nilalaro!"
+    "message": "<link>Mag-sign in sa Panda Minecraft Launcher account</link> upang maidagdag ang mga kaibigan at malaman ang kanilang nilalaro!"
   },
   "instance.add-server.add-and-play": {
     "message": "Idagdag at laruin"

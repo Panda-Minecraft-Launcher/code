@@ -3201,7 +3201,7 @@
     "defaultMessage": "Toezichthouder"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda team"
+    "defaultMessage": "Panda Minecraft Launcher team"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "In behandeling"
@@ -3321,10 +3321,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Een maker op Panda."
+    "defaultMessage": "Een maker op Panda Minecraft Launcher."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Een gebruiker van Panda."
+    "defaultMessage": "Een gebruiker van Panda Minecraft Launcher."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} zal je geen vriendschapsverzoeken kunnen sturen, je niet kunnen uitnodigen voor gedeelde instanties en je ook niet kunnen uitnodigen voor Panda Hosting-servers."
@@ -3384,7 +3384,7 @@
     "defaultMessage": "{count, plural, one {# project} other {# projecten}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Schakel pop-ups voor Panda in en probeer het vervolgens opnieuw."
+    "defaultMessage": "Schakel pop-ups voor Panda Minecraft Launcher in en probeer het vervolgens opnieuw."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Het GitHub-profiel kon niet worden opgehaald. Probeer het nog eens."
@@ -3462,7 +3462,7 @@
     "defaultMessage": "Officieel Panda-account"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Het officiële gebruikersaccount van Panda. Neem contact op met het Helpcentrum via <support-link></support-link> of per e-mail via <email></email>"
+    "defaultMessage": "Het officiële gebruikersaccount van Panda Minecraft Launcher. Neem contact op met het Helpcentrum via <support-link></support-link> of per e-mail via <email></email>"
   },
   "profile.unblock-user.error-description": {
     "defaultMessage": "Er is een fout opgetreden bij het deblokkeren van deze gebruiker. Probeer het nog eens."
@@ -5358,7 +5358,7 @@
     "defaultMessage": "Nieuwe server"
   },
   "servers.list-empty.no-servers-description": {
-    "defaultMessage": "Installeer mods, nodig vrienden uit en speel samen – allemaal via de Panda app."
+    "defaultMessage": "Installeer mods, nodig vrienden uit en speel samen – allemaal via de Panda Minecraft Launcher app."
   },
   "servers.list-empty.one-click-mod-installs-description": {
     "defaultMessage": "Kies je favoriete mods en wij regelen de rest."
@@ -5367,13 +5367,13 @@
     "defaultMessage": "Mods installeren met één klik"
   },
   "servers.list-empty.play-with-friends-description": {
-    "defaultMessage": "Nodig vrienden uit om je server te spelen met één klik vanuit de Panda app."
+    "defaultMessage": "Nodig vrienden uit om je server te spelen met één klik vanuit de Panda Minecraft Launcher app."
   },
   "servers.list-empty.play-with-friends-title": {
     "defaultMessage": "Speel met vrienden"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Bij Panda aanmelden"
+    "defaultMessage": "Bij Panda Minecraft Launcher aanmelden"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Stel je server in net zoals een eigen wereld."
@@ -5511,7 +5511,7 @@
     "defaultMessage": "Opnieuw laden"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Er is een fout opgetreden bij het opnieuw abonneren op jouw Panda server."
+    "defaultMessage": "Er is een fout opgetreden bij het opnieuw abonneren op jouw Panda Minecraft Launcher server."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Fout bij het opnieuw abonneren"
@@ -5850,7 +5850,7 @@
     "defaultMessage": "Geavanceerde weergave"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Maak links die buiten Panda gaan open in een nieuw tabblad. Ongeacht deze instelling, links op hetzelfde domein en in Markdown beschrijvingen zullen worden geopend in hetzelfde tabblad, en links naar advertenties en bewerken pagina's worden geopend in een nieuw tabblad."
+    "defaultMessage": "Maak links die buiten Panda Minecraft Launcher gaan open in een nieuw tabblad. Ongeacht deze instelling, links op hetzelfde domein en in Markdown beschrijvingen zullen worden geopend in hetzelfde tabblad, en links naar advertenties en bewerken pagina's worden geopend in een nieuw tabblad."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Externe links openen in nieuw tabblad"
@@ -5895,7 +5895,7 @@
     "defaultMessage": "Gebruik dit thema overal waar je bent aangemeld. Schakel dit uit om een apart thema op dit apparaat te houden."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Log in op Panda om thema te synchroniseren"
+    "defaultMessage": "Log in op Panda Minecraft Launcher om thema te synchroniseren"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Synchroniseren met systeem"
@@ -5952,7 +5952,7 @@
     "defaultMessage": "Persoonlijke toegangstokens"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "Je instellingen konden niet worden opgeslagen in je Panda account. Probeer het opnieuw."
+    "defaultMessage": "Je instellingen konden niet worden opgeslagen in je Panda Minecraft Launcher account. Probeer het opnieuw."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "Instellingen synchroniseren mislukt"
@@ -5997,7 +5997,7 @@
     "defaultMessage": "Gebruiker"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Dit zijn de gebruikers die je op Panda hebt geblokkeerd. Zij kunnen jou niet:"
+    "defaultMessage": "Dit zijn de gebruikers die je op Panda Minecraft Launcher hebt geblokkeerd. Zij kunnen jou niet:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Je hebt niemand geblokkeerd."
@@ -6033,7 +6033,7 @@
     "defaultMessage": "Avatar van {username}"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Bepaal zelf wie je vriendschapsverzoeken kan sturen op Panda."
+    "defaultMessage": "Bepaal zelf wie je vriendschapsverzoeken kan sturen op Panda Minecraft Launcher."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Vriendschapsverzoeken"
@@ -6798,7 +6798,7 @@
     "defaultMessage": "{download_sum} Downloads"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van gegevenspakketprojecten op Panda voordat we deze in januari 2023 lanceerden."
+    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van gegevenspakketprojecten op Panda Minecraft Launcher voordat we deze in januari 2023 lanceerden."
   },
   "user.profile.badge.early-datapack-adopter.name": {
     "defaultMessage": "Vroege gebruiker van gegevenspakketten"
@@ -6810,25 +6810,25 @@
     "defaultMessage": "Vroege gebruiker van modpacks"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van Plugin-projecten op Panda voordat we ze in augustus 2022 lanceerden."
+    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van Plugin-projecten op Panda Minecraft Launcher voordat we ze in augustus 2022 lanceerden."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "Vroege gebruiker van plug-ins"
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van bronpakketprojecten op Panda voordat we deze in augustus 2022 lanceerden."
+    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van bronpakketprojecten op Panda Minecraft Launcher voordat we deze in augustus 2022 lanceerden."
   },
   "user.profile.badge.early-resourcepack-adopter.name": {
     "defaultMessage": "Vroege gebruiker van bronpakketten"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van server-projecten op Panda voordat we ze in maart 2026 lanceerden."
+    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van server-projecten op Panda Minecraft Launcher voordat we ze in maart 2026 lanceerden."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "Vroege gebruiker van servers"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van shader-projecten op Panda voordat we deze in januari 2023 lanceerden."
+    "defaultMessage": "Deze gebruiker heeft ons geholpen bij het testen van shader-projecten op Panda Minecraft Launcher voordat we deze in januari 2023 lanceerden."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "Vroege gebruiker van shaders"
@@ -6840,16 +6840,16 @@
     "defaultMessage": "Alpha-tester van Panda Hosting"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Deze gebruiker werkt bij Panda als inhoudsmoderator."
+    "defaultMessage": "Deze gebruiker werkt bij Panda Minecraft Launcher als inhoudsmoderator."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Inhoudsmoderatoren op Panda beoordelen projecten, behandelen meldingen en helpen Panda veilig te houden."
+    "defaultMessage": "Inhoudsmoderatoren op Panda Minecraft Launcher beoordelen projecten, behandelen meldingen en helpen Panda Minecraft Launcher veilig te houden."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Inhoudsmoderator"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Deze gebruiker doet zijn uiterste best om Panda en de makers op het platform te steunen."
+    "defaultMessage": "Deze gebruiker doet zijn uiterste best om Panda Minecraft Launcher en de makers op het platform te steunen."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Klik hier voor meer informatie over hoe je lid kunt worden."
@@ -6867,7 +6867,7 @@
     "defaultMessage": "Supporter van de Pride-inzamelingsactie"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Deze gebruiker werkt bij Panda."
+    "defaultMessage": "Deze gebruiker werkt bij Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
     "defaultMessage": "Panda-team"

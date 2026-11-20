@@ -75,7 +75,7 @@
     "message": "Nastavení Minecraftu se nezdařilo"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Nepodařilo se připojit k Panda"
+    "message": "Nepodařilo se připojit k Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Nemáte oprávnění k zápisu"
@@ -141,7 +141,7 @@
     "message": "Odmítnout vše"
   },
   "app.ads-consent.title": {
-    "message": "Vaše soukromí a způsob, jakým reklamy podporují Panda"
+    "message": "Vaše soukromí a způsob, jakým reklamy podporují Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Zobrazit instanční knihovny v kompaktních řádcích."
@@ -204,7 +204,7 @@
     "message": "Domovská stránka a kontent"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "Instance, které jste skryli z knihovny na tomto zařízení. Skryté instance nejsou synchronizovány s vaším Panda účtem."
+    "message": "Instance, které jste skryli z knihovny na tomto zařízení. Skryté instance nejsou synchronizovány s vaším Panda Minecraft Launcher účtem."
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "Zatím jste neskryli žádné instance."
@@ -231,7 +231,7 @@
     "message": "Používejte toto nastavení všude, kde jste přihlášeni. Vypněte ho, pokud chcete různé nastavení na různých zařízeních."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Přihlašte se do vašeho Panda účtu aby jste si mohli synchronizovat nastavení."
+    "message": "Přihlašte se do vašeho Panda Minecraft Launcher účtu aby jste si mohli synchronizovat nastavení."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Synchronizovat nastavení mezi různými zařízeními"
@@ -486,7 +486,7 @@
     "message": "Použije tyto nastavení všude, kde jste přihlášeni. Vypněte toto pro zachování oddělených nastavení na tomto zařízení."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Přihlaste se Panda účtem pro synchronizaci nastavení."
+    "message": "Přihlaste se Panda Minecraft Launcher účtem pro synchronizaci nastavení."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Synchronizovat nastavení napříč zařízeními"
@@ -645,7 +645,7 @@
     "message": "Vaše změny ještě nebyly sdíleny"
   },
   "app.instance.admonitions.shared-instance.owner-update-body": {
-    "message": "Odeslali jste aktualizaci do této sdílené instance z jiné instalace Panda aplikace. Stáhněte si nejnovější změny, abyste ji mohli nadále spravovat zde."
+    "message": "Odeslali jste aktualizaci do této sdílené instance z jiné instalace Panda Minecraft Launcher aplikace. Stáhněte si nejnovější změny, abyste ji mohli nadále spravovat zde."
   },
   "app.instance.admonitions.shared-instance.owner-update-button": {
     "message": "Stáhnout aktualizaci"
@@ -900,7 +900,7 @@
     "message": "dostávat aktualizace pro tuto sdílenou instanci."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Používate nesprávný Panda účet"
+    "message": "Používate nesprávný Panda Minecraft Launcher účet"
   },
   "app.instance.shortcut.created": {
     "message": "Zkratka vytvořena"
@@ -1365,7 +1365,7 @@
     "message": "Knihovna"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {# sdílená instance, kterou vlastníte, bude smazána ze serverů Panda a uživatelé, kteří ji používají,} other {# sdílených instancí, které vlastníte, bude smazáno ze serverů Panda a uživatelé, kteří je používají,}} přestanou dostávat aktualizace. {leaveCount, plural, one {Ztratíte přístup k dané sdílené instanci a pro opětovné připojení budete potřebovat novou pozvánku.} other {Ztratíte přístup k těmto # sdíleným instancím a pro opětovné připojení k nim budete potřebovat novou pozvánku.}} Všechny budou odstraněny z vaší knihovny."
+    "message": "{unpublishCount, plural, one {# sdílená instance, kterou vlastníte, bude smazána ze serverů Panda Minecraft Launcher a uživatelé, kteří ji používají,} other {# sdílených instancí, které vlastníte, bude smazáno ze serverů Panda Minecraft Launcher a uživatelé, kteří je používají,}} přestanou dostávat aktualizace. {leaveCount, plural, one {Ztratíte přístup k dané sdílené instanci a pro opětovné připojení budete potřebovat novou pozvánku.} other {Ztratíte přístup k těmto # sdíleným instancím a pro opětovné připojení k nim budete potřebovat novou pozvánku.}} Všechny budou odstraněny z vaší knihovny."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Zrušení zveřejnění a opuštění sdílených instancí"
@@ -1374,7 +1374,7 @@
     "message": "Zrušit zveřejnění a ponechat {count} sdílených instancí"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {Odstraní sdílenou instanci ze serverů Panda. Lidé, kteří jej používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} few {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} many {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} other {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.}}"
+    "message": "{count, plural, one {Odstraní sdílenou instanci ze serverů Panda Minecraft Launcher. Lidé, kteří jej používají v Panda Minecraft Launcher aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} few {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda Minecraft Launcher aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} many {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda Minecraft Launcher aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} other {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda Minecraft Launcher aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {Zrušení zveřejnění sdílené instance} other {Zrušení zveřejnění # sdílených instancí}}"
@@ -1410,10 +1410,10 @@
     "message": "Instalovat"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Tuto pozvánku vytvořil jiný uživatel platformy Panda, nikoliv samotný Panda. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
+    "message": "Tuto pozvánku vytvořil jiný uživatel platformy Panda Minecraft Launcher, nikoliv samotný Panda Minecraft Launcher. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Tuto pozvánku vytvořil/a <creator>{username}</creator>, nikoliv Panda. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
+    "message": "Tuto pozvánku vytvořil/a <creator>{username}</creator>, nikoliv Panda Minecraft Launcher. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Obsah modpacku"
@@ -1527,7 +1527,7 @@
     "message": "Načítání profilu..."
   },
   "app.nav.modrinth-account": {
-    "message": "Panda účet"
+    "message": "Panda Minecraft Launcher účet"
   },
   "app.nav.modrinth-hosting": {
     "message": "Panda Hosting"
@@ -1539,7 +1539,7 @@
     "message": "Screenshoty"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Přihlásit se do Panda"
+    "message": "Přihlásit se do Panda Minecraft Launcher"
   },
   "app.nav.switch-account": {
     "message": "Změnit účet"
@@ -1761,7 +1761,7 @@
     "message": "Exportovat ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda screenshots.zip"
+    "message": "Panda Minecraft Launcher screenshots.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} screenshots.zip"
@@ -2895,7 +2895,7 @@
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Panda shromažďuje anonymizované analýzy a data o používání pro zlepšení našich uživatelských zkušeností a přizpůsobení vašich zkušeností. Zakázáním této možnosti se nepřihlásíte a vaše data již nebudou shromažďována."
+    "message": "Panda Minecraft Launcher shromažďuje anonymizované analýzy a data o používání pro zlepšení našich uživatelských zkušeností a přizpůsobení vašich zkušeností. Zakázáním této možnosti se nepřihlásíte a vaše data již nebudou shromažďována."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetrie"
@@ -2922,7 +2922,7 @@
     "message": "Složka aplikace"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Exportovat protokoly aplikace a diagnostická data do ZIP souboru, který chcete sdílet s podporou Panda."
+    "message": "Exportovat protokoly aplikace a diagnostická data do ZIP souboru, který chcete sdílet s podporou Panda Minecraft Launcher."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Exportovat informace o ladění"
@@ -2991,7 +2991,7 @@
     "message": "Tato nastavení se změnila jinde"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Nastavení přidaná mody se objeví zde poté, co je Panda v jedné z vašich instancí najde."
+    "message": "Nastavení přidaná mody se objeví zde poté, co je Panda Minecraft Launcher v jedné z vašich instancí najde."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Používejte stejné možnosti hry ve vašich instancích."
@@ -3132,7 +3132,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -3171,7 +3171,7 @@
     "message": "Zapoj se do ankety"
   },
   "app.survey.title": {
-    "message": "Ahoj Panda uživateli!"
+    "message": "Ahoj Panda Minecraft Launcher uživateli!"
   },
   "app.update-popup.body.download-complete": {
     "message": "Stahování Panda Minecraft Launcher v{version} bylo dokončeno. Aktualizujte ji znovunačtením nebo se automaticky aktualizuje po zavření."
@@ -3315,7 +3315,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Přihlas se k Panda účtu</link>, abys mohl přidávat přátele a vidět, co hrají!"
+    "message": "<link>Přihlas se k Panda Minecraft Launcher účtu</link>, abys mohl přidávat přátele a vidět, co hrají!"
   },
   "installation-settings.shared-instance.unlinking-button": {
     "message": "Odpojování..."
@@ -3666,10 +3666,10 @@
     "message": "Znovu otevřít prohlížeč"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Přihlásit se do Panda"
+    "message": "Přihlásit se do Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Přihlaste se k Panda účtu"
+    "message": "Přihlaste se k Panda Minecraft Launcher účtu"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Přihlášení"

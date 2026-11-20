@@ -2730,7 +2730,7 @@
     "defaultMessage": "Динаміт"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Гайковий ключ Panda"
+    "defaultMessage": "Гайковий ключ Panda Minecraft Launcher"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "Зомбі"
@@ -3549,10 +3549,10 @@
     "defaultMessage": "<actor>{actor}</actor> запрошує Вас до примірника <entity>{entity}</entity>."
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "Спільний примірник «<entity>{entity}</entity>» заблоковано модерацією Panda."
+    "defaultMessage": "Спільний примірник «<entity>{entity}</entity>» заблоковано модерацією Panda Minecraft Launcher."
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "Ваш спільний примірник «<entity>{entity}</entity>» заблоковано модерацією Panda."
+    "defaultMessage": "Ваш спільний примірник «<entity>{entity}</entity>» заблоковано модерацією Panda Minecraft Launcher."
   },
   "notifications.instance-ready.launch-game": {
     "defaultMessage": "Запустити гру"
@@ -3603,7 +3603,7 @@
     "defaultMessage": "Модератор"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Команда Panda"
+    "defaultMessage": "Команда Panda Minecraft Launcher"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "На розгляді"
@@ -3723,10 +3723,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Творець Panda."
+    "defaultMessage": "Творець Panda Minecraft Launcher."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Користувач Panda."
+    "defaultMessage": "Користувач Panda Minecraft Launcher."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} не зможе надсилати вам запити в друзі, запрошувати до спільних збірок чи на сервери Panda Hosting."
@@ -3804,7 +3804,7 @@
     "defaultMessage": "{count, plural, one {# проєкт} few {# проєкти} many {# проєктів} other {# проєкту}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Дозвольте спливні вікна для Panda, тоді спробуйте ще раз."
+    "defaultMessage": "Дозвольте спливні вікна для Panda Minecraft Launcher, тоді спробуйте ще раз."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Не вдалося отримати профіль GitHub. Спробуйте ще раз."
@@ -3915,10 +3915,10 @@
     "defaultMessage": "Обмежено"
   },
   "profile.official-account": {
-    "defaultMessage": "Офіційний обліковий запис Panda"
+    "defaultMessage": "Офіційний обліковий запис Panda Minecraft Launcher"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Офіційний обліковий запис Panda. Звернутися до підтримки можна за <support-link></support-link> або через електронну пошту за <email></email>"
+    "defaultMessage": "Офіційний обліковий запис Panda Minecraft Launcher. Звернутися до підтримки можна за <support-link></support-link> або через електронну пошту за <email></email>"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "Резервні коди та коди автентифікації користувача {username} буде видалено, і він отримає сповіщення про це. Робіть це, лише якщо підтвердили його особу."
@@ -5172,7 +5172,7 @@
     "defaultMessage": "Це видалить спільний примірник та його запрошення. Гравці більше не отримуватимуть оновлення спільного вмісту. Ваш сервер і його вміст залишаться доступними."
   },
   "server.settings.sharing.unpublish-description": {
-    "defaultMessage": "Видалить спільний примірник цього сервера з Panda та припинить відправляти оновлення гравцям. Ваш сервер та його вміст не будуть змінені."
+    "defaultMessage": "Видалить спільний примірник цього сервера з Panda Minecraft Launcher та припинить відправляти оновлення гравцям. Ваш сервер та його вміст не будуть змінені."
   },
   "servers.access-page.activity-log-filter.action-group.backups": {
     "defaultMessage": "Резервні копії"
@@ -6165,7 +6165,7 @@
     "defaultMessage": "Триває оновлення вмісту сервера"
   },
   "servers.curseforge-files-review.body": {
-    "defaultMessage": "{count, plural, one {# файл у цій збірці не опублікований} few {# файли в цій збірці не опубліковані} many {# файлів у цій збірці не опубліковані} other {# файлу в цій збірці не опубліковані}} на Panda, або ми не можемо визначити, чи встановлювати {count, plural, one {його} other {їх}} для сервера, гравців, чи обох. Перегляньте {count, plural, one {його} other {їх}} та доповніть колонку <bold>Увімкнено для</bold>."
+    "defaultMessage": "{count, plural, one {# файл у цій збірці не опублікований} few {# файли в цій збірці не опубліковані} many {# файлів у цій збірці не опубліковані} other {# файлу в цій збірці не опубліковані}} на Panda Minecraft Launcher, або ми не можемо визначити, чи встановлювати {count, plural, one {його} other {їх}} для сервера, гравців, чи обох. Перегляньте {count, plural, one {його} other {їх}} та доповніть колонку <bold>Увімкнено для</bold>."
   },
   "servers.curseforge-files-review.header": {
     "defaultMessage": "Перегляньте файли збірки"
@@ -6249,13 +6249,13 @@
     "defaultMessage": "Не використовуйте їхнє ім’я користувача Minecraft."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Ім’я користувача Panda"
+    "defaultMessage": "Ім’я користувача Panda Minecraft Launcher"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "За вашим запитом користувачів не знайдено."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Уведіть ім’я користувача Panda"
+    "defaultMessage": "Уведіть ім’я користувача Panda Minecraft Launcher"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "Пошук…"
@@ -6396,7 +6396,7 @@
     "defaultMessage": "Грайте з друзями"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Увійти до Panda"
+    "defaultMessage": "Увійти до Panda Minecraft Launcher"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Налаштуйте свій сервер так само, як світ для гри наодинці."
@@ -6453,7 +6453,7 @@
     "defaultMessage": "Вашу передплату встановлено на скасовання <date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "Ваш сервер призупинено. Для подробиць зверніться до служби підтримки Panda."
+    "defaultMessage": "Ваш сервер призупинено. Для подробиць зверніться до служби підтримки Panda Minecraft Launcher."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "Апаратне забезпечення вашого сервера поліпшують і незабаром відновлять."
@@ -6516,7 +6516,7 @@
     "defaultMessage": "Вивантаження триває"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Звернутися до підтримки Panda"
+    "defaultMessage": "Звернутися до підтримки Panda Minecraft Launcher"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Наші системи автоматично сповіщають нашу команду про проблему. Ми вже працюємо над тим, щоб повернути їх у мережу."
@@ -6531,7 +6531,7 @@
     "defaultMessage": "Якщо ви недавно придбали сервер Panda Hosting, то він у черзі та з’явиться тут, щойно буде готовий. <warning>Не намагайтеся придбати новий сервер.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Якщо вам потрібна персональна підтримка щодо стану вашого сервера, зверніться до підтримки Panda."
+    "defaultMessage": "Якщо вам потрібна персональна підтримка щодо стану вашого сервера, зверніться до підтримки Panda Minecraft Launcher."
   },
   "servers.manage.error.title": {
     "defaultMessage": "Не вдалося завантажити сервера"
@@ -6579,7 +6579,7 @@
     "defaultMessage": "Перезавантажити"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Під час поновлення передплати на сервер Panda сталася помилка."
+    "defaultMessage": "Під час поновлення передплати на сервер Panda Minecraft Launcher сталася помилка."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Помилка поновлення передплати"
@@ -6639,10 +6639,10 @@
     "defaultMessage": "Пробна версія вашого сервера Medal закінчилася, а роботу сервера призупинено. Покращте, щоб продовжувати використовувати свій сервер."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "Ваш сервер призупинено. Оновіть свою платіжну інформацію або зверніться до підтримки Panda, щоб дізнатися більше."
+    "defaultMessage": "Ваш сервер призупинено. Оновіть свою платіжну інформацію або зверніться до підтримки Panda Minecraft Launcher, щоб дізнатися більше."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "Ваш сервер призупинено: {reason}. Оновіть свою платіжну інформацію або зверніться до підтримки Panda, щоб дізнатися більше."
+    "defaultMessage": "Ваш сервер призупинено: {reason}. Оновіть свою платіжну інформацію або зверніться до підтримки Panda Minecraft Launcher, щоб дізнатися більше."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "Апаратне забезпечення вашого сервера в цю мить поліпшують і незабаром відновлять."
@@ -7173,7 +7173,7 @@
     "defaultMessage": "Налаштування сервера"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "Виберіть свою улюблену збірку із Panda або виберіть завантажувач і додайте потрібні моди."
+    "defaultMessage": "Виберіть свою улюблену збірку із Panda Minecraft Launcher або виберіть завантажувач і додайте потрібні моди."
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "Виберіть в що грати"
@@ -7344,7 +7344,7 @@
     "defaultMessage": "Розширене промальовування"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Посилання, які ведуть за межі Panda, відкриватимуться в новій вкладці. Незалежно від значення цього налаштування, посилання в цьому домені та в описах із Markdown відкриватимуться в тій самій вкладці, а посилання в рекламах і на сторінках редагування — у новій."
+    "defaultMessage": "Посилання, які ведуть за межі Panda Minecraft Launcher, відкриватимуться в новій вкладці. Незалежно від значення цього налаштування, посилання в цьому домені та в описах із Markdown відкриватимуться в тій самій вкладці, а посилання в рекламах і на сторінках редагування — у новій."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Відкривати зовнішні посилання в новій вкладці"
@@ -7389,7 +7389,7 @@
     "defaultMessage": "Використовуватиме цю тему всюди, де ви ввійшли. Вимкніть її, щоб зберегти окрему тему на цьому пристрої."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Увійдіть до Panda, щоб синхронізувати тему"
+    "defaultMessage": "Увійдіть до Panda Minecraft Launcher, щоб синхронізувати тему"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Системна"
@@ -7446,7 +7446,7 @@
     "defaultMessage": "Особистий токен доступу"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "Не вдалося зберегти ваші налаштування в обліковому записі Panda. Спробуйте ще раз."
+    "defaultMessage": "Не вдалося зберегти ваші налаштування в обліковому записі Panda Minecraft Launcher. Спробуйте ще раз."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "Не вдалося синхронізувати налаштування"
@@ -7476,10 +7476,10 @@
     "defaultMessage": "Виникла помилка під час оновлення вашого профілю. Спробуйте ще раз."
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "Увійдіть за допомогою облікового запису Panda, щоб налаштувати свій публічний профіль."
+    "defaultMessage": "Увійдіть за допомогою облікового запису Panda Minecraft Launcher, щоб налаштувати свій публічний профіль."
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "Потрібен обліковий запис Panda"
+    "defaultMessage": "Потрібен обліковий запис Panda Minecraft Launcher"
   },
   "settings.profile.username.change": {
     "defaultMessage": "Змінити імʼя користувача"
@@ -7497,7 +7497,7 @@
     "defaultMessage": "Користувач"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Це користувачі, яких ви заблокували на Panda. Вони не можуть:"
+    "defaultMessage": "Це користувачі, яких ви заблокували на Panda Minecraft Launcher. Вони не можуть:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Ви нікого не заблокували."
@@ -7536,7 +7536,7 @@
     "defaultMessage": "Аватар користувача {username}"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Укажіть, хто може надсилати вам запити в друзі на Panda."
+    "defaultMessage": "Укажіть, хто може надсилати вам запити в друзі на Panda Minecraft Launcher."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Запити в друзі"
@@ -7575,10 +7575,10 @@
     "defaultMessage": "Запрошення до примірників"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "З обліковим записом Panda ви можете налаштувати, хто може взаємодіяти з вами, або керувати заблокованими користувачами"
+    "defaultMessage": "З обліковим записом Panda Minecraft Launcher ви можете налаштувати, хто може взаємодіяти з вами, або керувати заблокованими користувачами"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "Потрібен обліковий запис Panda"
+    "defaultMessage": "Потрібен обліковий запис Panda Minecraft Launcher"
   },
   "settings.social.title": {
     "defaultMessage": "Взаємодія"
@@ -8409,16 +8409,16 @@
     "defaultMessage": "Редагувати версії й додавати файли до версій"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "Цей користувач з нами ще з альфа-версії Panda, яка завершилася в листопаді 2020."
+    "defaultMessage": "Цей користувач з нами ще з альфа-версії Panda Minecraft Launcher, яка завершилася в листопаді 2020."
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "Альфа-тестувальник"
   },
   "user.profile.badge.beta.about.1": {
-    "defaultMessage": "Цей користувач з нами ще з бета-версії Panda, яка завершилася в лютому 2022."
+    "defaultMessage": "Цей користувач з нами ще з бета-версії Panda Minecraft Launcher, яка завершилася в лютому 2022."
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "Натисніть, щоб прочитати про запуск бета-версії Panda."
+    "defaultMessage": "Натисніть, щоб прочитати про запуск бета-версії Panda Minecraft Launcher."
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "Бета-тестувальник"
@@ -8430,37 +8430,37 @@
     "defaultMessage": "{download_sum} завантажень"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "Цей користувач допомагав нам тестувати пакети даних на Panda перед їхнім запуском у січні 2023."
+    "defaultMessage": "Цей користувач допомагав нам тестувати пакети даних на Panda Minecraft Launcher перед їхнім запуском у січні 2023."
   },
   "user.profile.badge.early-datapack-adopter.name": {
     "defaultMessage": "Ранній тестувальник пакетів даних"
   },
   "user.profile.badge.early-modpack-adopter.about.1": {
-    "defaultMessage": "Цей користувач допомагав нам тестувати збірки на Panda перед їхнім запуском у травні 2022."
+    "defaultMessage": "Цей користувач допомагав нам тестувати збірки на Panda Minecraft Launcher перед їхнім запуском у травні 2022."
   },
   "user.profile.badge.early-modpack-adopter.name": {
     "defaultMessage": "Ранній тестувальник збірок"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Цей користувач допомагав нам тестувати плагіни на Panda перед їхнім запуском у серпні 2022."
+    "defaultMessage": "Цей користувач допомагав нам тестувати плагіни на Panda Minecraft Launcher перед їхнім запуском у серпні 2022."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "Ранній тестувальник плагінів"
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "Цей користувач допомагав нам тестувати пакети ресурсів на Panda перед їхнім запуском у серпні 2022."
+    "defaultMessage": "Цей користувач допомагав нам тестувати пакети ресурсів на Panda Minecraft Launcher перед їхнім запуском у серпні 2022."
   },
   "user.profile.badge.early-resourcepack-adopter.name": {
     "defaultMessage": "Ранній тестувальник пакетів ресурсів"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Цей користувач допомагав нам тестувати сервери на Panda перед їхнім запуском у березні 2026."
+    "defaultMessage": "Цей користувач допомагав нам тестувати сервери на Panda Minecraft Launcher перед їхнім запуском у березні 2026."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "Ранній тестувальник серверів"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Цей користувач допомагав нам тестувати шейдери на Panda перед їхнім запуском у січні 2023."
+    "defaultMessage": "Цей користувач допомагав нам тестувати шейдери на Panda Minecraft Launcher перед їхнім запуском у січні 2023."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "Ранній тестувальник шейдерів"
@@ -8472,16 +8472,16 @@
     "defaultMessage": "Альфа-тестувальник Panda Hosting"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Цей користувач працює на Panda як модератор умісту."
+    "defaultMessage": "Цей користувач працює на Panda Minecraft Launcher як модератор умісту."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Модератори вмісту на Panda розглядають проєкти, опрацьовують скарги та допомагають тримати Panda у безпеці."
+    "defaultMessage": "Модератори вмісту на Panda Minecraft Launcher розглядають проєкти, опрацьовують скарги та допомагають тримати Panda Minecraft Launcher у безпеці."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Упорядник умісту"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Цей користувач активно підтримує Panda і творців на платформі."
+    "defaultMessage": "Цей користувач активно підтримує Panda Minecraft Launcher і творців на платформі."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Натисніть, щоб дізнатися, як стати нашим учасником."
@@ -8490,7 +8490,7 @@
     "defaultMessage": "Учасник Panda+"
   },
   "user.profile.badge.pride.about.1": {
-    "defaultMessage": "Цей користувач брав участь в одному із благодійних зборів на підтримку спільноти ЛГБТК+ від Panda."
+    "defaultMessage": "Цей користувач брав участь в одному із благодійних зборів на підтримку спільноти ЛГБТК+ від Panda Minecraft Launcher."
   },
   "user.profile.badge.pride.link": {
     "defaultMessage": "Натисніть, щоб переглянути останній збір."
@@ -8499,16 +8499,16 @@
     "defaultMessage": "Підтримувач збору місяця гордості"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Цей користувач працює на Panda."
+    "defaultMessage": "Цей користувач працює на Panda Minecraft Launcher."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Команда Panda"
+    "defaultMessage": "Команда Panda Minecraft Launcher"
   },
   "user.role.moderator": {
     "defaultMessage": "Модератор умісту"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Команда Panda"
+    "defaultMessage": "Команда Panda Minecraft Launcher"
   },
   "version.content.name": {
     "defaultMessage": "Назва"

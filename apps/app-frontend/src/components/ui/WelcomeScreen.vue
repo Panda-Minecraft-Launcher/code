@@ -17,7 +17,7 @@ const { formatMessage } = useVIntl()
 const messages = defineMessages({
 	welcomeTitle: {
 		id: 'app.welcome-screen.title',
-		defaultMessage: 'Welcome to Panda',
+		defaultMessage: 'Welcome to Panda Minecraft Launcher',
 	},
 	welcomeDescription: {
 		id: 'app.welcome-screen.description',

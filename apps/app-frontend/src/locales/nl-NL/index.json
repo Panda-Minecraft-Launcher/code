@@ -75,7 +75,7 @@
     "message": "Het instellen van Minecraft is mislukt"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Panda kon niet bereikt worden"
+    "message": "Panda Minecraft Launcher kon niet bereikt worden"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Geen toestemming om te schrijven"
@@ -132,7 +132,7 @@
     "message": "Alles accepteren"
   },
   "app.ads-consent.body": {
-    "message": "Advertenties maken Panda mogelijk en financieren de uitbetalingen aan makers. Onze partners kunnen cookies in de app opslaan of gebruiken om advertenties te personaliseren en de prestaties te meten."
+    "message": "Advertenties maken Panda Minecraft Launcher mogelijk en financieren de uitbetalingen aan makers. Onze partners kunnen cookies in de app opslaan of gebruiken om advertenties te personaliseren en de prestaties te meten."
   },
   "app.ads-consent.manage": {
     "message": "Voorkeuren beheren"
@@ -141,7 +141,7 @@
     "message": "Alles afwijzen"
   },
   "app.ads-consent.title": {
-    "message": "Je privacy en hoe advertenties Panda ondersteunen"
+    "message": "Je privacy en hoe advertenties Panda Minecraft Launcher ondersteunen"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Toon bibliotheek instanties in een compacte row lay-out."
@@ -231,7 +231,7 @@
     "message": "Gebruik dit thema overal waar je bent aangemeld. Schakel dit uit om een apart thema op dit apparaat te houden."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Log in op een Panda account om instellingen te synchroniseren."
+    "message": "Log in op een Panda Minecraft Launcher account om instellingen te synchroniseren."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Thema synchroniseren tussen apparaten"
@@ -870,7 +870,7 @@
     "message": "Log in als"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Je moet je aanmelden bij Panda"
+    "message": "Je moet je aanmelden bij Panda Minecraft Launcher"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "om updates voor deze gedeelde instantie te ontvangen."
@@ -1341,7 +1341,7 @@
     "message": "Bibliotheek"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {De # gedeelde instantie waarvan je de eigenaar bent, wordt verwijderd van de servers van Panda en mensen die deze gebruiken} other {De # gedeelde instanties waarvan je de eigenaar bent, worden verwijderd van de servers van Panda en mensen die ze gebruiken}} ontvangen geen updates meer. {leaveCount, plural, one {Je verliest de toegang tot de andere gedeelde instantie en hebt een nieuwe uitnodiging nodig om er weer lid van te worden.} other {Je verliest de toegang tot de andere # gedeelde instanties en hebt een nieuwe uitnodiging nodig om er weer lid van te worden.}} Ze worden allemaal verwijderd uit je bibliotheek."
+    "message": "{unpublishCount, plural, one {De # gedeelde instantie waarvan je de eigenaar bent, wordt verwijderd van de servers van Panda Minecraft Launcher en mensen die deze gebruiken} other {De # gedeelde instanties waarvan je de eigenaar bent, worden verwijderd van de servers van Panda Minecraft Launcher en mensen die ze gebruiken}} ontvangen geen updates meer. {leaveCount, plural, one {Je verliest de toegang tot de andere gedeelde instantie en hebt een nieuwe uitnodiging nodig om er weer lid van te worden.} other {Je verliest de toegang tot de andere # gedeelde instanties en hebt een nieuwe uitnodiging nodig om er weer lid van te worden.}} Ze worden allemaal verwijderd uit je bibliotheek."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Delen stoppen en verlaten van gedeelde instanties"
@@ -1386,10 +1386,10 @@
     "message": "Installeer"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Deze uitnodiging is aangemaakt door een andere Panda-gebruiker, niet door Panda zelf. Accepteer alleen uitnodigingen van mensen die je vertrouwt."
+    "message": "Deze uitnodiging is aangemaakt door een andere Panda-gebruiker, niet door Panda Minecraft Launcher zelf. Accepteer alleen uitnodigingen van mensen die je vertrouwt."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Deze uitnodiging is aangemaakt door <creator>{username}</creator>, niet door Panda. Accepteer alleen uitnodigingen van mensen die je vertrouwt."
+    "message": "Deze uitnodiging is aangemaakt door <creator>{username}</creator>, niet door Panda Minecraft Launcher. Accepteer alleen uitnodigingen van mensen die je vertrouwt."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Modpack-content"
@@ -1425,7 +1425,7 @@
     "message": "Neem voor ondersteuningsverzoeken contact op met ons <support-link>ondersteuningsteam</support-link>. Voor bugmeldingen kun je een <github-link>GitHub-issue</github-link> aanmaken."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Bestanden die niet op Panda worden gepubliceerd, worden niet beoordeeld."
+    "message": "Bestanden die niet op Panda Minecraft Launcher worden gepubliceerd, worden niet beoordeeld."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Gedeelde instantie"
@@ -1434,7 +1434,7 @@
     "message": "Content van de gedeelde instantie"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Deze gedeelde instantie bevat bestanden die niet op Panda zijn gepubliceerd. We raden je ten zeerste aan om alleen bestanden te installeren uit bronnen die je vertrouwt."
+    "message": "Deze gedeelde instantie bevat bestanden die niet op Panda Minecraft Launcher zijn gepubliceerd. We raden je ten zeerste aan om alleen bestanden te installeren uit bronnen die je vertrouwt."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "De modpack versie die deze server gebruikt kan nu niet worden gedownload. Het kan ongepubliceerd worden of onder beoordeling zijn. Probeer het later opnieuw of neem contact op met de servereigenaar."
@@ -1482,7 +1482,7 @@
     "message": "Verwijderd"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Deze update voor de gedeelde instantie bevat bestanden die niet op Panda zijn gepubliceerd. We raden je ten zeerste aan om alleen bestanden te installeren uit bronnen die je vertrouwt."
+    "message": "Deze update voor de gedeelde instantie bevat bestanden die niet op Panda Minecraft Launcher zijn gepubliceerd. We raden je ten zeerste aan om alleen bestanden te installeren uit bronnen die je vertrouwt."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Update vereist"
@@ -1515,7 +1515,7 @@
     "message": "Schermafbeeldingen"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Log in bij Panda"
+    "message": "Log in bij Panda Minecraft Launcher"
   },
   "app.nav.switch-account": {
     "message": "Van account wisselen"
@@ -1737,7 +1737,7 @@
     "message": "Exporteer ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda screenshots.zip"
+    "message": "Panda Minecraft Launcher screenshots.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} screenshots.zip"
@@ -2034,7 +2034,7 @@
     "message": "Sommige van uw instanties kunnen deze instelling niet gebruiken."
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Deze instelling is door Panda's startinstellingen beheerd."
+    "message": "Deze instelling is door Panda Minecraft Launcher's startinstellingen beheerd."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Voer een waarde in"
@@ -2868,16 +2868,16 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Advertenties maken Panda mogelijk en financieren de uitbetalingen aan makers. Onze partners kunnen cookies in de app opslaan of gebruiken om advertenties te personaliseren en de prestaties te meten. Je kunt je hieronder afmelden of je voorkeuren beheren."
+    "message": "Advertenties maken Panda Minecraft Launcher mogelijk en financieren de uitbetalingen aan makers. Onze partners kunnen cookies in de app opslaan of gebruiken om advertenties te personaliseren en de prestaties te meten. Je kunt je hieronder afmelden of je voorkeuren beheren."
   },
   "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Laat Panda als jouw activiteit op Discord. Dit verandert niet activiteiten toegevoegd door mods."
+    "message": "Laat Panda Minecraft Launcher als jouw activiteit op Discord. Dit verandert niet activiteiten toegevoegd door mods."
   },
   "app.settings.privacy.discord-rich-presence.title": {
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Panda verzamelt geanonimiseerde analyse- en gebruiksdata om de gebruikerservaring te verbeteren en je ervaring te personaliseren. Door deze optie uit te schakelen, meld je je af en worden je gegevens niet meer verzameld."
+    "message": "Panda Minecraft Launcher verzamelt geanonimiseerde analyse- en gebruiksdata om de gebruikerservaring te verbeteren en je ervaring te personaliseren. Door deze optie uit te schakelen, meld je je af en worden je gegevens niet meer verzameld."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetrie"
@@ -2892,7 +2892,7 @@
     "message": "De app kan wat trager laden totdat de cache opnieuw is opgebouwd."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Wis gecachte data en download het opnieuw via Panda. De app kan wat trager laden totdat de cache opnieuw is opgebouwd."
+    "message": "Wis gecachte data en download het opnieuw via Panda Minecraft Launcher. De app kan wat trager laden totdat de cache opnieuw is opgebouwd."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "App-cache"
@@ -2910,7 +2910,7 @@
     "message": "App-folder"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Exporteer app logboeken en diagnostische gegevens naar een ZIP bestand om te delen met Panda ondersteuning."
+    "message": "Exporteer app logboeken en diagnostische gegevens naar een ZIP bestand om te delen met Panda Minecraft Launcher ondersteuning."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Exporteer foutopsporingsinformatie"
@@ -3072,7 +3072,7 @@
     "message": "Deze instellingen zijn ergens anders gewijzigd"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Instellingen die door mods zijn toegevoegd verschijnen hier nadat Panda ze in één van je instanties vindt."
+    "message": "Instellingen die door mods zijn toegevoegd verschijnen hier nadat Panda Minecraft Launcher ze in één van je instanties vindt."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Gebruik dezelfde spelinstellingen tussen je instanties."
@@ -3252,7 +3252,7 @@
     "message": "Kopieer advertentiedetails"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "Heb je een ongepaste of aanstootgevende advertentie gezien? Kopieer de details van de advertentie terwijl hij afspeelt en stuur ze naar <support>Panda Support</support>. We zullen de advertentie beoordelen en verwijderen als nodig."
+    "message": "Heb je een ongepaste of aanstootgevende advertentie gezien? Kopieer de details van de advertentie terwijl hij afspeelt en stuur ze naar <support>Panda Minecraft Launcher Support</support>. We zullen de advertentie beoordelen en verwijderen als nodig."
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "Wacht totdat de advertentie geladen is en probeer het dan opnieuw."
@@ -3396,7 +3396,7 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
     "message": "Panda Pride"
@@ -3588,7 +3588,7 @@
     "message": "Overslaan"
   },
   "app.welcome-screen.title": {
-    "message": "Welkom bij Panda"
+    "message": "Welkom bij Panda Minecraft Launcher"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "voorbeeld.modrinth.gg"
@@ -3657,7 +3657,7 @@
     "message": "Het kan verschillen van hun Minecraft gebruikersnaam!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Voer Panda gebruikersnaam in..."
+    "message": "Voer Panda Minecraft Launcher gebruikersnaam in..."
   },
   "friends.add-friend.username.title": {
     "message": "Wat is de Panda-gebruikersnaam van je vriend(in)?"
@@ -3720,7 +3720,7 @@
     "message": "Ontkoppelen..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Verwijder deze gedeelde instantie uit Panda en stuur geen updates meer naar gebruikers ervan. Je lokale instantie merkt hier geen gevolgen van."
+    "message": "Verwijder deze gedeelde instantie uit Panda Minecraft Launcher en stuur geen updates meer naar gebruikers ervan. Je lokale instantie merkt hier geen gevolgen van."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "Dit heeft alleen gevolgen voor je lokale instantie. Je geïnstalleerde content blijft op dit apparaat staan, en de gedeelde instantie en de gebruikers merken hier niks van."
@@ -3732,7 +3732,7 @@
     "message": "Gedeelde instantie ontkoppelen"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Hiermee wordt de gedeelde instantie van de servers van Panda verwijderd. Gebruikers die deze instantie in de Panda-app gebruiken, ontvangen geen updates meer, maar je lokale instantie en de content daarvan blijven op dit apparaat staan."
+    "message": "Hiermee wordt de gedeelde instantie van de servers van Panda Minecraft Launcher verwijderd. Gebruikers die deze instantie in de Panda-app gebruiken, ontvangen geen updates meer, maar je lokale instantie en de content daarvan blijven op dit apparaat staan."
   },
   "instance.action.create-shortcut": {
     "message": "Snelkoppeling maken"
@@ -4311,7 +4311,7 @@
     "message": "Opnieuw de browser openen"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Bij Panda aanmelden"
+    "message": "Bij Panda Minecraft Launcher aanmelden"
   },
   "modal.modrinth-account-required.sign-in-heading": {
     "message": "Meld je aan bij een Panda-account"

@@ -75,7 +75,7 @@
     "message": "فشل إعداد Minecraft"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "تعذّر الاتصال بـ Panda"
+    "message": "تعذّر الاتصال بـ Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "لا يوجد إذن للكتابة"
@@ -132,7 +132,7 @@
     "message": "قبول الكل"
   },
   "app.ads-consent.body": {
-    "message": "تُتيح الإعلانات استمرارية Panda وتُمول مدفوعات المنشئين. قد يقوم شركاؤنا بتخزين أو الوصول إلى ملفات تعريف الارتباط (cookies) في التطبيق لتخصيص الإعلانات وقياس الأداء."
+    "message": "تُتيح الإعلانات استمرارية Panda Minecraft Launcher وتُمول مدفوعات المنشئين. قد يقوم شركاؤنا بتخزين أو الوصول إلى ملفات تعريف الارتباط (cookies) في التطبيق لتخصيص الإعلانات وقياس الأداء."
   },
   "app.ads-consent.manage": {
     "message": "إدارة التفضيلات"
@@ -141,7 +141,7 @@
     "message": "رفض الكل"
   },
   "app.ads-consent.title": {
-    "message": "خصوصيتك وكيف تساهم الإعلانات في دعم Panda"
+    "message": "خصوصيتك وكيف تساهم الإعلانات في دعم Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "عرض مثيلات المكتبة بتنسيق صفّي مضغوط."
@@ -204,7 +204,7 @@
     "message": "الصفحة الرئيسية والمحتوى"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "اظهر تطبيق Panda عند الخروج من ماينكرافت."
+    "message": "اظهر تطبيق Panda Minecraft Launcher عند الخروج من ماينكرافت."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "اعد التركيز علي التطبيق عندما تغلق ماينكرافت"
@@ -459,7 +459,7 @@
     "message": "هذا الخِيار يزامن اعداداتك عبر جميع الأجهزة المسجل الدخول إليها. أطفئه لجعل اعداداتك محفوظة علي هذا الجهاز فقط."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "تسجيل الدخول إلى حساب Panda لمزامنة الإعدادات."
+    "message": "تسجيل الدخول إلى حساب Panda Minecraft Launcher لمزامنة الإعدادات."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "مزامنة الإعدادات عبر الأجهزة"
@@ -507,10 +507,10 @@
     "message": "نزّل للتحديث"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "بوت Panda المتحمّس"
+    "message": "بوت Panda Minecraft Launcher المتحمّس"
   },
   "app.hosting.update-required.title": {
-    "message": "يلزم تحديث تطبيق Panda"
+    "message": "يلزم تحديث تطبيق Panda Minecraft Launcher"
   },
   "app.install.phase.downloading_content": {
     "message": "جارٍ تنزيل المحتوى"
@@ -834,7 +834,7 @@
     "message": "لتلقي التحديثات لهذه النسخة المشتركة."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "أنت تستخدم حساب Panda الخاطئ"
+    "message": "أنت تستخدم حساب Panda Minecraft Launcher الخاطئ"
   },
   "app.instance.shortcut.created": {
     "message": "تم إنشاء الاختصار"
@@ -1251,10 +1251,10 @@
     "message": "تثبيت"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "تم إنشاء هذه الدعوة بواسطة مستخدم Panda آخر، وليس Panda. لا تقبل الدعوات إلا من الأشخاص الذين تثق بهم فقط."
+    "message": "تم إنشاء هذه الدعوة بواسطة مستخدم Panda Minecraft Launcher آخر، وليس Panda Minecraft Launcher. لا تقبل الدعوات إلا من الأشخاص الذين تثق بهم فقط."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "تم إنشاء دعوة الانضمام هذه بواسطة <creator>{username}</creator>، وليس بواسطة Panda. لا تقبل الدعوات إلا من أشخاص تثق بهم."
+    "message": "تم إنشاء دعوة الانضمام هذه بواسطة <creator>{username}</creator>، وليس بواسطة Panda Minecraft Launcher. لا تقبل الدعوات إلا من أشخاص تثق بهم."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "محتوى المودباك"
@@ -1287,7 +1287,7 @@
     "message": "لطلبات الدعم، تواصل مع <support-link>فريق الدعم</support-link>. وللإبلاغ عن الأخطاء، أنشئ <github-link>بلاغًا على GitHub</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "الملفات التي لم يتم نشرها على Panda لا يتم مراجعتها."
+    "message": "الملفات التي لم يتم نشرها على Panda Minecraft Launcher لا يتم مراجعتها."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "النماذج المشتركة"
@@ -1296,7 +1296,7 @@
     "message": "محتوى النسخة المشتركة"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "تحتوي هذه النسخة المُشاركة على ملفات غير منشور على Panda. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
+    "message": "تحتوي هذه النسخة المُشاركة على ملفات غير منشور على Panda Minecraft Launcher. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "المودباك المستخدم من قبل هذا الخادم لايمكن تنزيله الان. يمكن ان يكون غير موجود أو لم يتم نشره بعد أو تحت المراجعة يرجي المحاولة لاحقا أو تواصل مع مالك السيرفر."
@@ -1305,7 +1305,7 @@
     "message": "المودباك الخاص بالسيرفر غير موجود"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "تحتوي مودباك السيرفر هذا على ملفات غير منشور على Panda. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
+    "message": "تحتوي مودباك السيرفر هذا على ملفات غير منشور على Panda Minecraft Launcher. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "تحذير ملفات غير معروفة"
@@ -1326,7 +1326,7 @@
     "message": "تمت الإزالة"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "يحتوي تحديث مودباك السيرفر هذا على ملفات غير منشور على Panda. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
+    "message": "يحتوي تحديث مودباك السيرفر هذا على ملفات غير منشور على Panda Minecraft Launcher. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "تمت الإضافة"
@@ -1335,7 +1335,7 @@
     "message": "تمت الإزالة"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "يحتوي تحديث هذه النسخة المُشاركة على ملفات غير منشور على Panda. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
+    "message": "يحتوي تحديث هذه النسخة المُشاركة على ملفات غير منشور على Panda Minecraft Launcher. نوصي بشدة بعدم تثبيت الملفات إلا من مصادر تثق بها فقط."
   },
   "app.modal.update-to-play.update-required": {
     "message": "يلزم التحديث"
@@ -1356,10 +1356,10 @@
     "message": "جاري تحميل الملف الشخصي..."
   },
   "app.nav.modrinth-account": {
-    "message": "حساب Panda"
+    "message": "حساب Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "استضافة Panda"
+    "message": "استضافة Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "إزالة الحساب"
@@ -1590,7 +1590,7 @@
     "message": "تصدير ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda screenshots.zip"
+    "message": "Panda Minecraft Launcher screenshots.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} screenshots.zip"
@@ -1620,7 +1620,7 @@
     "message": "الاقدم"
   },
   "app.settings.app-version": {
-    "message": "تطبيق Panda {version}"
+    "message": "تطبيق Panda Minecraft Launcher {version}"
   },
   "app.settings.default-instance-options.environment-variables.description": {
     "message": "متغيرات البيئة المحددة عند تشغيل النسخة."
@@ -2721,16 +2721,16 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "الإعلانات تجعل Panda ممكناً وتمول مدفوعات المنشئين. قد يقوم شركاؤنا بتخزين أو الوصول إلى ملفات تعريف الارتباط (cookies) في التطبيق لتخصيص الإعلانات وقياس الأداء. يمكنك إلغاء الاشتراك أو إدارة تفضيلاتك أدناه."
+    "message": "الإعلانات تجعل Panda Minecraft Launcher ممكناً وتمول مدفوعات المنشئين. قد يقوم شركاؤنا بتخزين أو الوصول إلى ملفات تعريف الارتباط (cookies) في التطبيق لتخصيص الإعلانات وقياس الأداء. يمكنك إلغاء الاشتراك أو إدارة تفضيلاتك أدناه."
   },
   "app.settings.privacy.discord-rich-presence.description": {
-    "message": "إظهار تطبيق Panda كنشاطك الحالي على Discord. لا يؤثر هذا على الـ Rich Presence المُضاف للنسخ بواسطة المودات. يتطلب إعادة تشغيل التطبيق."
+    "message": "إظهار تطبيق Panda Minecraft Launcher كنشاطك الحالي على Discord. لا يؤثر هذا على الـ Rich Presence المُضاف للنسخ بواسطة المودات. يتطلب إعادة تشغيل التطبيق."
   },
   "app.settings.privacy.discord-rich-presence.title": {
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "يجمع Panda بيانات تحليلات واستخدام مجهولة الهوية لتحسين تجربة المستخدم وتخصيص تجربتك. عند تعطيل هذا الخيار، فإنك تلغي الاشتراك ولن يتم جمع بياناتك بعد الآن."
+    "message": "يجمع Panda Minecraft Launcher بيانات تحليلات واستخدام مجهولة الهوية لتحسين تجربة المستخدم وتخصيص تجربتك. عند تعطيل هذا الخيار، فإنك تلغي الاشتراك ولن يتم جمع بياناتك بعد الآن."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "بيانات قياس الاستخدام"
@@ -2745,7 +2745,7 @@
     "message": "قد يتم تحميل التطبيق بشكل أبطأ حتى يتم إعادة بناء التخزين المؤقت."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "مسح البيانات المخبأة (الذاكرة المؤقتة) وتنزيلها مرة أخرى من Panda. قد يتم تحميل التطبيق بشكل أبطأ حتى يتم إعادة بناء الذاكرة المؤقتة."
+    "message": "مسح البيانات المخبأة (الذاكرة المؤقتة) وتنزيلها مرة أخرى من Panda Minecraft Launcher. قد يتم تحميل التطبيق بشكل أبطأ حتى يتم إعادة بناء الذاكرة المؤقتة."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "ذاكرة التطبيق المؤقتة"
@@ -2763,7 +2763,7 @@
     "message": "مجلد التطبيق"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "تصدير سجلات التطبيق والبيانات التشخيصية إلى ملف ZIP لمشاركتها مع دعم Panda."
+    "message": "تصدير سجلات التطبيق والبيانات التشخيصية إلى ملف ZIP لمشاركتها مع دعم Panda Minecraft Launcher."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "تصدير معلومات التصحيح"
@@ -3249,10 +3249,10 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "فخر Panda"
+    "message": "فخر Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride.tooltip": {
     "message": "لقد حصلت على هذه أشكال الشخصيات مقابل تبرعك لحملة جمع التبرعات التي نظمتها Panda Pride خلال شهر الفخر."
@@ -3285,10 +3285,10 @@
     "message": "تشغيل"
   },
   "app.survey.body": {
-    "message": "هل تمانع في الإجابة على بضعة أسئلة حول تجربتك مع تطبيق Panda؟"
+    "message": "هل تمانع في الإجابة على بضعة أسئلة حول تجربتك مع تطبيق Panda Minecraft Launcher؟"
   },
   "app.survey.footer": {
-    "message": "ستنتقل هذه الملاحظات مباشرة إلى فريق Panda وتساعد في توجيه التحديثات القادمة!أهلاً بك يا مستخدم Panda!"
+    "message": "ستنتقل هذه الملاحظات مباشرة إلى فريق Panda Minecraft Launcher وتساعد في توجيه التحديثات القادمة!أهلاً بك يا مستخدم Panda Minecraft Launcher!"
   },
   "app.survey.no-thanks": {
     "message": "لا شكراً"
@@ -3297,7 +3297,7 @@
     "message": "شارك في الاستطلاع"
   },
   "app.survey.title": {
-    "message": "أهلاً بك يا مستخدم Panda!"
+    "message": "أهلاً بك يا مستخدم Panda Minecraft Launcher!"
   },
   "app.sync-instances-update.choose-source.data-packs": {
     "message": "اختر النسخة التي تود نسخ أشرطة أدوات الإبداع المحفوظة منها. تُستخدم هذه الأشرطة فقط للمزامنة الأولية، ويمكنك تعديلها من أي نسخة بعد ذلك."
@@ -3384,13 +3384,13 @@
     "message": "حزم الموارد المتزامنة"
   },
   "app.update-popup.body.download-complete": {
-    "message": "انتهى تنزيل تطبيق Panda v{version}. أعد التحميل للتحديث الآن، أو تلقائيًا عند إغلاق تطبيق Panda."
+    "message": "انتهى تنزيل تطبيق Panda Minecraft Launcher v{version}. أعد التحميل للتحديث الآن، أو تلقائيًا عند إغلاق تطبيق Panda Minecraft Launcher."
   },
   "app.update-popup.body.linux": {
     "message": "يتوفر الآن Panda Minecraft Launcher v{version}. استخدم مدير الحزم لتحديث التطبيق والحصول على أحدث الميزات والإصلاحات!"
   },
   "app.update-popup.body.metered": {
-    "message": "تطبيق Panda v{version} متاح الآن! وبما أنك متصل بشبكة مقيّدة، لم نقم بتنزيله تلقائيًا."
+    "message": "تطبيق Panda Minecraft Launcher v{version} متاح الآن! وبما أنك متصل بشبكة مقيّدة، لم نقم بتنزيله تلقائيًا."
   },
   "app.update-popup.changelog": {
     "message": "سجل التغيير"
@@ -3504,10 +3504,10 @@
     "message": "قد يختلف عن اسم المستخدم الخاص بهم في ماينكرافت!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "أدخل اسم مستخدم Panda..."
+    "message": "أدخل اسم مستخدم Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "ما اسم مستخدم صديقك في Panda؟"
+    "message": "ما اسم مستخدم صديقك في Panda Minecraft Launcher؟"
   },
   "friends.add-friends-to-share": {
     "message": "<link>أضف أصدقاء</link> لمعرفة ما الذي يلعبونه!"
@@ -3552,7 +3552,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>سجّل الدخول إلى حساب Panda</link> لإضافة الأصدقاء ومعرفة ما الذي يلعبونه!"
+    "message": "<link>سجّل الدخول إلى حساب Panda Minecraft Launcher</link> لإضافة الأصدقاء ومعرفة ما الذي يلعبونه!"
   },
   "installation-settings.shared-instance.linked-title": {
     "message": "النسخة المشتركة المرتبطة"
@@ -3567,7 +3567,7 @@
     "message": "جاري إلغاء الربط..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "إزالة هذه النسخة المُشاركة من Panda والتوقف عن إرسال التحديثات لأي شخص يستخدمها. لن تتأثر نسختك المحلية."
+    "message": "إزالة هذه النسخة المُشاركة من Panda Minecraft Launcher والتوقف عن إرسال التحديثات لأي شخص يستخدمها. لن تتأثر نسختك المحلية."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "هذا يؤثر فقط على نسختك المحلية. سيبقى المحتوى المثبت على هذا الجهاز، ولن تتأثر النسخة المُشاركة أو الأشخاص الآخرون الذين يستخدمونها."
@@ -3579,7 +3579,7 @@
     "message": "إلغاء ربط النسخة المُشاركة"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "سيؤدي هذا إلى حذف النسخة المُشاركة من خوادم Panda. سيتوقف الأشخاص الذين يستخدمونها على تطبيق Panda عن تلقي التحديثات، ولكن ستظل نسختك المحلية ومحتواها على هذا الجهاز."
+    "message": "سيؤدي هذا إلى حذف النسخة المُشاركة من خوادم Panda Minecraft Launcher. سيتوقف الأشخاص الذين يستخدمونها على تطبيق Panda Minecraft Launcher عن تلقي التحديثات، ولكن ستظل نسختك المحلية ومحتواها على هذا الجهاز."
   },
   "instance.action.create-shortcut": {
     "message": "إنشاء اختصار"
@@ -4122,10 +4122,10 @@
     "message": "افتح المتصفح مرة أخرى"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "تسجيل الدخول إلى Panda"
+    "message": "تسجيل الدخول إلى Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "تسجيل الدخول إلى حساب Panda"
+    "message": "تسجيل الدخول إلى حساب Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "جار تسجيل الدخول"

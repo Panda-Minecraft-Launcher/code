@@ -75,7 +75,7 @@
     "message": "A instalação do Minecraft falhou"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Não foi possível carregar o Panda"
+    "message": "Não foi possível carregar o Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Sem autorização para editar"
@@ -132,7 +132,7 @@
     "message": "Aceitar tudo"
   },
   "app.ads-consent.body": {
-    "message": "Os anúncios tornam o Panda possível e financiam os pagamentos aos criadores. Os nossos parceiros podem armazenar ou aceder a cookies na aplicação para personalizar anúncios e medir o desempenho."
+    "message": "Os anúncios tornam o Panda Minecraft Launcher possível e financiam os pagamentos aos criadores. Os nossos parceiros podem armazenar ou aceder a cookies na aplicação para personalizar anúncios e medir o desempenho."
   },
   "app.ads-consent.manage": {
     "message": "Gerir preferências"
@@ -141,7 +141,7 @@
     "message": "Rejeitar tudo"
   },
   "app.ads-consent.title": {
-    "message": "A sua privacidade e como os anúncios são financiados pela Panda"
+    "message": "A sua privacidade e como os anúncios são financiados pela Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Exibir instâncias da biblioteca numa disposição de linhas compacta."
@@ -216,7 +216,7 @@
     "message": "Use estas configurações de comportamento em todos os lugares em que estiver conectado. Desative esta opção para manter configurações separadas neste dispositivo."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Registe-se com uma conta Panda para sincronizar as definições."
+    "message": "Registe-se com uma conta Panda Minecraft Launcher para sincronizar as definições."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Sincronizar o comportamento entre dispositivos"
@@ -447,7 +447,7 @@
     "message": "Utilize estas definições de funcionalidades em todos os locais onde estiver com a sua conta iniciada. Desative esta opção para manter definições distintas neste dispositivo."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Inicie sessão numa conta Panda para sincronizar as definições."
+    "message": "Inicie sessão numa conta Panda Minecraft Launcher para sincronizar as definições."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Funcionalidades de sincronização entre dispositivos"
@@ -486,7 +486,7 @@
     "message": "Transfere para atualizar"
   },
   "app.hosting.update-required.title": {
-    "message": "É necessária uma atualização da aplicação Panda"
+    "message": "É necessária uma atualização da aplicação Panda Minecraft Launcher"
   },
   "app.install.phase.downloading_content": {
     "message": "Baixando conteúdo"
@@ -756,13 +756,13 @@
     "message": "Iniciar sessão como"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Tens de entrar na tua conta Panda"
+    "message": "Tens de entrar na tua conta Panda Minecraft Launcher"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "para receber atualizações para esta instância partilhada"
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Estás a usar a conta Panda errada"
+    "message": "Estás a usar a conta Panda Minecraft Launcher errada"
   },
   "app.instance.shortcut.created": {
     "message": "Atalho criado"
@@ -957,7 +957,7 @@
     "message": "Instalar"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Este convite foi criado por outro utilizador do Panda, não pelo Panda. Aceite convites apenas de pessoas em quem confia."
+    "message": "Este convite foi criado por outro utilizador do Panda Minecraft Launcher, não pelo Panda Minecraft Launcher. Aceite convites apenas de pessoas em quem confia."
   },
   "app.modal.install-to-play.mod-count": {
     "message": "{count, plural, one {mod} other {mods}}"
@@ -966,7 +966,7 @@
     "message": "Instância partilhada"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Este pacote de mods para o servidor contém ficheiros que não estão publicados no Panda. Recomendamos vivamente que instale apenas ficheiros de fontes fidedignas."
+    "message": "Este pacote de mods para o servidor contém ficheiros que não estão publicados no Panda Minecraft Launcher. Recomendamos vivamente que instale apenas ficheiros de fontes fidedignas."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Aviso de ficheiros desconhecidos"
@@ -999,13 +999,13 @@
     "message": "Início"
   },
   "app.nav.modrinth-account": {
-    "message": "Conta Panda"
+    "message": "Conta Panda Minecraft Launcher"
   },
   "app.nav.screenshots": {
     "message": "Capturas de ecrã"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Inicie sessão no Panda"
+    "message": "Inicie sessão no Panda Minecraft Launcher"
   },
   "app.nav.upgrade-to-modrinth-plus": {
     "message": "Atualizar para o Panda+"
@@ -1152,16 +1152,16 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Os anúncios tornam o Panda possível e financiam os pagamentos aos criadores. Os nossos parceiros podem armazenar ou aceder a cookies na aplicação para personalizar anúncios e medir o desempenho."
+    "message": "Os anúncios tornam o Panda Minecraft Launcher possível e financiam os pagamentos aos criadores. Os nossos parceiros podem armazenar ou aceder a cookies na aplicação para personalizar anúncios e medir o desempenho."
   },
   "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Mostrar a aplicação Panda como a sua atividade atual no Discord. Isto não afeta o Rich Presence adicionado às instâncias pelos mods. É necessário reiniciar a aplicação."
+    "message": "Mostrar a aplicação Panda Minecraft Launcher como a sua atividade atual no Discord. Isto não afeta o Rich Presence adicionado às instâncias pelos mods. É necessário reiniciar a aplicação."
   },
   "app.settings.privacy.discord-rich-presence.title": {
     "message": "Presença avançada no Discord"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "A Panda recolhe dados analíticos e de utilização anonimizados para melhorar a experiência dos nossos utilizadores e personalizar a sua experiência. Ao desativar esta opção, está a optar por não participar e os seus dados deixarão de ser recolhidos."
+    "message": "A Panda Minecraft Launcher recolhe dados analíticos e de utilização anonimizados para melhorar a experiência dos nossos utilizadores e personalizar a sua experiência. Ao desativar esta opção, está a optar por não participar e os seus dados deixarão de ser recolhidos."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetria"
@@ -1173,7 +1173,7 @@
     "message": "Mostrar sempre os detalhes da cópia"
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Limpe os dados da cache e faça o download novamente a partir do Panda. A aplicação poderá demorar mais tempo a carregar até que a cache seja reconstruída."
+    "message": "Limpe os dados da cache e faça o download novamente a partir do Panda Minecraft Launcher. A aplicação poderá demorar mais tempo a carregar até que a cache seja reconstruída."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "Cache da aplicação"
@@ -1191,7 +1191,7 @@
     "message": "Diretório de aplicações"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Exporte os registos da aplicação e os dados de diagnóstico para um ficheiro ZIP, para partilhar com o apoio técnico da Panda."
+    "message": "Exporte os registos da aplicação e os dados de diagnóstico para um ficheiro ZIP, para partilhar com o apoio técnico da Panda Minecraft Launcher."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Exportar informações de depuração"
@@ -1365,7 +1365,7 @@
     "message": "O seu pedido de skin não pôde ser guardado."
   },
   "app.skins.section.modrinth": {
-    "message": "Panda"
+    "message": "Panda Minecraft Launcher"
   },
   "app.synced-content.delete.override-description": {
     "message": "Pode removê-lo apenas desta instância ou de todas as instâncias sincronizadas. Se o remover apenas desta instância, as substituições serão ativadas e esta instância deixará de receber as alterações sincronizadas para estes tipos de conteúdo."
@@ -1428,10 +1428,10 @@
     "message": "Pode ser diferente do nome no Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Insere o nome do utilizador no Panda..."
+    "message": "Insere o nome do utilizador no Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "Qual é o nome de utilizador do teu amigo no Panda?"
+    "message": "Qual é o nome de utilizador do teu amigo no Panda Minecraft Launcher?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Adiciona amigos</link> para ver o que estão a jogar!"
@@ -1473,10 +1473,10 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Inicia a sessão com uma conta Panda</link> para adicionar amigos e ver o que estão a jogar!"
+    "message": "<link>Inicia a sessão com uma conta Panda Minecraft Launcher</link> para adicionar amigos e ver o que estão a jogar!"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Isto elimina a instância partilhada dos servidores da Panda. As pessoas que a estiverem a utilizar na aplicação Panda deixarão de receber atualizações, mas a sua instância local e o seu conteúdo permanecerão neste dispositivo."
+    "message": "Isto elimina a instância partilhada dos servidores da Panda Minecraft Launcher. As pessoas que a estiverem a utilizar na aplicação Panda Minecraft Launcher deixarão de receber atualizações, mas a sua instância local e o seu conteúdo permanecerão neste dispositivo."
   },
   "instance.action.create-shortcut": {
     "message": "Criar atalho"
@@ -1731,10 +1731,10 @@
     "message": "Conta necessária"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Inicie sessão no Panda"
+    "message": "Inicie sessão no Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Inicie sessão numa conta Panda"
+    "message": "Inicie sessão numa conta Panda Minecraft Launcher"
   },
   "search.filter.locked.instance": {
     "message": "Fornecido pela instância"

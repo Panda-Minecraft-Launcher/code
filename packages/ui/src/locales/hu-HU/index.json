@@ -2478,7 +2478,7 @@
     "defaultMessage": "TNT"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Panda csavarkulcs"
+    "defaultMessage": "Panda Minecraft Launcher csavarkulcs"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "Zombi"
@@ -3234,7 +3234,7 @@
     "defaultMessage": "Moderátor"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Panda Csapat"
+    "defaultMessage": "Panda Minecraft Launcher Csapat"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Függőben"
@@ -3354,10 +3354,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Egy Panda fejlesztő."
+    "defaultMessage": "Egy Panda Minecraft Launcher fejlesztő."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Egy Panda felhasználó."
+    "defaultMessage": "Egy Panda Minecraft Launcher felhasználó."
   },
   "profile.block-user.admonition-body": {
     "defaultMessage": "{username} nem fog tudni neked barátkérelmet küldeni, meghívni téged megosztott példányokba, illetve meghívni téged a Panda Hosting szervereire."
@@ -3435,7 +3435,7 @@
     "defaultMessage": "{count} projekt"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Engedélyezd a felugró ablakokat a Panda számára, majd próbáld újra."
+    "defaultMessage": "Engedélyezd a felugró ablakokat a Panda Minecraft Launcher számára, majd próbáld újra."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Nem sikerült lekérni a GitHub-profilt. Próbáld újra."
@@ -3549,7 +3549,7 @@
     "defaultMessage": "Hivatalos Panda-fiók"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "A Panda hivatalos felhasználói fiókja. Támogatás a <support-link></support-link> oldalon kaphatsz vagy e-mailben a <email></email> címen."
+    "defaultMessage": "A Panda Minecraft Launcher hivatalos felhasználói fiókja. Támogatás a <support-link></support-link> oldalon kaphatsz vagy e-mailben a <email></email> címen."
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "{username} hitelesítője és biztonsági kódjai eltávolításra kerülnek, és értesítést is kap róla. Ezt csak a személyazonosságának ellenőrzése után hajtsd végre."
@@ -5703,13 +5703,13 @@
     "defaultMessage": "Ne használd a Minecraft felhasználó nevűket."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Panda felhasználónév"
+    "defaultMessage": "Panda Minecraft Launcher felhasználónév"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "Nem található a keresésnek megfelelő felhasználó."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Panda felhasználónév megadása"
+    "defaultMessage": "Panda Minecraft Launcher felhasználónév megadása"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "Keresés..."
@@ -5850,7 +5850,7 @@
     "defaultMessage": "Az előfizetésed lemondása erre a dátumra van beállítva: <date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "A szerveredet felfüggesztettük. További információért vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
+    "defaultMessage": "A szerveredet felfüggesztettük. További információért vedd fel a kapcsolatot a Panda Minecraft Launcher ügyfélszolgálatával."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "A szervered hardverét jelenleg fejlesztjük, és hamarosan újra elérhető lesz."
@@ -5913,7 +5913,7 @@
     "defaultMessage": "Feltöltés folyamatban"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Kapcsolatfelvétel a Panda ügyfélszolgálatával"
+    "defaultMessage": "Kapcsolatfelvétel a Panda Minecraft Launcher ügyfélszolgálatával"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Rendszereink automatikusan értesítik a csapatunkat, ha probléma merül fel. Már dolgozunk a szerverek helyreállításán."
@@ -5928,7 +5928,7 @@
     "defaultMessage": "Ha nemrég vásároltál Panda Hosting szervert, az jelenleg a várólistán van, és amint készen áll, itt fog megjelenni. <warning>Ne próbálj új szervert vásárolni.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Ha személyre szabott segítségre van szükséged a szervered állapotával kapcsolatban, kérlek, vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
+    "defaultMessage": "Ha személyre szabott segítségre van szükséged a szervered állapotával kapcsolatban, kérlek, vedd fel a kapcsolatot a Panda Minecraft Launcher ügyfélszolgálatával."
   },
   "servers.manage.error.title": {
     "defaultMessage": "A szerverek betöltése nem sikerült"
@@ -6030,10 +6030,10 @@
     "defaultMessage": "A Medal szerver próbaidőszaka lejárt, és a szerveredet felfüggesztettük. Kérlek, frissítsd a szolgáltatást, ha továbbra is használni szeretnéd a szervert."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "A szerveredet felfüggesztettük. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
+    "defaultMessage": "A szerveredet felfüggesztettük. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Panda Minecraft Launcher ügyfélszolgálatával."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "A szerveredet felfüggesztettük: {reason}. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
+    "defaultMessage": "A szerveredet felfüggesztettük: {reason}. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Panda Minecraft Launcher ügyfélszolgálatával."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "A szervered hardverét jelenleg fejlesztjük, és hamarosan újra elérhető lesz."
@@ -6396,7 +6396,7 @@
     "defaultMessage": "Sötét"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Válaszd ki a Panda kívánt színtémáját."
+    "defaultMessage": "Válaszd ki a Panda Minecraft Launcher kívánt színtémáját."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Világos"
@@ -6699,7 +6699,7 @@
     "defaultMessage": "Mentés"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "Panda felhasználónév megadása"
+    "defaultMessage": "Panda Minecraft Launcher felhasználónév megadása"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "Keresés..."
@@ -7497,7 +7497,7 @@
     "defaultMessage": "Ez a felhasználó a Pandanál tartalommoderátorként dolgozik."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "A Panda tartalommoderátorai áttekintik a projekteket, feldolgozzák a bejelentéseket, és hozzájárulnak a Panda biztonságának fenntartásához."
+    "defaultMessage": "A Panda Minecraft Launcher tartalommoderátorai áttekintik a projekteket, feldolgozzák a bejelentéseket, és hozzájárulnak a Panda Minecraft Launcher biztonságának fenntartásához."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Tartalommoderátor"
@@ -7530,7 +7530,7 @@
     "defaultMessage": "Tartalommoderátor"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Panda Csapattag"
+    "defaultMessage": "Panda Minecraft Launcher Csapattag"
   },
   "version.content.name": {
     "defaultMessage": "Név"

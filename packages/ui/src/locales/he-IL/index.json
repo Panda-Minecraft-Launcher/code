@@ -816,7 +816,7 @@
     "defaultMessage": "מפקח"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "צוות Panda"
+    "defaultMessage": "צוות Panda Minecraft Launcher"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "בהמתנה"
@@ -1614,7 +1614,7 @@
     "defaultMessage": "תוצאות החיפוש"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "כ-{percentage}% מאפליקציית Panda זמינה בשפה זו."
+    "defaultMessage": "כ-{percentage}% מאפליקציית Panda Minecraft Launcher זמינה בשפה זו."
   },
   "settings.language.coverage.label": {
     "defaultMessage": "נתמכים {percentage}%"
