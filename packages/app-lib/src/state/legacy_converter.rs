@@ -7,9 +7,9 @@ use crate::state::instances::{
     InstanceTabVisibility, playtime_to_storage,
 };
 use crate::state::{
-    CacheValue, CachedEntry, CachedFile, CachedFileHash, CachedFileUpdate,
-    Credentials, DefaultPage, DependencyType, DeviceToken, DeviceTokenKey,
-    DeviceTokenPair, FileType, Hooks, InstanceInstallStage,
+    AccountProvider, CacheValue, CachedEntry, CachedFile, CachedFileHash,
+    CachedFileUpdate, Credentials, DefaultPage, DependencyType, DeviceToken,
+    DeviceTokenKey, DeviceTokenPair, FileType, Hooks, InstanceInstallStage,
     LauncherFeatureVersion, MemorySettings, ModrinthCredentials,
     ReleaseChannel, TeamMember, Theme, VersionFile, WindowSize,
 };
@@ -123,6 +123,7 @@ where
             let minecraft_users_len = minecraft_auth.users.len();
             for (uuid, legacy_credentials) in minecraft_auth.users {
                 Credentials {
+                    provider: AccountProvider::Microsoft,
                     offline_profile: MinecraftProfile {
                         id: legacy_credentials.id,
                         name: legacy_credentials.username,

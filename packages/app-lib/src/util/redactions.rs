@@ -3,7 +3,7 @@ use crate::state::ModrinthCredentials;
 use regex::bytes::{Captures, Regex};
 use serde::Serialize;
 use sqlx::sqlite::{SqliteConnectOptions, SqliteJournalMode};
-use sqlx::{ConnectOptions, Connection, SqlitePool};
+use sqlx::{AssertSqlSafe, ConnectOptions, Connection, Row, SqlitePool};
 use std::net::Ipv6Addr;
 use std::path::Path;
 use std::sync::LazyLock;
@@ -122,11 +122,14 @@ pub(crate) async fn scrub_database_snapshot(path: &Path) -> crate::Result<()> {
         .pragma("secure_delete", "ON")
         .connect()
         .await?;
-    sqlx::query!(
-        "UPDATE minecraft_users SET access_token = '', refresh_token = ''"
-    )
-    .execute(&mut connection)
-    .await?;
+    for column in secret_columns(&mut connection).await? {
+        sqlx::query(AssertSqlSafe(format!(
+            "UPDATE minecraft_users SET {} = ''",
+            quote_identifier(&column)
+        )))
+        .execute(&mut connection)
+        .await?;
+    }
     sqlx::query!("DELETE FROM minecraft_device_tokens")
         .execute(&mut connection)
         .await?;
@@ -162,15 +165,49 @@ pub(crate) async fn censor_support_text(
 async fn minecraft_tokens(
     pool: &sqlx::SqlitePool,
 ) -> crate::Result<Vec<String>> {
-    let rows =
-        sqlx::query!("SELECT access_token, refresh_token FROM minecraft_users")
-            .fetch_all(pool)
-            .await?;
+    let mut tokens = Vec::new();
+    for column in secret_columns(pool).await? {
+        let rows = sqlx::query(AssertSqlSafe(format!(
+            "SELECT {} FROM minecraft_users",
+            quote_identifier(&column)
+        )))
+        .fetch_all(pool)
+        .await?;
+
+        for row in rows {
+            if let Ok(token) = row.try_get::<String, _>(0)
+                && !token.is_empty()
+            {
+                tokens.push(token);
+            }
+        }
+    }
+
+    Ok(tokens)
+}
+
+async fn secret_columns(
+    exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite>,
+) -> crate::Result<Vec<String>> {
+    let rows = sqlx::query("PRAGMA table_info(minecraft_users)")
+        .fetch_all(exec)
+        .await?;
 
     Ok(rows
         .into_iter()
-        .flat_map(|row| [row.access_token, row.refresh_token])
+        .filter_map(|row| row.try_get::<String, _>("name").ok())
+        .filter(|name| {
+            let name = name.to_ascii_lowercase();
+            name.contains("token")
+                || name.contains("secret")
+                || name.contains("code")
+        })
         .collect())
+}
+
+/// Column names come from `PRAGMA table_info`; quoting them makes the dynamic SQL safe.
+fn quote_identifier(name: &str) -> String {
+    format!("\"{}\"", name.replace('"', "\"\""))
 }
 
 fn replace_nonempty(text: &mut String, value: &str, replacement: &str) {
@@ -183,7 +220,7 @@ type PatternReplacement = fn(&[u8], &Captures<'_>) -> Option<Vec<u8>>;
 
 static LOG_PATTERNS: LazyLock<Vec<(Regex, PatternReplacement)>> = LazyLock::new(
     || {
-        let patterns: [(&str, PatternReplacement); 12] = [
+        let patterns: [(&str, PatternReplacement); 16] = [
             (r"[0-9]{1,3}(?:\.[0-9]{1,3}){3}", censor_ipv4),
             (
                 r"[0-9A-Fa-f.]*:[0-9A-Fa-f:.]*[0-9A-Fa-f:](?:%[0-9A-Za-z_-]+)?",
@@ -229,6 +266,18 @@ static LOG_PATTERNS: LazyLock<Vec<(Regex, PatternReplacement)>> = LazyLock::new(
             }),
             (r#""refreshToken":"[^"]+""#, |_, _| {
                 Some(br#""refreshToken":"{REFRESH_TOKEN}""#.to_vec())
+            }),
+            (r#""clientToken":"[^"]+""#, |_, _| {
+                Some(br#""clientToken":"{CLIENT_TOKEN}""#.to_vec())
+            }),
+            (r#""access_token":"[^"]+""#, |_, _| {
+                Some(br#""access_token":"{MINECRAFT_ACCESS_TOKEN}""#.to_vec())
+            }),
+            (r#""refresh_token":"[^"]+""#, |_, _| {
+                Some(br#""refresh_token":"{MINECRAFT_REFRESH_TOKEN}""#.to_vec())
+            }),
+            (r#""device_code":"[^"]+""#, |_, _| {
+                Some(br#""device_code":"{DEVICE_CODE}""#.to_vec())
             }),
         ];
         patterns
@@ -303,7 +352,8 @@ fn censor_ipv6(data: &[u8], captures: &Captures<'_>) -> Option<Vec<u8>> {
 
 /// Censors the same kinds of data that mclogs filters out of uploaded logs: IPv4 and IPv6
 /// addresses (other than loopback and well-known public DNS resolvers), usernames in home
-/// directory paths and the `USERNAME` environment variable, and Minecraft session tokens.
+/// directory paths and the `USERNAME` environment variable, and Minecraft session tokens
+/// (including ely.by's OAuth and Yggdrasil token fields).
 ///
 /// Adapted from the log filters of mclogs (<https://github.com/aternosorg/mclogs>),
 /// copyright (c) 2018-2024 Aternos GmbH, MIT license.
@@ -443,6 +493,16 @@ mod tests {
         assert_eq!(
             censor(r#"{"authToken":"abc","refreshToken":"def"}"#),
             r#"{"authToken":"{AUTH_TOKEN}","refreshToken":"{REFRESH_TOKEN}"}"#
+        );
+    }
+
+    #[test]
+    fn censors_ely_by_token_fields() {
+        assert_eq!(
+            censor(
+                r#"{"clientToken":"abc","access_token":"def","refresh_token":"ghi","device_code":"jkl"}"#
+            ),
+            r#"{"clientToken":"{CLIENT_TOKEN}","access_token":"{MINECRAFT_ACCESS_TOKEN}","refresh_token":"{MINECRAFT_REFRESH_TOKEN}","device_code":"{DEVICE_CODE}"}"#
         );
     }
 

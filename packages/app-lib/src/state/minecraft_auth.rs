@@ -1,6 +1,7 @@
+use super::minecraft_skins::mojang_api::fetch_ely_by_online_profile;
 use crate::ErrorKind;
 use crate::util::fetch::INSECURE_REQWEST_CLIENT;
-use anyhow::Context;
+use anyhow::{Context, anyhow};
 use base64::Engine;
 use base64::prelude::{BASE64_STANDARD, BASE64_URL_SAFE_NO_PAD};
 use chrono::{DateTime, Duration, TimeZone, Utc};
@@ -79,6 +80,16 @@ pub enum MinecraftAuthenticationError {
     NoSessionId,
     #[error("Error reading user hash")]
     NoUserHash,
+    #[error("ely.by authorization is still pending")]
+    ElyByAuthorizationPending,
+    #[error("ely.by authorization was denied")]
+    ElyByAccessDenied,
+    #[error("ely.by device code has expired, please sign in again")]
+    ElyByExpiredToken,
+    #[error(
+        "ely.by client is not registered: register a Desktop application at https://account.ely.by/dev/applications/new and set ELY_BY_CLIENT_ID"
+    )]
+    ElyByInvalidClient,
 }
 
 #[derive(Deserialize)]
@@ -152,8 +163,22 @@ impl MinecraftAuthenticationError {
                     _ => "minecraft_auth_error",
                 }
             }
+            Self::ElyByAuthorizationPending => "elyby_authorization_pending",
+            Self::ElyByAccessDenied => "elyby_access_denied",
+            Self::ElyByExpiredToken => "elyby_expired_token",
+            Self::ElyByInvalidClient => "elyby_invalid_client",
             _ => "minecraft_auth_error",
         }
+    }
+
+    fn requires_relogin(&self) -> bool {
+        self.is_invalid_grant()
+            || matches!(
+                self,
+                Self::ElyByExpiredToken
+                    | Self::ElyByAccessDenied
+                    | Self::ElyByInvalidClient
+            )
     }
 
     fn is_invalid_grant(&self) -> bool {
@@ -240,6 +265,7 @@ pub async fn login_finish(
     minecraft_entitlements(&minecraft_token.access_token).await?;
 
     let mut credentials = Credentials {
+        provider: AccountProvider::Microsoft,
         offline_profile: MinecraftProfile::default(),
         access_token: minecraft_token.access_token,
         refresh_token: oauth_token.value.refresh_token,
@@ -268,8 +294,48 @@ pub async fn login_finish(
     Ok(credentials)
 }
 
+#[derive(
+    Debug,
+    Clone,
+    Copy,
+    PartialEq,
+    Eq,
+    Default,
+    Serialize,
+    Deserialize,
+    sqlx::Type,
+)]
+#[serde(rename_all = "lowercase")]
+#[sqlx(rename_all = "lowercase")]
+pub enum AccountProvider {
+    #[default]
+    #[serde(alias = "Microsoft")]
+    Microsoft,
+    #[serde(alias = "ElyBy")]
+    ElyBy,
+}
+
+impl AccountProvider {
+    fn as_str(self) -> &'static str {
+        match self {
+            Self::Microsoft => "microsoft",
+            Self::ElyBy => "elyby",
+        }
+    }
+
+    fn from_db(provider: &str) -> Self {
+        match provider {
+            "elyby" => Self::ElyBy,
+            _ => Self::Microsoft,
+        }
+    }
+}
+
 #[derive(Deserialize, Debug)]
 pub struct Credentials {
+    /// The authentication provider this account belongs to.
+    #[serde(default)]
+    pub provider: AccountProvider,
     /// The offline profile of the user these credentials are for.
     ///
     /// Such a profile can only be relied upon to have a proper player UUID, which is
@@ -349,6 +415,10 @@ impl Credentials {
             return Ok(());
         }
 
+        if self.provider == AccountProvider::ElyBy {
+            return self.refresh_elyby(exec).await;
+        }
+
         let oauth_token = oauth_refresh(&self.refresh_token).await?;
         let (pair, current_date) =
             DeviceTokenPair::refresh_and_get_device_token(
@@ -380,6 +450,23 @@ impl Credentials {
         self.refresh_token = oauth_token.value.refresh_token;
         self.expires = oauth_token.date
             + Duration::seconds(oauth_token.value.expires_in as i64);
+
+        self.upsert(exec).await?;
+
+        Ok(())
+    }
+
+    /// Refreshes an ely.by account. Ely.by never rotates the refresh token, so
+    /// the existing one is kept even when the response happens to include one.
+    async fn refresh_elyby(
+        &mut self,
+        exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite> + Copy,
+    ) -> crate::Result<()> {
+        let token = elyby_refresh_token(&self.refresh_token).await?;
+        elyby_account_info(&token.access_token).await?;
+
+        self.access_token = token.access_token;
+        self.expires = Utc::now() + Duration::seconds(token.expires_in as i64);
 
         self.upsert(exec).await?;
 
@@ -467,6 +554,16 @@ impl Credentials {
 
             stale_profile
         };
+
+        if self.provider == AccountProvider::ElyBy {
+            return fetch_ely_by_online_profile(self).await.or_else(|| {
+                if cache_intent.can_use_stale_on_fetch_error() {
+                    stale_profile
+                } else {
+                    None
+                }
+            });
+        }
 
         match minecraft_profile(&self.access_token).await {
             Ok(profile) => {
@@ -558,7 +655,7 @@ impl Credentials {
                         return Ok(Some(creds));
                     }
 
-                    if auth_error.is_some_and(|error| error.is_invalid_grant())
+                    if auth_error.is_some_and(|error| error.requires_relogin())
                     {
                         Self::remove(creds.offline_profile.id, exec).await?;
 
@@ -588,7 +685,7 @@ impl Credentials {
         let res = sqlx::query!(
             "
             SELECT
-                uuid, active, username, access_token, refresh_token, expires
+                uuid, active, username, access_token, refresh_token, expires, provider
             FROM minecraft_users
             WHERE active = TRUE
             "
@@ -599,6 +696,7 @@ impl Credentials {
         Ok(match res {
             Some(x) => {
                 let mut credentials = Self {
+                    provider: AccountProvider::from_db(&x.provider),
                     offline_profile: MinecraftProfile {
                         id: Uuid::parse_str(&x.uuid).unwrap_or_default(),
                         name: x.username,
@@ -625,7 +723,7 @@ impl Credentials {
         let res = sqlx::query!(
             "
             SELECT
-                uuid, active, username, access_token, refresh_token, expires
+                uuid, active, username, access_token, refresh_token, expires, provider
             FROM minecraft_users
             "
         )
@@ -633,6 +731,7 @@ impl Credentials {
         .try_fold(DashMap::new(), |acc, x| {
             let uuid = Uuid::parse_str(&x.uuid).unwrap_or_default();
             let mut credentials = Self {
+                provider: AccountProvider::from_db(&x.provider),
                 offline_profile: MinecraftProfile {
                     id: uuid,
                     name: x.username,
@@ -680,14 +779,15 @@ impl Credentials {
 
         sqlx::query!(
             "
-            INSERT INTO minecraft_users (uuid, active, username, access_token, refresh_token, expires)
-            VALUES ($1, $2, $3, $4, $5, $6)
+            INSERT INTO minecraft_users (uuid, active, username, access_token, refresh_token, expires, provider)
+            VALUES ($1, $2, $3, $4, $5, $6, $7)
             ON CONFLICT (uuid) DO UPDATE SET
                 active = $2,
                 username = $3,
                 access_token = $4,
                 refresh_token = $5,
-                expires = $6
+                expires = $6,
+                provider = $7
             ",
             uuid,
             self.active,
@@ -695,6 +795,7 @@ impl Credentials {
             self.access_token,
             self.refresh_token,
             expires,
+            self.provider.as_str(),
         )
             .execute(exec)
             .await?;
@@ -751,7 +852,8 @@ impl Serialize for Credentials {
                 ),
         };
 
-        let mut ser = serializer.serialize_struct("Credentials", 5)?;
+        let mut ser = serializer.serialize_struct("Credentials", 6)?;
+        ser.serialize_field("provider", &self.provider)?;
         ser.serialize_field("profile", &*profile)?;
         ser.serialize_field("access_token", &self.access_token)?;
         ser.serialize_field("refresh_token", &self.refresh_token)?;
@@ -1113,6 +1215,249 @@ async fn oauth_refresh(
         date: current_date,
         value: body,
     })
+}
+
+const ELY_BY_ACCOUNT_INFO_URL: &str =
+    "https://account.ely.by/api/account/v1/info";
+const ELY_BY_DEVICE_CODE_URL: &str =
+    "https://account.ely.by/api/oauth2/v1/devicecode";
+const ELY_BY_TOKEN_URL: &str = "https://account.ely.by/api/oauth2/v1/token";
+const ELY_BY_SCOPE: &str =
+    "account_info offline_access minecraft_server_session";
+const ELY_BY_POLL_INTERVAL: std::time::Duration =
+    std::time::Duration::from_secs(5);
+const ELY_BY_POLL_TIMEOUT: std::time::Duration =
+    std::time::Duration::from_secs(600);
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct ElyByDeviceCode {
+    pub device_code: String,
+    pub user_code: String,
+    pub verification_uri: String,
+    pub verification_uri_complete: String,
+    pub expires_in: u64,
+    pub interval: u64,
+}
+
+#[derive(Deserialize)]
+struct ElyByToken {
+    access_token: String,
+    #[serde(default)]
+    refresh_token: Option<String>,
+    expires_in: u64,
+}
+
+#[derive(Deserialize)]
+struct ElyByErrorResponse {
+    error: String,
+}
+
+#[derive(Deserialize)]
+struct ElyByAccountInfo {
+    uuid: String,
+    username: String,
+}
+
+enum ElyByPoll {
+    Token(ElyByToken),
+    Pending,
+    SlowDown,
+}
+
+fn elyby_client_id() -> Option<&'static str> {
+    option_env!("ELY_BY_CLIENT_ID").filter(|id| !id.is_empty())
+}
+
+fn elyby_client_secret() -> Option<&'static str> {
+    option_env!("ELY_BY_CLIENT_SECRET").filter(|secret| !secret.is_empty())
+}
+
+fn elyby_error(status: StatusCode, raw: &str) -> anyhow::Error {
+    let error = serde_json::from_str::<ElyByErrorResponse>(raw)
+        .map(|response| response.error)
+        .unwrap_or_default();
+
+    match error.as_str() {
+        "invalid_client" => {
+            MinecraftAuthenticationError::ElyByInvalidClient.into()
+        }
+        "access_denied" => {
+            MinecraftAuthenticationError::ElyByAccessDenied.into()
+        }
+        "expired_token" => {
+            MinecraftAuthenticationError::ElyByExpiredToken.into()
+        }
+        "authorization_pending" => {
+            MinecraftAuthenticationError::ElyByAuthorizationPending.into()
+        }
+        _ => anyhow!("ely.by authentication failed ({status}): {raw}"),
+    }
+}
+
+#[tracing::instrument]
+pub async fn login_elyby_begin() -> crate::Result<ElyByDeviceCode> {
+    let mut form = HashMap::new();
+    form.insert("client_id", elyby_client_id().unwrap_or("ely"));
+    form.insert("scope", ELY_BY_SCOPE);
+
+    let res = auth_retry(|| {
+        INSECURE_REQWEST_CLIENT
+            .post(ELY_BY_DEVICE_CODE_URL)
+            .header("Accept", "application/json")
+            .form(&form)
+            .timeout(std::time::Duration::from_secs(10))
+            .send()
+    })
+    .await?;
+
+    let status = res.status();
+    let text = res.text().await?;
+    if !status.is_success() {
+        return Err(elyby_error(status, &text));
+    }
+
+    Ok(serde_json::from_str(&text)?)
+}
+
+#[tracing::instrument(skip(device_code))]
+async fn elyby_poll_token(device_code: &str) -> crate::Result<ElyByPoll> {
+    let client_id = elyby_client_id()
+        .ok_or(MinecraftAuthenticationError::ElyByInvalidClient)?;
+
+    let mut form = HashMap::new();
+    form.insert("client_id", client_id);
+    form.insert("device_code", device_code);
+    form.insert("grant_type", "urn:ietf:params:oauth:grant-type:device_code");
+    if let Some(secret) = elyby_client_secret() {
+        form.insert("client_secret", secret);
+    }
+
+    let res = auth_retry(|| {
+        INSECURE_REQWEST_CLIENT
+            .post(ELY_BY_TOKEN_URL)
+            .header("Accept", "application/json")
+            .form(&form)
+            .timeout(std::time::Duration::from_secs(10))
+            .send()
+    })
+    .await?;
+
+    let status = res.status();
+    let text = res.text().await?;
+    if !status.is_success() {
+        let error = serde_json::from_str::<ElyByErrorResponse>(&text)
+            .map(|response| response.error)
+            .unwrap_or_default();
+        return match error.as_str() {
+            "authorization_pending" => Ok(ElyByPoll::Pending),
+            "slow_down" => Ok(ElyByPoll::SlowDown),
+            _ => Err(elyby_error(status, &text)),
+        };
+    }
+
+    Ok(ElyByPoll::Token(serde_json::from_str(&text)?))
+}
+
+#[tracing::instrument(skip(access_token))]
+async fn elyby_account_info(
+    access_token: &str,
+) -> crate::Result<ElyByAccountInfo> {
+    let res = auth_retry(|| {
+        INSECURE_REQWEST_CLIENT
+            .get(ELY_BY_ACCOUNT_INFO_URL)
+            .header("Accept", "application/json")
+            .bearer_auth(access_token)
+            .timeout(std::time::Duration::from_secs(10))
+            .send()
+    })
+    .await?;
+
+    let status = res.status();
+    let text = res.text().await?;
+    if status == StatusCode::UNAUTHORIZED || status == StatusCode::FORBIDDEN {
+        return Err(MinecraftAuthenticationError::ElyByExpiredToken.into());
+    }
+    if !status.is_success() {
+        return Err(anyhow!(
+            "ely.by account info request failed ({status}): {text}"
+        ));
+    }
+
+    Ok(serde_json::from_str(&text)?)
+}
+
+#[tracing::instrument(skip(refresh_token))]
+async fn elyby_refresh_token(refresh_token: &str) -> crate::Result<ElyByToken> {
+    let client_id = elyby_client_id()
+        .ok_or(MinecraftAuthenticationError::ElyByInvalidClient)?;
+
+    let mut form = HashMap::new();
+    form.insert("client_id", client_id);
+    form.insert("grant_type", "refresh_token");
+    form.insert("refresh_token", refresh_token);
+    form.insert("scope", ELY_BY_SCOPE);
+    if let Some(secret) = elyby_client_secret() {
+        form.insert("client_secret", secret);
+    }
+
+    let res = auth_retry(|| {
+        INSECURE_REQWEST_CLIENT
+            .post(ELY_BY_TOKEN_URL)
+            .header("Accept", "application/json")
+            .form(&form)
+            .timeout(std::time::Duration::from_secs(10))
+            .send()
+    })
+    .await?;
+
+    let status = res.status();
+    let text = res.text().await?;
+    if !status.is_success() {
+        return Err(elyby_error(status, &text));
+    }
+
+    Ok(serde_json::from_str(&text)?)
+}
+
+#[tracing::instrument(skip(device_code, exec))]
+pub(crate) async fn login_elyby_finish(
+    device_code: &str,
+    exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite> + Copy,
+) -> crate::Result<Credentials> {
+    let started = Instant::now();
+    let mut interval = ELY_BY_POLL_INTERVAL;
+
+    let token = loop {
+        if started.elapsed() >= ELY_BY_POLL_TIMEOUT {
+            return Err(MinecraftAuthenticationError::ElyByExpiredToken.into());
+        }
+
+        tokio::time::sleep(interval).await;
+        match elyby_poll_token(device_code).await? {
+            ElyByPoll::Token(token) => break token,
+            ElyByPoll::Pending => {}
+            ElyByPoll::SlowDown => {
+                interval += std::time::Duration::from_secs(5);
+            }
+        }
+    };
+
+    let info = elyby_account_info(&token.access_token).await?;
+    let credentials = Credentials {
+        provider: AccountProvider::ElyBy,
+        offline_profile: MinecraftProfile {
+            id: Uuid::parse_str(&info.uuid)?,
+            name: info.username,
+            ..MinecraftProfile::default()
+        },
+        access_token: token.access_token,
+        refresh_token: token.refresh_token.unwrap_or_default(),
+        expires: Utc::now() + Duration::seconds(token.expires_in as i64),
+        active: true,
+    };
+
+    credentials.upsert(exec).await?;
+    Ok(credentials)
 }
 
 #[derive(Deserialize, Debug)]
@@ -1704,4 +2049,40 @@ fn generate_oauth_challenge() -> String {
 
     let bytes: Vec<u8> = (0..64).map(|_| rng.random::<u8>()).collect();
     bytes.iter().map(|byte| format!("{byte:02x}")).collect()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn provider_db_values() {
+        assert_eq!(
+            AccountProvider::from_db("microsoft"),
+            AccountProvider::Microsoft
+        );
+        assert_eq!(AccountProvider::from_db("elyby"), AccountProvider::ElyBy);
+        assert_eq!(
+            AccountProvider::from_db("unknown"),
+            AccountProvider::Microsoft
+        );
+        assert_eq!(AccountProvider::Microsoft.as_str(), "microsoft");
+        assert_eq!(AccountProvider::ElyBy.as_str(), "elyby");
+    }
+
+    #[test]
+    fn elyby_error_codes() {
+        for (error, code) in [
+            ("invalid_client", "elyby_invalid_client"),
+            ("access_denied", "elyby_access_denied"),
+            ("expired_token", "elyby_expired_token"),
+            ("authorization_pending", "elyby_authorization_pending"),
+        ] {
+            let error = elyby_error(
+                StatusCode::BAD_REQUEST,
+                &format!(r#"{{"error":"{error}"}}"#),
+            );
+            assert_eq!(crate::error_code(&error), code);
+        }
+    }
 }

@@ -4541,9 +4541,6 @@
   "instance.worlds.world_in_use": {
     "message": "У цьому світі грають"
   },
-  "minecraft-account.add-account": {
-    "message": "Додати обліковий запис"
-  },
   "minecraft-account.label": {
     "message": "Обліковий запис Minecraft"
   },
@@ -4555,9 +4552,6 @@
   },
   "minecraft-account.select-account": {
     "message": "Вибрати обліковий запис"
-  },
-  "minecraft-account.sign-in": {
-    "message": "Увійти в Minecraft"
   },
   "minecraft-required.description": {
     "message": "Ви повинні мати обліковий запис Microsoft із придбаним Minecraft, перш ніж запускати ігри."

@@ -15,6 +15,26 @@ const networkError: MinecraftAuthError = {
 	],
 }
 
+const elyByNetworkError: MinecraftAuthError = {
+	whatHappened:
+		'Modrinth App could not connect to ely.by. This is usually caused by a local network, DNS, proxy, firewall, or VPN issue.',
+	stepsToFix: [
+		'Check that your internet connection is working',
+		'Allow Modrinth App through your firewall, antivirus, proxy, VPN, and hosts file rules',
+		'Try a different network or temporarily disable VPN/proxy software if you use one',
+		'Restart Modrinth App and try signing in again',
+	],
+}
+
+const elyByExpiredError: MinecraftAuthError = {
+	whatHappened: 'The ely.by device code expired before the sign-in was approved.',
+	stepsToFix: [
+		'Start the sign-in again in Modrinth App',
+		'Open the verification page and enter the new code promptly',
+		'Approve the request on ely.by before the code expires',
+	],
+}
+
 export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 	minecraft_auth_token_expired: {
 		whatHappened:
@@ -142,6 +162,67 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 			'Complete any prompts shown by Microsoft, Xbox, or Minecraft',
 			'Try signing in to Modrinth App again',
 			'If the official launcher also fails, follow the error shown there or contact Xbox Support',
+		],
+	},
+	elyby_network: elyByNetworkError,
+	elyby_connection_refused: elyByNetworkError,
+	elyby_access_denied: {
+		whatHappened: 'The ely.by sign-in request was denied on the ely.by website.',
+		stepsToFix: [
+			'Start the sign-in again in Modrinth App',
+			'Open the verification page and approve the request instead of denying it',
+		],
+	},
+	elyby_expired_token: elyByExpiredError,
+	elyby_device_code_expired: elyByExpiredError,
+	elyby_authorization_pending: {
+		whatHappened:
+			'The ely.by device code has not been approved yet, so sign-in could not be completed.',
+		stepsToFix: [
+			'Open the verification page and enter the code shown in Modrinth App',
+			'Approve the request on ely.by',
+			'Restart Modrinth App and start the sign-in again if the code has expired',
+		],
+	},
+	elyby_no_profile: {
+		whatHappened: 'The ely.by account does not have a usable Minecraft profile.',
+		stepsToFix: [
+			'Make sure you are signing in with the ely.by account that owns your Minecraft profile',
+			'Sign in at <a href="https://ely.by">ely.by</a> and confirm the Minecraft profile is linked',
+			'Try signing in to Modrinth App again',
+		],
+	},
+	elyby_invalid_client: {
+		whatHappened:
+			'ely.by rejected the launcher application used for sign-in. This is usually a temporary service configuration issue.',
+		stepsToFix: [
+			'Update Modrinth App to the latest version',
+			'Try signing in again in a few minutes',
+			'Contact support if the problem persists',
+		],
+	},
+	elyby_service_unavailable: {
+		whatHappened: 'ely.by is returning a server error, so sign-in cannot be completed right now.',
+		stepsToFix: [
+			'Wait a few minutes and try signing in again',
+			'Check whether <a href="https://ely.by">ely.by</a> is reachable in your browser',
+			'Contact support if the problem persists',
+		],
+	},
+	elyby_rate_limited: {
+		whatHappened: 'ely.by temporarily blocked sign-in because there were too many recent attempts.',
+		stepsToFix: [
+			'Wait a few minutes before trying again',
+			'Restart Modrinth App after waiting',
+			'Try signing in once more',
+		],
+	},
+	elyby_unknown: {
+		whatHappened: 'ely.by returned an error that Modrinth App does not recognize.',
+		stepsToFix: [
+			'Check that you can sign in at <a href="https://ely.by">ely.by</a> in your browser',
+			'Restart Modrinth App and try signing in again',
+			'Contact support with the debug information below if the problem persists',
 		],
 	},
 }

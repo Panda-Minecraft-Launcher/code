@@ -4550,9 +4550,6 @@
   "instance.worlds.world_in_use": {
     "message": "사용 중인 세계"
   },
-  "minecraft-account.add-account": {
-    "message": "계정 추가"
-  },
   "minecraft-account.label": {
     "message": "Minecraft 계정"
   },
@@ -4564,9 +4561,6 @@
   },
   "minecraft-account.select-account": {
     "message": "계정 선택"
-  },
-  "minecraft-account.sign-in": {
-    "message": "Minecraft에 로그인"
   },
   "minecraft-required.description": {
     "message": "Minecraft를 가진 Microsoft 계정이 있어야 실행하고 플레이할 수 있어요."

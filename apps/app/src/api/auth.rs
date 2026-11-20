@@ -10,6 +10,8 @@ pub fn init<R: Runtime>() -> TauriPlugin<R> {
         .invoke_handler(tauri::generate_handler![
             check_reachable,
             login,
+            login_elyby_begin,
+            login_elyby_finish,
             remove_user,
             get_default_user,
             set_default_user,
@@ -82,6 +84,18 @@ pub async fn login<R: Runtime>(
 
     window.close()?;
     Ok(None)
+}
+
+/// Begin an ely.by device-code sign-in.
+#[tauri::command]
+pub async fn login_elyby_begin() -> Result<ElyByDeviceCode> {
+    Ok(minecraft_auth::login_elyby_begin().await?)
+}
+
+/// Poll until the ely.by device-code sign-in is approved, denied, or expired.
+#[tauri::command]
+pub async fn login_elyby_finish(device_code: String) -> Result<Credentials> {
+    Ok(minecraft_auth::login_elyby_finish(&device_code).await?)
 }
 
 #[tauri::command]

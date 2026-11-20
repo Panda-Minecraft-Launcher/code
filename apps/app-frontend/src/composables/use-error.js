@@ -18,7 +18,10 @@ const errorState = reactive({
 			this.minecraftRequiredModal.show()
 			return
 		}
-		if (error.code?.startsWith('minecraft_auth_') && this.minecraftAuthErrorModal) {
+		if (
+			(error.code?.startsWith('minecraft_auth_') || error.code?.startsWith('elyby_')) &&
+			this.minecraftAuthErrorModal
+		) {
 			this.minecraftAuthErrorModal.show(error)
 			return
 		}

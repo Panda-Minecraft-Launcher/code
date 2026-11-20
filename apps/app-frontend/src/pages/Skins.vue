@@ -212,6 +212,15 @@ const messages = defineMessages({
 		id: 'app.skins.sign-in.button',
 		defaultMessage: 'Sign in to Microsoft',
 	},
+	elyByNoticeTitle: {
+		id: 'app.skins.ely-by-notice.title',
+		defaultMessage: 'Skins are managed by Ely.by',
+	},
+	elyByNoticeText: {
+		id: 'app.skins.ely-by-notice.text',
+		defaultMessage:
+			'Change the skin and cape for this account on ely.by. These settings are read-only in the launcher.',
+	},
 })
 
 const editSkinModal = useTemplateRef('editSkinModal')
@@ -232,6 +241,12 @@ const offline = ref(!navigator.onLine)
 const minecraftAccounts = injectMinecraftAccounts()
 const currentUser = ref(undefined)
 const currentUserId = ref<string | undefined>(undefined)
+const hasLoadedCurrentUser = ref(false)
+
+const isElyByAccount = computed(() => {
+	const provider = (currentUser.value as { provider?: string } | undefined)?.provider
+	return typeof provider === 'string' && provider.toLowerCase().replace(/[^a-z]/g, '') === 'elyby'
+})
 
 const username = computed(() => currentUser.value?.profile?.name ?? undefined)
 const selectedSkin = ref<Skin | null>(null)
@@ -275,6 +290,7 @@ const authServerQuery = useQuery({
 		await check_reachable()
 		return true
 	},
+	enabled: computed(() => hasLoadedCurrentUser.value && !isElyByAccount.value),
 	refetchInterval: 5 * 60 * 1000,
 	retry: false,
 	refetchOnWindowFocus: false,
@@ -349,8 +365,9 @@ const skinVariant = computed(() => selectedSkin.value?.variant)
 const skinNametag = computed(() => (appSettings.hideNametagSkinsPage ? undefined : username.value))
 const isSkinManagementReadOnly = computed(
 	() =>
-		!!currentUser.value &&
-		(offline.value || (authServerQuery.isError.value && !authServerQuery.isLoading.value)),
+		isElyByAccount.value ||
+		(!!currentUser.value &&
+			(offline.value || (authServerQuery.isError.value && !authServerQuery.isLoading.value))),
 )
 const hasPendingSkinChange = computed(
 	() => !skinsMatch(selectedSkin.value, originalSelectedSkin.value),
@@ -815,6 +832,8 @@ async function loadCurrentUser() {
 		handleError(e as Error)
 		currentUser.value = undefined
 		currentUserId.value = undefined
+	} finally {
+		hasLoadedCurrentUser.value = true
 	}
 }
 
@@ -1042,7 +1061,9 @@ function onOffline() {
 
 function onOnline() {
 	offline.value = false
-	void authServerQuery.refetch()
+	if (!isElyByAccount.value) {
+		void authServerQuery.refetch()
+	}
 }
 
 async function checkUserChanges() {
@@ -1294,6 +1315,24 @@ await loadSkins()
 				<WindowsIcon v-else />
 				{{ formatMessage(messages.signInButton) }}
 			</Button>
+		</div>
+	</div>
+
+	<div v-else-if="isElyByAccount" class="sticky w-full bottom-0 z-20 p-4 pt-0">
+		<div
+			class="mx-auto flex w-full max-w-5xl items-center justify-between gap-3 rounded-[20px] border border-solid border-surface-5 bg-surface-3 p-4"
+		>
+			<div class="flex min-w-0 grow items-start gap-3">
+				<InfoIcon class="size-6 shrink-0 text-blue" />
+				<div class="flex min-w-0 flex-col gap-1">
+					<p class="m-0 text-lg font-semibold leading-6 text-contrast">
+						{{ formatMessage(messages.elyByNoticeTitle) }}
+					</p>
+					<p class="m-0 text-base leading-6 text-primary">
+						{{ formatMessage(messages.elyByNoticeText) }}
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>

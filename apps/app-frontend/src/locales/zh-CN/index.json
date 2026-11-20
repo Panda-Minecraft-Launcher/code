@@ -4427,9 +4427,6 @@
   "instance.worlds.world_in_use": {
     "message": "世界正在使用中"
   },
-  "minecraft-account.add-account": {
-    "message": "添加账户"
-  },
   "minecraft-account.label": {
     "message": "Minecraft 账户"
   },
@@ -4441,9 +4438,6 @@
   },
   "minecraft-account.select-account": {
     "message": "选择账户"
-  },
-  "minecraft-account.sign-in": {
-    "message": "登录 Minecraft"
   },
   "minecraft-required.description": {
     "message": "你需要先登录拥有 Minecraft 的 Microsoft 账户，然后才能启动游戏。"

@@ -4547,9 +4547,6 @@
   "instance.worlds.world_in_use": {
     "message": "Mondo già in uso"
   },
-  "minecraft-account.add-account": {
-    "message": "Aggiungi account"
-  },
   "minecraft-account.label": {
     "message": "Account di Minecraft"
   },
@@ -4561,9 +4558,6 @@
   },
   "minecraft-account.select-account": {
     "message": "Seleziona un account"
-  },
-  "minecraft-account.sign-in": {
-    "message": "Accedi a Minecraft"
   },
   "minecraft-required.description": {
     "message": "Devi disporre di una copia di Minecraft da un account Microsoft prima di poter giocare."

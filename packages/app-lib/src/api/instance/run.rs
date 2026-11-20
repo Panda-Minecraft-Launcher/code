@@ -2,8 +2,8 @@ use super::content::get_projects;
 use crate::ErrorKind;
 use crate::server_address::ServerAddress;
 use crate::state::{
-    Credentials, InstanceLink, ProcessMetadata, Settings, State,
-    game_options_sync_is_enabled, load_game_option_preferences,
+    AccountProvider, Credentials, InstanceLink, ProcessMetadata, Settings,
+    State, game_options_sync_is_enabled, load_game_option_preferences,
 };
 use crate::util::fetch;
 use crate::util::io::IOError;
@@ -227,6 +227,7 @@ async fn run_credentials(
 
     if let Some(project_id) = server_play_project_id(&context.link)
         && !project_id.trim().is_empty()
+        && !matches!(&credentials.provider, AccountProvider::ElyBy)
     {
         let server_id = uuid::Uuid::new_v4().to_string();
         let join_result = fetch::INSECURE_REQWEST_CLIENT

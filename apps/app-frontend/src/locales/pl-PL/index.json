@@ -4466,9 +4466,6 @@
   "instance.worlds.world_in_use": {
     "message": "Świat jest w użytku"
   },
-  "minecraft-account.add-account": {
-    "message": "Dodaj konto"
-  },
   "minecraft-account.label": {
     "message": "Konto Minecraft"
   },
@@ -4480,9 +4477,6 @@
   },
   "minecraft-account.select-account": {
     "message": "Wybierz konto"
-  },
-  "minecraft-account.sign-in": {
-    "message": "Zaloguj się do Minecraft"
   },
   "minecraft-required.description": {
     "message": "Potrzebujesz konto Microsoft, które posiada Minecraft, zanim będziesz mógł włączyć i zacząć grać."

@@ -3938,9 +3938,6 @@
   "instance.worlds.world_in_use": {
     "message": "Värld används"
   },
-  "minecraft-account.add-account": {
-    "message": "Lägg till konto"
-  },
   "minecraft-account.label": {
     "message": "Minecraft konto"
   },
@@ -3952,9 +3949,6 @@
   },
   "minecraft-account.select-account": {
     "message": "Välj konto"
-  },
-  "minecraft-account.sign-in": {
-    "message": "Logga in till Minecraft"
   },
   "minecraft-required.description": {
     "message": "Du behöver ett Microsoft-konto som äger Minecraft innan du kan köra och spela."

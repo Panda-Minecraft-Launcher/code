@@ -16,8 +16,9 @@ use crate::launcher::quick_play_version::{
 use crate::server_address::{ServerAddress, parse_server_address};
 use crate::state::server_join_log::JoinLogEntry;
 use crate::state::{
-    Credentials, DirectoryInfo, InstanceInstallStage, InstanceLaunchContext,
-    InstanceLink, JavaVersion, MemorySettings, ProcessMetadata, WindowSize,
+    AccountProvider, Credentials, DirectoryInfo, InstanceInstallStage,
+    InstanceLaunchContext, InstanceLink, JavaVersion, MemorySettings,
+    ProcessMetadata, WindowSize,
 };
 use crate::util::io;
 use crate::util::rpc::RpcServerBuilder;
@@ -35,6 +36,7 @@ use std::sync::Arc;
 use tokio::process::Command;
 
 mod args;
+mod authlib_injector;
 pub(crate) mod hooks;
 mod library;
 
@@ -1161,6 +1163,17 @@ pub async fn launch_minecraft(
         )?
         .into_iter(),
     );
+
+    if matches!(&credentials.provider, AccountProvider::ElyBy) {
+        authlib_injector::add_arguments(
+            &mut command,
+            &state.directories.caches_dir(),
+            main_class_path
+                .parent()
+                .context("resolving jar resource dir")?,
+        )
+        .await?;
+    }
 
     // The java launcher requires access to java.lang.reflect in order to force access in to
     // whatever module the main class is in

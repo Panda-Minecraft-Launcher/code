@@ -7,18 +7,48 @@ import {
 	TextSearchIcon,
 	WrenchIcon,
 } from '@modrinth/assets'
-import { Admonition, Button, ButtonLink, Collapsible, NewModal } from '@modrinth/ui'
+import {
+	Admonition,
+	Button,
+	ButtonLink,
+	Collapsible,
+	defineMessages,
+	NewModal,
+	useVIntl,
+} from '@modrinth/ui'
 import { computed, ref } from 'vue'
 
 import { handleSevereError } from '@/composables/use-error.js'
+import ElyByLoginModal from '@/features/minecraft-accounts/ElyByLoginModal.vue'
 import { login as login_flow, set_default_user } from '@/helpers/auth.js'
 import { openExternalUrl } from '@/platform/external-links'
 import { useCopyAsPaste } from '@/shared/composables/use-copy-as-paste'
 
 import { type MinecraftAuthError, minecraftAuthErrors } from './minecraft-auth-errors'
 
+const { formatMessage } = useVIntl()
+
+const messages = defineMessages({
+	header: {
+		id: 'minecraft-account.auth-error.header',
+		defaultMessage: 'Sign in failed',
+	},
+	microsoftAdmonition: {
+		id: 'minecraft-account.auth-error.microsoft',
+		defaultMessage:
+			"We couldn't sign you into your Microsoft account. This may be due to account restrictions or regional limitations.",
+	},
+	elyByAdmonition: {
+		id: 'minecraft-account.auth-error.elyby',
+		defaultMessage:
+			"We couldn't sign you into your ely.by account. Check your ely.by account and try again.",
+	},
+})
+
 const modal = ref<InstanceType<typeof NewModal>>()
+const elyByModal = ref<InstanceType<typeof ElyByLoginModal>>()
 const rawError = ref<string>('')
+const isElyBy = ref(false)
 const matchedError = ref<MinecraftAuthError | null>(null)
 const debugCollapsed = ref(true)
 const copied = ref(false)
@@ -28,6 +58,7 @@ const loadingSignIn = ref(false)
 
 function show(errorVal: { message?: string; code?: string }) {
 	rawError.value = errorVal?.message ?? String(errorVal)
+	isElyBy.value = errorVal?.code?.startsWith('elyby_') ?? false
 
 	matchedError.value = (errorVal?.code && minecraftAuthErrors[errorVal.code]) || null
 
@@ -47,15 +78,19 @@ defineExpose({
 async function signInAgain() {
 	try {
 		loadingSignIn.value = true
-		const loggedIn = await login_flow()
-		if (loggedIn) {
-			await set_default_user(loggedIn.profile.id)
+		if (isElyBy.value) {
+			await elyByModal.value?.signIn()
+		} else {
+			const loggedIn = await login_flow()
+			if (loggedIn) {
+				await set_default_user(loggedIn.profile.id)
+			}
 		}
-		loadingSignIn.value = false
 		modal.value?.hide()
 	} catch (err) {
-		loadingSignIn.value = false
 		handleSevereError(err)
+	} finally {
+		loadingSignIn.value = false
 	}
 }
 
@@ -77,12 +112,15 @@ async function inspectDebugInfo(text: string) {
 </script>
 
 <template>
-	<NewModal ref="modal" header="Sign in Failed" :max-width="'548px'">
+	<NewModal ref="modal" :header="formatMessage(messages.header)" :max-width="'548px'">
 		<div class="flex flex-col gap-6">
 			<Admonition
 				type="warning"
-				body="	We couldn't sign you into your Microsoft account. This may be due to account restrictions or
-				regional limitations."
+				:body="
+					isElyBy
+						? formatMessage(messages.elyByAdmonition)
+						: formatMessage(messages.microsoftAdmonition)
+				"
 			>
 			</Admonition>
 
@@ -196,4 +234,5 @@ async function inspectDebugInfo(text: string) {
 			</div>
 		</div>
 	</NewModal>
+	<ElyByLoginModal ref="elyByModal" @success="modal?.hide()" />
 </template>

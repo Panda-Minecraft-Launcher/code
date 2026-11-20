@@ -42,6 +42,14 @@
 					</svg>
 					{{ formatMessage(messages.signIn) }}
 				</Button>
+				<Button
+					type="outlined"
+					class="col-span-2"
+					:disabled="loadingElyBy"
+					@click="signInWithElyBy"
+				>
+					{{ formatMessage(messages.signInElyBy) }}
+				</Button>
 			</div>
 			<p class="m-0 text-center text-sm text-secondary">
 				{{ formatMessage(messages.dontHaveAccount) }}
@@ -54,6 +62,7 @@
 			</p>
 		</div>
 	</NewModal>
+	<ElyByLoginModal ref="elyByModal" @success="onElyBySuccess" />
 </template>
 
 <script setup lang="ts">
@@ -64,6 +73,7 @@ import { ref } from 'vue'
 import steveImage from '@/assets/steve-look-up-left.webp'
 import { handleSevereError } from '@/composables/use-error.js'
 import { injectMinecraftAccounts } from '@/features/minecraft-accounts/context'
+import ElyByLoginModal from '@/features/minecraft-accounts/ElyByLoginModal.vue'
 import { trackEvent } from '@/helpers/analytics'
 import { login as loginFlow, set_default_user } from '@/helpers/auth.js'
 
@@ -77,12 +87,12 @@ const messages = defineMessages({
 	},
 	descriptionHeader: {
 		id: 'minecraft-required.description-header',
-		defaultMessage: 'Sign in to a Microsoft account',
+		defaultMessage: 'Sign in to Minecraft',
 	},
 	description: {
 		id: 'minecraft-required.description',
 		defaultMessage:
-			'You need a Microsoft account that owns Minecraft before you can launch and play.',
+			'You need a Minecraft account before you can launch and play. You can sign in with Microsoft or ely.by.',
 	},
 	getSupport: {
 		id: 'minecraft-required.get-support',
@@ -90,7 +100,11 @@ const messages = defineMessages({
 	},
 	signIn: {
 		id: 'minecraft-required.sign-in',
-		defaultMessage: 'Sign in to Microsoft',
+		defaultMessage: 'Sign in with Microsoft',
+	},
+	signInElyBy: {
+		id: 'minecraft-required.sign-in-elyby',
+		defaultMessage: 'Sign in with ely.by',
 	},
 	dontHaveAccount: {
 		id: 'minecraft-required.dont-have-account',
@@ -103,10 +117,16 @@ const messages = defineMessages({
 })
 
 const modal = ref<InstanceType<typeof NewModal>>()
+const elyByModal = ref<InstanceType<typeof ElyByLoginModal>>()
 const loadingSignIn = ref(false)
+const loadingElyBy = ref(false)
 
 function show() {
 	modal.value?.show()
+}
+
+function onElyBySuccess() {
+	modal.value?.hide()
 }
 
 async function signIn() {
@@ -124,6 +144,17 @@ async function signIn() {
 		handleSevereError(error)
 	} finally {
 		loadingSignIn.value = false
+	}
+}
+
+async function signInWithElyBy() {
+	loadingElyBy.value = true
+	try {
+		await elyByModal.value?.signIn()
+	} catch (error) {
+		handleSevereError(error)
+	} finally {
+		loadingElyBy.value = false
 	}
 }
 

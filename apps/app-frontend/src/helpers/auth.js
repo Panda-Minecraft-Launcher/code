@@ -34,6 +34,25 @@ export async function login() {
 }
 
 /**
+ * Begin an ely.by device-code sign-in.
+ *
+ * @returns {Promise<ElyByDeviceCode>} Device code details, including user_code and verification_uri_complete.
+ */
+export async function login_elyby_begin() {
+	return await invoke('plugin:auth|login_elyby_begin')
+}
+
+/**
+ * Poll until the ely.by device-code sign-in is approved, denied, or expired.
+ *
+ * @param {string} deviceCode
+ * @returns {Promise<Credentials>}
+ */
+export async function login_elyby_finish(deviceCode) {
+	return await invoke('plugin:auth|login_elyby_finish', { deviceCode })
+}
+
+/**
  * Retrieves the default user
  * @return {Promise<UUID | undefined>}
  */

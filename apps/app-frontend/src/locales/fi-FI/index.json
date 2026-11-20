@@ -1502,9 +1502,6 @@
   "instance.worlds.world_in_use": {
     "message": "Maailma on käytössä"
   },
-  "minecraft-account.add-account": {
-    "message": "Lisää tili"
-  },
   "minecraft-account.label": {
     "message": "Minecraft-tili"
   },
@@ -1516,9 +1513,6 @@
   },
   "minecraft-account.select-account": {
     "message": "Valitse tili"
-  },
-  "minecraft-account.sign-in": {
-    "message": "Kirjaudu sisään Minecraftiin"
   },
   "search.filter.locked.instance": {
     "message": "Annettu instanssin toimesta"

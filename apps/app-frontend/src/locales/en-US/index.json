@@ -3485,6 +3485,12 @@
   "app.skins.edit-button": {
     "message": "Edit skin"
   },
+  "app.skins.ely-by-notice.text": {
+    "message": "Change the skin and cape for this account on ely.by. These settings are read-only in the launcher."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "Skins are managed by Ely.by"
+  },
   "app.skins.modal.add-skin-button": {
     "message": "Add skin"
   },
@@ -4559,8 +4565,41 @@
   "instance.worlds.world_in_use": {
     "message": "World is in use"
   },
-  "minecraft-account.add-account": {
-    "message": "Add account"
+  "minecraft-account.add-elyby-account": {
+    "message": "Add ely.by account"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Add Microsoft account"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "We couldn't sign you into your ely.by account. Check your ely.by account and try again."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "Sign in failed"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "We couldn't sign you into your Microsoft account. This may be due to account restrictions or regional limitations."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "Your code"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "Copied"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "Copy"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "Sign in with ely.by"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "Open the ely.by verification page and enter this code to authorize Panda Minecraft Launcher. Sign-in will continue automatically once you approve it."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "Open ely.by verification page"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "Waiting for authorization…"
   },
   "minecraft-account.label": {
     "message": "Minecraft account"
@@ -4568,20 +4607,26 @@
   "minecraft-account.not-signed-in": {
     "message": "Not signed in"
   },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
   "minecraft-account.remove-account": {
     "message": "Remove account"
   },
   "minecraft-account.select-account": {
     "message": "Select account"
   },
-  "minecraft-account.sign-in": {
-    "message": "Sign in to Minecraft"
+  "minecraft-account.sign-in-elyby": {
+    "message": "Sign in with ely.by"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Sign in with Microsoft"
   },
   "minecraft-required.description": {
-    "message": "You need a Microsoft account that owns Minecraft before you can launch and play."
+    "message": "You need a Minecraft account before you can launch and play. You can sign in with Microsoft or ely.by."
   },
   "minecraft-required.description-header": {
-    "message": "Sign in to a Microsoft account"
+    "message": "Sign in to Minecraft"
   },
   "minecraft-required.dont-have-account": {
     "message": "Don’t have an account?"
@@ -4596,7 +4641,10 @@
     "message": "Minecraft required"
   },
   "minecraft-required.sign-in": {
-    "message": "Sign in to Microsoft"
+    "message": "Sign in with Microsoft"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "Sign in with ely.by"
   },
   "modal.modrinth-account-required.browser-description": {
     "message": "A new tab opened to sign in. Complete the sign in there, then return to the app."

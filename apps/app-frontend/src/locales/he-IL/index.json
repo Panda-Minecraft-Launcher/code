@@ -2009,9 +2009,6 @@
   "instance.worlds.world_in_use": {
     "message": "עולם בשימוש"
   },
-  "minecraft-account.add-account": {
-    "message": "הוסף חשבון"
-  },
   "minecraft-account.not-signed-in": {
     "message": "לא מחובר"
   },

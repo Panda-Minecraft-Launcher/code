@@ -7,7 +7,10 @@
 		<Button type="colored" color="brand" :disabled="loginDisabled" @click="login()">
 			<LogInIcon v-if="!loginDisabled" />
 			<SpinnerIcon v-else class="animate-spin" />
-			{{ formatMessage(messages.signInToMinecraft) }}
+			{{ formatMessage(messages.signInWithMicrosoft) }}
+		</Button>
+		<Button type="outlined" :disabled="loginDisabled" @click="loginElyBy()">
+			{{ formatMessage(messages.signInWithElyBy) }}
 		</Button>
 	</div>
 	<Accordion
@@ -57,6 +60,12 @@
 						>
 							{{ account.profile.name }}
 						</p>
+						<span
+							v-if="isElyByAccount(account)"
+							class="shrink-0 text-xs px-1.5 py-0.5 rounded bg-surface-4 text-secondary"
+						>
+							{{ formatMessage(messages.elyByProvider) }}
+						</span>
 					</button>
 					<IconButton
 						v-tooltip="formatMessage(messages.removeAccount)"
@@ -70,7 +79,7 @@
 					</IconButton>
 				</div>
 			</template>
-			<div class="flex flex-col gap-2 px-2 pt-2">
+			<div class="grid grid-cols-2 gap-2 px-2 pt-2">
 				<Button
 					v-if="accounts.length > 0"
 					class="w-full !bg-button-bg !text-primary ![box-shadow:var(--shadow-button)]"
@@ -78,11 +87,21 @@
 					@click="login()"
 				>
 					<PlusIcon />
-					{{ formatMessage(messages.addAccount) }}
+					{{ formatMessage(messages.addMicrosoftAccount) }}
+				</Button>
+				<Button
+					v-if="accounts.length > 0"
+					class="w-full !bg-button-bg !text-primary ![box-shadow:var(--shadow-button)]"
+					:disabled="loginDisabled"
+					@click="loginElyBy()"
+				>
+					<PlusIcon />
+					{{ formatMessage(messages.addElyByAccount) }}
 				</Button>
 			</div>
 		</div>
 	</Accordion>
+	<ElyByLoginModal ref="elyByModal" />
 </template>
 
 <script setup lang="ts">
@@ -120,6 +139,8 @@ import type { Skin } from '@/helpers/skins'
 import { get_available_skins } from '@/helpers/skins'
 import { renderSkinHead } from '@/platform/app-lib/skins/commands'
 
+import ElyByLoginModal from './ElyByLoginModal.vue'
+
 const { formatMessage } = useVIntl()
 const { handleError } = injectNotificationManager()
 
@@ -132,9 +153,11 @@ type MinecraftCredential = {
 		id: string
 		name: string
 	}
+	provider?: string
 }
 
 const accounts: Ref<MinecraftCredential[]> = ref([])
+const elyByModal = ref<InstanceType<typeof ElyByLoginModal>>()
 const loginDisabled = ref(false)
 const defaultUser = ref<string | undefined>()
 const equippedSkin = ref<Skin | null>(null)
@@ -198,7 +221,18 @@ const selectedAccount = computed(() =>
 	accounts.value.find((account) => account.profile.id === defaultUser.value),
 )
 
+function isElyByAccount(account: MinecraftCredential) {
+	return account.provider?.toLowerCase() === 'elyby'
+}
+
+function elyByAvatarUrl(name: string) {
+	return `http://skinsystem.ely.by/skins/${encodeURIComponent(name)}.png`
+}
+
 const avatarUrl = computed(() => {
+	if (selectedAccount.value && isElyByAccount(selectedAccount.value)) {
+		return elyByAvatarUrl(selectedAccount.value.profile.name)
+	}
 	if (equippedSkin.value?.texture_key) {
 		const cachedUrl = equippedHeadUrl.value
 		if (cachedUrl) {
@@ -213,6 +247,9 @@ const avatarUrl = computed(() => {
 })
 
 function getAccountAvatarUrl(account: MinecraftCredential) {
+	if (isElyByAccount(account)) {
+		return elyByAvatarUrl(account.profile.name)
+	}
 	if (
 		account.profile.id === selectedAccount.value?.profile?.id &&
 		equippedSkin.value?.texture_key
@@ -244,6 +281,17 @@ async function login() {
 	loginDisabled.value = false
 }
 
+async function loginElyBy() {
+	loginDisabled.value = true
+	try {
+		await elyByModal.value?.signIn()
+	} catch (error) {
+		handleSevereError(error)
+	} finally {
+		loginDisabled.value = false
+	}
+}
+
 async function logout(id: string) {
 	await remove_user(id).catch(handleError)
 	await refreshValues()
@@ -266,9 +314,17 @@ const messages = defineMessages({
 		id: 'minecraft-account.not-signed-in',
 		defaultMessage: 'Not signed in',
 	},
-	addAccount: {
-		id: 'minecraft-account.add-account',
-		defaultMessage: 'Add account',
+	addMicrosoftAccount: {
+		id: 'minecraft-account.add-microsoft-account',
+		defaultMessage: 'Add Microsoft account',
+	},
+	addElyByAccount: {
+		id: 'minecraft-account.add-elyby-account',
+		defaultMessage: 'Add ely.by account',
+	},
+	elyByProvider: {
+		id: 'minecraft-account.provider-elyby',
+		defaultMessage: 'ely.by',
 	},
 	removeAccount: {
 		id: 'minecraft-account.remove-account',
@@ -282,9 +338,13 @@ const messages = defineMessages({
 		id: 'minecraft-account.label',
 		defaultMessage: 'Minecraft account',
 	},
-	signInToMinecraft: {
-		id: 'minecraft-account.sign-in',
-		defaultMessage: 'Sign in to Minecraft',
+	signInWithMicrosoft: {
+		id: 'minecraft-account.sign-in-microsoft',
+		defaultMessage: 'Sign in with Microsoft',
+	},
+	signInWithElyBy: {
+		id: 'minecraft-account.sign-in-elyby',
+		defaultMessage: 'Sign in with ely.by',
 	},
 })
 </script>

@@ -3635,9 +3635,6 @@
   "instance.worlds.world_in_use": {
     "message": "Svět je používán"
   },
-  "minecraft-account.add-account": {
-    "message": "Přidat účet"
-  },
   "minecraft-account.label": {
     "message": "Minecraft účet"
   },
@@ -3649,9 +3646,6 @@
   },
   "minecraft-account.select-account": {
     "message": "Zvolte účet"
-  },
-  "minecraft-account.sign-in": {
-    "message": "Přihlásit se do Minecraftu"
   },
   "minecraft-required.description-header": {
     "message": "Přihlaste se k účtu Microsoft"

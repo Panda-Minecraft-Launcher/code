@@ -14,6 +14,8 @@ fn main() {
                     .commands(&[
                         "check_reachable",
                         "login",
+                        "login_elyby_begin",
+                        "login_elyby_finish",
                         "remove_user",
                         "get_default_user",
                         "set_default_user",
