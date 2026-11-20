@@ -1707,16 +1707,16 @@
     "defaultMessage": "Mențineți fișierele actualizate atunci când serverul se modifică"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "Descărcați aplicația Modrinth"
+    "defaultMessage": "Descărcați aplicația Panda"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "Aplicația Modrinth se va deschide automat..."
+    "defaultMessage": "Aplicația Panda se va deschide automat..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "Deschiderea aplicației Modrinth"
+    "defaultMessage": "Deschiderea aplicației Panda"
   },
   "modal.open-in-app.why-use": {
-    "defaultMessage": "De ce să folosiți aplicația Modrinth"
+    "defaultMessage": "De ce să folosiți aplicația Panda"
   },
   "notification.error.title": {
     "defaultMessage": "A avut loc o eroare"
@@ -1749,7 +1749,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Echipa Modrinth"
+    "defaultMessage": "Echipa Panda"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "În așteptare"
@@ -3036,7 +3036,7 @@
     "defaultMessage": "Unde ți-ar plăcea ca serverul să fie localizat?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Regiunea nu este listată? <link>Spuneți-ne unde doriți să vedeți în continuare Modrinth Hosting!</link>"
+    "defaultMessage": "Regiunea nu este listată? <link>Spuneți-ne unde doriți să vedeți în continuare Panda Hosting!</link>"
   },
   "settings.account.title": {
     "defaultMessage": "Cont și securitate"

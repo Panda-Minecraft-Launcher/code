@@ -1134,13 +1134,13 @@
     "defaultMessage": "Hold filer oppdatert når serveren endres"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "Skaff Modrinth App-en"
+    "defaultMessage": "Skaff Panda Minecraft Launcher-en"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "Modrinth App-en kommer til å åpne seg automatisk..."
+    "defaultMessage": "Panda Minecraft Launcher-en kommer til å åpne seg automatisk..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "Åpner Modrinth App-en"
+    "defaultMessage": "Åpner Panda Minecraft Launcher-en"
   },
   "modal.open-in-app.why-use": {
     "defaultMessage": "Hvorfor bruke modrinth App-en"
@@ -1173,7 +1173,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth Team"
+    "defaultMessage": "Panda Team"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Venter"
@@ -2295,7 +2295,7 @@
     "defaultMessage": "Hvor vil du at serveren din skal være plassert?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Region ikke oppført? <link>Gi oss beskjed om hvor du ønsker å se Modrinth Hosting neste gang!</link>"
+    "defaultMessage": "Region ikke oppført? <link>Gi oss beskjed om hvor du ønsker å se Panda Hosting neste gang!</link>"
   },
   "settings.account.title": {
     "defaultMessage": "Konto og sikkerhet"
@@ -2724,4 +2724,3 @@
     "defaultMessage": "Du har ulagrede endringer."
   }
 }
-

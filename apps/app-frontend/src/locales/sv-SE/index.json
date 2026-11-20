@@ -75,7 +75,7 @@
     "message": "Installationen av Minecraft misslyckade"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Kunde inte nå Modrinth"
+    "message": "Kunde inte nå Panda"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Ingen behörighet att skriva"
@@ -132,7 +132,7 @@
     "message": "Godkänn alla"
   },
   "app.ads-consent.body": {
-    "message": "Annonser gör Modrinth möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik."
+    "message": "Annonser gör Panda möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik."
   },
   "app.ads-consent.manage": {
     "message": "Hantera inställningar"
@@ -141,7 +141,7 @@
     "message": "Avvisa alla"
   },
   "app.ads-consent.title": {
-    "message": "Din integritet och hur annonser stödjer Modrinth"
+    "message": "Din integritet och hur annonser stödjer Panda"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Visa biblioteksinstanser i en kompakt radlayout."
@@ -162,7 +162,7 @@
     "message": "Dölj namnskylt"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minimera Modrinth App när Minecraft startar."
+    "message": "Minimera Panda Minecraft Launcher när Minecraft startar."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Minimera app"
@@ -186,7 +186,7 @@
     "message": "Dölj högra sidofält"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Visa en säkerhetsvarning innan du installerar ett Modrinth Pack (.mrpack) som inte finns på Modrinth."
+    "message": "Visa en säkerhetsvarning innan du installerar ett Panda Pack (.mrpack) som inte finns på Panda."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Varna mig innan jag installerar okända modpaket"
@@ -216,7 +216,7 @@
     "message": "Dolda instanser"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Ta Modrinth-appen till förgrunden när Minecraft avslutas."
+    "message": "Ta Panda-appen till förgrunden när Minecraft avslutas."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Fokusera på appen igen när Minecraft stängs."
@@ -228,7 +228,7 @@
     "message": "Använd de här beteendeinställningarna överallt där du är inloggad. Stäng av det här för att ha andra inställningar på den här enheten."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Logga in på ett Modrinth-konto för att synkronisera inställningar."
+    "message": "Logga in på ett Panda-konto för att synkronisera inställningar."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Synkronisera beteende mellan enheter"
@@ -483,7 +483,7 @@
     "message": "Använd dessa funktions inställningar överallt du är inloggad. Stäng av detta för att hålla inställningar separerade för denna enhet."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Signera in till ett Modrinth konto för att synka inställningar."
+    "message": "Signera in till ett Panda konto för att synka inställningar."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Synka funktioner mellan enheter"
@@ -525,16 +525,16 @@
     "message": "Visa instans"
   },
   "app.hosting.update-required.description": {
-    "message": "Du behöver uppdatera för att använda Modrinth Hosting genom Modrinth App"
+    "message": "Du behöver uppdatera för att använda Panda Hosting genom Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Ladda ner för att uppdatera"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Exalterad Modrinth-bot"
+    "message": "Exalterad Panda-bot"
   },
   "app.hosting.update-required.title": {
-    "message": "Modrinth App-uppdatering krävs"
+    "message": "Panda Minecraft Launcher-uppdatering krävs"
   },
   "app.install.phase.downloading_content": {
     "message": "Laddar ner innehåll"
@@ -879,13 +879,13 @@
     "message": "Logga in som"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Du behöver logga in på Modrinth"
+    "message": "Du behöver logga in på Panda"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "för att få uppdateringar till den här delade instansen."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Du använder fel Modrinth-konto"
+    "message": "Du använder fel Panda-konto"
   },
   "app.instance.shortcut.created": {
     "message": "Genväg skapad"
@@ -1401,10 +1401,10 @@
     "message": "Installera"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Denna inbjudan skapades av en annan Modrinth-användare, inte Modrinth. Acceptera endast inbjudningar från personer du litar på."
+    "message": "Denna inbjudan skapades av en annan Panda-användare, inte Panda. Acceptera endast inbjudningar från personer du litar på."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Denna inbjudan skapades av <creator>{username}</creator>, inte Modrinth. Acceptera endast inbjudningar från personer du litar på."
+    "message": "Denna inbjudan skapades av <creator>{username}</creator>, inte Panda. Acceptera endast inbjudningar från personer du litar på."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Modpaketsinnehåll"
@@ -1437,7 +1437,7 @@
     "message": "För supportärenden, kontakta vårt <support-link>supportteam</support-link>. För buggrapporter, öppna ett <github-link>GitHub issue</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Filer som inte publiceras på Modrinth granskas inte."
+    "message": "Filer som inte publiceras på Panda granskas inte."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Delad instans"
@@ -1446,13 +1446,13 @@
     "message": "Delat instansinnehåll"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Denna delad instans innehåller filer som inte är publicerade på Modrinth. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
+    "message": "Denna delad instans innehåller filer som inte är publicerade på Panda. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
   },
   "app.modal.install-to-play.unavailable-header": {
     "message": "Den här serverns modpaket är inte tillgängligt"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Detta server-modpaket innehåller filer som inte är utgivna på Modrinth. Vi rekommenderar att endast installera filer från källor du litar på."
+    "message": "Detta server-modpaket innehåller filer som inte är utgivna på Panda. Vi rekommenderar att endast installera filer från källor du litar på."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Okända filvarningar"
@@ -1476,7 +1476,7 @@
     "message": "Tog bort"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Uppdateringen för detta server-modpaket innehåller filer som inte är utgivna på Modrinth. Vi rekommenderar att endast installera filer från källor du litar på."
+    "message": "Uppdateringen för detta server-modpaket innehåller filer som inte är utgivna på Panda. Vi rekommenderar att endast installera filer från källor du litar på."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Lade till"
@@ -1485,7 +1485,7 @@
     "message": "Tog bort"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Uppdateringen för denna delad instans innehåller filer som inte är publicerade på Modrinth. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
+    "message": "Uppdateringen för denna delad instans innehåller filer som inte är publicerade på Panda. Vi rekommenderar stark att du endast installerar filer från källor du litar på."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Uppdatering krävs"
@@ -1506,10 +1506,10 @@
     "message": "Läser in profil..."
   },
   "app.nav.modrinth-account": {
-    "message": "Modrinth-konto"
+    "message": "Panda-konto"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Hosting"
   },
   "app.nav.remove-account": {
     "message": "Ta bort konto"
@@ -1518,13 +1518,13 @@
     "message": "Skärmdumpar"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Logga in på Modrinth"
+    "message": "Logga in på Panda"
   },
   "app.nav.switch-account": {
     "message": "Byt konto"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Uppgradera till Modrinth+"
+    "message": "Uppgradera till Panda+"
   },
   "app.nav.view-profile": {
     "message": "Visa profil"
@@ -1740,7 +1740,7 @@
     "message": "Exportera ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Modrinth-skärmdumpar.zip"
+    "message": "Panda-skärmdumpar.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance}-skärmdumpar.zip"
@@ -1779,7 +1779,7 @@
     "message": "Dela servrar med vänner"
   },
   "app.settings.app-version": {
-    "message": "Modrinth App {version}"
+    "message": "Panda Minecraft Launcher {version}"
   },
   "app.settings.default-instance-options.environment-variables.description": {
     "message": "Miljövariabler som anges när en instans startas."
@@ -2046,7 +2046,7 @@
     "message": "Några av dina instanser kan inte använda den här inställningen"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Den här inställningen hanteras av Modrinths startinställningar."
+    "message": "Den här inställningen hanteras av Pandas startinställningar."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Ange ett värde"
@@ -2730,13 +2730,13 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Annonser gör Modrinth möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik. Du kan välja bort eller hantera dina inställningar nedan."
+    "message": "Annonser gör Panda möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik. Du kan välja bort eller hantera dina inställningar nedan."
   },
   "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Visa Modrinth App som din nuvarande aktivitet på Discord. Detta påverkar inte Rich Presence som lagts till i instanser av moddar. Kräver en app omstart."
+    "message": "Visa Panda Minecraft Launcher som din nuvarande aktivitet på Discord. Detta påverkar inte Rich Presence som lagts till i instanser av moddar. Kräver en app omstart."
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Modrinth samlar in anonymiserad statistik och användningsdata för att förbättra vår användarupplevelse och anpassa din upplevelse. Genom att inaktivera det här alternativet avanmäler du dig och din data kommer inte längre samlas in."
+    "message": "Panda samlar in anonymiserad statistik och användningsdata för att förbättra vår användarupplevelse och anpassa din upplevelse. Genom att inaktivera det här alternativet avanmäler du dig och din data kommer inte längre samlas in."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetri"
@@ -2748,7 +2748,7 @@
     "message": "Appen kan laddas in långsammare tills cachen är återuppbyggd."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Rensa cachad data och ladda ner den igen från Modrinth. Appen kan laddas in långsammare tills cachen är återuppbyggd."
+    "message": "Rensa cachad data och ladda ner den igen från Panda. Appen kan laddas in långsammare tills cachen är återuppbyggd."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "App-cache"
@@ -2871,7 +2871,7 @@
     "message": "Vi läste in de senaste inställningarna. Granska dina ändringar och spara sedan igen."
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Inställningar tillagda av moddar kommer att synas här efter att Modrinth hittar dem i någon av dina instanser."
+    "message": "Inställningar tillagda av moddar kommer att synas här efter att Panda hittar dem i någon av dina instanser."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Använd samma spelinställningar mellan dina instanser."
@@ -3027,7 +3027,7 @@
     "message": "Kopiera annonsdetaljer"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "Har du sett en opassande eller kränkande annons? Kopiera dess detaljer medan den visas och skicka dem till <support>Modrinth Support</support>. Vi kommer att granska och ta bort den."
+    "message": "Har du sett en opassande eller kränkande annons? Kopiera dess detaljer medan den visas och skicka dem till <support>Panda Support</support>. Vi kommer att granska och ta bort den."
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "Vänta på att annonsen läser in, försök sedan igen."
@@ -3171,13 +3171,13 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Modrinth"
+    "message": "Panda"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Modrinth Pride"
+    "message": "Panda Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Du fick dessa utseenden för att du donerade till en Modrinth Pride-insamling under Pride-månaden."
+    "message": "Du fick dessa utseenden för att du donerade till en Panda Pride-insamling under Pride-månaden."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3204,16 +3204,16 @@
     "message": "Växla på"
   },
   "app.survey.body": {
-    "message": "Skulle du kunna svara på några frågor angående din upplevelse med Modrinth App?"
+    "message": "Skulle du kunna svara på några frågor angående din upplevelse med Panda Minecraft Launcher?"
   },
   "app.survey.footer": {
-    "message": "Den här återkopplingen kommer gå direkt till Modrinth-teamet och hjälper till att vägleda framtida uppdateringar!"
+    "message": "Den här återkopplingen kommer gå direkt till Panda-teamet och hjälper till att vägleda framtida uppdateringar!"
   },
   "app.survey.no-thanks": {
     "message": "Nej tack"
   },
   "app.survey.title": {
-    "message": "Hej där Modrinth-användare!"
+    "message": "Hej där Panda-användare!"
   },
   "app.synced-content.change.disable-everywhere": {
     "message": "Inaktivera överallt"
@@ -3279,13 +3279,13 @@
     "message": "Synkroniserade resurspaket"
   },
   "app.update-popup.body.download-complete": {
-    "message": "Modrinth App v{version} har laddats ner. Ladda om för att uppdatera nu, eller automatiskt när du stänger Modrinth App."
+    "message": "Panda Minecraft Launcher v{version} har laddats ner. Ladda om för att uppdatera nu, eller automatiskt när du stänger Panda Minecraft Launcher."
   },
   "app.update-popup.body.linux": {
-    "message": "Modrinth App v{version} är tillgänglig. Använd din pakethanterare för att uppdatera och få tillgång till de senaste funktionerna och buggfixarna!"
+    "message": "Panda Minecraft Launcher v{version} är tillgänglig. Använd din pakethanterare för att uppdatera och få tillgång till de senaste funktionerna och buggfixarna!"
   },
   "app.update-popup.body.metered": {
-    "message": "Modrinth App v{version} är nu tillgänglig! Eftersom du använder ett nätverk med datatrafikbegränsningar har vi inte laddat ner det automatiskt."
+    "message": "Panda Minecraft Launcher v{version} är nu tillgänglig! Eftersom du använder ett nätverk med datatrafikbegränsningar har vi inte laddat ner det automatiskt."
   },
   "app.update-popup.changelog": {
     "message": "Ändringslogg"
@@ -3333,7 +3333,7 @@
     "message": "Hoppa över"
   },
   "app.welcome-screen.title": {
-    "message": "Välkommen till Modrinth"
+    "message": "Välkommen till Panda"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "exempel.modrinth.gg"
@@ -3396,10 +3396,10 @@
     "message": "Det kan vara annorlunda från deras Minecraft-användarnamn!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Ange Modrinth-användarnamn..."
+    "message": "Ange Panda-användarnamn..."
   },
   "friends.add-friend.username.title": {
-    "message": "Vad är din väns Modrinth-användarnamn?"
+    "message": "Vad är din väns Panda-användarnamn?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Lägg till vänner</link> för att se vad de spelar!"
@@ -3444,7 +3444,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Logga in på ett Modrinth-konto</link> för att lägga till vänner och se vad de spelar!"
+    "message": "<link>Logga in på ett Panda-konto</link> för att lägga till vänner och se vad de spelar!"
   },
   "hosting.play.update-to-play": {
     "message": "Uppdatera för att spela"
@@ -3459,7 +3459,7 @@
     "message": "Avlänkar..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Ta bort den delade instansen från Modrinth och sluta skicka uppdateringar till alla som använder den. Din lokala instans kommer inte att påverkas."
+    "message": "Ta bort den delade instansen från Panda och sluta skicka uppdateringar till alla som använder den. Din lokala instans kommer inte att påverkas."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-header": {
     "message": "Avlänkar delad instans"
@@ -3468,7 +3468,7 @@
     "message": "Avlänka delad instans"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Det här raderar den delade instansen från Modrinths servrar. De som använder den i Modrinth App kommer inte längre få uppdateringar, men din lokala instans och dess innehåll är kvar på den här enheten."
+    "message": "Det här raderar den delade instansen från Pandas servrar. De som använder den i Panda Minecraft Launcher kommer inte längre få uppdateringar, men din lokala instans och dess innehåll är kvar på den här enheten."
   },
   "instance.action.create-shortcut": {
     "message": "Skapa genväg"
@@ -3966,7 +3966,7 @@
     "message": "Skapa ett konto"
   },
   "modal.modrinth-account-required.description": {
-    "message": "Du måste logga in på ditt Modrinth-konto innan du kan använda den här funktionen."
+    "message": "Du måste logga in på ditt Panda-konto innan du kan använda den här funktionen."
   },
   "modal.modrinth-account-required.header": {
     "message": "Konto krävs"
@@ -3975,10 +3975,10 @@
     "message": "Öppna webbläsare igen"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Logga in på Modrinth"
+    "message": "Logga in på Panda"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Logga in på ett Modrinth-konto"
+    "message": "Logga in på ett Panda-konto"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Loggar in"

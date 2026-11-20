@@ -1233,16 +1233,16 @@
     "defaultMessage": "Mantém ficheiros atualizados quando o servidor muda"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "Obter a Modrinth App"
+    "defaultMessage": "Obter a Panda Minecraft Launcher"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "A Modrinth App vai abrir automaticamente..."
+    "defaultMessage": "A Panda Minecraft Launcher vai abrir automaticamente..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "A abrir a Modrinth App"
+    "defaultMessage": "A abrir a Panda Minecraft Launcher"
   },
   "modal.open-in-app.why-use": {
-    "defaultMessage": "Razões para usar a Modrinth App"
+    "defaultMessage": "Razões para usar a Panda Minecraft Launcher"
   },
   "notification.error.title": {
     "defaultMessage": "Ocorreu um erro"
@@ -1272,7 +1272,7 @@
     "defaultMessage": "Moderador"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Equipa do Modrinth"
+    "defaultMessage": "Equipa do Panda"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Pendente"
@@ -1386,10 +1386,10 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Um criador Modrinth."
+    "defaultMessage": "Um criador Panda."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Um utilizador Modrinth."
+    "defaultMessage": "Um utilizador Panda."
   },
   "profile.button.block": {
     "defaultMessage": "Bloquear"
@@ -1398,7 +1398,7 @@
     "defaultMessage": "Este utilizador não tem projetos!"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "A conta oficial do Modrinth. Obtenha assistência em <support-link></support-link> ou por e-mail em <email></email>"
+    "defaultMessage": "A conta oficial do Panda. Obtenha assistência em <support-link></support-link> ou por e-mail em <email></email>"
   },
   "project-card.date.published.tooltip": {
     "defaultMessage": "Publicado a {date}"
@@ -2337,7 +2337,7 @@
     "defaultMessage": "Onde queres que o teu servidor esteja localizado?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Região não listada? <link>Deixa-nos saber onde gostarias de ver Modrinth Hosting a seguir!</link>"
+    "defaultMessage": "Região não listada? <link>Deixa-nos saber onde gostarias de ver Panda Hosting a seguir!</link>"
   },
   "settings.account.title": {
     "defaultMessage": "Conta e segurança"
@@ -2364,7 +2364,7 @@
     "defaultMessage": "Escuro"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Escolha o seu tema de cores preferido no Modrinth."
+    "defaultMessage": "Escolha o seu tema de cores preferido no Panda."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Claro"
@@ -2436,7 +2436,7 @@
     "defaultMessage": "Foto de perfil"
   },
   "settings.profile.public-information.description": {
-    "defaultMessage": "Imagem de perfil: As informações do seu perfil estão publicamente <profile-link>visíveis no Modrinth</profile-link> e através da <docs-link>API do Modrinth</docs-link>."
+    "defaultMessage": "Imagem de perfil: As informações do seu perfil estão publicamente <profile-link>visíveis no Panda</profile-link> e através da <docs-link>API do Panda</docs-link>."
   },
   "settings.profile.username.description": {
     "defaultMessage": "Um nome único sem distinção de maiúsculas ou minúsculas para identificar o teu perfil."
@@ -2451,7 +2451,7 @@
     "defaultMessage": "Utilizador"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Estes são os utilizadores que bloqueaste no Modrinth. Eles não podem:"
+    "defaultMessage": "Estes são os utilizadores que bloqueaste no Panda. Eles não podem:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Ainda não bloqueaste ninguém."
@@ -2463,10 +2463,10 @@
     "defaultMessage": "Convidá-lo para instâncias partilhadas"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Controla quem te pode enviar pedidos de amizade no Modrinth."
+    "defaultMessage": "Controla quem te pode enviar pedidos de amizade no Panda."
   },
   "settings.social.hosting-access.description": {
-    "defaultMessage": "Controle quem pode convidá-lo para gerir um servidor da Modrinth Alojamento."
+    "defaultMessage": "Controle quem pode convidá-lo para gerir um servidor da Panda Alojamento."
   },
   "settings.social.hosting-access.title": {
     "defaultMessage": "Convites para acesso ao alojamento"
@@ -2955,4 +2955,3 @@
     "defaultMessage": "Tipo"
   }
 }
-

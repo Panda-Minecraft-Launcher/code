@@ -75,7 +75,7 @@
     "message": "Nastavení Minecraftu se nezdařilo"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Nepodařilo se připojit k Modrinth"
+    "message": "Nepodařilo se připojit k Panda"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Nemáte oprávnění k zápisu"
@@ -141,7 +141,7 @@
     "message": "Odmítnout vše"
   },
   "app.ads-consent.title": {
-    "message": "Vaše soukromí a způsob, jakým reklamy podporují Modrinth"
+    "message": "Vaše soukromí a způsob, jakým reklamy podporují Panda"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Zobrazit instanční knihovny v kompaktních řádcích."
@@ -162,7 +162,7 @@
     "message": "Skrýt jmenovku"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minimalizovat Modrinth aplikaci při spuštění Minecraftu."
+    "message": "Minimalizovat Panda aplikaci při spuštění Minecraftu."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Minimalizovat aplikaci"
@@ -186,7 +186,7 @@
     "message": "Skrýt pravý postranní panel"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Zobrazit bezpečnostní varování před instalací Modrinth Pack (.mrpack), který není hostován v Modrinth."
+    "message": "Zobrazit bezpečnostní varování před instalací Panda Pack (.mrpack), který není hostován v Panda."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Upozorni mě před instalací neznámých modpacků"
@@ -204,7 +204,7 @@
     "message": "Domovská stránka a kontent"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "Instance, které jste skryli z knihovny na tomto zařízení. Skryté instance nejsou synchronizovány s vaším Modrinth účtem."
+    "message": "Instance, které jste skryli z knihovny na tomto zařízení. Skryté instance nejsou synchronizovány s vaším Panda účtem."
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "Zatím jste neskryli žádné instance."
@@ -219,7 +219,7 @@
     "message": "Skryté príležitosti"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Zobrazit Modrinth App na popředí po opuštění Minecraftu."
+    "message": "Zobrazit Panda Minecraft Launcher na popředí po opuštění Minecraftu."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Přenést aplikaci na popředí po opuštění Minecraftu"
@@ -231,7 +231,7 @@
     "message": "Používejte toto nastavení všude, kde jste přihlášeni. Vypněte ho, pokud chcete různé nastavení na různých zařízeních."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Přihlašte se do vašeho Modrinth účtu aby jste si mohli synchronizovat nastavení."
+    "message": "Přihlašte se do vašeho Panda účtu aby jste si mohli synchronizovat nastavení."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Synchronizovat nastavení mezi různými zařízeními"
@@ -486,7 +486,7 @@
     "message": "Použije tyto nastavení všude, kde jste přihlášeni. Vypněte toto pro zachování oddělených nastavení na tomto zařízení."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Přihlaste se Modrinth účtem pro synchronizaci nastavení."
+    "message": "Přihlaste se Panda účtem pro synchronizaci nastavení."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Synchronizovat nastavení napříč zařízeními"
@@ -528,16 +528,16 @@
     "message": "Zobrazit instanci"
   },
   "app.hosting.update-required.description": {
-    "message": "Musíte aktualizovat Modrinth Hosting přes Modrinth App"
+    "message": "Musíte aktualizovat Panda Hosting přes Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Stáhnout novou aktualizaci"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Nadšený Modrinth Bot"
+    "message": "Nadšený Panda Bot"
   },
   "app.hosting.update-required.title": {
-    "message": "Modrinth App potřebuje být aktualizovaná"
+    "message": "Panda Minecraft Launcher potřebuje být aktualizovaná"
   },
   "app.install.phase.downloading_content": {
     "message": "Stahování obsahu"
@@ -645,7 +645,7 @@
     "message": "Vaše změny ještě nebyly sdíleny"
   },
   "app.instance.admonitions.shared-instance.owner-update-body": {
-    "message": "Odeslali jste aktualizaci do této sdílené instance z jiné instalace Modrinth aplikace. Stáhněte si nejnovější změny, abyste ji mohli nadále spravovat zde."
+    "message": "Odeslali jste aktualizaci do této sdílené instance z jiné instalace Panda aplikace. Stáhněte si nejnovější změny, abyste ji mohli nadále spravovat zde."
   },
   "app.instance.admonitions.shared-instance.owner-update-button": {
     "message": "Stáhnout aktualizaci"
@@ -894,13 +894,13 @@
     "message": "Přihlásit se jako"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Musíte se přihlásit do Modrinthu"
+    "message": "Musíte se přihlásit do Pandau"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "dostávat aktualizace pro tuto sdílenou instanci."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Používate nesprávný Modrinth účet"
+    "message": "Používate nesprávný Panda účet"
   },
   "app.instance.shortcut.created": {
     "message": "Zkratka vytvořena"
@@ -1365,7 +1365,7 @@
     "message": "Knihovna"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {# sdílená instance, kterou vlastníte, bude smazána ze serverů Modrinth a uživatelé, kteří ji používají,} other {# sdílených instancí, které vlastníte, bude smazáno ze serverů Modrinth a uživatelé, kteří je používají,}} přestanou dostávat aktualizace. {leaveCount, plural, one {Ztratíte přístup k dané sdílené instanci a pro opětovné připojení budete potřebovat novou pozvánku.} other {Ztratíte přístup k těmto # sdíleným instancím a pro opětovné připojení k nim budete potřebovat novou pozvánku.}} Všechny budou odstraněny z vaší knihovny."
+    "message": "{unpublishCount, plural, one {# sdílená instance, kterou vlastníte, bude smazána ze serverů Panda a uživatelé, kteří ji používají,} other {# sdílených instancí, které vlastníte, bude smazáno ze serverů Panda a uživatelé, kteří je používají,}} přestanou dostávat aktualizace. {leaveCount, plural, one {Ztratíte přístup k dané sdílené instanci a pro opětovné připojení budete potřebovat novou pozvánku.} other {Ztratíte přístup k těmto # sdíleným instancím a pro opětovné připojení k nim budete potřebovat novou pozvánku.}} Všechny budou odstraněny z vaší knihovny."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Zrušení zveřejnění a opuštění sdílených instancí"
@@ -1374,7 +1374,7 @@
     "message": "Zrušit zveřejnění a ponechat {count} sdílených instancí"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {Odstraní sdílenou instanci ze serverů Modrinth. Lidé, kteří jej používají v Modrinth aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} few {Odstraní tyto sdílené instance ze serverů Modrinthu. Lidé, kteří je používají v Modrinth aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} many {Odstraní tyto sdílené instance ze serverů Modrinthu. Lidé, kteří je používají v Modrinth aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} other {Odstraní tyto sdílené instance ze serverů Modrinthu. Lidé, kteří je používají v Modrinth aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.}}"
+    "message": "{count, plural, one {Odstraní sdílenou instanci ze serverů Panda. Lidé, kteří jej používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} few {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} many {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.} other {Odstraní tyto sdílené instance ze serverů Pandau. Lidé, kteří je používají v Panda aplikaci, přestanou dostávat aktualizace, a budou odstraněni z vaší knihovny.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {Zrušení zveřejnění sdílené instance} other {Zrušení zveřejnění # sdílených instancí}}"
@@ -1410,10 +1410,10 @@
     "message": "Instalovat"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Tuto pozvánku vytvořil jiný uživatel platformy Modrinth, nikoliv samotný Modrinth. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
+    "message": "Tuto pozvánku vytvořil jiný uživatel platformy Panda, nikoliv samotný Panda. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Tuto pozvánku vytvořil/a <creator>{username}</creator>, nikoliv Modrinth. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
+    "message": "Tuto pozvánku vytvořil/a <creator>{username}</creator>, nikoliv Panda. Přijímejte pozvánky pouze od lidí, kterým důvěřujete."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Obsah modpacku"
@@ -1449,7 +1449,7 @@
     "message": "V případě žádostí o podporu kontaktujte náš <support-link>tým podpory</support-link>. Pro nahlášení chyb vytvořte <github-link>GitHub issue</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Soubory, které nejsou publikovány na Modrinthu, nejsou kontrolovány."
+    "message": "Soubory, které nejsou publikovány na Pandau, nejsou kontrolovány."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Sdílená instance"
@@ -1458,7 +1458,7 @@
     "message": "Společný obsah instance"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Tato sdílená instance obsahuje soubory, které nejsou publikované na Modrinthu. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
+    "message": "Tato sdílená instance obsahuje soubory, které nejsou publikované na Pandau. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "Verzi modpacku, kterou tento server používá, momentálně nelze stáhnout. Možná byla stažena z nabídky nebo prochází kontrolou. Zkuste to znovu později, případně kontaktujte vlastníka serveru."
@@ -1467,7 +1467,7 @@
     "message": "Modpack tohoto serveru není k dispozici"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Tento serverový modpack obsahuje soubory, které nejsou publikované na Modrinthu. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
+    "message": "Tento serverový modpack obsahuje soubory, které nejsou publikované na Pandau. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Upozornění na neznámý soubor"
@@ -1488,7 +1488,7 @@
     "message": "Odesláno z jiné instalace"
   },
   "app.modal.update-to-play.owner-description": {
-    "message": "Tyto změny byly odeslány z jiné instalace Modrinth App. Neodeslané změny sdíleného obsahu v této instalaci budou nahrazeny."
+    "message": "Tyto změny byly odeslány z jiné instalace Panda Minecraft Launcher. Neodeslané změny sdíleného obsahu v této instalaci budou nahrazeny."
   },
   "app.modal.update-to-play.owner-header": {
     "message": "Aktualizace jsou k dispozici"
@@ -1497,7 +1497,7 @@
     "message": "Odstraněno"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Tato aktualizace serverového modpacku obsahuje soubory, které nejsou publikované na Modrinthu. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
+    "message": "Tato aktualizace serverového modpacku obsahuje soubory, které nejsou publikované na Pandau. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Přidáno"
@@ -1506,7 +1506,7 @@
     "message": "Odstraněno"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Tato aktualizace sdílené instance obsahuje soubory, které nejsou publikované na Modrinthu. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
+    "message": "Tato aktualizace sdílené instance obsahuje soubory, které nejsou publikované na Pandau. Silně doporučujeme instalovat pouze soubory ze zdroje, kterému důveřujete."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Je vyžadována aktualizace"
@@ -1527,10 +1527,10 @@
     "message": "Načítání profilu..."
   },
   "app.nav.modrinth-account": {
-    "message": "Modrinth účet"
+    "message": "Panda účet"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Hosting"
   },
   "app.nav.remove-account": {
     "message": "Odebrat účet"
@@ -1539,13 +1539,13 @@
     "message": "Screenshoty"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Přihlásit se do Modrinth"
+    "message": "Přihlásit se do Panda"
   },
   "app.nav.switch-account": {
     "message": "Změnit účet"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Upgradovat na Modrinth+"
+    "message": "Upgradovat na Panda+"
   },
   "app.nav.view-profile": {
     "message": "Zobrazit profil"
@@ -1761,7 +1761,7 @@
     "message": "Exportovat ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Modrinth screenshots.zip"
+    "message": "Panda screenshots.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} screenshots.zip"
@@ -1806,7 +1806,7 @@
     "message": "Sdílet servery s přáteli"
   },
   "app.settings.app-version": {
-    "message": "Modrinth App {version}"
+    "message": "Panda Minecraft Launcher {version}"
   },
   "app.settings.default-instance-options.environment-variables.description": {
     "message": "Nastavení proměnného prostředí při spuštění instance."
@@ -2073,7 +2073,7 @@
     "message": "Některé z vašich instancí nemohou použít toto nastavení"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Toto nastavení se řídí nastavením spouštění v Modrinthu."
+    "message": "Toto nastavení se řídí nastavením spouštění v Pandau."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Vložte hodnotu"
@@ -2895,7 +2895,7 @@
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Modrinth shromažďuje anonymizované analýzy a data o používání pro zlepšení našich uživatelských zkušeností a přizpůsobení vašich zkušeností. Zakázáním této možnosti se nepřihlásíte a vaše data již nebudou shromažďována."
+    "message": "Panda shromažďuje anonymizované analýzy a data o používání pro zlepšení našich uživatelských zkušeností a přizpůsobení vašich zkušeností. Zakázáním této možnosti se nepřihlásíte a vaše data již nebudou shromažďována."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetrie"
@@ -2922,7 +2922,7 @@
     "message": "Složka aplikace"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Exportovat protokoly aplikace a diagnostická data do ZIP souboru, který chcete sdílet s podporou Modrinth."
+    "message": "Exportovat protokoly aplikace a diagnostická data do ZIP souboru, který chcete sdílet s podporou Panda."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Exportovat informace o ladění"
@@ -2991,7 +2991,7 @@
     "message": "Tato nastavení se změnila jinde"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Nastavení přidaná mody se objeví zde poté, co je Modrinth v jedné z vašich instancí najde."
+    "message": "Nastavení přidaná mody se objeví zde poté, co je Panda v jedné z vašich instancí najde."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Používejte stejné možnosti hry ve vašich instancích."
@@ -3132,13 +3132,13 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Modrinth"
+    "message": "Panda"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Modrinth Pride"
+    "message": "Panda Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Tyto skiny jsi obdržel za přispění do sbírky Modrinth Pride behěm Pride měsíce."
+    "message": "Tyto skiny jsi obdržel za přispění do sbírky Panda Pride behěm Pride měsíce."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3159,10 +3159,10 @@
     "message": "Tiny Takeover"
   },
   "app.survey.body": {
-    "message": "Mohli byste prosím odpovědět na pár otázek ohledně vašich zkušeností s Modrinth App?"
+    "message": "Mohli byste prosím odpovědět na pár otázek ohledně vašich zkušeností s Panda Minecraft Launcher?"
   },
   "app.survey.footer": {
-    "message": "Tato zpětná vazba půjde přímo k týmu Modrinthu a pomůže při budoucích aktualizacích!"
+    "message": "Tato zpětná vazba půjde přímo k týmu Pandau a pomůže při budoucích aktualizacích!"
   },
   "app.survey.no-thanks": {
     "message": "Ne, děkuji"
@@ -3171,16 +3171,16 @@
     "message": "Zapoj se do ankety"
   },
   "app.survey.title": {
-    "message": "Ahoj Modrinth uživateli!"
+    "message": "Ahoj Panda uživateli!"
   },
   "app.update-popup.body.download-complete": {
-    "message": "Stahování Modrinth App v{version} bylo dokončeno. Aktualizujte ji znovunačtením nebo se automaticky aktualizuje po zavření."
+    "message": "Stahování Panda Minecraft Launcher v{version} bylo dokončeno. Aktualizujte ji znovunačtením nebo se automaticky aktualizuje po zavření."
   },
   "app.update-popup.body.linux": {
-    "message": "Modrinth App v{version} je k dispozici. Aktualizujte ji pomocí svého správce balíčků, abyste získali nejnovější funkce a opravy!"
+    "message": "Panda Minecraft Launcher v{version} je k dispozici. Aktualizujte ji pomocí svého správce balíčků, abyste získali nejnovější funkce a opravy!"
   },
   "app.update-popup.body.metered": {
-    "message": "Modrinth App v{version} je nyní k dispozici! Protože jste v měřené síti, nebyla stažena automaticky."
+    "message": "Panda Minecraft Launcher v{version} je nyní k dispozici! Protože jste v měřené síti, nebyla stažena automaticky."
   },
   "app.update-popup.changelog": {
     "message": "Seznam změn"
@@ -3225,7 +3225,7 @@
     "message": "Stiskněte <shortcut>N</shortcut> pro rychlé vytvoření instance"
   },
   "app.welcome-screen.title": {
-    "message": "Vítejte v Modrinthu"
+    "message": "Vítejte v Pandau"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "priklad.modrinth.gg"
@@ -3267,10 +3267,10 @@
     "message": "Může se lišit od jejich Minecraft přezdívky!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Zadej přezdívku na Modrinthu..."
+    "message": "Zadej přezdívku na Pandau..."
   },
   "friends.add-friend.username.title": {
-    "message": "Jaká je přezdívka tvého přítele na Modrinthu?"
+    "message": "Jaká je přezdívka tvého přítele na Pandau?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Přidej si přátele</link>, abys viděl, co hrají!"
@@ -3315,7 +3315,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Přihlas se k Modrinth účtu</link>, abys mohl přidávat přátele a vidět, co hrají!"
+    "message": "<link>Přihlas se k Panda účtu</link>, abys mohl přidávat přátele a vidět, co hrají!"
   },
   "installation-settings.shared-instance.unlinking-button": {
     "message": "Odpojování..."
@@ -3666,10 +3666,10 @@
     "message": "Znovu otevřít prohlížeč"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Přihlásit se do Modrinth"
+    "message": "Přihlásit se do Panda"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Přihlaste se k Modrinth účtu"
+    "message": "Přihlaste se k Panda účtu"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Přihlášení"

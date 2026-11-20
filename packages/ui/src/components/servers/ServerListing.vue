@@ -211,7 +211,7 @@
 				</Button>
 				<ButtonLink
 					v-if="noticeButtons.support"
-					href="https://support.modrinth.com/en/"
+					href="https://github.com/Panda-Minecraft-Launcher/code/issues"
 					target="_blank"
 					data-server-listing-button
 					><MessagesSquareIcon /> {{ formatMessage(messages.supportLabel) }}
@@ -257,7 +257,7 @@
 				:ram="Math.round((pendingChange.ramGb ?? 0) * 1024)"
 				:storage="Math.round((pendingChange.storageGb ?? 0) * 1024)"
 				:cpus="pendingChange.cpuBurst"
-				bursting-link="https://docs.modrinth.com/servers/bursting"
+				bursting-link="https://github.com/Panda-Minecraft-Launcher/code/issues"
 			/>
 		</div>
 	</div>
@@ -370,7 +370,7 @@ const messages = defineMessages({
 	suspendedNotice: {
 		id: 'servers.listing.notice.suspended',
 		defaultMessage:
-			'Your server has been suspended. Please contact Modrinth Support for more information.',
+			'Your server has been suspended. Please contact Panda Support for more information.',
 	},
 	copyCodeToClipboardTooltip: {
 		id: 'servers.listing.copy-code-tooltip',

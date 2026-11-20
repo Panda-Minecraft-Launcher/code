@@ -69,7 +69,7 @@ const messages = defineMessages({
 	debugInfoDescription: {
 		id: 'app.settings.resource-management.debug-info.description',
 		defaultMessage:
-			'Export app logs and diagnostic data to a ZIP file to share with Modrinth support.',
+			'Export app logs and diagnostic data to a ZIP file to share with Panda support.',
 	},
 	exportDebugInfo: {
 		id: 'app.settings.resource-management.debug-info.export',
@@ -82,7 +82,7 @@ const messages = defineMessages({
 	reportAdDescription: {
 		id: 'app.settings.troubleshooting.report-ad.description',
 		defaultMessage:
-			"Seen an inappropriate or offensive ad? Copy its details while it's showing and send them to <support>Modrinth Support</support>. We'll review it and remove it.",
+			"Seen an inappropriate or offensive ad? Copy its details while it's showing and send them to <support>Panda Support</support>. We'll review it and remove it.",
 	},
 	copyAdDetails: {
 		id: 'app.settings.troubleshooting.report-ad.copy',
@@ -119,7 +119,7 @@ const messages = defineMessages({
 	appCacheDescription: {
 		id: 'app.settings.resource-management.app-cache.description',
 		defaultMessage:
-			'Clear cached data and download it again from Modrinth. The app may load more slowly until the cache is rebuilt.',
+			'Clear cached data and download it again from Panda. The app may load more slowly until the cache is rebuilt.',
 	},
 	appDatabaseBackupsTitle: {
 		id: 'app.settings.resource-management.app-database-backups.title',
@@ -186,7 +186,7 @@ async function handleExportDebugInfo() {
 }
 
 function openSupport() {
-	openUrl('https://support.modrinth.com')
+	openUrl('https://github.com/Panda-Minecraft-Launcher/code/issues')
 }
 
 async function handleCopyAdDetails() {

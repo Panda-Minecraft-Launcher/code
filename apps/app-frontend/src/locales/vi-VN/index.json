@@ -75,7 +75,7 @@
     "message": "Thiết lập Minecraft thất bại"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Không thể kết nối tới Modrinth"
+    "message": "Không thể kết nối tới Panda"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Không có quyền ghi"
@@ -132,7 +132,7 @@
     "message": "Chấp nhận tất cả"
   },
   "app.ads-consent.body": {
-    "message": "Quảng cáo giúp Modrinth duy trì hoạt động và chi trả cho nhà sáng tạo. Các đối tác của chúng tôi có thể lưu trữ hoặc truy cập cookie trong ứng dụng để cá nhân hóa quảng cáo và đo lường hiệu quả."
+    "message": "Quảng cáo giúp Panda duy trì hoạt động và chi trả cho nhà sáng tạo. Các đối tác của chúng tôi có thể lưu trữ hoặc truy cập cookie trong ứng dụng để cá nhân hóa quảng cáo và đo lường hiệu quả."
   },
   "app.ads-consent.manage": {
     "message": "Quản lý tùy chọn"
@@ -141,7 +141,7 @@
     "message": "Từ chối tất cả"
   },
   "app.ads-consent.title": {
-    "message": "Quyền riêng tư của bạn và cách quảng cáo hỗ trợ Modrinth"
+    "message": "Quyền riêng tư của bạn và cách quảng cáo hỗ trợ Panda"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Hiển thị các bản cài đặt trong thư viện theo bố cục hàng thu gọn."
@@ -162,7 +162,7 @@
     "message": "Ẩn tên người chơi"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Thu nhỏ Ứng dụng Modrinth khi Minecraft khởi động."
+    "message": "Thu nhỏ Ứng dụng Panda khi Minecraft khởi động."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Thu nhỏ ứng dụng"
@@ -186,7 +186,7 @@
     "message": "Ẩn thanh bên phải"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Hiển thị cảnh báo an toàn trước khi cài Modrinth Pack (.mrpack) không được lưu trữ trên Modrinth."
+    "message": "Hiển thị cảnh báo an toàn trước khi cài Panda Pack (.mrpack) không được lưu trữ trên Panda."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Cảnh báo trước khi cài modpack không xác định"
@@ -204,7 +204,7 @@
     "message": "Trang chủ và nội dung"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Đưa Ứng dụng Modrinth ra phía trước khi Minecraft thoát."
+    "message": "Đưa Ứng dụng Panda ra phía trước khi Minecraft thoát."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Đưa ứng dụng ra trước khi Minecraft đóng"
@@ -216,7 +216,7 @@
     "message": "Dùng các cài đặt hành vi này ở mọi nơi bạn đăng nhập. Tắt tùy chọn này để giữ cài đặt riêng trên thiết bị này."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Đăng nhập tài khoản Modrinth để đồng bộ cài đặt."
+    "message": "Đăng nhập tài khoản Panda để đồng bộ cài đặt."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Đồng bộ hành vi giữa các thiết bị"
@@ -459,7 +459,7 @@
     "message": "Dùng các cài đặt tính năng này ở mọi nơi bạn đăng nhập. Tắt tùy chọn này để giữ cài đặt riêng trên thiết bị này."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Đăng nhập tài khoản Modrinth để đồng bộ cài đặt."
+    "message": "Đăng nhập tài khoản Panda để đồng bộ cài đặt."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Đồng bộ tính năng giữa các thiết bị"
@@ -492,16 +492,16 @@
     "message": "Xem bản cài đặt"
   },
   "app.hosting.update-required.description": {
-    "message": "Bạn cần cập nhật để sử dụng Modrinth Hosting qua Ứng dụng Modrinth"
+    "message": "Bạn cần cập nhật để sử dụng Panda Hosting qua Ứng dụng Panda"
   },
   "app.hosting.update-required.download": {
     "message": "Tải xuống để cập nhật"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Bot Modrinth đang phấn khích"
+    "message": "Bot Panda đang phấn khích"
   },
   "app.hosting.update-required.title": {
-    "message": "Yêu cầu cập nhật Ứng dụng Modrinth"
+    "message": "Yêu cầu cập nhật Ứng dụng Panda"
   },
   "app.install.phase.downloading_content": {
     "message": "Đang tải nội dung"
@@ -825,13 +825,13 @@
     "message": "Đăng nhập bằng"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Bạn cần đăng nhập vào Modrinth"
+    "message": "Bạn cần đăng nhập vào Panda"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "để nhận cập nhật cho bản cài đặt được chia sẻ này."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Bạn đang dùng sai tài khoản Modrinth"
+    "message": "Bạn đang dùng sai tài khoản Panda"
   },
   "app.instance.shortcut.created": {
     "message": "Đã tạo lối tắt"
@@ -1248,10 +1248,10 @@
     "message": "Cài đặt"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Lời mời này được tạo bởi một người dùng Modrinth khác, không phải Modrinth. Chỉ chấp nhận lời mời từ những người bạn tin tưởng."
+    "message": "Lời mời này được tạo bởi một người dùng Panda khác, không phải Panda. Chỉ chấp nhận lời mời từ những người bạn tin tưởng."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Lời mời này được tạo bởi <creator>{username}</creator>, không phải Modrinth. Chỉ chấp nhận lời mời từ những người bạn tin tưởng."
+    "message": "Lời mời này được tạo bởi <creator>{username}</creator>, không phải Panda. Chỉ chấp nhận lời mời từ những người bạn tin tưởng."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Nội dung modpack"
@@ -1284,7 +1284,7 @@
     "message": "Nếu cần hỗ trợ, hãy liên hệ <support-link>đội ngũ hỗ trợ</support-link> của chúng tôi. Nếu muốn báo lỗi, hãy mở một <github-link>issue trên GitHub</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Các tệp chưa được xuất bản trên Modrinth sẽ không được kiểm duyệt."
+    "message": "Các tệp chưa được xuất bản trên Panda sẽ không được kiểm duyệt."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Bản cài đặt được chia sẻ"
@@ -1293,13 +1293,13 @@
     "message": "Nội dung bản cài đặt được chia sẻ"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Bản cài đặt được chia sẻ này chứa các tệp chưa được xuất bản trên Modrinth. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
+    "message": "Bản cài đặt được chia sẻ này chứa các tệp chưa được xuất bản trên Panda. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
   },
   "app.modal.install-to-play.unavailable-header": {
     "message": "Modpack của máy chủ này hiện không khả dụng"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Modpack của máy chủ này chứa các tệp chưa được xuất bản trên Modrinth. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
+    "message": "Modpack của máy chủ này chứa các tệp chưa được xuất bản trên Panda. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Cảnh báo tệp không xác định"
@@ -1320,7 +1320,7 @@
     "message": "Đã gỡ"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Bản cập nhật modpack của máy chủ này chứa các tệp chưa được xuất bản trên Modrinth. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
+    "message": "Bản cập nhật modpack của máy chủ này chứa các tệp chưa được xuất bản trên Panda. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Đã thêm"
@@ -1329,7 +1329,7 @@
     "message": "Đã gỡ"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Bản cập nhật của bản cài đặt được chia sẻ này chứa các tệp chưa được xuất bản trên Modrinth. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
+    "message": "Bản cập nhật của bản cài đặt được chia sẻ này chứa các tệp chưa được xuất bản trên Panda. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Yêu cầu cập nhật"
@@ -1350,10 +1350,10 @@
     "message": "Đang tải hồ sơ..."
   },
   "app.nav.modrinth-account": {
-    "message": "Tài khoản Modrinth"
+    "message": "Tài khoản Panda"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Hosting"
   },
   "app.nav.remove-account": {
     "message": "Xóa tài khoản"
@@ -1362,13 +1362,13 @@
     "message": "Ảnh chụp màn hình"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Đăng nhập vào Modrinth"
+    "message": "Đăng nhập vào Panda"
   },
   "app.nav.switch-account": {
     "message": "Chuyển tài khoản"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Nâng cấp lên Modrinth+"
+    "message": "Nâng cấp lên Panda+"
   },
   "app.nav.view-profile": {
     "message": "Xem hồ sơ"
@@ -1584,7 +1584,7 @@
     "message": "Xuất tệp ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Modrinth screenshots.zip"
+    "message": "Panda screenshots.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} screenshots.zip"
@@ -1614,7 +1614,7 @@
     "message": "Cũ nhất"
   },
   "app.settings.app-version": {
-    "message": "Ứng dụng Modrinth {version}"
+    "message": "Ứng dụng Panda {version}"
   },
   "app.settings.default-instance-options.environment-variables.description": {
     "message": "Các biến môi trường được thiết lập khi khởi chạy một bản cài đặt."
@@ -1881,7 +1881,7 @@
     "message": "Một số bản cài đặt của bạn không thể dùng cài đặt này"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Cài đặt này được quản lý bởi cài đặt khởi chạy của Modrinth."
+    "message": "Cài đặt này được quản lý bởi cài đặt khởi chạy của Panda."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Nhập giá trị"
@@ -2715,16 +2715,16 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Quảng cáo giúp Modrinth duy trì hoạt động và chi trả cho nhà sáng tạo. Các đối tác của chúng tôi có thể lưu trữ hoặc truy cập cookie trong ứng dụng để cá nhân hóa quảng cáo và đo lường hiệu quả. Bạn có thể từ chối hoặc quản lý tùy chọn bên dưới."
+    "message": "Quảng cáo giúp Panda duy trì hoạt động và chi trả cho nhà sáng tạo. Các đối tác của chúng tôi có thể lưu trữ hoặc truy cập cookie trong ứng dụng để cá nhân hóa quảng cáo và đo lường hiệu quả. Bạn có thể từ chối hoặc quản lý tùy chọn bên dưới."
   },
   "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Hiển thị Ứng dụng Modrinth là hoạt động hiện tại của bạn trên Discord. Tùy chọn này không ảnh hưởng đến Rich Presence do mod thêm vào bản cài đặt. Cần khởi động lại ứng dụng."
+    "message": "Hiển thị Ứng dụng Panda là hoạt động hiện tại của bạn trên Discord. Tùy chọn này không ảnh hưởng đến Rich Presence do mod thêm vào bản cài đặt. Cần khởi động lại ứng dụng."
   },
   "app.settings.privacy.discord-rich-presence.title": {
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Modrinth thu thập dữ liệu phân tích và sử dụng đã được ẩn danh để cải thiện và cá nhân hóa trải nghiệm người dùng. Khi tắt tùy chọn này, bạn sẽ từ chối tham gia và dữ liệu của bạn sẽ không còn được thu thập."
+    "message": "Panda thu thập dữ liệu phân tích và sử dụng đã được ẩn danh để cải thiện và cá nhân hóa trải nghiệm người dùng. Khi tắt tùy chọn này, bạn sẽ từ chối tham gia và dữ liệu của bạn sẽ không còn được thu thập."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Dữ liệu đo từ xa"
@@ -2739,7 +2739,7 @@
     "message": "Ứng dụng có thể tải chậm hơn cho tới khi bộ nhớ đệm được tạo lại."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Xóa dữ liệu đã lưu trong bộ nhớ đệm và tải lại từ Modrinth. Ứng dụng có thể tải chậm hơn cho tới khi bộ nhớ đệm được tạo lại."
+    "message": "Xóa dữ liệu đã lưu trong bộ nhớ đệm và tải lại từ Panda. Ứng dụng có thể tải chậm hơn cho tới khi bộ nhớ đệm được tạo lại."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "Bộ nhớ đệm ứng dụng"
@@ -2757,7 +2757,7 @@
     "message": "Thư mục ứng dụng"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Xuất nhật ký hệ thống và dữ liệu chuẩn đoán ra tệp nén để gửi cho đội ngũ hỗ trợ Modrinth."
+    "message": "Xuất nhật ký hệ thống và dữ liệu chuẩn đoán ra tệp nén để gửi cho đội ngũ hỗ trợ Panda."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Xuất thông tin gỡ lỗi"
@@ -2913,7 +2913,7 @@
     "message": "Các cài đặt này đã được thay đổi ở nơi khác"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Các cài đặt do mod thêm sẽ xuất hiện tại đây sau khi Modrinth tìm thấy chúng trong một bản cài đặt."
+    "message": "Các cài đặt do mod thêm sẽ xuất hiện tại đây sau khi Panda tìm thấy chúng trong một bản cài đặt."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "Dùng cùng các tùy chọn trò chơi trên các bản cài đặt."
@@ -3186,13 +3186,13 @@
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Modrinth"
+    "message": "Panda"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Modrinth Pride"
+    "message": "Panda Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Bạn nhận được các skin này vì đã quyên góp cho chiến dịch gây quỹ Modrinth Pride trong Tháng Tự hào."
+    "message": "Bạn nhận được các skin này vì đã quyên góp cho chiến dịch gây quỹ Panda Pride trong Tháng Tự hào."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3222,10 +3222,10 @@
     "message": "Bật"
   },
   "app.survey.body": {
-    "message": "Bạn có thể dành chút thời gian trả lời vài câu hỏi về trải nghiệm với Ứng dụng Modrinth không?"
+    "message": "Bạn có thể dành chút thời gian trả lời vài câu hỏi về trải nghiệm với Ứng dụng Panda không?"
   },
   "app.survey.footer": {
-    "message": "Phản hồi này sẽ được gửi trực tiếp tới đội ngũ Modrinth và giúp định hướng các bản cập nhật trong tương lai!"
+    "message": "Phản hồi này sẽ được gửi trực tiếp tới đội ngũ Panda và giúp định hướng các bản cập nhật trong tương lai!"
   },
   "app.survey.no-thanks": {
     "message": "Không, cảm ơn"
@@ -3234,7 +3234,7 @@
     "message": "Tham gia khảo sát"
   },
   "app.survey.title": {
-    "message": "Xin chào người dùng Modrinth!"
+    "message": "Xin chào người dùng Panda!"
   },
   "app.sync-instances-update.choose-source.data-packs": {
     "message": "Chọn bản cài đặt để sao chép các gói dữ liệu. Các gói này chỉ được dùng cho lần đồng bộ đầu tiên và sau đó bạn có thể chỉnh sửa từ bất kỳ bản cài đặt nào."
@@ -3321,13 +3321,13 @@
     "message": "Gói tài nguyên đã đồng bộ"
   },
   "app.update-popup.body.download-complete": {
-    "message": "Ứng dụng Modrinth v{version} đã tải xong. Tải lại để cập nhật ngay hoặc ứng dụng sẽ tự cập nhật khi bạn đóng Modrinth."
+    "message": "Ứng dụng Panda v{version} đã tải xong. Tải lại để cập nhật ngay hoặc ứng dụng sẽ tự cập nhật khi bạn đóng Panda."
   },
   "app.update-popup.body.linux": {
-    "message": "Ứng dụng Modrinth v{version} đã có sẵn. Hãy dùng trình quản lý gói để cập nhật và nhận các tính năng cùng bản sửa lỗi mới nhất!"
+    "message": "Ứng dụng Panda v{version} đã có sẵn. Hãy dùng trình quản lý gói để cập nhật và nhận các tính năng cùng bản sửa lỗi mới nhất!"
   },
   "app.update-popup.body.metered": {
-    "message": "Ứng dụng Modrinth v{version} hiện đã có sẵn! Vì bạn đang dùng mạng tính phí theo lưu lượng nên chúng tôi không tự động tải xuống."
+    "message": "Ứng dụng Panda v{version} hiện đã có sẵn! Vì bạn đang dùng mạng tính phí theo lưu lượng nên chúng tôi không tự động tải xuống."
   },
   "app.update-popup.changelog": {
     "message": "Nhật ký thay đổi"
@@ -3372,7 +3372,7 @@
     "message": "Nhấn <shortcut>N</shortcut> để tạo nhanh một bản cài đặt"
   },
   "app.welcome-screen.title": {
-    "message": "Chào mừng đến với Modrinth"
+    "message": "Chào mừng đến với Panda"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "example.modrinth.gg"
@@ -3441,10 +3441,10 @@
     "message": "Tên này có thể khác tên người dùng Minecraft của họ!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Nhập tên người dùng Modrinth..."
+    "message": "Nhập tên người dùng Panda..."
   },
   "friends.add-friend.username.title": {
-    "message": "Tên người dùng Modrinth của bạn bè bạn là gì?"
+    "message": "Tên người dùng Panda của bạn bè bạn là gì?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Thêm bạn</link> để xem họ đang chơi gì!"
@@ -3489,7 +3489,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Đăng nhập tài khoản Modrinth</link> để thêm bạn và xem họ đang chơi gì!"
+    "message": "<link>Đăng nhập tài khoản Panda</link> để thêm bạn và xem họ đang chơi gì!"
   },
   "installation-settings.shared-instance.linked-title": {
     "message": "Bản cài đặt được chia sẻ đã liên kết"
@@ -3504,7 +3504,7 @@
     "message": "Đang gỡ liên kết..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Xóa bản cài đặt được chia sẻ này khỏi Modrinth và ngừng gửi cập nhật cho những người đang dùng nó. Bản cài đặt trên máy của bạn sẽ không bị ảnh hưởng."
+    "message": "Xóa bản cài đặt được chia sẻ này khỏi Panda và ngừng gửi cập nhật cho những người đang dùng nó. Bản cài đặt trên máy của bạn sẽ không bị ảnh hưởng."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "Thao tác này chỉ ảnh hưởng đến bản cài đặt trên máy của bạn. Nội dung đã cài vẫn được giữ trên thiết bị này; bản cài đặt được chia sẻ và những người khác đang dùng nó sẽ không bị ảnh hưởng."
@@ -3516,7 +3516,7 @@
     "message": "Gỡ liên kết bản cài đặt được chia sẻ"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Thao tác này sẽ xóa bản cài đặt được chia sẻ khỏi máy chủ Modrinth. Những người đang dùng nó trong Ứng dụng Modrinth sẽ ngừng nhận cập nhật, nhưng bản cài đặt trên máy và nội dung của bạn vẫn được giữ trên thiết bị này."
+    "message": "Thao tác này sẽ xóa bản cài đặt được chia sẻ khỏi máy chủ Panda. Những người đang dùng nó trong Ứng dụng Panda sẽ ngừng nhận cập nhật, nhưng bản cài đặt trên máy và nội dung của bạn vẫn được giữ trên thiết bị này."
   },
   "instance.action.create-shortcut": {
     "message": "Tạo lối tắt"
@@ -4041,7 +4041,7 @@
     "message": "Tạo tài khoản"
   },
   "modal.modrinth-account-required.description": {
-    "message": "Bạn cần đăng nhập tài khoản Modrinth trước khi có thể dùng tính năng này."
+    "message": "Bạn cần đăng nhập tài khoản Panda trước khi có thể dùng tính năng này."
   },
   "modal.modrinth-account-required.header": {
     "message": "Yêu cầu tài khoản"
@@ -4050,10 +4050,10 @@
     "message": "Mở lại trình duyệt"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Đăng nhập Modrinth"
+    "message": "Đăng nhập Panda"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Đăng nhập tài khoản Modrinth"
+    "message": "Đăng nhập tài khoản Panda"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Đang đăng nhập"

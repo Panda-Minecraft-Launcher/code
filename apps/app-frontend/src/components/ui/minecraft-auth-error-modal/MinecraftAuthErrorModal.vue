@@ -178,7 +178,7 @@ async function inspectDebugInfo(text: string) {
 
 			<!-- Action buttons -->
 			<div class="flex items-center gap-1">
-				<ButtonLink href="https://support.modrinth.com" class="flex-1" @click="modal?.hide()">
+				<ButtonLink href="https://github.com/Panda-Minecraft-Launcher/code/issues" class="flex-1" @click="modal?.hide()">
 					<MessagesSquareIcon /> Contact support
 				</ButtonLink>
 				<Button

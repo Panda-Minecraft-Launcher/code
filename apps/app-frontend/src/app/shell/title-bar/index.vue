@@ -29,6 +29,7 @@ const messages = defineMessages({
 	goBack: { id: 'app.navigation.go-back', defaultMessage: 'Go back' },
 	goForward: { id: 'app.navigation.go-forward', defaultMessage: 'Go forward' },
 	nextImage: { id: 'app.navigation.next-image', defaultMessage: 'Next image' },
+	wordmark: { id: 'app.title-bar.wordmark', defaultMessage: 'Minecraft' },
 })
 </script>
 
@@ -40,7 +41,7 @@ const messages = defineMessages({
 		<div data-tauri-drag-region class="flex min-w-0 flex-1 items-center overflow-hidden p-2">
 			<div class="flex h-7 w-auto shrink-0 items-center gap-2 text-contrast pointer-events-none">
 				<LegacyGrassBlockIcon class="h-7 w-auto shrink-0" />
-				<span class="text-xl font-bold">Minecraft</span>
+				<span class="text-xl font-bold">{{ formatMessage(messages.wordmark) }}</span>
 			</div>
 			<div data-tauri-drag-region class="ml-2 flex shrink-0 items-center gap-2">
 				<IconButton

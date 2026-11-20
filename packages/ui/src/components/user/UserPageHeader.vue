@@ -175,7 +175,7 @@ const messages = defineMessages({
 	},
 	officialAccount: {
 		id: 'profile.official-account',
-		defaultMessage: 'Official Modrinth account',
+		defaultMessage: 'Official Panda account',
 	},
 	profileJoinedLabel: {
 		id: 'profile.label.joined',

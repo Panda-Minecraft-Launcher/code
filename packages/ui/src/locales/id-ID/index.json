@@ -1380,16 +1380,16 @@
     "defaultMessage": "Berkas-berkas selalu diperbarui ketika server berubah"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "Dapatkan Modrinth App"
+    "defaultMessage": "Dapatkan Panda Minecraft Launcher"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "Modrinth App akan buka secara otomatis..."
+    "defaultMessage": "Panda Minecraft Launcher akan buka secara otomatis..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "Membuka Modrinth App"
+    "defaultMessage": "Membuka Panda Minecraft Launcher"
   },
   "modal.open-in-app.why-use": {
-    "defaultMessage": "Mengapa harus Modrinth App?"
+    "defaultMessage": "Mengapa harus Panda Minecraft Launcher?"
   },
   "notification.error.title": {
     "defaultMessage": "Terjadi kesalahan"
@@ -1419,7 +1419,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Tim Modrinth"
+    "defaultMessage": "Tim Panda"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Menunggu"
@@ -2367,7 +2367,7 @@
     "defaultMessage": "Lokasi manakah yang Anda inginkan untuk server Anda?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Wilayah tidak terdaftar? <link>Beri tahu kami di mana Anda ingin melihat Modrinth Hosting untuk kedepannya!</link>"
+    "defaultMessage": "Wilayah tidak terdaftar? <link>Beri tahu kami di mana Anda ingin melihat Panda Hosting untuk kedepannya!</link>"
   },
   "settings.account.title": {
     "defaultMessage": "Akun dan keamanan"
@@ -2859,4 +2859,3 @@
     "defaultMessage": "Anda memiliki perubahan yang belum tersimpan."
   }
 }
-

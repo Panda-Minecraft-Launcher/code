@@ -78,7 +78,7 @@
     "defaultMessage": "沒有選擇付款方式"
   },
   "billing.resubscribe-modal.plan-item": {
-    "defaultMessage": "Modrinth Hosting（{plan}）"
+    "defaultMessage": "Panda Hosting（{plan}）"
   },
   "billing.resubscribe-modal.plan.custom": {
     "defaultMessage": "自訂"
@@ -105,7 +105,7 @@
     "defaultMessage": "稅"
   },
   "billing.resubscribe-modal.title": {
-    "defaultMessage": "重新訂閱 Modrinth Hosting"
+    "defaultMessage": "重新訂閱 Panda Hosting"
   },
   "browse.advanced-filters.apply-saved-preferences": {
     "defaultMessage": "套用已儲存的偏好設定"
@@ -2625,7 +2625,7 @@
     "defaultMessage": "TNT"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Modrinth 扳手"
+    "defaultMessage": "Panda 扳手"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "殭屍"
@@ -3348,16 +3348,16 @@
     "defaultMessage": "當伺服器變動時，維持檔案為最新狀態"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "取得 Modrinth App"
+    "defaultMessage": "取得 Panda Minecraft Launcher"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "Modrinth App 將自動開啟..."
+    "defaultMessage": "Panda Minecraft Launcher 將自動開啟..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "正在開啟 Modrinth App"
+    "defaultMessage": "正在開啟 Panda Minecraft Launcher"
   },
   "modal.open-in-app.why-use": {
-    "defaultMessage": "為何使用 Modrinth App"
+    "defaultMessage": "為何使用 Panda Minecraft Launcher"
   },
   "modal.tabbed.collapse": {
     "defaultMessage": "收合"
@@ -3387,10 +3387,10 @@
     "defaultMessage": "<actor>{actor}</actor> 邀請你加入 <entity>{entity}</entity> 實例。"
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "共用實例「<entity>{entity}</entity>」已被 Modrinth 管理團隊鎖定。"
+    "defaultMessage": "共用實例「<entity>{entity}</entity>」已被 Panda 管理團隊鎖定。"
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "你的共用實例「<entity>{entity}</entity>」已被 Modrinth 管理團隊鎖定。"
+    "defaultMessage": "你的共用實例「<entity>{entity}</entity>」已被 Panda 管理團隊鎖定。"
   },
   "notifications.instance-ready.launch-game": {
     "defaultMessage": "啟動遊戲"
@@ -3438,7 +3438,7 @@
     "defaultMessage": "管理員"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth 團隊"
+    "defaultMessage": "Panda 團隊"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "待處理"
@@ -3558,13 +3558,13 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "一位 Modrinth 創作者。"
+    "defaultMessage": "一位 Panda 創作者。"
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "一位 Modrinth 使用者。"
+    "defaultMessage": "一位 Panda 使用者。"
   },
   "profile.block-user.admonition-body": {
-    "defaultMessage": "{username} 將無法向你傳送好友邀請、邀請你加入共用實例，或邀請你加入 Modrinth Hosting 伺服器。"
+    "defaultMessage": "{username} 將無法向你傳送好友邀請、邀請你加入共用實例，或邀請你加入 Panda Hosting 伺服器。"
   },
   "profile.block-user.admonition-title": {
     "defaultMessage": "確定要封鎖這位使用者嗎？"
@@ -3639,7 +3639,7 @@
     "defaultMessage": "{count, plural, other {# 個專案}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "請允許 Modrinth 的彈出式視窗，然後再試一次。"
+    "defaultMessage": "請允許 Panda 的彈出式視窗，然後再試一次。"
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "無法擷取 GitHub 個人檔案，請再試一次。"
@@ -3750,10 +3750,10 @@
     "defaultMessage": "受限制"
   },
   "profile.official-account": {
-    "defaultMessage": "Modrinth 官方帳號"
+    "defaultMessage": "Panda 官方帳號"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Modrinth 的官方使用者帳號。請至 <support-link></support-link> 取得支援，或透過電子郵件 <email></email> 聯絡客服團隊"
+    "defaultMessage": "Panda 的官方使用者帳號。請至 <support-link></support-link> 取得支援，或透過電子郵件 <email></email> 聯絡客服團隊"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "{username} 的驗證器和備用碼將被移除，並會傳送通知給他。請務必在確認其身分後再執行這個動作。"
@@ -5886,7 +5886,7 @@
     "defaultMessage": "正在安裝伺服器"
   },
   "servers.curseforge-files-review.body": {
-    "defaultMessage": "這個模組包中有 {count, plural, other {# 個檔案}}未在 Modrinth 上發布，或者我們無法確定{count, plural, =1 {這個} other {這些}}檔案應安裝在伺服器上、供玩家使用，還是兩者皆是。請在<bold>啟用對象</bold>欄位中檢視並完成設定。"
+    "defaultMessage": "這個模組包中有 {count, plural, other {# 個檔案}}未在 Panda 上發布，或者我們無法確定{count, plural, =1 {這個} other {這些}}檔案應安裝在伺服器上、供玩家使用，還是兩者皆是。請在<bold>啟用對象</bold>欄位中檢視並完成設定。"
   },
   "servers.download.failed.description": {
     "defaultMessage": "下載世界檔案時發生錯誤。"
@@ -5961,13 +5961,13 @@
     "defaultMessage": "請勿輸入 Minecraft 使用者名稱。"
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Modrinth 使用者名稱"
+    "defaultMessage": "Panda 使用者名稱"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "沒有找到使用者。"
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "輸入 Modrinth 使用者名稱"
+    "defaultMessage": "輸入 Panda 使用者名稱"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "正在搜尋..."
@@ -6066,13 +6066,13 @@
     "defaultMessage": "了解更多"
   },
   "servers.list-empty.modrinth-hosting-label": {
-    "defaultMessage": "Modrinth Hosting"
+    "defaultMessage": "Panda Hosting"
   },
   "servers.list-empty.new-server-button": {
     "defaultMessage": "建立新的伺服器"
   },
   "servers.list-empty.no-servers-description": {
-    "defaultMessage": "安裝模組、邀請好友並一起暢玩，這一切都能在 Modrinth App 中輕鬆完成。"
+    "defaultMessage": "安裝模組、邀請好友並一起暢玩，這一切都能在 Panda Minecraft Launcher 中輕鬆完成。"
   },
   "servers.list-empty.one-click-mod-installs-description": {
     "defaultMessage": "挑選你喜愛的模組，剩下的就交給我們處理。"
@@ -6081,13 +6081,13 @@
     "defaultMessage": "一鍵安裝模組"
   },
   "servers.list-empty.play-with-friends-description": {
-    "defaultMessage": "透過 Modrinth App 邀請好友一鍵加入你的伺服器遊玩。"
+    "defaultMessage": "透過 Panda Minecraft Launcher 邀請好友一鍵加入你的伺服器遊玩。"
   },
   "servers.list-empty.play-with-friends-title": {
     "defaultMessage": "與好友同樂"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "登入 Modrinth"
+    "defaultMessage": "登入 Panda"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "設定伺服器就像建立單人遊戲世界一樣簡單。"
@@ -6144,7 +6144,7 @@
     "defaultMessage": "你的訂閱設定於<date>{formattedDate}</date>取消。"
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "你的伺服器已暫停服務。請聯絡 Modrinth 客服以取得更多資訊。"
+    "defaultMessage": "你的伺服器已暫停服務。請聯絡 Panda 客服以取得更多資訊。"
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "你的伺服器硬體目前正在升級中，稍後將恢復上線。"
@@ -6207,7 +6207,7 @@
     "defaultMessage": "上傳中"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "聯絡 Modrinth 客服"
+    "defaultMessage": "聯絡 Panda 客服"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "我們的系統會在出現問題時自動通知團隊。我們正在努力恢復系統功能。"
@@ -6219,10 +6219,10 @@
     "defaultMessage": "錯誤詳細資訊："
   },
   "servers.manage.error.queue-notice": {
-    "defaultMessage": "如果您最近購買了 Modrinth Hosting 伺服器，它目前正在排隊等待，準備就緒後會立即顯示在此處。 <warning>請勿嘗試購買新伺服器。 </warning>"
+    "defaultMessage": "如果您最近購買了 Panda Hosting 伺服器，它目前正在排隊等待，準備就緒後會立即顯示在此處。 <warning>請勿嘗試購買新伺服器。 </warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "若你需要關於伺服器狀態的專屬支援，請聯絡 Modrinth 客服。"
+    "defaultMessage": "若你需要關於伺服器狀態的專屬支援，請聯絡 Panda 客服。"
   },
   "servers.manage.error.title": {
     "defaultMessage": "無法載入伺服器"
@@ -6270,7 +6270,7 @@
     "defaultMessage": "重新載入"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "重新訂閱你的 Modrinth 伺服器時發生錯誤。"
+    "defaultMessage": "重新訂閱你的 Panda 伺服器時發生錯誤。"
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "重新訂閱時發生錯誤"
@@ -6291,7 +6291,7 @@
     "defaultMessage": "搜尋 {count} {count, plural, other {個伺服器}}..."
   },
   "servers.manage.servers-title": {
-    "defaultMessage": "Modrinth Hosting"
+    "defaultMessage": "Panda Hosting"
   },
   "servers.manage.shared-servers-title": {
     "defaultMessage": "共享伺服器"
@@ -6330,10 +6330,10 @@
     "defaultMessage": "你的 Medal 伺服器試用期已結束，且伺服器已暫停服務。請升級以繼續使用你的伺服器。"
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "你的伺服器已暫停服務。請更新你的帳務資訊，或聯絡 Modrinth 客服以取得更多資訊。"
+    "defaultMessage": "你的伺服器已暫停服務。請更新你的帳務資訊，或聯絡 Panda 客服以取得更多資訊。"
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "你的伺服器已暫停服務，原因為：{reason}。請更新你的帳務資訊，或聯絡 Modrinth 客服以取得更多資訊。"
+    "defaultMessage": "你的伺服器已暫停服務，原因為：{reason}。請更新你的帳務資訊，或聯絡 Panda 客服以取得更多資訊。"
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "你的伺服器硬體目前正在升級中，稍後將恢復上線。"
@@ -6390,7 +6390,7 @@
     "defaultMessage": "邀請玩家"
   },
   "servers.play.card.app.title": {
-    "defaultMessage": "使用 Modrinth App 遊玩"
+    "defaultMessage": "使用 Panda Minecraft Launcher 遊玩"
   },
   "servers.play.players.avatar-alt": {
     "defaultMessage": "{username} 的顯示圖片"
@@ -6408,7 +6408,7 @@
     "defaultMessage": "重試"
   },
   "servers.purchase.notification.success.text": {
-    "defaultMessage": "你已成功完成 Modrinth Hosting 的購買程序。"
+    "defaultMessage": "你已成功完成 Panda Hosting 的購買程序。"
   },
   "servers.purchase.notification.success.title": {
     "defaultMessage": "購買成功"
@@ -6510,7 +6510,7 @@
     "defaultMessage": "你希望伺服器部署在何處？"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "沒有想要的地區？<link>請告訴我們，你希望 Modrinth Hosting 接下來在哪裡提供服務！</link>"
+    "defaultMessage": "沒有想要的地區？<link>請告訴我們，你希望 Panda Hosting 接下來在哪裡提供服務！</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "新加坡"
@@ -6678,7 +6678,7 @@
     "defaultMessage": "設定伺服器"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "從 Modrinth 挑選你喜愛的模組包，或是選擇載入器並自行加入想要的模組。"
+    "defaultMessage": "從 Panda 挑選你喜愛的模組包，或是選擇載入器並自行加入想要的模組。"
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "選擇你想玩的內容"
@@ -6699,7 +6699,7 @@
     "defaultMessage": "你的伺服器已準備就緒。以下是開始遊戲前需要完成的操作！"
   },
   "servers.setup.onboarding.welcome.title": {
-    "defaultMessage": "歡迎使用 Modrinth Hosting"
+    "defaultMessage": "歡迎使用 Panda Hosting"
   },
   "servers.setup.rate-limit.text": {
     "defaultMessage": "你的操作過於頻繁。請稍後再試。"
@@ -6813,7 +6813,7 @@
     "defaultMessage": "進階繪製"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "在新分頁中開啟 Modrinth 的外部連結。這項設定僅適用於外部連結，內部連結和 Markdown 描述中的連結仍會在同一個分頁中開啟，而廣告和編輯頁面的連結會在新分頁中開啟。"
+    "defaultMessage": "在新分頁中開啟 Panda 的外部連結。這項設定僅適用於外部連結，內部連結和 Markdown 描述中的連結仍會在同一個分頁中開啟，而廣告和編輯頁面的連結會在新分頁中開啟。"
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "在新分頁中開啟外部連結"
@@ -6834,7 +6834,7 @@
     "defaultMessage": "深色"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "選擇你偏好的 Modrinth 色彩主題。"
+    "defaultMessage": "選擇你偏好的 Panda 色彩主題。"
   },
   "settings.display.theme.light": {
     "defaultMessage": "淺色"
@@ -6858,7 +6858,7 @@
     "defaultMessage": "在你登入的所有裝置使用這個主題。如果要在這個裝置上單獨設定主題，請關閉這個選項。"
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "登入 Modrinth 即可同步主題"
+    "defaultMessage": "登入 Panda 即可同步主題"
   },
   "settings.display.theme.system": {
     "defaultMessage": "與系統同步"
@@ -6879,7 +6879,7 @@
     "defaultMessage": "搜尋結果"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "Modrinth App 在這個語言的翻譯完成度約為 {percentage}%。"
+    "defaultMessage": "Panda Minecraft Launcher 在這個語言的翻譯完成度約為 {percentage}%。"
   },
   "settings.language.coverage.label": {
     "defaultMessage": "翻譯完成度 {percentage}%"
@@ -6915,7 +6915,7 @@
     "defaultMessage": "個人存取權杖"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "無法將你的設定儲存到 Modrinth 帳號，請再試一次。"
+    "defaultMessage": "無法將你的設定儲存到 Panda 帳號，請再試一次。"
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "無法同步設定"
@@ -6933,7 +6933,7 @@
     "defaultMessage": "個人檔案相片"
   },
   "settings.profile.public-information.description": {
-    "defaultMessage": "你的個人檔案資訊會<profile-link>公開顯示在 Modrinth 上</profile-link>，並可透過 <docs-link>Modrinth API</docs-link> 查詢。"
+    "defaultMessage": "你的個人檔案資訊會<profile-link>公開顯示在 Panda 上</profile-link>，並可透過 <docs-link>Panda API</docs-link> 查詢。"
   },
   "settings.profile.refresh": {
     "defaultMessage": "重新整理個人檔案"
@@ -6945,10 +6945,10 @@
     "defaultMessage": "更新個人檔案時發生錯誤，請再試一次。"
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "登入 Modrinth 帳號即可自訂你的公開個人檔案。"
+    "defaultMessage": "登入 Panda 帳號即可自訂你的公開個人檔案。"
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "需要 Modrinth 帳號"
+    "defaultMessage": "需要 Panda 帳號"
   },
   "settings.profile.username.change": {
     "defaultMessage": "變更使用者名稱"
@@ -6966,7 +6966,7 @@
     "defaultMessage": "使用者"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "以下是你在 Modrinth 上封鎖的使用者。他們無法："
+    "defaultMessage": "以下是你在 Panda 上封鎖的使用者。他們無法："
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "你沒有封鎖任何使用者。"
@@ -6981,7 +6981,7 @@
     "defaultMessage": "傳送好友邀請給你"
   },
   "settings.social.blocked-users.restriction.hosting": {
-    "defaultMessage": "邀請你管理 Modrinth Hosting 伺服器"
+    "defaultMessage": "邀請你管理 Panda Hosting 伺服器"
   },
   "settings.social.blocked-users.restriction.shared-instances": {
     "defaultMessage": "邀請你加入共用實例"
@@ -7005,13 +7005,13 @@
     "defaultMessage": "{username} 的顯示圖片"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "控制誰可以在 Modrinth 向你傳送好友邀請。"
+    "defaultMessage": "控制誰可以在 Panda 向你傳送好友邀請。"
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "好友邀請"
   },
   "settings.social.hosting-access.description": {
-    "defaultMessage": "控制誰可以邀請你管理 Modrinth Hosting 伺服器。"
+    "defaultMessage": "控制誰可以邀請你管理 Panda Hosting 伺服器。"
   },
   "settings.social.hosting-access.title": {
     "defaultMessage": "Hosting 存取邀請"
@@ -7044,10 +7044,10 @@
     "defaultMessage": "共用實例邀請"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "你可以透過 Modrinth 帳號控制誰可以與你互動，並管理被封鎖的使用者"
+    "defaultMessage": "你可以透過 Panda 帳號控制誰可以與你互動，並管理被封鎖的使用者"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "需要 Modrinth 帳號"
+    "defaultMessage": "需要 Panda 帳號"
   },
   "settings.social.title": {
     "defaultMessage": "社交"
@@ -7146,7 +7146,7 @@
     "defaultMessage": "儲存"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "輸入 Modrinth 使用者名稱"
+    "defaultMessage": "輸入 Panda 使用者名稱"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "正在搜尋..."
@@ -7878,16 +7878,16 @@
     "defaultMessage": "編輯版本及新增檔案至版本"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "這個使用者自 Modrinth Alpha 時期便已加入，早在該版本於2020年11月結束之前。"
+    "defaultMessage": "這個使用者自 Panda Alpha 時期便已加入，早在該版本於2020年11月結束之前。"
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "Alpha 測試者"
   },
   "user.profile.badge.beta.about.1": {
-    "defaultMessage": "這個使用者自 Modrinth Beta 時期便已加入，早在該版本於2022年2月結束之前。"
+    "defaultMessage": "這個使用者自 Panda Beta 時期便已加入，早在該版本於2022年2月結束之前。"
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "按這裡了解 Modrinth Beta 推出的相關資訊。"
+    "defaultMessage": "按這裡了解 Panda Beta 推出的相關資訊。"
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "Beta 測試者"
@@ -7899,67 +7899,67 @@
     "defaultMessage": "{download_sum} 次下載"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Modrinth 的資料包專案，早在該功能於2023年1月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda 的資料包專案，早在該功能於2023年1月正式推出之前。"
   },
   "user.profile.badge.early-datapack-adopter.name": {
     "defaultMessage": "資料包搶先體驗者"
   },
   "user.profile.badge.early-modpack-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Modrinth 的模組包專案，早在該功能於2022年5月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda 的模組包專案，早在該功能於2022年5月正式推出之前。"
   },
   "user.profile.badge.early-modpack-adopter.name": {
     "defaultMessage": "模組包搶先體驗者"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Modrinth 的插件專案，早在該功能於2022年8月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda 的插件專案，早在該功能於2022年8月正式推出之前。"
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "插件搶先體驗者"
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Modrinth 的資源包專案，早在該功能於2022年8月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda 的資源包專案，早在該功能於2022年8月正式推出之前。"
   },
   "user.profile.badge.early-resourcepack-adopter.name": {
     "defaultMessage": "資源包搶先體驗者"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Modrinth 的伺服器專案，早在該功能於2026年3月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda 的伺服器專案，早在該功能於2026年3月正式推出之前。"
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "伺服器搶先體驗者"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "這個使用者曾協助我們測試 Modrinth 的光影包專案，早在該功能於2023年1月正式推出之前。"
+    "defaultMessage": "這個使用者曾協助我們測試 Panda 的光影包專案，早在該功能於2023年1月正式推出之前。"
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "光影包搶先體驗者"
   },
   "user.profile.badge.hosting-alpha.about.1": {
-    "defaultMessage": "這個使用者曾參與 Modrinth Hosting 的 Alpha 封閉測試，早在 Modrinth Hosting Beta 版於2024年11月推出之前。"
+    "defaultMessage": "這個使用者曾參與 Panda Hosting 的 Alpha 封閉測試，早在 Panda Hosting Beta 版於2024年11月推出之前。"
   },
   "user.profile.badge.hosting-alpha.name": {
-    "defaultMessage": "Modrinth Hosting Alpha 測試者"
+    "defaultMessage": "Panda Hosting Alpha 測試者"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "這個使用者在 Modrinth 擔任內容管理員。"
+    "defaultMessage": "這個使用者在 Panda 擔任內容管理員。"
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Modrinth 的內容管理員負責審查專案、處理檢舉，並維護 Modrinth 平臺的安全。"
+    "defaultMessage": "Panda 的內容管理員負責審查專案、處理檢舉，並維護 Panda 平臺的安全。"
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "內容管理員"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "這個使用者盡其所能支持了 Modrinth 以及平臺上的創作者。"
+    "defaultMessage": "這個使用者盡其所能支持了 Panda 以及平臺上的創作者。"
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "按這裡了解如何成為會員。"
   },
   "user.profile.badge.plus.name": {
-    "defaultMessage": "Modrinth+ 會員"
+    "defaultMessage": "Panda+ 會員"
   },
   "user.profile.badge.pride.about.1": {
-    "defaultMessage": "這個使用者參與了至少一場 Modrinth 為 LGBTQ+ 社群舉辦的驕傲月籌款活動。"
+    "defaultMessage": "這個使用者參與了至少一場 Panda 為 LGBTQ+ 社群舉辦的驕傲月籌款活動。"
   },
   "user.profile.badge.pride.link": {
     "defaultMessage": "按這裡前往我們最新的驕傲月籌款活動。"
@@ -7968,16 +7968,16 @@
     "defaultMessage": "驕傲月籌款活動捐款者"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "這個使用者任職於 Modrinth。"
+    "defaultMessage": "這個使用者任職於 Panda。"
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Modrinth 團隊"
+    "defaultMessage": "Panda 團隊"
   },
   "user.role.moderator": {
     "defaultMessage": "內容管理員"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Modrinth 團隊"
+    "defaultMessage": "Panda 團隊"
   },
   "version.content.name": {
     "defaultMessage": "名稱"

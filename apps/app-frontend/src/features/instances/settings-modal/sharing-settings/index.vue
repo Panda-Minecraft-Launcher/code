@@ -11,12 +11,12 @@ const messages = defineMessages({
 	unpublishDescription: {
 		id: 'installation-settings.shared-instance.unpublish-description',
 		defaultMessage:
-			'Remove this shared instance from Modrinth and stop sending updates to anyone using it. Your local instance will not be affected.',
+			'Remove this shared instance from Panda and stop sending updates to anyone using it. Your local instance will not be affected.',
 	},
 	unpublishConfirmation: {
 		id: 'installation-settings.unpublish-shared-instance.modal.admonition-body',
 		defaultMessage:
-			"This deletes the shared instance from Modrinth's servers. People using it in the Modrinth App will stop receiving updates, but your local instance and its content will stay on this device.",
+			"This deletes the shared instance from Panda's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, but your local instance and its content will stay on this device.",
 	},
 })
 </script>

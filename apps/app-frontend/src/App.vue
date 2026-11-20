@@ -574,12 +574,12 @@ const messages = defineMessages({
 	},
 	adsConsentTitle: {
 		id: 'app.ads-consent.title',
-		defaultMessage: 'Your privacy and how ads support Modrinth',
+		defaultMessage: 'Your privacy and how ads support Panda',
 	},
 	adsConsentBody: {
 		id: 'app.ads-consent.body',
 		defaultMessage:
-			'Ads make Modrinth possible and fund creator payouts. Our partners may store or access cookies in the app to personalize ads and measure performance.',
+			'Ads make Panda possible and fund creator payouts. Our partners may store or access cookies in the app to personalize ads and measure performance.',
 	},
 	adsConsentManage: {
 		id: 'app.ads-consent.manage',
@@ -599,7 +599,7 @@ const messages = defineMessages({
 	},
 	modrinthHosting: {
 		id: 'app.nav.modrinth-hosting',
-		defaultMessage: 'Modrinth Hosting',
+		defaultMessage: 'Panda Hosting',
 	},
 	screenshots: {
 		id: 'app.nav.screenshots',
@@ -611,7 +611,7 @@ const messages = defineMessages({
 	},
 	modrinthAccount: {
 		id: 'app.nav.modrinth-account',
-		defaultMessage: 'Modrinth account',
+		defaultMessage: 'Panda account',
 	},
 	viewProfile: {
 		id: 'app.nav.view-profile',
@@ -619,7 +619,7 @@ const messages = defineMessages({
 	},
 	signInToModrinthAccount: {
 		id: 'app.nav.sign-in-to-modrinth-account',
-		defaultMessage: 'Sign into Modrinth',
+		defaultMessage: 'Sign into Panda',
 	},
 	loadingProfile: {
 		id: 'app.nav.loading-profile',
@@ -643,7 +643,7 @@ const messages = defineMessages({
 	},
 	upgradeToModrinthPlus: {
 		id: 'app.nav.upgrade-to-modrinth-plus',
-		defaultMessage: 'Upgrade to Modrinth+',
+		defaultMessage: 'Upgrade to Panda+',
 	},
 })
 
@@ -1597,16 +1597,16 @@ const updatePopupMessages = defineMessages({
 	},
 	meteredBody: {
 		id: 'app.update-popup.body.metered',
-		defaultMessage: `Modrinth App v{version} is available now! Since you're on a metered network, we didn't automatically download it.`,
+		defaultMessage: `Panda Minecraft Launcher v{version} is available now! Since you're on a metered network, we didn't automatically download it.`,
 	},
 	downloadedBody: {
 		id: 'app.update-popup.body.download-complete',
-		defaultMessage: `Modrinth App v{version} has finished downloading. Reload to update now, or automatically when you close Modrinth App.`,
+		defaultMessage: `Panda Minecraft Launcher v{version} has finished downloading. Reload to update now, or automatically when you close Panda Minecraft Launcher.`,
 	},
 	linuxBody: {
 		id: 'app.update-popup.body.linux',
 		defaultMessage:
-			'Modrinth App v{version} is available. Use your package manager to update for the latest features and fixes!',
+			'Panda Minecraft Launcher v{version} is available. Use your package manager to update for the latest features and fixes!',
 	},
 	reload: {
 		id: 'app.update-popup.reload',
@@ -2067,6 +2067,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				<ImageIcon />
 			</NavButton>
 			<NavButton
+				v-if="false"
 				v-tooltip.right="formatMessage(messages.modrinthHosting)"
 				to="/hosting/manage"
 				:is-primary="(r) => r.path === '/hosting/manage' || r.path === '/hosting/manage/'"
@@ -2096,7 +2097,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				<SettingsIcon />
 			</NavButton>
 			<IconButton
-				v-if="credentials === undefined"
+				v-if="false"
 				v-tooltip.right="profileButtonTooltip"
 				type="quiet"
 				size="xl"
@@ -2107,7 +2108,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				<SpinnerIcon class="animate-spin" />
 			</IconButton>
 			<TeleportOverflowMenu
-				v-else-if="credentials?.user"
+				v-if="false"
 				v-tooltip.right="profileButtonTooltip"
 				type="quiet"
 				size="xl"
@@ -2136,7 +2137,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				</template>
 			</TeleportOverflowMenu>
 			<TeleportOverflowMenu
-				v-else-if="accountSwitcherAccounts.length > 0"
+				v-if="false"
 				v-tooltip.right="profileButtonTooltip"
 				type="quiet"
 				size="xl"
@@ -2156,7 +2157,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 					<UserRoleIcon :role="account.user.role" />
 				</template>
 			</TeleportOverflowMenu>
-			<NavButton v-else v-tooltip.right="profileButtonTooltip" :to="() => requestSignIn()">
+			<NavButton v-if="false" v-tooltip.right="profileButtonTooltip" :to="() => requestSignIn()">
 				<LogInIcon class="text-brand" />
 			</NavButton>
 		</div>

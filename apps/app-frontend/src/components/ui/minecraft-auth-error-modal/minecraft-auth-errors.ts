@@ -5,11 +5,11 @@ export interface MinecraftAuthError {
 
 const networkError: MinecraftAuthError = {
 	whatHappened:
-		'Modrinth App could not connect to a Microsoft, Xbox, or Minecraft service needed for sign-in. This is usually caused by a local network, DNS, proxy, firewall, hosts file, VPN, or antivirus issue.',
+		'Panda Minecraft Launcher could not connect to a Microsoft, Xbox, or Minecraft service needed for sign-in. This is usually caused by a local network, DNS, proxy, firewall, hosts file, VPN, or antivirus issue.',
 	stepsToFix: [
-		'Restart Modrinth App and try signing in again',
+		'Restart Panda Minecraft Launcher and try signing in again',
 		'Check that your internet connection is working',
-		'Allow Modrinth App through your firewall, antivirus, proxy, VPN, and hosts file rules',
+		'Allow Panda Minecraft Launcher through your firewall, antivirus, proxy, VPN, and hosts file rules',
 		'Try a different network or temporarily disable VPN/proxy software if you use one',
 		'If routing or DNS is the issue, a service like Cloudflare WARP can sometimes help',
 	],
@@ -17,19 +17,19 @@ const networkError: MinecraftAuthError = {
 
 const elyByNetworkError: MinecraftAuthError = {
 	whatHappened:
-		'Modrinth App could not connect to ely.by. This is usually caused by a local network, DNS, proxy, firewall, or VPN issue.',
+		'Panda Minecraft Launcher could not connect to ely.by. This is usually caused by a local network, DNS, proxy, firewall, or VPN issue.',
 	stepsToFix: [
 		'Check that your internet connection is working',
-		'Allow Modrinth App through your firewall, antivirus, proxy, VPN, and hosts file rules',
+		'Allow Panda Minecraft Launcher through your firewall, antivirus, proxy, VPN, and hosts file rules',
 		'Try a different network or temporarily disable VPN/proxy software if you use one',
-		'Restart Modrinth App and try signing in again',
+		'Restart Panda Minecraft Launcher and try signing in again',
 	],
 }
 
 const elyByExpiredError: MinecraftAuthError = {
 	whatHappened: 'The ely.by device code expired before the sign-in was approved.',
 	stepsToFix: [
-		'Start the sign-in again in Modrinth App',
+		'Start the sign-in again in Panda Minecraft Launcher',
 		'Open the verification page and enter the new code promptly',
 		'Approve the request on ely.by before the code expires',
 	],
@@ -38,9 +38,9 @@ const elyByExpiredError: MinecraftAuthError = {
 export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 	minecraft_auth_token_expired: {
 		whatHappened:
-			'Your saved Microsoft sign-in token has expired or was revoked, so Modrinth App cannot refresh your Minecraft session.',
+			'Your saved Microsoft sign-in token has expired or was revoked, so Panda Minecraft Launcher cannot refresh your Minecraft session.',
 		stepsToFix: [
-			'Sign out of the affected Minecraft account in Modrinth App',
+			'Sign out of the affected Minecraft account in Panda Minecraft Launcher',
 			'Sign in to the account again',
 			'Once the new sign-in finishes, try launching Minecraft again',
 		],
@@ -52,7 +52,7 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 			'Open your system date and time settings',
 			'Turn on automatic time zone and automatic time, if available',
 			'Use the sync option in your system settings to synchronize the clock',
-			'Restart Modrinth App',
+			'Restart Panda Minecraft Launcher',
 			'Try signing in again',
 		],
 	},
@@ -61,14 +61,14 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 			'Microsoft or Minecraft temporarily blocked the sign-in request because there were too many recent attempts.',
 		stepsToFix: [
 			'Wait about an hour before trying again',
-			'Restart Modrinth App after waiting',
+			'Restart Panda Minecraft Launcher after waiting',
 			'Try signing in once more',
 			'If the same message appears, wait longer before retrying so the temporary limit can clear',
 		],
 	},
 	minecraft_auth_service_unavailable: {
 		whatHappened:
-			"Minecraft's authentication service is returning a server error, so Modrinth App cannot finish signing you in right now.",
+			"Minecraft's authentication service is returning a server error, so Panda Minecraft Launcher cannot finish signing you in right now.",
 		stepsToFix: [
 			'Wait a few minutes and try signing in again',
 			'Check <a href="https://support.xbox.com/xbox-live-status">Xbox Status</a> for current service issues',
@@ -83,8 +83,8 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 			'Sign in with the <a href="https://www.minecraft.net/en-us/download">official Minecraft Launcher</a>',
 			'Launch Minecraft: Java Edition once from the official launcher',
 			'Wait up to an hour if the purchase or profile setup was recent',
-			'Make sure you are using the Microsoft account that owns Minecraft. See <a href="https://support.modrinth.com/en/articles/9409136-finding-the-right-xbox-account">Finding the right Xbox account</a> for help',
-			'Try signing in to Modrinth App again',
+			'Make sure you are using the Microsoft account that owns Minecraft. See <a href="https://github.com/Panda-Minecraft-Launcher/code/issues">Finding the right Xbox account</a> for help',
+			'Try signing in to Panda Minecraft Launcher again',
 		],
 	},
 	minecraft_auth_network: networkError,
@@ -156,11 +156,11 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 	},
 	minecraft_auth_xsts_rejected: {
 		whatHappened:
-			'Xbox services rejected the request to authorize this account for Minecraft services, but did not return a specific account restriction that Modrinth App recognizes.',
+			'Xbox services rejected the request to authorize this account for Minecraft services, but did not return a specific account restriction that Panda Minecraft Launcher recognizes.',
 		stepsToFix: [
 			'Sign in with the <a href="https://www.minecraft.net/en-us/download">official Minecraft Launcher</a>',
 			'Complete any prompts shown by Microsoft, Xbox, or Minecraft',
-			'Try signing in to Modrinth App again',
+			'Try signing in to Panda Minecraft Launcher again',
 			'If the official launcher also fails, follow the error shown there or contact Xbox Support',
 		],
 	},
@@ -169,7 +169,7 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 	elyby_access_denied: {
 		whatHappened: 'The ely.by sign-in request was denied on the ely.by website.',
 		stepsToFix: [
-			'Start the sign-in again in Modrinth App',
+			'Start the sign-in again in Panda Minecraft Launcher',
 			'Open the verification page and approve the request instead of denying it',
 		],
 	},
@@ -179,9 +179,9 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 		whatHappened:
 			'The ely.by device code has not been approved yet, so sign-in could not be completed.',
 		stepsToFix: [
-			'Open the verification page and enter the code shown in Modrinth App',
+			'Open the verification page and enter the code shown in Panda Minecraft Launcher',
 			'Approve the request on ely.by',
-			'Restart Modrinth App and start the sign-in again if the code has expired',
+			'Restart Panda Minecraft Launcher and start the sign-in again if the code has expired',
 		],
 	},
 	elyby_no_profile: {
@@ -189,14 +189,14 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 		stepsToFix: [
 			'Make sure you are signing in with the ely.by account that owns your Minecraft profile',
 			'Sign in at <a href="https://ely.by">ely.by</a> and confirm the Minecraft profile is linked',
-			'Try signing in to Modrinth App again',
+			'Try signing in to Panda Minecraft Launcher again',
 		],
 	},
 	elyby_invalid_client: {
 		whatHappened:
 			'ely.by rejected the launcher application used for sign-in. This is usually a temporary service configuration issue.',
 		stepsToFix: [
-			'Update Modrinth App to the latest version',
+			'Update Panda Minecraft Launcher to the latest version',
 			'Try signing in again in a few minutes',
 			'Contact support if the problem persists',
 		],
@@ -213,15 +213,15 @@ export const minecraftAuthErrors: Record<string, MinecraftAuthError> = {
 		whatHappened: 'ely.by temporarily blocked sign-in because there were too many recent attempts.',
 		stepsToFix: [
 			'Wait a few minutes before trying again',
-			'Restart Modrinth App after waiting',
+			'Restart Panda Minecraft Launcher after waiting',
 			'Try signing in once more',
 		],
 	},
 	elyby_unknown: {
-		whatHappened: 'ely.by returned an error that Modrinth App does not recognize.',
+		whatHappened: 'ely.by returned an error that Panda Minecraft Launcher does not recognize.',
 		stepsToFix: [
 			'Check that you can sign in at <a href="https://ely.by">ely.by</a> in your browser',
-			'Restart Modrinth App and try signing in again',
+			'Restart Panda Minecraft Launcher and try signing in again',
 			'Contact support with the debug information below if the problem persists',
 		],
 	},

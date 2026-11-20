@@ -143,7 +143,7 @@ const purchaseSuccessTitle = defineMessage({
 
 const purchaseSuccessText = defineMessage({
 	id: 'servers.purchase.notification.success.text',
-	defaultMessage: 'Your Modrinth Hosting purchase was completed successfully.',
+	defaultMessage: 'Your Panda Hosting purchase was completed successfully.',
 })
 
 const currentRegion = computed(() => {

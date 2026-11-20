@@ -137,12 +137,14 @@ const tabs = [
 		category: tabCategories.account,
 		icon: UserIcon,
 		content: ProfileSettings,
+		hidden: true,
 	},
 	{
 		name: commonSettingsMessages.social,
 		category: tabCategories.account,
 		icon: HeartHandshakeIcon,
 		content: SocialSettings,
+		hidden: true,
 	},
 	{
 		name: defineMessage({
@@ -188,6 +190,7 @@ const tabs = [
 		category: tabCategories.instanceDefaults,
 		icon: RefreshCwIcon,
 		content: SyncingSettings,
+		hidden: true,
 	},
 	{
 		name: defineMessage({
@@ -210,7 +213,7 @@ const tabs = [
 ]
 
 const availableTabs = computed(() =>
-	tabs.filter((tab) => !tab.developerOnly || appSettings.devMode),
+	tabs.filter((tab) => (!tab.developerOnly || appSettings.devMode) && !tab.hidden),
 )
 
 const modal = ref<InstanceType<typeof TabbedModal> | null>(null)
@@ -325,7 +328,7 @@ const messages = defineMessages({
 	},
 	appVersion: {
 		id: 'app.settings.app-version',
-		defaultMessage: 'Modrinth App {version}',
+		defaultMessage: 'Panda Minecraft Launcher {version}',
 	},
 	macos: {
 		id: 'app.settings.operating-system.macos',

@@ -78,7 +78,7 @@
     "defaultMessage": "Nie wybrano metody płatności"
   },
   "billing.resubscribe-modal.plan-item": {
-    "defaultMessage": "Modrinth Hosting ({plan})"
+    "defaultMessage": "Panda Hosting ({plan})"
   },
   "billing.resubscribe-modal.plan.custom": {
     "defaultMessage": "Własny"
@@ -105,7 +105,7 @@
     "defaultMessage": "Podatek"
   },
   "billing.resubscribe-modal.title": {
-    "defaultMessage": "Za subskrybuj ponownie do Hostingu na Modrinth"
+    "defaultMessage": "Za subskrybuj ponownie do Hostingu na Panda"
   },
   "browse.advanced-filters.apply-saved-preferences": {
     "defaultMessage": "Zastosuj zapisane ustawienia"
@@ -2766,7 +2766,7 @@
     "defaultMessage": "TNT"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Klucz Modrinth"
+    "defaultMessage": "Klucz Panda"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "Zombie"
@@ -3546,16 +3546,16 @@
     "defaultMessage": "Otrzymuj aktualizacje plików, gdy zmienione są na serwerze"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "Pobierz Modrinth App"
+    "defaultMessage": "Pobierz Panda Minecraft Launcher"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "Modrinth App zostanie otwarte automatycznie..."
+    "defaultMessage": "Panda Minecraft Launcher zostanie otwarte automatycznie..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "Otwieranie Modrinth App"
+    "defaultMessage": "Otwieranie Panda Minecraft Launcher"
   },
   "modal.open-in-app.why-use": {
-    "defaultMessage": "Czemu warto używać Modrinth App"
+    "defaultMessage": "Czemu warto używać Panda Minecraft Launcher"
   },
   "modal.tabbed.collapse": {
     "defaultMessage": "Zwiń"
@@ -3585,10 +3585,10 @@
     "defaultMessage": "<actor>{actor}</actor> zaprosił cię do <entity>{entity}</entity> instalacji."
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "Współdzielona instancja \"<entity>{entity}</entity>\" została zablokowana przez zespół moderacji Modrinth."
+    "defaultMessage": "Współdzielona instancja \"<entity>{entity}</entity>\" została zablokowana przez zespół moderacji Panda."
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "Współdzielona instancja \"<entity>{entity}</entity>\" została zablokowana przez zespół moderacji Modrinth."
+    "defaultMessage": "Współdzielona instancja \"<entity>{entity}</entity>\" została zablokowana przez zespół moderacji Panda."
   },
   "notifications.instance-ready.launch-game": {
     "defaultMessage": "Uruchom grę"
@@ -3639,7 +3639,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Zespół Modrinth"
+    "defaultMessage": "Zespół Panda"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Oczekujący"
@@ -3759,13 +3759,13 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Twórca na Modrinth."
+    "defaultMessage": "Twórca na Panda."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Użytkownik Modrinth."
+    "defaultMessage": "Użytkownik Panda."
   },
   "profile.block-user.admonition-body": {
-    "defaultMessage": "Użytkownik {username} nie będzie mógł wysyłać ci zaproszeń do znajomych, zapraszać się do udostępnionych instancji lub zapraszać się do serwerów Modrinth Hosting."
+    "defaultMessage": "Użytkownik {username} nie będzie mógł wysyłać ci zaproszeń do znajomych, zapraszać się do udostępnionych instancji lub zapraszać się do serwerów Panda Hosting."
   },
   "profile.block-user.admonition-title": {
     "defaultMessage": "Czy na pewno chcesz zablokować tego użytkownika?"
@@ -3840,7 +3840,7 @@
     "defaultMessage": "{count, plural, one {# projekt} few {# projekty} other {# projektów}}"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Zezwól na wyskakujące okienka dla Modrinth i spróbuj ponownie."
+    "defaultMessage": "Zezwól na wyskakujące okienka dla Panda i spróbuj ponownie."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Nie udało się otworzyć profilu GitHub. Spróbuj ponownie."
@@ -3951,10 +3951,10 @@
     "defaultMessage": "Ograniczony"
   },
   "profile.official-account": {
-    "defaultMessage": "Oficjalne konto Modrinth"
+    "defaultMessage": "Oficjalne konto Panda"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Oficjalne konto Modrinth. Otrzymaj wsparcie na stronie <support-link></support-link> lub poprzez e-mail <email></email>"
+    "defaultMessage": "Oficjalne konto Panda. Otrzymaj wsparcie na stronie <support-link></support-link> lub poprzez e-mail <email></email>"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "Uwierzytelnianie dwuskładnikowe i kody zapasowe {username} zostaną usunięte, a użytkownik zostanie poinformowany. Zrób to tylko po zweryfikowaniu tożsamości."
@@ -5208,7 +5208,7 @@
     "defaultMessage": "To usuwa współdzieloną instancję i wyłącza jej linki zaproszenia. Gracze przestaną otrzymywać aktualizacje udostępnianych treści. Twój serwer i jego zawartość pozostaną dostępne."
   },
   "server.settings.sharing.unpublish-description": {
-    "defaultMessage": "Usuń współdzielone wystąpienie dla tego serwera z Modrinth i przestań wysyłać aktualizacje treści do odtwarzaczy. Twój serwer i jego zawartość nie zostaną naruszone."
+    "defaultMessage": "Usuń współdzielone wystąpienie dla tego serwera z Panda i przestań wysyłać aktualizacje treści do odtwarzaczy. Twój serwer i jego zawartość nie zostaną naruszone."
   },
   "servers.access-page.activity-log-filter.action-group.backups": {
     "defaultMessage": "Kopie zapasowe"
@@ -6015,7 +6015,7 @@
     "defaultMessage": "Awatar użytkownika {username}"
   },
   "servers.backups.history.creator.support": {
-    "defaultMessage": "Obsługa Modrinth"
+    "defaultMessage": "Obsługa Panda"
   },
   "servers.backups.history.more-options": {
     "defaultMessage": "Więcej opcji dla {name}"
@@ -6204,13 +6204,13 @@
     "defaultMessage": "Nie pomylić z nazwą użytkownika Minecraft."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Nazwa użytkownika Modrinth"
+    "defaultMessage": "Nazwa użytkownika Panda"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "Nie znaleziono żadnych użytkowników."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Wprowadź nazwę użytkownika Modrinth"
+    "defaultMessage": "Wprowadź nazwę użytkownika Panda"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "Wyszukiwanie..."
@@ -6306,13 +6306,13 @@
     "defaultMessage": "Dowiedz się więcej"
   },
   "servers.list-empty.modrinth-hosting-label": {
-    "defaultMessage": "Modrinth Hosting"
+    "defaultMessage": "Panda Hosting"
   },
   "servers.list-empty.new-server-button": {
     "defaultMessage": "Nowy serwer"
   },
   "servers.list-empty.no-servers-description": {
-    "defaultMessage": "Instaluj modyfikacje, zapraszaj znajomych i graj z nimi przy użyciu Modrinth App."
+    "defaultMessage": "Instaluj modyfikacje, zapraszaj znajomych i graj z nimi przy użyciu Panda Minecraft Launcher."
   },
   "servers.list-empty.one-click-mod-installs-description": {
     "defaultMessage": "Wybierz swoje ulubione mody, a my zajmiemy się resztą."
@@ -6321,13 +6321,13 @@
     "defaultMessage": "Instalacja modyfikacji za jednym kliknięciem"
   },
   "servers.list-empty.play-with-friends-description": {
-    "defaultMessage": "Zaproś znajomych do grania na swoim serwerze jednym kliknięciem z aplikacji Modrinth."
+    "defaultMessage": "Zaproś znajomych do grania na swoim serwerze jednym kliknięciem z aplikacji Panda."
   },
   "servers.list-empty.play-with-friends-title": {
     "defaultMessage": "Graj z przyjaciółmi"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Zaloguj się na Modrinth"
+    "defaultMessage": "Zaloguj się na Panda"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Ustaw serwer tak, jak zwykły świat w trybie jednoosobowym."
@@ -6384,7 +6384,7 @@
     "defaultMessage": "Twoja subskrypcja zostanie anulowana dnia <date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "Twój serwer został zawieszony. Skontaktuj się z obsługą Modrinth, by dowiedzieć się więcej."
+    "defaultMessage": "Twój serwer został zawieszony. Skontaktuj się z obsługą Panda, by dowiedzieć się więcej."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "Twój serwer jest aktualnie ulepszany i wkrótce zostanie włączony ponownie."
@@ -6402,7 +6402,7 @@
     "defaultMessage": "Ikona serwera"
   },
   "servers.listing.support-label": {
-    "defaultMessage": "Obsługa Modrinth"
+    "defaultMessage": "Obsługa Panda"
   },
   "servers.listing.using-project-label": {
     "defaultMessage": "Używa {projectTitle}"
@@ -6447,7 +6447,7 @@
     "defaultMessage": "Przesyłanie w toku"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Skontaktuj się z obsługą Modrinth"
+    "defaultMessage": "Skontaktuj się z obsługą Panda"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Nasze systemy automatycznie zawiadamiają nasz zespół, gdy występuje jakakolwiek awaria. Aktualnie przywracamy serwery do działania."
@@ -6459,10 +6459,10 @@
     "defaultMessage": "Informacje na temat błędu:"
   },
   "servers.manage.error.queue-notice": {
-    "defaultMessage": "Świeżo kupione serwery Modrinth Hosting są najpierw wstawiane do kolejki i będą pokazane tutaj, gdy będą gotowe. <warning>Nie próbuj kupować od nowa serwera.</warning>"
+    "defaultMessage": "Świeżo kupione serwery Panda Hosting są najpierw wstawiane do kolejki i będą pokazane tutaj, gdy będą gotowe. <warning>Nie próbuj kupować od nowa serwera.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Jeżeli potrzebujesz spersonalizowanego wsparcia odnośnie do stanu Twojego serwera, skontaktuj się z obsługą Modrinth."
+    "defaultMessage": "Jeżeli potrzebujesz spersonalizowanego wsparcia odnośnie do stanu Twojego serwera, skontaktuj się z obsługą Panda."
   },
   "servers.manage.error.title": {
     "defaultMessage": "Serwery nie mogły zostać załadowane"
@@ -6483,10 +6483,10 @@
     "defaultMessage": "Zablokowany od {date}"
   },
   "servers.manage.locked.body": {
-    "defaultMessage": "Obsługa Modrinth tymczasowo zablokowała ten serwer, więc nie możesz dokonywać żadnych zmian. <support-link>Skontaktuj się z obsługą Modrinth</support-link>, jeśli uważasz to za pomyłkę."
+    "defaultMessage": "Obsługa Panda tymczasowo zablokowała ten serwer, więc nie możesz dokonywać żadnych zmian. <support-link>Skontaktuj się z obsługą Panda</support-link>, jeśli uważasz to za pomyłkę."
   },
   "servers.manage.locked.header": {
-    "defaultMessage": "Serwer zablokowany przez obsługę Modrinth"
+    "defaultMessage": "Serwer zablokowany przez obsługę Panda"
   },
   "servers.manage.new-server-button": {
     "defaultMessage": "Nowy serwer"
@@ -6510,7 +6510,7 @@
     "defaultMessage": "Załaduj ponownie"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Wystąpił błąd podczas ponawiania subskrypcji do serwera Modrinth."
+    "defaultMessage": "Wystąpił błąd podczas ponawiania subskrypcji do serwera Panda."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Błąd resubskrybcji"
@@ -6531,7 +6531,7 @@
     "defaultMessage": "Szukaj wśród {count} {count, plural, one {serweru} other {serwerów}}..."
   },
   "servers.manage.servers-title": {
-    "defaultMessage": "Modrinth Hosting"
+    "defaultMessage": "Panda Hosting"
   },
   "servers.manage.shared-servers-title": {
     "defaultMessage": "Współdzielone serwery"
@@ -6567,10 +6567,10 @@
     "defaultMessage": "Okres próbny serwera od Medal zakończył się, więc Twój serwer został zawieszony. Musisz wybrać plan, by dalej móc korzystać z serwera."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "Twój serwer został zawieszony. Zaktualizuj swoje dane rozliczeniowe lub skontaktuj się z obsługą Modrinth, by dowiedzieć się więcej."
+    "defaultMessage": "Twój serwer został zawieszony. Zaktualizuj swoje dane rozliczeniowe lub skontaktuj się z obsługą Panda, by dowiedzieć się więcej."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "Twój serwer został zawieszony: {reason}. Zaktualizuj swoje dane rozliczeniowe lub skontaktuj się z obsługą Modrinth, by dowiedzieć się więcej."
+    "defaultMessage": "Twój serwer został zawieszony: {reason}. Zaktualizuj swoje dane rozliczeniowe lub skontaktuj się z obsługą Panda, by dowiedzieć się więcej."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "Twój serwer jest aktualnie ulepszany i wkrótce zostanie włączony ponownie."
@@ -6651,7 +6651,7 @@
     "defaultMessage": "Kopiuj adres serwera"
   },
   "servers.play.card.app.description": {
-    "defaultMessage": "Najprostszym sposobem na grę jest Modrinth App, które automatycznie instaluje wymaganą zawartość dla Ciebie i graczy na Twoim serwerze."
+    "defaultMessage": "Najprostszym sposobem na grę jest Panda Minecraft Launcher, które automatycznie instaluje wymaganą zawartość dla Ciebie i graczy na Twoim serwerze."
   },
   "servers.play.card.app.invite-button": {
     "defaultMessage": "Zaproś graczy"
@@ -6660,7 +6660,7 @@
     "defaultMessage": "Graj na serwerze"
   },
   "servers.play.card.app.title": {
-    "defaultMessage": "Graj przez Modrinth App"
+    "defaultMessage": "Graj przez Panda Minecraft Launcher"
   },
   "servers.play.card.launcher.description": {
     "defaultMessage": "Zainstaluj wymaganą zawartość za pomocą preferowanego launchera, a następnie dodaj adres serwera w grze, aby dołączyć."
@@ -6750,7 +6750,7 @@
     "defaultMessage": "Wciśnij aktualizacje i uruchom"
   },
   "servers.purchase.notification.success.text": {
-    "defaultMessage": "Zakup Modrinth Hosting zakończony sukcesem."
+    "defaultMessage": "Zakup Panda Hosting zakończony sukcesem."
   },
   "servers.purchase.notification.success.title": {
     "defaultMessage": "Zakup przebiegł pomyślnie"
@@ -6852,7 +6852,7 @@
     "defaultMessage": "Gdzie chciałbyś(-abyś), aby znajdował się Twój serwer?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Nie ma na liście lokalizacji, którą potrzebujesz? <link>Daj nam znać, gdzie chcesz zobaczyć Modrinth Hosting!</link>"
+    "defaultMessage": "Nie ma na liście lokalizacji, którą potrzebujesz? <link>Daj nam znać, gdzie chcesz zobaczyć Panda Hosting!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Singapur"
@@ -7008,7 +7008,7 @@
     "defaultMessage": "Ustaw serwer"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "Wybierz swoją ulubioną paczkę modów z Modrinth lub wybierz loader i dodaj mody, które chcesz."
+    "defaultMessage": "Wybierz swoją ulubioną paczkę modów z Panda lub wybierz loader i dodaj mody, które chcesz."
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "Wybierz w co grać"
@@ -7029,7 +7029,7 @@
     "defaultMessage": "Twój serwer jest gotowy. Oto co musisz zrobić, by zacząć grać!"
   },
   "servers.setup.onboarding.welcome.title": {
-    "defaultMessage": "Witaj w Modrinth Hosting"
+    "defaultMessage": "Witaj w Panda Hosting"
   },
   "servers.setup.rate-limit.text": {
     "defaultMessage": "Przekroczono limit operacji. Spróbuj ponownie później."
@@ -7164,7 +7164,7 @@
     "defaultMessage": "Zaawansowane renderowanie"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Spraw, aby linki prowadzące poza Modrinth otwierały się w nowej karcie. Niezależnie od tego ustawienia linki w tej samej domenie i w opisach Markdown będą otwierane w tej samej karcie, a linki w reklamach i edytowanych stronach będą otwierane w nowej karcie."
+    "defaultMessage": "Spraw, aby linki prowadzące poza Panda otwierały się w nowej karcie. Niezależnie od tego ustawienia linki w tej samej domenie i w opisach Markdown będą otwierane w tej samej karcie, a linki w reklamach i edytowanych stronach będą otwierane w nowej karcie."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Otwieraj linki zewnętrzne w nowej karcie"
@@ -7185,7 +7185,7 @@
     "defaultMessage": "Ciemny"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Wybierz preferowany motyw kolorystyczny dla Modrinth App."
+    "defaultMessage": "Wybierz preferowany motyw kolorystyczny dla Panda Minecraft Launcher."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Jasny"
@@ -7209,7 +7209,7 @@
     "defaultMessage": "Używaj tych ustawień wszędzie, gdzie jesteś zalogowany. Wyłącz, by mieć inne ustawienia na tym urządzeniu."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Zaloguj się na Modrinth, aby synchronizować motyw"
+    "defaultMessage": "Zaloguj się na Panda, aby synchronizować motyw"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Synchronizuj z systemem"
@@ -7230,7 +7230,7 @@
     "defaultMessage": "Wyniki wyszukiwania"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "Około {percentage}% Modrinth App jest dostępne w tym języku."
+    "defaultMessage": "Około {percentage}% Panda Minecraft Launcher jest dostępne w tym języku."
   },
   "settings.language.coverage.label": {
     "defaultMessage": "{percentage}% wspierane"
@@ -7266,7 +7266,7 @@
     "defaultMessage": "Klucze dostępu osobistego"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "Twoje ustawienia nie mogły zostać zapisane na Twoim koncie Modrinth. Spróbuj ponownie."
+    "defaultMessage": "Twoje ustawienia nie mogły zostać zapisane na Twoim koncie Panda. Spróbuj ponownie."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "Nie udało się zsynchronizować ustawień"
@@ -7284,7 +7284,7 @@
     "defaultMessage": "Zdjęcie profilowe"
   },
   "settings.profile.public-information.description": {
-    "defaultMessage": "Twoje informacje profilowe są publicznie <profile-link>dostępne na Modrinth</profile-link> i poprzez <docs-link>Modrinth API</docs-link>."
+    "defaultMessage": "Twoje informacje profilowe są publicznie <profile-link>dostępne na Panda</profile-link> i poprzez <docs-link>Panda API</docs-link>."
   },
   "settings.profile.refresh": {
     "defaultMessage": "Odśwież profil"
@@ -7296,10 +7296,10 @@
     "defaultMessage": "Wystąpił błąd podczas aktualizowania profilu. Spróbuj ponownie później."
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "Zaloguj się na konto Modrinth, by dostosować swój publiczny profil."
+    "defaultMessage": "Zaloguj się na konto Panda, by dostosować swój publiczny profil."
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "Wymagane jest konto Modrinth"
+    "defaultMessage": "Wymagane jest konto Panda"
   },
   "settings.profile.username.change": {
     "defaultMessage": "Zmień nazwę użytkownika"
@@ -7317,7 +7317,7 @@
     "defaultMessage": "Użytkownik"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Lista użytkowników zablokowanych na Modrinth. Nie mogą oni:"
+    "defaultMessage": "Lista użytkowników zablokowanych na Panda. Nie mogą oni:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Brak zablokowanych użytkowników."
@@ -7332,7 +7332,7 @@
     "defaultMessage": "Wysyłać ci zaproszeń do znajomych"
   },
   "settings.social.blocked-users.restriction.hosting": {
-    "defaultMessage": "Zapraszać cię do zarządzania serwerem Modrinth Hosting"
+    "defaultMessage": "Zapraszać cię do zarządzania serwerem Panda Hosting"
   },
   "settings.social.blocked-users.restriction.shared-instances": {
     "defaultMessage": "Zapraszać cię do udostępnionych instancji"
@@ -7356,13 +7356,13 @@
     "defaultMessage": "Awatar użytkownika {username}"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Kontroluj, kto może wysyłać Ci zaproszenia do znajomych na Modrinth."
+    "defaultMessage": "Kontroluj, kto może wysyłać Ci zaproszenia do znajomych na Panda."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Zaproszenia do znajomych"
   },
   "settings.social.hosting-access.description": {
-    "defaultMessage": "Kontroluj, kto może zaprosić Cię do zarządzania serwerem hostingowym Modrinth."
+    "defaultMessage": "Kontroluj, kto może zaprosić Cię do zarządzania serwerem hostingowym Panda."
   },
   "settings.social.hosting-access.title": {
     "defaultMessage": "Hostowanie zaproszeń dostępu"
@@ -7395,10 +7395,10 @@
     "defaultMessage": "Współdzielone zaproszenia do instancji"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "Możesz kontrolować, kto może z Tobą pisać i zarządzać zablokowanymi użytkownikami na koncie Modrinth"
+    "defaultMessage": "Możesz kontrolować, kto może z Tobą pisać i zarządzać zablokowanymi użytkownikami na koncie Panda"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "Wymagane jest konto Modrinth"
+    "defaultMessage": "Wymagane jest konto Panda"
   },
   "settings.social.title": {
     "defaultMessage": "Społeczne"
@@ -7497,7 +7497,7 @@
     "defaultMessage": "Zapisz"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "Wprowadź nazwę użytkownika Modrinth"
+    "defaultMessage": "Wprowadź nazwę użytkownika Panda"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "Wyszukiwanie..."
@@ -8229,16 +8229,16 @@
     "defaultMessage": "Edytuj wydanie lub dodaj pliki do wydań"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "Ten użytkownik utworzył konto za czasów wersji alfa Modrinth, trwającej do listopada 2020 r."
+    "defaultMessage": "Ten użytkownik utworzył konto za czasów wersji alfa Panda, trwającej do listopada 2020 r."
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "Tester wersji alfa"
   },
   "user.profile.badge.beta.about.1": {
-    "defaultMessage": "Ten użytkownik utworzył konto za czasów wersji beta Modrinth, trwającej do lutego 2022 r."
+    "defaultMessage": "Ten użytkownik utworzył konto za czasów wersji beta Panda, trwającej do lutego 2022 r."
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "Kliknij, aby przeczytać o uruchomieniu wersji beta Modrinth."
+    "defaultMessage": "Kliknij, aby przeczytać o uruchomieniu wersji beta Panda."
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "Tester wersji beta"
@@ -8286,28 +8286,28 @@
     "defaultMessage": "Wczesny twórca shaderów"
   },
   "user.profile.badge.hosting-alpha.about.1": {
-    "defaultMessage": "Ten użytkownik brał udział w zamkniętym teście Modrinth Hosting, zanim uruchomiliśmy betę Modrinth Hosting w listopadzie 2024 r."
+    "defaultMessage": "Ten użytkownik brał udział w zamkniętym teście Panda Hosting, zanim uruchomiliśmy betę Panda Hosting w listopadzie 2024 r."
   },
   "user.profile.badge.hosting-alpha.name": {
-    "defaultMessage": "Tester wersji alfa Modrinth Hosting"
+    "defaultMessage": "Tester wersji alfa Panda Hosting"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Ten użytkownik pracuje w Modrinth jako moderator treści."
+    "defaultMessage": "Ten użytkownik pracuje w Panda jako moderator treści."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Moderatorzy treści na Modrinth przeglądają projekty, odpowiadają na zgłoszenia i pomagają utrzymać porządek na Modrinth."
+    "defaultMessage": "Moderatorzy treści na Panda przeglądają projekty, odpowiadają na zgłoszenia i pomagają utrzymać porządek na Panda."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Moderator treści"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Ten użytkownik wspiera Modrinth i wszystkich twórców na platformie."
+    "defaultMessage": "Ten użytkownik wspiera Panda i wszystkich twórców na platformie."
   },
   "user.profile.badge.plus.link": {
-    "defaultMessage": "Dowiedz się, jak zostać członkiem Modrinth+."
+    "defaultMessage": "Dowiedz się, jak zostać członkiem Panda+."
   },
   "user.profile.badge.plus.name": {
-    "defaultMessage": "Członek Modrinth+"
+    "defaultMessage": "Członek Panda+"
   },
   "user.profile.badge.pride.about.1": {
     "defaultMessage": "Ten użytkownik wspierał choć jedną z naszych zbiórek na rzecz osób LGBTQ+."
@@ -8319,16 +8319,16 @@
     "defaultMessage": "Wsparcie zbiórki na miesiąc dumy"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Ten użytkownik pracuje w Modrinth."
+    "defaultMessage": "Ten użytkownik pracuje w Panda."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "Zespół Modrinth"
+    "defaultMessage": "Zespół Panda"
   },
   "user.role.moderator": {
     "defaultMessage": "Moderator treści"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Zespół Modrinth"
+    "defaultMessage": "Zespół Panda"
   },
   "version.content.name": {
     "defaultMessage": "Nazwa"

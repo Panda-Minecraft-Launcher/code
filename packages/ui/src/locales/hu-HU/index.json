@@ -63,7 +63,7 @@
     "defaultMessage": "{interval, select, fiveDays {5 naponta} monthly {havonta} quarterly {3 havonta} yearly {évente} other {{interval}}}"
   },
   "billing.resubscribe-modal.plan-item": {
-    "defaultMessage": "Modrinth Hosting ({plan})"
+    "defaultMessage": "Panda Hosting ({plan})"
   },
   "billing.resubscribe-modal.plan.custom": {
     "defaultMessage": "Egyéni"
@@ -90,7 +90,7 @@
     "defaultMessage": "Adó"
   },
   "billing.resubscribe-modal.title": {
-    "defaultMessage": "Feliratkozás újra a Modrinth Hostingra"
+    "defaultMessage": "Feliratkozás újra a Panda Hostingra"
   },
   "browse.advanced-filters.apply-saved-preferences": {
     "defaultMessage": "Mentett beállítások alkalmazása"
@@ -2478,7 +2478,7 @@
     "defaultMessage": "TNT"
   },
   "instance.icon-editor.symbol.wrenth-rinth": {
-    "defaultMessage": "Modrinth csavarkulcs"
+    "defaultMessage": "Panda csavarkulcs"
   },
   "instance.icon-editor.symbol.zombie": {
     "defaultMessage": "Zombi"
@@ -3159,16 +3159,16 @@
     "defaultMessage": "Tartsd naprakészen a fájlokat, amikor a szerver változik"
   },
   "modal.open-in-app.get-app": {
-    "defaultMessage": "Szerezd meg a Modrinth Appot"
+    "defaultMessage": "Szerezd meg a Panda Minecraft Launcherot"
   },
   "modal.open-in-app.opening-automatically": {
-    "defaultMessage": "A Modrinth App automatikusan megnyílik..."
+    "defaultMessage": "A Panda Minecraft Launcher automatikusan megnyílik..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "A Modrinth App megnyitása"
+    "defaultMessage": "A Panda Minecraft Launcher megnyitása"
   },
   "modal.open-in-app.why-use": {
-    "defaultMessage": "Miért használd a Modrinth Appot?"
+    "defaultMessage": "Miért használd a Panda Minecraft Launcherot?"
   },
   "notification.error.title": {
     "defaultMessage": "Hiba történt"
@@ -3234,7 +3234,7 @@
     "defaultMessage": "Moderátor"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth Csapat"
+    "defaultMessage": "Panda Csapat"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Függőben"
@@ -3354,13 +3354,13 @@
     "defaultMessage": "Visa"
   },
   "profile.bio.fallback.creator": {
-    "defaultMessage": "Egy Modrinth fejlesztő."
+    "defaultMessage": "Egy Panda fejlesztő."
   },
   "profile.bio.fallback.user": {
-    "defaultMessage": "Egy Modrinth felhasználó."
+    "defaultMessage": "Egy Panda felhasználó."
   },
   "profile.block-user.admonition-body": {
-    "defaultMessage": "{username} nem fog tudni neked barátkérelmet küldeni, meghívni téged megosztott példányokba, illetve meghívni téged a Modrinth Hosting szervereire."
+    "defaultMessage": "{username} nem fog tudni neked barátkérelmet küldeni, meghívni téged megosztott példányokba, illetve meghívni téged a Panda Hosting szervereire."
   },
   "profile.block-user.admonition-title": {
     "defaultMessage": "Biztosan le szeretnéd tiltani ezt a felhasználót?"
@@ -3435,7 +3435,7 @@
     "defaultMessage": "{count} projekt"
   },
   "profile.details.error.github-popup-blocked": {
-    "defaultMessage": "Engedélyezd a felugró ablakokat a Modrinth számára, majd próbáld újra."
+    "defaultMessage": "Engedélyezd a felugró ablakokat a Panda számára, majd próbáld újra."
   },
   "profile.details.error.github-profile-message": {
     "defaultMessage": "Nem sikerült lekérni a GitHub-profilt. Próbáld újra."
@@ -3546,10 +3546,10 @@
     "defaultMessage": "Korlátozva"
   },
   "profile.official-account": {
-    "defaultMessage": "Hivatalos Modrinth-fiók"
+    "defaultMessage": "Hivatalos Panda-fiók"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "A Modrinth hivatalos felhasználói fiókja. Támogatás a <support-link></support-link> oldalon kaphatsz vagy e-mailben a <email></email> címen."
+    "defaultMessage": "A Panda hivatalos felhasználói fiókja. Támogatás a <support-link></support-link> oldalon kaphatsz vagy e-mailben a <email></email> címen."
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "{username} hitelesítője és biztonsági kódjai eltávolításra kerülnek, és értesítést is kap róla. Ezt csak a személyazonosságának ellenőrzése után hajtsd végre."
@@ -5703,13 +5703,13 @@
     "defaultMessage": "Ne használd a Minecraft felhasználó nevűket."
   },
   "servers.grant-access-modal.target.label": {
-    "defaultMessage": "Modrinth felhasználónév"
+    "defaultMessage": "Panda felhasználónév"
   },
   "servers.grant-access-modal.target.no-suggestions": {
     "defaultMessage": "Nem található a keresésnek megfelelő felhasználó."
   },
   "servers.grant-access-modal.target.placeholder": {
-    "defaultMessage": "Modrinth felhasználónév megadása"
+    "defaultMessage": "Panda felhasználónév megadása"
   },
   "servers.grant-access-modal.target.searching": {
     "defaultMessage": "Keresés..."
@@ -5772,13 +5772,13 @@
     "defaultMessage": "További információk"
   },
   "servers.list-empty.modrinth-hosting-label": {
-    "defaultMessage": "Modrinth Hosting"
+    "defaultMessage": "Panda Hosting"
   },
   "servers.list-empty.new-server-button": {
     "defaultMessage": "Új szerver"
   },
   "servers.list-empty.no-servers-description": {
-    "defaultMessage": "Telepíts modokat, hívd meg a barátaidat, és játsszatok együtt, mindezt a Modrinth Appban."
+    "defaultMessage": "Telepíts modokat, hívd meg a barátaidat, és játsszatok együtt, mindezt a Panda Minecraft Launcherban."
   },
   "servers.list-empty.one-click-mod-installs-description": {
     "defaultMessage": "Válaszd ki a kedvenc modjaidat, a többit bízd ránk!"
@@ -5787,13 +5787,13 @@
     "defaultMessage": "Modok telepítése egy kattintással"
   },
   "servers.list-empty.play-with-friends-description": {
-    "defaultMessage": "Hívd meg barátaidat játszani a szerveredre a Modrinth Appból, egyetlen kattintással."
+    "defaultMessage": "Hívd meg barátaidat játszani a szerveredre a Panda Minecraft Launcherból, egyetlen kattintással."
   },
   "servers.list-empty.play-with-friends-title": {
     "defaultMessage": "Játssz a barátaiddal"
   },
   "servers.list-empty.sign-in-button": {
-    "defaultMessage": "Bejelentkezés a Modrinthba"
+    "defaultMessage": "Bejelentkezés a Pandaba"
   },
   "servers.list-empty.simple-setup-description": {
     "defaultMessage": "Állítsd be a szerveredet úgy, mint egy egyjátékos világot."
@@ -5850,7 +5850,7 @@
     "defaultMessage": "Az előfizetésed lemondása erre a dátumra van beállítva: <date>{formattedDate}</date>. "
   },
   "servers.listing.notice.suspended": {
-    "defaultMessage": "A szerveredet felfüggesztettük. További információért vedd fel a kapcsolatot a Modrinth ügyfélszolgálatával."
+    "defaultMessage": "A szerveredet felfüggesztettük. További információért vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
   },
   "servers.listing.notice.upgrading": {
     "defaultMessage": "A szervered hardverét jelenleg fejlesztjük, és hamarosan újra elérhető lesz."
@@ -5913,7 +5913,7 @@
     "defaultMessage": "Feltöltés folyamatban"
   },
   "servers.manage.contact-support-button": {
-    "defaultMessage": "Kapcsolatfelvétel a Modrinth ügyfélszolgálatával"
+    "defaultMessage": "Kapcsolatfelvétel a Panda ügyfélszolgálatával"
   },
   "servers.manage.error.alert-notice": {
     "defaultMessage": "Rendszereink automatikusan értesítik a csapatunkat, ha probléma merül fel. Már dolgozunk a szerverek helyreállításán."
@@ -5925,10 +5925,10 @@
     "defaultMessage": "A hiba részletei:"
   },
   "servers.manage.error.queue-notice": {
-    "defaultMessage": "Ha nemrég vásároltál Modrinth Hosting szervert, az jelenleg a várólistán van, és amint készen áll, itt fog megjelenni. <warning>Ne próbálj új szervert vásárolni.</warning>"
+    "defaultMessage": "Ha nemrég vásároltál Panda Hosting szervert, az jelenleg a várólistán van, és amint készen áll, itt fog megjelenni. <warning>Ne próbálj új szervert vásárolni.</warning>"
   },
   "servers.manage.error.support-notice": {
-    "defaultMessage": "Ha személyre szabott segítségre van szükséged a szervered állapotával kapcsolatban, kérlek, vedd fel a kapcsolatot a Modrinth ügyfélszolgálatával."
+    "defaultMessage": "Ha személyre szabott segítségre van szükséged a szervered állapotával kapcsolatban, kérlek, vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
   },
   "servers.manage.error.title": {
     "defaultMessage": "A szerverek betöltése nem sikerült"
@@ -5976,7 +5976,7 @@
     "defaultMessage": "Újra"
   },
   "servers.manage.resubscribe-error.text": {
-    "defaultMessage": "Hiba történt a Modrinth-szerveredre való újbóli feliratkozás közben."
+    "defaultMessage": "Hiba történt a Panda-szerveredre való újbóli feliratkozás közben."
   },
   "servers.manage.resubscribe-error.title": {
     "defaultMessage": "Hiba az újboli előfizetéskor"
@@ -5997,7 +5997,7 @@
     "defaultMessage": "Keresés {count} szerver között..."
   },
   "servers.manage.servers-title": {
-    "defaultMessage": "Modrinth Hosting"
+    "defaultMessage": "Panda Hosting"
   },
   "servers.manage.shared-servers-title": {
     "defaultMessage": "Megosztott szerverek"
@@ -6030,10 +6030,10 @@
     "defaultMessage": "A Medal szerver próbaidőszaka lejárt, és a szerveredet felfüggesztettük. Kérlek, frissítsd a szolgáltatást, ha továbbra is használni szeretnéd a szervert."
   },
   "servers.medal-listing.notice.suspended": {
-    "defaultMessage": "A szerveredet felfüggesztettük. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Modrinth ügyfélszolgálatával."
+    "defaultMessage": "A szerveredet felfüggesztettük. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
   },
   "servers.medal-listing.notice.suspended-with-reason": {
-    "defaultMessage": "A szerveredet felfüggesztettük: {reason}. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Modrinth ügyfélszolgálatával."
+    "defaultMessage": "A szerveredet felfüggesztettük: {reason}. Kérlek, frissítsd a számlázási adataidat, vagy további információkért vedd fel a kapcsolatot a Panda ügyfélszolgálatával."
   },
   "servers.medal-listing.notice.upgrading": {
     "defaultMessage": "A szervered hardverét jelenleg fejlesztjük, és hamarosan újra elérhető lesz."
@@ -6081,7 +6081,7 @@
     "defaultMessage": "Elutasíthatatlan"
   },
   "servers.purchase.notification.success.text": {
-    "defaultMessage": "A Modrinth Hosting szolgáltatás megvásárlása sikeresen lezárult."
+    "defaultMessage": "A Panda Hosting szolgáltatás megvásárlása sikeresen lezárult."
   },
   "servers.purchase.notification.success.title": {
     "defaultMessage": "A vásárlás sikeresen lezárult"
@@ -6156,7 +6156,7 @@
     "defaultMessage": "Hol szeretnéd elhelyezni a szerveredet?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Nincs a listán a régiód? <link>Jelezd nekünk, hogy hol szeretnéd látni legközelebb a Modrinth Hostingot!</link>"
+    "defaultMessage": "Nincs a listán a régiód? <link>Jelezd nekünk, hogy hol szeretnéd látni legközelebb a Panda Hostingot!</link>"
   },
   "servers.remove-access-modal.added-label": {
     "defaultMessage": "Hozzáadva {time}"
@@ -6276,7 +6276,7 @@
     "defaultMessage": "A szerver beállítása"
   },
   "servers.setup.onboarding.step.choose.description": {
-    "defaultMessage": "Válaszd ki a kedvenc modcsomagodat a Modrinthról, vagy válassz egy betöltőt, és add hozzá a kívánt modokat."
+    "defaultMessage": "Válaszd ki a kedvenc modcsomagodat a Pandaról, vagy válassz egy betöltőt, és add hozzá a kívánt modokat."
   },
   "servers.setup.onboarding.step.choose.title": {
     "defaultMessage": "Válaszd ki, mit szeretnél játszani"
@@ -6297,7 +6297,7 @@
     "defaultMessage": "A szervered készen áll. Íme, mit kell tenned a játék elkezdéséhez!"
   },
   "servers.setup.onboarding.welcome.title": {
-    "defaultMessage": "Üdvözlünk a Modrinth Hostingnál"
+    "defaultMessage": "Üdvözlünk a Panda Hostingnál"
   },
   "servers.setup.rate-limit.text": {
     "defaultMessage": "A rendszer korlátozza a lekérdezések számát. Kérlek próbáld újra később."
@@ -6375,7 +6375,7 @@
     "defaultMessage": "Fejlett megjelenítés"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "A Modrinthon kívülre vezető hivatkozások új lapon nyíljanak meg. Ettől a beállítástól függetlenül az azonos domainre mutató hivatkozások és a Markdown-leírásokban található hivatkozások ugyanazon a lapon nyílnak meg, míg a hirdetésekben és a szerkesztési oldalakon található hivatkozások új lapon nyílnak meg."
+    "defaultMessage": "A Pandaon kívülre vezető hivatkozások új lapon nyíljanak meg. Ettől a beállítástól függetlenül az azonos domainre mutató hivatkozások és a Markdown-leírásokban található hivatkozások ugyanazon a lapon nyílnak meg, míg a hirdetésekben és a szerkesztési oldalakon található hivatkozások új lapon nyílnak meg."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Külső hivatkozások megnyitása új lapon"
@@ -6396,7 +6396,7 @@
     "defaultMessage": "Sötét"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Válaszd ki a Modrinth kívánt színtémáját."
+    "defaultMessage": "Válaszd ki a Panda kívánt színtémáját."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Világos"
@@ -6420,7 +6420,7 @@
     "defaultMessage": "Ezt a témát használd minden olyan eszközön, amelyen be vagy jelentkezve. Kapcsold ki, ha ezen az eszközön külön témát szeretnél használni."
   },
   "settings.display.theme.sync-across-devices.sign-in-tooltip": {
-    "defaultMessage": "Jelentkezz be a Modrinthba a téma szinkronizálásához"
+    "defaultMessage": "Jelentkezz be a Pandaba a téma szinkronizálásához"
   },
   "settings.display.theme.system": {
     "defaultMessage": "Rendszerbeállítások használata"
@@ -6441,7 +6441,7 @@
     "defaultMessage": "Keresési eredmények"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "A Modrinth App körülbelül {percentage}%-a érhető el ezen a nyelven."
+    "defaultMessage": "A Panda Minecraft Launcher körülbelül {percentage}%-a érhető el ezen a nyelven."
   },
   "settings.language.coverage.label": {
     "defaultMessage": "{percentage}% támogatott"
@@ -6477,7 +6477,7 @@
     "defaultMessage": "Személyes hozzáférési tokenek"
   },
   "settings.preferences.update-failed.description": {
-    "defaultMessage": "A beállításaidat nem sikerült menteni a Modrinth-fiókodba. Próbáld újra."
+    "defaultMessage": "A beállításaidat nem sikerült menteni a Panda-fiókodba. Próbáld újra."
   },
   "settings.preferences.update-failed.title": {
     "defaultMessage": "A beállítások szinkronizálása sikertelen"
@@ -6495,7 +6495,7 @@
     "defaultMessage": "Profilkép"
   },
   "settings.profile.public-information.description": {
-    "defaultMessage": "A profiladataid nyilvánosan <profile-link>megtekinthetők a Modrinthon</profile-link> és a <docs-link>Modrinth API</docs-link>-n keresztül."
+    "defaultMessage": "A profiladataid nyilvánosan <profile-link>megtekinthetők a Pandaon</profile-link> és a <docs-link>Panda API</docs-link>-n keresztül."
   },
   "settings.profile.save-error": {
     "defaultMessage": "A profil frissítése nem sikerült"
@@ -6504,10 +6504,10 @@
     "defaultMessage": "Hiba történt a profilod frissítése közben. Kérlek, próbáld meg újra."
   },
   "settings.profile.sign-in-required.description": {
-    "defaultMessage": "Jelentkezz be egy Modrinth-fiókkal, hogy személyre szabhasd a nyilvános profilodat."
+    "defaultMessage": "Jelentkezz be egy Panda-fiókkal, hogy személyre szabhasd a nyilvános profilodat."
   },
   "settings.profile.sign-in-required.title": {
-    "defaultMessage": "Modrinth-fiók szükséges"
+    "defaultMessage": "Panda-fiók szükséges"
   },
   "settings.profile.username.description": {
     "defaultMessage": "Egyedi, kis- és nagybetűktől független név a profilod azonosításához."
@@ -6522,7 +6522,7 @@
     "defaultMessage": "Felhasználó"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "Ezek azok a felhasználók, akiket a Modrinthon letiltottál. Ők nem tudnak:"
+    "defaultMessage": "Ezek azok a felhasználók, akiket a Pandaon letiltottál. Ők nem tudnak:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "Nem tiltottál le senkit."
@@ -6558,13 +6558,13 @@
     "defaultMessage": "{username} avatárja"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Állítsd be, hogy ki küldhet neked barátkérelmeket a Modrinthon."
+    "defaultMessage": "Állítsd be, hogy ki küldhet neked barátkérelmeket a Pandaon."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Barátkérelmek"
   },
   "settings.social.hosting-access.description": {
-    "defaultMessage": "Szabályozd, hogy ki hívhat meg egy Modrinth Hosting-szerver kezelésére."
+    "defaultMessage": "Szabályozd, hogy ki hívhat meg egy Panda Hosting-szerver kezelésére."
   },
   "settings.social.hosting-access.title": {
     "defaultMessage": "Hosting-hozzáférési meghívók"
@@ -6597,10 +6597,10 @@
     "defaultMessage": "Megosztott példányok meghívói"
   },
   "settings.social.sign-in-required.description": {
-    "defaultMessage": "A Modrinth-fiókod segítségével beállíthatod, hogy kik léphetnek veled kapcsolatba, és kezelheted a letiltott felhasználókat"
+    "defaultMessage": "A Panda-fiókod segítségével beállíthatod, hogy kik léphetnek veled kapcsolatba, és kezelheted a letiltott felhasználókat"
   },
   "settings.social.sign-in-required.title": {
-    "defaultMessage": "Modrinth-fiók szükséges"
+    "defaultMessage": "Panda-fiók szükséges"
   },
   "settings.social.title": {
     "defaultMessage": "Közösségi"
@@ -6699,7 +6699,7 @@
     "defaultMessage": "Mentés"
   },
   "sharing.invite-players-modal.search-placeholder": {
-    "defaultMessage": "Modrinth felhasználónév megadása"
+    "defaultMessage": "Panda felhasználónév megadása"
   },
   "sharing.invite-players-modal.searching": {
     "defaultMessage": "Keresés..."
@@ -7431,16 +7431,16 @@
     "defaultMessage": "Szerkessz verziókat és adj hozzájuk fájlokat"
   },
   "user.profile.badge.alpha.about.1": {
-    "defaultMessage": "Ez a felhasználó már a Modrinth Alpha óta aktív, amely 2020 novemberében ért véget."
+    "defaultMessage": "Ez a felhasználó már a Panda Alpha óta aktív, amely 2020 novemberében ért véget."
   },
   "user.profile.badge.alpha.name": {
     "defaultMessage": "Alfa-tesztelő"
   },
   "user.profile.badge.beta.about.1": {
-    "defaultMessage": "Ez a felhasználó már a Modrinth Beta óta aktív, amely 2022 februárjában ért véget."
+    "defaultMessage": "Ez a felhasználó már a Panda Beta óta aktív, amely 2022 februárjában ért véget."
   },
   "user.profile.badge.beta.link": {
-    "defaultMessage": "Kattints ide, hogy elolvasd a Modrinth Beta elindításáról szóló hírt."
+    "defaultMessage": "Kattints ide, hogy elolvasd a Panda Beta elindításáról szóló hírt."
   },
   "user.profile.badge.beta.name": {
     "defaultMessage": "Béta-tesztelő"
@@ -7452,67 +7452,67 @@
     "defaultMessage": "{download_sum} letöltés"
   },
   "user.profile.badge.early-datapack-adopter.about.1": {
-    "defaultMessage": "Ez a felhasználó segített nekünk az adatcsomag-projektek tesztelésében a Modrinthon, mielőtt azokat 2023 januárjában elindítottuk."
+    "defaultMessage": "Ez a felhasználó segített nekünk az adatcsomag-projektek tesztelésében a Pandaon, mielőtt azokat 2023 januárjában elindítottuk."
   },
   "user.profile.badge.early-datapack-adopter.name": {
     "defaultMessage": "Az adatcsomagok korai tesztelője"
   },
   "user.profile.badge.early-modpack-adopter.about.1": {
-    "defaultMessage": "Ez a felhasználó segített nekünk a modcsomag-projektek tesztelésében a Modrinthon, mielőtt azokat 2022 májusában elindítottuk."
+    "defaultMessage": "Ez a felhasználó segített nekünk a modcsomag-projektek tesztelésében a Pandaon, mielőtt azokat 2022 májusában elindítottuk."
   },
   "user.profile.badge.early-modpack-adopter.name": {
     "defaultMessage": "A modcsomagok korai tesztelője"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "Ez a felhasználó segített nekünk a bővítményprojektek tesztelésében a Modrinthon, mielőtt azokat 2022 augusztusában elindítottuk."
+    "defaultMessage": "Ez a felhasználó segített nekünk a bővítményprojektek tesztelésében a Pandaon, mielőtt azokat 2022 augusztusában elindítottuk."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "A bővítmények korai tesztelője"
   },
   "user.profile.badge.early-resourcepack-adopter.about.1": {
-    "defaultMessage": "Ez a felhasználó segített nekünk a forráscsomag-projektek tesztelésében a Modrinthon, mielőtt azokat 2022 augusztusában elindítottuk."
+    "defaultMessage": "Ez a felhasználó segített nekünk a forráscsomag-projektek tesztelésében a Pandaon, mielőtt azokat 2022 augusztusában elindítottuk."
   },
   "user.profile.badge.early-resourcepack-adopter.name": {
     "defaultMessage": "A forráscsomagok korai tesztelője"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "Ez a felhasználó segített nekünk a szerverprojektek tesztelésében a Modrinthon, mielőtt azokat 2026 márciusában elindítottuk."
+    "defaultMessage": "Ez a felhasználó segített nekünk a szerverprojektek tesztelésében a Pandaon, mielőtt azokat 2026 márciusában elindítottuk."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "A szerverek korai tesztelője"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "Ez a felhasználó segített nekünk a shaderprojektek tesztelésében a Modrinthon, mielőtt azokat 2023 januárjában elindítottuk."
+    "defaultMessage": "Ez a felhasználó segített nekünk a shaderprojektek tesztelésében a Pandaon, mielőtt azokat 2023 januárjában elindítottuk."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "A shaderek korai tesztelője"
   },
   "user.profile.badge.hosting-alpha.about.1": {
-    "defaultMessage": "Ez a felhasználó részt vett a Modrinth Hosting zárt alfa-tesztjén, mielőtt 2024 novemberében elindítottuk a Modrinth Hosting bétaverzióját."
+    "defaultMessage": "Ez a felhasználó részt vett a Panda Hosting zárt alfa-tesztjén, mielőtt 2024 novemberében elindítottuk a Panda Hosting bétaverzióját."
   },
   "user.profile.badge.hosting-alpha.name": {
-    "defaultMessage": "Modrinth Hosting alfa-tesztelő"
+    "defaultMessage": "Panda Hosting alfa-tesztelő"
   },
   "user.profile.badge.moderator.about.1": {
-    "defaultMessage": "Ez a felhasználó a Modrinthnál tartalommoderátorként dolgozik."
+    "defaultMessage": "Ez a felhasználó a Pandanál tartalommoderátorként dolgozik."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "A Modrinth tartalommoderátorai áttekintik a projekteket, feldolgozzák a bejelentéseket, és hozzájárulnak a Modrinth biztonságának fenntartásához."
+    "defaultMessage": "A Panda tartalommoderátorai áttekintik a projekteket, feldolgozzák a bejelentéseket, és hozzájárulnak a Panda biztonságának fenntartásához."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Tartalommoderátor"
   },
   "user.profile.badge.plus.about.1": {
-    "defaultMessage": "Ez a felhasználó minden tőle telhetőt megtesz, hogy támogassa a Modrinthot és a platformon tevékenykedő alkotókat."
+    "defaultMessage": "Ez a felhasználó minden tőle telhetőt megtesz, hogy támogassa a Pandaot és a platformon tevékenykedő alkotókat."
   },
   "user.profile.badge.plus.link": {
     "defaultMessage": "Kattints ide, ha többet szeretnél megtudni arról, hogy hogyan válhatsz taggá."
   },
   "user.profile.badge.plus.name": {
-    "defaultMessage": "Modrinth+ tag"
+    "defaultMessage": "Panda+ tag"
   },
   "user.profile.badge.pride.about.1": {
-    "defaultMessage": "Ez a felhasználó részt vett a Modrinth’s Pride legalább egy, az LGBTQ+ közösség javára szervezett adománygyűjtő akciójában."
+    "defaultMessage": "Ez a felhasználó részt vett a Panda’s Pride legalább egy, az LGBTQ+ közösség javára szervezett adománygyűjtő akciójában."
   },
   "user.profile.badge.pride.link": {
     "defaultMessage": "Kattints ide, hogy megtekintsd legújabb Pride-jótékonysági akciónkat."
@@ -7521,16 +7521,16 @@
     "defaultMessage": "A Pride jótékonysági akció támogatója"
   },
   "user.profile.badge.staff.about.1": {
-    "defaultMessage": "Ez a felhasználó a Modrinthnál dolgozik."
+    "defaultMessage": "Ez a felhasználó a Pandanál dolgozik."
   },
   "user.profile.badge.staff.name": {
-    "defaultMessage": "A Modrinth-csapat"
+    "defaultMessage": "A Panda-csapat"
   },
   "user.role.moderator": {
     "defaultMessage": "Tartalommoderátor"
   },
   "user.role.modrinth-team": {
-    "defaultMessage": "Modrinth Csapattag"
+    "defaultMessage": "Panda Csapattag"
   },
   "version.content.name": {
     "defaultMessage": "Név"

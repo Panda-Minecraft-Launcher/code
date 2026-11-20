@@ -96,7 +96,7 @@ const messages = defineMessages({
 	purchaseDescription: {
 		id: 'servers.sharing-update.purchase-description',
 		defaultMessage:
-			'Get a server and share it directly with friends. When they accept in the Modrinth App, we’ll create an instance for them that is managed by your server.',
+			'Get a server and share it directly with friends. When they accept in the Panda Minecraft Launcher, we’ll create an instance for them that is managed by your server.',
 	},
 	blog: {
 		id: 'servers.sharing-update.blog',

@@ -95,7 +95,7 @@ const messages = defineMessages({
 	body: {
 		id: 'servers.curseforge-files-review.body',
 		defaultMessage:
-			'{count, plural, one {# file} other {# files}} in this modpack {count, plural, one {isn’t} other {aren’t}} published on Modrinth, or we can’t determine whether {count, plural, one {it} other {they}} should be installed on the server, available to players, or both. Review and complete {count, plural, one {it} other {these}} in the <bold>Enabled for</bold> column.',
+			'{count, plural, one {# file} other {# files}} in this modpack {count, plural, one {isn’t} other {aren’t}} published on Panda, or we can’t determine whether {count, plural, one {it} other {they}} should be installed on the server, available to players, or both. Review and complete {count, plural, one {it} other {these}} in the <bold>Enabled for</bold> column.',
 	},
 })
 

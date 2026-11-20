@@ -20,6 +20,9 @@
   "app.action-bar.install.dismiss": {
     "message": "Reddet"
   },
+  "app.action-bar.install.inspect-details": {
+    "message": "Ayrıntıları incele"
+  },
   "app.action-bar.install.open-instance": {
     "message": "Kurulumu aç"
   },
@@ -75,7 +78,7 @@
     "message": "Minecraft kurulumu başarısız oldu"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Modrinth'e erişilemiyor"
+    "message": "Panda'e erişilemiyor"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Yazmak için yetkiniz yok"
@@ -132,7 +135,7 @@
     "message": "Tümünü kabul et"
   },
   "app.ads-consent.body": {
-    "message": "Reklamlar, Modrinth'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir."
+    "message": "Reklamlar, Panda'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir."
   },
   "app.ads-consent.manage": {
     "message": "Tercihleri yönet"
@@ -141,7 +144,7 @@
     "message": "Tümünü reddet"
   },
   "app.ads-consent.title": {
-    "message": "Sizin mahremiyetiniz ve reklamlar Modrinth'i nasıl destekler"
+    "message": "Sizin mahremiyetiniz ve reklamlar Panda'i nasıl destekler"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Kütüphane kurulumlarını kompakt satır düzeninde göster."
@@ -162,7 +165,7 @@
     "message": "İsim etiketini gizle"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minecraft başladığında Modrinth uygulamasını küçült."
+    "message": "Minecraft başladığında Panda uygulamasını küçült."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Uygulamayı küçült"
@@ -186,7 +189,7 @@
     "message": "Sağ kenar çubuğunu gizle"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Modrinth'te yayınlanmayan bir Modrinth Pack (.mrpack) kurulmadan önce bir güvenlik uyarısı göster."
+    "message": "Panda'te yayınlanmayan bir Panda Pack (.mrpack) kurulmadan önce bir güvenlik uyarısı göster."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Bilinmeyen mod paketlerini indirmeden önce beni uyar"
@@ -204,7 +207,7 @@
     "message": "Ana sayfa ve içerik"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "Bu cihazda kitaplığınızdan gizlediğiniz örnekler. Gizlenen örnekler Modrinth hesabınızla senkronize edilmez."
+    "message": "Bu cihazda kitaplığınızdan gizlediğiniz örnekler. Gizlenen örnekler Panda hesabınızla senkronize edilmez."
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "Henüz herhangi bir oturum gizlemedin."
@@ -219,7 +222,7 @@
     "message": "Gizli oturumlar"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Minecraft'tan çıkıldığında Modrinth App'i ön plana getirir."
+    "message": "Minecraft'tan çıkıldığında Panda Minecraft Launcher'i ön plana getirir."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Minecraft kapandığında uygulamaya yeniden odaklan"
@@ -231,7 +234,7 @@
     "message": "Bu davranış ayarlarını oturum açtığınız her yerde kullanın. Bu cihazda ayrı ayarlar tutmak için bunu kapatın."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Ayarları senkronize etmek için Modrinth'e giriş yapın."
+    "message": "Ayarları senkronize etmek için Panda'e giriş yapın."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Cihazlar arası senkronizasyon davranışı"
@@ -410,6 +413,12 @@
   "app.download-manager.title": {
     "message": "İndirilenler"
   },
+  "app.error.copied-debug-info": {
+    "message": "Kopyalandı"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "Hata ayıklama bilgilerini incele"
+  },
   "app.error.state-init.open-backups-folder": {
     "message": "Yedekler klasörünü aç"
   },
@@ -486,7 +495,7 @@
     "message": "Bu özellik ayarlarını oturumunuzun açık olduğu her yerde kullanın. Bu cihazda farklı ayarlar tutmak için bu özelliği kapatın."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Ayarları eşitlemek için bir Modrinth Hesabı'yla oturum açın."
+    "message": "Ayarları eşitlemek için bir Panda Hesabı'yla oturum açın."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Cihazlar arası özellikleri eşitle"
@@ -528,16 +537,16 @@
     "message": "Kurulumu göster"
   },
   "app.hosting.update-required.description": {
-    "message": "Modrinth Hosting'i Modrinth App'ten kullanmak için güncellemeniz gerekiyor"
+    "message": "Panda Hosting'i Panda Minecraft Launcher'ten kullanmak için güncellemeniz gerekiyor"
   },
   "app.hosting.update-required.download": {
     "message": "Güncellemeyi indir"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Heyecanlı Modrinth Botu"
+    "message": "Heyecanlı Panda Botu"
   },
   "app.hosting.update-required.title": {
-    "message": "Modrinth App güncellemesi gerekli"
+    "message": "Panda Minecraft Launcher güncellemesi gerekli"
   },
   "app.install.phase.downloading_content": {
     "message": "İçerik indiriliyor"
@@ -645,7 +654,7 @@
     "message": "Değişiklikler henüz paylaşılmadı"
   },
   "app.instance.admonitions.shared-instance.owner-update-body": {
-    "message": "Başka bir Modrinth App üzerinden bu oturuma güncelleme yükledin. Buradan yönetmeye devam etmek için son değişiklikleri indir."
+    "message": "Başka bir Panda Minecraft Launcher üzerinden bu oturuma güncelleme yükledin. Buradan yönetmeye devam etmek için son değişiklikleri indir."
   },
   "app.instance.admonitions.shared-instance.owner-update-button": {
     "message": "Güncellemeyi indir"
@@ -897,13 +906,13 @@
     "message": "Olarak giriş yap"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Modrinth'e giriş yapmanız gerek"
+    "message": "Panda'e giriş yapmanız gerek"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "paylaşımlı örnek hakkında güncellemeler almak için."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Yanlış Modrinth hesabını kullanıyorsunuz"
+    "message": "Yanlış Panda hesabını kullanıyorsunuz"
   },
   "app.instance.shortcut.created": {
     "message": "Kısayol oluşturuldu"
@@ -1022,14 +1031,44 @@
   "app.java-selector.browse": {
     "message": "Göz at"
   },
+  "app.java-selector.copy-failed-title": {
+    "message": "Yol kopyalanamadı"
+  },
+  "app.java-selector.copy-path": {
+    "message": "Yolu kopyala"
+  },
   "app.java-selector.detect": {
     "message": "Tespit et"
+  },
+  "app.java-selector.edit-path": {
+    "message": "Yolu düzenle"
+  },
+  "app.java-selector.install-java": {
+    "message": "Java {version} yükle"
   },
   "app.java-selector.installing": {
     "message": "Kuruluyor..."
   },
+  "app.java-selector.invalid": {
+    "message": "Geçersiz"
+  },
+  "app.java-selector.more-options": {
+    "message": "Daha fazla Java seçeneği"
+  },
+  "app.java-selector.not-set": {
+    "message": "Java seçilmedi"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "Java yolu panoya kopyalandı."
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "Yol kopyalandı"
+  },
   "app.java-selector.path.placeholder": {
     "message": "/java/kurulum/yolu"
+  },
+  "app.java-selector.valid": {
+    "message": "Geçerli"
   },
   "app.library.actions.label": {
     "message": "Kütüphane eylemleri"
@@ -1368,7 +1407,7 @@
     "message": "Kütüphane"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {Sahibi olarak paylaştığın # oturum Modrinth sunucularından silinecek ve onu kullanan insanlar} other {Sahibi olarak paylaştığın # oturum Modrinth sunucularından silinecek ve onu kullanan insanlar}} güncelleme almayı bırakacak. {leaveCount, plural, one {Paylaşılan diğer oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.} other {Paylaşılan diğer # oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.}} Tamamı kütüphanenden kaldırılacak."
+    "message": "{unpublishCount, plural, one {Sahibi olarak paylaştığın # oturum Panda sunucularından silinecek ve onu kullanan insanlar} other {Sahibi olarak paylaştığın # oturum Panda sunucularından silinecek ve onu kullanan insanlar}} güncelleme almayı bırakacak. {leaveCount, plural, one {Paylaşılan diğer oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.} other {Paylaşılan diğer # oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.}} Tamamı kütüphanenden kaldırılacak."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Unpublishing and leaving shared instances"
@@ -1377,7 +1416,7 @@
     "message": "Paylaşılan kurulumun paylaşımını kaldır {count} ve bunlardan ayrıl"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {Bu paylaşılan oturumu Modrinth sunucularından silecek. Modrinth App'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.} other {Bu paylaşılan oturumları Modrinth sunucularından silecek. Modrinth App'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.}}"
+    "message": "{count, plural, one {Bu paylaşılan oturumu Panda sunucularından silecek. Panda Minecraft Launcher'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.} other {Bu paylaşılan oturumları Panda sunucularından silecek. Panda Minecraft Launcher'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {Paylaşılan oturum paylaşımdan kaldırılıyor} other {Paylaşılan # oturum paylaşımdan kaldırılıyor}}"
@@ -1413,10 +1452,10 @@
     "message": "Yükle"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Bu davetiye Modrinth tarafından değil, başka bir Modrinth kullanıcısı tarafından oluşturulmuştur. Sadece güvendiğiniz kişilerden gelen davetleri kabul edin."
+    "message": "Bu davetiye Panda tarafından değil, başka bir Panda kullanıcısı tarafından oluşturulmuştur. Sadece güvendiğiniz kişilerden gelen davetleri kabul edin."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Bu davet Modrinth aksine, <creator>{username}</creator> tarafından oluşturuldu. Yalnızca güvendiğiniz kişilerden gelen davetleri kabul edin."
+    "message": "Bu davet Panda aksine, <creator>{username}</creator> tarafından oluşturuldu. Yalnızca güvendiğiniz kişilerden gelen davetleri kabul edin."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Modpack içeriği"
@@ -1452,7 +1491,7 @@
     "message": "Yardım talepleri için <support-link>yardım ekibimizle</support-link> iletişime geçin. Hata raporları için <github-link>Github raporu</github-link> açın."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Modrinth'te paylaşılmayan dosyalar incelenmemiştir."
+    "message": "Panda'te paylaşılmayan dosyalar incelenmemiştir."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Paylaşılan Kurulum"
@@ -1461,7 +1500,7 @@
     "message": "Paylaşılan kurulum içeriği"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Bu paylaşımlı örnek Modrinth'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
+    "message": "Bu paylaşımlı örnek Panda'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "Bu sunucunun kullandığı mod paketi verisyonu şuanda indirilemez. Muhtemelen yayınlanmadı veya hala inceleme altında. Sonra tekrar deneyiniz ya da Sunucu sahibi ile iletişime geçiniz."
@@ -1470,7 +1509,7 @@
     "message": "Bu sunucunun mod paketi hazır değil"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Bu sunucunun mod paketi Modrinth'te yayınlanmamış doysaları mevcut. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
+    "message": "Bu sunucunun mod paketi Panda'te yayınlanmamış doysaları mevcut. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Bilinmeyen dosya uyarısı"
@@ -1491,7 +1530,7 @@
     "message": "Diğer oturumdan yüklendi"
   },
   "app.modal.update-to-play.owner-description": {
-    "message": "Bu değişiklikler başka bir Modrinth App oturumundan yüklendi. Bu oturumdaki yüklenmemiş değişikliklerin üzerine yazılacak."
+    "message": "Bu değişiklikler başka bir Panda Minecraft Launcher oturumundan yüklendi. Bu oturumdaki yüklenmemiş değişikliklerin üzerine yazılacak."
   },
   "app.modal.update-to-play.owner-header": {
     "message": "Güncelleme mevcut"
@@ -1500,7 +1539,7 @@
     "message": "Silindi"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Bu sunucunun modpack güncellemesi Modrinth'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
+    "message": "Bu sunucunun modpack güncellemesi Panda'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Eklendi"
@@ -1509,13 +1548,16 @@
     "message": "Kaldırıldı"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Bu örnek Modrinth'te paylaşılmayan dosyaları içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
+    "message": "Bu örnek Panda'te paylaşılmayan dosyaları içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Güncelleme gerekiyor"
   },
   "app.modal.update-to-play.update-required-description": {
     "message": "{name} içeriğini oynamak için bir güncelleme gerekli. Oynamak için lütfen çalıştırmak için gereken en yeni sürüme güncelleyin."
+  },
+  "app.nav.account-management": {
+    "message": "Hesap yönetimi"
   },
   "app.nav.add-account": {
     "message": "Hesap ekle"
@@ -1530,10 +1572,10 @@
     "message": "Profil yükleniyor..."
   },
   "app.nav.modrinth-account": {
-    "message": "Modrinth hesabı"
+    "message": "Panda hesabı"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Hosting"
   },
   "app.nav.remove-account": {
     "message": "Hesabı kaldır"
@@ -1542,13 +1584,13 @@
     "message": "Ekran görüntüleri"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Modrinth'e giriş yapın"
+    "message": "Panda'e giriş yapın"
   },
   "app.nav.switch-account": {
     "message": "Hesap değiştir"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Modrinth+'a yükselt"
+    "message": "Panda+'a yükselt"
   },
   "app.nav.view-profile": {
     "message": "Profili görüntüle"
@@ -1764,7 +1806,7 @@
     "message": "ZIP dışa aktar"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Modrinth ekran görüntüleri.zip"
+    "message": "Panda ekran görüntüleri.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance} ekran görüntüleri.zip"
@@ -1793,14 +1835,23 @@
   "app.screenshots.sort.oldest": {
     "message": "En eski"
   },
+  "app.server-sharing-update.notification.description": {
+    "message": "Sunucunuzun yönettiği bir kurulumda oynamak için arkadaşlarınızı davet edin."
+  },
   "app.server-sharing-update.notification.dismiss": {
     "message": "Reddet"
   },
   "app.server-sharing-update.notification.purchase-description": {
     "message": "Bir sunucu edin ve arkadaşlarını bu sunucunun yönettiği oyun dünyasında birlikte oynamaya davet et."
   },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "Güncellemeyi görüntüle"
+  },
+  "app.server-sharing-update.title": {
+    "message": "Sunucuları arkadaşlarınızla paylaşın"
+  },
   "app.settings.app-version": {
-    "message": "Modrinth Uygulaması {version}"
+    "message": "Panda Minecraft Launcher {version}"
   },
   "app.settings.default-instance-options.environment-variables.description": {
     "message": "Ortam değişkenleri örnekler açılırken ayarlanır."
@@ -2067,7 +2118,7 @@
     "message": "Bazı profilleriniz bu ayarı kullanamaz"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Bu ayar Modrinth'in başlatma seçenekleri tarafından yönetiliyor"
+    "message": "Bu ayar Panda'in başlatma seçenekleri tarafından yönetiliyor"
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Bir değer gir"
@@ -2738,6 +2789,15 @@
   "app.settings.game-options.setting.neutral-volume.label": {
     "message": "Dost yaratıklar"
   },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "Bildirimlerin ekranda ne kadar süre görünür kaldığını belirler."
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "Bildirim süresi"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "Operatör eşya sekmesi"
+  },
   "app.settings.game-options.setting.panorama-speed.label": {
     "message": "Panorama hızı"
   },
@@ -2749,6 +2809,9 @@
   },
   "app.settings.game-options.setting.prioritize-chunk-updates.label": {
     "message": "Chunk güncellemelerine öncelik ver"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "Çıkış kısayolları"
   },
   "app.settings.game-options.setting.raw-mouse-input.label": {
     "message": "Ham fare girdisi"
@@ -2765,6 +2828,15 @@
   "app.settings.game-options.setting.render-distance.label": {
     "message": "Görüş mesafesi"
   },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "Sağ pantolon paçası"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "Sağ kol"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "Maden arabasıyla dön"
+  },
   "app.settings.game-options.setting.save-chat-drafts.label": {
     "message": "Sohbet taslaklarını kaydet"
   },
@@ -2777,20 +2849,80 @@
   "app.settings.game-options.setting.sensitivity.label": {
     "message": "Fare hassasiyeti"
   },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "Sunucu dokuları"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "Durumu paylaş"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "Varlıkların ne kadar uzaktan güncellendiğini ve bloklar ile sıvıların ne kadar ileriden işlendiğini belirler."
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "Simülasyon mesafesi"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "Snooper"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "Koşu penceresi"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "Oyundaki sesler için altyazıları gösterir."
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "Altyazılar"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "Metin arka planı saydamlığı"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "Doku filtreleme"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "Saldırıyı aç/kapat"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "Eğik kalmak için bir kez basın."
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "Eğilmeyi aç/kapat"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "Koşmaya devam etmek için bir kez basın."
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "Koşmayı aç/kapat"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "Kullanmayı aç/kapat"
+  },
   "app.settings.game-options.setting.touchscreen.label": {
     "message": "Dokunmatik Ekran Modu"
   },
   "app.settings.game-options.setting.ui-volume.label": {
     "message": "Arayüz"
   },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "Odaklanmamış sohbet yüksekliği"
+  },
   "app.settings.game-options.setting.use-vbo.label": {
     "message": "VBO'ları Kullan"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "Yürürken kameraya sallanma hareketi ekler."
   },
   "app.settings.game-options.setting.view-bobbing.label": {
     "message": "Sarsılmayı göster"
   },
   "app.settings.game-options.setting.vignette.label": {
     "message": "Vinyet"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "Ses ve konuşma"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "Ekran yırtılmasını önlemek için kare hızını ekran yenileme hızıyla sınırlar."
   },
   "app.settings.game-options.setting.vsync.label": {
     "message": "Vsync"
@@ -2800,6 +2932,9 @@
   },
   "app.settings.game-options.setting.weather-volume.label": {
     "message": "Hava Durumu"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "Bu ayar başka bir yerde değiştirildi. Kontrol edip tekrar deneyin."
   },
   "app.settings.game-options.validation.invalid-value": {
     "message": "Geçerli Bir Değer Gir"
@@ -2817,16 +2952,16 @@
     "message": "macOS"
   },
   "app.settings.privacy.ads-consent.intro": {
-    "message": "Reklamlar, Modrinth'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir. Aşağıdan tercihinizi yönetebilir veya vazgeçebilirsiniz."
+    "message": "Reklamlar, Panda'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir. Aşağıdan tercihinizi yönetebilir veya vazgeçebilirsiniz."
   },
   "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Şu anki Discord aktiviteniz olarak, Modrinth App'i gösterin. Bu, örneğe modlar tarafından eklenen Rich Presence'ı etkilemez. Uygulamayı yeniden başlatmayı gerektirir."
+    "message": "Şu anki Discord aktiviteniz olarak, Panda Minecraft Launcher'i gösterin. Bu, örneğe modlar tarafından eklenen Rich Presence'ı etkilemez. Uygulamayı yeniden başlatmayı gerektirir."
   },
   "app.settings.privacy.discord-rich-presence.title": {
     "message": "Discord Rich Presence"
   },
   "app.settings.privacy.telemetry.description": {
-    "message": "Modrinth kullanıcı deneyimimizi geliştirmek için ve deneyiminizi kişiselleştirmek için anonimleştirilmiş analiz ve kullanım verilerini toplar. Bu seçeneği devre dışı bırakarak, bundan vazgeçmiş olursunuz ve verileriniz artık toplanmayacaktır."
+    "message": "Panda kullanıcı deneyimimizi geliştirmek için ve deneyiminizi kişiselleştirmek için anonimleştirilmiş analiz ve kullanım verilerini toplar. Bu seçeneği devre dışı bırakarak, bundan vazgeçmiş olursunuz ve verileriniz artık toplanmayacaktır."
   },
   "app.settings.privacy.telemetry.title": {
     "message": "Telemetri"
@@ -2841,7 +2976,7 @@
     "message": "Önbellek yeniden inşa edilene kadar uygulama daha yavaş yüklenebilir."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Önbelleklenmiş veriyi temizle ve Modrinth'den tekrar indir. Önbellek yeniden inşa edilene kadar uygulama daha yavaş yüklenebilir."
+    "message": "Önbelleklenmiş veriyi temizle ve Panda'den tekrar indir. Önbellek yeniden inşa edilene kadar uygulama daha yavaş yüklenebilir."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "Uygulama önbelleği"
@@ -2855,8 +2990,89 @@
   "app.settings.resource-management.app-database-backups.title": {
     "message": "Uygulama veritabanı yedekleri"
   },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "Taşımayı iptal et"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "Dizini değiştir"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "Varsayılana değiştir"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "Panda Minecraft Launcher kurulumları ve diğer dosyaları nerede saklar."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "Verileriniz taşınırken Panda Minecraft Launcher'ı kullanamazsınız. Bu biraz zaman alabilir."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "Tüm dosyalarınız taşınacak"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "Bir klasör seçin"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "Geçerli"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "Dosyalarınızın sürücüdeki diğer her şeyle karışmaması için sürücünün kökü yerine bir klasör seçin."
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "Uygulama dizinini değiştir"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "Uygulama dizinini değiştirmeden önce çalışan tüm kurulumları kapatın."
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "Daha fazla taşıma seçeneği"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "Taşı ve yeniden başlat"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "Sonraki açılışta taşı"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "Yeni klasör geçerli uygulama dizininin içinde olamaz veya onu içeremez."
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "Yeni"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "Yeni bir uygulama dizini seçin"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "Daha fazla dizin seçeneği"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "Şimdi taşı ve yeniden başlat"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "Klasörü aç"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "Dosya Gezgini'nde aç"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "Finder'da aç"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "Uygulama dizini yolu panoya kopyalandı."
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "Yol kopyalandı"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "Yol kopyalanamadı"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "Uygulama dizininiz, Panda Minecraft Launcher bir sonraki açılışında {path} konumuna taşınacak."
+  },
   "app.settings.resource-management.app-directory.title": {
     "message": "Uygulama dizini"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "Uygulama günlüklerini ve tanılama verilerini Panda desteğiyle paylaşmak için ZIP dosyasına aktarın."
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Hata Ayıklama Bilgilerini Dışa Aktar"
@@ -2876,6 +3092,12 @@
   "app.settings.resource-management.maximum-concurrent-writes.title": {
     "message": "Maksimum eşzamanlı yazım"
   },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "Bu kadar kullanılmayan içeriği gelecek kurulumlar için saklayın. Daha fazlasını saklamak indirme süresini kısaltabilir."
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "Kullanılmayan indirmeleri sakla"
+  },
   "app.settings.resource-management.store.cache-limit.unit": {
     "message": "GiB"
   },
@@ -2894,11 +3116,20 @@
   "app.settings.resource-management.store.clearing": {
     "message": "Temizleniyor..."
   },
+  "app.settings.resource-management.store.description": {
+    "message": "Kurulumlarınız arasında oyun, mod ve paketleri yeniden kullanarak yer kazanın."
+  },
   "app.settings.resource-management.store.nothing-to-clear": {
     "message": "Temizlenecek kullanılmayan içerik yok"
   },
   "app.settings.resource-management.store.shared.label": {
     "message": "Paylaşılan"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "İçerik depolama"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} saklandı"
   },
   "app.settings.resource-management.store.unique.label": {
     "message": "Benzersiz"
@@ -2906,11 +3137,53 @@
   "app.settings.resource-management.store.unused.label": {
     "message": "Yetim"
   },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "Kurulum varsayılanları"
+  },
   "app.settings.sidebar.label.system": {
     "message": "Sistem"
   },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "Komut geçmişinizi hangi kurulumdan kopyalayacağınızı seçin. Bu geçmiş yalnızca ilk eşitleme için kullanılır; daha sonra herhangi bir kurulumdan düzenleyebilirsiniz."
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "Komut geçmişi kaynağını seçin"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "Kayıtlı yaratıcı hızlı erişim çubuklarınızı hangi kurulumdan kopyalayacağınızı seçin. Bunlar yalnızca ilk eşitleme için kullanılır; daha sonra herhangi bir kurulumdan düzenleyebilirsiniz."
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "Yaratıcı hızlı erişim çubuğu kaynağını seçin"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "Veri paketi kaynağını seçin"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "Oyun ayarlarınızı hangi kurulumdan kopyalayacağınızı seçin. Bu ayarlar yalnızca ilk eşitleme için kullanılır; daha sonra herhangi bir kurulumdan düzenleyebilirsiniz."
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "Oyun ayarları kaynağını seçin"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "Bu kurulumu eşitleme kaynağı olarak seçemezsiniz"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "Eşitleme kaynakları yüklenemedi. Lütfen tekrar deneyin."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "Çok oyunculu sunucularınızı hangi kurulumdan kopyalayacağınızı seçin. Bu sunucular yalnızca ilk eşitleme için kullanılır; daha sonra herhangi bir kurulumdan düzenleyebilirsiniz."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "Çok oyunculu sunucu kaynağını seçin"
+  },
   "app.settings.synced-options.choose-sync-source.no-instances-found": {
     "message": "Hiçbir örnek bulunamadı"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "Kaynak paketi kaynağını seçin"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "Tekrar dene"
   },
   "app.settings.synced-options.choose-sync-source.search-placeholder": {
     "message": "Örnek ara"
@@ -2933,11 +3206,116 @@
   "app.settings.synced-options.creative-hotbars.description": {
     "message": "Kaydedilmiş aynı kreatif hızlı erişim çubuklarını farklı oturumlarınızda kullanın."
   },
+  "app.settings.synced-options.data-packs": {
+    "message": "Veri paketlerini eşitle"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "Kurulumlarınızda aynı veri paketlerini kullanın"
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "Henüz bir veri paketi eşitlemediniz"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "Eşitlenmiş verileri düzenlemeden önce bir kurulum ekleyin."
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "Bu ayarı düzenlemeden önce bir eşitleme kaynağı seçin."
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "Oyun seçeneklerini eşitle"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "Oyun ayarlarını düzenle"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "En son ayarları yükledik. Değişikliklerinizi kontrol edip tekrar kaydedin."
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "Bu ayarlar başka bir yerde değiştirildi"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "Modlar tarafından eklenen ayarlar, Panda bunları kurulumlarınızdan birinde bulduktan sonra burada görünecek."
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "Kurulumlarınızda aynı oyun seçeneklerini kullanın."
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "Tümünün eşitlemesini kaldır"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "Bireysel ayarları seçmeden önce oyun ayarları eşitlemesini etkinleştirin."
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "Arama veya filtrenizle eşleşen ayar yok."
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "Tümünü eşitle"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "Oyun ayarlarınız yüklenemedi."
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "Ayarlar yükleniyor..."
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "Düzenleyebileceğiniz bir seçenek henüz yok"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "Eşitlenmiyor"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "Yeniden dene"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "Ayarları kaydet"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "Ayarlarda ara..."
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "Eşitlenen seçenekler tüm kurulumlara uygulanır ve mod paketindeki değerleri geçersiz kılar."
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "{setting} ayarını kurulumlar arasında eşitle"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "Oyun ayarlarını eşitle"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "Kurulumlar arasında eşitlendi"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "Oyun ayarları"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "Kaydedilmemiş değişiklikleriniz var."
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "{setting} ayarının kurulumlar arasında eşitlenmesini durdur"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "Kurulumlar arasında farklı"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "Kapalı"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "Açık"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "Bir değer seçin"
+  },
   "app.settings.synced-options.multiplayer-servers": {
     "message": "Çok oyunculu sunucuları senkronize et"
   },
   "app.settings.synced-options.multiplayer-servers.address": {
     "message": "Sunucu adresi"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "Adresi kopyala"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
   },
   "app.settings.synced-options.multiplayer-servers.description": {
     "message": "Örneklerinizde aynı çok oyunculu sunucuları kullanın."
@@ -2948,8 +3326,44 @@
   "app.settings.synced-options.multiplayer-servers.empty": {
     "message": "Şu anda kullanıcı ekli sunucular senkronize edilmedi."
   },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "Çevrimdışı"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "Çevrimiçi"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "Daha fazla sunucu seçeneği"
+  },
   "app.settings.synced-options.multiplayer-servers.name": {
     "message": "Sunucu adı"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "Arama veya filtrenizle eşleşen eşitlenmiş sunucu yok."
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "Henüz bir sunucu eşitlemediniz"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "{count, number} çevrimiçi"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "{count, number} {count, plural, one {synced server} other {synced servers}} ara..."
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "Durum"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "Paylaşılan paketleri düzenlemeden önce eşitlemeyi etkinleştirin."
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "Kaynak paketleri eşitle"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "Kurulumlarınızda aynı kaynak paketleri kullanın."
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "Henüz bir kaynak paketi eşitlemediniz"
   },
   "app.settings.tabs.appearance": {
     "message": "Görünüm"
@@ -2957,14 +3371,80 @@
   "app.settings.tabs.behavior": {
     "message": "Davranış"
   },
+  "app.settings.tabs.features": {
+    "message": "Özellikler"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java ve bellek"
+  },
   "app.settings.tabs.java-installations": {
     "message": "Java kurulumları"
   },
   "app.settings.tabs.language": {
     "message": "Dil"
   },
+  "app.settings.tabs.launch-hooks": {
+    "message": "Başlatma kancaları"
+  },
   "app.settings.tabs.privacy": {
     "message": "Gizlilik"
+  },
+  "app.settings.tabs.resources": {
+    "message": "Kaynaklar"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "Eşitleme"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "Sorun giderme"
+  },
+  "app.settings.tabs.window": {
+    "message": "Pencere"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "Önbelleği temizle"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "Uygulama önbelleği temizlensin mi?"
+  },
+  "app.settings.troubleshooting.report-ad.copied": {
+    "message": "Kopyalandı"
+  },
+  "app.settings.troubleshooting.report-ad.copy": {
+    "message": "Reklam ayrıntılarını kopyala"
+  },
+  "app.settings.troubleshooting.report-ad.description": {
+    "message": "Uygunsuz veya saldırgan bir reklam gördünüz mü? Reklam gösterilirken ayrıntılarını kopyalayın ve <support>Panda Desteği</support> adresine gönderin. İnceleyip kaldıracağız."
+  },
+  "app.settings.troubleshooting.report-ad.no-ad.text": {
+    "message": "Reklamın yüklenmesini bekleyin, sonra tekrar deneyin."
+  },
+  "app.settings.troubleshooting.report-ad.no-ad.title": {
+    "message": "Reklam bulunamadı"
+  },
+  "app.settings.troubleshooting.report-ad.title": {
+    "message": "Reklam bildir"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "Güncelleme hazırlanıyor…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "Güncelleme gönderildi"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "Güncelleme gönderiliyor…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "Kurulumu sil"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "Daha fazla kurulum eylemi"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "Neden"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "Paylaşılan kurulum kilitli"
   },
   "app.skins.add-button": {
     "message": "Dış görünüm ekle"
@@ -2998,6 +3478,12 @@
   },
   "app.skins.edit-button": {
     "message": "Dış görünümü düzenle"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "Bu hesabın kıyafetini ve pelerinini ely.by üzerinde değiştirin. Bu ayarlar başlatıcıda salt okunurdur."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "Kıyafetler Ely.by tarafından yönetilir"
   },
   "app.skins.modal.add-skin-button": {
     "message": "Dış görünüm ekle"
@@ -3080,17 +3566,23 @@
   "app.skins.section.default-skins": {
     "message": "Varsayılan skinler"
   },
+  "app.skins.section.dungeons-hero": {
+    "message": "Zindan Kahramanı"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "Zindan II Kahramanı"
+  },
   "app.skins.section.minecon-earth-2017": {
     "message": "MINECON Earth 2017"
   },
   "app.skins.section.modrinth": {
-    "message": "Modrinth"
+    "message": "Panda"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Modrinth Onuru"
+    "message": "Panda Onuru"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Bu skinleri, Onur Ayı boyunca Modrinth'in düzenlediği bir bağış kampanyasına yaptığınız bağış karşılığında aldınız."
+    "message": "Bu skinleri, Onur Ayı boyunca Panda'in düzenlediği bir bağış kampanyasına yaptığınız bağış karşılığında aldınız."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Kaos Dağları"
@@ -3110,17 +3602,23 @@
   "app.skins.section.tiny-takeover": {
     "message": "Küçük Devralma"
   },
+  "app.skins.section.wilderness-bound": {
+    "message": "Vahşete Bağlı"
+  },
   "app.skins.toggle-ears-features-off": {
     "message": "Kapat"
   },
   "app.skins.toggle-ears-features-on": {
     "message": "Aç"
   },
+  "app.splash.moving-app-directory": {
+    "message": "Uygulama dizininiz taşınıyor..."
+  },
   "app.survey.body": {
-    "message": "Modrinth App deneyiminiz hakkında birkaç soruyu cevaplamak ister misiniz?"
+    "message": "Panda Minecraft Launcher deneyiminiz hakkında birkaç soruyu cevaplamak ister misiniz?"
   },
   "app.survey.footer": {
-    "message": "Bu geri bildirim doğrudan Modrinth ekibine gidecek ve gelecek güncellemeleri şekillendirecek!"
+    "message": "Bu geri bildirim doğrudan Panda ekibine gidecek ve gelecek güncellemeleri şekillendirecek!"
   },
   "app.survey.no-thanks": {
     "message": "Hayır teşekkürler"
@@ -3129,16 +3627,103 @@
     "message": "Ankete katıl"
   },
   "app.survey.title": {
-    "message": "Merhaba Modrinth kullanıcısı!"
+    "message": "Merhaba Panda kullanıcısı!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "Veri paketlerinizi hangi kurulumdan kopyalayacağınızı seçin. Bu paketler yalnızca ilk eşitleme için kullanılır; daha sonra herhangi bir kurulumdan düzenleyebilirsiniz."
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "Kaynak paketlerinizi hangi kurulumdan kopyalayacağınızı seçin. Bu paketler yalnızca ilk eşitleme için kullanılır; daha sonra herhangi bir kurulumdan düzenleyebilirsiniz."
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "Tüm eşitlenmiş kurulumlarda veya yalnızca bu kurulumda devre dışı bırakın. Sadece burada devre dışı bırakmak bu kurulum için geçersiz kılmaları açar."
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "Her yerde devre dışı bırak"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "Bu içeriği tüm eşitlenmiş kurulumlarda devre dışı bırak."
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "Burada devre dışı bırak"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "İçerik devre dışı bırakılsın mı?"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "Tüm eşitlenmiş kurulumlarda veya yalnızca bu kurulumda etkinleştirin. Sadece burada etkinleştirmek bu kurulum için geçersiz kılmaları açar."
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "Her yerde etkinleştir"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "Bu içeriği tüm eşitlenmiş kurulumlarda etkinleştir."
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "Burada etkinleştir"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "İçerik etkinleştirilsin mi?"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "Her yerden sil"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "Buradan sil"
+  },
+  "app.synced-content.delete.description": {
+    "message": "Bu içeriği silmek tüm kurulumlarınızdan silecektir"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "Eşitlenmemiş seçili içerikler yalnızca bu kurulumdan silinecek."
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "İçeriği yalnızca bu kurulumdan veya tüm eşitlenmiş kurulumlardan kaldırabilirsiniz. Sadece bu kurulumdan kaldırmak geçersiz kılmaları etkinleştirir ve bu kurulum bu içerik türleri için eşitlenmiş değişiklikleri almaz."
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "{count, plural, one {it} other {them}} yalnızca bu kurulumdan veya tüm eşitlenmiş kurulumlardan kaldırabilirsiniz. Yalnızca bu kurulumdan kaldırmak geçersiz kılmaları etkinleştirir ve bu kurulum artık eşitlenmiş kaynak paketi değişikliklerini almaz."
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "Bu kurulum kendi kopyasını saklayacak. Bu içeriği diğer kurulumlarda eşitli tutmak mı, yoksa onlardan kaldırmak mı istiyorsunuz?"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "Sakla"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "Kaldır"
+  },
+  "app.synced-content.desync.title": {
+    "message": "İçeriğin eşitlemesini kaldır"
+  },
+  "app.synced-content.warning.title": {
+    "message": "Bu içerik eşitleniyor"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "Eşitlenmiş veri paketleri"
+  },
+  "app.synced-packs.empty": {
+    "message": "Eşitlemeye başlamak için bir kurulumun İçerik sayfasından paket ekleyin."
+  },
+  "app.synced-packs.load-failed": {
+    "message": "Paketler yüklenemedi. Yenilemeyi deneyin."
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "Eşitlenmiş kaynak paketleri"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Beleş Minecraft"
   },
   "app.update-popup.body.download-complete": {
-    "message": "Modrinth App v{version} indirildi. Güncellemek için yeniden başlatın veya Modrinth App’i kapattığınızda otomatik olarak güncellenecektir."
+    "message": "Panda Minecraft Launcher v{version} indirildi. Güncellemek için yeniden başlatın veya Panda Minecraft Launcher’i kapattığınızda otomatik olarak güncellenecektir."
   },
   "app.update-popup.body.linux": {
-    "message": "Modrinth App v{version} yayımlandı. En yeni özellikler ve hata düzeltmeleri için paket yöneticin üzerinden güncelle!"
+    "message": "Panda Minecraft Launcher v{version} yayımlandı. En yeni özellikler ve hata düzeltmeleri için paket yöneticin üzerinden güncelle!"
   },
   "app.update-popup.body.metered": {
-    "message": "Modrinth App v{version} mevcut! Kısıtlı bağlantıda olduğunuzdan otomatik olarak indirmedik."
+    "message": "Panda Minecraft Launcher v{version} mevcut! Kısıtlı bağlantıda olduğunuzdan otomatik olarak indirmedik."
   },
   "app.update-popup.changelog": {
     "message": "Yama Notları"
@@ -3179,11 +3764,17 @@
   "app.welcome-screen.import-prompt": {
     "message": "Başka bir başlatıcıdan mı kaçıyorsunuz?"
   },
+  "app.welcome-screen.more-options": {
+    "message": "Diğer seçenekler"
+  },
   "app.welcome-screen.quick-create-hint": {
     "message": "Hızlıca bir kurulum oluşturmak için <shortcut>N</shortcut> tuşuna basın"
   },
+  "app.welcome-screen.skip": {
+    "message": "Atla"
+  },
   "app.welcome-screen.title": {
-    "message": "Modrinth'e Hoş Geldiniz"
+    "message": "Panda'e Hoş Geldiniz"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "example.modrinth.gg"
@@ -3252,10 +3843,10 @@
     "message": "Minecraft kullanıcı adıyla aynı olmayabilir!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Modrinth kullanıcı adını girin..."
+    "message": "Panda kullanıcı adını girin..."
   },
   "friends.add-friend.username.title": {
-    "message": "Arkadaşının Modrinth kullanıcı adı nedir?"
+    "message": "Arkadaşının Panda kullanıcı adı nedir?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Arkadaş ekleyerek</link> ne oynadıklarını gör!"
@@ -3300,7 +3891,79 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "Arkadaş eklemek ve ne oynadıklarını görmek için bir <link>Modrinth hesabına giriş yap</link>!"
+    "message": "Arkadaş eklemek ve ne oynadıklarını görmek için bir <link>Panda hesabına giriş yap</link>!"
+  },
+  "hosting.play.account-changed": {
+    "message": "Panda hesabınız değişti. Devam etmek için Sunucuda oyna düğmesine tekrar basın."
+  },
+  "hosting.play.no-address": {
+    "message": "Bu sunucunun henüz bir bağlantı adresi yok."
+  },
+  "hosting.play.not-ready": {
+    "message": "Bu kurulum başlatılamıyor. Kitaplığınızdaki kurulum durumunu kontrol edin."
+  },
+  "hosting.play.update-description": {
+    "message": "Katılmadan önce bu kurulumu sunucunun en son paylaşılan içeriğine güncelleyin."
+  },
+  "hosting.play.update-to-play": {
+    "message": "Oynamak için güncelle"
+  },
+  "hosting.play.world-changed": {
+    "message": "Bu dünya artık etkin değil veya paylaşılmadı. Sunucu panelini açıp Sunucuda oyna düğmesine tekrar basın."
+  },
+  "installation-settings.advanced.title": {
+    "message": "Gelişmiş"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "Paylaşılan kurulumu yeniden bağla"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "Bu kurulumu, bağlantısı kaldırılmış olduğu paylaşılan kuruluma davet bağlantısı veya kimlik kullanarak yeniden bağlayın."
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "\"{name}\" kurulumunuz bu paylaşılan kuruluma zaten bağlı."
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "Bu kurulum yeniden bağlanamaz"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "Bu kurulum yeniden paylaşılan kurulumun kaynağı olur. Üyeler, siz bir güncelleme yayınladığınızda değişikliklerinizi alır."
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "Bu kurulumu size ait bir paylaşılan kuruluma yeniden bağlayın."
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "Paylaşılan kurulumu bul"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "Paylaşılan kurulumu yeniden bağla"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "Davet bağlantısı veya paylaşılan kurulum kimliği"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "Bu kurulum {localLoader} {localGameVersion} kullanıyor, ancak paylaşılan kurulum {loader} {gameVersion} kullanıyor. Sonraki yayınınızda paylaşılan kurulum bu kurulumla eşleşecek."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "Farklı oyun veya yükleyici sürümü"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "Paylaşılan bir kurulumu yalnızca sahibi yeniden bağlayabilir. Üye olarak güncellemelerini almak için kitaplığınızdan tekrar yükleyin."
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "Yeniden bağla"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "Bu paylaşılan kurulum bir sunucu tarafından yönetiliyor, bu yüzden yeniden bağlanamaz."
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · Sürüm {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "Paylaşılan kurulumu yeniden bağla"
   },
   "installation-settings.shared-instance.linked-title": {
     "message": "Bağlantılı paylaşımlı örnek"
@@ -3315,7 +3978,7 @@
     "message": "Bağlantı kesiliyor..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Bu paylaşımlı örneği Modrinth'ten kaldırın ve onu kullanan kişilere güncelleme göndermeyi durdurun. Yerel örneğiniz bundan etkilenmeyecektir."
+    "message": "Bu paylaşımlı örneği Panda'ten kaldırın ve onu kullanan kişilere güncelleme göndermeyi durdurun. Yerel örneğiniz bundan etkilenmeyecektir."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "Bu yalnızca yerel örneğinizi etkiler. Yüklediğiniz içerik bu cihazda kalacak, paylaşımlı örnek ve kullanan diğer kişiler etkilenmeyecek."
@@ -3327,7 +3990,7 @@
     "message": "Paylaşımlı örneğin bağlantısını kaldır"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Bu paylaşımlı örneği Modrinth'in sunucularından kaldırır. Modrinth App'i kullanan kişiler güncelleme almayı bırakır fakat yerel örneğiniz ve içeriği bu cihazda kalacak."
+    "message": "Bu paylaşımlı örneği Panda'in sunucularından kaldırır. Panda Minecraft Launcher'i kullanan kişiler güncelleme almayı bırakır fakat yerel örneğiniz ve içeriği bu cihazda kalacak."
   },
   "instance.action.create-shortcut": {
     "message": "Kısayol oluştur"
@@ -3395,6 +4058,9 @@
   "instance.files.adding-files": {
     "message": "Dosyalar ekleniyor ({completed}/{total})"
   },
+  "instance.files.managed-content-read-only": {
+    "message": "Yüklü içeriğinizi İçerik sekmesinden yönetin"
+  },
   "instance.files.save-as": {
     "message": "Farklı kaydet..."
   },
@@ -3421,6 +4087,48 @@
   },
   "instance.server-modal.resource-pack": {
     "message": "Kaynak paketi"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "Varsayılan ayarları yönet"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "{setting} ayarını varsayılana sıfırla"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "Varsayılana sıfırla"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "Oyun"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "Kurulum"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "Eşitlenmiş verileri düzenlemek için bu geçersiz kılmayı kapatın."
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "Veri paketlerinin eşitlemesini kaldır"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "Bu kurulumun veri paketlerini eşitlenmiş paketlerden ayrı tutun."
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "Veri paketi eşitleme uygulama ayarlarında kapalı."
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "Eşitlenmiş paketleri düzenle"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "Eşitlenmiş paketleri düzenlemek için bu geçersiz kılmayı kapatın. Bağımsız paketler İçerik sekmesinden yönetilebilir."
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "Kaynak paketlerinin eşitlemesini kaldır"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "Bu kurulumun kaynak paketlerini eşitlenmiş paketlerden ayrı tutun."
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "Kaynak paketi eşitleme uygulama ayarlarında kapalı."
   },
   "instance.settings.tabs.behavior.description": {
     "message": "Bu örnekte hangi sekmelerin görüneceğini seçin."
@@ -3457,6 +4165,9 @@
   },
   "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
     "message": "Kurulurken çoğaltılamaz."
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "Kilitli kurulumlar çoğaltılamaz."
   },
   "instance.settings.tabs.general.duplicate-instance": {
     "message": "Kurulumu çoğalt"
@@ -3511,6 +4222,12 @@
   },
   "instance.settings.tabs.general.update-channel.select": {
     "message": "Güncelleme kanalını seç"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "Burada geçersiz kılmadığınız sürece kurulumunuz varsayılan başlatma kancalarını kullanır."
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "Başlatma kancaları"
   },
   "instance.settings.tabs.hooks.post-exit": {
     "message": "Çıkış sonrası"
@@ -3569,17 +4286,38 @@
   "instance.settings.tabs.installation.locked": {
     "message": "Bu örnek kilitliyken kurulum ayarlarına erişilemez."
   },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "Burada geçersiz kılmadığınız sürece kurulumunuz varsayılan Java ve bellek ayarlarını kullanır."
+  },
   "instance.settings.tabs.java.enter-environment-variables": {
     "message": "Ortam değişkenlerini girin..."
   },
   "instance.settings.tabs.java.enter-java-arguments": {
     "message": "Java argümanlarını girin..."
   },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "Ortam değişkenleri"
+  },
   "instance.settings.tabs.java.hooks": {
     "message": "Bağlar"
   },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Java bağımsız değişkenleri"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Java kurulumu"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "Bellek ayırma"
+  },
   "instance.settings.tabs.java.java-path-placeholder": {
     "message": "/java/kurulum/yolu"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java ve bellek"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "Bu kurulumun Minecraft sürümü için Java {version} önerilir."
   },
   "instance.settings.tabs.sharing": {
     "message": "Paylaşım"
@@ -3601,6 +4339,15 @@
   },
   "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
     "message": "Bu örneğe ait kaydedilmiş yaratıcı mod hızlı erişim çubuklarını, senkronize edilmiş hızlı erişim çubuklarından ayrı tutun."
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "Oyun ayarlarının eşitlemesini kaldır"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "Bu kurulumun options.txt dosyasını eşitlenmiş kopyadan ayrı tutun."
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "Oyun ayarları eşitleme uygulama ayarlarında kapalı."
   },
   "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
     "message": "Değişiklik yapılmadan önce, yerini alacak olan sürümün yedeği alınacaktır."
@@ -3632,6 +4379,12 @@
   "instance.settings.tabs.synced-options.shared-settings.description": {
     "message": "Bu örnek için, eşitlenmiş bir ayarı ayrı tutmak üzere bir geçersiz kılmayı etkinleştirin."
   },
+  "instance.settings.tabs.syncing": {
+    "message": "Eşitleme"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "Burada geçersiz kılmadığınız sürece kurulumunuz varsayılan pencere ayarlarını kullanır."
+  },
   "instance.settings.tabs.window.fullscreen": {
     "message": "Tam Ekran"
   },
@@ -3647,6 +4400,9 @@
   "instance.settings.tabs.window.height.enter": {
     "message": "Yükseklik gir..."
   },
+  "instance.settings.tabs.window.label": {
+    "message": "Pencere"
+  },
   "instance.settings.tabs.window.width": {
     "message": "Genişlik"
   },
@@ -3656,14 +4412,32 @@
   "instance.settings.tabs.window.width.enter": {
     "message": "Genişlik gir..."
   },
+  "instance.settings.using-defaults": {
+    "message": "Varsayılanlar kullanılıyor"
+  },
   "instance.shared-instance.error.title": {
     "message": "Bir şeyler yanlış gitti"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "Dosya türüne izin verilmiyor"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "Artık daha fazla kurulum paylaşamazsınız."
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "Paylaşılan kurulum sınırına ulaşıldı"
   },
   "instance.shared-instance.network-error.text": {
     "message": "Paylaşımlı örnek API'sine bağlanılamadı"
   },
   "instance.shared-instance.network-error.title": {
     "message": "Bağlantı hatası"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "Başka bir Panda Minecraft Launcher kurulumundan daha yeni bir sürüm gönderildi. İndirip tekrar deneyin."
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "Güncelleme gönderilemedi"
   },
   "instance.shared-instance.owner-tooltip": {
     "message": "Bu kurulumun içeriği diğer kullanıcılarla paylaşılıyor."
@@ -3674,6 +4448,12 @@
   "instance.shared-instance.unavailable.access-revoked-text": {
     "message": "Bu paylaşımlı örneğe olan erişiminiz geri çekildi. Örnek hala erişilebilir fakat artık bağlantılı değil ve güncelleme almayacak."
   },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "Paylaşılan kurulum İçerik Denetim ekibi tarafından kilitlendi. Artık güncelleme gönderemez veya bu kurulumu yeniden paylaşamazsınız."
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "Kurulum artık paylaşılamıyor"
+  },
   "instance.shared-instance.unavailable.locked-text": {
     "message": "Bu paylaşımlı örnek İçerik Moderasyonu ekibi tarafından kilitlendi. Artık ana örnekten güncelleme almayacak ve oynanılamaz."
   },
@@ -3682,6 +4462,12 @@
   },
   "instance.shared-instance.unavailable.manager-fallback": {
     "message": "örnek yöneticisi"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "Bu paylaşılan kurulumu bulamadık. Yüklü içeriğiniz hâlâ bu cihazda."
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "Paylaşılan kurulum kullanılamıyor"
   },
   "instance.shared-instance.unavailable.text": {
     "message": "Yerel örneğiniz hala erişilebilir fakat artık bağlantılı değil ve güncelleme almayacak."
@@ -3761,11 +4547,50 @@
   "instance.worlds.shortcut-creation-failed": {
     "message": "Kısayol oluşturulamadı"
   },
+  "instance.worlds.synced_server": {
+    "message": "Kurulumlar arasında eşitlendi"
+  },
   "instance.worlds.view_instance": {
     "message": "Kurulumu gör"
   },
   "instance.worlds.world_in_use": {
     "message": "Dünya şu anda kullanımda"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "ely.by hesabı ekle"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Microsoft hesabı ekle"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "ely.by hesabınıza giriş yapamadık. ely.by hesabınızı kontrol edip tekrar deneyin."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "Giriş başarısız"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "Microsoft hesabınıza giriş yapamadık. Bu, hesap kısıtlamaları veya bölgesel sınırlamalardan kaynaklanabilir."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "Kodunuz"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "Kopyalandı"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "Kopyala"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "ely.by ile giriş yap"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "ely.by doğrulama sayfasını açın ve Panda Minecraft Launcher'ı yetkilendirmek için bu kodu girin. Onayladıktan sonra giriş otomatik olarak devam edecek."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "ely.by doğrulama sayfasını aç"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "Yetkilendirme bekleniyor…"
   },
   "minecraft-account.label": {
     "message": "Minecraft hesabı"
@@ -3773,11 +4598,20 @@
   "minecraft-account.not-signed-in": {
     "message": "Giriş yapılmadı"
   },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
   "minecraft-account.remove-account": {
     "message": "Hesabı kaldır"
   },
   "minecraft-account.select-account": {
     "message": "Hesap seçin"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "ely.by ile giriş yap"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Microsoft ile giriş yap"
   },
   "minecraft-required.description": {
     "message": "Oyunu başlatmak ve oynamak için Minecraft'a sahip olan bir Microsoft hesabına ihtiyaç vardır."
@@ -3800,6 +4634,9 @@
   "minecraft-required.sign-in": {
     "message": "Microsoft'a giriş yap"
   },
+  "minecraft-required.sign-in-elyby": {
+    "message": "ely.by ile giriş yap"
+  },
   "modal.modrinth-account-required.browser-description": {
     "message": "Giriş yapmak için yeni bir pencere açıldı. Girişi orada tamamlayın, sonra uygulamaya dönün."
   },
@@ -3810,7 +4647,7 @@
     "message": "Bir hesap oluştur"
   },
   "modal.modrinth-account-required.description": {
-    "message": "Bu özelliği kullanmadan önce Modrinth hesabınıza giriş yapmanız gerekmektedir."
+    "message": "Bu özelliği kullanmadan önce Panda hesabınıza giriş yapmanız gerekmektedir."
   },
   "modal.modrinth-account-required.header": {
     "message": "Hesap gerekli"
@@ -3819,10 +4656,10 @@
     "message": "Tarayıcıyı yeniden aç"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Modrinth'e giriş yap"
+    "message": "Panda'e giriş yap"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Bir Modrinth hesabına giriş yap"
+    "message": "Bir Panda hesabına giriş yap"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Giriş yapılıyor"
@@ -3832,6 +4669,12 @@
   },
   "modal.modrinth-account-required.waiting-for-browser": {
     "message": "Tarayıcı onayı bekleniyor..."
+  },
+  "project.server.status.offline": {
+    "message": "Çevrimdışı"
+  },
+  "project.server.status.online": {
+    "message": "Çevrimiçi"
   },
   "search.filter.locked.instance": {
     "message": "Kurulum tarafından sağlanan"
@@ -3845,8 +4688,20 @@
   "search.filter.locked.instance.sync": {
     "message": "Kurulum ile eşitle"
   },
+  "search.filter.locked.server": {
+    "message": "Sunucu tarafından sağlanır"
+  },
   "search.filter.locked.server-environment.title": {
     "message": "Sunucu örneğine yalnızca istemci tarafında çalışan modlar eklenebilir"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Oyun sürümü sunucu tarafından sağlanır"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Yükleyici sunucu tarafından sağlanır"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Sunucuyla eşitle"
   },
   "settings.sidebar.label.account": {
     "message": "Hesap"
