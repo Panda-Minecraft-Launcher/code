@@ -4,12 +4,12 @@
 		class="flex flex-col gap-3 bg-button-bg border border-solid border-surface-5 rounded-xl p-3 mt-2"
 	>
 		<span>{{ formatMessage(messages.notSignedIn) }}</span>
-		<Button type="colored" color="brand" :disabled="loginDisabled" @click="login()">
+		<Button type="colored" color="brand" :disabled="loginInProgress" @click="login()">
 			<MicrosoftColorIcon v-if="!loginDisabled" />
 			<SpinnerIcon v-else class="animate-spin" />
 			{{ formatMessage(messages.signInWithMicrosoft) }}
 		</Button>
-		<Button type="outlined" :disabled="loginDisabled" @click="loginElyBy()">
+		<Button type="outlined" :disabled="loginInProgress" @click="loginElyBy()">
 			<ElyByColorIcon />
 			{{ formatMessage(messages.signInWithElyBy) }}
 		</Button>
@@ -22,14 +22,7 @@
 	>
 		<template #title>
 			<div class="flex gap-2 w-full min-w-0">
-				<Avatar
-					size="36px"
-					:src="
-						selectedAccount
-							? avatarUrl
-							: 'https://launcher-files.modrinth.com/assets/steve_head.png'
-					"
-				/>
+				<Avatar size="36px" :src="selectedAccount ? avatarUrl : DEFAULT_AVATAR" />
 				<div class="flex flex-col items-start w-full min-w-0">
 					<span class="truncate w-full text-left">{{
 						selectedAccount ? selectedAccount.profile.name : formatMessage(messages.selectAccount)
@@ -84,7 +77,7 @@
 				<Button
 					v-if="accounts.length > 0"
 					class="w-full !bg-button-bg !text-primary ![box-shadow:var(--shadow-button)]"
-					:disabled="loginDisabled"
+					:disabled="loginInProgress"
 					@click="login()"
 				>
 					<MicrosoftColorIcon />
@@ -93,7 +86,7 @@
 				<Button
 					v-if="accounts.length > 0"
 					class="w-full !bg-button-bg !text-primary ![box-shadow:var(--shadow-button)]"
-					:disabled="loginDisabled"
+					:disabled="loginInProgress"
 					@click="loginElyBy()"
 				>
 					<ElyByColorIcon />
@@ -160,10 +153,28 @@ type MinecraftCredential = {
 const accounts: Ref<MinecraftCredential[]> = ref([])
 const elyByModal = ref<InstanceType<typeof ElyByLoginModal>>()
 const loginDisabled = ref(false)
+const elyByLoading = ref(false)
+const loginInProgress = computed(() => loginDisabled.value || elyByLoading.value)
 const defaultUser = ref<string | undefined>()
 const equippedSkin = ref<Skin | null>(null)
 const equippedHeadUrl = ref<string>()
+const elyByHeadUrls = ref<Record<string, string>>({})
 let headRequest = 0
+let elyByHeadRequest = 0
+
+const DEFAULT_AVATAR = 'https://launcher-files.modrinth.com/assets/steve_head.png'
+
+// shortcut: the cache key is name-based, so a changed ely.by skin keeps the old head until the render cache is pruned; use the hashed texture id once exposed to the frontend
+function elyByHeadSkin(name: string): Skin {
+	return {
+		texture_key: `elyby-${name}`,
+		name,
+		variant: 'CLASSIC',
+		texture: `http://skinsystem.ely.by/skins/${encodeURIComponent(name)}.png`,
+		source: 'custom_external',
+		is_equipped: true,
+	}
+}
 
 async function updateHeadUrl(skin: Skin | null) {
 	const request = ++headRequest
@@ -173,8 +184,21 @@ async function updateHeadUrl(skin: Skin | null) {
 	if (request === headRequest) equippedHeadUrl.value = url
 }
 
+async function updateElyByHeadUrls(list: MinecraftCredential[]) {
+	const request = ++elyByHeadRequest
+	const heads: Record<string, string> = {}
+	await Promise.all(
+		list.filter(isElyByAccount).map(async (account) => {
+			const url = await renderSkinHead(elyByHeadSkin(account.profile.name)).catch(() => undefined)
+			if (url) heads[account.profile.id] = url
+		}),
+	)
+	if (request === elyByHeadRequest) elyByHeadUrls.value = heads
+}
+
 onUnmounted(() => {
 	headRequest++
+	elyByHeadRequest++
 })
 
 async function refreshValues() {
@@ -182,6 +206,7 @@ async function refreshValues() {
 	const userList = await users().catch(handleError)
 	accounts.value = Array.isArray(userList) ? [...userList] : []
 	accounts.value.sort((a, b) => (a.profile?.name ?? '').localeCompare(b.profile?.name ?? ''))
+	await updateElyByHeadUrls(accounts.value)
 
 	try {
 		const skins = await get_available_skins()
@@ -226,13 +251,9 @@ function isElyByAccount(account: MinecraftCredential) {
 	return account.provider?.toLowerCase() === 'elyby'
 }
 
-function elyByAvatarUrl(name: string) {
-	return `http://skinsystem.ely.by/skins/${encodeURIComponent(name)}.png`
-}
-
 const avatarUrl = computed(() => {
 	if (selectedAccount.value && isElyByAccount(selectedAccount.value)) {
-		return elyByAvatarUrl(selectedAccount.value.profile.name)
+		return elyByHeadUrls.value[selectedAccount.value.profile.id] ?? DEFAULT_AVATAR
 	}
 	if (equippedSkin.value?.texture_key) {
 		const cachedUrl = equippedHeadUrl.value
@@ -244,12 +265,12 @@ const avatarUrl = computed(() => {
 	if (selectedAccount.value?.profile?.id) {
 		return `https://mc-heads.net/avatar/${selectedAccount.value.profile.id}/128`
 	}
-	return 'https://launcher-files.modrinth.com/assets/steve_head.png'
+	return DEFAULT_AVATAR
 })
 
 function getAccountAvatarUrl(account: MinecraftCredential) {
 	if (isElyByAccount(account)) {
-		return elyByAvatarUrl(account.profile.name)
+		return elyByHeadUrls.value[account.profile.id] ?? DEFAULT_AVATAR
 	}
 	if (
 		account.profile.id === selectedAccount.value?.profile?.id &&
@@ -283,13 +304,13 @@ async function login() {
 }
 
 async function loginElyBy() {
-	loginDisabled.value = true
+	elyByLoading.value = true
 	try {
 		await elyByModal.value?.signIn()
 	} catch (error) {
 		handleSevereError(error)
 	} finally {
-		loginDisabled.value = false
+		elyByLoading.value = false
 	}
 }
 
