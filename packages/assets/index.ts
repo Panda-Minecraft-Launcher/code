@@ -33,6 +33,7 @@ import _ElyByColorIcon from './external/color/ely-by.svg?component'
 import _GitHubColorIcon from './external/color/github.svg?component'
 import _GitLabColorIcon from './external/color/gitlab.svg?component'
 import _GoogleColorIcon from './external/color/google.svg?component'
+import _LegacyGrassBlockIcon from './external/color/legacy-grass-block.svg?component'
 import _MicrosoftColorIcon from './external/color/microsoft.svg?component'
 import _PayPalColorIcon from './external/color/paypal.svg?component'
 import _SteamColorIcon from './external/color/steam.svg?component'
@@ -106,6 +107,7 @@ export const DiscordColorIcon = _DiscordColorIcon
 export const GitHubColorIcon = _GitHubColorIcon
 export const GitLabColorIcon = _GitLabColorIcon
 export const GoogleColorIcon = _GoogleColorIcon
+export const LegacyGrassBlockIcon = _LegacyGrassBlockIcon
 export const ElyByColorIcon = _ElyByColorIcon
 export const MicrosoftColorIcon = _MicrosoftColorIcon
 export const SteamColorIcon = _SteamColorIcon
