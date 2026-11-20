@@ -3440,12 +3440,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Zaloguj się, by móc wybierać skórki."
   },
-  "app.skins.demo.description": {
-    "message": "Zaloguj się do swojego konta Minecraft, aby zapisać i zastosować skórki!"
-  },
-  "app.skins.demo.title": {
-    "message": "Edycja z kontem demo"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Nie udało się odczytać upuszczonego pliku."
   },
@@ -3577,12 +3571,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Wilderness Bound"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Zaloguj się do Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Wybór skórki"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Wyłącz"

@@ -1,5 +1,11 @@
 import { reactive } from 'vue'
 
+let errorRouter = null
+
+export function setErrorRouter(router) {
+	errorRouter = router
+}
+
 const errorState = reactive({
 	errorModal: null,
 	minecraftAuthErrorModal: null,
@@ -14,9 +20,15 @@ const errorState = reactive({
 		this.minecraftRequiredModal = ref
 	},
 	showError(error, context, closable = true, source = null) {
-		if (error.code === 'not_logged_in' && this.minecraftRequiredModal) {
-			this.minecraftRequiredModal.show()
-			return
+		if (error.code === 'not_logged_in') {
+			if (errorRouter) {
+				void errorRouter.push('/accounts')
+				return
+			}
+			if (this.minecraftRequiredModal) {
+				this.minecraftRequiredModal.show()
+				return
+			}
 		}
 		if (
 			(error.code?.startsWith('minecraft_auth_') || error.code?.startsWith('elyby_')) &&

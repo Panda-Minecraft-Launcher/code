@@ -3452,12 +3452,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Accedi per applicare le skin."
   },
-  "app.skins.demo.description": {
-    "message": "Accedi al tuo account Minecraft per salvare e applicare le skin!"
-  },
-  "app.skins.demo.title": {
-    "message": "Modifica con un account provvisorio"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Non è stato possibile leggere il file trascinato."
   },
@@ -3589,12 +3583,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Tratto selvaggio"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Accedi a Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Seleziona una skin"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Disattiva"

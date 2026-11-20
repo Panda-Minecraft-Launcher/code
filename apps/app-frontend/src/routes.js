@@ -64,8 +64,8 @@ export default new createRouter({
 			},
 		},
 		{
-			path: '/skins',
-			name: 'Skin selector',
+			path: '/accounts',
+			name: 'Account management',
 			component: () => import('@/pages/Skins.vue'),
 		},
 		{

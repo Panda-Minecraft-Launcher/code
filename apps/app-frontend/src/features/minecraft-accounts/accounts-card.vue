@@ -5,11 +5,12 @@
 	>
 		<span>{{ formatMessage(messages.notSignedIn) }}</span>
 		<Button type="colored" color="brand" :disabled="loginDisabled" @click="login()">
-			<LogInIcon v-if="!loginDisabled" />
+			<MicrosoftColorIcon v-if="!loginDisabled" />
 			<SpinnerIcon v-else class="animate-spin" />
 			{{ formatMessage(messages.signInWithMicrosoft) }}
 		</Button>
 		<Button type="outlined" :disabled="loginDisabled" @click="loginElyBy()">
+			<ElyByColorIcon />
 			{{ formatMessage(messages.signInWithElyBy) }}
 		</Button>
 	</div>
@@ -86,7 +87,7 @@
 					:disabled="loginDisabled"
 					@click="login()"
 				>
-					<PlusIcon />
+					<MicrosoftColorIcon />
 					{{ formatMessage(messages.addMicrosoftAccount) }}
 				</Button>
 				<Button
@@ -95,19 +96,19 @@
 					:disabled="loginDisabled"
 					@click="loginElyBy()"
 				>
-					<PlusIcon />
+					<ElyByColorIcon />
 					{{ formatMessage(messages.addElyByAccount) }}
 				</Button>
 			</div>
 		</div>
 	</Accordion>
-	<ElyByLoginModal ref="elyByModal" />
+	<ElyByLoginModal ref="elyByModal" @success="refreshValues" />
 </template>
 
 <script setup lang="ts">
 import {
-	LogInIcon,
-	PlusIcon,
+	ElyByColorIcon,
+	MicrosoftColorIcon,
 	RadioButtonCheckedIcon,
 	RadioButtonIcon,
 	SpinnerIcon,

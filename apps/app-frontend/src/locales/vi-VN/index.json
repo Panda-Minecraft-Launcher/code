@@ -3083,12 +3083,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Đăng nhập để áp dụng skin."
   },
-  "app.skins.demo.description": {
-    "message": "Đăng nhập tài khoản Minecraft để lưu và áp dụng skin!"
-  },
-  "app.skins.demo.title": {
-    "message": "Đang chỉnh sửa bằng tài khoản demo"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Không thể đọc tệp được thả vào."
   },
@@ -3220,12 +3214,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Wilderness Bound"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Đăng nhập Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Trình chọn skin"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Tắt"

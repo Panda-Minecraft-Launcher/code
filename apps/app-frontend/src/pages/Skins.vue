@@ -5,9 +5,7 @@ import {
 	EyeIcon,
 	InfoIcon,
 	RotateCounterClockwiseIcon,
-	ShirtIcon,
 	SpinnerIcon,
-	WindowsIcon,
 } from '@modrinth/assets'
 import {
 	Button,
@@ -30,11 +28,10 @@ import EarsModIcon from '@/assets/skins/ears-mod.png'
 import EditSkinModal from '@/components/ui/skin/EditSkinModal.vue'
 import VirtualSkinSectionList from '@/components/ui/skin/VirtualSkinSectionList.vue'
 import { useAppSettings } from '@/composables/use-app-settings.ts'
-import { handleSevereError } from '@/composables/use-error.js'
-import { injectMinecraftAccounts } from '@/features/minecraft-accounts/context'
+import AccountManagement from '@/features/minecraft-accounts/AccountManagement.vue'
+import { useAccountIconCycle } from '@/features/minecraft-accounts/use-account-icon-cycle'
 import { deleteLegacySkinPreviewStorage } from '@/features/skins/legacy-preview-storage'
-import { trackEvent } from '@/helpers/analytics'
-import { check_reachable, get_default_user, login as login_flow, users } from '@/helpers/auth'
+import { check_reachable, get_default_user, users } from '@/helpers/auth'
 import { listenNativeDragDrop, type NativeDragDropEvent } from '@/helpers/native-drag-drop'
 import type { Cape, Skin, SkinTextureUrl } from '@/helpers/skins.ts'
 import {
@@ -54,15 +51,22 @@ import {
 } from '@/helpers/skins.ts'
 import { hasPride26Badge } from '@/helpers/user-campaigns.ts'
 import { getSkinEars } from '@/platform/app-lib/skins/commands'
-import { useRootBreadcrumb } from '@/shared/breadcrumbs'
+import { type BreadcrumbVisual, useRootBreadcrumb } from '@/shared/breadcrumbs'
 import { appMessages } from '@/utils/app-messages'
+
+const { formatMessage } = useVIntl()
+const accountIcon = useAccountIconCycle()
+const breadcrumbVisual = computed<BreadcrumbVisual>(() => ({
+	type: 'icon',
+	component: accountIcon.value,
+}))
 
 useRootBreadcrumb({
 	slot: 'root',
 	id: 'skins',
-	label: 'Skin selector',
-	to: '/skins',
-	visual: { type: 'icon', component: ShirtIcon },
+	label: formatMessage(appMessages.accountManagementLabel),
+	to: '/accounts',
+	visual: breadcrumbVisual,
 })
 
 type UnlistenFn = () => void
@@ -200,18 +204,6 @@ const messages = defineMessages({
 		id: 'app.skins.toggle-ears-features-on',
 		defaultMessage: 'Toggle on',
 	},
-	demoTitle: {
-		id: 'app.skins.demo.title',
-		defaultMessage: 'Editing with a demo account',
-	},
-	demoDescription: {
-		id: 'app.skins.demo.description',
-		defaultMessage: 'Sign in to your Minecraft account to save and apply skins!',
-	},
-	signInButton: {
-		id: 'app.skins.sign-in.button',
-		defaultMessage: 'Sign in to Microsoft',
-	},
 	elyByNoticeTitle: {
 		id: 'app.skins.ely-by-notice.title',
 		defaultMessage: 'Skins are managed by Ely.by',
@@ -227,7 +219,6 @@ const editSkinModal = useTemplateRef('editSkinModal')
 const addSkinFileInput = useTemplateRef<HTMLInputElement>('addSkinFileInput')
 const skinSectionList = useTemplateRef<VirtualSkinSectionListExpose>('skinSectionList')
 
-const { formatMessage } = useVIntl()
 const notifications = injectNotificationManager()
 const { addNotification, handleError } = notifications
 const auth = injectAuth()
@@ -238,7 +229,6 @@ const skins = ref<Skin[]>([])
 const capes = ref<Cape[]>([])
 const offline = ref(!navigator.onLine)
 
-const minecraftAccounts = injectMinecraftAccounts()
 const currentUser = ref(undefined)
 const currentUserId = ref<string | undefined>(undefined)
 const hasLoadedCurrentUser = ref(false)
@@ -597,7 +587,6 @@ function setLocallyEquippedSkin(skinToApply: Skin) {
 	originalSelectedSkin.value =
 		skins.value.find((skin) => skinsMatch(skin, skinToApply)) ?? skinToApply
 	selectedSkin.value = originalSelectedSkin.value
-	void minecraftAccounts.value?.setEquippedSkin(originalSelectedSkin.value)
 }
 
 function insertLocalSkin(savedSkin: Skin) {
@@ -653,7 +642,6 @@ function updateLocalSkin(savedSkin: Skin, applied: boolean, previousSkin?: Skin)
 
 		originalSelectedSkin.value = locallyEquippedSkin
 		selectedSkin.value = locallyEquippedSkin
-		void minecraftAccounts.value?.setEquippedSkin(locallyEquippedSkin)
 	} else {
 		const locallySavedSkin =
 			skins.value.find((skin) => skin.texture_key === savedSkin.texture_key) ?? savedSkin
@@ -731,7 +719,6 @@ async function preserveExternalSkins(skinsToPersist: Skin[]) {
 
 		if (skinsMatchIgnoringSource(originalSelectedSkin.value, skin)) {
 			originalSelectedSkin.value = preservedSkin
-			void minecraftAccounts.value?.setEquippedSkin(preservedSkin)
 		}
 
 		preservedSkins.push(preservedSkin)
@@ -764,10 +751,6 @@ function schedulePendingSkinRefresh() {
 			handleError(error as Error)
 			schedulePendingSkinRefresh()
 			return
-		}
-
-		if (minecraftAccounts.value) {
-			await minecraftAccounts.value.refreshValues()
 		}
 
 		await loadCapes()
@@ -835,18 +818,6 @@ async function loadCurrentUser() {
 	} finally {
 		hasLoadedCurrentUser.value = true
 	}
-}
-
-async function login() {
-	minecraftAccounts.value?.setLoginDisabled(true)
-	const loggedIn = await login_flow().catch(handleSevereError)
-
-	if (loggedIn && minecraftAccounts.value) {
-		await minecraftAccounts.value.refreshValues()
-	}
-
-	trackEvent('AccountLogIn')
-	minecraftAccounts.value?.setLoginDisabled(false)
 }
 
 function openAddSkinFileBrowser() {
@@ -1070,7 +1041,6 @@ async function checkUserChanges() {
 	try {
 		const defaultId = await get_default_user()
 		if (defaultId !== currentUserId.value) {
-			await minecraftAccounts.value?.refreshValues()
 			await loadCurrentUser()
 			await loadCapes()
 			await loadSkins()
@@ -1110,9 +1080,10 @@ await loadSkins()
 	/>
 
 	<div class="skin-layout box-border grow p-4" :class="{ 'pb-40': !currentUser }">
+		<AccountManagement class="col-span-full" />
 		<div class="sticky top-6 self-start p-2 pt-0">
 			<h1 class="m-0 text-2xl font-bold flex items-center gap-2">
-				{{ formatMessage(appMessages.skinSelectorLabel) }}
+				{{ formatMessage(appMessages.accountManagementLabel) }}
 			</h1>
 			<div
 				class="ml-5 mt-4 flex h-[calc(80vh-1rem)] items-center justify-center max-[700px]:h-[calc(50vh-1rem)]"
@@ -1289,36 +1260,7 @@ await loadSkins()
 		</div>
 	</div>
 
-	<div v-if="!currentUser" class="sticky w-full bottom-0 z-20 p-4 pt-0">
-		<div
-			class="mx-auto flex w-full max-w-5xl items-center justify-between gap-3 rounded-[20px] border border-solid border-surface-5 bg-surface-3 p-4"
-		>
-			<div class="flex min-w-0 grow items-start gap-3">
-				<InfoIcon class="size-6 shrink-0 text-blue" />
-				<div class="flex min-w-0 flex-col gap-1">
-					<p class="m-0 text-lg font-semibold leading-6 text-contrast">
-						{{ formatMessage(messages.demoTitle) }}
-					</p>
-					<p class="m-0 text-base leading-6 text-primary">
-						{{ formatMessage(messages.demoDescription) }}
-					</p>
-				</div>
-			</div>
-			<Button
-				v-show="minecraftAccounts"
-				type="colored"
-				color="brand"
-				:disabled="minecraftAccounts?.loginDisabled"
-				@click="login"
-			>
-				<SpinnerIcon v-if="minecraftAccounts?.loginDisabled" class="animate-spin" />
-				<WindowsIcon v-else />
-				{{ formatMessage(messages.signInButton) }}
-			</Button>
-		</div>
-	</div>
-
-	<div v-else-if="isElyByAccount" class="sticky w-full bottom-0 z-20 p-4 pt-0">
+	<div v-if="isElyByAccount" class="sticky w-full bottom-0 z-20 p-4 pt-0">
 		<div
 			class="mx-auto flex w-full max-w-5xl items-center justify-between gap-3 rounded-[20px] border border-solid border-surface-5 bg-surface-3 p-4"
 		>

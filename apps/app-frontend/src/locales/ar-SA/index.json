@@ -3146,12 +3146,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "تسجيل الدخول لحفض السكن"
   },
-  "app.skins.demo.description": {
-    "message": "سجل الدخول إلى حساب Minecraft الخاص بك لحفظ و تطبيق المظهر!"
-  },
-  "app.skins.demo.title": {
-    "message": "تعديل مع حساب تجريبي"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "فشل قراءة الملف الذي تم إسقاطه."
   },
@@ -3283,12 +3277,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "بربط البرية"
-  },
-  "app.skins.sign-in.button": {
-    "message": "تسجيل الدخول إلى Microsoft"
-  },
-  "app.skins.title": {
-    "message": "اختيار المظهر"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "إيقاف"

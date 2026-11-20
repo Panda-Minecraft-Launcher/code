@@ -3407,12 +3407,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "登入即可套用外觀。"
   },
-  "app.skins.demo.description": {
-    "message": "登入 Minecraft 帳號即可儲存並套用外觀！"
-  },
-  "app.skins.demo.title": {
-    "message": "正在用試用帳號編輯"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "無法讀取拖曳的檔案。"
   },
@@ -3544,12 +3538,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "奔赴荒野"
-  },
-  "app.skins.sign-in.button": {
-    "message": "登入 Microsoft"
-  },
-  "app.skins.title": {
-    "message": "外觀選擇工具"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "關閉"

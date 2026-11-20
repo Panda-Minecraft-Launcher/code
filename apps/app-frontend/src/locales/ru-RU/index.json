@@ -3404,12 +3404,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Войдите, чтобы применять скины."
   },
-  "app.skins.demo.description": {
-    "message": "Войдите в аккаунт Minecraft, чтобы сохранять и применять скины!"
-  },
-  "app.skins.demo.title": {
-    "message": "Редактирование с демо-аккаунта"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Не удалось прочитать перетащенный файл."
   },
@@ -3541,12 +3535,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Wilderness Bound"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Войти в Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Выбор скина"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Скрыть"

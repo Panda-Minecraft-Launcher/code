@@ -3179,12 +3179,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Jelentkezz be a kinézetek alkalmazásához."
   },
-  "app.skins.demo.description": {
-    "message": "Jelentkezz be a Minecraft fiókodba a kinézetek mentéséhez és alkalmazásához!"
-  },
-  "app.skins.demo.title": {
-    "message": "Egy demófiókkal szerkesztesz"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Nem sikerült beolvasni a feltöltött fájlt."
   },
@@ -3316,12 +3310,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Vadonhívó"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Bejelentkezés Microsofttal"
-  },
-  "app.skins.title": {
-    "message": "Kinézetváltó"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Kikapcsolás"

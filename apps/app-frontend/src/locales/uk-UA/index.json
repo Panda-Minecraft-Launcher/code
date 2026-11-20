@@ -3446,12 +3446,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Увійдіть, щоб застосовувати скіни."
   },
-  "app.skins.demo.description": {
-    "message": "Увійдіть до свого облікового запису Minecraft, щоб зберігати й застосовувати скіни!"
-  },
-  "app.skins.demo.title": {
-    "message": "Демонстраційне редагування"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Не вдалося відкрити вибраний файл."
   },
@@ -3583,12 +3577,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Wilderness Bound"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Увійти в Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Вибір скіна"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Вимкнути"

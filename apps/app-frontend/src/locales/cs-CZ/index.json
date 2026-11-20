@@ -3158,12 +3158,6 @@
   "app.skins.section.tiny-takeover": {
     "message": "Tiny Takeover"
   },
-  "app.skins.sign-in.button": {
-    "message": "Přihlásit se do Microsoftu"
-  },
-  "app.skins.title": {
-    "message": "Výběr skinu"
-  },
   "app.survey.body": {
     "message": "Mohli byste prosím odpovědět na pár otázek ohledně vašich zkušeností s Modrinth App?"
   },

@@ -791,9 +791,6 @@
   "app.skins.section.tiny-takeover": {
     "message": "Tiny Takeover"
   },
-  "app.skins.title": {
-    "message": "Selektor skina"
-  },
   "app.update-popup.body.download-complete": {
     "message": "Preuzimanje Modrinth aplikacije v{version} je završeno. Ponovo učitaj da bi ažurirao sada ili automatski kada zatvoriš Modrinth aplikaciju."
   },

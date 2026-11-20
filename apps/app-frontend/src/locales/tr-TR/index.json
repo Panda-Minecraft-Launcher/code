@@ -2987,12 +2987,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Dış görünüşünü değiştirmek için giriş yap."
   },
-  "app.skins.demo.description": {
-    "message": "Dış görünüşünü değiştirmek ve kaydetmek için Minecraft hesabına giriş yap!"
-  },
-  "app.skins.demo.title": {
-    "message": "Deneme hesabıyla düzenleniyor"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Bıraktığınız dosya okunamadı."
   },
@@ -3115,12 +3109,6 @@
   },
   "app.skins.section.tiny-takeover": {
     "message": "Küçük Devralma"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Microsoft'a giriş yap"
-  },
-  "app.skins.title": {
-    "message": "Dış görünüm seçici"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Kapat"

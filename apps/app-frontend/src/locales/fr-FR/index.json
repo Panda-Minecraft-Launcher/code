@@ -3365,12 +3365,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Connectez-vous pour appliquer des skins."
   },
-  "app.skins.demo.description": {
-    "message": "Connectez-vous à votre compte Minecraft pour sauvegarder et appliquer des skins !"
-  },
-  "app.skins.demo.title": {
-    "message": "Modifier avec un compte démo"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Impossible de lire le fichier déposé."
   },
@@ -3502,12 +3496,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "L'appel de la nature"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Connectez-vous à Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Sélecteur de skin"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Désactiver"

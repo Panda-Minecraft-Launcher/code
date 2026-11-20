@@ -12,7 +12,6 @@ import {
 	RefreshCwIcon,
 	ServerStackIcon,
 	SettingsIcon,
-	ShirtIcon,
 	SpinnerIcon,
 	ToggleRightIcon,
 	UserIcon,
@@ -91,7 +90,7 @@ import SurveyPopup from '@/components/ui/SurveyPopup.vue'
 import { useCheckDisableMouseover } from '@/composables/macCssFix.js'
 import { useAppEvent } from '@/composables/use-app-event'
 import { useAppSettings } from '@/composables/use-app-settings.ts'
-import { useError } from '@/composables/use-error.js'
+import { setErrorRouter, useError } from '@/composables/use-error.js'
 import { useInstanceMetadataRefresh } from '@/composables/use-instance-metadata-refresh'
 import { useQuickInstanceLimit } from '@/composables/use-quick-instance-limit.ts'
 import { isDarkTheme, useTheme } from '@/composables/use-theme.ts'
@@ -107,6 +106,7 @@ import { maxMemoryQueryOptions } from '@/features/java/queries'
 import SharedInstanceLockNotice from '@/features/library/shared-instances/shared-instance-lock-notice.vue'
 import SharedInstanceModals from '@/features/library/shared-instances/shared-instance-modals.vue'
 import { provideMinecraftAccounts } from '@/features/minecraft-accounts/context'
+import { useAccountIconCycle } from '@/features/minecraft-accounts/use-account-icon-cycle'
 import AppSettingsModal from '@/features/settings/app-settings-modal/index.vue'
 import { provideSettingsActions } from '@/features/settings/settings-actions'
 import NewUpdateModal from '@/features/updates/new-update-modal/index.vue'
@@ -209,6 +209,8 @@ const appTheme = useTheme()
 const quickInstances = useQuickInstanceLimit()
 const router = useRouter()
 const route = useRoute()
+setErrorRouter(router)
+const accountIcon = useAccountIconCycle()
 const { channel: appEventChannel, events: appEvents } = setupAppEventsProvider()
 useInstanceMetadataRefresh(appEvents)
 const breadcrumbManager = createBreadcrumbManager()
@@ -2052,10 +2054,10 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</NavButton>
 			<NavButton
 				v-if="appSettings.showSkinSelectorInSidebar"
-				v-tooltip.right="formatMessage(appMessages.skinSelectorLabel)"
-				to="/skins"
+				v-tooltip.right="formatMessage(appMessages.accountManagementLabel)"
+				to="/accounts"
 			>
-				<ShirtIcon />
+				<component :is="accountIcon" />
 			</NavButton>
 			<NavButton
 				v-if="globalSyncedOptionsQuery.data.value?.screenshots"

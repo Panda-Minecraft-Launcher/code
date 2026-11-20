@@ -3437,12 +3437,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "请先登录以使用皮肤。"
   },
-  "app.skins.demo.description": {
-    "message": "登录 Minecraft 账号以保存并应用皮肤！"
-  },
-  "app.skins.demo.title": {
-    "message": "正在使用演示账号编辑"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "无法读取拖放的文件。"
   },
@@ -3574,12 +3568,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "荒野之境"
-  },
-  "app.skins.sign-in.button": {
-    "message": "登录 Minecraft"
-  },
-  "app.skins.title": {
-    "message": "皮肤选择器"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "切换至关"

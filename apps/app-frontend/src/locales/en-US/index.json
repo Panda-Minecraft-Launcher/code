@@ -1556,6 +1556,9 @@
   "app.modal.update-to-play.update-required-description": {
     "message": "An update is required to play {name}. Please update to latest version to launch the game."
   },
+  "app.nav.account-management": {
+    "message": "Account management"
+  },
   "app.nav.add-account": {
     "message": "Add account"
   },
@@ -3464,12 +3467,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Sign in to apply skins."
   },
-  "app.skins.demo.description": {
-    "message": "Sign in to your Minecraft account to save and apply skins!"
-  },
-  "app.skins.demo.title": {
-    "message": "Editing with a demo account"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Failed to read the dropped file."
   },
@@ -3607,12 +3604,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Wilderness Bound"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Sign in to Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Skin selector"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Toggle off"

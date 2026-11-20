@@ -3074,12 +3074,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Logga in för att tillämpa utseenden."
   },
-  "app.skins.demo.description": {
-    "message": "Logga in på ditt Minecraft-konto för att spara och tillämpa utseenden!"
-  },
-  "app.skins.demo.title": {
-    "message": "Redigerar med ett demokonto"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Kunde inte att läsa den släppta filen."
   },
@@ -3202,12 +3196,6 @@
   },
   "app.skins.section.tiny-takeover": {
     "message": "Tiny Takeover"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Logga in på Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Byt utseende"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Växla av"

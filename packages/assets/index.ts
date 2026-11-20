@@ -29,6 +29,7 @@ import _AppleIcon from './external/apple.svg?component'
 import _BlueskyIcon from './external/bluesky.svg?component'
 import _BuyMeACoffeeIcon from './external/bmac.svg?component'
 import _DiscordColorIcon from './external/color/discord.svg?component'
+import _ElyByColorIcon from './external/color/ely-by.svg?component'
 import _GitHubColorIcon from './external/color/github.svg?component'
 import _GitLabColorIcon from './external/color/gitlab.svg?component'
 import _GoogleColorIcon from './external/color/google.svg?component'
@@ -105,6 +106,7 @@ export const DiscordColorIcon = _DiscordColorIcon
 export const GitHubColorIcon = _GitHubColorIcon
 export const GitLabColorIcon = _GitLabColorIcon
 export const GoogleColorIcon = _GoogleColorIcon
+export const ElyByColorIcon = _ElyByColorIcon
 export const MicrosoftColorIcon = _MicrosoftColorIcon
 export const SteamColorIcon = _SteamColorIcon
 export const AppleIcon = _AppleIcon

@@ -3455,12 +3455,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Melde dich an, um Skins anzuwenden."
   },
-  "app.skins.demo.description": {
-    "message": "Melde dich bei deinem Minecraft-Konto an, um Skins zu speichern und anzuwenden!"
-  },
-  "app.skins.demo.title": {
-    "message": "Bearbeitung mit einem Demokonto"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Fehler beim Lesen der abgelegten Datei."
   },
@@ -3592,12 +3586,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Wilderness Bound"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Bei Microsoft anmelden"
-  },
-  "app.skins.title": {
-    "message": "Skin-Auswahl"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Deaktivieren"

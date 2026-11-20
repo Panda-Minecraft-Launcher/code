@@ -1367,9 +1367,6 @@
   "app.skins.section.modrinth": {
     "message": "Modrinth"
   },
-  "app.skins.title": {
-    "message": "Seletor de cor de pele"
-  },
   "app.synced-content.delete.override-description": {
     "message": "Pode removê-lo apenas desta instância ou de todas as instâncias sincronizadas. Se o remover apenas desta instância, as substituições serão ativadas e esta instância deixará de receber as alterações sincronizadas para estes tipos de conteúdo."
   },

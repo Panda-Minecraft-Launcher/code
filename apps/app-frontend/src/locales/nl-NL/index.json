@@ -3293,12 +3293,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Log in om skins toe te passen."
   },
-  "app.skins.demo.description": {
-    "message": "Meld je aan bij je Minecraft-account om skins op te slaan en toe te passen!"
-  },
-  "app.skins.demo.title": {
-    "message": "Bewerken met een demo-account"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Kan het neergezette bestand niet lezen."
   },
@@ -3430,12 +3424,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Wilderness Bound"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Aanmelden bij Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Skinkiezer"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Uitschakelen"

@@ -3335,12 +3335,6 @@
   "app.skins.demo.apply-tooltip": {
     "message": "Inicia sesión para aplicar skins."
   },
-  "app.skins.demo.description": {
-    "message": "¡Inicia sesión en tu cuenta de Minecraft para guardar y aplicar skins!"
-  },
-  "app.skins.demo.title": {
-    "message": "Editando con una cuenta de demostración"
-  },
   "app.skins.dropped-file-error.text": {
     "message": "Error al leer el archivo arrastrado."
   },
@@ -3472,12 +3466,6 @@
   },
   "app.skins.section.wilderness-bound": {
     "message": "Naturaleza Salvaje"
-  },
-  "app.skins.sign-in.button": {
-    "message": "Inicia sesión en Microsoft"
-  },
-  "app.skins.title": {
-    "message": "Selector de skin"
   },
   "app.skins.toggle-ears-features-off": {
     "message": "Desactivar"
