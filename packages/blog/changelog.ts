@@ -13,7 +13,7 @@ const VERSIONS: VersionEntry[] = [
 	{
 		date: `2026-11-21T12:00:00+00:00`,
 		product: 'app',
-		version: '1.0.0',
+		version: '0.0.1',
 		body: `## Changed
 - Uygulama Panda Minecraft Launcher olarak yeniden markalandı: açılış ekranı, sol üstteki Minecraft yazısı, klasik çimen blok ikonu, pencere başlıkları ve ürün adı geçen tüm arayüz metinleri güncellendi.
 - Varsayılan veri dizini kullanıcı ev dizinine taşındı: Windows C:/Users/<kullanıcı>/PandaMinecraftLauncher, macOS/Linux ~/PandaMinecraftLauncher. Java kurulumları java_versions/, oyun sürümleri versions/ altına, veritabanı yedekleri Backups/app-db altına alındı.
