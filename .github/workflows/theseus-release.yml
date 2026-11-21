@@ -3,6 +3,18 @@ on:
   workflow_run:
     workflows: ['Panda Minecraft Launcher build']
     types: [completed]
+  workflow_dispatch:
+    inputs:
+      version_tag:
+        description: Tag to release
+        type: string
+        required: true
+        default: v0.0.1
+      build_run_id:
+        description: Successful build run ID with the artifacts
+        type: string
+        required: true
+        default: '44886369346'
 
 permissions:
   contents: write
@@ -16,12 +28,14 @@ jobs:
   release:
     name: Release Panda Minecraft Launcher
     if: >-
-      github.event.workflow_run.conclusion == 'success' &&
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.event == 'push' &&
-      startsWith(github.event.workflow_run.head_branch, 'v')
+      startsWith(github.event.workflow_run.head_branch, 'v'))
     runs-on: ubuntu-latest
     env:
-      VERSION_TAG: ${{ github.event.workflow_run.head_branch }}
+      VERSION_TAG: ${{ github.event.workflow_run.head_branch || inputs.version_tag }}
+      BUILD_RUN_ID: ${{ github.event.workflow_run.id || inputs.build_run_id }}
       LINUX_X64_BUNDLE_ARTIFACT_NAME: App bundle (x86_64-unknown-linux-gnu)
       WINDOWS_X64_BUNDLE_ARTIFACT_NAME: App bundle (x86_64-pc-windows-msvc)
 
@@ -39,19 +53,19 @@ jobs:
             echo "::error::${VERSION_TAG} is not a git tag in this repo"
             exit 1
           fi
-          if [ "$tag_sha" != "$HEAD_SHA" ]; then
+          if [ -n "$HEAD_SHA" ] && [ "$tag_sha" != "$HEAD_SHA" ]; then
             commit_sha=$(gh api "repos/${{ github.repository }}/git/tags/${tag_sha}" --jq '.object.sha' 2>/dev/null || echo "$tag_sha")
             if [ "$commit_sha" != "$HEAD_SHA" ]; then
               echo "::error::Tag ${VERSION_TAG} (${commit_sha}) does not match build head_sha (${HEAD_SHA})"
               exit 1
             fi
           fi
-          echo "Verified ${VERSION_TAG} is a tag pointing at ${HEAD_SHA}"
+          echo "Verified ${VERSION_TAG} is a tag pointing at ${HEAD_SHA:-${tag_sha}}"
 
       - name: Download Panda Minecraft Launcher artifacts
         uses: dawidd6/action-download-artifact@a92c7ae74cf1df8810783758581e485ac3aaa309 # v28
         with:
-          run_id: ${{ github.event.workflow_run.id }}
+          run_id: ${{ env.BUILD_RUN_ID }}
           use_unzip: true
 
       - name: Extract app changelog
