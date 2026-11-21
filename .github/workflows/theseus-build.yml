@@ -1,4 +1,4 @@
-name: Modrinth App build
+name: Panda Minecraft Launcher build
 on:
   push:
     branches:
@@ -124,9 +124,9 @@ jobs:
           GIT_HASH=$(git rev-parse --short HEAD)
           cat > apps/app/tauri-dev.conf.json <<EOF
           {
-            "productName": "Modrinth App (dev-${GIT_HASH})",
-            "mainBinaryName": "Modrinth App (dev-${GIT_HASH})",
-            "identifier": "ModrinthApp-dev-${GIT_HASH}",
+            "productName": "Panda Minecraft Launcher (dev-${GIT_HASH})",
+            "mainBinaryName": "Panda Minecraft Launcher (dev-${GIT_HASH})",
+            "identifier": "PandaMinecraftLauncher-dev-${GIT_HASH}",
             "bundle": {
               "fileAssociations": []
             }
@@ -233,22 +233,22 @@ jobs:
         with:
           name: App bundle (${{ matrix.artifact-target-name }})
           path: |
-            target/release/bundle/appimage/Modrinth App_*.AppImage*
-            target/release/bundle/deb/Modrinth App_*.deb*
-            target/release/bundle/rpm/Modrinth App-*.rpm*
-            target/release-with-thin-lto/bundle/appimage/Modrinth App (dev-*)_*.AppImage*
-            target/release-with-thin-lto/bundle/deb/Modrinth App (dev-*)_*.deb*
-            target/release-with-thin-lto/bundle/rpm/Modrinth App (dev-*)-*.rpm*
-            target/universal-apple-darwin/release/bundle/macos/Modrinth App.app.tar.gz*
-            target/universal-apple-darwin/release-with-thin-lto/bundle/macos/Modrinth App (dev-*)*.app.tar.gz
-            target/universal-apple-darwin/release-with-thin-lto/bundle/dmg/Modrinth App (dev-*)*.dmg
-            target/universal-apple-darwin/release/bundle/dmg/Modrinth App_*.dmg*
-            target/release/bundle/nsis/Modrinth App_*-setup.exe*
-            target/release-with-thin-lto/bundle/nsis/Modrinth App (dev-*)_*-setup.exe*
-            target/release/bundle/nsis/Modrinth App_*-setup.nsis.zip*
-            target/aarch64-pc-windows-msvc/release/bundle/nsis/Modrinth App_*-setup.exe*
-            target/aarch64-pc-windows-msvc/release-with-thin-lto/bundle/nsis/Modrinth App (dev-*)_*-setup.exe*
-            target/aarch64-pc-windows-msvc/release/bundle/nsis/Modrinth App_*-setup.nsis.zip*
+            target/release/bundle/appimage/Panda Minecraft Launcher_*.AppImage*
+            target/release/bundle/deb/Panda Minecraft Launcher_*.deb*
+            target/release/bundle/rpm/Panda Minecraft Launcher-*.rpm*
+            target/release-with-thin-lto/bundle/appimage/Panda Minecraft Launcher (dev-*)_*.AppImage*
+            target/release-with-thin-lto/bundle/deb/Panda Minecraft Launcher (dev-*)_*.deb*
+            target/release-with-thin-lto/bundle/rpm/Panda Minecraft Launcher (dev-*)-*.rpm*
+            target/universal-apple-darwin/release/bundle/macos/Panda Minecraft Launcher.app.tar.gz*
+            target/universal-apple-darwin/release-with-thin-lto/bundle/macos/Panda Minecraft Launcher (dev-*)*.app.tar.gz
+            target/universal-apple-darwin/release-with-thin-lto/bundle/dmg/Panda Minecraft Launcher (dev-*)*.dmg
+            target/universal-apple-darwin/release/bundle/dmg/Panda Minecraft Launcher_*.dmg*
+            target/release/bundle/nsis/Panda Minecraft Launcher_*-setup.exe*
+            target/release-with-thin-lto/bundle/nsis/Panda Minecraft Launcher (dev-*)_*-setup.exe*
+            target/release/bundle/nsis/Panda Minecraft Launcher_*-setup.nsis.zip*
+            target/aarch64-pc-windows-msvc/release/bundle/nsis/Panda Minecraft Launcher_*-setup.exe*
+            target/aarch64-pc-windows-msvc/release-with-thin-lto/bundle/nsis/Panda Minecraft Launcher (dev-*)_*-setup.exe*
+            target/aarch64-pc-windows-msvc/release/bundle/nsis/Panda Minecraft Launcher_*-setup.nsis.zip*
 
       - name: Remove bundles from cached target directory
         if: always()
