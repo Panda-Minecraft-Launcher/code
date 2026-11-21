@@ -5400,7 +5400,7 @@
     "defaultMessage": "Rezultati pretrage"
   },
   "settings.language.description": {
-    "defaultMessage": "Izaberi željeni jezik za {platform}. Prevode doprinose volonteri <crowdin-link>na Crowdin-u</crowdin-link>."
+    "defaultMessage": "Izaberi željeni jezik za {platform}. Prevode doprinose volonteri na Crowdin-u."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Pretraži jezik..."

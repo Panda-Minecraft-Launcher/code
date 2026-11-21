@@ -2343,7 +2343,7 @@
     "defaultMessage": "Søkeresultater"
   },
   "settings.language.description": {
-    "defaultMessage": "Velg ditt foretrukne språk for {platform}. Oversettelsene er bidratt av frivillige <crowdin-link>på Crowdin</crowdin-link>."
+    "defaultMessage": "Velg ditt foretrukne språk for {platform}. Oversettelsene er bidratt av frivillige på Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Søk etter et språk..."

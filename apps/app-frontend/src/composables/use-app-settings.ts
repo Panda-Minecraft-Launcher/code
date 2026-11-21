@@ -49,7 +49,7 @@ const appSettings = reactive({
 	syncBehaviorAcrossDevices,
 	syncFeaturesAcrossDevices,
 	hideNametagSkinsPage: false,
-	sidebarOnRight: true,
+	sidebarOnRight: false,
 	showFilesTabInInstances: true,
 	showWorldsTabInInstances: true,
 	showScreenshotsTabInInstances: true,

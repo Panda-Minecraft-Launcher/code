@@ -4113,7 +4113,7 @@
     "defaultMessage": "Hasil carian"
   },
   "settings.language.description": {
-    "defaultMessage": "Pilih bahasa pilihan anda untuk {platform} ini. Terjemahan telah disumbangkan oleh sukarelawan <crowdin-link>di Crowdin</crowdin-link>."
+    "defaultMessage": "Pilih bahasa pilihan anda untuk {platform} ini. Terjemahan telah disumbangkan oleh sukarelawan di Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Cari bahasa..."

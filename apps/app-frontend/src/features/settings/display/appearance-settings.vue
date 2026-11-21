@@ -2,7 +2,6 @@
 import {
 	AppearanceSettingsLayout,
 	defineMessages,
-	injectAuth,
 	injectUserPreferences,
 	provideAppearanceSettings,
 	SegmentedControl,
@@ -19,7 +18,6 @@ import { type AppSettings, get, set } from '@/helpers/settings.ts'
 
 const theme = useTheme()
 const appSettings = useAppSettings()
-const auth = injectAuth()
 const { updatePreferences } = injectUserPreferences()
 const settingsModal = injectAppSettingsModal()
 const os = platform()
@@ -46,7 +44,6 @@ const messages = defineMessages({
 
 type AppearanceSettingsState = {
 	theme: ColorTheme
-	syncAcrossDevices: boolean
 	advancedRendering: boolean
 	nativeDecorations: boolean
 	sidebarOnRight: boolean
@@ -55,7 +52,6 @@ type AppearanceSettingsState = {
 function getAppearanceSettingsState(): AppearanceSettingsState {
 	return {
 		theme: theme.preferred,
-		syncAcrossDevices: theme.syncAcrossDevices,
 		advancedRendering: theme.advancedRendering,
 		nativeDecorations: appSettings.nativeDecorations,
 		sidebarOnRight: appSettings.sidebarOnRight,
@@ -64,22 +60,11 @@ function getAppearanceSettingsState(): AppearanceSettingsState {
 
 const { saved, current, changes, saving, hasChanges, reset, save } = useSavable(
 	getAppearanceSettingsState,
-	async (appearanceChanges) => {
+	async () => {
 		const value = current.value
-		if (
-			value.syncAcrossDevices &&
-			auth.user.value &&
-			(appearanceChanges.theme !== undefined || appearanceChanges.syncAcrossDevices !== undefined)
-		) {
-			await updatePreferences({
-				appearance: value.theme === 'system' ? { auto: true } : { auto: false, theme: value.theme },
-			})
-		}
-
 		const nextSettings: AppSettings = {
 			...(await get()),
 			theme: value.theme,
-			sync_theme_across_devices: value.syncAcrossDevices,
 			advanced_rendering: value.advancedRendering,
 			native_decorations: value.nativeDecorations,
 			sidebar_on_right: value.sidebarOnRight,
@@ -90,7 +75,6 @@ const { saved, current, changes, saving, hasChanges, reset, save } = useSavable(
 			theme.preferredDark = value.theme
 		}
 		theme.preferred = value.theme
-		theme.syncAcrossDevices = value.syncAcrossDevices
 		theme.advancedRendering = value.advancedRendering
 		appSettings.nativeDecorations = value.nativeDecorations
 		appSettings.sidebarOnRight = value.sidebarOnRight
@@ -111,10 +95,6 @@ function setTheme(value: ColorTheme): void {
 	current.value.theme = value
 }
 
-function setSyncAcrossDevices(enabled: boolean): void {
-	current.value.syncAcrossDevices = enabled
-}
-
 function setAdvancedRendering(enabled: boolean): void {
 	current.value.advancedRendering = enabled
 }
@@ -123,7 +103,7 @@ function setNativeDecorations(enabled: boolean): void {
 	current.value.nativeDecorations = enabled
 }
 
-const sidebarPositions: boolean[] = [true, false]
+const sidebarPositions: boolean[] = [false, true]
 
 function formatSidebarPosition(onRight: boolean): string {
 	return formatMessage(onRight ? messages.sidebarPositionRight : messages.sidebarPositionLeft)
@@ -169,11 +149,6 @@ provideAppearanceSettings({
 		system: computed(() => (theme.native === 'light' ? 'light' : preferredDarkTheme.value)),
 		preferredDark: preferredDarkTheme,
 		set: setTheme,
-		syncAcrossDevices: {
-			value: computed(() => current.value.syncAcrossDevices),
-			set: setSyncAcrossDevices,
-		},
-		syncDisabled: computed(() => !auth.user.value),
 	},
 	advancedRendering: {
 		value: computed(() => current.value.advancedRendering),
@@ -191,30 +166,32 @@ provideAppearanceSettings({
 </script>
 
 <template>
-	<AppearanceSettingsLayout />
-
-	<section class="mt-8 border-0 border-t border-solid border-divider pt-6">
-		<div class="flex items-center justify-between gap-4">
-			<div class="min-w-0">
-				<h2 class="m-0 text-lg font-semibold text-contrast">
-					{{ formatMessage(messages.sidebarPositionTitle) }}
-				</h2>
-				<p id="sidebar-position-description" class="m-0 mt-1 text-secondary">
-					{{ formatMessage(messages.sidebarPositionDescription) }}
-				</p>
-			</div>
-			<SegmentedControl
-				:model-value="current.sidebarOnRight"
-				:items="sidebarPositions"
-				:format-label="(item: unknown) => formatSidebarPosition(Boolean(item))"
-				:aria-label="formatMessage(messages.sidebarPositionTitle)"
-				aria-describedby="sidebar-position-description"
-				@update:model-value="
-					(value) => {
-						if (typeof value === 'boolean') current.sidebarOnRight = value
-					}
-				"
-			/>
-		</div>
-	</section>
+	<AppearanceSettingsLayout>
+		<template #after-theme>
+			<section class="mt-6">
+				<div class="flex items-center justify-between gap-4">
+					<div class="min-w-0">
+						<h2 class="m-0 text-lg font-semibold text-contrast">
+							{{ formatMessage(messages.sidebarPositionTitle) }}
+						</h2>
+						<p id="sidebar-position-description" class="m-0 mt-1 text-secondary">
+							{{ formatMessage(messages.sidebarPositionDescription) }}
+						</p>
+					</div>
+					<SegmentedControl
+						:model-value="current.sidebarOnRight"
+						:items="sidebarPositions"
+						:format-label="(item: unknown) => formatSidebarPosition(Boolean(item))"
+						:aria-label="formatMessage(messages.sidebarPositionTitle)"
+						aria-describedby="sidebar-position-description"
+						@update:model-value="
+							(value) => {
+								if (typeof value === 'boolean') current.sidebarOnRight = value
+							}
+						"
+					/>
+				</div>
+			</section>
+		</template>
+	</AppearanceSettingsLayout>
 </template>

@@ -6135,7 +6135,7 @@
     "defaultMessage": "Runt {percentage} % av webbsidan finns tillgängligt i det här språket."
   },
   "settings.language.description": {
-    "defaultMessage": "Välj språk för {platform}n. Översättningar görs av volontärer <crowdin-link>på Crowdin</crowdin-link>."
+    "defaultMessage": "Välj språk för {platform}n. Översättningar görs av volontärer på Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Sök efter ett språk..."

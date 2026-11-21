@@ -5925,7 +5925,7 @@
     "defaultMessage": "Ongeveer {percentage}% van de Panda Minecraft Launcher is beschikbaar in deze taal."
   },
   "settings.language.description": {
-    "defaultMessage": "Kies de taal van je voorkeur voor het/de {platform}. De vertalingen worden aangeleverd door vrijwilligers <crowdin-link>op Crowdin</crowdin-link>."
+    "defaultMessage": "Kies de taal van je voorkeur voor het/de {platform}. De vertalingen worden aangeleverd door vrijwilligers op Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Een taal zoeken..."

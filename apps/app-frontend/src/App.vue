@@ -93,7 +93,7 @@ import { useAppSettings } from '@/composables/use-app-settings.ts'
 import { setErrorRouter, useError } from '@/composables/use-error.js'
 import { useInstanceMetadataRefresh } from '@/composables/use-instance-metadata-refresh'
 import { useQuickInstanceLimit } from '@/composables/use-quick-instance-limit.ts'
-import { isDarkTheme, useTheme } from '@/composables/use-theme.ts'
+import { useTheme } from '@/composables/use-theme.ts'
 import { config } from '@/config'
 import ServerPlayHandler from '@/features/hosting/play-handler.vue'
 import { prefetchHostingData } from '@/features/hosting/prefetch'
@@ -212,7 +212,6 @@ const INTERCOM_BUBBLE_DEFAULT_PADDING = 20
 const credentials = ref()
 const storedModrinthAccounts = ref([])
 let credentialsRefreshId = 0
-const sidebarToggled = ref(true)
 const navTooltipSide = computed(() => (appSettings.sidebarOnRight ? 'left' : 'right'))
 const forceSidebar = computed(
 	() =>
@@ -220,7 +219,7 @@ const forceSidebar = computed(
 		route.path.startsWith('/project') ||
 		route.path.startsWith('/user'),
 )
-const sidebarVisible = computed(() => sidebarToggled.value || forceSidebar.value)
+const sidebarVisible = forceSidebar
 const fabSidebarOffset = computed(() =>
 	sidebarVisible.value
 		? `calc(${APP_LEFT_NAV_WIDTH} + ${APP_SIDEBAR_WIDTH}px)`
@@ -590,7 +589,6 @@ async function setupApp() {
 		hide_nametag_skins_page,
 		advanced_rendering,
 		sidebar_on_right,
-		sync_theme_across_devices,
 		sync_behavior_across_devices,
 		sync_features_across_devices,
 		show_files_tab_in_instances,
@@ -641,7 +639,6 @@ async function setupApp() {
 
 	appTheme.preferred = theme
 	appTheme.advancedRendering = advanced_rendering
-	appTheme.syncAcrossDevices = sync_theme_across_devices
 	appSettings.syncBehaviorAcrossDevices = sync_behavior_across_devices
 	appSettings.syncFeaturesAcrossDevices = sync_features_across_devices
 	appSettings.hideNametagSkinsPage = hide_nametag_skins_page
@@ -886,29 +883,18 @@ watch(
 		userPreferencesSync = userPreferencesSync
 			.then(async () => {
 				const settings = await getSettings()
-				const selectedTheme = preferences.appearance.auto ? 'system' : preferences.appearance.theme
 				const userId = credentials.value?.user_id ?? credentials.value?.user?.id
 				if (userId) {
 					rememberAccountAppearance(userId, preferences.appearance)
-				}
-				if (appTheme.syncAcrossDevices && isDarkTheme(preferences.appearance.theme)) {
-					appTheme.preferredDark = preferences.appearance.theme
 				}
 				const locale = preferences.localization.locale
 				const behavior = preferences.behavior
 				let settingsChanged = false
 
-				if (appTheme.syncAcrossDevices && appTheme.preferred !== selectedTheme) {
-					appTheme.preferred = selectedTheme
-				}
 				if (i18n.global.locale.value !== locale) {
 					await setLocale(locale)
 				}
 
-				if (appTheme.syncAcrossDevices && settings.theme !== selectedTheme) {
-					settings.theme = selectedTheme
-					settingsChanged = true
-				}
 				if (settings.locale !== locale) {
 					settings.locale = locale
 					settingsChanged = true
@@ -1987,13 +1973,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				<LogInIcon class="text-brand" />
 			</NavButton>
 		</div>
-		<AppTitleBar
-			:can-navigate-back="canNavigateBack"
-			:can-navigate-forward="canNavigateForward"
-			:show-sidebar-toggle="!forceSidebar"
-			:sidebar-toggled="sidebarToggled"
-			@toggle-sidebar="sidebarToggled = !sidebarToggled"
-		/>
+		<AppTitleBar :can-navigate-back="canNavigateBack" :can-navigate-forward="canNavigateForward" />
 	</div>
 	<div
 		v-if="stateInitialized"
@@ -2143,6 +2123,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	&.sidebar-on-left {
 		grid-template: 'status status' 'nav dummy';
 		grid-template-columns: auto 1fr;
+		grid-template-rows: auto minmax(0, 1fr);
 	}
 }
 

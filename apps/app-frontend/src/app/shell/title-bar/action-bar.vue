@@ -19,17 +19,10 @@
 		<AppUpdateButton />
 		<div
 			class="flex border-solid border-surface-5 text-sm font-medium items-center rounded-xl border"
-			:class="selectedProcess ? 'gap-2 py-1.5 px-3' : 'p-1.5'"
+			:class="selectedProcess ? 'gap-2 py-1.5 px-2' : 'p-1.5'"
 		>
 			<template v-if="selectedProcess">
 				<span class="size-2 shrink-0 rounded-full bg-brand" />
-				<button
-					v-tooltip="formatMessage(messages.viewLogs)"
-					class="active:scale-95 flex"
-					@click="goToTerminal()"
-				>
-					<TerminalSquareIcon class="text-secondary size-5" />
-				</button>
 				<FloatingMenu
 					placement="bottom"
 					@open="showInstances = true"
@@ -59,25 +52,9 @@
 								:key="process.uuid"
 								class="flex w-full items-center gap-2 rounded-xl bg-surface-4 p-2 text-sm"
 							>
-								<button
-									v-tooltip.left="
-										process.uuid === selectedProcess.uuid
-											? formatMessage(messages.primaryInstance)
-											: formatMessage(messages.makePrimaryInstance)
-									"
-									class="flex flex-grow items-center gap-2"
-									:class="{
-										'active:scale-95 transition-transform': process.uuid !== selectedProcess.uuid,
-									}"
-									:disabled="process.uuid === selectedProcess.uuid"
-									@click="selectProcess(process)"
-								>
-									<span class="size-2 shrink-0 rounded-full bg-brand" />
-									<span class="mr-auto text-contrast flex items-center gap-2">
-										{{ process.instance.name }}
-										<StarIcon v-if="process.uuid === selectedProcess.uuid" class="text-orange" />
-									</span>
-								</button>
+								<span class="mr-auto text-contrast">
+									{{ process.instance.name }}
+								</span>
 								<button
 									v-tooltip="formatMessage(messages.stopInstance)"
 									class="active:scale-95 flex"
@@ -108,7 +85,6 @@
 import {
 	DownloadIcon,
 	DropdownIcon,
-	StarIcon,
 	StopCircleIcon,
 	TerminalSquareIcon,
 	UnplugIcon,
@@ -162,14 +138,6 @@ const messages = defineMessages({
 	hideMoreRunningInstances: {
 		id: 'app.action-bar.hide-more-running-instances',
 		defaultMessage: 'Hide more running instances',
-	},
-	primaryInstance: {
-		id: 'app.action-bar.primary-instance',
-		defaultMessage: 'Primary instance',
-	},
-	makePrimaryInstance: {
-		id: 'app.action-bar.make-primary-instance',
-		defaultMessage: 'Make primary instance',
 	},
 	stopInstance: {
 		id: 'app.action-bar.stop-instance',
@@ -473,10 +441,6 @@ useAppEvent('loading', async () => {
 
 function openDownloadToast() {
 	updateNotification(true)
-}
-
-function selectProcess(process: RunningProcess) {
-	selectedProcess.value = process
 }
 
 onBeforeUnmount(() => {

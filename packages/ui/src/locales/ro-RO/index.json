@@ -3084,7 +3084,7 @@
     "defaultMessage": "Rezultate gasite"
   },
   "settings.language.description": {
-    "defaultMessage": "Alege limba preferata pentru {platform}. Traducerile sunt contribuite de voluntari <crowdin-link>de pe Crowdin</crowdin-link>."
+    "defaultMessage": "Alege limba preferata pentru {platform}. Traducerile sunt contribuite de voluntari de pe Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Cauta o limba..."

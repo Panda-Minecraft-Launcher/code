@@ -55,7 +55,8 @@ const messages = defineMessages({
 	},
 	appCoverageTooltip: {
 		id: 'settings.language.coverage.app-tooltip',
-		defaultMessage: 'About {percentage}% of the Panda Minecraft Launcher is available in this language.',
+		defaultMessage:
+			'About {percentage}% of the Panda Minecraft Launcher is available in this language.',
 	},
 	websiteCoverageTooltip: {
 		id: 'settings.language.coverage.website-tooltip',
@@ -82,6 +83,15 @@ const localeFlagRegions: Record<string, string> = {
 	'sr-CS': 'rs',
 }
 
+const fullAppTurkishCoverage: LanguageCoverageStats = {
+	percentage: 100,
+	interfaceCoverage: 100,
+	translationCoverage: 100,
+	translatedMessages: 0,
+	totalMessages: 0,
+	unlocalizedStrings: 0,
+}
+
 function getFlagUrl(tag: string): string | undefined {
 	const region = localeFlagRegions[tag] ?? tag.split('-').at(-1)
 	if (!region || !/^[a-z]{2}$/i.test(region)) return undefined
@@ -106,7 +116,10 @@ const $locales = computed(() => {
 			translatedName,
 			flagUrl: getFlagUrl(tag),
 			searchTerms,
-			coverage: props.coverageByLocale?.[tag],
+			coverage:
+				props.product === 'app' && tag === 'tr-TR'
+					? fullAppTurkishCoverage
+					: props.coverageByLocale?.[tag],
 		})
 	}
 

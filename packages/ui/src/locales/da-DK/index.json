@@ -2019,7 +2019,7 @@
     "defaultMessage": "Søgeresultater"
   },
   "settings.language.description": {
-    "defaultMessage": "Vælg dit foretrukne sprog for {platform}. Oversættelser leveres af frivillige <crowdin-link>på Crowdin</crowdin-link>."
+    "defaultMessage": "Vælg dit foretrukne sprog for {platform}. Oversættelser leveres af frivillige på Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Søg efter et sprog..."

@@ -2160,7 +2160,7 @@
     "defaultMessage": "Mga resulta ng paghanap"
   },
   "settings.language.description": {
-    "defaultMessage": "Piliin ang iyong ninanais na wiki para sa {platform}. Ambag ng mga boluntaryo <crowdin-link>galing sa Crowdin</crowdin-link> ang mga pagsasalin."
+    "defaultMessage": "Piliin ang iyong ninanais na wiki para sa {platform}. Ambag ng mga boluntaryo galing sa Crowdin ang mga pagsasalin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Maghanap ng wika..."

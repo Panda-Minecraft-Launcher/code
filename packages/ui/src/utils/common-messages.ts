@@ -1274,7 +1274,7 @@ export const languageSelectorMessages = defineMessages({
 	languagesDescription: {
 		id: 'settings.language.description',
 		defaultMessage:
-			'Choose your preferred language for the {platform}. Translations are contributed by volunteers <crowdin-link>on Crowdin</crowdin-link>.',
+			'Choose your preferred language for the {platform}. Translations are contributed by volunteers.',
 	},
 	languageWarning: {
 		id: 'settings.language.warning',

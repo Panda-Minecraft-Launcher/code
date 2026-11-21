@@ -7419,7 +7419,7 @@
     "defaultMessage": "Близько {percentage}% вебсайту доступно цією мовою."
   },
   "settings.language.description": {
-    "defaultMessage": "Виберіть бажану мову {platform}. Переклади виконуються добровольцями <crowdin-link>на Crowdin</crowdin-link>."
+    "defaultMessage": "Виберіть бажану мову {platform}. Переклади виконуються добровольцями на Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Пошук мови…"

@@ -95,14 +95,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Updating shared content"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Make primary instance"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Primary instance"
   },
   "app.action-bar.reload-to-update": {
     "message": "Reload to update"
@@ -1603,9 +1597,6 @@
   },
   "app.navigation.home": {
     "message": "Home"
-  },
-  "app.navigation.next-image": {
-    "message": "Next image"
   },
   "app.news.title": {
     "message": "News"

@@ -1,14 +1,7 @@
 <script setup lang="ts">
-import {
-	ChevronLeftIcon,
-	ChevronRightIcon,
-	LegacyGrassBlockIcon,
-	RightArrowIcon,
-} from '@modrinth/assets'
+import { ChevronLeftIcon, ChevronRightIcon, LegacyGrassBlockIcon } from '@modrinth/assets'
 import { defineMessages, IconButton, useVIntl } from '@modrinth/ui'
 import { useRouter } from 'vue-router'
-
-import { useAppSettings } from '@/composables/use-app-settings.ts'
 
 import AppActionBar from './action-bar.vue'
 import Breadcrumbs from './breadcrumbs.vue'
@@ -17,21 +10,13 @@ import WindowControls from './window-controls.vue'
 defineProps<{
 	canNavigateBack: boolean
 	canNavigateForward: boolean
-	showSidebarToggle: boolean
-	sidebarToggled: boolean
-}>()
-
-const emit = defineEmits<{
-	'toggle-sidebar': []
 }>()
 
 const router = useRouter()
-const appSettings = useAppSettings()
 const { formatMessage } = useVIntl()
 const messages = defineMessages({
 	goBack: { id: 'app.navigation.go-back', defaultMessage: 'Go back' },
 	goForward: { id: 'app.navigation.go-forward', defaultMessage: 'Go forward' },
-	nextImage: { id: 'app.navigation.next-image', defaultMessage: 'Next image' },
 	wordmark: { id: 'app.title-bar.wordmark', defaultMessage: 'Minecraft' },
 })
 </script>
@@ -80,16 +65,6 @@ const messages = defineMessages({
 			</div>
 		</div>
 		<section data-tauri-drag-region class="flex shrink-0 ml-auto items-center">
-			<IconButton
-				v-if="showSidebarToggle"
-				:type="sidebarToggled ? 'base' : 'quiet'"
-				:label="formatMessage(messages.nextImage)"
-				class="mr-3 transition-transform"
-				:class="{ 'rotate-180': appSettings.sidebarOnRight ? !sidebarToggled : sidebarToggled }"
-				@click="emit('toggle-sidebar')"
-			>
-				<RightArrowIcon />
-			</IconButton>
 			<div class="flex mr-3">
 				<Suspense>
 					<AppActionBar />

@@ -7500,7 +7500,7 @@
     "defaultMessage": "About {percentage}% of the website is available in this language."
   },
   "settings.language.description": {
-    "defaultMessage": "Choose your preferred language for the {platform}. Translations are contributed by volunteers <crowdin-link>on Crowdin</crowdin-link>."
+    "defaultMessage": "Choose your preferred language for the {platform}. Translations are contributed by volunteers."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Search for a language..."

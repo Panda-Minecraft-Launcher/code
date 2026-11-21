@@ -16,8 +16,8 @@ const currentTheme = theme.current
 const themeOptions = theme.options
 const systemTheme = theme.system
 const preferredDarkTheme = theme.preferredDark
-const syncAcrossDevices = theme.syncAcrossDevices.value
-const syncDisabled = theme.syncAcrossDevices.disabled
+const syncAcrossDevices = theme.syncAcrossDevices?.value
+const syncDisabled = theme.syncAcrossDevices?.disabled
 const advancedRendering = appearance.advancedRendering.value
 const nativeDecorations = appearance.nativeDecorations
 const nativeDecorationsValue = nativeDecorations?.value
@@ -52,6 +52,7 @@ const sidebarPreferenceValues = sidebarPreferences?.value
 			/>
 
 			<AppearanceSettingRow
+				v-if="theme.syncAcrossDevices"
 				class="mt-6"
 				control-id="sync-theme-across-devices"
 				:heading-level="3"
@@ -70,12 +71,14 @@ const sidebarPreferenceValues = sidebarPreferences?.value
 							:model-value="syncDisabled ? false : syncAcrossDevices"
 							:disabled="syncDisabled"
 							:aria-labelledby="labelledBy"
-							@update:model-value="theme.syncAcrossDevices.update"
+							@update:model-value="theme.syncAcrossDevices?.update"
 						/>
 					</span>
 				</template>
 			</AppearanceSettingRow>
 		</section>
+
+		<slot name="after-theme" />
 
 		<section v-if="projectLayouts" class="mt-8 border-0 border-t border-solid border-divider pt-6">
 			<div class="flex flex-col gap-1">

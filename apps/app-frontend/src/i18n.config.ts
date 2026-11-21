@@ -1,9 +1,4 @@
-import {
-	buildLocaleMessages,
-	createMessageCompiler,
-	type CrowdinMessages,
-	LOCALES,
-} from '@modrinth/ui'
+import { buildLocaleMessages, createMessageCompiler, type CrowdinMessages } from '@modrinth/ui'
 import englishUi from '@modrinth/ui/src/locales/en-US/index.json'
 import { createI18n } from 'vue-i18n'
 
@@ -44,9 +39,7 @@ async function fetchMessages(url: string): Promise<CrowdinMessages> {
 
 export async function setLocale(requestedLocale: string): Promise<void> {
 	const request = ++localeRequest
-	const locale = LOCALES.some((candidate) => candidate.code === requestedLocale)
-		? requestedLocale
-		: 'en-US'
+	const locale = ['tr-TR', 'en-US'].includes(requestedLocale) ? requestedLocale : 'en-US'
 	if (locale !== 'en-US' && locale !== i18n.global.locale.value) {
 		let pending = pendingLocales.get(locale)
 		if (!pending) {

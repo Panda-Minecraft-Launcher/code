@@ -4614,7 +4614,7 @@
     "defaultMessage": "Přibližně {percentage}% webu je k dispozici v tomto jazyce."
   },
   "settings.language.description": {
-    "defaultMessage": "Vyberte svůj preferovaný jazyk pro {platform}. Překlady jsou vytvářeny dobrovolníky na <crowdin-link>Crowdin</crowdin-link>."
+    "defaultMessage": "Vyberte svůj preferovaný jazyk pro {platform}. Překlady jsou vytvářeny dobrovolníky na Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Hledat jazyk..."

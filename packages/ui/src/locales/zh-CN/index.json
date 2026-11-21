@@ -6735,7 +6735,7 @@
     "defaultMessage": "该语言的网站翻译完成度约为 {percentage}%。"
   },
   "settings.language.description": {
-    "defaultMessage": "选择你偏好的{platform}语言。翻译工作由志愿者在 <crowdin-link>Crowdin</crowdin-link> 上完成。"
+    "defaultMessage": "选择你偏好的{platform}语言。翻译工作由志愿者在 Crowdin 上完成。"
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "搜索语言..."

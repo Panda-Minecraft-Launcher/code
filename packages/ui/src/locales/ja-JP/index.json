@@ -5598,7 +5598,7 @@
     "defaultMessage": "ウェブサイトの約{percentage}%がこの言語で利用可能です。"
   },
   "settings.language.description": {
-    "defaultMessage": "{platform}で使用する言語を選択してください。翻訳は<crowdin-link>Crowdin</crowdin-link>のボランティアによって提供されています。"
+    "defaultMessage": "{platform}で使用する言語を選択してください。翻訳はCrowdinのボランティアによって提供されています。"
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "言語を検索..."

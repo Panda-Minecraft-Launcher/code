@@ -95,14 +95,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Paylaşılmış içerik güncelleniyor"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Birincil kurulum yap"
-  },
   "app.action-bar.offline": {
     "message": "Çevrimdışı"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Birincil kurulum"
   },
   "app.action-bar.reload-to-update": {
     "message": "Güncellemek için yeniden yükle"
@@ -1603,9 +1597,6 @@
   },
   "app.navigation.home": {
     "message": "Ana Sayfa"
-  },
-  "app.navigation.next-image": {
-    "message": "Sonraki görsel"
   },
   "app.news.title": {
     "message": "Haberler"

@@ -2400,7 +2400,7 @@
     "defaultMessage": "Resultados da pesquisa"
   },
   "settings.language.description": {
-    "defaultMessage": "Escolhe a tua língua preferida para a {platform}. Traduções são contribuídas por voluntários <crowdin-link>no Crowdin</crowdin-link>."
+    "defaultMessage": "Escolhe a tua língua preferida para a {platform}. Traduções são contribuídas por voluntários no Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Pesquisar uma língua..."

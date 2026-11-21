@@ -7467,7 +7467,7 @@
     "defaultMessage": "Cerca de {percentage}% do site está disponível neste idioma."
   },
   "settings.language.description": {
-    "defaultMessage": "Escolha o seu idioma para o {platform}. As traduções são realizadas por voluntários no <crowdin-link>Crowdin</crowdin-link>."
+    "defaultMessage": "Escolha o seu idioma para o {platform}. As traduções são realizadas por voluntários no Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Buscar um idioma..."

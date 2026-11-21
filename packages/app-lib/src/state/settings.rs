@@ -19,7 +19,7 @@ pub struct Settings {
     pub hide_nametag_skins_page: bool,
     pub advanced_rendering: bool,
     pub native_decorations: bool,
-    #[serde(default = "default_true")]
+    #[serde(default)]
     pub sidebar_on_right: bool,
     pub sync_theme_across_devices: bool,
     pub sync_behavior_across_devices: bool,

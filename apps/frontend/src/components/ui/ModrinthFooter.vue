@@ -172,13 +172,6 @@ const footerLinks: {
 				}),
 			},
 			{
-				href: 'https://translate.modrinth.com',
-				label: defineMessage({
-					id: 'layout.footer.resources.translate',
-					defaultMessage: 'Translate',
-				}),
-			},
-			{
 				href: 'https://github.com/modrinth/code/issues',
 				label: defineMessage({
 					id: 'layout.footer.resources.report-issues',

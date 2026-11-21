@@ -6255,7 +6255,7 @@
     "defaultMessage": "Environ {percentage}% du site est disponible dans cette langue."
   },
   "settings.language.description": {
-    "defaultMessage": "Choisissez votre langue préférée {platform}, traduite par des bénévoles <crowdin-link>sur Crowdin</crowdin-link>."
+    "defaultMessage": "Choisissez votre langue préférée {platform}, traduite par des bénévoles sur Crowdin."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Rechercher une langue..."

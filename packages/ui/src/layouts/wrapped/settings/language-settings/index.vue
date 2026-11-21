@@ -12,19 +12,13 @@
 			<IntlFormatted
 				:message-id="languageSelectorMessages.languagesDescription"
 				:values="{ platform }"
-			>
-				<template #~crowdin-link="{ children }">
-					<AutoLink to="https://github.com/Panda-Minecraft-Launcher/code/issues" class="text-link">
-						<component :is="() => children" />
-					</AutoLink>
-				</template>
-			</IntlFormatted>
+			/>
 		</p>
 
 		<LanguageSettingsSelector
 			:product="product"
 			:current-locale="current.locale"
-			:locales="LOCALES"
+			:locales="visibleLocales"
 			:on-locale-change="onLocaleChange"
 			:is-changing="saving"
 			:coverage-by-locale="languageCoverage[product]"
@@ -35,7 +29,7 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
 
-import { Admonition, AutoLink, IntlFormatted } from '#ui/components/base'
+import { Admonition, IntlFormatted } from '#ui/components/base'
 import { LOCALES, useVIntl } from '#ui/composables'
 import { injectI18n, injectUserPreferences } from '#ui/providers'
 import { commonSettingsMessages, languageSelectorMessages, useSavable } from '#ui/utils'
@@ -46,6 +40,7 @@ import LanguageSettingsSelector from './language-settings-selector.vue'
 const props = defineProps<{
 	product: 'app' | 'website'
 	persistLocale?: (locale: string) => void | Promise<void>
+	localeCodes?: string[]
 }>()
 
 const { formatMessage } = useVIntl()
@@ -57,6 +52,11 @@ const platform = computed(() =>
 			? languageSelectorMessages.platformApp
 			: languageSelectorMessages.platformSite,
 	),
+)
+const visibleLocales = computed(() =>
+	props.localeCodes
+		? LOCALES.filter((entry: { code: string }) => props.localeCodes?.includes(entry.code))
+		: LOCALES,
 )
 const persistedLocale = ref(locale.value)
 let localeChangeQueue = Promise.resolve()

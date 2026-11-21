@@ -5838,7 +5838,7 @@
     "defaultMessage": "Web sitesinin yaklaşık %{percentage} kadarı bu dilde mevcuttur."
   },
   "settings.language.description": {
-    "defaultMessage": "{platform} için tercih ettiğiniz dili seçin. Çeviriler, gönüllüler tarafından <crowdin-link>Crowdin</crowdin-link> üzerinde katkı sağlanarak yapılmaktadır."
+    "defaultMessage": "{platform} için tercih ettiğiniz dili seçin. Çeviriler gönüllüler tarafından yapılmaktadır."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Dil arayın..."
