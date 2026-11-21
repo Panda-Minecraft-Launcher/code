@@ -63,13 +63,22 @@ jobs:
           LAST_GITHUB_RELEASE_PUBLISHED_AT="$LAST_GITHUB_RELEASE_PUBLISHED_AT" npx --yes tsx scripts/build-theseus-release-notes.ts
 
       - name: Create GitHub release
+        shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           VERSION="${VERSION_TAG#v}"
 
+          APPIMAGE=$(find . -type f -name "Panda Minecraft Launcher_${VERSION}_amd64.AppImage" -print -quit)
+          EXE=$(find . -type f -name "Panda Minecraft Launcher_${VERSION}_x64-setup.exe" -print -quit)
+          if [ -z "$APPIMAGE" ] || [ -z "$EXE" ]; then
+            echo "::error::AppImage veya exe bulunamadi"
+            find . -type f
+            exit 1
+          fi
+
           gh release create "$VERSION_TAG" \
             --title "Panda Minecraft Launcher ${VERSION}" \
             --notes-file release-notes.md \
-            "${LINUX_X64_BUNDLE_ARTIFACT_NAME}/Panda Minecraft Launcher_${VERSION}_amd64.AppImage" \
-            "${WINDOWS_X64_BUNDLE_ARTIFACT_NAME}/Panda Minecraft Launcher_${VERSION}_x64-setup.exe"
+            "$APPIMAGE" \
+            "$EXE"
