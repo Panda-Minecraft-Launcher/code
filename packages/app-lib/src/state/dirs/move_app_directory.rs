@@ -78,11 +78,12 @@ const PROTECTED_TARGETS_KEY: &str = "store_directory_move_protected";
 const PRESERVED_CACHE_ENTRIES: [&str; 2] = ["icons", "game-locales"];
 const COPY_PROGRESS_LIMIT: f64 = 0.99;
 
-const MOVED_APP_DIRECTORIES: [&str; 7] = [
+const MOVED_APP_DIRECTORIES: [&str; 8] = [
     "store",
     "profiles",
     "meta",
     "java_versions",
+    "versions",
     "caches",
     "icons",
     "synced-options",

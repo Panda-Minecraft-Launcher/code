@@ -95,7 +95,7 @@ impl DirectoryInfo {
     /// Get the Minecraft versions metadata directory
     #[inline]
     pub fn versions_dir(&self) -> PathBuf {
-        self.metadata_dir().join("versions")
+        self.config_dir.join("versions")
     }
 
     /// Get the metadata directory for a given version
