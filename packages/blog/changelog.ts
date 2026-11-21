@@ -11,6 +11,14 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-21T14:00:00+00:00`,
+		product: 'app',
+		version: '0.0.2',
+		body: `## Changed
+- Güncelleyici GitHub Releases API'sine bağlandı; yeni sürümler doğrudan proje release sayfasından kontrol edilip indiriliyor.
+- Reklam altyapısı ve ilgili izinler tamamen kaldırıldı.`,
+	},
+	{
 		date: `2026-11-21T12:00:00+00:00`,
 		product: 'app',
 		version: '0.0.1',

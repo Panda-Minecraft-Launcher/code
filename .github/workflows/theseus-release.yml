@@ -1,8 +1,5 @@
 name: Panda Minecraft Launcher release
 on:
-  workflow_run:
-    workflows: ['Panda Minecraft Launcher build']
-    types: [completed]
   workflow_dispatch:
     inputs:
       version_tag:
@@ -27,15 +24,10 @@ concurrency:
 jobs:
   release:
     name: Release Panda Minecraft Launcher
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      (github.event.workflow_run.conclusion == 'success' &&
-      github.event.workflow_run.event == 'push' &&
-      startsWith(github.event.workflow_run.head_branch, 'v'))
     runs-on: ubuntu-latest
     env:
-      VERSION_TAG: ${{ github.event.workflow_run.head_branch || inputs.version_tag }}
-      BUILD_RUN_ID: ${{ github.event.workflow_run.id || inputs.build_run_id }}
+      VERSION_TAG: ${{ inputs.version_tag }}
+      BUILD_RUN_ID: ${{ inputs.build_run_id }}
       LINUX_X64_BUNDLE_ARTIFACT_NAME: App bundle (x86_64-unknown-linux-gnu)
       WINDOWS_X64_BUNDLE_ARTIFACT_NAME: App bundle (x86_64-pc-windows-msvc)
 
@@ -46,21 +38,13 @@ jobs:
       - name: Verify ref is a tag
         env:
           GH_TOKEN: ${{ github.token }}
-          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
           tag_sha=$(gh api "repos/${{ github.repository }}/git/refs/tags/${VERSION_TAG}" --jq '.object.sha' 2>/dev/null || true)
           if [ -z "$tag_sha" ]; then
             echo "::error::${VERSION_TAG} is not a git tag in this repo"
             exit 1
           fi
-          if [ -n "$HEAD_SHA" ] && [ "$tag_sha" != "$HEAD_SHA" ]; then
-            commit_sha=$(gh api "repos/${{ github.repository }}/git/tags/${tag_sha}" --jq '.object.sha' 2>/dev/null || echo "$tag_sha")
-            if [ "$commit_sha" != "$HEAD_SHA" ]; then
-              echo "::error::Tag ${VERSION_TAG} (${commit_sha}) does not match build head_sha (${HEAD_SHA})"
-              exit 1
-            fi
-          fi
-          echo "Verified ${VERSION_TAG} is a tag pointing at ${HEAD_SHA:-${tag_sha}}"
+          echo "Verified ${VERSION_TAG} is a git tag"
 
       - name: Download Panda Minecraft Launcher artifacts
         uses: dawidd6/action-download-artifact@a92c7ae74cf1df8810783758581e485ac3aaa309 # v28
