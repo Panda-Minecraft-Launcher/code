@@ -189,7 +189,7 @@
     "message": "Hide right sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Show a safety warning before installing a Panda Pack (.mrpack) that isn't hosted on Panda Minecraft Launcher."
+    "message": "Show a safety warning before installing a modpack (.mrpack) that isn't hosted on Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Warn me before installing unknown modpacks"

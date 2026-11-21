@@ -118,8 +118,7 @@ const messages = defineMessages({
 	},
 	unknownPackWarningDescription: {
 		id: 'app.appearance-settings.unknown-pack-warning.description',
-		defaultMessage:
-			"Show a safety warning before installing a Panda Pack (.mrpack) that isn't hosted on Panda Minecraft Launcher.",
+		defaultMessage: "Show a safety warning before installing a modpack (.mrpack) that isn't hosted on Modrinth.",
 	},
 	skipNonEssentialWarningsTitle: {
 		id: 'app.appearance-settings.skip-non-essential-warnings.title',

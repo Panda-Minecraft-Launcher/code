@@ -165,7 +165,7 @@
     "message": "İsim etiketini gizle"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minecraft başladığında Panda uygulamasını küçült."
+    "message": "Minecraft başladığında Panda Minecraft Launcher uygulamasını küçült."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Uygulamayı küçült"
@@ -189,10 +189,10 @@
     "message": "Sağ kenar çubuğunu gizle"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Panda'te yayınlanmayan bir Panda Pack (.mrpack) kurulmadan önce bir güvenlik uyarısı göster."
+    "message": "Modrinth'te yayınlanmayan bir mod paketi (.mrpack) kurulmadan önce bir güvenlik uyarısı göster."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
-    "message": "Bilinmeyen mod paketlerini indirmeden önce beni uyar"
+    "message": "Modrinth'te yayınlanmayan mod paketlerini kurmadan önce beni uyar"
   },
   "app.auth-servers.unreachable.body": {
     "message": "Minecraft doğrulama sunucuları kapalı olabilir. İnternet bağlantını kontrol et ve daha sonra tekrar dene."
