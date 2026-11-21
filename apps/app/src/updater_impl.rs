@@ -1,76 +1,152 @@
 use crate::api::Result;
-use std::sync::{Arc, Mutex};
-use tauri::http::HeaderValue;
-use tauri::http::header::ACCEPT;
-use tauri::{Manager, ResourceId, Runtime, Webview};
-use tauri_plugin_http::reqwest;
-use tauri_plugin_http::reqwest::ClientBuilder;
-use tauri_plugin_updater::Error;
-use tauri_plugin_updater::Update;
+use anyhow::Context;
+use serde::Serialize;
+use std::fs;
+use std::io::Write;
+use std::path::{Path, PathBuf};
+#[cfg(target_os = "windows")]
+use std::process::Command as ProcessCommand;
+use std::sync::{Mutex, OnceLock};
+use tauri::{Manager, Webview};
+use tauri_plugin_http::reqwest::{self, header::ACCEPT};
 use theseus::{
     LoadingBarType, emit_loading, init_loading, launcher_user_agent,
 };
 use tokio::time::Instant;
 
+const RELEASES_URL: &str = "https://api.github.com/repos/Panda-Minecraft-Launcher/code/releases/latest";
+
+#[derive(Debug, Clone, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct GithubUpdate {
+    pub rid: u32,
+    pub version: String,
+    pub current_version: String,
+    pub body: Option<String>,
+    pub date: Option<String>,
+    pub download_url: String,
+    pub size: Option<u64>,
+}
+
 #[derive(Default)]
-pub struct PendingUpdateData(pub Mutex<Option<(Arc<Update>, Vec<u8>)>>);
+pub struct PendingUpdateData(pub Mutex<Option<(PathBuf, GithubUpdate)>>);
 
-// Reimplementation of Update::download mostly, minus the actual download part
-#[tauri::command]
-pub async fn get_update_size<R: Runtime>(
-    webview: Webview<R>,
-    rid: ResourceId,
-) -> Result<Option<u64>> {
-    let update = webview.resources_table().get::<Update>(rid)?;
+static LATEST_UPDATE: OnceLock<Mutex<Option<GithubUpdate>>> = OnceLock::new();
 
-    let mut headers = update.headers.clone();
-    if !headers.contains_key(ACCEPT) {
-        headers.insert(
-            ACCEPT,
-            HeaderValue::from_static("application/octet-stream"),
-        );
+fn latest_update() -> &'static Mutex<Option<GithubUpdate>> {
+    LATEST_UPDATE.get_or_init(Default::default)
+}
+
+fn version_parts(version: &str) -> Vec<u64> {
+    version
+        .split('-')
+        .next()
+        .unwrap_or(version)
+        .split('.')
+        .map(|part| part.parse::<u64>().unwrap_or(0))
+        .collect()
+}
+
+fn version_is_newer(latest: &str, current: &str) -> bool {
+    let latest = version_parts(latest);
+    let current = version_parts(current);
+    for index in 0..latest.len().max(current.len()) {
+        let latest = *latest.get(index).unwrap_or(&0);
+        let current = *current.get(index).unwrap_or(&0);
+        if latest != current {
+            return latest > current;
+        }
     }
-
-    let mut request = ClientBuilder::new().user_agent(launcher_user_agent());
-    if let Some(timeout) = update.timeout {
-        request = request.timeout(timeout);
-    }
-    if let Some(ref proxy) = update.proxy {
-        let proxy = reqwest::Proxy::all(proxy.as_str())?;
-        request = request.proxy(proxy);
-    }
-    let response = request
-        .build()?
-        .head(update.download_url.clone())
-        .headers(headers)
-        .send()
-        .await?;
-
-    if !response.status().is_success() {
-        return Err(Error::Network(format!(
-            "Download request failed with status: {}",
-            response.status()
-        ))
-        .into());
-    }
-
-    let content_length = response
-        .headers()
-        .get("Content-Length")
-        .and_then(|value| value.to_str().ok())
-        .and_then(|value| value.parse().ok());
-
-    Ok(content_length)
+    false
 }
 
 #[tauri::command]
-pub async fn enqueue_update_for_installation<R: Runtime>(
-    webview: Webview<R>,
-    rid: ResourceId,
-) -> Result<()> {
-    let pending_data = webview.state::<PendingUpdateData>().inner();
+pub async fn check_github_update() -> Result<Option<GithubUpdate>> {
+    let client = reqwest::Client::builder()
+        .user_agent(launcher_user_agent())
+        .build()?;
+    let bytes = client
+        .get(RELEASES_URL)
+        .header(ACCEPT, "application/vnd.github+json")
+        .send()
+        .await?
+        .error_for_status()?
+        .bytes()
+        .await?;
+    let release: serde_json::Value = serde_json::from_slice(&bytes)?;
 
-    let update = webview.resources_table().get::<Update>(rid)?;
+    let tag = release
+        .get("tag_name")
+        .and_then(|tag| tag.as_str())
+        .unwrap_or("");
+    let version = tag.strip_prefix('v').unwrap_or(tag).to_string();
+    let current_version = env!("CARGO_PKG_VERSION").to_string();
+    if !version_is_newer(&version, &current_version) {
+        return Ok(None);
+    }
+
+    let asset_name = if cfg!(target_os = "windows") {
+        format!("Panda.Minecraft.Launcher_{version}_x64-setup.exe")
+    } else {
+        format!("Panda.Minecraft.Launcher_{version}_amd64.AppImage")
+    };
+    let Some(asset) = release
+        .get("assets")
+        .and_then(|assets| assets.as_array())
+        .and_then(|assets| {
+            assets.iter().find(|asset| {
+                asset.get("name").and_then(|name| name.as_str())
+                    == Some(asset_name.as_str())
+            })
+        })
+    else {
+        tracing::warn!("Release {tag} has no asset named {asset_name}");
+        return Ok(None);
+    };
+    let Some(download_url) = asset
+        .get("browser_download_url")
+        .and_then(|url| url.as_str())
+    else {
+        return Ok(None);
+    };
+
+    let update = GithubUpdate {
+        rid: 1,
+        version,
+        current_version,
+        body: release
+            .get("body")
+            .and_then(|body| body.as_str())
+            .map(str::to_string),
+        date: release
+            .get("published_at")
+            .and_then(|date| date.as_str())
+            .map(str::to_string),
+        download_url: download_url.to_string(),
+        size: asset.get("size").and_then(|size| size.as_u64()),
+    };
+    latest_update().lock().unwrap().replace(update.clone());
+    Ok(Some(update))
+}
+
+fn temp_dir() -> Result<PathBuf> {
+    #[cfg(target_os = "linux")]
+    if let Some(appimage) = std::env::var_os("APPIMAGE") {
+        let path = PathBuf::from(appimage);
+        if let Some(parent) = path.parent() {
+            return Ok(parent.to_path_buf());
+        }
+    }
+    Ok(std::env::temp_dir())
+}
+
+#[tauri::command]
+pub async fn enqueue_update_for_installation<R: tauri::Runtime>(
+    webview: Webview<R>,
+) -> Result<()> {
+    let Some(update) = latest_update().lock().unwrap().clone() else {
+        return Err(anyhow::anyhow!("No update has been checked yet").into());
+    };
 
     let progress = init_loading(
         LoadingBarType::LauncherUpdate {
@@ -82,40 +158,118 @@ pub async fn enqueue_update_for_installation<R: Runtime>(
     )
     .await?;
 
-    let download_start = Instant::now();
-    let update_data = update
-        .download(
-            |chunk_size, total_size| {
-                let Some(total_size) = total_size else {
-                    return;
-                };
-                if let Err(e) = emit_loading(
-                    &progress,
-                    chunk_size as f64 / total_size as f64,
-                    None,
-                ) {
-                    tracing::error!(
-                        "Failed to update download progress bar: {e}"
-                    );
-                }
-            },
-            || {},
-        )
-        .await?;
-    let download_duration = download_start.elapsed();
-    tracing::info!("Downloaded update in {download_duration:?}");
+    let client = reqwest::Client::builder()
+        .user_agent(launcher_user_agent())
+        .build()?;
+    let mut response = client
+        .get(&update.download_url)
+        .send()
+        .await?
+        .error_for_status()?;
+    let total = response.content_length();
+    let mut file = tempfile::Builder::new()
+        .prefix(".panda-update-")
+        .tempfile_in(temp_dir()?)?;
 
-    pending_data
+    let download_start = Instant::now();
+    while let Some(chunk) = response.chunk().await? {
+        file.write_all(&chunk)?;
+        if let Some(total) = total.filter(|total| *total > 0) {
+            if let Err(error) =
+                emit_loading(&progress, chunk.len() as f64 / total as f64, None)
+            {
+                tracing::error!(
+                    "Failed to update download progress bar: {error}"
+                );
+            }
+        }
+    }
+    file.flush()?;
+    tracing::info!("Downloaded update in {:?}", download_start.elapsed());
+
+    let (_, path) = file.keep()?;
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::PermissionsExt;
+        let mut permissions = fs::metadata(&path)?.permissions();
+        permissions.set_mode(0o755);
+        fs::set_permissions(&path, permissions)?;
+    }
+
+    webview
+        .state::<PendingUpdateData>()
+        .inner()
         .0
         .lock()
         .unwrap()
-        .replace((update, update_data));
-
+        .replace((path, update));
     Ok(())
 }
 
 #[tauri::command]
-pub fn remove_enqueued_update<R: Runtime>(webview: Webview<R>) {
-    let pending_data = webview.state::<PendingUpdateData>().inner();
-    pending_data.0.lock().unwrap().take();
+pub fn remove_enqueued_update<R: tauri::Runtime>(webview: Webview<R>) {
+    if let Some((path, _)) = webview
+        .state::<PendingUpdateData>()
+        .inner()
+        .0
+        .lock()
+        .unwrap()
+        .take()
+    {
+        let _ = fs::remove_file(path);
+    }
+}
+
+pub fn install_github_update(path: &Path, should_restart: bool) -> Result<()> {
+    #[cfg(target_os = "linux")]
+    {
+        let _ = should_restart;
+        let target = std::env::var_os("APPIMAGE")
+            .map(PathBuf::from)
+            .context("APPIMAGE environment variable is not set")?;
+        fs::rename(path, &target).with_context(|| {
+            format!("failed to replace {}", target.display())
+        })?;
+        tracing::info!("Replaced AppImage at {}", target.display());
+    }
+    #[cfg(target_os = "windows")]
+    {
+        let mut command = ProcessCommand::new(path);
+        command.arg("/S").arg("/UPDATE");
+        if should_restart {
+            command.arg("/R");
+        }
+        command.spawn()?;
+    }
+    #[cfg(not(any(target_os = "linux", target_os = "windows")))]
+    {
+        let _ = (path, should_restart);
+        anyhow::bail!("automatic updates are not supported on this platform");
+    }
+    Ok(())
+}
+
+pub fn restart_target() -> Option<PathBuf> {
+    #[cfg(target_os = "linux")]
+    {
+        std::env::var_os("APPIMAGE").map(PathBuf::from)
+    }
+    #[cfg(not(target_os = "linux"))]
+    {
+        None
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::version_is_newer;
+
+    #[test]
+    fn compares_release_versions() {
+        assert!(version_is_newer("0.0.2", "0.0.1"));
+        assert!(version_is_newer("1.0.0", "0.9.9"));
+        assert!(!version_is_newer("0.0.1", "0.0.1"));
+        assert!(!version_is_newer("0.0.1", "0.0.2"));
+        assert!(!version_is_newer("0.0.1-canary+5.abc", "0.0.1"));
+    }
 }

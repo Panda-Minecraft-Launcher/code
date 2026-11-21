@@ -168,21 +168,6 @@ fn main() {
             .on_menu_event(macos::menu::handle_event);
     }
 
-    #[cfg(feature = "updater")]
-    {
-        use tauri_plugin_http::reqwest::header::{HeaderValue, USER_AGENT};
-        use theseus::launcher_user_agent;
-        builder = builder.plugin(
-            tauri_plugin_updater::Builder::new()
-                .header(
-                    USER_AGENT,
-                    HeaderValue::from_str(&launcher_user_agent()).unwrap(),
-                )
-                .unwrap()
-                .build(),
-        );
-    }
-
     builder = builder
         .plugin(tauri_plugin_single_instance::init(|app, args, _cwd| {
             if let Some(payload) = args.get(1) {
@@ -342,7 +327,7 @@ fn main() {
             initialize_state,
             is_dev,
             are_updates_enabled,
-            get_update_size,
+            check_github_update,
             enqueue_update_for_installation,
             remove_enqueued_update,
             set_restart_after_pending_update,
@@ -372,13 +357,18 @@ fn main() {
 
                 #[cfg(feature = "updater")]
                 if matches!(&event, tauri::RunEvent::Exit) {
-                    let update_data = app.state::<PendingUpdateData>().inner();
                     let should_restart = app
                         .state::<RestartAfterPendingUpdate>()
                         .0
                         .load(Ordering::Relaxed);
-                    if let Some((update, data)) = &*update_data.0.lock().unwrap()
-                    {
+                    let pending = app
+                        .state::<PendingUpdateData>()
+                        .inner()
+                        .0
+                        .lock()
+                        .unwrap()
+                        .take();
+                    if let Some((path, update)) = pending {
                         fn set_changelog_toast(version: Option<String>) {
                             let toast_result: theseus::Result<()> = tauri::async_runtime::block_on(async move {
                                 let mut settings = settings::get().await?;
@@ -393,27 +383,28 @@ fn main() {
                             }
                         }
 
-						let current_version = &app.package_info().version;
-						let mut version_parts = update.version.split('.');
-						let major = version_parts.next().and_then(|part| part.parse::<u64>().ok());
-						let minor = version_parts.next().and_then(|part| part.parse::<u64>().ok());
-						let is_major_update = major.zip(minor).is_some_and(|version| {
-							version > (current_version.major, current_version.minor)
-						});
-						set_changelog_toast(is_major_update.then(|| update.version.clone()));
-                        let update = if should_restart {
-                            (**update).clone()
-                        } else {
-                            (**update).clone().restart_after_install(false)
-                        };
-                        match update.install(data) {
+                        let current_version = &app.package_info().version;
+                        let mut version_parts = update.version.split('.');
+                        let major = version_parts.next().and_then(|part| part.parse::<u64>().ok());
+                        let minor = version_parts.next().and_then(|part| part.parse::<u64>().ok());
+                        let is_major_update = major.zip(minor).is_some_and(|version| {
+                            version > (current_version.major, current_version.minor)
+                        });
+                        set_changelog_toast(is_major_update.then(|| update.version.clone()));
+                        match install_github_update(&path, should_restart) {
                             Ok(()) => {
                                 if should_restart {
+                                    if let Some(target) = restart_target()
+                                        && let Err(error) = std::process::Command::new(target).spawn()
+                                    {
+                                        tracing::error!(
+                                            "Failed to relaunch after update: {error}"
+                                        );
+                                    }
                                     tracing::info!(
                                         "Pending update installed successfully (version {}); restarting because user requested reload",
                                         update.version
                                     );
-                                    app.restart();
                                 } else {
                                     tracing::info!(
                                         "Pending update installed successfully (version {}); exiting without relaunch (user did not request reload)",
@@ -423,7 +414,7 @@ fn main() {
                             }
                             Err(e) => {
                                 tracing::error!(
-                                    "Pending update install failed (version {}): {e}",
+                                    "Pending update install failed (version {}): {e:?}",
                                     update.version
                                 );
                                 set_changelog_toast(None);
@@ -431,7 +422,7 @@ fn main() {
                                 DialogBuilder::message()
                                     .set_level(MessageLevel::Error)
                                     .set_title("Update error")
-                                    .set_text(format!("Failed to install update due to an error:\n{e}"))
+                                    .set_text(format!("Failed to install update due to an error:\n{e:?}"))
                                     .alert()
                                     .show()
                                     .unwrap();

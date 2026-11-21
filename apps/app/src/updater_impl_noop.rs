@@ -5,8 +5,8 @@ use anyhow::anyhow;
 pub struct PendingUpdateData(());
 
 #[tauri::command]
-pub fn get_update_size() -> Result<()> {
-    updates_are_disabled()
+pub fn check_github_update() -> Result<Option<()>> {
+    Ok(None)
 }
 
 #[tauri::command]

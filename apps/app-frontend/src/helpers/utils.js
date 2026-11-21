@@ -11,12 +11,8 @@ export async function areUpdatesEnabled() {
 	return await invoke('are_updates_enabled')
 }
 
-export async function getUpdateSize(updateRid) {
-	return await invoke('get_update_size', { rid: updateRid })
-}
-
-export async function enqueueUpdateForInstallation(updateRid) {
-	return await invoke('enqueue_update_for_installation', { rid: updateRid })
+export async function enqueueUpdateForInstallation() {
+	return await invoke('enqueue_update_for_installation')
 }
 
 export async function removeEnqueuedUpdate() {

@@ -154,7 +154,6 @@ import {
 	areUpdatesEnabled,
 	enqueueUpdateForInstallation,
 	getOS,
-	getUpdateSize,
 	isDev,
 	isNetworkMetered,
 	setRestartAfterPendingUpdate,
@@ -1595,16 +1594,11 @@ async function checkUpdates() {
 	if (!(await areUpdatesEnabled())) {
 		console.log('Skipping update check as updates are disabled in this build or environment')
 		updatesEnabled.value = false
-
-		if (os.value === 'Linux' && !isDevEnvironment.value) {
-			checkLinuxUpdates()
-			setInterval(checkLinuxUpdates, 5 * 60 * 1000)
-		}
 		return
 	}
 
 	async function performCheck() {
-		const update = await invoke('plugin:updater|check')
+		const update = await invoke('check_github_update')
 		if (!update) {
 			console.log('No update available')
 			return
@@ -1621,7 +1615,7 @@ async function checkUpdates() {
 		appUpdateDownload.progress.value = 0
 		finishedDownloading.value = false
 		downloading.value = false
-		updateSize.value = null
+		updateSize.value = update.size ?? null
 		availableUpdate.value = update
 
 		console.log(`Update ${update.version} is available.`)
@@ -1635,45 +1629,19 @@ async function checkUpdates() {
 			markAppUpdateActionable(update.version)
 			scheduleDelayedUpdatePopup()
 		}
-
-		getUpdateSize(update.rid).then((size) => (updateSize.value = size))
 	}
 
-	await performCheck()
+	try {
+		await performCheck()
+	} catch (error) {
+		console.error('Failed to check for updates', error)
+	}
 	setTimeout(
 		() => {
 			checkUpdates()
 		},
 		5 /* min */ * 60 /* sec */ * 1000 /* ms */,
 	)
-}
-
-async function checkLinuxUpdates() {
-	try {
-		const [response, currentVersion] = await Promise.all([
-			fetch('https://launcher-files.modrinth.com/updates.json'),
-			getVersion(),
-		])
-		const updates = await response.json()
-		const latestVersion = updates?.version
-
-		if (latestVersion && latestVersion !== currentVersion) {
-			markAppUpdateActionable(latestVersion)
-			const nextPopupTime = getNextAppUpdatePopupTime(latestVersion)
-			if (nextPopupTime !== null && Date.now() >= nextPopupTime) {
-				addPopupNotification({
-					contentType: 'standard',
-					title: formatMessage(updatePopupMessages.updateAvailable),
-					text: formatMessage(updatePopupMessages.linuxBody, { version: latestVersion }),
-					type: 'info',
-					autoCloseMs: null,
-				})
-				markAppUpdatePopupShown(latestVersion)
-			}
-		}
-	} catch (e) {
-		console.error('Failed to check for updates:', e)
-	}
 }
 
 async function downloadAvailableUpdate() {
@@ -1695,7 +1663,7 @@ async function downloadUpdate(versionToDownload) {
 	downloading.value = true
 
 	try {
-		enqueueUpdateForInstallation(versionToDownload.rid)
+		enqueueUpdateForInstallation()
 			.then(() => {
 				downloading.value = false
 				finishedDownloading.value = true
@@ -1740,7 +1708,7 @@ async function installUpdate() {
 setAppUpdateActions({
 	download: downloadAvailableUpdate,
 	install: installUpdate,
-	changelog: () => openUrl('https://modrinth.com/news/changelog?filter=app'),
+	changelog: () => openUrl('https://github.com/Panda-Minecraft-Launcher/code/releases'),
 })
 
 async function openModrinthProjectLinkInApp(parsed) {
