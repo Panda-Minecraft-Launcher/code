@@ -53,30 +53,20 @@ jobs:
     name: Build (${{ matrix.artifact-target-name }})
     env:
       VITE_STRIPE_PUBLISHABLE_KEY: pk_live_51JbFxJJygY5LJFfKLVVldb10HlLt24p421OWRsTOWc5sXYFOnFUXWieSc6HD3PHo25ktx8db1WcHr36XGFvZFVUz00V9ixrCs5
-      RUSTC_WRAPPER: 'sccache'
     strategy:
       fail-fast: false
       matrix:
         include:
-          - platform: namespace-profile-modrinth-app-macos
-            artifact-target-name: universal-apple-darwin
-            rust-target: x86_64-apple-darwin
-          - platform: namespace-profile-modrinth-app-windows
-            artifact-target-name: x86_64-pc-windows-msvc
-          - platform: namespace-profile-modrinth-app-windows-arm64
-            artifact-target-name: aarch64-pc-windows-msvc
-            rust-target: aarch64-pc-windows-msvc
-            tauri-target-args: --target aarch64-pc-windows-msvc
-          - platform: namespace-profile-modrinth-app-linux
+          - platform: ubuntu-latest
             artifact-target-name: x86_64-unknown-linux-gnu
-          - platform: namespace-profile-modrinth-app-linux-arm64
-            artifact-target-name: aarch64-unknown-linux-gnu
+          - platform: windows-latest
+            artifact-target-name: x86_64-pc-windows-msvc
 
     runs-on: ${{ matrix.platform }}
 
     steps:
       - name: Check out code
-        uses: namespacelabs/nscloud-checkout-action@66f2dc6f6c42a8ac6c4e53473c4840006822831e # v9.0.1
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -92,9 +82,6 @@ jobs:
         if: contains(matrix.artifact-target-name, 'linux')
         uses: rui314/setup-mold@339e96b4ff1f3bd865856ba4cbbe8818a7acb038 # v1 / Mold 3.0.0
 
-      - name: Setup sccache
-        uses: mozilla-actions/sccache-action@fc920bf0ec8de6ee65d409111f7ec508035751ba # v0.0.11
-
       - name: Setup Node
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
@@ -102,17 +89,6 @@ jobs:
 
       - name: Enable Corepack
         run: corepack enable
-
-      - name: Set up caches
-        uses: namespacelabs/nscloud-cache-action@1124a6f3ce44e5cf84cc22111530961f4d2a15f9 # v1.7.0
-        with:
-          cache: |
-            rust
-            pnpm
-
-      - name: Configure sccache
-        shell: bash
-        run: nsc cache sccache setup --cache_name default >> "$GITHUB_ENV"
 
       - name: Remove bundles restored from cache
         shell: bash
@@ -169,64 +145,21 @@ jobs:
           dasel put -f apps/app-frontend/package.json -t string -v "${APP_VERSION#v}" 'version'
 
           cp "packages/app-lib/.env.${BUILD_ENVIRONMENT}" packages/app-lib/.env
+          dasel delete -f apps/app/tauri-release.conf.json 'bundle.createUpdaterArtifacts'
+          dasel delete -f apps/app/tauri-release.conf.json 'bundle.windows.signCommand'
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Set up Windows code signing
-        if: contains(matrix.artifact-target-name, 'windows')
-        shell: bash
-        run: |
-          if [ '${{ startsWith(github.ref, 'refs/tags/v') || inputs.sign-windows-binaries }}' = 'true' ]; then
-            choco install jsign --ignore-dependencies # GitHub runners come with a global Java installation already
-          else
-            dasel delete -f apps/app/tauri-release.conf.json 'bundle.windows.signCommand'
-          fi
-
-      - name: Build signed macOS app
-        run: ${{ (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v') || inputs.app-version-override != '') && 'pnpm --filter=@modrinth/app run tauri build --target universal-apple-darwin --config tauri-release.conf.json' || 'pnpm --filter=@modrinth/app run tauri build --target universal-apple-darwin --config tauri-dev.conf.json -- --profile release-with-thin-lto' }}
-        if: contains(matrix.artifact-target-name, 'darwin') && (github.event_name != 'workflow_dispatch' || inputs.sign-macos-binaries)
-        env:
-          TAURI_BUNDLER_DMG_IGNORE_CI: 'true'
-          ENABLE_CODE_SIGNING: ${{ secrets.APPLE_CERTIFICATE }}
-          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
-          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
-          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
-          APPLE_ID: ${{ secrets.APPLE_ID }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
-          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
-          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
-          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
-
-      - name: Build unsigned macOS app
-        run: ${{ (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v') || inputs.app-version-override != '') && 'pnpm --filter=@modrinth/app run tauri build --target universal-apple-darwin --config tauri-release.conf.json' || 'pnpm --filter=@modrinth/app run tauri build --target universal-apple-darwin --config tauri-dev.conf.json -- --profile release-with-thin-lto' }}
-        if: contains(matrix.artifact-target-name, 'darwin') && github.event_name == 'workflow_dispatch' && !inputs.sign-macos-binaries
-        env:
-          TAURI_BUNDLER_DMG_IGNORE_CI: 'true'
-          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
-          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
-
       - name: Build Linux app
-        run: ${{ (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v') || inputs.app-version-override != '') && 'pnpm --filter=@modrinth/app run tauri build --config tauri-release.conf.json' || 'pnpm --filter=@modrinth/app run tauri build --config tauri-dev.conf.json -- --profile release-with-thin-lto' }}
+        run: pnpm --filter=@modrinth/app run tauri build --config tauri-release.conf.json --bundles "appimage"
         if: contains(matrix.artifact-target-name, 'linux')
-        env:
-          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
-          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
 
       - name: Build Windows app
         run: |
-          [System.Convert]::FromBase64String("$env:DIGICERT_ONE_SIGNER_CLIENT_CERTIFICATE_BASE64") | Set-Content -Path signer-client-cert.p12 -AsByteStream
-          $env:DIGICERT_ONE_SIGNER_CREDENTIALS = "$env:DIGICERT_ONE_SIGNER_API_KEY|$PWD\signer-client-cert.p12|$env:DIGICERT_ONE_SIGNER_CLIENT_CERTIFICATE_PASSWORD"
           $env:JAVA_HOME = "$env:JAVA_HOME_17_X64"
-          ${{ (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v') || inputs.app-version-override != '') && format('pnpm --filter=@modrinth/app run tauri build {0} --config tauri-release.conf.json --verbose --bundles "nsis,updater"', matrix.tauri-target-args) || format('pnpm --filter=@modrinth/app run tauri build {0} --config tauri-dev.conf.json --verbose --bundles "nsis,updater" ''--'' --profile release-with-thin-lto', matrix.tauri-target-args) }}
-          Remove-Item -Path signer-client-cert.p12 -ErrorAction SilentlyContinue
+          pnpm --filter=@modrinth/app run tauri build --config tauri-release.conf.json --verbose --bundles "nsis"
         if: contains(matrix.artifact-target-name, 'windows')
-        env:
-          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
-          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
-          DIGICERT_ONE_SIGNER_API_KEY: ${{ secrets.DIGICERT_ONE_SIGNER_API_KEY }}
-          DIGICERT_ONE_SIGNER_CLIENT_CERTIFICATE_BASE64: ${{ secrets.DIGICERT_ONE_SIGNER_CLIENT_CERTIFICATE_BASE64 }}
-          DIGICERT_ONE_SIGNER_CLIENT_CERTIFICATE_PASSWORD: ${{ secrets.DIGICERT_ONE_SIGNER_CLIENT_CERTIFICATE_PASSWORD }}
 
       - name: Upload app bundles
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -234,21 +167,7 @@ jobs:
           name: App bundle (${{ matrix.artifact-target-name }})
           path: |
             target/release/bundle/appimage/Panda Minecraft Launcher_*.AppImage*
-            target/release/bundle/deb/Panda Minecraft Launcher_*.deb*
-            target/release/bundle/rpm/Panda Minecraft Launcher-*.rpm*
-            target/release-with-thin-lto/bundle/appimage/Panda Minecraft Launcher (dev-*)_*.AppImage*
-            target/release-with-thin-lto/bundle/deb/Panda Minecraft Launcher (dev-*)_*.deb*
-            target/release-with-thin-lto/bundle/rpm/Panda Minecraft Launcher (dev-*)-*.rpm*
-            target/universal-apple-darwin/release/bundle/macos/Panda Minecraft Launcher.app.tar.gz*
-            target/universal-apple-darwin/release-with-thin-lto/bundle/macos/Panda Minecraft Launcher (dev-*)*.app.tar.gz
-            target/universal-apple-darwin/release-with-thin-lto/bundle/dmg/Panda Minecraft Launcher (dev-*)*.dmg
-            target/universal-apple-darwin/release/bundle/dmg/Panda Minecraft Launcher_*.dmg*
             target/release/bundle/nsis/Panda Minecraft Launcher_*-setup.exe*
-            target/release-with-thin-lto/bundle/nsis/Panda Minecraft Launcher (dev-*)_*-setup.exe*
-            target/release/bundle/nsis/Panda Minecraft Launcher_*-setup.nsis.zip*
-            target/aarch64-pc-windows-msvc/release/bundle/nsis/Panda Minecraft Launcher_*-setup.exe*
-            target/aarch64-pc-windows-msvc/release-with-thin-lto/bundle/nsis/Panda Minecraft Launcher (dev-*)_*-setup.exe*
-            target/aarch64-pc-windows-msvc/release/bundle/nsis/Panda Minecraft Launcher_*-setup.nsis.zip*
 
       - name: Remove bundles from cached target directory
         if: always()
@@ -259,7 +178,7 @@ jobs:
     name: Notify Slack
     needs: build
     if: ${{ !cancelled() && github.event_name == 'workflow_dispatch' }}
-    runs-on: namespace-profile-tiny-arm64
+    runs-on: ubuntu-latest
     permissions:
       actions: read
       contents: read
