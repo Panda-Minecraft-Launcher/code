@@ -3,7 +3,7 @@ use tauri::{Manager, Runtime};
 use tauri_plugin_opener::OpenerExt;
 use theseus::{
     emit_warning, handler,
-    prelude::{CommandPayload, DirectoryInfo, app_db_backup_dir},
+    prelude::{CommandPayload, DirectoryInfo, app_db_backup_dir_for_ui},
 };
 
 use crate::api::Result;
@@ -159,7 +159,7 @@ pub async fn show_launcher_logs_folder<R: Runtime>(app: tauri::AppHandle<R>) {
 pub async fn show_app_db_backups_folder<R: Runtime>(
     app: tauri::AppHandle<R>,
 ) -> Result<()> {
-    let path = app_db_backup_dir()?;
+    let path = app_db_backup_dir_for_ui()?;
     tokio::fs::create_dir_all(&path).await?;
     open_path(app, path).await;
     Ok(())

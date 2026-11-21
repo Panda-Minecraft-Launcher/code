@@ -175,14 +175,57 @@ pub fn app_db_backup_dir() -> crate::Result<PathBuf> {
         return Ok(PathBuf::from(path));
     }
 
-    let base = dirs::data_local_dir().or_else(dirs::data_dir).ok_or(
-        ErrorKind::FSError(
-            "could not find valid data dir for app database backups"
-                .to_string(),
-        ),
-    )?;
+    let home = dirs::home_dir().ok_or(ErrorKind::FSError(
+        "could not find valid home dir for app database backups".to_string(),
+    ))?;
 
-    Ok(base.join("Modrinth").join("Backups").join("app-db"))
+    Ok(home
+        .join("PandaMinecraftLauncher")
+        .join("Backups")
+        .join("app-db"))
+}
+
+/// Resolves the backup folder opened from the UI, including backups written
+/// by older versions to the legacy Modrinth location.
+pub fn app_db_backup_dir_for_ui() -> crate::Result<PathBuf> {
+    let current_dir = app_db_backup_dir()?;
+    if std::env::var_os("THESEUS_DB_BACKUP_DIR").is_some() {
+        return Ok(current_dir);
+    }
+
+    let legacy_dir = dirs::data_local_dir()
+        .or_else(dirs::data_dir)
+        .map(|base| base.join("Modrinth").join("Backups").join("app-db"));
+
+    Ok(backup_dir_for_ui(current_dir, legacy_dir))
+}
+
+fn backup_dir_for_ui(
+    current_dir: PathBuf,
+    legacy_dir: Option<PathBuf>,
+) -> PathBuf {
+    if has_backup_files(&current_dir) {
+        return current_dir;
+    }
+
+    if let Some(legacy_dir) = legacy_dir
+        && has_backup_files(&legacy_dir)
+    {
+        return legacy_dir;
+    }
+
+    current_dir
+}
+
+fn has_backup_files(dir: &Path) -> bool {
+    std::fs::read_dir(dir).is_ok_and(|entries| {
+        entries.filter_map(Result::ok).any(|entry| {
+            entry
+                .path()
+                .extension()
+                .is_some_and(|extension| extension == "db")
+        })
+    })
 }
 
 async fn has_user_tables(conn: &mut SqliteConnection) -> crate::Result<bool> {
@@ -301,4 +344,34 @@ pub(crate) async fn create_sqlite_snapshot(
         .await?;
 
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::{backup_dir_for_ui, has_backup_files};
+
+    #[test]
+    fn ui_backup_dir_prefers_legacy_only_when_current_has_no_backups() {
+        let root = tempfile::tempdir().unwrap();
+        let current = root.path().join("current");
+        let legacy = root.path().join("legacy");
+        std::fs::create_dir_all(&current).unwrap();
+        std::fs::create_dir_all(&legacy).unwrap();
+
+        assert_eq!(
+            backup_dir_for_ui(current.clone(), Some(legacy.clone())),
+            current
+        );
+        assert!(!has_backup_files(&current));
+
+        std::fs::write(legacy.join("app-db-before-1.0.db"), b"old").unwrap();
+        assert_eq!(
+            backup_dir_for_ui(current.clone(), Some(legacy.clone())),
+            legacy
+        );
+
+        std::fs::write(current.join("app-db-before-2.0.db"), b"new").unwrap();
+        assert_eq!(backup_dir_for_ui(current.clone(), Some(legacy)), current);
+        assert_eq!(backup_dir_for_ui(current.clone(), None), current);
+    }
 }
