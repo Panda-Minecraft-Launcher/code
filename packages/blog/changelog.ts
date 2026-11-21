@@ -11,6 +11,22 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-21T12:00:00+00:00`,
+		product: 'app',
+		version: '1.0.0',
+		body: `## Changed
+- Uygulama Panda Minecraft Launcher olarak yeniden markalandı: açılış ekranı, sol üstteki Minecraft yazısı, klasik çimen blok ikonu, pencere başlıkları ve ürün adı geçen tüm arayüz metinleri güncellendi.
+- Varsayılan veri dizini kullanıcı ev dizinine taşındı: Windows C:/Users/<kullanıcı>/PandaMinecraftLauncher, macOS/Linux ~/PandaMinecraftLauncher. Java kurulumları java_versions/, oyun sürümleri versions/ altına, veritabanı yedekleri Backups/app-db altına alındı.
+- Yan menü kaldırıldı; hesap yönetimi /accounts sayfasına taşındı.
+- Destek, dokümantasyon ve çeviri bağlantıları proje issue sayfasına yönlendiriliyor.
+- Mod indirme alanları dışında kalan Modrinth marka metinleri kaldırıldı; .mrpack uyarılarında Modrinth markası korundu.
+- CI ve release dosya adları ürün adıyla eşitlendi; playground identifier'ı ana uygulamayla aynı kökü kullanıyor.
+- Türkçe dil desteği eklendi; tekrarlanan ürün adı metinleri düzeltildi.
+
+## Added
+- Ely.by hesap girişi, skin ve oturum desteği eklendi.`,
+	},
+	{
 		date: `2026-11-19T01:42:50+00:00`,
 		product: 'web',
 		body: `## Changed
