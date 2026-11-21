@@ -1,19 +1,6 @@
 name: Deploy frontend
 
 on:
-  push:
-    branches:
-      - main
-      - prod
-    paths:
-      - 'apps/frontend/**/*'
-      - 'packages/ui/**/*'
-      - 'packages/utils/**/*'
-      - 'packages/assets/**/*'
-      - 'packages/moderation/**/*'
-      - '**/wrangler.jsonc'
-      - '**/pnpm-*.yaml'
-      - '.github/workflows/frontend-deploy.yml'
   workflow_dispatch:
   workflow_call:
     inputs:
@@ -33,7 +20,6 @@ on:
         required: false
         type: string
         description: 'The persistent preview alias for the branch'
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ inputs.preview && 'preview' || 'push' }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/prod' }}

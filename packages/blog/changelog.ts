@@ -11,6 +11,14 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-21T16:00:00+00:00`,
+		product: 'app',
+		version: '0.0.3',
+		body: `## Changed
+- TR: Birkaç şey değişti. Ayrıntı yok.
+- EN: A few things changed. No details.`,
+	},
+	{
 		date: `2026-11-21T14:00:00+00:00`,
 		product: 'app',
 		version: '0.0.2',

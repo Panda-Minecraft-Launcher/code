@@ -2939,20 +2939,8 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
-  "app.settings.privacy.ads-consent.intro": {
-    "message": "Werbung ermöglicht Panda Minecraft Launcher und finanziert die Auszahlungen an die Ersteller. Unsere Partner speichern möglicherweise Cookies in der App oder greifen auf diese zu, um Werbung zu personalisieren und die Leistung zu messen. Du kannst dies unten deaktivieren oder deine Einstellungen verwalten."
-  },
-  "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Zeige die Panda Minecraft Launcher als deine aktuelle Aktivität auf Discord an. Rich Presence, die von Mods zu Instanzen hinzugefügt wird, ist davon nicht betroffen. Erfordert einen Neustart der App."
-  },
-  "app.settings.privacy.discord-rich-presence.title": {
-    "message": "Discord Rich Presence"
-  },
-  "app.settings.privacy.telemetry.description": {
-    "message": "Panda Minecraft Launcher sammelt anonymisierte Analyse- und Nutzungsdaten, um unsere Nutzererfahrung zu verbessern und deine Erfahrung anzupassen. Wenn du diese Option deaktivierst, entscheidest du dich dagegen und deine Daten werden nicht mehr gesammelt."
-  },
-  "app.settings.privacy.telemetry.title": {
-    "message": "Telemetrie"
+  "app.settings.privacy.no-data-collection": {
+    "message": "Wir erheben keine Daten. Wir haben keinen Server, der Daten erheben könnte."
   },
   "app.settings.resource-management.always-show-copy-details.description": {
     "message": "Zeigt die Aktion \"Details kopieren\" an, während eine Installation in der Warteschlange steht oder ausgeführt wird. Bei fehlgeschlagenen oder abgebrochenen Installationen ist sie immer verfügbar."

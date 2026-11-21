@@ -1,18 +1,6 @@
 name: Labrinth Build
 
 on:
-  push:
-    branches:
-      - 'main'
-      - 'prod'
-    paths:
-      - .github/workflows/labrinth-build.yml
-      - 'apps/labrinth/**'
-      - 'packages/**'
-      - '!packages/api-client/**'
-      - '!packages/app-lib/**'
-      - Cargo.toml
-      - Cargo.lock
   pull_request:
     types: [opened, synchronize]
     paths:
@@ -25,7 +13,6 @@ on:
       - Cargo.lock
   merge_group:
     types: [checks_requested]
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/prod' }}

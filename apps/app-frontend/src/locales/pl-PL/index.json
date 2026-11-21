@@ -2927,20 +2927,8 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
-  "app.settings.privacy.ads-consent.intro": {
-    "message": "Reklamy pozwalają na dalsze działanie Panda Minecraft Launcher i finansują dochody dla twórców. Nasi partnerzy mogą gromadzić albo uzyskiwać dostęp do plików cookies w celu personalizacji reklam i mierzenia skuteczności."
-  },
-  "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Pokazuj Panda Minecraft Launcher jako aktywność na Discord. Nie wpływa to na Rich Presence dodane do instancji przez mody. Wymaga ponownego uruchomienia aplikacji."
-  },
-  "app.settings.privacy.discord-rich-presence.title": {
-    "message": "Discord Rich Presence"
-  },
-  "app.settings.privacy.telemetry.description": {
-    "message": "Panda Minecraft Launcher zbiera anonimowe dane analityczne i użytkowania, aby poprawić komfort naszych użytkowników i dostosować Twoje doświadczenia. Wyłączając tę opcję, rezygnujesz i Twoje dane nie będą już gromadzone."
-  },
-  "app.settings.privacy.telemetry.title": {
-    "message": "Telemetria"
+  "app.settings.privacy.no-data-collection": {
+    "message": "Nie zbieramy żadnych danych. Nie mamy serwera, który mógłby je zbierać."
   },
   "app.settings.resource-management.always-show-copy-details.description": {
     "message": "Pokaż szczegóły kopiowania, gdy instalacja jest w kolejce lub uruchomiona. Jest zawsze dostępna dla nieudanych lub przerwanych instalacji."

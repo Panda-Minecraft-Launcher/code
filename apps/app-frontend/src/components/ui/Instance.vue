@@ -21,7 +21,6 @@ import { useRouter } from 'vue-router'
 
 import { useAppEvent } from '@/composables/use-app-event'
 import { handleSevereError } from '@/composables/use-error.js'
-import { trackEvent } from '@/helpers/analytics'
 import { install_existing_instance, install_pack_to_existing_instance } from '@/helpers/install'
 import { getInstanceIconUrl, kill, run } from '@/helpers/instance'
 import { get_by_instance_id } from '@/helpers/process'
@@ -81,33 +80,21 @@ const checkProcess = async () => {
 	playing.value = runningProcesses.length > 0
 }
 
-const play = async (e, context) => {
+const play = async (e, _context) => {
 	e?.stopPropagation()
 	if (props.instance.launch_blocked || installing.value || modLoading.value) return
 	loading.value = true
-	await run(props.instance.id)
-		.catch((err) => handleSevereError(err, { instanceId: props.instance.id }))
-		.finally(() => {
-			trackEvent('InstanceStart', {
-				loader: props.instance.loader,
-				game_version: props.instance.game_version,
-				source: context,
-			})
-		})
+	await run(props.instance.id).catch((err) =>
+		handleSevereError(err, { instanceId: props.instance.id }),
+	)
 	loading.value = false
 }
 
-const stop = async (e, context) => {
+const stop = async (e, _context) => {
 	e?.stopPropagation()
 	playing.value = false
 
 	await kill(props.instance.id).catch(handleError)
-
-	trackEvent('InstanceStop', {
-		loader: props.instance.loader,
-		game_version: props.instance.game_version,
-		source: context,
-	})
 }
 
 const repair = async (e) => {

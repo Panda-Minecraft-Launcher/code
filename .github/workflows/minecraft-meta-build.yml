@@ -1,18 +1,6 @@
 name: Minecraft Meta Build
 
 on:
-  push:
-    branches:
-      - 'main'
-      - 'prod'
-    paths:
-      - .github/workflows/minecraft-meta-build.yml
-      - 'apps/meta-generator/**'
-      - 'packages/minecraft-meta-manifest/**'
-      - 'packages/minecraft-meta-model/**'
-      - 'packages/modrinth-log/**'
-      - Cargo.toml
-      - Cargo.lock
   pull_request:
     types: [opened, synchronize]
     paths:
@@ -25,7 +13,6 @@ on:
       - Cargo.lock
   merge_group:
     types: [checks_requested]
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/prod' }}

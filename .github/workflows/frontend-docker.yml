@@ -1,21 +1,7 @@
 name: Frontend Docker
 
 on:
-  push:
-    branches:
-      - main
-      - prod
-    paths:
-      - 'apps/frontend/**/*'
-      - 'packages/ui/**/*'
-      - 'packages/utils/**/*'
-      - 'packages/assets/**/*'
-      - 'packages/moderation/**/*'
-      - 'packages/api-client/**/*'
-      - 'packages/blog/**/*'
-      - '**/pnpm-*.yaml'
-      - .github/workflows/frontend-docker.yml
-
+  workflow_dispatch:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/prod' }}

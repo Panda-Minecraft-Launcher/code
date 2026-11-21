@@ -989,6 +989,9 @@
   "app.settings.downloading": {
     "message": "Ladataan v{version}"
   },
+  "app.settings.privacy.no-data-collection": {
+    "message": "Emme kerää mitään tietoja. Meillä ei ole palvelinta, joka voisi kerätä niitä."
+  },
   "app.settings.synced-options.game-settings.button": {
     "message": "Muokkaa peliasetuksia"
   },

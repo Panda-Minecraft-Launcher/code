@@ -4,7 +4,6 @@ import { useRouter } from 'vue-router'
 
 import { useAppEvent } from '@/composables/use-app-event'
 import { handleSevereError } from '@/composables/use-error.js'
-import { trackEvent } from '@/helpers/analytics'
 import { kill, run } from '@/helpers/instance'
 import { get_by_instance_id } from '@/helpers/process'
 import type { GameInstance } from '@/helpers/types'
@@ -51,33 +50,21 @@ export function useInstanceActions(
 		playing.value = runningProcesses.length > 0
 	}
 
-	const play = async (event: MouseEvent | null, context: string) => {
+	const play = async (event: MouseEvent | null, _context: string) => {
 		event?.stopPropagation()
 		if (instance.value.launch_blocked || installing.value || modLoading.value) return
 		loading.value = true
-		await run(instance.value.id)
-			.catch((err) => handleSevereError(err, { instanceId: instance.value.id }))
-			.finally(() => {
-				trackEvent('InstanceStart', {
-					loader: instance.value.loader,
-					game_version: instance.value.game_version,
-					source: context,
-				})
-			})
+		await run(instance.value.id).catch((err) =>
+			handleSevereError(err, { instanceId: instance.value.id }),
+		)
 		loading.value = false
 	}
 
-	const stop = async (event: MouseEvent | null, context: string) => {
+	const stop = async (event: MouseEvent | null, _context: string) => {
 		event?.stopPropagation()
 		playing.value = false
 
 		await kill(instance.value.id).catch(handleError)
-
-		trackEvent('InstanceStop', {
-			loader: instance.value.loader,
-			game_version: instance.value.game_version,
-			source: context,
-		})
 	}
 
 	const seeInstance = async () => {

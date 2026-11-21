@@ -1466,6 +1466,9 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
+  "app.settings.privacy.no-data-collection": {
+    "message": "Kami tidak mengumpulkan sebarang data. Kami tidak mempunyai pelayan yang boleh mengumpulkannya."
+  },
   "app.settings.resource-management.store.cache-limit.unit": {
     "message": "GiB"
   },

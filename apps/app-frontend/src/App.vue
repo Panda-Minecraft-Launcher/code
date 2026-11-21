@@ -111,7 +111,6 @@ import AppSettingsModal from '@/features/settings/app-settings-modal/index.vue'
 import { provideSettingsActions } from '@/features/settings/settings-actions'
 import NewUpdateModal from '@/features/updates/new-update-modal/index.vue'
 import { getAccountAppearance, rememberAccountAppearance } from '@/helpers/account-appearance.ts'
-import { debugAnalytics, initAnalytics, trackEvent } from '@/helpers/analytics'
 import { check_reachable } from '@/helpers/auth.js'
 import { get_user, get_user_many, get_version } from '@/helpers/cache.js'
 import { gameSettingsQueryOptions } from '@/helpers/game-options'
@@ -588,7 +587,6 @@ async function setupApp() {
 		native_decorations,
 		theme,
 		locale,
-		telemetry,
 		hide_nametag_skins_page,
 		advanced_rendering,
 		toggle_sidebar,
@@ -678,12 +676,6 @@ async function setupApp() {
 			isFullscreen.value = await getCurrentWindow().isFullscreen()
 		}),
 	)
-
-	if (telemetry) {
-		initAnalytics()
-		if (dev) debugAnalytics()
-		trackEvent('Launched', { version, dev })
-	}
 
 	const osType = await traceStartupStep('Read operating system type', async () => type())
 	if (osType === 'macos') {
@@ -1397,9 +1389,6 @@ async function handleCommand(e) {
 			} else {
 				await install_create_modpack_instance(location).catch(handleError)
 			}
-			trackEvent('InstanceCreate', {
-				source: 'CreationModalFileDrop',
-			})
 		}
 	} else if (e.event === 'LaunchInstance') {
 		const instance = await getInstance(e.id).catch(handleError)

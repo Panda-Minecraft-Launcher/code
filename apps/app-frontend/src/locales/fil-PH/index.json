@@ -386,6 +386,9 @@
   "app.settings.downloading": {
     "message": "Dina-download ang v{version}"
   },
+  "app.settings.privacy.no-data-collection": {
+    "message": "Hindi kami nangangalap ng anumang datos. Wala kaming server na maaaring mangalap nito."
+  },
   "app.settings.tabs.appearance": {
     "message": "Itsura"
   },

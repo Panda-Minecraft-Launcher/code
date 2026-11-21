@@ -15,7 +15,6 @@ import { nextTick, type Ref, ref } from 'vue'
 import type { Router } from 'vue-router'
 
 import { useAppSettings } from '@/composables/use-app-settings.ts'
-import { trackEvent } from '@/helpers/analytics'
 import {
 	get_organization,
 	get_project,
@@ -567,7 +566,6 @@ export function createContentInstall(opts: {
 		await nextTick()
 		if (hints?.showModal !== false) {
 			modalRef?.show()
-			trackEvent('ProjectInstallStart', { source: 'ProjectInstallModal' })
 		}
 
 		const gameVersionMetadataPromise = get_game_versions()
@@ -715,15 +713,6 @@ export function createContentInstall(opts: {
 				storeInstance.installed = true
 				storeInstance.installing = false
 			}
-			trackEvent('ProjectInstall', {
-				loader: selectedInstance.loader,
-				game_version: selectedInstance.game_version,
-				id: currentProject!.id,
-				version_id: version.id,
-				project_type: currentProject!.project_type,
-				title: currentProject!.title,
-				source: 'ProjectInstallModal',
-			})
 			currentCallback(version.id, installedProjectIds)
 		} catch (err) {
 			installWaiter.cancel()
@@ -763,7 +752,6 @@ export function createContentInstall(opts: {
 
 		await nextTick()
 		incompatibilityWarningModalRef?.show(version.id)
-		trackEvent('ProjectInstallStart', { source: 'ProjectIncompatibilityWarningModal' })
 	}
 
 	async function handleIncompatibilityWarningInstall(version: Labrinth.Versions.v2.Version) {
@@ -787,16 +775,6 @@ export function createContentInstall(opts: {
 		markInstanceContentChanged(incompatibilityWarningInstance.id)
 		incompatibilityWarningModalRef?.hide()
 		removeInstallingItems(incompatibilityWarningInstance.id, [incompatibilityWarningProject.id])
-
-		trackEvent('ProjectInstall', {
-			loader: incompatibilityWarningInstance.loader,
-			game_version: incompatibilityWarningInstance.game_version,
-			id: incompatibilityWarningProject.id,
-			version_id: version.id,
-			project_type: incompatibilityWarningProject.project_type,
-			title: incompatibilityWarningProject.title,
-			source: 'ProjectIncompatibilityWarningModal',
-		})
 	}
 
 	function handleIncompatibilityWarningCancel() {
@@ -844,19 +822,6 @@ export function createContentInstall(opts: {
 			})
 			await addInstallingItemsForPlan(id, plan, currentProject!, version)
 			await opts.router.push(`/instance/${encodeURIComponent(id)}`)
-
-			trackEvent('InstanceCreate', {
-				source: 'ProjectInstallModal',
-			})
-			trackEvent('ProjectInstall', {
-				loader: data.loader,
-				game_version: data.gameVersion,
-				id: currentProject!.id,
-				version_id: version.id,
-				project_type: currentProject!.project_type,
-				title: currentProject!.title,
-				source: 'ProjectInstallModal',
-			})
 
 			currentCallback(version.id, resolvedProjectIds(plan))
 			modalRef?.hide()
@@ -931,12 +896,6 @@ export function createContentInstall(opts: {
 			if (instanceId) {
 				createInstanceCallback(instanceId)
 			}
-			trackEvent('PackInstall', {
-				id: project.id,
-				version_id: version,
-				title: project.title,
-				source,
-			})
 			callback(version)
 		} else if (instanceId) {
 			const [instanceOrNull, instanceProjects, versions] = await Promise.all([
@@ -989,15 +948,6 @@ export function createContentInstall(opts: {
 						return
 					}
 
-					trackEvent('ProjectInstall', {
-						loader: instance.loader,
-						game_version: instance.game_version,
-						id: project.id,
-						project_type: project.project_type,
-						version_id: version.id,
-						title: project.title,
-						source,
-					})
 					callback(version.id, installedProjectIds)
 				} catch (err) {
 					installWaiter.cancel()
@@ -1040,7 +990,13 @@ export function createContentInstall(opts: {
 		},
 		async handleModpackDuplicateCreateAnyway() {
 			if (!pendingModpackInstall) return
-			const { project, version, source, callback, createInstanceCallback } = pendingModpackInstall
+			const {
+				project,
+				version,
+				source: _source,
+				callback,
+				createInstanceCallback,
+			} = pendingModpackInstall
 			pendingModpackInstall = null
 			const job = await install_create_modpack_instance({
 				type: 'fromVersionId',
@@ -1053,12 +1009,6 @@ export function createContentInstall(opts: {
 			if (instanceId) {
 				createInstanceCallback(instanceId)
 			}
-			trackEvent('PackInstall', {
-				id: project.id,
-				version_id: version,
-				title: project.title,
-				source,
-			})
 			callback(version)
 		},
 		handleModpackDuplicateGoToInstance(instanceId: string) {

@@ -147,7 +147,6 @@ import { useLinkedServer } from '@/features/instances/linked-server/use-linked-s
 import InstanceSettingsModal from '@/features/instances/settings-modal/index.vue'
 import { useHiddenInstances } from '@/features/library/hidden-instances/use-hidden-instances'
 import { serverStatusQueryOptions } from '@/features/servers/queries'
-import { trackEvent } from '@/helpers/analytics'
 import { toError } from '@/helpers/errors'
 import {
 	getSharedInstanceUnavailableReason,
@@ -628,7 +627,7 @@ watch(
 
 const options = ref<InstanceType<typeof ContextMenu> | null>(null)
 
-const launchInstance = async (context: string, address?: string) => {
+const launchInstance = async (_context: string, address?: string) => {
 	if (!instance.value || instance.value.launch_blocked) return
 	const currentInstance = instance.value
 	loading.value = true
@@ -642,13 +641,6 @@ const launchInstance = async (context: string, address?: string) => {
 		handleSevereError(err, { instanceId: currentInstance.id })
 	}
 	loading.value = false
-
-	if (!instance.value) return
-	trackEvent('InstanceStart', {
-		loader: instance.value.loader,
-		game_version: instance.value.game_version,
-		source: context,
-	})
 }
 
 async function handleSharedInstanceUnavailable(
@@ -779,19 +771,13 @@ const startInstance = async (context: string, address?: string, skipOfflineWarni
 	await launchInstance(context, address)
 }
 
-const stopInstance = async (context: string) => {
+const stopInstance = async (_context: string) => {
 	const currentInstance = instance.value
 	if (!currentInstance) return
 	stopping.value = true
 	await kill(currentInstance.id).catch((error) => handleError(toError(error)))
 	stopping.value = false
 	queryClient.setQueryData(instanceKeys.processes(currentInstance.id), [])
-
-	trackEvent('InstanceStop', {
-		loader: currentInstance.loader,
-		game_version: currentInstance.game_version,
-		source: context,
-	})
 }
 
 const handlePlayServer = async () => {
@@ -904,10 +890,6 @@ async function deleteSelectedInstance() {
 	selectedInstanceToDelete.value = null
 	if (!selectedInstance) return
 
-	trackEvent('InstanceRemove', {
-		loader: selectedInstance.loader,
-		game_version: selectedInstance.game_version,
-	})
 	await router.push({ path: '/' })
 	await remove(selectedInstance.id).catch((error) => handleError(toError(error)))
 }

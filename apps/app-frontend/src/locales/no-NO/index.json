@@ -551,6 +551,9 @@
   "app.settings.downloading": {
     "message": "Laster ned v{version}"
   },
+  "app.settings.privacy.no-data-collection": {
+    "message": "Vi samler ikke inn noen data. Vi har ingen server som kan samle dem inn."
+  },
   "app.settings.tabs.appearance": {
     "message": "Utseende"
   },

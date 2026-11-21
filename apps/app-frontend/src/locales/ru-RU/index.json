@@ -2894,20 +2894,8 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
-  "app.settings.privacy.ads-consent.intro": {
-    "message": "Реклама обеспечивает работу Panda Minecraft Launcher и выплаты авторам. Для персонализации и анализа рекламы наши партнёры могут использовать куки. Отказаться и настроить куки можно ниже."
-  },
-  "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Показывать Panda Minecraft Launcher App в текущей активности Discord. Не влияет на Rich Presence модов. Требуется перезапуск."
-  },
-  "app.settings.privacy.discord-rich-presence.title": {
-    "message": "Discord Rich Presence"
-  },
-  "app.settings.privacy.telemetry.description": {
-    "message": "Panda Minecraft Launcher собирает анонимные данные об использовании для персонализации и улучшения сервиса. Отключите этот параметр, чтобы отказаться от сбора данных."
-  },
-  "app.settings.privacy.telemetry.title": {
-    "message": "Телеметрия"
+  "app.settings.privacy.no-data-collection": {
+    "message": "Мы не собираем никакие данные. У нас нет сервера, который мог бы их собирать."
   },
   "app.settings.resource-management.always-show-copy-details.description": {
     "message": "Показывать кнопку «Получить отчёт» на всех этапах установки. Для прерванных установок кнопка видна всегда."

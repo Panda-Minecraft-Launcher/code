@@ -22,7 +22,6 @@ import {
 } from '@modrinth/ui'
 
 import { useHiddenInstances } from '@/features/library/hidden-instances/use-hidden-instances'
-import { trackEvent } from '@/helpers/analytics'
 import { toError } from '@/helpers/errors'
 import { install_duplicate_instance } from '@/helpers/install'
 import { edit, edit_icon } from '@/helpers/instance'
@@ -110,7 +109,6 @@ export function useInstanceMenu() {
 
 		try {
 			await edit_icon(item.instance.id, iconPath)
-			trackEvent('InstanceSetIcon')
 		} catch (error) {
 			handleError(toError(error))
 		}
@@ -119,7 +117,6 @@ export function useInstanceMenu() {
 	const removeInstanceIcon = async (item: InstanceCard) => {
 		try {
 			await edit_icon(item.instance.id, null)
-			trackEvent('InstanceRemoveIcon')
 		} catch (error) {
 			handleError(toError(error))
 		}

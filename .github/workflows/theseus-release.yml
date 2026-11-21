@@ -6,12 +6,11 @@ on:
         description: Tag to release
         type: string
         required: true
-        default: v0.0.1
+        default: v0.0.3
       build_run_id:
         description: Successful build run ID with the artifacts
         type: string
         required: true
-        default: '44886369346'
 
 permissions:
   contents: write
@@ -34,6 +33,8 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.version_tag }}
 
       - name: Verify ref is a tag
         env:
@@ -67,6 +68,7 @@ jobs:
         run: |
           VERSION="${VERSION_TAG#v}"
 
+          # Tauri writes spaces; GitHub converts them to dots in release asset names.
           APPIMAGE=$(find . -type f -name "Panda Minecraft Launcher_${VERSION}_amd64.AppImage" -print -quit)
           EXE=$(find . -type f -name "Panda Minecraft Launcher_${VERSION}_x64-setup.exe" -print -quit)
           if [ -z "$APPIMAGE" ] || [ -z "$EXE" ]; then

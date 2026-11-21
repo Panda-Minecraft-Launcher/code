@@ -788,6 +788,9 @@
   "app.settings.downloading": {
     "message": "Se descarcă v{version}"
   },
+  "app.settings.privacy.no-data-collection": {
+    "message": "Nu colectăm nicio dată. Nu avem niciun server care ar putea colecta datele."
+  },
   "app.settings.tabs.appearance": {
     "message": "Aspect"
   },

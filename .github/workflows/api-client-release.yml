@@ -1,12 +1,7 @@
 name: API client release
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/api-client-release.yml
-      - packages/api-client/**
-
+  workflow_dispatch:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false

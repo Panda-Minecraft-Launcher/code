@@ -2867,20 +2867,8 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
-  "app.settings.privacy.ads-consent.intro": {
-    "message": "Advertenties maken Panda Minecraft Launcher mogelijk en financieren de uitbetalingen aan makers. Onze partners kunnen cookies in de app opslaan of gebruiken om advertenties te personaliseren en de prestaties te meten. Je kunt je hieronder afmelden of je voorkeuren beheren."
-  },
-  "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Laat Panda Minecraft Launcher als jouw activiteit op Discord. Dit verandert niet activiteiten toegevoegd door mods."
-  },
-  "app.settings.privacy.discord-rich-presence.title": {
-    "message": "Discord Rich Presence"
-  },
-  "app.settings.privacy.telemetry.description": {
-    "message": "Panda Minecraft Launcher verzamelt geanonimiseerde analyse- en gebruiksdata om de gebruikerservaring te verbeteren en je ervaring te personaliseren. Door deze optie uit te schakelen, meld je je af en worden je gegevens niet meer verzameld."
-  },
-  "app.settings.privacy.telemetry.title": {
-    "message": "Telemetrie"
+  "app.settings.privacy.no-data-collection": {
+    "message": "Wij verzamelen geen enkele gegevens. Wij hebben geen server die gegevens zou kunnen verzamelen."
   },
   "app.settings.resource-management.always-show-copy-details.description": {
     "message": "Geef de knop 'Details kopiëren' weer terwijl een installatie in de wachtrij staat of wordt uitgevoerd. Deze actie is altijd beschikbaar voor mislukte of onderbroken installaties."

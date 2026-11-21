@@ -53,7 +53,6 @@ export type AppSettings = {
 	show_screenshots_tab_in_instances: boolean
 	show_skin_selector_in_sidebar: boolean
 
-	telemetry: boolean
 	discord_rpc: boolean
 	personalized_ads: boolean
 

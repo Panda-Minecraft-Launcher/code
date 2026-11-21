@@ -2951,20 +2951,8 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
-  "app.settings.privacy.ads-consent.intro": {
-    "message": "Ads make Panda Minecraft Launcher possible and fund creator payouts. Our partners may store or access cookies in the app to personalize ads and measure performance. You can opt out or manage your preferences below."
-  },
-  "app.settings.privacy.discord-rich-presence.description": {
-    "message": "Show Panda Minecraft Launcher as your current activity on Discord. This does not affect Rich Presence added to instances by mods. Requires an app restart."
-  },
-  "app.settings.privacy.discord-rich-presence.title": {
-    "message": "Discord Rich Presence"
-  },
-  "app.settings.privacy.telemetry.description": {
-    "message": "Panda Minecraft Launcher collects anonymized analytics and usage data to improve our user experience and customize your experience. By disabling this option, you opt out and your data will no longer be collected."
-  },
-  "app.settings.privacy.telemetry.title": {
-    "message": "Telemetry"
+  "app.settings.privacy.no-data-collection": {
+    "message": "We do not collect any data. We have no server that could collect it."
   },
   "app.settings.resource-management.always-show-copy-details.description": {
     "message": "Show the Inspect details action while an install is queued or running. It is always available for failed or interrupted installs."

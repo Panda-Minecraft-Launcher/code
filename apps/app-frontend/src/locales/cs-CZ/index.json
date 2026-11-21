@@ -2891,14 +2891,8 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
-  "app.settings.privacy.discord-rich-presence.title": {
-    "message": "Discord Rich Presence"
-  },
-  "app.settings.privacy.telemetry.description": {
-    "message": "Panda Minecraft Launcher shromažďuje anonymizované analýzy a data o používání pro zlepšení našich uživatelských zkušeností a přizpůsobení vašich zkušeností. Zakázáním této možnosti se nepřihlásíte a vaše data již nebudou shromažďována."
-  },
-  "app.settings.privacy.telemetry.title": {
-    "message": "Telemetrie"
+  "app.settings.privacy.no-data-collection": {
+    "message": "Neshromažďujeme žádné údaje. Nemáme žádný server, který by je mohl shromažďovat."
   },
   "app.settings.resource-management.always-show-copy-details.title": {
     "message": "Vždy zobrazazovat podrobnosti kopie"

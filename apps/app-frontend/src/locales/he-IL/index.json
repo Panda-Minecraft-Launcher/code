@@ -1589,6 +1589,9 @@
   "app.settings.operating-system.macos": {
     "message": "macOS"
   },
+  "app.settings.privacy.no-data-collection": {
+    "message": "אנו לא אוספים שום נתונים. אין לנו שרת שיכול לאסוף אותם."
+  },
   "app.settings.resource-management.maximum-concurrent-downloads.description": {
     "message": "מספר הקבצים שהאפליקציה יכולה להוריד בו זמנית. יש להוריד מספר זה אם ההורדות אינן אמינות בחיבור שלך. נדרש הפעלה מחדש של האפליקציה."
   },
