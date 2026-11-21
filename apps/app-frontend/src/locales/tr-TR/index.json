@@ -98,9 +98,6 @@
   "app.action-bar.make-primary-instance": {
     "message": "Birincil kurulum yap"
   },
-  "app.action-bar.no-instances-running": {
-    "message": "Herhangi bir kurulum çalışmıyor"
-  },
   "app.action-bar.offline": {
     "message": "Çevrimdışı"
   },
@@ -124,9 +121,6 @@
   },
   "app.action-bar.view-active-downloads": {
     "message": "Şu anda indirilienleri göster"
-  },
-  "app.action-bar.view-instance": {
-    "message": "Kurulumu göster"
   },
   "app.action-bar.view-logs": {
     "message": "Günlükleri görüntüle"
@@ -176,17 +170,23 @@
   "app.appearance-settings.show-play-time.title": {
     "message": "Oynama süresini göster"
   },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "Yan menüyü sağda veya solda göster."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "Sol"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "Sağ"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "Yan menü konumu"
+  },
   "app.appearance-settings.skip-non-essential-warnings.description": {
     "message": "Yinelenen yüklemeler, normal içerik silme, toplu güncellemeler, bağlantıların kaldırılması ve onarımlar gibi düşük riskli işlemlerde onay adımlarını atlayın. Tehlikeli işlemlerle ilgili uyarılar her zaman gösterilir."
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Gerekli olmayan uyarıları atla"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Sağ kenar çubuğunu varsayılan olarak gizleyin ve onu göstermek ya da gizlemek için bir düğme ekleyin."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Sağ kenar çubuğunu gizle"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Modrinth'te yayınlanmayan bir mod paketi (.mrpack) kurulmadan önce bir güvenlik uyarısı göster."
@@ -480,10 +480,10 @@
     "message": "Profilde \"Ekran Görüntüleri\" sekmesini göster"
   },
   "app.features-settings.show-skin-selector.description": {
-    "message": "Yan menüde kıyafet seçici için düğme göster."
+    "message": "Hesap yönetimini açmak için yan menüde bir düğme göster."
   },
   "app.features-settings.show-skin-selector.title": {
-    "message": "Yan menüde Kıyafet seçiciyi göster"
+    "message": "Yan menüde hesap yönetimi düğmesini göster"
   },
   "app.features-settings.show-worlds-tab.title": {
     "message": "Profilde \"Dünyalar\" sekmesini göster"
@@ -1410,7 +1410,7 @@
     "message": "{unpublishCount, plural, one {Sahibi olarak paylaştığın # oturum Panda Minecraft Launcher sunucularından silinecek ve onu kullanan insanlar} other {Sahibi olarak paylaştığın # oturum Panda Minecraft Launcher sunucularından silinecek ve onu kullanan insanlar}} güncelleme almayı bırakacak. {leaveCount, plural, one {Paylaşılan diğer oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.} other {Paylaşılan diğer # oturuma erişimini kaybedeceksin ve tekrar katılmak için yeni bir davete ihtiyacın olacak.}} Tamamı kütüphanenden kaldırılacak."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
-    "message": "Unpublishing and leaving shared instances"
+    "message": "Paylaşılan oturumların paylaşımı kaldırılıyor ve oturumlardan ayrılıyor"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.header": {
     "message": "Paylaşılan kurulumun paylaşımını kaldır {count} ve bunlardan ayrıl"
@@ -1989,7 +1989,7 @@
     "message": "Kamera ve görüntü seçenekleri"
   },
   "app.settings.game-options.category.video.label": {
-    "message": "Video"
+    "message": "Görüntü"
   },
   "app.settings.game-options.choice.all": {
     "message": "Hepsi"
@@ -2040,7 +2040,7 @@
     "message": "Gizli"
   },
   "app.settings.game-options.choice.hotbar": {
-    "message": "Hotbar"
+    "message": "Hızlı erişim çubuğu"
   },
   "app.settings.game-options.choice.left": {
     "message": "Sol"
@@ -2049,7 +2049,7 @@
     "message": "Sınırlı"
   },
   "app.settings.game-options.choice.max-fps": {
-    "message": "Max FPS"
+    "message": "Maksimum FPS"
   },
   "app.settings.game-options.choice.maximum": {
     "message": "Maksimum"
@@ -3303,7 +3303,7 @@
     "message": "Adresi kopyala"
   },
   "app.settings.synced-options.multiplayer-servers.count": {
-    "message": "{count, plural, one {# server} other {# servers}}"
+    "message": "{count, plural, one {# sunucu} other {# sunucu}}"
   },
   "app.settings.synced-options.multiplayer-servers.description": {
     "message": "Örneklerinizde aynı çok oyunculu sunucuları kullanın."
@@ -3672,7 +3672,7 @@
     "message": "{count, plural, one {it} other {them}} yalnızca bu kurulumdan veya tüm eşitlenmiş kurulumlardan kaldırabilirsiniz. Yalnızca bu kurulumdan kaldırmak geçersiz kılmaları etkinleştirir ve bu kurulum artık eşitlenmiş kaynak paketi değişikliklerini almaz."
   },
   "app.synced-content.delete.resource-pack-header": {
-    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+    "message": "{count, plural, one {Bu kaynak paketi eşitlendi} other {Bu kaynak paketleri eşitlendi}}"
   },
   "app.synced-content.desync.description": {
     "message": "Bu kurulum kendi kopyasını saklayacak. Bu içeriği diğer kurulumlarda eşitli tutmak mı, yoksa onlardan kaldırmak mı istiyorsunuz?"

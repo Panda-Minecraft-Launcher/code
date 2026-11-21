@@ -44,7 +44,7 @@ export type AppSettings = {
 	hide_nametag_skins_page: boolean
 	advanced_rendering: boolean
 	native_decorations: boolean
-	toggle_sidebar: boolean
+	sidebar_on_right: boolean
 	sync_theme_across_devices: boolean
 	sync_behavior_across_devices: boolean
 	sync_features_across_devices: boolean

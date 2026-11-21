@@ -83,11 +83,11 @@ const messages = defineMessages({
 	},
 	showSkinSelectorTitle: {
 		id: 'app.features-settings.show-skin-selector.title',
-		defaultMessage: 'Show skin selector in sidebar',
+		defaultMessage: 'Show account management button in sidebar',
 	},
 	showSkinSelectorDescription: {
 		id: 'app.features-settings.show-skin-selector.description',
-		defaultMessage: 'Show a button in the left sidebar to open the skin selector.',
+		defaultMessage: 'Show a button in the sidebar to open account management.',
 	},
 	quickInstancesTitle: {
 		id: 'app.features-settings.quick-instances.title',

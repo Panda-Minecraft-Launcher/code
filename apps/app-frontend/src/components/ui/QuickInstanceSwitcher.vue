@@ -35,6 +35,7 @@ const { handleError } = injectNotificationManager()
 const auth = injectAuth()
 const { updatePreferences } = injectUserPreferences()
 const appSettings = useAppSettings()
+const navTooltipSide = computed(() => (appSettings.sidebarOnRight ? 'left' : 'right'))
 const instancesQuery = useQuery(instanceListQueryOptions())
 const router = useRouter()
 const instanceOptions = ref()
@@ -349,7 +350,7 @@ function openContextMenu(event, instance) {
 				<NavButton
 					v-for="instance in recentInstances"
 					:key="instance.id"
-					v-tooltip.left="instance.name"
+					v-tooltip:[navTooltipSide]="instance.name"
 					class="quick-instance-item relative"
 					:to="`/instance/${encodeURIComponent(instance.id)}`"
 					@contextmenu.prevent.stop="(event) => openContextMenu(event, instance)"
@@ -372,7 +373,7 @@ function openContextMenu(event, instance) {
 		</div>
 		<ContextMenu ref="instanceOptions" :label="formatMessage(messages.instanceActions)" />
 		<div
-			v-tooltip.left="dividerTooltip"
+			v-tooltip:[navTooltipSide]="dividerTooltip"
 			role="separator"
 			aria-orientation="horizontal"
 			:tabindex="canDrag ? 0 : undefined"

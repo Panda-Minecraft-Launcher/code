@@ -18,93 +18,11 @@
 		</div>
 		<AppUpdateButton />
 		<div
-			class="flex border-solid border-surface-5 text-sm font-medium items-center gap-2 py-1.5 px-3 rounded-xl border"
+			class="flex border-solid border-surface-5 text-sm font-medium items-center rounded-xl border"
+			:class="selectedProcess ? 'gap-2 py-1.5 px-3' : 'p-1.5'"
 		>
 			<template v-if="selectedProcess">
-				<OnlineIndicatorIcon />
-				<div class="text-contrast flex items-center gap-2">
-					<router-link
-						v-tooltip="formatMessage(messages.viewInstance)"
-						:to="`/instance/${encodeURIComponent(selectedProcess.instance.id)}`"
-						class="hover:underline"
-					>
-						{{ selectedProcess.instance.name }}
-					</router-link>
-					<FloatingMenu
-						v-if="currentProcesses.length > 1"
-						placement="bottom"
-						@open="showInstances = true"
-						@close="showInstances = false"
-					>
-						<IconButton
-							v-tooltip="
-								showInstances
-									? formatMessage(messages.hideMoreRunningInstances)
-									: formatMessage(messages.showMoreRunningInstances)
-							"
-							class="!size-6"
-							type="quiet"
-							size="xs"
-							:label="
-								showInstances
-									? formatMessage(messages.hideMoreRunningInstances)
-									: formatMessage(messages.showMoreRunningInstances)
-							"
-						>
-							<DropdownIcon :class="{ 'rotate-180': !!showInstances }" />
-						</IconButton>
-						<template #popper>
-							<div class="flex w-[20rem] max-h-[24rem] flex-col gap-2 overflow-auto">
-								<div
-									v-for="process in currentProcesses"
-									:key="process.uuid"
-									class="flex w-full items-center gap-2 rounded-xl bg-surface-4 p-2 text-sm"
-								>
-									<button
-										v-tooltip.left="
-											process.uuid === selectedProcess.uuid
-												? formatMessage(messages.primaryInstance)
-												: formatMessage(messages.makePrimaryInstance)
-										"
-										class="flex flex-grow items-center gap-2"
-										:class="{
-											'active:scale-95 transition-transform': process.uuid !== selectedProcess.uuid,
-										}"
-										:disabled="process.uuid === selectedProcess.uuid"
-										@click="selectProcess(process)"
-									>
-										<OnlineIndicatorIcon />
-										<span class="mr-auto text-contrast flex items-center gap-2">
-											{{ process.instance.name }}
-											<StarIcon v-if="process.uuid === selectedProcess.uuid" class="text-orange" />
-										</span>
-									</button>
-									<button
-										v-tooltip="formatMessage(messages.stopInstance)"
-										class="active:scale-95 flex"
-										@click.stop="stop(process)"
-									>
-										<StopCircleIcon class="text-red size-5" />
-									</button>
-									<button
-										v-tooltip="formatMessage(messages.viewLogs)"
-										class="active:scale-95 flex"
-										@click.stop="goToTerminal(process.instance.id)"
-									>
-										<TerminalSquareIcon class="text-secondary size-5" />
-									</button>
-								</div>
-							</div>
-						</template>
-					</FloatingMenu>
-				</div>
-				<button
-					v-tooltip="formatMessage(messages.stopInstance)"
-					class="active:scale-95 flex"
-					@click="stop(selectedProcess)"
-				>
-					<StopCircleIcon class="text-red size-5" />
-				</button>
+				<span class="size-2 shrink-0 rounded-full bg-brand" />
 				<button
 					v-tooltip="formatMessage(messages.viewLogs)"
 					class="active:scale-95 flex"
@@ -112,10 +30,75 @@
 				>
 					<TerminalSquareIcon class="text-secondary size-5" />
 				</button>
+				<FloatingMenu
+					placement="bottom"
+					@open="showInstances = true"
+					@close="showInstances = false"
+				>
+					<IconButton
+						v-tooltip="
+							showInstances
+								? formatMessage(messages.hideMoreRunningInstances)
+								: formatMessage(messages.showMoreRunningInstances)
+						"
+						class="!size-6"
+						type="quiet"
+						size="xs"
+						:label="
+							showInstances
+								? formatMessage(messages.hideMoreRunningInstances)
+								: formatMessage(messages.showMoreRunningInstances)
+						"
+					>
+						<DropdownIcon :class="{ 'rotate-180': !!showInstances }" />
+					</IconButton>
+					<template #popper>
+						<div class="flex w-[20rem] max-h-[24rem] flex-col gap-2 overflow-auto">
+							<div
+								v-for="process in currentProcesses"
+								:key="process.uuid"
+								class="flex w-full items-center gap-2 rounded-xl bg-surface-4 p-2 text-sm"
+							>
+								<button
+									v-tooltip.left="
+										process.uuid === selectedProcess.uuid
+											? formatMessage(messages.primaryInstance)
+											: formatMessage(messages.makePrimaryInstance)
+									"
+									class="flex flex-grow items-center gap-2"
+									:class="{
+										'active:scale-95 transition-transform': process.uuid !== selectedProcess.uuid,
+									}"
+									:disabled="process.uuid === selectedProcess.uuid"
+									@click="selectProcess(process)"
+								>
+									<span class="size-2 shrink-0 rounded-full bg-brand" />
+									<span class="mr-auto text-contrast flex items-center gap-2">
+										{{ process.instance.name }}
+										<StarIcon v-if="process.uuid === selectedProcess.uuid" class="text-orange" />
+									</span>
+								</button>
+								<button
+									v-tooltip="formatMessage(messages.stopInstance)"
+									class="active:scale-95 flex"
+									@click.stop="stop(process)"
+								>
+									<StopCircleIcon class="text-red size-5" />
+								</button>
+								<button
+									v-tooltip="formatMessage(messages.viewLogs)"
+									class="active:scale-95 flex"
+									@click.stop="goToTerminal(process.instance.id)"
+								>
+									<TerminalSquareIcon class="text-secondary size-5" />
+								</button>
+							</div>
+						</div>
+					</template>
+				</FloatingMenu>
 			</template>
 			<template v-else>
 				<span class="size-2 rounded-full bg-secondary" />
-				<span class="text-secondary"> {{ formatMessage(messages.noInstancesRunning) }} </span>
 			</template>
 		</div>
 	</div>
@@ -125,7 +108,6 @@
 import {
 	DownloadIcon,
 	DropdownIcon,
-	OnlineIndicatorIcon,
 	StarIcon,
 	StopCircleIcon,
 	TerminalSquareIcon,
@@ -173,10 +155,6 @@ const messages = defineMessages({
 		id: 'app.action-bar.offline',
 		defaultMessage: 'Offline',
 	},
-	viewInstance: {
-		id: 'app.action-bar.view-instance',
-		defaultMessage: 'View instance',
-	},
 	showMoreRunningInstances: {
 		id: 'app.action-bar.show-more-running-instances',
 		defaultMessage: 'Show more running instances',
@@ -200,10 +178,6 @@ const messages = defineMessages({
 	viewLogs: {
 		id: 'app.action-bar.view-logs',
 		defaultMessage: 'View logs',
-	},
-	noInstancesRunning: {
-		id: 'app.action-bar.no-instances-running',
-		defaultMessage: 'No instances running',
 	},
 	downloadingJava: {
 		id: 'app.action-bar.downloading-java',

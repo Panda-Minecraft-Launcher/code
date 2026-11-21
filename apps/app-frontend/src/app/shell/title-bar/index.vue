@@ -8,6 +8,8 @@ import {
 import { defineMessages, IconButton, useVIntl } from '@modrinth/ui'
 import { useRouter } from 'vue-router'
 
+import { useAppSettings } from '@/composables/use-app-settings.ts'
+
 import AppActionBar from './action-bar.vue'
 import Breadcrumbs from './breadcrumbs.vue'
 import WindowControls from './window-controls.vue'
@@ -24,6 +26,7 @@ const emit = defineEmits<{
 }>()
 
 const router = useRouter()
+const appSettings = useAppSettings()
 const { formatMessage } = useVIntl()
 const messages = defineMessages({
 	goBack: { id: 'app.navigation.go-back', defaultMessage: 'Go back' },
@@ -69,7 +72,12 @@ const messages = defineMessages({
 					/>
 				</IconButton>
 			</div>
-			<Breadcrumbs />
+			<div
+				data-tauri-drag-region
+				class="absolute left-1/2 top-1/2 w-fit max-w-[32%] -translate-x-1/2 -translate-y-1/2"
+			>
+				<Breadcrumbs class="max-w-full" />
+			</div>
 		</div>
 		<section data-tauri-drag-region class="flex shrink-0 ml-auto items-center">
 			<IconButton
@@ -77,7 +85,7 @@ const messages = defineMessages({
 				:type="sidebarToggled ? 'base' : 'quiet'"
 				:label="formatMessage(messages.nextImage)"
 				class="mr-3 transition-transform"
-				:class="{ 'rotate-180': !sidebarToggled }"
+				:class="{ 'rotate-180': appSettings.sidebarOnRight ? !sidebarToggled : sidebarToggled }"
 				@click="emit('toggle-sidebar')"
 			>
 				<RightArrowIcon />

@@ -270,7 +270,7 @@ export function installTooltipDirective(app: App) {
 
 	app.directive('tooltip', {
 		mounted(el, binding) {
-			sync(el, binding.value, binding.modifiers)
+			sync(el, binding.value, binding.modifiers, binding.arg)
 			const ac = new AbortController()
 			listeners.set(el, ac)
 			el.addEventListener('mouseenter', () => tooltipEnter(el), { signal: ac.signal })
@@ -288,7 +288,7 @@ export function installTooltipDirective(app: App) {
 			)
 		},
 		updated(el, binding) {
-			sync(el, binding.value, binding.modifiers)
+			sync(el, binding.value, binding.modifiers, binding.arg)
 		},
 		beforeUnmount(el) {
 			unbindTooltipSource(el)
@@ -298,7 +298,12 @@ export function installTooltipDirective(app: App) {
 		},
 	} satisfies TooltipDirective)
 
-	function sync(el: HTMLElement, value: TooltipProps, modifiers: Record<string, boolean>) {
+	function sync(
+		el: HTMLElement,
+		value: TooltipProps,
+		modifiers: Record<string, boolean>,
+		arg?: string,
+	) {
 		const text = tooltipText(value)
 		if (!text) {
 			releaseFocusable(el, addedTabIndex)
@@ -309,7 +314,7 @@ export function installTooltipDirective(app: App) {
 		ensureFocusable(el, addedTabIndex)
 		ensureAriaLabel(el, text, addedAriaLabel)
 		bindTooltipSource(el, {
-			placement: tooltipPlacement(modifiers),
+			placement: tooltipPlacement(modifiers, arg),
 			getText: () => tooltipText(value),
 			delay: tooltipDelay(value),
 			panelClass: typeof value === 'string' ? undefined : value?.class,
@@ -382,7 +387,13 @@ function releaseFocusable(el: HTMLElement, added: WeakSet<HTMLElement>) {
 	added.delete(el)
 }
 
-function tooltipPlacement(modifiers: Partial<Record<string, boolean>>): TooltipPlacement {
+function tooltipPlacement(
+	modifiers: Partial<Record<string, boolean>>,
+	arg?: string,
+): TooltipPlacement {
+	if (arg === 'left' || arg === 'right' || arg === 'top' || arg === 'bottom') {
+		return arg
+	}
 	if (modifiers.right) {
 		return 'right'
 	}

@@ -19,7 +19,8 @@ pub struct Settings {
     pub hide_nametag_skins_page: bool,
     pub advanced_rendering: bool,
     pub native_decorations: bool,
-    pub toggle_sidebar: bool,
+    #[serde(default = "default_true")]
+    pub sidebar_on_right: bool,
     pub sync_theme_across_devices: bool,
     pub sync_behavior_across_devices: bool,
     #[serde(default = "default_true")]
@@ -121,7 +122,7 @@ impl Settings {
                 json(extra_launch_args) extra_launch_args, json(custom_env_vars) custom_env_vars,
                 mc_memory_max, mc_force_fullscreen, mc_game_resolution_x, mc_game_resolution_y, hide_on_process_start,
                 hook_pre_launch, hook_wrapper, hook_post_exit,
-                custom_dir, prev_custom_dir, migrated, json(feature_flags) feature_flags, toggle_sidebar,
+                custom_dir, prev_custom_dir, migrated, json(feature_flags) feature_flags, sidebar_on_right,
                 skipped_update, pending_update_toast_for_version, auto_download_updates,
 				sync_theme_across_devices, sync_behavior_across_devices, sync_features_across_devices,
 				show_files_tab_in_instances, show_worlds_tab_in_instances,
@@ -153,7 +154,7 @@ impl Settings {
             hide_nametag_skins_page: res.hide_nametag_skins_page == 1,
             advanced_rendering: res.advanced_rendering == 1,
             native_decorations: res.native_decorations == 1,
-            toggle_sidebar: res.toggle_sidebar == 1,
+            sidebar_on_right: res.sidebar_on_right == 1,
             show_jump_in: res.show_jump_in == 1,
             always_show_copy_details: res.always_show_copy_details == 1,
             hide_installed_modpacks: res.hide_installed_modpacks == 1,
@@ -270,7 +271,7 @@ impl Settings {
                 prev_custom_dir = $23,
                 migrated = $24,
 
-                toggle_sidebar = $25,
+                sidebar_on_right = $25,
                 feature_flags = $26,
                 hide_nametag_skins_page = $27,
 
@@ -326,7 +327,7 @@ impl Settings {
             self.custom_dir,
             self.prev_custom_dir,
             self.migrated,
-            self.toggle_sidebar,
+            self.sidebar_on_right,
             feature_flags,
             self.hide_nametag_skins_page,
             self.skipped_update,

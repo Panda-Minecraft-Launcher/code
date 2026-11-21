@@ -211,6 +211,7 @@ export type AppSettings = {
 	collapsed_navigation: boolean
 	advanced_rendering: boolean
 	native_decorations: boolean
+	sidebar_on_right: boolean
 	worlds_in_home: boolean
 	sync_theme_across_devices: boolean
 	sync_behavior_across_devices: boolean

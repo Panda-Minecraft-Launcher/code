@@ -80,14 +80,6 @@ const messages = defineMessages({
 		id: 'app.appearance-settings.default-landing-page.library',
 		defaultMessage: 'Library',
 	},
-	toggleSidebarTitle: {
-		id: 'app.appearance-settings.toggle-sidebar.title',
-		defaultMessage: 'Hide right sidebar',
-	},
-	toggleSidebarDescription: {
-		id: 'app.appearance-settings.toggle-sidebar.description',
-		defaultMessage: 'Hide the right sidebar by default and add a button to show or hide it.',
-	},
 	compactModeTitle: {
 		id: 'app.appearance-settings.compact-mode.title',
 		defaultMessage: 'Compact mode',
@@ -118,7 +110,8 @@ const messages = defineMessages({
 	},
 	unknownPackWarningDescription: {
 		id: 'app.appearance-settings.unknown-pack-warning.description',
-		defaultMessage: "Show a safety warning before installing a modpack (.mrpack) that isn't hosted on Modrinth.",
+		defaultMessage:
+			"Show a safety warning before installing a modpack (.mrpack) that isn't hosted on Modrinth.",
 	},
 	skipNonEssentialWarningsTitle: {
 		id: 'app.appearance-settings.skip-non-essential-warnings.title',
@@ -135,7 +128,6 @@ type BehaviorSettingsState = {
 	syncBehaviorAcrossDevices: boolean
 	minimizeApp: boolean
 	refocusOnGameClose: boolean
-	hideRightSidebar: boolean
 	compactInstanceCards: boolean
 	showPlayTime: boolean
 	hideNametag: boolean
@@ -155,7 +147,6 @@ function getBehaviorSettingsState(settings: AppSettings): BehaviorSettingsState 
 		showPlayTime: settings.show_play_time,
 		warnOnUnknownModpacks: settings.warn_on_unknown_modpacks,
 		skipNonEssentialWarnings: settings.skip_non_essential_warnings,
-		hideRightSidebar: settings.toggle_sidebar,
 		hideNametag: settings.hide_nametag_skins_page,
 	}
 }
@@ -169,7 +160,6 @@ const settingsMutation = useMutation({
 				behavior: {
 					minimize_app: value.minimizeApp,
 					refocus_on_game_close: value.refocusOnGameClose,
-					hide_right_sidebar: value.hideRightSidebar,
 					compact_instance_cards: value.compactInstanceCards,
 					show_play_time: value.showPlayTime,
 					hide_nametag: value.hideNametag,
@@ -184,7 +174,6 @@ const settingsMutation = useMutation({
 			...latestSettings,
 			sync_behavior_across_devices: value.syncBehaviorAcrossDevices,
 			hide_on_process_start: value.minimizeApp,
-			toggle_sidebar: value.hideRightSidebar,
 			hide_nametag_skins_page: value.hideNametag,
 			refocus_on_game_close: value.refocusOnGameClose,
 			compact_instance_cards: value.compactInstanceCards,
@@ -201,7 +190,6 @@ const settingsMutation = useMutation({
 		appSettings.showPlayTime = value.showPlayTime
 		appSettings.warnOnUnknownModpacks = value.warnOnUnknownModpacks
 		appSettings.skipNonEssentialWarnings = value.skipNonEssentialWarnings
-		appSettings.toggleSidebar = value.hideRightSidebar
 		appSettings.hideNametagSkinsPage = value.hideNametag
 	},
 	onMutate: () => queryClient.cancelQueries({ queryKey: appSettingsKeys.all }),
@@ -297,16 +285,6 @@ onBeforeUnmount(() => {
 					aria-labelledby="refocus-on-game-close-label"
 					aria-describedby="refocus-on-game-close-description"
 				/>
-			</div>
-
-			<div class="flex items-center justify-between gap-4">
-				<div>
-					<h3 class="m-0 text-lg font-semibold text-contrast">
-						{{ formatMessage(messages.toggleSidebarTitle) }}
-					</h3>
-					<p class="m-0 mt-1">{{ formatMessage(messages.toggleSidebarDescription) }}</p>
-				</div>
-				<Toggle id="toggle-sidebar" v-model="current.hideRightSidebar" />
 			</div>
 		</div>
 	</section>

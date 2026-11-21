@@ -213,12 +213,7 @@ const credentials = ref()
 const storedModrinthAccounts = ref([])
 let credentialsRefreshId = 0
 const sidebarToggled = ref(true)
-watch(
-	() => appSettings.toggleSidebar,
-	(toggleSidebar) => {
-		sidebarToggled.value = !toggleSidebar
-	},
-)
+const navTooltipSide = computed(() => (appSettings.sidebarOnRight ? 'left' : 'right'))
 const forceSidebar = computed(
 	() =>
 		route.path.startsWith('/browse') ||
@@ -226,6 +221,11 @@ const forceSidebar = computed(
 		route.path.startsWith('/user'),
 )
 const sidebarVisible = computed(() => sidebarToggled.value || forceSidebar.value)
+const fabSidebarOffset = computed(() =>
+	sidebarVisible.value
+		? `calc(${APP_LEFT_NAV_WIDTH} + ${APP_SIDEBAR_WIDTH}px)`
+		: APP_LEFT_NAV_WIDTH,
+)
 const hostingRouteActive = computed(() => route.path.startsWith('/hosting'))
 const hostingUpdateRequired = computed(
 	() =>
@@ -315,12 +315,8 @@ providePageContext({
 	showAds: ref(false),
 	adConsentAvailable: ref(false),
 	floatingActionBarOffsets: {
-		left: ref('0px'),
-		right: computed(() =>
-			sidebarVisible.value
-				? `calc(${APP_LEFT_NAV_WIDTH} + ${APP_SIDEBAR_WIDTH}px)`
-				: APP_LEFT_NAV_WIDTH,
-		),
+		left: computed(() => (appSettings.sidebarOnRight ? '0px' : fabSidebarOffset.value)),
+		right: computed(() => (appSettings.sidebarOnRight ? fabSidebarOffset.value : '0px')),
 	},
 	intercomBubble: hostingIntercom.intercomBubble,
 	featureFlags: {
@@ -593,7 +589,7 @@ async function setupApp() {
 		locale,
 		hide_nametag_skins_page,
 		advanced_rendering,
-		toggle_sidebar,
+		sidebar_on_right,
 		sync_theme_across_devices,
 		sync_behavior_across_devices,
 		sync_features_across_devices,
@@ -649,7 +645,7 @@ async function setupApp() {
 	appSettings.syncBehaviorAcrossDevices = sync_behavior_across_devices
 	appSettings.syncFeaturesAcrossDevices = sync_features_across_devices
 	appSettings.hideNametagSkinsPage = hide_nametag_skins_page
-	appSettings.toggleSidebar = toggle_sidebar
+	appSettings.sidebarOnRight = sidebar_on_right
 	appSettings.showFilesTabInInstances = show_files_tab_in_instances
 	appSettings.showWorldsTabInInstances = show_worlds_tab_in_instances
 	appSettings.showScreenshotsTabInInstances = show_screenshots_tab_in_instances
@@ -935,15 +931,10 @@ watch(
 						}
 					}
 
-					appSettings.toggleSidebar = behavior.hide_right_sidebar
 					appSettings.hideNametagSkinsPage = behavior.hide_nametag
 
 					if (settings.hide_on_process_start !== behavior.minimize_app) {
 						settings.hide_on_process_start = behavior.minimize_app
-						settingsChanged = true
-					}
-					if (settings.toggle_sidebar !== behavior.hide_right_sidebar) {
-						settings.toggle_sidebar = behavior.hide_right_sidebar
 						settingsChanged = true
 					}
 					if (settings.hide_nametag_skins_page !== behavior.hide_nametag) {
@@ -1806,7 +1797,10 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	<div
 		v-if="stateInitialized"
 		class="app-grid-layout relative"
-		:class="{ 'disable-advanced-rendering': !appTheme.advancedRendering }"
+		:class="{
+			'disable-advanced-rendering': !appTheme.advancedRendering,
+			'sidebar-on-left': !appSettings.sidebarOnRight,
+		}"
 	>
 		<Transition name="fade">
 			<div
@@ -1860,7 +1854,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			class="app-grid-navbar bg-bg-raised flex flex-col p-[0.5rem] pt-0 gap-[0.25rem] w-[--left-bar-width]"
 		>
 			<NavButton
-				v-tooltip.left="formatMessage(messages.home)"
+				v-tooltip:[navTooltipSide]="formatMessage(messages.home)"
 				to="/"
 				:is-primary="(route) => route.path === '/'"
 				:is-subpage="
@@ -1871,7 +1865,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				<PlayIcon class="ml-0.5" />
 			</NavButton>
 			<NavButton
-				v-tooltip.left="formatMessage(commonMessages.discoverContentLabel)"
+				v-tooltip:[navTooltipSide]="formatMessage(commonMessages.discoverContentLabel)"
 				to="/browse/modpack"
 				:is-primary="() => route.path.startsWith('/browse') && !route.query.i && !route.query.sid"
 				:is-subpage="
@@ -1882,21 +1876,21 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</NavButton>
 			<NavButton
 				v-if="appSettings.showSkinSelectorInSidebar"
-				v-tooltip.left="formatMessage(appMessages.accountManagementLabel)"
+				v-tooltip:[navTooltipSide]="formatMessage(appMessages.accountManagementLabel)"
 				to="/accounts"
 			>
 				<component :is="accountIcon" />
 			</NavButton>
 			<NavButton
 				v-if="globalSyncedOptionsQuery.data.value?.screenshots"
-				v-tooltip.left="formatMessage(messages.screenshots)"
+				v-tooltip:[navTooltipSide]="formatMessage(messages.screenshots)"
 				to="/screenshots"
 			>
 				<ImageIcon />
 			</NavButton>
 			<NavButton
 				v-if="false"
-				v-tooltip.left="formatMessage(messages.modrinthHosting)"
+				v-tooltip:[navTooltipSide]="formatMessage(messages.modrinthHosting)"
 				to="/hosting/manage"
 				:is-primary="(r) => r.path === '/hosting/manage' || r.path === '/hosting/manage/'"
 				:is-subpage="
@@ -1910,7 +1904,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			<suspense>
 				<QuickInstanceSwitcher>
 					<NavButton
-						v-tooltip.left="formatMessage(messages.createNewInstance)"
+						v-tooltip:[navTooltipSide]="formatMessage(messages.createNewInstance)"
 						:to="() => installationModal?.show()"
 						:disabled="offline"
 					>
@@ -1919,14 +1913,14 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				</QuickInstanceSwitcher>
 			</suspense>
 			<NavButton
-				v-tooltip.left="formatMessage(commonMessages.settingsLabel)"
+				v-tooltip:[navTooltipSide]="formatMessage(commonMessages.settingsLabel)"
 				:to="settingsActions.openSettings"
 			>
 				<SettingsIcon />
 			</NavButton>
 			<IconButton
 				v-if="false"
-				v-tooltip.left="profileButtonTooltip"
+				v-tooltip:[navTooltipSide]="profileButtonTooltip"
 				type="quiet"
 				size="xl"
 				disabled
@@ -1937,7 +1931,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</IconButton>
 			<TeleportOverflowMenu
 				v-if="false"
-				v-tooltip.left="profileButtonTooltip"
+				v-tooltip:[navTooltipSide]="profileButtonTooltip"
 				type="quiet"
 				size="xl"
 				:label="formatMessage(messages.modrinthAccount)"
@@ -1966,7 +1960,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</TeleportOverflowMenu>
 			<TeleportOverflowMenu
 				v-if="false"
-				v-tooltip.left="profileButtonTooltip"
+				v-tooltip:[navTooltipSide]="profileButtonTooltip"
 				type="quiet"
 				size="xl"
 				:label="formatMessage(messages.signInToModrinthAccount)"
@@ -1985,14 +1979,18 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 					<UserRoleIcon :role="account.user.role" />
 				</template>
 			</TeleportOverflowMenu>
-			<NavButton v-if="false" v-tooltip.left="profileButtonTooltip" :to="() => requestSignIn()">
+			<NavButton
+				v-if="false"
+				v-tooltip:[navTooltipSide]="profileButtonTooltip"
+				:to="() => requestSignIn()"
+			>
 				<LogInIcon class="text-brand" />
 			</NavButton>
 		</div>
 		<AppTitleBar
 			:can-navigate-back="canNavigateBack"
 			:can-navigate-forward="canNavigateForward"
-			:show-sidebar-toggle="!forceSidebar && appSettings.toggleSidebar"
+			:show-sidebar-toggle="!forceSidebar"
 			:sidebar-toggled="sidebarToggled"
 			@toggle-sidebar="sidebarToggled = !sidebarToggled"
 		/>
@@ -2002,6 +2000,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 		class="app-contents"
 		:class="{
 			'disable-advanced-rendering': !appTheme.advancedRendering,
+			'sidebar-on-left': !appSettings.sidebarOnRight,
 		}"
 	>
 		<div class="app-viewport flex-grow router-view">
@@ -2010,7 +2009,9 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				class="loading-indicator-container h-8 fixed z-50 pointer-events-none"
 				:style="{
 					top: 'calc(var(--top-bar-height))',
-					left: '0px',
+					left: appSettings.sidebarOnRight
+						? '0px'
+						: 'calc(var(--left-bar-width) + var(--right-bar-width))',
 					width: 'calc(100% - var(--left-bar-width) - var(--right-bar-width))',
 				}"
 			>
@@ -2024,8 +2025,12 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</div>
 			<div
 				id="background-teleport-target"
-				class="absolute h-full -z-10 rounded-tr-[--radius-xl] overflow-hidden"
+				class="absolute h-full -z-10 overflow-hidden"
+				:class="
+					appSettings.sidebarOnRight ? 'rounded-tr-[--radius-xl]' : 'rounded-tl-[--radius-xl]'
+				"
 				:style="{
+					left: appSettings.sidebarOnRight ? '0px' : 'var(--right-bar-width)',
 					width: 'calc(100% - var(--right-bar-width))',
 				}"
 			></div>
@@ -2134,6 +2139,11 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	//z-index: 0;
 	background-color: var(--color-raised-bg);
 	height: 100vh;
+
+	&.sidebar-on-left {
+		grid-template: 'status status' 'nav dummy';
+		grid-template-columns: auto 1fr;
+	}
 }
 
 .app-grid-navbar {
@@ -2168,6 +2178,26 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	&:has(#sidebar-teleport-target:not(:empty)) {
 		grid-template-columns: 1fr 300px;
 	}
+
+	&.sidebar-on-left {
+		left: var(--left-bar-width);
+		right: 0;
+		border-top-right-radius: 0;
+		border-top-left-radius: var(--radius-xl);
+		grid-template-columns: 0px 1fr;
+
+		&:has(#sidebar-teleport-target:not(:empty)) {
+			grid-template-columns: 300px 1fr;
+		}
+
+		.app-viewport {
+			grid-column: 2;
+		}
+
+		#sidebar-teleport-target {
+			grid-column: 1;
+		}
+	}
 }
 
 .sidebar-teleport-content {
@@ -2177,6 +2207,11 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 .loading-indicator-container {
 	border-top-right-radius: var(--radius-xl);
 	overflow: hidden;
+}
+
+.app-contents.sidebar-on-left .loading-indicator-container {
+	border-top-right-radius: 0;
+	border-top-left-radius: var(--radius-xl);
 }
 
 .disable-advanced-rendering {
@@ -2213,6 +2248,11 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	border-width: 1px;
 	border-style: solid;
 	pointer-events: none;
+}
+
+.app-contents.sidebar-on-left::before {
+	left: var(--left-bar-width);
+	right: calc(-1 * var(--left-bar-width));
 }
 
 @media (prefers-reduced-motion: no-preference) {

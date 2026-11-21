@@ -98,9 +98,6 @@
   "app.action-bar.make-primary-instance": {
     "message": "Make primary instance"
   },
-  "app.action-bar.no-instances-running": {
-    "message": "No instances running"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
   },
@@ -124,9 +121,6 @@
   },
   "app.action-bar.view-active-downloads": {
     "message": "View active downloads"
-  },
-  "app.action-bar.view-instance": {
-    "message": "View instance"
   },
   "app.action-bar.view-logs": {
     "message": "View logs"
@@ -176,17 +170,23 @@
   "app.appearance-settings.show-play-time.title": {
     "message": "Show play time"
   },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "Show the sidebar on the right or left."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "Left"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "Right"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "Sidebar position"
+  },
   "app.appearance-settings.skip-non-essential-warnings.description": {
     "message": "Skip confirmations for low-risk actions such as duplicate installs, normal content deletion, bulk updates, unlinking, and repairs. Warnings for dangerous actions are always shown."
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Skip non-essential warnings"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Hide the right sidebar by default and add a button to show or hide it."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Hide right sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Show a safety warning before installing a modpack (.mrpack) that isn't hosted on Modrinth."
@@ -480,10 +480,10 @@
     "message": "Show Screenshots tab in instances"
   },
   "app.features-settings.show-skin-selector.description": {
-    "message": "Show a button in the left sidebar to open the skin selector."
+    "message": "Show a button in the sidebar to open account management."
   },
   "app.features-settings.show-skin-selector.title": {
-    "message": "Show skin selector in sidebar"
+    "message": "Show account management button in sidebar"
   },
   "app.features-settings.show-worlds-tab.title": {
     "message": "Show Worlds tab in instances"
