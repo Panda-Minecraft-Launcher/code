@@ -3204,7 +3204,7 @@
     "defaultMessage": "Panda Minecraft Launcher s'ouvrira automatiquement..."
   },
   "modal.open-in-app.title": {
-    "defaultMessage": "L'application Panda Minecraft Launcher Minecraft Launcher est en cours d'ouverture"
+    "defaultMessage": "L'application Panda Minecraft Launcher est en cours d'ouverture"
   },
   "modal.open-in-app.why-use": {
     "defaultMessage": "Pourquoi utiliser Panda Minecraft Launcher"
@@ -5661,7 +5661,7 @@
     "defaultMessage": "Installez des mods en un clic"
   },
   "servers.list-empty.play-with-friends-description": {
-    "defaultMessage": "Invitez vos amis à rejoindre votre serveur en un clic depuis l'application Panda Minecraft Launcher Minecraft Launcher."
+    "defaultMessage": "Invitez vos amis à rejoindre votre serveur en un clic depuis l'application Panda Minecraft Launcher."
   },
   "servers.list-empty.play-with-friends-title": {
     "defaultMessage": "Jouez avec des amis"
@@ -6246,7 +6246,7 @@
     "defaultMessage": "Résultats de recherche"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "Environ {percentage}% de l'application Panda Minecraft Launcher Minecraft Launcher est disponible dans cette langue."
+    "defaultMessage": "Environ {percentage}% de l'application Panda Minecraft Launcher est disponible dans cette langue."
   },
   "settings.language.coverage.label": {
     "defaultMessage": "{percentage}% supporté"

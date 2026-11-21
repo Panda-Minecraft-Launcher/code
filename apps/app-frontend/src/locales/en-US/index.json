@@ -1500,7 +1500,7 @@
     "message": "Shared instance content"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "This shared instance contains files that aren’t published on Panda Minecraft Launcher Minecraft Launcher. We strongly recommend only installing files from sources you trust."
+    "message": "This shared instance contains files that aren’t published on Panda Minecraft Launcher. We strongly recommend only installing files from sources you trust."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "The modpack version this server uses can't be downloaded right now. It may be unpublished or under review. Try again later, or contact the server owner."
@@ -1548,7 +1548,7 @@
     "message": "Removed"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "This shared instance update contains files that aren’t published on Panda Minecraft Launcher Minecraft Launcher. We strongly recommend only installing files from sources you trust."
+    "message": "This shared instance update contains files that aren’t published on Panda Minecraft Launcher. We strongly recommend only installing files from sources you trust."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Update required"

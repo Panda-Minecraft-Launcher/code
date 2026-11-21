@@ -1398,7 +1398,7 @@
     "message": "Bibliothek"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {Die # geteilte Instanz, die dir gehört, wird von den Servern von Panda Minecraft Launcher Minecraft Launcher gelöscht, und Personen, die sie nutzen,} other {Die # geteilten Instanzen, die dir gehören, werden von den Servern von Panda Minecraft Launcher Minecraft Launcher gelöscht, und Personen, die sie nutzen,}} erhalten keine Updates mehr. {leaveCount, plural, one {Du verlierst den Zugriff auf die andere geteilte Instanz und brauchst eine neue Einladung, um ihr wieder beizutreten.} other {Du verlierst den Zugriff auf die anderen # geteilten Instanzen und brauchst eine neue Einladung, um ihnen wieder beizutreten.}} Alle werden aus deiner Bibliothek entfernt."
+    "message": "{unpublishCount, plural, one {Die # geteilte Instanz, die dir gehört, wird von den Servern von Panda Minecraft Launcher gelöscht, und Personen, die sie nutzen,} other {Die # geteilten Instanzen, die dir gehören, werden von den Servern von Panda Minecraft Launcher gelöscht, und Personen, die sie nutzen,}} erhalten keine Updates mehr. {leaveCount, plural, one {Du verlierst den Zugriff auf die andere geteilte Instanz und brauchst eine neue Einladung, um ihr wieder beizutreten.} other {Du verlierst den Zugriff auf die anderen # geteilten Instanzen und brauchst eine neue Einladung, um ihnen wieder beizutreten.}} Alle werden aus deiner Bibliothek entfernt."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Du hebst Veröffentlichungen auf und verlässt geteilte Instanzen"
@@ -1443,10 +1443,10 @@
     "message": "Installieren"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Diese Einladung wurde von einem anderen Panda-Nutzer erstellt, nicht von Panda Minecraft Launcher Minecraft Launcher. Nimm nur Einladungen von Personen an, denen du vertraust."
+    "message": "Diese Einladung wurde von einem anderen Panda-Nutzer erstellt, nicht von Panda Minecraft Launcher. Nimm nur Einladungen von Personen an, denen du vertraust."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "Diese Einladung wurde von <creator>{username}</creator> erstellt, nicht von Panda Minecraft Launcher Minecraft Launcher. Nimm nur Einladungen von Personen an, denen du vertraust."
+    "message": "Diese Einladung wurde von <creator>{username}</creator> erstellt, nicht von Panda Minecraft Launcher. Nimm nur Einladungen von Personen an, denen du vertraust."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Inhalte des Modpacks"
@@ -2106,7 +2106,7 @@
     "message": "Einige deiner Instanzen können diese Einstellung nicht verwenden"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Diese Einstellung wird über die Startoptionen von Panda Minecraft Launcher Minecraft Launcher verwaltet."
+    "message": "Diese Einstellung wird über die Startoptionen von Panda Minecraft Launcher verwaltet."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Wert eingeben"
@@ -2964,7 +2964,7 @@
     "message": "Die App könnte langsamer laden, bis der Cache neu aufgebaut wurde."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Gespeicherte Cache-Daten löschen und sie neu von Panda Minecraft Launcher Minecraft Launcher herunterladen. Die App könnte langsamer laden, bis der Cache neu aufgebaut wurde."
+    "message": "Gespeicherte Cache-Daten löschen und sie neu von Panda Minecraft Launcher herunterladen. Die App könnte langsamer laden, bis der Cache neu aufgebaut wurde."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "App-Cache"
@@ -3957,7 +3957,7 @@
     "message": "Wird getrennt..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Entferne diese geteilte Instanz von Panda Minecraft Launcher Minecraft Launcher und sende keine Updates mehr an Personen, die sie nutzen. Deine lokale Instanz ist davon nicht betroffen."
+    "message": "Entferne diese geteilte Instanz von Panda Minecraft Launcher und sende keine Updates mehr an Personen, die sie nutzen. Deine lokale Instanz ist davon nicht betroffen."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "Dies betrifft nur deine lokale Instanz. Deine installierten Inhalte bleiben auf diesem Gerät, und die geteilte Instanz sowie andere Benutzer, die diese verwenden, sind davon nicht betroffen."

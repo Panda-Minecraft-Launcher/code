@@ -451,7 +451,7 @@ const messages = defineMessages({
 	},
 	friendRequestsDescription: {
 		id: 'settings.social.friend-requests.description',
-		defaultMessage: 'Control who can send you friend requests on Panda Minecraft Launcher Minecraft Launcher.',
+		defaultMessage: 'Control who can send you friend requests on Panda Minecraft Launcher.',
 	},
 	sharedInstanceInvitesTitle: {
 		id: 'settings.social.shared-instance-invites.title',
@@ -503,7 +503,7 @@ const messages = defineMessages({
 	},
 	blockedUsersDescription: {
 		id: 'settings.social.blocked-users.description',
-		defaultMessage: 'These are the users you have blocked on Panda Minecraft Launcher Minecraft Launcher. They cannot:',
+		defaultMessage: 'These are the users you have blocked on Panda Minecraft Launcher. They cannot:',
 	},
 	friendRequestsRestriction: {
 		id: 'settings.social.blocked-users.restriction.friend-requests',

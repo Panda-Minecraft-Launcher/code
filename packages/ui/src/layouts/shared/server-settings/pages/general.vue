@@ -19,7 +19,7 @@
 									:disabled="!canUseAdvancedSettings"
 									@keyup.enter="!serverName && saveGeneral"
 								/>
-								<span>This name is only visible on Panda Minecraft Launcher Minecraft Launcher.</span>
+								<span>This name is only visible on Panda Minecraft Launcher.</span>
 								<div class="text-red font-medium">
 									<span v-if="!isValidServerName"> Server name cannot be empty. </span>
 								</div>

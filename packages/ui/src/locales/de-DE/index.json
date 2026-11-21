@@ -3597,10 +3597,10 @@
     "defaultMessage": "<actor>{actor}</actor> hat dich zur <entity>{entity}</entity> Instanz eingeladen."
   },
   "notifications.instance-quarantined-member.body": {
-    "defaultMessage": "Die geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda Minecraft Launcher Minecraft Launcher gesperrt."
+    "defaultMessage": "Die geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda Minecraft Launcher gesperrt."
   },
   "notifications.instance-quarantined.body": {
-    "defaultMessage": "Deine geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda Minecraft Launcher Minecraft Launcher gesperrt."
+    "defaultMessage": "Deine geteilte Instanz „<entity>{entity}</entity>“ wurde vom Moderationsteam von Panda Minecraft Launcher gesperrt."
   },
   "notifications.instance-ready.launch-game": {
     "defaultMessage": "Spiel starten"
@@ -3966,7 +3966,7 @@
     "defaultMessage": "Offizielles Panda-Konto"
   },
   "profile.official-account.bio": {
-    "defaultMessage": "Das offizielle Benutzerkonto von Panda Minecraft Launcher Minecraft Launcher. Erhalte Hilfe unter <support-link></support-link> oder per E-Mail unter <email></email>"
+    "defaultMessage": "Das offizielle Benutzerkonto von Panda Minecraft Launcher. Erhalte Hilfe unter <support-link></support-link> oder per E-Mail unter <email></email>"
   },
   "profile.reset-2fa.admonition-body": {
     "defaultMessage": "Die Authentifizierungs-App und die Wiederherstellungscodes von {username} werden gelöscht, und der Benutzer wird darüber informiert. Führe diesen Schritt erst durch, nachdem du die Identität des Benutzers überprüft hast."
@@ -5220,7 +5220,7 @@
     "defaultMessage": "Dadurch wird die geteilte Instanz gelöscht und ihre Einladungslinks werden deaktiviert. Spieler erhalten keine Updates der geteilten Inhalte mehr. Dein Server und seine Inhalte bleiben verfügbar."
   },
   "server.settings.sharing.unpublish-description": {
-    "defaultMessage": "Entferne die geteilte Instanz dieses Servers von Panda Minecraft Launcher Minecraft Launcher und sende keine Inhaltsupdates mehr an Spieler. Dein Server und seine Inhalte sind davon nicht betroffen."
+    "defaultMessage": "Entferne die geteilte Instanz dieses Servers von Panda Minecraft Launcher und sende keine Inhaltsupdates mehr an Spieler. Dein Server und seine Inhalte sind davon nicht betroffen."
   },
   "servers.access-page.activity-log-filter.action-group.backups": {
     "defaultMessage": "Sicherungen"
@@ -7395,7 +7395,7 @@
     "defaultMessage": "Erweitertes Rendering"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "defaultMessage": "Links, die außerhalb von Panda Minecraft Launcher Minecraft Launcher führen, werden in einem neuen Tab geöffnet. Unabhängig von dieser Einstellung werden Links auf der gleichen Domain und in Markdown-Beschreibungen immer im selben Tab geöffnet, während Links auf Anzeigen- und Bearbeitungsseiten immer in einem neuen Tab geöffnet werden."
+    "defaultMessage": "Links, die außerhalb von Panda Minecraft Launcher führen, werden in einem neuen Tab geöffnet. Unabhängig von dieser Einstellung werden Links auf der gleichen Domain und in Markdown-Beschreibungen immer im selben Tab geöffnet, während Links auf Anzeigen- und Bearbeitungsseiten immer in einem neuen Tab geöffnet werden."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "defaultMessage": "Externe Links in neuem Tab öffnen"

@@ -75,7 +75,7 @@
     "message": "La instalación de Minecraft falló"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "No pude comunicarme con Panda Minecraft Launcher Minecraft Launcher"
+    "message": "No pude comunicarme con Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "No tiene permiso para escribir"

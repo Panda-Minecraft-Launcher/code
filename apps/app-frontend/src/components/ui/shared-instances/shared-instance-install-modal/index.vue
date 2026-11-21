@@ -609,7 +609,7 @@ const messages = defineMessages({
 	unknownFilesDescription: {
 		id: 'app.modal.install-to-play.shared-instance-unknown-files-description',
 		defaultMessage:
-			'This shared instance contains files that aren’t published on Panda Minecraft Launcher Minecraft Launcher. We strongly recommend only installing files from sources you trust.',
+			'This shared instance contains files that aren’t published on Panda Minecraft Launcher. We strongly recommend only installing files from sources you trust.',
 	},
 	unrecognizedFiles: {
 		id: 'app.modal.install-to-play.unrecognized-files',

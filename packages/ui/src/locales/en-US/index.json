@@ -7578,7 +7578,7 @@
     "defaultMessage": "User"
   },
   "settings.social.blocked-users.description": {
-    "defaultMessage": "These are the users you have blocked on Panda Minecraft Launcher Minecraft Launcher. They cannot:"
+    "defaultMessage": "These are the users you have blocked on Panda Minecraft Launcher. They cannot:"
   },
   "settings.social.blocked-users.empty": {
     "defaultMessage": "You haven't blocked anyone."
@@ -7617,7 +7617,7 @@
     "defaultMessage": "{username}'s avatar"
   },
   "settings.social.friend-requests.description": {
-    "defaultMessage": "Control who can send you friend requests on Panda Minecraft Launcher Minecraft Launcher."
+    "defaultMessage": "Control who can send you friend requests on Panda Minecraft Launcher."
   },
   "settings.social.friend-requests.title": {
     "defaultMessage": "Friend requests"
@@ -8523,7 +8523,7 @@
     "defaultMessage": "Early Modpack Adopter"
   },
   "user.profile.badge.early-plugin-adopter.about.1": {
-    "defaultMessage": "This user helped us test Plugin projects on Panda Minecraft Launcher Minecraft Launcher before we launched them in August 2022."
+    "defaultMessage": "This user helped us test Plugin projects on Panda Minecraft Launcher before we launched them in August 2022."
   },
   "user.profile.badge.early-plugin-adopter.name": {
     "defaultMessage": "Early Plugin Adopter"
@@ -8535,13 +8535,13 @@
     "defaultMessage": "Early Resource Pack Adopter"
   },
   "user.profile.badge.early-server-adopter.about.1": {
-    "defaultMessage": "This user helped us test Server projects on Panda Minecraft Launcher Minecraft Launcher before we launched them in March 2026."
+    "defaultMessage": "This user helped us test Server projects on Panda Minecraft Launcher before we launched them in March 2026."
   },
   "user.profile.badge.early-server-adopter.name": {
     "defaultMessage": "Early Server Adopter"
   },
   "user.profile.badge.early-shader-adopter.about.1": {
-    "defaultMessage": "This user helped us test Shader projects on Panda Minecraft Launcher Minecraft Launcher before we launched them in January 2023."
+    "defaultMessage": "This user helped us test Shader projects on Panda Minecraft Launcher before we launched them in January 2023."
   },
   "user.profile.badge.early-shader-adopter.name": {
     "defaultMessage": "Early Shader Adopter"
@@ -8556,7 +8556,7 @@
     "defaultMessage": "This user works for Panda Minecraft Launcher as a Content Moderator."
   },
   "user.profile.badge.moderator.about.2": {
-    "defaultMessage": "Content Moderators on Panda Minecraft Launcher Minecraft Launcher review projects, handle reports, and help keep Panda Minecraft Launcher safe."
+    "defaultMessage": "Content Moderators on Panda Minecraft Launcher review projects, handle reports, and help keep Panda Minecraft Launcher safe."
   },
   "user.profile.badge.moderator.name": {
     "defaultMessage": "Content Moderator"
