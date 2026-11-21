@@ -26,6 +26,18 @@ pub(crate) struct RuntimeStorage {
     pub files: Vec<RuntimeFile>,
 }
 
+fn runtime_dirs(dirs: &DirectoryInfo) -> Vec<PathBuf> {
+    vec![
+        dirs.versions_dir(),
+        dirs.assets_dir(),
+        dirs.libraries_dir(),
+        dirs.java_versions_dir(),
+        dirs.natives_dir(),
+        dirs.log_configs_dir(),
+        dirs.legacy_assets_dir(),
+    ]
+}
+
 impl RuntimeStorage {
     pub async fn read(state: &State) -> crate::Result<Self> {
         let mut contexts = Vec::new();
@@ -63,7 +75,7 @@ impl RuntimeStorage {
         java: HashMap<u32, JavaVersion>,
         incomplete: bool,
     ) -> crate::Result<Self> {
-        let root = dirs.metadata_dir();
+        let root = dirs.config_dir.clone();
         match fs::symlink_metadata(&root) {
             Ok(metadata) if metadata.is_dir() => {}
             Ok(_) => {
@@ -83,24 +95,20 @@ impl RuntimeStorage {
 
         let mut references = References::default();
         if incomplete {
-            references.tree(&root, "unresolved-instance");
+            for path in runtime_dirs(&dirs) {
+                references.tree(&path, "unresolved-instance");
+            }
         }
         for context in contexts {
             if let Err(error) = references.instance(&dirs, &context, &java) {
                 tracing::debug!(instance_id = %context.instance.id, "Retaining runtime files with unresolved dependencies: {error}");
-                references.tree(&root, &context.instance.id);
+                for path in runtime_dirs(&dirs) {
+                    references.tree(&path, &context.instance.id);
+                }
             }
         }
         let mut files = Vec::new();
-        let mut pending = vec![
-            dirs.versions_dir(),
-            dirs.assets_dir(),
-            dirs.libraries_dir(),
-            dirs.java_versions_dir(),
-            dirs.natives_dir(),
-            dirs.log_configs_dir(),
-            dirs.legacy_assets_dir(),
-        ];
+        let mut pending = runtime_dirs(&dirs);
         while let Some(path) = pending.pop() {
             let metadata = match fs::symlink_metadata(&path) {
                 Ok(metadata) => metadata,
@@ -109,7 +117,10 @@ impl RuntimeStorage {
                 }
                 Err(error) => return Err(error.into()),
             };
-            if metadata.is_symlink() && path.parent() == Some(root.as_path()) {
+            if metadata.is_symlink()
+                && (path.parent() == Some(root.as_path())
+                    || path.parent() == Some(dirs.metadata_dir().as_path()))
+            {
                 continue;
             }
             if metadata.is_dir() {
