@@ -186,7 +186,7 @@
     "message": "右のサイドバーを隠す"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Panda以外でホストされているPandaパック（.mrpack）をインストールする前に、安全警告を表示します。"
+    "message": "Modrinth以外でホストされているModパック（.mrpack）をインストールする前に、安全警告を表示します。"
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "不明なModパックのインストール前に警告する"

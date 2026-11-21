@@ -183,7 +183,7 @@
     "message": "הסתר את סרגל הצד הימני"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "הצג אזהרת בטיחות לפני התקנת חבילת Panda (.mrpack) שאינה מאורחת ב-Panda."
+    "message": "הצג אזהרת בטיחות לפני התקנת חבילת מודים (.mrpack) שאינה מאורחת ב-Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "הזהר אותי לפני התקנת חבילות תוכן לא מוכרות"

@@ -186,7 +186,7 @@
     "message": "隐藏右侧边栏"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "在安装非 Panda 托管的 Panda 整合包文件（.mrpack）前显示安全警告。"
+    "message": "在安装非 Modrinth 托管的整合包文件（.mrpack）前显示安全警告。"
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "安装未知整合包前提醒我"

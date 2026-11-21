@@ -186,7 +186,7 @@
     "message": "Rechte Seitenleiste ausblenden"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Sicherheitswarnung vor der Installation eines Panda-Packs (.mrpack) anzeigen, das nicht auf Panda gehostet wird."
+    "message": "Sicherheitswarnung vor der Installation eines Modpacks (.mrpack) anzeigen, das nicht auf Modrinth gehostet wird."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Warne mich, bevor unbekannte Modpacks installiert werden"

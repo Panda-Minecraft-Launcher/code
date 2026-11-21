@@ -186,7 +186,7 @@
     "message": "Rechterzijbalk verbergen"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Geef een veiligheidswaarschuwing weer voordat een Panda-pakket (.mrpack) wordt geïnstalleerd dat niet op Panda wordt gehost."
+    "message": "Geef een veiligheidswaarschuwing weer voordat een modpack (.mrpack) wordt geïnstalleerd die niet op Modrinth wordt gehost."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Waarschuw mij voordat ik onbekende modpacks installeer"

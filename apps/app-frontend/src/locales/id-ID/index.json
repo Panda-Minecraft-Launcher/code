@@ -180,7 +180,7 @@
     "message": "Sembunyikan bilah sisi kanan"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Tampilkan peringatan sebelum memasang sebuah paket Panda (.mrpack) yang tidak dihoskan di Panda."
+    "message": "Tampilkan peringatan sebelum memasang sebuah paket mod (.mrpack) yang tidak dihoskan di Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Peringatkan saya sebelum memasang paket mod tidak dikenal"

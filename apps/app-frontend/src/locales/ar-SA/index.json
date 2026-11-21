@@ -186,7 +186,7 @@
     "message": "قم بإخفاء الشريط الجانبي الأيمن"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "إظهار تحذير أمان قبل تثبيت مودباك Panda (.mrpack) غير المستضاف على Panda."
+    "message": "إظهار تحذير أمان قبل تثبيت مودباك (.mrpack) غير المستضاف على Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "أخبرني قبل تثبيت المودباكات غير المعروفة"

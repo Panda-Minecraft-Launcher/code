@@ -186,7 +186,7 @@
     "message": "Jobb oldalsáv elrejtése"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Biztonsági figyelmeztetést jelenít meg, mielőtt olyan Panda Csomagfájlt (.mrpack) telepítenél, amely nem a Pandaról származik."
+    "message": "Biztonsági figyelmeztetést jelenít meg, mielőtt olyan modcsomagot (.mrpack) telepítenél, amely nem a Modrinthről származik."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Figyelmeztetés ismeretlen modcsomagok telepítése előtt"
