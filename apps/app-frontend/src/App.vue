@@ -315,8 +315,12 @@ providePageContext({
 	showAds: ref(false),
 	adConsentAvailable: ref(false),
 	floatingActionBarOffsets: {
-		left: ref(APP_LEFT_NAV_WIDTH),
-		right: computed(() => (sidebarVisible.value ? `${APP_SIDEBAR_WIDTH}px` : '0px')),
+		left: ref('0px'),
+		right: computed(() =>
+			sidebarVisible.value
+				? `calc(${APP_LEFT_NAV_WIDTH} + ${APP_SIDEBAR_WIDTH}px)`
+				: APP_LEFT_NAV_WIDTH,
+		),
 	},
 	intercomBubble: hostingIntercom.intercomBubble,
 	featureFlags: {
@@ -1856,7 +1860,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			class="app-grid-navbar bg-bg-raised flex flex-col p-[0.5rem] pt-0 gap-[0.25rem] w-[--left-bar-width]"
 		>
 			<NavButton
-				v-tooltip.right="formatMessage(messages.home)"
+				v-tooltip.left="formatMessage(messages.home)"
 				to="/"
 				:is-primary="(route) => route.path === '/'"
 				:is-subpage="
@@ -1867,7 +1871,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				<PlayIcon class="ml-0.5" />
 			</NavButton>
 			<NavButton
-				v-tooltip.right="formatMessage(commonMessages.discoverContentLabel)"
+				v-tooltip.left="formatMessage(commonMessages.discoverContentLabel)"
 				to="/browse/modpack"
 				:is-primary="() => route.path.startsWith('/browse') && !route.query.i && !route.query.sid"
 				:is-subpage="
@@ -1878,21 +1882,21 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</NavButton>
 			<NavButton
 				v-if="appSettings.showSkinSelectorInSidebar"
-				v-tooltip.right="formatMessage(appMessages.accountManagementLabel)"
+				v-tooltip.left="formatMessage(appMessages.accountManagementLabel)"
 				to="/accounts"
 			>
 				<component :is="accountIcon" />
 			</NavButton>
 			<NavButton
 				v-if="globalSyncedOptionsQuery.data.value?.screenshots"
-				v-tooltip.right="formatMessage(messages.screenshots)"
+				v-tooltip.left="formatMessage(messages.screenshots)"
 				to="/screenshots"
 			>
 				<ImageIcon />
 			</NavButton>
 			<NavButton
 				v-if="false"
-				v-tooltip.right="formatMessage(messages.modrinthHosting)"
+				v-tooltip.left="formatMessage(messages.modrinthHosting)"
 				to="/hosting/manage"
 				:is-primary="(r) => r.path === '/hosting/manage' || r.path === '/hosting/manage/'"
 				:is-subpage="
@@ -1906,7 +1910,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			<suspense>
 				<QuickInstanceSwitcher>
 					<NavButton
-						v-tooltip.right="formatMessage(messages.createNewInstance)"
+						v-tooltip.left="formatMessage(messages.createNewInstance)"
 						:to="() => installationModal?.show()"
 						:disabled="offline"
 					>
@@ -1915,14 +1919,14 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				</QuickInstanceSwitcher>
 			</suspense>
 			<NavButton
-				v-tooltip.right="formatMessage(commonMessages.settingsLabel)"
+				v-tooltip.left="formatMessage(commonMessages.settingsLabel)"
 				:to="settingsActions.openSettings"
 			>
 				<SettingsIcon />
 			</NavButton>
 			<IconButton
 				v-if="false"
-				v-tooltip.right="profileButtonTooltip"
+				v-tooltip.left="profileButtonTooltip"
 				type="quiet"
 				size="xl"
 				disabled
@@ -1933,7 +1937,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</IconButton>
 			<TeleportOverflowMenu
 				v-if="false"
-				v-tooltip.right="profileButtonTooltip"
+				v-tooltip.left="profileButtonTooltip"
 				type="quiet"
 				size="xl"
 				:label="formatMessage(messages.modrinthAccount)"
@@ -1962,7 +1966,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</TeleportOverflowMenu>
 			<TeleportOverflowMenu
 				v-if="false"
-				v-tooltip.right="profileButtonTooltip"
+				v-tooltip.left="profileButtonTooltip"
 				type="quiet"
 				size="xl"
 				:label="formatMessage(messages.signInToModrinthAccount)"
@@ -1981,7 +1985,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 					<UserRoleIcon :role="account.user.role" />
 				</template>
 			</TeleportOverflowMenu>
-			<NavButton v-if="false" v-tooltip.right="profileButtonTooltip" :to="() => requestSignIn()">
+			<NavButton v-if="false" v-tooltip.left="profileButtonTooltip" :to="() => requestSignIn()">
 				<LogInIcon class="text-brand" />
 			</NavButton>
 		</div>
@@ -2006,7 +2010,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				class="loading-indicator-container h-8 fixed z-50 pointer-events-none"
 				:style="{
 					top: 'calc(var(--top-bar-height))',
-					left: 'calc(var(--left-bar-width))',
+					left: '0px',
 					width: 'calc(100% - var(--left-bar-width) - var(--right-bar-width))',
 				}"
 			>
@@ -2020,7 +2024,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			</div>
 			<div
 				id="background-teleport-target"
-				class="absolute h-full -z-10 rounded-tl-[--radius-xl] overflow-hidden"
+				class="absolute h-full -z-10 rounded-tr-[--radius-xl] overflow-hidden"
 				:style="{
 					width: 'calc(100% - var(--right-bar-width))',
 				}"
@@ -2123,8 +2127,8 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 
 .app-grid-layout {
 	display: grid;
-	grid-template: 'status status' 'nav dummy';
-	grid-template-columns: auto 1fr;
+	grid-template: 'status status' 'dummy nav';
+	grid-template-columns: 1fr auto;
 	grid-template-rows: auto minmax(0, 1fr);
 	position: relative;
 	//z-index: 0;
@@ -2150,13 +2154,13 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 .app-contents {
 	position: absolute;
 	z-index: 1;
-	left: var(--left-bar-width);
+	left: 0;
 	top: var(--top-bar-height);
-	right: 0;
+	right: var(--left-bar-width);
 	bottom: 0;
 	height: calc(100vh - var(--top-bar-height));
 	background-color: var(--color-bg);
-	border-top-left-radius: var(--radius-xl);
+	border-top-right-radius: var(--radius-xl);
 
 	display: grid;
 	grid-template-columns: 1fr 0px;
@@ -2171,7 +2175,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 }
 
 .loading-indicator-container {
-	border-top-left-radius: var(--radius-xl);
+	border-top-right-radius: var(--radius-xl);
 	overflow: hidden;
 }
 
@@ -2199,9 +2203,9 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 	z-index: 30;
 	content: '';
 	position: fixed;
-	left: var(--left-bar-width);
+	left: calc(-1 * var(--left-bar-width));
 	top: var(--top-bar-height);
-	right: calc(-1 * var(--left-bar-width));
+	right: var(--left-bar-width);
 	bottom: calc(-1 * var(--left-bar-width));
 	border-radius: var(--radius-xl);
 	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1) inset;

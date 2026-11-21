@@ -349,7 +349,7 @@ function openContextMenu(event, instance) {
 				<NavButton
 					v-for="instance in recentInstances"
 					:key="instance.id"
-					v-tooltip.right="instance.name"
+					v-tooltip.left="instance.name"
 					class="quick-instance-item relative"
 					:to="`/instance/${encodeURIComponent(instance.id)}`"
 					@contextmenu.prevent.stop="(event) => openContextMenu(event, instance)"
@@ -372,7 +372,7 @@ function openContextMenu(event, instance) {
 		</div>
 		<ContextMenu ref="instanceOptions" :label="formatMessage(messages.instanceActions)" />
 		<div
-			v-tooltip.right="dividerTooltip"
+			v-tooltip.left="dividerTooltip"
 			role="separator"
 			aria-orientation="horizontal"
 			:tabindex="canDrag ? 0 : undefined"
