@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -70,5 +71,5 @@ jobs:
           gh release create "$VERSION_TAG" \
             --title "Panda Minecraft Launcher ${VERSION}" \
             --notes-file release-notes.md \
-            "${LINUX_X64_BUNDLE_ARTIFACT_NAME}/release/bundle/appimage/Panda Minecraft Launcher_${VERSION}_amd64.AppImage" \
-            "${WINDOWS_X64_BUNDLE_ARTIFACT_NAME}/release/bundle/nsis/Panda Minecraft Launcher_${VERSION}_x64-setup.exe"
+            "${LINUX_X64_BUNDLE_ARTIFACT_NAME}/Panda Minecraft Launcher_${VERSION}_amd64.AppImage" \
+            "${WINDOWS_X64_BUNDLE_ARTIFACT_NAME}/Panda Minecraft Launcher_${VERSION}_x64-setup.exe"
