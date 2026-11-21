@@ -186,7 +186,7 @@
     "message": "Skjul højre sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Vis en sikkerhedsadvarsel, før du installerer en Panda Pack (.mrpack), der ikke er hostet på Panda."
+    "message": "Vis en sikkerhedsadvarsel, før du installerer en modpack (.mrpack), der ikke er hostet på Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Advar mig før jeg installere en ukendt modpacks"

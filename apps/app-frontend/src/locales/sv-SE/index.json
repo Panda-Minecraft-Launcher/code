@@ -186,7 +186,7 @@
     "message": "Dölj högra sidofält"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Visa en säkerhetsvarning innan du installerar ett Panda Pack (.mrpack) som inte finns på Panda."
+    "message": "Visa en säkerhetsvarning innan du installerar ett modpaket (.mrpack) som inte finns på Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Varna mig innan jag installerar okända modpaket"

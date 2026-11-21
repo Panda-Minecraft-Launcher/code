@@ -186,7 +186,7 @@
     "message": "Skjul høyre menylinje"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Vis en sikkerhetsvarsling før innstallering av en Panda Pack (.mrpack) som ikke hostes på Panda."
+    "message": "Vis en sikkerhetsvarsling før innstallering av en modpakke (.mrpack) som ikke hostes på Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Advar meg før jeg installerer ukjente modpakker"

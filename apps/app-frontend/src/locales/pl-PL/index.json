@@ -186,7 +186,7 @@
     "message": "Ukryj prawy pasek boczny"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Pokaż ostrzeżenie o bezpieczeństwie przed zainstalowaniem paczki typu Panda Pack (.mrpack), która nie jest hostowana na Panda."
+    "message": "Pokaż ostrzeżenie o bezpieczeństwie przed zainstalowaniem paczki modów (.mrpack), która nie jest hostowana na Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Ostrzegaj mnie przed instalowaniem nieznanych paczek modów"

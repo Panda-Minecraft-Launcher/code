@@ -186,7 +186,7 @@
     "message": "Piilota oikea sivupaneeli"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Näytä turvallisuusvaroitus ennen Panda Pack (.mrpack) -tiedoston asentamista, jota ei löydy Pandain tietokannasta."
+    "message": "Näytä turvallisuusvaroitus ennen sellaisen modipaketin (.mrpack) asentamista, jota ei isännöi Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Varoita minua ennen tuntemattomien modipakettien asentamista"

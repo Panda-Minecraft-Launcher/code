@@ -186,7 +186,7 @@
     "message": "오른쪽 패널 숨기기"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Panda에 호스팅되지 않은 Panda Pack(.mrpack)을 설치하기 전에 안전 경고를 표시합니다."
+    "message": "Modrinth에 호스팅되지 않은 모드팩(.mrpack)을 설치하기 전에 안전 경고를 표시합니다."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "출처를 알 수 없는 모드팩 설치 전 경고"

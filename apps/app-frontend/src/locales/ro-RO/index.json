@@ -186,7 +186,7 @@
     "message": "Ascundeți bara laterală dreapta"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Afișați un avertisment de siguranța înainte de a instala un Panda Pack (.mrpack) care nu este găzduit de Panda."
+    "message": "Afișați un avertisment de siguranța înainte de a instala un modpack (.mrpack) care nu este găzduit de Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Avertizează-ma înainte de a instala modpackuri necunoscute"

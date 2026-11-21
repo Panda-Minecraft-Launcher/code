@@ -186,7 +186,7 @@
     "message": "Ẩn thanh bên phải"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Hiển thị cảnh báo an toàn trước khi cài Panda Pack (.mrpack) không được lưu trữ trên Panda."
+    "message": "Hiển thị cảnh báo an toàn trước khi cài modpack (.mrpack) không được lưu trữ trên Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Cảnh báo trước khi cài modpack không xác định"

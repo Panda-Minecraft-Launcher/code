@@ -186,7 +186,7 @@
     "message": "Itago ang kanang sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Magpakita ng babala sa kaligtasan bago i-install ang isang Panda Pack (.mrpack) na hindi naka-host sa Panda."
+    "message": "Magpakita ng babala sa kaligtasan bago i-install ang isang modpack (.mrpack) na hindi naka-host sa Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Pakipaalala bago ko ma-install ang mga di-kilalang modpack"

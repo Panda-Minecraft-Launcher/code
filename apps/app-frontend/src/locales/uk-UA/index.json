@@ -186,7 +186,7 @@
     "message": "Приховати праву бічну панель"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Показувати попередження про безпеку перед встановленням Panda Pack (.mrpack), який не розміщено на Panda."
+    "message": "Показувати попередження про безпеку перед встановленням модпаку (.mrpack), який не розміщено на Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Попереджати перед установленням невідомих збірок"

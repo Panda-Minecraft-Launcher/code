@@ -186,7 +186,7 @@
     "message": "ซ่อนแถบทางด้านขวา"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "แสดงคำเตือนด้านความปลอดภัยก่อนติดตั้ง Panda Pack (.mrpack) ที่ไม่ได้โฮสต์บน Panda."
+    "message": "แสดงคำเตือนด้านความปลอดภัยก่อนติดตั้งแพ็กม็อด (.mrpack) ที่ไม่ได้โฮสต์บน Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "เตือนฉันก่อนติดตั้งแพ็กม็อดที่ไม่รู้จัก"

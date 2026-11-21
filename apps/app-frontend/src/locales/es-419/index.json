@@ -186,7 +186,7 @@
     "message": "Mostrar u ocultar la barra lateral"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Muestra una advertencia antes de instalar un Panda Pack (.mrpack) que no provenga de los servidores de Panda."
+    "message": "Muestra una advertencia antes de instalar un modpack (.mrpack) que no esté alojado en Modrinth."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Advertir antes de instalar modpacks desconocidos"

@@ -186,7 +186,7 @@
     "message": "Skrýt pravý postranní panel"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Zobrazit bezpečnostní varování před instalací Panda Pack (.mrpack), který není hostován v Panda."
+    "message": "Zobrazit bezpečnostní varování před instalací modpacku (.mrpack), který není hostován na Modrinthu."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Upozorni mě před instalací neznámých modpacků"
