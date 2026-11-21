@@ -40,10 +40,10 @@ async fn main() -> theseus::Result<()> {
     println!("Starting.");
 
     theseus::install_crypto_provider();
-    let _log_guard = theseus::start_logger("ModrinthApp");
+    let _log_guard = theseus::start_logger("PandaMinecraftLauncher");
 
     // Initialize state
-    State::init("ModrinthApp".to_owned()).await?;
+    State::init("PandaMinecraftLauncher".to_owned()).await?;
 
     let worlds = get_recent_worlds(4, EnumSet::all()).await?;
     for world in worlds {
