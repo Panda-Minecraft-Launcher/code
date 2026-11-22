@@ -1,18 +1,19 @@
 <script setup lang="ts">
-import { InfoIcon, XIcon } from '@modrinth/assets'
+import { CurseForgeIcon, InfoIcon, ModrinthLogoIcon, XIcon } from '@modrinth/assets'
 import { computed, nextTick, ref, toValue, useTemplateRef, watch } from 'vue'
 
 import { IconButton } from '#ui/components/base/buttons'
 import Toggle from '#ui/components/base/Toggle.vue'
 import PhotosensitivityWarningModal from '#ui/components/modal/PhotosensitivityWarningModal.vue'
 import SearchSidebarFilter from '#ui/components/search/SearchSidebarFilter.vue'
-import { useVIntl } from '#ui/composables/i18n'
+import { defineMessages, useVIntl } from '#ui/composables/i18n'
 import { useAdvancedPrefs } from '#ui/utils/advanced-filter-preferences'
 import { commonMessages } from '#ui/utils/common-messages'
 import { LOADER_FILTER_TYPES } from '#ui/utils/search'
 
 import AdvancedFiltersPersistenceNote from './components/AdvancedFiltersPersistenceNote.vue'
 import { useServerEnvironmentFilter } from './composables/use-server-environment-filter'
+import type { BrowseSource } from './providers/browse-manager'
 import { injectBrowseManager } from './providers/browse-manager'
 
 const PHOTOSENSITIVITY_FILTER_OPTION = 'epilepsy_triggers'
@@ -22,6 +23,20 @@ const { formatMessage } = useVIntl()
 const advancedPrefs = useAdvancedPrefs()
 
 const isApp = computed(() => ctx.variant === 'app')
+
+const messages = defineMessages({
+	modrinthSource: { id: 'browse.source.modrinth', defaultMessage: 'Modrinth' },
+	curseforgeSource: { id: 'browse.source.curseforge', defaultMessage: 'CurseForge' },
+})
+
+const fallbackBrowseSource = ref<BrowseSource>('modrinth')
+const browseSource = computed<BrowseSource>({
+	get: () => ctx.browseSource?.value ?? fallbackBrowseSource.value,
+	set: (value) => {
+		if (ctx.browseSource) ctx.browseSource.value = value
+		else fallbackBrowseSource.value = value
+	},
+})
 
 const { filterType: serverEnvironmentFilterType, selection: serverEnvironmentSelection } =
 	useServerEnvironmentFilter(ctx)
@@ -151,6 +166,37 @@ function getFilterOpenByDefault(filterId: string): boolean {
 <template>
 	<slot name="prepend" />
 
+	<div v-if="isApp && ctx.browseSource" class="flex w-full gap-1 rounded-full bg-surface-3 p-1">
+		<button
+			type="button"
+			class="flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-full border-none px-3 py-2 text-sm font-semibold transition-colors"
+			:class="
+				browseSource === 'modrinth'
+					? 'bg-surface-4 text-contrast'
+					: 'bg-transparent text-secondary hover:text-contrast'
+			"
+			:aria-pressed="browseSource === 'modrinth'"
+			@click="browseSource = 'modrinth'"
+		>
+			<ModrinthLogoIcon class="size-5 shrink-0" />
+			<span>{{ formatMessage(messages.modrinthSource) }}</span>
+		</button>
+		<button
+			type="button"
+			class="flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-full border-none px-3 py-2 text-sm font-semibold transition-colors"
+			:class="
+				browseSource === 'curseforge'
+					? 'bg-surface-4 text-contrast'
+					: 'bg-transparent text-secondary hover:text-contrast'
+			"
+			:aria-pressed="browseSource === 'curseforge'"
+			@click="browseSource = 'curseforge'"
+		>
+			<CurseForgeIcon class="size-5 shrink-0" />
+			<span>{{ formatMessage(messages.curseforgeSource) }}</span>
+		</button>
+	</div>
+
 	<PhotosensitivityWarningModal
 		ref="photosensitivityWarningModal"
 		@dismiss="onPhotosensitivityWarningDismiss"
@@ -177,7 +223,7 @@ function getFilterOpenByDefault(filterId: string): boolean {
 		</div>
 
 		<div
-			v-if="ctx.showHideInstalled?.value || ctx.showHideSelected?.value"
+			v-if="ctx.showHideSelected?.value || (!isApp && ctx.showHideInstalled?.value)"
 			:class="
 				isApp
 					? 'flex flex-col gap-3 border-0 border-b-[1px] p-4 last:border-b-0 border-[--brand-gradient-border] border-solid'
@@ -185,7 +231,7 @@ function getFilterOpenByDefault(filterId: string): boolean {
 			"
 		>
 			<label
-				v-if="ctx.showHideInstalled?.value"
+				v-if="!isApp && ctx.showHideInstalled?.value"
 				class="flex cursor-pointer items-center justify-between gap-3 text-contrast font-medium"
 			>
 				{{

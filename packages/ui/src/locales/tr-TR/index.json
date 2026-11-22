@@ -110,6 +110,9 @@
   "browse.advanced-filters.persistence-note": {
     "defaultMessage": "Gelişmiş hariç tutmalar oturumlar arasında saklanır. Filtre içeren paylaşılan bir bağlantıyı açmak bunların üzerine yazacaktır."
   },
+  "browse.curseforge.placeholder": {
+    "defaultMessage": "CurseForge modları yakında."
+  },
   "browse.filter-results": {
     "defaultMessage": "Filtre sonuçları..."
   },
@@ -142,6 +145,12 @@
   },
   "browse.selected-projects-leave-modal.header": {
     "defaultMessage": "Seçili projeler hala indirilmemiş"
+  },
+  "browse.source.curseforge": {
+    "defaultMessage": "CurseForge"
+  },
+  "browse.source.modrinth": {
+    "defaultMessage": "Modrinth"
   },
   "browse.view-prefix": {
     "defaultMessage": "Görüntüle:"

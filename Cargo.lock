@@ -13780,7 +13780,7 @@ dependencies = [
 
 [[package]]
 name = "theseus"
-version = "0.0.3"
+version = "0.0.5"
 dependencies = [
  "anyhow",
  "ariadne",
@@ -13877,7 +13877,7 @@ dependencies = [
 
 [[package]]
 name = "theseus_gui"
-version = "0.0.3"
+version = "0.0.5"
 dependencies = [
  "aes-gcm 0.11.1",
  "anyhow",
@@ -13898,6 +13898,7 @@ dependencies = [
  "paste",
  "path-util",
  "rand 0.10.3",
+ "reqwest 0.13.5",
  "rustls 0.23.46",
  "serde",
  "serde_json",

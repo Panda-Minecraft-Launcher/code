@@ -92,6 +92,10 @@ const messages = defineMessages({
 		id: 'browse.no-results',
 		defaultMessage: 'No results found for your query!',
 	},
+	curseforgePlaceholder: {
+		id: 'browse.curseforge.placeholder',
+		defaultMessage: 'CurseForge mods are coming soon.',
+	},
 	linkOverridingPreferences: {
 		id: 'browse.advanced-filters.link-overriding-preferences',
 		defaultMessage: "This link's filters differ from your saved advanced exclusions",
@@ -278,7 +282,10 @@ function getProjectCardTags(result: Labrinth.Search.v3.ResultSearchProject, disp
 	/>
 
 	<div class="search mt-1 [overflow-anchor:none]">
-		<section v-if="ctx.loading.value" class="offline">
+		<section v-if="ctx.browseSource?.value === 'curseforge'" class="offline text-center">
+			<p>{{ ctx.curseforgeStatus?.value ?? formatMessage(messages.curseforgePlaceholder) }}</p>
+		</section>
+		<section v-else-if="ctx.loading.value" class="offline">
 			<component :is="ctx.loadingComponent ?? LoadingIndicator" />
 		</section>
 		<section v-else-if="ctx.offline?.value && ctx.totalHits.value === 0" class="offline">

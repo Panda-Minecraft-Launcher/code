@@ -12,6 +12,8 @@ import type {
 	ServerModpackContent,
 } from '../types'
 
+export type BrowseSource = 'modrinth' | 'curseforge'
+
 export interface BrowseManagerContext {
 	tags: Ref<{
 		gameVersions: Labrinth.Tags.v2.GameVersion[]
@@ -58,6 +60,8 @@ export interface BrowseManagerContext {
 	showProjectTypeTabs: ComputedRef<boolean>
 
 	variant: 'app' | 'web'
+	browseSource?: Ref<BrowseSource>
+	curseforgeStatus?: Ref<string | null>
 
 	getCardActions?: (
 		result: Labrinth.Search.v3.ResultSearchProject,

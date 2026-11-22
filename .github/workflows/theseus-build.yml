@@ -1,6 +1,8 @@
 name: Panda Minecraft Launcher build
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
   workflow_dispatch:
@@ -41,6 +43,7 @@ jobs:
     name: Build (${{ matrix.artifact-target-name }})
     env:
       VITE_STRIPE_PUBLISHABLE_KEY: pk_live_51JbFxJJygY5LJFfKLVVldb10HlLt24p421OWRsTOWc5sXYFOnFUXWieSc6HD3PHo25ktx8db1WcHr36XGFvZFVUz00V9ixrCs5
+      CURSEFORGE_KEY: ${{ secrets.CURSEFORGE_KEY }}
     strategy:
       fail-fast: false
       matrix:
@@ -135,6 +138,15 @@ jobs:
           cp "packages/app-lib/.env.${BUILD_ENVIRONMENT}" packages/app-lib/.env
           dasel delete -f apps/app/tauri-release.conf.json 'bundle.createUpdaterArtifacts'
           dasel delete -f apps/app/tauri-release.conf.json 'bundle.windows.signCommand'
+
+      - name: CurseForge key status
+        shell: bash
+        run: |
+          if [ -n "${CURSEFORGE_KEY:-}" ]; then
+            echo "CurseForge Core API key: configured (embedded in this build)"
+          else
+            echo "CurseForge Core API key: missing (build continues; CF search stays disabled)"
+          fi
 
       - name: Install dependencies
         run: pnpm install

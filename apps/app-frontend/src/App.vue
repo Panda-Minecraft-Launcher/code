@@ -2165,19 +2165,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 		right: 0;
 		border-top-right-radius: 0;
 		border-top-left-radius: var(--radius-xl);
-		grid-template-columns: 0px 1fr;
-
-		&:has(#sidebar-teleport-target:not(:empty)) {
-			grid-template-columns: 300px 1fr;
-		}
-
-		.app-viewport {
-			grid-column: 2;
-		}
-
-		#sidebar-teleport-target {
-			grid-column: 1;
-		}
 	}
 }
 

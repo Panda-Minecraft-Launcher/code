@@ -11,6 +11,42 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-22T09:30:00+00:00`,
+		product: 'app',
+		version: '0.0.5',
+		body: `## Added
+- CurseForge Phase 1: Modrinth/CurseForge kaynak değiştirici keşfetme sayfasına eklendi; Panda'da CurseForge için durum sorgulama ve tek sayfalık mod arama denemesi var.
+- CurseForge istekleri için sunucu tarafı allowlist eklendi: sadece mod uç noktaları, gameId=432 ve classId=6 kabul ediliyor; modpack classId=4471 hiçbir sorguda kullanılmıyor.
+- CurseForge Core API anahtarı projenin kendi CURSEFORGE_KEY ortam değişkeninden/build-time env'inden okunuyor; anahtar webview'a, loglara veya istemci koduya gönderilmiyor.
+- Otomatik derleme ve release tetikleme: ana dal push'u sadece derleme yapıyor; v* tag push'u Linux/Windows derlemelerini, artifact yüklemeyi ve GitHub release oluşturmayı tetikliyor. CURSEFORGE_KEY GitHub Actions secret olarak derleme anında enjekte ediliyor (secret yoksa derleme devam ediyor, CF arama kapalı kalıyor).
+
+## Changed
+- Sürüm 0.0.5'e yükseltildi (app, app-lib ve frontend package.json); release asset adlandırması Panda.Minecraft.Launcher_<sürüm>_amd64.AppImage ve Panda.Minecraft.Launcher_<sürüm>_x64-setup.exe biçiminde. Website şu an yayınlanmış v0.0.4 asset'lerine bağlanıyor; v0.0.5 release'i yayına girince bağlantılar güncellenecek.
+- CurseForge anahtar yokken gösterilen mesaj açıkça "CurseForge'dan onay bekliyoruz" / "Waiting for approval from CurseForge" olarak değiştirildi; API anahtarını ayarla talimatı artık gösterilmiyor.
+- Modlar filtre paneli sağ tarafta sabit kaldı; sadece ana sol menünün konumu değiştirilebilir duruma getirildi.
+- Web arayüzünde gizli "yüklü olanları gizle" anahtarı Panda'da gizlendi; web davranışı aynı kaldı.
+- Release notlari artik bu changelog dosyasindan otomatik uretiliyor; workflow_dispatch release varsayilan tag'i v0.0.5.
+
+## Fixed
+- CurseForge hata mesajlari Tauri {message, code} yapisi ve HTTP durum/kod gövdesi icin okunabilir sekilde formatlaniyor.
+- app.db değiştirilmedi: 0.0.4 öncesi yedekten geri yüklendi, PRAGMA integrity_check=ok ve 54 tablo doğrulandı; bu turda DB migration yapılmadı.
+
+## Build & release
+- GitHub Actions build isi ubuntu-latest ve windows-latest uzerinde AppImage ve NSIS uretiyor, ikisini de artifact olarak yukluyor.
+- Tag push'u build isinden release isini tetikliyor; release isi artifact'lari indirip release-notes.md olusturuyor ve gh release create ile iki asset'i yayinliyor.
+- Guncelleyici GitHub Releases API'sindeki en son sürümü kontrol ediyor ve isletim sistemine göre dogru asset adini ariyor.
+
+## Website
+- Site Türkçe olarak yayında; hero bölümünde görünür "Türkçe" etiketi var.
+- mods-page.png ekran görüntüsü eklendi; Modrinth ve CurseForge kartlarında M/C harfleri yerine yerel renkli logo dosyaları kullanılıyor.
+- İndirme bağlantıları sadece Windows ve Linux için iki adet ve v0.0.4 release asset'lerini gösteriyor.
+- Web sitesi ayri depoya (Panda-Minecraft-Launcher/index.html) commit edilip push edildi.
+
+## Verification
+- cargo fmt --all ve SQLX_OFFLINE=true cargo clippy -p theseus -p theseus_gui --all-targets --locked geciyor.
+- pnpm intl:extract ve app-frontend build çalıştırıldı; dist içindeki eski API mesajları kalmadı.`,
+	},
+	{
 		date: `2026-11-21T16:00:00+00:00`,
 		product: 'app',
 		version: '0.0.3',

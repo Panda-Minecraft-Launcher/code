@@ -254,6 +254,18 @@
   "app.browse.back-to-instance": {
     "message": "Kuruluma dön"
   },
+  "app.browse.curseforge.checking": {
+    "message": "CurseForge'e bağlanılıyor..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "CurseForge isteği başarısız: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "CurseForge’dan onay bekliyoruz."
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge hazır. {count} mod bulundu."
+  },
   "app.browse.discover-project-type": {
     "message": "Keşfet {projectType}"
   },

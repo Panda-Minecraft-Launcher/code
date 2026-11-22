@@ -3,6 +3,7 @@ use serde::{Serialize, Serializer};
 use theseus::error_code;
 
 pub mod auth;
+pub mod curseforge;
 pub mod import;
 pub mod install;
 pub mod instance;

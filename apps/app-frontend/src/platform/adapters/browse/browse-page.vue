@@ -65,6 +65,7 @@ import {
 	instanceKeys,
 	instanceLinkedProjectQueryOptions,
 } from '@/pages/instance/query-options'
+import { getCurseForgeStatus, searchCurseForgeMods } from '@/platform/app-lib/curseforge/api'
 import { injectContentInstall } from '@/providers/content-install'
 import { injectServerInstall } from '@/providers/server-install'
 import { type BreadcrumbDefinition, injectBreadcrumbManager } from '@/shared/breadcrumbs'
@@ -668,6 +669,25 @@ const messages = defineMessages({
 	syncFilterButton: {
 		id: 'search.filter.locked.instance.sync',
 		defaultMessage: 'Sync with instance',
+	},
+})
+
+const curseforgeMessages = defineMessages({
+	checking: {
+		id: 'app.browse.curseforge.checking',
+		defaultMessage: 'Connecting to CurseForge...',
+	},
+	noKey: {
+		id: 'app.browse.curseforge.no-key',
+		defaultMessage: 'Waiting for approval from CurseForge',
+	},
+	ready: {
+		id: 'app.browse.curseforge.ready',
+		defaultMessage: 'CurseForge is ready. {count} mods found.',
+	},
+	error: {
+		id: 'app.browse.curseforge.error',
+		defaultMessage: 'CurseForge request failed: {error}',
 	},
 })
 
@@ -1276,10 +1296,52 @@ const lockedFilterMessages = computed(() => ({
 	),
 }))
 
+const browseSource = ref<'modrinth' | 'curseforge'>('modrinth')
+const curseforgeStatus = ref<string | null>(null)
+let curseforgeProbe = 0
+
+watch(browseSource, async (source) => {
+	const probe = ++curseforgeProbe
+	const setStatus = (message: string | null) => {
+		if (probe === curseforgeProbe) curseforgeStatus.value = message
+	}
+
+	if (source !== 'curseforge') {
+		setStatus(null)
+		return
+	}
+
+	setStatus(formatMessage(curseforgeMessages.checking))
+	try {
+		if (!(await getCurseForgeStatus())) {
+			setStatus(formatMessage(curseforgeMessages.noKey))
+			return
+		}
+		const result = await searchCurseForgeMods({ pageSize: 1 })
+		setStatus(
+			formatMessage(curseforgeMessages.ready, {
+				count: result.pagination?.totalCount ?? result.data.length,
+			}),
+		)
+	} catch (error) {
+		const message =
+			error && typeof error === 'object' && 'message' in error
+				? String((error as { message: unknown }).message)
+				: error instanceof Error
+					? error.message
+					: String(error)
+		setStatus(
+			formatMessage(curseforgeMessages.error, {
+				error: message,
+			}),
+		)
+	}
+})
+
 const searchState = useBrowseSearch({
 	projectType,
 	tags,
-	active: browseRouteActive,
+	active: computed(() => browseRouteActive.value && browseSource.value === 'modrinth'),
 	providedFilters: combinedProvidedFilters,
 	environmentOverride: serverEnvironmentOverride,
 	search,
@@ -1428,6 +1490,8 @@ provideBrowseManager({
 	selectableProjectTypes,
 	showProjectTypeTabs: computed(() => true),
 	variant: 'app',
+	browseSource,
+	curseforgeStatus,
 	getCardActions,
 	installContext,
 	providedFilters: combinedProvidedFilters,

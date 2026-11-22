@@ -336,6 +336,14 @@ fn main() {
                     ),
             )
             .plugin(
+                "curseforge",
+                InlinedPlugin::new()
+                    .commands(&["curseforge_status", "curseforge_request"])
+                    .default_permission(
+                        DefaultPermissionRule::AllowAllCommands,
+                    ),
+            )
+            .plugin(
                 "settings",
                 InlinedPlugin::new()
                     .commands(&[

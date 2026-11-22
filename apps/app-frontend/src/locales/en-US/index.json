@@ -254,6 +254,18 @@
   "app.browse.back-to-instance": {
     "message": "Back to instance"
   },
+  "app.browse.curseforge.checking": {
+    "message": "Connecting to CurseForge..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "CurseForge request failed: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "Waiting for approval from CurseForge"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge is ready. {count} mods found."
+  },
   "app.browse.discover-project-type": {
     "message": "Discover {projectType}"
   },
@@ -3055,6 +3067,9 @@
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "Export debug info"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "Need help? Open a support issue."
   },
   "app.settings.resource-management.debug-info.title": {
     "message": "Debug info"
