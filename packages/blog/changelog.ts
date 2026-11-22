@@ -25,25 +25,25 @@ const VERSIONS: VersionEntry[] = [
 - CurseForge anahtar yokken gösterilen mesaj açıkça "CurseForge'dan onay bekliyoruz" / "Waiting for approval from CurseForge" olarak değiştirildi; API anahtarını ayarla talimatı artık gösterilmiyor.
 - Modlar filtre paneli sağ tarafta sabit kaldı; sadece ana sol menünün konumu değiştirilebilir duruma getirildi.
 - Web arayüzünde gizli "yüklü olanları gizle" anahtarı Panda'da gizlendi; web davranışı aynı kaldı.
-- Release notlari artik bu changelog dosyasindan otomatik uretiliyor; workflow_dispatch release varsayilan tag'i v0.0.5.
+- Release notları artık bu changelog dosyasından otomatik üretiliyor; workflow_dispatch release varsayılan tag'i v0.0.5.
 
 ## Fixed
-- CurseForge hata mesajlari Tauri {message, code} yapisi ve HTTP durum/kod gövdesi icin okunabilir sekilde formatlaniyor.
+- CurseForge hata mesajları Tauri {message, code} yapısı ve HTTP durum/kod gövdesi için okunabilir şekilde formatlanıyor.
 - app.db değiştirilmedi: 0.0.4 öncesi yedekten geri yüklendi, PRAGMA integrity_check=ok ve 54 tablo doğrulandı; bu turda DB migration yapılmadı.
 
 ## Build & release
-- GitHub Actions build isi ubuntu-latest ve windows-latest uzerinde AppImage ve NSIS uretiyor, ikisini de artifact olarak yukluyor.
-- Tag push'u build isinden release isini tetikliyor; release isi artifact'lari indirip release-notes.md olusturuyor ve gh release create ile iki asset'i yayinliyor.
-- Guncelleyici GitHub Releases API'sindeki en son sürümü kontrol ediyor ve isletim sistemine göre dogru asset adini ariyor.
+- GitHub Actions build işi ubuntu-latest ve windows-latest üzerinde AppImage ve NSIS üretiyor, ikisini de artifact olarak yüklüyor.
+- Tag push'u build işinden release işini tetikliyor; release işi artifact'ları indirip release-notes.md oluşturuyor ve gh release create ile iki asset'i yayınlıyor.
+- Güncelleyici GitHub Releases API'sindeki en son sürümü kontrol ediyor ve işletim sistemine göre doğru asset adını arıyor.
 
 ## Website
 - Site Türkçe olarak yayında; hero bölümünde görünür "Türkçe" etiketi var.
 - mods-page.png ekran görüntüsü eklendi; Modrinth ve CurseForge kartlarında M/C harfleri yerine yerel renkli logo dosyaları kullanılıyor.
 - İndirme bağlantıları sadece Windows ve Linux için iki adet ve v0.0.5 release asset'lerini gösteriyor. Siteye görünür TR/EN dil anahtarı eklendi; tüm metinler, meta bilgiler ve erişilebilirlik etiketleri İngilizceye geçiyor.
-- Web sitesi ayri depoya (Panda-Minecraft-Launcher/index.html) commit edilip push edildi.
+- Web sitesi ayrı depoya (Panda-Minecraft-Launcher/index.html) commit edilip push edildi.
 
 ## Verification
-- cargo fmt --all ve SQLX_OFFLINE=true cargo clippy -p theseus -p theseus_gui --all-targets --locked geciyor.
+- cargo fmt --all ve SQLX_OFFLINE=true cargo clippy -p theseus -p theseus_gui --all-targets --locked geçiyor.
 - pnpm intl:extract ve app-frontend build çalıştırıldı; dist içindeki eski API mesajları kalmadı.`,
 	},
 	{
