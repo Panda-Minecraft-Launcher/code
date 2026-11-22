@@ -21,7 +21,7 @@ const VERSIONS: VersionEntry[] = [
 - Otomatik derleme ve release tetikleme: ana dal push'u sadece derleme yapıyor; v* tag push'u Linux/Windows derlemelerini, artifact yüklemeyi ve GitHub release oluşturmayı tetikliyor. CURSEFORGE_KEY GitHub Actions secret olarak derleme anında enjekte ediliyor (secret yoksa derleme devam ediyor, CF arama kapalı kalıyor).
 
 ## Changed
-- Sürüm 0.0.5'e yükseltildi (app, app-lib ve frontend package.json); release asset adlandırması Panda.Minecraft.Launcher_<sürüm>_amd64.AppImage ve Panda.Minecraft.Launcher_<sürüm>_x64-setup.exe biçiminde. Website şu an yayınlanmış v0.0.4 asset'lerine bağlanıyor; v0.0.5 release'i yayına girince bağlantılar güncellenecek.
+- Sürüm 0.0.5'e yükseltildi (app, app-lib ve frontend package.json); release asset adlandırması Panda.Minecraft.Launcher_<sürüm>_amd64.AppImage ve Panda.Minecraft.Launcher_<sürüm>_x64-setup.exe biçiminde. Website indirme bağlantıları v0.0.5 tag'ine güncellendi.
 - CurseForge anahtar yokken gösterilen mesaj açıkça "CurseForge'dan onay bekliyoruz" / "Waiting for approval from CurseForge" olarak değiştirildi; API anahtarını ayarla talimatı artık gösterilmiyor.
 - Modlar filtre paneli sağ tarafta sabit kaldı; sadece ana sol menünün konumu değiştirilebilir duruma getirildi.
 - Web arayüzünde gizli "yüklü olanları gizle" anahtarı Panda'da gizlendi; web davranışı aynı kaldı.
@@ -39,7 +39,7 @@ const VERSIONS: VersionEntry[] = [
 ## Website
 - Site Türkçe olarak yayında; hero bölümünde görünür "Türkçe" etiketi var.
 - mods-page.png ekran görüntüsü eklendi; Modrinth ve CurseForge kartlarında M/C harfleri yerine yerel renkli logo dosyaları kullanılıyor.
-- İndirme bağlantıları sadece Windows ve Linux için iki adet ve v0.0.4 release asset'lerini gösteriyor.
+- İndirme bağlantıları sadece Windows ve Linux için iki adet ve v0.0.5 release asset'lerini gösteriyor. Siteye görünür TR/EN dil anahtarı eklendi; tüm metinler, meta bilgiler ve erişilebilirlik etiketleri İngilizceye geçiyor.
 - Web sitesi ayri depoya (Panda-Minecraft-Launcher/index.html) commit edilip push edildi.
 
 ## Verification
