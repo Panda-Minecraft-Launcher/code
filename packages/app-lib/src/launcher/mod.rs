@@ -1160,6 +1160,10 @@ pub async fn launch_minecraft(
                 .as_ref()
                 .and_then(|x| x.get(&LoggingSide::Client)),
             rpc_server.address(),
+            &args::get_client_brand(
+                &content_set.game_version,
+                content_set.loader,
+            ),
         )?
         .into_iter(),
     );

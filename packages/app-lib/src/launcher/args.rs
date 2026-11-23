@@ -3,7 +3,7 @@ use crate::instance::QuickPlayType;
 use crate::launcher::library::LibraryExt;
 use crate::launcher::quick_play_version::QuickPlayServerVersion;
 use crate::launcher::{QuickPlayVersion, parse_rules};
-use crate::state::{AccountProvider, Credentials};
+use crate::state::{AccountProvider, Credentials, ModLoader};
 use crate::{
     state::{MemorySettings, WindowSize},
     util::{io::IOError, platform::classpath_separator},
@@ -102,6 +102,21 @@ pub fn get_lib_path(
     Ok(path.to_string_lossy().to_string())
 }
 
+pub fn get_client_brand(game_version: &str, loader: ModLoader) -> String {
+    let loader_name = match loader {
+        ModLoader::Vanilla => "",
+        ModLoader::Forge => "Forge",
+        ModLoader::Fabric => "Fabric",
+        ModLoader::Quilt => "Quilt",
+        ModLoader::NeoForge => "NeoForge",
+    };
+    if loader_name.is_empty() {
+        format!("PML {game_version}")
+    } else {
+        format!("PML {game_version} {loader_name}")
+    }
+}
+
 #[allow(clippy::too_many_arguments)]
 pub fn get_jvm_arguments(
     arguments: Option<&[Argument]>,
@@ -119,6 +134,7 @@ pub fn get_jvm_arguments(
     quick_play_version: QuickPlayVersion,
     log_config: Option<&LoggingConfiguration>,
     ipc_addr: SocketAddr,
+    client_brand: &str,
 ) -> crate::Result<Vec<String>> {
     let mut parsed_arguments = Vec::new();
 
@@ -176,6 +192,8 @@ pub fn get_jvm_arguments(
         .push(format!("-Dmodrinth.internal.ipc.host={}", ipc_addr.ip()));
     parsed_arguments
         .push(format!("-Dmodrinth.internal.ipc.port={}", ipc_addr.port()));
+    parsed_arguments
+        .push(format!("-Dmodrinth.internal.clientBrand={client_brand}"));
 
     parsed_arguments.push(format!(
         "-Dmodrinth.internal.quickPlay.serverVersion={}",
@@ -543,4 +561,31 @@ pub async fn get_processor_main_class(
     .await??;
 
     Ok(main_class)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::get_client_brand;
+    use crate::state::ModLoader;
+
+    #[test]
+    fn client_brand_includes_loader_only_for_modded_instances() {
+        assert_eq!(get_client_brand("26.3", ModLoader::Vanilla), "PML 26.3");
+        assert_eq!(
+            get_client_brand("26.3", ModLoader::Fabric),
+            "PML 26.3 Fabric"
+        );
+        assert_eq!(
+            get_client_brand("26.3", ModLoader::Forge),
+            "PML 26.3 Forge"
+        );
+        assert_eq!(
+            get_client_brand("26.3", ModLoader::NeoForge),
+            "PML 26.3 NeoForge"
+        );
+        assert_eq!(
+            get_client_brand("26.3", ModLoader::Quilt),
+            "PML 26.3 Quilt"
+        );
+    }
 }

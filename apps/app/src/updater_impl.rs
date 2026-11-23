@@ -47,6 +47,35 @@ fn version_parts(version: &str) -> Vec<u64> {
         .collect()
 }
 
+#[cfg(target_os = "linux")]
+fn os_release_is_debian(contents: &str) -> bool {
+    let mut id = None;
+    let mut id_like = None;
+    for line in contents.lines() {
+        if let Some(value) = line.strip_prefix("ID=") {
+            id = Some(value.trim().trim_matches('"'));
+        } else if let Some(value) = line.strip_prefix("ID_LIKE=") {
+            id_like = Some(value.trim().trim_matches('"'));
+        }
+    }
+    id == Some("debian")
+        || id_like.is_some_and(|value| {
+            value.split_whitespace().any(|part| part == "debian")
+        })
+}
+
+#[cfg(target_os = "linux")]
+fn is_debian_based() -> bool {
+    fs::read_to_string("/etc/os-release")
+        .map(|contents| os_release_is_debian(&contents))
+        .unwrap_or(false)
+}
+
+#[cfg(not(target_os = "linux"))]
+fn is_debian_based() -> bool {
+    false
+}
+
 fn version_is_newer(latest: &str, current: &str) -> bool {
     let latest = version_parts(latest);
     let current = version_parts(current);
@@ -85,10 +114,28 @@ pub async fn check_github_update() -> Result<Option<GithubUpdate>> {
         return Ok(None);
     }
 
+    let appimage_name =
+        format!("Panda.Minecraft.Launcher_{version}_amd64.AppImage");
     let asset_name = if cfg!(target_os = "windows") {
         format!("Panda.Minecraft.Launcher_{version}_x64-setup.exe")
+    } else if is_debian_based() {
+        let deb_name = format!("Panda.Minecraft.Launcher_{version}_amd64.deb");
+        if release
+            .get("assets")
+            .and_then(|assets| assets.as_array())
+            .is_some_and(|assets| {
+                assets.iter().any(|asset| {
+                    asset.get("name").and_then(|name| name.as_str())
+                        == Some(deb_name.as_str())
+                })
+            })
+        {
+            deb_name
+        } else {
+            appimage_name
+        }
     } else {
-        format!("Panda.Minecraft.Launcher_{version}_amd64.AppImage")
+        appimage_name
     };
     let Some(asset) = release
         .get("assets")
@@ -224,6 +271,19 @@ pub fn install_github_update(path: &Path, should_restart: bool) -> Result<()> {
     #[cfg(target_os = "linux")]
     {
         let _ = should_restart;
+        if path.extension().and_then(|extension| extension.to_str())
+            == Some("deb")
+        {
+            std::process::Command::new("xdg-open")
+                .arg(path)
+                .spawn()
+                .context("failed to open downloaded Debian package")?;
+            tracing::info!(
+                "Opened Debian package {} for installation",
+                path.display()
+            );
+            return Ok(());
+        }
         let target = std::env::var_os("APPIMAGE")
             .map(PathBuf::from)
             .context("APPIMAGE environment variable is not set")?;
@@ -262,7 +322,21 @@ pub fn restart_target() -> Option<PathBuf> {
 
 #[cfg(test)]
 mod tests {
+    #[cfg(target_os = "linux")]
+    use super::os_release_is_debian;
     use super::version_is_newer;
+
+    #[cfg(target_os = "linux")]
+    #[test]
+    fn detects_debian_derivatives_from_os_release() {
+        assert!(os_release_is_debian("ID=debian\n"));
+        assert!(os_release_is_debian("ID=ubuntu\nID_LIKE=debian\n"));
+        assert!(os_release_is_debian(
+            "ID=linuxmint\nID_LIKE=\"debian ubuntu\"\n"
+        ));
+        assert!(!os_release_is_debian("ID=fedora\nID_LIKE=fedora\n"));
+        assert!(!os_release_is_debian(""));
+    }
 
     #[test]
     fn compares_release_versions() {

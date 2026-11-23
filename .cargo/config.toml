@@ -1,3 +1,7 @@
+# rustc 1.100 ICEs on theseus with incremental compilation enabled
+[build]
+incremental = false
+
 [target.aarch64-pc-windows-msvc]
 linker = "rust-lld"
 
