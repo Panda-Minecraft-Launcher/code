@@ -11,6 +11,23 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-23T20:03:50+00:00`,
+		product: 'app',
+		version: '0.0.6',
+		body: `## Added
+- Oyun sunucularının gördüğü istemci markası artık "PML <oyun sürümü> <Loader>" biçiminde; vanilla oturumlarda "PML <oyun sürümü>" görünüyor (örneğin "PML 26.3 Fabric").
+- Yükleyici adı istemci markasında Fabric, Forge, NeoForge veya Quilt olarak büyük harfle gösteriliyor.
+
+## Changed
+- Otomatik güncelleyici Debian tabanlı dağıtımlarda /etc/os-release dosyasını kontrol edip .deb asset'ini indiriyor ve xdg-open ile açıyor; diğer Linux dağıtımları AppImage kullanmaya devam ediyor.
+
+## Fixed
+- Yerel derlemelerde rustc artımlı derlemenin yol açtığı iç derleyici hatası (ICE) giderildi; artımlı derleme kapatıldı.
+
+## Build & release
+- Linux CI işi AppImage'ın yanında .deb paketi de üretiyor; release işi paket varsa üçüncü asset olarak yüklüyor, yoksa iki asset ile devam ediyor.`,
+	},
+	{
 		date: `2026-11-22T09:30:00+00:00`,
 		product: 'app',
 		version: '0.0.5',
