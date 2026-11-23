@@ -394,7 +394,7 @@ fn main() {
                         set_changelog_toast(is_major_update.then(|| update.version.clone()));
                         match install_github_update(&path, should_restart) {
                             Ok(()) => {
-                                if should_restart {
+                                if should_restart && !update.download_url.ends_with(".deb") {
                                     if let Some(target) = restart_target()
                                         && let Err(error) = std::process::Command::new(target).spawn()
                                     {

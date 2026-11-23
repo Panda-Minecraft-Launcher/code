@@ -53,9 +53,10 @@ fn os_release_is_debian(contents: &str) -> bool {
     let mut id_like = None;
     for line in contents.lines() {
         if let Some(value) = line.strip_prefix("ID=") {
-            id = Some(value.trim().trim_matches('"'));
+            id = Some(value.trim().trim_matches(|c| c == '"' || c == '\''));
         } else if let Some(value) = line.strip_prefix("ID_LIKE=") {
-            id_like = Some(value.trim().trim_matches('"'));
+            id_like =
+                Some(value.trim().trim_matches(|c| c == '"' || c == '\''));
         }
     }
     id == Some("debian")
@@ -74,6 +75,14 @@ fn is_debian_based() -> bool {
 #[cfg(not(target_os = "linux"))]
 fn is_debian_based() -> bool {
     false
+}
+
+fn update_file_suffix(download_url: &str) -> &'static str {
+    if download_url.ends_with(".deb") {
+        ".deb"
+    } else {
+        ""
+    }
 }
 
 fn version_is_newer(latest: &str, current: &str) -> bool {
@@ -216,6 +225,7 @@ pub async fn enqueue_update_for_installation<R: tauri::Runtime>(
     let total = response.content_length();
     let mut file = tempfile::Builder::new()
         .prefix(".panda-update-")
+        .suffix(update_file_suffix(&update.download_url))
         .tempfile_in(temp_dir()?)?;
 
     let download_start = Instant::now();
@@ -324,7 +334,24 @@ pub fn restart_target() -> Option<PathBuf> {
 mod tests {
     #[cfg(target_os = "linux")]
     use super::os_release_is_debian;
+    use super::update_file_suffix;
     use super::version_is_newer;
+
+    #[test]
+    fn keeps_deb_extension_on_downloaded_update() {
+        assert_eq!(
+            update_file_suffix(
+                "https://example.com/Panda.Minecraft.Launcher_0.0.6_amd64.deb"
+            ),
+            ".deb"
+        );
+        assert_eq!(
+            update_file_suffix(
+                "https://example.com/Panda.Minecraft.Launcher_0.0.6_amd64.AppImage"
+            ),
+            ""
+        );
+    }
 
     #[cfg(target_os = "linux")]
     #[test]
