@@ -15,10 +15,10 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.0.6',
 		body: `## Panda Minecraft Launcher 0.0.6
-- Panda Minecraft Launcher 0.0.6 yayında. Bu sürüm oyun sunucularının gördüğü istemci kimliğini Panda markasıyla tanıtıyor, Linux için resmî .deb paketi ekliyor ve uygulama sürümünü 0.0.6'ya yükseltiyor.
+- Panda Minecraft Launcher 0.0.6 yayında. Bu sürüm oyun sunucularının gördüğü istemci kimliğini Panda Minecraft Launcher markasıyla tanıtıyor, Linux için resmî .deb paketi ekliyor ve uygulama sürümünü 0.0.6'ya yükseltiyor.
 
 ## Eklendi: istemci markası
-- Oyun sunucular launcher ile giriş yapan oyuncuları artık "PML <oyun sürümü> <loader>" biçiminde görüyor. Örnekler: "PML 26.3 Fabric", "PML 26.3 Forge", "PML 26.3 NeoForge", "PML 26.3 Quilt".
+- Oyun sunucular launcher ile giriş yapan oyuncuları artık "PML <oyun sürümü> <loader>" biçiminde görüyor. Örnekler: "PML 1.8.9 Forge", "PML 1.16.1 Fabric", "PML 26.3 NeoForge", "PML 26.3 Quilt".
 - Vanilla oturumlarda marka "PML 26.3 Vanilla" biçiminde gönderiliyor; yükleyici adı her zaman büyük harfle yazılıyor.
 - Marka oyun dosyalarına müdahale edilmeden mevcut Java agent üzerinden ayarlanıyor. ClientBrand gibi sunucu eklentilerinde "PML**" kuralıyla eşleştirilebilir.
 
@@ -29,9 +29,6 @@ const VERSIONS: VersionEntry[] = [
 ## Değiştirildi
 - Uygulama sürümü 0.0.6'ya yükseltildi: app, app-lib ve app-frontend package.json. Release başlığı "Panda Minecraft Launcher 0.0.6", varsayılan workflow tag'i v0.0.6.
 - Güncelleyicinin indirdiği geçici dosyada .deb uzantısı korunuyor; deb kurulumunda AppImage'ın üzerine yazma ve yanlış yeniden başlatma engellendi.
-
-## Düzeltildi
-- Yerel derlemelerde rustc artımlı derlemenin yol açtığı iç derleyici hatası (ICE) giderildi; artımlı derleme kapatıldı.
 
 ## İndirme
 - Windows: "Panda.Minecraft.Launcher_0.0.6_x64-setup.exe"
