@@ -15,7 +15,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.0.6',
 		body: `## Added
-- Oyun sunucularının gördüğü istemci markası artık "PML <oyun sürümü> <Loader>" biçiminde; vanilla oturumlarda "PML <oyun sürümü>" görünüyor (örneğin "PML 26.3 Fabric").
+- Oyun sunucularının gördüğü istemci markası artık "PML <oyun sürümü> <Loader>" biçiminde; vanilla oturumlarda "PML <oyun sürümü> Vanilla" görünüyor (örneğin "PML 26.3 Fabric").
 - Yükleyici adı istemci markasında Fabric, Forge, NeoForge veya Quilt olarak büyük harfle gösteriliyor.
 
 ## Changed

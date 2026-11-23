@@ -104,17 +104,13 @@ pub fn get_lib_path(
 
 pub fn get_client_brand(game_version: &str, loader: ModLoader) -> String {
     let loader_name = match loader {
-        ModLoader::Vanilla => "",
+        ModLoader::Vanilla => "Vanilla",
         ModLoader::Forge => "Forge",
         ModLoader::Fabric => "Fabric",
         ModLoader::Quilt => "Quilt",
         ModLoader::NeoForge => "NeoForge",
     };
-    if loader_name.is_empty() {
-        format!("PML {game_version}")
-    } else {
-        format!("PML {game_version} {loader_name}")
-    }
+    format!("PML {game_version} {loader_name}")
 }
 
 #[allow(clippy::too_many_arguments)]
@@ -569,8 +565,11 @@ mod tests {
     use crate::state::ModLoader;
 
     #[test]
-    fn client_brand_includes_loader_only_for_modded_instances() {
-        assert_eq!(get_client_brand("26.3", ModLoader::Vanilla), "PML 26.3");
+    fn client_brand_includes_loader() {
+        assert_eq!(
+            get_client_brand("26.3", ModLoader::Vanilla),
+            "PML 26.3 Vanilla"
+        );
         assert_eq!(
             get_client_brand("26.3", ModLoader::Fabric),
             "PML 26.3 Fabric"
