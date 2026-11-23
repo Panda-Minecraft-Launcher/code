@@ -14,18 +14,29 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-11-23T20:03:50+00:00`,
 		product: 'app',
 		version: '0.0.6',
-		body: `## Added
-- Oyun sunucularının gördüğü istemci markası artık "PML <oyun sürümü> <Loader>" biçiminde; vanilla oturumlarda "PML <oyun sürümü> Vanilla" görünüyor (örneğin "PML 26.3 Fabric").
-- Yükleyici adı istemci markasında Fabric, Forge, NeoForge veya Quilt olarak büyük harfle gösteriliyor.
+		body: `## Panda Minecraft Launcher 0.0.6
+- Panda Minecraft Launcher 0.0.6 yayında. Bu sürüm oyun sunucularının gördüğü istemci kimliğini Panda markasıyla tanıtıyor, Linux için resmî .deb paketi ekliyor ve uygulama sürümünü 0.0.6'ya yükseltiyor.
 
-## Changed
-- Otomatik güncelleyici Debian tabanlı dağıtımlarda /etc/os-release dosyasını kontrol edip .deb asset'ini indiriyor ve xdg-open ile açıyor; diğer Linux dağıtımları AppImage kullanmaya devam ediyor.
+## Eklendi: istemci markası
+- Oyun sunucular launcher ile giriş yapan oyuncuları artık "PML <oyun sürümü> <loader>" biçiminde görüyor. Örnekler: "PML 26.3 Fabric", "PML 26.3 Forge", "PML 26.3 NeoForge", "PML 26.3 Quilt".
+- Vanilla oturumlarda marka "PML 26.3 Vanilla" biçiminde gönderiliyor; yükleyici adı her zaman büyük harfle yazılıyor.
+- Marka oyun dosyalarına müdahale edilmeden mevcut Java agent üzerinden ayarlanıyor. ClientBrand gibi sunucu eklentilerinde "PML**" kuralıyla eşleştirilebilir.
 
-## Fixed
+## Eklendi: Debian paketi
+- Linux derlemeleri AppImage'ın yanında "Panda.Minecraft.Launcher_0.0.6_amd64.deb" paketini üretiyor; paket release sayfasında üçüncü asset olarak yer alıyor.
+- Debian, Ubuntu ve Linux Mint gibi dağıtımlarda otomatik güncelleyici .deb asset'ini seçip xdg-open ile kuruluma açıyor; diğer Linux dağıtımları AppImage kullanmaya devam ediyor.
+
+## Değiştirildi
+- Uygulama sürümü 0.0.6'ya yükseltildi: app, app-lib ve app-frontend package.json. Release başlığı "Panda Minecraft Launcher 0.0.6", varsayılan workflow tag'i v0.0.6.
+- Güncelleyicinin indirdiği geçici dosyada .deb uzantısı korunuyor; deb kurulumunda AppImage'ın üzerine yazma ve yanlış yeniden başlatma engellendi.
+
+## Düzeltildi
 - Yerel derlemelerde rustc artımlı derlemenin yol açtığı iç derleyici hatası (ICE) giderildi; artımlı derleme kapatıldı.
 
-## Build & release
-- Linux CI işi AppImage'ın yanında .deb paketi de üretiyor; release işi paket varsa üçüncü asset olarak yüklüyor, yoksa iki asset ile devam ediyor.`,
+## İndirme
+- Windows: "Panda.Minecraft.Launcher_0.0.6_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.6_amd64.AppImage"
+- Linux Debian: "Panda.Minecraft.Launcher_0.0.6_amd64.deb"`,
 	},
 	{
 		date: `2026-11-22T09:30:00+00:00`,
