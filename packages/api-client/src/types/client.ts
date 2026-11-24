@@ -44,7 +44,7 @@ export interface ClientConfig {
 	labrinthBaseUrl?: BaseUrlConfig
 
 	/**
-	 * Base URL for Archon API (Modrinth Hosting API)
+	 * Base URL for Archon API (Panda Minecraft Launcher Hosting API)
 	 * Can be a callback so apps can drive this from runtime feature flags.
 	 *
 	 * @default 'https://archon.modrinth.com'

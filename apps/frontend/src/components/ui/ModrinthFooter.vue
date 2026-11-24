@@ -146,17 +146,17 @@ const footerLinks: {
 		links: [
 			{
 				href: '/plus',
-				label: defineMessage({ id: 'layout.footer.products.plus', defaultMessage: 'Panda Minecraft Launcher' }),
+				label: defineMessage({ id: 'layout.footer.products.plus', defaultMessage: 'Panda Minecraft Launcher+' }),
 			},
 			{
 				href: '/app',
-				label: defineMessage({ id: 'layout.footer.products.app', defaultMessage: 'Panda Minecraft Launcher' }),
+				label: defineMessage({ id: 'layout.footer.products.app', defaultMessage: 'Panda Minecraft Launcher App' }),
 			},
 			{
 				href: '/hosting',
 				label: defineMessage({
 					id: 'layout.footer.products.servers',
-					defaultMessage: 'Panda Minecraft Launcher',
+					defaultMessage: 'Panda Minecraft Launcher Hosting',
 				}),
 			},
 		],

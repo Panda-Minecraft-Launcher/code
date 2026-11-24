@@ -2868,13 +2868,13 @@
     "message": "Productos"
   },
   "layout.footer.products.app": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher App"
   },
   "layout.footer.products.plus": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher+"
   },
   "layout.footer.products.servers": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher Hosting"
   },
   "layout.footer.resources": {
     "message": "Recursos"
@@ -3711,7 +3711,7 @@
     "message": "No está permitido utilizar imágenes generadas por IA para representar tu proyecto. Intentar eludir la detección puede conllevar la suspensión de tu cuenta de Panda Minecraft Launcher."
   },
   "project.ai-image-warning-modal.body.2": {
-    "message": "Consulte la sección 6 de <rules>Panda Minecraft Launcher's Content Rules</rules> para obtener más información sobre nuestra política generativa de IA."
+    "message": "Consulte la sección 6 de <rules>Panda Minecraft Launcher Content Rules</rules> para obtener más información sobre nuestra política generativa de IA."
   },
   "project.ai-image-warning-modal.title": {
     "message": "Imágenes generadas por IA no son permitidas"
@@ -4122,7 +4122,7 @@
     "message": "Contiene contenido derivado"
   },
   "project.settings.disclosures.description": {
-    "message": "Debes agregar cualquier divulgación de contenido aplicable a su proyecto de acuerdo con <rules>Panda Minecraft Launcher's Content Rules</rules>."
+    "message": "Debes agregar cualquier divulgación de contenido aplicable a su proyecto de acuerdo con <rules>Panda Minecraft Launcher Content Rules</rules>."
   },
   "project.settings.disclosures.description.2": {
     "message": "¿No está seguro de cómo aplicar la Divulgación de Contenido en su proyecto? Échele un vistazo a las <faq-link>Preguntas Frecuentes sobre la Divulgación de Contenido</faq-link>."

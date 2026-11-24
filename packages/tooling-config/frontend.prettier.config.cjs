@@ -10,7 +10,7 @@ module.exports = {
 		// has a transitive dependency on an import sort plugin that breaks
 		// TypeScript type annotations, for reasons unbeknownst to anyone.
 		// Our frontend project was the only one enabling such plugin, so
-		// to avoid this bug spreading to other parts of the monorepo, let's
+		// to avoid this bug spreading to other parts of the source repository, let's
 		// keep it contained to it. See:
 		// https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/338
 		// https://github.com/prettier/prettier-vscode/issues/3578

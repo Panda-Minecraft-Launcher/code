@@ -3,7 +3,7 @@ title: Docs
 description: Guide for contributing to Panda Minecraft Launcher's developer documentation
 ---
 
-This project is part of our [monorepo](https://github.com/modrinth/code). You can find it in the `apps/docs` directory.
+This project is part of our [source repository](https://github.com/modrinth/code). You can find it in the `apps/docs` directory.
 
 [Docs] are the very site you are looking at right now.
 They are here to help developers and contributors work with Panda Minecraft Launcher's codebase and API.

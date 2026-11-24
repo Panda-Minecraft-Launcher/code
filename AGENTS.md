@@ -1,10 +1,10 @@
-# Panda Minecraft Launcher monorepo
+# Panda Minecraft Launcher source repository
 
-This is the Panda Minecraft Launcher monorepo — it contains all Panda Minecraft Launcher projects, both frontend and backend. When entering a project, either to edit or analyse, you should read its AGENTS.md.
+This is the Panda Minecraft Launcher source repository — it contains the frontend and backend projects. When entering a project, either to edit or analyse, you should read its AGENTS.md.
 
 ## Architecture
 
-- **Monorepo tooling:** [Turborepo](https://turbo.build/) (`turbo.jsonc`) + [pnpm workspaces](https://pnpm.io/workspaces) (`pnpm-workspace.yaml`)
+- **Build tooling:** [Turborepo](https://turbo.build/) (`turbo.jsonc`) + [pnpm workspaces](https://pnpm.io/workspaces) (`pnpm-workspace.yaml`)
 - **Frontend:** Vue 3 / Nuxt 3, Tailwind CSS v3
 - **Backend:** Rust (Labrinth API), Postgres, Clickhouse
 - **Indentation:** follow what `.editorconfig` says; tabs for frontend, spaces for backend
@@ -124,7 +124,7 @@ Standards available at the @standards/ folder.
 
 # This is NOT the Turborepo you know
 
-Turborepo configuration, task behavior, and CLI commands can vary between installed versions and may differ from your training data. Resolve the `turbo` package from this file's directory or relevant workspace; in monorepos, it may not be visible from the repository root. For example, run `node -p "require.resolve('turbo/package.json')"` from a workspace that depends on `turbo`.
+Turborepo configuration, task behavior, and CLI commands can vary between installed versions and may differ from your training data. Resolve the `turbo` package from this file's directory or relevant workspace; in source repositories with multiple packages, it may not be visible from the repository root. For example, run `node -p "require.resolve('turbo/package.json')"` from a workspace that depends on `turbo`.
 
 Read `docs/README.md` inside that installed package first, then read the relevant pages from its `docs/` directory before changing Turborepo configuration or commands. Heed deprecation notices. These bundled docs match the installed package version and are available without network access.
 

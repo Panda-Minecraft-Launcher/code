@@ -39,7 +39,7 @@ const props = defineProps<{
 	siteUrl: string
 	videoSrc: string
 	posterSrc: string
-	/** Overrides the default description for server owners, which is written for the Modrinth App. */
+	/** Overrides the default description for server owners, which is written for Panda Minecraft Launcher. */
 	description?: string
 }>()
 

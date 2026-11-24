@@ -53,7 +53,7 @@ export default defineNuxtConfig({
 					rel: 'search',
 					type: 'application/opensearchdescription+xml',
 					href: '/opensearch.xml',
-					title: 'Panda Minecraft Launcher mods',
+					title: 'Panda Minecraft Launcher',
 				},
 			],
 		},

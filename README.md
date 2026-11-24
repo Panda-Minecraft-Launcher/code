@@ -1,54 +1,63 @@
-<picture>
-	<source media="(prefers-color-scheme: light)" srcset=".github/assets/monorepo_cover_light.png">
-	<img alt="Panda Minecraft Launcher monorepo cover" src=".github/assets/monorepo_cover.png">
-</picture>
+# Panda Minecraft Launcher
 
-![Issues](https://img.shields.io/github/issues-raw/Modrinth/code?color=c78aff&label=issues&style=for-the-badge)
-![Pull Requests](https://img.shields.io/github/issues-pr-raw/Modrinth/code?color=c78aff&label=PRs&style=for-the-badge)
-![Contributors](https://img.shields.io/github/contributors/Modrinth/code?color=c78aff&label=contributors&style=for-the-badge)
-![Lines of Code](https://img.shields.io/endpoint?url=https://loctopus.creeperkatze.dev/github/modrinth/code/badge?style=flat&logoColor=white&color=c78aff&style=for-the-badge)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/Modrinth/code?color=c78aff&label=commits&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/Modrinth/code?color=c78aff&label=last%20commit&style=for-the-badge)
+Panda Minecraft Launcher, Windows ve Linux için ücretsiz ve açık kaynaklı bir Minecraft başlatıcısıdır. Modlu oyun profilleri oluşturmanızı, mod ve modpack kurmanızı, Minecraft sürümleri ile Java kurulumlarını yönetmenizi ve oyunu tek arayüzden başlatmanızı sağlar. Masaüstü uygulaması Tauri (Rust), arayüz Vue 3 ile yazılmıştır.
 
-## Panda Minecraft Launcher monorepo
+Bu depo Panda Minecraft Launcher'ın kaynak kod deposudur; web sitesi ayrı bir depoda geliştirilir.
 
-Welcome to the Panda Minecraft Launcher monorepo, the primary codebase for the Panda Minecraft Launcher website, desktop app, API, and documentation. It contains ![Lines of code](https://img.shields.io/endpoint?url=https://loctopus.creeperkatze.dev/github/modrinth/code/badge%3Fformat%3Dhuman&logoColor=white&color=black&label=) lines of code and has ![Contributors](https://img.shields.io/github/contributors/Modrinth/code?color=black&label=) contributors!
+## Özellikler
 
-If you're not a developer and you've stumbled upon this repository, you can access the web interface on the [Panda Minecraft Launcher website](https://modrinth.com) and download the latest release of Panda Minecraft Launcher [here](https://modrinth.com/app).
+- Birden fazla Minecraft profili (instance) oluşturma ve yönetme, profilleri paylaşma
+- Mod ve modpack kurma
+- Minecraft sürümleri, Java kurulumları ve oyun ayarlarını yönetme
+- Oyunu masaüstü uygulamasından doğrudan başlatma
+- Windows ve Linux için yerel uygulama
 
-## Development
+## İndirme
 
-This repository contains several projects. For detailed development information, please refer to their respective guides:
+Hazır derlenmiş Windows ve Linux sürümleri [GitHub Releases](https://github.com/Panda-Minecraft-Launcher/code/releases) sayfasında.
 
-| Project       | Directory              | Guide                                                     |
-| ------------- | ---------------------- | --------------------------------------------------------- |
-| Website       | `apps/frontend`        | [Guide](https://docs.modrinth.com/contributing/knossos/)  |
-| App           | `apps/app`             | [Guide](https://docs.modrinth.com/contributing/theseus/)  |
-| API           | `apps/labrinth`        | [Guide](https://docs.modrinth.com/contributing/labrinth/) |
-| Documentation | `apps/docs`            | [Guide](https://docs.modrinth.com/contributing/docs/)     |
+## Depo yapısı
 
-Shared libraries live in `packages/`.
+| Dizin                 | İçerik                                                            |
+| --------------------- | ----------------------------------------------------------------- |
+| `apps/app`            | Tauri ile yazılmış masaüstü başlatıcı (Rust)                      |
+| `apps/app-frontend`   | Vue 3 arayüz                                                      |
+| `apps/labrinth`       | Backend API servisi (Rust)                                        |
+| `packages/app-lib`    | Başlatıcının çekirdeği: profiller, kurulum ve oyun başlatma (Rust) |
 
-## Contributing
+Diğer `apps/` ve `packages/` dizinleri yardımcı araçları ve paylaşılan kütüphaneleri içerir. Web sitesi bu depoda değil, ayrı bir depoda geliştirilir.
 
-We welcome contributions! Before submitting any contributions, please read our [contributing guidelines](https://docs.modrinth.com/contributing/getting-started/).
+## Yerelde geliştirme
 
-If you plan to fork this repository for your own purposes, please review our [copying guidelines](COPYING.md).
+Gereksinimler:
 
-## Sponsors
+- Node.js 24.15.0 veya üzeri
+- pnpm 12.11.2 (`packageManager` alanında tanımlı)
+- Rust 1.95.0 veya üzeri (Cargo workspace, edition 2024)
+- [Tauri'nin platform gereksinimleri](https://v2.tauri.app/start/prerequisites/)
 
-[![CI powered by Namespace](https://namespace.so/oss/badge.svg)](https://namespace.so/github-actions/?utm_source=oss&utm_campaign=modrinth)
+```bash
+pnpm install
+pnpm --filter @modrinth/app run tauri dev     # geliştirme
+pnpm --filter @modrinth/app run tauri build   # dağıtım derlemesi
+```
 
-Thanks to [Namespace](https://namespace.so/github-actions/?utm_source=oss&utm_campaign=modrinth) for sponsoring Panda Minecraft Launcher's CI.
+Ayrıntılar için ilgili dizinlerdeki `AGENTS.md` dosyalarına bakın.
 
-## Security
+## Lisans
 
-If you discover a security vulnerability within our codebase, please follow our [responsible disclosure guidelines](https://modrinth.com/legal/security).
+Bileşenler kendi lisanslarıyla dağıtılır. Ayrıntılar için [COPYING.md](COPYING.md) ve ilgili dizinlerdeki `LICENSE` dosyalarına bakın.
 
-## Support
+## Topluluk
 
-If you need help with the Panda Minecraft Launcher web interface or desktop app, please visit our [support page](https://support.modrinth.com). For general inquiries, you can also join our [Discord server](https://discord.modrinth.com).
+- [GitHub Issues](https://github.com/Panda-Minecraft-Launcher/code/issues)
+- [Pull requests](https://github.com/Panda-Minecraft-Launcher/code/pulls)
+- [Releases](https://github.com/Panda-Minecraft-Launcher/code/releases)
 
-## License
+## English
 
-All packages in this repository are licensed under their respective licenses. See the [copying guidelines](COPYING.md) for details.
+Panda Minecraft Launcher is a free, open-source Minecraft launcher for Windows and Linux. It lets you create modded instances, install mods and modpacks, manage Minecraft versions and Java installations, and launch the game from a single interface.
+
+This is the source repository for Panda Minecraft Launcher; the website lives in a separate repository. The main directories are `apps/app` (Tauri desktop app), `apps/app-frontend` (Vue 3 UI), `apps/labrinth` (backend API), and `packages/app-lib` (launcher core).
+
+To build locally, install Node.js >= 24.15.0, pnpm 12.11.2, and Rust (edition 2024), then run `pnpm install` and `pnpm --filter @modrinth/app run tauri build`. Downloads are on [GitHub Releases](https://github.com/Panda-Minecraft-Launcher/code/releases). Licensing details are in [COPYING.md](COPYING.md).

@@ -61,7 +61,7 @@ const messages = defineMessages({
 	},
 	body2: {
 		id: 'project.ai-image-warning-modal.body.2',
-		defaultMessage: `See section 6 of <rules>Panda Minecraft Launcher's Content Rules</rules> for more information on our generative AI policy.`,
+		defaultMessage: `See section 6 of <rules>Panda Minecraft Launcher Content Rules</rules> for more information on our generative AI policy.`,
 	},
 })
 

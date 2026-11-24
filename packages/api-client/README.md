@@ -10,7 +10,7 @@
 
 Platform-agnostic TypeScript client for Panda Minecraft Launcher's API across Node.js, browsers, Nuxt, and Tauri.
 
-**⚠️ We use this internally to power modrinth.com and Panda Minecraft Launcher frontends. It may break without any notice, but you are welcome to use it.**
+**⚠️ We use this internally for modrinth.com and the Panda Minecraft Launcher apps. It may break without any notice, but you are welcome to use it.**
 
 ## Installation
 
@@ -172,7 +172,7 @@ Uploads use `XMLHttpRequest` for progress tracking and are only available in bro
 ```bash
 pnpm --filter @modrinth/api-client build
 pnpm --filter @modrinth/api-client lint
-# or pnpm prepr:frontend:lib in turborepo root.
+# or pnpm prepr:frontend:lib from the repository root.
 ```
 
 When adding a module, add it to `src/modules/index.ts` so it is included in the typed client structure.

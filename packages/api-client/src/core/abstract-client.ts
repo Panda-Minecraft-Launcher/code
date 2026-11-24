@@ -18,7 +18,7 @@ type ArchonClientModules = Omit<InferredClientModules['archon'], 'backups_v1'> &
 }
 
 /**
- * Abstract base client for Modrinth APIs
+ * Abstract base client for Panda Minecraft Launcher APIs
  */
 export abstract class AbstractModrinthClient extends AbstractUploadClient {
 	protected config: ClientConfig

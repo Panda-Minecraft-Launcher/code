@@ -2895,13 +2895,13 @@
     "message": "製品"
   },
   "layout.footer.products.app": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher App"
   },
   "layout.footer.products.plus": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher+"
   },
   "layout.footer.products.servers": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher Hosting"
   },
   "layout.footer.resources": {
     "message": "リソース"
@@ -4245,7 +4245,7 @@
     "message": "例: 中国語とアラビア語の翻訳はAIによって生成されます。"
   },
   "project.settings.disclosures.ai.still-unsure": {
-    "message": "不明な点がありますか？詳しい情報は<faq-link>Disclosure and Usage of AI</faq-link>と<rules>Panda Minecraft Launcher's Content Rules</rules>のセクション6を参照してください。"
+    "message": "不明な点がありますか？詳しい情報は<faq-link>Disclosure and Usage of AI</faq-link>と<rules>Panda Minecraft Launcher Content Rules</rules>のセクション6を参照してください。"
   },
   "project.settings.disclosures.ai.title": {
     "message": "AI生成コンテンツが含まれています"

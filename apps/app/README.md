@@ -5,9 +5,9 @@
 
 ## Panda Minecraft Launcher
 
-Panda Minecraft Launcher is a desktop application for managing your Minecraft mods. It is built with [Tauri](https://tauri.app/) and [Vue](https://vuejs.org/).
+Panda Minecraft Launcher is a free, open-source Minecraft launcher for Windows and Linux. It is built with [Tauri](https://tauri.app/) and [Vue](https://vuejs.org/).
 
-If you're not a developer and you've stumbled upon this repository, you can download the latest release of the app from the [Panda Minecraft Launcher website](https://modrinth.com/app).
+If you're not a developer and you've stumbled upon this repository, you can download the latest release from [GitHub Releases](https://github.com/Panda-Minecraft-Launcher/code/releases).
 
 ## Development
 

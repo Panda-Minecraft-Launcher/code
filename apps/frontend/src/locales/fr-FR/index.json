@@ -2898,13 +2898,13 @@
     "message": "Produits"
   },
   "layout.footer.products.app": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher App"
   },
   "layout.footer.products.plus": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher+"
   },
   "layout.footer.products.servers": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher Hosting"
   },
   "layout.footer.resources": {
     "message": "Ressources"
@@ -4098,7 +4098,7 @@
     "message": "Si vous avez besoin d'aide ou si vous avez des demandes de renseignements supplémentaires, veuillez visiter le <help-center-link>Panda Minecraft Launcher Help Center</help-center-link> et cliquez sur la bulle bleue pour contacter le support."
   },
   "project.moderation.thread.private-description": {
-    "message": "Il s'agit d'un fil de conversation privé avec les modérateurs du Panda Minecraft Launchere. Ils peuvent vous envoyer un message avec des problèmes concernant ce projet."
+    "message": "Il s'agit d'un fil de conversation privé avec les modérateurs de Panda Minecraft Launcher. Ils peuvent vous envoyer un message avec des problèmes concernant ce projet."
   },
   "project.moderation.thread.title": {
     "message": "Messages de modération"

@@ -43,7 +43,7 @@ const messages = defineMessages({
 	stillUnsure: {
 		id: 'project.settings.disclosures.ai.still-unsure',
 		defaultMessage:
-			"Still unsure? Refer to our guide to <faq-link>Disclosure and Usage of AI</faq-link> and section 6 of <rules>Panda Minecraft Launcher's Content Rules</rules> for more information.",
+			"Still unsure? Refer to our guide to <faq-link>Disclosure and Usage of AI</faq-link> and section 6 of <rules>Panda Minecraft Launcher Content Rules</rules> for more information.",
 	},
 	selectUses: {
 		id: 'project-review.disclosures.select-ai-uses',

@@ -2901,13 +2901,13 @@
     "message": "Products"
   },
   "layout.footer.products.app": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher App"
   },
   "layout.footer.products.plus": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher+"
   },
   "layout.footer.products.servers": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher Hosting"
   },
   "layout.footer.resources": {
     "message": "Resources"
@@ -3864,7 +3864,7 @@
     "message": "Using AI-generated images to represent your project is not allowed. Attempting to work around detection may lead to your Panda Minecraft Launcher account being suspended."
   },
   "project.ai-image-warning-modal.body.2": {
-    "message": "See section 6 of <rules>Panda Minecraft Launcher's Content Rules</rules> for more information on our generative AI policy."
+    "message": "See section 6 of <rules>Panda Minecraft Launcher Content Rules</rules> for more information on our generative AI policy."
   },
   "project.ai-image-warning-modal.title": {
     "message": "AI-generated images not allowed"
@@ -4257,7 +4257,7 @@
     "message": "e.g. The Chinese and Arabic translations are AI-generated."
   },
   "project.settings.disclosures.ai.still-unsure": {
-    "message": "Still unsure? Refer to our guide to <faq-link>Disclosure and Usage of AI</faq-link> and section 6 of <rules>Panda Minecraft Launcher's Content Rules</rules> for more information."
+    "message": "Still unsure? Refer to our guide to <faq-link>Disclosure and Usage of AI</faq-link> and section 6 of <rules>Panda Minecraft Launcher Content Rules</rules> for more information."
   },
   "project.settings.disclosures.ai.title": {
     "message": "Contains AI-generated content"
@@ -4311,7 +4311,7 @@
     "message": "Contains derivative content"
   },
   "project.settings.disclosures.description": {
-    "message": "You must add any applicable content disclosures to your project in compliance with <rules>Panda Minecraft Launcher's Content Rules</rules>."
+    "message": "You must add any applicable content disclosures to your project in compliance with <rules>Panda Minecraft Launcher Content Rules</rules>."
   },
   "project.settings.disclosures.description.2": {
     "message": "Unsure how to apply content disclosure to your project? Check out our <faq-link>Content Disclosures FAQ</faq-link>."

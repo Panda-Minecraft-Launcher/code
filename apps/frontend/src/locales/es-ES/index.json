@@ -2850,10 +2850,10 @@
     "message": "Aplicación Panda Minecraft Launcher"
   },
   "layout.footer.products.plus": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher+"
   },
   "layout.footer.products.servers": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher Hosting"
   },
   "layout.footer.resources": {
     "message": "Recursos"
@@ -4092,7 +4092,7 @@
     "message": "Contiene contenido derivado"
   },
   "project.settings.disclosures.description": {
-    "message": "Debes agregar cualquier divulgación de contenido aplicable a su proyecto de acuerdo con <rules>Panda Minecraft Launcher's Content Rules</rules>."
+    "message": "Debes agregar cualquier divulgación de contenido aplicable a su proyecto de acuerdo con <rules>Panda Minecraft Launcher Content Rules</rules>."
   },
   "project.settings.disclosures.description.2": {
     "message": "¿No estás seguro de cómo aplicar la divulgación de contenido a tu proyecto? Échale un vistazo a nuestra <faq-link>Preguntas frecuentes sobre divulgación de contenido</faq-link>."

@@ -15,7 +15,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.0.7',
 		body: `## Panda Minecraft Launcher 0.0.7
-- Panda Minecraft Launcher 0.0.7 yayında. Görünen Modrinth markalaması kaldırıldı, örnek klasörü "profiles" yerine "instances" adını kullanıyor ve Linux derlemesi yalnızca AppImage olarak yayınlanıyor.
+- Panda Minecraft Launcher 0.0.7 yayında. Görünen eski markalamalar kaldırıldı, örnek klasörü "profiles" yerine "instances" adını kullanıyor ve Linux derlemesi yalnızca AppImage olarak yayınlanıyor.
 
 ## Değiştirildi: örnek klasörü
 - Uygulama artık örnekleri kullanıcı klasöründeki "instances" altında arıyor. 0.0.6'dan yükselen kurulumlarda mevcut "profiles" klasörü açılışta otomatik olarak "instances" adına taşınıyor; örnekler, ikonlar ve mod dosyaları korunuyor.
@@ -23,7 +23,7 @@ const VERSIONS: VersionEntry[] = [
 - Hem "profiles" hem "instances" klasörü varsa hiçbir şey silinmiyor; uygulama mevcut durumu koruyor ve uyarı veriyor.
 
 ## Kaldırıldı: görünen marka
-- Uygulama, belgeler, yardım metinleri ve web sitesinde ürün adı olarak yalnızca "Panda Minecraft Launcher" kullanılıyor; "Modrinth App" ve benzeri görünen marka adları kaldırıldı.
+- Uygulama, belgeler, yardım metinleri ve web sitesinde ürün adı olarak yalnızca "Panda Minecraft Launcher" kullanılıyor; Eski ürün adları ve benzeri görünen marka adları kaldırıldı.
 - Paket adları, API/CDN adresleri ve protokol kimlikleri uyumluluk için olduğu gibi bırakıldı.
 
 ## Değiştirildi: Linux paketi
@@ -119,7 +119,7 @@ const VERSIONS: VersionEntry[] = [
 - Varsayılan veri dizini kullanıcı ev dizinine taşındı: Windows C:/Users/<kullanıcı>/PandaMinecraftLauncher, macOS/Linux ~/PandaMinecraftLauncher. Java kurulumları java_versions/, oyun sürümleri versions/ altına, veritabanı yedekleri Backups/app-db altına alındı.
 - Yan menü kaldırıldı; hesap yönetimi /accounts sayfasına taşındı.
 - Destek, dokümantasyon ve çeviri bağlantıları proje issue sayfasına yönlendiriliyor.
-- Mod indirme alanları dışında kalan Modrinth marka metinleri kaldırıldı; .mrpack uyarılarında Modrinth markası korundu.
+- Mod indirme alanları dışında kalan Eski marka metinleri kaldırıldı; .mrpack uyarılarında harici platform markası korundu.
 - CI ve release dosya adları ürün adıyla eşitlendi; playground identifier'ı ana uygulamayla aynı kökü kullanıyor.
 - Türkçe dil desteği eklendi; tekrarlanan ürün adı metinleri düzeltildi.
 
@@ -178,7 +178,7 @@ const VERSIONS: VersionEntry[] = [
 - Fixed instance creation failing when the instance icon can't be downloaded.
 - Fixed Java 16 and 18 failing to install on macOS and Linux.
 - Fixed local NeoForge mods showing their banner instead of their icon in the instance content list.
-- Fixed game settings changed while Modrinth App was closed being overwritten on the next launch when Sync game settings is on.
+- Fixed game settings changed while Panda Minecraft Launcher was closed being overwritten on the next launch when Sync game settings is on.
 - Fixes some issues with importing instances from CurseForge, Prism and MultiMC.
 
 ## Security
@@ -210,14 +210,14 @@ const VERSIONS: VersionEntry[] = [
 - Added an advanced settings for installation settings which allows you to relink an instance to a shared instance if you unexpectedly leave or get unlinked.
 
 ## Changed
-- "Copy ad details" in Troubleshooting settings is disabled if there isn't an ad or you have Modrinth+ or don't see ads for another reason.
+- "Copy ad details" in Troubleshooting settings is disabled if there isn't an ad or you have Panda Minecraft Launcher+ or don't see ads for another reason.
 - Redesigned the App directory setting in Resource management settings.
 	- Selecting the current app directory path copies it to the clipboard.
 	- Change directory opens a modal that shows the current and new folders, with options to move and restart now or move on next launch.
 	- A pending move shows a warning with options to cancel the move or move and restart now.
 	- The Change directory modal blocks a folder inside the current app directory, or one that contains it, and asks you to close running instances first.
 	- The Change directory modal recommends a folder over the top level of a drive.
-- Moving the app directory copies files in parallel and checks every copied file before Modrinth App switches to the new folder.
+- Moving the app directory copies files in parallel and checks every copied file before Panda Minecraft Launcher switches to the new folder.
 - The splash screen shows the progress of an app directory move with the message "Moving your app directory...".
 - Removed the override toggles from the Java and memory, Window, and Launch hooks tabs of instance settings.
 	- Settings show the default value until you change it.
@@ -286,10 +286,10 @@ const VERSIONS: VersionEntry[] = [
 - Toggling content in the instance Content tab now applies immediately instead of locking the list.
 - Renamed "Show installation tasks" to "Show tasks" in the download manager.
 - Renamed the "Servers" breadcrumb to "Hosting".
-- Updated translations. Want to help translate Modrinth App? [Click here.](https://translate.modrinth.com/)
+- Updated translations. Want to help translate Panda Minecraft Launcher? [Click here.](https://translate.modrinth.com/)
 - Improved load times for various project, shared instances and author icons across the app.
 - Reinstalling a shared instance you own now downloads the last version you pushed and shows a notice that changes you hadn't pushed aren't included.
-- The instance page now shows an "Update available" notice when you pushed changes to a shared instance from another Modrinth App installation.
+- The instance page now shows an "Update available" notice when you pushed changes to a shared instance from another Panda Minecraft Launcher installation.
 - Pushing an update to a shared instance is now blocked until you download a newer version that was pushed from another installation.
 
 ## Removed
@@ -313,7 +313,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-11-03T21:57:54+00:00`,
 		product: 'web',
 		body: `## Added
-- Added a one-time notification for Modrinth Hosting customers and former customers about the [Server Play](https://modrinth.com/news/article/server-play/) update.
+- Added a one-time notification for Panda Minecraft Launcher Hosting customers and former customers about the [Server Play](https://modrinth.com/news/article/server-play/) update.
 - Show a proper error message when user enters an invalid custom license name.
 
 ## Changed
@@ -330,7 +330,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-11-03T21:57:54+00:00`,
 		product: 'hosting',
 		body: `## Added
-- Play tab in the server panel. "Play server" opens Modrinth App straight into the server, and you can invite friends by Modrinth username or link, push updates to their instances, and download the player content as an \`.mrpack\`. [Read the blog post](https://modrinth.com/news/article/server-play/) for more information.
+- Play tab in the server panel. "Play server" opens Panda Minecraft Launcher straight into the server, and you can invite friends by Panda Minecraft Launcher username or link, push updates to their instances, and download the player content as an \`.mrpack\`. [Read the blog post](https://modrinth.com/news/article/server-play/) for more information.
 - "Enabled for" column in the Content tab to choose whether each item is installed on the server, shared with players, or both.
 - One-time migration for existing modded servers, which backs up the server and reinstalls its content the first time you share it from the Play tab.
 - "Upload a CurseForge modpack" option when setting up or resetting a server, from a CurseForge link or file, with automatic server pack detection.
@@ -357,7 +357,7 @@ const VERSIONS: VersionEntry[] = [
 - The Joined column in the Access tab now comes before Role and is the default sort.
 - Content tab toggles now apply immediately instead of locking the list while saving.
 - Backup slot cards subtext has changed to be easier to understand what the types are, and when an automatic backup will occur.
-- Updated translations. Want to help translate Modrinth Hosting? [Click here.](https://translate.modrinth.com/)
+- Updated translations. Want to help translate Panda Minecraft Launcher Hosting? [Click here.](https://translate.modrinth.com/)
 
 ## Removed
 - Removed "Install CurseForge pack" from the Files tab upload menu. CurseForge packs are now installed from the setup and reset flows.
@@ -377,7 +377,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.22.1',
 		body: `## Changed
 - File drop areas, such as in the Skin selector, now highlight while dragging and show a spinner while files process.
-- Updated translations. Want to help translate Modrinth App? [Click here](https://translate.modrinth.com/)
+- Updated translations. Want to help translate Panda Minecraft Launcher? [Click here](https://translate.modrinth.com/)
 - Depends on filter styling for app.
 
 ## Removed
@@ -385,14 +385,14 @@ const VERSIONS: VersionEntry[] = [
 
 ## Fixed
 - Fixed Minecraft 1.8.9 failing to launch on Apple Silicon Macs.
-- Fixed Modrinth App slowing down or stalling while installing or updating large amounts of content.
-- Fixed files dragged into Modrinth App dropping onto the wrong area on macOS and Linux with display scaling.
+- Fixed Panda Minecraft Launcher slowing down or stalling while installing or updating large amounts of content.
+- Fixed files dragged into Panda Minecraft Launcher dropping onto the wrong area on macOS and Linux with display scaling.
 - Improved loading speed of the Versions page for projects that support many game versions.
 - Fixed searchable dropdowns flickering while typing. Selecting the arrow icon now opens and closes the dropdown.
 - Fixed instance name sort to also be alphanumerical instead of only alphabetical.
 - Fixed issue where you cannot open an instance with track pad.
 - Fixed drag to resize slider is to handle multiple jump back in columns.
-- Padded bottom of search filters in sidebar since last item can be covered by "Upgrade to Modrinth+" link.`,
+- Padded bottom of search filters in sidebar since last item can be covered by "Upgrade to Panda Minecraft Launcher+" link.`,
 	},
 	{
 		date: `2026-10-29T14:44:43+00:00`,
@@ -417,8 +417,8 @@ const VERSIONS: VersionEntry[] = [
 - You can now use the icon editor to create an icon for your server in the General settings tab of the server panel settings modal.
 
 ## Changed
-- Updated translations. Want to help translate Modrinth Hosting? [Click here](https://translate.modrinth.com/)
-- When resubscribing to a Modrinth Hosting server, it will now let you switch payment method and preview the tax (if any) that you will be additionally charged.
+- Updated translations. Want to help translate Panda Minecraft Launcher Hosting? [Click here](https://translate.modrinth.com/)
+- When resubscribing to a Panda Minecraft Launcher Hosting server, it will now let you switch payment method and preview the tax (if any) that you will be additionally charged.
 
 ## Fixed
 - Fixed the Created and Created by columns being too narrow in the backup history table on the Backups tab.
@@ -467,11 +467,11 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.21.11',
 		body: `## Changed
-- Replaced the ended Medal free server promotion in the sidebar with the current Modrinth Hosting promotion.
+- Replaced the ended Medal free server promotion in the sidebar with the current Panda Minecraft Launcher Hosting promotion.
 
 ## Fixed
-- Fixed the Play button not launching the game, or taking several minutes, after Modrinth App had been open for a while.
-- Fixed launcher logs taking up disk space indefinitely. Logs older than 14 days are now deleted when Modrinth App starts.
+- Fixed the Play button not launching the game, or taking several minutes, after Panda Minecraft Launcher had been open for a while.
+- Fixed launcher logs taking up disk space indefinitely. Logs older than 14 days are now deleted when Panda Minecraft Launcher starts.
 - Fixed the app database growing over time by removing cached project and version data that expired more than a week ago.`,
 	},
 	{
@@ -482,7 +482,7 @@ const VERSIONS: VersionEntry[] = [
 - Added a new "Report ad" action in the troubleshooting tab of the app settings modal.
 
 ## Changed
-- Updated translations. Want to help translate Modrinth App? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate Panda Minecraft Launcher? [Click here](https://translate.modrinth.com)
 - Mods can now be installed, enabled, disabled, or removed while the instance is running.
 - Reorganized the Settings modal into Display, Account, Instance defaults, and System sections.
 	- Default Java and memory, Window, and Launch hooks settings now each have their own tab under Instance defaults.
@@ -515,7 +515,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-10-16T17:26:37+00:00`,
 		product: 'web',
 		body: `## Changed
-- Updated translations. Want to help translate Modrinth? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate Panda Minecraft Launcher? [Click here](https://translate.modrinth.com)
 - Updated slug suggestions to handle character restrictions.
 
 ## Fixed
@@ -528,7 +528,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-10-16T17:26:37+00:00`,
 		product: 'hosting',
 		body: `## Changed
-- Updated translations. Want to help translate Modrinth Hosting? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate Panda Minecraft Launcher Hosting? [Click here](https://translate.modrinth.com)
 
 ## Fixed
 - Fixed beta and alpha version badges using different colors in the update and switch version modals.
@@ -539,10 +539,10 @@ const VERSIONS: VersionEntry[] = [
 		product: 'web',
 		body: `## Changed
 - Changed the Discord link on the error page to a support link.
-- Updated graphics used for Modrinth Hosting ad.
+- Updated graphics used for Panda Minecraft Launcher Hosting ad.
 
 ## Removed
-- Removed Modrinth Hosting x Medal five-day trial promo.`,
+- Removed Panda Minecraft Launcher Hosting x Medal five-day trial promo.`,
 	},
 	{
 		date: `2026-10-07T19:34:12+00:00`,
@@ -556,7 +556,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.21.9',
 		body: `## Fixed
-- Improved Modrinth sign-in to support deeplinking, improve security, and fix random sign-outs due to shared tokens with the website.
+- Improved Panda Minecraft Launcher sign-in to support deeplinking, improve security, and fix random sign-outs due to shared tokens with the website.
 - Fixed \`missing field synced_options\` error.`,
 	},
 	{
@@ -672,7 +672,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.21.5',
 		body: `## Changed
 - Changed how some app settings are stored.
-- Added a setting to refocus Modrinth App when Minecraft closes - this is disabled by default.
+- Added a setting to refocus Panda Minecraft Launcher when Minecraft closes - this is disabled by default.
 
 ## Fixed
 - Fixed some issues where "Database is locked" errors would occur.
@@ -730,7 +730,7 @@ const VERSIONS: VersionEntry[] = [
 - Changed resource management icon to microchip.
 
 ## Fixed
-- Fixed the alignment of the Modrinth logo on windows and linux
+- Fixed the alignment of the Panda Minecraft Launcher logo on windows and linux
 - Fixed issue with Resource management tab not loading when calculating storage usage.
 - Fixed issue with Sync overrides toggles not showing true state until clicked on.`,
 	},
@@ -739,7 +739,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'hosting',
 		body: `## Fixed
 - Fixed the unsaved changes banner not showing up in Hosting settings.
-- Fixed non-USD currencies appearing broken in pricing for Modrinth Hosting.
+- Fixed non-USD currencies appearing broken in pricing for Panda Minecraft Launcher Hosting.
 - Fixed issue on the invite modal for the Access tab where the friends list would overflow out of the modal container.`,
 	},
 	{
@@ -766,13 +766,13 @@ const VERSIONS: VersionEntry[] = [
 - Fixed issue with resource pack syncing where resource packs with missing \`pack.mcmeta\` files would completely block syncing from happening for all packs.
 - Fixed issue in the content tab for uploaded resource packs having mc color codes in their names. Now they are removed.
 - Fixed "Minimise on launch" setting not working as intended.
-- Fixed Alt + Tab causing Modrinth App to crash on windows for some users.
+- Fixed Alt + Tab causing Panda Minecraft Launcher to crash on windows for some users.
 - Fixed spacing on language group headers
 - Fixed failed or interrupted modpack updates leaving instance files partially replaced by restoring the previous content.
 - Fixed duplicated instances losing content update locks.
 - Fixed formatting codes showing in world names.
 - Fixed file size limit for profile pictures not being correctly notified about in the profile settings page.
-- Fixed non-USD currencies appearing broken in pricing for Modrinth Hosting.
+- Fixed non-USD currencies appearing broken in pricing for Panda Minecraft Launcher Hosting.
 - Fixed issue with Allocated memory setting not saving correctly.
 - Fixed issue on Share modal for shared instances where the friends list would overflow out of the modal container.`,
 	},
@@ -781,7 +781,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'web',
 		body: `## Fixed
 - Fixed spacing on language group headers
-- Fixed non-USD currencies appearing broken in pricing for Modrinth Hosting and Modrinth+.`,
+- Fixed non-USD currencies appearing broken in pricing for Panda Minecraft Launcher Hosting and Panda Minecraft Launcher+.`,
 	},
 	{
 		date: `2026-09-14T02:29:42+00:00`,
@@ -793,7 +793,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-09-14T00:11:58+00:00`,
 		product: 'web',
 		body: `## Changed
-- Updated the images on the Modrinth Hosting landing page.
+- Updated the images on the Panda Minecraft Launcher Hosting landing page.
 - Tooltips now appear only after a delay, no longer re-open when quickly moving to another nearby tooltip, smoothly animate between positions, and have a slight delay before closing to bring them closer to typical tooltip guidelines. Tooltip animations have also been improved to be smoother.
 - Added a slight selection animation to selecting the different tabs of the app.
 
@@ -819,7 +819,7 @@ const VERSIONS: VersionEntry[] = [
 - The random project carousels on the home page and app landing page now pull from the [Featured projects](https://modrinth.com/collection/YV97U1kk) collection.
 - Updated screenshots on the app landing page.
 - Changed some callouts on app landing page to highlight newer features like the skin manager and settings syncing.
-- Removed claims about RAM usage of Modrinth App on app landing page.
+- Removed claims about RAM usage of Panda Minecraft Launcher on app landing page.
 - Switched some projects out on app landing page to freshen it up.`,
 	},
 	{
@@ -871,7 +871,7 @@ const VERSIONS: VersionEntry[] = [
 - Added searching by source mod name or filename in Game settings.
 
 ## Changed
-- Updated mod keybindings in Game settings to display translated names from mod jars when available, using the Modrinth App's selected language.
+- Updated mod keybindings in Game settings to display translated names from mod jars when available, using the Panda Minecraft Launcher's selected language.
 - Updated the Language option in Game settings to use a searchable dropdown with language names and regions.
 - Updated sync indicators with blue badges for resource packs in the Content tab and multiplayer servers in the Worlds tab.
 - Updated memory allocation sliders to show the minimum as 0MB and maximum in GB.
@@ -903,19 +903,19 @@ const VERSIONS: VersionEntry[] = [
 - Added file zipping functionality to the Files tab of the server panel.
 
 ## Fixed
-- Fixed issue where the server panel would constantly try to reconnect if the Modrinth Hosting API was unavailable.`,
+- Fixed issue where the server panel would constantly try to reconnect if the Panda Minecraft Launcher Hosting API was unavailable.`,
 	},
 	{
 		date: `2026-09-07T18:59:17+00:00`,
 		product: 'app',
 		version: '0.20.0',
 		body: `## Added
-- Added \`options.txt\` syncing and editing in the Modrinth App, keeping game settings consistent across Minecraft versions.
+- Added \`options.txt\` syncing and editing in the Panda Minecraft Launcher, keeping game settings consistent across Minecraft versions.
 - Added optional resource pack syncing, disabled by default, which shares packs, enabled states, and load order across participating instances.
 - Added Sync and Desync actions, status indicators, and cross-instance change warnings for resource packs in the Content tab.
 - Added per-instance sync overrides for game settings and resource packs.
 - Added an update notice explaining the expanded syncing features and letting existing users choose whether to start syncing and select a source instance.
-- Added a Features settings tab for controlling optional parts of the Modrinth App interface.
+- Added a Features settings tab for controlling optional parts of the Panda Minecraft Launcher interface.
 - Added Features controls for showing the Skin selector in the sidebar, limiting Quick instances, and syncing feature settings across devices.
 
 ## Changed
@@ -940,7 +940,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-09-07T18:59:17+00:00`,
 		product: 'web',
 		body: `## Added
-- Tax amount is now shown on the billing page for Modrinth+ and Modrinth Hosting subscriptions
+- Tax amount is now shown on the billing page for Panda Minecraft Launcher+ and Panda Minecraft Launcher Hosting subscriptions
 
 ## Changed
 - Polished the 2FA code input stage of the sign in flow.
@@ -1002,7 +1002,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.19.0',
 		body: `## Added
-- Added option to switch between multiple signed-in Modrinth accounts.
+- Added option to switch between multiple signed-in Panda Minecraft Launcher accounts.
 - Added the ability to view the app signed out as well even when accounts are added.
 - Added right-click context menu actions for Jump in items.
 - Added "Add a friend" to account menu.
@@ -1024,7 +1024,7 @@ const VERSIONS: VersionEntry[] = [
 ## Fixed
 - Non-instance icons with transparent corners are no longer padded, fixing many icons flashing in after a second.
 - Fixed window controls being covered by the splash screen.
-- Fixed "Official Modrinth account" badge on official profiles appearing gray instead of green
+- Fixed "Official Panda Minecraft Launcher account" badge on official profiles appearing gray instead of green
 - Fixed newer snapshots since 26.1 not being grouped properly.
 - Fixed settings menu headers being cut off when the window is small.
 - Fixed creating a new group when only one group exists does not show the group.
@@ -1034,17 +1034,17 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-08-27T17:07:29+00:00`,
 		product: 'web',
 		body: `## Added
-- Added option to switch between multiple signed-in Modrinth accounts.
+- Added option to switch between multiple signed-in Panda Minecraft Launcher accounts.
 - Added the ability to view the site signed out as well even when accounts are added.
 
 ## Changed
 - Improved the consistency of filter dropdowns on the Versions and Changelog pages.
-- When signing into Modrinth App, you're now given the choice of which account you'd like to sign into.
+- When signing into Panda Minecraft Launcher, you're now given the choice of which account you'd like to sign into.
 - When you get a "You don't have access to this page" error, you are given the option to switch to another account.
 - Theme changes now happen instantly, disabling any funky transitions while it happens.
 - Renamed "Source jar" to "Sources jar" and "Javadoc jar" to "Javadocs jar"
 - Changed the icons for publish options to include a plus on them.
-- Redesigned the gallery image viewer to match what we have in Modrinth App for screenshots.
+- Redesigned the gallery image viewer to match what we have in Panda Minecraft Launcher for screenshots.
 - Opening an image in a new tab will now open the raw image.
 - Collections by non-creators are no longer indexed.
 - Changed Settings page favicons to have a Settings cog icon in the corner.
@@ -1053,7 +1053,7 @@ const VERSIONS: VersionEntry[] = [
 ## Fixed
 - Non-instance icons with transparent corners are no longer padded, fixing many icons flashing in after a second.
 - Fixed color theme settings not showing what your preferred dark theme is.
-- Fixed "Official Modrinth account" badge on official profiles appearing gray instead of green
+- Fixed "Official Panda Minecraft Launcher account" badge on official profiles appearing gray instead of green
 - Fixed project status badges not visible on your projects in organizations
 - Fixed projects in organizations not being sorted by status.
 - Fixed newer snapshots since 26.1 not being grouped properly.
@@ -1079,10 +1079,10 @@ const VERSIONS: VersionEntry[] = [
 - Added new loader symbols for icon editor.
 - Depends on search filter, which filters all projects that depends on the project you've selected.
 - Modpack included content filter, which filters projects that includes a set of projects you've selected.
-- Enabled friend request controls in Social settings - you can now limit who can send you friend requests on Modrinth.
+- Enabled friend request controls in Social settings - you can now limit who can send you friend requests on Panda Minecraft Launcher.
 - Enabled shared instance invite controls in Social settings, letting you limit who can send you shared instance invites.
-- Enabled Modrinth Hosting access invite controls in Social settings - you can now limit who can invite you to manage a Modrinth Hosting server.
-- Added a new option to sync your behaviour & appearance settings across Modrinth App sessions on multiple devices.
+- Enabled Panda Minecraft Launcher Hosting access invite controls in Social settings - you can now limit who can invite you to manage a Panda Minecraft Launcher Hosting server.
+- Added a new option to sync your behaviour & appearance settings across Panda Minecraft Launcher sessions on multiple devices.
 - Added language coverage to the Language settings page.
 
 ## Changed
@@ -1105,9 +1105,9 @@ const VERSIONS: VersionEntry[] = [
 - Added ability to click on the ellipses in pagination controls to go to a specific page.
 - Depends on search filter, which filters all projects that depends on the project you've selected.
 - Modpack included content filter, which filters projects that includes a set of projects you've selected.
-- Enabled friend request controls in Social settings - you can now limit who can send you friend requests on Modrinth.
+- Enabled friend request controls in Social settings - you can now limit who can send you friend requests on Panda Minecraft Launcher.
 - Enabled shared instance invite controls in Social settings, letting you limit who can send you shared instance invites.
-- Enabled Modrinth Hosting access invite controls in Social settings - you can now limit who can invite you to manage a Modrinth Hosting server.
+- Enabled Panda Minecraft Launcher Hosting access invite controls in Social settings - you can now limit who can invite you to manage a Panda Minecraft Launcher Hosting server.
 - Added a new option to sync your appearance settings across website sessions on multiple devices.
 - Added language coverage to the Language settings page.
 
@@ -1278,7 +1278,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-08-10T18:17:39+00:00`,
 		product: 'web',
 		body: `## Added
-- Added official Modrinth subreddit and YouTube channel to footer, replacing GitHub which is already included below.`,
+- Added official Panda Minecraft Launcher subreddit and YouTube channel to footer, replacing GitHub which is already included below.`,
 	},
 	{
 		date: `2026-08-10T17:34:55+00:00`,
@@ -1288,7 +1288,7 @@ const VERSIONS: VersionEntry[] = [
 - Common config file formats and RPO files are now hidden from the external modpack file warning modal.
 - Updated text in unknown file warning.
 - When viewing an instance's content in the app, content updates will now be checked immediately, rather than waiting for cache to be invalidated. It may take up to 10 minutes for updates to be shown in the content tab.
-- Updated translations. Want to help translate Modrinth App? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate Panda Minecraft Launcher? [Click here](https://translate.modrinth.com)
 
 ## Fixed
 - Fixed issue with animated GIFs sometimes not working in project page descriptions.
@@ -1302,7 +1302,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-08-10T17:34:55+00:00`,
 		product: 'web',
 		body: `## Changed
-- Updated translations. Want to help translate the Modrinth website? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate the Panda Minecraft Launcher website? [Click here](https://translate.modrinth.com)
 
 ## Fixed
 - Fixed issue with animated GIFs sometimes not working in project page descriptions.`,
@@ -1311,7 +1311,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-08-10T17:34:55+00:00`,
 		product: 'hosting',
 		body: `## Changed
-- Updated translations. Want to help translate Modrinth Hosting? [Click here](https://translate.modrinth.com)`,
+- Updated translations. Want to help translate Panda Minecraft Launcher Hosting? [Click here](https://translate.modrinth.com)`,
 	},
 	{
 		date: `2026-08-08T19:10:34+00:00`,
@@ -1353,7 +1353,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-07-31T06:10:23+00:00`,
 		product: 'web',
 		body: `## Fixed
-- Fixed randomly getting signed out of Modrinth account due to random non-auth related errors.`,
+- Fixed randomly getting signed out of Panda Minecraft Launcher account due to random non-auth related errors.`,
 	},
 	{
 		date: `2026-07-29T21:32:06+00:00`,
@@ -1412,9 +1412,9 @@ const VERSIONS: VersionEntry[] = [
 - Added a way to see where a shared instance content is coming from when in the Install to play modal, either the linked modpack or if it was added on top. Content which is a part of the linked modpack will show the modpack information underneath it's name.
 - Added user blocking
 - You can block users on their profile page.
-- You can block users when reporting a shared instance. This prevents the user from sending you invites to shared instances and Modrinth Hosting server panels.
-- You can manage who you've blocked in the new Social settings in the app's Settings menu, or on the Modrinth website.
-- Added the ability to edit your Modrinth profile in the app's Settings menu.
+- You can block users when reporting a shared instance. This prevents the user from sending you invites to shared instances and Panda Minecraft Launcher Hosting server panels.
+- You can manage who you've blocked in the new Social settings in the app's Settings menu, or on the Panda Minecraft Launcher website.
+- Added the ability to edit your Panda Minecraft Launcher profile in the app's Settings menu.
 - Added the ability to adjust the amount of quick instances shown in the sidebar by dragging the divider up and down.
 - Added an option to always show "Copy details" on the installation job notifications, rather than just on failed and interrupted instance install jobs.
 - Clicking on friends in the friends list will take you to their profile page.
@@ -1422,7 +1422,7 @@ const VERSIONS: VersionEntry[] = [
 ## Changed
 
 - More than three instances now show up in the left sidebar's quick instance selection area for larger window sizes.
-- Updated Modrinth App logo to just use the standard Modrinth logo to save space.
+- Updated Panda Minecraft Launcher logo to just use the standard Panda Minecraft Launcher logo to save space.
 - Updated the design of the back/forward buttons.
 - Limited shared instances to 50 users.
 - Changed the expiry date picker in the shared instance invite edit modal to be a dropdown of common dates, rather than a complicated date picker. You can still use the fine-grained date picker by choosing "Custom"
@@ -1431,12 +1431,12 @@ const VERSIONS: VersionEntry[] = [
 - Moved out behavioural settings into it's own subpage, rather than being in Appearance settings.
 - Updated "Advanced" toggle filter design to be the same as the other filters, just with only an exclude button as the primary action.
 - Re-aligned the traffic light buttons on macOS with the top bar.
-- Updated translations. Want to help translate the Modrinth App? [Click here](https://translate.modrinth.com)
-- **Modrinth Hosting:** Updated translations. Want to help translate Modrinth Hosting? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate the Panda Minecraft Launcher? [Click here](https://translate.modrinth.com)
+- **Panda Minecraft Launcher Hosting:** Updated translations. Want to help translate Panda Minecraft Launcher Hosting? [Click here](https://translate.modrinth.com)
 
 ## Fixed
 
-- **Modrinth Hosting:** Fixed issue where when browsing content for your server panel, when visiting a project page and going back to search, it would reset the page back to one.
+- **Panda Minecraft Launcher Hosting:** Fixed issue where when browsing content for your server panel, when visiting a project page and going back to search, it would reset the page back to one.
 - Fixed issue where when browsing content for an instance, when visiting a project page and going back to search, it would reset the page back to one.
 - Refactored how breadcrumbs work in the app, this should solve many issues you might have encountered using the back and forward navigation buttons in the app header.
 - Fixed error spam when the shared instances API is not accessible, it will cleanly provide feedback that the app cannot connect.`,
@@ -1445,13 +1445,13 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-07-28T20:40:11+00:00`,
 		product: 'web',
 		body: `## Added
-- You can now block users on their profile page. This prevents the user from sending you invites to shared instances and Modrinth Hosting server panels.
-- Added new social settings page, where you can manage users you have blocked and in the future set who can send you friend requests and invitations to shared instances and Modrinth Hosting server panels.
+- You can now block users on their profile page. This prevents the user from sending you invites to shared instances and Panda Minecraft Launcher Hosting server panels.
+- Added new social settings page, where you can manage users you have blocked and in the future set who can send you friend requests and invitations to shared instances and Panda Minecraft Launcher Hosting server panels.
 
 ## Changed
 - Cleaned up the layout of and renamed the Public profile settings page to Profile settings.
 - Updated "Advanced" toggle filter design to be the same as the other filters, just with only an exclude button as the primary action.
-- Updated translations. Want to help translate Modrinth's website? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate Panda Minecraft Launcher website? [Click here](https://translate.modrinth.com)
 
 ## Fixed
 - Fixed profile pictures still being deleted after resetting a pending removal in Profile settings.
@@ -1465,7 +1465,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-07-28T20:40:11+00:00`,
 		product: 'hosting',
 		body: `## Changed
-- Updated translations. Want to help translate Modrinth Hosting? [Click here](https://translate.modrinth.com)
+- Updated translations. Want to help translate Panda Minecraft Launcher Hosting? [Click here](https://translate.modrinth.com)
 
 ## Fixed
 - Fixed issue where when browsing content for your server panel, when visiting a project page and going back to search, it would reset the page back to one.`,
@@ -1838,8 +1838,8 @@ const VERSIONS: VersionEntry[] = [
 ## Fixed
 - Fixed an issue where sometimes the app would desynchronise from the file system when disabling, enabling or removing mods from the Content tab.
 - Fixed issue where server pinging in the Worlds tab of the instance page would be stuck in a loading state for too long.
-- Fixed the Logs page in Modrinth App overflowing past the window instead of keeping the console contained.
-- Fixed the Modrinth Hosting server panel in Modrinth App overflowing past the window instead of keeping the console contained.
+- Fixed the Logs page in Panda Minecraft Launcher overflowing past the window instead of keeping the console contained.
+- Fixed the Panda Minecraft Launcher Hosting server panel in Panda Minecraft Launcher overflowing past the window instead of keeping the console contained.
 - Fixed issue where sometimes disabling linked modpack content would not work. Thanks [@creeperkatze](@creeperkatze)!
 - Fixed issue where unlinking a locally imported mrpack from an instance causes the content to never show up in the content list.`,
 	},
@@ -1870,7 +1870,7 @@ const VERSIONS: VersionEntry[] = [
 - Added the ability to create desktop shortcuts for your instances.
 
 ## Changed
-- Instance installs in the Modrinth App now show detailed progress for preparing Java, downloading modpack files, downloading content, extracting overrides, and downloading Minecraft.
+- Instance installs in the Panda Minecraft Launcher now show detailed progress for preparing Java, downloading modpack files, downloading content, extracting overrides, and downloading Minecraft.
 - Java, modpack, content, overrides and Minecraft downloads/extracting now show downloaded/extracted and total size.
 - The Content tab’s "Update all" action now shows live progress while resolving versions, downloading projects, and finishing updates.
 - Changed the visual style of the Delete server/Delete world modal on the Worlds tab of instances to match the Content tab's modals.
@@ -1997,7 +1997,7 @@ const VERSIONS: VersionEntry[] = [
 - Fixed rate limit issue when adding a skin in the skin selector.
 - Fixed issue with the Skin selector appearing in a broken state when the Minecraft api is unavailable. Now it appears in a read only state, showing the last selected skin or the default skin if it is unable to determine the last selected skin.
 - Fixed issue where skins which had translucency in the outer layer did not correctly render.
-- Fixed issue in Skin selector where the Edit button was not available on skins included within Modrinth App - meaning you could not change the cape of the skin without first applying it.
+- Fixed issue in Skin selector where the Edit button was not available on skins included within Panda Minecraft Launcher - meaning you could not change the cape of the skin without first applying it.
 - Fixed loading state incorrectly showing briefly in the Skins selector when a saved skin is deleted.`,
 	},
 	{
@@ -2028,7 +2028,7 @@ const VERSIONS: VersionEntry[] = [
 		body: `## Added
 - Added a new setting to the General tab of instance settings which allows you to control what content versions are considered an update. By default this will be set to release channel only.
 - Fixed drag and drop file upload not working in instances Files tab.
-- Fixed layering issue with the expanded console view in the Logs tab of instances and Modrinth Hosting panels.
+- Fixed layering issue with the expanded console view in the Logs tab of instances and Panda Minecraft Launcher Hosting panels.
 
 ## Changed
 - Moved "Reload to update" button from the bottom left to the top right action bar.
@@ -2037,7 +2037,7 @@ const VERSIONS: VersionEntry[] = [
 
 ## Fixed
 - Fixed updater restarting the app even if you didn't ask it to.
-- Fixed user pages incorrectly opening in the app when clicking user objects in the Modrinth Hosting`,
+- Fixed user pages incorrectly opening in the app when clicking user objects in the Panda Minecraft Launcher Hosting`,
 	},
 	{
 		date: `2026-06-08T22:54:32+00:00`,
@@ -2091,7 +2091,7 @@ const VERSIONS: VersionEntry[] = [
 - Updated translations
 
 ## Fixed
-- Fixed importing large .mrpack files in Modrinth App causing OS freezing or crashing.
+- Fixed importing large .mrpack files in Panda Minecraft Launcher causing OS freezing or crashing.
 - Fixed the content update modal in the Content tab of instances hiding available updates in some cases.
 - Fixed copying full paths from the Files tab using mixed path separators on Windows.`,
 	},
@@ -2112,33 +2112,33 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.14.2',
 		body: `## Added
-- New Australia region for Modrinth Hosting
+- New Australia region for Panda Minecraft Launcher Hosting
 
 ## Fixed
-- Germany Modrinth hosting region not providing latency data.`,
+- Germany Panda Minecraft Launcher Hosting region not providing latency data.`,
 	},
 	{
 		date: `2026-05-31T16:45:15-07:00`,
 		product: 'web',
 		body: `## Added
-- New Australia region for Modrinth Hosting
+- New Australia region for Panda Minecraft Launcher Hosting
 
 ## Fixed
-- Germany Modrinth hosting region not providing latency data.`,
+- Germany Panda Minecraft Launcher Hosting region not providing latency data.`,
 	},
 	{
 		date: `2026-05-31T16:45:15+00:00`,
 		product: 'app',
 		version: '0.14.1',
 		body: `## Added
-- Pride Fundraiser 2026 banner in the Modrinth App sidebar with donation progress, supporter count, days remaining, and a donation link.
-- Modrinth Pride Fundraiser supporters can now access exclusive Mr. Pack Pride skins in the Modrinth App Skin selector.
-- Mr. Pack is now available as a default skin in the Modrinth App Skin selector.
+- Pride Fundraiser 2026 banner in the Panda Minecraft Launcher sidebar with donation progress, supporter count, days remaining, and a donation link.
+- Panda Minecraft Launcher Pride Fundraiser supporters can now access exclusive Mr. Pack Pride skins in the Panda Minecraft Launcher Skin selector.
+- Mr. Pack is now available as a default skin in the Panda Minecraft Launcher Skin selector.
 
 ## Changed
 - Updated tooltips from pure black backgrounds to a style consistent with other popovers.
 - Floating tooltips and pop-ups now have stronger shadows.
-- Updated cards across Modrinth with consistent subtle borders.`,
+- Updated cards across Panda Minecraft Launcher with consistent subtle borders.`,
 	},
 	{
 		date: `2026-05-31T16:45:15+00:00`,
@@ -2150,9 +2150,9 @@ const VERSIONS: VersionEntry[] = [
 
 ## Changed
 - Redesigned user badges.
-- Content Moderators now also have the Modrinth Team badge.
+- Content Moderators now also have the Panda Minecraft Launcher team badge.
 - Users with the Alpha Tester badge now also have the Beta Tester badge.
-- Updated cards across Modrinth with consistent subtle borders.
+- Updated cards across Panda Minecraft Launcher with consistent subtle borders.
 - Updated tooltips from pure black backgrounds to a style consistent with other popovers.
 - Floating tooltips and pop-ups now have stronger shadows.
 
@@ -2203,12 +2203,12 @@ const VERSIONS: VersionEntry[] = [
 - Changed cape selection so each saved skin controls its own cape instead of using a separate default cape.
 - Moved cape selection into the Edit skin modal, with a \`None\` option for saving skins without capes.
 - Updated skin previews for more consistent framing across the Skin selector, skin editor, and skin cards.
-- Skin and cape changes made outside Modrinth App are now reflected when the Skin selector refreshes or on app launch safely.
+- Skin and cape changes made outside Panda Minecraft Launcher are now reflected when the Skin selector refreshes or on app launch safely.
 - Images from \`user-images.githubusercontent.com\` are no longer proxied.
 
 ## Fixed
 - Fixed duplicate saved skin cards appearing when the same texture was saved with different arm or cape settings.
-- Fixed skins equipped outside Modrinth App disappearing from the Skin selector after switching to another skin.
+- Fixed skins equipped outside Panda Minecraft Launcher disappearing from the Skin selector after switching to another skin.
 - Fixed skin selection hanging when a skin texture download stopped responding.
 - Fixed the hide nametag setting not updating the Skin selector preview until the page refreshed.`,
 	},
@@ -2252,7 +2252,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.13.22',
 		body: `## Added
-- Added log spam detection and line compacting logic to prevent Modrinth App from crashing when viewing large log files.
+- Added log spam detection and line compacting logic to prevent Panda Minecraft Launcher from crashing when viewing large log files.
 
 ## Changed
 - Increased the default memory for instances from 2GB to 4GB (depending on your system memory).
@@ -2457,8 +2457,8 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-05-09T19:06:18+00:00`,
 		product: 'hosting',
 		body: `## Changed
-- Updated Modrinth Hosting content browsing so multiple projects can be selected before installation.
-- After installing selected content, the Modrinth Hosting content page now reopens immediately and shows pending projects as installing.
+- Updated Panda Minecraft Launcher Hosting content browsing so multiple projects can be selected before installation.
+- After installing selected content, the Panda Minecraft Launcher Hosting content page now reopens immediately and shows pending projects as installing.
 - Project icons now appear in the action bar when selecting multiple projects in the Content tab.
 
 ## Fixed
@@ -2485,7 +2485,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-05-08T02:24:09+00:00`,
 		product: 'hosting',
 		body: `## Fixed
-- Fixed failed \`mrpack\` uploads when uploading via the Modrinth App.
+- Fixed failed \`mrpack\` uploads when uploading via the Panda Minecraft Launcher.
 - Fixed support bubble being broken when the console is in full screen/expand mode.`,
 	},
 	{
@@ -2550,7 +2550,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.13.8',
 		body: `## Fixed
 - Fixed exclude open source filter not working.
-- Fixed Central Europe server region not displaying ping in the Modrinth Hosting region selector.`,
+- Fixed Central Europe server region not displaying ping in the Panda Minecraft Launcher Hosting region selector.`,
 	},
 	{
 		date: `2026-05-02T22:09:01+00:00`,
@@ -2559,7 +2559,7 @@ const VERSIONS: VersionEntry[] = [
 - Fixed exclude open source filter not working.
 - Fixed 404 error when returning to collections dashboard from a collection page.
 - Fixed error loading revenue transfer history page.
-- Fixed Central Europe server region not displaying ping in the Modrinth Hosting region selector.`,
+- Fixed Central Europe server region not displaying ping in the Panda Minecraft Launcher Hosting region selector.`,
 	},
 	{
 		date: `2026-04-29T17:19:44+00:00`,
@@ -2594,7 +2594,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-04-27T19:59:24+00:00`,
 		product: 'app',
 		version: '0.13.6',
-		body: `*Note: Modrinth App v0.13.5's release has been skipped - it's changes have been bundled into 0.13.6.*
+		body: `*Note: Panda Minecraft Launcher v0.13.5's release has been skipped - it's changes have been bundled into 0.13.6.*
 ## Changed
 - Renamed the Browse page filter from "Hide installed content/added servers" to "Hide already installed content/added servers".
 - Content installed and servers added from an instance now stay visible on the Browse page until the search query or filters change.
@@ -2679,7 +2679,7 @@ const VERSIONS: VersionEntry[] = [
 
 ## Fixed
 - Worlds and servers in the instance Worlds tab now load almost instantly instead of taking one to two seconds.
-- Fixed the Modrinth+ upgrade button and ad banner not staying pinned to the bottom right.
+- Fixed the Panda Minecraft Launcher+ upgrade button and ad banner not staying pinned to the bottom right.
 - Fixed servers in the "Jump back in" section of the home page loading slowly. Thanks to [@Creeperkatze](https://github.com/Creeperkatze)!
 - Fixed several issues with the splash screen.
 - Fixed the cancel button when changing the install directory.
@@ -2698,7 +2698,7 @@ const VERSIONS: VersionEntry[] = [
 
 ## Fixed
 - Fixed slow tab switching in the server panel.
-- Fixed slow loading of the "Manage servers" page in the Modrinth App and slow interactions with it on the website.`,
+- Fixed slow loading of the "Manage servers" page in the Panda Minecraft Launcher and slow interactions with it on the website.`,
 	},
 	{
 		date: `2026-04-18T19:00:59+00:00`,
@@ -2720,12 +2720,12 @@ const VERSIONS: VersionEntry[] = [
 ## Changed
 - Console search highlighting is clearer and more accurate.
 - When memory is shown as bytes, the max RAM is now displayed alongside it.
-- Consolidated spacing between server and instance pages in the Modrinth App.
+- Consolidated spacing between server and instance pages in the Panda Minecraft Launcher.
 - Moved the "Kill server" action into a dropdown under the "Restart" button.
 
 ## Fixed
-- The support bubble is now available on hosting pages in the Modrinth App.
-- Paper and Purpur build versions can be selected when resetting a server in the Modrinth App.
+- The support bubble is now available on hosting pages in the Panda Minecraft Launcher.
+- Paper and Purpur build versions can be selected when resetting a server in the Panda Minecraft Launcher.
 - Server CPU and memory graphs no longer freeze on the last value after a hard crash or out-of-memory kill.`,
 	},
 	{
@@ -2752,9 +2752,9 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.13.0',
 		body: `## Changed
-- The Logs page has been redesigned, and brought into the same style as the new overview page from Modrinth Hosting.
-- Refactored the Logs page to share its console, filtering, and share-to-mclo.gs functionality with the Modrinth Hosting server panel.
-- Aligned the instance header with the Modrinth Hosting server panel header for a consistent look across the app and web.
+- The Logs page has been redesigned, and brought into the same style as the new overview page from Panda Minecraft Launcher Hosting.
+- Refactored the Logs page to share its console, filtering, and share-to-mclo.gs functionality with the Panda Minecraft Launcher Hosting server panel.
+- Aligned the instance header with the Panda Minecraft Launcher Hosting server panel header for a consistent look across the app and web.
 - Historical log files are now fetched in the background (and stored much more efficiently) when opening the Logs page, so switching between them is instant.
 - Moved live log capture from the frontend to the Rust backend, significantly reducing overhead when an instance produces large volumes of output.`,
 	},
@@ -2822,7 +2822,7 @@ const VERSIONS: VersionEntry[] = [
 ## Changed
 - When updating your game version in the platform settings, incompatible mods are now disabled instead of removed.
 - Better UI for installed custom modpack files.
-- Redesigned the server panel header — loader, game version, server address, uptime, and linked project are now shown as clean inline stats with the project icon and a link to the project page, matching instances in the Modrinth App.
+- Redesigned the server panel header — loader, game version, server address, uptime, and linked project are now shown as clean inline stats with the project icon and a link to the project page, matching instances in the Panda Minecraft Launcher.
 - Rebuilt the Files tab with right-click context menus, keyboard shortcuts, drag-and-drop, improved modals for moving items and extracting archives, undo/redo for file moves and renames, and smoother scrolling for large directories, now aligned with the Content tab design.
 - Cleaned up backup progress indicators to be more compact.
 
@@ -2838,7 +2838,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.12.5',
 		body: `## Added
-- Added a Files tab for instances, matching the Modrinth Hosting experience — browse, edit, and manage all files in your instance folder without leaving the app, ideal for editing config files, viewing crash reports, and more.
+- Added a Files tab for instances, matching the Panda Minecraft Launcher Hosting experience — browse, edit, and manage all files in your instance folder without leaving the app, ideal for editing config files, viewing crash reports, and more.
 - Added new filters to the Worlds tab: Online, Offline, Singleplayer, Modded, and Vanilla, replacing the previous set.
 - Added a "Browse servers" option to the Worlds tab, allowing you to search for compatible servers and quickly play or save them for later.
 - Added an empty state to the Worlds tab aligned with the Content tabs, with options to add or browse for servers.
@@ -2920,7 +2920,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-03-17T12:15:00-08:00`,
 		product: 'hosting',
 		body: `## [Content Management Overhaul](/news/article/content-management-overhaul)
-- We've overhauled the Content tab and improved parity with Modrinth App. Check out our [blog post](/news/article/content-management-overhaul) to learn more.`,
+- We've overhauled the Content tab and improved parity with Panda Minecraft Launcher. Check out our [blog post](/news/article/content-management-overhaul) to learn more.`,
 	},
 	{
 		date: `2026-03-13T00:15:00-00:00`,
@@ -3159,7 +3159,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.27',
 		body: `## Improvements
 - Fixed installing content from Discover refusing to create NeoForge instances.
-- Added circuit-breaker logic to prevent Modrinth App from spamming API requests during downtime.`,
+- Added circuit-breaker logic to prevent Panda Minecraft Launcher from spamming API requests during downtime.`,
 	},
 	{
 		date: `2026-01-23T12:25:00-08:00`,
@@ -3171,7 +3171,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-01-22T11:40:00-08:00`,
 		product: 'web',
 		body: `## Improvements
-- Updated Flathub to be the official recommended way to download Modrinth App on Linux.`,
+- Updated Flathub to be the official recommended way to download Panda Minecraft Launcher on Linux.`,
 	},
 	{
 		date: `2026-01-21T14:55:00-08:00`,
@@ -3252,7 +3252,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-01-05T12:35:00-08:00`,
 		product: 'web',
 		body: `## Improvements
-- Fixed an issue when upgrading a Modrinth Hosting server.`,
+- Fixed an issue when upgrading a Panda Minecraft Launcher Hosting server.`,
 	},
 	{
 		date: `2026-01-01T17:25:00-08:00`,
@@ -3349,7 +3349,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.10.22',
 		body: `## Improvements
-- Updated Modrinth Servers branding to new Modrinth Hosting branding.
+- Updated server branding to new Panda Minecraft Launcher Hosting branding.
 - Fixed server pinging blocking the app from loading.
 - Fixed instance overrides for window and Java settings not being able to be disabled.`,
 	},
@@ -3394,7 +3394,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-12-03T14:45:00-08:00`,
 		product: 'web',
 		body: `## Changes
-- Updated Modrinth Servers branding to new Modrinth Hosting branding.`,
+- Updated server branding to new Panda Minecraft Launcher Hosting branding.`,
 	},
 	{
 		date: `2025-11-28T11:45:00-08:00`,
@@ -3410,7 +3410,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.20',
 		body: `## Improvements
 - Improved contrast, visibility, and consistency of UI elements, especially in light mode.
-- Fixed ads showing up in the loading screen, even when you have Modrinth+.
+- Fixed ads showing up in the loading screen, even when you have Panda Minecraft Launcher+.
 - Added a warning banner when Minecraft's authentication servers are detected to be down.
 - Fixed icon when creating an instance not being saved.`,
 	},
@@ -3538,7 +3538,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.13',
 		body: `## Improvements
 - Revamped the app sidebar and friends UI to be more straightforward and easier to use.
-- Improved the UI of the Modrinth account button in the bottom left corner. It's now more visually consistent with the other navigation buttons and it has a link to your profile.
+- Improved the UI of the Panda Minecraft Launcher account button in the bottom left corner. It's now more visually consistent with the other navigation buttons and it has a link to your profile.
 - Updated the ad fallback to be green again instead of blue.
 - Fixed 'Open folder' in the instance page context menu having the wrong icon.`,
 	},
@@ -3592,7 +3592,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-10-01T19:05:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added banner informing Russian users of our non-compliance with censorship laws that will lead to Modrinth being blocked in Russia. For more info, see [our news article on it](/news/article/standing-by-our-values).`,
+- Added banner informing Russian users of our non-compliance with censorship laws that will lead to the platform being blocked in Russia. For more info, see [our news article on it](/news/article/standing-by-our-values).`,
 	},
 	{
 		date: `2025-09-29T12:50:00-07:00`,
@@ -3610,7 +3610,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.10.8',
 		body: `### Improvements
-- Overhauled Modrinth App updater to make it easier to stay up-to-date.
+- Overhauled Panda Minecraft Launcher updater to make it easier to stay up-to-date.
   - Updates will now be downloaded in the background to make a seamless updating experience.
   - When an update is downloaded, it will prompt you to reload the app.
   - If a metered internet connection is detected, it will ask you before downloading the update.
@@ -3652,15 +3652,15 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-09-07T15:55:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed Modrinth App sign in redirect when using SSO.`,
+- Fixed Panda Minecraft Launcher sign in redirect when using SSO.`,
 	},
 	{
 		date: `2025-09-03T15:40:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed a number of bugs with the Modrinth App marketing page
-- Added clearer notices about Modrinth App's beta status on marketing page.
-- Added disclaimer about Modrinth App's issues on Linux to marketing page.
+- Fixed a number of bugs with the Panda Minecraft Launcher marketing page
+- Added clearer notices about Panda Minecraft Launcher's beta status on marketing page.
+- Added disclaimer about Panda Minecraft Launcher's issues on Linux to marketing page.
 - Fixed certain icons in settings shrinking size on mobile.
 - In project settings, the description page no longer refers to all projects as mods.
 - Fixed spelling error during sign up.`,
@@ -3719,7 +3719,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'web',
 		body: `### Improvements
 - Overhauled creator-facing project environment metadata
-	- This is part of a larger project to make environment data across Modrinth more reliable. Read [this blog post](/news/article/new-environments) for more information.
+	- This is part of a larger project to make environment data across Panda Minecraft Launcher more reliable. Read [this blog post](/news/article/new-environments) for more information.
 - Improved performance of project pages.`,
 	},
 	{
@@ -3741,8 +3741,8 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-08-19T13:56:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed Modrinth Servers marketing page requiring auth.
-- Fixed mobile responsiveness of Modrinth Servers Medal collaboration banner.`,
+- Fixed Panda Minecraft Launcher Hosting marketing page requiring auth.
+- Fixed mobile responsiveness of Panda Minecraft Launcher Hosting Medal collaboration banner.`,
 	},
 	{
 		date: `2025-08-19T11:10:00-07:00`,
@@ -3754,7 +3754,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-08-19T11:10:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added Modrinth Servers free trial promotion in partnership with Medal.
+- Added Panda Minecraft Launcher Hosting free trial promotion in partnership with Medal.
 - Fixed typo in revenue page.`,
 	},
 	{
@@ -3795,7 +3795,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.5',
 		body: `### Improvements
 - On Windows, the app will now install per-user rather than system-wide.
-	- This allows future versions of Modrinth App to update seamlessly if the user is not an administrator.
+	- This allows future versions of Panda Minecraft Launcher to update seamlessly if the user is not an administrator.
 	- When updating to this version, the app will prompt you for Admin elevation in order to remove the old system-wide installation.
 	- Desktop shortcuts should be migrated automatically to the new installation location.
 - Improvements to the Skins page.
@@ -3806,8 +3806,8 @@ const VERSIONS: VersionEntry[] = [
 	- Tweaked the rendering of the spotlight below the player model.
 - Allow offline servers to still be joined from Worlds tab.
 	- Some servers display as offline as a privacy measure, or only start up once a player attempts to join.
-- Improved Modrinth user account login to use your default web browser.
-- Updated the appearance and functionality of error notifications to match the Modrinth website.
+- Improved Panda Minecraft Launcher user account login to use your default web browser.
+- Updated the appearance and functionality of error notifications to match the Panda Minecraft Launcher website.
 - Fixed search not returning to first page when filters are changed.
 - Fixed modpacks showing up with the "Optimization" tag on Home page even when it's not a featured category on the project.
 - Improved pinging Minecraft servers for older versions in the Worlds tab to more closely match how the client would ping them.
@@ -3821,7 +3821,7 @@ const VERSIONS: VersionEntry[] = [
 - Fixed the back/forward buttons appearing with white icons in light mode.
 - Fixed 'Party Alex' skin not using slim character model.
 - Improved resilience of Minecraft launching on Java 8 under certain circumstances.
-- Added system for showing users surveys to provide feedback on their experience with Modrinth App.
+- Added system for showing users surveys to provide feedback on their experience with Panda Minecraft Launcher.
 
 **This update was originally launched as 0.10.4, but was pulled due to issues with many functions of the app.**`,
 	},
@@ -3865,14 +3865,14 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-07-15T13:55:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Updated language around DDoS protection of Modrinth Servers products.`,
+- Updated language around DDoS protection of Panda Minecraft Launcher Hosting products.`,
 	},
 	{
 		date: `2025-07-15T12:40:00-07:00`,
 		product: 'web',
 		body: `### Improvements
 - Added copyright policy and DMCA links to footer.
-- Updated Modrinth Servers FAQ to include the new UK location.`,
+- Updated Panda Minecraft Launcher Hosting FAQ to include the new UK location.`,
 	},
 	{
 		date: `2025-07-15T08:20:00-07:00`,
@@ -3886,13 +3886,13 @@ const VERSIONS: VersionEntry[] = [
 		body: `### Improvements
 - Fixed pasted links being unnecessarily wrapped in Markdown formatting in Markdown editor.
 - Added a security.txt file to the site.
-- Changed the Europe location for Modrinth Servers to show as Central Europe with the flag of Germany to reflect its location better.`,
+- Changed the Europe location for Panda Minecraft Launcher Hosting to show as Central Europe with the flag of Germany to reflect its location better.`,
 	},
 	{
 		date: `2025-07-08T14:00:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed Modrinth Servers showing as out of stock when navigating to the page directly.`,
+- Fixed Panda Minecraft Launcher Hosting showing as out of stock when navigating to the page directly.`,
 	},
 	{
 		date: `2025-07-08T11:10:00-07:00`,
@@ -3975,8 +3975,8 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-07-04T12:00:00-07:00`,
 		product: 'web',
 		body: `### Changed
-- Changed fallback ad placeholder from promoting Modrinth+ to Modrinth Servers.
-- Fixed news section rendering incorrectly in light mode on landing page and Modrinth App page.`,
+- Changed fallback ad placeholder from promoting Panda Minecraft Launcher+ to Panda Minecraft Launcher Hosting.
+- Fixed news section rendering incorrectly in light mode on landing page and Panda Minecraft Launcher page.`,
 	},
 	{
 		date: `2025-06-30T19:15:00-07:00`,
@@ -4014,7 +4014,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-06-26T11:00:00-07:00`,
 		product: 'web',
 		body: `### Added
-- Added a dismissable Modrinth Servers promotion to project Download interface to inform users of the service's availability.
+- Added a dismissable Panda Minecraft Launcher Hosting promotion to project Download interface to inform users of the service's availability.
 
 ### Improvements
 - Added colors for the newly added legacy mod loaders
@@ -4069,7 +4069,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-06-03T14:35:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Overhauled Modrinth Servers purchase flow.
+- Overhauled Panda Minecraft Launcher Hosting purchase flow.
 - Added the ability to donate creator rewards to charity.`,
 	},
 	{
@@ -4089,16 +4089,16 @@ const VERSIONS: VersionEntry[] = [
 - Fixed notifications not loading sometimes. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3624))
 - Fixed marking all notifications as read. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3624))
 - Fixed relative time sometimes having poor rounding, and sometimes showing future dates unexpectedly. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3612))
-- Fixed localized pricing not showing in some cases for Modrinth+. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3623))
-- Fixed Modrinth changelog page link back to the full changelog not being clickable sometimes. (Contributed by [ThatGravyBoat](https://github.com/modrinth/code/pull/3593))
+- Fixed localized pricing not showing in some cases for Panda Minecraft Launcher+. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3623))
+- Fixed Panda Minecraft Launcher changelog page link back to the full changelog not being clickable sometimes. (Contributed by [ThatGravyBoat](https://github.com/modrinth/code/pull/3593))
 - Fixed analytics 'Views' tab not having the updated display for 'Other' regions.`,
 	},
 	{
 		date: `2025-05-01T18:30:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added a button to switch Modrinth+ billing between monthly and yearly.
-- Updated Modrinth App marketing page screenshots.`,
+- Added a button to switch Panda Minecraft Launcher+ billing between monthly and yearly.
+- Updated Panda Minecraft Launcher marketing page screenshots.`,
 	},
 	{
 		date: `2025-05-01T18:10:00-07:00`,
@@ -4141,7 +4141,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-04-28T19:45:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Combined Apple Silicon and Intel download links for Modrinth App into one link.
+- Combined Apple Silicon and Intel download links for Panda Minecraft Launcher into one link.
 - Added an option to copy a permanent link (using IDs instead of changeable slugs) to projects, users, and organizations.
 - Fixed overflow issue with dev-mode Maven coordinates widget, and changed wording.`,
 	},
@@ -4171,14 +4171,14 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-04-25T19:45:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added feedback survey upon Modrinth Servers cancellation.
-- Added FAQ question about the currency for Modrinth Servers subscription payments.`,
+- Added feedback survey upon Panda Minecraft Launcher Hosting cancellation.
+- Added FAQ question about the currency for Panda Minecraft Launcher Hosting subscription payments.`,
 	},
 	{
 		date: `2025-04-18T22:30:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Updated Modrinth Servers marketing page to be accurate to post-Pyro infrastructure.`,
+- Updated Panda Minecraft Launcher Hosting marketing page to be accurate to post-Pyro infrastructure.`,
 	},
 	{
 		date: `2025-04-17T02:25:00-07:00`,
@@ -4217,14 +4217,14 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-04-01T21:15:00-07:00`,
 		product: 'web',
 		body: `### Added
-- Reverted Modrinth Pizza due to issues in pizza processing leading to users being redirected to [this page](https://modrinth.com/pizza/error).
+- Reverted Panda Minecraft Launcher Pizza due to issues in pizza processing leading to users being redirected to [this page](https://modrinth.com/pizza/error).
 - Fixed bug causing theme color to turn orange and corners turn sharp.`,
 	},
 	{
 		date: `2025-04-01T12:00:00`,
 		product: 'web',
 		body: `### Added
-- Added Modrinth Pizza.`,
+- Added Panda Minecraft Launcher Pizza.`,
 	},
 	{
 		date: `2025-04-01T00:00:00`,
@@ -4262,7 +4262,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-03-13T19:30:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Updated Modrinth Servers marketing page, removing Pyro branding.`,
+- Updated Panda Minecraft Launcher Hosting marketing page, removing Pyro branding.`,
 	},
 	{
 		date: `2025-03-12T10:15:00-07:00`,
@@ -4271,7 +4271,7 @@ const VERSIONS: VersionEntry[] = [
 - Fixed low-res icons being pixelated.
 - Fixed mobile navbar hiding bottom of footer.
 - Updated CMP info page to correct some incorrect information.
-- Updated CCPA notice with updated information since Modrinth Servers and Modrinth+.
+- Updated CCPA notice with updated information since Panda Minecraft Launcher Hosting and Panda Minecraft Launcher+.
 - Fixed review page failing under edge case.`,
 	},
 	{
@@ -4341,7 +4341,7 @@ const VERSIONS: VersionEntry[] = [
 - All-new site footer with more links, better organization, and a new aesthetic.
 
 ### Improvements
-- Added Dallas location to Modrinth Servers landing page.
+- Added Dallas location to Panda Minecraft Launcher Hosting landing page.
 - Updated staff moderation checklist to be more visually consistent and more dynamic.`,
 	},
 	{
@@ -4356,7 +4356,7 @@ const VERSIONS: VersionEntry[] = [
 - Fix a case where opening the platform modal, closing it, and reopening it would cause the loader version to be unselected.
 - Prevents an issue where, if crash log analysis fails, the Overview page would unrender.
 - Suspended server listings now have a copy ID button.
-- Fixed bugs from Modrinth Servers February Release.`,
+- Fixed bugs from Panda Minecraft Launcher Hosting February Release.`,
 	},
 	{
 		date: `2025-02-16T19:10:00-08:00`,
@@ -4386,11 +4386,11 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-02-12T12:10:00-08:00`,
 		product: 'web',
 		body: `### Added
-- Added a 3D globe to visualize node locations to Modrinth Servers marketing page.
+- Added a 3D globe to visualize node locations to Panda Minecraft Launcher Hosting marketing page.
 - Added an indicator to show when certain server plans are running low on availability.
 
 ### Improvements
-- Improved out-of-stock notifications on Modrinth Servers page to be more accurate.`,
+- Improved out-of-stock notifications on Panda Minecraft Launcher Hosting page to be more accurate.`,
 	},
 	{
 		date: `2025-02-11T13:00:00-08:00`,
@@ -4405,7 +4405,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-02-11T09:00:00-08:00`,
 		product: 'web',
 		body: `### Added
-- Added a changelog page to view recent changes to Modrinth.`,
+- Added a changelog page to view recent changes to Panda Minecraft Launcher.`,
 	},
 	{
 		date: `2025-02-10T14:00:00-08:00`,
@@ -4444,15 +4444,15 @@ const VERSIONS: VersionEntry[] = [
 - Fixed issue importing newer Prism instances.
 - Fixed issue where instances get stuck "Installing" forever when the app is closed during an install.
 - Minecraft profile is now updated every time the user's token is refreshed.
-- Improved ability for package managers to update Modrinth App by skipping the updater at runtime with an environment variable.`,
+- Improved ability for package managers to update Panda Minecraft Launcher by skipping the updater at runtime with an environment variable.`,
 	},
 	{
 		date: `2025-02-02T14:00:00-08:00`,
 		product: 'web',
 		body: `### Improvements
-- The report form has been updated to walk you through the report process better and clarify some things like that the form is for Modrinth rules and terms violations, not for bug reports or DMCA takedowns.
+- The report form has been updated to walk you through the report process better and clarify some things like that the form is for Panda Minecraft Launcher rules and terms violations, not for bug reports or DMCA takedowns.
 
-![A screenshot of the new report form on Modrinth, using Iris Shaders as an example. The title says "Report Iris Shaders to moderators". Below that, it says "Please report violations of Modrinth Rules or Terms of Use. Examples include malicious, spam, offensive, deceptive, misleading, and illegal content. This form is not for bug reports or DMCA takedowns (See our Copyright Policy)." Then, there is a form that asks "Which of Modrinth's rules is this project violating?" with many options: Spam, Reuploaded work, Inappropriate, Malicious, Name-squatting, Poor description, Invalid metadata, Other. Reuploaded work is selected. Below that, is a note in an orange box with a warning icon: "Please note that you are *not* submitting a DMCA takedown request, but rather a report of reuploaded content. If you meant to file a DMCA takedown request (which is a legal action) instead, please see our Copyright Policy." Then, it asks you to provide additional context, including links and images, with a text editor and a submit button at the bottom.](https://cdn.modrinth.com/changelog/web/2025-02-02/reports.jpg)`,
+![A screenshot of the new report form on Panda Minecraft Launcher, using Iris Shaders as an example. The title says "Report Iris Shaders to moderators". Below that, it says "Please report violations of Panda Minecraft Launcher Rules or Terms of Use. Examples include malicious, spam, offensive, deceptive, misleading, and illegal content. This form is not for bug reports or DMCA takedowns (See our Copyright Policy)." Then, there is a form that asks "Which of Panda Minecraft Launcher rules is this project violating?" with many options: Spam, Reuploaded work, Inappropriate, Malicious, Name-squatting, Poor description, Invalid metadata, Other. Reuploaded work is selected. Below that, is a note in an orange box with a warning icon: "Please note that you are *not* submitting a DMCA takedown request, but rather a report of reuploaded content. If you meant to file a DMCA takedown request (which is a legal action) instead, please see our Copyright Policy." Then, it asks you to provide additional context, including links and images, with a text editor and a submit button at the bottom.](https://cdn.modrinth.com/changelog/web/2025-02-02/reports.jpg)`,
 	},
 	{
 		date: `2025-01-28T19:00:00-08:00`,

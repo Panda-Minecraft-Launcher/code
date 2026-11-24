@@ -23,7 +23,7 @@
 		},
 		{
 			"title": "New AI rules and project disclosures",
-			"summary": "An update to Panda Minecraft Launcher’s Content Rules and our new mandatory content disclosures.",
+			"summary": "An update to Panda Minecraft Launcher Content Rules and our new mandatory content disclosures.",
 			"thumbnail": "https://modrinth.com/news/article/ai-policy-and-disclosures/thumbnail.webp",
 			"date": "2026-08-13T16:00:00.000Z",
 			"link": "https://modrinth.com/news/article/ai-policy-and-disclosures"
@@ -120,8 +120,8 @@
 			"link": "https://modrinth.com/news/article/standing-by-our-values"
 		},
 		{
-			"title": "Panda Minecraft Launcher Launches in Asia",
-			"summary": "Our latest Panda Minecraft Launcher datacenter is in Singapore.",
+			"title": "Panda Minecraft Launcher Servers Launches in Asia",
+			"summary": "Our latest Panda Minecraft Launcher Servers datacenter is in Singapore.",
 			"thumbnail": "https://modrinth.com/news/article/modrinth-servers-asia/thumbnail.webp",
 			"date": "2025-09-08T21:45:00.000Z",
 			"link": "https://modrinth.com/news/article/modrinth-servers-asia"
@@ -134,8 +134,8 @@
 			"link": "https://modrinth.com/news/article/new-environments"
 		},
 		{
-			"title": "Get a Free Panda Minecraft Launcher",
-			"summary": "In partnership with Medal.tv, get a 5-day free trial for Panda Minecraft Launcher",
+			"title": "Get a Free Panda Minecraft Launcher Server",
+			"summary": "In partnership with Medal.tv, get a 5-day free trial for Panda Minecraft Launcher Servers",
 			"thumbnail": "https://modrinth.com/news/article/free-server-medal/thumbnail.webp",
 			"date": "2025-08-20T22:25:00.000Z",
 			"link": "https://modrinth.com/news/article/free-server-medal"
@@ -162,14 +162,14 @@
 			"link": "https://modrinth.com/news/article/pride-campaign-2025"
 		},
 		{
-			"title": "A New Chapter for Panda Minecraft Launcher",
-			"summary": "Panda Minecraft Launcher is now fully operated in-house by the Panda Minecraft Launcher Team.",
+			"title": "A New Chapter for Panda Minecraft Launcher Servers",
+			"summary": "Panda Minecraft Launcher Servers is now fully operated in-house by the Panda Minecraft Launcher Team.",
 			"thumbnail": "https://modrinth.com/news/article/a-new-chapter-for-modrinth-servers/thumbnail.webp",
 			"date": "2025-03-13T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/a-new-chapter-for-modrinth-servers"
 		},
 		{
-			"title": "Host your own server with Panda Minecraft Launcher — now in beta",
+			"title": "Host your own server with Panda Minecraft Launcher Servers — now in beta",
 			"summary": "Fast, simple, reliable servers directly integrated into Panda Minecraft Launcher.",
 			"thumbnail": "https://modrinth.com/news/article/modrinth-servers-beta/thumbnail.webp",
 			"date": "2024-11-03T06:00:00.000Z",

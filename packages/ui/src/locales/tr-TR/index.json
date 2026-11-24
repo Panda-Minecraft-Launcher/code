@@ -5838,7 +5838,7 @@
     "defaultMessage": "Arama sonuçları"
   },
   "settings.language.coverage.app-tooltip": {
-    "defaultMessage": "Panda Minecraft Launchernın yaklaşık %{percentage} kadarı bu dilde mevcuttur."
+    "defaultMessage": "Panda Minecraft Launcher'ın yaklaşık %{percentage} kadarı bu dilde mevcuttur."
   },
   "settings.language.coverage.label": {
     "defaultMessage": "{percentage}% destekleniyor"

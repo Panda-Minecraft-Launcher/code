@@ -144,7 +144,7 @@
     "message": "Bevételszerzési analitikai részletek megtekintése"
   },
   "analytics.chart.legend.monetization-details.description": {
-    "message": "Csak a Panda Minecraft Launcheron keresztül történő megtekintések és letöltések számítanak bele a bevételszerzésbe, és a letöltéshez a felhasználóknak be kell jelentkezniük."
+    "message": "Csak a Panda Minecraft Launcheren keresztül történő megtekintések és letöltések számítanak bele a bevételszerzésbe, és a letöltéshez a felhasználóknak be kell jelentkezniük."
   },
   "analytics.chart.legend.monetization-details.title": {
     "message": "A bevételszerző statisztika részletei"
@@ -417,7 +417,7 @@
     "message": "Letöltések"
   },
   "analytics.stat.monetization-banner.body": {
-    "message": "Csak a Panda Minecraft Launcheron keresztül történő megtekintések és letöltések jogosultak bevételszerzésre, és át kell menniük a csalásmegelőző szűrésen. A Panda Minecraft Launcher letöltéséhez a felhasználónak be kell jelentkeznie. Mivel az összes projekt esetében hasonló azoknak a letöltéseknek az aránya, amelyek bevételt generálnak, a bevételed nem változna jelentősen, ha az összes letöltést figyelembe vennénk."
+    "message": "Csak a Panda Minecraft Launcheren keresztül történő megtekintések és letöltések jogosultak bevételszerzésre, és át kell menniük a csalásmegelőző szűrésen. A Panda Minecraft Launcher letöltéséhez a felhasználónak be kell jelentkeznie. Mivel az összes projekt esetében hasonló azoknak a letöltéseknek az aránya, amelyek bevételt generálnak, a bevételed nem változna jelentősen, ha az összes letöltést figyelembe vennénk."
   },
   "analytics.stat.monetization-banner.learn-more": {
     "message": "Tudj meg többet"
@@ -582,7 +582,7 @@
     "message": "Windows"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importáld az összes meglévő játékpéldányodat a korábban használt indítóprogramból, és kezdd el használni a Panda Minecraft Launcherot pillanatok alatt!"
+    "message": "Importáld az összes meglévő játékpéldányodat a korábban használt indítóprogramból, és kezdd el használni a Panda Minecraft Launchert pillanatok alatt!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -678,7 +678,7 @@
     "message": "Beállítások szinkronizálása"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Készíts, ossz meg és játssz modcsomagokat a Panda Minecraft Launcheron elérhető több ezer moddal és modcsomaggal!"
+    "message": "Készíts, ossz meg és játssz modcsomagokat a Panda Minecraft Launcheren elérhető több ezer moddal és modcsomaggal!"
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modcsomag"
@@ -879,7 +879,7 @@
     "message": "Fiók hozzáadása"
   },
   "auth.sign-in.choose-account": {
-    "message": "Válassz ki egy fiókot, amelyet a Panda Minecraft Launcherban szeretnél használni"
+    "message": "Válassz ki egy fiókot, amelyet a Panda Minecraft Launcherben szeretnél használni"
   },
   "auth.sign-in.choose-existing-account": {
     "message": "Meglévő fiók használata"
@@ -903,13 +903,13 @@
     "message": "Panda Minecraft Launcher bejelentkezési visszahívás"
   },
   "auth.sign-in.launcher.complete.go-to-website": {
-    "message": "Ugrás a Panda Minecraft Launcher-ra"
+    "message": "Ugrás a Panda Minecraft Launcherre"
   },
   "auth.sign-in.launcher.complete.return-button": {
     "message": "Panda Minecraft Launcher megnyitása"
   },
   "auth.sign-in.launcher.handoff-failed": {
-    "message": "Nem sikerült a bejelentkezés a Panda Minecraft Launcherba. Próbáld újra."
+    "message": "Nem sikerült a bejelentkezés a Panda Minecraft Launcherbe. Próbáld újra."
   },
   "auth.sign-in.launcher.opening.description": {
     "message": "Ha az alkalmazás nem nyílik meg, az alábbi gombbal fejezheted be a bejelentkezést."
@@ -918,7 +918,7 @@
     "message": "A Panda Minecraft Launcher megnyitása..."
   },
   "auth.sign-in.launcher.reauthenticate.title": {
-    "message": "Bejelentkezés a Panda Minecraft Launcherba"
+    "message": "Bejelentkezés a Panda Minecraft Launcherbe"
   },
   "auth.sign-in.no-account": {
     "message": "Nincs fiókja?"
@@ -927,7 +927,7 @@
     "message": "Másik fiók használata"
   },
   "auth.sign-in.sign-in-with": {
-    "message": "Bejelentkezés a Panda Minecraft Launcherba"
+    "message": "Bejelentkezés a Panda Minecraft Launcherbe"
   },
   "auth.sign-in.title": {
     "message": "Bejelentkezés"
@@ -1023,7 +1023,7 @@
     "message": "Biztos vagy hogy törölni akarod ezt a gyűjteményt?"
   },
   "collection.description": {
-    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által Panda Minecraft Launcher-on"
+    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által Panda Minecraft Launcheren"
   },
   "collection.description-placeholder": {
     "message": "Ez egy gyűjtemény..."
@@ -1812,7 +1812,7 @@
     "message": "Elérted a(z) <b>{withdrawLimit}</b> kifizetési limitet. További kifizetésekhez ki kell töltened egy adózási űrlapot."
   },
   "dashboard.discord-roles.banner.body": {
-    "message": "Jogosult vagy a következő rangokra: {roles}. Kapcsold össze a Discord fiókodat a Panda Minecraft Launcheron keresztül, és automatikusan szinkronizáljuk őket."
+    "message": "Jogosult vagy a következő rangokra: {roles}. Kapcsold össze a Discord fiókodat a Panda Minecraft Launcheren keresztül, és automatikusan szinkronizáljuk őket."
   },
   "dashboard.discord-roles.banner.cta": {
     "message": "Link a Discordra"
@@ -2016,7 +2016,7 @@
     "message": "Felvéve"
   },
   "dashboard.revenue.tos": {
-    "message": "A projektek Panda Minecraft Launcherra való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>jutalomprogramról</info-link>."
+    "message": "A projektek Panda Minecraft Launcherre való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>jutalomprogramról</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Letöltés CSV formátumban"
@@ -2490,10 +2490,10 @@
     "message": "Van egy szerver mindenkinek"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Kezeld mindezt a Panda Minecraft Launcher-on"
+    "message": "Kezeld mindezt a Panda Minecraft Launcheren"
   },
   "hosting-marketing.why.all-on-modrinth.description": {
-    "message": "A szervered, a modjaid, a játékosaid és még sok minden más egy helyen, a Panda Minecraft Launcheron. Nincs szükség arra, hogy platformok között váltogass."
+    "message": "A szervered, a modjaid, a játékosaid és még sok minden más egy helyen, a Panda Minecraft Launcheren. Nincs szükség arra, hogy platformok között váltogass."
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "Állandóan gyors"
@@ -2502,7 +2502,7 @@
     "message": "Infrastruktúránk soha nem terhelt túl, ami azt jelenti, hogy a Panda Minecraft Launcher által üzemeltetett minden szerver mindig teljes teljesítményen működik."
   },
   "hosting-marketing.why.description": {
-    "message": "Válassz több ezer modcsomagból a Panda Minecraft Launcher-ról, vagy készítsd el a sajátod. Ha meg készen állsz a játékra, akkor hívd meg a barátaidat."
+    "message": "Válassz több ezer modcsomagból a Panda Minecraft Launcherről, vagy készítsd el a sajátod. Ha meg készen állsz a játékra, akkor hívd meg a barátaidat."
   },
   "hosting-marketing.why.heading": {
     "message": "Keress egy modcsomagot. Most már az egy szerver."
@@ -2526,7 +2526,7 @@
     "message": "Az összes kedvenc modod"
   },
   "hosting-marketing.why.your-favorite-mods.description": {
-    "message": "Válassz a Vanilla, Fabric, Forge, Quilt és NeoForge közül. Ha Panda Minecraft Launcher-on fentvan, akkor a szervereden is futtatható."
+    "message": "Válassz a Vanilla, Fabric, Forge, Quilt és NeoForge közül. Ha Panda Minecraft Launcheren fentvan, akkor a szervereden is futtatható."
   },
   "hosting.plan.out-of-stock": {
     "message": "Nincs raktáron"
@@ -2586,7 +2586,7 @@
     "message": "Kövesd a projekteket, amiket szeretsz"
   },
   "landing.feature.launcher.description": {
-    "message": "A Panda Minecraft Launcher nyílt forráskódú API-ja lehetővé teszi az indítók számára a Panda Minecraft Launcheral való mély integrációt. A Panda Minecraft Launcherot használhatod a <link>saját alkalmazásunkon</link> és néhány népszerű indítón kersztül, mint például az ATLauncher, a MultiMC és a Prism Launcher."
+    "message": "A Panda Minecraft Launcher nyílt forráskódú API-ja lehetővé teszi az indítók számára a Panda Minecraft Launcherrel való mély integrációt. A Panda Minecraft Launchert használhatod a <link>saját alkalmazásunkon</link> és néhány népszerű indítón keresztül, mint például az ATLauncher, a MultiMC és a Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Játssz kedvenc indítóddal"
@@ -2718,7 +2718,7 @@
     "message": "Nézd meg fiókbeállításaidat"
   },
   "layout.banner.add-email.description": {
-    "message": "Biztonsági okok miatt a Panda Minecraft Launcheron kell egy e-mail cím a fiókodhoz."
+    "message": "Biztonsági okok miatt a Panda Minecraft Launcheren kell egy e-mail cím a fiókodhoz."
   },
   "layout.banner.build-fail.always-ignore": {
     "message": "Mindig mellőzd"
@@ -2841,13 +2841,13 @@
     "message": "Termékek"
   },
   "layout.footer.products.app": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher App"
   },
   "layout.footer.products.plus": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher+"
   },
   "layout.footer.products.servers": {
-    "message": "Panda Minecraft Launcher"
+    "message": "Panda Minecraft Launcher Hosting"
   },
   "layout.footer.resources": {
     "message": "Források"
@@ -2889,7 +2889,7 @@
     "message": "Menü ki-be"
   },
   "layout.meta.description": {
-    "message": "Tölts le Minecraft modokat, bővítményeket, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a Panda Minecraft Launcherról. Fedezd fel és tedd közzé projektjeidet a Panda Minecraft Launcheron egy modern, könnyen használható felületen és API-n keresztül."
+    "message": "Tölts le Minecraft modokat, bővítményeket, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a Panda Minecraft Launcherről. Fedezd fel és tedd közzé projektjeidet a Panda Minecraft Launcheren egy modern, könnyen használható felületen és API-n keresztül."
   },
   "layout.meta.og-description": {
     "message": "Fedezz fel és tegyél közzé Minecraft tartalmakat!"
@@ -2910,7 +2910,7 @@
     "message": "Felfedezés"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Szerezd meg a Panda Minecraft Launcherot"
+    "message": "Szerezd meg a Panda Minecraft Launchert"
   },
   "layout.nav.home": {
     "message": "Kezdőlap"
@@ -2955,10 +2955,10 @@
     "message": "Nem sikerült fiókot váltani. Kérlek, próbád újra."
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Frissíts a Panda Minecraft Launcher-ra"
+    "message": "Frissíts a Panda Minecraft Launcherre"
   },
   "layout.publish.email-verification-required.description": {
-    "message": "A Panda Minecraft Launcheron való közzététel előtt hitelesítened kell az e-mail címedet."
+    "message": "A Panda Minecraft Launcheren való közzététel előtt hitelesítened kell az e-mail címedet."
   },
   "layout.publish.email-verification-required.title": {
     "message": "E-mail hitelesítés szükséges"
@@ -2976,7 +2976,7 @@
     "message": "A megosztott tartalmakat automatikusan naprakészen tartja"
   },
   "modal.shared-instance.open-in-app.get-app": {
-    "message": "Szerezd meg a Panda Minecraft Launcherot"
+    "message": "Szerezd meg a Panda Minecraft Launchert"
   },
   "modal.shared-instance.open-in-app.managed-by": {
     "message": "Kezelő:"
@@ -2988,7 +2988,7 @@
     "message": "A Panda Minecraft Launcher megnyitása…"
   },
   "modal.shared-instance.open-in-app.why-use": {
-    "message": "Miért érdemes a Panda Minecraft Launcherot használni?"
+    "message": "Miért érdemes a Panda Minecraft Launchert használni?"
   },
   "moderation.appearance.apply": {
     "message": "Téma alkalmazása"
@@ -3669,7 +3669,7 @@
     "message": "A(z) {title} nem támogatja ezt a verziót: {platform} {gameVersion}"
   },
   "project.download.install-with-app": {
-    "message": "Letöltés a Panda Minecraft Launcheral"
+    "message": "Letöltés a Panda Minecraft Launcherrel"
   },
   "project.download.manually": {
     "message": "Letöltés manuálisan"
@@ -3756,10 +3756,10 @@
     "message": "A projekted privát, vagyis csak te és az általad meghívott személyek férhetnek hozzá."
   },
   "project.moderation.admonition.approved.body.public": {
-    "message": "A projekted közzétételre került, és megtalálható a Panda Minecraft Launcheron."
+    "message": "A projekted közzétételre került, és megtalálható a Panda Minecraft Launcheren."
   },
   "project.moderation.admonition.approved.body.unlisted": {
-    "message": "A projekted nem listázott, ami azt jelenti, hogy csak a linkjével érhető el, és nem található meg a Panda Minecraft Launcheron."
+    "message": "A projekted nem listázott, ami azt jelenti, hogy csak a linkjével érhető el, és nem található meg a Panda Minecraft Launcheren."
   },
   "project.moderation.admonition.approved.body.visibility-message": {
     "message": "A projekt láthatóságát a projekt <visibility-settings-link>láthatósági beállításaiban</visibility-settings-link> módosíthatod."
@@ -3891,10 +3891,10 @@
     "message": "Tuti fix biztos vagy abban, hogy ki szeretnéd törölni ezt a projektet?"
   },
   "project.settings.delete-project.description.1": {
-    "message": "Véglegesen törli ezt a projektet a Panda Minecraft Launcherról. A törölt projekteket a Panda Minecraft Launcher munkatársai vagy az ügyfélszolgálat <emphasis>sem tudja visszaállítani</emphasis>."
+    "message": "Véglegesen törli ezt a projektet a Panda Minecraft Launcherről. A törölt projekteket a Panda Minecraft Launcher munkatársai vagy az ügyfélszolgálat <emphasis>sem tudja visszaállítani</emphasis>."
   },
   "project.settings.delete-project.description.2": {
-    "message": "A projekthez feltöltött, a Panda Minecraft Launcheron tárolt modcsomagok által aktívan használt fájlok továbbra is elérhetők maradhatnak."
+    "message": "A projekthez feltöltött, a Panda Minecraft Launcheren tárolt modcsomagok által aktívan használt fájlok továbbra is elérhetők maradhatnak."
   },
   "project.settings.delete-project.title": {
     "message": "Projekt végleges törlése"
@@ -4287,7 +4287,7 @@
     "message": "Egy oldal ami információt, dokumentációt és egy segédletet tartalmaz a projektedhez."
   },
   "project.settings.monetization.description": {
-    "message": "A Panda Minecraft Launcheron található projektek automatikusan részt vesznek a <rewards-program-link>Jutalmazási programban</rewards-program-link>. Ha nem szeretnél (vagy jogi okokból nem tudsz) bevételt szerezni ebből a projektből, itt kikapcsolhatod."
+    "message": "A Panda Minecraft Launcheren található projektek automatikusan részt vesznek a <rewards-program-link>Jutalmazási programban</rewards-program-link>. Ha nem szeretnél (vagy jogi okokból nem tudsz) bevételt szerezni ebből a projektből, itt kikapcsolhatod."
   },
   "project.settings.monetization.disabled-description": {
     "message": "Ez a projekt nem jogosult bevételszerzésre. Ha úgy gondolod, hogy ez tévedés, kérjük, <contact-support-link>vedd fel a kapcsolatot az ügyfélszolgálattal</contact-support-link>."
@@ -4344,13 +4344,13 @@
     "message": "Összes kinyitása"
   },
   "project.settings.permissions.fail.description": {
-    "message": "Lehet, hogy nincs engedélyed a projektedben szereplő egyes külső tartalmak továbbterjesztésére. A Panda Minecraft Launcheron való közzétételhez kérjük, távolítsd el ezeket a tartalmakat, vagy nyújts be igazolást arról, hogy rendelkezel a felhasználásukhoz szükséges engedéllyel."
+    "message": "Lehet, hogy nincs engedélyed a projektedben szereplő egyes külső tartalmak továbbterjesztésére. A Panda Minecraft Launcheren való közzétételhez kérjük, távolítsd el ezeket a tartalmakat, vagy nyújts be igazolást arról, hogy rendelkezel a felhasználásukhoz szükséges engedéllyel."
   },
   "project.settings.permissions.fail.title": {
     "message": "Egyes tartalmak nem szerepelhetnek a projektben"
   },
   "project.settings.permissions.info-banner.description": {
-    "message": "Ha olyan tartalmat tesz közzé, amely nem a Panda Minecraft Launcheron van tárolva, akkor jelezned kell nekünk, honnan származik, és igazolnod kell, hogy rendelkezel a fájlok terjesztéséhez szükséges engedéllyel. További információkért nézd meg <link>az új rendszerről szóló bejelentésünket</link>!"
+    "message": "Ha olyan tartalmat tesz közzé, amely nem a Panda Minecraft Launcheren van tárolva, akkor jelezned kell nekünk, honnan származik, és igazolnod kell, hogy rendelkezel a fájlok terjesztéséhez szükséges engedéllyel. További információkért nézd meg <link>az új rendszerről szóló bejelentésünket</link>!"
   },
   "project.settings.permissions.info-banner.title": {
     "message": "Ismerd meg a terjesztési engedélyeket"
@@ -4362,7 +4362,7 @@
     "message": "Egy külső fájl sem egyezik a kereséssel."
   },
   "project.settings.permissions.not-allowed.description": {
-    "message": "A felvett külső tartalmak közül néhányat nem lehet a Panda Minecraft Launcheron terjeszteni, mivel azok megsértik a tartalmi szabályzatunkat, ezért azokat el kell távolítani."
+    "message": "A felvett külső tartalmak közül néhányat nem lehet a Panda Minecraft Launcheren terjeszteni, mivel azok megsértik a tartalmi szabályzatunkat, ezért azokat el kell távolítani."
   },
   "project.settings.permissions.pending-approval-count": {
     "message": "{count, plural,\n=0 {Nincs jóváhagyásra váró hozzárendelés}\none {# hozzárendelés vár jóváhagyásra}\nother {# hozzárendelés vár jóváhagyásra}\n}"
@@ -4974,7 +4974,7 @@
     "message": "Exportálás..."
   },
   "settings.account.data-export.description": {
-    "message": "Másolatot kér az összes személyes adatról, amelyet a Panda Minecraft Launcherra feltöltöttél. A feldolgozás néhány percig is eltarthat."
+    "message": "Másolatot kér az összes személyes adatról, amelyet a Panda Minecraft Launcherre feltöltöttél. A feldolgozás néhány percig is eltarthat."
   },
   "settings.account.data-export.title": {
     "message": "Adatok exportálása"
@@ -5331,7 +5331,7 @@
     "message": "Biztosan visszavonod ezt a kérelmet?"
   },
   "settings.authorizations.unofficial-disclosure": {
-    "message": "Ez az alkalmazás semmilyen kapcsolatban nem áll a Panda Minecraft Launchertal, a neve ellenére."
+    "message": "Ez az alkalmazás semmilyen kapcsolatban nem áll a Panda Minecraft Launcherrel, a neve ellenére."
   },
   "settings.billing.charges.description": {
     "message": "A Panda Minecraft Launcher-számládra korábban leadott összes fiókod itt lesz felsorolva:"
@@ -5361,13 +5361,13 @@
     "message": "év"
   },
   "settings.billing.midas.benefits.ad-free": {
-    "message": "Reklámmentes böngészés a modrinth.com-on és a Panda Minecraft Launcher-ban"
+    "message": "Reklámmentes böngészés a modrinth.com-on és a Panda Minecraft Launcherben"
   },
   "settings.billing.midas.benefits.badge": {
     "message": "Panda Minecraft Launcher jelvény a profilodon"
   },
   "settings.billing.midas.benefits.support": {
-    "message": "Támogasd közvetlenül a Panda Minecraft Launcher-et és a fejlesztőit"
+    "message": "Támogasd közvetlenül a Panda Minecraft Launchert és a fejlesztőit"
   },
   "settings.billing.midas.benefits.title": {
     "message": "Előnyök"
@@ -5391,7 +5391,7 @@
     "message": "A fizetésed feldolgozás alatt áll. A juttatások a fizetés befejezése után aktiválódnak."
   },
   "settings.billing.midas.upsell": {
-    "message": "Iratkozz fel a Panda Minecraft Launcherra!"
+    "message": "Iratkozz fel a Panda Minecraft Launcherre!"
   },
   "settings.billing.modal.cancel.action": {
     "message": "Előfizetés lemondása"
@@ -5643,7 +5643,7 @@
     "message": "Panda Minecraft Launcher"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Legfrissebb hírek a Panda Minecraft Launchertól"
+    "message": "Legfrissebb hírek a Panda Minecraft Launchertől"
   },
   "ui.latest-news-row.view-all": {
     "message": "Összes hír"
@@ -5772,7 +5772,7 @@
     "message": "Maven-koordináták:"
   },
   "version.section.content.dev-info.maven-description": {
-    "message": "A Panda Minecraft Launcheron található projektek automatikusan elérhetők egy Maven-adattáron keresztül olyan JVM-es buildeszközökkel való használatra, mint a <gradle-link>Gradle</gradle-link>. A Panda Minecraft Launcher Maven API-járól <article-link>ide kattintva</article-link> tudhatsz meg többet."
+    "message": "A Panda Minecraft Launcheren található projektek automatikusan elérhetők egy Maven-adattáron keresztül olyan JVM-es buildeszközökkel való használatra, mint a <gradle-link>Gradle</gradle-link>. A Panda Minecraft Launcher Maven API-járól <article-link>ide kattintva</article-link> tudhatsz meg többet."
   },
   "version.section.content.dev-info.maven-note": {
     "message": "Megjegyzés: Ha elérhető, inkább a készítő Maven-adattárát használd, mivel az olyan tranzitív függőségekre vonatkozó információkat is tartalmaz, amelyek a Panda Minecraft Launcher Maven API-jából hiányoznak. Az is előfordulhat, hogy duplikált függőségeket kapsz, ha Panda Minecraft Launcher- és nem Panda Minecraft Launcher-féle Maven-adattárak keverékét használod a függőségeidhez, mivel a csoportazonosító eltérő lesz, amikor a Panda Minecraft Launcher Maven API-ján keresztül érhetők el."

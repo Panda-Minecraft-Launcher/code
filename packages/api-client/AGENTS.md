@@ -163,7 +163,7 @@ See `packages/ui/src/components/servers/files/upload/FileUploadDropdown.vue` and
 
 ## WebSocket
 
-WebSocket support is attached to `client.archon.sockets` (only on `GenericModrinthClient`). It provides event-based communication with Panda Minecraft Launcher servers.
+WebSocket support is attached to `client.archon.sockets` (only on `GenericModrinthClient`). It provides event-based communication with the game servers used in Panda Minecraft Launcher.
 
 ### Connection Flow
 

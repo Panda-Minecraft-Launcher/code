@@ -1,6 +1,6 @@
 ---
 title: 'New AI rules and project disclosures'
-summary: An update to Panda Minecraft Launcher’s Content Rules and our new mandatory content disclosures.
+summary: An update to Panda Minecraft Launcher Content Rules and our new mandatory content disclosures.
 date: 2026-08-13T09:00:00-07:00
 authors: ['Dc7EYhxG', 'vNcGR3Fd', 'o2Dd4mrX', 'AJfd8YH6']
 ---

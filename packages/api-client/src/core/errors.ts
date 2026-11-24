@@ -2,7 +2,7 @@ import type { ApiErrorData, ModrinthErrorResponse } from '../types/errors'
 import { isModrinthErrorResponse } from '../types/errors'
 
 /**
- * Base error class for all Modrinth API errors
+ * Base error class for all Panda Minecraft Launcher API errors
  */
 export class ModrinthApiError extends Error {
 	/**
@@ -65,7 +65,7 @@ export class ModrinthApiError extends Error {
 }
 
 /**
- * Error class for Modrinth server errors (kyros/archon)
+ * Error class for Panda Minecraft Launcher server errors (kyros/archon)
  * Extends ModrinthApiError with V1 error response parsing
  */
 export class ModrinthServerError extends ModrinthApiError {

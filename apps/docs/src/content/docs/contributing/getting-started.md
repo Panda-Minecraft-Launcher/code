@@ -13,7 +13,7 @@ Every public-facing aspect of Panda Minecraft Launcher, including everything fro
 
 If you wish to contribute code to a specific project, here's the place to start. Most of Panda Minecraft Launcher is written in the [Rust language](https://www.rust-lang.org), but some things are written in other languages/frameworks like [Nuxt.js](https://nuxtjs.org) or Java.
 
-Most of Panda Minecraft Launcher's code is in our monorepo, which you can find [here](https://github.com/modrinth/code). Our monorepo is powered by [Turborepo](https://turborepo.org).
+Most of Panda Minecraft Launcher's code is in our source repository, which you can find [here](https://github.com/modrinth/code). It is powered by [Turborepo](https://turborepo.org).
 
 Follow the project-specific instructions below to get started:
 

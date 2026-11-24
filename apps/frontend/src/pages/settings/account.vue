@@ -253,7 +253,7 @@
 							v-if="twoFactorSecret"
 							:value="`otpauth://totp/${encodeURIComponent(
 								auth.user.email,
-							)}?secret=${twoFactorSecret}&issuer=Modrinth`"
+							)}?secret=${twoFactorSecret}&issuer=${encodeURIComponent('Panda Minecraft Launcher')}`"
 							:size="250"
 							:margin="2"
 							level="H"

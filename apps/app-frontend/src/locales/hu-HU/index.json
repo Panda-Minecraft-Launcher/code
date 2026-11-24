@@ -75,7 +75,7 @@
     "message": "A Minecraft telepítése meghiúsult"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Nem sikerült elérni Panda Minecraft Launcherot"
+    "message": "Nem sikerült elérni a Panda Minecraft Launchert"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Nincs írási jogosultság"
@@ -186,7 +186,7 @@
     "message": "Jobb oldalsáv elrejtése"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Biztonsági figyelmeztetést jelenít meg, mielőtt olyan modcsomagot (.mrpack) telepítenél, amely nem a Panda Minecraft Launcheről származik."
+    "message": "Biztonsági figyelmeztetést jelenít meg, mielőtt olyan modcsomagot (.mrpack) telepítenél, amely nem a Panda Minecraft Launcherről származik."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Figyelmeztetés ismeretlen modcsomagok telepítése előtt"
@@ -513,7 +513,7 @@
     "message": "Példány megtekintése"
   },
   "app.hosting.update-required.description": {
-    "message": "Frissítened kell, hogy használhasd a Panda Minecraft Launcherot a Panda Minecraft Launcheron keresztül"
+    "message": "Frissítened kell, hogy használhasd a Panda Minecraft Launchert a Panda Minecraft Launcheren keresztül"
   },
   "app.hosting.update-required.download": {
     "message": "Letöltés a frissítéshez"
@@ -522,7 +522,7 @@
     "message": "Izgatott Panda Minecraft Launcher bot"
   },
   "app.hosting.update-required.title": {
-    "message": "Frissítés szükséges a Panda Minecraft Launcherhoz"
+    "message": "Frissítés szükséges a Panda Minecraft Launcherhez"
   },
   "app.install.phase.downloading_content": {
     "message": "A tartalom letöltése..."
@@ -861,7 +861,7 @@
     "message": "Jelentkezz be mint"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Be kell jelentkezned a Panda Minecraft Launcherba"
+    "message": "Be kell jelentkezned a Panda Minecraft Launcherbe"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": ", hogy frissítéseket kapj ehhez a megosztott példányhoz."
@@ -1320,7 +1320,7 @@
     "message": "Ha segítségre van szükséged, vedd fel a kapcsolatot a <support-link>támogatási csapatunkkal</support-link>. Hibajelentésekhez nyiss egy <github-link>GitHub-issue-t</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Azok a fájlok, amelyek nincsenek közzétéve a Panda Minecraft Launcheron, nincsenek ellenőrizve."
+    "message": "Azok a fájlok, amelyek nincsenek közzétéve a Panda Minecraft Launcheren, nincsenek ellenőrizve."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "Megosztott példány"
@@ -1329,7 +1329,7 @@
     "message": "Megosztott példány tartalma"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "Ez a megosztott példány olyan fájlokat tartalmaz, amelyek nincsenek közzétéve a Panda Minecraft Launcher-on. Határozottan javasoljuk, hogy kizárólag olyan forrásokból telepíts fájlokat, amelyekben megbízol."
+    "message": "Ez a megosztott példány olyan fájlokat tartalmaz, amelyek nincsenek közzétéve a Panda Minecraft Launcheren. Határozottan javasoljuk, hogy kizárólag olyan forrásokból telepíts fájlokat, amelyekben megbízol."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "A szerver által használt modcsomag verzióját nem tudjuk letölteni most. Lehetséges hogy levették, vagy éppen felülvizsgálat alatt áll. Próbáld újra később, vagy vedd fel a kapcsolatot a szerver tulajdonosával."
@@ -1368,7 +1368,7 @@
     "message": "Eltávolítva"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "Ez a megosztott példányfrissítés olyan fájlokat tartalmaz, amelyek nincsenek közzétéve a Panda Minecraft Launcher-on. Határozottan javasoljuk, hogy kizárólag olyan forrásokból telepíts fájlokat, amelyekben megbízol."
+    "message": "Ez a megosztott példányfrissítés olyan fájlokat tartalmaz, amelyek nincsenek közzétéve a Panda Minecraft Launcheren. Határozottan javasoljuk, hogy kizárólag olyan forrásokból telepíts fájlokat, amelyekben megbízol."
   },
   "app.modal.update-to-play.update-required": {
     "message": "Frissítés szükséges"
@@ -1401,13 +1401,13 @@
     "message": "Képernyőképek"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Bejelentkezés a Panda Minecraft Launcherba"
+    "message": "Bejelentkezés a Panda Minecraft Launcherbe"
   },
   "app.nav.switch-account": {
     "message": "Fiókváltás"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Frissíts a Panda Minecraft Launcher-ra"
+    "message": "Frissíts a Panda Minecraft Launcherre"
   },
   "app.nav.view-profile": {
     "message": "Profil megtekintése"
@@ -2766,7 +2766,7 @@
     "message": "Az alkalmazás betöltése lassabb lehet, amíg a gyorsítótár újra nem települ."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "Letörli a gyorsítótárban tárolt adatokat, majd újra letölti azokat a Panda Minecraft Launcherról. Az alkalmazás betöltése lassabb lehet, amíg a gyorsítótár újra nem települ."
+    "message": "Letörli a gyorsítótárban tárolt adatokat, majd újra letölti azokat a Panda Minecraft Launcherről. Az alkalmazás betöltése lassabb lehet, amíg a gyorsítótár újra nem települ."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "Az alkalmazás gyorsítótára"
@@ -3456,7 +3456,7 @@
     "message": "Nyomd meg az <shortcut>N</shortcut> billentyűt egy példány gyors létrehozásához"
   },
   "app.welcome-screen.title": {
-    "message": "Üdvözlünk a Panda Minecraft Launcheron"
+    "message": "Üdvözlünk a Panda Minecraft Launcheren"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "pelda.modrinth.gg"
@@ -3588,7 +3588,7 @@
     "message": "Leválasztás..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Eltávolítja ezt a megosztott példányt a Panda Minecraft Launcherból, és nem küld többé frissítéseket azoknak, akik használják. A helyi példányodat ez nem érinti."
+    "message": "Eltávolítja ezt a megosztott példányt a Panda Minecraft Launcherből, és nem küld többé frissítéseket azoknak, akik használják. A helyi példányodat ez nem érinti."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "Ez kizárólag a helyi példányodra vonatkozik. A telepített tartalmaid ezen az eszközön maradnak, és ez nem érinti a megosztott példányt, illetve az azt használó többi felhasználót."
@@ -3600,7 +3600,7 @@
     "message": "Megosztott példány leválasztása"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Ezzel a megosztott példány törlődik a Panda Minecraft Launcher szervereiről. A Panda Minecraft Launcherban az ezt használók többé nem kapnak frissítéseket, de a helyipéldány és annak tartalma továbbra is ezen az eszközön marad."
+    "message": "Ezzel a megosztott példány törlődik a Panda Minecraft Launcher szervereiről. A Panda Minecraft Launcherben az ezt használók többé nem kapnak frissítéseket, de a helyipéldány és annak tartalma továbbra is ezen az eszközön marad."
   },
   "instance.action.create-shortcut": {
     "message": "Parancsikon létrehozása"

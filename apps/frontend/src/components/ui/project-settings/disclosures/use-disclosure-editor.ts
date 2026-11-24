@@ -64,7 +64,7 @@ export function useDisclosureEditor({
 		},
 		description: {
 			id: 'project.settings.disclosures.description',
-			defaultMessage: `You must add any applicable content disclosures to your project in compliance with <rules>Panda Minecraft Launcher's Content Rules</rules>.`,
+			defaultMessage: `You must add any applicable content disclosures to your project in compliance with <rules>Panda Minecraft Launcher Content Rules</rules>.`,
 		},
 		description2: {
 			id: 'project.settings.disclosures.description.2',
