@@ -17,12 +17,12 @@ VALUES
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'Panda Minecraft Launcher user {inviter.name} has invited you to help manage {server.name} on Panda Minecraft Launcher with the {server.role} role.',
+			'Modrinth user {inviter.name} has invited you to help manage {server.name} on Modrinth Hosting with the {server.role} role.',
 			CHR(10),
 			CHR(10),
-			'To accept or reject this invitation, open your Panda Minecraft Launcher notifications: https://modrinth.com/dashboard/notifications',
+			'To accept or reject this invitation, open your Modrinth notifications: https://modrinth.com/dashboard/notifications',
 			CHR(10),
 			CHR(10),
-			'If you were not expecting this invitation, contact the server owner or reach out to Panda Minecraft Launcher Support at https://support.modrinth.com'
+			'If you were not expecting this invitation, contact the server owner or reach out to Modrinth Support at https://support.modrinth.com'
 		)
 	);

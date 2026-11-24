@@ -94,8 +94,11 @@
 					"$APPCONFIG/caches/icons/*",
 					"$CONFIG/caches/icons/*",
 					"$APPDATA/profiles/*/saves/*/icon.png",
+					"$APPDATA/instances/*/saves/*/icon.png",
 					"$APPCONFIG/profiles/*/saves/*/icon.png",
-					"$CONFIG/profiles/*/saves/*/icon.png"
+					"$APPCONFIG/instances/*/saves/*/icon.png",
+					"$CONFIG/profiles/*/saves/*/icon.png",
+					"$CONFIG/instances/*/saves/*/icon.png"
 				],
 				"enable": true
 			},

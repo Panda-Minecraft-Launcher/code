@@ -444,7 +444,7 @@ export const analyticsDownloadReasonMessages = defineMessages({
 export const analyticsDownloadSourceMessages = defineMessages({
 	website: {
 		id: 'analytics.download-source.website',
-		defaultMessage: 'Panda Minecraft Launchersite',
+		defaultMessage: 'Panda Minecraft Launcher Website',
 	},
 	app: {
 		id: 'analytics.download-source.app',

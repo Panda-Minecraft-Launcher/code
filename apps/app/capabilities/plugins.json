@@ -76,19 +76,37 @@
 					"path": "$APPDATA/profiles"
 				},
 				{
+					"path": "$APPDATA/instances"
+				},
+				{
 					"path": "$APPDATA/profiles/**"
+				},
+				{
+					"path": "$APPDATA/instances/**"
 				},
 				{
 					"path": "$APPCONFIG/profiles"
 				},
 				{
+					"path": "$APPCONFIG/instances"
+				},
+				{
 					"path": "$APPCONFIG/profiles/**"
+				},
+				{
+					"path": "$APPCONFIG/instances/**"
 				},
 				{
 					"path": "$CONFIG/profiles"
 				},
 				{
+					"path": "$CONFIG/instances"
+				},
+				{
 					"path": "$CONFIG/profiles/**"
+				},
+				{
+					"path": "$CONFIG/instances/**"
 				}
 			]
 		},
