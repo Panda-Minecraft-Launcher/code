@@ -81,7 +81,7 @@ const COPY_PROGRESS_LIMIT: f64 = 0.99;
 const MOVED_APP_DIRECTORIES: [&str; 9] = [
     "store",
     super::INSTANCES_FOLDER_NAME,
-    // shortcut: old folder name stays movable until 0.0.9; remove then.
+    // shortcut: old folder name stays movable until 0.0.10; remove then.
     super::LEGACY_INSTANCES_FOLDER_NAME,
     "meta",
     "java_versions",

@@ -10,7 +10,7 @@ use tokio::fs;
 pub const CACHES_FOLDER_NAME: &str = "caches";
 pub const LAUNCHER_LOGS_FOLDER_NAME: &str = "launcher_logs";
 pub const INSTANCES_FOLDER_NAME: &str = "instances";
-// shortcut: 0.0.6 folder name, needed for upgrades until 0.0.9; remove then.
+// shortcut: 0.0.6 folder name, needed for upgrades until 0.0.10; remove then.
 pub const LEGACY_INSTANCES_FOLDER_NAME: &str = "profiles";
 pub const METADATA_FOLDER_NAME: &str = "meta";
 pub const SYNCED_OPTIONS_FOLDER_NAME: &str = "synced-options";
@@ -69,7 +69,7 @@ impl DirectoryInfo {
     }
 
     /// Renames the 0.0.6 `profiles` folder to `instances` on first launch.
-    /// shortcut: upgrade path only; remove in 0.0.9.
+    /// shortcut: upgrade path only; remove in 0.0.10.
     async fn rename_legacy_instances_folder(
         config_dir: &Path,
     ) -> crate::Result<()> {

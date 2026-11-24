@@ -34,7 +34,7 @@ pub(super) async fn prepare(
     to: &Path,
 ) -> crate::Result<Vec<ManagedContentMove>> {
     let mut moves = Vec::new();
-    // shortcut: upgrades from 0.0.6 still have the old folder; remove in 0.0.9.
+    // shortcut: upgrades from 0.0.6 still have the old folder; remove in 0.0.10.
     let source_folder =
         if fs::try_exists(&from.join(INSTANCES_FOLDER_NAME)).await? {
             INSTANCES_FOLDER_NAME
