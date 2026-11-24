@@ -15,7 +15,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.0.9',
 		body: `## Panda Minecraft Launcher 0.0.9
-- Panda Minecraft Launcher 0.0.9 yayında. Bu sürüm yerel OptiFine desteğini, sürüm haberlerini ve birleşik Panda markasını getiriyor.
+- Panda Minecraft Launcher 0.0.9 yayında. Bu sürüm yerel OptiFine desteğini ve sürüm haberlerini getiriyor.
 
 ## Eklendi: OptiFine sekmesi
 - Uygulamaya ayrı "OptiFine" ikonu ve adıyla bağımsız bir sekme eklendi. Sürüm listesi BMCLAPI'den alınıyor ve kaynak arayüzde "Kaynak: BMCLAPI" / "Source: BMCLAPI" olarak gösteriliyor.
@@ -30,9 +30,6 @@ const VERSIONS: VersionEntry[] = [
 ## Değiştirildi: marka ve lisans
 - Uygulama, belgeler ve web sitesinde yalnızca "Panda Minecraft Launcher" adı kullanılıyor. Görünen eski marka adları kaldırıldı; CurseForge yanındaki kaynak sekmesi dışında görünür eski marka kalmadı. Paket adları, API/CDN adresleri ve protokol kimlikleri uyumluluk için korundu.
 - Proje kodu AGPL-3.0-only altında lisanslandı; üçüncü taraf lisansları korundu ve web taslak dosyaları silindi.
-
-## Değiştirildi: web sitesi
-- Site Türkçe varsayılan açılıyor ve TR/EN dil anahtarı içeriyor; mobil uyumlu düzen korundu, modpack bölümü kaldırıldı ve indirme alanında yalnızca iki 0.0.9 bağlantısı var.
 
 ## Düzeltildi
 - OptiFine örneklerinde natives yolu vanilla sürüm dizinine yönlendirildi; eksik liblwjgl.so nedeniyle oluşan açılış çökmesi giderildi.
