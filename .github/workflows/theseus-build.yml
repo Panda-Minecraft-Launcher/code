@@ -152,6 +152,9 @@ jobs:
       - name: Build Linux app
         run: pnpm --filter=@modrinth/app run tauri build --config tauri-release.conf.json --bundles "appimage"
         if: contains(matrix.artifact-target-name, 'linux')
+        env:
+          # linuxdeploy's bundled strip crashes on .relr.dyn sections in modern glibc (tauri#14796).
+          NO_STRIP: "true"
 
       - name: Build Windows app
         run: |
