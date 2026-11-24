@@ -71,7 +71,6 @@ jobs:
           # Tauri writes spaces; GitHub converts them to dots in release asset names.
           APPIMAGE=$(find . -type f -name "Panda Minecraft Launcher_${VERSION}_amd64.AppImage" -print -quit)
           EXE=$(find . -type f -name "Panda Minecraft Launcher_${VERSION}_x64-setup.exe" -print -quit)
-          DEB=$(find . -type f -name "Panda Minecraft Launcher_${VERSION}_amd64.deb" -print -quit)
           if [ -z "$APPIMAGE" ] || [ -z "$EXE" ]; then
             echo "::error::AppImage veya exe bulunamadi"
             find . -type f
@@ -79,9 +78,6 @@ jobs:
           fi
 
           ASSETS=("$APPIMAGE" "$EXE")
-          if [ -n "$DEB" ]; then
-            ASSETS+=("$DEB")
-          fi
 
           gh release create "$VERSION_TAG" \
             --title "Panda Minecraft Launcher ${VERSION}" \

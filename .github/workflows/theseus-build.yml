@@ -150,7 +150,7 @@ jobs:
         run: pnpm install
 
       - name: Build Linux app
-        run: pnpm --filter=@modrinth/app run tauri build --config tauri-release.conf.json --bundles "appimage,deb"
+        run: pnpm --filter=@modrinth/app run tauri build --config tauri-release.conf.json --bundles "appimage"
         if: contains(matrix.artifact-target-name, 'linux')
 
       - name: Build Windows app
@@ -165,7 +165,6 @@ jobs:
           name: App bundle (${{ matrix.artifact-target-name }})
           path: |
             target/release/bundle/appimage/Panda Minecraft Launcher_*.AppImage*
-            target/release/bundle/deb/Panda Minecraft Launcher_*.deb
             target/release/bundle/nsis/Panda Minecraft Launcher_*-setup.exe*
 
       - name: Remove bundles from cached target directory
