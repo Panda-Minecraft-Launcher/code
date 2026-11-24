@@ -46,7 +46,7 @@ Ayrıntılar için ilgili dizinlerdeki `AGENTS.md` dosyalarına bakın.
 
 ## Lisans
 
-Bileşenler kendi lisanslarıyla dağıtılır. Ayrıntılar için [COPYING.md](COPYING.md) ve ilgili dizinlerdeki `LICENSE` dosyalarına bakın.
+Projenin kendi kaynak kodu AGPL-3.0-only lisansındadır. Üçüncü taraf bileşenler kendi lisanslarını korur; ayrıntılar için [LICENSE](LICENSE), [COPYING.md](COPYING.md) ve ilgili dizinlerdeki `LICENSE` dosyalarına bakın.
 
 ## Topluluk
 

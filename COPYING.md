@@ -1,9 +1,9 @@
-# Copying Guidelines
+# Lisans
 
-All packages in this repository are licensed under their respective licenses. For more information, refer to the LICENSE file in each package.
+Panda Minecraft Launcher'ın kendi kaynak kodu GNU Affero Genel Kamu Lisansı sürüm 3 (AGPL-3.0-only) altında lisanslanır. Tam metin için [LICENSE](LICENSE) dosyasına bakın.
 
-For detailed information, consult each package's COPYING.md, LICENSE.txt, or LICENSE file, if available.
+Depodaki bazı paketler ve üçüncü taraf bileşenler kendi lisanslarını korur (örneğin GPL-3.0, LGPL-3.0, MIT veya Apache-2.0). Yeniden dağıtımdan önce ilgili dizindeki `LICENSE` dosyasını kontrol edin.
 
-## Attribution
+## Atıf
 
-> All rights reserved. © 2020-2026 Rinth, Inc.
+Yukarı akış kod için tüm hakları saklıdır. © 2020-2026 Rinth, Inc.

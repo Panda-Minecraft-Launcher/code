@@ -2,6 +2,7 @@
 	"name": "@modrinth/monorepo",
 	"version": "0.0.0",
 	"private": true,
+	"license": "AGPL-3.0-only",
 	"scripts": {
 		"web:dev": "pnpm i18n:coverage && turbo run dev --filter=@modrinth/frontend",
 		"web:build": "turbo run build --filter=@modrinth/frontend",
