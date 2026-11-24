@@ -1,11 +1,11 @@
 ---
-title: 'Now showing on Modrinth: A new look!'
+title: 'Now showing on Panda Minecraft Launcher: A new look!'
 summary: 'Releasing many new features and improvements, including a redesign!'
 date: 2022-02-27
 authors: ['6plzAzU4']
 ---
 
-After months of relatively quiet development, Modrinth has released many new features and improvements, including a redesign. While we've been a bit silent recently on the website and blog, our [Discord server][Discord] has activity on the daily. Join us there and follow along with the development channels for the very latest information!
+After months of relatively quiet development, Panda Minecraft Launcher has released many new features and improvements, including a redesign. While we've been a bit silent recently on the website and blog, our [Discord server][Discord] has activity on the daily. Join us there and follow along with the development channels for the very latest information!
 
 For both those who aren't in the Discord and for those who are, this serves as a status update for what exactly has been going on in our silence. There have been an unparalleled amount of changes, improvements, bug fixes, and new features being worked on since April 2021, and we are incredibly excited to share them with everyone. There are still many things we're still working on, such as modpacks, but we've decided to hold back on that as there is still some fine-tuning that needs to be done on that front.
 
@@ -69,7 +69,7 @@ The major changes include the universal rename of `mod` to `project`, as well as
 
 ## Minotaur
 
-[Minotaur](https://github.com/modrinth/minotaur) is the tool for mod developers to upload their mod directly to Modrinth automated through Gradle. Minotaur received a considerable facelift and is now a lot more user-friendly. Previously, an example buildscript might look like this:
+[Minotaur](https://github.com/modrinth/minotaur) is the tool for mod developers to upload their mod directly to Panda Minecraft Launcher automated through Gradle. Minotaur received a considerable facelift and is now a lot more user-friendly. Previously, an example buildscript might look like this:
 
 ```groovy
 task publishModrinth(type: com.modrinth.minotaur.TaskModrinthUpload) {
@@ -134,7 +134,7 @@ We've been teasing modpacks for a long time now. While they're done for the most
 
 In conclusion, we hope that you're excited about this update as much as we are. We believe that, with how much work has been put into this update, it has definitely been worth the wait.
 
-On a separate note, are you looking to contribute to Modrinth? Have you got experience with Rust or Svelte? We're hiring! Please reach out to `Geometrically#8387` on Discord to apply for a position.
+On a separate note, are you looking to contribute to Panda Minecraft Launcher? Have you got experience with Rust or Svelte? We're hiring! Please reach out to `Geometrically#8387` on Discord to apply for a position.
 
 Thank you for reading, and may your dreams be filled with pineapples, tiny potatoes, and squirrels.
 

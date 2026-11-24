@@ -126,7 +126,7 @@
     "defaultMessage": "找不到你查询的结果！"
   },
   "browse.offline": {
-    "defaultMessage": "你目前处于离线状态。连接互联网来浏览 Modrinth！"
+    "defaultMessage": "你目前处于离线状态。连接互联网来浏览 Panda Minecraft Launcher！"
   },
   "browse.search.placeholder": {
     "defaultMessage": "搜索 {projectType}……"
@@ -267,7 +267,7 @@
     "defaultMessage": "在文件夹中打开"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "在 Modrinth 中打开"
+    "defaultMessage": "在 Panda Minecraft Launcher 中打开"
   },
   "button.play": {
     "defaultMessage": "开始游戏"
@@ -627,13 +627,13 @@
     "defaultMessage": "已移除（已禁用） {count} 项"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "未发布到 Modrinth 的文件未经过审核。"
+    "defaultMessage": "未发布到 Panda Minecraft Launcher 的文件未经过审核。"
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "你服务器上的部分内容未能完成分析，可能受此变更影响。"
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "这个更新包含一些未在 Modrinth 发布的文件。我们强烈建议只从你信任的来源安装文件。"
+    "defaultMessage": "这个更新包含一些未在 Panda Minecraft Launcher 发布的文件。我们强烈建议只从你信任的来源安装文件。"
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "未知文件警告"
@@ -957,7 +957,7 @@
     "defaultMessage": "正在检查服务器包……"
   },
   "creation-flow.curseforge.description": {
-    "defaultMessage": "使用一个在 Modrinth 上不存在的整合包。"
+    "defaultMessage": "使用一个在 Panda Minecraft Launcher 上不存在的整合包。"
   },
   "creation-flow.curseforge.file-label": {
     "defaultMessage": "CurseForge 整合包文件"
@@ -1365,7 +1365,7 @@
     "defaultMessage": "作品链接"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "这看起来像是一个Modrinth链接，如果这个内容存在于Modrinrh平台上，你的包很可能导出不正确。如果你是从其他网站下载的，尝试下载Modrinth版本的文件，有时它们不是相同文件。"
+    "defaultMessage": "这看起来像是一个Panda Minecraft Launcher链接，如果这个内容存在于Modrinrh平台上，你的包很可能导出不正确。如果你是从其他网站下载的，尝试下载Panda Minecraft Launcher版本的文件，有时它们不是相同文件。"
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "笔记"
@@ -1389,7 +1389,7 @@
     "defaultMessage": "如果您被发现造假或者篡改上传的图像，您的项目和帐户可能会被终止。"
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Modrinth 工作人员可能核验上传的证据"
+    "defaultMessage": "Panda Minecraft Launcher 工作人员可能核验上传的证据"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "保存归属信息"
@@ -1482,7 +1482,7 @@
     "defaultMessage": "已自动署名"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "我们之前已经见过这个文件，并为您准备好了署名信息。如果有什么地方看起来不对劲，请通过帮助中心联系 Modrinth"
+    "defaultMessage": "我们之前已经见过这个文件，并为您准备好了署名信息。如果有什么地方看起来不对劲，请通过帮助中心联系 Panda Minecraft Launcher"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "许可协议"
@@ -4332,7 +4332,7 @@
     "defaultMessage": "{count} {countPlural, plural, other {人最近游玩}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "在过去两周内共有 {count} {countPlural, plural, other {人}}通过 Modrinth 游玩"
+    "defaultMessage": "在过去两周内共有 {count} {countPlural, plural, other {人}}通过 Panda Minecraft Launcher 游玩"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "这个项目使用了自定义整合包"
@@ -4677,7 +4677,7 @@
     "defaultMessage": "你的项目包含多个运行环境"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "我们最近升级了 Modrinth 的运行环境系统，引入了一些新选项。请确保在下方选择正确的选项，然后点击“验证”！"
+    "defaultMessage": "我们最近升级了 Panda Minecraft Launcher 的运行环境系统，引入了一些新选项。请确保在下方选择正确的选项，然后点击“验证”！"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "请复核以下选项"
@@ -5049,13 +5049,13 @@
     "defaultMessage": "加载器"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "我们不能保证Modrinth上的所有内容都已正确标注。"
+    "defaultMessage": "我们不能保证Panda Minecraft Launcher上的所有内容都已正确标注。"
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "光敏感内容的标签是由将内容上传到Modrinth的创作者自行标注的。这些项目没有经过任何安全测试。"
+    "defaultMessage": "光敏感内容的标签是由将内容上传到Panda Minecraft Launcher的创作者自行标注的。这些项目没有经过任何安全测试。"
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "使用Modrinth上的任何内容，风险由你自行承担。请注意安全！💚"
+    "defaultMessage": "使用Panda Minecraft Launcher上的任何内容，风险由你自行承担。请注意安全！💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "以后不再显示"
@@ -7569,19 +7569,19 @@
     "defaultMessage": "恶意软件经常通过在像 Discord 这样的平台上分享的 mod 文件传播。"
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": "没有在 Modrinth 上发布。我们强烈建议只安装你信任来源的文件。"
+    "defaultMessage": "没有在 Panda Minecraft Launcher 上发布。我们强烈建议只安装你信任来源的文件。"
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "未知文件警告"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": "包含一些未在 Modrinth 发布的文件。我们强烈建议只从你信任的来源安装文件。"
+    "defaultMessage": "包含一些未在 Panda Minecraft Launcher 发布的文件。我们强烈建议只从你信任的来源安装文件。"
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "未知文件警告"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "未发布到 Modrinth 的文件未经过审核。"
+    "defaultMessage": "未发布到 Panda Minecraft Launcher 的文件未经过审核。"
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "未识别文件"

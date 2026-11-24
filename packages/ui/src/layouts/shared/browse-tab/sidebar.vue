@@ -25,7 +25,7 @@ const advancedPrefs = useAdvancedPrefs()
 const isApp = computed(() => ctx.variant === 'app')
 
 const messages = defineMessages({
-	modrinthSource: { id: 'browse.source.modrinth', defaultMessage: 'Modrinth' },
+	modrinthSource: { id: 'browse.source.modrinth', defaultMessage: 'Panda Minecraft Launcher' },
 	curseforgeSource: { id: 'browse.source.curseforge', defaultMessage: 'CurseForge' },
 })
 

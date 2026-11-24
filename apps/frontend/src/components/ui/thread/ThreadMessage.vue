@@ -364,7 +364,7 @@ const imageMessages = defineMessages({
 	legacyProjectMessage: {
 		id: 'thread.message.legacy-project-message',
 		defaultMessage:
-			'This project was published on Modrinth before moderation threads existed and may be missing moderation history.',
+			'This project was published on Panda Minecraft Launcher before moderation threads existed and may be missing moderation history.',
 	},
 	deletedMessage: {
 		id: 'thread.message.deleted-message',

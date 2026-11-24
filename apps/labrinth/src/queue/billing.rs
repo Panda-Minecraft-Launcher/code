@@ -106,9 +106,9 @@ async fn update_tax_amounts(
 
                     Result::<ProcessedCharge, ApiError>::Ok(ProcessedCharge {
                         new_tax_amount: tax_amount,
-                        product_name: product
-                            .name
-                            .unwrap_or_else(|| "Modrinth".to_owned()),
+                        product_name: product.name.unwrap_or_else(|| {
+                            "Panda Minecraft Launcher".to_owned()
+                        }),
                     })
                 };
 

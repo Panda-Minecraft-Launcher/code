@@ -232,8 +232,8 @@ async function generateRssFeed(articles): Promise<void> {
 	}
 
 	const feed = new RSS({
-		title: 'Modrinth News',
-		description: 'Keep up-to-date on the latest news from Modrinth.',
+		title: 'Panda Minecraft Launcher News',
+		description: 'Keep up-to-date on the latest news from Panda Minecraft Launcher.',
 		feed_url: `${SITE_URL}/news/feed/rss.xml`,
 		site_url: `${SITE_URL}/news/`,
 		language: 'en',

@@ -1,11 +1,11 @@
 ---
 title: Minecraft metadata
-description: Guide to Modrinth's Minecraft metadata generator and shared models
+description: Guide to Panda Minecraft Launcher's Minecraft metadata generator and shared models
 sidebar:
   order: 5
 ---
 
-Modrinth's `meta-generator` queries and generates metadata for Minecraft and mod loaders for:
+Panda Minecraft Launcher's `meta-generator` queries and generates metadata for Minecraft and mod loaders for:
 
 - Performance (Serving static files can be easily cached and is extremely quick)
 - Ease for Launcher Devs (Metadata is served in an easy to query and use format)

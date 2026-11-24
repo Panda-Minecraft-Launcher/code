@@ -19,7 +19,7 @@ const messages = defineMessages({
 	},
 	description: {
 		id: 'app.hosting.update-required.description',
-		defaultMessage: 'You need to update to use Panda Hosting through the Panda Minecraft Launcher',
+		defaultMessage: 'You need to update to use Panda Minecraft Launcher',
 	},
 	downloadToUpdate: {
 		id: 'app.hosting.update-required.download',
@@ -35,7 +35,7 @@ const messages = defineMessages({
 	},
 	excitedRinthbotAlt: {
 		id: 'app.hosting.update-required.rinthbot-alt',
-		defaultMessage: 'Excited Panda Bot',
+		defaultMessage: 'Excited Panda Minecraft Launcher Bot',
 	},
 })
 

@@ -818,7 +818,7 @@ const description = computed(() => {
 
 	return `Download ${project.value.title} ${
 		version.value.version_number
-	} on Modrinth. Supports ${(data as any).$formatVersion(version.value.game_versions)} ${(
+	} on Panda Minecraft Launcher. Supports ${(data as any).$formatVersion(version.value.game_versions)} ${(
 		version.value.loaders ?? []
 	)
 		.map((x: string) => x.charAt(0).toUpperCase() + x.slice(1))
@@ -1141,11 +1141,11 @@ const messages = defineMessages({
 	mavenDescription: {
 		id: 'version.section.content.dev-info.maven-description',
 		defaultMessage:
-			'Projects on Modrinth are automatically available through a Maven repository for use with JVM build tools such as <gradle-link>Gradle</gradle-link>. To learn more about the Modrinth Maven API, <article-link>click here</article-link>.',
+			'Projects on Panda Minecraft Launcher are automatically available through a Maven repository for use with JVM build tools such as <gradle-link>Gradle</gradle-link>. To learn more about the Panda Minecraft Launcher Maven API, <article-link>click here</article-link>.',
 	},
 	mavenNote: {
 		id: 'version.section.content.dev-info.maven-note',
-		defaultMessage: `Note: When available, you should use the creator's maven repo instead as it will have transitive dependency information that the Modrinth Maven API does not. You may also end up with duplicate dependencies if you use a mix of Modrinth and non-Modrinth Maven repositories for your dependencies, because the group identifier will be different when served through the Modrinth Maven API.`,
+		defaultMessage: `Note: When available, you should use the creator's maven repo instead as it will have transitive dependency information that the Panda Minecraft Launcher Maven API does not. You may also end up with duplicate dependencies if you use a mix of Panda Minecraft Launcher and non-Panda Minecraft Launcher Maven repositories for your dependencies, because the group identifier will be different when served through the Panda Minecraft Launcher Maven API.`,
 	},
 	mavenCoordinates: {
 		id: 'version.section.content.dev-info.maven-coordinates',

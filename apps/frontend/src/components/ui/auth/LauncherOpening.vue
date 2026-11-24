@@ -69,11 +69,11 @@ const { formatMessage } = useVIntl()
 const messages = defineMessages({
 	launcherCallbackTitle: {
 		id: 'auth.sign-in.launcher.callback.title',
-		defaultMessage: 'Modrinth App sign-in callback',
+		defaultMessage: 'Panda Minecraft Launcher sign-in callback',
 	},
 	openingLauncherTitle: {
 		id: 'auth.sign-in.launcher.opening.title',
-		defaultMessage: 'Opening Modrinth App...',
+		defaultMessage: 'Opening Panda Minecraft Launcher...',
 	},
 	openingLauncherDescription: {
 		id: 'auth.sign-in.launcher.opening.description',
@@ -81,11 +81,11 @@ const messages = defineMessages({
 	},
 	returnToLauncherButton: {
 		id: 'auth.sign-in.launcher.complete.return-button',
-		defaultMessage: 'Open Modrinth App',
+		defaultMessage: 'Open Panda Minecraft Launcher',
 	},
 	goToWebsiteButton: {
 		id: 'auth.sign-in.launcher.complete.go-to-website',
-		defaultMessage: 'Go to Modrinth.com',
+		defaultMessage: 'Go to Panda Minecraft Launcher',
 	},
 })
 </script>

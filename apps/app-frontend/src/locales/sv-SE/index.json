@@ -186,7 +186,7 @@
     "message": "Dölj högra sidofält"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Visa en säkerhetsvarning innan du installerar ett modpaket (.mrpack) som inte finns på Modrinth."
+    "message": "Visa en säkerhetsvarning innan du installerar ett modpaket (.mrpack) som inte finns på Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Varna mig innan jag installerar okända modpaket"
@@ -216,7 +216,7 @@
     "message": "Dolda instanser"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Ta Panda-appen till förgrunden när Minecraft avslutas."
+    "message": "Ta Panda Minecraft Launcher-appen till förgrunden när Minecraft avslutas."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Fokusera på appen igen när Minecraft stängs."
@@ -228,7 +228,7 @@
     "message": "Använd de här beteendeinställningarna överallt där du är inloggad. Stäng av det här för att ha andra inställningar på den här enheten."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Logga in på ett Panda-konto för att synkronisera inställningar."
+    "message": "Logga in på ett Panda Minecraft Launcher-konto för att synkronisera inställningar."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Synkronisera beteende mellan enheter"
@@ -525,13 +525,13 @@
     "message": "Visa instans"
   },
   "app.hosting.update-required.description": {
-    "message": "Du behöver uppdatera för att använda Panda Hosting genom Panda Minecraft Launcher"
+    "message": "Du behöver uppdatera för att använda Panda Minecraft Launcher genom Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Ladda ner för att uppdatera"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Exalterad Panda-bot"
+    "message": "Exalterad Panda Minecraft Launcher-bot"
   },
   "app.hosting.update-required.title": {
     "message": "Panda Minecraft Launcher-uppdatering krävs"
@@ -885,7 +885,7 @@
     "message": "för att få uppdateringar till den här delade instansen."
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Du använder fel Panda-konto"
+    "message": "Du använder fel Panda Minecraft Launcher-konto"
   },
   "app.instance.shortcut.created": {
     "message": "Genväg skapad"
@@ -1401,7 +1401,7 @@
     "message": "Installera"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Denna inbjudan skapades av en annan Panda-användare, inte Panda Minecraft Launcher. Acceptera endast inbjudningar från personer du litar på."
+    "message": "Denna inbjudan skapades av en annan Panda Minecraft Launcher-användare, inte Panda Minecraft Launcher. Acceptera endast inbjudningar från personer du litar på."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
     "message": "Denna inbjudan skapades av <creator>{username}</creator>, inte Panda Minecraft Launcher. Acceptera endast inbjudningar från personer du litar på."
@@ -1506,10 +1506,10 @@
     "message": "Läser in profil..."
   },
   "app.nav.modrinth-account": {
-    "message": "Panda-konto"
+    "message": "Panda Minecraft Launcher-konto"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Ta bort konto"
@@ -1524,7 +1524,7 @@
     "message": "Byt konto"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Uppgradera till Panda+"
+    "message": "Uppgradera till Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Visa profil"
@@ -1740,7 +1740,7 @@
     "message": "Exportera ZIP"
   },
   "app.screenshots.selection.global-export-filename": {
-    "message": "Panda-skärmdumpar.zip"
+    "message": "Panda Minecraft Launcher-skärmdumpar.zip"
   },
   "app.screenshots.selection.instance-export-filename": {
     "message": "{instance}-skärmdumpar.zip"
@@ -2046,7 +2046,7 @@
     "message": "Några av dina instanser kan inte använda den här inställningen"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "Den här inställningen hanteras av Pandas startinställningar."
+    "message": "Den här inställningen hanteras av Panda Minecraft Launchers startinställningar."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "Ange ett värde"
@@ -3165,10 +3165,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Du fick dessa utseenden för att du donerade till en Panda Pride-insamling under Pride-månaden."
+    "message": "Du fick dessa utseenden för att du donerade till en Panda Minecraft Launcher Pride-insamling under Pride-månaden."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3198,13 +3198,13 @@
     "message": "Skulle du kunna svara på några frågor angående din upplevelse med Panda Minecraft Launcher?"
   },
   "app.survey.footer": {
-    "message": "Den här återkopplingen kommer gå direkt till Panda-teamet och hjälper till att vägleda framtida uppdateringar!"
+    "message": "Den här återkopplingen kommer gå direkt till Panda Minecraft Launcher-teamet och hjälper till att vägleda framtida uppdateringar!"
   },
   "app.survey.no-thanks": {
     "message": "Nej tack"
   },
   "app.survey.title": {
-    "message": "Hej där Panda-användare!"
+    "message": "Hej där Panda Minecraft Launcher-användare!"
   },
   "app.synced-content.change.disable-everywhere": {
     "message": "Inaktivera överallt"
@@ -3387,10 +3387,10 @@
     "message": "Det kan vara annorlunda från deras Minecraft-användarnamn!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Ange Panda-användarnamn..."
+    "message": "Ange Panda Minecraft Launcher-användarnamn..."
   },
   "friends.add-friend.username.title": {
-    "message": "Vad är din väns Panda-användarnamn?"
+    "message": "Vad är din väns Panda Minecraft Launcher-användarnamn?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Lägg till vänner</link> för att se vad de spelar!"
@@ -3435,7 +3435,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Logga in på ett Panda-konto</link> för att lägga till vänner och se vad de spelar!"
+    "message": "<link>Logga in på ett Panda Minecraft Launcher-konto</link> för att lägga till vänner och se vad de spelar!"
   },
   "hosting.play.update-to-play": {
     "message": "Uppdatera för att spela"
@@ -3459,7 +3459,7 @@
     "message": "Avlänka delad instans"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Det här raderar den delade instansen från Pandas servrar. De som använder den i Panda Minecraft Launcher kommer inte längre få uppdateringar, men din lokala instans och dess innehåll är kvar på den här enheten."
+    "message": "Det här raderar den delade instansen från Panda Minecraft Launchers servrar. De som använder den i Panda Minecraft Launcher kommer inte längre få uppdateringar, men din lokala instans och dess innehåll är kvar på den här enheten."
   },
   "instance.action.create-shortcut": {
     "message": "Skapa genväg"
@@ -3957,7 +3957,7 @@
     "message": "Skapa ett konto"
   },
   "modal.modrinth-account-required.description": {
-    "message": "Du måste logga in på ditt Panda-konto innan du kan använda den här funktionen."
+    "message": "Du måste logga in på ditt Panda Minecraft Launcher-konto innan du kan använda den här funktionen."
   },
   "modal.modrinth-account-required.header": {
     "message": "Konto krävs"
@@ -3969,7 +3969,7 @@
     "message": "Logga in på Panda Minecraft Launcher"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Logga in på ett Panda-konto"
+    "message": "Logga in på ett Panda Minecraft Launcher-konto"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "Loggar in"

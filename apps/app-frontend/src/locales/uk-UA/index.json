@@ -186,7 +186,7 @@
     "message": "Приховати праву бічну панель"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Показувати попередження про безпеку перед встановленням модпаку (.mrpack), який не розміщено на Modrinth."
+    "message": "Показувати попередження про безпеку перед встановленням модпаку (.mrpack), який не розміщено на Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Попереджати перед установленням невідомих збірок"
@@ -528,7 +528,7 @@
     "message": "Переглянути примірник"
   },
   "app.hosting.update-required.description": {
-    "message": "Вам потрібно оновитися, щоб використовувати Panda Hosting через застосунок Panda"
+    "message": "Вам потрібно оновитися, щоб використовувати Panda Minecraft Launcher через застосунок Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Завантажити для оновлення"
@@ -1554,7 +1554,7 @@
     "message": "Обліковий запис Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Вилучити обліковий запис"
@@ -1569,7 +1569,7 @@
     "message": "Змінити обліковий запис"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Покращитися до Panda+"
+    "message": "Покращитися до Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Переглянути профіль"
@@ -3540,10 +3540,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Ви отримали ці скіни за участь у благодійній акції Panda Pride під час місяця прайду."
+    "message": "Ви отримали ці скіни за участь у благодійній акції Panda Minecraft Launcher Pride під час місяця прайду."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3948,7 +3948,7 @@
     "message": "Відвʼязування спільного примірника"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Це видалить спільний примірник із серверів Panda. Користувачі Panda Minecraft Launcher припинять отримувати оновлення, але ваш локальний примірник і його вміст залишаться на цьому пристрої."
+    "message": "Це видалить спільний примірник із серверів Panda Minecraft Launcher. Користувачі Panda Minecraft Launcher припинять отримувати оновлення, але ваш локальний примірник і його вміст залишаться на цьому пристрої."
   },
   "instance.action.create-shortcut": {
     "message": "Створити ярлик"

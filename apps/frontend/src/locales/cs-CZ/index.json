@@ -18,7 +18,7 @@
     "message": "Odmítnout vše"
   },
   "ads-consent.title": {
-    "message": "Vaše soukromí a způsob, jakým reklamy podporují Modrinth"
+    "message": "Vaše soukromí a způsob, jakým reklamy podporují Panda Minecraft Launcher"
   },
   "analytics.action.add": {
     "message": "Přidat"
@@ -111,10 +111,10 @@
     "message": "Zobrazit"
   },
   "analytics.chart.controls.modrinth-events": {
-    "message": "Události Modrinthu"
+    "message": "Události Panda Minecraft Launcheru"
   },
   "analytics.chart.controls.no-modrinth-events": {
-    "message": "Žádné události Modrinthu v grafu."
+    "message": "Žádné události Panda Minecraft Launcheru v grafu."
   },
   "analytics.chart.controls.no-project-events": {
     "message": "Žádné události projektu v grafu."
@@ -144,7 +144,7 @@
     "message": "Zobrazit podrobnosti analytiky monetizace"
   },
   "analytics.chart.legend.monetization-details.description": {
-    "message": "Pouze zobrazení a stahování provedená prostřednictvím Modrinthova počtu k monetizaci a stahování vyžadují přihlášení uživatelů."
+    "message": "Pouze zobrazení a stahování provedená prostřednictvím Panda Minecraft Launcherova počtu k monetizaci a stahování vyžadují přihlášení uživatelů."
   },
   "analytics.chart.legend.monetization-details.title": {
     "message": "Detaily monetizované analytiky"
@@ -216,10 +216,10 @@
     "message": "Aktualizace"
   },
   "analytics.download-source.app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "analytics.download-source.website": {
-    "message": "Modrinth Stránka"
+    "message": "Panda Minecraft Launcher Stránka"
   },
   "analytics.downloads.suffix": {
     "message": "stažení"
@@ -438,7 +438,7 @@
     "message": "{start} až {end}"
   },
   "analytics.table.csv.filename": {
-    "message": "Analytika Modrinthu - členění podle {breakdown} - {dateRange}"
+    "message": "Analytika Panda Minecraft Launcheru - členění podle {breakdown} - {dateRange}"
   },
   "analytics.table.csv.header.playtime-seconds": {
     "message": "Odehraný čas (sekundy)"
@@ -522,7 +522,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "U linuxových verzí Modrinth App jsou <issues-link>známé problémy</issues-link> na určitých systémech a konfiguracích. Pokud je aplikace Modrinth App ve vašem systému nestabilní, doporučujeme vám vyzkoušet jiné aplikace, například <prism-link>Prism Launcher</prism-link>, které vám umožní snadnou instalaci obsahu Modrinth."
+    "message": "U linuxových verzí Panda Minecraft Launcher jsou <issues-link>známé problémy</issues-link> na určitých systémech a konfiguracích. Pokud je aplikace Panda Minecraft Launcher ve vašem systému nestabilní, doporučujeme vám vyzkoušet jiné aplikace, například <prism-link>Prism Launcher</prism-link>, které vám umožní snadnou instalaci obsahu Panda Minecraft Launcher."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -531,10 +531,10 @@
     "message": "Možnosti stažení"
   },
   "app-marketing.download.terms": {
-    "message": "Stažením Modrinth App vyjadřujete souhlas s našimi <terms-link>Podmínkami</terms-link> a <privacy-link>Zásadami ochrany osobních údajů</privacy-link>."
+    "message": "Stažením Panda Minecraft Launcher vyjadřujete souhlas s našimi <terms-link>Podmínkami</terms-link> a <privacy-link>Zásadami ochrany osobních údajů</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Stáhnout Modrinth App (Beta)"
+    "message": "Stáhnout Panda Minecraft Launcher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -552,7 +552,7 @@
     "message": "od {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth usnadňuje správu všech vašich modů na jednom místě. Módy můžete instalovat, odinstalovat a aktualizovat jediným kliknutím."
+    "message": "Panda Minecraft Launcher usnadňuje správu všech vašich modů na jednom místě. Módy můžete instalovat, odinstalovat a aktualizovat jediným kliknutím."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Nainstalované módy"
@@ -588,7 +588,7 @@
     "message": "Google Chrome"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miliarda %"
@@ -606,13 +606,13 @@
     "message": "Výkonný"
   },
   "app-marketing.features.play.description": {
-    "message": "Pomocí Modrinth App můžete stahovat a hrát své oblíbené módy a modpacky."
+    "message": "Pomocí Panda Minecraft Launcher můžete stahovat a hrát své oblíbené módy a modpacky."
   },
   "app-marketing.features.play.title": {
     "message": "Hrajte se svými oblíbenými módy"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Vytvářejte, sdílejte a hrajte modpacky s jakýmikoli z tisíců modů a modpacků hostovaných zde na Modrinthu."
+    "message": "Vytvářejte, sdílejte a hrajte modpacky s jakýmikoli z tisíců modů a modpacků hostovaných zde na Panda Minecraft Launcheru."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -627,7 +627,7 @@
     "message": "Jako žádný jiný launcher"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App je plně integrovaný s webovými stránkami, takže máte přístup ke všem svým oblíbeným projektům z aplikace!"
+    "message": "Panda Minecraft Launcher je plně integrovaný s webovými stránkami, takže máte přístup ke všem svým oblíbeným projektům z aplikace!"
   },
   "app-marketing.features.website.title": {
     "message": "Integrace s webovou stránkou"
@@ -636,19 +636,19 @@
     "message": "který jste kdy používali"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Snímek obrazovky z Modrinth App se spuštěnou instancí Cobblemon na stránce \"Obsah\"."
+    "message": "Snímek obrazovky z Panda Minecraft Launcher se spuštěnou instancí Cobblemon na stránce \"Obsah\"."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App je jedinečný open source launcher, který vám umožní přehrávat vaše oblíbené mody a udržovat je aktuální, a to vše v jednom malém úhledném balíčku."
+    "message": "Panda Minecraft Launcher je jedinečný open source launcher, který vám umožní přehrávat vaše oblíbené mody a udržovat je aktuální, a to vše v jednom malém úhledném balíčku."
   },
   "app-marketing.hero.download-button": {
-    "message": "Stáhnout Modrinth App"
+    "message": "Stáhnout Panda Minecraft Launcher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Stáhnout Modrinth App"
+    "message": "Stáhnout Panda Minecraft Launcher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Stáhnout Modrinth App pro {os}"
+    "message": "Stáhnout Panda Minecraft Launcher pro {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Snímek obrazovky hlavní nabídky instance Cobblemon."
@@ -705,7 +705,7 @@
     "message": "Datum narození"
   },
   "auth.create-account.date-of-birth.not-meet-age-requirement": {
-    "message": "Nesplňujete věkové omezení pro vytvoření účtu v Modrinth."
+    "message": "Nesplňujete věkové omezení pro vytvoření účtu v Panda Minecraft Launcher."
   },
   "auth.create-account.date-of-birth.placeholder": {
     "message": "Vyberte vaše datum narození"
@@ -717,7 +717,7 @@
     "message": "Datum narození je povinné"
   },
   "auth.create-account.date-of-birth.under13-helper": {
-    "message": "Nelze vytvořit účet v Modrinth pokud nejste starší 13 let."
+    "message": "Nelze vytvořit účet v Panda Minecraft Launcher pokud nejste starší 13 let."
   },
   "auth.create-account.info-panel.source-code-link": {
     "message": "Relevantní zdrojový kód"
@@ -732,7 +732,7 @@
     "message": "Bezpečnostní ověření"
   },
   "auth.create-account.subscribe.label": {
-    "message": "Chci e-mailem dostávat novinky o zajímavých věcech, na kterých Modrinth pracuje"
+    "message": "Chci e-mailem dostávat novinky o zajímavých věcech, na kterých Panda Minecraft Launcher pracuje"
   },
   "auth.create-account.title": {
     "message": "Vytvořit Účet"
@@ -795,7 +795,7 @@
     "message": "Přidat účet"
   },
   "auth.sign-in.choose-account": {
-    "message": "Vyberte účet, který chcete použít v Modrinth App"
+    "message": "Vyberte účet, který chcete použít v Panda Minecraft Launcher"
   },
   "auth.sign-in.choose-existing-account": {
     "message": "Použít existující účet"
@@ -816,22 +816,22 @@
     "message": "Naposledy použitý"
   },
   "auth.sign-in.launcher.complete.go-to-website": {
-    "message": "Přejeďte na Modrinth.com"
+    "message": "Přejeďte na Panda Minecraft Launcher"
   },
   "auth.sign-in.launcher.complete.return-button": {
-    "message": "Otevřít Modrinth App"
+    "message": "Otevřít Panda Minecraft Launcher"
   },
   "auth.sign-in.launcher.handoff-failed": {
-    "message": "Přihlášení do Modrinth App se nezdařilo. Zkuste to znovu."
+    "message": "Přihlášení do Panda Minecraft Launcher se nezdařilo. Zkuste to znovu."
   },
   "auth.sign-in.launcher.opening.description": {
     "message": "Pokud aplikace není otevřená, použijte tlačítko níže pro dokončení přihlášení."
   },
   "auth.sign-in.launcher.opening.title": {
-    "message": "Otevírání Modrinth App..."
+    "message": "Otevírání Panda Minecraft Launcher..."
   },
   "auth.sign-in.launcher.reauthenticate.title": {
-    "message": "Přihlašte se do Modrinth App"
+    "message": "Přihlašte se do Panda Minecraft Launcher"
   },
   "auth.sign-in.no-account": {
     "message": "Nemáte účet?"
@@ -840,7 +840,7 @@
     "message": "Použijte jiný účet"
   },
   "auth.sign-in.sign-in-with": {
-    "message": "Přihlašte se do Modrinthu"
+    "message": "Přihlašte se do Panda Minecraft Launcheru"
   },
   "auth.sign-in.title": {
     "message": "Přihlásit se"
@@ -852,7 +852,7 @@
     "message": "Pokračovat s E-mailem"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Vytvořením účtu souhlasíte s <terms-link>Podmínkami</terms-link> a <privacy-policy-link>Zásadami ochrany osobních údajů</privacy-policy-link> Modrinthu."
+    "message": "Vytvořením účtu souhlasíte s <terms-link>Podmínkami</terms-link> a <privacy-policy-link>Zásadami ochrany osobních údajů</privacy-policy-link> Panda Minecraft Launcheru."
   },
   "auth.sign-up.show-fewer-options": {
     "message": "Zobrazit méně možností"
@@ -933,7 +933,7 @@
     "message": "Opravdu si přejete odstranit tuto kolikci?"
   },
   "collection.description": {
-    "message": "{description} - Zobrazit kolekci {name} od {username} na Modrinthu"
+    "message": "{description} - Zobrazit kolekci {name} od {username} na Panda Minecraft Launcheru"
   },
   "collection.description-placeholder": {
     "message": "Tohle je kolekce..."
@@ -1467,7 +1467,7 @@
     "message": "Vyčerpali jste svůj limit pro výběr <b>{withdrawLimit}</b>. Pro vyšší výběr musíte vyplnit daňový formulář."
   },
   "dashboard.discord-roles.banner.body": {
-    "message": "Máte nárok na {roles}. Propojte svůj účet Discord přes Modrinth a my je automaticky synchronizujeme."
+    "message": "Máte nárok na {roles}. Propojte svůj účet Discord přes Panda Minecraft Launcher a my je automaticky synchronizujeme."
   },
   "dashboard.discord-roles.banner.cta": {
     "message": "Propojit Discord"
@@ -1755,7 +1755,7 @@
     "message": "Tento typ obsahu nelze nainstalovat na server z části Objevit."
   },
   "discover.seo.description": {
-    "message": "Vyhledávejte a procházejte tisíce Minecraft {projectType} na Modrinthu díky okamžitým a přesným výsledkům vyhledávání. Naše filtry vám pomohou rychle najít nejlepší Minecraft {projectType}."
+    "message": "Vyhledávejte a procházejte tisíce Minecraft {projectType} na Panda Minecraft Launcheru díky okamžitým a přesným výsledkům vyhledávání. Naše filtry vám pomohou rychle najít nejlepší Minecraft {projectType}."
   },
   "discover.seo.title": {
     "message": "Hledat {projectType}"
@@ -1770,7 +1770,7 @@
     "message": "Tato kolekce je možná soukromá."
   },
   "error.collection.404.list_item.3": {
-    "message": "Kolekce mohla být odstraněna moderátorským týmem Modrinth z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
+    "message": "Kolekce mohla být odstraněna moderátorským týmem Panda Minecraft Launcher z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Proč?"
@@ -1794,7 +1794,7 @@
     "message": "Stránka nenalezena"
   },
   "error.generic.default.list_item.1": {
-    "message": "Zkontrolujte, zda je Modrinth offline, na naší <status-link>Stránce statusu</status-link>."
+    "message": "Zkontrolujte, zda je Panda Minecraft Launcher offline, na naší <status-link>Stránce statusu</status-link>."
   },
   "error.generic.default.list_title": {
     "message": "Prosím zkuste znovu za pár minut."
@@ -1812,7 +1812,7 @@
     "message": "Majitel organizace možná změnil URL adresu, nebo ji smazal."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organizace mohla být smazána moderátorským týmem Modrinth z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
+    "message": "Organizace mohla být smazána moderátorským týmem Panda Minecraft Launcher z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Proč?"
@@ -1827,7 +1827,7 @@
     "message": "Majitel projektu možná změnil URL adresu, nastavil projekt jako soukromý, nebo jej smazal."
   },
   "error.project.404.list_item.3": {
-    "message": "Projekt mohl být odstraněn moderátorským týmem Modrinth z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
+    "message": "Projekt mohl být odstraněn moderátorským týmem Panda Minecraft Launcher z důvodu porušení našich <tou-link>Podmínek použití</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Proč?"
@@ -1869,28 +1869,28 @@
     "message": "Plaťte ročně"
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "Mají Modrinth Hosting servery ochranu proti DDoS útokům?"
+    "message": "Mají Panda Minecraft Launcher servery ochranu proti DDoS útokům?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Ano. Všechny Modrinth Hosting servery jsou vybaveny ochranou proti DDoS útokům, v některých lokalitách s kapacitou až 17 Tbps."
+    "message": "Ano. Všechny Panda Minecraft Launcher servery jsou vybaveny ochranou proti DDoS útokům, v některých lokalitách s kapacitou až 17 Tbps."
   },
   "hosting-marketing.faq.heading": {
     "message": "Časté dotazy"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Jak rychlé jsou Modrinth Hosting servery?"
+    "message": "Jak rychlé jsou Panda Minecraft Launcher servery?"
   },
   "hosting-marketing.faq.increase-storage": {
     "message": "Mohu zvýšit úložiště na mém serveru?"
   },
   "hosting-marketing.faq.location": {
-    "message": "Kde se nachází Modrinth Hosting servery? Mohu si vybrat oblast?"
+    "message": "Kde se nachází Panda Minecraft Launcher servery? Mohu si vybrat oblast?"
   },
   "hosting-marketing.faq.versions-loaders": {
     "message": "Jaké verze Minecraftu a loadery lze použít?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "Servery Modrinth Hosting mohou spustit jakoukoli verzi Minecraft: Java Edition až zpět k verzi 1.2.5, včetně snapshotů."
+    "message": "Servery Panda Minecraft Launcher mohou spustit jakoukoli verzi Minecraft: Java Edition až zpět k verzi 1.2.5, včetně snapshotů."
   },
   "hosting-marketing.get-started": {
     "message": "Začít"
@@ -1902,7 +1902,7 @@
     "message": "Spusťte svůj server"
   },
   "hosting-marketing.hero.host-with-modrinth": {
-    "message": "Hostuj tvůj další server s Modrinth Hosting"
+    "message": "Hostuj tvůj další server s Panda Minecraft Launcher"
   },
   "hosting-marketing.included.custom-url": {
     "message": "Vlastní URL"
@@ -1917,7 +1917,7 @@
     "message": "Neplatný produkt"
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Proč Modrinth Hosting?"
+    "message": "Proč Panda Minecraft Launcher?"
   },
   "hosting.plan.select-plan": {
     "message": "Vybrat plán"
@@ -1956,7 +1956,7 @@
     "message": "ATLauncher"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -2001,13 +2001,13 @@
     "message": "Navštívit nastavení účtu"
   },
   "layout.banner.add-email.description": {
-    "message": "Z bezpečnostních důvodu, Modrinth potřebuje aby jste si zaregistrovaly e-mail adresu k vašemu účtu."
+    "message": "Z bezpečnostních důvodu, Panda Minecraft Launcher potřebuje aby jste si zaregistrovaly e-mail adresu k vašemu účtu."
   },
   "layout.banner.build-fail.always-ignore": {
     "message": "Vždy ignorovat"
   },
   "layout.banner.build-fail.description": {
-    "message": "Nepodařilo se generovat stav z API v této sestavě frontendu Modrinthu. Může to být kvůli výpadku nebo chybě v konfiguraci. Vygenerujte novou sestavu jakmile bude API dostupné. Chybové kódy: {errors}; Aktuální adresa API: {url}"
+    "message": "Nepodařilo se generovat stav z API v této sestavě frontendu Panda Minecraft Launcheru. Může to být kvůli výpadku nebo chybě v konfiguraci. Vygenerujte novou sestavu jakmile bude API dostupné. Chybové kódy: {errors}; Aktuální adresa API: {url}"
   },
   "layout.banner.build-fail.ignore": {
     "message": "Ignorovat"
@@ -2016,10 +2016,10 @@
     "message": "Chyba generování stavu z API při sestavování."
   },
   "layout.banner.staging.description": {
-    "message": "Vývojové prostředí je oddělené od produkční databáze Modrinthu. Používá se pro testování a odstraňování chyb, a může spouštět právě vyvíjené verze backendu nebo frontendu Modrinthu, které jsou novější než produkční instance."
+    "message": "Vývojové prostředí je oddělené od produkční databáze Panda Minecraft Launcheru. Používá se pro testování a odstraňování chyb, a může spouštět právě vyvíjené verze backendu nebo frontendu Panda Minecraft Launcheru, které jsou novější než produkční instance."
   },
   "layout.banner.staging.title": {
-    "message": "Sledujete vývojové prostředí Modrinthu"
+    "message": "Sledujete vývojové prostředí Panda Minecraft Launcheru"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Aktualizuje fakturační informace"
@@ -2037,7 +2037,7 @@
     "message": "Znovu poslat ověřovací e-mail"
   },
   "layout.banner.verify-email.description": {
-    "message": "Z bezpečnostních důvodů potřebuje Modrinth ověření e-mailové adresy spojené s vaším účtem."
+    "message": "Z bezpečnostních důvodů potřebuje Panda Minecraft Launcher ověření e-mailové adresy spojené s vaším účtem."
   },
   "layout.footer.about": {
     "message": "O"
@@ -2079,22 +2079,22 @@
     "message": "Podmínky Užívání"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth informace"
+    "message": "Panda Minecraft Launcher informace"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth je <github-link>open source</github-link>."
+    "message": "Panda Minecraft Launcher je <github-link>open source</github-link>."
   },
   "layout.footer.products": {
     "message": "Produkty"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.resources": {
     "message": "Zdroje"
@@ -2127,7 +2127,7 @@
     "message": "Přepnout menu"
   },
   "layout.meta.description": {
-    "message": "Stáhněte si Minecraft mody, pluginy, datapacky, shadery, resourcepacky a modpacky na Modrinthu. Objevte a publikujte projekty na Modrintu s moderním, snadno použitelným rozhraním a API."
+    "message": "Stáhněte si Minecraft mody, pluginy, datapacky, shadery, resourcepacky a modpacky na Panda Minecraft Launcheru. Objevte a publikujte projekty na Modrintu s moderním, snadno použitelným rozhraním a API."
   },
   "layout.meta.og-description": {
     "message": "Objevujte a zveřejňujte obsah pro Minecraft!"
@@ -2145,7 +2145,7 @@
     "message": "Objevit"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Získat Modrinth App"
+    "message": "Získat Panda Minecraft Launcher"
   },
   "layout.nav.home": {
     "message": "Domů"
@@ -2154,10 +2154,10 @@
     "message": "Hostovat server"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Domovská stránka Modrinthu"
+    "message": "Domovská stránka Panda Minecraft Launcheru"
   },
   "layout.nav.my-servers": {
     "message": "Moje servery"
@@ -2181,7 +2181,7 @@
     "message": "Hledat"
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Upgradovat na Modrinth+"
+    "message": "Upgradovat na Panda Minecraft Launcher"
   },
   "moderation.moderate": {
     "message": "Moderace"
@@ -2418,7 +2418,7 @@
     "message": "Znovu nezobrazovat"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting je nejjednodušší způsob, jak hrát s přáteli bez starostí!"
+    "message": "Panda Minecraft Launcher je nejjednodušší způsob, jak hrát s přáteli bez starostí!"
   },
   "project.actions.servers-promo.title": {
     "message": "Vytvořit server"
@@ -2457,7 +2457,7 @@
     "message": "{title} nepodporuje {gameVersion} pro {platform}"
   },
   "project.download.no-app": {
-    "message": "Nemáte Modrinth App?"
+    "message": "Nemáte Panda Minecraft Launcher?"
   },
   "project.download.platform-unsupported-tooltip": {
     "message": "{title} nepodporuje {platform} pro {gameVersion}"
@@ -2490,10 +2490,10 @@
     "message": "Váš projekt je soukromý, což znamená, že k němu máte přístup pouze vy a lidé, které pozvete."
   },
   "project.moderation.admonition.approved.body.public": {
-    "message": "Váš projekt je zveřejněný a dostupný na Modrinthu."
+    "message": "Váš projekt je zveřejněný a dostupný na Panda Minecraft Launcheru."
   },
   "project.moderation.admonition.approved.body.unlisted": {
-    "message": "Váš projekt je neveřejný, což znamená, že je přístupný pouze přes přímý odkaz a na Modrinthu ho nelze najít."
+    "message": "Váš projekt je neveřejný, což znamená, že je přístupný pouze přes přímý odkaz a na Panda Minecraft Launcheru ho nelze najít."
   },
   "project.moderation.admonition.approved.body.visibility-message": {
     "message": "Viditelnost svého projektu můžete změnit v <visibility-settings-link>nastavení viditelnosti</visibility-settings-link> projektu."
@@ -2502,7 +2502,7 @@
     "message": "Projekt schválen"
   },
   "project.moderation.admonition.draft.body": {
-    "message": "Toto je návrh projektu, který ostatní neuvidí, dokud nebude odeslán ke kontrole a schválen moderátorským týmem Modrinthu."
+    "message": "Toto je návrh projektu, který ostatní neuvidí, dokud nebude odeslán ke kontrole a schválen moderátorským týmem Panda Minecraft Launcheru."
   },
   "project.moderation.admonition.draft.header": {
     "message": "Návrh projektu"
@@ -2562,13 +2562,13 @@
     "message": "Rozbalit vše"
   },
   "project.settings.permissions.fail.description": {
-    "message": "Je možné, že nemáte oprávnění k redistribuci části externího obsahu ve svém projektu. Aby mohl být projekt publikován na Modrinthu, odeberte prosím tento obsah nebo doložte, že máte oprávnění jej použít."
+    "message": "Je možné, že nemáte oprávnění k redistribuci části externího obsahu ve svém projektu. Aby mohl být projekt publikován na Panda Minecraft Launcheru, odeberte prosím tento obsah nebo doložte, že máte oprávnění jej použít."
   },
   "project.settings.permissions.fail.title": {
     "message": "Některý obsah nelze zahrnout"
   },
   "project.settings.permissions.info-banner.description": {
-    "message": "Pokud zahrnete obsah, který není hostován na Modrinthu, musíte nám sdělit, odkud pochází, a ověřit, že máte oprávnění tyto soubory distribuovat. Další informace najdete v <link>našem oznámení tohoto nového systému</link>!"
+    "message": "Pokud zahrnete obsah, který není hostován na Panda Minecraft Launcheru, musíte nám sdělit, odkud pochází, a ověřit, že máte oprávnění tyto soubory distribuovat. Další informace najdete v <link>našem oznámení tohoto nového systému</link>!"
   },
   "project.settings.permissions.info-banner.title": {
     "message": "Zjistěte více o oprávněních k distribuci"
@@ -2580,7 +2580,7 @@
     "message": "Žádné externí soubory neodpovídají tvému vyhledávání."
   },
   "project.settings.permissions.not-allowed.description": {
-    "message": "Část zahrnutého externího obsahu nelze na Modrinthu distribuovat, protože porušuje naše pravidla pro obsah, a musí být odstraněna."
+    "message": "Část zahrnutého externího obsahu nelze na Panda Minecraft Launcheru distribuovat, protože porušuje naše pravidla pro obsah, a musí být odstraněna."
   },
   "project.settings.permissions.pending-approval-count": {
     "message": "{count, plural, =0 {Žádná atribuce nevyžaduje schválení} one {# atribuce vyžaduje schválení} few {# atribuce vyžadují schválení} other {# atribucí vyžaduje schválení}}"
@@ -2631,7 +2631,7 @@
     "message": "Nepodařilo se najít {item}"
   },
   "report.for.violation": {
-    "message": "Porušení <rules-link>Pravidel</rules-link> nebo <terms-link>Podmínek Užívání</terms-link> Modrinthu"
+    "message": "Porušení <rules-link>Pravidel</rules-link> nebo <terms-link>Podmínek Užívání</terms-link> Panda Minecraft Launcheru"
   },
   "report.for.violation.description": {
     "message": "Příklady zahrnují podvodný, urážlivý, klamný, zavádějící, nelegální obsah, a spam."
@@ -2676,7 +2676,7 @@
     "message": "Jaký druh obsahu nahlašujete?"
   },
   "report.question.report-reason": {
-    "message": "Které z pravidel Modrinthu {item} porušuje?"
+    "message": "Které z pravidel Panda Minecraft Launcheru {item} porušuje?"
   },
   "report.report-content": {
     "message": "Nahlašte obsah moderátorům"
@@ -2838,7 +2838,7 @@
     "message": "Synchronizovat se serverem"
   },
   "servers.manage.content.title": {
-    "message": "Obsah - {serverName} - Modrinth"
+    "message": "Obsah - {serverName} - Panda Minecraft Launcher"
   },
   "servers.notice.actions": {
     "message": "Akce"
@@ -3048,10 +3048,10 @@
     "message": "Opravdu si přejete odvolat tuto aplikaci?"
   },
   "settings.billing.charges.product.midas": {
-    "message": "Modrinth Plus"
+    "message": "Panda Minecraft Launcher"
   },
   "settings.billing.charges.product.pyro": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "settings.billing.payment_method.primary": {
     "message": "Hlavní"
@@ -3060,7 +3060,7 @@
     "message": "Předplatit"
   },
   "settings.billing.subscription.description": {
-    "message": "Spravujte svá Modrinth předplatná."
+    "message": "Spravujte svá Panda Minecraft Launcher předplatná."
   },
   "settings.billing.subscription.title": {
     "message": "Předplatné"
@@ -3075,7 +3075,7 @@
     "message": "Deaktivovat vývojářský režim"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Vývojářský režim</strong> je aktivní. Toto vám umožní zobrazit interní ID různých věcí v Modrinthu, které mohou být užitečné, pokud používáte Modrinth API. Klikněte na logo Modrinthu ve spodní části stránky 5krát pro přepnutí vývojářského režimu."
+    "message": "<strong>Vývojářský režim</strong> je aktivní. Toto vám umožní zobrazit interní ID různých věcí v Panda Minecraft Launcheru, které mohou být užitečné, pokud používáte Panda Minecraft Launcher API. Klikněte na logo Panda Minecraft Launcheru ve spodní části stránky 5krát pro přepnutí vývojářského režimu."
   },
   "settings.display.notification.developer-mode-deactivated.text": {
     "message": "Vývojářský režim byl vypnut"

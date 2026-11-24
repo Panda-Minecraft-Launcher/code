@@ -1,1 +1,1 @@
-Modrinth services utilities.
+Utilities for Panda Minecraft Launcher services.

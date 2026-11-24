@@ -81,7 +81,7 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 			<Container class="max-w-[600px]">
 				<Row>
 					<Column class="align-middle">
-						<VLink href="https://modrinth.com" aria-label="Modrinth">
+						<VLink href="https://modrinth.com" aria-label="Panda Minecraft Launcher">
 							<Img
 								src="https://cdn.modrinth.com/email/bd3357dfae4b1d266250372db3a0988f.png"
 								width="175"
@@ -117,7 +117,7 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 		<!-- <Text
 			class="text-footerText text-2xs mb-4 mt-0 pb-0 pl-4 pr-4 pt-0 text-center font-sans"
 		>
-			This email was sent to you as a registered user of Modrinth. You can customize the
+			This email was sent to you as a registered user of Panda Minecraft Launcher. You can customize the
 			emails you recieve in your
 			<VLink href="https://modrinth.com/settings/notifications" class="text-green underline"
 				>notification settings</VLink

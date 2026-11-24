@@ -9,7 +9,7 @@
     "message": "Accetta tutto"
   },
   "ads-consent.body": {
-    "message": "La pubblicità aiuta Modrinth a crescere e a finanziare i creatori. I nostri partner possono memorizzare o accedere ai cookie per personalizzarla e misurarne le prestazioni."
+    "message": "La pubblicità aiuta Panda Minecraft Launcher a crescere e a finanziare i creatori. I nostri partner possono memorizzare o accedere ai cookie per personalizzarla e misurarne le prestazioni."
   },
   "ads-consent.manage": {
     "message": "Gestisci"
@@ -18,7 +18,7 @@
     "message": "Rifiuta tutto"
   },
   "ads-consent.title": {
-    "message": "Privacy e come la pubblicità aiuta Modrinth"
+    "message": "Privacy e come la pubblicità aiuta Panda Minecraft Launcher"
   },
   "analytics.action.add": {
     "message": "Aggiungi"
@@ -111,10 +111,10 @@
     "message": "Visualizzazione"
   },
   "analytics.chart.controls.modrinth-events": {
-    "message": "Eventi di Modrinth"
+    "message": "Eventi di Panda Minecraft Launcher"
   },
   "analytics.chart.controls.no-modrinth-events": {
-    "message": "Nessun evento di Modrinth nel grafico."
+    "message": "Nessun evento di Panda Minecraft Launcher nel grafico."
   },
   "analytics.chart.controls.no-project-events": {
     "message": "Nessun evento del progetto nel grafico."
@@ -144,7 +144,7 @@
     "message": "Mostra i dettagli sulla monetizzazione"
   },
   "analytics.chart.legend.monetization-details.description": {
-    "message": "Per la monetizzazione contano solo le visualizzazioni e i download da Modrinth. Per gli ultimi, gli utenti devono aver effettuato l'accesso."
+    "message": "Per la monetizzazione contano solo le visualizzazioni e i download da Panda Minecraft Launcher. Per gli ultimi, gli utenti devono aver effettuato l'accesso."
   },
   "analytics.chart.legend.monetization-details.title": {
     "message": "Dettagli sulla monetizzazione"
@@ -228,10 +228,10 @@
     "message": "Aggiornamento"
   },
   "analytics.download-source.app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "analytics.download-source.website": {
-    "message": "Sito di Modrinth"
+    "message": "Sito di Panda Minecraft Launcher"
   },
   "analytics.downloads.suffix": {
     "message": "download"
@@ -417,7 +417,7 @@
     "message": "Download"
   },
   "analytics.stat.monetization-banner.body": {
-    "message": "Ai fini della monetizzazione, sono considerate solo le visualizzazioni e i download da Modrinth che superano i controlli antifrode. I download dalla Modrinth App richiedono inoltre l'autenticazione dell'utente. Poiché tutti i progetti presentano una percentuale simile di download monetizzati, anche sommando tutti i download i ricavi non subirebbero variazioni significative."
+    "message": "Ai fini della monetizzazione, sono considerate solo le visualizzazioni e i download da Panda Minecraft Launcher che superano i controlli antifrode. I download dalla Panda Minecraft Launcher richiedono inoltre l'autenticazione dell'utente. Poiché tutti i progetti presentano una percentuale simile di download monetizzati, anche sommando tutti i download i ricavi non subirebbero variazioni significative."
   },
   "analytics.stat.monetization-banner.learn-more": {
     "message": "Scopri di più"
@@ -456,7 +456,7 @@
     "message": "{start} al {end}"
   },
   "analytics.table.csv.filename": {
-    "message": "Modrinth - Analitiche per {breakdown} - {dateRange}"
+    "message": "Panda Minecraft Launcher - Analitiche per {breakdown} - {dateRange}"
   },
   "analytics.table.csv.header.playtime-seconds": {
     "message": "Secondi di gioco"
@@ -573,7 +573,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "È noto che nelle versioni per Linux di Modrinth App <issues-link>sussistono certi problemi</issues-link> con alcuni sistemi e configurazioni. Se Modrinth App risultasse instabile sul tuo sistema, potresti voler usare altre app come <prism-link>Prism Launcher</prism-link> per installare facilmente contenuti da Modrinth."
+    "message": "È noto che nelle versioni per Linux di Panda Minecraft Launcher <issues-link>sussistono certi problemi</issues-link> con alcuni sistemi e configurazioni. Se Panda Minecraft Launcher risultasse instabile sul tuo sistema, potresti voler usare altre app come <prism-link>Prism Launcher</prism-link> per installare facilmente contenuti da Panda Minecraft Launcher."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -582,16 +582,16 @@
     "message": "Opzioni di download"
   },
   "app-marketing.download.terms": {
-    "message": "Scaricando Modrinth App, accetti i nostri <terms-link>Termini d'uso</terms-link> e l''<privacy-link>Informativa sulla privacy</privacy-link>."
+    "message": "Scaricando Panda Minecraft Launcher, accetti i nostri <terms-link>Termini d'uso</terms-link> e l''<privacy-link>Informativa sulla privacy</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Scarica Modrinth App (beta)"
+    "message": "Scarica Panda Minecraft Launcher (beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importa le istanze dal launcher che usavi prima e sarai pronto a usare Modrinth App in pochi secondi!"
+    "message": "Importa le istanze dal launcher che usavi prima e sarai pronto a usare Panda Minecraft Launcher in pochi secondi!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -615,7 +615,7 @@
     "message": "di {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth App facilita la gestione di tutte le mod che hai scaricato in un unico posto. Puoi installarle, disinstallarle e aggiornarle con un solo clic."
+    "message": "Panda Minecraft Launcher facilita la gestione di tutte le mod che hai scaricato in un unico posto. Puoi installarle, disinstallarle e aggiornarle con un solo clic."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Mod installate"
@@ -633,7 +633,7 @@
     "message": "Versione"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth App è del tutto open source. Guarda il codice sorgente sul nostro <github-link>GitHub</github-link>!"
+    "message": "Panda Minecraft Launcher è del tutto open source. Guarda il codice sorgente sul nostro <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Open source"
@@ -645,7 +645,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App offre prestazioni migliori rispetto a molti dei principali gestori di mod!"
+    "message": "Panda Minecraft Launcher offre prestazioni migliori rispetto a molti dei principali gestori di mod!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -657,7 +657,7 @@
     "message": "Google Chrome"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miliardo %"
@@ -675,7 +675,7 @@
     "message": "Performante"
   },
   "app-marketing.features.play.description": {
-    "message": "Usa Modrinth App per scaricare e giocare alle mod e pacchetti che preferisci."
+    "message": "Usa Panda Minecraft Launcher per scaricare e giocare alle mod e pacchetti che preferisci."
   },
   "app-marketing.features.play.title": {
     "message": "Gioca con le mod che ami"
@@ -687,7 +687,7 @@
     "message": "Sincronizza le impostazioni"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Cerca e scegli tra le migliaia di mod e pacchetti presenti qui su Modrinth."
+    "message": "Cerca e scegli tra le migliaia di mod e pacchetti presenti qui su Panda Minecraft Launcher."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Pacchetto"
@@ -702,7 +702,7 @@
     "message": "Distinta dagli altri launcher"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App è integrata completamente con il sito, così puoi accedere a tutti i tuoi progetti preferiti direttamente dall'app!"
+    "message": "Panda Minecraft Launcher è integrata completamente con il sito, così puoi accedere a tutti i tuoi progetti preferiti direttamente dall'app!"
   },
   "app-marketing.features.website.title": {
     "message": "Integrata col sito"
@@ -711,19 +711,19 @@
     "message": "che tu abbia mai usato prima"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Schermata di Modrinth App con un'istanza di Cobblemon aperta sulla pagina \"Contenuti\"."
+    "message": "Schermata di Panda Minecraft Launcher con un'istanza di Cobblemon aperta sulla pagina \"Contenuti\"."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App è un launcher unico e open source che ti permette di giocare alle tue mod preferite e di tenerle aggiornate, il tutto in un unico e pratico pacchetto."
+    "message": "Panda Minecraft Launcher è un launcher unico e open source che ti permette di giocare alle tue mod preferite e di tenerle aggiornate, il tutto in un unico e pratico pacchetto."
   },
   "app-marketing.hero.download-button": {
-    "message": "Scarica Modrinth App"
+    "message": "Scarica Panda Minecraft Launcher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Scarica Modrinth App"
+    "message": "Scarica Panda Minecraft Launcher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Scarica Modrinth App per {os}"
+    "message": "Scarica Panda Minecraft Launcher per {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Schermata del menù principale dell'istanza Cobblemon."
@@ -783,7 +783,7 @@
     "message": "Data di nascita"
   },
   "auth.create-account.date-of-birth.not-meet-age-requirement": {
-    "message": "Non soddisfi i requisiti di età minimi per creare un account su Modrinth."
+    "message": "Non soddisfi i requisiti di età minimi per creare un account su Panda Minecraft Launcher."
   },
   "auth.create-account.date-of-birth.placeholder": {
     "message": "Seleziona la tua data di nascita"
@@ -795,7 +795,7 @@
     "message": "Data di nascita richiesta"
   },
   "auth.create-account.date-of-birth.under13-helper": {
-    "message": "Non puoi creare un account su Modrinth finché non avrai almeno 13 anni."
+    "message": "Non puoi creare un account su Panda Minecraft Launcher finché non avrai almeno 13 anni."
   },
   "auth.create-account.info-panel.source-code-link": {
     "message": "Codice sorgente pertinente"
@@ -810,7 +810,7 @@
     "message": "Controllo di sicurezza"
   },
   "auth.create-account.subscribe.label": {
-    "message": "Tienimi aggiornato sulle fantastiche cose a cui Modrinth sta lavorando tramite email"
+    "message": "Tienimi aggiornato sulle fantastiche cose a cui Panda Minecraft Launcher sta lavorando tramite email"
   },
   "auth.create-account.title": {
     "message": "Crea un account"
@@ -894,7 +894,7 @@
     "message": "Aggiungi account"
   },
   "auth.sign-in.choose-account": {
-    "message": "Scegli un account da utilizzare su Modrinth App"
+    "message": "Scegli un account da utilizzare su Panda Minecraft Launcher"
   },
   "auth.sign-in.choose-existing-account": {
     "message": "Usa un account esistente"
@@ -918,25 +918,25 @@
     "message": "Recente"
   },
   "auth.sign-in.launcher.callback.title": {
-    "message": "Accesso su Modrinth App"
+    "message": "Accesso su Panda Minecraft Launcher"
   },
   "auth.sign-in.launcher.complete.go-to-website": {
-    "message": "Vai su Modrinth.com"
+    "message": "Vai su Panda Minecraft Launcher"
   },
   "auth.sign-in.launcher.complete.return-button": {
-    "message": "Apri Modrinth App"
+    "message": "Apri Panda Minecraft Launcher"
   },
   "auth.sign-in.launcher.handoff-failed": {
-    "message": "Impossibile completare l'accesso a Modrinth App. Riprova."
+    "message": "Impossibile completare l'accesso a Panda Minecraft Launcher. Riprova."
   },
   "auth.sign-in.launcher.opening.description": {
     "message": "Se l'app non si apre, usa il pulsante sotto per terminare l'accesso."
   },
   "auth.sign-in.launcher.opening.title": {
-    "message": "Apertura di Modrinth App..."
+    "message": "Apertura di Panda Minecraft Launcher..."
   },
   "auth.sign-in.launcher.reauthenticate.title": {
-    "message": "Accedi a Modrinth App"
+    "message": "Accedi a Panda Minecraft Launcher"
   },
   "auth.sign-in.no-account": {
     "message": "Non hai un account?"
@@ -945,7 +945,7 @@
     "message": "Usa un account diverso"
   },
   "auth.sign-in.sign-in-with": {
-    "message": "Accedi a Modrinth"
+    "message": "Accedi a Panda Minecraft Launcher"
   },
   "auth.sign-in.title": {
     "message": "Accedi"
@@ -957,7 +957,7 @@
     "message": "Continua con l'email"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Creando un'account, accetti i <terms-link>Termini d'uso</terms-link> e l''<privacy-policy-link>Informativa sulla privacy</privacy-policy-link> di Modrinth."
+    "message": "Creando un'account, accetti i <terms-link>Termini d'uso</terms-link> e l''<privacy-policy-link>Informativa sulla privacy</privacy-policy-link> di Panda Minecraft Launcher."
   },
   "auth.sign-up.show-fewer-options": {
     "message": "Mostra meno opzioni"
@@ -1041,7 +1041,7 @@
     "message": "Vuoi davvero eliminare questa raccolta?"
   },
   "collection.description": {
-    "message": "{description} - Vedi la raccolta {name} di {username} su Modrinth"
+    "message": "{description} - Vedi la raccolta {name} di {username} su Panda Minecraft Launcher"
   },
   "collection.description-placeholder": {
     "message": "Questa è una raccolta di..."
@@ -1176,7 +1176,7 @@
     "message": "Rispondi al thread"
   },
   "conversation-thread.reply-modal.help-center-note": {
-    "message": "Se hai bisogno di contattare il team di moderazione, usa il <help-center-link>centro assistenza di Modrinth</help-center-link> e clicca sulla bolla blu nell'angolo in basso a destra."
+    "message": "Se hai bisogno di contattare il team di moderazione, usa il <help-center-link>centro assistenza di Panda Minecraft Launcher</help-center-link> e clicca sulla bolla blu nell'angolo in basso a destra."
   },
   "conversation-thread.reply.addresses": {
     "message": "Questo messaggio risponde alle seguenti spiegazioni richieste:"
@@ -1593,7 +1593,7 @@
     "message": "Modulo fiscale incompleto"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth usa Track1099, un fornitore terzo, per raccogliere e memorizzare i moduli fiscali in modo sicuro. <security-link>Scopri di più qui.</security-link>"
+    "message": "Panda Minecraft Launcher usa Track1099, un fornitore terzo, per raccogliere e memorizzare i moduli fiscali in modo sicuro. <security-link>Scopri di più qui.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Pratiche di sicurezza"
@@ -1773,7 +1773,7 @@
     "message": "Per prelevare l'intero bilancio disponibile di <b>{available}</b>, compila il modulo sottostante. È necessario ai fini della dichiarazione dei redditi e deve essere compilato solo una volta."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Devi compilare un modulo W-9 o W-8 per la dichiarazione dei redditi di Modrinth, affinché possiamo rimanere a norma."
+    "message": "Devi compilare un modulo W-9 o W-8 per la dichiarazione dei redditi di Panda Minecraft Launcher, affinché possiamo rimanere a norma."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Modulo fiscale obbligatorio"
@@ -1836,7 +1836,7 @@
     "message": "Email non verificata"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "L'email di consegna che hai inserito non è associata al tuo account Modrinth. Modrinth non può recuperare i premi inviati a una email sbagliata."
+    "message": "L'email di consegna che hai inserito non è associata al tuo account Panda Minecraft Launcher. Panda Minecraft Launcher non può recuperare i premi inviati a una email sbagliata."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Commissioni inferiori disponibili"
@@ -1860,7 +1860,7 @@
     "message": "Hai consumato l'intero tuo limite di <b>{withdrawLimit}</b>. Dovrai compilare un modulo fiscale per prelevare di più."
   },
   "dashboard.discord-roles.banner.body": {
-    "message": "Puoi rivendicare i seguenti ruoli: {roles}. Collega il tuo account Discord a Modrinth per sincronizzarli."
+    "message": "Puoi rivendicare i seguenti ruoli: {roles}. Collega il tuo account Discord a Panda Minecraft Launcher per sincronizzarli."
   },
   "dashboard.discord-roles.banner.cta": {
     "message": "Collega Discord"
@@ -2043,7 +2043,7 @@
     "message": "Le entrate stimate potrebbero subire variazioni fino a quando saranno disponibili."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Clicca per sapere come Modrinth gestisce i tuoi guadagni."
+    "message": "Clicca per sapere come Panda Minecraft Launcher gestisce i tuoi guadagni."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Previsti per il {date}"
@@ -2064,7 +2064,7 @@
     "message": "Prelevati"
   },
   "dashboard.revenue.tos": {
-    "message": "Caricando progetti su Modrinth e prelevando denaro dal tuo account, accetti i <terms-link>termini del Programma Premi</terms-link>. Scopri di più sul <info-link>Programma Premi</info-link>."
+    "message": "Caricando progetti su Panda Minecraft Launcher e prelevando denaro dal tuo account, accetti i <terms-link>termini del Programma Premi</terms-link>. Scopri di più sul <info-link>Programma Premi</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Scarica come CSV"
@@ -2253,7 +2253,7 @@
     "message": "Contenuti da installare dopo il ripristino"
   },
   "discover.seo.description": {
-    "message": "Cerca ed esplora tra migliaia di {projectType} presenti su Modrinth attraverso ricerche rapide e accurate. I nostri filtri ti aiuteranno a trovare quello che fa al caso tuo."
+    "message": "Cerca ed esplora tra migliaia di {projectType} presenti su Panda Minecraft Launcher attraverso ricerche rapide e accurate. I nostri filtri ti aiuteranno a trovare quello che fa al caso tuo."
   },
   "discover.seo.title": {
     "message": "Cerca {projectType}"
@@ -2268,7 +2268,7 @@
     "message": "La raccolta potrebbe essere privata."
   },
   "error.collection.404.list_item.3": {
-    "message": "La raccolta potrebbe essere stata rimossa dal team di moderazione di Modrinth per violazioni dei nostri <tou-link>termini d'uso</tou-link>."
+    "message": "La raccolta potrebbe essere stata rimossa dal team di moderazione di Panda Minecraft Launcher per violazioni dei nostri <tou-link>termini d'uso</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Perché?"
@@ -2301,10 +2301,10 @@
     "message": "Contenuto non disponibile per motivi legali"
   },
   "error.generic.default.list_item.1": {
-    "message": "Verifica se Modrinth è fuori uso sulla nostra <status-link>pagina Stato</status-link>."
+    "message": "Verifica se Panda Minecraft Launcher è fuori uso sulla nostra <status-link>pagina Stato</status-link>."
   },
   "error.generic.default.list_item.support": {
-    "message": "Se questo continua, dovresti informare il team di Modrinth attraverso il nostro <support-link>portale di assistenza</support-link>."
+    "message": "Se questo continua, dovresti informare il team di Panda Minecraft Launcher attraverso il nostro <support-link>portale di assistenza</support-link>."
   },
   "error.generic.default.list_title": {
     "message": "Riprova tra qualche minuto."
@@ -2322,7 +2322,7 @@
     "message": "Il proprietario dell'organizzazione potrebbe averne cambiato l'URL o averla eliminata."
   },
   "error.organization.404.list_item.3": {
-    "message": "L'organizzazione potrebbe essere stata rimossa dal team di moderazione di Modrinth per violazioni dei nostri <tou-link>Termini d'uso</tou-link>."
+    "message": "L'organizzazione potrebbe essere stata rimossa dal team di moderazione di Panda Minecraft Launcher per violazioni dei nostri <tou-link>Termini d'uso</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Perché?"
@@ -2337,7 +2337,7 @@
     "message": "Il proprietario del progetto potrebbe averne cambiato l'URL, reso privato, o eliminato."
   },
   "error.project.404.list_item.3": {
-    "message": "Il progetto potrebbe essere stato rimosso dal team di moderazione di Modrinth per violazioni dei nostri <tou-link>Termini d'uso</tou-link>."
+    "message": "Il progetto potrebbe essere stato rimosso dal team di moderazione di Panda Minecraft Launcher per violazioni dei nostri <tou-link>Termini d'uso</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Perché?"
@@ -2352,7 +2352,7 @@
     "message": "L'utente potrebbe aver cambiato nome, o eliminato l'account."
   },
   "error.user.404.list_item.3": {
-    "message": "L'account dell'utente potrebbe essere stato chiuso per violazioni dei <tou-link>Termini d'uso</tou-link> di Modrinth."
+    "message": "L'account dell'utente potrebbe essere stato chiuso per violazioni dei <tou-link>Termini d'uso</tou-link> di Panda Minecraft Launcher."
   },
   "error.user.404.list_title": {
     "message": "Perché?"
@@ -2394,10 +2394,10 @@
     "message": "Quando il tuo server è sovraccaricato, gli concediamo temporaneamente accesso a più thread di CPU per aiutare a mitigare instabilità e lag. Ciò aiuta a prevenire che i TPS scendano sotto il 20, garantendo un'esperienza più fluida possibile. Data la natura di questi thread aggiuntivi, essi potrebbero non essere rilevati dagli strumenti di profilazione."
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Su quali CPU lavorano i server di Modrinth Hosting?"
+    "message": "Su quali CPU lavorano i server di Panda Minecraft Launcher?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "I server di Modrinth Hosting sono alimentati da AMD Ryzen 7950X o equivalenti a 9950X, assieme a memoria DDR5."
+    "message": "I server di Panda Minecraft Launcher sono alimentati da AMD Ryzen 7950X o equivalenti a 9950X, assieme a memoria DDR5."
   },
   "hosting-marketing.faq.currency": {
     "message": "In che valuta sono i prezzi?"
@@ -2406,19 +2406,19 @@
     "message": "Tutti i prezzi mostrati sono in dollari statunitensi (USD)."
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "I server di Modrinth Hosting hanno protezione da DDoS?"
+    "message": "I server di Panda Minecraft Launcher hanno protezione da DDoS?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Sì. Tutti i server di Modrinth Hosting hanno protezioni anti-DDoS, con una capacità fino a 17 Tbps in alcune località."
+    "message": "Sì. Tutti i server di Panda Minecraft Launcher hanno protezioni anti-DDoS, con una capacità fino a 17 Tbps in alcune località."
   },
   "hosting-marketing.faq.heading": {
     "message": "Domande frequenti (FAQ)"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Quanto sono veloci i server di Modrinth Hosting?"
+    "message": "Quanto sono veloci i server di Panda Minecraft Launcher?"
   },
   "hosting-marketing.faq.how-fast.answer.one": {
-    "message": "I server di Modrinth Hosting sono alimentati da hardware modernissimo e ad alta efficienza, ma è difficile quantificare con certezza la velocità del tuo server. Molti fattori la possono influenzare, tra cui le mod, i pacchetti di dati o i plugin che hai installato, e anche da come lo si utilizza."
+    "message": "I server di Panda Minecraft Launcher sono alimentati da hardware modernissimo e ad alta efficienza, ma è difficile quantificare con certezza la velocità del tuo server. Molti fattori la possono influenzare, tra cui le mod, i pacchetti di dati o i plugin che hai installato, e anche da come lo si utilizza."
   },
   "hosting-marketing.faq.how-fast.answer.two": {
     "message": "La maggior parte dei problemi di prestazioni che si verificano sono causati da mod, pacchetti di mod o di dati, o plugin mal ottimizzati che causano lag nel server. Poiché i nostri server sono di alta gamma, non dovresti riscontrare molti problemi a condizione che tu abbia scelto il piano adeguato al contenuto che andrai a installare."
@@ -2427,10 +2427,10 @@
     "message": "Posso aumentare lo spazio di archiviazione del mio server?"
   },
   "hosting-marketing.faq.increase-storage.answer": {
-    "message": "Sì, puoi aumentare lo spazio di archiviazione del tuo server senza costi aggiunti. Se ne avessi bisogno, contatta l'assistenza di Modrinth."
+    "message": "Sì, puoi aumentare lo spazio di archiviazione del tuo server senza costi aggiunti. Se ne avessi bisogno, contatta l'assistenza di Panda Minecraft Launcher."
   },
   "hosting-marketing.faq.location": {
-    "message": "Dove sono situati i server di Modrinth Hosting? Posso scegliere la regione?"
+    "message": "Dove sono situati i server di Panda Minecraft Launcher? Posso scegliere la regione?"
   },
   "hosting-marketing.faq.location.answer": {
     "message": "Al momento abbiamo server disponibili in Nord America, in Europa, nel Sud-est asiatico e in Australia che puoi scegliere al momento dell'acquisto. Altre regioni arriveranno in futuro! Se desideri cambiare regione, contatta l'assistenza."
@@ -2439,7 +2439,7 @@
     "message": "Quali versioni di Minecraft e dei loader posso usare?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "I server di Modrinth Hosting possono eseguire qualsiasi versione di Minecraft: Java Edition superiore alla 1.2.5, inclusi gli snapshot."
+    "message": "I server di Panda Minecraft Launcher possono eseguire qualsiasi versione di Minecraft: Java Edition superiore alla 1.2.5, inclusi gli snapshot."
   },
   "hosting-marketing.faq.versions-loaders.answer.two": {
     "message": "Supportiamo anche un'ampia gamma di loader di mod e plugin, tra cui Fabric, Quilt, Forge e NeoForge per le mod, così come Paper e Purpur per i plugin. È necessario però che questi loader supportino la versione di Minecraft scelta."
@@ -2457,10 +2457,10 @@
     "message": "Avvia il tuo server"
   },
   "hosting-marketing.hero.host-with-modrinth": {
-    "message": "Scegli Modrinth Hosting per il tuo nuovo server"
+    "message": "Scegli Panda Minecraft Launcher per il tuo nuovo server"
   },
   "hosting-marketing.hero.hosting-description": {
-    "message": "Modrinth Hosting è il modo più facile per gestire il tuo server personale per Minecraft: Java Edition. Installa e gioca alle tue mod e pacchetti preferiti, tutto tramite la piattaforma Modrinth."
+    "message": "Panda Minecraft Launcher è il modo più facile per gestire il tuo server personale per Minecraft: Java Edition. Installa e gioca alle tue mod e pacchetti preferiti, tutto tramite la piattaforma Panda Minecraft Launcher."
   },
   "hosting-marketing.included.advanced-networking": {
     "message": "Gestione reti avanzata"
@@ -2481,7 +2481,7 @@
     "message": "Condividi il tuo server con un URL <contrast>modrinth.gg</contrast> personalizzato."
   },
   "hosting-marketing.included.description": {
-    "message": "Per tutti i server offriamo una serie di funzioni pensate per garantirti un'esperienza di hosting che solo Modrinth può dare."
+    "message": "Per tutti i server offriamo una serie di funzioni pensate per garantirti un'esperienza di hosting che solo Panda Minecraft Launcher può dare."
   },
   "hosting-marketing.included.file-manager": {
     "message": "Gestore dei file semplice da usare"
@@ -2496,19 +2496,19 @@
     "message": "Assistenza quando serve"
   },
   "hosting-marketing.included.help.description": {
-    "message": "Contatta il team di Modrinth per ricevere assistenza sul tuo server in qualsiasi momento."
+    "message": "Contatta il team di Panda Minecraft Launcher per ricevere assistenza sul tuo server in qualsiasi momento."
   },
   "hosting-marketing.included.powerful-console": {
     "message": "Una console potente, un gestore delle proprietà del server, e altro"
   },
   "hosting-marketing.included.powerful-console.description": {
-    "message": "Modrinth Hosting offre molti strumenti potenti per gestire il tuo server."
+    "message": "Panda Minecraft Launcher offre molti strumenti potenti per gestire il tuo server."
   },
   "hosting-marketing.included.sftp-access": {
     "message": "Accesso SFTP"
   },
   "hosting-marketing.included.sftp-access.description": {
-    "message": "Accedi direttamente ai file del tuo server tramite SFTP supportato da Modrinth Hosting."
+    "message": "Accedi direttamente ai file del tuo server tramite SFTP supportato da Panda Minecraft Launcher."
   },
   "hosting-marketing.included.with-your-server": {
     "message": "Incluso col tuo server"
@@ -2550,19 +2550,19 @@
     "message": "C'è un server per tutti"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Gestisci tutto su Modrinth"
+    "message": "Gestisci tutto su Panda Minecraft Launcher"
   },
   "hosting-marketing.why.all-on-modrinth.description": {
-    "message": "I tuoi server, mod, giocatori e molto altro sono qui su Modrinth. Non c'è bisogno di cambiare piattaforme."
+    "message": "I tuoi server, mod, giocatori e molto altro sono qui su Panda Minecraft Launcher. Non c'è bisogno di cambiare piattaforme."
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "Sempre veloce"
   },
   "hosting-marketing.why.consistently-fast.description": {
-    "message": "La nostra infrastruttura non è mai sovraccarica, quindi ogni server gestito da Modrinth funzionerà sempre al massimo delle prestazioni."
+    "message": "La nostra infrastruttura non è mai sovraccarica, quindi ogni server gestito da Panda Minecraft Launcher funzionerà sempre al massimo delle prestazioni."
   },
   "hosting-marketing.why.description": {
-    "message": "Scegli tra migliaia di pacchetti di mod da Modrinth o createne uno tutto tuo. Invita chi vuoi quando tutto è pronto per giocare."
+    "message": "Scegli tra migliaia di pacchetti di mod da Panda Minecraft Launcher o createne uno tutto tuo. Invita chi vuoi quando tutto è pronto per giocare."
   },
   "hosting-marketing.why.heading": {
     "message": "Trova un pacchetto di mod. Ora è un server."
@@ -2571,22 +2571,22 @@
     "message": "Prova un hosting moderno e affidabile"
   },
   "hosting-marketing.why.modern-reliable-hosting.description": {
-    "message": "I server di Modrinth Hosting girano su <contrast>CPU AMD ad alte prestazioni con RAM DDR5</contrast>, su software personalizzato per assicurare che i tuoi server funzionino alla perfezione."
+    "message": "I server di Panda Minecraft Launcher girano su <contrast>CPU AMD ad alte prestazioni con RAM DDR5</contrast>, su software personalizzato per assicurare che i tuoi server funzionino alla perfezione."
   },
   "hosting-marketing.why.where-mods-are": {
     "message": "Trova una mod e includila nel server"
   },
   "hosting-marketing.why.where-mods-are.description": {
-    "message": "Modrinth Hosting rende immediata l'installazione di mod e pacchetti sul tuo server."
+    "message": "Panda Minecraft Launcher rende immediata l'installazione di mod e pacchetti sul tuo server."
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Perché Modrinth Hosting?"
+    "message": "Perché Panda Minecraft Launcher?"
   },
   "hosting-marketing.why.your-favorite-mods": {
     "message": "Tutte le tue mod preferite"
   },
   "hosting-marketing.why.your-favorite-mods.description": {
-    "message": "Scegli tra Vanilla, Fabric, Forge, Quilt e NeoForge. Se è su Modrinth, il tuo server può usarlo."
+    "message": "Scegli tra Vanilla, Fabric, Forge, Quilt e NeoForge. Se è su Panda Minecraft Launcher, il tuo server può usarlo."
   },
   "hosting.plan.out-of-stock": {
     "message": "Non disponibile"
@@ -2601,7 +2601,7 @@
     "message": "Bacheca"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Ricevi l'esperienza di modding migliore con aggiornamenti regolari dal team di Modrinth"
+    "message": "Ricevi l'esperienza di modding migliore con aggiornamenti regolari dal team di Panda Minecraft Launcher"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Sempre in evoluzione"
@@ -2646,13 +2646,13 @@
     "message": "Segui i progetti che ami"
   },
   "landing.feature.launcher.description": {
-    "message": "L'API open source di Modrinth permette ai launcher di integrarsi profondamente con Modrinth. Puoi usare Modrinth tramite la <link>nostra app</link> e anche su altri launcher popolari come ATLauncher, MultiMC e Prism Launcher."
+    "message": "L'API open source di Panda Minecraft Launcher permette ai launcher di integrarsi profondamente con Panda Minecraft Launcher. Puoi usare Panda Minecraft Launcher tramite la <link>nostra app</link> e anche su altri launcher popolari come ATLauncher, MultiMC e Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Gioca con il launcher che preferisci"
   },
   "landing.feature.search.description": {
-    "message": "Tramite la ricerca e i filtri di Modrinth potrai trovare tutto ciò che ti serve alla velocità della luce."
+    "message": "Tramite la ricerca e i filtri di Panda Minecraft Launcher potrai trovare tutto ciò che ti serve alla velocità della luce."
   },
   "landing.feature.search.heading": {
     "message": "Trova quel che cerchi in modo facile e veloce"
@@ -2685,10 +2685,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Una rappresentazione stilizzata di una finestra di Minecraft con il logo di Mojang Studios colorato del verde di Modrinth."
+    "message": "Una rappresentazione stilizzata di una finestra di Minecraft con il logo di Mojang Studios colorato del verde di Panda Minecraft Launcher."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -2778,13 +2778,13 @@
     "message": "Vedi le impostazioni dell'account"
   },
   "layout.banner.add-email.description": {
-    "message": "Per motivi di sicurezza, Modrinth richiede l'associazione di un indirizzo email al tuo account."
+    "message": "Per motivi di sicurezza, Panda Minecraft Launcher richiede l'associazione di un indirizzo email al tuo account."
   },
   "layout.banner.build-fail.always-ignore": {
     "message": "Non mostrare più"
   },
   "layout.banner.build-fail.description": {
-    "message": "Questo deploy del frontend di Modrinth non è riuscito a generare uno stato dall'API. Questo potrebbe essere dovuto a un malfunzionamento o a un errore nella configurazione. Rieffettua il build quando l'API è disponibile. Codici di errore: {errors}; L'URL di API corrente è: {url}"
+    "message": "Questo deploy del frontend di Panda Minecraft Launcher non è riuscito a generare uno stato dall'API. Questo potrebbe essere dovuto a un malfunzionamento o a un errore nella configurazione. Rieffettua il build quando l'API è disponibile. Codici di errore: {errors}; L'URL di API corrente è: {url}"
   },
   "layout.banner.build-fail.ignore": {
     "message": "Ignora"
@@ -2793,16 +2793,16 @@
     "message": "Errore nella generazione dello stato dall'API durante il build."
   },
   "layout.banner.preview.description": {
-    "message": "Se volevi accedere al sito ufficiale, visita {url}. Questa versione serve allo staff di Modrinth per condurre test; basata su {ref}."
+    "message": "Se volevi accedere al sito ufficiale, visita {url}. Questa versione serve allo staff di Panda Minecraft Launcher per condurre test; basata su {ref}."
   },
   "layout.banner.preview.title": {
-    "message": "Questa versione del sito di Modrinth è un'anteprima."
+    "message": "Questa versione del sito di Panda Minecraft Launcher è un'anteprima."
   },
   "layout.banner.staging.description": {
-    "message": "L'ambiente di staging è completamente separato dal database di produzione di Modrinth. Questo ambiente è usato per testing e debugging e potrebbe eseguire versioni ancora in sviluppo del backend o del frontend di Modrinth."
+    "message": "L'ambiente di staging è completamente separato dal database di produzione di Panda Minecraft Launcher. Questo ambiente è usato per testing e debugging e potrebbe eseguire versioni ancora in sviluppo del backend o del frontend di Panda Minecraft Launcher."
   },
   "layout.banner.staging.title": {
-    "message": "Stai visualizzando l'ambiente di staging di Modrinth"
+    "message": "Stai visualizzando l'ambiente di staging di Panda Minecraft Launcher"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Aggiorna informazioni di pagamento"
@@ -2817,7 +2817,7 @@
     "message": "Completa il modulo fiscale"
   },
   "layout.banner.tax.description": {
-    "message": "Hai già prelevato oltre {threshold} da Modrinth quest'anno. Per essere in regola con le norme fiscali devi completare un modulo fiscale. I tuoi prelievi saranno sospesi finché questo modulo sarà inviato."
+    "message": "Hai già prelevato oltre {threshold} da Panda Minecraft Launcher quest'anno. Per essere in regola con le norme fiscali devi completare un modulo fiscale. I tuoi prelievi saranno sospesi finché questo modulo sarà inviato."
   },
   "layout.banner.tax.title": {
     "message": "Modulo fiscale obbligatorio"
@@ -2835,7 +2835,7 @@
     "message": "Reinvia email di verifica"
   },
   "layout.banner.verify-email.description": {
-    "message": "Per motivi di sicurezza, Modrinth richiede la verifica dell'indirizzo email associato al tuo account."
+    "message": "Per motivi di sicurezza, Panda Minecraft Launcher richiede la verifica dell'indirizzo email associato al tuo account."
   },
   "layout.footer.about": {
     "message": "Chi siamo"
@@ -2892,22 +2892,22 @@
     "message": "Termini d'uso"
   },
   "layout.footer.modrinth-information": {
-    "message": "Informazioni Modrinth"
+    "message": "Informazioni Panda Minecraft Launcher"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth è <github-link>open source</github-link>."
+    "message": "Panda Minecraft Launcher è <github-link>open source</github-link>."
   },
   "layout.footer.products": {
     "message": "Prodotti"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.resources": {
     "message": "Risorse"
@@ -2949,7 +2949,7 @@
     "message": "Mostra/Nascondi menù"
   },
   "layout.meta.description": {
-    "message": "Scarica mod, plugin, shader, pacchetti di dati, di risorse e di mod per Minecraft tramite Modrinth. Scopri e pubblica progetti su Modrinth con un'interfaccia e un'API moderne e facili da usare."
+    "message": "Scarica mod, plugin, shader, pacchetti di dati, di risorse e di mod per Minecraft tramite Panda Minecraft Launcher. Scopri e pubblica progetti su Panda Minecraft Launcher con un'interfaccia e un'API moderne e facili da usare."
   },
   "layout.meta.og-description": {
     "message": "Scopri e pubblica contenuti per Minecraft!"
@@ -2970,7 +2970,7 @@
     "message": "Esplora"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Scarica Modrinth App"
+    "message": "Scarica Panda Minecraft Launcher"
   },
   "layout.nav.home": {
     "message": "Home"
@@ -2979,10 +2979,10 @@
     "message": "Crea un server"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Pagina home Modrinth"
+    "message": "Pagina home Panda Minecraft Launcher"
   },
   "layout.nav.my-servers": {
     "message": "I miei server"
@@ -3015,13 +3015,13 @@
     "message": "Impossibile cambiare account. Riprova più tardi."
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Abbonati a Modrinth+"
+    "message": "Abbonati a Panda Minecraft Launcher"
   },
   "layout.nav.use-signed-out": {
     "message": "Uso disconnesso"
   },
   "layout.publish.email-verification-required.description": {
-    "message": "Devi verificare l'indirizzo email prima di pubblicare su Modrinth."
+    "message": "Devi verificare l'indirizzo email prima di pubblicare su Panda Minecraft Launcher."
   },
   "layout.publish.email-verification-required.title": {
     "message": "Verifica email richiesta"
@@ -3039,19 +3039,19 @@
     "message": "Aggiorna i contenuti non appena lo fanno loro"
   },
   "modal.shared-instance.open-in-app.get-app": {
-    "message": "Scarica Modrinth App"
+    "message": "Scarica Panda Minecraft Launcher"
   },
   "modal.shared-instance.open-in-app.managed-by": {
     "message": "Gestita da"
   },
   "modal.shared-instance.open-in-app.opening-automatically": {
-    "message": "Modrinth App si aprirà automaticamente..."
+    "message": "Panda Minecraft Launcher si aprirà automaticamente..."
   },
   "modal.shared-instance.open-in-app.title": {
-    "message": "Apri Modrinth App"
+    "message": "Apri Panda Minecraft Launcher"
   },
   "modal.shared-instance.open-in-app.why-use": {
-    "message": "Perché usare Modrinth App"
+    "message": "Perché usare Panda Minecraft Launcher"
   },
   "moderation.appearance.apply": {
     "message": "Applica"
@@ -3729,7 +3729,7 @@
     "message": "Ripresenta per la revisione"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Il progetto è stato {status, select, rejected {rifiutato} withheld {sospeso} other {{status}}} dallo staff di Modrinth. Nella maggior parte dei casi puoi richiedere una revisione dopo aver risposto ai messaggi dello staff."
+    "message": "Il progetto è stato {status, select, rejected {rifiutato} withheld {sospeso} other {{status}}} dallo staff di Panda Minecraft Launcher. Nella maggior parte dei casi puoi richiedere una revisione dopo aver risposto ai messaggi dello staff."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Devi completare i passaggi obbligatori nella checklist di pubblicazione!"
@@ -3843,7 +3843,7 @@
     "message": "Riscansiona pacchetto"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting è il modo più facile per giocare insieme spensieratamente!"
+    "message": "Panda Minecraft Launcher è il modo più facile per giocare insieme spensieratamente!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "A partire da {price}<small> al mese</small>"
@@ -3864,7 +3864,7 @@
     "message": "L'utilizzo di immagini generate dall'IA per rappresentare il progetto è vietato. Tentare di aggirare il rilevamento potrebbe portare alla sospensione dell'account."
   },
   "project.ai-image-warning-modal.body.2": {
-    "message": "Per ulteriori informazioni, consulta la sezione 6 delle <rules>Regole sui contenuti di Modrinth</rules>."
+    "message": "Per ulteriori informazioni, consulta la sezione 6 delle <rules>Regole sui contenuti di Panda Minecraft Launcher</rules>."
   },
   "project.ai-image-warning-modal.title": {
     "message": "Immagini generate dall'IA vietate"
@@ -3978,13 +3978,13 @@
     "message": "{title} non supporta {platform} per {gameVersion}"
   },
   "project.download.install-with-app": {
-    "message": "Installa con Modrinth App"
+    "message": "Installa con Panda Minecraft Launcher"
   },
   "project.download.manually": {
     "message": "Scarica manualmente"
   },
   "project.download.no-app": {
-    "message": "Non hai Modrinth App?"
+    "message": "Non hai Panda Minecraft Launcher?"
   },
   "project.download.no-game-versions-found": {
     "message": "Nessuna versione del gioco trovata"
@@ -4029,7 +4029,7 @@
     "message": "Impossibile scaricare i file"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Abbiamo appena rivisto il sistema di ambienti su Modrinth e ora sono disponibili nuove opzioni. Non hai il permesso di modificare queste impostazioni; chiedi a un altro membro del progetto di verificare i metadati d'ambiente."
+    "message": "Abbiamo appena rivisto il sistema di ambienti su Panda Minecraft Launcher e ora sono disponibili nuove opzioni. Non hai il permesso di modificare queste impostazioni; chiedi a un altro membro del progetto di verificare i metadati d'ambiente."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Metadati d'ambiente devono essere rivisti"
@@ -4038,7 +4038,7 @@
     "message": "Maggiori dettagli su questo cambiamento"
   },
   "project.environment.migration.message": {
-    "message": "Abbiamo appena rivisitato il sistema di ambienti su Modrinth e ora sono disponibili nuove opzioni. Verifica che i metadati siano corretti."
+    "message": "Abbiamo appena rivisitato il sistema di ambienti su Panda Minecraft Launcher e ora sono disponibili nuove opzioni. Verifica che i metadati siano corretti."
   },
   "project.environment.migration.review-button": {
     "message": "Rivedi impostazioni d'ambiente"
@@ -4065,10 +4065,10 @@
     "message": "Il progetto è privato: solo tu e chiunque inviti potranno accederci."
   },
   "project.moderation.admonition.approved.body.public": {
-    "message": "Il progetto è pubblico e accessibile su Modrinth."
+    "message": "Il progetto è pubblico e accessibile su Panda Minecraft Launcher."
   },
   "project.moderation.admonition.approved.body.unlisted": {
-    "message": "Il progetto è fuori elenco: sarà accessibile solo tramite link e non apparirà su Modrinth."
+    "message": "Il progetto è fuori elenco: sarà accessibile solo tramite link e non apparirà su Panda Minecraft Launcher."
   },
   "project.moderation.admonition.approved.body.visibility-message": {
     "message": "Puoi modificare la visibilità del progetto nelle <visibility-settings-link>impostazioni di visibilità</visibility-settings-link>."
@@ -4077,7 +4077,7 @@
     "message": "Progetto approvato"
   },
   "project.moderation.admonition.draft.body": {
-    "message": "Questo progetto è in bozza e sarà pubblico solo quando verrà revisionato e approvato dal team di moderazione di Modrinth."
+    "message": "Questo progetto è in bozza e sarà pubblico solo quando verrà revisionato e approvato dal team di moderazione di Panda Minecraft Launcher."
   },
   "project.moderation.admonition.draft.header": {
     "message": "Progetto in bozza"
@@ -4095,7 +4095,7 @@
     "message": "Ripresentare il progetto di continuo senza rispondere ai moderatori potrebbe portare alla sospensione dell'account."
   },
   "project.moderation.admonition.under-review.body.1": {
-    "message": "Il progetto è in coda per essere revisionato dal team di moderazione di Modrinth."
+    "message": "Il progetto è in coda per essere revisionato dal team di moderazione di Panda Minecraft Launcher."
   },
   "project.moderation.admonition.under-review.body.2": {
     "message": "Il progetto sarà scansionato, poi analizzato manualmente dai moderatori per assicurarsi che rispetti le <rules-link>Regole sui contenuti</rules-link> e i <terms-link>Termini d'uso</terms-link>."
@@ -4110,7 +4110,7 @@
     "message": "Puntiamo a revisionare i progetti entro una settimana, ma potrebbero esserci dei ritardi. Ciò non vuol dire che abbiamo trovato un problema."
   },
   "project.moderation.admonition.under-review.body.5": {
-    "message": "<emphasis>Apprezziamo la tua pazienza. Mentre i nostri moderatori si impegnano a tenere Modrinth un posto sicuro, non vediamo l'ora di aiutare a condividere i tuoi contenuti! 💚</emphasis>"
+    "message": "<emphasis>Apprezziamo la tua pazienza. Mentre i nostri moderatori si impegnano a tenere Panda Minecraft Launcher un posto sicuro, non vediamo l'ora di aiutare a condividere i tuoi contenuti! 💚</emphasis>"
   },
   "project.moderation.admonition.under-review.header": {
     "message": "Progetto in revisione"
@@ -4134,10 +4134,10 @@
     "message": "I moderatori non forniscono supporto per tutti i problemi e i messaggi inviati non raggiungono lo staff."
   },
   "project.moderation.thread.help-center-note.2": {
-    "message": "Se hai bisogno di assistenza o hai altre richieste, visita il <help-center-link>centro assistenza di Modrinth</help-center-link> e clicca sulla bolla blu nell'angolo in basso a destra."
+    "message": "Se hai bisogno di assistenza o hai altre richieste, visita il <help-center-link>centro assistenza di Panda Minecraft Launcher</help-center-link> e clicca sulla bolla blu nell'angolo in basso a destra."
   },
   "project.moderation.thread.private-description": {
-    "message": "Questa è una conversazione privata con i moderatori di Modrinth. Sarai contattato per eventuali problemi riguardanti questo progetto."
+    "message": "Questa è una conversazione privata con i moderatori di Panda Minecraft Launcher. Sarai contattato per eventuali problemi riguardanti questo progetto."
   },
   "project.moderation.thread.title": {
     "message": "Messaggi di moderazione"
@@ -4206,7 +4206,7 @@
     "message": "Vuoi davvero eliminare questo progetto?"
   },
   "project.settings.delete-project.description.1": {
-    "message": "Elimina il progetto per sempre. I progetti eliminati <emphasis>non possono essere recuperati</emphasis> né dallo staff né dall'assistenza di Modrinth."
+    "message": "Elimina il progetto per sempre. I progetti eliminati <emphasis>non possono essere recuperati</emphasis> né dallo staff né dall'assistenza di Panda Minecraft Launcher."
   },
   "project.settings.delete-project.description.2": {
     "message": "I file di questo progetto che sono attivamente usati da pacchetti di mod continueranno a esistere."
@@ -4230,10 +4230,10 @@
     "message": "Da abilitare se il progetto contiene annunci, sponsorizzazioni o altre pubblicità."
   },
   "project.settings.disclosures.advertising.description.2": {
-    "message": "Ciò non riguarda la promozione discreta di contenuti senza alcun valore monetario diretto (come il link a un profilo Modrinth nel menù di configurazione) e gli annunci nella pagina del progetto."
+    "message": "Ciò non riguarda la promozione discreta di contenuti senza alcun valore monetario diretto (come il link a un profilo Panda Minecraft Launcher nel menù di configurazione) e gli annunci nella pagina del progetto."
   },
   "project.settings.disclosures.advertising.note-placeholder": {
-    "message": "es: Aggiunge automaticamente Modrinth SMP alla tua lista di server."
+    "message": "es: Aggiunge automaticamente Panda Minecraft Launcher SMP alla tua lista di server."
   },
   "project.settings.disclosures.advertising.title": {
     "message": "Contiene annunci"
@@ -4257,7 +4257,7 @@
     "message": "es: Le traduzioni in cinese e in arabo sono generate dall'IA."
   },
   "project.settings.disclosures.ai.still-unsure": {
-    "message": "Hai dei dubbi? Consulta la nostra guida sulle <faq-link>Informative e utilizzo dell'IA</faq-link> e la sezione 6 delle <rules>Regole sui contenuti di Modrinth</rules>."
+    "message": "Hai dei dubbi? Consulta la nostra guida sulle <faq-link>Informative e utilizzo dell'IA</faq-link> e la sezione 6 delle <rules>Regole sui contenuti di Panda Minecraft Launcher</rules>."
   },
   "project.settings.disclosures.ai.title": {
     "message": "Contiene contenuti generati dall'IA"
@@ -4311,7 +4311,7 @@
     "message": "Contiene contenuti derivati"
   },
   "project.settings.disclosures.description": {
-    "message": "Applica tutte le informative necessarie al progetto, in conformità con le <rules>Regole sui contenuti di Modrinth</rules>."
+    "message": "Applica tutte le informative necessarie al progetto, in conformità con le <rules>Regole sui contenuti di Panda Minecraft Launcher</rules>."
   },
   "project.settings.disclosures.description.2": {
     "message": "Hai dei dubbi su come applicare le informative? Controlla le nostre <faq-link>Domande frequenti sulle informative sui contenuti</faq-link>."
@@ -4620,7 +4620,7 @@
     "message": "Una pagina che contiene informazioni, guide o la documentazione del progetto."
   },
   "project.settings.monetization.description": {
-    "message": "I progetti su Modrinth vengono automaticamente iscritti al <rewards-program-link>Programma Premi</rewards-program-link>. Se non vuoi guadagnare da questo progetto (o non puoi per motivi legali), puoi disattivarlo qui."
+    "message": "I progetti su Panda Minecraft Launcher vengono automaticamente iscritti al <rewards-program-link>Programma Premi</rewards-program-link>. Se non vuoi guadagnare da questo progetto (o non puoi per motivi legali), puoi disattivarlo qui."
   },
   "project.settings.monetization.disabled-description": {
     "message": "Questo progetto non è idoneo alla monetizzazione. Se pensi che ciò sia un errore, <contact-support-link>contatta il supporto</contact-support-link>."
@@ -4641,7 +4641,7 @@
     "message": "{count, plural, =0 {Nulla} other {#}} in attesa di revisione"
   },
   "project.settings.permissions.bad-proof.description": {
-    "message": "Il team di moderazione di Modrinth ha rifiutato i permessi che hai dimostrato per alcuni contenuti esterni. Rivedi gli elementi rifiutati riportati di seguito e fornisci delle prove valide oppure rimuovili."
+    "message": "Il team di moderazione di Panda Minecraft Launcher ha rifiutato i permessi che hai dimostrato per alcuni contenuti esterni. Rivedi gli elementi rifiutati riportati di seguito e fornisci delle prove valide oppure rimuovili."
   },
   "project.settings.permissions.bad-proof.title": {
     "message": "Alcune prove sono state rifiutate"
@@ -4680,13 +4680,13 @@
     "message": "Espandi tutto"
   },
   "project.settings.permissions.fail.description": {
-    "message": "Potresti non avere il permesso di ridistribuire alcuni dei contenuti esterni contenuti nel progetto. Per pubblicare su Modrinth, rimuovili o dimostra di avere il permesso di usarli."
+    "message": "Potresti non avere il permesso di ridistribuire alcuni dei contenuti esterni contenuti nel progetto. Per pubblicare su Panda Minecraft Launcher, rimuovili o dimostra di avere il permesso di usarli."
   },
   "project.settings.permissions.fail.title": {
     "message": "Alcuni contenuti non possono essere pubblicati"
   },
   "project.settings.permissions.info-banner.description": {
-    "message": "Se includi dei contenuti esterni a Modrinth, devi dichiarare la loro origine e dimostrare di avere il permesso di ridistribuirli. Controlla <link>il nostro annuncio su questo nuovo sistema</link> per scoprire di più!"
+    "message": "Se includi dei contenuti esterni a Panda Minecraft Launcher, devi dichiarare la loro origine e dimostrare di avere il permesso di ridistribuirli. Controlla <link>il nostro annuncio su questo nuovo sistema</link> per scoprire di più!"
   },
   "project.settings.permissions.info-banner.title": {
     "message": "Scopri di più sui permessi di distribuzione"
@@ -4701,7 +4701,7 @@
     "message": "Nessun file esterno trovato."
   },
   "project.settings.permissions.not-allowed.description": {
-    "message": "Alcuni dei contenuti esterni inclusi non possono essere distribuiti su Modrinth e devono essere rimossi in quanto violano le nostre Regole sui contenuti."
+    "message": "Alcuni dei contenuti esterni inclusi non possono essere distribuiti su Panda Minecraft Launcher e devono essere rimossi in quanto violano le nostre Regole sui contenuti."
   },
   "project.settings.permissions.open-image-in-new-tab": {
     "message": "Apri immagine in nuova scheda"
@@ -4908,7 +4908,7 @@
     "message": "Impossibile trovare il contenuto"
   },
   "report.for.violation": {
-    "message": "Violazione delle <rules-link>Regole</rules-link> o dei <terms-link>Termini d'uso</terms-link> di Modrinth"
+    "message": "Violazione delle <rules-link>Regole</rules-link> o dei <terms-link>Termini d'uso</terms-link> di Panda Minecraft Launcher"
   },
   "report.for.violation.description": {
     "message": "Esempi includono contenuti dannosi, spam, offensivi, ingannevoli, fuorvianti e/o illegali."
@@ -4935,7 +4935,7 @@
     "message": "Stiamo riorganizzando i nostri strumenti di moderazione, quindi al momento non accettiamo ancora le segnalazioni per le immagini generate da IA."
   },
   "report.note.check-back-later.b": {
-    "message": "Speriamo di poterle accettare presto! Grazie per la vostra pazienza e il sostegno nel rendere Modrinth un posto migliore!"
+    "message": "Speriamo di poterle accettare presto! Grazie per la vostra pazienza e il sostegno nel rendere Panda Minecraft Launcher un posto migliore!"
   },
   "report.note.copyright.1": {
     "message": "Nota che questo *non* è un avviso di rimozione per DMCA, ma una segnalazione di contenuto caricato più volte."
@@ -4965,7 +4965,7 @@
     "message": "Che tipo di contenuto stai segnalando?"
   },
   "report.question.report-reason": {
-    "message": "Quali delle regole di Modrinth sono violate da questo contenuto?"
+    "message": "Quali delle regole di Panda Minecraft Launcher sono violate da questo contenuto?"
   },
   "report.report-content": {
     "message": "Segnala contenuto ai moderatori"
@@ -5172,7 +5172,7 @@
     "message": "Scrivere segnalazioni"
   },
   "scopes.sessionAccess.description": {
-    "message": "Accedere alle sessioni emesse da Modrinth"
+    "message": "Accedere alle sessioni emesse da Panda Minecraft Launcher"
   },
   "scopes.sessionAccess.label": {
     "message": "Accedere sessioni"
@@ -5271,7 +5271,7 @@
     "message": "Sincronizza col server"
   },
   "servers.manage.content.title": {
-    "message": "Contenuto - {serverName} - Modrinth"
+    "message": "Contenuto - {serverName} - Panda Minecraft Launcher"
   },
   "servers.notice.actions": {
     "message": "Azioni"
@@ -5331,7 +5331,7 @@
     "message": "Scopri di più"
   },
   "servers.sharing-update.web-description": {
-    "message": "Ora puoi condividere i server direttamente con chi vuoi. Quando accetteranno nella Modrinth App, creeremo un'istanza per loro autogestita dal server."
+    "message": "Ora puoi condividere i server direttamente con chi vuoi. Quando accetteranno nella Panda Minecraft Launcher, creeremo un'istanza per loro autogestita dal server."
   },
   "settings.account.button.complete-setup": {
     "message": "Completa la configurazione"
@@ -5346,13 +5346,13 @@
     "message": "Generando la copia..."
   },
   "settings.account.data-export.description": {
-    "message": "Richiedi una copia dei tuoi dati personali che hai caricato su Modrinth. L'operazione richiederà alcuni minuti."
+    "message": "Richiedi una copia dei tuoi dati personali che hai caricato su Panda Minecraft Launcher. L'operazione richiederà alcuni minuti."
   },
   "settings.account.data-export.title": {
     "message": "Esporta i dati"
   },
   "settings.account.delete.confirm.description": {
-    "message": "Questo **eliminerà immediatamente tutti i tuoi dati utente**, ma non i tuoi progetti. Questa azione non può essere annullata.<br><br>Se hai bisogno di assistenza col tuo account, puoi ottenere supporto sul [server Discord di Modrinth](https://discord.modrinth.com)."
+    "message": "Questo **eliminerà immediatamente tutti i tuoi dati utente**, ma non i tuoi progetti. Questa azione non può essere annullata.<br><br>Se hai bisogno di assistenza col tuo account, puoi ottenere supporto sul [server Discord di Panda Minecraft Launcher](https://discord.modrinth.com)."
   },
   "settings.account.delete.confirm.proceed": {
     "message": "Elimina"
@@ -5640,7 +5640,7 @@
     "message": "Vuoi davvero eliminare questa applicazione?"
   },
   "settings.applications.description.intro": {
-    "message": "Le applicazioni possono essere usate per autenticare gli utenti di Modrinth ai tuoi prodotti. Per maggiori informazioni, consulta la <docs-link>documentazione dell''API di Modrinth</docs-link>."
+    "message": "Le applicazioni possono essere usate per autenticare gli utenti di Panda Minecraft Launcher ai tuoi prodotti. Per maggiori informazioni, consulta la <docs-link>documentazione dell''API di Panda Minecraft Launcher</docs-link>."
   },
   "settings.applications.empty-state.description": {
     "message": "Le applicazioni che crei appariranno qui."
@@ -5703,7 +5703,7 @@
     "message": "Creato da {user}"
   },
   "settings.authorizations.description": {
-    "message": "Quando autorizzi un'applicazione, le concedi l'accesso al tuo account Modrinth. Qui puoi gestirne e controllarne l'accesso in qualsiasi momento."
+    "message": "Quando autorizzi un'applicazione, le concedi l'accesso al tuo account Panda Minecraft Launcher. Qui puoi gestirne e controllarne l'accesso in qualsiasi momento."
   },
   "settings.authorizations.empty-state.description": {
     "message": "Le applicazioni autorizzate appariranno qui."
@@ -5715,7 +5715,7 @@
     "message": "Autorizzazioni"
   },
   "settings.authorizations.official-tooltip": {
-    "message": "Questa app è stata creata da un account Modrinth ufficiale."
+    "message": "Questa app è stata creata da un account Panda Minecraft Launcher ufficiale."
   },
   "settings.authorizations.revoke.action": {
     "message": "Revoca"
@@ -5727,19 +5727,19 @@
     "message": "Vuoi davvero revocare questa applicazione?"
   },
   "settings.authorizations.unofficial-disclosure": {
-    "message": "Questa app non è affiliata con Modrinth, nonostante il suo nome."
+    "message": "Questa app non è affiliata con Panda Minecraft Launcher, nonostante il suo nome."
   },
   "settings.billing.charges.description": {
-    "message": "Tutti gli addebiti passati del tuo account Modrinth saranno mostrati qui:"
+    "message": "Tutti gli addebiti passati del tuo account Panda Minecraft Launcher saranno mostrati qui:"
   },
   "settings.billing.charges.product.medal-trial": {
     "message": "Prova del server Medal"
   },
   "settings.billing.charges.product.midas": {
-    "message": "Modrinth Plus"
+    "message": "Panda Minecraft Launcher"
   },
   "settings.billing.charges.product.pyro": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "settings.billing.charges.title": {
     "message": "Addebiti precedenti"
@@ -5757,13 +5757,13 @@
     "message": "anno"
   },
   "settings.billing.midas.benefits.ad-free": {
-    "message": "Niente pubblicità su modrinth.com e nella Modrinth App"
+    "message": "Niente pubblicità su modrinth.com e nella Panda Minecraft Launcher"
   },
   "settings.billing.midas.benefits.badge": {
-    "message": "Medaglia Modrinth+ sul tuo profilo"
+    "message": "Medaglia Panda Minecraft Launcher sul tuo profilo"
   },
   "settings.billing.midas.benefits.support": {
-    "message": "Supporta Modrinth e i creatori direttamente"
+    "message": "Supporta Panda Minecraft Launcher e i creatori direttamente"
   },
   "settings.billing.midas.benefits.title": {
     "message": "Benefici"
@@ -5787,7 +5787,7 @@
     "message": "La transazione è in fase di elaborazione. I vantaggi si attiveranno a fine operazione."
   },
   "settings.billing.midas.upsell": {
-    "message": "Abbonati a Modrinth Plus!"
+    "message": "Abbonati a Panda Minecraft Launcher!"
   },
   "settings.billing.modal.cancel.action": {
     "message": "Annulla abbonamento"
@@ -5847,7 +5847,7 @@
     "message": "{shared} CPU condivise (Supercarica fino a {bursts} CPU)"
   },
   "settings.billing.pyro.linked-server.not-found": {
-    "message": "Non è stato trovato un server collegato a questo abbonamento. Ci sono alcune possibili spiegazioni: se lo hai appena acquistato, è normale, potrebbe volerci fino a un'ora prima che sia pronto all'uso. Altrimenti, il server potrebbe essere stato sospeso. Se questo non è ciò che ti aspettavi, contatta il supporto di Modrinth fornendo le seguenti informazioni:"
+    "message": "Non è stato trovato un server collegato a questo abbonamento. Ci sono alcune possibili spiegazioni: se lo hai appena acquistato, è normale, potrebbe volerci fino a un'ora prima che sia pronto all'uso. Altrimenti, il server potrebbe essere stato sospeso. Se questo non è ciò che ti aspettavi, contatta il supporto di Panda Minecraft Launcher fornendo le seguenti informazioni:"
   },
   "settings.billing.pyro.linked-server.server-id": {
     "message": "ID server: {id}"
@@ -5859,7 +5859,7 @@
     "message": "{gb} GB di RAM"
   },
   "settings.billing.pyro.resubscribe.error.text": {
-    "message": "Si è verificato un errore nel riabbonamento del tuo server Modrinth."
+    "message": "Si è verificato un errore nel riabbonamento del tuo server Panda Minecraft Launcher."
   },
   "settings.billing.pyro.resubscribe.error.title": {
     "message": "Errore nel riabbonamento"
@@ -5886,10 +5886,10 @@
     "message": "{gb} GB di swap"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Gestisci i tuoi abbonamenti legati a Modrinth Servers."
+    "message": "Gestisci i tuoi abbonamenti legati a Panda Minecraft Launcher."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Abbonamenti Modrinth Servers"
+    "message": "Abbonamenti Panda Minecraft Launcher"
   },
   "settings.billing.renews": {
     "message": "Rinnovo: {date}"
@@ -5904,7 +5904,7 @@
     "message": "Abbonati"
   },
   "settings.billing.subscription.description": {
-    "message": "Gestisci i tuoi abbonamenti Modrinth."
+    "message": "Gestisci i tuoi abbonamenti Panda Minecraft Launcher."
   },
   "settings.billing.subscription.title": {
     "message": "Abbonamenti"
@@ -5931,7 +5931,7 @@
     "message": "Disattiva modalità sviluppatore"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "La <strong>modalità sviluppatore</strong> è attiva: ciò ti permetterà di visualizzare gli ID interni usati da Modrinth, che possono essere utili se sei uno sviluppatore che utilizza le nostre API. Clicca 5 volte sul logo di Modrinth nel piè per disattivarla."
+    "message": "La <strong>modalità sviluppatore</strong> è attiva: ciò ti permetterà di visualizzare gli ID interni usati da Panda Minecraft Launcher, che possono essere utili se sei uno sviluppatore che utilizza le nostre API. Clicca 5 volte sul logo di Panda Minecraft Launcher nel piè per disattivarla."
   },
   "settings.display.notification.developer-mode-deactivated.text": {
     "message": "La modalità sviluppatore è stata disabilitata"
@@ -5946,7 +5946,7 @@
     "message": "Crea un token"
   },
   "settings.pats.description": {
-    "message": "I token di accesso (PAT) possono essere usati per accedere all'API di Modrinth. Puoi crearli o revocarli in qualsiasi momento. Per maggiori informazioni, consulta la <doc-link>documentazione dell''API di Modrinth</doc-link>."
+    "message": "I token di accesso (PAT) possono essere usati per accedere all'API di Panda Minecraft Launcher. Puoi crearli o revocarli in qualsiasi momento. Per maggiori informazioni, consulta la <doc-link>documentazione dell''API di Panda Minecraft Launcher</doc-link>."
   },
   "settings.pats.empty-state.description": {
     "message": "I token che crei appariranno qui."
@@ -6018,7 +6018,7 @@
     "message": "Sessione corrente"
   },
   "settings.sessions.description.1": {
-    "message": "Questi sono tutti i dispositivi connessi al tuo account di Modrinth. Puoi uscire da ciascuno individualmente revocando la loro sessione. Se non riconosci un dispositivo, disconnettilo e cambia la password dell'account immediatamente."
+    "message": "Questi sono tutti i dispositivi connessi al tuo account di Panda Minecraft Launcher. Puoi uscire da ciascuno individualmente revocando la loro sessione. Se non riconosci un dispositivo, disconnettilo e cambia la password dell'account immediatamente."
   },
   "settings.sessions.description.2": {
     "message": "Le posizioni elencate potrebbero essere approssimative in quanto sono basate sull'indirizzo IP. Le VPN o altri servizi potrebbero oscurare la posizione reale."
@@ -6036,7 +6036,7 @@
     "message": "Ultimo accesso {ago}"
   },
   "settings.sessions.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "settings.sessions.unknown-os": {
     "message": "Sistema operativo sconosciuto"
@@ -6057,7 +6057,7 @@
     "message": "Accetta invito"
   },
   "shared-instance.invite.inviter.unknown": {
-    "message": "Un utente Modrinth"
+    "message": "Un utente Panda Minecraft Launcher"
   },
   "shared-instance.invite.joined-count": {
     "message": "{count, plural, one {# persona è già entrata} other {# persone sono già entrate}}"
@@ -6069,7 +6069,7 @@
     "message": "{name} vuole invitarti a giocare"
   },
   "shared-instance.invite.trust.description": {
-    "message": "Questo invito è stato creato da un utente e non da Modrinth. Accetta solo gli inviti da persone fidate."
+    "message": "Questo invito è stato creato da un utente e non da Panda Minecraft Launcher. Accetta solo gli inviti da persone fidate."
   },
   "shared-instance.invite.trust.heading": {
     "message": "Conosci l'utente?"
@@ -6201,13 +6201,13 @@
     "message": "ha inviato un messaggio che è stato eliminato."
   },
   "thread.message.legacy-project-message": {
-    "message": "Il progetto è stato pubblicato su Modrinth prima della creazione dei thread di moderazione e potrebbe mancarne di cronologia."
+    "message": "Il progetto è stato pubblicato su Panda Minecraft Launcher prima della creazione dei thread di moderazione e potrebbe mancarne di cronologia."
   },
   "thread.message.moderator": {
     "message": "Moderatore"
   },
   "thread.message.modrinth-team": {
-    "message": "Team di Modrinth"
+    "message": "Team di Panda Minecraft Launcher"
   },
   "thread.message.more-options": {
     "message": "Altre opzioni"
@@ -6249,7 +6249,7 @@
     "message": "ha presentato il progetto alla revisione."
   },
   "thread.message.system": {
-    "message": "Modrinth"
+    "message": "Panda Minecraft Launcher"
   },
   "thread.message.tech-review-completed": {
     "message": "ha completato la revisione tecnica e segnato il progetto come <status>.</status>"
@@ -6276,7 +6276,7 @@
     "message": "ha riaperto il thread."
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Ultime notizie da Modrinth"
+    "message": "Ultime notizie da Panda Minecraft Launcher"
   },
   "ui.latest-news-row.view-all": {
     "message": "Leggi altre notizie"
@@ -6288,7 +6288,7 @@
     "message": "Iscritto!"
   },
   "ui.newsletter-button.tooltip": {
-    "message": "Iscriviti alla newsletter di Modrinth"
+    "message": "Iscriviti alla newsletter di Panda Minecraft Launcher"
   },
   "ui.two-factor-code.authentication-code": {
     "message": "Codice di verifica a sei cifre"
@@ -6408,10 +6408,10 @@
     "message": "Coordinate Maven:"
   },
   "version.section.content.dev-info.maven-description": {
-    "message": "I progetti su Modrinth sono automaticamente disponibili tramite una repository su Maven per uso con strumenti di sviluppo come <gradle-link>Gradle</gradle-link>. Per saperne di più sull'API Maven di Modrinth, <article-link>clicca qui</article-link>."
+    "message": "I progetti su Panda Minecraft Launcher sono automaticamente disponibili tramite una repository su Maven per uso con strumenti di sviluppo come <gradle-link>Gradle</gradle-link>. Per saperne di più sull'API Maven di Panda Minecraft Launcher, <article-link>clicca qui</article-link>."
   },
   "version.section.content.dev-info.maven-note": {
-    "message": "Nota: quando disponibile, dovresti usare la repository Maven dell'autore, in quanto conterrà informazioni transitive sulle dipendenze che l'API Maven di Modrinth non ha. Inoltre, usando altre repository non di Modrinth insieme a queste, potresti finire con dipendenze duplicate, poiché l'identificatore del gruppo risulterà diverso quando fornito dall'API."
+    "message": "Nota: quando disponibile, dovresti usare la repository Maven dell'autore, in quanto conterrà informazioni transitive sulle dipendenze che l'API Maven di Panda Minecraft Launcher non ha. Inoltre, usando altre repository non di Panda Minecraft Launcher insieme a queste, potresti finire con dipendenze duplicate, poiché l'identificatore del gruppo risulterà diverso quando fornito dall'API."
   },
   "version.section.content.dev-info.version-id": {
     "message": "ID versione:"

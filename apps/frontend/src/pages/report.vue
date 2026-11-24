@@ -576,7 +576,7 @@ const messages = defineMessages({
 	violation: {
 		id: 'report.for.violation',
 		defaultMessage:
-			'Violation of Modrinth <rules-link>Rules</rules-link> or <terms-link>Terms of Use</terms-link>',
+			'Violation of Panda Minecraft Launcher <rules-link>Rules</rules-link> or <terms-link>Terms of Use</terms-link>',
 	},
 	violationDescription: {
 		id: 'report.for.violation.description',
@@ -609,7 +609,7 @@ const messages = defineMessages({
 	},
 	whatReportReason: {
 		id: 'report.question.report-reason',
-		defaultMessage: "Which of Modrinth's rules is this {item} violating?",
+		defaultMessage: "Which of Panda Minecraft Launcher's rules is this {item} violating?",
 	},
 	checking: {
 		id: 'report.checking',
@@ -635,7 +635,7 @@ const messages = defineMessages({
 	checkBackLater: {
 		id: 'report.note.check-back-later.b',
 		defaultMessage:
-			'We hope to begin accepting them in the near future! Thank you for your patience and help trying to make Modrinth safer and better!',
+			'We hope to begin accepting them in the near future! Thank you for your patience and help trying to make Panda Minecraft Launcher safer and better!',
 	},
 })
 

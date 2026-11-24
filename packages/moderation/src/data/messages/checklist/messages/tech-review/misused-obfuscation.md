@@ -1,6 +1,6 @@
-## Obfuscation on Modrinth
+## Obfuscation on Panda Minecraft Launcher
 
-To ensure the safety of all Modrinth users, projects may only be uploaded with obfuscated code under specific circumstances.</br>
+To ensure the safety of all Panda Minecraft Launcher users, projects may only be uploaded with obfuscated code under specific circumstances.</br>
 
 - Projects that use third-party code or assets required by law or licensing restrictions to remain obfuscated.
 - Projects where the obfuscation demonstrably benefits end users in a way critical to its functionality or safety.

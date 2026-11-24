@@ -4,6 +4,7 @@ use crate::state::content_store::{
     FileStorageKind, content_file_path, validate_instance_path,
     validate_parent_directories, validate_relative,
 };
+use crate::state::dirs::{INSTANCES_FOLDER_NAME, LEGACY_INSTANCES_FOLDER_NAME};
 use crate::state::instances::adapters::sqlite::{content_rows, instance_rows};
 use anyhow::bail;
 use serde::{Deserialize, Serialize};
@@ -33,6 +34,13 @@ pub(super) async fn prepare(
     to: &Path,
 ) -> crate::Result<Vec<ManagedContentMove>> {
     let mut moves = Vec::new();
+    // shortcut: upgrades from 0.0.6 still have the old folder; remove in 0.0.9.
+    let source_folder =
+        if fs::try_exists(&from.join(INSTANCES_FOLDER_NAME)).await? {
+            INSTANCES_FOLDER_NAME
+        } else {
+            LEGACY_INSTANCES_FOLDER_NAME
+        };
     for instance in instance_rows::list_instances(pool).await? {
         validate_instance_path(&instance.path)?;
         let files =
@@ -59,11 +67,11 @@ pub(super) async fn prepare(
                 content_store::object_relative_path(&stored.sha512)?;
             moves.push(ManagedContentMove {
                 source: from
-                    .join("profiles")
+                    .join(source_folder)
                     .join(&instance.path)
                     .join(&relative_path),
                 destination: to
-                    .join("profiles")
+                    .join(INSTANCES_FOLDER_NAME)
                     .join(&instance.path)
                     .join(relative_path),
                 stored_path: to.join("store/content").join(stored_path),

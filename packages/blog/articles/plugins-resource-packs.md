@@ -1,6 +1,6 @@
 ---
-title: Plugins and Resource Packs now have a home on Modrinth
-summary: 'A small update with a big impact: plugins and resource packs are now available on Modrinth!'
+title: Plugins and Resource Packs now have a home on Panda Minecraft Launcher
+summary: 'A small update with a big impact: plugins and resource packs are now available on Panda Minecraft Launcher!'
 date: 2022-08-27
 authors: ['6plzAzU4']
 ---
@@ -23,17 +23,17 @@ This is a question we've received quite often since we first announced our inten
 
 Currently, there are three main platforms on which plugins can be downloaded from: Bukkit, Spigot, and Sponge's Ore. Notice the main issue there? These sites are bound to a specific loader. This isn't inherently _bad_ - however, as forks and new projects spawn, there is a noticeable lack of flexibility in what can be hosted on a given platform. For example, Spigot is unable to host plugins which specifically depend on the exclusive features provided by Paper's API. Paper's solution to this is to build their own platform, but this simply perpetuates the same problem.
 
-The best solution here is to create a separate platform which is unbiased and flexible enough to adapt to a changing ecosystem. Modrinth is the perfect candidate for this - after all, plugins are mods under a different name, and likewise mods are plugins under a different name.
+The best solution here is to create a separate platform which is unbiased and flexible enough to adapt to a changing ecosystem. Panda Minecraft Launcher is the perfect candidate for this - after all, plugins are mods under a different name, and likewise mods are plugins under a different name.
 
 No matter the situation, authors are always allowed to upload their plugins to multiple sites. Build automation is incredibly easy to set up, especially with "set it and forget it" build tools such as [Minotaur](https://github.com/modrinth/minotaur).
 
 ### Will paid plugins be supported?
 
-No. Modrinth does not have the infrastructure to support this, and it's not currently planned. Author payouts are still being worked on.
+No. Panda Minecraft Launcher does not have the infrastructure to support this, and it's not currently planned. Author payouts are still being worked on.
 
 ### What about mods that have plugin versions and vice versa?
 
-Modrinth is taking a unique approach to this. While the search pages are separate, in reality, the backend is the same. You can select plugin loaders when creating a mod and you can select mod loaders when creating a plugin. The split only exists on the frontend so that projects like [Chunky](https://modrinth.com/mod/chunky) can share a single page across their versions.
+Panda Minecraft Launcher is taking a unique approach to this. While the search pages are separate, in reality, the backend is the same. You can select plugin loaders when creating a mod and you can select mod loaders when creating a plugin. The split only exists on the frontend so that projects like [Chunky](https://modrinth.com/mod/chunky) can share a single page across their versions.
 
 Plugins which also have versions for mod loaders will be displayed under the `/mod/` URL on the frontend. Plugins without mod loader versions are displayed under `/plugin/`.
 
@@ -53,7 +53,7 @@ On search pages, "Features" have been split into their own header. Where categor
 
 ### What about resource packs that require a mod to function?
 
-Resource packs are able to set dependencies on other projects (even those which aren't resource packs), just like how modpacks are able to set dependencies on mods. It's worth noting that OptiFine is not on the platform, and thus you cannot set a dependency on that; however, you can set a dependency on any of the other alternative mods which _are_ available on Modrinth, including [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures), [OptiGUI](https://modrinth.com/mod/optigui), [Continuity](https://modrinth.com/mod/continuity), [CIT Resewn](https://modrinth.com/mod/cit-resewn), [Animatica](https://modrinth.com/mod/animatica), or [Custom Entity Models](https://modrinth.com/mod/cem).
+Resource packs are able to set dependencies on other projects (even those which aren't resource packs), just like how modpacks are able to set dependencies on mods. It's worth noting that OptiFine is not on the platform, and thus you cannot set a dependency on that; however, you can set a dependency on any of the other alternative mods which _are_ available on Panda Minecraft Launcher, including [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures), [OptiGUI](https://modrinth.com/mod/optigui), [Continuity](https://modrinth.com/mod/continuity), [CIT Resewn](https://modrinth.com/mod/cit-resewn), [Animatica](https://modrinth.com/mod/animatica), or [Custom Entity Models](https://modrinth.com/mod/cem).
 
 ## Other miscellaneous changes
 
@@ -61,17 +61,17 @@ Resource packs are able to set dependencies on other projects (even those which 
 
 For a long time, version numbers have had a requirement to be unique within the same project. Alongside this update, we found it necessary to remove this restriction on version numbers. Thus, you'll no longer have to use something like `1.2.3+forge` and `1.2.3+fabric` if you have a project on multiple loaders - instead, you can just use `1.2.3`.
 
-To accommodate this, the frontend now appends the loaders and game versions onto the end of a URL if there are duplicates, and the [Modrinth Maven] now supports version IDs.
+To accommodate this, the frontend now appends the loaders and game versions onto the end of a URL if there are duplicates, and the [Panda Minecraft Launcher Maven] now supports version IDs.
 
 We do not recommend retroactively changing version numbers to remove this additional metadata, though. If you change your version numbers, the following will break:
 
 - URLs to specific versions
-- Buildscripts depending on your project via the [Modrinth Maven]
+- Buildscripts depending on your project via the [Panda Minecraft Launcher Maven]
 - Download counters (see labrinth issue [#351](https://github.com/modrinth/labrinth/issues/351))
 
 ### LiteLoader support
 
-Modrinth now supports LiteLoader for mods. It's nothing special, but it should help with some archival efforts.
+Panda Minecraft Launcher now supports LiteLoader for mods. It's nothing special, but it should help with some archival efforts.
 
 ### Misc category deletion
 
@@ -92,4 +92,4 @@ We're very happy to be announcing this feature, even if it is minor in compariso
 As always, feel free to provide feedback on [our Discord][Discord], and please report any bugs you come across on [our GitHub](https://github.com/modrinth).
 
 [Discord]: https://discord.modrinth.com
-[Modrinth Maven]: https://support.modrinth.com/en/articles/8801191-modrinth-maven
+[Panda Minecraft Launcher Maven]: https://support.modrinth.com/en/articles/8801191-modrinth-maven

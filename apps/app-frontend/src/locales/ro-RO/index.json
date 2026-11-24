@@ -162,7 +162,7 @@
     "message": "Ascunde nametag-ul"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minimizează aplicația Panda atunci când Minecraft pornește."
+    "message": "Minimizează aplicația Panda Minecraft Launcher atunci când Minecraft pornește."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Minimizează aplicația"
@@ -186,7 +186,7 @@
     "message": "Ascundeți bara laterală dreapta"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Afișați un avertisment de siguranța înainte de a instala un modpack (.mrpack) care nu este găzduit de Modrinth."
+    "message": "Afișați un avertisment de siguranța înainte de a instala un modpack (.mrpack) care nu este găzduit de Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Avertizează-ma înainte de a instala modpackuri necunoscute"
@@ -204,10 +204,10 @@
     "message": "Acasă și conținut"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Afișează aplicația Panda în prim-plan la închiderea Minecraft."
+    "message": "Afișează aplicația Panda Minecraft Launcher în prim-plan la închiderea Minecraft."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
-    "message": "Reactivează aplicația Panda la închiderea Minecraft"
+    "message": "Reactivează aplicația Panda Minecraft Launcher la închiderea Minecraft"
   },
   "app.behavior-settings.startup-and-navigation.title": {
     "message": "Pornire și navigare"
@@ -492,7 +492,7 @@
     "message": "Vizualizează instanța"
   },
   "app.hosting.update-required.description": {
-    "message": "Trebuie să efectuați o actualizare pentru a putea utiliza serviciul Panda Hosting prin intermediul aplicației Panda"
+    "message": "Trebuie să efectuați o actualizare pentru a putea utiliza serviciul Panda Minecraft Launcher prin intermediul aplicației Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Descărcați pentru a actualiza"

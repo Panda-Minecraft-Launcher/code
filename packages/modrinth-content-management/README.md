@@ -1,1 +1,1 @@
-Content management logic shared between Modrinth App & Labrinth
+Content management logic shared between Panda Minecraft Launcher & Labrinth

@@ -1,6 +1,6 @@
-# apps/frontend — Modrinth Website
+# apps/frontend — Panda Minecraft Launcher website
 
-Nuxt 3 application serving the main Modrinth website. Uses Vue 3, Tailwind CSS v3, and file-based routing.
+Nuxt 3 application serving the main Panda Minecraft Launcher website. Uses Vue 3, Tailwind CSS v3, and file-based routing.
 
 ## Architecture
 

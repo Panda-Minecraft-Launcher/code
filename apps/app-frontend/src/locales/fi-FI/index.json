@@ -75,7 +75,7 @@
     "message": "Minecraftin asennus epäonnistui"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Pandaiin yhdistäminen epäonnistui"
+    "message": "Panda Minecraft Launcheriin yhdistäminen epäonnistui"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Ei kirjoitusoikeutta"
@@ -132,7 +132,7 @@
     "message": "Hyväksy kaikki"
   },
   "app.ads-consent.body": {
-    "message": "Mainokset mahdollistavat Pandain toiminnan ja rahoittavat tekijöiden osuuksia. Meidän kumppanimme saattavat tallentaa tai hyödyntää ohjelman evästeitä henkilökohtaistaakseen mainoksia ja mitatakseen tuloksia."
+    "message": "Mainokset mahdollistavat Panda Minecraft Launcherin toiminnan ja rahoittavat tekijöiden osuuksia. Meidän kumppanimme saattavat tallentaa tai hyödyntää ohjelman evästeitä henkilökohtaistaakseen mainoksia ja mitatakseen tuloksia."
   },
   "app.ads-consent.manage": {
     "message": "Muuta asetuksia"
@@ -141,7 +141,7 @@
     "message": "Hylkää kaikki"
   },
   "app.ads-consent.title": {
-    "message": "Yksityisyytesi, ja miten mainokset tukevat Pandaia"
+    "message": "Yksityisyytesi, ja miten mainokset tukevat Panda Minecraft Launcheria"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Näytä kirjaston instanssit pienemmässä rivijärjestyksessä."
@@ -162,7 +162,7 @@
     "message": "Piilota nimimerkki"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minimisoi Panda -ohjelma, kun Minecraft käynnistyy."
+    "message": "Minimisoi Panda Minecraft Launcher -ohjelma, kun Minecraft käynnistyy."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Minimisoi ohjelma"
@@ -186,7 +186,7 @@
     "message": "Piilota oikea sivupaneeli"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Näytä turvallisuusvaroitus ennen sellaisen modipaketin (.mrpack) asentamista, jota ei isännöi Modrinth."
+    "message": "Näytä turvallisuusvaroitus ennen sellaisen modipaketin (.mrpack) asentamista, jota ei isännöi Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Varoita minua ennen tuntemattomien modipakettien asentamista"
@@ -204,7 +204,7 @@
     "message": "Koti ja sisältö"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "Tällä laitteella kirjastosta piilotetut instanssit. Piilotetut instanssit eivät synkronoidu Panda-tilisi kanssa."
+    "message": "Tällä laitteella kirjastosta piilotetut instanssit. Piilotetut instanssit eivät synkronoidu Panda Minecraft Launcher-tilisi kanssa."
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "Et ole vielä piilottanut yhtään instanssia."
@@ -219,7 +219,7 @@
     "message": "Piilotetut instanssit"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Tuo Panda -ohjelma etualalle, kun Minecraft sulkeutuu."
+    "message": "Tuo Panda Minecraft Launcher -ohjelma etualalle, kun Minecraft sulkeutuu."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Uudelleenkeskitä ohjelma, kun Minecraft sulkeutuu"
@@ -516,7 +516,7 @@
     "message": "Näytä instanssi"
   },
   "app.hosting.update-required.description": {
-    "message": "Panda -ohjelma tulee päivittää käyttääksesi Panda Hosting -palvelua"
+    "message": "Panda Minecraft Launcher -ohjelma tulee päivittää käyttääksesi Panda Minecraft Launcher -palvelua"
   },
   "app.hosting.update-required.download": {
     "message": "Päivitä"
@@ -1125,10 +1125,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Sait nämä skinit lahjoittamalla Pandain Pride-keräykseen Pride-kuukauden aikana."
+    "message": "Sait nämä skinit lahjoittamalla Panda Minecraft Launcherin Pride-keräykseen Pride-kuukauden aikana."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Sekasorron ratsut"
@@ -1215,10 +1215,10 @@
     "message": "Se ei voi olla eri kuin heidän Minecraft-käyttäjänimi!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Syötä Panda-käyttäjätunnus..."
+    "message": "Syötä Panda Minecraft Launcher-käyttäjätunnus..."
   },
   "friends.add-friend.username.title": {
-    "message": "Mikä on ystäväsi Panda-käyttäjänimi?"
+    "message": "Mikä on ystäväsi Panda Minecraft Launcher-käyttäjänimi?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Lisää kavereita</link> nähdäksesi mitä he pelaavat!"
@@ -1260,7 +1260,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Kirjaudu Panda-tilille</link> lisätäksesi ystäviä ja nähdäksesi mitä he pelaavat!"
+    "message": "<link>Kirjaudu Panda Minecraft Launcher-tilille</link> lisätäksesi ystäviä ja nähdäksesi mitä he pelaavat!"
   },
   "instance.action.create-shortcut": {
     "message": "Luo pikakuvake"

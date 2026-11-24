@@ -186,7 +186,7 @@
     "message": "Ocultar barra lateral direita"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Exibe um aviso de segurança ao instalar um pacote de mods (.mrpack) que não seja hospedado no Modrinth."
+    "message": "Exibe um aviso de segurança ao instalar um pacote de mods (.mrpack) que não seja hospedado no Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Me alertar antes de instalar pacote de mods desconhecidos"
@@ -528,13 +528,13 @@
     "message": "Ver instância"
   },
   "app.hosting.update-required.description": {
-    "message": "Você precisa atualizar para usar o Panda Hosting através do Panda Minecraft Launcher"
+    "message": "Você precisa atualizar para usar o Panda Minecraft Launcher através do Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Baixar para atualizar"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Panda Bot animado"
+    "message": "Panda Minecraft Launcher Bot animado"
   },
   "app.hosting.update-required.title": {
     "message": "Atualização do Panda Minecraft Launcher necessária"
@@ -1407,7 +1407,7 @@
     "message": "Despublique e deixe {count} instâncias compartilhadas"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {Isso exclui a instância compartilhada dos servidores do Panda. Os usuários que a utilizam no Panda Minecraft Launcher deixarão de receber atualizações e ela será removida da sua biblioteca.} other {Isso exclui essas instâncias compartilhadas dos servidores do Panda. As pessoas que as utilizam no Panda Minecraft Launcher deixarão de receber atualizações e elas serão removidas da sua biblioteca.}}"
+    "message": "{count, plural, one {Isso exclui a instância compartilhada dos servidores do Panda Minecraft Launcher. Os usuários que a utilizam no Panda Minecraft Launcher deixarão de receber atualizações e ela será removida da sua biblioteca.} other {Isso exclui essas instâncias compartilhadas dos servidores do Panda Minecraft Launcher. As pessoas que as utilizam no Panda Minecraft Launcher deixarão de receber atualizações e elas serão removidas da sua biblioteca.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {Despublicando uma instância compartilhada} other {Despublicando # instâncias compartilhadas}}"
@@ -1563,7 +1563,7 @@
     "message": "Conta Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Remover conta"
@@ -1578,7 +1578,7 @@
     "message": "Trocar de conta"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Assinar o Panda+"
+    "message": "Assinar o Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Ver perfil"
@@ -3549,10 +3549,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Você recebeu estas skins por doar para uma campanha de arrecadação do Panda Pride durante o Mês de Orgulho."
+    "message": "Você recebeu estas skins por doar para uma campanha de arrecadação do Panda Minecraft Launcher Pride durante o Mês de Orgulho."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3957,7 +3957,7 @@
     "message": "Desvincular instância compartilhada"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Isso excluirá a instância compartilhada dos servidores do Panda. As pessoas usando-o no Panda Minecraft Launcher não receberá mais atualizações, mas sua instância local e seu conteúdo ainda permanecerá no dispositivo."
+    "message": "Isso excluirá a instância compartilhada dos servidores do Panda Minecraft Launcher. As pessoas usando-o no Panda Minecraft Launcher não receberá mais atualizações, mas sua instância local e seu conteúdo ainda permanecerá no dispositivo."
   },
   "instance.action.create-shortcut": {
     "message": "Criar atalho"

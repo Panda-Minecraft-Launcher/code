@@ -508,7 +508,7 @@ const messages = defineMessages({
 	},
 })
 
-useHead({ title: () => `${formatMessage(messages.headTitle)} - Modrinth` })
+useHead({ title: () => `${formatMessage(messages.headTitle)} - Panda Minecraft Launcher` })
 
 const user = await useUser()
 const projects = ref([])

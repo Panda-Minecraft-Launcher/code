@@ -19,20 +19,20 @@ VALUES
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'Thanks for building on Modrinth. Your projects have passed 20,000 total downloads, which is wild to think about.',
+			'Thanks for building on Panda Minecraft Launcher. Your projects have passed 20,000 total downloads, which is wild to think about.',
 			CHR(10),
 			CHR(10),
 			'That means thousands of players have found something useful, fun, or worth coming back to because of what you made.',
 			CHR(10),
 			CHR(10),
-			'We''re opening up a Creator Club role in the Modrinth Discord for creators like you. Link your Discord account through Modrinth and we''ll sync it automatically.',
+			'We''re opening up a Creator Club role in the Panda Minecraft Launcher Discord for creators like you. Link your Discord account through Panda Minecraft Launcher and we''ll sync it automatically.',
 			CHR(10),
 			CHR(10),
 			'Join the Creator Club: {discord.link_url}',
 			CHR(10),
 			CHR(10),
-			'Thanks for making Modrinth what it is,',
+			'Thanks for making Panda Minecraft Launcher what it is,',
 			CHR(10),
-			'The Modrinth Team'
+			'The Panda Minecraft Launcher Team'
 		)
 	);

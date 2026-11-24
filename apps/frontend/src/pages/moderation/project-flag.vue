@@ -244,7 +244,7 @@ import ProjectFlagRuleTester from '~/components/ui/moderation/project-flag/Proje
 import ProjectFlagRuns from '~/components/ui/moderation/project-flag/ProjectFlagRuns.vue'
 import RhaiExpressionEditor from '~/components/ui/moderation/project-flag/RhaiExpressionEditor.vue'
 
-useHead({ title: 'Project flag rules - Modrinth' })
+useHead({ title: 'Project flag rules - Panda Minecraft Launcher' })
 
 const route = useRoute()
 const showRuns = computed(() => route.query.tab === 'runs')

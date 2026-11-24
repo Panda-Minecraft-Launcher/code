@@ -183,7 +183,7 @@
     "message": "Skip non-essential warnings"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Show a safety warning before installing a modpack (.mrpack) that isn't hosted on Modrinth."
+    "message": "Show a safety warning before installing a modpack (.mrpack) that isn't hosted on Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Warn me before installing unknown modpacks"
@@ -543,13 +543,13 @@
     "message": "View instance"
   },
   "app.hosting.update-required.description": {
-    "message": "You need to update to use Panda Hosting through the Panda Minecraft Launcher"
+    "message": "You need to update to use Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Download to update"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Excited Panda Bot"
+    "message": "Excited Panda Minecraft Launcher Bot"
   },
   "app.hosting.update-required.title": {
     "message": "Panda Minecraft Launcher update required"
@@ -1422,7 +1422,7 @@
     "message": "Unpublish and leave {count} shared instances"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {This deletes the shared instance from Panda's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
@@ -1581,7 +1581,7 @@
     "message": "Panda Minecraft Launcher account"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Remove account"
@@ -1596,7 +1596,7 @@
     "message": "Switch account"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Upgrade to Panda+"
+    "message": "Upgrade to Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "View profile"
@@ -3573,10 +3573,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "You received these skins for donating to a Panda Pride fundraiser during Pride Month."
+    "message": "You received these skins for donating to a Panda Minecraft Launcher Pride fundraiser during Pride Month."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"
@@ -3984,7 +3984,7 @@
     "message": "Unlink shared instance"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "This deletes the shared instance from Panda's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, but your local instance and its content will stay on this device."
+    "message": "This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, but your local instance and its content will stay on this device."
   },
   "instance.action.create-shortcut": {
     "message": "Create shortcut"

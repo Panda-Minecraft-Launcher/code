@@ -6,7 +6,7 @@ FROM platformatic/node-caged:26-slim
 
 LABEL org.opencontainers.image.source=https://github.com/modrinth/code
 LABEL org.opencontainers.image.title=frontend
-LABEL org.opencontainers.image.description="Modrinth website"
+LABEL org.opencontainers.image.description="Panda Minecraft Launcher website"
 LABEL org.opencontainers.image.licenses=AGPL-3.0-only
 
 RUN apt-get update \

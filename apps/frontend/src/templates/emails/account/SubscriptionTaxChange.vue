@@ -31,7 +31,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		</Text>
 
 		<Text class="text-muted text-base">
-			Thank you for choosing Modrinth! If you have any questions or need help with your
+			Thank you for choosing Panda Minecraft Launcher! If you have any questions or need help with your
 			subscription, visit our
 			<VLink href="https://support.modrinth.com" class="text-green underline">Support Portal</VLink
 			>.
@@ -39,7 +39,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 
 		<Text class="text-muted text-base">
 			Best,<br />
-			The Modrinth Team
+			The Panda Minecraft Launcher Team
 		</Text>
 	</StyledEmail>
 </template>

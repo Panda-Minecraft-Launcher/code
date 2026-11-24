@@ -61,7 +61,7 @@ const AD_PRESETS = {
 	'modrinth-hosting': {
 		light: 'https://cdn.modrinth.com/hosting-oct-26-light.webp',
 		dark: 'https://cdn.modrinth.com/hosting-oct-26-dark.webp',
-		description: 'Get your next server on Modrinth.',
+		description: 'Get your next server on Panda Minecraft Launcher.',
 		link: '/hosting',
 	},
 }

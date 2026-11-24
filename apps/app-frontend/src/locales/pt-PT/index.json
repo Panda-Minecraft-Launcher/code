@@ -186,7 +186,7 @@
     "message": "Esconder barra lateral direita"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Mostrar um aviso de segurança antes de instalar um modpack (.mrpack) que não esteja alojado na Modrinth."
+    "message": "Mostrar um aviso de segurança antes de instalar um modpack (.mrpack) que não esteja alojado na Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Avisar-me antes de instalar modpacks desconhecidos"
@@ -204,7 +204,7 @@
     "message": "Início e conteúdo"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Trazer o Panda para primeiro plano ao sair do Minecraft."
+    "message": "Trazer o Panda Minecraft Launcher para primeiro plano ao sair do Minecraft."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Reativar a aplicação quando o Minecraft for encerrado"
@@ -480,7 +480,7 @@
     "message": "Ver instância"
   },
   "app.hosting.update-required.description": {
-    "message": "Precisas de atualizar para usar Panda Hosting a partir da aplicação Panda"
+    "message": "Precisas de atualizar para usar Panda Minecraft Launcher a partir da aplicação Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Transfere para atualizar"
@@ -984,7 +984,7 @@
     "message": "Removido"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Esta atualização do modpack do servidor contém ficheiros que não estão publicados no Panda. Recomendamos vivamente que instale apenas ficheiros provenientes de fontes de confiança."
+    "message": "Esta atualização do modpack do servidor contém ficheiros que não estão publicados no Panda Minecraft Launcher. Recomendamos vivamente que instale apenas ficheiros provenientes de fontes de confiança."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Adicionado"
@@ -1008,7 +1008,7 @@
     "message": "Inicie sessão no Panda Minecraft Launcher"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Atualizar para o Panda+"
+    "message": "Atualizar para o Panda Minecraft Launcher"
   },
   "app.navigation.home": {
     "message": "Página inicial"

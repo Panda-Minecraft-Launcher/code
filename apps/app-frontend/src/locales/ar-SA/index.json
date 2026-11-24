@@ -162,7 +162,7 @@
     "message": "إخفاء الاسم"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "تصغير تطبيق Panda عند تشغيل Minecraft."
+    "message": "تصغير تطبيق Panda Minecraft Launcher عند تشغيل Minecraft."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "تصغير التطبيق"
@@ -186,7 +186,7 @@
     "message": "قم بإخفاء الشريط الجانبي الأيمن"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "إظهار تحذير أمان قبل تثبيت مودباك (.mrpack) غير المستضاف على Modrinth."
+    "message": "إظهار تحذير أمان قبل تثبيت مودباك (.mrpack) غير المستضاف على Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "أخبرني قبل تثبيت المودباكات غير المعروفة"
@@ -501,7 +501,7 @@
     "message": "عرض النسخة"
   },
   "app.hosting.update-required.description": {
-    "message": "يجب عليك التحديث لاستخدام Panda Hosting بواسطة تطبيق Panda"
+    "message": "يجب عليك التحديث لاستخدام Panda Minecraft Launcher بواسطة تطبيق Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "نزّل للتحديث"
@@ -1374,7 +1374,7 @@
     "message": "تبديل الحساب"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "الترقية إلى Panda+"
+    "message": "الترقية إلى Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "عرض الملف الشخصي"
@@ -3243,7 +3243,7 @@
     "message": "فخر Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "لقد حصلت على هذه أشكال الشخصيات مقابل تبرعك لحملة جمع التبرعات التي نظمتها Panda Pride خلال شهر الفخر."
+    "message": "لقد حصلت على هذه أشكال الشخصيات مقابل تبرعك لحملة جمع التبرعات التي نظمتها Panda Minecraft Launcher Pride خلال شهر الفخر."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "جبال الفوضى"

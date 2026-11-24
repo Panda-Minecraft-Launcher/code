@@ -476,7 +476,7 @@ impl ComponentEdit for JavaServerProjectEdit {
 #[serde_binhum(schema)]
 #[serde(tag = "kind", rename_all = "snake_case")]
 pub enum ServerContent {
-    /// Server runs modded content with a modpack found on the Modrinth platform.
+    /// Server runs modded content with a modpack found on the Panda Minecraft Launcher platform.
     Modpack {
         /// Version ID of the modpack which the server runs.
         ///
@@ -499,7 +499,7 @@ pub enum ServerContent {
 #[serde_binhum(schema)]
 #[serde(tag = "kind", rename_all = "snake_case")]
 pub enum ServerContentQuery {
-    /// Server runs modded content with a modpack found on the Modrinth platform.
+    /// Server runs modded content with a modpack found on the Panda Minecraft Launcher platform.
     Modpack {
         version_id: VersionId,
         project_id: ProjectId,

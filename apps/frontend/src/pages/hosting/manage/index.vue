@@ -9,7 +9,7 @@ definePageMeta({
 })
 
 useHead({
-	title: 'Hosting - Modrinth',
+	title: 'Hosting - Panda Minecraft Launcher',
 })
 
 const config = useRuntimeConfig()

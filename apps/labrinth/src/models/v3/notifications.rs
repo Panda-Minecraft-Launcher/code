@@ -532,7 +532,7 @@ impl From<DBNotification> for Notification {
                 } => (
                     "Your shared instance has been locked".to_string(),
                     format!(
-                        "Your shared instance \"{shared_instance_name}\" has been locked by the Modrinth moderation team."
+                        "Your shared instance \"{shared_instance_name}\" has been locked by the Panda Minecraft Launcher moderation team."
                     ),
                     "#".to_string(),
                     vec![],

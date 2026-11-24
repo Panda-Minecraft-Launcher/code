@@ -33,9 +33,9 @@ onMounted(async () => {
 
 <template>
 	<section class="discord-link-container universal-card">
-		<h1>{{ isLinkedCallback ? 'Modrinth account linked' : 'Linking Discord' }}</h1>
-		<p v-if="isLinkedCallback">Your Modrinth account has been linked to the Discord server.</p>
-		<p v-else-if="!error">Connecting your Modrinth account to the Discord server...</p>
+		<h1>{{ isLinkedCallback ? 'Panda Minecraft Launcher account linked' : 'Linking Discord' }}</h1>
+		<p v-if="isLinkedCallback">Your Panda Minecraft Launcher account has been linked to the Discord server.</p>
+		<p v-else-if="!error">Connecting your Panda Minecraft Launcher account to the Discord server...</p>
 		<p v-else>Discord linking failed. Please try again later.</p>
 	</section>
 </template>

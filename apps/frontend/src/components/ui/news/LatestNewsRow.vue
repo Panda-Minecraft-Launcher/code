@@ -52,7 +52,7 @@ const articles = ref(
 const messages = defineMessages({
 	latestNews: {
 		id: 'ui.latest-news-row.latest-news',
-		defaultMessage: 'Latest news from Modrinth',
+		defaultMessage: 'Latest news from Panda Minecraft Launcher',
 	},
 	viewAll: {
 		id: 'ui.latest-news-row.view-all',

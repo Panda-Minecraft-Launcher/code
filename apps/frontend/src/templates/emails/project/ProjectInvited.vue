@@ -27,7 +27,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		<Text class="text-base">Hi <span class="no-auto-link">{user.name}</span>,</Text>
 
 		<Text class="text-base">
-			Modrinth user
+			Panda Minecraft Launcher user
 			<b
 				><VLink href="https://modrinth.com/user/{inviter.name}" class="text-green underline">
 					{inviter.name}
@@ -39,7 +39,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 					{project.name}
 				</VLink>
 			</b>
-			on Modrinth.
+			on Panda Minecraft Launcher.
 		</Text>
 
 		<Section class="bg-bg-super mb-4 mt-4 rounded-lg border border-divider pb-4 pl-4 pr-4 pt-4">

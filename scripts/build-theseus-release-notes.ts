@@ -1,6 +1,6 @@
 /**
- * Builds merged app + Modrinth Hosting release notes for GitHub releases and Tauri updates.json.
- * Hosting bullets are folded into each ## section as `- **Modrinth Hosting:** …`.
+ * Builds merged app + Panda Minecraft Launcher release notes for GitHub releases and Tauri updates.json.
+ * Hosting bullets are folded into each ## section as `- **Panda Minecraft Launcher:** …`.
  *
  * Hosting-only sections (present in hosting changelog but not app) are appended after app sections,
  * ordered by: added, changed, deprecated, removed, fixed, security, then other titles alphabetically.
@@ -155,7 +155,7 @@ function extractBulletLines(rawLines: string[]): string[] {
 function toHostingBullet(line: string): string {
 	const m = line.match(/^\s*-\s(.*)$/)
 	const rest = m ? m[1].trim() : line.trim()
-	return `- **Modrinth Hosting:** ${rest}`
+	return `- **Panda Minecraft Launcher:** ${rest}`
 }
 
 function sortHostingOnlyKeys(keys: string[]): string[] {

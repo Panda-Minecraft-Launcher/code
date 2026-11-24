@@ -27,7 +27,7 @@ const API_BASE_URL: &str = "https://api.modrinth.com/v3/";
 #[derive(Parser)]
 #[command(
     version,
-    about = "Validate a project from the Modrinth API or a project dataset"
+    about = "Validate a project from the Panda Minecraft Launcher API or a project dataset"
 )]
 struct Args {
     /// The ID of the project to validate
@@ -59,7 +59,7 @@ struct Args {
 	)]
     all_nag_project_ids: bool,
 
-    /// A Modrinth token to send as bearer authentication
+    /// A Panda Minecraft Launcher token to send as bearer authentication
     #[arg(long, value_name = "TOKEN")]
     token: Option<String>,
 

@@ -30,11 +30,11 @@ const config = useRuntimeConfig()
 const messages = defineMessages({
 	modrinthInformation: {
 		id: 'layout.footer.modrinth-information',
-		defaultMessage: 'Modrinth information',
+		defaultMessage: 'Panda Minecraft Launcher information',
 	},
 	openSource: {
 		id: 'layout.footer.open-source',
-		defaultMessage: 'Modrinth is <github-link>open source</github-link>.',
+		defaultMessage: 'Panda Minecraft Launcher is <github-link>open source</github-link>.',
 	},
 	legalDisclaimer: {
 		id: 'layout.footer.legal-disclaimer',
@@ -146,17 +146,17 @@ const footerLinks: {
 		links: [
 			{
 				href: '/plus',
-				label: defineMessage({ id: 'layout.footer.products.plus', defaultMessage: 'Modrinth+' }),
+				label: defineMessage({ id: 'layout.footer.products.plus', defaultMessage: 'Panda Minecraft Launcher' }),
 			},
 			{
 				href: '/app',
-				label: defineMessage({ id: 'layout.footer.products.app', defaultMessage: 'Modrinth App' }),
+				label: defineMessage({ id: 'layout.footer.products.app', defaultMessage: 'Panda Minecraft Launcher' }),
 			},
 			{
 				href: '/hosting',
 				label: defineMessage({
 					id: 'layout.footer.products.servers',
-					defaultMessage: 'Modrinth Hosting',
+					defaultMessage: 'Panda Minecraft Launcher',
 				}),
 			},
 		],
@@ -268,7 +268,7 @@ function developerModeIncrement() {
 						<Button
 							type="quiet"
 							interaction="none"
-							aria-label="Modrinth"
+							aria-label="Panda Minecraft Launcher"
 							class="!h-auto !p-0"
 							@click="developerModeIncrement()"
 						>

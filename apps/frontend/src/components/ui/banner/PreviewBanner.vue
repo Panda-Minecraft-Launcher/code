@@ -17,11 +17,11 @@ const route = useRoute()
 const messages = defineMessages({
 	title: {
 		id: 'layout.banner.preview.title',
-		defaultMessage: `This is a preview deploy of the Modrinth website.`,
+		defaultMessage: `This is a preview deploy of the Panda Minecraft Launcher website.`,
 	},
 	description: {
 		id: 'layout.banner.preview.description',
-		defaultMessage: `If you meant to access the official Modrinth website, visit {url}. This preview deploy is used by Modrinth staff for testing purposes. It was built using {ref}.`,
+		defaultMessage: `If you meant to access the official Panda Minecraft Launcher website, visit {url}. This preview deploy is used by Panda Minecraft Launcher staff for testing purposes. It was built using {ref}.`,
 	},
 })
 

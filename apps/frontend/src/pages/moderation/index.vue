@@ -177,7 +177,7 @@ import { toModerationProjects } from '~/helpers/moderation.ts'
 import { useModerationQueue } from '~/services/moderation/queue.ts'
 import { findNextEligibleQueueProject } from '~/services/moderation/queue-eligibility.ts'
 
-useHead({ title: 'Projects queue - Modrinth' })
+useHead({ title: 'Projects queue - Panda Minecraft Launcher' })
 
 const { formatMessage } = useVIntl()
 const notificationManager = injectNotificationManager()

@@ -17,7 +17,7 @@
 
 # Dependency Injection
 
-Modrinth uses a small dependency-injection (DI) layer that uses Vue `provide` and `inject`.
+Panda Minecraft Launcher uses a small dependency-injection (DI) layer that uses Vue `provide` and `inject`.
 
 This layer shares platform capabilities and page state with common UI components.
 

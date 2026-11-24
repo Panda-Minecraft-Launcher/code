@@ -173,7 +173,7 @@ pub(super) async fn reconstruct_modpack_servers(
     }
     let version_id =
         modpack_version_id(&metadata.link).ok_or(ErrorKind::InputError(
-            "this modpack does not have a recoverable Modrinth version"
+            "this modpack does not have a recoverable Panda Minecraft Launcher version"
                 .to_string(),
         ))?;
     let version = CachedEntry::get_version(

@@ -1037,11 +1037,11 @@ const navMenuMessages = defineMessages({
 	},
 	getModrinthApp: {
 		id: 'layout.nav.get-modrinth-app',
-		defaultMessage: 'Get Modrinth App',
+		defaultMessage: 'Get Panda Minecraft Launcher',
 	},
 	modrinthApp: {
 		id: 'layout.nav.modrinth-app',
-		defaultMessage: 'Modrinth App',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 })
 
@@ -1060,7 +1060,7 @@ const messages = defineMessages({
 	},
 	modrinthHomePage: {
 		id: 'layout.nav.modrinth-home-page',
-		defaultMessage: 'Modrinth home page',
+		defaultMessage: 'Panda Minecraft Launcher home page',
 	},
 	createNew: {
 		id: 'layout.action.create-new',
@@ -1076,7 +1076,7 @@ const messages = defineMessages({
 	},
 	verifyEmailBeforePublishing: {
 		id: 'layout.publish.email-verification-required.description',
-		defaultMessage: 'You must verify your email before publishing on Modrinth.',
+		defaultMessage: 'You must verify your email before publishing on Panda Minecraft Launcher.',
 	},
 	reviewProjects: {
 		id: 'layout.action.review-projects',
@@ -1132,7 +1132,7 @@ const messages = defineMessages({
 	},
 	upgradeToModrinthPlus: {
 		id: 'layout.nav.upgrade-to-modrinth-plus',
-		defaultMessage: 'Upgrade to Modrinth+',
+		defaultMessage: 'Upgrade to Panda Minecraft Launcher',
 	},
 	projects: {
 		id: 'layout.nav.projects',
@@ -1195,21 +1195,21 @@ useHead({
 	],
 })
 useSeoMeta({
-	title: 'Modrinth',
+	title: 'Panda Minecraft Launcher',
 	description: () =>
 		formatMessage({
 			id: 'layout.meta.description',
 			defaultMessage:
-				'Download Minecraft mods, plugins, datapacks, shaders, resourcepacks, and modpacks on Modrinth. ' +
-				'Discover and publish projects on Modrinth with a modern, easy to use interface and API.',
+				'Download Minecraft mods, plugins, datapacks, shaders, resourcepacks, and modpacks on Panda Minecraft Launcher. ' +
+				'Discover and publish projects on Panda Minecraft Launcher with a modern, easy to use interface and API.',
 		}),
-	publisher: 'Modrinth',
+	publisher: 'Panda Minecraft Launcher',
 	themeColor: '#1bd96a',
 	colorScheme: 'dark light',
 
 	// OpenGraph
-	ogTitle: 'Modrinth',
-	ogSiteName: 'Modrinth',
+	ogTitle: 'Panda Minecraft Launcher',
+	ogSiteName: 'Panda Minecraft Launcher',
 	ogDescription: () =>
 		formatMessage({
 			id: 'layout.meta.og-description',

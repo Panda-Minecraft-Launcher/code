@@ -183,10 +183,10 @@
     "message": "Gerekli olmayan uyarıları atla"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Modrinth'te yayınlanmayan bir mod paketi (.mrpack) kurulmadan önce bir güvenlik uyarısı göster."
+    "message": "Panda Minecraft Launcher'te yayınlanmayan bir mod paketi (.mrpack) kurulmadan önce bir güvenlik uyarısı göster."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
-    "message": "Modrinth'te yayınlanmayan mod paketlerini kurmadan önce beni uyar"
+    "message": "Panda Minecraft Launcher'te yayınlanmayan mod paketlerini kurmadan önce beni uyar"
   },
   "app.auth-servers.unreachable.body": {
     "message": "Minecraft doğrulama sunucuları kapalı olabilir. İnternet bağlantını kontrol et ve daha sonra tekrar dene."
@@ -543,13 +543,13 @@
     "message": "Kurulumu göster"
   },
   "app.hosting.update-required.description": {
-    "message": "Panda Hosting'i Panda Minecraft Launcher'ten kullanmak için güncellemeniz gerekiyor"
+    "message": "Panda Minecraft Launcher'i Panda Minecraft Launcher'ten kullanmak için güncellemeniz gerekiyor"
   },
   "app.hosting.update-required.download": {
     "message": "Güncellemeyi indir"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Heyecanlı Panda Botu"
+    "message": "Heyecanlı Panda Minecraft Launcher Botu"
   },
   "app.hosting.update-required.title": {
     "message": "Panda Minecraft Launcher güncellemesi gerekli"
@@ -1422,7 +1422,7 @@
     "message": "Paylaşılan kurulumun paylaşımını kaldır {count} ve bunlardan ayrıl"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {Bu paylaşılan oturumu Panda sunucularından silecek. Panda Minecraft Launcher'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.} other {Bu paylaşılan oturumları Panda sunucularından silecek. Panda Minecraft Launcher'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.}}"
+    "message": "{count, plural, one {Bu paylaşılan oturumu Panda Minecraft Launcher sunucularından silecek. Panda Minecraft Launcher'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.} other {Bu paylaşılan oturumları Panda Minecraft Launcher sunucularından silecek. Panda Minecraft Launcher'te kullanan insanlar güncelleme almayı bırakacak ve senin kütüphanenden kaldırılacak.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {Paylaşılan oturum paylaşımdan kaldırılıyor} other {Paylaşılan # oturum paylaşımdan kaldırılıyor}}"
@@ -1545,7 +1545,7 @@
     "message": "Silindi"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Bu sunucunun modpack güncellemesi Panda'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
+    "message": "Bu sunucunun modpack güncellemesi Panda Minecraft Launcher'te paylaşılmayan dosyalar içeriyor. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi şiddetle tavsiye ederiz."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Eklendi"
@@ -1581,7 +1581,7 @@
     "message": "Panda Minecraft Launcher hesabı"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Hesabı kaldır"
@@ -1596,7 +1596,7 @@
     "message": "Hesap değiştir"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Panda+'a yükselt"
+    "message": "Panda Minecraft Launcher'a yükselt"
   },
   "app.nav.view-profile": {
     "message": "Profili görüntüle"
@@ -3981,7 +3981,7 @@
     "message": "Paylaşımlı örneğin bağlantısını kaldır"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Bu paylaşımlı örneği Panda'in sunucularından kaldırır. Panda Minecraft Launcher'i kullanan kişiler güncelleme almayı bırakır fakat yerel örneğiniz ve içeriği bu cihazda kalacak."
+    "message": "Bu paylaşımlı örneği Panda Minecraft Launcher'in sunucularından kaldırır. Panda Minecraft Launcher'i kullanan kişiler güncelleme almayı bırakır fakat yerel örneğiniz ve içeriği bu cihazda kalacak."
   },
   "instance.action.create-shortcut": {
     "message": "Kısayol oluştur"

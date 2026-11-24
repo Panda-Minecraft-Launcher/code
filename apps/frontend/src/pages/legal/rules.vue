@@ -139,7 +139,7 @@
 
 		<p>
 			You must own or have the necessary licenses, rights, consents, and permissions to store,
-			share, and distribute the Content that is uploaded under your Modrinth account.
+			share, and distribute the Content that is uploaded under your Panda Minecraft Launcher account.
 		</p>
 
 		<p>
@@ -235,10 +235,10 @@
 
 <script setup>
 const description =
-	'The Content Rules of Modrinth, an open source modding platform focused on Minecraft.'
+	'The Content Rules of Panda Minecraft Launcher, an open source modding platform focused on Minecraft.'
 
 useSeoMeta({
-	title: 'Content Rules - Modrinth',
+	title: 'Content Rules - Panda Minecraft Launcher',
 	description,
 	ogTitle: 'Content Rules',
 	ogDescription: description,

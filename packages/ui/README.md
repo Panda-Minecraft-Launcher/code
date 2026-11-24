@@ -1,11 +1,11 @@
 <picture>
 	<source media="(prefers-color-scheme: light)" srcset="../../.github/assets/ui_cover_light.png">
-	<img alt="Modrinth UI Cover" src="../../.github/assets/ui_cover.png">
+	<img alt="Panda Minecraft Launcher UI cover" src="../../.github/assets/ui_cover.png">
 </picture>
 
 # @modrinth/ui
 
-The shared Vue 3 component library used by both the [Modrinth Website](../../apps/frontend) and the [Modrinth App](../../apps/app-frontend). Components are platform-agnostic, with platform-specific behavior provided through dependency injection.
+The shared Vue 3 component library used by both the [Panda Minecraft Launcher website](../../apps/frontend) and the [Panda Minecraft Launcher desktop app](../../apps/app-frontend). Components are platform-agnostic, with platform-specific behavior provided through dependency injection.
 
 ## Structure
 
@@ -33,4 +33,4 @@ pnpm storybook
 
 ## License
 
-Licensed under the GNU General Public License v3. Modrinth branding is excluded, see [COPYING.md](./COPYING.md) for details.
+Licensed under the GNU General Public License v3. See [COPYING.md](./COPYING.md) for details.

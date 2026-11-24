@@ -7,9 +7,9 @@ authors: ['bOHH0P9Z', 'AJfd8YH6']
 
 Hey everyone,
 
-With this release, you can now give other users access to your server! This has been one of the most requested features for Modrinth Hosting and we’re excited to finally get it out.
+With this release, you can now give other users access to your server! This has been one of the most requested features for Panda Minecraft Launcher and we’re excited to finally get it out.
 
-![The new Access tab in the Modrinth Hosting panel, featuring a list of invited users and their permissions, invite new users, and an activity log to see what changes are being made to your server and by whom.](./server-access.webp)
+![The new Access tab in the Panda Minecraft Launcher panel, featuring a list of invited users and their permissions, invite new users, and an activity log to see what changes are being made to your server and by whom.](./server-access.webp)
 
 ## TL;DR
 
@@ -19,11 +19,11 @@ With this release, you can now give other users access to your server! This has 
 
 ## Invite your friends
 
-You can now give other users access to your server so they can help manage content, start the server, and more. To invite someone, just enter their Modrinth username and they’ll receive an invite by email or as a notification in the app if they’re signed in.
+You can now give other users access to your server so they can help manage content, start the server, and more. To invite someone, just enter their Panda Minecraft Launcher username and they’ll receive an invite by email or as a notification in the app if they’re signed in.
 
 Alongside this release, we’ve also improved state syncing between the website panel, app, and other users, so everything should stay up to date in real time.
 
-![A pop-up modal for adding a user to your server. Search by Modrinth username, select their role (editor or limited), and an option to also send them a friend request.](./add-user-modal.webp)
+![A pop-up modal for adding a user to your server. Search by Panda Minecraft Launcher username, select their role (editor or limited), and an option to also send them a friend request.](./add-user-modal.webp)
 
 ## Permission roles
 

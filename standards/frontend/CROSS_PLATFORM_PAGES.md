@@ -1,6 +1,6 @@
 # Cross-Platform Pages
 
-Put pages for both Modrinth Website and Modrinth App in `packages/ui/src/layouts/`.
+Put pages for both the Panda Minecraft Launcher website and desktop app in `packages/ui/src/layouts/`.
 
 Use one of two layout types. Select the type from the differences between the platform logic.
 

@@ -72,7 +72,7 @@
 	>
 		<ErrorInformationCard
 			title="An error occured."
-			description="Please contact Modrinth Support."
+			description="Please contact Panda Minecraft Launcher Support."
 			:icon="TransferIcon"
 			icon-color="orange"
 			:error-details="generalErrorDetails"
@@ -1278,7 +1278,7 @@ const suspendedDescription = computed(() => {
 		return 'Your subscription has been cancelled.\nContact Panda Minecraft Launcher Support if you believe this is an error.'
 	}
 	if (serverData.value?.suspension_reason) {
-		return `Your server has been suspended: ${serverData.value.suspension_reason}\nContact Modrinth Support if you believe this is an error.`
+		return `Your server has been suspended: ${serverData.value.suspension_reason}\nContact Panda Minecraft Launcher Support if you believe this is an error.`
 	}
 	return 'Your server has been suspended.\nContact Panda Minecraft Launcher Support if you believe this is an error.'
 })

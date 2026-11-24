@@ -472,7 +472,7 @@ pub async fn repair_managed_modrinth(
 
 fn unmanaged_pack_error(instance_id: &str) -> ErrorKind {
     ErrorKind::InputError(format!(
-        "instance {instance_id} is not a managed Modrinth pack, or has been disconnected"
+        "instance {instance_id} is not a managed Panda Minecraft Launcher pack, or has been disconnected"
     ))
 }
 

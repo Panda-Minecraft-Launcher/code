@@ -5,7 +5,7 @@ info:
   title: Labrinth
   termsOfService: https://modrinth.com/legal/terms
   contact:
-    name: Modrinth Support
+    name: Panda Minecraft Launcher Support
     url: https://support.modrinth.com
     email: support@modrinth.com
   description: |
@@ -28,12 +28,12 @@ info:
     }
     ```
 
-    If you got a response similar to the one above, you can use the Modrinth API!
+    If you got a response similar to the one above, you can use the Panda Minecraft Launcher API!
     When you want to go live using the production API, use `api.modrinth.com` instead of `staging-api.modrinth.com`.
 
     ## Authentication
     This API has two options for authentication: personal access tokens and [OAuth2](https://en.wikipedia.org/wiki/OAuth).
-    All tokens are tied to a Modrinth user and use the `Authorization` header of the request.
+    All tokens are tied to a Panda Minecraft Launcher user and use the `Authorization` header of the request.
 
     Example:
     ```
@@ -49,17 +49,17 @@ info:
     You can find the list of available scopes [on GitHub](https://github.com/modrinth/labrinth/blob/master/src/models/pats.rs#L15). Making a request with an invalid scope will return a 401 error.
 
     Please note that certain scopes and requests cannot be completed with a personal access token or using OAuth.
-    For example, deleting a user account can only be done through Modrinth's frontend.
+    For example, deleting a user account can only be done through Panda Minecraft Launcher's frontend.
 
-    A detailed guide on OAuth has been published in [Modrinth's technical documentation](https://docs.modrinth.com/guide/oauth).
+    A detailed guide on OAuth has been published in [Panda Minecraft Launcher's technical documentation](https://docs.modrinth.com/guide/oauth).
 
     ### Personal access tokens
     Personal access tokens (PATs) can be generated in from [the user settings](https://modrinth.com/settings/account).
 
     ### GitHub tokens
-    For backwards compatibility purposes, some types of GitHub tokens also work for authenticating a user with Modrinth's API, granting all scopes.
+    For backwards compatibility purposes, some types of GitHub tokens also work for authenticating a user with Panda Minecraft Launcher's API, granting all scopes.
     **We urge any application still using GitHub tokens to start using personal access tokens for security and reliability purposes.**
-    GitHub tokens will cease to function to authenticate with Modrinth's API as soon as version 3 of the API is made generally available.
+    GitHub tokens will cease to function to authenticate with Panda Minecraft Launcher's API as soon as version 3 of the API is made generally available.
 
     ## Cross-Origin Resource Sharing
     This API features Cross-Origin Resource Sharing (CORS) implemented in compliance with the [W3C spec](https://www.w3.org/TR/cors/).
@@ -85,7 +85,7 @@ info:
     The ratelimit is currently 300 requests per minute. If you have a use case requiring a higher limit, please [contact us](mailto:support@modrinth.com).
 
     ## User Agents
-    To access the Modrinth API, you **must** use provide a uniquely-identifying `User-Agent` header.
+    To access the Panda Minecraft Launcher API, you **must** use provide a uniquely-identifying `User-Agent` header.
     Providing a user agent that only identifies your HTTP client library (such as "okhttp/4.9.3") increases the likelihood that we will block your traffic.
     It is recommended, but not required, to include contact information in your user agent.
     This allows us to contact you if we would like a change in your application's behavior without having to block your traffic.
@@ -95,7 +95,7 @@ info:
     - Best: `User-Agent: github_username/project_name/1.56.0 (launcher.com)` or `User-Agent: github_username/project_name/1.56.0 (contact@launcher.com)`
 
     ## Versioning
-    Modrinth follows a simple pattern for its API versioning.
+    Panda Minecraft Launcher follows a simple pattern for its API versioning.
     In the event of a breaking API change, the API version in the URL path is bumped, and migration steps will be published below.
 
     When an API is no longer the current one, it will immediately be considered deprecated.
@@ -109,9 +109,9 @@ info:
     Please ensure your application handles these 410 errors.
 
     ### Migrations
-    Inside the following spoiler, you will be able to find all changes between versions of the Modrinth API, accompanied by tips and a guide to migrate applications to newer versions.
+    Inside the following spoiler, you will be able to find all changes between versions of the Panda Minecraft Launcher API, accompanied by tips and a guide to migrate applications to newer versions.
 
-    Here, you can also find changes for [Minotaur](https://github.com/modrinth/minotaur), Modrinth's official Gradle plugin. Major versions of Minotaur directly correspond to major versions of the Modrinth API.
+    Here, you can also find changes for [Minotaur](https://github.com/modrinth/minotaur), Panda Minecraft Launcher's official Gradle plugin. Major versions of Minotaur directly correspond to major versions of the Panda Minecraft Launcher API.
 
     <details><summary>API v1 to API v2</summary>
 
@@ -124,8 +124,8 @@ info:
     - New search fields: `project_type`, `gallery`
       - The gallery field is an array of URLs to images that are part of the project's gallery
     - The gallery is a new feature which allows the user to upload images showcasing their mod to the CDN which will be displayed on their mod page
-    - Internal change: Any project file uploaded to Modrinth is now validated to make sure it's a valid Minecraft mod, Modpack, etc.
-      - For example, a Forge 1.17 mod with a JAR not containing a mods.toml will not be allowed to be uploaded to Modrinth
+    - Internal change: Any project file uploaded to Panda Minecraft Launcher is now validated to make sure it's a valid Minecraft mod, Modpack, etc.
+      - For example, a Forge 1.17 mod with a JAR not containing a mods.toml will not be allowed to be uploaded to Panda Minecraft Launcher
     - In project creation, projects may not upload a mod with no versions to review, however they can be saved as a draft
       - Similarly, for version creation, a version may not be uploaded without any files
     - Donation URLs have been enabled
@@ -2055,16 +2055,16 @@ components:
       properties:
         projects:
           type: integer
-          description: Number of projects on Modrinth
+          description: Number of projects on Panda Minecraft Launcher
         versions:
           type: integer
-          description: Number of versions on Modrinth
+          description: Number of versions on Panda Minecraft Launcher
         files:
           type: integer
-          description: Number of version files on Modrinth
+          description: Number of version files on Panda Minecraft Launcher
         authors:
           type: integer
-          description: Number of authors (users with projects) on Modrinth
+          description: Number of authors (users with projects) on Panda Minecraft Launcher
     ForgeUpdates:
       type: object
       description: Mod version information that can be consumed by Forge's update checker
@@ -2094,7 +2094,7 @@ components:
 tags:
   - name: projects
     x-displayName: Projects
-    description: Projects are what Modrinth is centered around, be it mods, modpacks, resource packs, etc.
+    description: Projects are what Panda Minecraft Launcher is centered around, be it mods, modpacks, resource packs, etc.
   - name: versions
     x-displayName: Versions
     description: Versions contain download links to files with additional metadata.
@@ -2539,7 +2539,7 @@ paths:
       - $ref: '#/components/parameters/ProjectIdentifier'
     post:
       summary: Add a gallery image
-      description: Modrinth allows you to upload files of up to 5MiB to a project's gallery.
+      description: Panda Minecraft Launcher allows you to upload files of up to 5MiB to a project's gallery.
       operationId: addGalleryImage
       tags:
         - projects
@@ -4186,7 +4186,7 @@ paths:
       summary: Forge Updates JSON file
       operationId: forgeUpdates
       description: |
-        If you're a Forge mod developer, your Modrinth mods have an automatically generated `updates.json` using the
+        If you're a Forge mod developer, your Panda Minecraft Launcher mods have an automatically generated `updates.json` using the
         [Forge Update Checker](https://docs.minecraftforge.net/en/latest/misc/updatechecker/).
 
         The only setup is to insert the URL into the `[[mods]]` section of your `mods.toml` file as such:
@@ -4199,10 +4199,10 @@ paths:
 
         Replace `{slug|id}` with the slug or ID of your project.
 
-        Modrinth will handle the rest! When you update your mod, Forge will notify your users that their copy of your mod is out of date.
+        Panda Minecraft Launcher will handle the rest! When you update your mod, Forge will notify your users that their copy of your mod is out of date.
 
-        Make sure that the version format you use for your Modrinth releases is the same as the version format you use in your `mods.toml`.
-        If you use a format such as `1.2.3-forge` or `1.2.3+1.19` with your Modrinth releases but your `mods.toml` only has `1.2.3`,
+        Make sure that the version format you use for your Panda Minecraft Launcher releases is the same as the version format you use in your `mods.toml`.
+        If you use a format such as `1.2.3-forge` or `1.2.3+1.19` with your Panda Minecraft Launcher releases but your `mods.toml` only has `1.2.3`,
         the update checker may not function properly.
 
         If you're using NeoForge, NeoForge versions will, by default, not appear in the default URL.
@@ -4230,7 +4230,7 @@ paths:
                 $ref: '#/components/schemas/InvalidInputError'
   /statistics:
     get:
-      summary: Various statistics about this Modrinth instance
+      summary: Various statistics about this Panda Minecraft Launcher instance
       operationId: statistics
       tags:
         - misc

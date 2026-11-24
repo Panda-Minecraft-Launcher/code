@@ -455,10 +455,10 @@
 
 <script setup>
 const description =
-	'The California Privacy Notice of Modrinth, an open source modding platform focused on Minecraft.'
+	'The California Privacy Notice of Panda Minecraft Launcher, an open source modding platform focused on Minecraft.'
 
 useSeoMeta({
-	title: 'California Privacy Notice - Modrinth',
+	title: 'California Privacy Notice - Panda Minecraft Launcher',
 	description,
 	ogTitle: 'California Privacy Notice',
 	ogDescription: description,

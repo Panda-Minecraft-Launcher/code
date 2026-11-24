@@ -60,7 +60,7 @@
     "defaultMessage": "Nenhum resultado encontrado para a tua procura!"
   },
   "browse.offline": {
-    "defaultMessage": "Estás offline. Conecta-te à internet para navegar o Modrinth!"
+    "defaultMessage": "Estás offline. Conecta-te à internet para navegar o Panda Minecraft Launcher!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Procurar {projectType}..."
@@ -198,7 +198,7 @@
     "defaultMessage": "Abrir pasta"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Abrir no Modrinth"
+    "defaultMessage": "Abrir no Panda Minecraft Launcher"
   },
   "button.play": {
     "defaultMessage": "Jogar"
@@ -1956,7 +1956,7 @@
     "defaultMessage": "O teu projeto tem múltiplos ambientes"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Reformulámos o sistema de Ambientes no Modrinth e estão agora disponíveis novas opções. Certifica-te de que a opção correta está selecionada abaixo e clica em \"Verificar\" quando terminares!"
+    "defaultMessage": "Reformulámos o sistema de Ambientes no Panda Minecraft Launcher e estão agora disponíveis novas opções. Certifica-te de que a opção correta está selecionada abaixo e clica em \"Verificar\" quando terminares!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Por favor, revê as opções abaixo"
@@ -2925,10 +2925,10 @@
     "defaultMessage": "Tens alterações por guardar."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " não está publicado no Modrinth. Recomendamos fortemente que apenas instales ficheiros de fontes que confies."
+    "defaultMessage": " não está publicado no Panda Minecraft Launcher. Recomendamos fortemente que apenas instales ficheiros de fontes que confies."
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " contém ficheiros que não foram publicados no Modrinth. Recomendamos fortemente que apenas instales ficheiros de fontes que confies."
+    "defaultMessage": " contém ficheiros que não foram publicados no Panda Minecraft Launcher. Recomendamos fortemente que apenas instales ficheiros de fontes que confies."
   },
   "version.content.name": {
     "defaultMessage": "Nome"

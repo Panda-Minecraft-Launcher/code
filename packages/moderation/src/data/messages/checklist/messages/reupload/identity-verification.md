@@ -1,6 +1,6 @@
 ## Identity Verification
 
-**Welcome to Modrinth!**
+**Welcome to Panda Minecraft Launcher!**
 
 We're happy to see you here, we just want to make sure you're you.
 

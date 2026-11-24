@@ -134,7 +134,7 @@ Use named slots in `<IntlFormatted>` to render the tags:
 Use this pattern for simple emphasis:
 
 ```text
-'Welcome to <strong>Modrinth</strong>!'
+'Welcome to <strong>Panda Minecraft Launcher</strong>!'
 ```
 
 ```vue

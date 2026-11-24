@@ -186,7 +186,7 @@
     "message": "Barra laterale destra nascosta"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Mostra un avviso di sicurezza prima di installare un modpack (.mrpack) non ospitato su Modrinth."
+    "message": "Mostra un avviso di sicurezza prima di installare un modpack (.mrpack) non ospitato su Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Avvisami quando installo pacchetti sconosciuti"
@@ -528,13 +528,13 @@
     "message": "Mostra istanza"
   },
   "app.hosting.update-required.description": {
-    "message": "È necessario aggiornare l'app per usare Panda Hosting"
+    "message": "È necessario aggiornare l'app per usare Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Scarica per aggiornare"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Panda Bot emozionato"
+    "message": "Panda Minecraft Launcher Bot emozionato"
   },
   "app.hosting.update-required.title": {
     "message": "Aggiornamento richiesto"
@@ -1563,7 +1563,7 @@
     "message": "Account Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Rimuovi account"
@@ -1578,7 +1578,7 @@
     "message": "Cambia account"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Abbonati a Panda+"
+    "message": "Abbonati a Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Mostra profilo"
@@ -3546,7 +3546,7 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Pride Panda"
+    "message": "Pride Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride.tooltip": {
     "message": "Hai ottenuto queste skin per aver donato alla raccolta fondi per il Pride durante il Pride Month."

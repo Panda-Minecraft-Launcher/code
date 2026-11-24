@@ -87,7 +87,7 @@ const messages = defineMessages({
 	unpublishBody: {
 		id: 'app.library.unpublish-shared-instance.modal.admonition-body',
 		defaultMessage:
-			"{count, plural, one {This deletes the shared instance from Panda's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}",
+			"{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}",
 	},
 	leaveHeader: {
 		id: 'app.library.leave-shared-instance.modal.header',

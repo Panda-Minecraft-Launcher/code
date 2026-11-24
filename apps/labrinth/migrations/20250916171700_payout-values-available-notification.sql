@@ -56,7 +56,7 @@ VALUES
 			'If you have any questions about the creator rewards program, please contact support through the Support Portal at https://support.modrinth.com/ or by replying to this email.',
 			CHR(10),
 			CHR(10),
-			'Thank you for being a creator on Modrinth!'
+			'Thank you for being a creator on Panda Minecraft Launcher!'
 		)
 	);
 
@@ -94,7 +94,7 @@ VALUES
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'Modrinth''s moderation team has left a message on your project, {project.name}.',
+			'Panda Minecraft Launcher''s moderation team has left a message on your project, {project.name}.',
 			CHR(10),
 			CHR(10),
 			'Please sign in to view the message and reply if requested. It''s important to address feedback from the moderation team promptly.',
@@ -102,7 +102,7 @@ VALUES
 			'Your project''s moderation thread: https://modrinth.com/project/{project.id}/moderation',
 			CHR(10),
 			CHR(10),
-			'Thank you for publishing on Modrinth!'
+			'Thank you for publishing on Panda Minecraft Launcher!'
 		)
 	);
 
@@ -118,7 +118,7 @@ VALUES
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'Modrinth''s moderation team has left a message on your project, {project.name}.',
+			'Panda Minecraft Launcher''s moderation team has left a message on your project, {project.name}.',
 			CHR(10),
 			CHR(10),
 			'Please sign in to view the message and reply if requested. It''s important to address feedback from the moderation team promptly.',
@@ -126,7 +126,7 @@ VALUES
 			'Your project''s moderation thread: https://modrinth.com/project/{project.id}/moderation',
 			CHR(10),
 			CHR(10),
-			'Thank you for publishing on Modrinth!'
+			'Thank you for publishing on Panda Minecraft Launcher!'
 		)
 	);
 
@@ -148,7 +148,7 @@ VALUES
 			'You can view the full report thread to see the update. If you have more information to add, please reply in the report thread for our moderators to review.',
 			CHR(10),
 			CHR(10),
-			'Thank you for helping keep Modrinth safe and welcoming for everyone.'
+			'Thank you for helping keep Panda Minecraft Launcher safe and welcoming for everyone.'
 		)
 	);
 
@@ -173,7 +173,7 @@ VALUES
 			'If you have any additional information about this report, you can view it here: https://modrinth.com/dashboard/report/{newreport.id}',
 			CHR(10),
 			CHR(10),
-			'Thank you for helping keep Modrinth safe and welcoming for everyone.'
+			'Thank you for helping keep Panda Minecraft Launcher safe and welcoming for everyone.'
 		)
 	);
 
@@ -198,7 +198,7 @@ VALUES
 			'If you have questions or believe something isn''t correct, you can reply to this email or reach out via the Support Portal.',
 			CHR(10),
 			CHR(10),
-			'Thank you for sharing your work with the Modrinth community!'
+			'Thank you for sharing your work with the Panda Minecraft Launcher community!'
 		)
 	);
 
@@ -223,7 +223,7 @@ VALUES
 			'If you believe this status was applied in error, you can reply in the moderation thread or contact support through our Support Portal or by replying to this email.',
 			CHR(10),
 			CHR(10),
-			'Thank you for publishing on Modrinth!'
+			'Thank you for publishing on Panda Minecraft Launcher!'
 		)
 	);
 
@@ -239,7 +239,7 @@ VALUES
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'The ownership of {project.name} has been successfully transferred to the Modrinth {new_owner.type_capitalized} {new_owner.name}.',
+			'The ownership of {project.name} has been successfully transferred to the Panda Minecraft Launcher {new_owner.type_capitalized} {new_owner.name}.',
 			CHR(10),
 			CHR(10),
 			'View the project here: https://modrinth.com/project/{project.id}',

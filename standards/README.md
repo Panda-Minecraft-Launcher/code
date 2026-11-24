@@ -1,6 +1,6 @@
 # Standards
 
-This directory contains technical standards that apply to Modrinth development. Most of this content comes from internal Modrinth documentation.
+This directory contains technical standards that apply to Panda Minecraft Launcher development. Most of this content comes from internal documentation.
 
 For contribution instructions, refer to [docs.modrinth.com](https://docs.modrinth.com/contributing/getting-started/). Use these documents only as technical references.
 

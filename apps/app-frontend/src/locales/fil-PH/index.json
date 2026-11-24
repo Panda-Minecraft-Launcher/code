@@ -186,7 +186,7 @@
     "message": "Itago ang kanang sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Magpakita ng babala sa kaligtasan bago i-install ang isang modpack (.mrpack) na hindi naka-host sa Modrinth."
+    "message": "Magpakita ng babala sa kaligtasan bago i-install ang isang modpack (.mrpack) na hindi naka-host sa Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Pakipaalala bago ko ma-install ang mga di-kilalang modpack"
@@ -429,7 +429,7 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.update-popup.body.download-complete": {
     "message": "Tapos nang ma-download ang Panda Minecraft Launcher v{version}. Mag-reload upang ma-update ngayon, o awtomatiko sa pagsara ng Panda Minecraft Launcher."

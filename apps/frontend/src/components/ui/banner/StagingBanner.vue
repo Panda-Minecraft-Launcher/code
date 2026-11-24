@@ -9,12 +9,12 @@ const flags = useFeatureFlags()
 const messages = defineMessages({
 	title: {
 		id: 'layout.banner.staging.title',
-		defaultMessage: 'You’re viewing Modrinth’s staging environment',
+		defaultMessage: 'You’re viewing Panda Minecraft Launcher’s staging environment',
 	},
 	description: {
 		id: 'layout.banner.staging.description',
 		defaultMessage:
-			'The staging environment is completely separate from the production Modrinth database. This is used for testing and debugging purposes, and may be running in-development versions of the Modrinth backend or frontend newer than the production instance.',
+			'The staging environment is completely separate from the production Panda Minecraft Launcher database. This is used for testing and debugging purposes, and may be running in-development versions of the Panda Minecraft Launcher backend or frontend newer than the production instance.',
 	},
 })
 

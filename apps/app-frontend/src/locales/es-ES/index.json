@@ -162,7 +162,7 @@
     "message": "Ocultar etiqueta de nombre"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minimiza la aplicación Panda cuando se inicia Minecraft."
+    "message": "Minimiza la aplicación Panda Minecraft Launcher cuando se inicia Minecraft."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Minimizar App"
@@ -186,7 +186,7 @@
     "message": "Ocultar barra lateral derecha"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Mostrar un aviso de seguridad antes de instalar un modpack (.mrpack) que no esté alojado en Modrinth."
+    "message": "Mostrar un aviso de seguridad antes de instalar un modpack (.mrpack) que no esté alojado en Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Advertir antes de instalar modpacks desconocidos"
@@ -219,7 +219,7 @@
     "message": "Instancias ocultas"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Trae la aplicación de Panda al primer plano cuando cierres Minecraft."
+    "message": "Trae la aplicación de Panda Minecraft Launcher al primer plano cuando cierres Minecraft."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Volver a enfocar cuando se cierre Minecraft"
@@ -528,13 +528,13 @@
     "message": "Ver instancia"
   },
   "app.hosting.update-required.description": {
-    "message": "Necesitas actualizar para usar Panda Hosting a través de la aplicación Panda"
+    "message": "Necesitas actualizar para usar Panda Minecraft Launcher a través de la aplicación Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Descargar para actualizar"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Panda Bot emocionado"
+    "message": "Panda Minecraft Launcher Bot emocionado"
   },
   "app.hosting.update-required.title": {
     "message": "Se requiere actualizar Panda Minecraft Launcher"
@@ -1470,7 +1470,7 @@
     "message": "El modpack de este servidor no está disponible"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Este modpack contiene ficheros que no están publicados en Panda. Le recomendamos que solo instale archivos de fuentes en las que confíe."
+    "message": "Este modpack contiene ficheros que no están publicados en Panda Minecraft Launcher. Le recomendamos que solo instale archivos de fuentes en las que confíe."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Advertencia de archivos desconocidos"
@@ -1500,7 +1500,7 @@
     "message": "Eliminado"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Esta actualización del servidor de modpack contiene ficheros que no están publicados en Panda. Le recomendamos que tan solo instale archivos de fuentes en que confíe."
+    "message": "Esta actualización del servidor de modpack contiene ficheros que no están publicados en Panda Minecraft Launcher. Le recomendamos que tan solo instale archivos de fuentes en que confíe."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Añadido"
@@ -1533,7 +1533,7 @@
     "message": "Cuenta Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Eliminar cuenta"
@@ -1548,7 +1548,7 @@
     "message": "Cambiar cuenta"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Actualizar a Panda+"
+    "message": "Actualizar a Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Ver perfil"

@@ -1,6 +1,6 @@
 /**
  * Slicer script injected into the embedded slicer.run iframe via its `script` URL parameter.
- * It listens for `load` requests from the Modrinth moderation page, replaces the slicer workspace
+ * It listens for `load` requests from the Panda Minecraft Launcher moderation page, replaces the slicer workspace
  * with the requested files when they differ from what is loaded, and opens the requested entry.
  *
  * Slicer keeps imported scripts and loads them on startup, so several versions of this script may
@@ -59,8 +59,8 @@ function isLoaded(context, names) {
 }
 
 export default {
-	name: 'Modrinth moderation bridge',
-	description: 'Lets the Modrinth project review page load version files into slicer.',
+	name: 'Panda Minecraft Launcher moderation bridge',
+	description: 'Lets the Panda Minecraft Launcher project review page load version files into slicer.',
 	version: '__MODRINTH_BRIDGE_VERSION__',
 	load(context) {
 		if (window.parent === window) return
@@ -124,7 +124,7 @@ export default {
 					if (request.signal.aborted) return
 					request.abort()
 					post({ type: 'error', id: data.id })
-					context.notification.error('Could not load files from Modrinth', {
+					context.notification.error('Could not load files from Panda Minecraft Launcher', {
 						description: String(error?.message ?? error),
 					})
 				}

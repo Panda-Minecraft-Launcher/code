@@ -367,10 +367,10 @@ async fn app() -> std::io::Result<()> {
             "telemetry": false,
 
             "metaData": {
-                "title": "Modrinth API Documentation",
-                "description": "Reference documentation for the Modrinth API.",
-                "ogTitle": "Modrinth API Documentation",
-                "ogDescription": "Reference documentation for the Modrinth API."
+                "title": "Panda Minecraft Launcher API Documentation",
+                "description": "Reference documentation for the Panda Minecraft Launcher API.",
+                "ogTitle": "Panda Minecraft Launcher API Documentation",
+                "ogDescription": "Reference documentation for the Panda Minecraft Launcher API."
             },
 
             "modelsSectionLabel": "Schemas",

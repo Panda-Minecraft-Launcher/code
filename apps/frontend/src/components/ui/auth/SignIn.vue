@@ -401,11 +401,11 @@ const messages = defineMessages({
 	},
 	signInWithLabel: {
 		id: 'auth.sign-in.sign-in-with',
-		defaultMessage: 'Sign into Modrinth',
+		defaultMessage: 'Sign into Panda Minecraft Launcher',
 	},
 	launcherReauthTitle: {
 		id: 'auth.sign-in.launcher.reauthenticate.title',
-		defaultMessage: 'Sign into Modrinth App',
+		defaultMessage: 'Sign into Panda Minecraft Launcher',
 	},
 	useDifferentAccount: {
 		id: 'auth.sign-in.reauthenticate.use-different-account',
@@ -413,7 +413,7 @@ const messages = defineMessages({
 	},
 	chooseAccountLabel: {
 		id: 'auth.sign-in.choose-account',
-		defaultMessage: 'Choose an account to use in Modrinth App',
+		defaultMessage: 'Choose an account to use in Panda Minecraft Launcher',
 	},
 	addAccountLabel: {
 		id: 'auth.sign-in.add-account',

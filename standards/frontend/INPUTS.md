@@ -271,7 +271,7 @@ native input. It opens the native picker if the browser has `showPicker()`.
 Use `DateInput` for a native date control. Use `DatePicker` for one or more of these
 functions:
 
-- A calendar with the Modrinth style.
+- A calendar with the Panda Minecraft Launcher style.
 - A date range or multiple dates.
 - Time controls.
 - More than one visible month.

@@ -120,7 +120,7 @@
     "defaultMessage": "Sorgunuz için sonuç bulunamadı!"
   },
   "browse.offline": {
-    "defaultMessage": "Şu anda çevrimdışısınız. Modrinth'de gezinmek için internet'e bağlanın!"
+    "defaultMessage": "Şu anda çevrimdışısınız. Panda Minecraft Launcher'de gezinmek için internet'e bağlanın!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "{projectType} araştır..."
@@ -150,7 +150,7 @@
     "defaultMessage": "CurseForge"
   },
   "browse.source.modrinth": {
-    "defaultMessage": "Modrinth"
+    "defaultMessage": "Panda Minecraft Launcher"
   },
   "browse.view-prefix": {
     "defaultMessage": "Görüntüle:"
@@ -267,7 +267,7 @@
     "defaultMessage": "Klasörde aç"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Modrinth'de aç"
+    "defaultMessage": "Panda Minecraft Launcher'de aç"
   },
   "button.play": {
     "defaultMessage": "Oyna"
@@ -582,13 +582,13 @@
     "defaultMessage": "{count} kaldırıldı (devre dışı)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Modrinth üzerinde yayınlanmayan dosyalar incelemez."
+    "defaultMessage": "Panda Minecraft Launcher üzerinde yayınlanmayan dosyalar incelemez."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "Sunucundaki bazı içerikler analiz edilemedi ve bu değişiklikten etkilenebilir."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Bu güncelleme Modrinth'te yayınlanmamış doysalar barındırıyor. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
+    "defaultMessage": "Bu güncelleme Panda Minecraft Launcher'te yayınlanmamış doysalar barındırıyor. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Bilinmeyen dosya uyarısı"
@@ -1254,7 +1254,7 @@
     "defaultMessage": "çalışma-linki"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Bu görünüşe göre bir Modrinth linkine benziyor. Eğer bu içerik Modrinth'te varsa, paketin muhtemelen hatalı aktarılmıştır. Eğer farklı bir siteden indirdiyseniz, Modrinth versiyonunu indirmeyi deneyin; bazen iki dosya aynı olmayabiliyor."
+    "defaultMessage": "Bu görünüşe göre bir Panda Minecraft Launcher linkine benziyor. Eğer bu içerik Panda Minecraft Launcher'te varsa, paketin muhtemelen hatalı aktarılmıştır. Eğer farklı bir siteden indirdiyseniz, Panda Minecraft Launcher versiyonunu indirmeyi deneyin; bazen iki dosya aynı olmayabiliyor."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "Notlar"
@@ -1278,7 +1278,7 @@
     "defaultMessage": "Eğer ki yüklediğin fotoğraflarla yalan söylediğin veya manipüle edildiğin tespit edilirse, projen veya hesabın devre dışı bırakılabilir."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Modrinth çalışanları senin kanıtını doğrulayabilir"
+    "defaultMessage": "Panda Minecraft Launcher çalışanları senin kanıtını doğrulayabilir"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "Kaynak gösterme bilgisini sakla"
@@ -1368,7 +1368,7 @@
     "defaultMessage": "Otomatik olarak kaynak gösterildi"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "Bu dosyayı daha önce gördük ve sizin için bir kaynak gösterdik. Bir şey yanlış görünürse, lütfen Modrinth Desteğinden üzerinden Yardım Merkezine ulaşın"
+    "defaultMessage": "Bu dosyayı daha önce gördük ve sizin için bir kaynak gösterdik. Bir şey yanlış görünürse, lütfen Panda Minecraft Launcher Desteğinden üzerinden Yardım Merkezine ulaşın"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "Lisans"
@@ -3765,7 +3765,7 @@
     "defaultMessage": "{count} oynama"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "Modrinth'den son 2 haftada {count} oynama"
+    "defaultMessage": "Panda Minecraft Launcher'den son 2 haftada {count} oynama"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "Bu proje özel bir mod paketi kullanmaktadır"
@@ -4098,7 +4098,7 @@
     "defaultMessage": "Projenizin birden fazla ortamı var"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Daha yeni Modrinth'in Ortam sistemini tamamen yeniledik ve yeni ayarlar var. Lütfen aşağıda doğru ayarın şeçili olduğundan emin olun ve 'Doğrula' tuşuna basın!"
+    "defaultMessage": "Daha yeni Panda Minecraft Launcher'in Ortam sistemini tamamen yeniledik ve yeni ayarlar var. Lütfen aşağıda doğru ayarın şeçili olduğundan emin olun ve 'Doğrula' tuşuna basın!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Lütfen aşağıdaki ayarları inceleyin"
@@ -4470,13 +4470,13 @@
     "defaultMessage": "Yükleyici"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "Modrinth üzerindeki tüm içeriklerin uygun şekilde etiketlendiğini garanti edemeyiz."
+    "defaultMessage": "Panda Minecraft Launcher üzerindeki tüm içeriklerin uygun şekilde etiketlendiğini garanti edemeyiz."
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "Işığa duyarlılık tetikleyicileri için içerik etiketleri, içeriklerini Modrinth'e yükleyen oluşturucular tarafından kendilerince atanır. Bu projeler güvenlik testinden geçmemiştir."
+    "defaultMessage": "Işığa duyarlılık tetikleyicileri için içerik etiketleri, içeriklerini Panda Minecraft Launcher'e yükleyen oluşturucular tarafından kendilerince atanır. Bu projeler güvenlik testinden geçmemiştir."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "Modrinth üzerindeki herhangi bir içeriği kullanmak sizin sorumluluğunuzdadır. Lütfen güvende kalın! 💚"
+    "defaultMessage": "Panda Minecraft Launcher üzerindeki herhangi bir içeriği kullanmak sizin sorumluluğunuzdadır. Lütfen güvende kalın! 💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "Bir daha gösterme"
@@ -6678,19 +6678,19 @@
     "defaultMessage": "Kötü amaçlı yazılımlar, genellikle Discord gibi platformlarda paylaşılan mod dosyaları aracılığıyla yayılmaktadır."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " Modrinth'te paylaşılmamış. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi önemle tavsiye ederiz."
+    "defaultMessage": " Panda Minecraft Launcher'te paylaşılmamış. Yalnızca güvendiğiniz kaynaklardan gelen dosyaları yüklemenizi önemle tavsiye ederiz."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "Bilinmeyen dosya uyarısı"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " Modrinth'te yayınlanmamış doysalar barındırıyor. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
+    "defaultMessage": " Panda Minecraft Launcher'te yayınlanmamış doysalar barındırıyor. Yalnızca güvendiğiniz kaynaklardan dosya indirmenizi önemle tavsiye ederiz."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "Bilinmeyen dosya uyarısı"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "Modrinth üzerinde yayınlanmayan dosyalar incelenmez."
+    "defaultMessage": "Panda Minecraft Launcher üzerinde yayınlanmayan dosyalar incelenmez."
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "Tanımlanamayan dosyalar"

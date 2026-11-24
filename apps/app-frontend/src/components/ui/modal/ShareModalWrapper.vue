@@ -10,7 +10,7 @@ defineProps({
 	},
 	shareTitle: {
 		type: String,
-		default: 'Modrinth',
+		default: 'Panda Minecraft Launcher',
 	},
 	shareText: {
 		type: String,

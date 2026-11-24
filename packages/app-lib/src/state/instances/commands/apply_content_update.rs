@@ -426,11 +426,13 @@ pub(crate) async fn plan_bulk_update(
             ))?;
         let project_id =
             project.project_id.clone().ok_or(ErrorKind::InputError(
-                "selected content has no Modrinth project".to_string(),
+                "selected content has no Panda Minecraft Launcher project"
+                    .to_string(),
             ))?;
         let current_version_id =
             project.version_id.clone().ok_or(ErrorKind::InputError(
-                "selected content has no Modrinth version".to_string(),
+                "selected content has no Panda Minecraft Launcher version"
+                    .to_string(),
             ))?;
         updates.push(ContentUpdate {
             project_id,
@@ -495,7 +497,7 @@ pub(crate) async fn plan_bulk_update(
         )?;
         if version.project_id != update.project_id {
             bail!(ErrorKind::InputError(
-                "cannot update content to a different Modrinth project"
+                "cannot update content to a different Panda Minecraft Launcher project"
                     .to_string(),
             ));
         }
@@ -911,7 +913,7 @@ fn validate_update_project(
 ) -> crate::Result<()> {
     if downloaded.project_id != project_id {
         bail!(ErrorKind::InputError(
-            "cannot update content to a different Modrinth project".to_string(),
+            "cannot update content to a different Panda Minecraft Launcher project".to_string(),
         ));
     }
     Ok(())

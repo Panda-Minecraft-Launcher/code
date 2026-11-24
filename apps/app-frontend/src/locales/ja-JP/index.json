@@ -75,7 +75,7 @@
     "message": "Minecraftのセットアップに失敗しました"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Pandaに接続できませんでした"
+    "message": "Panda Minecraft Launcherに接続できませんでした"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "書き込み権限がありません"
@@ -132,7 +132,7 @@
     "message": "すべて受け入れる"
   },
   "app.ads-consent.body": {
-    "message": "Pandaは広告収益によって運営され、クリエイターへの報酬もその収益から支払われています。当社のパートナーは、広告のパーソナライズや効果測定のために、アプリ内でCookieを保存・利用する場合があります。"
+    "message": "Panda Minecraft Launcherは広告収益によって運営され、クリエイターへの報酬もその収益から支払われています。当社のパートナーは、広告のパーソナライズや効果測定のために、アプリ内でCookieを保存・利用する場合があります。"
   },
   "app.ads-consent.manage": {
     "message": "設定の管理"
@@ -141,7 +141,7 @@
     "message": "すべて拒否する"
   },
   "app.ads-consent.title": {
-    "message": "プライバシーと広告がPandaを支える仕組み"
+    "message": "プライバシーと広告がPanda Minecraft Launcherを支える仕組み"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "ライブラリをコンパクトに表示します。"
@@ -186,7 +186,7 @@
     "message": "右のサイドバーを隠す"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Modrinth以外でホストされているModパック（.mrpack）をインストールする前に、安全警告を表示します。"
+    "message": "Panda Minecraft Launcher以外でホストされているModパック（.mrpack）をインストールする前に、安全警告を表示します。"
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "不明なModパックのインストール前に警告する"
@@ -204,7 +204,7 @@
     "message": "ホームとコンテンツ"
   },
   "app.behavior-settings.hidden-instances.description": {
-    "message": "このデバイス上のライブラリから非表示にしたインスタンス。非表示のインスタンスは、Pandaアカウントと同期されません。"
+    "message": "このデバイス上のライブラリから非表示にしたインスタンス。非表示のインスタンスは、Panda Minecraft Launcherアカウントと同期されません。"
   },
   "app.behavior-settings.hidden-instances.empty": {
     "message": "まだどのインスタンスも非表示にしていません"
@@ -231,7 +231,7 @@
     "message": "ログイン中のすべての端末で同じ設定を使用します。オフにすると、端末ごとに個別の設定を使用できます。"
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "設定を同期するには、Pandaアカウントにログインしてください。"
+    "message": "設定を同期するには、Panda Minecraft Launcherアカウントにログインしてください。"
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "端末間での設定の同期"
@@ -486,7 +486,7 @@
     "message": "サインインされているすべてのデバイスでこれらの機能はすべて共有されます。デバイスごとに設定した場合はこの機能をオフにしてください。"
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "設定を同期するには、Pandaアカウントにログインしてください。"
+    "message": "設定を同期するには、Panda Minecraft Launcherアカウントにログインしてください。"
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "デバイス間での同期機能を同期する"
@@ -528,13 +528,13 @@
     "message": "インスタンスを表示"
   },
   "app.hosting.update-required.description": {
-    "message": "Panda Hostingを利用するには、Panda Minecraft Launcherを更新してください"
+    "message": "Panda Minecraft Launcherを利用するには、Panda Minecraft Launcherを更新してください"
   },
   "app.hosting.update-required.download": {
     "message": "ダウンロードして更新"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "ワクワクしているPanda Bot"
+    "message": "ワクワクしているPanda Minecraft Launcher Bot"
   },
   "app.hosting.update-required.title": {
     "message": "Panda Minecraft Launcherの更新が必要です"
@@ -897,13 +897,13 @@
     "message": "このアカウントでサインインすることで"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Pandaへのサインインが必要です"
+    "message": "Panda Minecraft Launcherへのサインインが必要です"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "インスタンスのアップデートを受け取ることができます。"
   },
   "app.instance.shared-instance-wrong-account.warning-header": {
-    "message": "Pandaのアカウントが間違っています"
+    "message": "Panda Minecraft Launcherのアカウントが間違っています"
   },
   "app.instance.shortcut.created": {
     "message": "ショートカットを作成しました"
@@ -1398,7 +1398,7 @@
     "message": "ライブラリ"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, other {あなたが所有する#件の共有インスタンスはPandaのサーバーから削除され、利用者の}}更新の受け取りが停止されます。\n他の{leaveCount, plural, =1 {} other {#件の}}共有インスタンスへのアクセスを失い、再度参加するには新しく招待を受ける必要があります。これらすべてはライブラリから削除されます。"
+    "message": "{unpublishCount, plural, other {あなたが所有する#件の共有インスタンスはPanda Minecraft Launcherのサーバーから削除され、利用者の}}更新の受け取りが停止されます。\n他の{leaveCount, plural, =1 {} other {#件の}}共有インスタンスへのアクセスを失い、再度参加するには新しく招待を受ける必要があります。これらすべてはライブラリから削除されます。"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "共有インスタンスの公開解除と終了"
@@ -1407,7 +1407,7 @@
     "message": "{count} 共有インスタンスを非公開にして終了"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "これにより{count, plural, =1 {} other {#件の}}共有インスタンスがPandaのサーバーから削除されます。Panda Minecraft Launcherでこれを使っている人は更新の受け取りが停止され、あなたのライブラリから削除されます。"
+    "message": "これにより{count, plural, =1 {} other {#件の}}共有インスタンスがPanda Minecraft Launcherのサーバーから削除されます。Panda Minecraft Launcherでこれを使っている人は更新の受け取りが停止され、あなたのライブラリから削除されます。"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, =1 {} other {#件の}}共有インスタンスの公開を取り消す"
@@ -1443,10 +1443,10 @@
     "message": "インストール"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "この招待は他のPandaユーザーによって作成されたものであり、Panda公式のものではありません。信頼できる人からの招待のみ承諾してください。"
+    "message": "この招待は他のPanda Minecraft Launcherユーザーによって作成されたものであり、Panda Minecraft Launcher公式のものではありません。信頼できる人からの招待のみ承諾してください。"
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "この招待はPandaではなく<creator>{username}</creator>によって作成されました。信頼できる人物からの招待のみ受諾してください。"
+    "message": "この招待はPanda Minecraft Launcherではなく<creator>{username}</creator>によって作成されました。信頼できる人物からの招待のみ受諾してください。"
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "Modパックのコンテンツ"
@@ -1482,7 +1482,7 @@
     "message": "サポートに関するお問い合わせは、<support-link>サポートチーム</support-link>までご連絡ください。バグの報告は、<github-link>GitHubのIssue</github-link>を作成してください。"
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "追加するファイルはPandaの認証を受けていません。"
+    "message": "追加するファイルはPanda Minecraft Launcherの認証を受けていません。"
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "共有インスタンス"
@@ -1491,7 +1491,7 @@
     "message": "共有インスタンスの内容"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "この共有インスタンスには、Pandaで公開されていないファイルが含まれています。信頼できる提供元からのファイルのみをインストールすることを強くお勧めします。"
+    "message": "この共有インスタンスには、Panda Minecraft Launcherで公開されていないファイルが含まれています。信頼できる提供元からのファイルのみをインストールすることを強くお勧めします。"
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "このサーバーで使用されているModPackのバージョンは、現在ダウンロードできません。公開が停止されているか、審査中の可能性があります。後ほど再度お試しいただくか、サーバーの管理者にお問い合わせください。"
@@ -1500,7 +1500,7 @@
     "message": "このサーバーのmodpackは利用できません"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "このサーバーModパックには、Pandaに公開されていないファイルが含まれています。信頼できるソースからのファイルのみをインストールすることを強く推奨します。"
+    "message": "このサーバーModパックには、Panda Minecraft Launcherに公開されていないファイルが含まれています。信頼できるソースからのファイルのみをインストールすることを強く推奨します。"
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "不明なファイルの警告"
@@ -1521,7 +1521,7 @@
     "message": "他のインストール環境からプッシュしました"
   },
   "app.modal.update-to-play.owner-description": {
-    "message": "これらの変更は、別のPandaアプリのインストールからプッシュされました。このインストール環境での共有コンテンツへのプッシュされていない変更は置き換えられます。"
+    "message": "これらの変更は、別のPanda Minecraft Launcherアプリのインストールからプッシュされました。このインストール環境での共有コンテンツへのプッシュされていない変更は置き換えられます。"
   },
   "app.modal.update-to-play.owner-header": {
     "message": "更新が利用可能"
@@ -1530,7 +1530,7 @@
     "message": "削除されました"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "このサーバーModパックのアップデートには、Pandaに公開されていないファイルが含まれています。信頼できるソースからのファイルのみをインストールすることを強く推奨します。"
+    "message": "このサーバーModパックのアップデートには、Panda Minecraft Launcherに公開されていないファイルが含まれています。信頼できるソースからのファイルのみをインストールすることを強く推奨します。"
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "追加済み"
@@ -1539,7 +1539,7 @@
     "message": "削除済み"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "この共有インスタンスのアップデートには、Pandaで公開されていないファイルが含まれています。信頼できる提供元からのファイルのみをインストールすることを強くお勧めします。"
+    "message": "この共有インスタンスのアップデートには、Panda Minecraft Launcherで公開されていないファイルが含まれています。信頼できる提供元からのファイルのみをインストールすることを強くお勧めします。"
   },
   "app.modal.update-to-play.update-required": {
     "message": "更新が必要です"
@@ -1560,10 +1560,10 @@
     "message": "プロフィールを読み込み中…"
   },
   "app.nav.modrinth-account": {
-    "message": "Pandaアカウント"
+    "message": "Panda Minecraft Launcherアカウント"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "アカウントを削除"
@@ -1572,13 +1572,13 @@
     "message": "スクリーンショット"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Pandaへサインイン"
+    "message": "Panda Minecraft Launcherへサインイン"
   },
   "app.nav.switch-account": {
     "message": "アカウントの切り替え"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Panda+にアップグレード"
+    "message": "Panda Minecraft Launcherにアップグレード"
   },
   "app.nav.view-profile": {
     "message": "プロフィールを表示"
@@ -2106,7 +2106,7 @@
     "message": "一部のインスタンスはこの設定を使用できません"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "この設定はPandaの起動設定によって管理されます。"
+    "message": "この設定はPanda Minecraft Launcherの起動設定によって管理されます。"
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "値を入力"
@@ -2952,7 +2952,7 @@
     "message": "キャッシュが再構築されるまで、アプリの読み込みが遅くなる場合があります。"
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "キャッシュデータを消去し、Pandaから再ダウンロードします。キャッシュが再構築されるまで、アプリの読み込みが遅くなる場合があります。"
+    "message": "キャッシュデータを消去し、Panda Minecraft Launcherから再ダウンロードします。キャッシュが再構築されるまで、アプリの読み込みが遅くなる場合があります。"
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "アプリのキャッシュ"
@@ -2979,7 +2979,7 @@
     "message": "Panda Minecraft Launcherがインスタンスやその他のファイルを保存する場所になります。"
   },
   "app.settings.resource-management.app-directory.modal.admonition-body": {
-    "message": "データの移動中はPandaアプリを使用できません。しばらく時間がかかる場合があります。"
+    "message": "データの移動中はPanda Minecraft Launcherアプリを使用できません。しばらく時間がかかる場合があります。"
   },
   "app.settings.resource-management.app-directory.modal.admonition-header": {
     "message": "すべてのファイルが移動されます"
@@ -3048,7 +3048,7 @@
     "message": "アプリのディレクトリ"
   },
   "app.settings.resource-management.debug-info.description": {
-    "message": "Pandaサポートと共有するためにアプリのログと診断データをZIPファイルにエクスポートします。"
+    "message": "Panda Minecraft Launcherサポートと共有するためにアプリのログと診断データをZIPファイルにエクスポートします。"
   },
   "app.settings.resource-management.debug-info.export": {
     "message": "デバッグ情報をエクスポート"
@@ -3210,7 +3210,7 @@
     "message": "これらの設定は他の場所で変更されました"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "PandaがいずれかのインスタンスでModsによって追加された設定を見つけると、ここに表示されます。"
+    "message": "Panda Minecraft LauncherがいずれかのインスタンスでModsによって追加された設定を見つけると、ここに表示されます。"
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "ゲーム設定を複数のインスタンスで共通して使用できます。"
@@ -3552,7 +3552,7 @@
     "message": "Panda Minecraft Launcher プライド"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "これらのスキンは、プライド月間中にPandaのプライド募金活動に寄付したことで獲得したものです。"
+    "message": "これらのスキンは、プライド月間中にPanda Minecraft Launcherのプライド募金活動に寄付したことで獲得したものです。"
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "マウント・オブ・メイヘム"
@@ -3588,7 +3588,7 @@
     "message": "Panda Minecraft Launcher の使用感についての簡単なアンケートにご協力いただけますか？"
   },
   "app.survey.footer": {
-    "message": "このフィードバックはPandaチームに直接届けられ、今後のアップデートの改善に役立てられます！"
+    "message": "このフィードバックはPanda Minecraft Launcherチームに直接届けられ、今後のアップデートの改善に役立てられます！"
   },
   "app.survey.no-thanks": {
     "message": "結構です"
@@ -3597,7 +3597,7 @@
     "message": "アンケートに回答"
   },
   "app.survey.title": {
-    "message": "Pandaユーザーのみなさん、こんにちは！"
+    "message": "Panda Minecraft Launcherユーザーのみなさん、こんにちは！"
   },
   "app.sync-instances-update.choose-source.data-packs": {
     "message": "データパックをコピーするインスタンスを選択します。 この履歴は最初の同期にのみ使用され、後で任意のインスタンスから編集できます。"
@@ -3741,7 +3741,7 @@
     "message": "スキップ"
   },
   "app.welcome-screen.title": {
-    "message": "Pandaへようこそ"
+    "message": "Panda Minecraft Launcherへようこそ"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "example.modrinth.gg"
@@ -3810,10 +3810,10 @@
     "message": "これはMinecraftのユーザー名とは異なる可能性があります！"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Pandaユーザー名を入力…"
+    "message": "Panda Minecraft Launcherユーザー名を入力…"
   },
   "friends.add-friend.username.title": {
-    "message": "あなたのフレンドのPandaユーザー名は何ですか？"
+    "message": "あなたのフレンドのPanda Minecraft Launcherユーザー名は何ですか？"
   },
   "friends.add-friends-to-share": {
     "message": "<link>友達を追加</link>して、彼らが何をしているか見てみよう！"
@@ -3858,10 +3858,10 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Pandaアカウントにサインイン</link>して友達を追加し、彼らがプレイしているゲームをチェックしよう！"
+    "message": "<link>Panda Minecraft Launcherアカウントにサインイン</link>して友達を追加し、彼らがプレイしているゲームをチェックしよう！"
   },
   "hosting.play.account-changed": {
-    "message": "Pandaアカウントが変更されました。もう一度「サーバーを開始」を押して続行してください。"
+    "message": "Panda Minecraft Launcherアカウントが変更されました。もう一度「サーバーを開始」を押して続行してください。"
   },
   "hosting.play.no-address": {
     "message": "このサーバーにはまだ接続アドレスがありません。"
@@ -3945,7 +3945,7 @@
     "message": "共有を解除中…"
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "この共有インスタンスをPandaから削除し、使用者へのアップデート送信を停止します。ローカルのインスタンスには影響しません。"
+    "message": "この共有インスタンスをPanda Minecraft Launcherから削除し、使用者へのアップデート送信を停止します。ローカルのインスタンスには影響しません。"
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "これはローカルインスタンスにのみ影響します。インストール済みのコンテンツはこのデバイスに残り、共有インスタンスやそれを使用している他のユーザーには影響しません。"
@@ -3957,7 +3957,7 @@
     "message": "共有インスタンスのリンクを解除"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Pandaのサーバーからこの共有インスタンスを削除します。Pandaアプリでこれを使用しているユーザーへのアップデート配信は停止しますが、ローカルのインスタンスとそのコンテンツはこのデバイスに残ります。"
+    "message": "Panda Minecraft Launcherのサーバーからこの共有インスタンスを削除します。Panda Minecraft Launcherアプリでこれを使用しているユーザーへのアップデート配信は停止しますが、ローカルのインスタンスとそのコンテンツはこのデバイスに残ります。"
   },
   "instance.action.create-shortcut": {
     "message": "ショートカットを作成"
@@ -4401,7 +4401,7 @@
     "message": "ネットワークエラー"
   },
   "instance.shared-instance.owner-behind.text": {
-    "message": "別のPandaアプリから新しいバージョンがプッシュされました。ダウンロードしてからもう一度お試しください。"
+    "message": "別のPanda Minecraft Launcherアプリから新しいバージョンがプッシュされました。ダウンロードしてからもう一度お試しください。"
   },
   "instance.shared-instance.owner-behind.title": {
     "message": "更新をプッシュできませんでした"
@@ -4566,7 +4566,7 @@
     "message": "アカウントを作成"
   },
   "modal.modrinth-account-required.description": {
-    "message": "この機能を利用するには、Pandaアカウントにログインする必要があります。"
+    "message": "この機能を利用するには、Panda Minecraft Launcherアカウントにログインする必要があります。"
   },
   "modal.modrinth-account-required.header": {
     "message": "アカウントが必要です"
@@ -4575,10 +4575,10 @@
     "message": "もう一度ブラウザを開く"
   },
   "modal.modrinth-account-required.sign-in-button": {
-    "message": "Pandaへサインイン"
+    "message": "Panda Minecraft Launcherへサインイン"
   },
   "modal.modrinth-account-required.sign-in-heading": {
-    "message": "Pandaアカウントにサインインしてください"
+    "message": "Panda Minecraft Launcherアカウントにサインインしてください"
   },
   "modal.modrinth-account-required.signing-in-header": {
     "message": "サインイン"

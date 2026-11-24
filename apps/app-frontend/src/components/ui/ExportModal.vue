@@ -98,7 +98,7 @@ const exportPack = async () => {
 		defaultPath: `${nameInput.value} ${versionInput.value}.mrpack`,
 		filters: [
 			{
-				name: 'Panda Modpack',
+				name: 'Panda Minecraft Launcher modpack',
 				extensions: ['mrpack'],
 			},
 		],

@@ -4,12 +4,14 @@ use crate::ErrorKind;
 use crate::state::{Settings, State};
 use crate::util::fetch::IoSemaphore;
 use anyhow::Context;
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 use tokio::fs;
 
 pub const CACHES_FOLDER_NAME: &str = "caches";
 pub const LAUNCHER_LOGS_FOLDER_NAME: &str = "launcher_logs";
-pub const INSTANCES_FOLDER_NAME: &str = "profiles";
+pub const INSTANCES_FOLDER_NAME: &str = "instances";
+// shortcut: 0.0.6 folder name, needed for upgrades until 0.0.9; remove then.
+pub const LEGACY_INSTANCES_FOLDER_NAME: &str = "profiles";
 pub const METADATA_FOLDER_NAME: &str = "meta";
 pub const SYNCED_OPTIONS_FOLDER_NAME: &str = "synced-options";
 pub const STORE_FOLDER_NAME: &str = "store";
@@ -57,11 +59,46 @@ impl DirectoryInfo {
         let config_dir =
             config_dir.map_or_else(|| settings_dir.clone(), PathBuf::from);
 
+        Self::rename_legacy_instances_folder(&config_dir).await?;
+
         Ok(Self {
             settings_dir,
             config_dir,
             app_identifier: app_identifier.to_owned(),
         })
+    }
+
+    /// Renames the 0.0.6 `profiles` folder to `instances` on first launch.
+    /// shortcut: upgrade path only; remove in 0.0.9.
+    async fn rename_legacy_instances_folder(
+        config_dir: &Path,
+    ) -> crate::Result<()> {
+        let legacy = config_dir.join(LEGACY_INSTANCES_FOLDER_NAME);
+        let current = config_dir.join(INSTANCES_FOLDER_NAME);
+
+        if !fs::try_exists(&legacy).await? {
+            return Ok(());
+        }
+        if fs::try_exists(&current).await? {
+            tracing::warn!(
+                "Both '{}' and '{}' exist; keeping both to avoid data loss",
+                LEGACY_INSTANCES_FOLDER_NAME,
+                INSTANCES_FOLDER_NAME,
+            );
+            return Ok(());
+        }
+
+        fs::rename(&legacy, &current)
+            .await
+            .context(ErrorKind::FSError(
+                "could not rename the legacy instances folder".to_string(),
+            ))?;
+        tracing::info!(
+            "Renamed '{}' to '{}'",
+            LEGACY_INSTANCES_FOLDER_NAME,
+            INSTANCES_FOLDER_NAME
+        );
+        Ok(())
     }
 
     pub fn store_dir(&self) -> PathBuf {
@@ -306,5 +343,61 @@ impl DirectoryInfo {
         }
         drop(move_locks);
         Ok(())
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::{
+        DirectoryInfo, INSTANCES_FOLDER_NAME, LEGACY_INSTANCES_FOLDER_NAME,
+    };
+
+    #[tokio::test]
+    async fn renames_legacy_instances_folder_preserving_contents() {
+        let root = tempfile::tempdir().unwrap();
+        let legacy = root.path().join(LEGACY_INSTANCES_FOLDER_NAME);
+        let instance = legacy.join("my-instance");
+        std::fs::create_dir_all(&instance).unwrap();
+        std::fs::write(instance.join("mods"), "keep").unwrap();
+
+        DirectoryInfo::rename_legacy_instances_folder(root.path())
+            .await
+            .unwrap();
+
+        assert!(!legacy.exists());
+        assert_eq!(
+            std::fs::read_to_string(
+                root.path()
+                    .join(INSTANCES_FOLDER_NAME)
+                    .join("my-instance")
+                    .join("mods")
+            )
+            .unwrap(),
+            "keep"
+        );
+    }
+
+    #[tokio::test]
+    async fn keeps_both_folders_when_instances_already_exists() {
+        let root = tempfile::tempdir().unwrap();
+        let legacy = root.path().join(LEGACY_INSTANCES_FOLDER_NAME);
+        let current = root.path().join(INSTANCES_FOLDER_NAME);
+        std::fs::create_dir_all(&legacy).unwrap();
+        std::fs::write(legacy.join("old.txt"), "old").unwrap();
+        std::fs::create_dir_all(&current).unwrap();
+        std::fs::write(current.join("new.txt"), "new").unwrap();
+
+        DirectoryInfo::rename_legacy_instances_folder(root.path())
+            .await
+            .unwrap();
+
+        assert_eq!(
+            std::fs::read_to_string(legacy.join("old.txt")).unwrap(),
+            "old"
+        );
+        assert_eq!(
+            std::fs::read_to_string(current.join("new.txt")).unwrap(),
+            "new"
+        );
     }
 }

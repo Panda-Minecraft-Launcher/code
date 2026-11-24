@@ -39,7 +39,7 @@ export function createFileDownload(
 			const saveId = await selectExternal(
 				file.filename,
 				file.type === 'mrpack'
-					? { name: 'Panda Modpack', extensions: ['mrpack'] }
+					? { name: 'Panda Minecraft Launcher modpack', extensions: ['mrpack'] }
 					: file.type === 'server-backup' || file.type === 'server-world'
 						? { name: 'ZIP archive', extensions: ['zip'] }
 						: null,

@@ -43,13 +43,13 @@ pub enum AuthenticationError {
     #[error("GitHub Token from incorrect Client ID")]
     InvalidClientId,
     #[error(
-        "User email is already registered on Modrinth. Try 'Forgot password' to access your account."
+        "User email is already registered on Panda Minecraft Launcher. Try 'Forgot password' to access your account."
     )]
     DuplicateEmail,
-    #[error("Username is already taken on Modrinth.")]
+    #[error("Username is already taken on Panda Minecraft Launcher.")]
     UsernameTaken,
     #[error(
-        "This authentication provider is already linked to another Modrinth account."
+        "This authentication provider is already linked to another Panda Minecraft Launcher account."
     )]
     ProviderAlreadyLinked,
     #[error("Invalid state sent, you probably need to get a new websocket")]

@@ -1,21 +1,21 @@
 ---
-title: Welcome to Modrinth Beta
-summary: 'After six months of work, Modrinth enters Beta, helping modders host their mods with ease!'
+title: Welcome to Panda Minecraft Launcher Beta
+summary: 'After six months of work, Panda Minecraft Launcher enters Beta, helping modders host their mods with ease!'
 date: 2020-12-01
 authors: ['Dc7EYhxG']
 ---
 
-After six months of work, Modrinth enters Beta, helping modders host their mods with ease!
+After six months of work, Panda Minecraft Launcher enters Beta, helping modders host their mods with ease!
 
-Six months ago, in order to fill a void in the modding community, the project that would eventually become Modrinth was founded. Modrinth was created to bring change to an otherwise stagnant landscape of hosts. Today, Modrinth enters Beta, a huge step forward for Modrinth!
+Six months ago, in order to fill a void in the modding community, the project that would eventually become Panda Minecraft Launcher was founded. Panda Minecraft Launcher was created to bring change to an otherwise stagnant landscape of hosts. Today, Panda Minecraft Launcher enters Beta, a huge step forward for Panda Minecraft Launcher!
 
-![Modrinth's brand new design, rolling out with the launch of Beta](./new-design.jpg)
+![Panda Minecraft Launcher's brand new design, rolling out with the launch of Beta](./new-design.jpg)
 
-> Modrinth's brand new design, rolling out with the launch of Beta
+> Panda Minecraft Launcher's brand new design, rolling out with the launch of Beta
 
 ## What's new?
 
-If you've checked out Modrinth in the past, here's the main things you'll notice that have changed:
+If you've checked out Panda Minecraft Launcher in the past, here's the main things you'll notice that have changed:
 
 - All new clean and modern design in both light and dark modes
 - Mods now display download counts correctly
@@ -24,8 +24,8 @@ If you've checked out Modrinth in the past, here's the main things you'll notice
 
 ## What's next?
 
-Modrinth is still in beta, of course, so there will be bugs. In the coming weeks and months, we will be prioritizing fixing the issues that currently exist and continue refining the design in areas that are rough.
+Panda Minecraft Launcher is still in beta, of course, so there will be bugs. In the coming weeks and months, we will be prioritizing fixing the issues that currently exist and continue refining the design in areas that are rough.
 
 If you find any, please report them to the issue tracker: https://github.com/modrinth/code/issues
 
-If you would like to chat about Modrinth, our discord is open to all here: https://discord.modrinth.com
+If you would like to chat about Panda Minecraft Launcher, our discord is open to all here: https://discord.modrinth.com

@@ -223,7 +223,7 @@ definePageMeta({
 })
 
 useHead({
-	title: () => `${formatMessage(messages.collectionsLongTitle)} - Modrinth`,
+	title: () => `${formatMessage(messages.collectionsLongTitle)} - Panda Minecraft Launcher`,
 })
 
 const auth = await useAuth()

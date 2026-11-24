@@ -105,7 +105,7 @@
     "defaultMessage": "Aucun résultat trouvé pour votre requête !"
   },
   "browse.offline": {
-    "defaultMessage": "Vous êtes actuellement hors ligne. Connectez-vous à Internet pour rechercher sur Modrinth !"
+    "defaultMessage": "Vous êtes actuellement hors ligne. Connectez-vous à Internet pour rechercher sur Panda Minecraft Launcher !"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Rechercher {projectType}..."
@@ -246,7 +246,7 @@
     "defaultMessage": "Ouvrir le dossier"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Ouvrir avec Modrinth"
+    "defaultMessage": "Ouvrir avec Panda Minecraft Launcher"
   },
   "button.play": {
     "defaultMessage": "Jouer"
@@ -570,13 +570,13 @@
     "defaultMessage": "{count} supprimés (désactivés)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Les fichiers qui ne sont pas publiés sur Modrinth ne sont pas examinés."
+    "defaultMessage": "Les fichiers qui ne sont pas publiés sur Panda Minecraft Launcher ne sont pas examinés."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "Certains contenus de votre serveur n’ont pas pu être analysés et peuvent être affectés par ce changement."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Cette mise à jour contient des fichiers qui ne sont pas publiés sur Modrinth. Nous recommandons de seulement installer des fichiers de sources en qui vous avez confiance."
+    "defaultMessage": "Cette mise à jour contient des fichiers qui ne sont pas publiés sur Panda Minecraft Launcher. Nous recommandons de seulement installer des fichiers de sources en qui vous avez confiance."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Avertissement de fichiers inconnus"
@@ -1242,7 +1242,7 @@
     "defaultMessage": "lien-vers-le-travail"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Cela semble être un lien Modrinth. Si ce contenu est disponible sur Modrinth, votre pack n'a pas été exporté correctement. Si vous avez téléchargée ceci d'un autre site, essayez d'installer la version de Modrinth à la place, dès-fois ce ne sont pas des fichiers identiques."
+    "defaultMessage": "Cela semble être un lien Panda Minecraft Launcher. Si ce contenu est disponible sur Panda Minecraft Launcher, votre pack n'a pas été exporté correctement. Si vous avez téléchargée ceci d'un autre site, essayez d'installer la version de Panda Minecraft Launcher à la place, dès-fois ce ne sont pas des fichiers identiques."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "Notes"
@@ -1266,7 +1266,7 @@
     "defaultMessage": "Si vous avez menti ou manipulé les images téléchargées, votre projet et votre compte peuvent être résiliés."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "L'équipe de Modrinth peut vérifier la preuve soumise"
+    "defaultMessage": "L'équipe de Panda Minecraft Launcher peut vérifier la preuve soumise"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "Sauvegarder"
@@ -1356,7 +1356,7 @@
     "defaultMessage": "Attribué automatiquement"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "Ce fichier a déjà été traité et une attribution a été préparée automatiquement. Si une information vous semble incorrecte, veuillez contacter le support Modrinth via le Centre d'aide"
+    "defaultMessage": "Ce fichier a déjà été traité et une attribution a été préparée automatiquement. Si une information vous semble incorrecte, veuillez contacter le support Panda Minecraft Launcher via le Centre d'aide"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "Licence"
@@ -4002,7 +4002,7 @@
     "defaultMessage": "{count} {countPlural, plural, one {partie récente} other {parties récentes}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count} {countPlural, plural, one {partie récente} other {parties récentes}} de Modrinth au cours des 2 dernières semaines"
+    "defaultMessage": "{count} {countPlural, plural, one {partie récente} other {parties récentes}} de Panda Minecraft Launcher au cours des 2 dernières semaines"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "Ce projet utilise un modpack personnalisé"
@@ -4344,7 +4344,7 @@
     "defaultMessage": "Votre projet a plusieurs environnements"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Nous venons de mettre à jour le système d'environnements de Modrinth et de nouvelles options sont disponibles. Veuillez sélectionner l'option appropriée ci-dessous, puis cliquez sur « Vérifier » une fois terminé !"
+    "defaultMessage": "Nous venons de mettre à jour le système d'environnements de Panda Minecraft Launcher et de nouvelles options sont disponibles. Veuillez sélectionner l'option appropriée ci-dessous, puis cliquez sur « Vérifier » une fois terminé !"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Merci de revérifier l'option ci-dessous"
@@ -4716,13 +4716,13 @@
     "defaultMessage": "Chargeur"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "Nous ne pouvons pas garantir que tout contenu sur Modrinth a été étiqueté correctement."
+    "defaultMessage": "Nous ne pouvons pas garantir que tout contenu sur Panda Minecraft Launcher a été étiqueté correctement."
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "Les étiquettes de contenu pour les déclencheurs de photosensibilité sont assignées par les créateurs qui importent leur contenu sur Modrinth. Ces projets n'ont subi aucun test de sécurité."
+    "defaultMessage": "Les étiquettes de contenu pour les déclencheurs de photosensibilité sont assignées par les créateurs qui importent leur contenu sur Panda Minecraft Launcher. Ces projets n'ont subi aucun test de sécurité."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "L'utilisation de n'importe quel contenu sur Modrinth est à vos propres risques. Veuillez rester en sécurité ! 💚"
+    "defaultMessage": "L'utilisation de n'importe quel contenu sur Panda Minecraft Launcher est à vos propres risques. Veuillez rester en sécurité ! 💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "Ne plus montrer"
@@ -7086,19 +7086,19 @@
     "defaultMessage": "Les logiciels malveillants sont souvent distribués à travers des mods en les partageant sur des plateformes comme Discord."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " n'est pas publié sur Modrinth. Nous recommandons de seulement installer des fichiers de sources en qui vous avez confiance."
+    "defaultMessage": " n'est pas publié sur Panda Minecraft Launcher. Nous recommandons de seulement installer des fichiers de sources en qui vous avez confiance."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "Avertissement de fichier inconnu"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " contient des fichiers qui ne sont pas publiés sur Modrinth. Nous recommandons de seulement installer des fichiers de sources en qui vous avez confiance."
+    "defaultMessage": " contient des fichiers qui ne sont pas publiés sur Panda Minecraft Launcher. Nous recommandons de seulement installer des fichiers de sources en qui vous avez confiance."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "Avertissement de fichiers inconnus"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "Les fichiers qui ne sont pas publiés sur Modrinth ne sont pas examinés."
+    "defaultMessage": "Les fichiers qui ne sont pas publiés sur Panda Minecraft Launcher ne sont pas examinés."
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "Fichiers non reconnus"

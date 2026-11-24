@@ -1425,7 +1425,7 @@
     "defaultMessage": "{count} {countPlural, plural, one {kamakailang paglaro} other {na kamakailang paglaro}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count} {countPlural, plural, one {kamakailang paglaro} other {na kamakailang paglaro}} galing sa Modrinth sa nakalipas na 2 linggo"
+    "defaultMessage": "{count} {countPlural, plural, one {kamakailang paglaro} other {na kamakailang paglaro}} galing sa Panda Minecraft Launcher sa nakalipas na 2 linggo"
   },
   "project.server.language.af": {
     "defaultMessage": "Afrikaans"
@@ -1731,7 +1731,7 @@
     "defaultMessage": "Nasa magkakaibang environment ang proyekto mo"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Kakaunlad lang ng aming sistema sa Mga Environment sa Modrinth at magagamit na ngayon ang mga bagong pagpipilian. Mangyaring suriin na tama ang napili sa ibaba at pindutin ang 'Patunayan' kapag tapos ka na!"
+    "defaultMessage": "Kakaunlad lang ng aming sistema sa Mga Environment sa Panda Minecraft Launcher at magagamit na ngayon ang mga bagong pagpipilian. Mangyaring suriin na tama ang napili sa ibaba at pindutin ang 'Patunayan' kapag tapos ka na!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Mangyaring suriin ang iyong mga opsiyon sa ibaba"

@@ -426,7 +426,7 @@ async function fetchFollowedProjects(userId) {
 const messages = defineMessages({
 	collectionDescription: {
 		id: 'collection.description',
-		defaultMessage: '{description} - View the collection {name} by {username} on Modrinth',
+		defaultMessage: '{description} - View the collection {name} by {username} on Panda Minecraft Launcher',
 	},
 	collectionTitle: {
 		id: 'collection.title',

@@ -1,6 +1,6 @@
 <picture>
 	<source media="(prefers-color-scheme: light)" srcset=".github/assets/monorepo_cover_light.png">
-	<img alt="Modrinth Monorepo Cover" src=".github/assets/monorepo_cover.png">
+	<img alt="Panda Minecraft Launcher monorepo cover" src=".github/assets/monorepo_cover.png">
 </picture>
 
 ![Issues](https://img.shields.io/github/issues-raw/Modrinth/code?color=c78aff&label=issues&style=for-the-badge)
@@ -10,11 +10,11 @@
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/Modrinth/code?color=c78aff&label=commits&style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/Modrinth/code?color=c78aff&label=last%20commit&style=for-the-badge)
 
-## Modrinth Monorepo
+## Panda Minecraft Launcher monorepo
 
-Welcome to the Modrinth Monorepo, the primary codebase for the Modrinth website, app, API and documentation. It contains ![Lines of code](https://img.shields.io/endpoint?url=https://loctopus.creeperkatze.dev/github/modrinth/code/badge%3Fformat%3Dhuman&logoColor=white&color=black&label=) lines of code and has ![Contributors](https://img.shields.io/github/contributors/Modrinth/code?color=black&label=) contributors!
+Welcome to the Panda Minecraft Launcher monorepo, the primary codebase for the Panda Minecraft Launcher website, desktop app, API, and documentation. It contains ![Lines of code](https://img.shields.io/endpoint?url=https://loctopus.creeperkatze.dev/github/modrinth/code/badge%3Fformat%3Dhuman&logoColor=white&color=black&label=) lines of code and has ![Contributors](https://img.shields.io/github/contributors/Modrinth/code?color=black&label=) contributors!
 
-If you're not a developer and you've stumbled upon this repository, you can access the web interface on the [Modrinth website](https://modrinth.com) and download the latest release of the app [here](https://modrinth.com/app).
+If you're not a developer and you've stumbled upon this repository, you can access the web interface on the [Panda Minecraft Launcher website](https://modrinth.com) and download the latest release of Panda Minecraft Launcher [here](https://modrinth.com/app).
 
 ## Development
 
@@ -39,7 +39,7 @@ If you plan to fork this repository for your own purposes, please review our [co
 
 [![CI powered by Namespace](https://namespace.so/oss/badge.svg)](https://namespace.so/github-actions/?utm_source=oss&utm_campaign=modrinth)
 
-Thanks to [Namespace](https://namespace.so/github-actions/?utm_source=oss&utm_campaign=modrinth) for sponsoring Modrinth's CI.
+Thanks to [Namespace](https://namespace.so/github-actions/?utm_source=oss&utm_campaign=modrinth) for sponsoring Panda Minecraft Launcher's CI.
 
 ## Security
 
@@ -47,8 +47,8 @@ If you discover a security vulnerability within our codebase, please follow our 
 
 ## Support
 
-If you need help with the Modrinth web interface or app, please visit our [support page](https://support.modrinth.com). For general inquiries, you can also join our [Discord server](https://discord.modrinth.com).
+If you need help with the Panda Minecraft Launcher web interface or desktop app, please visit our [support page](https://support.modrinth.com). For general inquiries, you can also join our [Discord server](https://discord.modrinth.com).
 
 ## License
 
-All packages in this repository are licensed under their respective licenses. See the [copying guidelines](COPYING.md) for details, including restrictions on Modrinth branding.
+All packages in this repository are licensed under their respective licenses. See the [copying guidelines](COPYING.md) for details.

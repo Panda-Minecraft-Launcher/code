@@ -2592,11 +2592,11 @@ pub async fn stripe_webhook(
                                 .metadata
                                 .is_midas()
                             {
-                                "Modrinth+"
+                                "Panda Minecraft Launcher"
                             } else if metadata.product_item.metadata.is_pyro() {
-                                "Modrinth Hosting"
+                                "Panda Minecraft Launcher"
                             } else {
-                                "a Modrinth product"
+                                "a Panda Minecraft Launcher product"
                             }
                             .to_owned(),
                         },

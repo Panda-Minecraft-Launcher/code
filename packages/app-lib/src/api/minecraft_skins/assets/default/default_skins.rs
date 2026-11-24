@@ -6,7 +6,7 @@ use crate::{minecraft_skins::SkinSource, state::MinecraftSkinVariant};
 
 use super::super::super::Skin;
 
-const MODRINTH_PRIDE_SKIN_PACK_SECTION: &str = "Modrinth Pride";
+const MODRINTH_PRIDE_SKIN_PACK_SECTION: &str = "Panda Minecraft Launcher Pride";
 const DEFAULT_SKINS_SECTION: &str = "Default skins";
 const MINECON_EARTH_2017_SKIN_PACK_SECTION: &str = "MINECON Earth 2017";
 const BUILDERS_AND_BIOMES_SKIN_PACK_SECTION: &str = "Builders & Biomes";

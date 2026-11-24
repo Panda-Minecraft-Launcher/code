@@ -123,7 +123,7 @@
     "defaultMessage": "找不到符合你查詢的結果！"
   },
   "browse.offline": {
-    "defaultMessage": "你目前處於離線狀態，請連線至網路以瀏覽 Modrinth！"
+    "defaultMessage": "你目前處於離線狀態，請連線至網路以瀏覽 Panda Minecraft Launcher！"
   },
   "browse.search.placeholder": {
     "defaultMessage": "搜尋{projectType}..."
@@ -264,7 +264,7 @@
     "defaultMessage": "在資料夾中開啟"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "在 Modrinth 中開啟"
+    "defaultMessage": "在 Panda Minecraft Launcher 中開啟"
   },
   "button.play": {
     "defaultMessage": "遊玩"
@@ -588,13 +588,13 @@
     "defaultMessage": "已移除 {count} 個（停用）"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "未在 Modrinth 上發布的檔案未經過審查。"
+    "defaultMessage": "未在 Panda Minecraft Launcher 上發布的檔案未經過審查。"
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "你伺服器上的部分內容無法進行分析，且可能會受到這項變更的影響。"
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "這個更新包含未在 Modrinth 上發布的檔案。強烈建議你僅安裝來自信任來源的檔案。"
+    "defaultMessage": "這個更新包含未在 Panda Minecraft Launcher 上發布的檔案。強烈建議你僅安裝來自信任來源的檔案。"
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "未知檔案警告"
@@ -1293,7 +1293,7 @@
     "defaultMessage": "作品連結"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "這似乎是 Modrinth 連結。如果這個內容可在 Modrinth 上取得，那麼你的模組包很可能在匯出時出了問題。如果你是從其他網站下載的，建議改為下載 Modrinth 版本，有時這兩者的檔案並不完全相同。"
+    "defaultMessage": "這似乎是 Panda Minecraft Launcher 連結。如果這個內容可在 Panda Minecraft Launcher 上取得，那麼你的模組包很可能在匯出時出了問題。如果你是從其他網站下載的，建議改為下載 Panda Minecraft Launcher 版本，有時這兩者的檔案並不完全相同。"
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "備註"
@@ -1317,7 +1317,7 @@
     "defaultMessage": "如果你提供不實資訊或篡改上傳的圖片，你的專案及帳號可能會被終止。"
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Modrinth 工作人員將會核實你提交的證明"
+    "defaultMessage": "Panda Minecraft Launcher 工作人員將會核實你提交的證明"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "儲存引用標註"
@@ -1410,7 +1410,7 @@
     "defaultMessage": "已自動完成引用標註"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "我們之前看過這個檔案，並已為你準備好引用標註。如有任何問題，請透過說明中心聯絡 Modrinth 客服"
+    "defaultMessage": "我們之前看過這個檔案，並已為你準備好引用標註。如有任何問題，請透過說明中心聯絡 Panda Minecraft Launcher 客服"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "授權條款"
@@ -4248,7 +4248,7 @@
     "defaultMessage": "{count} 次{countPlural, plural, other {近期遊玩}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "過去 2 週內來自 Modrinth 的 {count} 次{countPlural, plural, other {最近遊玩次數}}"
+    "defaultMessage": "過去 2 週內來自 Panda Minecraft Launcher 的 {count} 次{countPlural, plural, other {最近遊玩次數}}"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "這個專案使用了自訂模組包"
@@ -4593,7 +4593,7 @@
     "defaultMessage": "你的專案有多種環境"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "我們剛剛對 Modrinth 的執行環境系統進行了全面更新，並提供了新的選項。請確定已選擇正確的選項，然後按一下「驗證」！"
+    "defaultMessage": "我們剛剛對 Panda Minecraft Launcher 的執行環境系統進行了全面更新，並提供了新的選項。請確定已選擇正確的選項，然後按一下「驗證」！"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "請審查以下選項"
@@ -4965,13 +4965,13 @@
     "defaultMessage": "載入器"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "我們無法保證 Modrinth 上的所有內容都已正確標記。"
+    "defaultMessage": "我們無法保證 Panda Minecraft Launcher 上的所有內容都已正確標記。"
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "光敏感內容標籤是由上傳內容到 Modrinth 的創作者自行設定。這些專案沒有經過任何安全測試。"
+    "defaultMessage": "光敏感內容標籤是由上傳內容到 Panda Minecraft Launcher 的創作者自行設定。這些專案沒有經過任何安全測試。"
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "使用 Modrinth 上的任何內容均需自行承擔風險。請注意安全！💚"
+    "defaultMessage": "使用 Panda Minecraft Launcher 上的任何內容均需自行承擔風險。請注意安全！💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "不再顯示"
@@ -7731,19 +7731,19 @@
     "defaultMessage": "惡意軟體經常透過 Discord 等平臺分享模組檔案來進行傳播。"
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " 未在 Modrinth 上發布。強烈建議你僅安裝來自信任來源的檔案。"
+    "defaultMessage": " 未在 Panda Minecraft Launcher 上發布。強烈建議你僅安裝來自信任來源的檔案。"
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "未知檔案警告"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " 包含未在 Modrinth 上發布的檔案。強烈建議你僅安裝來自信任來源的檔案。"
+    "defaultMessage": " 包含未在 Panda Minecraft Launcher 上發布的檔案。強烈建議你僅安裝來自信任來源的檔案。"
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "未知檔案警告"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "未在 Modrinth 上發布的檔案未經過審查。"
+    "defaultMessage": "未在 Panda Minecraft Launcher 上發布的檔案未經過審查。"
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "無法辨識的檔案"

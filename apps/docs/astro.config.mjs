@@ -7,7 +7,7 @@ export default defineConfig({
 	site: 'https://docs.modrinth.com',
 	integrations: [
 		starlight({
-			title: 'Modrinth Documentation',
+			title: 'Panda Minecraft Launcher Documentation',
 			favicon: '/favicon.ico',
 			editLink: {
 				baseUrl: 'https://github.com/modrinth/code/edit/main/apps/docs/',
@@ -34,14 +34,14 @@ export default defineConfig({
 				starlightOpenAPI([
 					{
 						base: 'api',
-						label: 'Modrinth API',
+						label: 'Panda Minecraft Launcher API',
 						schema: './public/openapi.yaml',
 					},
 				]),
 			],
 			sidebar: [
 				{
-					label: 'Contributing to Modrinth',
+					label: 'Contributing to Panda Minecraft Launcher',
 					autogenerate: { directory: 'contributing' },
 				},
 				{

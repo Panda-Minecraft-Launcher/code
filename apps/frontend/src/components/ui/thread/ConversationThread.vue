@@ -568,7 +568,7 @@ const messages = defineMessages({
 	replyModalHelpCenterNote: {
 		id: 'conversation-thread.reply-modal.help-center-note',
 		defaultMessage:
-			'If you need to get in contact with the moderation team, please use the <help-center-link>Modrinth Help Center</help-center-link> and click the blue bubble in the bottom right corner to contact support.',
+			'If you need to get in contact with the moderation team, please use the <help-center-link>Panda Minecraft Launcher Help Center</help-center-link> and click the blue bubble in the bottom right corner to contact support.',
 	},
 	replyModalConfirmationDescription: {
 		id: 'conversation-thread.reply-modal.confirmation.description',

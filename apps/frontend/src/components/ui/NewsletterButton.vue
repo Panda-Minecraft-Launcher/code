@@ -9,7 +9,7 @@ const { formatMessage } = useVIntl()
 const messages = defineMessages({
 	tooltipSubscribe: {
 		id: 'ui.newsletter-button.tooltip',
-		defaultMessage: 'Subscribe to the Modrinth newsletter',
+		defaultMessage: 'Subscribe to the Panda Minecraft Launcher newsletter',
 	},
 	subscribe: {
 		id: 'ui.newsletter-button.subscribe',

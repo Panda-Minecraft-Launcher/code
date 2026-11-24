@@ -20,7 +20,7 @@ Keep refresh rules with the feature that owns the data. App-wide event subscript
 
 TanStack Query defaults to `networkMode: 'online'`, which pauses queries and mutations while the system reports offline. App-lib commands that only touch local state (SQLite, settings, files, instance state, or app-lib's cache) must set `networkMode: 'always'`, otherwise they never run offline and the UI shows empty or stale state. Put it in the query-option factory so prefetch and `ensureQueryData` callers get it too. For a mutation, `onMutate` still runs while it is paused, so the optimistic update appears but the write never happens.
 
-Keep the default for anything that needs the network: Modrinth API client calls, the server panel, billing, and app-lib commands that make network requests on the Rust side (invites, friends, shared-instance previews and eligibility, server pings). Do not change the default on the global `QueryClient`. If a function does both local and network work, split it, or keep the default and handle the offline case explicitly.
+Keep the default for anything that needs the network: Panda Minecraft Launcher API client calls, the server panel, billing, and app-lib commands that make network requests on the Rust side (invites, friends, shared-instance previews and eligibility, server pings). Do not change the default on the global `QueryClient`. If a function does both local and network work, split it, or keep the default and handle the offline case explicitly.
 
 The [network mode guide](https://tanstack.com/query/latest/docs/framework/vue/guides/network-mode) explains each mode.
 

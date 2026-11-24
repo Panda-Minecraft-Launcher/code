@@ -456,7 +456,7 @@ const messages = defineMessages({
 	descriptionIntro: {
 		id: 'settings.applications.description.intro',
 		defaultMessage:
-			"Applications can be used to authenticate Modrinth's users with your products. For more information, see <docs-link>Modrinth's API documentation</docs-link>.",
+			"Applications can be used to authenticate Panda Minecraft Launcher's users with your products. For more information, see <docs-link>Panda Minecraft Launcher's API documentation</docs-link>.",
 	},
 	aboutLabel: {
 		id: 'settings.applications.about',
@@ -505,7 +505,7 @@ const messages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(messages.headTitle)} - Modrinth`,
+	title: () => `${formatMessage(messages.headTitle)} - Panda Minecraft Launcher`,
 })
 
 const { scopesToLabels, scopesToDefinitions } = useScopes()

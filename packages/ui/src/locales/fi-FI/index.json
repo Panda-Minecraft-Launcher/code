@@ -60,7 +60,7 @@
     "defaultMessage": "Hakutuloksia ei löytynyt."
   },
   "browse.offline": {
-    "defaultMessage": "Olet poissa linjoilta. Yhdistä internetiin selataksesi Modrinthia!"
+    "defaultMessage": "Olet poissa linjoilta. Yhdistä internetiin selataksesi Panda Minecraft Launcheria!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Etsi {projectType}..."
@@ -198,7 +198,7 @@
     "defaultMessage": "Avaa kansiossa"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Avaa Modrinthissa"
+    "defaultMessage": "Avaa Panda Minecraft Launcherissa"
   },
   "button.play": {
     "defaultMessage": "Pelaa"
@@ -489,13 +489,13 @@
     "defaultMessage": "{count} poistettu (jotka pois käytöstä)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Tiedostot, joita ei julkaista Modrinthiin ei tarkastella."
+    "defaultMessage": "Tiedostot, joita ei julkaista Panda Minecraft Launcheriin ei tarkastella."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "Jotain sisältöä palvelimellasi ei pystytty analysoimaan ja tämä muutos voi vaikuttaa niihin."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Tämä päivitys sisältää tiedostoja, joita ei ole julkaistu Modrinthiin. Suosittelemme asentamaan tiedostoja vain lähteistä, joihin luotat."
+    "defaultMessage": "Tämä päivitys sisältää tiedostoja, joita ei ole julkaistu Panda Minecraft Launcheriin. Suosittelemme asentamaan tiedostoja vain lähteistä, joihin luotat."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Varoitus"

@@ -378,7 +378,7 @@ const messages = defineMessages({
 	description: {
 		id: 'settings.pats.description',
 		defaultMessage:
-			"PATs can be used to access Modrinth's API. They can be created and revoked at any time. For more information, see <doc-link>Modrinth's API documentation</doc-link>.",
+			"PATs can be used to access Panda Minecraft Launcher's API. They can be created and revoked at any time. For more information, see <doc-link>Panda Minecraft Launcher's API documentation</doc-link>.",
 	},
 	create: {
 		id: 'settings.pats.action.create',
@@ -438,7 +438,7 @@ definePageMeta({
 })
 
 useHead({
-	title: () => `${formatMessage(commonSettingsMessages.pats)} - Modrinth`,
+	title: () => `${formatMessage(commonSettingsMessages.pats)} - Panda Minecraft Launcher`,
 })
 
 const data = useNuxtApp()

@@ -126,7 +126,7 @@
     "defaultMessage": "검색 결과가 없습니다!"
   },
   "browse.offline": {
-    "defaultMessage": "현재 오프라인 상태입니다. Modrinth를 이용하려면 인터넷에 연결하세요!"
+    "defaultMessage": "현재 오프라인 상태입니다. Panda Minecraft Launcher를 이용하려면 인터넷에 연결하세요!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "{projectType} 검색..."
@@ -267,7 +267,7 @@
     "defaultMessage": "폴더 열기"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Modrinth로 열기"
+    "defaultMessage": "Panda Minecraft Launcher로 열기"
   },
   "button.play": {
     "defaultMessage": "플레이"
@@ -627,13 +627,13 @@
     "defaultMessage": "{count} 제거됨 (비활성화됨)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Modrinth에 게시되지 않은 파일은 검증되지 않았습니다."
+    "defaultMessage": "Panda Minecraft Launcher에 게시되지 않은 파일은 검증되지 않았습니다."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "서버의 일부 콘텐츠를 분석할 수 없었으며, 이번 변경 사항의 영향을 받을 수 있습니다."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "이 업데이트에는 Modrinth에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
+    "defaultMessage": "이 업데이트에는 Panda Minecraft Launcher에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "출처를 알 수 없는 파일"
@@ -960,7 +960,7 @@
     "defaultMessage": "서버 팩 확인 중..."
   },
   "creation-flow.curseforge.description": {
-    "defaultMessage": "Modrinth에서 사용할 수 없는 모드팩을 사용하세요."
+    "defaultMessage": "Panda Minecraft Launcher에서 사용할 수 없는 모드팩을 사용하세요."
   },
   "creation-flow.curseforge.file-description": {
     "defaultMessage": "일반 모드팩 파일이 필요하며, 찾지 못한 경우 서버 팩을 선택적으로 추가할 수 있습니다."
@@ -1392,7 +1392,7 @@
     "defaultMessage": "원본_링크"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Modrinth 링크로 보입니다. Modrinth에 게시된 콘텐츠인 경우 팩이 잘못 내보내졌을 수 있습니다. 다른 사이트에서 다운로드한 경우 Modrinth에서 다시 설치해보세요. 파일이 달라졌을 수 있습니다."
+    "defaultMessage": "Panda Minecraft Launcher 링크로 보입니다. Panda Minecraft Launcher에 게시된 콘텐츠인 경우 팩이 잘못 내보내졌을 수 있습니다. 다른 사이트에서 다운로드한 경우 Panda Minecraft Launcher에서 다시 설치해보세요. 파일이 달라졌을 수 있습니다."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "노트"
@@ -1416,7 +1416,7 @@
     "defaultMessage": "제출된 이미지를 조작하거나 허위 사실을 기재한 경우, 프로젝트와 계정이 영구 삭제될 수 있습니다."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Modrinth 직원이 제출한 증명을 검증할 수 있습니다"
+    "defaultMessage": "Panda Minecraft Launcher 직원이 제출한 증명을 검증할 수 있습니다"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "속성 저장"
@@ -1509,7 +1509,7 @@
     "defaultMessage": "자동으로 출처가 표기됨"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "이 파일을 이전에 확인한 적이 있어 출처 표기를 미리 준비해 두었습니다. 잘못된 부분이 있다면 헬프 센터를 통해 Modrinth 고객 지원팀에 문의해 주세요"
+    "defaultMessage": "이 파일을 이전에 확인한 적이 있어 출처 표기를 미리 준비해 두었습니다. 잘못된 부분이 있다면 헬프 센터를 통해 Panda Minecraft Launcher 고객 지원팀에 문의해 주세요"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "라이선스"
@@ -4461,7 +4461,7 @@
     "defaultMessage": "{count} {countPlural, plural, one {회 최근 플레이} other {회 최근 플레이}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "Modrinth에서 지난 2주동안 {count}회 플레이"
+    "defaultMessage": "Panda Minecraft Launcher에서 지난 2주동안 {count}회 플레이"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "이 프로젝트는 사용자 지정 모드팩을 사용합니다"
@@ -4806,7 +4806,7 @@
     "defaultMessage": "프로젝트가 여러 실행 환경에 있습니다"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Modrinth의 실행 환경 시스템이 개편되어 새로운 옵션을 사용할 수 있습니다. 아래에서 올바른 옵션이 선택되어 있는지 확인한 후, 완료되면 ‘확인’을 클릭해 주세요!"
+    "defaultMessage": "Panda Minecraft Launcher의 실행 환경 시스템이 개편되어 새로운 옵션을 사용할 수 있습니다. 아래에서 올바른 옵션이 선택되어 있는지 확인한 후, 완료되면 ‘확인’을 클릭해 주세요!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "아래 옵션을 검토해주세요"
@@ -5178,13 +5178,13 @@
     "defaultMessage": "로더"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "저희는 Modrinth의 콘텐츠가 모두 적절히 설명되어 있다고 보장할 순 없습니다."
+    "defaultMessage": "저희는 Panda Minecraft Launcher의 콘텐츠가 모두 적절히 설명되어 있다고 보장할 순 없습니다."
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "광과민성 유발에 대한 콘텐츠 라벨은 Modrinth에 콘텐츠를 업로드하는 제작자 본인이 할당하는 것입니다. 이러한 프로젝트는 어떠한 안전 검사도 진행하지 않았습니다."
+    "defaultMessage": "광과민성 유발에 대한 콘텐츠 라벨은 Panda Minecraft Launcher에 콘텐츠를 업로드하는 제작자 본인이 할당하는 것입니다. 이러한 프로젝트는 어떠한 안전 검사도 진행하지 않았습니다."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "Modrinth의 콘텐츠를 사용하는 데에는 책임이 따릅니다. 안전하게 선택해 주세요! 💚"
+    "defaultMessage": "Panda Minecraft Launcher의 콘텐츠를 사용하는 데에는 책임이 따릅니다. 안전하게 선택해 주세요! 💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "다시 보지 않기"
@@ -8313,19 +8313,19 @@
     "defaultMessage": "Discord 등의 플랫폼을 통해 모드 파일을 공유하는 과정에서 악성코드가 유포되는 경우가 많습니다."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " 은 Modrinth에 게시되지 않은 파일입니다. 신뢰할 수 있는 출처의 파일만 설치할 것을 강력히 권장합니다."
+    "defaultMessage": " 은 Panda Minecraft Launcher에 게시되지 않은 파일입니다. 신뢰할 수 있는 출처의 파일만 설치할 것을 강력히 권장합니다."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "알 수 없는 파일 경고"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " Modrinth에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
+    "defaultMessage": " Panda Minecraft Launcher에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "알 수 없는 파일 경고"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "Modrinth에 게시되지 않은 파일은 검증되지 않았습니다."
+    "defaultMessage": "Panda Minecraft Launcher에 게시되지 않은 파일은 검증되지 않았습니다."
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "인식되지 않는 파일"

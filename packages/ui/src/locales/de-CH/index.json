@@ -126,7 +126,7 @@
     "defaultMessage": "Keine Resultate für deine Anfrage gefunden!"
   },
   "browse.offline": {
-    "defaultMessage": "Du bist aktuell Offline. Verbinde dich mit dem Internet um Modrinth zu durchstöbern!"
+    "defaultMessage": "Du bist aktuell Offline. Verbinde dich mit dem Internet um Panda Minecraft Launcher zu durchstöbern!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "{projectType} durchsuchen..."
@@ -267,7 +267,7 @@
     "defaultMessage": "In Ordner öffnen"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "In Modrinth öffnen"
+    "defaultMessage": "In Panda Minecraft Launcher öffnen"
   },
   "button.play": {
     "defaultMessage": "Spielen"
@@ -627,13 +627,13 @@
     "defaultMessage": "{count} entfernt (deaktiviert)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Dateien, die nicht auf Modrinth veröffentlicht werden, werden nicht überprüft."
+    "defaultMessage": "Dateien, die nicht auf Panda Minecraft Launcher veröffentlicht werden, werden nicht überprüft."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "Einige Inhalte auf deinem Server konnten nicht analysiert werden und könnten von diese Änderung beeinflusst werden."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Dieses Update enthält Dateien, die nicht auf Modrinth veröffentlicht sind. Wir empfehlen dringend, nur Dateien aus vertrauenswürdigen Quellen zu installieren."
+    "defaultMessage": "Dieses Update enthält Dateien, die nicht auf Panda Minecraft Launcher veröffentlicht sind. Wir empfehlen dringend, nur Dateien aus vertrauenswürdigen Quellen zu installieren."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Warnung vor unbekannten Dateien"
@@ -960,7 +960,7 @@
     "defaultMessage": "Serverpaket wird gesucht..."
   },
   "creation-flow.curseforge.description": {
-    "defaultMessage": "Verwende ein Modpack, welches nicht auf Modrinth verfügbar ist."
+    "defaultMessage": "Verwende ein Modpack, welches nicht auf Panda Minecraft Launcher verfügbar ist."
   },
   "creation-flow.curseforge.file-description": {
     "defaultMessage": "Du brauchst die normale Modpack-Datei und kannst danach optional ein Serverpaket hinzufügen, falls wir keines finden."
@@ -1392,7 +1392,7 @@
     "defaultMessage": "link-zur-arbeit"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Dies scheint ein Modrinth-Link zu sein. Falls dieser Inhalt auf Modrinth verfügbar ist, wurde dein Paket wahrscheinlich fehlerhaft exportiert. Falls du es von einer anderen Website heruntergeladen hast, versuche stattdessen, die Modrinth-Version herunterzuladen; manchmal handelt es sich nicht um identische Dateien."
+    "defaultMessage": "Dies scheint ein Panda Minecraft Launcher-Link zu sein. Falls dieser Inhalt auf Panda Minecraft Launcher verfügbar ist, wurde dein Paket wahrscheinlich fehlerhaft exportiert. Falls du es von einer anderen Website heruntergeladen hast, versuche stattdessen, die Panda Minecraft Launcher-Version herunterzuladen; manchmal handelt es sich nicht um identische Dateien."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "Anmerkungen"
@@ -1416,7 +1416,7 @@
     "defaultMessage": "Sollte festgestellt werden, dass du gelogen oder die hochgeladenen Bilder manipuliert hast, können dein Projekt und dein Konto gesperrt werden."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Modrinth-Mitarbeiter können die eingereichten Nachweise überprüfen"
+    "defaultMessage": "Panda Minecraft Launcher-Mitarbeiter können die eingereichten Nachweise überprüfen"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "Zuordnung speichern"
@@ -1509,7 +1509,7 @@
     "defaultMessage": "Automatisch zugeschrieben"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "Wir haben diese Datei bereits gesehen und eine Zuordnung für dich vorbereitet. Sollte etwas nicht stimmen, wende dich bitte über das Hilfezentrum an den Support von Modrinth"
+    "defaultMessage": "Wir haben diese Datei bereits gesehen und eine Zuordnung für dich vorbereitet. Sollte etwas nicht stimmen, wende dich bitte über das Hilfezentrum an den Support von Panda Minecraft Launcher"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "Lizenz"
@@ -4461,7 +4461,7 @@
     "defaultMessage": "{count} {countPlural, plural, one {kürzliches spiel} other {kürzliche spiele}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count} {countPlural, plural, one {kürzliches spiel} other {kürzliche spiele}} von Modrinth in den letzten 2 Wochen"
+    "defaultMessage": "{count} {countPlural, plural, one {kürzliches spiel} other {kürzliche spiele}} von Panda Minecraft Launcher in den letzten 2 Wochen"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "Diese Project verwendet ein benutzerdefiniertes Modpack"
@@ -4806,7 +4806,7 @@
     "defaultMessage": "Dein Projekt hat mehrere Umgebungen"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Wir haben das Umgebungssystem auf Modrinth überarbeitet und neue Optionen sind jetzt verfügbar. Bitte stelle sicher, die korrekte Option unten ist ausgewählt, und klicke anschliessend auf 'Bestätigen' wenn du fertig bist!"
+    "defaultMessage": "Wir haben das Umgebungssystem auf Panda Minecraft Launcher überarbeitet und neue Optionen sind jetzt verfügbar. Bitte stelle sicher, die korrekte Option unten ist ausgewählt, und klicke anschliessend auf 'Bestätigen' wenn du fertig bist!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Bitte überprüfe die untenstehenden Optionen"
@@ -5178,13 +5178,13 @@
     "defaultMessage": "Loader"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "Wir können nicht garantieren, dass alle Inhalte auf Modrinth korrekt gekennzeichnet wurden."
+    "defaultMessage": "Wir können nicht garantieren, dass alle Inhalte auf Panda Minecraft Launcher korrekt gekennzeichnet wurden."
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "Inhaltskennzeichnungen für Auslöser von Lichtempfindlichkeit werden von den Erstellern, die ihre Inhalte auf Modrinth hochladen, selbst vergeben. Diese Projekte durchlaufen keine Sicherheitsprüfungen."
+    "defaultMessage": "Inhaltskennzeichnungen für Auslöser von Lichtempfindlichkeit werden von den Erstellern, die ihre Inhalte auf Panda Minecraft Launcher hochladen, selbst vergeben. Diese Projekte durchlaufen keine Sicherheitsprüfungen."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "Die Nutzung von Inhalten auf Modrinth erfolgt auf eigene Gefahr. Bitte pass auf dich auf! 💚"
+    "defaultMessage": "Die Nutzung von Inhalten auf Panda Minecraft Launcher erfolgt auf eigene Gefahr. Bitte pass auf dich auf! 💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "Dies nicht erneut anzeigen"
@@ -8313,19 +8313,19 @@
     "defaultMessage": "Schadsoftware wird häufig über Mod-Dateien verbreitet, indem diese auf Plattformen wie Discord geteilt werden."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " ist nicht auf Modrinth veröffentlicht. Wir empfehlen dringend, nur Dateien aus vertrauenswürdigen Quellen zu installieren."
+    "defaultMessage": " ist nicht auf Panda Minecraft Launcher veröffentlicht. Wir empfehlen dringend, nur Dateien aus vertrauenswürdigen Quellen zu installieren."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "Warnung vor unbekannter Datei"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " enthält Dateien, die nicht auf Modrinth veröffentlicht sind. Wir empfehlen dringend, nur Dateien aus vertrauenswürdigen Quellen zu installieren."
+    "defaultMessage": " enthält Dateien, die nicht auf Panda Minecraft Launcher veröffentlicht sind. Wir empfehlen dringend, nur Dateien aus vertrauenswürdigen Quellen zu installieren."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "Warnung vor unbekannten Dateien"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "Dateien, die nicht auf Modrinth veröffentlicht werden, werden nicht überprüft."
+    "defaultMessage": "Dateien, die nicht auf Panda Minecraft Launcher veröffentlicht werden, werden nicht überprüft."
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "Nicht erkannte Dateien"

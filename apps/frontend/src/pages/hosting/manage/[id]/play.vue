@@ -9,7 +9,7 @@ import {
 const client = injectModrinthClient()
 const { server } = injectModrinthServerContext()
 const config = useRuntimeConfig()
-useHead({ title: computed(() => `Play - ${server.value?.name ?? 'Server'} - Modrinth`) })
+useHead({ title: computed(() => `Play - ${server.value?.name ?? 'Server'} - Panda Minecraft Launcher`) })
 
 function playServer({ serverId, worldId }: ServerPlayTarget) {
 	window.location.assign(

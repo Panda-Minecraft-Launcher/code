@@ -1,21 +1,21 @@
 ---
 title: 'New AI rules and project disclosures'
-summary: An update to Modrinth’s Content Rules and our new mandatory content disclosures.
+summary: An update to Panda Minecraft Launcher’s Content Rules and our new mandatory content disclosures.
 date: 2026-08-13T09:00:00-07:00
 authors: ['Dc7EYhxG', 'vNcGR3Fd', 'o2Dd4mrX', 'AJfd8YH6']
 ---
 
-This year, fully AI-generated content has begun _flooding_ Modrinth. Project submissions have gone up from about 2,500 per week at the start of the year to over 5,000 per week now.
+This year, fully AI-generated content has begun _flooding_ Panda Minecraft Launcher. Project submissions have gone up from about 2,500 per week at the start of the year to over 5,000 per week now.
 
-We’ve never had a quality threshold for uploading to Modrinth, and we continue to believe that you should not need to make professional, perfect work in order to publish on Modrinth. But we do believe that it has to be _your_ work, and generating it completely with AI is not your work. Modrinth is a community of creators. In order to be creators, you need to actually create something.
+We’ve never had a quality threshold for uploading to Panda Minecraft Launcher, and we continue to believe that you should not need to make professional, perfect work in order to publish on Panda Minecraft Launcher. But we do believe that it has to be _your_ work, and generating it completely with AI is not your work. Panda Minecraft Launcher is a community of creators. In order to be creators, you need to actually create something.
 
 Today, we’re announcing a set of new features and policies aimed at informing users about things they may want to know about a project before downloading, eliminating fully AI-generated content, and enforcing transparency for content that has been made in part with generative AI.
 
-In addition, we have made a very minor update to our [Terms of Use](/legal/terms), to prohibit the use of data on Modrinth to train AI models.
+In addition, we have made a very minor update to our [Terms of Use](/legal/terms), to prohibit the use of data on Panda Minecraft Launcher to train AI models.
 
 ## Content disclosures
 
-We have introduced content disclosures to provide a standardized place for certain things that we feel it is important for users to understand before downloading a project on Modrinth.
+We have introduced content disclosures to provide a standardized place for certain things that we feel it is important for users to understand before downloading a project on Panda Minecraft Launcher.
 
 ![In the Details panel on the sidebar of a project, a couple disclosures are listed as an example. Contains paid features: Cosmetic items are purchaseable with Mod Coins; Contains opt-out telemetry: Anonymous launch analytics about game version and mod loaders.](./details.webp)
 
@@ -30,7 +30,7 @@ Here’s the current list of content disclosures available at this time:
   - There are also options available to disclose if you use it for code, assets, text, or functionality within the project.
 - **Contains advertising**
   - Projects that contain advertisements, sponsorships, or promotions of other works must enable this disclosure.
-  - If the promotion has no direct monetary value **_and_** it is for something that the average person would consider _relevant_ and _unobtrusive_ (such as a link to your Modrinth profile in the corner of the settings page for your own mod), we would not consider that an advertisement for the purposes of this disclosure.
+  - If the promotion has no direct monetary value **_and_** it is for something that the average person would consider _relevant_ and _unobtrusive_ (such as a link to your Panda Minecraft Launcher profile in the corner of the settings page for your own mod), we would not consider that an advertisement for the purposes of this disclosure.
 - **Contains paid features**
   - Projects that contain features that can be obtained by spending real-world money.
   - You must provide a list of the types of paid features.
@@ -76,11 +76,11 @@ Obviously, this is a big change and creators will need to take some time to upda
 
 During this grace period, we will not be accepting reports for projects in violation of the new AI policy or for missing content disclosures to give them a fair chance to update them. The 45-day grace period ends on **September 27, 2026**.
 
-In addition, we will not tolerate witch-hunting on the Modrinth platform. These disclosures are to inform users and provide transparency between user and creator. Anyone using them to shame, insult, belittle, or harass others will be swiftly and permanently removed from the Modrinth platform and community Discord server. Be kind to each other.
+In addition, we will not tolerate witch-hunting on the Panda Minecraft Launcher platform. These disclosures are to inform users and provide transparency between user and creator. Anyone using them to shame, insult, belittle, or harass others will be swiftly and permanently removed from the Panda Minecraft Launcher platform and community Discord server. Be kind to each other.
 
 ## Terms of Use update
 
-Modrinth's [Terms of Use](/legal/terms) have been updated in a very minor way to prohibit the use of data on Modrinth to train AI models. The exact change is as follows:
+Panda Minecraft Launcher's [Terms of Use](/legal/terms) have been updated in a very minor way to prohibit the use of data on Panda Minecraft Launcher to train AI models. The exact change is as follows:
 
 > Additionally, you agree not to:
 >

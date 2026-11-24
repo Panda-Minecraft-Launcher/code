@@ -39,6 +39,6 @@ VALUES
 			CHR(10),
 			'Thank you for supporting us,',
 			CHR(10),
-			'The Modrinth Team'
+			'The Panda Minecraft Launcher Team'
 		)
 	);

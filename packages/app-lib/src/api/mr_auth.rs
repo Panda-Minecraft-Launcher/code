@@ -82,7 +82,9 @@ pub async fn set_active(user_id: &str) -> crate::Result<()> {
     let Some(mut creds) =
         users.into_iter().find(|creds| creds.user_id == user_id)
     else {
-        bail!("tried to activate nonexistent Modrinth user with ID {user_id}");
+        bail!(
+            "tried to activate nonexistent Panda Minecraft Launcher user with ID {user_id}"
+        );
     };
 
     creds.active = true;

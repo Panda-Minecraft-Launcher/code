@@ -45,7 +45,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth Appin Linux versioilla <issues-link>tunnetaan olevan ongelmia</issues-link> tietyillä järjestelmillä ja asetuksilla. Jos Modrinth App on epävakaa järjestelmälläsi, kannustamme sinua kokeilemaan toisia sovelluksia kuten <prism-link>Prism Launcher</prism-link> asentaaksesi helposti Modrinth sisältöä."
+    "message": "Panda Minecraft Launcherin Linux versioilla <issues-link>tunnetaan olevan ongelmia</issues-link> tietyillä järjestelmillä ja asetuksilla. Jos Panda Minecraft Launcher on epävakaa järjestelmälläsi, kannustamme sinua kokeilemaan toisia sovelluksia kuten <prism-link>Prism Launcher</prism-link> asentaaksesi helposti Panda Minecraft Launcher sisältöä."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -54,10 +54,10 @@
     "message": "Lataus vaihtoehdot"
   },
   "app-marketing.download.terms": {
-    "message": "Lataamalla Modrinth Appin, hyväksyt<terms-link>Terms</terms-link> sekä <privacy-link>Tietosuojakäytännön</privacy-link>."
+    "message": "Lataamalla Panda Minecraft Launcherin, hyväksyt<terms-link>Terms</terms-link> sekä <privacy-link>Tietosuojakäytännön</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Lataa Modrinth App (Beta)"
+    "message": "Lataa Panda Minecraft Launcher (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -75,7 +75,7 @@
     "message": "käyttäjältä {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth tekee helpoksi hallita kaikkia modejasi yhdessä paikassa. Voit asentaa, poistaa ja päivittää modeja yhdellä klikkauksella."
+    "message": "Panda Minecraft Launcher tekee helpoksi hallita kaikkia modejasi yhdessä paikassa. Voit asentaa, poistaa ja päivittää modeja yhdellä klikkauksella."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Asennetut modit"
@@ -111,7 +111,7 @@
     "message": "Google Chrome"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miljardi %"
@@ -129,13 +129,13 @@
     "message": "Suorituskykyinen"
   },
   "app-marketing.features.play.description": {
-    "message": "Käytä Modrinth Appia ladataksesi ja pelataksesi suosikkimodeillasi ja -modipaketeillasi."
+    "message": "Käytä Panda Minecraft Launcheria ladataksesi ja pelataksesi suosikkimodeillasi ja -modipaketeillasi."
   },
   "app-marketing.features.play.title": {
     "message": "Pelaa lempi modeillasi"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Rakenna, jaa ja pelaa modipaketteja mitä tahansa täällä Modrinthissa isännöidyistä tuhansista modeista ja modipaketeista."
+    "message": "Rakenna, jaa ja pelaa modipaketteja mitä tahansa täällä Panda Minecraft Launcherissa isännöidyistä tuhansista modeista ja modipaketeista."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modipaketti"
@@ -150,7 +150,7 @@
     "message": "Erilainen kuin mikään muu launcheri"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App on täysin integroitu verkkosivuston kanssa, joten voit käyttää kaikkia suosikkiprojekteja suoraan sovelluksesta!"
+    "message": "Panda Minecraft Launcher on täysin integroitu verkkosivuston kanssa, joten voit käyttää kaikkia suosikkiprojekteja suoraan sovelluksesta!"
   },
   "app-marketing.features.website.title": {
     "message": "Nettisivu integraatio"
@@ -159,19 +159,19 @@
     "message": "jota olet käyttänyt ennen"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Kuvakaappaus Modrinth Appista, jossa Cobblemon-instanssi on avattuna Sisältö-sivulle."
+    "message": "Kuvakaappaus Panda Minecraft Launcherista, jossa Cobblemon-instanssi on avattuna Sisältö-sivulle."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App on ainutlaatuinen, avoimen lähdekoodin käynnistysohjelma, jonka avulla voit pelata suosikkimodejasi ja pitää ne ajan tasalla,  kaikki yhdessä siistissä paketissa."
+    "message": "Panda Minecraft Launcher on ainutlaatuinen, avoimen lähdekoodin käynnistysohjelma, jonka avulla voit pelata suosikkimodejasi ja pitää ne ajan tasalla,  kaikki yhdessä siistissä paketissa."
   },
   "app-marketing.hero.download-button": {
-    "message": "Lataa Modrinth App"
+    "message": "Lataa Panda Minecraft Launcher"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Lataa Modrinth App"
+    "message": "Lataa Panda Minecraft Launcher"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Lataa Modrinth App alustalle {os}"
+    "message": "Lataa Panda Minecraft Launcher alustalle {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Kuvakaappaus Cobblemon-instanssin päävalikosta."
@@ -243,7 +243,7 @@
     "message": "Kirjaudu sisään"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Luomalla tilin, hyväksyt Modrinthin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
+    "message": "Luomalla tilin, hyväksyt Panda Minecraft Launcherin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
   },
   "auth.sign-up.sign-in-option.title": {
     "message": "Onko sinulla jo käyttäjätili?"
@@ -297,7 +297,7 @@
     "message": "Oletko varma että haluat poistaa tämän kokoelman?"
   },
   "collection.description": {
-    "message": "{description} - Katso kokoelma {name}, jonka on luonut {username}, Modrinthissa"
+    "message": "{description} - Katso kokoelma {name}, jonka on luonut {username}, Panda Minecraft Launcherissa"
   },
   "collection.description.following": {
     "message": "Automattisesti luotu kokoelma kaikista projekteista joita seuraat."
@@ -567,7 +567,7 @@
     "message": "Vero lomake"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth käyttää kolmannen osapuolen tarjoajaa Track1099 verolomakkeidesi turvalliseen keräämiseen ja tallentamiseen. <security-link>Lue lisää täältä.</security-link>"
+    "message": "Panda Minecraft Launcher käyttää kolmannen osapuolen tarjoajaa Track1099 verolomakkeidesi turvalliseen keräämiseen ja tallentamiseen. <security-link>Lue lisää täältä.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Tietoturvakäytännöt"
@@ -609,7 +609,7 @@
     "message": "Nostaaksesi koko <b>{available}</b> saatavilla olevan saldosi, täytä alla oleva lomake. Se vaaditaan veroraportointia varten, ja sen tekeminen tarvitaan vain kerran."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Sinun on täytettävä W-9- tai W-8-lomake Modrinthin verotietoja varten, jotta pysymme verosäännösten mukaisina."
+    "message": "Sinun on täytettävä W-9- tai W-8-lomake Panda Minecraft Launcherin verotietoja varten, jotta pysymme verosäännösten mukaisina."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Verolomake vaaditaan"
@@ -651,7 +651,7 @@
     "message": "Vahvistamaton sähköposti"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Syöttämäsi toimitussähköposti ei liity Modrinth-tiliisi. Modrinth ei voi palauttaa palkintoja, jotka on lähetetty väärään sähköpostiosoitteeseen."
+    "message": "Syöttämäsi toimitussähköposti ei liity Panda Minecraft Launcher-tiliisi. Panda Minecraft Launcher ei voi palauttaa palkintoja, jotka on lähetetty väärään sähköpostiosoitteeseen."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Matalammat maksut saatavilla"
@@ -762,7 +762,7 @@
     "message": "Arvioitu tulosi saattaa muuttua, kunnes se tulee saataville."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Klikkaa lukeaksesi, miten Modrinth käsittelee tulosi."
+    "message": "Klikkaa lukeaksesi, miten Panda Minecraft Launcher käsittelee tulosi."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Arvioitu {date}"
@@ -780,7 +780,7 @@
     "message": "Tämä kokelma saattaa olla yksityinen."
   },
   "error.collection.404.list_item.3": {
-    "message": "Tämä kokoelma on saatettu poistaa Modrinthin moderaatio tiimin toimesta koska se on <tou-link>Käyttöehtojamme</tou-link> vastaan."
+    "message": "Tämä kokoelma on saatettu poistaa Panda Minecraft Launcherin moderaatio tiimin toimesta koska se on <tou-link>Käyttöehtojamme</tou-link> vastaan."
   },
   "error.collection.404.list_title": {
     "message": "Miksi?"
@@ -834,7 +834,7 @@
     "message": "Apua kun sitä tarvitset"
   },
   "hosting-marketing.included.help.description": {
-    "message": "Ota yhteyttä Modrinthin tiimiin milloin tahansa palvelinasioissa."
+    "message": "Ota yhteyttä Panda Minecraft Launcherin tiimiin milloin tahansa palvelinasioissa."
   },
   "hosting-marketing.included.sftp-access": {
     "message": "SFTP pääsy"
@@ -912,7 +912,7 @@
     "message": "ATLauncher"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -972,10 +972,10 @@
     "message": "Tuotteet"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.resources": {
     "message": "Resurssit"
@@ -1011,7 +1011,7 @@
     "message": "Hostaa palvelin"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.nav.organizations": {
     "message": "Organisaatiot"

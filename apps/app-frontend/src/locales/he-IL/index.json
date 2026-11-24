@@ -72,7 +72,7 @@
     "message": "הפעלת מיינקראפט נכשלה"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "לא ניתן להגיע ל-Panda"
+    "message": "לא ניתן להגיע ל-Panda Minecraft Launcher"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "אין גישה לכתוב"
@@ -138,7 +138,7 @@
     "message": "דחה הכל"
   },
   "app.ads-consent.title": {
-    "message": "הפרטיות שלך ואיך פרסומות תומכות בPanda"
+    "message": "הפרטיות שלך ואיך פרסומות תומכות בPanda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "הצג התקנות בפריסת שורות קומפקטית."
@@ -159,7 +159,7 @@
     "message": "הסתר שם משתמש"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "מזער את אפליקציית Panda בעת הפעלת Minecraft."
+    "message": "מזער את אפליקציית Panda Minecraft Launcher בעת הפעלת Minecraft."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "הקטן אפליקציה"
@@ -183,7 +183,7 @@
     "message": "הסתר את סרגל הצד הימני"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "הצג אזהרת בטיחות לפני התקנת חבילת מודים (.mrpack) שאינה מאורחת ב-Modrinth."
+    "message": "הצג אזהרת בטיחות לפני התקנת חבילת מודים (.mrpack) שאינה מאורחת ב-Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "הזהר אותי לפני התקנת חבילות תוכן לא מוכרות"
@@ -408,7 +408,7 @@
     "message": "הצג התקנה"
   },
   "app.hosting.update-required.description": {
-    "message": "עליך לעדכן בכדי להשתמש ב- Panda Hosting דרך אפליקציית ה Panda"
+    "message": "עליך לעדכן בכדי להשתמש ב- Panda Minecraft Launcher דרך אפליקציית ה Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "הורד על מנת לעדכן"
@@ -738,7 +738,7 @@
     "message": "התחברו בתור"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "צריך להתחבר ל-Panda"
+    "message": "צריך להתחבר ל-Panda Minecraft Launcher"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "כדי לקבל עדכונים עבור ההתקנה המשותפת הזו."
@@ -1209,7 +1209,7 @@
     "message": "לפניות בנושא תמיכה, צרו קשר עם <support-link>צוות התמיכה</support-link> שלנו. לדיווח על באגים, פתחו <github-link>בעיית Github</github-link>."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "קבצים שלא עלו בPanda לא מקבלים בדיקה."
+    "message": "קבצים שלא עלו בPanda Minecraft Launcher לא מקבלים בדיקה."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "התקנה משותפת"
@@ -1218,10 +1218,10 @@
     "message": "שתף תוכן ההתקן"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "התקן משותף זה מכיל קבצים שאינם מפורסמים ב-Panda. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
+    "message": "התקן משותף זה מכיל קבצים שאינם מפורסמים ב-Panda Minecraft Launcher. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "שרת חבילת מודים זה מכיל קבצים שאינם מפורסמים ב-Panda. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
+    "message": "שרת חבילת מודים זה מכיל קבצים שאינם מפורסמים ב-Panda Minecraft Launcher. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "הזהרת קבצים לא ידועים"
@@ -1242,7 +1242,7 @@
     "message": "נמחק"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "עדכון שרת חבילת מודים זה מכיל קבצים שאינם מפורסמים ב-Panda. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
+    "message": "עדכון שרת חבילת מודים זה מכיל קבצים שאינם מפורסמים ב-Panda Minecraft Launcher. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "נוסף"
@@ -1251,7 +1251,7 @@
     "message": "נמחק"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "עדכון התקן משותף זה מכיל קבצים שאינם מפורסמים ב-Panda. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
+    "message": "עדכון התקן משותף זה מכיל קבצים שאינם מפורסמים ב-Panda Minecraft Launcher. אנו ממליצים בחום להתקין קבצים אך ורק ממקורות שאתם סומכים עליהם."
   },
   "app.modal.update-to-play.update-required": {
     "message": "נדרש עדכון"
@@ -1284,13 +1284,13 @@
     "message": "צילומי מסך"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "התחבר לPanda"
+    "message": "התחבר לPanda Minecraft Launcher"
   },
   "app.nav.switch-account": {
     "message": "החלף חשבון"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "שדרג לPanda+"
+    "message": "שדרג לPanda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "ראה פרופיל"
@@ -1716,7 +1716,7 @@
     "message": "שם משתמש Panda Minecraft Launcher..."
   },
   "friends.add-friend.username.title": {
-    "message": "מה השם משתמש של החבר שלך בPanda?"
+    "message": "מה השם משתמש של החבר שלך בPanda Minecraft Launcher?"
   },
   "friends.add-friends-to-share": {
     "message": "ניתן <link>להוסיף חברים</link> כדי לראות במה הם משחקים!"
@@ -1764,7 +1764,7 @@
     "message": "ההתקנה הזו מנוהלת על ידי שרת, לכן היא לא יכולה להיות מקושרת מחדש."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "הסר את המופע המשותף הזה מ-Panda והפסק לשלוח עדכונים לכל מי שמשתמש בו. המופע המקומי שלך לא יושפע."
+    "message": "הסר את המופע המשותף הזה מ-Panda Minecraft Launcher והפסק לשלוח עדכונים לכל מי שמשתמש בו. המופע המקומי שלך לא יושפע."
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
     "message": "פעולה זו מוחקת את המופע המשותף משרתי Panda Minecraft Launcher. אנשים המשתמשים בו באפליקציית Panda Minecraft Launcher יפסיקו לקבל עדכונים, אך המופע המקומי שלך והתוכן שלו יישארו במכשיר זה."

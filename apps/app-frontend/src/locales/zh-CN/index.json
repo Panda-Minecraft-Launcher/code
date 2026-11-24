@@ -186,7 +186,7 @@
     "message": "隐藏右侧边栏"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "在安装非 Modrinth 托管的整合包文件（.mrpack）前显示安全警告。"
+    "message": "在安装非 Panda Minecraft Launcher 托管的整合包文件（.mrpack）前显示安全警告。"
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "安装未知整合包前提醒我"
@@ -486,7 +486,7 @@
     "message": "在你登录的所有设备上使用这些行为设置。关闭它后可以在设备上单独设置。"
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "登录到一个Panda账号以同步设置。"
+    "message": "登录到一个Panda Minecraft Launcher账号以同步设置。"
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "跨设备同步功能"
@@ -528,13 +528,13 @@
     "message": "查看实例"
   },
   "app.hosting.update-required.description": {
-    "message": "你需要更新才能通过 Panda Minecraft Launcher 使用 Panda Hosting"
+    "message": "你需要更新才能通过 Panda Minecraft Launcher 使用 Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "更新升级"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "兴奋的 Panda Bot"
+    "message": "兴奋的 Panda Minecraft Launcher Bot"
   },
   "app.hosting.update-required.title": {
     "message": "需要更新 Panda Minecraft Launcher"
@@ -1398,7 +1398,7 @@
     "message": "取消发布并保留共享实例"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, other {这将会删除Panda服务器上的共享实例。 在Panda Minecraft Launcher中的使用者将停止接收更新，该共享实例也将从您的库中删除。}}"
+    "message": "{count, plural, other {这将会删除Panda Minecraft Launcher服务器上的共享实例。 在Panda Minecraft Launcher中的使用者将停止接收更新，该共享实例也将从您的库中删除。}}"
   },
   "app.modal.install-to-play.additional-context": {
     "message": "补充说明"
@@ -1476,7 +1476,7 @@
     "message": "共享的实例"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "这实例里面有东西没有在modrinth。我们真的建议只安装你信任的文件源。"
+    "message": "这实例里面有东西没有在Panda Minecraft Launcher。我们真的建议只安装你信任的文件源。"
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "当前无法下载此服务器使用的整合包版本。它可能已被取消发布或正在审核中。请稍后再试，或者联系服务器所有者。"
@@ -1515,7 +1515,7 @@
     "message": "已移除"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "这服务器里面的模组有些不在modrinth。我们真的建议只安装你信任的文件源。"
+    "message": "这服务器里面的模组有些不在Panda Minecraft Launcher。我们真的建议只安装你信任的文件源。"
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "被加入的"
@@ -1524,7 +1524,7 @@
     "message": "被删除的"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "这分享实例里面有东西没有在modrinth。我们真的建议只安装你信任的文件源。"
+    "message": "这分享实例里面有东西没有在Panda Minecraft Launcher。我们真的建议只安装你信任的文件源。"
   },
   "app.modal.update-to-play.update-required": {
     "message": "需要更新"
@@ -1545,10 +1545,10 @@
     "message": "个人主页加载中……"
   },
   "app.nav.modrinth-account": {
-    "message": "Panda账户"
+    "message": "Panda Minecraft Launcher账户"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "移除账户"
@@ -1563,7 +1563,7 @@
     "message": "切换账户"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "升级至Panda+"
+    "message": "升级至Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "查看个人主页"
@@ -2937,7 +2937,7 @@
     "message": "在缓存重建之前，应用加载可能会更慢。"
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "清除缓存数据，然后从Panda重新下载。在缓存重建之前，应用加载可能会更慢。"
+    "message": "清除缓存数据，然后从Panda Minecraft Launcher重新下载。在缓存重建之前，应用加载可能会更慢。"
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "App缓存"
@@ -3372,7 +3372,7 @@
     "message": "复制广告详情"
   },
   "app.settings.troubleshooting.report-ad.description": {
-    "message": "看到了不当或冒犯性广告？请在广告显示时复制它的详情，并将其发送到<support>Panda支持</support>。我们会审核并移除它。"
+    "message": "看到了不当或冒犯性广告？请在广告显示时复制它的详情，并将其发送到<support>Panda Minecraft Launcher支持</support>。我们会审核并移除它。"
   },
   "app.settings.troubleshooting.report-ad.no-ad.text": {
     "message": "请等待广告加载后再试。"
@@ -3570,7 +3570,7 @@
     "message": "您是否介意回答一些关于使用 Panda Minecraft Launcher 的问题？"
   },
   "app.survey.footer": {
-    "message": "此反馈将直接发送给Panda团队，为今后的更新提供指导！"
+    "message": "此反馈将直接发送给Panda Minecraft Launcher团队，为今后的更新提供指导！"
   },
   "app.survey.no-thanks": {
     "message": "不，谢谢"
@@ -3579,7 +3579,7 @@
     "message": "参与调研"
   },
   "app.survey.title": {
-    "message": "嗨，Panda用户！"
+    "message": "嗨，Panda Minecraft Launcher用户！"
   },
   "app.sync-instances-update.choose-source.data-packs": {
     "message": "选择要从哪个实例复制你的数据包。 此数据包仅用于初始同步，您可以在其后从任何实例编辑它。"
@@ -3843,7 +3843,7 @@
     "message": "登录你的 <link>Panda Minecraft Launcher 账号</link>，添加好友，看看他们在玩什么！"
   },
   "hosting.play.account-changed": {
-    "message": "您的Panda帐户已更改。再次按“游玩服务器”以继续。"
+    "message": "您的Panda Minecraft Launcher帐户已更改。再次按“游玩服务器”以继续。"
   },
   "hosting.play.no-address": {
     "message": "此服务器尚无连接地址。"
@@ -3861,7 +3861,7 @@
     "message": "正在解除关联……"
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "从Panda移除这个分享实例，同时停止发送新的更新到正在使用它的人，你的本地实例不会被影响。"
+    "message": "从Panda Minecraft Launcher移除这个分享实例，同时停止发送新的更新到正在使用它的人，你的本地实例不会被影响。"
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "这只会影响到你的本地实例，你安装过的内容依然会在你的设备上保留，被其他人使用的分享实例也不会被影响。"
@@ -3873,7 +3873,7 @@
     "message": "解除共享实例关联"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "这将从 Panda 服务器上删除该共享实例。在 Panda Minecraft Launcher 中使用它的用户将停止接收更新，但你的本地实例及其内容仍会保留在此设备上。"
+    "message": "这将从 Panda Minecraft Launcher 服务器上删除该共享实例。在 Panda Minecraft Launcher 中使用它的用户将停止接收更新，但你的本地实例及其内容仍会保留在此设备上。"
   },
   "instance.action.create-shortcut": {
     "message": "创建快捷方式"
@@ -4434,7 +4434,7 @@
     "message": "登录 Microsoft 账户"
   },
   "modal.modrinth-account-required.browser-description": {
-    "message": "一个新的标签页已打开，你需要在那里完成登录，然后回到Panda app。"
+    "message": "一个新的标签页已打开，你需要在那里完成登录，然后回到Panda Minecraft Launcher app。"
   },
   "modal.modrinth-account-required.continue-in-browser-heading": {
     "message": "请在你的浏览器中继续"
@@ -4443,7 +4443,7 @@
     "message": "新建账户"
   },
   "modal.modrinth-account-required.description": {
-    "message": "在使用这个功能之前，你需要登入你的Panda账户。"
+    "message": "在使用这个功能之前，你需要登入你的Panda Minecraft Launcher账户。"
   },
   "modal.modrinth-account-required.header": {
     "message": "需要账户"

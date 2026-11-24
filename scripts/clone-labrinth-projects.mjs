@@ -356,7 +356,7 @@ async function createLocalProject(prodProject, localSlug, options, localMetadata
 	const createData = {
 		name: clampText(projectName(prodProject), 'Imported project', 3, 64),
 		slug: localSlug,
-		summary: clampText(projectSummary(prodProject), 'Imported from production Modrinth.', 3, 255),
+		summary: clampText(projectSummary(prodProject), 'Imported from production Panda Minecraft Launcher.', 3, 255),
 		description: truncate(projectBody(prodProject), 65536),
 		initial_versions: [],
 		is_draft: true,
@@ -746,7 +746,7 @@ function projectName(project) {
 }
 
 function projectSummary(project) {
-	return project.summary || (project.body ? project.description : null) || 'Imported from production Modrinth.'
+	return project.summary || (project.body ? project.description : null) || 'Imported from production Panda Minecraft Launcher.'
 }
 
 function projectBody(project) {

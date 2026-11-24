@@ -57,6 +57,6 @@ import StyledEmail from '../shared/StyledEmail.vue'
 			>.
 		</Text>
 
-		<Text class="text-base">Thank you for publishing on Modrinth!</Text>
+		<Text class="text-base">Thank you for publishing on Panda Minecraft Launcher!</Text>
 	</StyledEmail>
 </template>

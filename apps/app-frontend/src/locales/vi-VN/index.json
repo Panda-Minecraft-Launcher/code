@@ -162,7 +162,7 @@
     "message": "Ẩn tên người chơi"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Thu nhỏ Ứng dụng Panda khi Minecraft khởi động."
+    "message": "Thu nhỏ Ứng dụng Panda Minecraft Launcher khi Minecraft khởi động."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Thu nhỏ ứng dụng"
@@ -186,7 +186,7 @@
     "message": "Ẩn thanh bên phải"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Hiển thị cảnh báo an toàn trước khi cài modpack (.mrpack) không được lưu trữ trên Modrinth."
+    "message": "Hiển thị cảnh báo an toàn trước khi cài modpack (.mrpack) không được lưu trữ trên Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Cảnh báo trước khi cài modpack không xác định"
@@ -204,7 +204,7 @@
     "message": "Trang chủ và nội dung"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Đưa Ứng dụng Panda ra phía trước khi Minecraft thoát."
+    "message": "Đưa Ứng dụng Panda Minecraft Launcher ra phía trước khi Minecraft thoát."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Đưa ứng dụng ra trước khi Minecraft đóng"
@@ -492,13 +492,13 @@
     "message": "Xem bản cài đặt"
   },
   "app.hosting.update-required.description": {
-    "message": "Bạn cần cập nhật để sử dụng Panda Hosting qua Ứng dụng Panda"
+    "message": "Bạn cần cập nhật để sử dụng Panda Minecraft Launcher qua Ứng dụng Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Tải xuống để cập nhật"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Bot Panda đang phấn khích"
+    "message": "Bot Panda Minecraft Launcher đang phấn khích"
   },
   "app.hosting.update-required.title": {
     "message": "Yêu cầu cập nhật Ứng dụng Panda Minecraft Launcher"
@@ -1299,7 +1299,7 @@
     "message": "Modpack của máy chủ này hiện không khả dụng"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Modpack của máy chủ này chứa các tệp chưa được xuất bản trên Panda. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
+    "message": "Modpack của máy chủ này chứa các tệp chưa được xuất bản trên Panda Minecraft Launcher. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Cảnh báo tệp không xác định"
@@ -1320,7 +1320,7 @@
     "message": "Đã gỡ"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Bản cập nhật modpack của máy chủ này chứa các tệp chưa được xuất bản trên Panda. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
+    "message": "Bản cập nhật modpack của máy chủ này chứa các tệp chưa được xuất bản trên Panda Minecraft Launcher. Chúng tôi đặc biệt khuyên bạn chỉ cài tệp từ những nguồn mà bạn tin tưởng."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Đã thêm"
@@ -1353,7 +1353,7 @@
     "message": "Tài khoản Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Xóa tài khoản"
@@ -1368,7 +1368,7 @@
     "message": "Chuyển tài khoản"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Nâng cấp lên Panda+"
+    "message": "Nâng cấp lên Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Xem hồ sơ"
@@ -3177,10 +3177,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Bạn nhận được các skin này vì đã quyên góp cho chiến dịch gây quỹ Panda Pride trong Tháng Tự hào."
+    "message": "Bạn nhận được các skin này vì đã quyên góp cho chiến dịch gây quỹ Panda Minecraft Launcher Pride trong Tháng Tự hào."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"

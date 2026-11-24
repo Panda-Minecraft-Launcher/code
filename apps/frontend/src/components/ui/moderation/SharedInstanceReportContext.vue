@@ -362,7 +362,7 @@ defineExpose({ openInspector })
 							<template v-else-if="contentFailed">Failed to load</template>
 							<template v-else-if="uploadedFileCount > 0">
 								<TriangleAlertIcon class="size-4 shrink-0" />
-								{{ uploadedFileCount }} not on Modrinth
+								{{ uploadedFileCount }} not on Panda Minecraft Launcher
 							</template>
 							<template v-else>None</template>
 						</dd>

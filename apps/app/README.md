@@ -1,13 +1,13 @@
 <picture>
 	<source media="(prefers-color-scheme: light)" srcset="../../.github/assets/app_cover_light.png">
-	<img alt="Modrinth App Cover" src="../../.github/assets/app_cover.png">
+	<img alt="Panda Minecraft Launcher cover" src="../../.github/assets/app_cover.png">
 </picture>
 
-## Modrinth App
+## Panda Minecraft Launcher
 
-The Modrinth App is a desktop application for managing your Minecraft mods. It is built with [Tauri](https://tauri.app/) and [Vue](https://vuejs.org/).
+Panda Minecraft Launcher is a desktop application for managing your Minecraft mods. It is built with [Tauri](https://tauri.app/) and [Vue](https://vuejs.org/).
 
-If you're not a developer and you've stumbled upon this repository, you can download the latest release of the app from the [Modrinth website](https://modrinth.com/app).
+If you're not a developer and you've stumbled upon this repository, you can download the latest release of the app from the [Panda Minecraft Launcher website](https://modrinth.com/app).
 
 ## Development
 

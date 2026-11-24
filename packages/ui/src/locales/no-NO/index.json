@@ -54,7 +54,7 @@
     "defaultMessage": "Ingen resultater funnet for ditt søk!"
   },
   "browse.offline": {
-    "defaultMessage": "Du er offline akkurat nå. Koble til internett for å surfe på Modrinth!"
+    "defaultMessage": "Du er offline akkurat nå. Koble til internett for å surfe på Panda Minecraft Launcher!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Søk etter {projectType}..."
@@ -174,7 +174,7 @@
     "defaultMessage": "Åpn i mappe"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Åpne i Modrinth"
+    "defaultMessage": "Åpne i Panda Minecraft Launcher"
   },
   "button.play": {
     "defaultMessage": "Spill"
@@ -1746,7 +1746,7 @@
     "defaultMessage": "Prosjektet ditt har flere miljøer"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Vi har nettopp oppdatert miljøsystemet på Modrinth, og nye valg er nå tilgjengelige. Pass på at riktig alternativ er valgt nedenfor, og klikk deretter «Verifiser» når du er ferdig."
+    "defaultMessage": "Vi har nettopp oppdatert miljøsystemet på Panda Minecraft Launcher, og nye valg er nå tilgjengelige. Pass på at riktig alternativ er valgt nedenfor, og klikk deretter «Verifiser» når du er ferdig."
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Gå gjennom valgene nedenfor"

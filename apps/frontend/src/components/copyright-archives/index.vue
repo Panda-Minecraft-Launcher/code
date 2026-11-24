@@ -65,7 +65,7 @@ const rows = computed(() => {
 			...archive,
 			fileCount: archive.files?.length ?? null,
 			source: archive.modrinth_metadata
-				? `Modrinth / ${archive.modrinth_metadata.project_type}`
+				? `Panda Minecraft Launcher / ${archive.modrinth_metadata.project_type}`
 				: archive.minecraftJson.trim()
 					? 'Minecraft'
 					: 'Other',

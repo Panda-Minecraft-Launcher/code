@@ -1,6 +1,6 @@
-# Modrinth Blog Articles
+# Panda Minecraft Launcher blog articles
 
-This package contains the articles for the Modrinth blog. The articles are written in Markdown and are rendered on the Modrinth website.
+This package contains the articles for Panda Minecraft Launcher. The articles are written in Markdown and are rendered on the Panda Minecraft Launcher website.
 
 ## How to add a new article
 

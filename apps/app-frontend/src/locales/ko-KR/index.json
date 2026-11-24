@@ -75,7 +75,7 @@
     "message": "Minecraft 설정에 실패했습니다"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Panda에 연결할 수 없습니다"
+    "message": "Panda Minecraft Launcher에 연결할 수 없습니다"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "쓰기 권한이 없습니다"
@@ -132,7 +132,7 @@
     "message": "모두 수락"
   },
   "app.ads-consent.body": {
-    "message": "광고는 Panda가 운영될 수 있도록 하며, 크리에이터에게 지급되는 보상을 지원합니다. 저희의 파트너는 개인에 맞는 광고를 제공하고 성과를 측정하기 위해 쿠키를 저장하거나 접근할 수 있습니다."
+    "message": "광고는 Panda Minecraft Launcher가 운영될 수 있도록 하며, 크리에이터에게 지급되는 보상을 지원합니다. 저희의 파트너는 개인에 맞는 광고를 제공하고 성과를 측정하기 위해 쿠키를 저장하거나 접근할 수 있습니다."
   },
   "app.ads-consent.manage": {
     "message": "환경설정 관리"
@@ -141,7 +141,7 @@
     "message": "모두 거절"
   },
   "app.ads-consent.title": {
-    "message": "개인정보 및 광고가 Panda를 지원하는 방식"
+    "message": "개인정보 및 광고가 Panda Minecraft Launcher를 지원하는 방식"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "라이브러리 인스턴스를 간결한 행 형태의 레이아웃으로 표시합니다."
@@ -186,7 +186,7 @@
     "message": "오른쪽 패널 숨기기"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Modrinth에 호스팅되지 않은 모드팩(.mrpack)을 설치하기 전에 안전 경고를 표시합니다."
+    "message": "Panda Minecraft Launcher에 호스팅되지 않은 모드팩(.mrpack)을 설치하기 전에 안전 경고를 표시합니다."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "출처를 알 수 없는 모드팩 설치 전 경고"
@@ -528,13 +528,13 @@
     "message": "인스턴스 보기"
   },
   "app.hosting.update-required.description": {
-    "message": "업데이트해야 Panda Minecraft Launcher을 통해 Panda Hosting을 사용할 수 있습니다"
+    "message": "업데이트해야 Panda Minecraft Launcher을 통해 Panda Minecraft Launcher을 사용할 수 있습니다"
   },
   "app.hosting.update-required.download": {
     "message": "다운로드하여 업데이트"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "들뜬 Panda Bot"
+    "message": "들뜬 Panda Minecraft Launcher Bot"
   },
   "app.hosting.update-required.title": {
     "message": "Panda Minecraft Launcher 업데이트 필요"
@@ -897,7 +897,7 @@
     "message": "계정 로그인:"
   },
   "app.instance.shared-instance-wrong-account.signed-out-header": {
-    "message": "Panda에 로그인해야 합니다"
+    "message": "Panda Minecraft Launcher에 로그인해야 합니다"
   },
   "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
     "message": "이 공유 인스턴스의 업데이트를 받으려면 로그인하세요."
@@ -1407,7 +1407,7 @@
     "message": "게시 취소 및 {count}개의 공유 인스턴스 떠나기"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, one {이 작업을 수행하면 Panda 서버에서 공유 인스턴스가 삭제됩니다. Panda Minecraft Launcher에서 이를 사용 중인 사용자들은 더 이상 업데이트를 받지 못하게 되며, 해당 인스턴스는 라이브러리에서 삭제됩니다.} other {이 작업을 수행하면 Panda 서버에서 공유 인스턴스가 삭제됩니다. Panda Minecraft Launcher에서 이를 사용 중인 사용자들은 더 이상 업데이트를 받지 못하게 되며, 해당 인스턴스는 라이브러리에서 삭제됩니다.}}"
+    "message": "{count, plural, one {이 작업을 수행하면 Panda Minecraft Launcher 서버에서 공유 인스턴스가 삭제됩니다. Panda Minecraft Launcher에서 이를 사용 중인 사용자들은 더 이상 업데이트를 받지 못하게 되며, 해당 인스턴스는 라이브러리에서 삭제됩니다.} other {이 작업을 수행하면 Panda Minecraft Launcher 서버에서 공유 인스턴스가 삭제됩니다. Panda Minecraft Launcher에서 이를 사용 중인 사용자들은 더 이상 업데이트를 받지 못하게 되며, 해당 인스턴스는 라이브러리에서 삭제됩니다.}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, one {공유 인스턴스 게시 취소} other {#개의 공유 인스턴스 게시 취소}}"
@@ -1443,10 +1443,10 @@
     "message": "설치"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "이 초대는 Panda가 아니라 그 사용자 중 한 명이 생성했어요. 신뢰할 수 있는 사람의 초대만 수락하세요."
+    "message": "이 초대는 Panda Minecraft Launcher가 아니라 그 사용자 중 한 명이 생성했어요. 신뢰할 수 있는 사람의 초대만 수락하세요."
   },
   "app.modal.install-to-play.invite-warning-with-creator": {
-    "message": "이 초대는 Panda가 아니라 <creator>{username}</creator> 사용자가 생성했어요. 신뢰할 수 있는 사람의 초대만 수락하세요."
+    "message": "이 초대는 Panda Minecraft Launcher가 아니라 <creator>{username}</creator> 사용자가 생성했어요. 신뢰할 수 있는 사람의 초대만 수락하세요."
   },
   "app.modal.install-to-play.managed-content.modpack-header": {
     "message": "모드팩 콘텐츠"
@@ -1482,7 +1482,7 @@
     "message": "지원 요청은 <support-link>지원 팀</support-link> 문의를 이용해 주세요. 버그 제보는 <github-link>GitHub 이슈</github-link>를 등록하세요."
   },
   "app.modal.install-to-play.reviewed-files": {
-    "message": "Panda에 게시되지 않은 파일은 검증되지 않았습니다."
+    "message": "Panda Minecraft Launcher에 게시되지 않은 파일은 검증되지 않았습니다."
   },
   "app.modal.install-to-play.shared-instance": {
     "message": "인스턴스 공유됨"
@@ -1491,7 +1491,7 @@
     "message": "공유 인스턴스 콘텐츠"
   },
   "app.modal.install-to-play.shared-instance-unknown-files-description": {
-    "message": "이 공유 인스턴스에는 Panda에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
+    "message": "이 공유 인스턴스에는 Panda Minecraft Launcher에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
   },
   "app.modal.install-to-play.unavailable-description": {
     "message": "이 서버에서 사용하는 모드팩 버전을 현재 다운로드할 수 없습니다. 아직 게시되지 않았거나 검토 중일 수 있습니다. 나중에 다시 시도하거나 서버 관리자에게 문의하세요."
@@ -1500,7 +1500,7 @@
     "message": "이 서버의 모드팩을 사용할 수 없습니다"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "이 서버의 모드팩은 Panda에 게시되지 않은 파일을 포함하고 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
+    "message": "이 서버의 모드팩은 Panda Minecraft Launcher에 게시되지 않은 파일을 포함하고 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "출처를 알 수 없는 파일"
@@ -1530,7 +1530,7 @@
     "message": "제거됨"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "이 서버 모드팩 업데이트에는 Panda에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
+    "message": "이 서버 모드팩 업데이트에는 Panda Minecraft Launcher에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "추가됨"
@@ -1539,7 +1539,7 @@
     "message": "제거됨"
   },
   "app.modal.update-to-play.shared-instance-unknown-files-description": {
-    "message": "이 공유 인스턴스 업데이트에는 Panda에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
+    "message": "이 공유 인스턴스 업데이트에는 Panda Minecraft Launcher에 게시되지 않은 파일이 포함되어 있습니다. 신뢰할 수 있는 출처의 파일만 설치하는 것을 강력히 권장합니다."
   },
   "app.modal.update-to-play.update-required": {
     "message": "업데이트 필요"
@@ -1563,7 +1563,7 @@
     "message": "Panda Minecraft Launcher 계정"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "계정 제거"
@@ -1572,13 +1572,13 @@
     "message": "스크린샷들"
   },
   "app.nav.sign-in-to-modrinth-account": {
-    "message": "Panda에 로그인"
+    "message": "Panda Minecraft Launcher에 로그인"
   },
   "app.nav.switch-account": {
     "message": "계정 변경"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Panda+ 로 업그레이드"
+    "message": "Panda Minecraft Launcher 로 업그레이드"
   },
   "app.nav.view-profile": {
     "message": "프로필 보기"
@@ -2106,7 +2106,7 @@
     "message": "인스턴스 중 하나가 이 설정을 사용할 수 없습니다"
   },
   "app.settings.game-options.compatibility.reason.launcher-controlled": {
-    "message": "이 설정은 Panda의 실행 설정에 의해 관리됩니다."
+    "message": "이 설정은 Panda Minecraft Launcher의 실행 설정에 의해 관리됩니다."
   },
   "app.settings.game-options.custom-value.placeholder": {
     "message": "값 입력"
@@ -2952,7 +2952,7 @@
     "message": "캐시가 재구축될 때까지 앱 불러오기가 느려질 수 있습니다."
   },
   "app.settings.resource-management.app-cache.description": {
-    "message": "캐시 데이터를 비우고 Panda에서 다시 다운로드합니다. 캐시가 재구축될 때까지 앱 불러오기가 느려질 수 있습니다."
+    "message": "캐시 데이터를 비우고 Panda Minecraft Launcher에서 다시 다운로드합니다. 캐시가 재구축될 때까지 앱 불러오기가 느려질 수 있습니다."
   },
   "app.settings.resource-management.app-cache.title": {
     "message": "앱 캐시"
@@ -3210,7 +3210,7 @@
     "message": "이 설정은 어딘가에서 변경되었습니다"
   },
   "app.settings.synced-options.game-settings.custom-empty": {
-    "message": "Panda가 인스턴스 중에 모드가 추가한 설정을 발견하면 여기에 나타납니다."
+    "message": "Panda Minecraft Launcher가 인스턴스 중에 모드가 추가한 설정을 발견하면 여기에 나타납니다."
   },
   "app.settings.synced-options.game-settings.description": {
     "message": "인스턴스 간에 동일한 게임 옵션을 사용합니다."
@@ -3741,7 +3741,7 @@
     "message": "건너뛰기"
   },
   "app.welcome-screen.title": {
-    "message": "Panda에 오신 것을 환영합니다"
+    "message": "Panda Minecraft Launcher에 오신 것을 환영합니다"
   },
   "app.world.server-modal.placeholder-address": {
     "message": "example.modrinth.gg"
@@ -3945,7 +3945,7 @@
     "message": "연동 해제 중..."
   },
   "installation-settings.shared-instance.unpublish-description": {
-    "message": "Panda에서 이 공유 인스턴스를 삭제하고 이용자에게 업데이트 전송을 중단합니다. 자신의 로컬 인스턴스는 영향을 받지 않습니다."
+    "message": "Panda Minecraft Launcher에서 이 공유 인스턴스를 삭제하고 이용자에게 업데이트 전송을 중단합니다. 자신의 로컬 인스턴스는 영향을 받지 않습니다."
   },
   "installation-settings.unlink-shared-instance.modal.admonition-body": {
     "message": "이 작업은 본인의 로컬 인스턴스에만 영향을 미칩니다. 설치된 콘텐츠는 이 기기에 유지되며, 공유 인스턴스 및 이를 이용하는 다른 사용자에게는 영향을 미치지 않습니다."
@@ -3957,7 +3957,7 @@
     "message": "공유 인스턴스 연동 해제"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "이 작업은 Panda 서버에서 공유 인스턴스를 삭제합니다. Panda Minecraft Launcher에서 이를 이용 중인 사용자는 더 이상 업데이트를 받지 않지만, 본인의 로컬 인스턴스 및 콘텐츠는 이 기기에 유지됩니다."
+    "message": "이 작업은 Panda Minecraft Launcher 서버에서 공유 인스턴스를 삭제합니다. Panda Minecraft Launcher에서 이를 이용 중인 사용자는 더 이상 업데이트를 받지 않지만, 본인의 로컬 인스턴스 및 콘텐츠는 이 기기에 유지됩니다."
   },
   "instance.action.create-shortcut": {
     "message": "바로가기 만들기"

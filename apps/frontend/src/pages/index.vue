@@ -578,7 +578,7 @@ const messages = defineMessages({
 	findWhatYouWantDescription: {
 		id: 'landing.feature.search.description',
 		defaultMessage:
-			"Modrinth's lightning-fast search and powerful filters let you find what you want as you type.",
+			"Panda Minecraft Launcher's lightning-fast search and powerful filters let you find what you want as you type.",
 	},
 	followProjectsHeading: {
 		id: 'landing.feature.follow.heading',
@@ -595,7 +595,7 @@ const messages = defineMessages({
 	playWithLauncherDescription: {
 		id: 'landing.feature.launcher.description',
 		defaultMessage:
-			"Modrinth's open-source API lets launchers add deep integration with Modrinth. You can use Modrinth through <link>our own app</link> and some of the most popular launchers like ATLauncher, MultiMC, and Prism Launcher.",
+			"Panda Minecraft Launcher's open-source API lets launchers add deep integration with Panda Minecraft Launcher. You can use Panda Minecraft Launcher through <link>our own app</link> and some of the most popular launchers like ATLauncher, MultiMC, and Prism Launcher.",
 	},
 	notificationsHeading: {
 		id: 'landing.notifications.heading',
@@ -616,7 +616,7 @@ const messages = defineMessages({
 	launcherGraphicAlt: {
 		id: 'landing.launcher.graphic-alt',
 		defaultMessage:
-			'A simplified representation of a Minecraft window, with the Mojang Studios logo in Modrinth green.',
+			'A simplified representation of a Minecraft window, with the Mojang Studios logo in Panda Minecraft Launcher green.',
 	},
 	prismLauncherLabel: {
 		id: 'landing.launcher.prism-launcher-label',
@@ -624,7 +624,7 @@ const messages = defineMessages({
 	},
 	modrinthAppLabel: {
 		id: 'landing.launcher.modrinth-app-label',
-		defaultMessage: 'Modrinth App',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 	atlauncherLabel: {
 		id: 'landing.launcher.atlauncher-label',
@@ -714,7 +714,7 @@ const creatorFeatureMessages = defineMessages({
 	constantlyEvolvingDescription: {
 		id: 'landing.creator.feature.constantly-evolving.description',
 		defaultMessage:
-			'Get the best modding experience possible with constant updates from the Modrinth team',
+			'Get the best modding experience possible with constant updates from the Panda Minecraft Launcher team',
 	},
 })
 </script>

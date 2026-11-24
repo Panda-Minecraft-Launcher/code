@@ -122,7 +122,7 @@ const userSummary = computed(() => ({
 }))
 
 useHead({
-	title: computed(() => `${username.value}'s shared instances - Modrinth`),
+	title: computed(() => `${username.value}'s shared instances - Panda Minecraft Launcher`),
 })
 
 onServerPrefetch(userSuspense)

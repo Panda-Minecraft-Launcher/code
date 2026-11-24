@@ -69,7 +69,7 @@
     "defaultMessage": "検索が見つかりませんでした"
   },
   "browse.offline": {
-    "defaultMessage": "現在オフラインです。インターネットに接続してModrinthを閲覧しましょう！"
+    "defaultMessage": "現在オフラインです。インターネットに接続してPanda Minecraft Launcherを閲覧しましょう！"
   },
   "browse.search.placeholder": {
     "defaultMessage": "{projectType}を検索..."
@@ -495,13 +495,13 @@
     "defaultMessage": "{count}件 削除済み（無効）"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "追加するファイルはModrinthの認証を受けていません。"
+    "defaultMessage": "追加するファイルはPanda Minecraft Launcherの認証を受けていません。"
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "サーバー上のコンテンツの一部は分析できず、この変更の影響を受ける可能性があります。"
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "この更新は、Modrinthに公開されていないファイルが含まれています。私たちは、信頼のあるウェブサイトからのインストールを強くおすすめします。"
+    "defaultMessage": "この更新は、Panda Minecraft Launcherに公開されていないファイルが含まれています。私たちは、信頼のあるウェブサイトからのインストールを強くおすすめします。"
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "不明なファイルの警告"
@@ -1140,7 +1140,7 @@
     "defaultMessage": "作品へのリンク"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "これはModrinthのリンクのようです。もしこのコンテンツがModrinthで入手可能であるなら、お使いのパックは正しくエクスポートされていない可能性があります。別のサイトからダウンロードした場合は、代わりにModrinth版をダウンロードしてみてください。ファイルが完全に同一ではない場合があるためです。"
+    "defaultMessage": "これはPanda Minecraft Launcherのリンクのようです。もしこのコンテンツがPanda Minecraft Launcherで入手可能であるなら、お使いのパックは正しくエクスポートされていない可能性があります。別のサイトからダウンロードした場合は、代わりにPanda Minecraft Launcher版をダウンロードしてみてください。ファイルが完全に同一ではない場合があるためです。"
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "ノート"
@@ -1164,7 +1164,7 @@
     "defaultMessage": "虚偽の申告や画像の改ざんが発覚した場合、プロジェクトの削除およびアカウントの停止措置が取られる可能性があります。"
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Modrinthスタッフが提出された証明を確認・検証する場合があります"
+    "defaultMessage": "Panda Minecraft Launcherスタッフが提出された証明を確認・検証する場合があります"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "帰属情報を保存"
@@ -1254,7 +1254,7 @@
     "defaultMessage": "自動的に出典が追加されました"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "このファイルは以前確認済みであり、帰属表示又は、クレジットの記載内容を準備いたしました。もし誤りなどございましたら、ヘルプセンター経由でModrinthサポートまでご連絡ください"
+    "defaultMessage": "このファイルは以前確認済みであり、帰属表示又は、クレジットの記載内容を準備いたしました。もし誤りなどございましたら、ヘルプセンター経由でPanda Minecraft Launcherサポートまでご連絡ください"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "ライセンス"
@@ -3801,7 +3801,7 @@
     "defaultMessage": "{count}件の最近のプレイ"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count}件の過去2週間のModrinthからのプレイ"
+    "defaultMessage": "{count}件の過去2週間のPanda Minecraft Launcherからのプレイ"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "このプロジェクトはカスタムModパックを使用しています"
@@ -4128,7 +4128,7 @@
     "defaultMessage": "プロジェクトに複数の環境があります。"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Modrinthの環境システムを刷新し、新しいオプションがご利用いただけるようになりました。以下のオプションが正しく選択されていることを確認し「確認」ボタンを押してください！"
+    "defaultMessage": "Panda Minecraft Launcherの環境システムを刷新し、新しいオプションがご利用いただけるようになりました。以下のオプションが正しく選択されていることを確認し「確認」ボタンを押してください！"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "以下のオプションを確認してください"

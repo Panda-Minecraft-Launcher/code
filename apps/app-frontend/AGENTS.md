@@ -1,6 +1,6 @@
-# apps/app-frontend - Modrinth App Frontend
+# apps/app-frontend - Panda Minecraft Launcher frontend
 
-Vue 3 + Vite frontend for the Modrinth App. It runs inside a Tauri webview (`apps/app`) and talks to `packages/app-lib` (`theseus`) through Tauri commands.
+Vue 3 + Vite frontend for Panda Minecraft Launcher. It runs inside a Tauri webview (`apps/app`) and talks to `packages/app-lib` (`theseus`) through Tauri commands.
 
 ## Standards
 

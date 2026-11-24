@@ -16,7 +16,7 @@ const messages = defineMessages({
 	unpublishConfirmation: {
 		id: 'installation-settings.unpublish-shared-instance.modal.admonition-body',
 		defaultMessage:
-			"This deletes the shared instance from Panda's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, but your local instance and its content will stay on this device.",
+			"This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, but your local instance and its content will stay on this device.",
 	},
 })
 </script>

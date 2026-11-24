@@ -153,11 +153,11 @@ const messages = defineMessages({
 	},
 	unofficialDisclosure: {
 		id: 'settings.authorizations.unofficial-disclosure',
-		defaultMessage: 'This app is not affiliated with Modrinth in any way, despite its name.',
+		defaultMessage: 'This app is not affiliated with Panda Minecraft Launcher in any way, despite its name.',
 	},
 	officialTooltip: {
 		id: 'settings.authorizations.official-tooltip',
-		defaultMessage: 'This app is created by an official Modrinth account.',
+		defaultMessage: 'This app is created by an official Panda Minecraft Launcher account.',
 	},
 })
 </script>

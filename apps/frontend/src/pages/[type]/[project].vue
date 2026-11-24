@@ -803,7 +803,7 @@ const messages = defineMessages({
 	environmentMigrationMessage: {
 		id: 'project.environment.migration.message',
 		defaultMessage:
-			"We've just overhauled the Environments system on Modrinth and new options are now available. Please verify that the metadata is correct.",
+			"We've just overhauled the Environments system on Panda Minecraft Launcher and new options are now available. Please verify that the metadata is correct.",
 	},
 	environmentMigrationTitle: {
 		id: 'project.environment.migration.title',
@@ -812,7 +812,7 @@ const messages = defineMessages({
 	environmentMigrationNoPermissionMessage: {
 		id: 'project.environment.migration-no-permission.message',
 		defaultMessage:
-			"We've just overhauled the Environments system on Modrinth and new options are now available. You don't have permission to modify these settings, but please let another member of the project know that the environment metadata needs to be verified.",
+			"We've just overhauled the Environments system on Panda Minecraft Launcher and new options are now available. You don't have permission to modify these settings, but please let another member of the project know that the environment metadata needs to be verified.",
 	},
 	environmentMigrationNoPermissionTitle: {
 		id: 'project.environment.migration-no-permission.title',
@@ -934,7 +934,7 @@ const messages = defineMessages({
 	},
 	serversPromoDescription: {
 		id: 'project.actions.servers-promo.description',
-		defaultMessage: 'Modrinth Hosting is the easiest way to play with your friends without hassle!',
+		defaultMessage: 'Panda Minecraft Launcher is the easiest way to play with your friends without hassle!',
 	},
 	serversPromoPricing: {
 		id: 'project.actions.servers-promo.pricing',
@@ -1857,7 +1857,7 @@ const following = computed(() => {
 })
 
 const PROJECT_NOT_FOUND_DESCRIPTION =
-	"There's no project here, check that you have the right link! It may still be under review or no longer publicly available on Modrinth."
+	"There's no project here, check that you have the right link! It may still be under review or no longer publicly available on Panda Minecraft Launcher."
 
 const title = computed(() =>
 	project.value
@@ -1872,7 +1872,7 @@ const description = computed(() => {
 	const creator = organization.value?.name || members.value.find((x) => x.is_owner)?.user?.username
 	const byLine = creator ? ` by ${creator}` : ''
 
-	return `${project.value.description} - Download the Minecraft ${projectTypeDisplay.value} ${project.value.title}${byLine} on Modrinth`
+	return `${project.value.description} - Download the Minecraft ${projectTypeDisplay.value} ${project.value.title}${byLine} on Panda Minecraft Launcher`
 })
 
 const canCreateServerFrom = computed(() => {

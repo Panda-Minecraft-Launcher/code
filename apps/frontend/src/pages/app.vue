@@ -255,20 +255,20 @@ const { formatMessage } = useVIntl()
 const messages = defineMessages({
 	downloadModrinthApp: {
 		id: 'app-marketing.hero.download-modrinth-app',
-		defaultMessage: 'Download Modrinth App',
+		defaultMessage: 'Download Panda Minecraft Launcher',
 	},
 	downloadModrinthAppForOs: {
 		id: 'app-marketing.hero.download-modrinth-app-for-os',
-		defaultMessage: 'Download Modrinth App for {os}',
+		defaultMessage: 'Download Panda Minecraft Launcher for {os}',
 	},
 	description: {
 		id: 'app-marketing.hero.description',
 		defaultMessage:
-			'Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.',
+			'Panda Minecraft Launcher is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.',
 	},
 	downloadModrinthAppButton: {
 		id: 'app-marketing.hero.download-button',
-		defaultMessage: 'Download Modrinth App',
+		defaultMessage: 'Download Panda Minecraft Launcher',
 	},
 	moreDownloadOptions: {
 		id: 'app-marketing.hero.more-download-options',
@@ -313,7 +313,7 @@ const messages = defineMessages({
 	modManagementDescription: {
 		id: 'app-marketing.features.mod-management.description',
 		defaultMessage:
-			'Modrinth makes it easy to manage all your mods in one place. You can install, uninstall, and update mods with a single click.',
+			'Panda Minecraft Launcher makes it easy to manage all your mods in one place. You can install, uninstall, and update mods with a single click.',
 	},
 	playWithFavoriteMods: {
 		id: 'app-marketing.features.play.title',
@@ -321,7 +321,7 @@ const messages = defineMessages({
 	},
 	playWithFavoriteModsDescription: {
 		id: 'app-marketing.features.play.description',
-		defaultMessage: 'Use Modrinth App to download and play with your favorite mods and modpacks.',
+		defaultMessage: 'Use Panda Minecraft Launcher to download and play with your favorite mods and modpacks.',
 	},
 	shareModpacks: {
 		id: 'app-marketing.features.sharing.title',
@@ -330,7 +330,7 @@ const messages = defineMessages({
 	shareModpacksDescription: {
 		id: 'app-marketing.features.sharing.description',
 		defaultMessage:
-			'Build, share, and play modpacks with any of the thousands of mods and modpacks hosted here on Modrinth.',
+			'Build, share, and play modpacks with any of the thousands of mods and modpacks hosted here on Panda Minecraft Launcher.',
 	},
 	share: {
 		id: 'app-marketing.features.sharing.share-button',
@@ -362,7 +362,7 @@ const messages = defineMessages({
 	},
 	modrinthApp: {
 		id: 'app-marketing.features.performance.modrinth-app',
-		defaultMessage: 'Modrinth App',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 	small: {
 		id: 'app-marketing.features.performance.small',
@@ -386,7 +386,7 @@ const messages = defineMessages({
 	},
 	performantDescription: {
 		id: 'app-marketing.features.performance.description',
-		defaultMessage: 'Modrinth App performs better than many of the leading mod managers!',
+		defaultMessage: 'Panda Minecraft Launcher performs better than many of the leading mod managers!',
 	},
 	websiteIntegration: {
 		id: 'app-marketing.features.website.title',
@@ -395,7 +395,7 @@ const messages = defineMessages({
 	websiteIntegrationDescription: {
 		id: 'app-marketing.features.website.description',
 		defaultMessage:
-			'Modrinth App is fully integrated with the website, so you can access all your favorite projects from the app!',
+			'Panda Minecraft Launcher is fully integrated with the website, so you can access all your favorite projects from the app!',
 	},
 	profileImporting: {
 		id: 'app-marketing.features.importing.title',
@@ -404,7 +404,7 @@ const messages = defineMessages({
 	profileImportingDescription: {
 		id: 'app-marketing.features.importing.description',
 		defaultMessage:
-			'Import all your existing game instances from the launcher you were using before, and get started with Modrinth App in seconds!',
+			'Import all your existing game instances from the launcher you were using before, and get started with Panda Minecraft Launcher in seconds!',
 	},
 	openSource: {
 		id: 'app-marketing.features.open-source.title',
@@ -413,7 +413,7 @@ const messages = defineMessages({
 	openSourceDescription: {
 		id: 'app-marketing.features.open-source.description',
 		defaultMessage:
-			'Modrinth App is fully open source. You can view the source code on our <github-link>GitHub</github-link>!',
+			'Panda Minecraft Launcher is fully open source. You can view the source code on our <github-link>GitHub</github-link>!',
 	},
 	settingsSync: {
 		id: 'app-marketing.features.settings-sync.title',
@@ -437,7 +437,7 @@ const messages = defineMessages({
 	},
 	downloadModrinthAppBeta: {
 		id: 'app-marketing.download.title',
-		defaultMessage: 'Download Modrinth App (Beta)',
+		defaultMessage: 'Download Panda Minecraft Launcher (Beta)',
 	},
 	downloadDescription: {
 		id: 'app-marketing.download.description',
@@ -503,16 +503,16 @@ const messages = defineMessages({
 	downloadTerms: {
 		id: 'app-marketing.download.terms',
 		defaultMessage:
-			'By downloading Modrinth App, you agree to our <terms-link>Terms</terms-link> and <privacy-link>Privacy Policy</privacy-link>.',
+			'By downloading Panda Minecraft Launcher, you agree to our <terms-link>Terms</terms-link> and <privacy-link>Privacy Policy</privacy-link>.',
 	},
 	linuxDisclaimer: {
 		id: 'app-marketing.download.linux-disclaimer',
 		defaultMessage:
-			'The Linux versions of Modrinth App are <issues-link>known to have issues</issues-link> on certain systems and configurations. If Modrinth App is unstable on your system, we encourage you to try other apps like <prism-link>Prism Launcher</prism-link> to easily install Modrinth content.',
+			'The Linux versions of Panda Minecraft Launcher are <issues-link>known to have issues</issues-link> on certain systems and configurations. If Panda Minecraft Launcher is unstable on your system, we encourage you to try other apps like <prism-link>Prism Launcher</prism-link> to easily install Panda Minecraft Launcher content.',
 	},
 	appScreenshotAlt: {
 		id: 'app-marketing.hero.app-screenshot-alt',
-		defaultMessage: `Screenshot of Modrinth App with a Cobblemon instance opened to the 'Content' page.`,
+		defaultMessage: `Screenshot of Panda Minecraft Launcher with a Cobblemon instance opened to the 'Content' page.`,
 	},
 	minecraftScreenshotAlt: {
 		id: 'app-marketing.hero.minecraft-screenshot-alt',
@@ -528,9 +528,9 @@ const messages = defineMessages({
 	},
 })
 
-const title = 'Download Modrinth App!'
+const title = 'Download Panda Minecraft Launcher!'
 const description =
-	'Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.'
+	'Panda Minecraft Launcher is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.'
 
 useSeoMeta({
 	title,

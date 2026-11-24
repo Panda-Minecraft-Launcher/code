@@ -763,7 +763,7 @@ function createTestTraceForm(): TestTraceForm {
 	}
 }
 
-useHead({ title: 'Delphi rules - Modrinth' })
+useHead({ title: 'Delphi rules - Panda Minecraft Launcher' })
 
 const client = injectModrinthClient()
 const { addNotification } = injectNotificationManager()

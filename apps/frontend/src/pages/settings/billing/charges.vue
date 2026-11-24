@@ -77,15 +77,15 @@ const messages = defineMessages({
 	},
 	description: {
 		id: 'settings.billing.charges.description',
-		defaultMessage: 'All of your past charges to your Modrinth account will be listed here:',
+		defaultMessage: 'All of your past charges to your Panda Minecraft Launcher account will be listed here:',
 	},
 	productMidas: {
 		id: 'settings.billing.charges.product.midas',
-		defaultMessage: 'Modrinth Plus',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 	productPyro: {
 		id: 'settings.billing.charges.product.pyro',
-		defaultMessage: 'Modrinth Hosting',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 	productMedalTrial: {
 		id: 'settings.billing.charges.product.medal-trial',

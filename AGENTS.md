@@ -1,6 +1,6 @@
-# Modrinth Monorepo
+# Panda Minecraft Launcher monorepo
 
-This is the Modrinth monorepo — it contains all Modrinth projects, both frontend and backend. When entering a project, either to edit or analyse, you should read its AGENTS.md.
+This is the Panda Minecraft Launcher monorepo — it contains all Panda Minecraft Launcher projects, both frontend and backend. When entering a project, either to edit or analyse, you should read its AGENTS.md.
 
 ## Architecture
 
@@ -13,7 +13,7 @@ This is the Modrinth monorepo — it contains all Modrinth projects, both fronte
 
 | App              | Description                    |
 | ---------------- | ------------------------------ |
-| `frontend`       | Main Modrinth website (Nuxt 3) |
+| `frontend`       | Main Panda Minecraft Launcher website (Nuxt 3) |
 | `app-frontend`   | Desktop/app frontend (Vue 3)   |
 | `app`            | Desktop/app shell (Tauri)      |
 | `app-playground` | Testing playground for app     |

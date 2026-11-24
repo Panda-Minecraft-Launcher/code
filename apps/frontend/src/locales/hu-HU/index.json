@@ -9,7 +9,7 @@
     "message": "Összes elfogadása"
   },
   "ads-consent.body": {
-    "message": "A hirdetések teszik lehetővé a Modrinth működését, és biztosítják a tartalomkészítők juttatásait. Partnereink sütiket tárolhatnak vagy érhetnek el a weboldalon a hirdetések személyre szabása és a teljesítmény mérése céljából."
+    "message": "A hirdetések teszik lehetővé a Panda Minecraft Launcher működését, és biztosítják a tartalomkészítők juttatásait. Partnereink sütiket tárolhatnak vagy érhetnek el a weboldalon a hirdetések személyre szabása és a teljesítmény mérése céljából."
   },
   "ads-consent.manage": {
     "message": "Beállítások kezelése"
@@ -18,7 +18,7 @@
     "message": "Összes elutasítása"
   },
   "ads-consent.title": {
-    "message": "Adataid védelme és a hirdetések szerepe a Modrinth működésében"
+    "message": "Adataid védelme és a hirdetések szerepe a Panda Minecraft Launcher működésében"
   },
   "analytics.action.add": {
     "message": "Hozzáadás"
@@ -111,10 +111,10 @@
     "message": "Kijelző"
   },
   "analytics.chart.controls.modrinth-events": {
-    "message": "Modrinth események"
+    "message": "Panda Minecraft Launcher események"
   },
   "analytics.chart.controls.no-modrinth-events": {
-    "message": "Nincs Modrinth esemény a grafiokonon."
+    "message": "Nincs Panda Minecraft Launcher esemény a grafiokonon."
   },
   "analytics.chart.controls.no-project-events": {
     "message": "A grafikonon nincs projektesemény."
@@ -144,7 +144,7 @@
     "message": "Bevételszerzési analitikai részletek megtekintése"
   },
   "analytics.chart.legend.monetization-details.description": {
-    "message": "Csak a Modrinthon keresztül történő megtekintések és letöltések számítanak bele a bevételszerzésbe, és a letöltéshez a felhasználóknak be kell jelentkezniük."
+    "message": "Csak a Panda Minecraft Launcheron keresztül történő megtekintések és letöltések számítanak bele a bevételszerzésbe, és a letöltéshez a felhasználóknak be kell jelentkezniük."
   },
   "analytics.chart.legend.monetization-details.title": {
     "message": "A bevételszerző statisztika részletei"
@@ -228,10 +228,10 @@
     "message": "Frissítés"
   },
   "analytics.download-source.app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "analytics.download-source.website": {
-    "message": "A Modrinth weboldala"
+    "message": "A Panda Minecraft Launcher weboldala"
   },
   "analytics.downloads.suffix": {
     "message": "letöltéssel"
@@ -417,7 +417,7 @@
     "message": "Letöltések"
   },
   "analytics.stat.monetization-banner.body": {
-    "message": "Csak a Modrinthon keresztül történő megtekintések és letöltések jogosultak bevételszerzésre, és át kell menniük a csalásmegelőző szűrésen. A Modrinth App letöltéséhez a felhasználónak be kell jelentkeznie. Mivel az összes projekt esetében hasonló azoknak a letöltéseknek az aránya, amelyek bevételt generálnak, a bevételed nem változna jelentősen, ha az összes letöltést figyelembe vennénk."
+    "message": "Csak a Panda Minecraft Launcheron keresztül történő megtekintések és letöltések jogosultak bevételszerzésre, és át kell menniük a csalásmegelőző szűrésen. A Panda Minecraft Launcher letöltéséhez a felhasználónak be kell jelentkeznie. Mivel az összes projekt esetében hasonló azoknak a letöltéseknek az aránya, amelyek bevételt generálnak, a bevételed nem változna jelentősen, ha az összes letöltést figyelembe vennénk."
   },
   "analytics.stat.monetization-banner.learn-more": {
     "message": "Tudj meg többet"
@@ -456,7 +456,7 @@
     "message": "{start}-tól {end}-ig"
   },
   "analytics.table.csv.filename": {
-    "message": "Modrinth Részletes {breakdown} Statisztikák- {dateRange}"
+    "message": "Panda Minecraft Launcher Részletes {breakdown} Statisztikák- {dateRange}"
   },
   "analytics.table.csv.header.playtime-seconds": {
     "message": "Játékidő (másodpercben)"
@@ -564,7 +564,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "A Modrinth App Linuxos verzióiról <issues-link>ismert, hogy bizonyos rendszereken és konfigurációk mellett problémákba ütközhetnek</issues-link>. Ha a Modrinth App instabilan működik a rendszereden, javasoljuk, hogy próbálj ki más alkalmazásokat, például a <prism-link>Prism Launchert</prism-link>, amellyel egyszerűen telepíthetsz Modrinth-tartalmakat."
+    "message": "A Panda Minecraft Launcher Linuxos verzióiról <issues-link>ismert, hogy bizonyos rendszereken és konfigurációk mellett problémákba ütközhetnek</issues-link>. Ha a Panda Minecraft Launcher instabilan működik a rendszereden, javasoljuk, hogy próbálj ki más alkalmazásokat, például a <prism-link>Prism Launchert</prism-link>, amellyel egyszerűen telepíthetsz Panda Minecraft Launcher-tartalmakat."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -573,16 +573,16 @@
     "message": "Letöltési opciók"
   },
   "app-marketing.download.terms": {
-    "message": "A Modrinth App letöltésével elfogadod a <terms-link>felhasználási feltételeinket</terms-link> és az <privacy-link>adatvédelmi nyilatkozatunkat</privacy-link>."
+    "message": "A Panda Minecraft Launcher letöltésével elfogadod a <terms-link>felhasználási feltételeinket</terms-link> és az <privacy-link>adatvédelmi nyilatkozatunkat</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "A Modrinth App letöltése (béta)"
+    "message": "A Panda Minecraft Launcher letöltése (béta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importáld az összes meglévő játékpéldányodat a korábban használt indítóprogramból, és kezdd el használni a Modrinth Appot pillanatok alatt!"
+    "message": "Importáld az összes meglévő játékpéldányodat a korábban használt indítóprogramból, és kezdd el használni a Panda Minecraft Launcherot pillanatok alatt!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -606,7 +606,7 @@
     "message": "{author} által"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "A Modrinth könnyűvé teszi az összes telepített modod a kezelését egy helyen. Telepíthetsz, eltávolíthatsz és frissíthetsz modokat egyetlen kattintással."
+    "message": "A Panda Minecraft Launcher könnyűvé teszi az összes telepített modod a kezelését egy helyen. Telepíthetsz, eltávolíthatsz és frissíthetsz modokat egyetlen kattintással."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Telepített modok"
@@ -624,7 +624,7 @@
     "message": "Verzió"
   },
   "app-marketing.features.open-source.description": {
-    "message": "A Modrinth App teljesen nyílt forráskódú. A forráskódot megtekintheted a <github-link>GitHubon</github-link>!"
+    "message": "A Panda Minecraft Launcher teljesen nyílt forráskódú. A forráskódot megtekintheted a <github-link>GitHubon</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Nyílt forráskódú"
@@ -636,7 +636,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "A Modrinth App jobb teljesítményt nyújt, mint számos vezető modkezelő!"
+    "message": "A Panda Minecraft Launcher jobb teljesítményt nyújt, mint számos vezető modkezelő!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -648,7 +648,7 @@
     "message": "Google Chrome"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 milliárd %"
@@ -666,7 +666,7 @@
     "message": "Teljesítmény"
   },
   "app-marketing.features.play.description": {
-    "message": "A Modrinth App segítségével letöltheted kedvenc modjaidat és modcsomagjaidat, és azonnal játszhatsz velük."
+    "message": "A Panda Minecraft Launcher segítségével letöltheted kedvenc modjaidat és modcsomagjaidat, és azonnal játszhatsz velük."
   },
   "app-marketing.features.play.title": {
     "message": "Játssz a kedvenc modjaiddal"
@@ -678,7 +678,7 @@
     "message": "Beállítások szinkronizálása"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Készíts, ossz meg és játssz modcsomagokat a Modrinthon elérhető több ezer moddal és modcsomaggal!"
+    "message": "Készíts, ossz meg és játssz modcsomagokat a Panda Minecraft Launcheron elérhető több ezer moddal és modcsomaggal!"
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modcsomag"
@@ -693,7 +693,7 @@
     "message": "Más, mint bármely indító"
   },
   "app-marketing.features.website.description": {
-    "message": "A Modrinth App teljes mértékben integrálva van a weboldallal, így az alkalmazásból elérheted az összes kedvenc projektedet!"
+    "message": "A Panda Minecraft Launcher teljes mértékben integrálva van a weboldallal, így az alkalmazásból elérheted az összes kedvenc projektedet!"
   },
   "app-marketing.features.website.title": {
     "message": "Weboldal integráció"
@@ -702,19 +702,19 @@
     "message": "amit eddig használtál"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "A Modrinth App képernyőképe, amelyen a Cobblemon modcsomag a „Tartalom” oldalon van megnyitva."
+    "message": "A Panda Minecraft Launcher képernyőképe, amelyen a Cobblemon modcsomag a „Tartalom” oldalon van megnyitva."
   },
   "app-marketing.hero.description": {
-    "message": "A Modrinth App egy egyedülálló, nyílt forráskódú kliens, amely lehetővé teszi, hogy kedvenc modjaidat játssz, és naprakészen tartsd őket, mindezt egy kis, praktikus csomagban."
+    "message": "A Panda Minecraft Launcher egy egyedülálló, nyílt forráskódú kliens, amely lehetővé teszi, hogy kedvenc modjaidat játssz, és naprakészen tartsd őket, mindezt egy kis, praktikus csomagban."
   },
   "app-marketing.hero.download-button": {
-    "message": "A Modrinth App letöltése"
+    "message": "A Panda Minecraft Launcher letöltése"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "A Modrinth App letöltése"
+    "message": "A Panda Minecraft Launcher letöltése"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "A Modrinth App {os}-verziójának letöltése"
+    "message": "A Panda Minecraft Launcher {os}-verziójának letöltése"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "A Cobblemon modcsomag főmenüjének képernyőképe."
@@ -774,7 +774,7 @@
     "message": "Születési dátum"
   },
   "auth.create-account.date-of-birth.not-meet-age-requirement": {
-    "message": "Nem felelsz meg a Modrinth fiók létrehozásához szükséges korhatárnak."
+    "message": "Nem felelsz meg a Panda Minecraft Launcher fiók létrehozásához szükséges korhatárnak."
   },
   "auth.create-account.date-of-birth.placeholder": {
     "message": "Válaszd ki a születési dátumod"
@@ -786,7 +786,7 @@
     "message": "A születési dátumod megadása kötelező"
   },
   "auth.create-account.date-of-birth.under13-helper": {
-    "message": "Nem hozhatsz létre egy Modrinth fiókot ameddig nem múltál el 13 éves."
+    "message": "Nem hozhatsz létre egy Panda Minecraft Launcher fiókot ameddig nem múltál el 13 éves."
   },
   "auth.create-account.info-panel.source-code-link": {
     "message": "Releváns forráskód"
@@ -801,7 +801,7 @@
     "message": "Biztonsági ellenőrzés"
   },
   "auth.create-account.subscribe.label": {
-    "message": "Kérek Emaileket a menő dolgokról amiken a Modrinth dolgozik"
+    "message": "Kérek Emaileket a menő dolgokról amiken a Panda Minecraft Launcher dolgozik"
   },
   "auth.create-account.title": {
     "message": "Fiók létrehozása"
@@ -879,7 +879,7 @@
     "message": "Fiók hozzáadása"
   },
   "auth.sign-in.choose-account": {
-    "message": "Válassz ki egy fiókot, amelyet a Modrinth Appban szeretnél használni"
+    "message": "Válassz ki egy fiókot, amelyet a Panda Minecraft Launcherban szeretnél használni"
   },
   "auth.sign-in.choose-existing-account": {
     "message": "Meglévő fiók használata"
@@ -900,25 +900,25 @@
     "message": "Utoljára használva"
   },
   "auth.sign-in.launcher.callback.title": {
-    "message": "Modrinth App bejelentkezési visszahívás"
+    "message": "Panda Minecraft Launcher bejelentkezési visszahívás"
   },
   "auth.sign-in.launcher.complete.go-to-website": {
-    "message": "Ugrás a Modrinth.com-ra"
+    "message": "Ugrás a Panda Minecraft Launcher-ra"
   },
   "auth.sign-in.launcher.complete.return-button": {
-    "message": "Modrinth App megnyitása"
+    "message": "Panda Minecraft Launcher megnyitása"
   },
   "auth.sign-in.launcher.handoff-failed": {
-    "message": "Nem sikerült a bejelentkezés a Modrinth Appba. Próbáld újra."
+    "message": "Nem sikerült a bejelentkezés a Panda Minecraft Launcherba. Próbáld újra."
   },
   "auth.sign-in.launcher.opening.description": {
     "message": "Ha az alkalmazás nem nyílik meg, az alábbi gombbal fejezheted be a bejelentkezést."
   },
   "auth.sign-in.launcher.opening.title": {
-    "message": "A Modrinth App megnyitása..."
+    "message": "A Panda Minecraft Launcher megnyitása..."
   },
   "auth.sign-in.launcher.reauthenticate.title": {
-    "message": "Bejelentkezés a Modrinth Appba"
+    "message": "Bejelentkezés a Panda Minecraft Launcherba"
   },
   "auth.sign-in.no-account": {
     "message": "Nincs fiókja?"
@@ -927,7 +927,7 @@
     "message": "Másik fiók használata"
   },
   "auth.sign-in.sign-in-with": {
-    "message": "Bejelentkezés a Modrinthba"
+    "message": "Bejelentkezés a Panda Minecraft Launcherba"
   },
   "auth.sign-in.title": {
     "message": "Bejelentkezés"
@@ -939,7 +939,7 @@
     "message": "Folytatás e-maillel"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Fiók létrehozásával elfogadod a Modrinth <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
+    "message": "Fiók létrehozásával elfogadod a Panda Minecraft Launcher <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
   },
   "auth.sign-up.show-fewer-options": {
     "message": "Kevesebb opció mutatása"
@@ -1023,7 +1023,7 @@
     "message": "Biztos vagy hogy törölni akarod ezt a gyűjteményt?"
   },
   "collection.description": {
-    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által Modrinth-on"
+    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által Panda Minecraft Launcher-on"
   },
   "collection.description-placeholder": {
     "message": "Ez egy gyűjtemény..."
@@ -1158,7 +1158,7 @@
     "message": "Válasz a beszélgetésre"
   },
   "conversation-thread.reply-modal.help-center-note": {
-    "message": "Ha kapcsolatba szeretnél lépni a moderátorcsapattal, kérjük, használd a <help-center-link>Modrinth Súgó</help-center-link> oldalt, és kattints a jobb alsó sarokban található kék buborékra az ügyfélszolgálat elérése érdekében."
+    "message": "Ha kapcsolatba szeretnél lépni a moderátorcsapattal, kérjük, használd a <help-center-link>Panda Minecraft Launcher Súgó</help-center-link> oldalt, és kattints a jobb alsó sarokban található kék buborékra az ügyfélszolgálat elérése érdekében."
   },
   "conversation-thread.reply.addresses": {
     "message": "Ez a válasz a következő kért magyarázatokat tartalmazza:"
@@ -1551,7 +1551,7 @@
     "message": "Az adóügyi űrlap hiányos"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "A Modrinth a Track1099 nevű harmadik fél szolgáltatót használja az adóűrlapjaid biztonságos begyűjtésére és tárolására. <security-link>További információ.</security-link>"
+    "message": "A Panda Minecraft Launcher a Track1099 nevű harmadik fél szolgáltatót használja az adóűrlapjaid biztonságos begyűjtésére és tárolására. <security-link>További információ.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Biztonsági gyakorlatok"
@@ -1725,7 +1725,7 @@
     "message": "Ahhoz, hogy kivedd a teljes <b>{available}</b> rendelkezésre álló összeget, kérlek töltsd ki az űrlapot. Szükséges az adóbevalláshoz és csak egyszer kell megcsinálni."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Ki kell töltened egy W-9 vagy egy W-8 adóbevallási űrlapot Modrinth adóügyi nyilvántartásaihoz, hogy az adóügyi előírásoknak eleget tegyünk."
+    "message": "Ki kell töltened egy W-9 vagy egy W-8 adóbevallási űrlapot Panda Minecraft Launcher adóügyi nyilvántartásaihoz, hogy az adóügyi előírásoknak eleget tegyünk."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Adóbevallási űrlap szükséges"
@@ -1788,7 +1788,7 @@
     "message": "Hitelesítetlen e-mail cím"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "A kiszállítási e-mail cím, amit megadtál nincs hozzákapcsolva a Modrinth fiókodhoz. A Modrinth nem tudja visszaállítani a jutalmakat, amik rossz e-mail címre lettek küldve."
+    "message": "A kiszállítási e-mail cím, amit megadtál nincs hozzákapcsolva a Panda Minecraft Launcher fiókodhoz. A Panda Minecraft Launcher nem tudja visszaállítani a jutalmakat, amik rossz e-mail címre lettek küldve."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Alacsonyabb díjak elérhetőek"
@@ -1812,7 +1812,7 @@
     "message": "Elérted a(z) <b>{withdrawLimit}</b> kifizetési limitet. További kifizetésekhez ki kell töltened egy adózási űrlapot."
   },
   "dashboard.discord-roles.banner.body": {
-    "message": "Jogosult vagy a következő rangokra: {roles}. Kapcsold össze a Discord fiókodat a Modrinthon keresztül, és automatikusan szinkronizáljuk őket."
+    "message": "Jogosult vagy a következő rangokra: {roles}. Kapcsold össze a Discord fiókodat a Panda Minecraft Launcheron keresztül, és automatikusan szinkronizáljuk őket."
   },
   "dashboard.discord-roles.banner.cta": {
     "message": "Link a Discordra"
@@ -1995,7 +1995,7 @@
     "message": "A becsült bevételek a rendelkezésre bocsátásig változhatnak."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Kattints ide, hogy elolvasd, hogyan kezeli a Modrinth a bevételeidet."
+    "message": "Kattints ide, hogy elolvasd, hogyan kezeli a Panda Minecraft Launcher a bevételeidet."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Becsült {date}"
@@ -2016,7 +2016,7 @@
     "message": "Felvéve"
   },
   "dashboard.revenue.tos": {
-    "message": "A projektek Modrinthra való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>jutalomprogramról</info-link>."
+    "message": "A projektek Panda Minecraft Launcherra való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>jutalomprogramról</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Letöltés CSV formátumban"
@@ -2208,7 +2208,7 @@
     "message": "Ez a gyűjtemény lehet hogy privát."
   },
   "error.collection.404.list_item.3": {
-    "message": "A gyűjteményt a Modrinth moderációs csapata eltávolította, mert megsértette a <tou-link>Felhasználási feltételeinket</tou-link>."
+    "message": "A gyűjteményt a Panda Minecraft Launcher moderációs csapata eltávolította, mert megsértette a <tou-link>Felhasználási feltételeinket</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Miért?"
@@ -2241,10 +2241,10 @@
     "message": "Tartalom nem elérhető legális okok miatt"
   },
   "error.generic.default.list_item.1": {
-    "message": "Ellenőrizd, hogy a Modrinth elérhető-e az <status-link>állapotoldalon</status-link>."
+    "message": "Ellenőrizd, hogy a Panda Minecraft Launcher elérhető-e az <status-link>állapotoldalon</status-link>."
   },
   "error.generic.default.list_item.support": {
-    "message": "Ha a probléma továbbra is fennáll, érdemes értesítened a Modrinth csapatát az <support-link>ügyfélszolgálati portálunkon</support-link> keresztül."
+    "message": "Ha a probléma továbbra is fennáll, érdemes értesítened a Panda Minecraft Launcher csapatát az <support-link>ügyfélszolgálati portálunkon</support-link> keresztül."
   },
   "error.generic.default.list_title": {
     "message": "Kerjük próbáld újra pár perc múlva."
@@ -2262,7 +2262,7 @@
     "message": "A szervezet készítője megváltoztathatta, vagy törölhette a linket."
   },
   "error.organization.404.list_item.3": {
-    "message": "A szervezet törölve lehetett a Modrinth moderációs csapata által, amiért megsértette a <tou-link>Terms of Use</tou-link>-t."
+    "message": "A szervezet törölve lehetett a Panda Minecraft Launcher moderációs csapata által, amiért megsértette a <tou-link>Terms of Use</tou-link>-t."
   },
   "error.organization.404.list_title": {
     "message": "Miért?"
@@ -2277,7 +2277,7 @@
     "message": "A projekt lészítője megváltoztathatta a linket, vagy a projektet privátta tette, esetleg ki is törölte."
   },
   "error.project.404.list_item.3": {
-    "message": "A projekt valószínűleg le lett törölve a Modrinth moderációs csapat által, amiért megsértette a <tou-link>Felhasználási feltételek</tou-link>et."
+    "message": "A projekt valószínűleg le lett törölve a Panda Minecraft Launcher moderációs csapat által, amiért megsértette a <tou-link>Felhasználási feltételek</tou-link>et."
   },
   "error.project.404.list_title": {
     "message": "Miért?"
@@ -2292,7 +2292,7 @@
     "message": "A felhasználó megváltoztathatta a nevét, vagy törölhette fiókját."
   },
   "error.user.404.list_item.3": {
-    "message": "A felhasználó fiókja fel lehet függesztve, amiért megsértette a Modrinth <tou-link>Terms of Use</tou-link>-t."
+    "message": "A felhasználó fiókja fel lehet függesztve, amiért megsértette a Panda Minecraft Launcher <tou-link>Terms of Use</tou-link>-t."
   },
   "error.user.404.list_title": {
     "message": "Miért?"
@@ -2334,10 +2334,10 @@
     "message": "Amikor a szervered nagy terhelés alatt áll, ideiglenesen további processzorszálakat biztosítunk számára, hogy csökkentsük a lagtüskéket és az instabilitást. Ez segít megakadályozni, hogy a TPS 20 alá essen, így a játékélmény a lehető legsimább marad.\nMivel ezek az extra processzorszálak csak rövid ideig, nagy terhelés esetén érhetők el, előfordulhat, hogy nem jelennek meg a Spark jelentésekben vagy más teljesítményelemző eszközökben."
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Milyen típusú processzorok futnak a Modrinth Hosting szerverein?"
+    "message": "Milyen típusú processzorok futnak a Panda Minecraft Launcher szerverein?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "A Modrinth Hosting szervereit AMD Ryzen 7950X vagy 9950X, illetve ezekkel egyenértékű processzorok hajtják, DDR5 memóriával párosítva."
+    "message": "A Panda Minecraft Launcher szervereit AMD Ryzen 7950X vagy 9950X, illetve ezekkel egyenértékű processzorok hajtják, DDR5 memóriával párosítva."
   },
   "hosting-marketing.faq.currency": {
     "message": "Milyen pénznemben vannak megadva az árak?"
@@ -2346,19 +2346,19 @@
     "message": "Minden ár amerikai dollárban (USD) van feltüntetve."
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "A Modrinth Hosting szerverei rendelkeznek DDoS védelemmel?"
+    "message": "A Panda Minecraft Launcher szerverei rendelkeznek DDoS védelemmel?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Igen. A Modrinth Hosting összes szerverén DDoS-védelem működik, egyes helyszíneken akár 17 Tbps kapacitással."
+    "message": "Igen. A Panda Minecraft Launcher összes szerverén DDoS-védelem működik, egyes helyszíneken akár 17 Tbps kapacitással."
   },
   "hosting-marketing.faq.heading": {
     "message": "Gyakran ismételt kérdések"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Milyen gyorsak a Modrinth Hosting szerverek?"
+    "message": "Milyen gyorsak a Panda Minecraft Launcher szerverek?"
   },
   "hosting-marketing.faq.how-fast.answer.one": {
-    "message": "A Modrinth Hosting szerverei nagyon modern, nagy teljesítményű hardvereken futnak, de nehéz megmondani, hogy ez pontosan hogyan fogja befolyásolni a szervered sebességét, mert sok tényező hat rá, például a szerveren futó modok, adatcsomagok vagy bővítmények, sőt még a felhasználói viselkedés is."
+    "message": "A Panda Minecraft Launcher szerverei nagyon modern, nagy teljesítményű hardvereken futnak, de nehéz megmondani, hogy ez pontosan hogyan fogja befolyásolni a szervered sebességét, mert sok tényező hat rá, például a szerveren futó modok, adatcsomagok vagy bővítmények, sőt még a felhasználói viselkedés is."
   },
   "hosting-marketing.faq.how-fast.answer.two": {
     "message": "A legtöbb teljesítményprobléma általában egy nem optimalizált modcsomag, mod, adatcsomag vagy bővítmény hibájából ered, ami a szerver akadozását okozza. Mivel szervereink nagyon csúcskategóriásak, nem kell sok problémával számolnod, ha a szerveren futtatott tartalomhoz megfelelő csomagot választasz."
@@ -2367,10 +2367,10 @@
     "message": "Növelhetem a szerverem tárhelyét?"
   },
   "hosting-marketing.faq.increase-storage.answer": {
-    "message": "Igen, a szervereden a tárhely további költségek nélkül növelhető. Ha több tárhelyre van szükséged, vedd fel a kapcsolatot a Modrinth ügyfélszolgálatával."
+    "message": "Igen, a szervereden a tárhely további költségek nélkül növelhető. Ha több tárhelyre van szükséged, vedd fel a kapcsolatot a Panda Minecraft Launcher ügyfélszolgálatával."
   },
   "hosting-marketing.faq.location": {
-    "message": "Hol találhatók a Modrinth Hosting szerverei? Kiválaszthatom a régiót?"
+    "message": "Hol találhatók a Panda Minecraft Launcher szerverei? Kiválaszthatom a régiót?"
   },
   "hosting-marketing.faq.location.answer": {
     "message": "Jelenleg Észak-Amerikában, Európában, Délkelet-Ázsiában és Ausztráliában rendelkezünk szerverekkel, amelyeket vásárláskor kiválaszthatsz. A jövőben további régiók érkeznek! Ha régiót szeretnél váltani, kérlek vedd fel a kapcsolatot az ügyfélszolgálattal."
@@ -2379,7 +2379,7 @@
     "message": "Melyik Minecraft verziók és betöltők használhatók?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "A Modrinth Hosting szerverei a Minecraft: Java Edition bármelyik verzióját futtathatják, egészen az 1.2.5-ös verziótól kezdve, beleértve a snapshot verziókat is."
+    "message": "A Panda Minecraft Launcher szerverei a Minecraft: Java Edition bármelyik verzióját futtathatják, egészen az 1.2.5-ös verziótól kezdve, beleértve a snapshot verziókat is."
   },
   "hosting-marketing.faq.versions-loaders.answer.two": {
     "message": "Számos mod- és bővítménybetöltőt is támogatunk, többek között a Fabric-ot, Quilt-et, Forge-ot és NeoForge-ot a modokhoz, valamint a Paper-t és a Purpur-t a bővítményekhez. A rendelkezésre állás attól függ, hogy a mod- vagy bővítménybetöltő támogatja-e a kiválasztott Minecraft verziót."
@@ -2397,10 +2397,10 @@
     "message": "Szervered indítása"
   },
   "hosting-marketing.hero.host-with-modrinth": {
-    "message": "Hozd létre a következő szerveredet a Modrinth Hostingnál"
+    "message": "Hozd létre a következő szerveredet a Panda Minecraft Launchernál"
   },
   "hosting-marketing.hero.hosting-description": {
-    "message": "A Modrinth Hosting a legegyszerűbb módja egy saját Minecraft: Java Edition szerver létrehozásához. Telepítsd és játssz a kedvenc modjaiddal és modcsomagjaiddal zökkenőmentesen, mindezt a Modrinth platformon belül."
+    "message": "A Panda Minecraft Launcher a legegyszerűbb módja egy saját Minecraft: Java Edition szerver létrehozásához. Telepítsd és játssz a kedvenc modjaiddal és modcsomagjaiddal zökkenőmentesen, mindezt a Panda Minecraft Launcher platformon belül."
   },
   "hosting-marketing.included.advanced-networking": {
     "message": "Fejlett hálózatkezelés"
@@ -2421,7 +2421,7 @@
     "message": "Oszd meg a szerveredet egy egyedi <contrast>modrinth.gg</contrast> -linkkel."
   },
   "hosting-marketing.included.description": {
-    "message": "Minden szerverhez számos olyan funkció jár, amelyek együtt olyan tárhelyszolgáltatási élményt nyújtanak, amilyet csak a Modrinth kínál."
+    "message": "Minden szerverhez számos olyan funkció jár, amelyek együtt olyan tárhelyszolgáltatási élményt nyújtanak, amilyet csak a Panda Minecraft Launcher kínál."
   },
   "hosting-marketing.included.file-manager": {
     "message": "Könnyen használható fájlkezelő"
@@ -2436,19 +2436,19 @@
     "message": "Segítség, amikor szükséged van rá"
   },
   "hosting-marketing.included.help.description": {
-    "message": "Ha segítségre van szükséged a szervereddel kapcsolatban, bármikor fordulhatsz a Modrinth csapatához."
+    "message": "Ha segítségre van szükséged a szervereddel kapcsolatban, bármikor fordulhatsz a Panda Minecraft Launcher csapatához."
   },
   "hosting-marketing.included.powerful-console": {
     "message": "Erőteljes konzol, szervertulajdonság-kezelő és még sok más"
   },
   "hosting-marketing.included.powerful-console.description": {
-    "message": "A Modrinth Hosting hatékony eszközöket kínál a szervered kezeléséhez."
+    "message": "A Panda Minecraft Launcher hatékony eszközöket kínál a szervered kezeléséhez."
   },
   "hosting-marketing.included.sftp-access": {
     "message": "SFTP hozzáférés"
   },
   "hosting-marketing.included.sftp-access.description": {
-    "message": "A Modrinth Hosting beépített SFTP-hozzáférésével közvetlenül elérheted a szervered fájljait."
+    "message": "A Panda Minecraft Launcher beépített SFTP-hozzáférésével közvetlenül elérheted a szervered fájljait."
   },
   "hosting-marketing.included.with-your-server": {
     "message": "A szerveredhez tartozik"
@@ -2490,19 +2490,19 @@
     "message": "Van egy szerver mindenkinek"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Kezeld mindezt a Modrinth-on"
+    "message": "Kezeld mindezt a Panda Minecraft Launcher-on"
   },
   "hosting-marketing.why.all-on-modrinth.description": {
-    "message": "A szervered, a modjaid, a játékosaid és még sok minden más egy helyen, a Modrinthon. Nincs szükség arra, hogy platformok között váltogass."
+    "message": "A szervered, a modjaid, a játékosaid és még sok minden más egy helyen, a Panda Minecraft Launcheron. Nincs szükség arra, hogy platformok között váltogass."
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "Állandóan gyors"
   },
   "hosting-marketing.why.consistently-fast.description": {
-    "message": "Infrastruktúránk soha nem terhelt túl, ami azt jelenti, hogy a Modrinth által üzemeltetett minden szerver mindig teljes teljesítményen működik."
+    "message": "Infrastruktúránk soha nem terhelt túl, ami azt jelenti, hogy a Panda Minecraft Launcher által üzemeltetett minden szerver mindig teljes teljesítményen működik."
   },
   "hosting-marketing.why.description": {
-    "message": "Válassz több ezer modcsomagból a Modrinth-ról, vagy készítsd el a sajátod. Ha meg készen állsz a játékra, akkor hívd meg a barátaidat."
+    "message": "Válassz több ezer modcsomagból a Panda Minecraft Launcher-ról, vagy készítsd el a sajátod. Ha meg készen állsz a játékra, akkor hívd meg a barátaidat."
   },
   "hosting-marketing.why.heading": {
     "message": "Keress egy modcsomagot. Most már az egy szerver."
@@ -2511,22 +2511,22 @@
     "message": "Élvezd a modern, megbízható szerverszolgáltatást"
   },
   "hosting-marketing.why.modern-reliable-hosting.description": {
-    "message": "A Modrinth Hosting <contrast>nagy teljesítményű AMD processzorokat és DDR5 típusú memóriát</contrast> használ, valamint egyedi szoftverrel gondoskodik a stabil, zökkenőmentes működésről."
+    "message": "A Panda Minecraft Launcher <contrast>nagy teljesítményű AMD processzorokat és DDR5 típusú memóriát</contrast> használ, valamint egyedi szoftverrel gondoskodik a stabil, zökkenőmentes működésről."
   },
   "hosting-marketing.why.where-mods-are": {
     "message": "Játssz ott, ahol a modjaid vannak"
   },
   "hosting-marketing.why.where-mods-are.description": {
-    "message": "A Modrinth Hosting zökkenőmentesen integrálja a mod és modcsomag telepítési folyamatot a szerveredbe."
+    "message": "A Panda Minecraft Launcher zökkenőmentesen integrálja a mod és modcsomag telepítési folyamatot a szerveredbe."
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Miért a Modrinth Hosting?"
+    "message": "Miért a Panda Minecraft Launcher?"
   },
   "hosting-marketing.why.your-favorite-mods": {
     "message": "Az összes kedvenc modod"
   },
   "hosting-marketing.why.your-favorite-mods.description": {
-    "message": "Válassz a Vanilla, Fabric, Forge, Quilt és NeoForge közül. Ha Modrinth-on fentvan, akkor a szervereden is futtatható."
+    "message": "Válassz a Vanilla, Fabric, Forge, Quilt és NeoForge közül. Ha Panda Minecraft Launcher-on fentvan, akkor a szervereden is futtatható."
   },
   "hosting.plan.out-of-stock": {
     "message": "Nincs raktáron"
@@ -2541,7 +2541,7 @@
     "message": "Ugrás az irányítópultra"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Kapd meg a legjobb modolási élményt folyamatos frissítésekkel a Modrinth csapattól"
+    "message": "Kapd meg a legjobb modolási élményt folyamatos frissítésekkel a Panda Minecraft Launcher csapattól"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Folyamatos változás"
@@ -2586,13 +2586,13 @@
     "message": "Kövesd a projekteket, amiket szeretsz"
   },
   "landing.feature.launcher.description": {
-    "message": "A Modrinth nyílt forráskódú API-ja lehetővé teszi az indítók számára a Modrinthal való mély integrációt. A Modrinthot használhatod a <link>saját alkalmazásunkon</link> és néhány népszerű indítón kersztül, mint például az ATLauncher, a MultiMC és a Prism Launcher."
+    "message": "A Panda Minecraft Launcher nyílt forráskódú API-ja lehetővé teszi az indítók számára a Panda Minecraft Launcheral való mély integrációt. A Panda Minecraft Launcherot használhatod a <link>saját alkalmazásunkon</link> és néhány népszerű indítón kersztül, mint például az ATLauncher, a MultiMC és a Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Játssz kedvenc indítóddal"
   },
   "landing.feature.search.description": {
-    "message": "A Modrinth villámgyors keresője és hatékony szűrői lehetővé teszik, hogy már a beírás közben megtaláld, amit keresel."
+    "message": "A Panda Minecraft Launcher villámgyors keresője és hatékony szűrői lehetővé teszik, hogy már a beírás közben megtaláld, amit keresel."
   },
   "landing.feature.search.heading": {
     "message": "Találd meg gyorsan és egyszerűen, amit keresel"
@@ -2625,10 +2625,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "A Minecraft ablak egyszerűsített ábrázolása, a Mojang Studios logójával Modrinth-zöldben."
+    "message": "A Minecraft ablak egyszerűsített ábrázolása, a Mojang Studios logójával Panda Minecraft Launcher-zöldben."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -2718,13 +2718,13 @@
     "message": "Nézd meg fiókbeállításaidat"
   },
   "layout.banner.add-email.description": {
-    "message": "Biztonsági okok miatt a Modrinthon kell egy e-mail cím a fiókodhoz."
+    "message": "Biztonsági okok miatt a Panda Minecraft Launcheron kell egy e-mail cím a fiókodhoz."
   },
   "layout.banner.build-fail.always-ignore": {
     "message": "Mindig mellőzd"
   },
   "layout.banner.build-fail.description": {
-    "message": "A Modrinth felhasználói felületének jelenlegi telepítése nem tudta az API-ból lekérni az állapotadatokat. Ennek oka lehet egy szolgáltatáskimaradás vagy konfigurációs hiba. Kérlek próbáld meg újra, amikor az API újra elérhetővé válik. Hibakódok: {errors}; Az API jelenlegi linkje: {url}"
+    "message": "A Panda Minecraft Launcher felhasználói felületének jelenlegi telepítése nem tudta az API-ból lekérni az állapotadatokat. Ennek oka lehet egy szolgáltatáskimaradás vagy konfigurációs hiba. Kérlek próbáld meg újra, amikor az API újra elérhetővé válik. Hibakódok: {errors}; Az API jelenlegi linkje: {url}"
   },
   "layout.banner.build-fail.ignore": {
     "message": "Mellőzés"
@@ -2733,16 +2733,16 @@
     "message": "Hiba történt az API állapotának generálása közben a fordítás során."
   },
   "layout.banner.preview.description": {
-    "message": "Ha a Modrinth hivatalos webhelyét szeretnéd elérni, látogass el ide: {url}. Ezt az előzetes verziót a Modrinth munkatársai tesztelési célokra használják. A következő alapján készült: {ref}."
+    "message": "Ha a Panda Minecraft Launcher hivatalos webhelyét szeretnéd elérni, látogass el ide: {url}. Ezt az előzetes verziót a Panda Minecraft Launcher munkatársai tesztelési célokra használják. A következő alapján készült: {ref}."
   },
   "layout.banner.preview.title": {
-    "message": "Ez a Modrinth weboldal előzetes verziója."
+    "message": "Ez a Panda Minecraft Launcher weboldal előzetes verziója."
   },
   "layout.banner.staging.description": {
-    "message": "Az előkészítési környezet teljesen elkülönül az éles Modrinth-adatbázistól. Tesztelési és hibakeresési célokat szolgál, és a Modrinth háttérrendszerének vagy felhasználói felületének a fejlesztés alatt álló, az éles környezetnél újabb verzióit is futtathatja."
+    "message": "Az előkészítési környezet teljesen elkülönül az éles Panda Minecraft Launcher-adatbázistól. Tesztelési és hibakeresési célokat szolgál, és a Panda Minecraft Launcher háttérrendszerének vagy felhasználói felületének a fejlesztés alatt álló, az éles környezetnél újabb verzióit is futtathatja."
   },
   "layout.banner.staging.title": {
-    "message": "A Modrinth színreviteli környezetét nézed"
+    "message": "A Panda Minecraft Launcher színreviteli környezetét nézed"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Számlázási információ frissítése"
@@ -2757,7 +2757,7 @@
     "message": "Adózási űrlap kitöltése"
   },
   "layout.banner.tax.description": {
-    "message": "Idén már több mint {threshold} összeget vettél ki a Modrinth-ből. Az adózási szabályozásoknak való megfelelés érdekében ki kell töltened egy adóbevallási űrlapot. A kifizetések a nyomtatvány benyújtásáig szünetelnek."
+    "message": "Idén már több mint {threshold} összeget vettél ki a Panda Minecraft Launcher-ből. Az adózási szabályozásoknak való megfelelés érdekében ki kell töltened egy adóbevallási űrlapot. A kifizetések a nyomtatvány benyújtásáig szünetelnek."
   },
   "layout.banner.tax.title": {
     "message": "Adózási űrlap szükséges"
@@ -2775,7 +2775,7 @@
     "message": "Ellenőrző e-mail újraküldése"
   },
   "layout.banner.verify-email.description": {
-    "message": "Biztonsági okokból a Modrinth megköveteli, hogy igazold a fiókodhoz tartozó e-mail címet."
+    "message": "Biztonsági okokból a Panda Minecraft Launcher megköveteli, hogy igazold a fiókodhoz tartozó e-mail címet."
   },
   "layout.footer.about": {
     "message": "Rólunk"
@@ -2832,22 +2832,22 @@
     "message": "Felhasználási feltételek"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth infórmáció"
+    "message": "Panda Minecraft Launcher infórmáció"
   },
   "layout.footer.open-source": {
-    "message": "A Modrinth <github-link>nyílt forráskódú</github-link>."
+    "message": "A Panda Minecraft Launcher <github-link>nyílt forráskódú</github-link>."
   },
   "layout.footer.products": {
     "message": "Termékek"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.products.plus": {
-    "message": "Modrinth+"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.footer.resources": {
     "message": "Források"
@@ -2889,7 +2889,7 @@
     "message": "Menü ki-be"
   },
   "layout.meta.description": {
-    "message": "Tölts le Minecraft modokat, bővítményeket, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a Modrinthról. Fedezd fel és tedd közzé projektjeidet a Modrinthon egy modern, könnyen használható felületen és API-n keresztül."
+    "message": "Tölts le Minecraft modokat, bővítményeket, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a Panda Minecraft Launcherról. Fedezd fel és tedd közzé projektjeidet a Panda Minecraft Launcheron egy modern, könnyen használható felületen és API-n keresztül."
   },
   "layout.meta.og-description": {
     "message": "Fedezz fel és tegyél közzé Minecraft tartalmakat!"
@@ -2910,7 +2910,7 @@
     "message": "Felfedezés"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Szerezd meg a Modrinth Appot"
+    "message": "Szerezd meg a Panda Minecraft Launcherot"
   },
   "layout.nav.home": {
     "message": "Kezdőlap"
@@ -2919,10 +2919,10 @@
     "message": "Hozz létre egy szervert"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Panda Minecraft Launcher"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth kezdőlap"
+    "message": "Panda Minecraft Launcher kezdőlap"
   },
   "layout.nav.my-servers": {
     "message": "Szervereim"
@@ -2955,10 +2955,10 @@
     "message": "Nem sikerült fiókot váltani. Kérlek, próbád újra."
   },
   "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Frissíts a Modrinth+-ra"
+    "message": "Frissíts a Panda Minecraft Launcher-ra"
   },
   "layout.publish.email-verification-required.description": {
-    "message": "A Modrinthon való közzététel előtt hitelesítened kell az e-mail címedet."
+    "message": "A Panda Minecraft Launcheron való közzététel előtt hitelesítened kell az e-mail címedet."
   },
   "layout.publish.email-verification-required.title": {
     "message": "E-mail hitelesítés szükséges"
@@ -2976,19 +2976,19 @@
     "message": "A megosztott tartalmakat automatikusan naprakészen tartja"
   },
   "modal.shared-instance.open-in-app.get-app": {
-    "message": "Szerezd meg a Modrinth Appot"
+    "message": "Szerezd meg a Panda Minecraft Launcherot"
   },
   "modal.shared-instance.open-in-app.managed-by": {
     "message": "Kezelő:"
   },
   "modal.shared-instance.open-in-app.opening-automatically": {
-    "message": "A Modrinth App automatikusan megnyílik..."
+    "message": "A Panda Minecraft Launcher automatikusan megnyílik..."
   },
   "modal.shared-instance.open-in-app.title": {
-    "message": "A Modrinth App megnyitása…"
+    "message": "A Panda Minecraft Launcher megnyitása…"
   },
   "modal.shared-instance.open-in-app.why-use": {
-    "message": "Miért érdemes a Modrinth Appot használni?"
+    "message": "Miért érdemes a Panda Minecraft Launcherot használni?"
   },
   "moderation.appearance.apply": {
     "message": "Téma alkalmazása"
@@ -3453,7 +3453,7 @@
     "message": "Felülvizsgálatra való benyújtás visszavonása"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "A projektedet {status, select, rejected {elutasították} withheld {visszatartották} other {{status}}} a Modrinth moderátor tagjai. A legtöbb esetben újra beküldheted felülvizsgálatra, miután reagáltál a moderátor üzenetére."
+    "message": "A projektedet {status, select, rejected {elutasították} withheld {visszatartották} other {{status}}} a Panda Minecraft Launcher moderátor tagjai. A legtöbb esetben újra beküldheted felülvizsgálatra, miután reagáltál a moderátor üzenetére."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "El kell végezned a közzétételi ellenőrzőlistán szereplő szükséges lépéseket!"
@@ -3561,7 +3561,7 @@
     "message": "Modcsomag újbóli vizsgálata"
   },
   "project.actions.servers-promo.description": {
-    "message": "A Modrinth Hosting a legegyszerűbb módja annak, hogy gond nélkül játszhass a barátaiddal!"
+    "message": "A Panda Minecraft Launcher a legegyszerűbb módja annak, hogy gond nélkül játszhass a barátaiddal!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "Kezdőár: {price}<small> / hó</small>"
@@ -3579,10 +3579,10 @@
     "message": "{projectType} függő projektjeinek megtekintése"
   },
   "project.ai-image-warning-modal.body.1": {
-    "message": "A projekted bemutatására nem használhatsz mesterséges intelligenciával generált képeket. Az észlelés megkerülésére tett kísérlet a Modrinth-fiókod felfüggesztéséhez vezethet."
+    "message": "A projekted bemutatására nem használhatsz mesterséges intelligenciával generált képeket. Az észlelés megkerülésére tett kísérlet a Panda Minecraft Launcher-fiókod felfüggesztéséhez vezethet."
   },
   "project.ai-image-warning-modal.body.2": {
-    "message": "A generatív MI-irányelvünkről további információkat a <rules>Modrinth tartalmi szabályai</rules> 6. szakaszában találsz."
+    "message": "A generatív MI-irányelvünkről további információkat a <rules>Panda Minecraft Launcher tartalmi szabályai</rules> 6. szakaszában találsz."
   },
   "project.ai-image-warning-modal.title": {
     "message": "Mesterséges Inteligencia által generáltatott képek nem engedélyezettek"
@@ -3669,13 +3669,13 @@
     "message": "A(z) {title} nem támogatja ezt a verziót: {platform} {gameVersion}"
   },
   "project.download.install-with-app": {
-    "message": "Letöltés a Modrinth Appal"
+    "message": "Letöltés a Panda Minecraft Launcheral"
   },
   "project.download.manually": {
     "message": "Letöltés manuálisan"
   },
   "project.download.no-app": {
-    "message": "Nincs meg a Modrinth App? "
+    "message": "Nincs meg a Panda Minecraft Launcher? "
   },
   "project.download.no-game-versions-found": {
     "message": "Játékverzió nem található"
@@ -3720,7 +3720,7 @@
     "message": "A fájlokat nem sikerült letölteni"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Átdolgoztuk a Modrinth Környezetek rendszerét, és új beállítások érhetők el. Nincs jogosultságod módosítani ezeket a beállításokat, de kérlek, jelezd a projekt egy másik tagjának, hogy a környezet metaadatait ellenőrizni kell."
+    "message": "Átdolgoztuk a Panda Minecraft Launcher Környezetek rendszerét, és új beállítások érhetők el. Nincs jogosultságod módosítani ezeket a beállításokat, de kérlek, jelezd a projekt egy másik tagjának, hogy a környezet metaadatait ellenőrizni kell."
   },
   "project.environment.migration-no-permission.title": {
     "message": "A környezeti metaadatokat felül kell vizsgálni"
@@ -3729,7 +3729,7 @@
     "message": "Tudj meg többet erről a változásról"
   },
   "project.environment.migration.message": {
-    "message": "Átdolgoztuk a Modrinth Környezetek rendszerét, és új lehetőségek érhetők el. Kérjük, ellenőrizd, hogy a metaadatok helyesek-e."
+    "message": "Átdolgoztuk a Panda Minecraft Launcher Környezetek rendszerét, és új lehetőségek érhetők el. Kérjük, ellenőrizd, hogy a metaadatok helyesek-e."
   },
   "project.environment.migration.review-button": {
     "message": "Környezeti beállítások áttekintése"
@@ -3756,10 +3756,10 @@
     "message": "A projekted privát, vagyis csak te és az általad meghívott személyek férhetnek hozzá."
   },
   "project.moderation.admonition.approved.body.public": {
-    "message": "A projekted közzétételre került, és megtalálható a Modrinthon."
+    "message": "A projekted közzétételre került, és megtalálható a Panda Minecraft Launcheron."
   },
   "project.moderation.admonition.approved.body.unlisted": {
-    "message": "A projekted nem listázott, ami azt jelenti, hogy csak a linkjével érhető el, és nem található meg a Modrinthon."
+    "message": "A projekted nem listázott, ami azt jelenti, hogy csak a linkjével érhető el, és nem található meg a Panda Minecraft Launcheron."
   },
   "project.moderation.admonition.approved.body.visibility-message": {
     "message": "A projekt láthatóságát a projekt <visibility-settings-link>láthatósági beállításaiban</visibility-settings-link> módosíthatod."
@@ -3768,13 +3768,13 @@
     "message": "Projekt jóváhagyva"
   },
   "project.moderation.admonition.draft.body": {
-    "message": "Ez egy projektvázlat, amelyet mások nem láthatnak, amíg azt felülvizsgálatra nem nyújtják be, és a Modrinth moderátori csapata jóvá nem hagyja."
+    "message": "Ez egy projektvázlat, amelyet mások nem láthatnak, amíg azt felülvizsgálatra nem nyújtják be, és a Panda Minecraft Launcher moderátori csapata jóvá nem hagyja."
   },
   "project.moderation.admonition.draft.header": {
     "message": "Projektvázlat"
   },
   "project.moderation.admonition.draft.submit-for-review": {
-    "message": "Miután elvégezted az összes szükséges lépést, és meggyőződtél arról, hogy a projekted megfelel a Modrinth <rules-link>Tartalmi szabályainak</rules-link>, benyújthatod a projektedet felülvizsgálatra."
+    "message": "Miután elvégezted az összes szükséges lépést, és meggyőződtél arról, hogy a projekted megfelel a Panda Minecraft Launcher <rules-link>Tartalmi szabályainak</rules-link>, benyújthatod a projektedet felülvizsgálatra."
   },
   "project.moderation.admonition.rejected.address-all-concerns": {
     "message": "Az újbóli beküldés előtt kezeld az összes moderációs kifogást, beleértve az alábbi üzenetekben felsorolt problémákat is."
@@ -3786,10 +3786,10 @@
     "message": "Ha ismételten úgy küldöd be a projektedet, hogy előtte nem kezelted az összes moderációs kifogást, az a fiókod felfüggesztéséhez vezethet."
   },
   "project.moderation.admonition.under-review.body.1": {
-    "message": "A projekted a Modrinth moderációs csapatának ellenőrzési sorában van."
+    "message": "A projekted a Panda Minecraft Launcher moderációs csapatának ellenőrzési sorában van."
   },
   "project.moderation.admonition.under-review.body.2": {
-    "message": "A projektedet először beolvassuk, majd emberi moderátorok ellenőrzik, hogy megfelel-e a Modrinth <rules-link>Tartalmi szabályainak</rules-link> és <terms-link>Felhasználási feltételeinek</terms-link>."
+    "message": "A projektedet először beolvassuk, majd emberi moderátorok ellenőrzik, hogy megfelel-e a Panda Minecraft Launcher <rules-link>Tartalmi szabályainak</rules-link> és <terms-link>Felhasználási feltételeinek</terms-link>."
   },
   "project.moderation.admonition.under-review.body.3": {
     "message": "Továbbra is módosíthatod a projektedet, ez nem befolyásolja a sorban elfoglalt helyedet."
@@ -3801,7 +3801,7 @@
     "message": "Igyekszünk egy héten belül ellenőrizni a beküldéseket, de egyes projektek esetében előfordulhatnak késések. Ez nem jelenti azt, hogy probléma lenne a beküldéseddel."
   },
   "project.moderation.admonition.under-review.body.5": {
-    "message": "<emphasis>Köszönjük türelmedet, amíg moderátoraink keményen dolgoznak a Modrinth biztonságának fenntartásán, és alig várjuk, hogy segíthessünk tartalmaid megosztásában! 💚</emphasis>"
+    "message": "<emphasis>Köszönjük türelmedet, amíg moderátoraink keményen dolgoznak a Panda Minecraft Launcher biztonságának fenntartásán, és alig várjuk, hogy segíthessünk tartalmaid megosztásában! 💚</emphasis>"
   },
   "project.moderation.admonition.under-review.header": {
     "message": "Projekt áttekintés alatt"
@@ -3822,10 +3822,10 @@
     "message": "A tartalommoderátorok a legtöbb problémával kapcsolatban nem tudnak segítséget nyújtani, és az ebbe a beszélgetésbe küldött üzenetek nem értesítik a munkatársakat."
   },
   "project.moderation.thread.help-center-note.2": {
-    "message": "Ha segítségre van szükséged, vagy további kérdésed van, látogass el a <help-center-link>Modrinth Súgóközpontjába</help-center-link>, majd kattints a kék buborékra az ügyfélszolgálattal való kapcsolatfelvételhez."
+    "message": "Ha segítségre van szükséged, vagy további kérdésed van, látogass el a <help-center-link>Panda Minecraft Launcher Súgóközpontjába</help-center-link>, majd kattints a kék buborékra az ügyfélszolgálattal való kapcsolatfelvételhez."
   },
   "project.moderation.thread.private-description": {
-    "message": "Ez egy privát beszélgetés a Modrinth moderátoraival. A projekttel kapcsolatos problémák miatt üzenetet küldhetnek neked."
+    "message": "Ez egy privát beszélgetés a Panda Minecraft Launcher moderátoraival. A projekttel kapcsolatos problémák miatt üzenetet küldhetnek neked."
   },
   "project.moderation.thread.title": {
     "message": "Moderációs üzenetek"
@@ -3891,10 +3891,10 @@
     "message": "Tuti fix biztos vagy abban, hogy ki szeretnéd törölni ezt a projektet?"
   },
   "project.settings.delete-project.description.1": {
-    "message": "Véglegesen törli ezt a projektet a Modrinthról. A törölt projekteket a Modrinth munkatársai vagy az ügyfélszolgálat <emphasis>sem tudja visszaállítani</emphasis>."
+    "message": "Véglegesen törli ezt a projektet a Panda Minecraft Launcherról. A törölt projekteket a Panda Minecraft Launcher munkatársai vagy az ügyfélszolgálat <emphasis>sem tudja visszaállítani</emphasis>."
   },
   "project.settings.delete-project.description.2": {
-    "message": "A projekthez feltöltött, a Modrinthon tárolt modcsomagok által aktívan használt fájlok továbbra is elérhetők maradhatnak."
+    "message": "A projekthez feltöltött, a Panda Minecraft Launcheron tárolt modcsomagok által aktívan használt fájlok továbbra is elérhetők maradhatnak."
   },
   "project.settings.delete-project.title": {
     "message": "Projekt végleges törlése"
@@ -3915,10 +3915,10 @@
     "message": "Kötelező bekapcsolni ha a projekted tartalmaz hirdetéseket, szponzorációkat, vagy esetleg mások munkáit hirdeti."
   },
   "project.settings.disclosures.advertising.description.2": {
-    "message": "Ez nem vonatkozik a releváns tartalmak tolakodásmentes, közvetlen pénzbeli értékkel nem rendelkező népszerűsítésére (például a saját konfigurációs menüdben elhelyezett Modrinth-profilra mutató hivatkozásra), és nem vonatkozik a projektoldalon megjelenő hirdetésekre, például a leírásban elhelyezett szponzorált bannerekre."
+    "message": "Ez nem vonatkozik a releváns tartalmak tolakodásmentes, közvetlen pénzbeli értékkel nem rendelkező népszerűsítésére (például a saját konfigurációs menüdben elhelyezett Panda Minecraft Launcher-profilra mutató hivatkozásra), és nem vonatkozik a projektoldalon megjelenő hirdetésekre, például a leírásban elhelyezett szponzorált bannerekre."
   },
   "project.settings.disclosures.advertising.note-placeholder": {
-    "message": "pl. Automatikusan hozzáadja a Modrinth SMP-szerverét a szerverlistádhoz."
+    "message": "pl. Automatikusan hozzáadja a Panda Minecraft Launcher SMP-szerverét a szerverlistádhoz."
   },
   "project.settings.disclosures.advertising.title": {
     "message": "Hirdetéseket tartalmaz"
@@ -3942,7 +3942,7 @@
     "message": "Pl.: A kínai és arab fordításokat MI generálta."
   },
   "project.settings.disclosures.ai.still-unsure": {
-    "message": "Még mindig bizonytalan vagy? További információért tekintsd meg az <faq-link>AI közzétételéről és használatáról szóló útmutatónkat</faq-link> és a <rules>Modrinth tartalmi szabályainak</rules> 6. szakaszát."
+    "message": "Még mindig bizonytalan vagy? További információért tekintsd meg az <faq-link>AI közzétételéről és használatáról szóló útmutatónkat</faq-link> és a <rules>Panda Minecraft Launcher tartalmi szabályainak</rules> 6. szakaszát."
   },
   "project.settings.disclosures.ai.title": {
     "message": "MI által generált tartalmat tartalmaz"
@@ -3993,7 +3993,7 @@
     "message": "Újrafelhasznált tartalmat tartalmaz"
   },
   "project.settings.disclosures.description": {
-    "message": "A projektedhez minden vonatkozó tartalmi nyilatkozatot hozzá kell adnod a <rules>Modrinth tartalmi szabályaival</rules> összhangban."
+    "message": "A projektedhez minden vonatkozó tartalmi nyilatkozatot hozzá kell adnod a <rules>Panda Minecraft Launcher tartalmi szabályaival</rules> összhangban."
   },
   "project.settings.disclosures.description.2": {
     "message": "Nem tudod, hogyan alkalmazd a tartalommal kapcsolatos közzétételt a projektedre? Tekintsd meg a <faq-link>Tartalommal kapcsolatos közzétételek – GYIK</faq-link> oldalt."
@@ -4287,7 +4287,7 @@
     "message": "Egy oldal ami információt, dokumentációt és egy segédletet tartalmaz a projektedhez."
   },
   "project.settings.monetization.description": {
-    "message": "A Modrinthon található projektek automatikusan részt vesznek a <rewards-program-link>Jutalmazási programban</rewards-program-link>. Ha nem szeretnél (vagy jogi okokból nem tudsz) bevételt szerezni ebből a projektből, itt kikapcsolhatod."
+    "message": "A Panda Minecraft Launcheron található projektek automatikusan részt vesznek a <rewards-program-link>Jutalmazási programban</rewards-program-link>. Ha nem szeretnél (vagy jogi okokból nem tudsz) bevételt szerezni ebből a projektből, itt kikapcsolhatod."
   },
   "project.settings.monetization.disabled-description": {
     "message": "Ez a projekt nem jogosult bevételszerzésre. Ha úgy gondolod, hogy ez tévedés, kérjük, <contact-support-link>vedd fel a kapcsolatot az ügyfélszolgálattal</contact-support-link>."
@@ -4305,7 +4305,7 @@
     "message": "Ismeretlen külső tartalom"
   },
   "project.settings.permissions.bad-proof.description": {
-    "message": "A Modrinth moderátori csapata elutasította az általad bizonyos külső tartalmakhoz megadott engedélyezési információkat. Kérlek tekintsd át az alábbi elutasított elemeket, és nyújts be elfogadható igazolást, vagy távolítsd el a tartalmat."
+    "message": "A Panda Minecraft Launcher moderátori csapata elutasította az általad bizonyos külső tartalmakhoz megadott engedélyezési információkat. Kérlek tekintsd át az alábbi elutasított elemeket, és nyújts be elfogadható igazolást, vagy távolítsd el a tartalmat."
   },
   "project.settings.permissions.bad-proof.title": {
     "message": "Néhány bizonyítást elutasítottak"
@@ -4344,13 +4344,13 @@
     "message": "Összes kinyitása"
   },
   "project.settings.permissions.fail.description": {
-    "message": "Lehet, hogy nincs engedélyed a projektedben szereplő egyes külső tartalmak továbbterjesztésére. A Modrinthon való közzétételhez kérjük, távolítsd el ezeket a tartalmakat, vagy nyújts be igazolást arról, hogy rendelkezel a felhasználásukhoz szükséges engedéllyel."
+    "message": "Lehet, hogy nincs engedélyed a projektedben szereplő egyes külső tartalmak továbbterjesztésére. A Panda Minecraft Launcheron való közzétételhez kérjük, távolítsd el ezeket a tartalmakat, vagy nyújts be igazolást arról, hogy rendelkezel a felhasználásukhoz szükséges engedéllyel."
   },
   "project.settings.permissions.fail.title": {
     "message": "Egyes tartalmak nem szerepelhetnek a projektben"
   },
   "project.settings.permissions.info-banner.description": {
-    "message": "Ha olyan tartalmat tesz közzé, amely nem a Modrinthon van tárolva, akkor jelezned kell nekünk, honnan származik, és igazolnod kell, hogy rendelkezel a fájlok terjesztéséhez szükséges engedéllyel. További információkért nézd meg <link>az új rendszerről szóló bejelentésünket</link>!"
+    "message": "Ha olyan tartalmat tesz közzé, amely nem a Panda Minecraft Launcheron van tárolva, akkor jelezned kell nekünk, honnan származik, és igazolnod kell, hogy rendelkezel a fájlok terjesztéséhez szükséges engedéllyel. További információkért nézd meg <link>az új rendszerről szóló bejelentésünket</link>!"
   },
   "project.settings.permissions.info-banner.title": {
     "message": "Ismerd meg a terjesztési engedélyeket"
@@ -4362,7 +4362,7 @@
     "message": "Egy külső fájl sem egyezik a kereséssel."
   },
   "project.settings.permissions.not-allowed.description": {
-    "message": "A felvett külső tartalmak közül néhányat nem lehet a Modrinthon terjeszteni, mivel azok megsértik a tartalmi szabályzatunkat, ezért azokat el kell távolítani."
+    "message": "A felvett külső tartalmak közül néhányat nem lehet a Panda Minecraft Launcheron terjeszteni, mivel azok megsértik a tartalmi szabályzatunkat, ezért azokat el kell távolítani."
   },
   "project.settings.permissions.pending-approval-count": {
     "message": "{count, plural,\n=0 {Nincs jóváhagyásra váró hozzárendelés}\none {# hozzárendelés vár jóváhagyásra}\nother {# hozzárendelés vár jóváhagyásra}\n}"
@@ -4566,7 +4566,7 @@
     "message": "Nem található: {item}"
   },
   "report.for.violation": {
-    "message": "A Modrinth <rules-link>Szabályzat</rules-link> vagy <terms-link>Felhasználási feltételek</terms-link> megsértése"
+    "message": "A Panda Minecraft Launcher <rules-link>Szabályzat</rules-link> vagy <terms-link>Felhasználási feltételek</terms-link> megsértése"
   },
   "report.for.violation.description": {
     "message": "Példák: rosszindulatú, spam, sértő, megtévesztő, félrevezető és illegális tartalom."
@@ -4611,7 +4611,7 @@
     "message": "Milyen típusú tartalmat jelentesz?"
   },
   "report.question.report-reason": {
-    "message": "Modrinth melyik szabályát szegi meg ez a(z) {item}?"
+    "message": "Panda Minecraft Launcher melyik szabályát szegi meg ez a(z) {item}?"
   },
   "report.report-content": {
     "message": "Tartalom jelentése a moderátoroknak"
@@ -4818,7 +4818,7 @@
     "message": "Jelentések írása"
   },
   "scopes.sessionAccess.description": {
-    "message": "Modrinth által kiadott munkamenetek elérése"
+    "message": "Panda Minecraft Launcher által kiadott munkamenetek elérése"
   },
   "scopes.sessionAccess.label": {
     "message": "Munkamenetek hozzáférése"
@@ -4917,7 +4917,7 @@
     "message": "Szinkronizálás a szerverrel"
   },
   "servers.manage.content.title": {
-    "message": "Tartalom – {serverName} – Modrinth"
+    "message": "Tartalom – {serverName} – Panda Minecraft Launcher"
   },
   "servers.notice.actions": {
     "message": "Műveletek"
@@ -4974,13 +4974,13 @@
     "message": "Exportálás..."
   },
   "settings.account.data-export.description": {
-    "message": "Másolatot kér az összes személyes adatról, amelyet a Modrinthra feltöltöttél. A feldolgozás néhány percig is eltarthat."
+    "message": "Másolatot kér az összes személyes adatról, amelyet a Panda Minecraft Launcherra feltöltöttél. A feldolgozás néhány percig is eltarthat."
   },
   "settings.account.data-export.title": {
     "message": "Adatok exportálása"
   },
   "settings.account.delete.confirm.description": {
-    "message": "Ez **azonnal törli az összes felhasználói adatodat és követőidet**. A projektjeid nem kerülnek törlésre. A fiók törlése visszafordíthatatlan.<br><br>Ha segítségre van szükséged a fiókoddal kapcsolatban, kérj támogatást a [Modrinth Discord](https://discord.modrinth.com)on."
+    "message": "Ez **azonnal törli az összes felhasználói adatodat és követőidet**. A projektjeid nem kerülnek törlésre. A fiók törlése visszafordíthatatlan.<br><br>Ha segítségre van szükséged a fiókoddal kapcsolatban, kérj támogatást a [Panda Minecraft Launcher Discord](https://discord.modrinth.com)on."
   },
   "settings.account.delete.confirm.proceed": {
     "message": "Fiók törlése"
@@ -5253,7 +5253,7 @@
     "message": "Biztos törölni szeretnéd ezt az alkamazást?"
   },
   "settings.applications.description.intro": {
-    "message": "Az alkalmazások segítségével hitelesítheti a Modrinth felhasználóit a termékeivel. További információkért lásd a <docs-link>Modrinth API dokumentációját</docs-link>."
+    "message": "Az alkalmazások segítségével hitelesítheti a Panda Minecraft Launcher felhasználóit a termékeivel. További információkért lásd a <docs-link>Panda Minecraft Launcher API dokumentációját</docs-link>."
   },
   "settings.applications.field.description": {
     "message": "Leírás"
@@ -5307,7 +5307,7 @@
     "message": "Létrehozta: {user}"
   },
   "settings.authorizations.description": {
-    "message": "Amikor engedélyezel egy alkalmazást a Modrinth fiókoddal, hozzáférést biztosítasz számára a fiókodhoz. A fiókodhoz való hozzáférést bármikor kezelheted és ellenőrizheted itt."
+    "message": "Amikor engedélyezel egy alkalmazást a Panda Minecraft Launcher fiókoddal, hozzáférést biztosítasz számára a fiókodhoz. A fiókodhoz való hozzáférést bármikor kezelheted és ellenőrizheted itt."
   },
   "settings.authorizations.empty-state.description": {
     "message": "Az általad engedélyezett alkalmazások itt jelennek meg."
@@ -5319,7 +5319,7 @@
     "message": "Engedélyek"
   },
   "settings.authorizations.official-tooltip": {
-    "message": "Ezt az alkalmazást egy hivatalos Modrinth-fiók hozta létre."
+    "message": "Ezt az alkalmazást egy hivatalos Panda Minecraft Launcher-fiók hozta létre."
   },
   "settings.authorizations.revoke.action": {
     "message": "Visszavonás"
@@ -5331,19 +5331,19 @@
     "message": "Biztosan visszavonod ezt a kérelmet?"
   },
   "settings.authorizations.unofficial-disclosure": {
-    "message": "Ez az alkalmazás semmilyen kapcsolatban nem áll a Modrinthtal, a neve ellenére."
+    "message": "Ez az alkalmazás semmilyen kapcsolatban nem áll a Panda Minecraft Launchertal, a neve ellenére."
   },
   "settings.billing.charges.description": {
-    "message": "A Modrinth-számládra korábban leadott összes fiókod itt lesz felsorolva:"
+    "message": "A Panda Minecraft Launcher-számládra korábban leadott összes fiókod itt lesz felsorolva:"
   },
   "settings.billing.charges.product.medal-trial": {
     "message": "Medal Server próbaverzió"
   },
   "settings.billing.charges.product.midas": {
-    "message": "Modrinth Plus"
+    "message": "Panda Minecraft Launcher"
   },
   "settings.billing.charges.product.pyro": {
-    "message": "Modrinth Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "settings.billing.charges.title": {
     "message": "Korábbi költségek"
@@ -5361,13 +5361,13 @@
     "message": "év"
   },
   "settings.billing.midas.benefits.ad-free": {
-    "message": "Reklámmentes böngészés a modrinth.com-on és a Modrinth App-ban"
+    "message": "Reklámmentes böngészés a modrinth.com-on és a Panda Minecraft Launcher-ban"
   },
   "settings.billing.midas.benefits.badge": {
-    "message": "Modrinth+ jelvény a profilodon"
+    "message": "Panda Minecraft Launcher jelvény a profilodon"
   },
   "settings.billing.midas.benefits.support": {
-    "message": "Támogasd közvetlenül a Modrinth-et és a fejlesztőit"
+    "message": "Támogasd közvetlenül a Panda Minecraft Launcher-et és a fejlesztőit"
   },
   "settings.billing.midas.benefits.title": {
     "message": "Előnyök"
@@ -5391,7 +5391,7 @@
     "message": "A fizetésed feldolgozás alatt áll. A juttatások a fizetés befejezése után aktiválódnak."
   },
   "settings.billing.midas.upsell": {
-    "message": "Iratkozz fel a Modrinth Plusra!"
+    "message": "Iratkozz fel a Panda Minecraft Launcherra!"
   },
   "settings.billing.modal.cancel.action": {
     "message": "Előfizetés lemondása"
@@ -5451,7 +5451,7 @@
     "message": "{shared} megosztott processzormag (akár {bursts} processzormagig terhelhető)"
   },
   "settings.billing.pyro.linked-server.not-found": {
-    "message": "Nem található ehhez az előfizetéshez csatolt szerver. Ennek több lehetséges magyarázata is van. Ha nemrég vásároltad meg a szervert, ez normális. A szerver kiépítése akár egy órát is igénybe vehet. Ellenkező esetben, ha egy ideje vásároltad meg ezt a szervert, valószínűleg azóta felfüggesztették. Ha nem erre számítottál, kérjük, vedd fel a kapcsolatot a Modrinth ügyfélszolgálatával a következő információkkal:"
+    "message": "Nem található ehhez az előfizetéshez csatolt szerver. Ennek több lehetséges magyarázata is van. Ha nemrég vásároltad meg a szervert, ez normális. A szerver kiépítése akár egy órát is igénybe vehet. Ellenkező esetben, ha egy ideje vásároltad meg ezt a szervert, valószínűleg azóta felfüggesztették. Ha nem erre számítottál, kérjük, vedd fel a kapcsolatot a Panda Minecraft Launcher ügyfélszolgálatával a következő információkkal:"
   },
   "settings.billing.pyro.linked-server.server-id": {
     "message": "Szerverazonosító: {id}"
@@ -5463,7 +5463,7 @@
     "message": "{gb} GB RAM"
   },
   "settings.billing.pyro.resubscribe.error.text": {
-    "message": "Hiba történt a Modrinth szerverre való újbóli feliratkozás során."
+    "message": "Hiba történt a Panda Minecraft Launcher szerverre való újbóli feliratkozás során."
   },
   "settings.billing.pyro.resubscribe.error.title": {
     "message": "Hiba az újbóli feliratkozáskor"
@@ -5493,7 +5493,7 @@
     "message": "Modirinth szerver feliratkozásaid kezelése."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Szerver Előfizetések"
+    "message": "Panda Minecraft Launcher Szerver Előfizetések"
   },
   "settings.billing.renews": {
     "message": "Megújul: {date}"
@@ -5535,7 +5535,7 @@
     "message": "A fejlesztői mód letiltása"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "A <strong>fejlesztői mód</strong> aktív. Ez lehetővé teszi, hogy megtekintsd a Modrinth különböző elemeinek belső azonosítóit, ami hasznos lehet, ha a Modrinth API-t használó fejlesztő vagy. Kattints 5-ször a lap alján található Modrinth logóra a fejlesztői mód bekapcsolásához."
+    "message": "A <strong>fejlesztői mód</strong> aktív. Ez lehetővé teszi, hogy megtekintsd a Panda Minecraft Launcher különböző elemeinek belső azonosítóit, ami hasznos lehet, ha a Panda Minecraft Launcher API-t használó fejlesztő vagy. Kattints 5-ször a lap alján található Panda Minecraft Launcher logóra a fejlesztői mód bekapcsolásához."
   },
   "settings.display.notification.developer-mode-deactivated.text": {
     "message": "A fejlesztői mód le lett tiltva"
@@ -5550,7 +5550,7 @@
     "message": "PAT létrehozása"
   },
   "settings.pats.description": {
-    "message": "A PAT-ek a Modrinth API-hoz való hozzáférést biztosítják. Bármikor létrehozhatók és visszavonhatók. További információkért látogasson el a <doc-link>Modrinth API dokumentációjára</doc-link>."
+    "message": "A PAT-ek a Panda Minecraft Launcher API-hoz való hozzáférést biztosítják. Bármikor létrehozhatók és visszavonhatók. További információkért látogasson el a <doc-link>Panda Minecraft Launcher API dokumentációjára</doc-link>."
   },
   "settings.pats.modal.create.action": {
     "message": "PAT létrehozása"
@@ -5616,7 +5616,7 @@
     "message": "Meghívó elfogadása"
   },
   "shared-instance.invite.inviter.unknown": {
-    "message": "Egy Modrinth felhasználó"
+    "message": "Egy Panda Minecraft Launcher felhasználó"
   },
   "shared-instance.invite.joined-count": {
     "message": "{count} személy már csatlakozott"
@@ -5628,7 +5628,7 @@
     "message": "{name} meghívott egy példányba"
   },
   "shared-instance.invite.trust.description": {
-    "message": "Ezt a meghívót nem a Modrinth, hanem egy másik Modrinth-felhasználó hozta létre. Csak olyan személyektől fogadd el a meghívókat, akikben megbízol."
+    "message": "Ezt a meghívót nem a Panda Minecraft Launcher, hanem egy másik Panda Minecraft Launcher-felhasználó hozta létre. Csak olyan személyektől fogadd el a meghívókat, akikben megbízol."
   },
   "shared-instance.invite.trust.heading": {
     "message": "Ismered ezt a felhasználót?"
@@ -5640,10 +5640,10 @@
     "message": "Ez a meghívó nem érhető el"
   },
   "thread.message.system": {
-    "message": "Modrinth"
+    "message": "Panda Minecraft Launcher"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Legfrissebb hírek a Modrinthtól"
+    "message": "Legfrissebb hírek a Panda Minecraft Launchertól"
   },
   "ui.latest-news-row.view-all": {
     "message": "Összes hír"
@@ -5655,7 +5655,7 @@
     "message": "Feliratkozva!"
   },
   "ui.newsletter-button.tooltip": {
-    "message": "Feliratkozás a Modrinth hírlevelére"
+    "message": "Feliratkozás a Panda Minecraft Launcher hírlevelére"
   },
   "ui.two-factor-code.authentication-code": {
     "message": "Hat számjegyű hitelesítési kód"
@@ -5772,10 +5772,10 @@
     "message": "Maven-koordináták:"
   },
   "version.section.content.dev-info.maven-description": {
-    "message": "A Modrinthon található projektek automatikusan elérhetők egy Maven-adattáron keresztül olyan JVM-es buildeszközökkel való használatra, mint a <gradle-link>Gradle</gradle-link>. A Modrinth Maven API-járól <article-link>ide kattintva</article-link> tudhatsz meg többet."
+    "message": "A Panda Minecraft Launcheron található projektek automatikusan elérhetők egy Maven-adattáron keresztül olyan JVM-es buildeszközökkel való használatra, mint a <gradle-link>Gradle</gradle-link>. A Panda Minecraft Launcher Maven API-járól <article-link>ide kattintva</article-link> tudhatsz meg többet."
   },
   "version.section.content.dev-info.maven-note": {
-    "message": "Megjegyzés: Ha elérhető, inkább a készítő Maven-adattárát használd, mivel az olyan tranzitív függőségekre vonatkozó információkat is tartalmaz, amelyek a Modrinth Maven API-jából hiányoznak. Az is előfordulhat, hogy duplikált függőségeket kapsz, ha Modrinth- és nem Modrinth-féle Maven-adattárak keverékét használod a függőségeidhez, mivel a csoportazonosító eltérő lesz, amikor a Modrinth Maven API-ján keresztül érhetők el."
+    "message": "Megjegyzés: Ha elérhető, inkább a készítő Maven-adattárát használd, mivel az olyan tranzitív függőségekre vonatkozó információkat is tartalmaz, amelyek a Panda Minecraft Launcher Maven API-jából hiányoznak. Az is előfordulhat, hogy duplikált függőségeket kapsz, ha Panda Minecraft Launcher- és nem Panda Minecraft Launcher-féle Maven-adattárak keverékét használod a függőségeidhez, mivel a csoportazonosító eltérő lesz, amikor a Panda Minecraft Launcher Maven API-ján keresztül érhetők el."
   },
   "version.section.content.dev-info.version-id": {
     "message": "Verzióazonosító:"

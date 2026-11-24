@@ -163,7 +163,7 @@ const messages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(messages.headTitle)} - Modrinth`,
+	title: () => `${formatMessage(messages.headTitle)} - Panda Minecraft Launcher`,
 })
 
 const { data: transactions, refetch } = useQuery({

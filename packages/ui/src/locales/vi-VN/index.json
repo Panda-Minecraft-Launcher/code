@@ -60,7 +60,7 @@
     "defaultMessage": "Không tìm được thứ bạn đang tìm kiếm!"
   },
   "browse.offline": {
-    "defaultMessage": "Bạn đã Mất kết nối. Hãy kết nối mạng để tìm kiếm Modrinth!"
+    "defaultMessage": "Bạn đã Mất kết nối. Hãy kết nối mạng để tìm kiếm Panda Minecraft Launcher!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Tìm kiếm {projectType}..."
@@ -489,13 +489,13 @@
     "defaultMessage": "Đã gỡ {count} (đã tắt)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Các tệp chưa được xuất bản trên Modrinth sẽ không được kiểm duyệt."
+    "defaultMessage": "Các tệp chưa được xuất bản trên Panda Minecraft Launcher sẽ không được kiểm duyệt."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "Một số nội dung trên máy chủ của bạn không thể phân tích được và có thể bị ảnh hưởng bởi thay đổi này."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Bản cập nhật này chứa các tệp chưa được xuất bản trên Modrinth. Chúng tôi đặc biệt khuyên bạn chỉ cài đặt tệp từ những nguồn mà bạn tin tưởng."
+    "defaultMessage": "Bản cập nhật này chứa các tệp chưa được xuất bản trên Panda Minecraft Launcher. Chúng tôi đặc biệt khuyên bạn chỉ cài đặt tệp từ những nguồn mà bạn tin tưởng."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Cảnh báo tệp không xác định"
@@ -1134,7 +1134,7 @@
     "defaultMessage": "liên-kết-đến-tác-phẩm"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Đây có vẻ là liên kết Modrinth. Nếu nội dung này có trên Modrinth thì gói của bạn có thể đã được xuất không đúng cách. Nếu bạn tải nội dung từ trang khác, hãy thử tải phiên bản trên Modrinth thay thế; đôi khi chúng không phải là cùng một tệp."
+    "defaultMessage": "Đây có vẻ là liên kết Panda Minecraft Launcher. Nếu nội dung này có trên Panda Minecraft Launcher thì gói của bạn có thể đã được xuất không đúng cách. Nếu bạn tải nội dung từ trang khác, hãy thử tải phiên bản trên Panda Minecraft Launcher thay thế; đôi khi chúng không phải là cùng một tệp."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "Ghi chú"
@@ -1158,7 +1158,7 @@
     "defaultMessage": "Nếu bị phát hiện nói dối hoặc chỉnh sửa gian lận các ảnh đã tải lên, dự án và tài khoản của bạn có thể bị chấm dứt."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Nhân viên Modrinth có thể xác minh bằng chứng đã gửi"
+    "defaultMessage": "Nhân viên Panda Minecraft Launcher có thể xác minh bằng chứng đã gửi"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "Lưu ghi công"
@@ -1248,7 +1248,7 @@
     "defaultMessage": "Tự động ghi công"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "Chúng tôi đã gặp tệp này trước đây và đã chuẩn bị thông tin ghi công cho bạn. Nếu có gì không đúng, vui lòng liên hệ Hỗ trợ Modrinth qua Trung tâm trợ giúp"
+    "defaultMessage": "Chúng tôi đã gặp tệp này trước đây và đã chuẩn bị thông tin ghi công cho bạn. Nếu có gì không đúng, vui lòng liên hệ Hỗ trợ Panda Minecraft Launcher qua Trung tâm trợ giúp"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "Giấy phép"
@@ -3714,7 +3714,7 @@
     "defaultMessage": "{count} {countPlural, plural, one {lượt chơi gần đây} other {lượt chơi gần đây}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count} {countPlural, plural, one {lượt chơi gần đây} other {lượt chơi gần đây}} từ Modrinth trong 2 tuần vừa qua"
+    "defaultMessage": "{count} {countPlural, plural, one {lượt chơi gần đây} other {lượt chơi gần đây}} từ Panda Minecraft Launcher trong 2 tuần vừa qua"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "Dự án này có sử dụng modpack tuỳ chỉnh"
@@ -4047,7 +4047,7 @@
     "defaultMessage": "Project của bạn có nhiều biến môi trường"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Chúng tôi vừa nâng cấp hệ thống Môi trường trên Modrinth và hiện đã có thêm các tùy chọn mới. Vui lòng đảm bảo bạn đã chọn đúng tùy chọn bên dưới và sau đó nhấp vào 'Xác nhận' khi hoàn tất!"
+    "defaultMessage": "Chúng tôi vừa nâng cấp hệ thống Môi trường trên Panda Minecraft Launcher và hiện đã có thêm các tùy chọn mới. Vui lòng đảm bảo bạn đã chọn đúng tùy chọn bên dưới và sau đó nhấp vào 'Xác nhận' khi hoàn tất!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Xin hãy xem lại các lựa chọn bên dưới"
@@ -4200,7 +4200,7 @@
     "defaultMessage": "Không công khai"
   },
   "project.visibility.unlisted-by-staff": {
-    "defaultMessage": "Đã bị ẩn bởi đội ngũ Modrinth"
+    "defaultMessage": "Đã bị ẩn bởi đội ngũ Panda Minecraft Launcher"
   },
   "report.item-type.content": {
     "defaultMessage": "nội dung"
@@ -4419,13 +4419,13 @@
     "defaultMessage": "Trình nạp"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "Chúng tôi không thể đảm bảo mọi nội dung trên Modrinth đều đã được gắn nhãn phù hợp."
+    "defaultMessage": "Chúng tôi không thể đảm bảo mọi nội dung trên Panda Minecraft Launcher đều đã được gắn nhãn phù hợp."
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "Nhãn nội dung về yếu tố kích hoạt nhạy cảm ánh sáng do chính người sáng tạo tự khai báo khi tải nội dung lên Modrinth. Các dự án này chưa trải qua kiểm tra an toàn."
+    "defaultMessage": "Nhãn nội dung về yếu tố kích hoạt nhạy cảm ánh sáng do chính người sáng tạo tự khai báo khi tải nội dung lên Panda Minecraft Launcher. Các dự án này chưa trải qua kiểm tra an toàn."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "Bạn tự chịu rủi ro khi sử dụng bất kỳ nội dung nào trên Modrinth. Hãy giữ an toàn! 💚"
+    "defaultMessage": "Bạn tự chịu rủi ro khi sử dụng bất kỳ nội dung nào trên Panda Minecraft Launcher. Hãy giữ an toàn! 💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "Không hiển thị lại"
@@ -6729,19 +6729,19 @@
     "defaultMessage": "Phần mềm độc hại thường được phát tán qua các tệp mod bằng cách chia sẻ trên những nền tảng như Discord."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " chưa được xuất bản trên Modrinth. Chúng tôi đặc biệt khuyên bạn chỉ cài đặt tệp từ những nguồn mà bạn tin tưởng."
+    "defaultMessage": " chưa được xuất bản trên Panda Minecraft Launcher. Chúng tôi đặc biệt khuyên bạn chỉ cài đặt tệp từ những nguồn mà bạn tin tưởng."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "Cảnh báo tệp không xác định"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " chứa các tệp chưa được xuất bản trên Modrinth. Chúng tôi đặc biệt khuyên bạn chỉ cài đặt tệp từ những nguồn mà bạn tin tưởng."
+    "defaultMessage": " chứa các tệp chưa được xuất bản trên Panda Minecraft Launcher. Chúng tôi đặc biệt khuyên bạn chỉ cài đặt tệp từ những nguồn mà bạn tin tưởng."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "Cảnh báo tệp không xác định"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "Các tệp chưa được xuất bản trên Modrinth sẽ không được kiểm duyệt."
+    "defaultMessage": "Các tệp chưa được xuất bản trên Panda Minecraft Launcher sẽ không được kiểm duyệt."
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "Tệp không được nhận dạng"

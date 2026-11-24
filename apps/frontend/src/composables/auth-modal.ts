@@ -118,7 +118,7 @@ export function useAuthPageTitle(title: () => string) {
 		return
 	}
 	useHead({
-		title: () => `${title()} - Modrinth`,
+		title: () => `${title()} - Panda Minecraft Launcher`,
 	})
 }
 

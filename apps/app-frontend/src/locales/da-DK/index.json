@@ -186,7 +186,7 @@
     "message": "Skjul højre sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Vis en sikkerhedsadvarsel, før du installerer en modpack (.mrpack), der ikke er hostet på Modrinth."
+    "message": "Vis en sikkerhedsadvarsel, før du installerer en modpack (.mrpack), der ikke er hostet på Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Advar mig før jeg installere en ukendt modpacks"
@@ -204,7 +204,7 @@
     "message": "Hjem og indhold"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "Vis Panda-appen i forgrunden, når Minecraft afsluttes."
+    "message": "Vis Panda Minecraft Launcher-appen i forgrunden, når Minecraft afsluttes."
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "Omfokusere appen når Minecraft lukkes"
@@ -216,7 +216,7 @@
     "message": "Brug disse adfærdsindstillinger overalt du er logget på. Slå dette fra for at holde separate indstillinger på denne enhed."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Log ind på en Panda-konto for at synkronisere indstillinger."
+    "message": "Log ind på en Panda Minecraft Launcher-konto for at synkronisere indstillinger."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Synkroniser adfærd på tværs af enheder"
@@ -762,10 +762,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Du modtog disse skins for at donere til en Panda Pride indsamling imens der er Pride Month."
+    "message": "Du modtog disse skins for at donere til en Panda Minecraft Launcher Pride indsamling imens der er Pride Month."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"

@@ -186,7 +186,7 @@
     "message": "Ukryj prawy pasek boczny"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Pokaż ostrzeżenie o bezpieczeństwie przed zainstalowaniem paczki modów (.mrpack), która nie jest hostowana na Modrinth."
+    "message": "Pokaż ostrzeżenie o bezpieczeństwie przed zainstalowaniem paczki modów (.mrpack), która nie jest hostowana na Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Ostrzegaj mnie przed instalowaniem nieznanych paczek modów"
@@ -528,13 +528,13 @@
     "message": "Pokaż instancję"
   },
   "app.hosting.update-required.description": {
-    "message": "Musisz pobrać aktualizacje, by móc korzystać z Panda Hosting poprzez Panda Minecraft Launcher"
+    "message": "Musisz pobrać aktualizacje, by móc korzystać z Panda Minecraft Launcher poprzez Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Pobierz aktualizację"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Podekscytowany Panda Bot"
+    "message": "Podekscytowany Panda Minecraft Launcher Bot"
   },
   "app.hosting.update-required.title": {
     "message": "Wymagana aktualizacja Panda Minecraft Launcher"
@@ -1386,7 +1386,7 @@
     "message": "Biblioteka"
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
-    "message": "{unpublishCount, plural, one {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Pandaa, a ludzie używający tego} few {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Pandaa, a osoby z nich korzystają} many {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Pandaa, a osoby z nich korzystają} other {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Pandaa, a osoby z nich korzystają}} przestaną otrzymywać aktualizacje. {leaveCount, plural, one {Stracisz dostęp do innej współdzielonej instancji i potrzebujesz nowego zaproszenia, aby do niej dołączyć.} few {Stracisz dostęp do pozostałych # współdzielonych instancji i potrzebujesz nowego zaproszenia, aby do nich dołączyć.} many {Stracisz dostęp do pozostałych # współdzielonych instancji i potrzebujesz nowego zaproszenia, aby do nich dołączyć.} other {Stracisz dostęp do pozostałych # współdzielonych instancji i potrzebujesz nowego zaproszenia, aby do nich dołączyć.}} Wszystkie z nich zostaną usunięte z twojej biblioteki."
+    "message": "{unpublishCount, plural, one {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Panda Minecraft Launchera, a ludzie używający tego} few {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Panda Minecraft Launchera, a osoby z nich korzystają} many {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Panda Minecraft Launchera, a osoby z nich korzystają} other {# współdzielone instancje, które posiadasz, zostaną usunięte z serwerów Panda Minecraft Launchera, a osoby z nich korzystają}} przestaną otrzymywać aktualizacje. {leaveCount, plural, one {Stracisz dostęp do innej współdzielonej instancji i potrzebujesz nowego zaproszenia, aby do niej dołączyć.} few {Stracisz dostęp do pozostałych # współdzielonych instancji i potrzebujesz nowego zaproszenia, aby do nich dołączyć.} many {Stracisz dostęp do pozostałych # współdzielonych instancji i potrzebujesz nowego zaproszenia, aby do nich dołączyć.} other {Stracisz dostęp do pozostałych # współdzielonych instancji i potrzebujesz nowego zaproszenia, aby do nich dołączyć.}} Wszystkie z nich zostaną usunięte z twojej biblioteki."
   },
   "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
     "message": "Niepublikowanie i opuszczanie współdzielonych instancji"
@@ -1551,7 +1551,7 @@
     "message": "Konto Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Usuń konto"
@@ -1566,7 +1566,7 @@
     "message": "Zmień konto"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Ulepsz do Panda+"
+    "message": "Ulepsz do Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Pokaż profil"
@@ -3897,7 +3897,7 @@
     "message": "Odłącz wspólną instancję"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Spowoduje to usunięcie tej udostępnionej instancji z serwerów Panda. Użytkownicy korzystający z niej w Panda Minecraft Launcher przestaną otrzymywać aktualizacje, ale twoja lokalna instalacja i jej zawartość pozostanie na tym urządzeniu."
+    "message": "Spowoduje to usunięcie tej udostępnionej instancji z serwerów Panda Minecraft Launcher. Użytkownicy korzystający z niej w Panda Minecraft Launcher przestaną otrzymywać aktualizacje, ale twoja lokalna instalacja i jej zawartość pozostanie na tym urządzeniu."
   },
   "instance.action.create-shortcut": {
     "message": "Utwórz skrót"

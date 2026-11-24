@@ -100,7 +100,7 @@ const [{ jobs }, { artifacts }] = await Promise.all([
 
 const builds = PLATFORMS.map((platform) => summarizeBuild(platform, jobs, artifacts))
 const statusEmoji = builds.every(({ succeeded }) => succeeded) ? ':white_check_mark:' : ':x:'
-const headline = `A new Modrinth app build has been completed ${statusEmoji}`
+const headline = `A new Panda Minecraft Launcher build has been completed ${statusEmoji}`
 
 const now = new Date()
 const timestamp = `<!date^${Math.floor(now.getTime() / 1000)}^{date_short_pretty} at {time}|${now.toUTCString()}>`
@@ -111,7 +111,7 @@ const response = await fetch(SLACK_WEBHOOK_URL, {
 	body: JSON.stringify({
 		text: headline,
 		blocks: [
-			mrkdwnSection(`:modrinth: ${headline}`),
+			mrkdwnSection(`:panda_face: ${headline}`),
 			mrkdwnContext(
 				[
 					`Environment: \`${BUILD_ENVIRONMENT}\``,

@@ -1,4 +1,4 @@
-## Modpacks on Modrinth
+## Modpacks on Panda Minecraft Launcher
 
 It looks like you've uploaded your Modpack as a `.zip`, unfortunately, this is invalid and is why your project type is "Mod". Please refer to our support article to learn more about %MODPACKS_ON_MODRINTH%.  
 Once you're ready feel free to resubmit your project as a `.mrpack`.  

@@ -186,7 +186,7 @@
     "message": "隱藏右側邊欄"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "在安裝非託管於 Modrinth 的模組包（.mrpack）之前，顯示安全警告。"
+    "message": "在安裝非託管於 Panda Minecraft Launcher 的模組包（.mrpack）之前，顯示安全警告。"
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "在安裝未知模組包前發出警告"
@@ -528,13 +528,13 @@
     "message": "查看實例"
   },
   "app.hosting.update-required.description": {
-    "message": "你需要更新才能透過 Panda Minecraft Launcher 使用 Panda Hosting"
+    "message": "你需要更新才能透過 Panda Minecraft Launcher 使用 Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "下載即可更新"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "興奮的 Panda Bot"
+    "message": "興奮的 Panda Minecraft Launcher Bot"
   },
   "app.hosting.update-required.title": {
     "message": "需要更新 Panda Minecraft Launcher"
@@ -1377,7 +1377,7 @@
     "message": "取消發布並離開 {count} 個共用實例"
   },
   "app.library.unpublish-shared-instance.modal.admonition-body": {
-    "message": "{count, plural, =1 {這將從 Panda 的伺服器中刪除這個共用實例。在 Panda Minecraft Launcher 中使用這個實例的使用者將不再收到更新，實例也會從你的遊戲庫中移除。} other {這將從 Panda 的伺服器中刪除這些共用實例。在 Panda Minecraft Launcher 中使用這些實例的使用者將不再收到更新，實例也會從你的遊戲庫中移除。}}"
+    "message": "{count, plural, =1 {這將從 Panda Minecraft Launcher 的伺服器中刪除這個共用實例。在 Panda Minecraft Launcher 中使用這個實例的使用者將不再收到更新，實例也會從你的遊戲庫中移除。} other {這將從 Panda Minecraft Launcher 的伺服器中刪除這些共用實例。在 Panda Minecraft Launcher 中使用這些實例的使用者將不再收到更新，實例也會從你的遊戲庫中移除。}}"
   },
   "app.library.unpublish-shared-instance.modal.admonition-header": {
     "message": "{count, plural, =1 {取消發布共用實例} other {取消發布 # 個共用實例}}"
@@ -1530,7 +1530,7 @@
     "message": "Panda Minecraft Launcher 帳號"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "移除帳號"
@@ -1545,7 +1545,7 @@
     "message": "切換帳號"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "升級至 Panda+"
+    "message": "升級至 Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "查看個人檔案"
@@ -3867,7 +3867,7 @@
     "message": "取消連結共用實例"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "這將從 Panda 的伺服器刪除共用實例。在 Panda Minecraft Launcher 使用該實例的使用者將不再收到更新，但本機實例及其內容仍會保留在此裝置上。"
+    "message": "這將從 Panda Minecraft Launcher 的伺服器刪除共用實例。在 Panda Minecraft Launcher 使用該實例的使用者將不再收到更新，但本機實例及其內容仍會保留在此裝置上。"
   },
   "instance.action.create-shortcut": {
     "message": "建立捷徑"

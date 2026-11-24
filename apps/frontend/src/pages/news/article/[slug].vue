@@ -71,7 +71,7 @@ const thumbnailPath = computed(() =>
 const dayjsDate = computed(() => dayjs(article.value.date))
 
 useSeoMeta({
-	title: () => `${articleTitle.value} - Modrinth News`,
+	title: () => `${articleTitle.value} - Panda Minecraft Launcher News`,
 	ogTitle: () => articleTitle.value,
 	description: () => article.value.summary,
 	ogDescription: () => article.value.summary,
@@ -161,7 +161,7 @@ onMounted(() => {
 						class="inline-flex items-center gap-1 font-semibold hover:underline hover:brightness-[--hover-brightness]"
 					>
 						<Avatar src="https://cdn.modrinth.com/modrinth-icon-96.webp" size="24px" />
-						Modrinth Team
+						Panda Minecraft Launcher Team
 					</nuxt-link>
 				</template>
 				<span class="hidden md:block">•</span>

@@ -54,7 +54,7 @@ const messages = defineMessages({
 	description: {
 		id: 'servers.sharing-update.web-description',
 		defaultMessage:
-			'You can now share your server directly with friends. When they accept in the Modrinth App, we’ll create an instance for them that is managed by your server.',
+			'You can now share your server directly with friends. When they accept in the Panda Minecraft Launcher, we’ll create an instance for them that is managed by your server.',
 	},
 })
 

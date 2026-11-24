@@ -126,7 +126,7 @@
     "defaultMessage": "Не знайдено результатів за вашим запитом!"
   },
   "browse.offline": {
-    "defaultMessage": "Ви не в мережі. Підʼєднайтеся до інтернету, щоб дослідити Modrinth!"
+    "defaultMessage": "Ви не в мережі. Підʼєднайтеся до інтернету, щоб дослідити Panda Minecraft Launcher!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Шукати {projectType}…"
@@ -267,7 +267,7 @@
     "defaultMessage": "Відкрити в теці"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Відкрити в Modrinth"
+    "defaultMessage": "Відкрити в Panda Minecraft Launcher"
   },
   "button.play": {
     "defaultMessage": "Грати"
@@ -624,13 +624,13 @@
     "defaultMessage": "Видалено (вимкнено): {count}"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Розглядатимуть лише ті файли, які опубліковані на Modrinth."
+    "defaultMessage": "Розглядатимуть лише ті файли, які опубліковані на Panda Minecraft Launcher."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "Деякий уміст на вашому сервері не вдалося проаналізувати, тож ця зміна може вплинути на нього."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Це оновлення містить файли, які не опубліковані на Modrinth. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
+    "defaultMessage": "Це оновлення містить файли, які не опубліковані на Panda Minecraft Launcher. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Попередження про невідомі файли"
@@ -912,7 +912,7 @@
     "defaultMessage": "Шукаємо пакет сервера…"
   },
   "creation-flow.curseforge.description": {
-    "defaultMessage": "Використати збірку, недоступну на Modrinth."
+    "defaultMessage": "Використати збірку, недоступну на Panda Minecraft Launcher."
   },
   "creation-flow.curseforge.file-description": {
     "defaultMessage": "Вам потрібний звичайний файл збірки. Ви зможете додати пакет сервера, якщо нам не вдасться його знайти."
@@ -1344,7 +1344,7 @@
     "defaultMessage": "посилання-на-роботу"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Схоже, що це посилання від Modrinth. Якщо цей уміст доступний на Modrinth, ваш пакет, імовірно, експортовано неправильно. Якщо ви завантажили його з іншого сайту, спробуйте завантажити версію Modrinth: інколи вони не є ідентичними файлами."
+    "defaultMessage": "Схоже, що це посилання від Panda Minecraft Launcher. Якщо цей уміст доступний на Panda Minecraft Launcher, ваш пакет, імовірно, експортовано неправильно. Якщо ви завантажили його з іншого сайту, спробуйте завантажити версію Panda Minecraft Launcher: інколи вони не є ідентичними файлами."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "Нотатки"
@@ -1368,7 +1368,7 @@
     "defaultMessage": "Якщо ми виявимо, що ви відправили несправжні чи змінені зображення, то ваш проєкт та обліковий запис можуть стати заблокованими."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Персонал Modrinth може перевіряти відправлені докази"
+    "defaultMessage": "Персонал Panda Minecraft Launcher може перевіряти відправлені докази"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "Зберегти атрибуцію"
@@ -1461,7 +1461,7 @@
     "defaultMessage": "Автоматично додано атрибуцію"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "Ми вже бачили цей файл і підготували для вас атрибуцію. Якщо щось не так, зверніться до підтримки Modrinth через довідковий центр"
+    "defaultMessage": "Ми вже бачили цей файл і підготували для вас атрибуцію. Якщо щось не так, зверніться до підтримки Panda Minecraft Launcher через довідковий центр"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "Ліцензія"
@@ -4413,7 +4413,7 @@
     "defaultMessage": "{count} {countPlural, plural, one {нещодавно грав} few {нещодавно грали} many {нещодавно грали} other {нещодавно грали}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count} {countPlural, plural, one {нещодавно грав} other {нещодавно грали}} з Modrinth за останні 2 тижні"
+    "defaultMessage": "{count} {countPlural, plural, one {нещодавно грав} other {нещодавно грали}} з Panda Minecraft Launcher за останні 2 тижні"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "Цей проєкт використовує власну збірку"
@@ -4758,7 +4758,7 @@
     "defaultMessage": "Ваш проєкт має кілька середовищ"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Нещодавно ми оновили систему середовищ у Modrinth і вам тепер доступні нові налаштування. Переконайтесь, що вибрано правильні налаштування й натисніть «Підтвердити» коли закінчите!"
+    "defaultMessage": "Нещодавно ми оновили систему середовищ у Panda Minecraft Launcher і вам тепер доступні нові налаштування. Переконайтесь, що вибрано правильні налаштування й натисніть «Підтвердити» коли закінчите!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Перегляньте налаштування нижче"
@@ -5130,13 +5130,13 @@
     "defaultMessage": "Завантажувач"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "Ми не можемо гарантувати, що весь вміст на Modrinth позначено належним чином."
+    "defaultMessage": "Ми не можемо гарантувати, що весь вміст на Panda Minecraft Launcher позначено належним чином."
   },
   "search.photosensitivity-warning-modal.body.2": {
     "defaultMessage": "Інформація щодо наявности спалахів світла встановлюється самими авторами. Ці проєкти не проходили жодних перевірок безпеки."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "Використання будь-якого вмісту з Modrinth здійснюється на ваш власний ризик. Бережіть себе! 💚"
+    "defaultMessage": "Використання будь-якого вмісту з Panda Minecraft Launcher здійснюється на ваш власний ризик. Бережіть себе! 💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "Більше не показувати"
@@ -8262,19 +8262,19 @@
     "defaultMessage": "Шкідливе програмне забезпечення часто поширюють через моди, які публікуються на таких платформах, як Discord."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " не опубліковано на Modrinth. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
+    "defaultMessage": " не опубліковано на Panda Minecraft Launcher. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "Попередження про невідомий файл"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " містить файли, які не опубліковані на Modrinth. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
+    "defaultMessage": " містить файли, які не опубліковані на Panda Minecraft Launcher. Наполегливо радимо встановлювати вміст лише з тих джерел, яким ви довіряєте."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "Попередження про невідомі файли"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "Розглядатимуть лише ті файли, які опубліковані на Modrinth."
+    "defaultMessage": "Розглядатимуть лише ті файли, які опубліковані на Panda Minecraft Launcher."
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "Нерозпізнані файли"

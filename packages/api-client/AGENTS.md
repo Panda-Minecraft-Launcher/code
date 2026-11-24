@@ -1,6 +1,6 @@
 # @modrinth/api-client
 
-Platform-agnostic API client for Modrinth's services. Works in Nuxt (SSR + CSR), Tauri (desktop app), and plain Node/browser environments.
+Platform-agnostic API client for Panda Minecraft Launcher's services. Works in Nuxt (SSR + CSR), Tauri (desktop app), and plain Node/browser environments.
 
 ## Architecture
 
@@ -51,7 +51,7 @@ This structure is derived at runtime from the flat `MODULE_REGISTRY` in `modules
 
 API modules **must** use `this.client.request()` (or `.upload`) for all HTTP calls — never `$fetch`, `fetch`, or any other HTTP library directly. The request method routes through the platform-specific implementation (Nuxt `$fetch`, Tauri HTTP plugin, etc.) and the feature middleware chain (auth, retry, circuit breaker). Using `$fetch` directly bypasses the platform layer and will fail in Tauri (CORS/sandboxing). The only exception is the `ISO3166Module` which is explicitly node-only.
 
-For external APIs (non-Modrinth), pass the full base URL as the `api` field and set `skipAuth: true`:
+For external APIs, pass the full base URL as the `api` field and set `skipAuth: true`:
 
 ```ts
 this.client.request<MyType>('/endpoint', {
@@ -163,7 +163,7 @@ See `packages/ui/src/components/servers/files/upload/FileUploadDropdown.vue` and
 
 ## WebSocket
 
-WebSocket support is attached to `client.archon.sockets` (only on `GenericModrinthClient`). It provides event-based communication with Modrinth Hosting servers.
+WebSocket support is attached to `client.archon.sockets` (only on `GenericModrinthClient`). It provides event-based communication with Panda Minecraft Launcher servers.
 
 ### Connection Flow
 

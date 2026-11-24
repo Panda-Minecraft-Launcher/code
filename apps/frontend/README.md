@@ -1,13 +1,13 @@
 <picture>
 	<source media="(prefers-color-scheme: light)" srcset="../../.github/assets/web_cover_light.png">
-	<img alt="Modrinth Website Cover" src="../../.github/assets/web_cover.png">
+	<img alt="Panda Minecraft Launcher website cover" src="../../.github/assets/web_cover.png">
 </picture>
 
-# Modrinth Web Interface
+# Panda Minecraft Launcher web interface
 
-Welcome to the Modrinth Web Interface! This web-based platform is designed for discovering, downloading, and managing Minecraft mods.
+Welcome to the Panda Minecraft Launcher web interface! This web-based platform is designed for discovering, downloading, and managing Minecraft mods.
 
-If you're not a developer and you've stumbled upon this repository, you can access the web interface on the [Modrinth website](https://modrinth.com).
+If you're not a developer and you've stumbled upon this repository, you can access the web interface on the [Panda Minecraft Launcher website](https://modrinth.com).
 
 ## Development
 

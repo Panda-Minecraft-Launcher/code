@@ -159,7 +159,7 @@
     "message": "Sembunyikan label nama"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Minimalkan aplikasi Panda saat Minecraft diluncurkan."
+    "message": "Minimalkan aplikasi Panda Minecraft Launcher saat Minecraft diluncurkan."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Minimalkan aplikasi"
@@ -180,7 +180,7 @@
     "message": "Sembunyikan bilah sisi kanan"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Tampilkan peringatan sebelum memasang sebuah paket mod (.mrpack) yang tidak dihoskan di Modrinth."
+    "message": "Tampilkan peringatan sebelum memasang sebuah paket mod (.mrpack) yang tidak dihoskan di Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Peringatkan saya sebelum memasang paket mod tidak dikenal"
@@ -660,10 +660,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Anda mendapat rupa ini karena telah berdonasi ke penggalangan dana Panda Pride saat Pride Month."
+    "message": "Anda mendapat rupa ini karena telah berdonasi ke penggalangan dana Panda Minecraft Launcher Pride saat Pride Month."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"

@@ -6,7 +6,7 @@ export const content: Provider = (url) => {
 	if (host === 'modrinth.com' && id) {
 		if (type === 'user')
 			return {
-				platform: 'Modrinth',
+				platform: 'Panda Minecraft Launcher',
 				kind: 'user',
 				name: id,
 				load: async (_, client) => {
@@ -28,7 +28,7 @@ export const content: Provider = (url) => {
 			['mod', 'modpack', 'resourcepack', 'shader', 'plugin', 'datapack', 'project'].includes(type)
 		)
 			return {
-				platform: 'Modrinth',
+				platform: 'Panda Minecraft Launcher',
 				kind: 'project',
 				name: id,
 				load: async (_, client) => {

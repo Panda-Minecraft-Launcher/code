@@ -53,6 +53,6 @@ function unblockUser(userId: string): Promise<void> {
 }
 
 useHead({
-	title: () => `${formatMessage(commonSettingsMessages.social)} - Modrinth`,
+	title: () => `${formatMessage(commonSettingsMessages.social)} - Panda Minecraft Launcher`,
 })
 </script>

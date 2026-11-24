@@ -60,7 +60,7 @@
     "defaultMessage": "Nema rezultata za tvoju potragu!"
   },
   "browse.offline": {
-    "defaultMessage": "Upravo si oflajn. Poveži se na internet da pretražuješ Modrinth!"
+    "defaultMessage": "Upravo si oflajn. Poveži se na internet da pretražuješ Panda Minecraft Launcher!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Traži {projectType}..."
@@ -198,7 +198,7 @@
     "defaultMessage": "Ovtori u folderu"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Otvori u Modrinthu"
+    "defaultMessage": "Otvori u Panda Minecraft Launcheru"
   },
   "button.play": {
     "defaultMessage": "Igraj"
@@ -489,13 +489,13 @@
     "defaultMessage": "{count} sklonjen (ugašen)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Fajlovi koji nisu objavljeni na Modrinth nisu pregledani."
+    "defaultMessage": "Fajlovi koji nisu objavljeni na Panda Minecraft Launcher nisu pregledani."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "Deo sadržaja na tvome serveru nije mogao biti analiziran i na njega može uticati ova promena."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Ovo ažuiranje sadrži datoteke koje nisu postavljene na Modrinth-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
+    "defaultMessage": "Ovo ažuiranje sadrži datoteke koje nisu postavljene na Panda Minecraft Launcher-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Upozorenje nepoznatih datoteka"
@@ -1131,7 +1131,7 @@
     "defaultMessage": "link na rad"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Izgleda da je ovo link ka Modrinthu. Ako je ovaj sadržaj dostupan na Modrinthu, tvoj pack je verovatno pogrešno izvezen. Ako si ga instalirao sa druge stranice, pokušaj da preuzmeš verziju za Modrinth; ponekad to nisu identične datoteke."
+    "defaultMessage": "Izgleda da je ovo link ka Panda Minecraft Launcheru. Ako je ovaj sadržaj dostupan na Panda Minecraft Launcheru, tvoj pack je verovatno pogrešno izvezen. Ako si ga instalirao sa druge stranice, pokušaj da preuzmeš verziju za Panda Minecraft Launcher; ponekad to nisu identične datoteke."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "Napomene"
@@ -1155,7 +1155,7 @@
     "defaultMessage": "Ukoliko se utvrdi da si lagao ili manipulisao otpremljenim slikama, tvoj projekat i račun mogu biti ukinuti."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "Osoblje platforme Modrinth može da proveri dostavljeni dokaz"
+    "defaultMessage": "Osoblje platforme Panda Minecraft Launcher može da proveri dostavljeni dokaz"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "Sačuvaj pripisivanje"
@@ -1239,7 +1239,7 @@
     "defaultMessage": "Automatski pripisano"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "Već smo videli ovu datoteku i pripremili smo vam navođenje izvora. Ako ti se čini da nešto nije u redu, kontaktiraj podršku Modrintha putem centra za pomoć"
+    "defaultMessage": "Već smo videli ovu datoteku i pripremili smo vam navođenje izvora. Ako ti se čini da nešto nije u redu, kontaktiraj podršku Panda Minecraft Launchera putem centra za pomoć"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "Licenca"
@@ -3573,7 +3573,7 @@
     "defaultMessage": "{count} {countPlural, plural, one {nedavna igra} few {nedavne igre} other {nedavnih igara}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count} {countPlural, plural, one {nedavna igra} few {nedavne igre} other {nedavnih igara}} sa Modrintha u poslednje 2 nedelje"
+    "defaultMessage": "{count} {countPlural, plural, one {nedavna igra} few {nedavne igre} other {nedavnih igara}} sa Panda Minecraft Launchera u poslednje 2 nedelje"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "Ovaj projekat koristi prilagođeni modpack"
@@ -3903,7 +3903,7 @@
     "defaultMessage": "Tvoj projekat ima više okruženja"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Upravo smo redizajnirali sistem okruženja na Modrinthu i sada su dostupne nove opcije. Molimo te da se uveriš da je izabrana ispravna opcija ispod, a zatim klikni na „Verifikuj“ kada završiš!"
+    "defaultMessage": "Upravo smo redizajnirali sistem okruženja na Panda Minecraft Launcheru i sada su dostupne nove opcije. Molimo te da se uveriš da je izabrana ispravna opcija ispod, a zatim klikni na „Verifikuj“ kada završiš!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Molimo te da pregledaš opcije ispod"
@@ -4179,13 +4179,13 @@
     "defaultMessage": "Učitavač"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "Ne možemo garantovati da je sav sadržaj na Modrinth-u označen na odgovarajući način."
+    "defaultMessage": "Ne možemo garantovati da je sav sadržaj na Panda Minecraft Launcher-u označen na odgovarajući način."
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "Oznake sadržaja za okidače fotosenzitivnosti sami dodeljuju kreatori koji otpremaju svoj sadržaj na Modrinth. Ovi projekti nisu prošli nikakvo bezbednosno testiranje."
+    "defaultMessage": "Oznake sadržaja za okidače fotosenzitivnosti sami dodeljuju kreatori koji otpremaju svoj sadržaj na Panda Minecraft Launcher. Ovi projekti nisu prošli nikakvo bezbednosno testiranje."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "Korišćenje bilo kog sadržaja na Modrinth-u je na sopstveni rizik. Molimo vas da budete bezbedni! 💚"
+    "defaultMessage": "Korišćenje bilo kog sadržaja na Panda Minecraft Launcher-u je na sopstveni rizik. Molimo vas da budete bezbedni! 💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "Ne prikazuj ovo ponovo"
@@ -5979,13 +5979,13 @@
     "defaultMessage": "Zlonamerni softver se često distribuira putem datoteka modova deljenjem na platformama poput Discord-a."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " nije postavljeno na Modrinth-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
+    "defaultMessage": " nije postavljeno na Panda Minecraft Launcher-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "Upozorenje nepoznatih datoteka"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " sadrži datoteke koje nisu postavljene na Modrinth-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
+    "defaultMessage": " sadrži datoteke koje nisu postavljene na Panda Minecraft Launcher-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "Upozorenje nepoznatih datoteka"

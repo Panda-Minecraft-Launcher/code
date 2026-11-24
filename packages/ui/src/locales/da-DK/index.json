@@ -141,7 +141,7 @@
     "defaultMessage": "Åbn mappe"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Åbn i Modrinth"
+    "defaultMessage": "Åbn i Panda Minecraft Launcher"
   },
   "button.play": {
     "defaultMessage": "Spil"
@@ -1608,7 +1608,7 @@
     "defaultMessage": "Dit projekt har flere miløjer"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Vi har ændret miljø systemet på Modrinth og nye muligheder er nu tilgængelige. Venligst sikre den korrekte mulighed er valgt nedenunder og så klik \"Bekræft\" og så du færdig!"
+    "defaultMessage": "Vi har ændret miljø systemet på Panda Minecraft Launcher og nye muligheder er nu tilgængelige. Venligst sikre den korrekte mulighed er valgt nedenunder og så klik \"Bekræft\" og så du færdig!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Venligst gennemse mulighederne nedenunder"

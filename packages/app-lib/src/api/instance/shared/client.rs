@@ -888,9 +888,11 @@ pub(super) async fn active_modrinth_session_is_valid(
         path = "/user",
         status = status.as_u16(),
         request_id = request_id.as_deref().unwrap_or("none"),
-        "Modrinth auth validation request failed"
+        "Panda Minecraft Launcher auth validation request failed"
     );
-    bail!("Modrinth auth validation failed with status {status}")
+    bail!(
+        "Panda Minecraft Launcher auth validation failed with status {status}"
+    )
 }
 
 pub(super) async fn decode_json_response<T>(

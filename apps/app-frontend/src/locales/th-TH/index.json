@@ -186,7 +186,7 @@
     "message": "ซ่อนแถบทางด้านขวา"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "แสดงคำเตือนด้านความปลอดภัยก่อนติดตั้งแพ็กม็อด (.mrpack) ที่ไม่ได้โฮสต์บน Modrinth."
+    "message": "แสดงคำเตือนด้านความปลอดภัยก่อนติดตั้งแพ็กม็อด (.mrpack) ที่ไม่ได้โฮสต์บน Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "เตือนฉันก่อนติดตั้งแพ็กม็อดที่ไม่รู้จัก"
@@ -204,7 +204,7 @@
     "message": "หน้าหลัก และ เนื้อหา"
   },
   "app.behavior-settings.refocus-on-game-close.description": {
-    "message": "นำแอป Panda มาไว้เบื้องหน้าเมื่อ Minecraft ปิดตัวลง"
+    "message": "นำแอป Panda Minecraft Launcher มาไว้เบื้องหน้าเมื่อ Minecraft ปิดตัวลง"
   },
   "app.behavior-settings.refocus-on-game-close.title": {
     "message": "โฟกัสแอปอีกครั้งเมื่อ Minecraft ปิด"
@@ -852,10 +852,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "คุณได้รับสกินเหล่านี้จากการร่วมบริจาคให้กับกิจกรรมระดมทุน Panda Pride ในช่วงเดือน Pride Month"
+    "message": "คุณได้รับสกินเหล่านี้จากการร่วมบริจาคให้กับกิจกรรมระดมทุน Panda Minecraft Launcher Pride ในช่วงเดือน Pride Month"
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"

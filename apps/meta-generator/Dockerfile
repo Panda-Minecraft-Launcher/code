@@ -4,7 +4,7 @@ FROM debian:trixie-slim
 
 LABEL org.opencontainers.image.source=https://github.com/modrinth/code
 LABEL org.opencontainers.image.title=minecraft-meta
-LABEL org.opencontainers.image.description="Modrinth Minecraft launcher metadata"
+LABEL org.opencontainers.image.description="Panda Minecraft Launcher metadata"
 LABEL org.opencontainers.image.licenses=AGPL-3.0-only
 
 RUN apt-get update \

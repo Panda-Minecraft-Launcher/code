@@ -254,7 +254,7 @@ pub async fn import_mmc(
 
                 // Modrinth Managed Pack
                 // Kept separate as we may in the future want to add special handling for modrinth managed packs
-                import_mmc_unmanaged(instance_id, minecraft_folder, "Imported Modrinth Modpack".to_string(), description, mmc_pack, reporter, details).await?;
+                import_mmc_unmanaged(instance_id, minecraft_folder, "Imported Panda Minecraft Launcher Modpack".to_string(), description, mmc_pack, reporter, details).await?;
             }
             Some(MMCManagedPackType::Flame | MMCManagedPackType::ATLauncher) => {
                 // For flame/atlauncher managed packs

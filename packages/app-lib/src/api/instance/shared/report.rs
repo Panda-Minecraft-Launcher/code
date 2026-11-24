@@ -158,7 +158,7 @@ impl PublishReport {
         let _ = writeln!(details);
         let _ = writeln!(
             details,
-            "Modrinth versions ({})",
+            "Panda Minecraft Launcher versions ({})",
             self.modrinth_ids.len()
         );
         for version_id in &self.modrinth_ids {

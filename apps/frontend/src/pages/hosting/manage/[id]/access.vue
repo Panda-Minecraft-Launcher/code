@@ -54,7 +54,7 @@ await Promise.allSettled([
 ])
 
 useHead({
-	title: computed(() => `Access - ${server.value?.name ?? 'Server'} - Modrinth`),
+	title: computed(() => `Access - ${server.value?.name ?? 'Server'} - Panda Minecraft Launcher`),
 })
 
 function defaultActionLogDateFilter() {

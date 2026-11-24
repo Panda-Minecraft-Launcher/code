@@ -29,10 +29,10 @@ const featuredArticle = computed(() => articles.value?.[0])
 const config = useRuntimeConfig()
 
 useSeoMeta({
-	title: 'Modrinth News',
-	ogTitle: 'Modrinth News',
-	description: 'Keep up-to-date on the latest news from Modrinth.',
-	ogDescription: 'Keep up-to-date on the latest news from Modrinth.',
+	title: 'Panda Minecraft Launcher News',
+	ogTitle: 'Panda Minecraft Launcher News',
+	description: 'Keep up-to-date on the latest news from Panda Minecraft Launcher.',
+	ogDescription: 'Keep up-to-date on the latest news from Panda Minecraft Launcher.',
 	ogType: 'website',
 	ogImage: () => `${config.public.siteUrl}/news/thumbnail.webp`,
 	twitterCard: 'summary_large_image',

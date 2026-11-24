@@ -1,11 +1,11 @@
 <picture>
 	<source media="(prefers-color-scheme: light)" srcset="../../.github/assets/docs_cover_light.png">
-	<img alt="Modrinth Docs Cover" src="../../.github/assets/docs_cover.png">
+	<img alt="Panda Minecraft Launcher documentation cover" src="../../.github/assets/docs_cover.png">
 </picture>
 
-# Modrinth Documentation
+# Panda Minecraft Launcher documentation
 
-Welcome to the Modrinth documentation!
+Welcome to the Panda Minecraft Launcher documentation!
 
 ## Development
 

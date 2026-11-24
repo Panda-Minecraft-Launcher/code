@@ -72,7 +72,7 @@
     "message": "Podešavanje Minecrafta nije uspelo"
   },
   "app.action-bar.install.summary.modrinth-unreachable": {
-    "message": "Nije bilo moguće povezati se sa Panda-om"
+    "message": "Nije bilo moguće povezati se sa Panda Minecraft Launcher-om"
   },
   "app.action-bar.install.summary.no-write-permission": {
     "message": "Nema dozvole za pisanje"
@@ -138,7 +138,7 @@
     "message": "Odbij sve"
   },
   "app.ads-consent.title": {
-    "message": "Tvoja bezbednost i kako reklame pomažu Panda-u"
+    "message": "Tvoja bezbednost i kako reklame pomažu Panda Minecraft Launcher-u"
   },
   "app.appearance-settings.compact-mode.title": {
     "message": "Kompaktni mod"
@@ -591,7 +591,7 @@
     "message": "Instaliraj"
   },
   "app.modal.install-to-play.invite-warning": {
-    "message": "Ovu pozivnicu je kreirao drugi korisnik Pandaa, a ne sam Panda Minecraft Launcher. Prihvataj pozivnice samo od osoba kojima veruješ."
+    "message": "Ovu pozivnicu je kreirao drugi korisnik Panda Minecraft Launchera, a ne sam Panda Minecraft Launcher. Prihvataj pozivnice samo od osoba kojima veruješ."
   },
   "app.modal.install-to-play.mod-count": {
     "message": "{count, plural, one {# mod} other {# modova}}"
@@ -600,7 +600,7 @@
     "message": "Deljena instanca"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Ovaj modpack servera sadrži datoteke koje nisu postavljene na Panda-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
+    "message": "Ovaj modpack servera sadrži datoteke koje nisu postavljene na Panda Minecraft Launcher-u. Preporučujemo da instaliraš datoteke samo iz izvora kojima veruješ."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Upozorenje nepoznatih datoteka"
@@ -855,10 +855,10 @@
     "message": "Možda se razlikuje od njihovog korisničkog imena za Minecraft!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Unesite korisničko ime za Pandau..."
+    "message": "Unesite korisničko ime za Panda Minecraft Launcheru..."
   },
   "friends.add-friend.username.title": {
-    "message": "Koje je korisničko ime tvog prijatelja u Pandau?"
+    "message": "Koje je korisničko ime tvog prijatelja u Panda Minecraft Launcheru?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Dodaj prijatelje</link> da vidiš šta igraju!"

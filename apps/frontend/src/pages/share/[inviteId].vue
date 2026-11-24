@@ -188,7 +188,7 @@ const messages = defineMessages({
 	},
 	unknownInviter: {
 		id: 'shared-instance.invite.inviter.unknown',
-		defaultMessage: 'A Modrinth user',
+		defaultMessage: 'A Panda Minecraft Launcher user',
 	},
 	joinedCount: {
 		id: 'shared-instance.invite.joined-count',
@@ -205,7 +205,7 @@ const messages = defineMessages({
 	trustWarning: {
 		id: 'shared-instance.invite.trust.description',
 		defaultMessage:
-			'This invite was created by another Modrinth user, not Modrinth. Only accept invites from people you trust.',
+			'This invite was created by another Panda Minecraft Launcher user, not Panda Minecraft Launcher. Only accept invites from people you trust.',
 	},
 })
 

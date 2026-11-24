@@ -186,7 +186,7 @@
     "message": "Cache la barre latérale droite"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Affiche un avertissement de sécurité avant d'installer un modpack (.mrpack) qui n'est pas hébergé sur Modrinth."
+    "message": "Affiche un avertissement de sécurité avant d'installer un modpack (.mrpack) qui n'est pas hébergé sur Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "M'avertir avant d'installer des modpacks inconnus"
@@ -528,13 +528,13 @@
     "message": "Voir l'instance"
   },
   "app.hosting.update-required.description": {
-    "message": "Vous avez besoin de mettre à jour pour utiliser Panda Hosting via Panda Minecraft Launcher"
+    "message": "Vous avez besoin de mettre à jour pour utiliser Panda Minecraft Launcher via Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Télécharger pour mettre à jour"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Panda Bot excité"
+    "message": "Panda Minecraft Launcher Bot excité"
   },
   "app.hosting.update-required.title": {
     "message": "Mise à jour de Panda Minecraft Launcher requise"
@@ -1473,7 +1473,7 @@
     "message": "Le modpack de ce serveur n'est pas disponible"
   },
   "app.modal.install-to-play.unknown-files-description": {
-    "message": "Ce modpack de serveur contient des fichiers qui ne sont pas publiés sur Panda. Nous recommandons fortement de seulement installer des fichiers de sources en qui vous avez confiance."
+    "message": "Ce modpack de serveur contient des fichiers qui ne sont pas publiés sur Panda Minecraft Launcher. Nous recommandons fortement de seulement installer des fichiers de sources en qui vous avez confiance."
   },
   "app.modal.install-to-play.unknown-files-warning": {
     "message": "Avertissement de fichiers inconnus"
@@ -1497,7 +1497,7 @@
     "message": "Supprimé"
   },
   "app.modal.update-to-play.server-modpack-unknown-files-description": {
-    "message": "Cette mise à jour du modpack de ce serveur contient des fichiers qui ne sont pas publiés sur Panda. Nous recommandons fortement de seulement installer des fichiers de sources en qui vous avez confiance."
+    "message": "Cette mise à jour du modpack de ce serveur contient des fichiers qui ne sont pas publiés sur Panda Minecraft Launcher. Nous recommandons fortement de seulement installer des fichiers de sources en qui vous avez confiance."
   },
   "app.modal.update-to-play.shared-instance-added-label": {
     "message": "Ajouté"
@@ -1530,7 +1530,7 @@
     "message": "Compte Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Retirer le compte"
@@ -1545,7 +1545,7 @@
     "message": "Changer de compte"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Passer à Panda+"
+    "message": "Passer à Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Voir le profil"
@@ -3459,10 +3459,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Vous avez reçu ces skins pour avoir fait un don à une collecte de fonds Panda Pride pendant le mois de la fierté."
+    "message": "Vous avez reçu ces skins pour avoir fait un don à une collecte de fonds Panda Minecraft Launcher Pride pendant le mois de la fierté."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Montures en pagaille"
@@ -3798,7 +3798,7 @@
     "message": "Dissocier l'instance partagée"
   },
   "installation-settings.unpublish-shared-instance.modal.admonition-body": {
-    "message": "Cela supprime l'instance partagée des serveurs de Panda. Les personnes l'utilisant dans Panda Minecraft Launcher vont cesser de recevoir des mises à jour, mais votre instance locale et son contenu resteront sur cet appareil."
+    "message": "Cela supprime l'instance partagée des serveurs de Panda Minecraft Launcher. Les personnes l'utilisant dans Panda Minecraft Launcher vont cesser de recevoir des mises à jour, mais votre instance locale et son contenu resteront sur cet appareil."
   },
   "instance.action.create-shortcut": {
     "message": "Créer un raccourci"

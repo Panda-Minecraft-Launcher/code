@@ -23,7 +23,7 @@
 		},
 		{
 			"title": "New AI rules and project disclosures",
-			"summary": "An update to Modrinth’s Content Rules and our new mandatory content disclosures.",
+			"summary": "An update to Panda Minecraft Launcher’s Content Rules and our new mandatory content disclosures.",
 			"thumbnail": "https://modrinth.com/news/article/ai-policy-and-disclosures/thumbnail.webp",
 			"date": "2026-08-13T16:00:00.000Z",
 			"link": "https://modrinth.com/news/article/ai-policy-and-disclosures"
@@ -50,8 +50,8 @@
 			"link": "https://modrinth.com/news/article/modpack-permissions"
 		},
 		{
-			"title": "Modrinth joins Spark Universe",
-			"summary": "The next chapter. What it means and why we think it’s right for Modrinth.",
+			"title": "Panda Minecraft Launcher joins Spark Universe",
+			"summary": "The next chapter. What it means and why we think it’s right for Panda Minecraft Launcher.",
 			"thumbnail": "https://modrinth.com/news/article/joining-spark-universe/thumbnail.webp",
 			"date": "2026-06-15T14:00:00.000Z",
 			"link": "https://modrinth.com/news/article/joining-spark-universe"
@@ -78,22 +78,22 @@
 			"link": "https://modrinth.com/news/article/analytics-overhaul"
 		},
 		{
-			"title": "Modrinth Hosting in the App",
-			"summary": "Buy, setup, and manage your server all in the Modrinth App.",
+			"title": "Panda Minecraft Launcher in the App",
+			"summary": "Buy, setup, and manage your server all in the Panda Minecraft Launcher.",
 			"thumbnail": "https://modrinth.com/news/article/modrinth-hosting-in-app/thumbnail.webp",
 			"date": "2026-04-12T21:30:00.000Z",
 			"link": "https://modrinth.com/news/article/modrinth-hosting-in-app"
 		},
 		{
 			"title": "Content Management Overhaul",
-			"summary": "Overhauled content management for both Modrinth Hosting servers and Modrinth App instances.",
+			"summary": "Overhauled content management for both Panda Minecraft Launcher servers and Panda Minecraft Launcher instances.",
 			"thumbnail": "https://modrinth.com/news/article/content-management-overhaul/thumbnail.webp",
 			"date": "2026-03-17T20:15:00.000Z",
 			"link": "https://modrinth.com/news/article/content-management-overhaul"
 		},
 		{
 			"title": "Introducing Server Projects",
-			"summary": "A new project type made for seamless modded multiplayer on Modrinth.",
+			"summary": "A new project type made for seamless modded multiplayer on Panda Minecraft Launcher.",
 			"thumbnail": "https://modrinth.com/news/article/introducing-server-projects/thumbnail.webp",
 			"date": "2026-03-04T01:30:00.000Z",
 			"link": "https://modrinth.com/news/article/introducing-server-projects"
@@ -120,29 +120,29 @@
 			"link": "https://modrinth.com/news/article/standing-by-our-values"
 		},
 		{
-			"title": "Modrinth Servers Launches in Asia",
-			"summary": "Our latest Modrinth Servers datacenter is in Singapore.",
+			"title": "Panda Minecraft Launcher Launches in Asia",
+			"summary": "Our latest Panda Minecraft Launcher datacenter is in Singapore.",
 			"thumbnail": "https://modrinth.com/news/article/modrinth-servers-asia/thumbnail.webp",
 			"date": "2025-09-08T21:45:00.000Z",
 			"link": "https://modrinth.com/news/article/modrinth-servers-asia"
 		},
 		{
 			"title": "Creators: Verify Your Environment Metadata",
-			"summary": "We've overhauled the environment metadata on Modrinth, and all creators must verify their settings.",
+			"summary": "We've overhauled the environment metadata on Panda Minecraft Launcher, and all creators must verify their settings.",
 			"thumbnail": "https://modrinth.com/news/article/new-environments/thumbnail.webp",
 			"date": "2025-08-28T23:50:00.000Z",
 			"link": "https://modrinth.com/news/article/new-environments"
 		},
 		{
-			"title": "Get a Free Modrinth Server",
-			"summary": "In partnership with Medal.tv, get a 5-day free trial for Modrinth Servers",
+			"title": "Get a Free Panda Minecraft Launcher",
+			"summary": "In partnership with Medal.tv, get a 5-day free trial for Panda Minecraft Launcher",
 			"thumbnail": "https://modrinth.com/news/article/free-server-medal/thumbnail.webp",
 			"date": "2025-08-20T22:25:00.000Z",
 			"link": "https://modrinth.com/news/article/free-server-medal"
 		},
 		{
-			"title": "Skins — Now in Modrinth App!",
-			"summary": "Customize your look, save your favorite skins, and swap them out in a flash, all within Modrinth App.",
+			"title": "Skins — Now in Panda Minecraft Launcher!",
+			"summary": "Customize your look, save your favorite skins, and swap them out in a flash, all within Panda Minecraft Launcher.",
 			"thumbnail": "https://modrinth.com/news/article/skins-now-in-modrinth-app/thumbnail.webp",
 			"date": "2025-07-06T23:45:00.000Z",
 			"link": "https://modrinth.com/news/article/skins-now-in-modrinth-app"
@@ -162,15 +162,15 @@
 			"link": "https://modrinth.com/news/article/pride-campaign-2025"
 		},
 		{
-			"title": "A New Chapter for Modrinth Servers",
-			"summary": "Modrinth Servers is now fully operated in-house by the Modrinth Team.",
+			"title": "A New Chapter for Panda Minecraft Launcher",
+			"summary": "Panda Minecraft Launcher is now fully operated in-house by the Panda Minecraft Launcher Team.",
 			"thumbnail": "https://modrinth.com/news/article/a-new-chapter-for-modrinth-servers/thumbnail.webp",
 			"date": "2025-03-13T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/a-new-chapter-for-modrinth-servers"
 		},
 		{
-			"title": "Host your own server with Modrinth Servers — now in beta",
-			"summary": "Fast, simple, reliable servers directly integrated into Modrinth.",
+			"title": "Host your own server with Panda Minecraft Launcher — now in beta",
+			"summary": "Fast, simple, reliable servers directly integrated into Panda Minecraft Launcher.",
 			"thumbnail": "https://modrinth.com/news/article/modrinth-servers-beta/thumbnail.webp",
 			"date": "2024-11-03T06:00:00.000Z",
 			"link": "https://modrinth.com/news/article/modrinth-servers-beta"
@@ -183,8 +183,8 @@
 			"link": "https://modrinth.com/news/article/becoming-sustainable"
 		},
 		{
-			"title": "Introducing Modrinth+, a refreshed site look, and a new advertising system!",
-			"summary": "Learn about this major update to Modrinth.",
+			"title": "Introducing Panda Minecraft Launcher, a refreshed site look, and a new advertising system!",
+			"summary": "Learn about this major update to Panda Minecraft Launcher.",
 			"thumbnail": "https://modrinth.com/news/article/design-refresh/thumbnail.webp",
 			"date": "2024-08-21T20:00:00.000Z",
 			"link": "https://modrinth.com/news/article/design-refresh"
@@ -197,7 +197,7 @@
 			"link": "https://modrinth.com/news/article/windows-borderless-malware-disclosure"
 		},
 		{
-			"title": "A Sustainable Path Forward for Modrinth",
+			"title": "A Sustainable Path Forward for Panda Minecraft Launcher",
 			"summary": "Our capital return and what’s next.",
 			"thumbnail": "https://modrinth.com/news/default.webp",
 			"date": "2024-04-04T20:00:00.000Z",
@@ -218,84 +218,84 @@
 			"link": "https://modrinth.com/news/article/download-adjustment"
 		},
 		{
-			"title": "Introducing Modrinth App Beta",
-			"summary": "Changing the modded Minecraft landscape with the new Modrinth App, alongside several other major features.",
+			"title": "Introducing Panda Minecraft Launcher Beta",
+			"summary": "Changing the modded Minecraft landscape with the new Panda Minecraft Launcher, alongside several other major features.",
 			"thumbnail": "https://modrinth.com/news/default.webp",
 			"date": "2023-08-05T20:00:00.000Z",
 			"link": "https://modrinth.com/news/article/modrinth-app-beta"
 		},
 		{
-			"title": "(April Fools 2023) Powering up your experience: Modrinth Technologies™️ beta launch!",
-			"summary": "Welcome to the new era of Modrinth. We can't wait to hear your feedback.",
+			"title": "(April Fools 2023) Powering up your experience: Panda Minecraft Launcher Technologies™️ beta launch!",
+			"summary": "Welcome to the new era of Panda Minecraft Launcher. We can't wait to hear your feedback.",
 			"thumbnail": "https://modrinth.com/news/article/new-site-beta/thumbnail.webp",
 			"date": "2023-04-01T08:00:00.000Z",
 			"link": "https://modrinth.com/news/article/new-site-beta"
 		},
 		{
-			"title": "Accelerating Modrinth's Development",
-			"summary": "Our fundraiser and the future of Modrinth!",
+			"title": "Accelerating Panda Minecraft Launcher's Development",
+			"summary": "Our fundraiser and the future of Panda Minecraft Launcher!",
 			"thumbnail": "https://modrinth.com/news/default.webp",
 			"date": "2023-02-01T20:00:00.000Z",
 			"link": "https://modrinth.com/news/article/accelerating-development"
 		},
 		{
-			"title": "Modrinth's Anniversary Update",
-			"summary": "Marking two years of Modrinth and discussing our New Year's Resolutions for 2023.",
+			"title": "Panda Minecraft Launcher's Anniversary Update",
+			"summary": "Marking two years of Panda Minecraft Launcher and discussing our New Year's Resolutions for 2023.",
 			"thumbnail": "https://modrinth.com/news/article/two-years-of-modrinth/thumbnail.webp",
 			"date": "2023-01-07T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/two-years-of-modrinth"
 		},
 		{
-			"title": "Two years of Modrinth: a retrospective",
-			"summary": "The history of Modrinth as we know it from December 2020 to December 2022.",
+			"title": "Two years of Panda Minecraft Launcher: a retrospective",
+			"summary": "The history of Panda Minecraft Launcher as we know it from December 2020 to December 2022.",
 			"thumbnail": "https://modrinth.com/news/default.webp",
 			"date": "2023-01-07T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/two-years-of-modrinth-history"
 		},
 		{
-			"title": "Creators can now make money on Modrinth!",
+			"title": "Creators can now make money on Panda Minecraft Launcher!",
 			"summary": "Introducing the Creator Monetization Program allowing creators to earn revenue from their projects.",
 			"thumbnail": "https://modrinth.com/news/article/creator-monetization/thumbnail.webp",
 			"date": "2022-11-12T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/creator-monetization"
 		},
 		{
-			"title": "Modrinth's Carbon Ads experiment",
+			"title": "Panda Minecraft Launcher's Carbon Ads experiment",
 			"summary": "Experimenting with a different ad providers to find one which one works for us.",
 			"thumbnail": "https://modrinth.com/news/article/carbon-ads/thumbnail.webp",
 			"date": "2022-09-08T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/carbon-ads"
 		},
 		{
-			"title": "Plugins and Resource Packs now have a home on Modrinth",
-			"summary": "A small update with a big impact: plugins and resource packs are now available on Modrinth!",
+			"title": "Plugins and Resource Packs now have a home on Panda Minecraft Launcher",
+			"summary": "A small update with a big impact: plugins and resource packs are now available on Panda Minecraft Launcher!",
 			"thumbnail": "https://modrinth.com/news/article/plugins-resource-packs/thumbnail.webp",
 			"date": "2022-08-27T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/plugins-resource-packs"
 		},
 		{
-			"title": "Changes to Modrinth Modpacks",
+			"title": "Changes to Panda Minecraft Launcher Modpacks",
 			"summary": "CurseForge CDN links requested to be removed by the end of the month",
 			"thumbnail": "https://modrinth.com/news/article/modpack-changes/thumbnail.webp",
 			"date": "2022-05-28T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/modpack-changes"
 		},
 		{
-			"title": "Modrinth Modpacks: Now in alpha testing",
+			"title": "Panda Minecraft Launcher Modpacks: Now in alpha testing",
 			"summary": "After over a year of development, we're happy to announce that modpack support is now in alpha testing.",
 			"thumbnail": "https://modrinth.com/news/article/modpacks-alpha/thumbnail.webp",
 			"date": "2022-05-15T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/modpacks-alpha"
 		},
 		{
-			"title": "This week in Modrinth development: Filters and Fixes",
-			"summary": "Continuing to improve the user interface after a great first week since Modrinth launched out of beta.",
+			"title": "This week in Panda Minecraft Launcher development: Filters and Fixes",
+			"summary": "Continuing to improve the user interface after a great first week since Panda Minecraft Launcher launched out of beta.",
 			"thumbnail": "https://modrinth.com/news/article/knossos-v2.1.0/thumbnail.webp",
 			"date": "2022-03-09T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/knossos-v2.1.0"
 		},
 		{
-			"title": "Now showing on Modrinth: A new look!",
+			"title": "Now showing on Panda Minecraft Launcher: A new look!",
 			"summary": "Releasing many new features and improvements, including a redesign!",
 			"thumbnail": "https://modrinth.com/news/article/redesign/thumbnail.webp",
 			"date": "2022-02-27T00:00:00.000Z",
@@ -309,15 +309,15 @@
 			"link": "https://modrinth.com/news/article/licensing-guide"
 		},
 		{
-			"title": "Welcome to Modrinth Beta",
-			"summary": "After six months of work, Modrinth enters Beta, helping modders host their mods with ease!",
+			"title": "Welcome to Panda Minecraft Launcher Beta",
+			"summary": "After six months of work, Panda Minecraft Launcher enters Beta, helping modders host their mods with ease!",
 			"thumbnail": "https://modrinth.com/news/article/modrinth-beta/thumbnail.webp",
 			"date": "2020-12-01T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/modrinth-beta"
 		},
 		{
-			"title": "What is Modrinth?",
-			"summary": "Hello, we are Modrinth – an open source mods hosting platform. Sounds dry, doesn't it? So let me tell you our story – and I promise, it won't be boring!",
+			"title": "What is Panda Minecraft Launcher?",
+			"summary": "Hello, we are Panda Minecraft Launcher – an open source mods hosting platform. Sounds dry, doesn't it? So let me tell you our story – and I promise, it won't be boring!",
 			"thumbnail": "https://modrinth.com/news/default.webp",
 			"date": "2020-11-27T00:00:00.000Z",
 			"link": "https://modrinth.com/news/article/whats-modrinth"

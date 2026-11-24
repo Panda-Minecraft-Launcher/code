@@ -1,6 +1,6 @@
 <picture>
 	<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/modrinth/code/main/.github/assets/api_client_cover_light.png">
-	<img alt="Modrinth API Client Cover" src="https://raw.githubusercontent.com/modrinth/code/main/.github/assets/api_client_cover.png">
+	<img alt="Panda Minecraft Launcher API client cover" src="https://raw.githubusercontent.com/modrinth/code/main/.github/assets/api_client_cover.png">
 </picture>
 
 # @modrinth/api-client
@@ -8,9 +8,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-c78aff?style=for-the-badge)](https://www.typescriptlang.org/)
 [![License: LGPL-3.0](https://img.shields.io/badge/License-LGPL%203.0-c78aff?style=for-the-badge)](LICENSE)
 
-Platform-agnostic TypeScript client for Modrinth's API across Node.js, browsers, Nuxt, and Tauri.
+Platform-agnostic TypeScript client for Panda Minecraft Launcher's API across Node.js, browsers, Nuxt, and Tauri.
 
-**⚠️ We use this internally to power modrinth.com, Modrinth App, and Modrinth Hosting frontends. It may break without any notice, but you are welcome to use it.**
+**⚠️ We use this internally to power modrinth.com and Panda Minecraft Launcher frontends. It may break without any notice, but you are welcome to use it.**
 
 ## Installation
 
@@ -104,13 +104,13 @@ import type { Labrinth } from '@modrinth/api-client'
 const project: Labrinth.Projects.v3.Project = await client.labrinth.projects_v3.get('sodium')
 ```
 
-## Modrinth Hosting API Modules
+## Panda Minecraft Launcher API Modules
 
-- These modules are internal to Modrinth and are only supported inside the Modrinth Hosting panel in Modrinth App and on modrinth.com. They should not be expected to work in third-party clients today. We are discussing how to safely expose access to your own server through these APIs in the future.
+- These modules are internal to Panda Minecraft Launcher and are only supported inside the Panda Minecraft Launcher server panel and on modrinth.com. They should not be expected to work in third-party clients today. We are discussing how to safely expose access to your own server through these APIs in the future.
 
 ## Base URLs
 
-By default, the client uses Modrinth production services:
+By default, the client uses Panda Minecraft Launcher production services:
 
 - `labrinthBaseUrl`: `https://api.modrinth.com`
 
@@ -165,7 +165,7 @@ Uploads use `XMLHttpRequest` for progress tracking and are only available in bro
 
 ## Third-Party API Typings
 
-- This package also includes some third-party API modules and typings used by Modrinth internals. They are not part of the stable public API surface and should be used at your own risk.
+- This package also includes some third-party API modules and typings used by Panda Minecraft Launcher internals. They are not part of the stable public API surface and should be used at your own risk.
 
 ## Development
 

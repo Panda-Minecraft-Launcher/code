@@ -1,11 +1,11 @@
 ---
-title: Modrinth Website
-description: Guide for contributing to Modrinth's frontend
+title: Panda Minecraft Launcher
+description: Guide for contributing to Panda Minecraft Launcher's frontend
 sidebar:
   order: 2
 ---
 
-The [Modrinth Website], codename Knossos, is a Nuxt.js frontend. You will need to install [pnpm] and run the standard commands:
+The [Panda Minecraft Launcher], codename Knossos, is a Nuxt.js frontend. You will need to install [pnpm] and run the standard commands:
 
 ## Setup
 
@@ -28,5 +28,5 @@ If you're prepared to contribute by submitting a pull request, ensure you have m
 
 - `pnpm prepr:frontend` has been run.
 
-[Modrinth website]: https://github.com/modrinth/code/tree/main/apps/frontend
+[Panda Minecraft Launcher website]: https://github.com/modrinth/code/tree/main/apps/frontend
 [pnpm]: https://pnpm.io

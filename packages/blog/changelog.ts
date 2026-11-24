@@ -11,6 +11,29 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-24T12:00:00+00:00`,
+		product: 'app',
+		version: '0.0.7',
+		body: `## Panda Minecraft Launcher 0.0.7
+- Panda Minecraft Launcher 0.0.7 yayında. Görünen Modrinth markalaması kaldırıldı, örnek klasörü "profiles" yerine "instances" adını kullanıyor ve Linux derlemesi yalnızca AppImage olarak yayınlanıyor.
+
+## Değiştirildi: örnek klasörü
+- Uygulama artık örnekleri kullanıcı klasöründeki "instances" altında arıyor. 0.0.6'dan yükselen kurulumlarda mevcut "profiles" klasörü açılışta otomatik olarak "instances" adına taşınıyor; örnekler, ikonlar ve mod dosyaları korunuyor.
+- Otomatik geçiş kodu 0.0.8 boyunca kalacak, 0.0.9 ile kaldırılacak. Böylece eski sürümden yükselen kullanıcılar örneklerini kaybetmeyecek.
+- Hem "profiles" hem "instances" klasörü varsa hiçbir şey silinmiyor; uygulama mevcut durumu koruyor ve uyarı veriyor.
+
+## Kaldırıldı: görünen marka
+- Uygulama, belgeler, yardım metinleri ve web sitesinde ürün adı olarak yalnızca "Panda Minecraft Launcher" kullanılıyor; "Modrinth App" ve benzeri görünen marka adları kaldırıldı.
+- Paket adları, API/CDN adresleri ve protokol kimlikleri uyumluluk için olduğu gibi bırakıldı.
+
+## Değiştirildi: Linux paketi
+- Bu sürümden itibaren Linux için yalnızca AppImage yayınlanıyor; .deb paketi üretilmiyor. 0.0.6'nın .deb dosyası release sayfasında kalıyor.
+
+## İndirme
+- Windows: "Panda.Minecraft.Launcher_0.0.7_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.7_amd64.AppImage"`,
+	},
+	{
 		date: `2026-11-23T20:03:50+00:00`,
 		product: 'app',
 		version: '0.0.6',

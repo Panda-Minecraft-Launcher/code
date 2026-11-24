@@ -271,7 +271,7 @@ async fn accept_auth_deeplink(command: &str) -> bool {
         return false;
     };
 
-    tracing::info!("Handling Modrinth auth deep link");
+    tracing::info!("Handling Panda Minecraft Launcher auth deep link");
     if !submit_deeplink(code, &nonce) {
         const MESSAGE: &str = "Couldn't finish signing in. Please try again.";
         if let Err(error) = emit_warning(MESSAGE).await {

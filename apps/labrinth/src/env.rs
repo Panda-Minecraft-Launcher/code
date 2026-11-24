@@ -269,7 +269,7 @@ vars! {
     SMTP_HOST: String = "localhost";
     SMTP_PORT: u16 = 1025u16;
     SMTP_TLS: String = "none";
-    SMTP_FROM_NAME: String = "Modrinth";
+    SMTP_FROM_NAME: String = "Panda Minecraft Launcher";
     SMTP_FROM_ADDRESS: String = "no-reply@mail.modrinth.com";
 
     SITE_VERIFY_EMAIL_PATH: String = "auth/verify-email";
@@ -375,5 +375,5 @@ vars! {
     SERVER_PING_TIMEOUT_MS: u64 = 3u64 * 1000;
     SERVER_PING_MAX_FAIL_COUNT: u64 = 3u64;
 
-    WEBAUTHN_RP_NAME: String = "Modrinth";
+    WEBAUTHN_RP_NAME: String = "Panda Minecraft Launcher";
 }

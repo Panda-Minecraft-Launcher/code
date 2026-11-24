@@ -12,13 +12,13 @@ body:
   - type: dropdown
     id: projects
     attributes:
-      label: What parts of Modrinth is your feature request related too?
+      label: What parts of Panda Minecraft Launcher is your feature request related too?
       multiple: true
       options:
-        - Modrinth App
-        - Modrinth.com website
-        - Modrinth Hosting
-        - Modrinth API for developers
+        - Panda Minecraft Launcher (desktop app)
+        - Panda Minecraft Launcher website
+        - Panda Minecraft Launcher (server hosting)
+        - Panda Minecraft Launcher API for developers
   - type: textarea
     attributes:
       label: Is your suggested feature related to a problem? Please describe.

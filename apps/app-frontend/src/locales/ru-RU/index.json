@@ -162,7 +162,7 @@
     "message": "Без имени над скином"
   },
   "app.appearance-settings.minimize-launcher.description": {
-    "message": "Сворачивать Panda App при запуске Minecraft."
+    "message": "Сворачивать Panda Minecraft Launcher App при запуске Minecraft."
   },
   "app.appearance-settings.minimize-launcher.title": {
     "message": "Сворачивание приложения"
@@ -186,7 +186,7 @@
     "message": "Скрытие панели справа"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Предупреждать о рисках перед установкой файлов .mrpack, не размещённых на Modrinth."
+    "message": "Предупреждать о рисках перед установкой файлов .mrpack, не размещённых на Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Предупреждение о сторонних сборках"
@@ -528,13 +528,13 @@
     "message": "Посмотреть сборку"
   },
   "app.hosting.update-required.description": {
-    "message": "Обновитесь, чтобы использовать Panda Hosting через Panda Minecraft Launcher"
+    "message": "Обновитесь, чтобы использовать Panda Minecraft Launcher через Panda Minecraft Launcher"
   },
   "app.hosting.update-required.download": {
     "message": "Скачать и обновить"
   },
   "app.hosting.update-required.rinthbot-alt": {
-    "message": "Восторженный Panda Bot"
+    "message": "Восторженный Panda Minecraft Launcher Bot"
   },
   "app.hosting.update-required.title": {
     "message": "Обновите Panda Minecraft Launcher"
@@ -1524,7 +1524,7 @@
     "message": "Аккаунт Panda Minecraft Launcher"
   },
   "app.nav.modrinth-hosting": {
-    "message": "Panda Hosting"
+    "message": "Panda Minecraft Launcher"
   },
   "app.nav.remove-account": {
     "message": "Удалить аккаунт"
@@ -1539,7 +1539,7 @@
     "message": "Сменить аккаунт"
   },
   "app.nav.upgrade-to-modrinth-plus": {
-    "message": "Перейти на Panda+"
+    "message": "Перейти на Panda Minecraft Launcher"
   },
   "app.nav.view-profile": {
     "message": "Посмотреть профиль"
@@ -3498,10 +3498,10 @@
     "message": "Panda Minecraft Launcher"
   },
   "app.skins.section.modrinth-pride": {
-    "message": "Panda Pride"
+    "message": "Panda Minecraft Launcher Pride"
   },
   "app.skins.section.modrinth-pride.tooltip": {
-    "message": "Эти скины получены за участие в сборе средств Panda Pride в месяц гордости."
+    "message": "Эти скины получены за участие в сборе средств Panda Minecraft Launcher Pride в месяц гордости."
   },
   "app.skins.section.mounts-of-mayhem": {
     "message": "Mounts of Mayhem"

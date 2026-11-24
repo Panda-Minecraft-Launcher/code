@@ -33,7 +33,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 					{project.name}
 				</VLink>
 			</b>
-			has been successfully transferred to the Modrinth {new_owner.type_capitalized}
+			has been successfully transferred to the Panda Minecraft Launcher {new_owner.type_capitalized}
 			<b
 				><VLink
 					href="https://modrinth.com/{new_owner.type}/{new_owner.name}"

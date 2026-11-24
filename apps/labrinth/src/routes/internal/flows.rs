@@ -115,10 +115,10 @@ pub struct TempUser {
 #[derive(Debug, Error)]
 pub enum CreateAccountError {
     #[error(
-        "User email is already registered on Modrinth. Try 'Forgot password' to access your account."
+        "User email is already registered on Panda Minecraft Launcher. Try 'Forgot password' to access your account."
     )]
     DuplicateEmail,
-    #[error("Username is already taken on Modrinth.")]
+    #[error("Username is already taken on Panda Minecraft Launcher.")]
     UsernameTaken,
     #[error("{}", match .0 {
         Some(feedback) => format!("Password too weak: {feedback}"),
@@ -3592,7 +3592,7 @@ pub async fn set_email(
     .is_empty()
     {
         return Err(ApiError::Request(eyre::eyre!(
-            "Email is already registered on Modrinth! Try 'Forgot password' in incognito to access and delete your other account.",
+            "Email is already registered on Panda Minecraft Launcher! Try 'Forgot password' in incognito to access and delete your other account.",
         )));
     }
 

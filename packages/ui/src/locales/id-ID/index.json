@@ -42,7 +42,7 @@
     "defaultMessage": "Hasil tidak ditemukan untuk pencarian Anda!"
   },
   "browse.offline": {
-    "defaultMessage": "Anda saat ini luring. Sambungkan ke internet untuk menelusuri Modrinth!"
+    "defaultMessage": "Anda saat ini luring. Sambungkan ke internet untuk menelusuri Panda Minecraft Launcher!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Cari {projectType}..."
@@ -165,7 +165,7 @@
     "defaultMessage": "Buka di folder"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Buka di Modrinth"
+    "defaultMessage": "Buka di Panda Minecraft Launcher"
   },
   "button.play": {
     "defaultMessage": "Mainkan"
@@ -2091,7 +2091,7 @@
     "defaultMessage": "Proyek Anda memiliki beberapa lingkungan"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Kamu baru saja memperbaiki sistem Lingkungan di Modrinth dan pilihan baru kini tersedia. Mohon pastikan untuk memilih pilihan yang benar dan klik 'Verifikasi' bila Anda selesai!"
+    "defaultMessage": "Kamu baru saja memperbaiki sistem Lingkungan di Panda Minecraft Launcher dan pilihan baru kini tersedia. Mohon pastikan untuk memilih pilihan yang benar dan klik 'Verifikasi' bila Anda selesai!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Mohon tinjau pilihan di bawah"

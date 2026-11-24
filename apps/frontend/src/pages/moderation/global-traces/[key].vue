@@ -112,7 +112,7 @@ const detailKey = computed(() => {
 	return Array.isArray(key) ? key.join('/') : String(key)
 })
 
-useHead({ title: () => `Global trace - ${detailKey.value} - Modrinth` })
+useHead({ title: () => `Global trace - ${detailKey.value} - Panda Minecraft Launcher` })
 
 const localTracePageSize = 20
 const isLoading = ref(false)

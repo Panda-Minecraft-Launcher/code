@@ -156,7 +156,7 @@
     "defaultMessage": "פתח בתקייה"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "פתח בModrinth"
+    "defaultMessage": "פתח בPanda Minecraft Launcher"
   },
   "button.play": {
     "defaultMessage": "שחק"
@@ -1308,7 +1308,7 @@
     "defaultMessage": "צד לקוח בלבד"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "זה עתה ביצענו שיפוץ של מערכת הסביבות ב-Modrinth ואפשרויות חדשות זמינות כעת. אנא ודאו שהאפשרות הנכונה נבחרה למטה ולאחר מכן לחצו על 'אמת' כשתסיימו!"
+    "defaultMessage": "זה עתה ביצענו שיפוץ של מערכת הסביבות ב-Panda Minecraft Launcher ואפשרויות חדשות זמינות כעת. אנא ודאו שהאפשרות הנכונה נבחרה למטה ולאחר מכן לחצו על 'אמת' כשתסיימו!"
   },
   "project.settings.environment.server_only.dedicated_only.title": {
     "defaultMessage": "שרת ייעודי בלבד"
@@ -1467,7 +1467,7 @@
     "defaultMessage": "מנהל שיידרים"
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "תוויות תוכן עבור גורמים המעוררים רגישות לאור מוקצות באופן עצמאי על ידי היוצרים שמעלים את התוכן שלהם ל-Modrinth. פרויקטים אלה לא עברו בדיקות בטיחות כלשהן."
+    "defaultMessage": "תוויות תוכן עבור גורמים המעוררים רגישות לאור מוקצות באופן עצמאי על ידי היוצרים שמעלים את התוכן שלהם ל-Panda Minecraft Launcher. פרויקטים אלה לא עברו בדיקות בטיחות כלשהן."
   },
   "server.settings.sharing.unpublish-confirmation": {
     "defaultMessage": "פעולה זו מוחקת את המופע המשותף ומשביתה את קישורי ההזמנה שלו. שחקנים יפסיקו לקבל עדכוני תוכן משותף. השרת שלך והתוכן שלו יישארו זמינים."

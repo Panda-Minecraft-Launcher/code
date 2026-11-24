@@ -200,7 +200,7 @@ export const LinksAndIconButton: Story = {
 			<div class="flex flex-wrap items-center gap-4">
 				<ButtonLink to="/library">Internal link</ButtonLink>
 				<ButtonLink href="https://modrinth.com" target="_blank" type="outlined">
-					Modrinth<ExternalIcon />
+					Panda Minecraft Launcher<ExternalIcon />
 				</ButtonLink>
 				<ButtonLink href="https://modrinth.com" disabled>Disabled link</ButtonLink>
 				<IconButton label="Favorite"><HeartIcon /></IconButton>

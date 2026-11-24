@@ -530,7 +530,7 @@ const messages = defineMessages({
 	},
 	modrinthHosting: {
 		id: 'app.nav.modrinth-hosting',
-		defaultMessage: 'Panda Hosting',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 	screenshots: {
 		id: 'app.nav.screenshots',
@@ -574,7 +574,7 @@ const messages = defineMessages({
 	},
 	upgradeToModrinthPlus: {
 		id: 'app.nav.upgrade-to-modrinth-plus',
-		defaultMessage: 'Upgrade to Panda+',
+		defaultMessage: 'Upgrade to Panda Minecraft Launcher',
 	},
 })
 

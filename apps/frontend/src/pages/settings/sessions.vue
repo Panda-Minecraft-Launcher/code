@@ -152,7 +152,7 @@ const messages = defineMessages({
 	},
 	sessionsDescription: {
 		id: 'settings.sessions.description.1',
-		defaultMessage: `These are all the devices currently signed in with your Modrinth account. You can sign out of each one individually by revoking their session. If you don't recognize a device, sign out of that device and change your Modrinth account password immediately.`,
+		defaultMessage: `These are all the devices currently signed in with your Panda Minecraft Launcher account. You can sign out of each one individually by revoking their session. If you don't recognize a device, sign out of that device and change your Panda Minecraft Launcher account password immediately.`,
 	},
 	sessionsDescription2: {
 		id: 'settings.sessions.description.2',
@@ -177,7 +177,7 @@ const messages = defineMessages({
 	},
 	modrinthAppLabel: {
 		id: 'settings.sessions.modrinth-app',
-		defaultMessage: 'Modrinth App',
+		defaultMessage: 'Panda Minecraft Launcher',
 	},
 	emptyStateHeading: {
 		id: 'settings.sessions.empty-state.heading',
@@ -190,7 +190,7 @@ const messages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(commonSettingsMessages.sessions)} - Modrinth`,
+	title: () => `${formatMessage(commonSettingsMessages.sessions)} - Panda Minecraft Launcher`,
 })
 
 const { data: sessions, isLoading } = useQuery({

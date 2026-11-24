@@ -108,7 +108,7 @@
     "defaultMessage": "A keresésre nem találtunk találatot!"
   },
   "browse.offline": {
-    "defaultMessage": "Jelenleg nincs internetkapcsolatod. Csatlakozz az internethez, hogy böngészhess a Modrinthon!"
+    "defaultMessage": "Jelenleg nincs internetkapcsolatod. Csatlakozz az internethez, hogy böngészhess a Panda Minecraft Launcheron!"
   },
   "browse.search.placeholder": {
     "defaultMessage": "Keresés..."
@@ -246,7 +246,7 @@
     "defaultMessage": "Megnyitás mappában"
   },
   "button.open-in-modrinth": {
-    "defaultMessage": "Megnyitás Modrinthban"
+    "defaultMessage": "Megnyitás Panda Minecraft Launcherban"
   },
   "button.play": {
     "defaultMessage": "Játék"
@@ -543,13 +543,13 @@
     "defaultMessage": "{count} eltávolítva (letiltva)"
   },
   "content.diff-modal.reviewed-files": {
-    "defaultMessage": "Azok a fájlok, amelyek nincsenek közzétéve a Modrinthon, nincsenek ellenőrizve."
+    "defaultMessage": "Azok a fájlok, amelyek nincsenek közzétéve a Panda Minecraft Launcheron, nincsenek ellenőrizve."
   },
   "content.diff-modal.unknown-content-body": {
     "defaultMessage": "A szerverén található egyes tartalmakat nem sikerült elemezni, ezért előfordulhat, hogy ez a változás hatással lesz rájuk."
   },
   "content.diff-modal.unknown-files-description": {
-    "defaultMessage": "Ez a frissítés olyan fájlokat tartalmaz, amelyek nem szerepelnek a Modrinthon. Határozottan javasoljuk, hogy kizárólag olyan forrásokból származó fájlokat telepíts, amelyekben megbízol."
+    "defaultMessage": "Ez a frissítés olyan fájlokat tartalmaz, amelyek nem szerepelnek a Panda Minecraft Launcheron. Határozottan javasoljuk, hogy kizárólag olyan forrásokból származó fájlokat telepíts, amelyekben megbízol."
   },
   "content.diff-modal.unknown-files-warning": {
     "defaultMessage": "Ismeretlen fájlok"
@@ -1173,7 +1173,7 @@
     "defaultMessage": "Munkára mutató hivatkozás"
   },
   "external-files.permissions-card.editor.modrinth-link-to-work": {
-    "defaultMessage": "Ez egy Modrinth-hivatkozásnak tűnik. Ha ez a tartalom elérhető a Modrinthon, akkor valószínűleg helytelenül lett exportálva a csomagod. Ha egy másik webhelyről töltötted le, próbáld inkább a Modrinth-verziót letölteni; előfordulhat, hogy a fájlok nem teljesen azonosak."
+    "defaultMessage": "Ez egy Panda Minecraft Launcher-hivatkozásnak tűnik. Ha ez a tartalom elérhető a Panda Minecraft Launcheron, akkor valószínűleg helytelenül lett exportálva a csomagod. Ha egy másik webhelyről töltötted le, próbáld inkább a Panda Minecraft Launcher-verziót letölteni; előfordulhat, hogy a fájlok nem teljesen azonosak."
   },
   "external-files.permissions-card.editor.notes-label": {
     "defaultMessage": "Jegyzetek"
@@ -1197,7 +1197,7 @@
     "defaultMessage": "Ha kiderül, hogy hazudtál vagy manipuláltad a feltöltött képeket, a projektedet és a fiókodat megszüntethetjük."
   },
   "external-files.permissions-card.editor.proof-warning.title": {
-    "defaultMessage": "A Modrinth munkatársai ellenőrizhetik a beküldött bizonyítékokat"
+    "defaultMessage": "A Panda Minecraft Launcher munkatársai ellenőrizhetik a beküldött bizonyítékokat"
   },
   "external-files.permissions-card.editor.save": {
     "defaultMessage": "Hossárendelés mentése"
@@ -1290,7 +1290,7 @@
     "defaultMessage": "Automatikusan hozzárendelve"
   },
   "external-files.permissions-card.reason.globally-allowed.description": {
-    "defaultMessage": "Ezt a fájlt már láttuk korábban, és elkészítettük hozzá a hozzárendelést. Ha valami nem tűnik helyesnek, vedd fel a kapcsolatot a Modrinth ügyfélszolgálatával a Súgóközponton keresztül"
+    "defaultMessage": "Ezt a fájlt már láttuk korábban, és elkészítettük hozzá a hozzárendelést. Ha valami nem tűnik helyesnek, vedd fel a kapcsolatot a Panda Minecraft Launcher ügyfélszolgálatával a Súgóközponton keresztül"
   },
   "external-files.permissions-card.reason.license": {
     "defaultMessage": "Licenc"
@@ -4032,7 +4032,7 @@
     "defaultMessage": "{count} {countPlural, plural,one {jelenleg játszott} other {jelenleg játszottak}}"
   },
   "project.recent-plays.tooltip": {
-    "defaultMessage": "{count} játékalkalom a Modrinthról az elmúlt 2 hétben"
+    "defaultMessage": "{count} játékalkalom a Panda Minecraft Launcherról az elmúlt 2 hétben"
   },
   "project.server.customModpackTooltip": {
     "defaultMessage": "Ez a projekt egy egyedi modcsomagot használ"
@@ -4377,7 +4377,7 @@
     "defaultMessage": "A projektednek több környezete van"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Nemrégiben átalakítottuk a Modrinth környezetrendszerét, és mostantól új beállítási lehetőségek állnak rendelkezésre. Kérjük, győződj meg arról, hogy az alábbiak közül a megfelelő opciót választottad ki, majd ha kész vagy, kattints az „Ellenőrzés” gombra!"
+    "defaultMessage": "Nemrégiben átalakítottuk a Panda Minecraft Launcher környezetrendszerét, és mostantól új beállítási lehetőségek állnak rendelkezésre. Kérjük, győződj meg arról, hogy az alábbiak közül a megfelelő opciót választottad ki, majd ha kész vagy, kattints az „Ellenőrzés” gombra!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Kérjük, tekintsd át az alábbi lehetőségeket"
@@ -4749,13 +4749,13 @@
     "defaultMessage": "Betöltő"
   },
   "search.photosensitivity-warning-modal.body.1": {
-    "defaultMessage": "Nem tudjuk garantálni, hogy a Modrinth összes tartalma megfelelően van címkézve."
+    "defaultMessage": "Nem tudjuk garantálni, hogy a Panda Minecraft Launcher összes tartalma megfelelően van címkézve."
   },
   "search.photosensitivity-warning-modal.body.2": {
-    "defaultMessage": "A fényérzékenységet kiváltó tartalmakra vonatkozó címkéket a Modrinthra feltöltő készítők saját maguk adják meg. Ezeket a projekteket nem vetették alá biztonsági tesztelésnek."
+    "defaultMessage": "A fényérzékenységet kiváltó tartalmakra vonatkozó címkéket a Panda Minecraft Launcherra feltöltő készítők saját maguk adják meg. Ezeket a projekteket nem vetették alá biztonsági tesztelésnek."
   },
   "search.photosensitivity-warning-modal.body.3": {
-    "defaultMessage": "A Modrinthon található tartalmak használata saját felelősségre történik. Kérjük, ügyelj a biztonságodra!💚"
+    "defaultMessage": "A Panda Minecraft Launcheron található tartalmak használata saját felelősségre történik. Kérjük, ügyelj a biztonságodra!💚"
   },
   "search.photosensitivity-warning-modal.dont-show-again": {
     "defaultMessage": "Ne jelenjen meg újra"
@@ -7284,19 +7284,19 @@
     "defaultMessage": "A rosszindulatú programokat gyakran modfájlokon keresztül terjesztik, például a Discordhoz hasonló platformokon történő megosztás révén."
   },
   "unknown-file-warning-modal.mod-warning-body": {
-    "defaultMessage": " nincs közzétéve a Modrinthon. Erősen javasoljuk, hogy csak olyan forrásból telepíts fájlokat, amelyben megbízol."
+    "defaultMessage": " nincs közzétéve a Panda Minecraft Launcheron. Erősen javasoljuk, hogy csak olyan forrásból telepíts fájlokat, amelyben megbízol."
   },
   "unknown-file-warning-modal.mod-warning-title": {
     "defaultMessage": "Ismeretlen fájl"
   },
   "unknown-file-warning-modal.modpack-warning-body": {
-    "defaultMessage": " olyan fájlokat tartalmaz, amelyek nincsenek közzétéve a Modrinthon. Erősen javasoljuk, hogy csak olyan forrásból telepíts fájlokat, amelyben megbízol."
+    "defaultMessage": " olyan fájlokat tartalmaz, amelyek nincsenek közzétéve a Panda Minecraft Launcheron. Erősen javasoljuk, hogy csak olyan forrásból telepíts fájlokat, amelyben megbízol."
   },
   "unknown-file-warning-modal.modpack-warning-title": {
     "defaultMessage": "Ismeretlen fájlok"
   },
   "unknown-file-warning-modal.reviewed-files": {
-    "defaultMessage": "A Modrinthra fel nem töltött fájlokat nem ellenőrizzük."
+    "defaultMessage": "A Panda Minecraft Launcherra fel nem töltött fájlokat nem ellenőrizzük."
   },
   "unknown-file-warning-modal.unrecognized-files": {
     "defaultMessage": "Fel nem ismert fájlok"

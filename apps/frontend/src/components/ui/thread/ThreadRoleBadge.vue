@@ -20,9 +20,9 @@ const props = defineProps<{ role?: string; avatar?: boolean }>()
 
 const { formatMessage } = useVIntl()
 const messages = defineMessages({
-	team: { id: 'thread.message.modrinth-team', defaultMessage: 'Modrinth Team' },
+	team: { id: 'thread.message.modrinth-team', defaultMessage: 'Panda Minecraft Launcher Team' },
 	moderator: { id: 'thread.message.moderator', defaultMessage: 'Moderator' },
-	system: { id: 'thread.message.system', defaultMessage: 'Modrinth' },
+	system: { id: 'thread.message.system', defaultMessage: 'Panda Minecraft Launcher' },
 })
 const icon = computed(() =>
 	props.role === 'admin' || props.role === 'system'

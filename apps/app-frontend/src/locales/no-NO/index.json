@@ -186,7 +186,7 @@
     "message": "Skjul høyre menylinje"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
-    "message": "Vis en sikkerhetsvarsling før innstallering av en modpakke (.mrpack) som ikke hostes på Modrinth."
+    "message": "Vis en sikkerhetsvarsling før innstallering av en modpakke (.mrpack) som ikke hostes på Panda Minecraft Launcher."
   },
   "app.appearance-settings.unknown-pack-warning.title": {
     "message": "Advar meg før jeg installerer ukjente modpakker"
@@ -216,7 +216,7 @@
     "message": "Bruk disse oppførselsinnstillingene overalt hvor du er logget in. La denne være av for å beholde separate innstillinger på denne enheten."
   },
   "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Logg inn på en Panda-konto for å synkronisere innstillinger."
+    "message": "Logg inn på en Panda Minecraft Launcher-konto for å synkronisere innstillinger."
   },
   "app.behavior-settings.sync-across-devices.title": {
     "message": "Synkroniser oppførsel på tvers av enheter"
@@ -426,7 +426,7 @@
     "message": "Bruk disse oppførselsinnstillingene overalt hvor du er logget in. La denne være av for å beholde separate innstillinger på denne enheten."
   },
   "app.features-settings.sync-across-devices.signed-out-tooltip": {
-    "message": "Logg inn på en Panda-konto for å synkronisere innstillinger."
+    "message": "Logg inn på en Panda Minecraft Launcher-konto for å synkronisere innstillinger."
   },
   "app.features-settings.sync-across-devices.title": {
     "message": "Synkroniser oppførsel på tvers av enheter"
@@ -588,10 +588,10 @@
     "message": "Det kan være annerledes enn Minecraft-brukernavnet deres!"
   },
   "friends.add-friend.username.placeholder": {
-    "message": "Fyll ut Panda-brukernavn..."
+    "message": "Fyll ut Panda Minecraft Launcher-brukernavn..."
   },
   "friends.add-friend.username.title": {
-    "message": "Hva er Panda-brukernavnet til vennen din?"
+    "message": "Hva er Panda Minecraft Launcher-brukernavnet til vennen din?"
   },
   "friends.add-friends-to-share": {
     "message": "<link>Legg til venner</link> for å se hva de spiller!"
@@ -633,7 +633,7 @@
     "message": "{title} - {count}"
   },
   "friends.sign-in-to-add-friends": {
-    "message": "<link>Logg inn til en Panda-bruker</link> for å legge til venner og se hva de spiller!"
+    "message": "<link>Logg inn til en Panda Minecraft Launcher-bruker</link> for å legge til venner og se hva de spiller!"
   },
   "instance.add-server.add-and-play": {
     "message": "Legg til og spill"

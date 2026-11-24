@@ -1,6 +1,6 @@
-# packages/app-lib - Modrinth App Library (`theseus`)
+# packages/app-lib - Panda Minecraft Launcher library (`theseus`)
 
-Rust crate holding the core logic of the Modrinth App: instances, installs, launching, shared instances, and the SQLite state. `apps/app` (crate `theseus_gui`) wraps it as Tauri commands in `apps/app/src/api/`, and `apps/app-frontend` calls those commands with `invoke`.
+Rust crate holding the core logic of Panda Minecraft Launcher: instances, installs, launching, shared instances, and the SQLite state. `apps/app` (crate `theseus_gui`) wraps it as Tauri commands in `apps/app/src/api/`, and `apps/app-frontend` calls those commands with `invoke`.
 
 ## Checks
 

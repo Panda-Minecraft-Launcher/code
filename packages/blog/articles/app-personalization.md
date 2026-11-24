@@ -7,7 +7,7 @@ authors: ['AJfd8YH6', '6EjnV9Uf']
 
 Hey everyone,
 
-Creating, organizing, and finding instances has always been one of the most important parts of the Modrinth App, but we weren’t happy with how this worked.
+Creating, organizing, and finding instances has always been one of the most important parts of the Panda Minecraft Launcher, but we weren’t happy with how this worked.
 
 With this update, we’ve brought the Home and Library together into a new Play page, rebuilt instance organization, added an icon editor, and improved onboarding across the whole app.
 
@@ -82,18 +82,18 @@ We’ve released an initial set of backgrounds and symbols, with more to come ov
 
 ## Onboarding
 
-Along with this update, we wanted to make the app experience better for new users. We’ve introduced a getting started checklist that covers creating your first instance, signing into Minecraft, and signing into Modrinth. The natural flow of the app already takes you through most of this, but it works as a helpful reminder.
+Along with this update, we wanted to make the app experience better for new users. We’ve introduced a getting started checklist that covers creating your first instance, signing into Minecraft, and signing into Panda Minecraft Launcher. The natural flow of the app already takes you through most of this, but it works as a helpful reminder.
 
 ### Empty states
 
 We’ve also updated several of the more important empty states in the app. This includes the new Play page, Hosting page, and letting you play around with the skin editor without being logged in.
 
-!["Welcome to Modrinth" below the Modrinth logo with a button to create your first instance.](./welcome.webp)
+!["Welcome to Panda Minecraft Launcher" below the Panda Minecraft Launcher logo with a button to create your first instance.](./welcome.webp)
 
-![Modrinth Hosting empty state showing a few benefits of Modrinth Hosting and a graphic showing how you can invite your friends.](./hosting.webp)
+![Panda Minecraft Launcher empty state showing a few benefits of Panda Minecraft Launcher and a graphic showing how you can invite your friends.](./hosting.webp)
 
 ### Sign-in modals
 
-Along with the empty states, the Microsoft and Modrinth account sign-in modals also got a new look as part of the onboarding work.
+Along with the empty states, the Microsoft and Panda Minecraft Launcher account sign-in modals also got a new look as part of the onboarding work.
 
 ![The new Minecraft sign-in menu with a Steve character.](./sign-in.webp)
