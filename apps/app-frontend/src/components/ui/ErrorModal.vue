@@ -67,8 +67,7 @@ defineExpose({
 		if (errorVal.code?.startsWith('minecraft_auth_')) {
 			title.value = 'Unable to sign in to Minecraft'
 			errorType.value = 'minecraft_auth'
-			supportLink.value =
-				'https://github.com/Panda-Minecraft-Launcher/code/issues'
+			supportLink.value = 'https://github.com/Panda-Minecraft-Launcher/code/issues'
 
 			if (errorVal.code === 'minecraft_auth_network') {
 				metadata.value.network = true
@@ -192,12 +191,10 @@ async function inspectDebugInfo(text) {
 					<template v-if="metadata.network">
 						<h3>Network issues</h3>
 						<p>
-							It looks like there were issues with the Panda Minecraft Launcher connecting to Microsoft's
-							servers. This is often the result of a poor connection, so we recommend trying again
-							to see if it works. If issues continue to persist, follow the steps in
-							<a
-								href="https://github.com/Panda-Minecraft-Launcher/code/issues"
-							>
+							It looks like there were issues with the Panda Minecraft Launcher connecting to
+							Microsoft's servers. This is often the result of a poor connection, so we recommend
+							trying again to see if it works. If issues continue to persist, follow the steps in
+							<a href="https://github.com/Panda-Minecraft-Launcher/code/issues">
 								our support article
 							</a>
 							to troubleshoot.
@@ -206,12 +203,10 @@ async function inspectDebugInfo(text) {
 					<template v-else-if="metadata.hostsFile">
 						<h3>Network issues</h3>
 						<p>
-							The Panda Minecraft Launcher tried to connect to Microsoft / Xbox / Minecraft services, but the
-							remote server rejected the connection. This may indicate that these services are
-							blocked by the hosts file. Please visit
-							<a
-								href="https://github.com/Panda-Minecraft-Launcher/code/issues"
-							>
+							The Panda Minecraft Launcher tried to connect to Microsoft / Xbox / Minecraft
+							services, but the remote server rejected the connection. This may indicate that these
+							services are blocked by the hosts file. Please visit
+							<a href="https://github.com/Panda-Minecraft-Launcher/code/issues">
 								our support article
 							</a>
 							for steps on how to fix the issue.
@@ -245,9 +240,9 @@ async function inspectDebugInfo(text) {
 					<template v-if="metadata.readOnly">
 						<h3>Change directory permissions</h3>
 						<p>
-							It looks like the Panda Minecraft Launcher is unable to write to the directory you selected.
-							Please adjust the permissions of the directory and try again or cancel the directory
-							change.
+							It looks like the Panda Minecraft Launcher is unable to write to the directory you
+							selected. Please adjust the permissions of the directory and try again or cancel the
+							directory change.
 						</p>
 					</template>
 					<template v-else-if="metadata.notEnoughSpace">
@@ -259,8 +254,8 @@ async function inspectDebugInfo(text) {
 					</template>
 					<template v-else>
 						<p>
-							The Panda Minecraft Launcher is unable to migrate to the new directory you selected. Please
-							contact support for help or cancel the directory change.
+							The Panda Minecraft Launcher is unable to migrate to the new directory you selected.
+							Please contact support for help or cancel the directory change.
 						</p>
 					</template>
 
@@ -275,8 +270,8 @@ async function inspectDebugInfo(text) {
 				</template>
 				<template v-else-if="errorType === 'state_init'">
 					<p>
-						Panda Minecraft Launcher failed to load correctly. This may be because of a corrupted file, or
-						because the app is missing crucial files.
+						Panda Minecraft Launcher failed to load correctly. This may be because of a corrupted
+						file, or because the app is missing crucial files.
 					</p>
 					<p>You may be able to fix it through one of the following ways:</p>
 					<ul>

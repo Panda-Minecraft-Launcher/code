@@ -1152,10 +1152,8 @@ pub(super) async fn fresh_start_removed_paths(
     )
     .await?
     .ok_or(ErrorKind::InputError("unknown instance".to_string()))?;
-    let instance_path = state
-        .directories
-        .instances_dir()
-        .join(metadata.instance.path);
+    let instance_path =
+        state.directories.instance_path(&metadata.instance.path);
     let mut entries = crate::util::io::read_dir(&instance_path).await?;
     let mut paths = Vec::new();
     while let Some(entry) = entries.next_entry().await? {
@@ -1189,10 +1187,8 @@ async fn clear_shared_instance_for_fresh_start(
     )
     .await?
     .ok_or(ErrorKind::InputError("unknown instance".to_string()))?;
-    let instance_path = state
-        .directories
-        .instances_dir()
-        .join(metadata.instance.path);
+    let instance_path =
+        state.directories.instance_path(&metadata.instance.path);
     for name in fresh_start_removed_paths(instance_id, state).await? {
         let path = instance_path.join(name);
         if tokio::fs::symlink_metadata(&path).await?.is_dir() {
@@ -1715,8 +1711,7 @@ async fn install_shared_instance_config_bundle(
     .ok_or(ErrorKind::InputError("unknown instance".to_string()))?;
     let config_path = state
         .directories
-        .instances_dir()
-        .join(metadata.instance.path)
+        .instance_path(&metadata.instance.path)
         .join(CONFIG_DIRECTORY);
     crate::util::io::create_dir_all(&config_path).await?;
 

@@ -42,7 +42,8 @@ const messages = defineMessages({
 	},
 	pending: {
 		id: 'app.settings.resource-management.app-directory.pending',
-		defaultMessage: 'Your app directory will move to {path} the next time Panda Minecraft Launcher opens.',
+		defaultMessage:
+			'Your app directory will move to {path} the next time Panda Minecraft Launcher opens.',
 	},
 	cancelMove: {
 		id: 'app.settings.resource-management.app-directory.cancel-move',

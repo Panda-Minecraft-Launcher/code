@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Aktualizace sdíleného obsahu"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Nastavit jako primární instanci"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Žádné spuštěné instance"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Primární instance"
   },
   "app.action-bar.reload-to-update": {
     "message": "Znovu načíst pro aktualizaci"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Zobrazit probíhající stahování"
   },
-  "app.action-bar.view-instance": {
-    "message": "Zobrazit instanci"
-  },
   "app.action-bar.view-logs": {
     "message": "Zobrazit logy"
-  },
-  "app.ads-consent.accept": {
-    "message": "Přijmout vše"
-  },
-  "app.ads-consent.body": {
-    "message": "Reklamy umožňují Modrint a vyplatí finanční prostředky partnerům. Naši partneři mohou ukládat nebo přistupovat k cookies v aplikaci, aby přizpůsobili reklamy a změřili výkon."
-  },
-  "app.ads-consent.manage": {
-    "message": "Spravovat preference"
-  },
-  "app.ads-consent.reject": {
-    "message": "Odmítnout vše"
-  },
-  "app.ads-consent.title": {
-    "message": "Vaše soukromí a způsob, jakým reklamy podporují Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Zobrazit instanční knihovny v kompaktních řádcích."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Přeskočit nedůležitá upozornění"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Ve výchozím nastavení skrýt pravý postranní panel a přidat tlačítko pro jeho zobrazení nebo skrývání."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Skrýt pravý postranní panel"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Zobrazit bezpečnostní varování před instalací modpacku (.mrpack), který není hostován na Panda Minecraft Launcher."
@@ -1558,9 +1525,6 @@
   },
   "app.navigation.home": {
     "message": "Domov"
-  },
-  "app.navigation.next-image": {
-    "message": "Další obrázek"
   },
   "app.news.title": {
     "message": "Novinky"

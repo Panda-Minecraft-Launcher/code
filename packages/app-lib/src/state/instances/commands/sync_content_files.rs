@@ -565,8 +565,7 @@ pub(super) async fn normalize_legacy_content_files(
         let opposite = file_path_on_disk(canonical, !scanned.enabled);
         let opposite = state
             .directories
-            .instances_dir()
-            .join(&instance.path)
+            .instance_path(&instance.path)
             .join(opposite);
         match tokio::fs::symlink_metadata(opposite).await {
             Ok(_) => continue,

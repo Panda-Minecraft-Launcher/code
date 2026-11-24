@@ -153,17 +153,19 @@
 					<span class="font-semibold text-contrast">{{
 						isPaperLike
 							? formatMessage(messages.buildNumberLabel)
-							: formatMessage(messages.loaderVersionLabel)
+							: formatMessage(ctx.loaderVersionLabel ?? messages.loaderVersionLabel)
 					}}</span>
 					<Chips
-						v-if="!isPaperLike"
+						v-if="!isPaperLike && !ctx.hideLoaderVersionTypeChips"
 						v-model="loaderVersionType"
 						:items="loaderVersionTypeItems"
 						:disabled-items="loaderVersionTypeDisabledItems"
 						:disabled-tooltip="'No such versions available'"
 						:format-label="formatLoaderVersionTypeLabel"
 					/>
-					<div v-if="isPaperLike || loaderVersionType === 'other'">
+					<div
+						v-if="isPaperLike || loaderVersionType === 'other' || ctx.hideLoaderVersionTypeChips"
+					>
 						<Combobox
 							v-model="selectedLoaderVersion"
 							:options="loaderVersionOptions"
@@ -438,6 +440,7 @@ function toApiLoaderName(loader: string): string {
 }
 
 const gameVersionsLoading = computed(() => {
+	if (ctx.gameVersions) return false
 	if (ctx.projectInstall.value) return false
 	const loader = selectedLoader.value
 	if (!loader || loader === 'vanilla') return false
@@ -448,6 +451,9 @@ const gameVersionsLoading = computed(() => {
 
 // Game versions from tags provider, filtered by loader support
 const gameVersionOptions = computed<ComboboxOption<string>[]>(() => {
+	if (ctx.gameVersions) {
+		return ctx.gameVersions.map((version) => ({ value: version, label: version }))
+	}
 	if (ctx.projectInstall.value) {
 		const versions =
 			ctx.showSnapshots.value || ctx.projectInstall.value.releaseGameVersions.size === 0
@@ -736,7 +742,7 @@ const loaderVersionOptions = computed<ComboboxOption<string>[]>(() => {
 
 	return loaderVersionsData.value.map((v) => ({
 		value: v.id,
-		label: v.stable ? `${v.id} (stable)` : v.id,
+		label: v.stable && !ctx.hideLoaderVersionTypeChips ? `${v.id} (stable)` : v.id,
 	}))
 })
 </script>

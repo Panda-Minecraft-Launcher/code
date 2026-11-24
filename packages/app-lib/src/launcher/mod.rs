@@ -176,6 +176,19 @@ pub async fn get_loader_version_from_profile(
         return Ok(None);
     }
 
+    if loader == ModLoader::OptiFine {
+        let id = match loader_version.unwrap_or("optifine") {
+            "" | "latest" | "stable" => "optifine",
+            id => id,
+        };
+        return Ok(Some(LoaderVersion {
+            id: id.to_string(),
+            url: url::Url::parse("modrinth-local:installed")
+                .expect("valid local loader URL"),
+            stable: false,
+        }));
+    }
+
     let version = loader_version.unwrap_or("latest");
 
     let filter = |it: &LoaderVersion| match version {
@@ -209,24 +222,19 @@ pub async fn get_loader_version_from_profile(
         return Ok(None);
     }
 
-    Ok(installed_loader_version(
-        &directories.versions_dir(),
-        game_version,
-        version,
-    ))
+    Ok(installed_loader_version(directories, game_version, version))
 }
 
 fn installed_loader_version(
-    versions_dir: &Path,
+    directories: &DirectoryInfo,
     game_version: &str,
     loader_version: &str,
 ) -> Option<LoaderVersion> {
     let loader_version = concrete_loader_version_id(loader_version)?;
-    let path = installed_loader_metadata_path(
-        versions_dir,
-        game_version,
-        loader_version,
-    );
+    let version_id = format!("{game_version}-{loader_version}");
+    let path = directories
+        .version_dir(&version_id)
+        .join(format!("{version_id}.json"));
     if !path.is_file() {
         return None;
     }
@@ -254,17 +262,6 @@ fn concrete_loader_version_id(loader_version: &str) -> Option<&str> {
         "" | "latest" | "stable" => None,
         id => Some(id),
     }
-}
-
-fn installed_loader_metadata_path(
-    versions_dir: &Path,
-    game_version: &str,
-    loader_version: &str,
-) -> PathBuf {
-    let version_id = format!("{game_version}-{loader_version}");
-    versions_dir
-        .join(&version_id)
-        .join(format!("{version_id}.json"))
 }
 
 fn loader_versions_for_game_version<'a>(
@@ -324,6 +321,7 @@ pub(crate) async fn resolve_java_for_launch(
         None,
         None,
         None,
+        Some(&context.instance.path),
     )
     .await?;
 
@@ -395,8 +393,7 @@ fn get_instance_full_path(
     instance_path: &str,
     directories: &DirectoryInfo,
 ) -> crate::Result<PathBuf> {
-    let instances_dir = directories.instances_dir();
-    let full_path = io::canonicalize(instances_dir.join(instance_path))?;
+    let full_path = io::canonicalize(directories.instance_path(instance_path))?;
     Ok(full_path)
 }
 
@@ -522,6 +519,7 @@ async fn install_minecraft_inner(
         Some(repairing),
         loading_bar.as_ref(),
         reporter.as_ref(),
+        Some(&instance.path),
     )
     .await?;
 
@@ -610,12 +608,13 @@ async fn install_minecraft_inner(
 		minecraft_updated,
 		reporter.clone(),
 		phase_details.clone(),
+		&instance.path,
 	)
 	.await?;
 
     let client_path = state
         .directories
-        .version_dir(&version_jar)
+        .version_dir_for_instance(&version_jar, &instance.path)
         .join(format!("{version_jar}.jar"));
     if let Some(processors) = &version_info.processors {
         let libraries_dir = state.directories.libraries_dir();
@@ -982,6 +981,7 @@ pub async fn launch_minecraft(
         None,
         None,
         None,
+        Some(&instance.path),
     )
     .await
     .context("loading version info")?;
@@ -1000,6 +1000,7 @@ pub async fn launch_minecraft(
                 Some(true),
                 None,
                 None,
+                Some(&instance.path),
             )
             .await
             .context("reloading version info with logging config")?;
@@ -1028,7 +1029,7 @@ pub async fn launch_minecraft(
 
     let client_path = state
         .directories
-        .version_dir(&version_jar)
+        .version_dir_for_instance(&version_jar, &instance.path)
         .join(format!("{version_jar}.jar"));
 
     let args = version_info.arguments.clone().unwrap_or_default();
@@ -1064,6 +1065,7 @@ pub async fn launch_minecraft(
         &version_info,
         &java_version.architecture,
         minecraft_updated,
+        &instance.path,
     )? {
         tracing::info!(instance_id = %instance.id, path = %path.display(), "Restoring missing Minecraft runtime files before launch");
         drop(runtime_lease);
@@ -1086,7 +1088,19 @@ pub async fn launch_minecraft(
     }
     let _runtime_lease = runtime_lease;
 
-    let natives_dir = state.directories.version_natives_dir(&version_jar);
+    let optifine_natives_dir =
+        state.directories.version_natives_dir(&version_jar);
+    let vanilla_natives_dir = state
+        .directories
+        .version_natives_dir(&content_set.game_version);
+    let natives_dir = if content_set.loader == ModLoader::OptiFine
+        && vanilla_natives_dir.exists()
+    {
+        // OptiFine reuses vanilla libraries, whose natives live under the vanilla version id.
+        vanilla_natives_dir
+    } else {
+        optifine_natives_dir
+    };
     if !natives_dir.exists() {
         io::create_dir_all(&natives_dir).await?;
     }
@@ -1133,6 +1147,22 @@ pub async fn launch_minecraft(
 
     let rpc_server = RpcServerBuilder::new().launch().await?;
 
+    let vanilla_client_jar = if content_set.loader == ModLoader::OptiFine {
+        Some(
+            state
+                .directories
+                .version_dir(&content_set.game_version)
+                .join(format!("{}.jar", content_set.game_version)),
+        )
+    } else {
+        None
+    };
+    let mut launcher_class_paths: Vec<&Path> =
+        vec![&main_class_path, &client_path];
+    if let Some(vanilla_client_jar) = &vanilla_client_jar {
+        launcher_class_paths.push(vanilla_client_jar);
+    }
+
     command.args(
         args::get_jvm_arguments(
             args.get(&d::minecraft::ArgumentType::Jvm)
@@ -1143,7 +1173,7 @@ pub async fn launch_minecraft(
             &args::get_class_paths(
                 &state.directories.libraries_dir(),
                 version_info.libraries.as_slice(),
-                &[&main_class_path, &client_path],
+                &launcher_class_paths,
                 &java_version.architecture,
                 minecraft_updated,
             )?,

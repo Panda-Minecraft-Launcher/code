@@ -86,7 +86,8 @@ const messages = defineMessages({
 	},
 	offline: {
 		id: 'browse.offline',
-		defaultMessage: 'You are currently offline. Connect to the internet to browse Panda Minecraft Launcher!',
+		defaultMessage:
+			'You are currently offline. Connect to the internet to browse Panda Minecraft Launcher!',
 	},
 	noResults: {
 		id: 'browse.no-results',

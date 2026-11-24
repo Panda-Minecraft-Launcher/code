@@ -204,6 +204,11 @@ pub enum InstallRequest {
         instance_id: String,
         force: bool,
     },
+    InstallOptifine {
+        instance_id: String,
+        game_version: String,
+        version: Option<String>,
+    },
     InstallPackToExistingInstance {
         instance_id: String,
         location: CreatePackLocation,
@@ -363,6 +368,7 @@ impl InstallRequest {
             Self::InstallExistingInstance { .. } => {
                 InstallJobKind::InstallExistingInstance
             }
+            Self::InstallOptifine { .. } => InstallJobKind::InstallOptifine,
             Self::InstallPackToExistingInstance { .. } => {
                 InstallJobKind::InstallPackToExistingInstance
             }
@@ -383,6 +389,11 @@ impl InstallRequest {
                     instance_id: instance_id.clone(),
                 }
             }
+            Self::InstallOptifine { instance_id, .. } => {
+                InstallTarget::NewInstance {
+                    instance_id: Some(instance_id.clone()),
+                }
+            }
             _ => InstallTarget::NewInstance { instance_id: None },
         }
     }
@@ -395,6 +406,11 @@ impl InstallRequest {
             | Self::UpdateSharedInstance { instance_id, .. } => {
                 InstallCleanup::RestoreExistingInstance {
                     instance_id: instance_id.clone(),
+                }
+            }
+            Self::InstallOptifine { instance_id, .. } => {
+                InstallCleanup::DeleteNewInstance {
+                    instance_id: Some(instance_id.clone()),
                 }
             }
             _ => InstallCleanup::DeleteNewInstance { instance_id: None },
@@ -415,6 +431,7 @@ pub enum InstallJobKind {
     ImportInstance,
     DuplicateInstance,
     InstallExistingInstance,
+    InstallOptifine,
     InstallPackToExistingInstance,
     UpdateSharedInstance,
     BulkUpdateContent,
@@ -429,6 +446,7 @@ impl InstallJobKind {
             Self::ImportInstance => "import_instance",
             Self::DuplicateInstance => "duplicate_instance",
             Self::InstallExistingInstance => "install_existing_instance",
+            Self::InstallOptifine => "install_optifine",
             Self::InstallPackToExistingInstance => {
                 "install_pack_to_existing_instance"
             }
@@ -444,6 +462,7 @@ impl InstallJobKind {
             "import_instance" => Self::ImportInstance,
             "duplicate_instance" => Self::DuplicateInstance,
             "install_existing_instance" => Self::InstallExistingInstance,
+            "install_optifine" => Self::InstallOptifine,
             "install_pack_to_existing_instance" => {
                 Self::InstallPackToExistingInstance
             }

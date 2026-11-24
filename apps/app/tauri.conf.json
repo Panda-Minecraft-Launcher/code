@@ -95,10 +95,13 @@
 					"$CONFIG/caches/icons/*",
 					"$APPDATA/profiles/*/saves/*/icon.png",
 					"$APPDATA/instances/*/saves/*/icon.png",
+					"$APPDATA/optifine_instances/**",
 					"$APPCONFIG/profiles/*/saves/*/icon.png",
 					"$APPCONFIG/instances/*/saves/*/icon.png",
+					"$APPCONFIG/optifine_instances/**",
 					"$CONFIG/profiles/*/saves/*/icon.png",
-					"$CONFIG/instances/*/saves/*/icon.png"
+					"$CONFIG/instances/*/saves/*/icon.png",
+					"$CONFIG/optifine_instances/**"
 				],
 				"enable": true
 			},

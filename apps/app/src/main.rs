@@ -321,6 +321,7 @@ fn main() {
         .plugin(api::utils::init())
         .plugin(api::cache::init())
         .plugin(api::curseforge::init())
+        .plugin(api::optifine::init())
         .plugin(api::files::init())
         .plugin(api::friends::init())
         .plugin(api::worlds::init())

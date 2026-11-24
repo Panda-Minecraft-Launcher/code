@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Opdatere delt indhold"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Gør til primære instance"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Ingen instances kørende"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Primære instance"
   },
   "app.action-bar.reload-to-update": {
     "message": "Genindlæs for at opdatere"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Vis aktive downloads"
   },
-  "app.action-bar.view-instance": {
-    "message": "Vis instance"
-  },
   "app.action-bar.view-logs": {
     "message": "Vis logs"
-  },
-  "app.ads-consent.accept": {
-    "message": "Accepter alle"
-  },
-  "app.ads-consent.body": {
-    "message": "Reklamer gør Panda Minecraft Launcher muligt og finansiere skaber udbetalinger. Vores partnere må gemme og tilgå cookies i appen for at personliggøre reklamer og måle effektivitet."
-  },
-  "app.ads-consent.manage": {
-    "message": "Administrer præferencer"
-  },
-  "app.ads-consent.reject": {
-    "message": "Afvis alle"
-  },
-  "app.ads-consent.title": {
-    "message": "Dit privatliv og hvordan reklamer hjælper Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Vis biblioteksinstanser i et kompakt række-layout."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Spring ikke nødvendige advarseler over"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Skjul som standard højre sidepanel og tilføj en knap for at vise eller skjule det."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Skjul højre sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Vis en sikkerhedsadvarsel, før du installerer en modpack (.mrpack), der ikke er hostet på Panda Minecraft Launcher."

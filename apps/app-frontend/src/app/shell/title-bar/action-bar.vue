@@ -16,6 +16,11 @@
 			<UnplugIcon class="text-secondary" />
 			<span class="text-sm text-contrast"> {{ formatMessage(messages.offline) }} </span>
 		</div>
+		<Button type="outlined" native-type="button" class="!h-[34px] text-sm" @click="showChangelog">
+			<NewspaperIcon />
+			{{ formatMessage(messages.news) }}
+		</Button>
+		<ChangelogModal ref="changelogModal" />
 		<AppUpdateButton />
 		<div
 			class="flex border-solid border-surface-5 text-sm font-medium items-center rounded-xl border"
@@ -85,11 +90,13 @@
 import {
 	DownloadIcon,
 	DropdownIcon,
+	NewspaperIcon,
 	StopCircleIcon,
 	TerminalSquareIcon,
 	UnplugIcon,
 } from '@modrinth/assets'
 import {
+	Button,
 	defineMessages,
 	FloatingMenu,
 	IconButton,
@@ -100,12 +107,13 @@ import {
 	useVIntl,
 } from '@modrinth/ui'
 import { convertFileSrc } from '@tauri-apps/api/core'
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, useTemplateRef } from 'vue'
 import { useRouter } from 'vue-router'
 
 import AppUpdateButton from '@/components/ui/app-update-button/index.vue'
 import DownloadManager from '@/components/ui/download-manager/index.vue'
 import { useAppEvent } from '@/composables/use-app-event'
+import ChangelogModal from '@/features/news/changelog-modal.vue'
 import { get_many as getInstances } from '@/helpers/instance'
 import { get_all as getRunningProcesses, kill as killProcess } from '@/helpers/process'
 import type { LoadingBar } from '@/helpers/state'
@@ -118,6 +126,11 @@ const { formatMessage } = useVIntl()
 
 const router = useRouter()
 
+const changelogModal = useTemplateRef<InstanceType<typeof ChangelogModal>>('changelogModal')
+function showChangelog() {
+	changelogModal.value?.show()
+}
+
 const showInstances = ref(false)
 
 interface RunningProcess {
@@ -127,6 +140,10 @@ interface RunningProcess {
 }
 
 const messages = defineMessages({
+	news: {
+		id: 'app.action-bar.changelog',
+		defaultMessage: 'News',
+	},
 	offline: {
 		id: 'app.action-bar.offline',
 		defaultMessage: 'Offline',

@@ -503,7 +503,8 @@ const messages = defineMessages({
 	},
 	blockedUsersDescription: {
 		id: 'settings.social.blocked-users.description',
-		defaultMessage: 'These are the users you have blocked on Panda Minecraft Launcher. They cannot:',
+		defaultMessage:
+			'These are the users you have blocked on Panda Minecraft Launcher. They cannot:',
 	},
 	friendRequestsRestriction: {
 		id: 'settings.social.blocked-users.restriction.friend-requests',

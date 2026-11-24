@@ -34,7 +34,10 @@
 						<li>
 							<IntlFormatted :message-id="messages.supportAndBugReports">
 								<template #support-link="{ children }">
-									<AutoLink class="text-link hover:underline" to="https://github.com/Panda-Minecraft-Launcher/code/issues">
+									<AutoLink
+										class="text-link hover:underline"
+										to="https://github.com/Panda-Minecraft-Launcher/code/issues"
+									>
 										<component :is="() => children" />
 									</AutoLink>
 								</template>

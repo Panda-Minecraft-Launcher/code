@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Đang cập nhật nội dung được chia sẻ"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Đặt làm bản cài đặt chính"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Không có bản cài đặt nào đang chạy"
-  },
   "app.action-bar.offline": {
     "message": "Ngoại tuyến"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Bản cài đặt chính"
   },
   "app.action-bar.reload-to-update": {
     "message": "Tải lại để cập nhật"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Xem các lượt tải xuống đang hoạt động"
   },
-  "app.action-bar.view-instance": {
-    "message": "Xem bản cài đặt"
-  },
   "app.action-bar.view-logs": {
     "message": "Xem nhật ký"
-  },
-  "app.ads-consent.accept": {
-    "message": "Chấp nhận tất cả"
-  },
-  "app.ads-consent.body": {
-    "message": "Quảng cáo giúp Panda Minecraft Launcher duy trì hoạt động và chi trả cho nhà sáng tạo. Các đối tác của chúng tôi có thể lưu trữ hoặc truy cập cookie trong ứng dụng để cá nhân hóa quảng cáo và đo lường hiệu quả."
-  },
-  "app.ads-consent.manage": {
-    "message": "Quản lý tùy chọn"
-  },
-  "app.ads-consent.reject": {
-    "message": "Từ chối tất cả"
-  },
-  "app.ads-consent.title": {
-    "message": "Quyền riêng tư của bạn và cách quảng cáo hỗ trợ Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Hiển thị các bản cài đặt trong thư viện theo bố cục hàng thu gọn."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Bỏ qua cảnh báo không thiết yếu"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Mặc định ẩn thanh bên phải và thêm nút để hiển thị hoặc ẩn thanh này."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Ẩn thanh bên phải"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Hiển thị cảnh báo an toàn trước khi cài modpack (.mrpack) không được lưu trữ trên Panda Minecraft Launcher."
@@ -1381,9 +1348,6 @@
   },
   "app.navigation.home": {
     "message": "Trang chủ"
-  },
-  "app.navigation.next-image": {
-    "message": "Ảnh tiếp theo"
   },
   "app.news.title": {
     "message": "Tin tức"

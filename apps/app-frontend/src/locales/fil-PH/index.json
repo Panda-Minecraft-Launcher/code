@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Binabago ang ibinahaging nilalaman"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Gumawa ng pangunahing instansiya"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Walang instansiya ang tumatakbo"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Pangunahing instansiya"
   },
   "app.action-bar.reload-to-update": {
     "message": "Mag-reload upang ma-update"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Tignan ang mga active downloads"
   },
-  "app.action-bar.view-instance": {
-    "message": "Tignan ang instansiya"
-  },
   "app.action-bar.view-logs": {
     "message": "Tignan ang logs"
-  },
-  "app.ads-consent.accept": {
-    "message": "Tanggapin lahat"
-  },
-  "app.ads-consent.body": {
-    "message": "Ginagawang posible ng mga advertisement ang Panda Minecraft Launcher at pinopondohan nito ang mga bayad sa mga creator. Maaaring mag-imbak o mag-access ng cookies ang aming mga partner sa app upang i-personalize ang mga advertisement at sukatin ang pagsasagawa."
-  },
-  "app.ads-consent.manage": {
-    "message": "Pamahalaan ang mga kagustuhan"
-  },
-  "app.ads-consent.reject": {
-    "message": "Tanggihan lahat"
-  },
-  "app.ads-consent.title": {
-    "message": "Iyong pagkapribado at kung paano sinusuportahan ng mga ad ang Panda Minecraft Launcher\n"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Ipakita ang mga instansya ng librerya sa masiksik na layout."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Laktawan ang mga hindi mahalagang mga babala"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Itago ang kanang sidebar bilang default at magdagdag ng pindutan para ipakita o itago ito."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Itago ang kanang sidebar"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Magpakita ng babala sa kaligtasan bago i-install ang isang modpack (.mrpack) na hindi naka-host sa Panda Minecraft Launcher."

@@ -17,6 +17,7 @@ pub struct ContentStore {
     pub(crate) root: PathBuf,
     pub(crate) staging: PathBuf,
     pub(crate) profiles: PathBuf,
+    pub(crate) optifine_profiles: PathBuf,
     pub(crate) pool: SqlitePool,
     pub(super) cleanup_lock: Arc<RwLock<()>>,
     pub(crate) runtime_cache_lock: RwLock<()>,
@@ -60,6 +61,7 @@ impl ContentStore {
         fs::create_dir_all(dirs.content_store_dir()).await?;
         fs::create_dir_all(dirs.store_staging_dir()).await?;
         fs::create_dir_all(dirs.instances_dir()).await?;
+        fs::create_dir_all(dirs.optifine_instances_dir()).await?;
         let settings_root = fs::canonicalize(&dirs.settings_dir).await?;
         let content_root = fs::canonicalize(&dirs.config_dir).await?;
         let content_process_lock = if settings_root != content_root {
@@ -71,6 +73,8 @@ impl ContentStore {
             root: fs::canonicalize(dirs.content_store_dir()).await?,
             staging: fs::canonicalize(dirs.store_staging_dir()).await?,
             profiles: fs::canonicalize(dirs.instances_dir()).await?,
+            optifine_profiles: fs::canonicalize(dirs.optifine_instances_dir())
+                .await?,
             pool,
             cleanup_lock: Arc::new(RwLock::new(())),
             runtime_cache_lock: RwLock::new(()),

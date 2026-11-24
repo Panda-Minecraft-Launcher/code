@@ -6,6 +6,7 @@ use super::catalog::*;
 use super::fullscreen::update_app_fullscreen_setting;
 use super::launch_overrides::currently_launcher_owned_keys;
 use super::options_file::{GameOptionsDocument, validate_raw_key_value};
+use super::{GameOptionsScope, filter_scope_map, unscoped_option_id};
 use crate::state::{
     CanonicalValue, GameOptionKind, InstanceMetadata, State, StoredOption,
     load_game_option_preferences, load_game_options_sync_state,
@@ -83,8 +84,13 @@ pub(super) async fn read_instance_changes_into_shared_settings(
     edits: InstanceEdits<'_>,
     state: &State,
 ) -> crate::Result<bool> {
-    let values = load_shared_game_options(&state.pool).await?;
-    let preferences = load_game_option_preferences(&state.pool).await?;
+    let scope = GameOptionsScope::for_instance(metadata);
+    let values =
+        filter_scope_map(load_shared_game_options(&state.pool).await?, scope);
+    let preferences = filter_scope_map(
+        load_game_option_preferences(&state.pool).await?,
+        scope,
+    );
     let launcher_keys = currently_launcher_owned_keys(metadata);
     let now = Utc::now().timestamp();
     let mut updates = Vec::new();
@@ -107,7 +113,7 @@ pub(super) async fn read_instance_changes_into_shared_settings(
         {
             continue;
         }
-        let definition = setting_by_id(option_id);
+        let definition = setting_by_id(unscoped_option_id(option_id));
         if definition.is_some()
             && !supported_settings_cover_game_version(
                 &metadata.applied_content_set.game_version,
@@ -201,7 +207,7 @@ pub(super) async fn read_instance_changes_into_shared_settings(
             if result.rows_affected() == 0 {
                 continue;
             }
-            if option_id == "fullscreen" {
+            if unscoped_option_id(&option_id) == "fullscreen" {
                 fullscreen_value = Some(candidate.clone());
             }
             changed = true;
@@ -221,7 +227,8 @@ pub(super) async fn read_instance_changes_into_shared_settings(
             .await?;
         }
         if let Some(value) = fullscreen_value.as_ref() {
-            update_app_fullscreen_setting(&mut tx, value, true).await?;
+            update_app_fullscreen_setting(&mut tx, value, !scope.is_optifine())
+                .await?;
         }
         tx.commit().await?;
     }
@@ -238,8 +245,13 @@ pub(super) async fn discover_custom_settings(
     excluded_keys: &HashSet<String>,
     state: &State,
 ) -> crate::Result<bool> {
-    let existing = load_shared_game_options(&state.pool).await?;
-    let preferences = load_game_option_preferences(&state.pool).await?;
+    let scope = GameOptionsScope::for_instance(metadata);
+    let existing =
+        filter_scope_map(load_shared_game_options(&state.pool).await?, scope);
+    let preferences = filter_scope_map(
+        load_game_option_preferences(&state.pool).await?,
+        scope,
+    );
     let (canonical_revision, _) =
         load_game_options_sync_state(&state.pool, CATALOG_REVISION).await?;
     let entries = document.effective_entries();
@@ -249,8 +261,10 @@ pub(super) async fn discover_custom_settings(
         if super::locales::has_localizable_mod_settings(document)
             && document.effective_entries().keys().any(|key| {
                 let id = setting_by_file_key(key)
-                    .map(|s| s.id.to_owned())
-                    .unwrap_or_else(|| custom_setting_id(key));
+                    .map(|s| scope.scoped_id(s.id))
+                    .unwrap_or_else(|| {
+                        scope.scoped_id(&custom_setting_id(key))
+                    });
                 !existing.contains_key(&id)
             })
         {
@@ -263,7 +277,7 @@ pub(super) async fn discover_custom_settings(
 
     for definition in all_supported_settings() {
         for key in definition.keys {
-            let custom_id = custom_setting_id(key);
+            let custom_id = scope.scoped_id(&custom_setting_id(key));
             let Some(custom) = existing.get(&custom_id) else {
                 continue;
             };
@@ -300,7 +314,8 @@ pub(super) async fn discover_custom_settings(
 
     if supported_settings_cover_game_version(game_version) {
         for definition in all_supported_settings() {
-            if existing.contains_key(definition.id) {
+            let option_id = scope.scoped_id(definition.id);
+            if existing.contains_key(&option_id) {
                 continue;
             }
             let discovered_value = definition.keys.iter().find_map(|key| {
@@ -324,7 +339,7 @@ pub(super) async fn discover_custom_settings(
 				VALUES (?, 'vanilla', NULL, ?, ?, 'catalog', 1, 1,
 					'instance', ?, ?, ?)
 				",
-                definition.id,
+                option_id.as_str(),
                 canonical_type,
                 value_json,
                 game_version,
@@ -339,7 +354,7 @@ pub(super) async fn discover_custom_settings(
 					(option_id, enabled, source, revision)
 				VALUES (?, ?, 'catalog_default', 1)
 				",
-                definition.id,
+                option_id.as_str(),
                 definition.default_on,
             )
             .execute(&mut *tx)
@@ -361,7 +376,7 @@ pub(super) async fn discover_custom_settings(
         if validate_raw_key_value(key, &entry.value).is_err() {
             continue;
         }
-        let option_id = custom_setting_id(key);
+        let option_id = scope.scoped_id(&custom_setting_id(key));
         let should_seed =
             existing.get(&option_id).is_none_or(|stored| !stored.seeded);
         if !should_seed {

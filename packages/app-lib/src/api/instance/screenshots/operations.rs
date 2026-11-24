@@ -487,7 +487,7 @@ pub(super) async fn source_screenshots_dir(
     directories: &DirectoryInfo,
     source: &InstanceScreenshotSource,
 ) -> crate::Result<PathBuf> {
-    let instance_dir = directories.instances_dir().join(&source.path);
+    let instance_dir = directories.instance_path(&source.path);
     let canonical_instance_dir =
         tokio::fs::canonicalize(&instance_dir)
             .await

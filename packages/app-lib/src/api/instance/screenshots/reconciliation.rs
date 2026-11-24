@@ -105,7 +105,7 @@ pub(super) async fn scan_source_screenshots(
     directories: &DirectoryInfo,
     source: &InstanceScreenshotSource,
 ) -> crate::Result<Vec<ScannedScreenshot>> {
-    let instance_dir = directories.instances_dir().join(&source.path);
+    let instance_dir = directories.instance_path(&source.path);
     if !tokio::fs::try_exists(&instance_dir)
         .await
         .map_err(|error| IOError::with_path(error, &instance_dir))?

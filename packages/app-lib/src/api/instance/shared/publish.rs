@@ -330,10 +330,8 @@ pub(super) async fn collect_publish_snapshot(
     metadata: &crate::state::InstanceMetadata,
     state: &State,
 ) -> crate::Result<CurrentPublishSnapshot> {
-    let instance_path = state
-        .directories
-        .instances_dir()
-        .join(&metadata.instance.path);
+    let instance_path =
+        state.directories.instance_path(&metadata.instance.path);
     let (items, shared_files) = if CONFIG_SYNC_ENABLED {
         tokio::try_join!(
             crate::state::list_content(
@@ -986,7 +984,7 @@ async fn shared_file_candidates(
     }
     ensure_shared_file_count(&selected_paths)?;
 
-    let instance_path = state.directories.instances_dir().join(instance_path);
+    let instance_path = state.directories.instance_path(instance_path);
     let mut total_size = 0_u64;
     let mut candidates = Vec::with_capacity(selected_paths.len());
     for path in selected_paths {

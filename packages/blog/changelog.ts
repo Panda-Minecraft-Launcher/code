@@ -11,6 +11,40 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-25T00:00:00+00:00`,
+		product: 'app',
+		version: '0.0.9',
+		body: `## Panda Minecraft Launcher 0.0.9
+- Panda Minecraft Launcher 0.0.9 yayında. Bu sürüm yerel OptiFine desteğini, sürüm haberlerini ve birleşik Panda markasını getiriyor.
+
+## Eklendi: OptiFine sekmesi
+- Uygulamaya ayrı "OptiFine" ikonu ve adıyla bağımsız bir sekme eklendi. Sürüm listesi BMCLAPI'den alınıyor ve kaynak arayüzde "Kaynak: BMCLAPI" / "Source: BMCLAPI" olarak gösteriliyor.
+- OptiFine kurulumu yalnızca vanilla Minecraft JAR'ı üzerinde çalışır. Gerekirse vanilla Minecraft önce indirilir, ardından optifine.Patcher ile yama uygulanır ve yamayıcı dosya silinir. Kurulum adımları İndirmeler/Görevler ekranında canlı olarak görünür.
+- OptiFine örneklerinin ayarları yalnızca diğer OptiFine örnekleriyle senkronize edilir; normal örneklere asla yazılmaz.
+- OptiFine örneklerinde mod kurulumu ve mod araması kapalıdır; yalnızca kaynak paketi ve veri paketi eklenebilir. Bu örnekler Keşfet ve normal mod arama sonuçlarında görünmez.
+- OptiFine oturumlarında oyun sunucularına gönderilen istemci markası "PML <oyun sürümü> OptiFine" biçimindedir.
+
+## Eklendi: sürüm haberleri
+- Sağ üstte NEWS / YENİLİKLER butonu eklendi. Güncelleme sonrası ilk açılışta sürüm notları otomatik açılır; mevcut sürüm "buradasınız" olarak işaretlenir ve son iki sürüm gösterilir.
+
+## Değiştirildi: marka ve lisans
+- Uygulama, belgeler ve web sitesinde yalnızca "Panda Minecraft Launcher" adı kullanılıyor. Görünen eski marka adları kaldırıldı; CurseForge yanındaki kaynak sekmesi dışında görünür eski marka kalmadı. Paket adları, API/CDN adresleri ve protokol kimlikleri uyumluluk için korundu.
+- Proje kodu AGPL-3.0-only altında lisanslandı; üçüncü taraf lisansları korundu ve web taslak dosyaları silindi.
+
+## Değiştirildi: web sitesi
+- Site Türkçe varsayılan açılıyor ve TR/EN dil anahtarı içeriyor; mobil uyumlu düzen korundu, modpack bölümü kaldırıldı ve indirme alanında yalnızca iki 0.0.9 bağlantısı var.
+
+## Düzeltildi
+- OptiFine örneklerinde natives yolu vanilla sürüm dizinine yönlendirildi; eksik liblwjgl.so nedeniyle oluşan açılış çökmesi giderildi.
+
+## Bilinen sorun
+- En yeni OptiFine sürümü otomatik seçildiğinde preview/uygunsuz bir sürüm gelebiliyor; listeden istediğin sürümü seçerek düzeltebilirsin.
+
+## İndirme
+- Windows: "Panda.Minecraft.Launcher_0.0.9_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.9_amd64.AppImage"`,
+	},
+	{
 		date: `2026-11-24T12:00:00+00:00`,
 		product: 'app',
 		version: '0.0.8',
@@ -32,6 +66,29 @@ const VERSIONS: VersionEntry[] = [
 ## İndirme
 - Windows: "Panda.Minecraft.Launcher_0.0.8_x64-setup.exe"
 - Linux AppImage: "Panda.Minecraft.Launcher_0.0.8_amd64.AppImage"`,
+	},
+	{
+		date: `2026-11-24T12:00:00+00:00`,
+		product: 'app',
+		version: '0.0.7',
+		body: `## Panda Minecraft Launcher 0.0.7
+- Panda Minecraft Launcher 0.0.7 yayında. Görünen eski markalamalar kaldırıldı, örnek klasörü "profiles" yerine "instances" adını kullanıyor ve Linux derlemesi yalnızca AppImage olarak yayınlanıyor.
+
+## Değiştirildi: örnek klasörü
+- Uygulama artık örnekleri kullanıcı klasöründeki "instances" altında arıyor. 0.0.6'dan yükselen kurulumlarda mevcut "profiles" klasörü açılışta otomatik olarak "instances" adına taşınıyor; örnekler, ikonlar ve mod dosyaları korunuyor.
+- Otomatik geçiş kodu 0.0.8 boyunca kalacak, 0.0.9 ile kaldırılacak. Böylece eski sürümden yükselen kullanıcılar örneklerini kaybetmeyecek.
+- Hem "profiles" hem "instances" klasörü varsa hiçbir şey silinmiyor; uygulama mevcut durumu koruyor ve uyarı veriyor.
+
+## Kaldırıldı: görünen marka
+- Uygulama, belgeler, yardım metinleri ve web sitesinde ürün adı olarak yalnızca "Panda Minecraft Launcher" kullanılıyor; Eski ürün adları ve benzeri görünen marka adları kaldırıldı.
+- Paket adları, API/CDN adresleri ve protokol kimlikleri uyumluluk için olduğu gibi bırakıldı.
+
+## Değiştirildi: Linux paketi
+- Bu sürümden itibaren Linux için yalnızca AppImage yayınlanıyor; .deb paketi üretilmiyor. 0.0.6'nın .deb dosyası release sayfasında kalıyor.
+
+## İndirme
+- Windows: "Panda.Minecraft.Launcher_0.0.7_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.7_amd64.AppImage"`,
 	},
 	{
 		date: `2026-11-23T20:03:50+00:00`,

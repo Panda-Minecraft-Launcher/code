@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Oppdaterer delt innhold"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Gjør om til primærtilfelle"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Ingen kjørende tilfeller"
-  },
   "app.action-bar.offline": {
     "message": "Uten nett"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Primærtilfelle"
   },
   "app.action-bar.reload-to-update": {
     "message": "Last inn på nytt for å oppdatere"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Vis aktive nedlastninger"
   },
-  "app.action-bar.view-instance": {
-    "message": "Vis tilfelle"
-  },
   "app.action-bar.view-logs": {
     "message": "Vis logger"
-  },
-  "app.ads-consent.accept": {
-    "message": "Godta alt"
-  },
-  "app.ads-consent.body": {
-    "message": "Annonser gjør Panda Minecraft Launcher mulig og finansierer betalinger til skapere. Partnerne våre kan lagre eller få tilgang til informasjonskapsler i appen for å tilpasse annonser og måle ytelse."
-  },
-  "app.ads-consent.manage": {
-    "message": "Administrer preferanser"
-  },
-  "app.ads-consent.reject": {
-    "message": "Avslå alle"
-  },
-  "app.ads-consent.title": {
-    "message": "Ditt personvern og hvordan annonser støtter Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Vis instanser i biblioteket i et kompakt radoppsett."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Hopp over mindre viktige advarsler"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Skjul høyre menylinje som standard og legg til knapp for å vise eller skjule den."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Skjul høyre menylinje"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Vis en sikkerhetsvarsling før innstallering av en modpakke (.mrpack) som ikke hostes på Panda Minecraft Launcher."

@@ -182,6 +182,19 @@ pub async fn install_existing_instance(
     start(InstallRequest::InstallExistingInstance { instance_id, force }).await
 }
 
+pub async fn install_optifine(
+    instance_id: String,
+    game_version: String,
+    version: Option<String>,
+) -> crate::Result<InstallJobSnapshot> {
+    start(InstallRequest::InstallOptifine {
+        instance_id,
+        game_version,
+        version,
+    })
+    .await
+}
+
 pub(crate) async fn wait_for_job(
     job_id: Uuid,
     pool: &SqlitePool,
@@ -865,6 +878,28 @@ async fn prepare_initial_instance(
             )
             .await?
         }
+        InstallRequest::InstallOptifine { instance_id, .. } => {
+            diagnostics::install_step(
+                job_id,
+                "prepare_optifine_instance",
+                || async move {
+                    let metadata =
+                        crate::state::get_instance(&instance_id, &state.pool)
+                            .await?
+                            .ok_or(ErrorKind::InputError(
+                                "unknown instance".to_string(),
+                            ))?;
+                    set_display(
+                        job_state,
+                        metadata.instance.name,
+                        metadata.instance.icon_path,
+                    );
+                    set_instance_id(job_state, instance_id);
+                    Ok(())
+                },
+            )
+            .await?
+        }
         InstallRequest::InstallExistingInstance { instance_id, .. }
         | InstallRequest::InstallPackToExistingInstance {
             instance_id, ..
@@ -1484,6 +1519,32 @@ async fn run_request(
             )
             .await
         }
+        InstallRequest::InstallOptifine {
+            instance_id,
+            game_version,
+            version,
+        } => {
+            diagnostics::install_step(
+                job_id,
+                "install_optifine",
+                || async move {
+                    let reporter = InstallProgressReporter::new(
+                        job_id,
+                        job_state.clone(),
+                        state.pool.clone(),
+                    );
+                    crate::optifine::install_into_instance(
+                        &instance_id,
+                        game_version,
+                        version,
+                        reporter,
+                    )
+                    .await?;
+                    Ok(Some(instance_id))
+                },
+            )
+            .await
+        }
         InstallRequest::InstallPackToExistingInstance {
             instance_id,
             location,
@@ -1882,8 +1943,7 @@ async fn instance_icon_is_replaceable(
     }
     let override_icon = state
         .directories
-        .instances_dir()
-        .join(&metadata.instance.path)
+        .instance_path(&metadata.instance.path)
         .join("icon.png");
     if tokio::fs::try_exists(&override_icon).await.unwrap_or(false) {
         pack_icons.push(

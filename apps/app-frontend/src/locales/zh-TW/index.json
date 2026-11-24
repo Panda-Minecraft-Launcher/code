@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "正在更新共用內容"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "設為主要實例"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "沒有執行中的實例"
-  },
   "app.action-bar.offline": {
     "message": "離線"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "主要實例"
   },
   "app.action-bar.reload-to-update": {
     "message": "重新載入即可更新"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "查看正在下載的項目"
   },
-  "app.action-bar.view-instance": {
-    "message": "查看實例"
-  },
   "app.action-bar.view-logs": {
     "message": "查看紀錄"
-  },
-  "app.ads-consent.accept": {
-    "message": "全部接受"
-  },
-  "app.ads-consent.body": {
-    "message": "廣告使 Panda Minecraft Launcher 得以營運，並為創作者提供收益。我們的合作夥伴可能會在應用程式中儲存或存取 Cookie，以實現個人化廣告並衡量廣告成效。"
-  },
-  "app.ads-consent.manage": {
-    "message": "管理偏好設定"
-  },
-  "app.ads-consent.reject": {
-    "message": "全部拒絕"
-  },
-  "app.ads-consent.title": {
-    "message": "關於你的隱私，以及廣告如何幫助 Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "以密集的橫列版面顯示遊戲庫實例。"
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "跳過非必要的警告"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "預設隱藏右側邊欄，並新增顯示或隱藏按鈕。"
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "隱藏右側邊欄"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "在安裝非託管於 Panda Minecraft Launcher 的模組包（.mrpack）之前，顯示安全警告。"
@@ -1558,9 +1525,6 @@
   },
   "app.navigation.home": {
     "message": "首頁"
-  },
-  "app.navigation.next-image": {
-    "message": "下一張圖片"
   },
   "app.news.title": {
     "message": "新聞"
@@ -3334,24 +3298,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "要清除應用程式快取嗎？"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "已複製"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "複製廣告詳細資訊"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "看到內容不當或冒犯性的廣告嗎？請在廣告出現時複製它的詳細資訊，然後傳送給 <support>Panda Minecraft Launcher 客服</support>。我們將進行審查並將其移除。"
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "請等待廣告載入完畢，然後再試一次。"
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "找不到廣告"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "檢舉廣告"
   },
   "app.shared-instance-publish.preparing": {
     "message": "正在準備更新…"

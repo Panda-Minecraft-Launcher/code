@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "جارٍ تحديث المحتوى المشترك"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "تعيين النسخة الأساسية"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "لا توجد نسخ قيد التشغيل"
-  },
   "app.action-bar.offline": {
     "message": "غير متصل"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "النسخة الأساسية"
   },
   "app.action-bar.reload-to-update": {
     "message": "أعد التشغيل للتحديث"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "عرض التنزيلات النشطة"
   },
-  "app.action-bar.view-instance": {
-    "message": "عرض النسخة"
-  },
   "app.action-bar.view-logs": {
     "message": "عرض السجلات"
-  },
-  "app.ads-consent.accept": {
-    "message": "قبول الكل"
-  },
-  "app.ads-consent.body": {
-    "message": "تُتيح الإعلانات استمرارية Panda Minecraft Launcher وتُمول مدفوعات المنشئين. قد يقوم شركاؤنا بتخزين أو الوصول إلى ملفات تعريف الارتباط (cookies) في التطبيق لتخصيص الإعلانات وقياس الأداء."
-  },
-  "app.ads-consent.manage": {
-    "message": "إدارة التفضيلات"
-  },
-  "app.ads-consent.reject": {
-    "message": "رفض الكل"
-  },
-  "app.ads-consent.title": {
-    "message": "خصوصيتك وكيف تساهم الإعلانات في دعم Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "عرض مثيلات المكتبة بتنسيق صفّي مضغوط."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "تخطي التحذيرات غير الضرورية"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "قم بإخفاء الشريط الجانبي الأيمن افتراضيًا وأضف زرًا لإظهاره أو إخفائه."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "قم بإخفاء الشريط الجانبي الأيمن"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "إظهار تحذير أمان قبل تثبيت مودباك (.mrpack) غير المستضاف على Panda Minecraft Launcher."
@@ -1387,9 +1354,6 @@
   },
   "app.navigation.home": {
     "message": "الصفحة الرئيسية"
-  },
-  "app.navigation.next-image": {
-    "message": "الصورة التالية"
   },
   "app.news.title": {
     "message": "الأخبار"
@@ -3085,24 +3049,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "مسح ذاكرة التخزين المؤقت للتطبيق؟"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "تم النسخ"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "نسخ تفاصيل الإعلان"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "هل رأيت إعلانا غير مناسب أو هجوميا؟ انسخ تفاصيله أثناء عرضها وإرسالها إلى <support> الدعم المتوسط</support>. سنقوم بمراجعتها وإزالتها."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "انتظر لتحميل الإعلان، ثم حاول مرة أخرى."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "لا توجد إعلانات"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "الإبلاغ عن إعلان"
   },
   "app.shared-instance-publish.preparing": {
     "message": "جارٍ تحضير التحديث..."

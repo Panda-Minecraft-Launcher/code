@@ -363,7 +363,7 @@ async fn recover_legacy_pack(
     }
     for instance in instance_rows::list_instances(&state.pool).await? {
         validate_instance_path(&instance.path)?;
-        let base = state.directories.instances_dir().join(&instance.path);
+        let base = state.directories.instance_path(&instance.path);
         if let Some(placement) = library
             .instances
             .get(&instance.id)

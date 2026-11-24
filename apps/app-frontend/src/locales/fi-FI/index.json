@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Päivitetään jaettua sisältöä"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Tee ensisijaiseksi instanssiksi"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Ei käynnissä olevia instansseja"
-  },
   "app.action-bar.offline": {
     "message": "Offline-tilassa"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Ensisijainen instanssi"
   },
   "app.action-bar.reload-to-update": {
     "message": "Lataa uudelleen päivittääksesi"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Näytä aktiiviset lataukset"
   },
-  "app.action-bar.view-instance": {
-    "message": "Näytä instanssi"
-  },
   "app.action-bar.view-logs": {
     "message": "Näytä lokit"
-  },
-  "app.ads-consent.accept": {
-    "message": "Hyväksy kaikki"
-  },
-  "app.ads-consent.body": {
-    "message": "Mainokset mahdollistavat Panda Minecraft Launcherin toiminnan ja rahoittavat tekijöiden osuuksia. Meidän kumppanimme saattavat tallentaa tai hyödyntää ohjelman evästeitä henkilökohtaistaakseen mainoksia ja mitatakseen tuloksia."
-  },
-  "app.ads-consent.manage": {
-    "message": "Muuta asetuksia"
-  },
-  "app.ads-consent.reject": {
-    "message": "Hylkää kaikki"
-  },
-  "app.ads-consent.title": {
-    "message": "Yksityisyytesi, ja miten mainokset tukevat Panda Minecraft Launcheria"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Näytä kirjaston instanssit pienemmässä rivijärjestyksessä."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Ohita ei olennaiset varoitukset"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Piilota oletuksena oikea sivupaneeli ja lisää nappi, joka piilottaa ja näyttää sen."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Piilota oikea sivupaneeli"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Näytä turvallisuusvaroitus ennen sellaisen modipaketin (.mrpack) asentamista, jota ei isännöi Panda Minecraft Launcher."

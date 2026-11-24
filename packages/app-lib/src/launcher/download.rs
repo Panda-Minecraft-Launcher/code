@@ -231,10 +231,16 @@ pub(super) fn missing_runtime_file(
     version: &GameVersionInfo,
     java_arch: &str,
     minecraft_updated: bool,
+    instance_path: &str,
 ) -> crate::Result<Option<std::path::PathBuf>> {
+    if version.id.ends_with("-optifine") {
+        // The canonical patched jar lives in the instance folder and must not be
+        // replaced by the vanilla client download.
+        return Ok(None);
+    }
     let client_path = st
         .directories
-        .version_dir(&version.id)
+        .version_dir_for_instance(&version.id, instance_path)
         .join(format!("{}.jar", version.id));
     if !client_path.try_exists()? {
         return Ok(Some(client_path));
@@ -272,7 +278,11 @@ fn missing_client_bytes(
     st: &State,
     version: &GameVersionInfo,
     force: bool,
+    instance_path: &str,
 ) -> crate::Result<u64> {
+    if version.id.ends_with("-optifine") {
+        return Ok(0);
+    }
     let client_download = version
         .downloads
         .get(&d::minecraft::DownloadType::Client)
@@ -282,7 +292,7 @@ fn missing_client_bytes(
         )))?;
     let path = st
         .directories
-        .version_dir(&version.id)
+        .version_dir_for_instance(&version.id, instance_path)
         .join(format!("{}.jar", version.id));
 
     Ok(if should_download(path.exists(), force) {
@@ -414,8 +424,9 @@ fn missing_initial_minecraft_bytes(
     java_arch: &str,
     force: bool,
     minecraft_updated: bool,
+    instance_path: &str,
 ) -> crate::Result<u64> {
-    Ok(missing_client_bytes(st, version, force)?
+    Ok(missing_client_bytes(st, version, force, instance_path)?
         + missing_assets_index_bytes(st, version, force)
         + missing_log_config_bytes(st, version, force)
         + missing_library_bytes(
@@ -437,6 +448,7 @@ pub fn download_minecraft<'a>(
     minecraft_updated: bool,
     reporter: Option<InstallProgressReporter>,
     phase_details: InstallPhaseDetails,
+    instance_path: &'a str,
 ) -> impl Future<Output = crate::Result<()>> + Send + 'a {
     Box::pin(download_minecraft_inner(
         st,
@@ -447,6 +459,7 @@ pub fn download_minecraft<'a>(
         minecraft_updated,
         reporter,
         phase_details,
+        instance_path,
     ))
 }
 
@@ -460,6 +473,7 @@ async fn download_minecraft_inner(
     minecraft_updated: bool,
     reporter: Option<InstallProgressReporter>,
     phase_details: InstallPhaseDetails,
+    instance_path: &str,
 ) -> crate::Result<()> {
     tracing::info!("Downloading Minecraft version {}", version.id);
     let progress = if let Some(reporter) = reporter {
@@ -473,6 +487,7 @@ async fn download_minecraft_inner(
                     java_arch,
                     force,
                     minecraft_updated,
+                    instance_path,
                 )?,
             )
             .await?,
@@ -510,7 +525,12 @@ async fn download_minecraft_inner(
 
     let (client, log_config, assets, libraries) = tokio::join! {
         // Total loading sums to 90/60
-        Box::pin(download_client(st, version, loading_bar, force, progress.clone())), // 9
+        Box::pin(async {
+            if version.id.ends_with("-optifine") {
+                return crate::Result::<()>::Ok(());
+            }
+            download_client(st, version, loading_bar, force, progress.clone()).await
+        }), // 9
         Box::pin(download_log_config(st, version, loading_bar, force, progress.clone())),
         Box::pin(download_assets(st, version.assets == "legacy", &assets_index, loading_bar, amount, force, progress.clone())), // 40
         Box::pin(download_libraries(st, version.libraries.as_slice(), &version.id, loading_bar, amount, java_arch, force, minecraft_updated, progress.clone())) // 40
@@ -533,14 +553,20 @@ pub async fn download_version_info(
     force: Option<bool>,
     loading_bar: Option<&LoadingBarId>,
     reporter: Option<&InstallProgressReporter>,
+    instance_path: Option<&str>,
 ) -> crate::Result<GameVersionInfo> {
     let version_id = loader.map_or(version.id.to_string(), |it| {
         format!("{}-{}", version.id, it.id)
     });
     tracing::debug!("Loading version info for Minecraft {version_id}");
-    let path = st
-        .directories
-        .version_dir(&version_id)
+    let path = instance_path
+        .map_or_else(
+            || st.directories.version_dir(&version_id),
+            |instance_path| {
+                st.directories
+                    .version_dir_for_instance(&version_id, instance_path)
+            },
+        )
         .join(format!("{version_id}.json"));
 
     if let Some(loader) =

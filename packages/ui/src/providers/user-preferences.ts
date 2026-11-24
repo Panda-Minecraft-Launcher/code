@@ -31,7 +31,8 @@ const messages = defineMessages({
 	},
 	updateFailedDescription: {
 		id: 'settings.preferences.update-failed.description',
-		defaultMessage: 'Your settings could not be saved to your Panda Minecraft Launcher account. Please try again.',
+		defaultMessage:
+			'Your settings could not be saved to your Panda Minecraft Launcher account. Please try again.',
 	},
 })
 

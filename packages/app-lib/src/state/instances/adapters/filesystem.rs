@@ -1,4 +1,7 @@
-use crate::state::{ProjectType, file_hash_cache_key, file_modified_at_ns};
+use crate::state::{
+    OPTIFINE_INSTANCES_FOLDER_NAME, ProjectType, file_hash_cache_key,
+    file_modified_at_ns,
+};
 use crate::util::io::{self, IOError};
 use std::path::{Path, PathBuf};
 
@@ -18,10 +21,22 @@ pub(crate) fn scan_content_files(
     instance_path: &str,
 ) -> crate::Result<Vec<ScannedContentFile>> {
     crate::state::content_store::validate_instance_path(instance_path)?;
-    let instance_full_path = instances_dir.join(instance_path);
+    let (root, relative) =
+        if let Some(path) = instance_path.strip_prefix("@optifine/") {
+            (
+                instances_dir
+                    .parent()
+                    .unwrap_or(instances_dir)
+                    .join(OPTIFINE_INSTANCES_FOLDER_NAME),
+                path,
+            )
+        } else {
+            (instances_dir.to_path_buf(), instance_path)
+        };
+    let instance_full_path = root.join(relative);
     let instance_dir = io::canonicalize(instance_full_path)?;
     let linked_instance =
-        instance_dir != io::canonicalize(instances_dir)?.join(instance_path);
+        instance_dir != io::canonicalize(&root)?.join(relative);
     let mut files = Vec::new();
 
     for project_type in ProjectType::iterator() {

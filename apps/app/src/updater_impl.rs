@@ -1,5 +1,4 @@
 use crate::api::Result;
-use anyhow::Context;
 use serde::Serialize;
 use std::fs;
 use std::io::Write;
@@ -280,6 +279,8 @@ pub fn remove_enqueued_update<R: tauri::Runtime>(webview: Webview<R>) {
 pub fn install_github_update(path: &Path, should_restart: bool) -> Result<()> {
     #[cfg(target_os = "linux")]
     {
+        use anyhow::Context;
+
         let _ = should_restart;
         if path.extension().and_then(|extension| extension.to_str())
             == Some("deb")

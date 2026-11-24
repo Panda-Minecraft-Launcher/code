@@ -25,7 +25,7 @@ pub use model::{
 pub use runner::{
     bulk_update_content, cancel_job, create_instance, create_modpack_instance,
     create_shared_instance, dismiss_job, duplicate_instance, get_job,
-    import_instance, install_existing_instance,
+    import_instance, install_existing_instance, install_optifine,
     install_pack_to_existing_instance, job_support_details,
     job_support_paste_url, list_jobs, pause_job, resume_job, retry_job,
     set_job_support_paste_url, update_shared_instance,

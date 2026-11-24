@@ -449,9 +449,8 @@ pub async fn save_instance_file_as(
     ))?;
     let canonical_parent = fs::canonicalize(parent).await?;
     let store = fs::canonicalize(state.directories.store_dir()).await?;
-    let profiles = fs::canonicalize(state.directories.instances_dir()).await?;
     if canonical_parent.starts_with(&store)
-        || canonical_parent.starts_with(&profiles)
+        || state.directories.is_instance_path(&canonical_parent)
     {
         bail!(ErrorKind::InputError(
             "save a copy outside the store and instance directories"

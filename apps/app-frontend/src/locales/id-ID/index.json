@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Memperbarui konten yang dibagikan"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Jadikan sebagai instans utama"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Tidak ada instans yang sedang berjalan"
-  },
   "app.action-bar.offline": {
     "message": "Luring"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Instans utama"
   },
   "app.action-bar.reload-to-update": {
     "message": "Muat ulang untuk memperbarui"
@@ -122,23 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Lihat pengunduhan berlangsung"
   },
-  "app.action-bar.view-instance": {
-    "message": "Lihat instans"
-  },
   "app.action-bar.view-logs": {
     "message": "Lihat catatan"
-  },
-  "app.ads-consent.accept": {
-    "message": "Terima semua"
-  },
-  "app.ads-consent.manage": {
-    "message": "Kelola preferensi"
-  },
-  "app.ads-consent.reject": {
-    "message": "Tolak semua"
-  },
-  "app.ads-consent.title": {
-    "message": "Privasi Anda dan bagaimana iklan mendukung Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Tampilkan instans pustaka dalam tata letak baris ringkas."
@@ -172,12 +148,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Lewati peringatan tidak penting"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Menyembunyikan bilah sisi kanan secara bawaan dan menambahkan tombol untuk menampilkan atau menyembunyikannya."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Sembunyikan bilah sisi kanan"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Tampilkan peringatan sebelum memasang sebuah paket mod (.mrpack) yang tidak dihoskan di Panda Minecraft Launcher."

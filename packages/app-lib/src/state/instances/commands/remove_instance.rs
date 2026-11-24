@@ -33,7 +33,7 @@ pub(crate) async fn remove_instance(
     )
     .await;
 
-    let path = state.directories.instances_dir().join(&instance.path);
+    let path = state.directories.instance_path(&instance.path);
     if path.exists() {
         io::remove_dir_all(&path).await?;
     }

@@ -67,7 +67,8 @@ const messages = defineMessages({
 	},
 	body3: {
 		id: 'search.photosensitivity-warning-modal.body.3',
-		defaultMessage: 'Using any content on Panda Minecraft Launcher is at your own risk. Please stay safe! 💚',
+		defaultMessage:
+			'Using any content on Panda Minecraft Launcher is at your own risk. Please stay safe! 💚',
 	},
 	dontShowAgain: {
 		id: 'search.photosensitivity-warning-modal.dont-show-again',

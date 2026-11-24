@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Uppdaterar delat innehåll"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Gör till primärinstans"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Inga aktiva instanser"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Primärinstans"
   },
   "app.action-bar.reload-to-update": {
     "message": "Uppdatera (ladda om)"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Visa aktiva nedladdningar"
   },
-  "app.action-bar.view-instance": {
-    "message": "Visa instans"
-  },
   "app.action-bar.view-logs": {
     "message": "Visa loggar"
-  },
-  "app.ads-consent.accept": {
-    "message": "Godkänn alla"
-  },
-  "app.ads-consent.body": {
-    "message": "Annonser gör Panda Minecraft Launcher möjligt och finansierar utbetalningar till skapare. Våra partner kan lagra eller komma åt kakor i appen för att rikta annonser och mäta statistik."
-  },
-  "app.ads-consent.manage": {
-    "message": "Hantera inställningar"
-  },
-  "app.ads-consent.reject": {
-    "message": "Avvisa alla"
-  },
-  "app.ads-consent.title": {
-    "message": "Din integritet och hur annonser stödjer Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Visa biblioteksinstanser i en kompakt radlayout."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Hoppa över icke nödvändiga varningar"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Dölj det högra sidofältet och lägg till en knapp för att visa eller dölja det."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Dölj högra sidofält"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Visa en säkerhetsvarning innan du installerar ett modpaket (.mrpack) som inte finns på Panda Minecraft Launcher."
@@ -1537,9 +1504,6 @@
   },
   "app.navigation.home": {
     "message": "Hem"
-  },
-  "app.navigation.next-image": {
-    "message": "Nästa bild"
   },
   "app.news.title": {
     "message": "Nyheter"
@@ -3010,24 +2974,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Rensa appens cache?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Kopierat"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Kopiera annonsdetaljer"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Har du sett en opassande eller kränkande annons? Kopiera dess detaljer medan den visas och skicka dem till <support>Panda Minecraft Launcher Support</support>. Vi kommer att granska och ta bort den."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Vänta på att annonsen läser in, försök sedan igen."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Ingen annons hittades"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Rapportera en annons"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Förbereder uppdatering…"

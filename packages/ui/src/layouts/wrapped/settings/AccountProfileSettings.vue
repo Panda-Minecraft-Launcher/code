@@ -33,7 +33,11 @@
 					</RouterLink>
 				</template>
 				<template #docs-link="{ children }">
-					<a href="https://github.com/Panda-Minecraft-Launcher/code/issues" target="_blank" class="text-link">
+					<a
+						href="https://github.com/Panda-Minecraft-Launcher/code/issues"
+						target="_blank"
+						class="text-link"
+					>
 						<component :is="() => children" />
 					</a>
 				</template>
@@ -448,7 +452,8 @@ const messages = defineMessages({
 	},
 	signInRequiredDescription: {
 		id: 'settings.profile.sign-in-required.description',
-		defaultMessage: 'Sign in with a Panda Minecraft Launcher account to customize your public profile.',
+		defaultMessage:
+			'Sign in with a Panda Minecraft Launcher account to customize your public profile.',
 	},
 	saveError: {
 		id: 'settings.profile.save-error',

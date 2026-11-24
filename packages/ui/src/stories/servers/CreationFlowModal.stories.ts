@@ -173,3 +173,60 @@ export const Instance: Story = {
 		`,
 	}),
 }
+
+export const OptiFineInstance: Story = {
+	name: 'Create OptiFine instance (App)',
+	render: () => ({
+		components: { CreationFlowModal, Button },
+		setup() {
+			const modalRef = ref<InstanceType<typeof CreationFlowModal> | null>(null)
+			const lastEvent = ref('')
+			const openModal = () =>
+				modalRef.value?.show((ctx) => {
+					ctx.setSetupType('custom')
+					ctx.selectedLoader.value = 'optifine'
+					ctx.selectedGameVersion.value = '1.21.1'
+				})
+			const onCreate = (config: CreationFlowContextValue) => {
+				lastEvent.value = `create emitted — version: ${config.selectedLoaderVersion.value}`
+			}
+			const getLoaderManifest = async () => ({
+				gameVersions: [
+					{
+						id: '1.21.1',
+						stable: true,
+						loaders: [
+							{ id: 'HD U G5', url: '', stable: true },
+							{ id: 'HD U G6', url: '', stable: false },
+						],
+					},
+				],
+			})
+			return {
+				modalRef,
+				openModal,
+				lastEvent,
+				onCreate,
+				getLoaderManifest,
+			}
+		},
+		template: /*html*/ `
+			<div class="flex flex-col gap-4 items-center">
+				<Button type="colored" color="brand" @click="openModal">Install OptiFine</Button>
+				<p v-if="lastEvent" class="text-sm text-secondary mt-2">Last event: {{ lastEvent }}</p>
+				<CreationFlowModal
+					ref="modalRef"
+					type="instance"
+					:available-loaders="['optifine']"
+					:game-versions="['1.21.1']"
+					:hide-loader-chips="true"
+					:hide-loader-version-type-chips="true"
+					:get-loader-manifest="getLoaderManifest"
+					@hide="() => {}"
+					@browse-modpacks="() => {}"
+					@create="onCreate"
+				/>
+			</div>
+		`,
+	}),
+}

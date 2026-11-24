@@ -197,8 +197,6 @@ pub async fn get_recent_worlds(
     display_statuses: EnumSet<DisplayStatus>,
 ) -> Result<Vec<WorldWithInstance>> {
     let state = State::get().await?;
-    let instances_dir = state.directories.instances_dir();
-
     let mut instances = crate::state::list_instances(&state.pool).await?;
     instances.sort_by_key(|x| Reverse(x.instance.last_played));
 
@@ -213,7 +211,7 @@ pub async fn get_recent_worlds(
         }
         let instance_id = &instance.instance.id;
         let instance_path = &instance.instance.path;
-        let instance_dir = instances_dir.join(instance_path);
+        let instance_dir = state.directories.instance_path(&instance_path);
         let instance_worlds =
             get_all_worlds_in_instance(instance_id, &instance_dir).await;
         if let Err(e) = instance_worlds {
@@ -356,7 +354,7 @@ pub async fn get_singleplayer_world(
     let state = State::get().await?;
     let (instance_id, instance_path) =
         resolve_instance_identity(instance, &state).await?;
-    let instance_dir = state.directories.instances_dir().join(instance_path);
+    let instance_dir = state.directories.instance_path(&instance_path);
     let mut world =
         read_singleplayer_world(get_world_dir(&instance_dir, world)).await?;
 
@@ -983,7 +981,7 @@ pub async fn get_instance_protocol_version(
     let state = State::get().await?;
     let client_path = state
         .directories
-        .version_dir(&version_jar)
+        .version_dir_for_instance(&version_jar, &metadata.instance.path)
         .join(format!("{version_jar}.jar"));
 
     if !client_path.exists() {

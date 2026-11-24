@@ -19,9 +19,15 @@ import type { GameInstance } from '@/helpers/types'
 
 import { libraryScrollTop } from './view-state'
 
-const props = defineProps<{
-	instances: GameInstance[]
-}>()
+const props = withDefaults(
+	defineProps<{
+		instances: GameInstance[]
+		showNewInstance?: boolean
+	}>(),
+	{
+		showNewInstance: true,
+	},
+)
 
 const { formatMessage } = useVIntl()
 const messages = defineMessages({
@@ -254,7 +260,7 @@ watch(selectedLibraryInstances, (selectedInstances) => {
 			<h2 class="m-0 text-2xl font-semibold text-contrast">
 				{{ formatMessage(messages.library) }}
 			</h2>
-			<LibraryToolbar />
+			<LibraryToolbar :show-new-instance="showNewInstance" />
 			<div
 				v-if="libraryGroupsLoaded && isSearching && visibleInstanceGroups.length === 0"
 				class="text-base text-primary"

@@ -28,7 +28,10 @@ pub(super) async fn load(
     .fetch_all(pool)
     .await?;
     rows.into_iter().filter(|row| {
-		row.option_id.strip_prefix("external:").and_then(super::mod_translation_key).is_some()
+		super::super::unscoped_option_id(&row.option_id)
+			.strip_prefix("external:")
+			.and_then(super::mod_translation_key)
+			.is_some()
 	}).map(|row| {
 		let observation = row.observation_json.as_deref().map(serde_json::from_str).transpose()
 			.inspect_err(|error| tracing::warn!(%error, scope = row.scope, option_id = row.option_id,

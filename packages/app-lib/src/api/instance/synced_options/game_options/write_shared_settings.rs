@@ -13,7 +13,8 @@ use super::pack_updates::materialize_pack_options_if_missing;
 use super::read_instance_changes::{
     InstanceEdits, read_instance_changes_into_shared_settings,
 };
-use super::source_selection::initialize_from_source_instance;
+use super::scope::{GameOptionsScope, filter_scope_map, unscoped_option_id};
+use super::source_selection::initialize_from_source_instance_for_scope;
 use crate::state::{
     CanonicalValue, InstanceMetadata, State, SyncedOption,
     game_options_sync_is_enabled, load_game_option_preferences,
@@ -71,8 +72,13 @@ async fn apply_shared_settings_to_document(
     document: &mut GameOptionsDocument,
     state: &State,
 ) -> crate::Result<AppliedSettings> {
-    let values = load_shared_game_options(&state.pool).await?;
-    let preferences = load_game_option_preferences(&state.pool).await?;
+    let scope = GameOptionsScope::for_instance(metadata);
+    let values =
+        filter_scope_map(load_shared_game_options(&state.pool).await?, scope);
+    let preferences = filter_scope_map(
+        load_game_option_preferences(&state.pool).await?,
+        scope,
+    );
     let mut count = 0;
     let mut used_migration = false;
 
@@ -80,7 +86,8 @@ async fn apply_shared_settings_to_document(
         if !preference.enabled {
             continue;
         }
-        if option_id == "fullscreen"
+        let logical_id = unscoped_option_id(&option_id);
+        if logical_id == "fullscreen"
             && metadata.launch_overrides.force_fullscreen.is_some()
         {
             continue;
@@ -92,7 +99,7 @@ async fn apply_shared_settings_to_document(
         else {
             continue;
         };
-        let definition = setting_by_id(&option_id);
+        let definition = setting_by_id(logical_id);
         if definition.is_some()
             && !supported_settings_cover_game_version(
                 &metadata.applied_content_set.game_version,
@@ -329,6 +336,7 @@ pub(super) async fn capture_instance_options(
         return Ok(SyncOutcome::Unchanged);
     }
 
+    let scope = GameOptionsScope::for_instance(metadata);
     let canonical_changed =
         if crate::state::shared_game_options_exist(&state.pool).await? {
             read_instance_changes_into_shared_settings(
@@ -344,15 +352,17 @@ pub(super) async fn capture_instance_options(
             )
             .await?
         } else {
-            initialize_from_source_instance(metadata, state).await?;
+            initialize_from_source_instance_for_scope(metadata, state, scope)
+                .await?;
             true
         };
     remember_synced_file(&metadata.instance.id, &input_bytes, state).await?;
 
     if canonical_changed {
-        let _ = sync_other_participating_instances(
+        let _ = sync_other_participating_instances_for_scope(
             state,
             Some(&metadata.instance.id),
+            scope,
         )
         .await;
     }
@@ -384,6 +394,19 @@ pub(in crate::api::instance) async fn apply_instance_with_state(
 pub(super) async fn sync_other_participating_instances(
     state: &State,
     excluded_instance_id: Option<&str>,
+) -> SaveGameSettingsResult {
+    sync_other_participating_instances_for_scope(
+        state,
+        excluded_instance_id,
+        GameOptionsScope::Normal,
+    )
+    .await
+}
+
+pub(in crate::api::instance) async fn sync_other_participating_instances_for_scope(
+    state: &State,
+    excluded_instance_id: Option<&str>,
+    scope: GameOptionsScope,
 ) -> SaveGameSettingsResult {
     let mut result = SaveGameSettingsResult {
         state: None,
@@ -417,7 +440,10 @@ pub(super) async fn sync_other_participating_instances(
     };
     let instances = instances
         .into_iter()
-        .filter(|metadata| metadata.synced_options.game_options)
+        .filter(|metadata| {
+            metadata.synced_options.game_options
+                && GameOptionsScope::for_instance(metadata) == scope
+        })
         .collect::<Vec<_>>();
     let mut imported = false;
     for metadata in &instances {
@@ -462,4 +488,11 @@ pub(crate) async fn sync_all_participating_instances(
     state: &State,
 ) -> SaveGameSettingsResult {
     sync_other_participating_instances(state, None).await
+}
+
+pub(in crate::api::instance) async fn sync_all_participating_instances_for_scope(
+    state: &State,
+    scope: GameOptionsScope,
+) -> SaveGameSettingsResult {
+    sync_other_participating_instances_for_scope(state, None, scope).await
 }

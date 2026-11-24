@@ -376,7 +376,8 @@ const messages = defineMessages({
 	},
 	resubscribeErrorText: {
 		id: 'servers.manage.resubscribe-error.text',
-		defaultMessage: 'An error occurred while resubscribing to your Panda Minecraft Launcher server.',
+		defaultMessage:
+			'An error occurred while resubscribing to your Panda Minecraft Launcher server.',
 	},
 })
 

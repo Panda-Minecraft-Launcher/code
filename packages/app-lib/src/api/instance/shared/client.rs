@@ -175,6 +175,7 @@ impl From<RawInstanceVersionResponse> for InstanceVersionResponse {
         let (loader, loader_version) = match ModLoader::from_string(&raw.loader)
         {
             ModLoader::Vanilla => (ModLoader::Fabric, String::new()),
+            ModLoader::OptiFine => (ModLoader::OptiFine, raw.loader_version),
             loader => (loader, raw.loader_version),
         };
         Self {

@@ -265,7 +265,8 @@ impl References {
                 ))?;
             format!("{}-{loader}", content.game_version)
         };
-        let version_dir = dirs.version_dir(&version_id);
+        let version_dir =
+            dirs.version_dir_for_instance(&version_id, &context.instance.path);
         let version: VersionInfo =
             read_json(&version_dir.join(format!("{version_id}.json")))?;
         self.tree(&version_dir, owner);

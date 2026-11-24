@@ -1,4 +1,7 @@
 {
+  "app.action-bar.changelog": {
+    "message": "News"
+  },
   "app.action-bar.downloading-java": {
     "message": "Downloading Java {version}"
   },
@@ -118,21 +121,6 @@
   },
   "app.action-bar.view-logs": {
     "message": "View logs"
-  },
-  "app.ads-consent.accept": {
-    "message": "Accept all"
-  },
-  "app.ads-consent.body": {
-    "message": "Ads make Panda Minecraft Launcher possible and fund creator payouts. Our partners may store or access cookies in the app to personalize ads and measure performance."
-  },
-  "app.ads-consent.manage": {
-    "message": "Manage preferences"
-  },
-  "app.ads-consent.reject": {
-    "message": "Reject all"
-  },
-  "app.ads-consent.title": {
-    "message": "Your privacy and how ads support Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Display library instances in a compact row layout."
@@ -308,6 +296,15 @@
   "app.browse.server.installing": {
     "message": "Installing"
   },
+  "app.changelog.current-version": {
+    "message": "Current version: {version}"
+  },
+  "app.changelog.title": {
+    "message": "Release notes"
+  },
+  "app.changelog.you-are-here": {
+    "message": "You are here"
+  },
   "app.content-install.no-compatible-versions": {
     "message": "No available versions match {compatibilityLabel}. Select a version to install anyway. Dependencies will not be installed automatically."
   },
@@ -391,6 +388,9 @@
   },
   "app.download-manager.no-tasks": {
     "message": "No tasks"
+  },
+  "app.download-manager.optifine-install": {
+    "message": "OptiFine installation"
   },
   "app.download-manager.pause": {
     "message": "Pause installation"
@@ -568,6 +568,12 @@
   },
   "app.install.phase.finalizing": {
     "message": "Finalizing"
+  },
+  "app.install.phase.optifine.downloading-patcher": {
+    "message": "Downloading OptiFine patcher"
+  },
+  "app.install.phase.optifine.patching": {
+    "message": "Patching Minecraft jar"
   },
   "app.install.phase.preparing_instance": {
     "message": "Queued to install"
@@ -1610,6 +1616,9 @@
   "app.navigation.home": {
     "message": "Home"
   },
+  "app.navigation.optifine": {
+    "message": "OptiFine"
+  },
   "app.news.title": {
     "message": "News"
   },
@@ -1618,6 +1627,21 @@
   },
   "app.notification.warning": {
     "message": "Warning"
+  },
+  "app.optifine.install": {
+    "message": "Install OptiFine"
+  },
+  "app.optifine.installed": {
+    "message": "OptiFine installed"
+  },
+  "app.optifine.loader-version": {
+    "message": "OptiFine version"
+  },
+  "app.optifine.source": {
+    "message": "Source: BMCLAPI"
+  },
+  "app.optifine.title": {
+    "message": "OptiFine"
   },
   "app.project.actions.label": {
     "message": "Project actions"
@@ -3400,24 +3424,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Clear the app cache?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Copied"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Copy ad details"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Seen an inappropriate or offensive ad? Copy its details while it's showing and send them to <support>Panda Minecraft Launcher Support</support>. We'll review it and remove it."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Wait for the ad to load, then try again."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "No ad found"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Report an ad"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Preparing update…"

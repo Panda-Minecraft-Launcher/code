@@ -17,6 +17,8 @@
 import { computed, useTemplateRef } from 'vue'
 import type { ComponentExposed } from 'vue-component-type-helpers'
 
+import type { MessageDescriptor } from '#ui/composables/i18n'
+
 import MultiStageModal from '../../base/MultiStageModal.vue'
 import {
 	createCreationFlowContext,
@@ -39,6 +41,10 @@ const props = withDefaults(
 		isInitialSetup?: boolean
 		initialLoader?: string
 		initialGameVersion?: string
+		gameVersions?: string[]
+		hideLoaderChips?: boolean
+		hideLoaderVersionTypeChips?: boolean
+		loaderVersionLabel?: MessageDescriptor
 		fetchExistingInstanceNames?: () => Promise<string[]>
 		onBack?: (() => boolean | void) | null
 		browseModpacks?: () => Promise<void>
@@ -65,6 +71,10 @@ const props = withDefaults(
 		isInitialSetup: false,
 		initialLoader: undefined,
 		initialGameVersion: undefined,
+		gameVersions: undefined,
+		hideLoaderChips: undefined,
+		hideLoaderVersionTypeChips: false,
+		loaderVersionLabel: undefined,
 		fetchExistingInstanceNames: undefined,
 		onBack: null,
 		browseModpacks: undefined,
@@ -94,6 +104,10 @@ const ctx = createCreationFlowContext(
 		isInitialSetup: props.isInitialSetup,
 		initialLoader: props.initialLoader,
 		initialGameVersion: props.initialGameVersion,
+		gameVersions: props.gameVersions,
+		hideLoaderChips: props.hideLoaderChips,
+		hideLoaderVersionTypeChips: props.hideLoaderVersionTypeChips,
+		loaderVersionLabel: props.loaderVersionLabel,
 		fetchExistingInstanceNames: props.fetchExistingInstanceNames,
 		onBack: props.onBack ?? undefined,
 		browseModpacks: props.browseModpacks,

@@ -985,7 +985,7 @@ async fn content_files_to_content_items(
             instance, loader, files, state,
         )
         .await?;
-    let instance_path = state.directories.instances_dir().join(&instance.path);
+    let instance_path = state.directories.instance_path(&instance.path);
     let paths = files
         .iter()
         .map(|(_, file)| instance_path.join(&file.on_disk_path))
