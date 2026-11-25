@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Mise à jour du contenu partagé"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Définir en tant qu'instance principale"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Aucune instance en cours d'exécution"
-  },
   "app.action-bar.offline": {
     "message": "Hors ligne"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Instance principale"
   },
   "app.action-bar.reload-to-update": {
     "message": "Recharger pour mettre à jour"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Voir les téléchargements actifs"
   },
-  "app.action-bar.view-instance": {
-    "message": "Voir l'instance"
-  },
   "app.action-bar.view-logs": {
     "message": "Voir les journaux"
-  },
-  "app.ads-consent.accept": {
-    "message": "Tout accepter"
-  },
-  "app.ads-consent.body": {
-    "message": "Les publicités rendent Panda Minecraft Launcher possible et rémunèrent les créateurs. Nos partenaires peuvent stocker des cookies ou y accéder au sein de l'application afin de personnaliser les publicités et de mesurer les performances."
-  },
-  "app.ads-consent.manage": {
-    "message": "Gérer les préférences"
-  },
-  "app.ads-consent.reject": {
-    "message": "Tout refuser"
-  },
-  "app.ads-consent.title": {
-    "message": "Votre vie privée et comment les publicités soutiennent Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Afficher les instances de la bibliothèque dans une disposition compacte."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Cacher les alertes non essentielles"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Masquer la barre latérale droite par défaut et ajouter un bouton pour l'afficher ou la masquer."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Cache la barre latérale droite"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Affiche un avertissement de sécurité avant d'installer un modpack (.mrpack) qui n'est pas hébergé sur Panda Minecraft Launcher."
@@ -1558,9 +1525,6 @@
   },
   "app.navigation.home": {
     "message": "Accueil"
-  },
-  "app.navigation.next-image": {
-    "message": "Prochaine image"
   },
   "app.news.title": {
     "message": "Nouveautés"
@@ -3301,24 +3265,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Effacer le cache de l'app ?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Copié"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Copier les détails de la pub"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Vous avez vu une pub inappropriée ou offensante ? Copiez ses détails quand elle est affichée et envoyez-les au <support>Support Panda Minecraft Launcher</support>. Nous l'examinerons et la retirons."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Attendez que la pub soit chargée, puis réessayez."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Aucune publicité trouvée"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Signaler une publicité"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Préparation de la mise à jour…"

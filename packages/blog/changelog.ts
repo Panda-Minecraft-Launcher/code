@@ -11,6 +11,26 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-25T00:00:00+00:00`,
+		product: 'app',
+		version: '0.0.12',
+		body: `## Panda Minecraft Launcher 0.0.12
+
+**Türkçe**
+- Sürüm haberleri penceresi geri geldi. Yeni bir sürüme geçtiğinde notlar kendiliğinden açılıyor; başlık çubuğundaki **News** butonuyla istediğin zaman yeniden açabilirsin.
+- OptiFine ile ilgili kurulum akışı, arayüz, ayarlar ve kayıtlar kaldırıldı. Eski sürümlerden kalan uyumsuz kayıtlar ve kurulum geçmişi açılışta temizleniyor, böylece uygulama bu kayıtlar yüzünden hata vermiyor.
+- app.db dosyası silinmiyor. Yalnızca ilgili satırlar temizleniyor; örneklerin, modların, hesapların ve diğer ayarların olduğu gibi kalıyor.
+
+**English**
+- The release notes window is back. Notes open automatically after an update, and the **News** button in the title bar opens them any time.
+- The OptiFine installation flow, interface, settings and records have been removed. Leftover incompatible records and install history from older versions are cleaned up on startup, so they can no longer cause launch errors.
+- The app.db file is not deleted. Only the affected rows are removed; your instances, mods, accounts and other settings stay untouched.
+
+**İndirme / Download**
+- Windows: "Panda.Minecraft.Launcher_0.0.12_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.12_amd64.AppImage"`,
+	},
+	{
 		date: `2026-11-24T12:00:00+00:00`,
 		product: 'app',
 		version: '0.0.8',

@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "กำลังอัปเดตเนื้อหาที่แชร์"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "กำหนดอินสแตนซ์หลัก"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "ไม่มีชุดเซิร์ฟเวอร์ที่กำลังทำงานอยู่"
-  },
   "app.action-bar.offline": {
     "message": "ออฟไลน์"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "อินสแตนซ์หลัก"
   },
   "app.action-bar.reload-to-update": {
     "message": "รีโหลดเพื่ออัปเดต"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "ดูการดาวน์โหลดที่กำลังดำเนินการอยู่"
   },
-  "app.action-bar.view-instance": {
-    "message": "ดูอินสแตนซ์"
-  },
   "app.action-bar.view-logs": {
     "message": "ดู Log"
-  },
-  "app.ads-consent.accept": {
-    "message": "ยอมรับทั้งหมด"
-  },
-  "app.ads-consent.body": {
-    "message": "โฆษณาทำให้ Panda Minecraft Launcher ดำเนินต่อไปได้และเป็นแหล่งเงินทุนสำหรับการจ่ายเงินให้ครีเอเตอร์ พาร์ทเนอร์ของเราอาจจัดเก็บหรือเข้าถึงคุกกี้ในแอปเพื่อปรับแต่งโฆษณาให้เหมาะกับแต่ละบุคคลและวัดประสิทธิภาพ."
-  },
-  "app.ads-consent.manage": {
-    "message": "จัดการการตั้งค่า"
-  },
-  "app.ads-consent.reject": {
-    "message": "ปฏิเสธทั้งหมด"
-  },
-  "app.ads-consent.title": {
-    "message": "ความเป็นส่วนตัวของคุณและวิธีที่โฆษณาช่วยสนับสนุน Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "แสดงชุดเซิร์ฟเวอร์ในไลบรารีในรูปแบบแถวที่กะทัดรัด"
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "ข้ามคำเตือนที่ไม่จำเป็น"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "ซ่อนแถบด้านข้างทางขวาไว้เป็นค่าเริ่มต้น และเพิ่มปุ่มสำหรับแสดงหรือซ่อนแถบด้านข้างนี้"
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "ซ่อนแถบทางด้านขวา"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "แสดงคำเตือนด้านความปลอดภัยก่อนติดตั้งแพ็กม็อด (.mrpack) ที่ไม่ได้โฮสต์บน Panda Minecraft Launcher."

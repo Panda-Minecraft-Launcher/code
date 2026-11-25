@@ -72,7 +72,7 @@ impl LauncherFeatureVersion {
     }
 }
 
-#[derive(Debug, Eq, PartialEq, Clone, Copy, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Clone, Copy, Serialize)]
 #[cfg_attr(
     feature = "export-ts",
     derive(ts_rs::TS, postcard_bindgen::PostcardBindings)
@@ -84,6 +84,47 @@ pub enum ModLoader {
     Fabric,
     Quilt,
     NeoForge,
+}
+
+impl<'de> Deserialize<'de> for ModLoader {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: serde::Deserializer<'de>,
+    {
+        struct LoaderVisitor;
+
+        impl<'de> serde::de::Visitor<'de> for LoaderVisitor {
+            type Value = ModLoader;
+
+            fn expecting(
+                &self,
+                formatter: &mut std::fmt::Formatter<'_>,
+            ) -> std::fmt::Result {
+                formatter.write_str("a mod loader")
+            }
+
+            fn visit_str<E>(self, value: &str) -> Result<Self::Value, E>
+            where
+                E: serde::de::Error,
+            {
+                match value {
+                    "vanilla" => Ok(ModLoader::Vanilla),
+                    "forge" => Ok(ModLoader::Forge),
+                    "fabric" => Ok(ModLoader::Fabric),
+                    "quilt" => Ok(ModLoader::Quilt),
+                    "neoforge" => Ok(ModLoader::NeoForge),
+                    // Legacy OptiFine records were patched vanilla instances.
+                    "optifine" => Ok(ModLoader::Vanilla),
+                    other => Err(E::unknown_variant(
+                        other,
+                        &["vanilla", "forge", "fabric", "quilt", "neoforge"],
+                    )),
+                }
+            }
+        }
+
+        deserializer.deserialize_str(LoaderVisitor)
+    }
 }
 
 impl ModLoader {
@@ -259,5 +300,21 @@ impl From<ProjectType> for modrinth_content_management::ContentType {
             ProjectType::ResourcePack => Self::ResourcePack,
             ProjectType::ShaderPack => Self::Shader,
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::ModLoader;
+
+    #[test]
+    fn legacy_optifine_loader_decodes_as_vanilla() {
+        let loader: ModLoader = serde_json::from_str("\"optifine\"").unwrap();
+        assert_eq!(loader, ModLoader::Vanilla);
+    }
+
+    #[test]
+    fn unknown_loader_is_rejected() {
+        assert!(serde_json::from_str::<ModLoader>("\"bogus\"").is_err());
     }
 }

@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Aggiornamento dei contenuti condivisi"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Rendi principale"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Nessuna istanza in esecuzione"
-  },
   "app.action-bar.offline": {
     "message": "Non in linea"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Istanza principale"
   },
   "app.action-bar.reload-to-update": {
     "message": "Riavvia"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Mostra i download attivi"
   },
-  "app.action-bar.view-instance": {
-    "message": "Mostra istanza"
-  },
   "app.action-bar.view-logs": {
     "message": "Mostra il registro"
-  },
-  "app.ads-consent.accept": {
-    "message": "Accetta tutto"
-  },
-  "app.ads-consent.body": {
-    "message": "Le pubblicità sostengono Panda Minecraft Launcher e finanziano i creatori. I nostri partner potrebbero memorizzare o accedere ai cookie per personalizzare gli annunci e misurarne le prestazioni."
-  },
-  "app.ads-consent.manage": {
-    "message": "Gestisci i consensi"
-  },
-  "app.ads-consent.reject": {
-    "message": "Rifiuta tutto"
-  },
-  "app.ads-consent.title": {
-    "message": "Privacy e pubblicità su Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Mostra le istanze nella libreria in righe compatte."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Salta conferme meno importanti"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Nasconde la barra laterale destra e aggiunge un pulsante per mostrarla."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Barra laterale destra nascosta"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Mostra un avviso di sicurezza prima di installare un modpack (.mrpack) non ospitato su Panda Minecraft Launcher."
@@ -1591,9 +1558,6 @@
   },
   "app.navigation.home": {
     "message": "Home"
-  },
-  "app.navigation.next-image": {
-    "message": "Immagine successiva"
   },
   "app.news.title": {
     "message": "Notizie"
@@ -3382,21 +3346,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Svuotare la cache dell'app?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Copiati"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Copia info annuncio"
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Attendi che l'annuncio carichi, poi riprova."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Nessun annuncio trovato"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Segnala un annuncio"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Preparazione…"

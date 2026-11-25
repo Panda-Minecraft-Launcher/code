@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "シェアされたコンテンツをアップデートしました"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "デフォルトのインスタンスを作成"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "実行中のインスタンスはありません"
-  },
   "app.action-bar.offline": {
     "message": "オフライン"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "デフォルトのインスタンス"
   },
   "app.action-bar.reload-to-update": {
     "message": "再読み込みしてアップデート"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "進行中のダウンロードを表示"
   },
-  "app.action-bar.view-instance": {
-    "message": "インスタンスを表示"
-  },
   "app.action-bar.view-logs": {
     "message": "ログを表示"
-  },
-  "app.ads-consent.accept": {
-    "message": "すべて受け入れる"
-  },
-  "app.ads-consent.body": {
-    "message": "Panda Minecraft Launcherは広告収益によって運営され、クリエイターへの報酬もその収益から支払われています。当社のパートナーは、広告のパーソナライズや効果測定のために、アプリ内でCookieを保存・利用する場合があります。"
-  },
-  "app.ads-consent.manage": {
-    "message": "設定の管理"
-  },
-  "app.ads-consent.reject": {
-    "message": "すべて拒否する"
-  },
-  "app.ads-consent.title": {
-    "message": "プライバシーと広告がPanda Minecraft Launcherを支える仕組み"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "ライブラリをコンパクトに表示します。"
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "重要でない警告をスキップ"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "右サイドバーをデフォルトで非表示にし、表示／非表示を切り替えるボタンを追加します。"
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "右のサイドバーを隠す"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Panda Minecraft Launcher以外でホストされているModパック（.mrpack）をインストールする前に、安全警告を表示します。"
@@ -1591,9 +1558,6 @@
   },
   "app.navigation.home": {
     "message": "ホーム"
-  },
-  "app.navigation.next-image": {
-    "message": "次の画像"
   },
   "app.news.title": {
     "message": "ニュース"
@@ -3382,24 +3346,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "アプリのキャッシュを消去しますか？"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "コピーしました"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "広告の詳細をコピー"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "不適切または不適切な広告が表示されていますか？表示中にその詳細をコピーし、 <support>Panda Minecraft Launcher Support</support>に送信してください。 私たちはそれを確認し削除いたします。"
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "広告が読み込まれるのを待ち、もう一度やり直してください。"
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "広告が見つかりません"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "広告を報告"
   },
   "app.shared-instance-publish.preparing": {
     "message": "アップデートを準備中…"

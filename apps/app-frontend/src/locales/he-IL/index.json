@@ -89,17 +89,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "מעדכן תוכן משותף"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "הפוך למקרה ראשי"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "אין אקסמפלרים פועלים"
-  },
   "app.action-bar.offline": {
     "message": "לא מקוון"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "אקסמפלר ראשי"
   },
   "app.action-bar.reload-to-update": {
     "message": "יש לתרענן כדי לעדכן"
@@ -119,26 +110,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "לראות הורדות פעילות"
   },
-  "app.action-bar.view-instance": {
-    "message": "הצג התקנה"
-  },
   "app.action-bar.view-logs": {
     "message": "צפה בלוגים"
-  },
-  "app.ads-consent.accept": {
-    "message": "קבל הכל"
-  },
-  "app.ads-consent.body": {
-    "message": "פרסומות מאפשרות את הפעילות של Panda Minecraft Launcher ואת הון התשלום ליוצרים. ייתכן כי השותפים שלנו ישמרו או יגשו לעוגיות באפליקציה על מנת להגיש פרסומות אישיות ולמדוד ביצועים."
-  },
-  "app.ads-consent.manage": {
-    "message": "ניהול העדפות"
-  },
-  "app.ads-consent.reject": {
-    "message": "דחה הכל"
-  },
-  "app.ads-consent.title": {
-    "message": "הפרטיות שלך ואיך פרסומות תומכות בPanda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "הצג התקנות בפריסת שורות קומפקטית."
@@ -175,12 +148,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "דלג על אזהרות שאינן חיוניות"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "הסתר את סרגל הצד הימני כברירת מחדל והוסף לחצן להצגתו או להסתָרתו."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "הסתר את סרגל הצד הימני"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "הצג אזהרת בטיחות לפני התקנת חבילת מודים (.mrpack) שאינה מאורחת ב-Panda Minecraft Launcher."
@@ -1303,9 +1270,6 @@
   },
   "app.navigation.home": {
     "message": "בית"
-  },
-  "app.navigation.next-image": {
-    "message": "תמונה הבאה"
   },
   "app.news.title": {
     "message": "חדשות"

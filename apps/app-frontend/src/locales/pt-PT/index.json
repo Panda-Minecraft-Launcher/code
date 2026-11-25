@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "A atualizar conteúdo compartilhado"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Transformar na instância principal"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Nenhuma instância a correr"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Instância principal"
   },
   "app.action-bar.reload-to-update": {
     "message": "Recarregar para atualizar"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Ver instâncias ativas"
   },
-  "app.action-bar.view-instance": {
-    "message": "Ver instância"
-  },
   "app.action-bar.view-logs": {
     "message": "Ver registos"
-  },
-  "app.ads-consent.accept": {
-    "message": "Aceitar tudo"
-  },
-  "app.ads-consent.body": {
-    "message": "Os anúncios tornam o Panda Minecraft Launcher possível e financiam os pagamentos aos criadores. Os nossos parceiros podem armazenar ou aceder a cookies na aplicação para personalizar anúncios e medir o desempenho."
-  },
-  "app.ads-consent.manage": {
-    "message": "Gerir preferências"
-  },
-  "app.ads-consent.reject": {
-    "message": "Rejeitar tudo"
-  },
-  "app.ads-consent.title": {
-    "message": "A sua privacidade e como os anúncios são financiados pela Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Exibir instâncias da biblioteca numa disposição de linhas compacta."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Ignorar avisos não essenciais"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Esconde a barra lateral direita por defeito e adiciona uma barra para mostrar ou escondê-la."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Esconder barra lateral direita"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Mostrar um aviso de segurança antes de instalar um modpack (.mrpack) que não esteja alojado na Panda Minecraft Launcher."

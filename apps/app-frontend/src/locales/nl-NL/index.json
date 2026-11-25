@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Gedeelde content bijwerken"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Tot hoofdinstantie maken"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Geen actieve instanties"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Hoofdinstantie"
   },
   "app.action-bar.reload-to-update": {
     "message": "Herlaad om bij te werken"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Bekijk actieve downloads"
   },
-  "app.action-bar.view-instance": {
-    "message": "Bekijk instantie"
-  },
   "app.action-bar.view-logs": {
     "message": "Bekijk logs"
-  },
-  "app.ads-consent.accept": {
-    "message": "Alles accepteren"
-  },
-  "app.ads-consent.body": {
-    "message": "Advertenties maken Panda Minecraft Launcher mogelijk en financieren de uitbetalingen aan makers. Onze partners kunnen cookies in de app opslaan of gebruiken om advertenties te personaliseren en de prestaties te meten."
-  },
-  "app.ads-consent.manage": {
-    "message": "Voorkeuren beheren"
-  },
-  "app.ads-consent.reject": {
-    "message": "Alles afwijzen"
-  },
-  "app.ads-consent.title": {
-    "message": "Je privacy en hoe advertenties Panda Minecraft Launcher ondersteunen"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Toon bibliotheek instanties in een compacte row lay-out."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Niet-essentiële waarschuwingen overslaan"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Verberg de rechterzijbalk standaard en voeg een knop toe om deze weer te geven of te verbergen."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Rechterzijbalk verbergen"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Geef een veiligheidswaarschuwing weer voordat een modpack (.mrpack) wordt geïnstalleerd die niet op Panda Minecraft Launcher wordt gehost."
@@ -1534,9 +1501,6 @@
   },
   "app.navigation.home": {
     "message": "Startpagina"
-  },
-  "app.navigation.next-image": {
-    "message": "Volgende afbeelding"
   },
   "app.news.title": {
     "message": "Nieuws"
@@ -3232,24 +3196,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Wis app cache?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Gekopieerd"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Kopieer advertentiedetails"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Heb je een ongepaste of aanstootgevende advertentie gezien? Kopieer de details van de advertentie terwijl hij afspeelt en stuur ze naar <support>Panda Minecraft Launcher Support</support>. We zullen de advertentie beoordelen en verwijderen als nodig."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Wacht totdat de advertentie geladen is en probeer het dan opnieuw."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Geen advertentie gevonden"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Meld een reclame"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Update voorbereiden..."

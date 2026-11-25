@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Actualizând conținutul partajat"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Setează ca instanță principală"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Nu rulează nicio instanță"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Instanță principală"
   },
   "app.action-bar.reload-to-update": {
     "message": "Reîncarcă pentru a actualiza"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Vezi descărcările active"
   },
-  "app.action-bar.view-instance": {
-    "message": "Vezi instanțele"
-  },
   "app.action-bar.view-logs": {
     "message": "Vezi jurnalele"
-  },
-  "app.ads-consent.accept": {
-    "message": "Acceptă tot"
-  },
-  "app.ads-consent.body": {
-    "message": "Anunțurile fac posibil Panda Minecraft Launcher și finanțează plățile creatorilor. Partenerii noștri pot stoca sau accesa cookie-uri în aplicație pentru a personaliza reclamele și a măsura performanța."
-  },
-  "app.ads-consent.manage": {
-    "message": "Gestionează preferințele"
-  },
-  "app.ads-consent.reject": {
-    "message": "Refuză tot"
-  },
-  "app.ads-consent.title": {
-    "message": "Confidențialitatea ta și modul în care anunțurile susțin Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Afișează instanțele bibliotecii într-un layout compact."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Sari peste avertismentele neesențiale"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Ascundeți implicit bara laterală dreapta si adaugați un buton pentru a o afișa sau a o ascunde."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Ascundeți bara laterală dreapta"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Afișați un avertisment de siguranța înainte de a instala un modpack (.mrpack) care nu este găzduit de Panda Minecraft Launcher."

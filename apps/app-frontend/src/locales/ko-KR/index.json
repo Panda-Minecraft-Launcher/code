@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "공유 콘텐츠 업데이트 중"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "주요 인스턴스로 지정"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "실행 중인 인스턴스 없음"
-  },
   "app.action-bar.offline": {
     "message": "오프라인"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "주요 인스턴스"
   },
   "app.action-bar.reload-to-update": {
     "message": "다시 불러와 업데이트"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "진행 중인 다운로드 보기"
   },
-  "app.action-bar.view-instance": {
-    "message": "인스턴스 보기"
-  },
   "app.action-bar.view-logs": {
     "message": "로그 보기"
-  },
-  "app.ads-consent.accept": {
-    "message": "모두 수락"
-  },
-  "app.ads-consent.body": {
-    "message": "광고는 Panda Minecraft Launcher가 운영될 수 있도록 하며, 크리에이터에게 지급되는 보상을 지원합니다. 저희의 파트너는 개인에 맞는 광고를 제공하고 성과를 측정하기 위해 쿠키를 저장하거나 접근할 수 있습니다."
-  },
-  "app.ads-consent.manage": {
-    "message": "환경설정 관리"
-  },
-  "app.ads-consent.reject": {
-    "message": "모두 거절"
-  },
-  "app.ads-consent.title": {
-    "message": "개인정보 및 광고가 Panda Minecraft Launcher를 지원하는 방식"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "라이브러리 인스턴스를 간결한 행 형태의 레이아웃으로 표시합니다."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "중요하지 않은 경고 넘기기"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "기본 상태에서 오른쪽 패널를 숨기고, 이를 표시하거나 숨기는 버튼을 추가합니다."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "오른쪽 패널 숨기기"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Panda Minecraft Launcher에 호스팅되지 않은 모드팩(.mrpack)을 설치하기 전에 안전 경고를 표시합니다."
@@ -1591,9 +1558,6 @@
   },
   "app.navigation.home": {
     "message": "홈"
-  },
-  "app.navigation.next-image": {
-    "message": "다음 이미지"
   },
   "app.news.title": {
     "message": "뉴스"
@@ -3382,24 +3346,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "앱 캐시를 비울까요?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "복사됨"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "광고 정보 복사"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "부적절하거나 불쾌감을 주는 광고를 발견하셨나요? 광고가 표시되는 동안 광고 정보를 복사하여 <support>Panda Minecraft Launcher 지원팀</support>에 보내 주세요. 검토 후 해당 광고를 삭제하겠습니다."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "광고를 불러올 때까지 기다린 후 다시 시도하세요."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "광고를 찾을 수 없음"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "광고 신고"
   },
   "app.shared-instance-publish.preparing": {
     "message": "업데이트 준비 중..."

@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Megosztott tartalom frissítése"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Beállítás elsődleges példányként"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Nincsenek futó példányok"
-  },
   "app.action-bar.offline": {
     "message": "Offline"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Elsődleges példány"
   },
   "app.action-bar.reload-to-update": {
     "message": "Töltsd újra a frissítéshez"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Aktív letöltések megtekintése"
   },
-  "app.action-bar.view-instance": {
-    "message": "Példányok megtekintése"
-  },
   "app.action-bar.view-logs": {
     "message": "Naplók megtekintése"
-  },
-  "app.ads-consent.accept": {
-    "message": "Összes elfogadása"
-  },
-  "app.ads-consent.body": {
-    "message": "A hirdetések teszik lehetővé a Panda Minecraft Launcher működését, és biztosítják a tartalomkészítők juttatásait. Partnereink sütiket tárolhatnak vagy érhetnek el az alkalmazásban a hirdetések személyre szabása és a teljesítmény mérése céljából."
-  },
-  "app.ads-consent.manage": {
-    "message": "Beállítások kezelése"
-  },
-  "app.ads-consent.reject": {
-    "message": "Összes elutasítása"
-  },
-  "app.ads-consent.title": {
-    "message": "Adataid védelme és a hirdetések szerepe a Panda Minecraft Launcher működésében"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "A könyvtári példányok megjelenítése egy összetett, soros elrendezésben."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Lényegtelen figyelmeztetések kihagyása"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Alapértelmezés szerint elrejti a jobb oldalsávot, és hozzáad egy gombot a megjelenítéséhez vagy elrejtéséhez."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Jobb oldalsáv elrejtése"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Biztonsági figyelmeztetést jelenít meg, mielőtt olyan modcsomagot (.mrpack) telepítenél, amely nem a Panda Minecraft Launcherről származik."
@@ -1420,9 +1387,6 @@
   },
   "app.navigation.home": {
     "message": "Kezdőlap"
-  },
-  "app.navigation.next-image": {
-    "message": "Következő kép"
   },
   "app.news.title": {
     "message": "Hírek"
@@ -3118,24 +3082,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Törlöd az alkalmazás gyorsítótárát?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Másolva"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Hírdetési részletek másolása"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Nem megfelelő vagy sértő hirdetést láttál? Másold ki az adatait, amíg megjelenik, majd küldd el a <support>Panda Minecraft Launcher ügyfélszolgálatának</support>. Ellenőrizzük, és eltávolítjuk."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Várd meg amíg a hirdetés betölt, és próbáld újra."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Nem találtunk hirdetést"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Hirdetés jelentése"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Frissítés előkészítése…"

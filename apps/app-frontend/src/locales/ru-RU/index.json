@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Обновление совместного контента"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Сделать основной сборкой"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Нет активных сборок"
-  },
   "app.action-bar.offline": {
     "message": "Офлайн"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Основная сборка"
   },
   "app.action-bar.reload-to-update": {
     "message": "Перезапустить и обновить"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Посмотреть текущие загрузки"
   },
-  "app.action-bar.view-instance": {
-    "message": "Посмотреть сборку"
-  },
   "app.action-bar.view-logs": {
     "message": "Посмотреть журнал"
-  },
-  "app.ads-consent.accept": {
-    "message": "Принять всё"
-  },
-  "app.ads-consent.body": {
-    "message": "Реклама обеспечивает работу Panda Minecraft Launcher и выплаты авторам. Для персонализации и анализа рекламы наши партнёры могут использовать куки."
-  },
-  "app.ads-consent.manage": {
-    "message": "Настроить"
-  },
-  "app.ads-consent.reject": {
-    "message": "Отклонить всё"
-  },
-  "app.ads-consent.title": {
-    "message": "Конфиденциальность и реклама на Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Отображать сборки в библиотеке компактным списком."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Только опасные предупреждения"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Скрывать панель справа при запуске и переключать кнопкой."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Скрытие панели справа"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Предупреждать о рисках перед установкой файлов .mrpack, не размещённых на Panda Minecraft Launcher."
@@ -1552,9 +1519,6 @@
   },
   "app.navigation.home": {
     "message": "Главная"
-  },
-  "app.navigation.next-image": {
-    "message": "Следующее изображение"
   },
   "app.news.title": {
     "message": "Новости"
@@ -3331,24 +3295,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Очистить кеш приложения?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Скопировано"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Скопировать рекламные данные"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Заметили неприемлемую или оскорбительную рекламу? Скопируйте её данные, пока она показывается, и отправьте в <support>поддержку Panda Minecraft Launcher</support>. Мы проверим и удалим её."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Дождитесь загрузки рекламы и попробуйте снова."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Реклама не найдена"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Пожаловаться на рекламу"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Подготовка изменений..."

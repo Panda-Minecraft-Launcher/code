@@ -92,17 +92,8 @@
   "app.action-bar.install.updating-shared-content": {
     "message": "Оновлюємо спільний вміст"
   },
-  "app.action-bar.make-primary-instance": {
-    "message": "Зробити основним примірником"
-  },
-  "app.action-bar.no-instances-running": {
-    "message": "Немає запущених примірників"
-  },
   "app.action-bar.offline": {
     "message": "Поза мережею"
-  },
-  "app.action-bar.primary-instance": {
-    "message": "Основний примірник"
   },
   "app.action-bar.reload-to-update": {
     "message": "Перезапустити для оновлення"
@@ -122,26 +113,8 @@
   "app.action-bar.view-active-downloads": {
     "message": "Переглянути поточні завантаження"
   },
-  "app.action-bar.view-instance": {
-    "message": "Переглянути примірник"
-  },
   "app.action-bar.view-logs": {
     "message": "Переглянути журнали"
-  },
-  "app.ads-consent.accept": {
-    "message": "Прийняти всі"
-  },
-  "app.ads-consent.body": {
-    "message": "Реклама підтримує існування Panda Minecraft Launcher і фінансує виплати творцям. Наші партнери можуть зберігати й отримувати доступ до cookie в застосунку, щоб персоналізувати рекламу та збирати метрики."
-  },
-  "app.ads-consent.manage": {
-    "message": "Налаштувати"
-  },
-  "app.ads-consent.reject": {
-    "message": "Відхилити всі"
-  },
-  "app.ads-consent.title": {
-    "message": "Ваша приватність і як реклама підтримує Panda Minecraft Launcher"
   },
   "app.appearance-settings.compact-mode.description": {
     "message": "Показувати примірники у вигляді компактних рядків."
@@ -178,12 +151,6 @@
   },
   "app.appearance-settings.skip-non-essential-warnings.title": {
     "message": "Пропускати несуттєві попередження"
-  },
-  "app.appearance-settings.toggle-sidebar.description": {
-    "message": "Приховати праву бічну панель і додати кнопку для її перемикання."
-  },
-  "app.appearance-settings.toggle-sidebar.title": {
-    "message": "Приховати праву бічну панель"
   },
   "app.appearance-settings.unknown-pack-warning.description": {
     "message": "Показувати попередження про безпеку перед встановленням модпаку (.mrpack), який не розміщено на Panda Minecraft Launcher."
@@ -1582,9 +1549,6 @@
   },
   "app.navigation.home": {
     "message": "Головна"
-  },
-  "app.navigation.next-image": {
-    "message": "Наступне зображення"
   },
   "app.news.title": {
     "message": "Новини"
@@ -3373,24 +3337,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Очистити кеш програми?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Скопійовано"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Скопіювати деталі реклами"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Побачили неприйнятну чи образливу рекламу? Скопіюйте її деталі під час її показу та надішліть їх <support>підтримці Panda Minecraft Launcher</support>. Ми переглянемо й видалимо її."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Дочекайтеся завантаження реклами, тоді спробуйте ще раз."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Не знайдено жодної реклами"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Поскаржитися на рекламу"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Підготовка оновлення…"

@@ -119,21 +119,6 @@
   "app.action-bar.view-logs": {
     "message": "Günlükleri görüntüle"
   },
-  "app.ads-consent.accept": {
-    "message": "Tümünü kabul et"
-  },
-  "app.ads-consent.body": {
-    "message": "Reklamlar, Panda Minecraft Launcher'i mümkün kılıyor ve içerik üreticilerine yapılan ödemeleri finanse ediyor. Partnerlerimiz, reklamları kişiselleştirmek ve performansı ölçmek amacıyla uygulama içinde çerez depolayabilir veya bunlara erişebilir."
-  },
-  "app.ads-consent.manage": {
-    "message": "Tercihleri yönet"
-  },
-  "app.ads-consent.reject": {
-    "message": "Tümünü reddet"
-  },
-  "app.ads-consent.title": {
-    "message": "Sizin mahremiyetiniz ve reklamlar Panda Minecraft Launcher'i nasıl destekler"
-  },
   "app.appearance-settings.compact-mode.description": {
     "message": "Kütüphane kurulumlarını kompakt satır düzeninde göster."
   },
@@ -3397,24 +3382,6 @@
   },
   "app.settings.troubleshooting.clear-cache.confirm.title": {
     "message": "Uygulama önbelleği temizlensin mi?"
-  },
-  "app.settings.troubleshooting.report-ad.copied": {
-    "message": "Kopyalandı"
-  },
-  "app.settings.troubleshooting.report-ad.copy": {
-    "message": "Reklam ayrıntılarını kopyala"
-  },
-  "app.settings.troubleshooting.report-ad.description": {
-    "message": "Uygunsuz veya saldırgan bir reklam gördünüz mü? Reklam gösterilirken ayrıntılarını kopyalayın ve <support>Panda Minecraft Launcher Desteği</support> adresine gönderin. İnceleyip kaldıracağız."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.text": {
-    "message": "Reklamın yüklenmesini bekleyin, sonra tekrar deneyin."
-  },
-  "app.settings.troubleshooting.report-ad.no-ad.title": {
-    "message": "Reklam bulunamadı"
-  },
-  "app.settings.troubleshooting.report-ad.title": {
-    "message": "Reklam bildir"
   },
   "app.shared-instance-publish.preparing": {
     "message": "Güncelleme hazırlanıyor…"
