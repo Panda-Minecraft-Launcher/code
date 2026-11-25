@@ -79,16 +79,10 @@
 					"path": "$APPDATA/instances"
 				},
 				{
-					"path": "$APPDATA/optifine_instances"
-				},
-				{
 					"path": "$APPDATA/profiles/**"
 				},
 				{
 					"path": "$APPDATA/instances/**"
-				},
-				{
-					"path": "$APPDATA/optifine_instances/**"
 				},
 				{
 					"path": "$APPCONFIG/profiles"
@@ -97,16 +91,10 @@
 					"path": "$APPCONFIG/instances"
 				},
 				{
-					"path": "$APPCONFIG/optifine_instances"
-				},
-				{
 					"path": "$APPCONFIG/profiles/**"
 				},
 				{
 					"path": "$APPCONFIG/instances/**"
-				},
-				{
-					"path": "$APPCONFIG/optifine_instances/**"
 				},
 				{
 					"path": "$CONFIG/profiles"
@@ -115,16 +103,10 @@
 					"path": "$CONFIG/instances"
 				},
 				{
-					"path": "$CONFIG/optifine_instances"
-				},
-				{
 					"path": "$CONFIG/profiles/**"
 				},
 				{
 					"path": "$CONFIG/instances/**"
-				},
-				{
-					"path": "$CONFIG/optifine_instances/**"
 				}
 			]
 		},
@@ -142,7 +124,6 @@
 		"reports:default",
 		"cache:default",
 		"curseforge:default",
-		"optifine:default",
 		"files:default",
 		"settings:default",
 		"shortcuts:default",

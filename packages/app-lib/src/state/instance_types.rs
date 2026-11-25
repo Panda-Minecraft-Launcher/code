@@ -84,7 +84,6 @@ pub enum ModLoader {
     Fabric,
     Quilt,
     NeoForge,
-    OptiFine,
 }
 
 impl ModLoader {
@@ -95,7 +94,6 @@ impl ModLoader {
             Self::Fabric => "fabric",
             Self::Quilt => "quilt",
             Self::NeoForge => "neoforge",
-            Self::OptiFine => "optifine",
         }
     }
 
@@ -106,7 +104,6 @@ impl ModLoader {
             Self::Fabric => "fabric",
             Self::Quilt => "quilt",
             Self::NeoForge => "neo",
-            Self::OptiFine => "optifine",
         }
     }
 
@@ -117,7 +114,6 @@ impl ModLoader {
             "fabric" => Self::Fabric,
             "quilt" => Self::Quilt,
             "neoforge" => Self::NeoForge,
-            "optifine" => Self::OptiFine,
             _ => Self::Vanilla,
         }
     }

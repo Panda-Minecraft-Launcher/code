@@ -220,14 +220,9 @@ impl ContentStore {
         if !relative_path.is_empty() {
             validate_relative(relative_path)?;
         }
-        let (root, base) =
-            if let Some(path) = instance_path.strip_prefix("@optifine/") {
-                (&self.optifine_profiles, self.optifine_profiles.join(path))
-            } else {
-                (&self.profiles, self.profiles.join(instance_path))
-            };
+        let base = self.profiles.join(instance_path);
         let destination = base.join(relative_path);
-        validate_parent_directories(root, &destination).await?;
+        validate_parent_directories(&self.profiles, &destination).await?;
         Ok(destination)
     }
 

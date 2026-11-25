@@ -1,7 +1,6 @@
 //! Keeps the app-wide fullscreen setting aligned with the shared Minecraft value.
 
 use super::CATALOG_REVISION;
-use super::scope::{GameOptionsScope, filter_scope_map};
 use crate::state::{
     CanonicalValue, State, load_game_option_preferences,
     load_game_options_sync_state, load_shared_game_options,
@@ -14,27 +13,15 @@ const FULLSCREEN_OPTION_ID: &str = "fullscreen";
 pub(crate) async fn shared_fullscreen_value(
     state: &State,
 ) -> crate::Result<Option<bool>> {
-    shared_fullscreen_value_for_scope(state, GameOptionsScope::Normal).await
-}
-
-pub(in crate::api::instance) async fn shared_fullscreen_value_for_scope(
-    state: &State,
-    scope: GameOptionsScope,
-) -> crate::Result<Option<bool>> {
-    let option_id = scope.scoped_id(FULLSCREEN_OPTION_ID);
-    let preferences = filter_scope_map(
-        load_game_option_preferences(&state.pool).await?,
-        scope,
-    );
+    let preferences = load_game_option_preferences(&state.pool).await?;
     if !preferences
-        .get(&option_id)
+        .get(FULLSCREEN_OPTION_ID)
         .is_some_and(|preference| preference.enabled)
     {
         return Ok(None);
     }
-    let values =
-        filter_scope_map(load_shared_game_options(&state.pool).await?, scope);
-    Ok(values.get(&option_id).and_then(|stored| {
+    let values = load_shared_game_options(&state.pool).await?;
+    Ok(values.get(FULLSCREEN_OPTION_ID).and_then(|stored| {
         if !stored.seeded {
             return None;
         }
@@ -49,28 +36,10 @@ pub(crate) async fn update_shared_fullscreen_from_app(
     state: &State,
     value: bool,
 ) -> crate::Result<bool> {
-    update_shared_fullscreen_from_app_for_scope(
-        state,
-        value,
-        GameOptionsScope::Normal,
-    )
-    .await
-}
-
-pub(in crate::api::instance) async fn update_shared_fullscreen_from_app_for_scope(
-    state: &State,
-    value: bool,
-    scope: GameOptionsScope,
-) -> crate::Result<bool> {
-    let option_id = scope.scoped_id(FULLSCREEN_OPTION_ID);
-    let values =
-        filter_scope_map(load_shared_game_options(&state.pool).await?, scope);
-    let preferences = filter_scope_map(
-        load_game_option_preferences(&state.pool).await?,
-        scope,
-    );
-    let stored = values.get(&option_id);
-    let preference = preferences.get(&option_id);
+    let values = load_shared_game_options(&state.pool).await?;
+    let preferences = load_game_option_preferences(&state.pool).await?;
+    let stored = values.get(FULLSCREEN_OPTION_ID);
+    let preference = preferences.get(FULLSCREEN_OPTION_ID);
     let value_matches = stored.is_some_and(|stored| {
         stored.seeded
             && matches!(
@@ -108,7 +77,7 @@ pub(in crate::api::instance) async fn update_shared_fullscreen_from_app_for_scop
 
     sqlx::query!(
         "\n\t\t\t\tINSERT INTO synced_game_option_values\n\t\t\t\t\t(option_id, kind, raw_key, canonical_type,\n\t\t\t\t\t canonical_value_json, value_codec, seeded, revision, origin,\n\t\t\t\t\t source_game_version, source_instance_id, updated_at)\n\t\t\t\tVALUES (?, ?, ?, ?, ?, ?, 1, ?, 'app_editor', ?, NULL, ?)\n\t\t\t\tON CONFLICT(option_id) DO UPDATE SET\n\t\t\t\t\tkind = excluded.kind, raw_key = excluded.raw_key,\n\t\t\t\t\tcanonical_type = excluded.canonical_type,\n\t\t\t\t\tcanonical_value_json = excluded.canonical_value_json,\n\t\t\t\t\tvalue_codec = excluded.value_codec, seeded = 1,\n\t\t\t\t\trevision = excluded.revision, origin = 'app_editor',\n\t\t\t\t\tsource_game_version = NULL, source_instance_id = NULL,\n\t\t\t\t\tupdated_at = excluded.updated_at\n\t\t\t\t",
-        option_id.as_str(),
+        FULLSCREEN_OPTION_ID,
         kind,
         raw_key,
         canonical_type,
@@ -122,7 +91,7 @@ pub(in crate::api::instance) async fn update_shared_fullscreen_from_app_for_scop
     .await?;
     sqlx::query!(
         "\n\t\t\t\tINSERT INTO synced_game_option_preferences\n\t\t\t\t\t(option_id, enabled, source, revision)\n\t\t\t\tVALUES (?, ?, ?, ?)\n\t\t\t\tON CONFLICT(option_id) DO UPDATE SET\n\t\t\t\t\tenabled = excluded.enabled, source = 'user',\n\t\t\t\t\trevision = excluded.revision\n\t\t\t\t",
-        option_id.as_str(),
+        FULLSCREEN_OPTION_ID,
         true,
         "user",
         option_revision,

@@ -70,7 +70,7 @@ impl GameOptionsDocument {
         );
         let path = state
             .directories
-            .version_dir_for_instance(&version_jar, &metadata.instance.path)
+            .version_dir(&version_jar)
             .join(format!("{version_jar}.jar"));
         let embedded_version = if path.exists() {
             crate::launcher::read_game_version_metadata_from_jar(&path)

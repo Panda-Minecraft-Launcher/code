@@ -13,16 +13,31 @@ const VERSIONS: VersionEntry[] = [
 	{
 		date: `2026-11-25T00:00:00+00:00`,
 		product: 'app',
+		version: '0.0.10',
+		body: `## Panda Minecraft Launcher 0.0.10
+- Panda Minecraft Launcher 0.0.10 yayında. Bu sürüm OptiFine desteğini kaldırıyor ve Ely.by istemci markasındaki "/Ely.by" son ekini düzeltiyor.
+
+## Kaldırıldı: OptiFine desteği
+- OptiFine sekmesi, BMCLAPI sürüm listeleri, yerel OF kurulum akışı, OF örnekleri ve OF'a özel ayar izolasyonu kaldırıldı.
+- Varsayılan OptiFine logosu ve özel logo seçici de kaldırıldı. Mevcut OF örnek dosyaları silinmez; ancak artık OF'e özel bir kurulum/yönetim arayüzü yoktur.
+- Normal Minecraft örnekleri, mod/veri paketi akışları ve CurseForge kaynak seçici etkilenmedi.
+
+## Düzeltildi: istemci markası
+- Ely.by hesaplarında authlib-injector'ın "--versionType" değerini auth sunucusu adıyla değiştirmesi engellendi. Oyun sunucularına gönderilen marka artık "/Ely.by" son eki içermez; kimlik doğrulama akışı değişmedi.
+
+## Bilinçli olarak korundu
+- "profiles" klasörü uyumluluk katmanı bu sürümde de duruyor. Kullanıcı kararıyla asıl kaldırma 0.0.15'e bırakıldı.
+
+## İndirme
+- Windows: "Panda.Minecraft.Launcher_0.0.10_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.10_amd64.AppImage"`,
+	},
+	{
+		date: `2026-11-25T00:00:00+00:00`,
+		product: 'app',
 		version: '0.0.9',
 		body: `## Panda Minecraft Launcher 0.0.9
-- Panda Minecraft Launcher 0.0.9 yayında. Bu sürüm yerel OptiFine desteğini ve sürüm haberlerini getiriyor.
-
-## Eklendi: OptiFine sekmesi
-- Uygulamaya ayrı "OptiFine" ikonu ve adıyla bağımsız bir sekme eklendi. Sürüm listesi BMCLAPI'den alınıyor ve kaynak arayüzde "Kaynak: BMCLAPI" / "Source: BMCLAPI" olarak gösteriliyor.
-- OptiFine kurulumu yalnızca vanilla Minecraft JAR'ı üzerinde çalışır. Gerekirse vanilla Minecraft önce indirilir, ardından optifine.Patcher ile yama uygulanır ve yamayıcı dosya silinir. Kurulum adımları İndirmeler/Görevler ekranında canlı olarak görünür.
-- OptiFine örneklerinin ayarları yalnızca diğer OptiFine örnekleriyle senkronize edilir; normal örneklere asla yazılmaz.
-- OptiFine örneklerinde mod kurulumu ve mod araması kapalıdır; yalnızca kaynak paketi ve veri paketi eklenebilir. Bu örnekler Keşfet ve normal mod arama sonuçlarında görünmez.
-- OptiFine oturumlarında oyun sunucularına gönderilen istemci markası "PML <oyun sürümü> OptiFine" biçimindedir.
+- Panda Minecraft Launcher 0.0.9 yayında. Bu sürüm sürüm haberlerini getiriyor.
 
 ## Eklendi: sürüm haberleri
 - Sağ üstte NEWS / YENİLİKLER butonu eklendi. Güncelleme sonrası ilk açılışta sürüm notları otomatik açılır; mevcut sürüm "buradasınız" olarak işaretlenir ve son iki sürüm gösterilir.
@@ -30,12 +45,6 @@ const VERSIONS: VersionEntry[] = [
 ## Değiştirildi: marka ve lisans
 - Uygulama, belgeler ve web sitesinde yalnızca "Panda Minecraft Launcher" adı kullanılıyor. Görünen eski marka adları kaldırıldı; CurseForge yanındaki kaynak sekmesi dışında görünür eski marka kalmadı. Paket adları, API/CDN adresleri ve protokol kimlikleri uyumluluk için korundu.
 - Proje kodu AGPL-3.0-only altında lisanslandı; üçüncü taraf lisansları korundu ve web taslak dosyaları silindi.
-
-## Düzeltildi
-- OptiFine örneklerinde natives yolu vanilla sürüm dizinine yönlendirildi; eksik liblwjgl.so nedeniyle oluşan açılış çökmesi giderildi.
-
-## Bilinen sorun
-- En yeni OptiFine sürümü otomatik seçildiğinde preview/uygunsuz bir sürüm gelebiliyor; listeden istediğin sürümü seçerek düzeltebilirsin.
 
 ## İndirme
 - Windows: "Panda.Minecraft.Launcher_0.0.9_x64-setup.exe"

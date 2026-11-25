@@ -34,13 +34,9 @@ pub(crate) async fn create_instance(
 ) -> crate::Result<Instance> {
     trace!("Creating new instance. {}", input.name);
 
-    let (path, full_path) = resolve_instance_path(
-        &input.name,
-        input.path.as_deref(),
-        input.loader,
-        state,
-    )
-    .await?;
+    let (path, full_path) =
+        resolve_instance_path(&input.name, input.path.as_deref(), state)
+            .await?;
     io::create_dir_all(&full_path).await?;
 
     let result = async {
@@ -158,20 +154,14 @@ pub(crate) async fn create_instance(
 async fn resolve_instance_path(
     name: &str,
     path: Option<&str>,
-    loader: ModLoader,
     state: &State,
 ) -> crate::Result<(String, std::path::PathBuf)> {
-    let requested = path
+    let base_path = path
         .map(ToOwned::to_owned)
         .unwrap_or_else(|| sanitize_instance_name(name));
-    let base_path = if loader == ModLoader::OptiFine {
-        format!("@optifine/{requested}")
-    } else {
-        requested
-    };
     crate::state::content_store::validate_relative(&base_path)?;
     let mut path = base_path.clone();
-    let mut full_path = state.directories.instance_path(&path);
+    let mut full_path = state.directories.instances_dir().join(&path);
 
     if path_available(&path, &full_path, &state.pool).await? {
         return Ok((path, full_path));
@@ -180,7 +170,7 @@ async fn resolve_instance_path(
     let mut which = 1;
     loop {
         path = format!("{base_path} ({which})");
-        full_path = state.directories.instance_path(&path);
+        full_path = state.directories.instances_dir().join(&path);
 
         if path_available(&path, &full_path, &state.pool).await? {
             return Ok((path, full_path));

@@ -7,7 +7,6 @@ mod storage;
 
 use super::catalog::{is_never_sync_key, setting_by_file_key};
 use super::options_file::{GameOptionsDocument, options_path, read_document};
-use super::{GameOptionsScope, unscoped_option_id};
 use crate::ErrorKind;
 use crate::state::{InstanceMetadata, State};
 use anyhow::bail;
@@ -127,20 +126,12 @@ fn mod_translation_key(raw_key: &str) -> Option<&str> {
     raw_key.strip_prefix("key_")
 }
 
-fn document_keys(
-    document: &GameOptionsDocument,
-    scope: GameOptionsScope,
-) -> BTreeMap<String, String> {
+fn document_keys(document: &GameOptionsDocument) -> BTreeMap<String, String> {
     document
         .effective_entries()
         .keys()
         .filter(|key| mod_translation_key(key).is_some())
-        .map(|key| {
-            (
-                scope.scoped_id(&format!("external:{key}")),
-                (*key).to_owned(),
-            )
-        })
+        .map(|key| (format!("external:{key}"), (*key).to_owned()))
         .collect()
 }
 
@@ -177,8 +168,7 @@ pub(super) async fn record_observations(
     let Some(snapshot) = snapshot else {
         return;
     };
-    let scope = GameOptionsScope::for_instance(metadata);
-    for (id, raw_key) in document_keys(document, scope) {
+    for (id, raw_key) in document_keys(document) {
         let observation = Observation {
             snapshot: snapshot.to_owned(),
             raw_key,
@@ -233,8 +223,7 @@ async fn index_installed_sources(state: &State) -> crate::Result<()> {
                 continue;
             }
         };
-        let keys =
-            document_keys(&document, GameOptionsScope::for_instance(&metadata));
+        let keys = document_keys(&document);
         if keys.is_empty() {
             continue;
         }
@@ -367,8 +356,7 @@ pub async fn get_game_setting_locale_labels(
     let requested: std::collections::HashSet<_> = option_ids
         .into_iter()
         .filter(|id| {
-            unscoped_option_id(id)
-                .strip_prefix("external:")
+            id.strip_prefix("external:")
                 .and_then(mod_translation_key)
                 .is_some()
         })
@@ -383,34 +371,17 @@ pub async fn get_game_setting_locale_labels(
         ));
     }
     let state = State::get().await?;
-    let scope = if let Some(instance_id) = instance_id
-        && let Some(metadata) =
-            crate::state::get_instance(instance_id, &state.pool).await?
-    {
-        GameOptionsScope::for_instance(&metadata)
-    } else {
-        GameOptionsScope::Normal
-    };
-    let requested: std::collections::HashSet<_> = requested
-        .into_iter()
-        .filter(|id| scope.matches_id(id))
-        .collect();
-    if requested.is_empty() {
-        return Ok(GameSettingLocaleLabels::default());
-    }
     if refresh_sources {
         queue_game_locale_index();
     }
-    let instance_scope = instance_id.unwrap_or("");
-    let mut rows = storage::load(&state.pool, Some(instance_scope)).await?;
-    rows.retain(|row| scope.matches_id(&row.option_id));
-    if instance_scope.is_empty() {
+    let scope = instance_id.unwrap_or("");
+    let mut rows = storage::load(&state.pool, Some(scope)).await?;
+    if scope.is_empty() {
         let mut sourced: std::collections::HashSet<_> =
             rows.iter().map(|row| row.option_id.clone()).collect();
         // Unsaved global options have no provenance row; use an indexed local label until saved.
         for row in storage::load(&state.pool, None).await? {
             if !row.scope.is_empty()
-                && scope.matches_id(&row.option_id)
                 && requested.contains(&row.option_id)
                 && row.origin.is_some()
                 && sourced.insert(row.option_id.clone())

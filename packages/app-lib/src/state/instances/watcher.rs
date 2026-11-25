@@ -444,7 +444,7 @@ pub(crate) async fn watch_instance_folder(
     watcher: &FileWatcher,
     dirs: &DirectoryInfo,
 ) {
-    let full_instance_path = dirs.instance_path(instance_path);
+    let full_instance_path = dirs.instances_dir().join(instance_path);
 
     let Ok(metadata) = tokio::fs::metadata(&full_instance_path).await else {
         return;
@@ -530,7 +530,7 @@ pub(crate) async fn unwatch_instance_folder(
     instance_ids.remove(instance_path);
     drop(instance_ids);
 
-    let full_instance_path = dirs.instance_path(instance_path);
+    let full_instance_path = dirs.instances_dir().join(instance_path);
     let mut watched_paths = watched_subpaths()
         .map(|sub_path| full_instance_path.join(sub_path))
         .collect::<Vec<_>>();

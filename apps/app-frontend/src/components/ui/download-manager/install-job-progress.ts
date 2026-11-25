@@ -44,14 +44,6 @@ const stagesByKind: Record<InstallJobSnapshot['kind'], readonly Stage[]> = {
 	import_instance: copyStages,
 	duplicate_instance: copyStages,
 	install_existing_instance: instanceStages,
-	install_optifine: [
-		['preparing_instance', 2],
-		['resolving_minecraft', 3],
-		['downloading_minecraft', 15],
-		['downloading_content', 70],
-		['running_loader_processors', 9],
-		['finalizing', 1],
-	],
 	install_pack_to_existing_instance: packStages,
 	update_shared_instance: packStages,
 	bulk_update_content: [

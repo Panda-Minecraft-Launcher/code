@@ -10,7 +10,6 @@ use super::options_file::{
     options_path, read_document, validate_raw_key_value,
 };
 use super::read_instance_changes::custom_setting_id;
-use super::{GameOptionsScope, filter_scope_map};
 use crate::ErrorKind;
 use crate::state::{
     CanonicalValue, InstanceMetadata, State, load_game_option_preferences,
@@ -24,19 +23,6 @@ pub(in crate::api::instance) async fn initialize_from_source_instance(
     metadata: &InstanceMetadata,
     state: &State,
 ) -> crate::Result<()> {
-    initialize_from_source_instance_scoped(
-        metadata,
-        state,
-        GameOptionsScope::Normal,
-    )
-    .await
-}
-
-async fn initialize_from_source_instance_scoped(
-    metadata: &InstanceMetadata,
-    state: &State,
-    scope: GameOptionsScope,
-) -> crate::Result<()> {
     let path = options_path(metadata, state);
     if !path.exists() {
         bail!(ErrorKind::InputError(
@@ -47,12 +33,8 @@ async fn initialize_from_source_instance_scoped(
     let (document, _) = read_document(&path).await?;
     let launcher_keys = currently_launcher_owned_keys(metadata);
     let entries = document.effective_entries();
-    let current_values =
-        filter_scope_map(load_shared_game_options(&state.pool).await?, scope);
-    let current_preferences = filter_scope_map(
-        load_game_option_preferences(&state.pool).await?,
-        scope,
-    );
+    let current_values = load_shared_game_options(&state.pool).await?;
+    let current_preferences = load_game_option_preferences(&state.pool).await?;
     let (current_revision, _) =
         load_game_options_sync_state(&state.pool, CATALOG_REVISION).await?;
     let now = Utc::now().timestamp();
@@ -98,32 +80,16 @@ async fn initialize_from_source_instance_scoped(
     )
     .execute(&mut *tx)
     .await?;
-    for (option_id, stored) in &current_values {
-        let revision = stored
-            .revision
-            .max(
-                current_preferences
-                    .get(option_id)
-                    .map(|preference| preference.revision)
-                    .unwrap_or(0),
-            )
-            .saturating_add(1) as i64;
-        sqlx::query!(
-            "
-				UPDATE synced_game_option_values
-				SET seeded = 0, revision = ?, updated_at = ?
-				WHERE option_id = ?
-				",
-            revision,
-            now,
-            option_id,
-        )
-        .execute(&mut *tx)
-        .await?;
-    }
+    sqlx::query!(
+        "UPDATE synced_game_option_values
+		 SET seeded = 0, revision = revision + 1, updated_at = ?",
+        now,
+    )
+    .execute(&mut *tx)
+    .await?;
     for definition in all_supported_settings() {
         for key in definition.keys {
-            let custom_id = scope.scoped_id(&custom_setting_id(key));
+            let custom_id = custom_setting_id(key);
             let Some(custom) = current_values.get(&custom_id) else {
                 continue;
             };
@@ -186,22 +152,21 @@ async fn initialize_from_source_instance_scoped(
         let Some((_physical_key, value)) = found else {
             continue;
         };
-        let option_id = scope.scoped_id(definition.id);
         if definition.id == "fullscreen" {
             fullscreen_value = Some(value.clone());
             fullscreen_sync_enabled = current_preferences
-                .get(&option_id)
+                .get(definition.id)
                 .map(|preference| preference.enabled)
                 .unwrap_or(definition.default_on);
         }
         seeded_any = true;
         let option_revision = current_values
-            .get(&option_id)
+            .get(definition.id)
             .map(|value| value.revision)
             .unwrap_or(0)
             .max(
                 current_preferences
-                    .get(&option_id)
+                    .get(definition.id)
                     .map(|value| value.revision)
                     .unwrap_or(0),
             )
@@ -226,7 +191,7 @@ async fn initialize_from_source_instance_scoped(
 				source_instance_id = excluded.source_instance_id,
 				updated_at = excluded.updated_at
 			",
-            option_id.as_str(),
+            definition.id,
             canonical_type,
             value_json,
             option_revision,
@@ -244,7 +209,7 @@ async fn initialize_from_source_instance_scoped(
 			VALUES (?, ?, 'catalog_default', ?)
 			ON CONFLICT(option_id) DO NOTHING
 			",
-            option_id.as_str(),
+            definition.id,
             default_enabled,
             option_revision,
         )
@@ -265,7 +230,7 @@ async fn initialize_from_source_instance_scoped(
         if validate_raw_key_value(key, &entry.value).is_err() {
             continue;
         }
-        let option_id = scope.scoped_id(&custom_setting_id(key));
+        let option_id = custom_setting_id(key);
         let value = CanonicalValue::ExternalRaw(entry.value.clone());
         seeded_any = true;
         let option_revision = current_values
@@ -340,12 +305,8 @@ async fn initialize_from_source_instance_scoped(
     .execute(&mut *tx)
     .await?;
     if let Some(value) = fullscreen_value.as_ref() {
-        update_app_fullscreen_setting(
-            &mut tx,
-            value,
-            fullscreen_sync_enabled && !scope.is_optifine(),
-        )
-        .await?;
+        update_app_fullscreen_setting(&mut tx, value, fullscreen_sync_enabled)
+            .await?;
     }
     super::locales::record_observations(
         &mut tx,
@@ -359,36 +320,13 @@ async fn initialize_from_source_instance_scoped(
     Ok(())
 }
 
-pub(in crate::api::instance) async fn initialize_from_source_instance_for_scope(
-    metadata: &InstanceMetadata,
-    state: &State,
-    scope: GameOptionsScope,
-) -> crate::Result<()> {
-    if GameOptionsScope::for_instance(metadata) != scope {
-        bail!(ErrorKind::InputError(
-            "the source instance does not match the game-settings sync scope"
-                .to_string(),
-        ));
-    }
-    initialize_from_source_instance_scoped(metadata, state, scope).await
-}
-
 pub async fn list_sync_sources()
 -> crate::Result<Vec<GameOptionsSourceCandidate>> {
-    list_sync_sources_for_scope(GameOptionsScope::Normal).await
-}
-
-pub(in crate::api::instance) async fn list_sync_sources_for_scope(
-    scope: GameOptionsScope,
-) -> crate::Result<Vec<GameOptionsSourceCandidate>> {
     let state = State::get().await?;
     let _guard = state.synced_options.lock().await;
     let instances = crate::state::list_instances(&state.pool).await?;
     let mut sources = Vec::with_capacity(instances.len());
     for metadata in instances {
-        if GameOptionsScope::for_instance(&metadata) != scope {
-            continue;
-        }
         let path = options_path(&metadata, &state);
         let version_supported = supported_settings_cover_game_version(
             &metadata.applied_content_set.game_version,

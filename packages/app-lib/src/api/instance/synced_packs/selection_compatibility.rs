@@ -154,7 +154,7 @@ pub(super) async fn game_format(
     );
     let path = state
         .directories
-        .version_dir_for_instance(&version_jar, &metadata.instance.path)
+        .version_dir(&version_jar)
         .join(format!("{version_jar}.jar"));
     if !path.exists() {
         return Ok(None);

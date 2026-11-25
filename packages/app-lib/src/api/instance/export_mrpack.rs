@@ -187,8 +187,10 @@ pub async fn export_mrpack(
     ))?;
     let parent = tokio::fs::canonicalize(parent).await?;
     let store = tokio::fs::canonicalize(state.directories.store_dir()).await?;
+    let profiles =
+        tokio::fs::canonicalize(state.directories.instances_dir()).await?;
     if parent.starts_with(store)
-        || state.directories.is_instance_path(&parent)
+        || parent.starts_with(profiles)
         || tokio::fs::symlink_metadata(destination)
             .await
             .is_ok_and(|metadata| metadata.file_type().is_symlink())
@@ -637,9 +639,6 @@ pub async fn create_mrpack_json(
             dependencies.insert(PackDependency::QuiltLoader, v)
         }
         (ModLoader::Vanilla, _) => None,
-        (ModLoader::OptiFine, _) => {
-            bail!("OptiFine instances cannot be exported as Modrinth packs");
-        }
         _ => {
             bail!("loader version mismatch");
         }

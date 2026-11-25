@@ -135,7 +135,10 @@ async fn run_credentials(
         || post_exit_hook.is_some();
     let full_path = if has_hook_commands {
         Some(crate::util::io::canonicalize(
-            state.directories.instance_path(&context.instance.path),
+            state
+                .directories
+                .instances_dir()
+                .join(&context.instance.path),
         )?)
     } else {
         None

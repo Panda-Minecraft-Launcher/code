@@ -737,15 +737,6 @@ watch(
 )
 
 watch(
-	[() => route.params.projectType, () => instance.value?.loader],
-	([type, loader]) => {
-		if (type !== 'mod' || loader !== 'optifine') return
-		void router.replace({ path: '/browse/resourcepack', query: route.query })
-	},
-	{ immediate: true },
-)
-
-watch(
 	() => route.query.i,
 	async (nextInstanceId, previousInstanceId) => {
 		if (!route.path.startsWith('/browse') || nextInstanceId === previousInstanceId) return
@@ -778,7 +769,7 @@ const selectableProjectTypes = computed(() => {
 			dataPacks = true
 		}
 
-		if (!['vanilla', 'optifine'].includes(instance.value.loader)) {
+		if (instance.value.loader !== 'vanilla') {
 			mods = true
 		}
 	} else {

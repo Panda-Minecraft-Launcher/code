@@ -1056,7 +1056,7 @@ impl Process {
                 if let Some(command) = cmd.next() {
                     let mut command = Command::new(command);
                     command.args(cmd).envs(post_exit_env_vars).current_dir(
-                        state.directories.instance_path(&instance_path),
+                        state.directories.instances_dir().join(&instance_path),
                     );
                     command.spawn().map_err(IOError::from)?;
                 }

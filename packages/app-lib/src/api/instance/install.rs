@@ -36,7 +36,6 @@ async fn resolve_launch_version_info(
         None,
         None,
         None,
-        Some(&context.instance.path),
     )
     .await?;
 

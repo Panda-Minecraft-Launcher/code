@@ -124,64 +124,57 @@ pub async fn export_debug_info(
                 &cancel,
             )?;
         }
-        for (instances_dir, folder_name) in [
-            (directories.instances_dir(), "instances"),
-            (directories.optifine_instances_dir(), "optifine_instances"),
-        ] {
-            match std::fs::read_dir(&instances_dir) {
-                Ok(entries) => {
-                    for entry in entries {
+        let instances_dir = directories.instances_dir();
+        match std::fs::read_dir(&instances_dir) {
+            Ok(entries) => {
+                for entry in entries {
+                    if cancel.is_cancelled() {
+                        return Ok(false);
+                    }
+                    let entry = entry?;
+                    if !entry.file_type()?.is_dir() {
+                        continue;
+                    }
+                    let instance_dir = entry.path();
+                    let prefix = format!(
+                        "instances/{}",
+                        entry.file_name().to_string_lossy()
+                    );
+                    for name in ["logs", "crash-reports"] {
+                        collect_files(
+                            &mut files,
+                            &instance_dir.join(name),
+                            &format!("{prefix}/{name}"),
+                            true,
+                            &excluded_paths,
+                            &cancel,
+                        )?;
+                    }
+                    for file in std::fs::read_dir(&instance_dir)? {
                         if cancel.is_cancelled() {
                             return Ok(false);
                         }
-                        let entry = entry?;
-                        if !entry.file_type()?.is_dir() {
-                            continue;
-                        }
-                        let instance_dir = entry.path();
-                        let prefix = format!(
-                            "{folder_name}/{}",
-                            entry.file_name().to_string_lossy()
-                        );
-                        for name in ["logs", "crash-reports"] {
+                        let file = file?;
+                        let name = file.file_name();
+                        let name = name.to_string_lossy();
+                        if name.starts_with("hs_err_pid")
+                            && name.ends_with(".log")
+                        {
                             collect_files(
                                 &mut files,
-                                &instance_dir.join(name),
+                                &file.path(),
                                 &format!("{prefix}/{name}"),
                                 true,
                                 &excluded_paths,
                                 &cancel,
                             )?;
                         }
-                        for file in std::fs::read_dir(&instance_dir)? {
-                            if cancel.is_cancelled() {
-                                return Ok(false);
-                            }
-                            let file = file?;
-                            let name = file.file_name();
-                            let name = name.to_string_lossy();
-                            if name.starts_with("hs_err_pid")
-                                && name.ends_with(".log")
-                            {
-                                collect_files(
-                                    &mut files,
-                                    &file.path(),
-                                    &format!("{prefix}/{name}"),
-                                    true,
-                                    &excluded_paths,
-                                    &cancel,
-                                )?;
-                            }
-                        }
                     }
                 }
-                Err(error)
-                    if error.kind() == std::io::ErrorKind::NotFound => {}
-                Err(error) => {
-                    return Err(
-                        IOError::with_path(error, &instances_dir).into()
-                    );
-                }
+            }
+            Err(error) if error.kind() == std::io::ErrorKind::NotFound => {}
+            Err(error) => {
+                return Err(IOError::with_path(error, &instances_dir).into());
             }
         }
         if cancel.is_cancelled() {

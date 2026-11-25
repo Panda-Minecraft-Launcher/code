@@ -69,7 +69,6 @@ import { RouterView, useRoute, useRouter } from 'vue-router'
 
 import { useRouteLoading } from '@/app/runtime/use-route-loading'
 import { useSharedInstanceLockSync } from '@/app/runtime/use-shared-instance-lock-sync'
-import OptifineNavButton from '@/app/shell/optifine-nav-button.vue'
 import AppTitleBar from '@/app/shell/title-bar/index.vue'
 import { trackExternalFileDownload } from '@/components/ui/download-manager/external-file-downloads'
 import ErrorModal from '@/components/ui/ErrorModal.vue'
@@ -1875,7 +1874,6 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 			>
 				<ImageIcon />
 			</NavButton>
-			<OptifineNavButton :tooltip-side="navTooltipSide" />
 			<NavButton
 				v-if="false"
 				v-tooltip:[navTooltipSide]="formatMessage(messages.modrinthHosting)"

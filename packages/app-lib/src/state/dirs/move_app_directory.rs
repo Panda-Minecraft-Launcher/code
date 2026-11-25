@@ -78,10 +78,9 @@ const PROTECTED_TARGETS_KEY: &str = "store_directory_move_protected";
 const PRESERVED_CACHE_ENTRIES: [&str; 2] = ["icons", "game-locales"];
 const COPY_PROGRESS_LIMIT: f64 = 0.99;
 
-const MOVED_APP_DIRECTORIES: [&str; 10] = [
+const MOVED_APP_DIRECTORIES: [&str; 9] = [
     "store",
     super::INSTANCES_FOLDER_NAME,
-    super::OPTIFINE_INSTANCES_FOLDER_NAME,
     // shortcut: old folder name stays movable until 0.0.10; remove then.
     super::LEGACY_INSTANCES_FOLDER_NAME,
     "meta",

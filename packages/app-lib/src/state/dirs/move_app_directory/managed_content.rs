@@ -4,10 +4,7 @@ use crate::state::content_store::{
     FileStorageKind, content_file_path, validate_instance_path,
     validate_parent_directories, validate_relative,
 };
-use crate::state::dirs::{
-    INSTANCES_FOLDER_NAME, LEGACY_INSTANCES_FOLDER_NAME,
-    OPTIFINE_INSTANCES_FOLDER_NAME,
-};
+use crate::state::dirs::{INSTANCES_FOLDER_NAME, LEGACY_INSTANCES_FOLDER_NAME};
 use crate::state::instances::adapters::sqlite::{content_rows, instance_rows};
 use anyhow::bail;
 use serde::{Deserialize, Serialize};
@@ -46,19 +43,6 @@ pub(super) async fn prepare(
         };
     for instance in instance_rows::list_instances(pool).await? {
         validate_instance_path(&instance.path)?;
-        let (
-            instance_source_folder,
-            instance_destination_folder,
-            instance_relative_path,
-        ) = if let Some(path) = instance.path.strip_prefix("@optifine/") {
-            (
-                OPTIFINE_INSTANCES_FOLDER_NAME,
-                OPTIFINE_INSTANCES_FOLDER_NAME,
-                path,
-            )
-        } else {
-            (source_folder, INSTANCES_FOLDER_NAME, instance.path.as_str())
-        };
         let files =
             content_rows::get_instance_files(&instance.id, pool).await?;
         for binding in
@@ -83,12 +67,12 @@ pub(super) async fn prepare(
                 content_store::object_relative_path(&stored.sha512)?;
             moves.push(ManagedContentMove {
                 source: from
-                    .join(instance_source_folder)
-                    .join(instance_relative_path)
+                    .join(source_folder)
+                    .join(&instance.path)
                     .join(&relative_path),
                 destination: to
-                    .join(instance_destination_folder)
-                    .join(instance_relative_path)
+                    .join(INSTANCES_FOLDER_NAME)
+                    .join(&instance.path)
                     .join(relative_path),
                 stored_path: to.join("store/content").join(stored_path),
                 binding: MovedFileBinding {

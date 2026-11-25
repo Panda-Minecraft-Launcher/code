@@ -7,7 +7,6 @@ use super::catalog::*;
 use super::options_file::{
     GameOptionsDocument, options_path, read_document, sha1_bytes,
 };
-use super::scope::GameOptionsScope;
 use crate::state::{
     CanonicalValue, InstanceMetadata, State, StoredOption,
     game_options_sync_is_enabled,
@@ -37,10 +36,7 @@ pub(super) async fn load_participating_instances(
     let instances = crate::state::list_instances(&state.pool).await?;
     let mut participants = Vec::new();
     for metadata in instances {
-        if !metadata.synced_options.game_options
-            || GameOptionsScope::for_instance(&metadata)
-                != GameOptionsScope::Normal
-        {
+        if !metadata.synced_options.game_options {
             continue;
         }
         let deferred = synced_options::sync_files_are_protected(&metadata)

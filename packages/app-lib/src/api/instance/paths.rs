@@ -13,7 +13,9 @@ pub async fn get_full_path(instance_id: &str) -> crate::Result<PathBuf> {
         .await?
         .ok_or(crate::ErrorKind::InputError("unknown instance".to_string()))?;
 
-    Ok(io::canonicalize(state.directories.instance_path(&path))?)
+    Ok(io::canonicalize(
+        state.directories.instances_dir().join(path),
+    )?)
 }
 
 #[tracing::instrument]

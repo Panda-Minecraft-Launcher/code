@@ -767,7 +767,7 @@ pub(crate) fn instance_full_path(
     directories: &DirectoryInfo,
     instance: &Instance,
 ) -> PathBuf {
-    directories.instance_path(&instance.path)
+    directories.instances_dir().join(&instance.path)
 }
 
 pub(super) async fn upsert_entry_for_file(

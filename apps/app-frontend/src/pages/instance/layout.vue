@@ -803,12 +803,7 @@ async function browseContent(projectType?: string) {
 	const currentInstance = instance.value
 	if (!currentInstance || currentInstance.content_locked) return
 	await router.push({
-		path: `/browse/${
-			projectType ??
-			(currentInstance.loader === 'vanilla' || currentInstance.loader === 'optifine'
-				? 'resourcepack'
-				: 'mod')
-		}`,
+		path: `/browse/${projectType ?? (currentInstance.loader === 'vanilla' ? 'resourcepack' : 'mod')}`,
 		query: { i: currentInstance.id },
 	})
 }
@@ -924,10 +919,7 @@ const handleRightClick = (event: MouseEvent) => {
 			label: formatMessage(messages.addContent),
 			icon: PlusIcon,
 			shown: canAddContent,
-			action: () =>
-				void browseContent(
-					['vanilla', 'optifine'].includes(instance.value?.loader ?? '') ? 'datapack' : 'mod',
-				),
+			action: () => void browseContent(instance.value?.loader === 'vanilla' ? 'datapack' : 'mod'),
 		},
 		{ type: 'divider', shown: canAddContent },
 		{

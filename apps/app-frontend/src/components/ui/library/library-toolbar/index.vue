@@ -8,15 +8,6 @@ import NewGroupModal from '@/components/ui/library/library-toolbar/new-group-mod
 import SortMenu from '@/components/ui/library/library-toolbar/sort-menu.vue'
 import { useLibrary } from '@/components/ui/library/use-library'
 
-withDefaults(
-	defineProps<{
-		showNewInstance?: boolean
-	}>(),
-	{
-		showNewInstance: true,
-	},
-)
-
 const { search, selectedLibraryInstances, openNewGroupModal } = useLibrary()
 const showCreationModal = inject<() => void>('showCreationModal')
 const { formatMessage } = useVIntl()
@@ -50,7 +41,7 @@ function openNewGroup() {
 				<SquarePlusIcon />
 				{{ formatMessage(messages.newGroup) }}
 			</Button>
-			<Button v-if="showNewInstance" type="colored" color="brand" @click="showCreationModal?.()">
+			<Button type="colored" color="brand" @click="showCreationModal?.()">
 				<PlusIcon />
 				{{ formatMessage(messages.newInstance) }}
 			</Button>

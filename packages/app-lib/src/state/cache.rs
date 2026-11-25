@@ -1,7 +1,6 @@
 use crate::ErrorKind;
 use crate::state::{
-    DirectoryInfo, EmbeddedContentMetadata, ModLoader, ProjectType,
-    SharedInstanceRole,
+    EmbeddedContentMetadata, ModLoader, ProjectType, SharedInstanceRole,
 };
 use crate::util::fetch::{FetchSemaphore, fetch_json};
 use anyhow::{Context, bail};
@@ -15,7 +14,7 @@ use std::collections::HashMap;
 use std::env;
 use std::fmt::Display;
 use std::hash::Hash;
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 
 // 1 day
 const DEFAULT_ID: &str = "0";
@@ -1227,23 +1226,6 @@ impl CachedEntry {
         fetch_semaphore: &FetchSemaphore,
         pool: &SqlitePool,
     ) -> crate::Result<Vec<(Self, bool)>> {
-        if type_ == CacheValueType::SearchResultsV3
-            && keys
-                .iter()
-                .all(|key| key.to_string().starts_with("optifine:"))
-        {
-            return Ok(keys
-                .into_iter()
-                .map(|key| {
-                    (
-                        CacheValueType::SearchResultsV3
-                            .get_empty_entry(key.to_string()),
-                        false,
-                    )
-                })
-                .collect());
-        }
-
         async fn fetch_many_batched<T: DeserializeOwned>(
             method: Method,
             api_url: &str,
@@ -1676,10 +1658,10 @@ impl CachedEntry {
             CacheValueType::FileHash => {
                 // TODO: Replace state call here
                 let state = crate::State::get().await?;
-                let directories = &state.directories;
+                let instances_dir = state.directories.instances_dir();
 
                 async fn hash_file(
-                    directories: &DirectoryInfo,
+                    instances_dir: &Path,
                     key: String,
                 ) -> crate::Result<(CachedEntry, bool)> {
                     let path = file_hash_path_from_cache_key(&key).ok_or(
@@ -1688,7 +1670,7 @@ impl CachedEntry {
                         )),
                     )?;
 
-                    let full_path = directories.instance_path(path);
+                    let full_path = instances_dir.join(path);
 
                     let mut file = tokio::fs::File::open(&full_path).await?;
                     let metadata = file.metadata().await?;
@@ -1728,7 +1710,7 @@ impl CachedEntry {
 
                 use futures::stream::StreamExt;
                 let results: Vec<_> = futures::stream::iter(keys)
-                    .map(|x| hash_file(directories, x.to_string()))
+                    .map(|x| hash_file(&instances_dir, x.to_string()))
                     .buffer_unordered(64) // hash 64 files at once
                     .collect::<Vec<_>>()
                     .await
@@ -2170,10 +2152,6 @@ impl CachedEntry {
         };
 
         Ok(value)
-    }
-
-    pub(crate) fn set_alias(&mut self, alias: impl Into<String>) {
-        self.alias = Some(alias.into());
     }
 
     pub(crate) async fn upsert_many<'a>(

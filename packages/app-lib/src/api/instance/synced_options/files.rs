@@ -58,7 +58,10 @@ pub(in crate::api::instance) fn instance_dir(
     metadata: &InstanceMetadata,
     state: &State,
 ) -> PathBuf {
-    state.directories.instance_path(&metadata.instance.path)
+    state
+        .directories
+        .instances_dir()
+        .join(&metadata.instance.path)
 }
 
 pub(in crate::api::instance) fn sync_files_are_protected(

@@ -389,9 +389,6 @@
   "app.download-manager.no-tasks": {
     "message": "Görev yok"
   },
-  "app.download-manager.optifine-install": {
-    "message": "OptiFine kurulumu"
-  },
   "app.download-manager.pause": {
     "message": "İndirmeyi duraklat"
   },
@@ -568,12 +565,6 @@
   },
   "app.install.phase.finalizing": {
     "message": "Tamamlanıyor"
-  },
-  "app.install.phase.optifine.downloading-patcher": {
-    "message": "OptiFine yamayıcısı indiriliyor"
-  },
-  "app.install.phase.optifine.patching": {
-    "message": "Minecraft jar dosyası yamalanıyor"
   },
   "app.install.phase.preparing_instance": {
     "message": "İndirmek için sıraya alındı"
@@ -1616,9 +1607,6 @@
   "app.navigation.home": {
     "message": "Ana Sayfa"
   },
-  "app.navigation.optifine": {
-    "message": "OptiFine"
-  },
   "app.news.title": {
     "message": "Haberler"
   },
@@ -1627,21 +1615,6 @@
   },
   "app.notification.warning": {
     "message": "Uyarı"
-  },
-  "app.optifine.install": {
-    "message": "OptiFine kur"
-  },
-  "app.optifine.installed": {
-    "message": "OptiFine kuruldu"
-  },
-  "app.optifine.loader-version": {
-    "message": "OptiFine sürümü"
-  },
-  "app.optifine.source": {
-    "message": "Kaynak: BMCLAPI"
-  },
-  "app.optifine.title": {
-    "message": "OptiFine"
   },
   "app.project.actions.label": {
     "message": "Proje eylemleri"

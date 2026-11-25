@@ -14,14 +14,6 @@ const messages = defineMessages({
 		id: 'app.action-bar.install.updating-shared-content',
 		defaultMessage: 'Updating shared content',
 	},
-	downloadingOptiFinePatcher: {
-		id: 'app.install.phase.optifine.downloading-patcher',
-		defaultMessage: 'Downloading OptiFine patcher',
-	},
-	patchingMinecraftJar: {
-		id: 'app.install.phase.optifine.patching',
-		defaultMessage: 'Patching Minecraft jar',
-	},
 })
 
 const kindMessages = defineMessages({
@@ -50,10 +42,6 @@ const kindMessages = defineMessages({
 	install_pack_to_existing_instance: {
 		id: 'app.download-manager.modpack-installation',
 		defaultMessage: 'Modpack installation',
-	},
-	optifine_install: {
-		id: 'app.download-manager.optifine-install',
-		defaultMessage: 'OptiFine installation',
 	},
 	update_shared_instance: {
 		id: 'app.download-manager.shared-instance-update',
@@ -303,10 +291,7 @@ export function useInstallJobDisplay() {
 	}
 
 	function getTaskType(job: InstallJobSnapshot): string {
-		const kind = String(job.kind).toLowerCase().includes('optifine')
-			? 'optifine_install'
-			: (job.kind as keyof typeof kindMessages)
-		return formatMessage(kindMessages[kind], { count: job.content_count ?? 0 })
+		return formatMessage(kindMessages[job.kind], { count: job.content_count ?? 0 })
 	}
 
 	function getText(job: InstallJobSnapshot): string {
@@ -325,18 +310,7 @@ export function useInstallJobDisplay() {
 		if (job.kind === 'update_shared_instance' && job.phase === 'downloading_content') {
 			return formatMessage(messages.updatingSharedContent)
 		}
-		if (job.kind === 'install_optifine') {
-			if (job.phase === 'downloading_content') {
-				return formatMessage(messages.downloadingOptiFinePatcher)
-			}
-			if (job.phase === 'running_loader_processors') {
-				return formatMessage(messages.patchingMinecraftJar)
-			}
-		}
-		const phase = String(job.phase).toLowerCase().includes('optifine')
-			? 'optifine_install'
-			: (job.phase as keyof typeof phaseMessages)
-		return formatMessage(phaseMessages[phase])
+		return formatMessage(phaseMessages[job.phase])
 	}
 
 	function getFailureSummary(job: InstallJobSnapshot): string {

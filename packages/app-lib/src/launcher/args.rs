@@ -109,7 +109,6 @@ pub fn get_client_brand(game_version: &str, loader: ModLoader) -> String {
         ModLoader::Fabric => "Fabric",
         ModLoader::Quilt => "Quilt",
         ModLoader::NeoForge => "NeoForge",
-        ModLoader::OptiFine => "OptiFine",
     };
     format!("PML {game_version} {loader_name}")
 }

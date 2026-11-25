@@ -173,9 +173,6 @@ export interface CreationFlowContextValue {
 	// Initial values
 	initialLoader: string | null
 	initialGameVersion: string | null
-	gameVersions?: string[]
-	hideLoaderVersionTypeChips: boolean
-	loaderVersionLabel?: MessageDescriptor
 
 	// State
 	setupType: Ref<SetupType | null>
@@ -313,10 +310,6 @@ export interface CreationFlowOptions {
 	isInitialSetup?: boolean
 	initialLoader?: string
 	initialGameVersion?: string
-	gameVersions?: string[]
-	hideLoaderChips?: boolean
-	hideLoaderVersionTypeChips?: boolean
-	loaderVersionLabel?: MessageDescriptor
 	fetchExistingInstanceNames?: () => Promise<string[]>
 	onBack?: () => boolean | void
 	browseModpacks?: () => Promise<void>
@@ -355,7 +348,6 @@ export function createCreationFlowContext(
 	const isInitialSetup = options.isInitialSetup ?? false
 	const initialLoader = options.initialLoader ?? null
 	const initialGameVersion = options.initialGameVersion ?? null
-	const hideLoaderVersionTypeChips = options.hideLoaderVersionTypeChips ?? false
 	const onBack = options.onBack ?? null
 	const randomizeInstanceIcon = options.randomizeInstanceIcon ?? null
 	const customizeInstanceIcon = options.customizeInstanceIcon ?? null
@@ -459,7 +451,7 @@ export function createCreationFlowContext(
 	const cancelBackup = ref<(() => void) | null>(null)
 
 	// hideLoaderChips: hides the entire loader chips section (only for vanilla world type in world/server flows)
-	const hideLoaderChips = computed(() => options.hideLoaderChips ?? setupType.value === 'vanilla')
+	const hideLoaderChips = computed(() => setupType.value === 'vanilla')
 
 	// hideLoaderVersion: hides the loader version section (vanilla world type OR vanilla selected as loader chip)
 	const hideLoaderVersion = computed(
@@ -819,9 +811,6 @@ export function createCreationFlowContext(
 		isInitialSetup,
 		initialLoader,
 		initialGameVersion,
-		gameVersions: options.gameVersions,
-		hideLoaderVersionTypeChips,
-		loaderVersionLabel: options.loaderVersionLabel,
 		setupType,
 		isImportMode,
 		worldName,

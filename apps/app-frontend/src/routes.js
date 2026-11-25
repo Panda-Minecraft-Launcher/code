@@ -74,14 +74,6 @@ export default new createRouter({
 			component: () => import('@/pages/Screenshots.vue'),
 		},
 		{
-			path: '/optifine',
-			name: 'OptiFine',
-			component: () => import('@/features/optifine/pages/optifine-page.vue'),
-			meta: {
-				manualScroll: true,
-			},
-		},
-		{
 			path: '/user/:user/:projectType?',
 			name: 'User',
 			component: () => import('@/pages/User.vue'),

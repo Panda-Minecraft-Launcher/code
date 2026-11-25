@@ -16,7 +16,6 @@ mod event;
 pub mod install;
 mod launcher;
 mod logger;
-pub mod optifine;
 mod state;
 
 pub use api::*;

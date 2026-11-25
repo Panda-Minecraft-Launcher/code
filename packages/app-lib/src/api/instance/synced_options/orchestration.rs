@@ -1281,10 +1281,8 @@ pub(super) async fn seed_from_instance(
     let instance_dir = instance_dir(metadata, state);
     match option {
         SyncedOption::GameOptions => {
-            super::game_options::initialize_from_source_instance_for_scope(
-                metadata,
-                state,
-                super::game_options::GameOptionsScope::for_instance(metadata),
+            super::game_options::initialize_from_source_instance(
+                metadata, state,
             )
             .await?;
         }

@@ -10,7 +10,6 @@ use tokio::fs;
 pub const CACHES_FOLDER_NAME: &str = "caches";
 pub const LAUNCHER_LOGS_FOLDER_NAME: &str = "launcher_logs";
 pub const INSTANCES_FOLDER_NAME: &str = "instances";
-pub const OPTIFINE_INSTANCES_FOLDER_NAME: &str = "optifine_instances";
 // shortcut: 0.0.6 folder name, needed for upgrades until 0.0.10; remove then.
 pub const LEGACY_INSTANCES_FOLDER_NAME: &str = "profiles";
 pub const METADATA_FOLDER_NAME: &str = "meta";
@@ -142,20 +141,6 @@ impl DirectoryInfo {
         self.versions_dir().join(version)
     }
 
-    /// OptiFine versions live inside their instance folder instead of the shared versions dir.
-    #[inline]
-    pub fn version_dir_for_instance(
-        &self,
-        version: &str,
-        instance_path: &str,
-    ) -> PathBuf {
-        if version.ends_with("-optifine") {
-            self.instance_path(instance_path)
-        } else {
-            self.version_dir(version)
-        }
-    }
-
     /// Get the Minecraft libraries metadata directory
     #[inline]
     pub fn libraries_dir(&self) -> PathBuf {
@@ -222,46 +207,6 @@ impl DirectoryInfo {
         self.config_dir.join(INSTANCES_FOLDER_NAME)
     }
 
-    /// Get the OptiFine instances and version metadata directory
-    #[inline]
-    pub fn optifine_instances_dir(&self) -> PathBuf {
-        self.config_dir.join(OPTIFINE_INSTANCES_FOLDER_NAME)
-    }
-
-    /// Get the storage root for an instance path.
-    #[inline]
-    pub fn instance_root(&self, instance_path: &str) -> PathBuf {
-        if instance_path.starts_with("@optifine/") {
-            self.optifine_instances_dir()
-        } else {
-            self.instances_dir()
-        }
-    }
-
-    /// Resolve an instance path, including the `@optifine/` prefix.
-    #[inline]
-    pub fn instance_path(&self, instance_path: &str) -> PathBuf {
-        let relative = instance_path
-            .strip_prefix("@optifine/")
-            .unwrap_or(instance_path);
-        self.instance_root(instance_path).join(relative)
-    }
-
-    /// Both roots that can contain instances.
-    #[inline]
-    pub fn instance_roots(&self) -> [PathBuf; 2] {
-        [self.instances_dir(), self.optifine_instances_dir()]
-    }
-
-    /// Check whether an already canonicalized path is inside an instance root.
-    pub fn is_instance_path(&self, path: &Path) -> bool {
-        self.instance_roots().iter().any(|root| {
-            crate::util::io::canonicalize(root)
-                .map(|root| path.starts_with(root))
-                .unwrap_or(false)
-        })
-    }
-
     #[inline]
     pub fn synced_options_dir(&self) -> PathBuf {
         self.config_dir.join(SYNCED_OPTIONS_FOLDER_NAME)
@@ -270,13 +215,15 @@ impl DirectoryInfo {
     /// Gets the logs dir for a given instance path
     #[inline]
     pub fn instance_logs_dir(&self, instance_path: &str) -> PathBuf {
-        self.instance_path(instance_path).join("logs")
+        self.instances_dir().join(instance_path).join("logs")
     }
 
     /// Gets the crash reports dir for a given instance path
     #[inline]
     pub fn crash_reports_dir(&self, instance_path: &str) -> PathBuf {
-        self.instance_path(instance_path).join("crash-reports")
+        self.instances_dir()
+            .join(instance_path)
+            .join("crash-reports")
     }
 
     #[inline]
@@ -403,7 +350,6 @@ impl DirectoryInfo {
 mod tests {
     use super::{
         DirectoryInfo, INSTANCES_FOLDER_NAME, LEGACY_INSTANCES_FOLDER_NAME,
-        OPTIFINE_INSTANCES_FOLDER_NAME,
     };
 
     #[tokio::test]
@@ -452,45 +398,6 @@ mod tests {
         assert_eq!(
             std::fs::read_to_string(current.join("new.txt")).unwrap(),
             "new"
-        );
-    }
-
-    #[test]
-    fn instance_path_routes_optifine_prefix() {
-        let root = tempfile::tempdir().unwrap();
-        let directories = DirectoryInfo {
-            settings_dir: root.path().to_path_buf(),
-            config_dir: root.path().to_path_buf(),
-            app_identifier: "test".to_string(),
-        };
-
-        assert_eq!(
-            directories.instance_path("plain"),
-            root.path().join(INSTANCES_FOLDER_NAME).join("plain")
-        );
-        assert_eq!(
-            directories.instance_path("@optifine/26.2 K2 OptiFine"),
-            root.path()
-                .join(OPTIFINE_INSTANCES_FOLDER_NAME)
-                .join("26.2 K2 OptiFine")
-        );
-        assert_eq!(
-            directories.version_dir("26.2-optifine"),
-            root.path().join("versions").join("26.2-optifine")
-        );
-        let optifine_instance = "@optifine/26.2 K2 OptiFine";
-        assert_eq!(
-            directories
-                .version_dir_for_instance("26.2-optifine", optifine_instance)
-                .join("26.2-optifine.jar"),
-            root.path()
-                .join(OPTIFINE_INSTANCES_FOLDER_NAME)
-                .join("26.2 K2 OptiFine")
-                .join("26.2-optifine.jar")
-        );
-        assert_eq!(
-            directories.version_dir("26.2"),
-            root.path().join("versions").join("26.2")
         );
     }
 }

@@ -30,7 +30,6 @@ mod options_file;
 mod pack_updates;
 mod read_instance_changes;
 mod resource_pack_options;
-mod scope;
 mod settings_editor;
 mod source_selection;
 mod write_shared_settings;
@@ -72,9 +71,7 @@ pub(in crate::api::instance) use resource_pack_options::{
 pub(in crate::api::instance) use pack_updates::{
     detach_instance, prepare_instance_update_with_state,
 };
-pub(in crate::api::instance) use scope::GameOptionsScope;
-pub(super) use scope::{filter_scope_map, unscoped_option_id};
-pub(in crate::api::instance) use source_selection::initialize_from_source_instance_for_scope;
+pub(in crate::api::instance) use source_selection::initialize_from_source_instance;
 pub(in crate::api::instance) use write_shared_settings::{
     apply_instance_with_state, capture_instance_file_change,
 };

@@ -718,11 +718,7 @@ async function getUpdaterProjectVersions(projectId: string, pinnedVersionId?: st
 
 async function handleBrowseContent() {
 	if (!instance.value || instance.value.content_locked) return
-	await instancePage.browseContent(
-		instance.value.loader === 'vanilla' || instance.value.loader === 'optifine'
-			? 'resourcepack'
-			: 'mod',
-	)
+	await instancePage.browseContent(instance.value.loader === 'vanilla' ? 'resourcepack' : 'mod')
 }
 
 async function handleUploadFiles() {

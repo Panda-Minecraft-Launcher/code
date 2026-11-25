@@ -8,7 +8,6 @@ use super::instance_support::{
     describe_instance_support, find_common_local_value,
     load_participating_instances, summary_revision,
 };
-use super::scope::{GameOptionsScope, filter_scope_map};
 use super::write_shared_settings::sync_all_participating_instances;
 use crate::ErrorKind;
 use crate::state::{
@@ -46,14 +45,8 @@ pub(super) async fn load_settings_editor(
 ) -> crate::Result<GameSettingsEditorState> {
     let (canonical_revision, catalog_revision) =
         load_game_options_sync_state(&state.pool, CATALOG_REVISION).await?;
-    let values = filter_scope_map(
-        load_shared_game_options(&state.pool).await?,
-        GameOptionsScope::Normal,
-    );
-    let preferences = filter_scope_map(
-        load_game_option_preferences(&state.pool).await?,
-        GameOptionsScope::Normal,
-    );
+    let values = load_shared_game_options(&state.pool).await?;
+    let preferences = load_game_option_preferences(&state.pool).await?;
     let participants = load_participating_instances(state).await?;
     let mut settings = Vec::new();
 
@@ -311,10 +304,7 @@ pub async fn save_changes(
             ..SaveGameSettingsResult::default()
         });
     }
-    let stored_values = filter_scope_map(
-        load_shared_game_options(&state.pool).await?,
-        GameOptionsScope::Normal,
-    );
+    let stored_values = load_shared_game_options(&state.pool).await?;
     let participants = load_participating_instances(&state).await?;
     let mut conflicts = Vec::new();
     let mut accepted = Vec::new();

@@ -415,14 +415,8 @@ async fn copy_dotminecraft_with_reporter_inner(
     }
     let profiles =
         tokio::fs::canonicalize(state.directories.instances_dir()).await?;
-    let optifine_profiles =
-        tokio::fs::canonicalize(state.directories.optifine_instances_dir())
-            .await?;
-    let source_instance = if let Ok(path) =
-        dotminecraft.strip_prefix(&optifine_profiles)
+    let source_instance = if let Ok(path) = dotminecraft.strip_prefix(&profiles)
     {
-        crate::state::instances::adapters::sqlite::instance_rows::get_instance_by_path(&format!("@optifine/{}", path.to_string_lossy()), &state.pool).await?
-    } else if let Ok(path) = dotminecraft.strip_prefix(&profiles) {
         crate::state::instances::adapters::sqlite::instance_rows::get_instance_by_path(&path.to_string_lossy(), &state.pool).await?
     } else {
         None

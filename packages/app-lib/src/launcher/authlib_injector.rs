@@ -32,6 +32,7 @@ pub async fn add_arguments(
 ) -> crate::Result<()> {
     let jar_path = prepare_jar(cache_dir, resource_dir).await?;
     command.arg(format!("-javaagent:{}={API_ROOT}", jar_path.display()));
+    command.arg("-Dauthlibinjector.noShowServerName");
 
     if let Some(prefetched) = prefetched_metadata().await {
         command.arg(format!(

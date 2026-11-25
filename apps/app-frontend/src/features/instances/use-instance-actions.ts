@@ -78,12 +78,8 @@ export function useInstanceActions(
 
 	const addContent = async () => {
 		if (instance.value.content_locked || installing.value || modLoading.value) return
-		const projectType =
-			instance.value.loader === 'vanilla' || instance.value.loader === 'optifine'
-				? 'datapack'
-				: 'mod'
 		await navigate({
-			path: `/browse/${projectType}`,
+			path: `/browse/${instance.value.loader === 'vanilla' ? 'datapack' : 'mod'}`,
 			query: { i: instance.value.id },
 		})
 	}

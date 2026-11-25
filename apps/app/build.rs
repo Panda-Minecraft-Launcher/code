@@ -344,18 +344,6 @@ fn main() {
                     ),
             )
             .plugin(
-                "optifine",
-                InlinedPlugin::new()
-                    .commands(&[
-                        "optifine_game_versions",
-                        "optifine_versions",
-                        "optifine_install",
-                    ])
-                    .default_permission(
-                        DefaultPermissionRule::AllowAllCommands,
-                    ),
-            )
-            .plugin(
                 "settings",
                 InlinedPlugin::new()
                     .commands(&[

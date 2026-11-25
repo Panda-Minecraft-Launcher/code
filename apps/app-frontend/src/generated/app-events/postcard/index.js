@@ -504,17 +504,13 @@ function deserialize_INSTALL_JOB_KIND(d) {
         };
     case 6:
         return {
-            tag: "install_optifine"
+            tag: "install_pack_to_existing_instance"
         };
     case 7:
         return {
-            tag: "install_pack_to_existing_instance"
-        };
-    case 8:
-        return {
             tag: "update_shared_instance"
         };
-    case 9:
+    case 8:
         return {
             tag: "bulk_update_content"
         };
@@ -826,10 +822,6 @@ function deserialize_MOD_LOADER(d) {
     case 4:
         return {
             tag: "neoforge"
-        };
-    case 5:
-        return {
-            tag: "optifine"
         };
     default:
         throw "variant not implemented"

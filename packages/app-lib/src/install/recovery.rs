@@ -135,8 +135,10 @@ pub(super) async fn prepare_instance_update_backup(
             .map(|binding| binding.blob_sha512.clone())
             .collect::<Vec<_>>();
         let scoped_paths = scoped_paths.map(outermost_paths);
-        let instance_path =
-            state.directories.instance_path(&metadata.instance.path);
+        let instance_path = state
+            .directories
+            .instances_dir()
+            .join(&metadata.instance.path);
         let backup_path =
             staging_dir.join(SHARED_INSTANCE_ROLLBACK_INSTANCE_DIR);
         match &scoped_paths {
@@ -294,7 +296,8 @@ async fn restore_instance_update(
     )?;
     let instance_path = state
         .directories
-        .instance_path(&rollback.instance.instance.path);
+        .instances_dir()
+        .join(&rollback.instance.instance.path);
     let backup_path = staging_dir.join(SHARED_INSTANCE_ROLLBACK_INSTANCE_DIR);
     if !tokio::fs::symlink_metadata(&backup_path).await?.is_dir() {
         bail!(ErrorKind::InputError(
@@ -822,11 +825,10 @@ fn display_from_request(
             title: instance_folder.clone(),
             icon: None,
         }),
-        InstallRequest::InstallOptifine { .. } => state.display.clone(),
         InstallRequest::DuplicateInstance { .. }
         | InstallRequest::InstallExistingInstance { .. }
         | InstallRequest::InstallPackToExistingInstance { .. }
-        | InstallRequest::BulkUpdateContent { .. }
+		| InstallRequest::BulkUpdateContent { .. }
         | InstallRequest::UpdateSharedInstance { .. } => {
             state.rollback.as_ref().map(|rollback| InstallJobDisplay {
                 title: rollback.instance.instance.name.clone(),

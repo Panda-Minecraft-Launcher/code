@@ -398,8 +398,7 @@ export async function rebuild_synced_options(instanceId?: string): Promise<void>
 }
 
 export async function list(): Promise<GameInstance[]> {
-	const instances = await invoke<GameInstance[]>('plugin:instance|instance_list')
-	return instances.filter((instance) => instance.loader !== 'optifine')
+	return await invoke('plugin:instance|instance_list')
 }
 
 export async function check_installed(instanceId: string, projectId: string): Promise<boolean> {
