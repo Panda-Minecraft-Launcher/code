@@ -13,6 +13,21 @@ const VERSIONS: VersionEntry[] = [
 	{
 		date: `2026-11-25T00:00:00+00:00`,
 		product: 'app',
+		version: '0.0.11',
+		body: `## Panda Minecraft Launcher 0.0.11
+- Panda Minecraft Launcher 0.0.11 yayında. Bu sürüm 0.0.9'da oluşturulan eski OptiFine örneklerinin açılmasını sağlayan uyumluluk düzeltmesini getiriyor.
+
+## Düzeltildi
+- "unknown variant optifine" hatası giderildi: eski OF örneklerindeki loader değeri vanilla olarak okunuyor; örnekler silinmiyor ve normal şekilde açılıyor.
+- OF kurulum arayüzü ve desteklenmeyen kurulum akışı kapalı kalmaya devam ediyor.
+
+## İndirme
+- Windows: "Panda.Minecraft.Launcher_0.0.11_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.11_amd64.AppImage"`,
+	},
+	{
+		date: `2026-11-25T00:00:00+00:00`,
+		product: 'app',
 		version: '0.0.10',
 		body: `## Panda Minecraft Launcher 0.0.10
 - Panda Minecraft Launcher 0.0.10 yayında. Bu sürüm OptiFine desteğini kaldırıyor ve Ely.by istemci markasındaki "/Ely.by" son ekini düzeltiyor.

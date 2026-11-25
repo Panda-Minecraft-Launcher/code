@@ -72,7 +72,7 @@ impl LauncherFeatureVersion {
     }
 }
 
-#[derive(Debug, Eq, PartialEq, Clone, Copy, Deserialize, Serialize)]
+#[derive(Debug, Eq, PartialEq, Clone, Copy, Serialize)]
 #[cfg_attr(
     feature = "export-ts",
     derive(ts_rs::TS, postcard_bindgen::PostcardBindings)
@@ -116,6 +116,52 @@ impl ModLoader {
             "neoforge" => Self::NeoForge,
             _ => Self::Vanilla,
         }
+    }
+}
+
+// 0.0.9 persisted "optifine"; keep those instances readable by treating it as vanilla.
+impl<'de> Deserialize<'de> for ModLoader {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: serde::Deserializer<'de>,
+    {
+        struct ModLoaderVisitor;
+
+        impl<'de> serde::de::Visitor<'de> for ModLoaderVisitor {
+            type Value = ModLoader;
+
+            fn expecting(
+                &self,
+                formatter: &mut std::fmt::Formatter,
+            ) -> std::fmt::Result {
+                formatter.write_str("a mod loader")
+            }
+
+            fn visit_str<E>(self, value: &str) -> Result<Self::Value, E>
+            where
+                E: serde::de::Error,
+            {
+                Ok(ModLoader::from_string(value))
+            }
+
+            fn visit_enum<A>(self, data: A) -> Result<Self::Value, A::Error>
+            where
+                A: serde::de::EnumAccess<'de>,
+            {
+                use serde::de::VariantAccess;
+                let (variant, access): (String, _) = data.variant()?;
+                access.unit_variant()?;
+                Ok(ModLoader::from_string(&variant))
+            }
+        }
+
+        deserializer.deserialize_enum(
+            "ModLoader",
+            &[
+                "vanilla", "forge", "fabric", "quilt", "neoforge", "optifine",
+            ],
+            ModLoaderVisitor,
+        )
     }
 }
 
@@ -259,5 +305,26 @@ impl From<ProjectType> for modrinth_content_management::ContentType {
             ProjectType::ResourcePack => Self::ResourcePack,
             ProjectType::ShaderPack => Self::Shader,
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::ModLoader;
+
+    #[derive(serde::Deserialize)]
+    struct Holder {
+        loader: ModLoader,
+    }
+
+    #[test]
+    fn legacy_optifine_loader_deserializes_as_vanilla() {
+        let holder: Holder =
+            serde_json::from_str(r#"{"loader":"optifine"}"#).unwrap();
+        assert_eq!(holder.loader, ModLoader::Vanilla);
+
+        let holder: Holder =
+            serde_json::from_str(r#"{"loader":"forge"}"#).unwrap();
+        assert_eq!(holder.loader, ModLoader::Forge);
     }
 }
