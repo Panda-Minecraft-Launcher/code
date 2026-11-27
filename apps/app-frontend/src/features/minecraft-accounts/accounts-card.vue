@@ -133,6 +133,7 @@ import { get_available_skins } from '@/helpers/skins'
 import { renderSkinHead } from '@/platform/app-lib/skins/commands'
 
 import ElyByLoginModal from './ElyByLoginModal.vue'
+import { refreshAccountAccent } from './use-account-accent'
 
 const { formatMessage } = useVIntl()
 const { handleError } = injectNotificationManager()
@@ -205,6 +206,7 @@ async function refreshValues() {
 	const userList = await users().catch(handleError)
 	accounts.value = Array.isArray(userList) ? [...userList] : []
 	accounts.value.sort((a, b) => (a.profile?.name ?? '').localeCompare(b.profile?.name ?? ''))
+	await refreshAccountAccent()
 	await updateElyByHeadUrls(accounts.value)
 
 	try {

@@ -106,6 +106,7 @@ import { maxMemoryQueryOptions } from '@/features/java/queries'
 import SharedInstanceLockNotice from '@/features/library/shared-instances/shared-instance-lock-notice.vue'
 import SharedInstanceModals from '@/features/library/shared-instances/shared-instance-modals.vue'
 import { provideMinecraftAccounts } from '@/features/minecraft-accounts/context'
+import { useAccountAccent } from '@/features/minecraft-accounts/use-account-accent'
 import { useAccountIconCycle } from '@/features/minecraft-accounts/use-account-icon-cycle'
 import AppSettingsModal from '@/features/settings/app-settings-modal/index.vue'
 import { provideSettingsActions } from '@/features/settings/settings-actions'
@@ -201,6 +202,7 @@ const router = useRouter()
 const route = useRoute()
 setErrorRouter(router)
 const accountIcon = useAccountIconCycle()
+const { hasAccount: hasMinecraftAccount } = useAccountAccent()
 const { channel: appEventChannel, events: appEvents } = setupAppEventsProvider()
 useInstanceMetadataRefresh(appEvents)
 const breadcrumbManager = createBreadcrumbManager()
@@ -1864,6 +1866,7 @@ provideAppUpdateDownloadProgress(appUpdateDownload)
 				v-if="appSettings.showSkinSelectorInSidebar"
 				v-tooltip:[navTooltipSide]="formatMessage(appMessages.accountManagementLabel)"
 				to="/accounts"
+				:class="{ 'opacity-50': !hasMinecraftAccount }"
 			>
 				<component :is="accountIcon" />
 			</NavButton>
