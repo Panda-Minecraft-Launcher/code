@@ -1274,7 +1274,7 @@ export const languageSelectorMessages = defineMessages({
 	languagesDescription: {
 		id: 'settings.language.description',
 		defaultMessage:
-			'Choose your preferred language for the {platform}. Translations are contributed by volunteers.',
+			'Choose your preferred language for the {platform}. Translations may contain errors; open an issue to report them.',
 	},
 	languageWarning: {
 		id: 'settings.language.warning',

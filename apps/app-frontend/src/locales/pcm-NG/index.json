@@ -1,0 +1,4685 @@
+{
+  "app.action-bar.changelog": {
+    "message": "Gist"
+  },
+  "app.action-bar.downloading-java": {
+    "message": "Java {version} dey download"
+  },
+  "app.action-bar.downloading-update": {
+    "message": "Update dey download"
+  },
+  "app.action-bar.downloads": {
+    "message": "Download-dem"
+  },
+  "app.action-bar.hide-downloads": {
+    "message": "Hide downloads wey dey active"
+  },
+  "app.action-bar.hide-more-running-instances": {
+    "message": "Hide other instances wey dey run"
+  },
+  "app.action-bar.install.copied-details": {
+    "message": "E don copy"
+  },
+  "app.action-bar.install.dismiss": {
+    "message": "Make am go"
+  },
+  "app.action-bar.install.inspect-details": {
+    "message": "Check details well"
+  },
+  "app.action-bar.install.open-instance": {
+    "message": "Open instance"
+  },
+  "app.action-bar.install.retry": {
+    "message": "Try again"
+  },
+  "app.action-bar.install.summary.app-closing": {
+    "message": "Dem cancel am because app dey close"
+  },
+  "app.action-bar.install.summary.bad-modpack-file": {
+    "message": "E no fit read modpack"
+  },
+  "app.action-bar.install.summary.canceled": {
+    "message": "Dem cancel am"
+  },
+  "app.action-bar.install.summary.cleanup-incomplete": {
+    "message": "Cleanup no complete"
+  },
+  "app.action-bar.install.summary.content-download-failed": {
+    "message": "E no fit download files"
+  },
+  "app.action-bar.install.summary.corrupt-download": {
+    "message": "File wey dem download don spoil"
+  },
+  "app.action-bar.install.summary.could-not-save-files": {
+    "message": "E no fit save files"
+  },
+  "app.action-bar.install.summary.download-failed": {
+    "message": "Download no complete"
+  },
+  "app.action-bar.install.summary.instance-error": {
+    "message": "E no fit prepare instance"
+  },
+  "app.action-bar.install.summary.invalid-file-path": {
+    "message": "File path no correct"
+  },
+  "app.action-bar.install.summary.invalid-modpack": {
+    "message": "Modpack data no correct"
+  },
+  "app.action-bar.install.summary.invalid-modpack-files": {
+    "message": "Metadata for modpack files no correct"
+  },
+  "app.action-bar.install.summary.java-setup-failed": {
+    "message": "Java setup no complete"
+  },
+  "app.action-bar.install.summary.loader-setup-failed": {
+    "message": "Loader setup no work"
+  },
+  "app.action-bar.install.summary.local-data-error": {
+    "message": "E no fit update local data"
+  },
+  "app.action-bar.install.summary.minecraft-setup-failed": {
+    "message": "Minecraft setup no work"
+  },
+  "app.action-bar.install.summary.modrinth-unreachable": {
+    "message": "E no fit reach Panda Minecraft Launcher"
+  },
+  "app.action-bar.install.summary.no-write-permission": {
+    "message": "You no get permission to write"
+  },
+  "app.action-bar.install.summary.pack-download-failed": {
+    "message": "E no fit download pack"
+  },
+  "app.action-bar.install.summary.unexpected-error": {
+    "message": "Something don spoil"
+  },
+  "app.action-bar.install.unknown-instance": {
+    "message": "Instance wey we no know"
+  },
+  "app.action-bar.install.updating-shared-content": {
+    "message": "Shared content dey update"
+  },
+  "app.action-bar.offline": {
+    "message": "No network"
+  },
+  "app.action-bar.reload-to-update": {
+    "message": "Reload make update show"
+  },
+  "app.action-bar.show-downloads": {
+    "message": "Show downloads wey dey active"
+  },
+  "app.action-bar.show-more-running-instances": {
+    "message": "Show other instances wey dey run"
+  },
+  "app.action-bar.stop-instance": {
+    "message": "Stop instance"
+  },
+  "app.action-bar.update": {
+    "message": "Update"
+  },
+  "app.action-bar.view-active-downloads": {
+    "message": "See downloads wey dey active"
+  },
+  "app.action-bar.view-logs": {
+    "message": "See logs"
+  },
+  "app.appearance-settings.compact-mode.description": {
+    "message": "Show library instances for small compact row layout."
+  },
+  "app.appearance-settings.compact-mode.title": {
+    "message": "Small-space layout"
+  },
+  "app.appearance-settings.default-landing-page.home": {
+    "message": "Home"
+  },
+  "app.appearance-settings.default-landing-page.library": {
+    "message": "Library"
+  },
+  "app.appearance-settings.hide-nametag.description": {
+    "message": "Hide your username wey dey show above player preview for Skin selector page."
+  },
+  "app.appearance-settings.hide-nametag.title": {
+    "message": "Hide name tag"
+  },
+  "app.appearance-settings.minimize-launcher.description": {
+    "message": "Make Panda Minecraft Launcher small when Minecraft dey start."
+  },
+  "app.appearance-settings.minimize-launcher.title": {
+    "message": "Make app small"
+  },
+  "app.appearance-settings.show-play-time.description": {
+    "message": "Show how long you don spend play each instance."
+  },
+  "app.appearance-settings.show-play-time.title": {
+    "message": "Show play time"
+  },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "Put sidebar for right or left side."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "Left"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "Right"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "Where sidebar dey"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.description": {
+    "message": "Skip confirmation for low-risk actions like double install, normal content delete, bulk update, unlink, and repair. Warnings for dangerous actions dey always show."
+  },
+  "app.appearance-settings.skip-non-essential-warnings.title": {
+    "message": "Skip warnings wey no matter"
+  },
+  "app.appearance-settings.unknown-pack-warning.description": {
+    "message": "Show safety warning before you install modpack (.mrpack) wey no dey hosted on Panda Minecraft Launcher."
+  },
+  "app.appearance-settings.unknown-pack-warning.title": {
+    "message": "Warn me before I install modpack wey I no know"
+  },
+  "app.auth-servers.unreachable.body": {
+    "message": "Minecraft authentication servers fit dey down now. Check your internet and try again later."
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "E no fit reach authentication servers"
+  },
+  "app.behavior-settings.confirmations.title": {
+    "message": "Confirmation-dem"
+  },
+  "app.behavior-settings.content.title": {
+    "message": "Home and content"
+  },
+  "app.behavior-settings.hidden-instances.description": {
+    "message": "Instances wey you hide from library for this device. Hidden instances no dey sync with your Panda Minecraft Launcher account."
+  },
+  "app.behavior-settings.hidden-instances.empty": {
+    "message": "You no hide any instance yet."
+  },
+  "app.behavior-settings.hidden-instances.more-options": {
+    "message": "More options"
+  },
+  "app.behavior-settings.hidden-instances.not-installed": {
+    "message": "E no dey installed"
+  },
+  "app.behavior-settings.hidden-instances.title": {
+    "message": "Instances wey dey hidden"
+  },
+  "app.behavior-settings.refocus-on-game-close.description": {
+    "message": "Bring Panda Minecraft Launcher come front when Minecraft exit."
+  },
+  "app.behavior-settings.refocus-on-game-close.title": {
+    "message": "Bring app back when Minecraft close"
+  },
+  "app.behavior-settings.startup-and-navigation.title": {
+    "message": "Start and navigation"
+  },
+  "app.behavior-settings.sync-across-devices.description": {
+    "message": "Use these behavior settings everywhere you sign in. Turn am off if you want separate settings for this device."
+  },
+  "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "Sign in to Panda Minecraft Launcher account to sync settings."
+  },
+  "app.behavior-settings.sync-across-devices.title": {
+    "message": "Sync behavior across devices"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Dey add server enter instance"
+  },
+  "app.browse.add-to-an-instance": {
+    "message": "Add enter an instance"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Add enter instance"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Add enter {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "E don add"
+  },
+  "app.browse.already-added": {
+    "message": "E don add before"
+  },
+  "app.browse.back-to-instance": {
+    "message": "Go back to instance"
+  },
+  "app.browse.curseforge.checking": {
+    "message": "Dey connect to CurseForge..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "CurseForge request fail: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "Dey wait for CurseForge approval"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge don ready. {count} mods dey found."
+  },
+  "app.browse.discover-project-type": {
+    "message": "Discover {projectType}"
+  },
+  "app.browse.discover-servers": {
+    "message": "Discover servers"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Hide servers wey don add before"
+  },
+  "app.browse.hide-installed-modpacks": {
+    "message": "Hide ones wey don install"
+  },
+  "app.browse.project-actions.label": {
+    "message": "Project actions"
+  },
+  "app.browse.project-type.data-packs": {
+    "message": "Data Packs"
+  },
+  "app.browse.project-type.modpacks": {
+    "message": "Modpacks"
+  },
+  "app.browse.project-type.mods": {
+    "message": "Mods"
+  },
+  "app.browse.project-type.plugins": {
+    "message": "Plugins"
+  },
+  "app.browse.project-type.resource-packs": {
+    "message": "Resource Packs"
+  },
+  "app.browse.project-type.servers": {
+    "message": "Servers"
+  },
+  "app.browse.project-type.shaders": {
+    "message": "Shaders"
+  },
+  "app.browse.server-instance-content-warning": {
+    "message": "Adding content fit stop you from join this server. Any content wey you add go dey removed when managed server content update."
+  },
+  "app.browse.server.installing": {
+    "message": "Dey install"
+  },
+  "app.changelog.current-version": {
+    "message": "Version wey dey now: {version}"
+  },
+  "app.changelog.title": {
+    "message": "Release notes"
+  },
+  "app.changelog.you-are-here": {
+    "message": "Na here you dey"
+  },
+  "app.content-install.no-compatible-versions": {
+    "message": "No available version match {compatibilityLabel}. Pick one version to install still. Dependencies no go install automatically."
+  },
+  "app.content.desync-pack": {
+    "message": "Desync"
+  },
+  "app.content.sync-data-packs-disabled": {
+    "message": "Turn on data pack syncing for app settings first."
+  },
+  "app.content.sync-pack": {
+    "message": "Sync"
+  },
+  "app.content.sync-packs-override": {
+    "message": "Turn off pack syncing override for this instance's settings first."
+  },
+  "app.content.sync-resource-packs-disabled": {
+    "message": "Turn on resource pack syncing for app settings first."
+  },
+  "app.debug-export.canceling": {
+    "message": "Dey cancel export…"
+  },
+  "app.debug-export.exporting": {
+    "message": "Dey export…"
+  },
+  "app.debug-export.finishing": {
+    "message": "Dey finish…"
+  },
+  "app.debug-export.preparing": {
+    "message": "Dey prepare files…"
+  },
+  "app.download-manager.active": {
+    "message": "Dey work"
+  },
+  "app.download-manager.attention": {
+    "message": "Need your attention"
+  },
+  "app.download-manager.bulk-update-content": {
+    "message": "Dey update {count, plural, one {# item} other {# items}}"
+  },
+  "app.download-manager.cancel": {
+    "message": "Cancel installation"
+  },
+  "app.download-manager.canceling": {
+    "message": "Dey cancel installation…"
+  },
+  "app.download-manager.clear-all": {
+    "message": "Clear everything"
+  },
+  "app.download-manager.clear-completed": {
+    "message": "Clear all tasks wey don finish"
+  },
+  "app.download-manager.complete": {
+    "message": "Don complete"
+  },
+  "app.download-manager.duplicated-instance": {
+    "message": "Instance wey dem duplicate"
+  },
+  "app.download-manager.estimated-rate": {
+    "message": "Estimated speed of download"
+  },
+  "app.download-manager.eta": {
+    "message": "Estimated time wey remain for this download"
+  },
+  "app.download-manager.hide-tasks": {
+    "message": "Hide tasks"
+  },
+  "app.download-manager.imported-instance": {
+    "message": "Instance wey dem import"
+  },
+  "app.download-manager.instance-installation": {
+    "message": "Instance installation"
+  },
+  "app.download-manager.modpack": {
+    "message": "Modpack"
+  },
+  "app.download-manager.modpack-installation": {
+    "message": "Modpack installation"
+  },
+  "app.download-manager.new-instance": {
+    "message": "New instance"
+  },
+  "app.download-manager.no-tasks": {
+    "message": "No task dey"
+  },
+  "app.download-manager.pause": {
+    "message": "Pause installation"
+  },
+  "app.download-manager.paused": {
+    "message": "E don pause"
+  },
+  "app.download-manager.remove": {
+    "message": "Remove from history"
+  },
+  "app.download-manager.resume": {
+    "message": "Start installation again"
+  },
+  "app.download-manager.shared-instance": {
+    "message": "Shared instance"
+  },
+  "app.download-manager.shared-instance-update": {
+    "message": "Shared instance update"
+  },
+  "app.download-manager.show-tasks": {
+    "message": "Show tasks"
+  },
+  "app.download-manager.tasks": {
+    "message": "Tasks"
+  },
+  "app.download-manager.title": {
+    "message": "Download manager"
+  },
+  "app.error.copied-debug-info": {
+    "message": "E don copy"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "Check debug info"
+  },
+  "app.error.state-init.open-backups-folder": {
+    "message": "Open backups folder"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Enter modpack description..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Export"
+  },
+  "app.export-modal.export-complete": {
+    "message": "Export don complete"
+  },
+  "app.export-modal.export-complete-description": {
+    "message": "{name} don export well."
+  },
+  "app.export-modal.header": {
+    "message": "Export modpack"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Modpack name"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Modpack name"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Version number"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.features-settings.instance-pages.title": {
+    "message": "Instances"
+  },
+  "app.features-settings.play-page.title": {
+    "message": "Play page"
+  },
+  "app.features-settings.quick-instances.description": {
+    "message": "Choose maximum number of recent instances to show for left sidebar. You fit also change am by drag divider."
+  },
+  "app.features-settings.quick-instances.title": {
+    "message": "Quick instances for sidebar"
+  },
+  "app.features-settings.show-all-screenshots.description": {
+    "message": "Show button for left sidebar to see screenshots from all your instances."
+  },
+  "app.features-settings.show-all-screenshots.title": {
+    "message": "Show all screenshots for sidebar"
+  },
+  "app.features-settings.show-files-tab.title": {
+    "message": "Show Files tab for instances"
+  },
+  "app.features-settings.show-jump-in.description": {
+    "message": "Show worlds and instances wey you play recently for top of Play page."
+  },
+  "app.features-settings.show-jump-in.title": {
+    "message": "Show Jump in part"
+  },
+  "app.features-settings.show-screenshots-tab.title": {
+    "message": "Show Screenshots tab for instances"
+  },
+  "app.features-settings.show-skin-selector.description": {
+    "message": "Show button for sidebar to open account management."
+  },
+  "app.features-settings.show-skin-selector.title": {
+    "message": "Show account management button for sidebar"
+  },
+  "app.features-settings.show-worlds-tab.title": {
+    "message": "Show Worlds tab for instances"
+  },
+  "app.features-settings.sidebar.title": {
+    "message": "Sidebar"
+  },
+  "app.features-settings.sync-across-devices.description": {
+    "message": "Use these feature settings everywhere you sign in. Turn am off if you want separate settings for this device."
+  },
+  "app.features-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "Sign in to Panda Minecraft Launcher account to sync settings."
+  },
+  "app.features-settings.sync-across-devices.title": {
+    "message": "Sync features across devices"
+  },
+  "app.file-download.canceling": {
+    "message": "Dey cancel download…"
+  },
+  "app.file-download.preparing": {
+    "message": "Dey prepare download…"
+  },
+  "app.file-download.waiting": {
+    "message": "Dey wait for server…"
+  },
+  "app.home.jump-back-in.actions.label": {
+    "message": "Instance actions"
+  },
+  "app.home.jump-back-in.instance-locked": {
+    "message": "Dem don lock this instance"
+  },
+  "app.home.jump-back-in.instance-open": {
+    "message": "Instance don dey open"
+  },
+  "app.home.jump-back-in.more-options": {
+    "message": "More options"
+  },
+  "app.home.jump-back-in.never-played": {
+    "message": "No play am ever"
+  },
+  "app.home.jump-back-in.new-instance": {
+    "message": "New instance"
+  },
+  "app.home.jump-back-in.resize": {
+    "message": "Drag to change size"
+  },
+  "app.home.jump-back-in.title": {
+    "message": "Jump enter"
+  },
+  "app.home.jump-back-in.view-instance": {
+    "message": "See instance"
+  },
+  "app.hosting.update-required.description": {
+    "message": "You need update before you fit use Panda Minecraft Launcher"
+  },
+  "app.hosting.update-required.download": {
+    "message": "Download make update"
+  },
+  "app.hosting.update-required.rinthbot-alt": {
+    "message": "Excited Panda Minecraft Launcher Bot"
+  },
+  "app.hosting.update-required.title": {
+    "message": "Panda Minecraft Launcher update dey needed"
+  },
+  "app.install.phase.downloading_content": {
+    "message": "Content dey download"
+  },
+  "app.install.phase.downloading_minecraft": {
+    "message": "Minecraft dey download"
+  },
+  "app.install.phase.downloading_pack_file": {
+    "message": "Pack file dey download"
+  },
+  "app.install.phase.extracting_overrides": {
+    "message": "Dey extract overrides"
+  },
+  "app.install.phase.finalizing": {
+    "message": "Dey finish up"
+  },
+  "app.install.phase.preparing_instance": {
+    "message": "Dey wait install"
+  },
+  "app.install.phase.preparing_java": {
+    "message": "Dey prepare Java"
+  },
+  "app.install.phase.preparing_java.downloading": {
+    "message": "Java {version} dey download"
+  },
+  "app.install.phase.preparing_java.extracting": {
+    "message": "Dey extract Java {version}"
+  },
+  "app.install.phase.preparing_java.fetching-metadata": {
+    "message": "Dey fetch Java {version}"
+  },
+  "app.install.phase.preparing_java.resolving": {
+    "message": "Dey prepare Java {version}"
+  },
+  "app.install.phase.preparing_java.validating": {
+    "message": "Dey check Java {version}"
+  },
+  "app.install.phase.reading_pack_manifest": {
+    "message": "Dey read pack manifest"
+  },
+  "app.install.phase.resolving_loader": {
+    "message": "Dey settle loader"
+  },
+  "app.install.phase.resolving_minecraft": {
+    "message": "Dey settle Minecraft"
+  },
+  "app.install.phase.resolving_pack": {
+    "message": "Dey settle content"
+  },
+  "app.install.phase.rolling_back": {
+    "message": "Dey roll back"
+  },
+  "app.install.phase.running_loader_processors": {
+    "message": "Dey run loader processors"
+  },
+  "app.instance.action.add-content": {
+    "message": "Add content"
+  },
+  "app.instance.action.copy-path": {
+    "message": "Copy path"
+  },
+  "app.instance.action.edit": {
+    "message": "Edit"
+  },
+  "app.instance.action.open-folder": {
+    "message": "Open folder"
+  },
+  "app.instance.action.play": {
+    "message": "Play"
+  },
+  "app.instance.action.stop": {
+    "message": "Stop"
+  },
+  "app.instance.actions.label": {
+    "message": "Instance actions"
+  },
+  "app.instance.add-server.add": {
+    "message": "Add"
+  },
+  "app.instance.add-server.added": {
+    "message": "E don add"
+  },
+  "app.instance.add-server.adding": {
+    "message": "Dey add..."
+  },
+  "app.instance.add-server.cancel": {
+    "message": "Cancel"
+  },
+  "app.instance.add-server.compatibility-warning": {
+    "message": "This server fit no work with all instances."
+  },
+  "app.instance.add-server.search-placeholder": {
+    "message": "Search for instance"
+  },
+  "app.instance.add-server.title": {
+    "message": "Add server enter instance"
+  },
+  "app.instance.admonitions.shared-instance.added-label": {
+    "message": "E don add"
+  },
+  "app.instance.admonitions.shared-instance.changes-body": {
+    "message": "Your local instance dey ahead of users wey you share am with."
+  },
+  "app.instance.admonitions.shared-instance.changes-header": {
+    "message": "You no share your changes yet"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-body": {
+    "message": "You push update to this shared instance from another Panda Minecraft Launcher installation. Download latest changes so you fit keep manage am from here."
+  },
+  "app.instance.admonitions.shared-instance.owner-update-button": {
+    "message": "Download update"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-header": {
+    "message": "Update dey available"
+  },
+  "app.instance.admonitions.shared-instance.publish-button": {
+    "message": "Push update"
+  },
+  "app.instance.admonitions.shared-instance.publishing-button": {
+    "message": "Dey push..."
+  },
+  "app.instance.admonitions.shared-instance.removed-label": {
+    "message": "E don remove"
+  },
+  "app.instance.admonitions.shared-instance.restored-body": {
+    "message": "Dem restore this instance from last version wey you push. Anything wey you no push yet, like config changes or content for your other installation, no dey inside."
+  },
+  "app.instance.admonitions.shared-instance.restored-header": {
+    "message": "Na only pushed content dem download"
+  },
+  "app.instance.admonitions.shared-instance.review-admonition-header": {
+    "message": "Push update"
+  },
+  "app.instance.admonitions.shared-instance.review-description": {
+    "message": "Review content changes wey go share with everybody wey dey use this instance."
+  },
+  "app.instance.admonitions.shared-instance.review-header": {
+    "message": "Review changes"
+  },
+  "app.instance.admonitions.shared-instance.reviewing-button": {
+    "message": "Dey review..."
+  },
+  "app.instance.card.icon-alt": {
+    "message": "Instance icon"
+  },
+  "app.instance.card.installing": {
+    "message": "Dey install..."
+  },
+  "app.instance.card.loading": {
+    "message": "Instance dey load..."
+  },
+  "app.instance.card.never-played": {
+    "message": "No play am ever"
+  },
+  "app.instance.card.play": {
+    "message": "Play"
+  },
+  "app.instance.card.played": {
+    "message": "Play {relativeTime}"
+  },
+  "app.instance.card.repair": {
+    "message": "Repair"
+  },
+  "app.instance.card.stop": {
+    "message": "Stop"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "All data for your instance go dey deleted permanently, including worlds, configs, and all installed content."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "You no fit undo this action"
+  },
+  "app.instance.confirm-delete.bulk-admonition-body": {
+    "message": "All data for these {count} instances go dey deleted permanently, including their worlds, configs, and all installed content."
+  },
+  "app.instance.confirm-delete.bulk-delete-button": {
+    "message": "Delete {count} instances"
+  },
+  "app.instance.confirm-delete.bulk-header": {
+    "message": "Delete {count} instances"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Delete instance"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Delete instance"
+  },
+  "app.instance.confirm-delete.instances-label": {
+    "message": "{count, plural, one {Instance} other {Instances ({count})}}"
+  },
+  "app.instance.content.managed-content.modpack-header": {
+    "message": "Modpack content"
+  },
+  "app.instance.content.managed-content.shared-header": {
+    "message": "Shared content"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "This modpack don install already for <bold>{instanceName}</bold> instance. You sure say you want duplicate am?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Create"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Modpack don install already"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Instance"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "project"
+  },
+  "app.instance.mods.freeze-content": {
+    "message": "Freeze version"
+  },
+  "app.instance.mods.locked-content": {
+    "message": "You no fit change content for instances wey dem lock."
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" don add"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} projects don add"
+  },
+  "app.instance.mods.share-text": {
+    "message": "See projects wey I dey use for my modpack!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Dey share modpack content"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Upload complete well"
+  },
+  "app.instance.mods.unfreeze-content": {
+    "message": "Unfreeze version"
+  },
+  "app.instance.navigation.back-to-instance": {
+    "message": "Go back to instance"
+  },
+  "app.instance.server.offline.description": {
+    "message": "This server dey offline now. You fit still launch Minecraft, but you fit no connect."
+  },
+  "app.instance.server.offline.launch-anyway": {
+    "message": "Launch still"
+  },
+  "app.instance.server.offline.title": {
+    "message": "Server dey offline"
+  },
+  "app.instance.server.status.unknown": {
+    "message": "Status no known"
+  },
+  "app.instance.share.empty.description": {
+    "message": "You fit share this instance with your friends!"
+  },
+  "app.instance.share.empty.heading": {
+    "message": "No friend dem invite"
+  },
+  "app.instance.share.empty.invite-friends-button": {
+    "message": "Invite friends"
+  },
+  "app.instance.share.invite-friends": {
+    "message": "Invite friends"
+  },
+  "app.instance.share.invite-modal.heading": {
+    "message": "Share {name}"
+  },
+  "app.instance.share.invite-modal.user-limit-reached": {
+    "message": "This instance don reach {limit}-user limit."
+  },
+  "app.instance.share.limit-reached.description": {
+    "message": "You don share maximum {limit} instances already."
+  },
+  "app.instance.share.limit-reached.heading": {
+    "message": "Shared instance limit don reach"
+  },
+  "app.instance.share.limit-reached.manage-button": {
+    "message": "Manage shared instances"
+  },
+  "app.instance.share.locked.empty-description-prefix": {
+    "message": "You need sign in as"
+  },
+  "app.instance.share.locked.empty-description-suffix": {
+    "message": "to enter this page."
+  },
+  "app.instance.share.locked.linked-account-fallback": {
+    "message": "account wey dem link"
+  },
+  "app.instance.share.locked.signed-out-heading": {
+    "message": "You no sign in"
+  },
+  "app.instance.share.locked.switch-account-button": {
+    "message": "Switch account"
+  },
+  "app.instance.share.locked.wrong-account-heading": {
+    "message": "Wrong account"
+  },
+  "app.instance.share.remove-user-modal.effect-access": {
+    "message": "Dem no go send updates for this shared instance to dem again"
+  },
+  "app.instance.share.remove-user-modal.effect-installed-copy": {
+    "message": "Any copy wey dem don install go stay for their device"
+  },
+  "app.instance.share.remove-user-modal.effect-invite-again": {
+    "message": "You fit invite dem again later"
+  },
+  "app.instance.share.remove-user-modal.effect-last-user": {
+    "message": "Na last user dis, sharing go turn off for this instance"
+  },
+  "app.instance.share.remove-user-modal.effects-label": {
+    "message": "Wetin go happen?"
+  },
+  "app.instance.share.remove-user-modal.header": {
+    "message": "Revoke access"
+  },
+  "app.instance.share.remove-user-modal.remove-button": {
+    "message": "Revoke access"
+  },
+  "app.instance.share.remove-user-modal.user-avatar-alt": {
+    "message": "Dis na {username}'s avatar"
+  },
+  "app.instance.share.remove-user-modal.warning-body": {
+    "message": "If you revoke {username}'s access for this shared instance, you go need invite dem again before dem fit receive updates."
+  },
+  "app.instance.share.sign-in.button": {
+    "message": "Sign in"
+  },
+  "app.instance.share.unable-to-connect.description": {
+    "message": "Shared instances service no dey reachable now, abeg try again later"
+  },
+  "app.instance.share.unable-to-connect.heading": {
+    "message": "E no fit connect"
+  },
+  "app.instance.share.unlink.body": {
+    "message": "You must unlink this modpack before you fit share your instance"
+  },
+  "app.instance.share.unlink.header": {
+    "message": "Sharing need unlink"
+  },
+  "app.instance.shared-instance-already-installed.body": {
+    "message": "This shared instance don install already as <bold>{instanceName}</bold>. You sure say you want install another copy?"
+  },
+  "app.instance.shared-instance-already-installed.header": {
+    "message": "Shared instance don install already"
+  },
+  "app.instance.shared-instance-already-installed.install-anyway": {
+    "message": "Install still"
+  },
+  "app.instance.shared-instance-already-installed.instance": {
+    "message": "Instance"
+  },
+  "app.instance.shared-instance-wrong-account.fallback-username": {
+    "message": "account wey dem link"
+  },
+  "app.instance.shared-instance-wrong-account.owner-admonition-body-v2": {
+    "message": "to manage this shared instance. You no go fit push updates to users."
+  },
+  "app.instance.shared-instance-wrong-account.sign-in-as-label": {
+    "message": "Sign in as"
+  },
+  "app.instance.shared-instance-wrong-account.signed-out-header": {
+    "message": "You need sign in to Panda Minecraft Launcher"
+  },
+  "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
+    "message": "to receive updates for this shared instance."
+  },
+  "app.instance.shared-instance-wrong-account.warning-header": {
+    "message": "Na wrong Panda Minecraft Launcher account you dey use"
+  },
+  "app.instance.shortcut.created": {
+    "message": "Shortcut don create"
+  },
+  "app.instance.shortcut.creation-error": {
+    "message": "Error dey create shortcut"
+  },
+  "app.instance.tab.content": {
+    "message": "Content"
+  },
+  "app.instance.tab.files": {
+    "message": "Files"
+  },
+  "app.instance.tab.logs": {
+    "message": "Logs"
+  },
+  "app.instance.tab.screenshots": {
+    "message": "Screenshots"
+  },
+  "app.instance.tab.share": {
+    "message": "Share"
+  },
+  "app.instance.tab.worlds": {
+    "message": "Worlds"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Add server"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Browse servers"
+  },
+  "app.instance.worlds.delete-world-modal.delete-button": {
+    "message": "Delete world"
+  },
+  "app.instance.worlds.delete-world-modal.title": {
+    "message": "Delete world"
+  },
+  "app.instance.worlds.delete-world-modal.warning-body": {
+    "message": "This world go dey deleted permanently from this instance. You no fit undo this action."
+  },
+  "app.instance.worlds.delete-world-modal.warning-header": {
+    "message": "Dey delete {name}"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Modded"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "No network"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Online"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Add server or browse to start."
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "No server or world dey added"
+  },
+  "app.instance.worlds.refreshing": {
+    "message": "Dey refresh..."
+  },
+  "app.instance.worlds.remove-server-modal.remove-button": {
+    "message": "Remove server"
+  },
+  "app.instance.worlds.remove-server-modal.remove-everywhere": {
+    "message": "Remove everywhere"
+  },
+  "app.instance.worlds.remove-server-modal.remove-here": {
+    "message": "Remove here"
+  },
+  "app.instance.worlds.remove-server-modal.synced-description": {
+    "message": "You fit remove am from this instance only or from all synced instances. If you remove am from this instance only, overrides go turn on and this instance no go receive synced server changes again."
+  },
+  "app.instance.worlds.remove-server-modal.synced-header": {
+    "message": "This server dey synced"
+  },
+  "app.instance.worlds.remove-server-modal.title": {
+    "message": "Remove server"
+  },
+  "app.instance.worlds.remove-server-modal.warning-body": {
+    "message": "This server go dey removed from your server list and from server list inside game. You fit add am again later if you know address."
+  },
+  "app.instance.worlds.remove-server-modal.warning-header": {
+    "message": "Dey remove {name}"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Search {count} worlds..."
+  },
+  "app.java-detection.cancel": {
+    "message": "Cancel"
+  },
+  "app.java-detection.columns.actions": {
+    "message": "Actions"
+  },
+  "app.java-detection.columns.path": {
+    "message": "Path"
+  },
+  "app.java-detection.columns.version": {
+    "message": "Version"
+  },
+  "app.java-detection.no-installations-found": {
+    "message": "No Java installation dey found."
+  },
+  "app.java-detection.select": {
+    "message": "Pick"
+  },
+  "app.java-detection.selected": {
+    "message": "E don pick"
+  },
+  "app.java-detection.title": {
+    "message": "Pick Java installation"
+  },
+  "app.java-selector.browse": {
+    "message": "Browse"
+  },
+  "app.java-selector.copy-failed-title": {
+    "message": "Copy path fail"
+  },
+  "app.java-selector.copy-path": {
+    "message": "Copy path"
+  },
+  "app.java-selector.detect": {
+    "message": "Detect"
+  },
+  "app.java-selector.edit-path": {
+    "message": "Edit path"
+  },
+  "app.java-selector.install-java": {
+    "message": "Install Java {version}"
+  },
+  "app.java-selector.installing": {
+    "message": "Dey install..."
+  },
+  "app.java-selector.invalid": {
+    "message": "No valid"
+  },
+  "app.java-selector.more-options": {
+    "message": "More Java options"
+  },
+  "app.java-selector.not-set": {
+    "message": "No Java wey dem pick"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "Java path don copy enter your clipboard."
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "Path don copy"
+  },
+  "app.java-selector.path.placeholder": {
+    "message": "/path/to/java"
+  },
+  "app.java-selector.valid": {
+    "message": "Valid"
+  },
+  "app.library.actions.label": {
+    "message": "Library actions"
+  },
+  "app.library.context-menu.create-instance": {
+    "message": "New instance"
+  },
+  "app.library.filter.add": {
+    "message": "Add filter"
+  },
+  "app.library.filter.clear": {
+    "message": "Clear filters"
+  },
+  "app.library.filter.game-version": {
+    "message": "Game version"
+  },
+  "app.library.filter.install-state": {
+    "message": "Install status"
+  },
+  "app.library.filter.install-state.installed": {
+    "message": "E don install"
+  },
+  "app.library.filter.install-state.not-installed": {
+    "message": "E no dey installed"
+  },
+  "app.library.filter.instance-type": {
+    "message": "Instance type"
+  },
+  "app.library.filter.instance-type.custom": {
+    "message": "Custom"
+  },
+  "app.library.filter.instance-type.modpack": {
+    "message": "Modpack"
+  },
+  "app.library.filter.instance-type.server": {
+    "message": "Server"
+  },
+  "app.library.filter.label": {
+    "message": "Filter by"
+  },
+  "app.library.filter.loader": {
+    "message": "Loader"
+  },
+  "app.library.filter.owner": {
+    "message": "Owner"
+  },
+  "app.library.filter.owner.me": {
+    "message": "You"
+  },
+  "app.library.filter.owner.others": {
+    "message": "Others"
+  },
+  "app.library.filter.sharing": {
+    "message": "Sharing"
+  },
+  "app.library.filter.sharing.not-shared": {
+    "message": "No share am"
+  },
+  "app.library.filter.sharing.shared": {
+    "message": "Shared"
+  },
+  "app.library.group-by.custom-group": {
+    "message": "Custom group"
+  },
+  "app.library.group-by.game-version": {
+    "message": "Game version"
+  },
+  "app.library.group-by.instance-type": {
+    "message": "Instance type"
+  },
+  "app.library.group-by.label": {
+    "message": "Group by"
+  },
+  "app.library.group-by.loader": {
+    "message": "Loader"
+  },
+  "app.library.group-by.none": {
+    "message": "No grouping"
+  },
+  "app.library.group.actions.label": {
+    "message": "Group actions"
+  },
+  "app.library.group.collapse": {
+    "message": "Collapse group"
+  },
+  "app.library.group.context-menu.add-to-group": {
+    "message": "Add to group"
+  },
+  "app.library.group.create": {
+    "message": "Create group"
+  },
+  "app.library.group.create.cancel": {
+    "message": "Cancel"
+  },
+  "app.library.group.delete": {
+    "message": "Delete group"
+  },
+  "app.library.group.delete-description": {
+    "message": "Instances for this group go dey ungrouped."
+  },
+  "app.library.group.edit-name": {
+    "message": "Edit group name"
+  },
+  "app.library.group.empty": {
+    "message": "Drag and drop to add instances."
+  },
+  "app.library.group.expand": {
+    "message": "Expand group"
+  },
+  "app.library.group.favorites": {
+    "message": "Favorites"
+  },
+  "app.library.group.instance.add": {
+    "message": "Add"
+  },
+  "app.library.group.instance.added": {
+    "message": "E don add"
+  },
+  "app.library.group.instances-modal.add": {
+    "message": "Add"
+  },
+  "app.library.group.instances-modal.added": {
+    "message": "E don add"
+  },
+  "app.library.group.instances-modal.no-instances-found": {
+    "message": "No instance dey found"
+  },
+  "app.library.group.instances-modal.search-placeholder": {
+    "message": "Search instance"
+  },
+  "app.library.group.instances-modal.title": {
+    "message": "Add instances enter \"{groupName}\""
+  },
+  "app.library.group.move-down": {
+    "message": "Move group down"
+  },
+  "app.library.group.move-up": {
+    "message": "Move group up"
+  },
+  "app.library.group.name": {
+    "message": "Group name"
+  },
+  "app.library.group.name-empty": {
+    "message": "Group name no fit dey empty."
+  },
+  "app.library.group.name-placeholder": {
+    "message": "Enter group name"
+  },
+  "app.library.group.name-reserved": {
+    "message": "\"None\" dey reserved and no fit be group name."
+  },
+  "app.library.group.name-too-long": {
+    "message": "Group name no fit pass {maxLength} characters."
+  },
+  "app.library.group.new": {
+    "message": "New group"
+  },
+  "app.library.group.no-instances-found": {
+    "message": "No instance dey found"
+  },
+  "app.library.group.rename-failed": {
+    "message": "E no fit rename group"
+  },
+  "app.library.group.search-instance": {
+    "message": "Search instance"
+  },
+  "app.library.group.ungrouped": {
+    "message": "Ungrouped"
+  },
+  "app.library.group.unknown": {
+    "message": "Group wey we no know"
+  },
+  "app.library.instance-hidden.text": {
+    "message": "You fit show am again for Settings > Behavior."
+  },
+  "app.library.instance-hidden.title": {
+    "message": "Hidden from library"
+  },
+  "app.library.instance.action.add-content": {
+    "message": "Add content"
+  },
+  "app.library.instance.action.add-to-favorites": {
+    "message": "Add to favorites"
+  },
+  "app.library.instance.action.copy-path": {
+    "message": "Copy path"
+  },
+  "app.library.instance.action.delete": {
+    "message": "Delete"
+  },
+  "app.library.instance.action.duplicate": {
+    "message": "Duplicate instance"
+  },
+  "app.library.instance.action.hide-from-library": {
+    "message": "Hide from library"
+  },
+  "app.library.instance.action.leave": {
+    "message": "Leave"
+  },
+  "app.library.instance.action.open-folder": {
+    "message": "Open folder"
+  },
+  "app.library.instance.action.play": {
+    "message": "Play"
+  },
+  "app.library.instance.action.remove-from-favorites": {
+    "message": "Remove from favorites"
+  },
+  "app.library.instance.action.remove-from-group": {
+    "message": "Remove from group"
+  },
+  "app.library.instance.action.show-in-library": {
+    "message": "Show for library"
+  },
+  "app.library.instance.action.stop": {
+    "message": "Stop"
+  },
+  "app.library.instance.action.unpublish": {
+    "message": "Unpublish"
+  },
+  "app.library.instance.action.unpublish-and-leave": {
+    "message": "Unpublish and leave"
+  },
+  "app.library.instance.action.view-instance": {
+    "message": "See instance"
+  },
+  "app.library.instance.actions.label": {
+    "message": "Instance actions"
+  },
+  "app.library.instance.deselect": {
+    "message": "Deselect instance"
+  },
+  "app.library.instance.deselect-with-name": {
+    "message": "Deselect {name}"
+  },
+  "app.library.instance.install": {
+    "message": "Install"
+  },
+  "app.library.instance.install-with-name": {
+    "message": "Install {name}"
+  },
+  "app.library.instance.installing": {
+    "message": "Dey install..."
+  },
+  "app.library.instance.loading": {
+    "message": "Instance dey load..."
+  },
+  "app.library.instance.new": {
+    "message": "New instance"
+  },
+  "app.library.instance.open-with-name": {
+    "message": "Open {name}"
+  },
+  "app.library.instance.play": {
+    "message": "Play"
+  },
+  "app.library.instance.repair": {
+    "message": "Repair"
+  },
+  "app.library.instance.select": {
+    "message": "Pick instance"
+  },
+  "app.library.instance.select-with-name": {
+    "message": "Pick {name}"
+  },
+  "app.library.instance.shared-by": {
+    "message": "{name} share am"
+  },
+  "app.library.instance.shared-by-owner": {
+    "message": "<owner>{name}</owner> share am"
+  },
+  "app.library.instance.shared-by-you": {
+    "message": "You share am"
+  },
+  "app.library.instance.stop": {
+    "message": "Stop"
+  },
+  "app.library.leave-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {You'll lose access to this shared instance and it will be removed from your library. You'll need a new invite to join it again.} other {You'll lose access to these shared instances and they will be removed from your library. You'll need a new invite to join them again.}}"
+  },
+  "app.library.leave-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Leaving shared instance} other {Leaving # shared instances}}"
+  },
+  "app.library.leave-shared-instance.modal.header": {
+    "message": "{count, plural, one {Leave shared instance} other {Leave # shared instances}}"
+  },
+  "app.library.search.no-results.title": {
+    "message": "No instance match your search."
+  },
+  "app.library.search.placeholder": {
+    "message": "Search"
+  },
+  "app.library.selection.aria-label": {
+    "message": "Instances wey dem pick"
+  },
+  "app.library.selection.deleting": {
+    "message": "Dey delete instances wey dem pick"
+  },
+  "app.library.selection.new-group": {
+    "message": "New group"
+  },
+  "app.library.selection.remove-from-group": {
+    "message": "Remove from group"
+  },
+  "app.library.selection.removing-shared-instances": {
+    "message": "Dey remove shared instances wey dem pick"
+  },
+  "app.library.selection.selected-count": {
+    "message": "{count} dem pick"
+  },
+  "app.library.sort.date-created": {
+    "message": "Date wey dem create am"
+  },
+  "app.library.sort.date-modified": {
+    "message": "Date wey dem modify am"
+  },
+  "app.library.sort.game-version": {
+    "message": "Game version"
+  },
+  "app.library.sort.hours-played": {
+    "message": "Hours wey you play"
+  },
+  "app.library.sort.label": {
+    "message": "Sort by"
+  },
+  "app.library.sort.last-played": {
+    "message": "Last time you play"
+  },
+  "app.library.sort.loader": {
+    "message": "Loader"
+  },
+  "app.library.sort.name": {
+    "message": "Name"
+  },
+  "app.library.title": {
+    "message": "Library"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
+    "message": "{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} go stop receive updates. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} All go dey removed from your library."
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
+    "message": "Dey unpublish and leave shared instances"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.header": {
+    "message": "Unpublish and leave {count} shared instances"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
+  },
+  "app.library.unpublish-shared-instance.modal.header": {
+    "message": "{count, plural, one {Unpublish shared instance} other {Unpublish # shared instances}}"
+  },
+  "app.modal.install-to-play.additional-context": {
+    "message": "Extra context"
+  },
+  "app.modal.install-to-play.additional-context-placeholder": {
+    "message": "Put links and images if dey possible and relevant"
+  },
+  "app.modal.install-to-play.block-user": {
+    "message": "Block user"
+  },
+  "app.modal.install-to-play.content-you-are-reporting": {
+    "message": "Instance wey you dey report"
+  },
+  "app.modal.install-to-play.delete-instance": {
+    "message": "Delete instance"
+  },
+  "app.modal.install-to-play.external-files-dont-install": {
+    "message": "No install"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Install to play"
+  },
+  "app.modal.install-to-play.install-anyway": {
+    "message": "Install still"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "Install"
+  },
+  "app.modal.install-to-play.invite-warning": {
+    "message": "Na another Panda Minecraft Launcher user create this invite, no be Panda Minecraft Launcher. Accept invite only from people you trust."
+  },
+  "app.modal.install-to-play.invite-warning-with-creator": {
+    "message": "Na <creator>{username}</creator> create this invite, no be Panda Minecraft Launcher. Accept invite only from people you trust."
+  },
+  "app.modal.install-to-play.managed-content.modpack-header": {
+    "message": "Modpack content"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# mods}}"
+  },
+  "app.modal.install-to-play.owner-install-note": {
+    "message": "Dis dey download latest version wey you push. Changes for other installations wey you no push no go dey included."
+  },
+  "app.modal.install-to-play.report-description": {
+    "message": "Use this form to report instances wey fit break our <rules-link>Rules</rules-link> or <terms-link>Terms of Use</terms-link>."
+  },
+  "app.modal.install-to-play.report-image-invalid-type": {
+    "message": "File no be accepted image type"
+  },
+  "app.modal.install-to-play.report-image-too-large": {
+    "message": "File pass 1 MiB size limit"
+  },
+  "app.modal.install-to-play.report-legal-claims": {
+    "message": "For DMCA notices or other legal claims, see our <copyright-link>Copyright Policy</copyright-link>."
+  },
+  "app.modal.install-to-play.report-reason": {
+    "message": "Which rule dis instance break?"
+  },
+  "app.modal.install-to-play.report-shared-instance-header": {
+    "message": "Report shared instance"
+  },
+  "app.modal.install-to-play.report-submitted": {
+    "message": "Report don submit"
+  },
+  "app.modal.install-to-play.report-support-and-bugs": {
+    "message": "For support requests, contact our <support-link>support team</support-link>. For bug reports, open <github-link>GitHub issue</github-link>."
+  },
+  "app.modal.install-to-play.reviewed-files": {
+    "message": "Files wey no dey published to Panda Minecraft Launcher no dey reviewed."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "Shared instance"
+  },
+  "app.modal.install-to-play.shared-instance-content": {
+    "message": "Shared instance content"
+  },
+  "app.modal.install-to-play.shared-instance-unknown-files-description": {
+    "message": "This shared instance get files wey no dey published on Panda Minecraft Launcher. We strongly recommend say you install only files from sources you trust."
+  },
+  "app.modal.install-to-play.unavailable-description": {
+    "message": "Modpack version wey this server dey use no fit download now. E fit be unpublished or under review. Try again later, or contact server owner."
+  },
+  "app.modal.install-to-play.unavailable-header": {
+    "message": "This server's modpack no dey available"
+  },
+  "app.modal.install-to-play.unknown-files-description": {
+    "message": "This server modpack get files wey no dey published on Panda Minecraft Launcher. We strongly recommend say you install only files from sources you trust."
+  },
+  "app.modal.install-to-play.unknown-files-warning": {
+    "message": "Warning for unknown files"
+  },
+  "app.modal.install-to-play.unrecognized-files": {
+    "message": "Files wey we no recognize"
+  },
+  "app.modal.install-to-play.user-blocked": {
+    "message": "User don block"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "See contents"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "Update to play"
+  },
+  "app.modal.update-to-play.owner-admonition-header": {
+    "message": "Push from another installation"
+  },
+  "app.modal.update-to-play.owner-description": {
+    "message": "Na from another Panda Minecraft Launcher installation dem push these changes. Changes wey you no push for shared content for this installation go dey replaced."
+  },
+  "app.modal.update-to-play.owner-header": {
+    "message": "Update dey available"
+  },
+  "app.modal.update-to-play.removed": {
+    "message": "E don remove"
+  },
+  "app.modal.update-to-play.server-modpack-unknown-files-description": {
+    "message": "This server modpack update get files wey no dey published on Panda Minecraft Launcher. We strongly recommend say you install only files from sources you trust."
+  },
+  "app.modal.update-to-play.shared-instance-added-label": {
+    "message": "E don add"
+  },
+  "app.modal.update-to-play.shared-instance-removed-label": {
+    "message": "E don remove"
+  },
+  "app.modal.update-to-play.shared-instance-unknown-files-description": {
+    "message": "This shared instance update get files wey no dey published on Panda Minecraft Launcher. We strongly recommend say you install only files from sources you trust."
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "Update dey required"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "You need update to play {name}. Abeg update to latest version to launch game."
+  },
+  "app.nav.account-management": {
+    "message": "Account management"
+  },
+  "app.nav.add-account": {
+    "message": "Add account"
+  },
+  "app.nav.create-new-instance": {
+    "message": "Create new instance"
+  },
+  "app.nav.home": {
+    "message": "Home"
+  },
+  "app.nav.loading-profile": {
+    "message": "Profile dey load..."
+  },
+  "app.nav.modrinth-account": {
+    "message": "Panda Minecraft Launcher account"
+  },
+  "app.nav.modrinth-hosting": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.nav.remove-account": {
+    "message": "Remove account"
+  },
+  "app.nav.screenshots": {
+    "message": "Screenshots"
+  },
+  "app.nav.sign-in-to-modrinth-account": {
+    "message": "Sign into Panda Minecraft Launcher"
+  },
+  "app.nav.switch-account": {
+    "message": "Switch account"
+  },
+  "app.nav.upgrade-to-modrinth-plus": {
+    "message": "Upgrade to Panda Minecraft Launcher"
+  },
+  "app.nav.view-profile": {
+    "message": "See profile"
+  },
+  "app.navigation.go-back": {
+    "message": "Go back"
+  },
+  "app.navigation.go-forward": {
+    "message": "Go forward"
+  },
+  "app.navigation.home": {
+    "message": "Home"
+  },
+  "app.news.title": {
+    "message": "Gist"
+  },
+  "app.news.view-all": {
+    "message": "See all gist"
+  },
+  "app.notification.warning": {
+    "message": "Warning"
+  },
+  "app.project.actions.label": {
+    "message": "Project actions"
+  },
+  "app.project.coming-soon": {
+    "message": "Dey come soon"
+  },
+  "app.project.install-button.already-installed": {
+    "message": "This project don install already"
+  },
+  "app.project.install-button.switch-version": {
+    "message": "Switch version"
+  },
+  "app.project.install-context.back-to-browse": {
+    "message": "Go back to discover"
+  },
+  "app.project.install-context.back-to-instance": {
+    "message": "Go back to instance"
+  },
+  "app.project.load-error": {
+    "message": "E no fit load project data."
+  },
+  "app.project.more-options": {
+    "message": "More options"
+  },
+  "app.project.tab.description": {
+    "message": "Description"
+  },
+  "app.project.tab.gallery": {
+    "message": "Gallery"
+  },
+  "app.project.tab.versions": {
+    "message": "Versions"
+  },
+  "app.project.version.all-versions": {
+    "message": "All versions"
+  },
+  "app.project.version.download-in-browser": {
+    "message": "Download for browser"
+  },
+  "app.project.version.installing": {
+    "message": "Dey install"
+  },
+  "app.project.versions.already-installed": {
+    "message": "E don install already"
+  },
+  "app.quick-instance-switcher.actions.label": {
+    "message": "Instance actions"
+  },
+  "app.quick-instance-switcher.drag-show-tooltip": {
+    "message": "Drag to show recent instances"
+  },
+  "app.quick-instance-switcher.drag-tooltip": {
+    "message": "Drag to change size"
+  },
+  "app.quick-instance-switcher.instance-locked": {
+    "message": "Dem don lock this instance"
+  },
+  "app.quick-instance-switcher.title": {
+    "message": "Recent instances"
+  },
+  "app.quick-instance-switcher.view-instance": {
+    "message": "See instance"
+  },
+  "app.restarting": {
+    "message": "Dey restart..."
+  },
+  "app.screenshots.copied": {
+    "message": "E don copy"
+  },
+  "app.screenshots.copy": {
+    "message": "Copy image"
+  },
+  "app.screenshots.delete-description": {
+    "message": "Delete {name} permanently? You no fit undo this action."
+  },
+  "app.screenshots.delete-success": {
+    "message": "Screenshot don delete"
+  },
+  "app.screenshots.delete-title": {
+    "message": "Delete screenshot"
+  },
+  "app.screenshots.deselect": {
+    "message": "Deselect {name}"
+  },
+  "app.screenshots.edit": {
+    "message": "Edit screenshot"
+  },
+  "app.screenshots.empty-description": {
+    "message": "Screenshots wey you take inside game go show here."
+  },
+  "app.screenshots.empty-heading": {
+    "message": "No screenshot yet"
+  },
+  "app.screenshots.error-heading": {
+    "message": "E no fit load screenshots"
+  },
+  "app.screenshots.go-to-instance": {
+    "message": "Go to instance"
+  },
+  "app.screenshots.group-by": {
+    "message": "Group by"
+  },
+  "app.screenshots.group.all-screenshots": {
+    "message": "All screenshots"
+  },
+  "app.screenshots.group.collapse": {
+    "message": "Collapse group"
+  },
+  "app.screenshots.group.custom": {
+    "message": "Custom group"
+  },
+  "app.screenshots.group.date": {
+    "message": "Date"
+  },
+  "app.screenshots.group.delete": {
+    "message": "Delete group"
+  },
+  "app.screenshots.group.delete-description": {
+    "message": "Screenshots for this group go dey ungrouped."
+  },
+  "app.screenshots.group.edit": {
+    "message": "Edit group name"
+  },
+  "app.screenshots.group.empty": {
+    "message": "Drag and drop to add screenshots."
+  },
+  "app.screenshots.group.expand": {
+    "message": "Expand group"
+  },
+  "app.screenshots.group.instance": {
+    "message": "Instance"
+  },
+  "app.screenshots.group.new": {
+    "message": "New group"
+  },
+  "app.screenshots.group.none": {
+    "message": "No grouping"
+  },
+  "app.screenshots.group.this-month": {
+    "message": "This month"
+  },
+  "app.screenshots.group.this-week": {
+    "message": "This week"
+  },
+  "app.screenshots.group.today": {
+    "message": "Today"
+  },
+  "app.screenshots.group.ungrouped": {
+    "message": "Ungrouped"
+  },
+  "app.screenshots.group.yesterday": {
+    "message": "Yesterday"
+  },
+  "app.screenshots.heading": {
+    "message": "Screenshots"
+  },
+  "app.screenshots.more-actions": {
+    "message": "More actions"
+  },
+  "app.screenshots.no-results-description": {
+    "message": "Try another search or filter."
+  },
+  "app.screenshots.no-results-heading": {
+    "message": "No screenshot match"
+  },
+  "app.screenshots.preview.instance-and-date": {
+    "message": "{instance} · {date}"
+  },
+  "app.screenshots.search": {
+    "message": "Search"
+  },
+  "app.screenshots.select": {
+    "message": "Pick {name}"
+  },
+  "app.screenshots.selection.aria-label": {
+    "message": "Screenshots wey dem pick"
+  },
+  "app.screenshots.selection.delete-description": {
+    "message": "Delete {count, plural, one {# screenshot} other {# screenshots}}? This action cannot be undone."
+  },
+  "app.screenshots.selection.delete-success": {
+    "message": "{count, plural, one {# screenshot deleted} other {# screenshots deleted}}"
+  },
+  "app.screenshots.selection.delete-title": {
+    "message": "Delete screenshots wey dem pick"
+  },
+  "app.screenshots.selection.export-zip": {
+    "message": "Export ZIP"
+  },
+  "app.screenshots.selection.global-export-filename": {
+    "message": "Panda Minecraft Launcher screenshots.zip"
+  },
+  "app.screenshots.selection.instance-export-filename": {
+    "message": "{instance} screenshots.zip"
+  },
+  "app.screenshots.selection.remove-from-group": {
+    "message": "Remove from group"
+  },
+  "app.screenshots.selection.selected-count": {
+    "message": "{count} dem pick"
+  },
+  "app.screenshots.selection.zip-archive": {
+    "message": "ZIP archive"
+  },
+  "app.screenshots.show-in-folder": {
+    "message": "Show for folder"
+  },
+  "app.screenshots.sort-by": {
+    "message": "Sort by"
+  },
+  "app.screenshots.sort.name": {
+    "message": "Name"
+  },
+  "app.screenshots.sort.newest": {
+    "message": "Newest"
+  },
+  "app.screenshots.sort.oldest": {
+    "message": "Oldest"
+  },
+  "app.server-sharing-update.notification.description": {
+    "message": "Invite friends make dem play with instance wey your server dey manage."
+  },
+  "app.server-sharing-update.notification.dismiss": {
+    "message": "Make am go"
+  },
+  "app.server-sharing-update.notification.purchase-description": {
+    "message": "Get server and invite friends make dem play with instance wey e dey manage."
+  },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "See update"
+  },
+  "app.server-sharing-update.title": {
+    "message": "Share servers with friends"
+  },
+  "app.settings.app-version": {
+    "message": "Panda Minecraft Launcher {version}"
+  },
+  "app.settings.default-instance-options.environment-variables.description": {
+    "message": "Environment variables wey dem set when instance dey launch."
+  },
+  "app.settings.default-instance-options.environment-variables.placeholder": {
+    "message": "Enter environment variables..."
+  },
+  "app.settings.default-instance-options.environment-variables.title": {
+    "message": "Environment variables"
+  },
+  "app.settings.default-instance-options.fullscreen.description": {
+    "message": "Start instances for fullscreen by change their options.txt file."
+  },
+  "app.settings.default-instance-options.fullscreen.title": {
+    "message": "Fullscreen"
+  },
+  "app.settings.default-instance-options.height.description": {
+    "message": "Height of game window when e dey launch."
+  },
+  "app.settings.default-instance-options.height.placeholder": {
+    "message": "Enter height..."
+  },
+  "app.settings.default-instance-options.height.title": {
+    "message": "Height"
+  },
+  "app.settings.default-instance-options.java-arguments.description": {
+    "message": "Arguments wey dem give Java when instance dey launch."
+  },
+  "app.settings.default-instance-options.java-arguments.placeholder": {
+    "message": "Enter Java arguments..."
+  },
+  "app.settings.default-instance-options.java-arguments.title": {
+    "message": "Java arguments"
+  },
+  "app.settings.default-instance-options.memory-allocation.description": {
+    "message": "Maximum memory wey each instance fit use."
+  },
+  "app.settings.default-instance-options.memory-allocation.title": {
+    "message": "Memory allocation"
+  },
+  "app.settings.default-instance-options.post-exit-hook.description": {
+    "message": "E dey run after game close."
+  },
+  "app.settings.default-instance-options.post-exit-hook.placeholder": {
+    "message": "Enter post-exit command..."
+  },
+  "app.settings.default-instance-options.post-exit-hook.title": {
+    "message": "Post-exit hook"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.description": {
+    "message": "E dey run before instance start."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.placeholder": {
+    "message": "Enter pre-launch command..."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.title": {
+    "message": "Pre-launch hook"
+  },
+  "app.settings.default-instance-options.width.description": {
+    "message": "Width of game window when e dey launch."
+  },
+  "app.settings.default-instance-options.width.placeholder": {
+    "message": "Enter width..."
+  },
+  "app.settings.default-instance-options.width.title": {
+    "message": "Width"
+  },
+  "app.settings.default-instance-options.wrapper-hook.description": {
+    "message": "Command wey dem use wrap Minecraft launch process."
+  },
+  "app.settings.default-instance-options.wrapper-hook.placeholder": {
+    "message": "Enter wrapper command..."
+  },
+  "app.settings.default-instance-options.wrapper-hook.title": {
+    "message": "Wrapper hook"
+  },
+  "app.settings.developer-mode-button.label": {
+    "message": "Toggle developer mode"
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "Developer mode don turn on."
+  },
+  "app.settings.downloading": {
+    "message": "v{version} dey download"
+  },
+  "app.settings.game-options.category.accessibility.description": {
+    "message": "Accessibility preferences"
+  },
+  "app.settings.game-options.category.accessibility.label": {
+    "message": "Accessibility"
+  },
+  "app.settings.game-options.category.chat.description": {
+    "message": "Chat visibility and appearance"
+  },
+  "app.settings.game-options.category.chat.label": {
+    "message": "Chat"
+  },
+  "app.settings.game-options.category.controls.description": {
+    "message": "Mouse, movement, and key bindings"
+  },
+  "app.settings.game-options.category.controls.label": {
+    "message": "Controls"
+  },
+  "app.settings.game-options.category.custom.description": {
+    "message": "Settings wey mods add"
+  },
+  "app.settings.game-options.category.custom.label": {
+    "message": "Custom settings"
+  },
+  "app.settings.game-options.category.language.description": {
+    "message": "Game language"
+  },
+  "app.settings.game-options.category.language.label": {
+    "message": "Language"
+  },
+  "app.settings.game-options.category.music-and-sound.description": {
+    "message": "Volume and audio preferences"
+  },
+  "app.settings.game-options.category.music-and-sound.label": {
+    "message": "Music and sound"
+  },
+  "app.settings.game-options.category.online.description": {
+    "message": "Online and Realms preferences"
+  },
+  "app.settings.game-options.category.online.label": {
+    "message": "Online"
+  },
+  "app.settings.game-options.category.skin-customization.description": {
+    "message": "Skin layers and main hand"
+  },
+  "app.settings.game-options.category.skin-customization.label": {
+    "message": "Skin customization"
+  },
+  "app.settings.game-options.category.video.description": {
+    "message": "Camera and display settings"
+  },
+  "app.settings.game-options.category.video.label": {
+    "message": "Video"
+  },
+  "app.settings.game-options.choice.all": {
+    "message": "All"
+  },
+  "app.settings.game-options.choice.balanced": {
+    "message": "Balanced"
+  },
+  "app.settings.game-options.choice.by-player": {
+    "message": "By player"
+  },
+  "app.settings.game-options.choice.chat": {
+    "message": "Chat"
+  },
+  "app.settings.game-options.choice.commands-only": {
+    "message": "Commands only"
+  },
+  "app.settings.game-options.choice.constant": {
+    "message": "Constant"
+  },
+  "app.settings.game-options.choice.crosshair": {
+    "message": "Crosshair"
+  },
+  "app.settings.game-options.choice.custom": {
+    "message": "Custom"
+  },
+  "app.settings.game-options.choice.decreased": {
+    "message": "Decreased"
+  },
+  "app.settings.game-options.choice.default": {
+    "message": "Default"
+  },
+  "app.settings.game-options.choice.fabulous": {
+    "message": "Fabulous"
+  },
+  "app.settings.game-options.choice.fancy": {
+    "message": "Fancy"
+  },
+  "app.settings.game-options.choice.far": {
+    "message": "Far"
+  },
+  "app.settings.game-options.choice.fast": {
+    "message": "Fast"
+  },
+  "app.settings.game-options.choice.frequent": {
+    "message": "Frequent"
+  },
+  "app.settings.game-options.choice.hidden": {
+    "message": "Hidden"
+  },
+  "app.settings.game-options.choice.hotbar": {
+    "message": "Hotbar"
+  },
+  "app.settings.game-options.choice.left": {
+    "message": "Left"
+  },
+  "app.settings.game-options.choice.limited": {
+    "message": "Limited"
+  },
+  "app.settings.game-options.choice.max-fps": {
+    "message": "Max FPS"
+  },
+  "app.settings.game-options.choice.maximum": {
+    "message": "Maximum"
+  },
+  "app.settings.game-options.choice.minimal": {
+    "message": "Minimal"
+  },
+  "app.settings.game-options.choice.minimum": {
+    "message": "Minimum"
+  },
+  "app.settings.game-options.choice.nearby": {
+    "message": "Nearby"
+  },
+  "app.settings.game-options.choice.never": {
+    "message": "Never"
+  },
+  "app.settings.game-options.choice.none": {
+    "message": "None"
+  },
+  "app.settings.game-options.choice.normal": {
+    "message": "Normal"
+  },
+  "app.settings.game-options.choice.off": {
+    "message": "Off"
+  },
+  "app.settings.game-options.choice.on": {
+    "message": "On"
+  },
+  "app.settings.game-options.choice.opengl": {
+    "message": "OpenGL"
+  },
+  "app.settings.game-options.choice.pause": {
+    "message": "Pause menu"
+  },
+  "app.settings.game-options.choice.pause-and-toast": {
+    "message": "Pause menu and toast"
+  },
+  "app.settings.game-options.choice.power-saver": {
+    "message": "Power saver"
+  },
+  "app.settings.game-options.choice.right": {
+    "message": "Right"
+  },
+  "app.settings.game-options.choice.short": {
+    "message": "Short"
+  },
+  "app.settings.game-options.choice.shown": {
+    "message": "Shown"
+  },
+  "app.settings.game-options.choice.system": {
+    "message": "System"
+  },
+  "app.settings.game-options.choice.tiny": {
+    "message": "Tiny"
+  },
+  "app.settings.game-options.choice.vulkan": {
+    "message": "Vulkan"
+  },
+  "app.settings.game-options.choice.when-minimized": {
+    "message": "When minimized"
+  },
+  "app.settings.game-options.choice.while-afk": {
+    "message": "While AFK"
+  },
+  "app.settings.game-options.compatibility.none": {
+    "message": "Some of your instances no fit use this setting"
+  },
+  "app.settings.game-options.compatibility.reason.launcher-controlled": {
+    "message": "Panda Minecraft Launcher launch settings dey manage this setting."
+  },
+  "app.settings.game-options.custom-value.placeholder": {
+    "message": "Enter a value"
+  },
+  "app.settings.game-options.keybind.assigned-status": {
+    "message": "{setting} don bind to {binding}."
+  },
+  "app.settings.game-options.keybind.cancelled-status": {
+    "message": "Dem cancel key binding change."
+  },
+  "app.settings.game-options.keybind.change": {
+    "message": "{setting}: {binding}. Activate am to change binding."
+  },
+  "app.settings.game-options.keybind.choose": {
+    "message": "Pick a key"
+  },
+  "app.settings.game-options.keybind.conflict-description": {
+    "message": "{settings} dey use this already."
+  },
+  "app.settings.game-options.keybind.key.arrow-down": {
+    "message": "Down Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-left": {
+    "message": "Left Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-right": {
+    "message": "Right Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-up": {
+    "message": "Up Arrow"
+  },
+  "app.settings.game-options.keybind.key.backspace": {
+    "message": "Backspace"
+  },
+  "app.settings.game-options.keybind.key.caps-lock": {
+    "message": "Caps Lock"
+  },
+  "app.settings.game-options.keybind.key.delete": {
+    "message": "Delete"
+  },
+  "app.settings.game-options.keybind.key.end": {
+    "message": "End"
+  },
+  "app.settings.game-options.keybind.key.enter": {
+    "message": "Enter"
+  },
+  "app.settings.game-options.keybind.key.escape": {
+    "message": "Escape"
+  },
+  "app.settings.game-options.keybind.key.home": {
+    "message": "Home"
+  },
+  "app.settings.game-options.keybind.key.insert": {
+    "message": "Insert"
+  },
+  "app.settings.game-options.keybind.key.keypad-key": {
+    "message": "Numpad {key}"
+  },
+  "app.settings.game-options.keybind.key.left-alt": {
+    "message": "Left Alt"
+  },
+  "app.settings.game-options.keybind.key.left-command": {
+    "message": "Left Command"
+  },
+  "app.settings.game-options.keybind.key.left-control": {
+    "message": "Left Ctrl"
+  },
+  "app.settings.game-options.keybind.key.left-shift": {
+    "message": "Left Shift"
+  },
+  "app.settings.game-options.keybind.key.left-super": {
+    "message": "Left Super"
+  },
+  "app.settings.game-options.keybind.key.menu": {
+    "message": "Menu"
+  },
+  "app.settings.game-options.keybind.key.num-lock": {
+    "message": "Num Lock"
+  },
+  "app.settings.game-options.keybind.key.page-down": {
+    "message": "Page Down"
+  },
+  "app.settings.game-options.keybind.key.page-up": {
+    "message": "Page Up"
+  },
+  "app.settings.game-options.keybind.key.pause": {
+    "message": "Pause"
+  },
+  "app.settings.game-options.keybind.key.print-screen": {
+    "message": "Print Screen"
+  },
+  "app.settings.game-options.keybind.key.right-alt": {
+    "message": "Right Alt"
+  },
+  "app.settings.game-options.keybind.key.right-command": {
+    "message": "Right Command"
+  },
+  "app.settings.game-options.keybind.key.right-control": {
+    "message": "Right Ctrl"
+  },
+  "app.settings.game-options.keybind.key.right-shift": {
+    "message": "Right Shift"
+  },
+  "app.settings.game-options.keybind.key.right-super": {
+    "message": "Right Super"
+  },
+  "app.settings.game-options.keybind.key.scroll-lock": {
+    "message": "Scroll Lock"
+  },
+  "app.settings.game-options.keybind.key.space": {
+    "message": "Space"
+  },
+  "app.settings.game-options.keybind.key.tab": {
+    "message": "Tab"
+  },
+  "app.settings.game-options.keybind.key.unbound": {
+    "message": "Unbound"
+  },
+  "app.settings.game-options.keybind.key.unknown": {
+    "message": "Key wey we no know"
+  },
+  "app.settings.game-options.keybind.listen": {
+    "message": "Press a key…"
+  },
+  "app.settings.game-options.keybind.listening-status": {
+    "message": "Dey listen for key or mouse button. Press Escape to clear this binding."
+  },
+  "app.settings.game-options.keybind.mixed": {
+    "message": "Different across instances"
+  },
+  "app.settings.game-options.keybind.modifier.alt": {
+    "message": "Alt"
+  },
+  "app.settings.game-options.keybind.modifier.command": {
+    "message": "Command"
+  },
+  "app.settings.game-options.keybind.modifier.control": {
+    "message": "Ctrl"
+  },
+  "app.settings.game-options.keybind.modifier.shift": {
+    "message": "Shift"
+  },
+  "app.settings.game-options.keybind.modifier.super": {
+    "message": "Super"
+  },
+  "app.settings.game-options.keybind.mouse.button": {
+    "message": "Mouse {button}"
+  },
+  "app.settings.game-options.keybind.mouse.left": {
+    "message": "Left Mouse"
+  },
+  "app.settings.game-options.keybind.mouse.middle": {
+    "message": "Middle Mouse"
+  },
+  "app.settings.game-options.keybind.mouse.right": {
+    "message": "Right Mouse"
+  },
+  "app.settings.game-options.keybind.recording-label": {
+    "message": "{setting}: dey listen for key or mouse button. Press Escape to clear binding."
+  },
+  "app.settings.game-options.keybind.scancode": {
+    "message": "Scancode {code}"
+  },
+  "app.settings.game-options.keybind.unsupported-status": {
+    "message": "Minecraft no fit use dat input. Press another key."
+  },
+  "app.settings.game-options.setting.advanced-opengl.label": {
+    "message": "Advanced OpenGL"
+  },
+  "app.settings.game-options.setting.allow-cursor-changes.label": {
+    "message": "Allow cursor changes"
+  },
+  "app.settings.game-options.setting.allow-server-listing.description": {
+    "message": "Allow player name make e show for server listings."
+  },
+  "app.settings.game-options.setting.allow-server-listing.label": {
+    "message": "Server listings"
+  },
+  "app.settings.game-options.setting.alternate-blocks.label": {
+    "message": "Alternate blocks"
+  },
+  "app.settings.game-options.setting.ambient-occlusion.label": {
+    "message": "Smooth lighting"
+  },
+  "app.settings.game-options.setting.ambient-volume.label": {
+    "message": "Ambient/Environment"
+  },
+  "app.settings.game-options.setting.anaglyph-3d.label": {
+    "message": "3D anaglyph"
+  },
+  "app.settings.game-options.setting.anisotropic-filtering.label": {
+    "message": "Anisotropic filtering"
+  },
+  "app.settings.game-options.setting.anisotropy.label": {
+    "message": "Anisotropy"
+  },
+  "app.settings.game-options.setting.attack-indicator.label": {
+    "message": "Attack indicator"
+  },
+  "app.settings.game-options.setting.auto-jump.description": {
+    "message": "Jump automatically over obstacles wey dey one block high."
+  },
+  "app.settings.game-options.setting.auto-jump.label": {
+    "message": "Auto-jump"
+  },
+  "app.settings.game-options.setting.auto-suggestions.label": {
+    "message": "Command suggestions"
+  },
+  "app.settings.game-options.setting.autosave-indicator.label": {
+    "message": "Autosave indicator"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.description": {
+    "message": "Distance wey biome colors dey change."
+  },
+  "app.settings.game-options.setting.biome-blend-radius.label": {
+    "message": "Biome blend"
+  },
+  "app.settings.game-options.setting.blocks-volume.label": {
+    "message": "Blocks"
+  },
+  "app.settings.game-options.setting.brightness.label": {
+    "message": "Brightness"
+  },
+  "app.settings.game-options.setting.cape.description": {
+    "message": "Show player cape, including elytra texture."
+  },
+  "app.settings.game-options.setting.cape.label": {
+    "message": "Cape"
+  },
+  "app.settings.game-options.setting.chat-background-only.label": {
+    "message": "Chat background only"
+  },
+  "app.settings.game-options.setting.chat-colors.label": {
+    "message": "Chat colors"
+  },
+  "app.settings.game-options.setting.chat-delay.label": {
+    "message": "Chat delay"
+  },
+  "app.settings.game-options.setting.chat-line-spacing.label": {
+    "message": "Chat line spacing"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.description": {
+    "message": "Ask before you open links from chat."
+  },
+  "app.settings.game-options.setting.chat-links-prompt.label": {
+    "message": "Prompt on links"
+  },
+  "app.settings.game-options.setting.chat-links.description": {
+    "message": "Allow web links for chat make dem fit open."
+  },
+  "app.settings.game-options.setting.chat-links.label": {
+    "message": "Web links"
+  },
+  "app.settings.game-options.setting.chat-opacity.description": {
+    "message": "Opacity of chat text."
+  },
+  "app.settings.game-options.setting.chat-opacity.label": {
+    "message": "Chat opacity"
+  },
+  "app.settings.game-options.setting.chat-preview.label": {
+    "message": "Chat preview"
+  },
+  "app.settings.game-options.setting.chat-scale.label": {
+    "message": "Chat scale"
+  },
+  "app.settings.game-options.setting.chat-visibility.label": {
+    "message": "Chat visibility"
+  },
+  "app.settings.game-options.setting.chat-width.label": {
+    "message": "Chat width"
+  },
+  "app.settings.game-options.setting.chunk-fade-time.label": {
+    "message": "Chunk fade time"
+  },
+  "app.settings.game-options.setting.cloud-range.label": {
+    "message": "Cloud distance"
+  },
+  "app.settings.game-options.setting.clouds.label": {
+    "message": "Clouds"
+  },
+  "app.settings.game-options.setting.ctrl-click-right-click.label": {
+    "message": "Control-click as right-click"
+  },
+  "app.settings.game-options.setting.cutout-leaves.label": {
+    "message": "Cutout leaves"
+  },
+  "app.settings.game-options.setting.damage-tilt.label": {
+    "message": "Damage tilt"
+  },
+  "app.settings.game-options.setting.dark-splash.description": {
+    "message": "Change Mojang Studios loading screen from red to black."
+  },
+  "app.settings.game-options.setting.dark-splash.label": {
+    "message": "Monochrome logo"
+  },
+  "app.settings.game-options.setting.darkness-pulsing.label": {
+    "message": "Darkness pulsing"
+  },
+  "app.settings.game-options.setting.debug-gui-scale.label": {
+    "message": "Debug GUI scale"
+  },
+  "app.settings.game-options.setting.directional-audio.label": {
+    "message": "Directional audio"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.description": {
+    "message": "Count each mouse-wheel input as one scroll step."
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.label": {
+    "message": "Discrete scrolling"
+  },
+  "app.settings.game-options.setting.entity-distance.label": {
+    "message": "Entity distance"
+  },
+  "app.settings.game-options.setting.entity-shadows.label": {
+    "message": "Entity shadows"
+  },
+  "app.settings.game-options.setting.exclusive-fullscreen.label": {
+    "message": "Exclusive fullscreen"
+  },
+  "app.settings.game-options.setting.extra-telemetry.label": {
+    "message": "Optional telemetry"
+  },
+  "app.settings.game-options.setting.focused-chat-height.label": {
+    "message": "Focused chat height"
+  },
+  "app.settings.game-options.setting.force-unicode-font.label": {
+    "message": "Force Unicode font"
+  },
+  "app.settings.game-options.setting.fov-effects.label": {
+    "message": "FOV effects"
+  },
+  "app.settings.game-options.setting.fov.label": {
+    "message": "Field of view"
+  },
+  "app.settings.game-options.setting.fullscreen.label": {
+    "message": "Fullscreen"
+  },
+  "app.settings.game-options.setting.glint-speed.label": {
+    "message": "Glint speed"
+  },
+  "app.settings.game-options.setting.glint-strength.label": {
+    "message": "Glint strength"
+  },
+  "app.settings.game-options.setting.graphics-backend.label": {
+    "message": "Graphics backend"
+  },
+  "app.settings.game-options.setting.graphics.description": {
+    "message": "E dey control visual quality and performance."
+  },
+  "app.settings.game-options.setting.graphics.label": {
+    "message": "Graphics"
+  },
+  "app.settings.game-options.setting.gui-scale.description": {
+    "message": "Size of game interface and HUD."
+  },
+  "app.settings.game-options.setting.gui-scale.label": {
+    "message": "GUI scale"
+  },
+  "app.settings.game-options.setting.hat.description": {
+    "message": "Show hat skin layer."
+  },
+  "app.settings.game-options.setting.hat.label": {
+    "message": "Hat"
+  },
+  "app.settings.game-options.setting.held-item-tooltips.label": {
+    "message": "Held item tooltips"
+  },
+  "app.settings.game-options.setting.hide-lightning-flashes.label": {
+    "message": "Hide lightning flashes"
+  },
+  "app.settings.game-options.setting.hide-matched-names.label": {
+    "message": "Hide matched names"
+  },
+  "app.settings.game-options.setting.hide-server-address.label": {
+    "message": "Hide server address"
+  },
+  "app.settings.game-options.setting.hide-splash-texts.label": {
+    "message": "Hide splash texts"
+  },
+  "app.settings.game-options.setting.high-contrast-outline.label": {
+    "message": "High contrast block outline"
+  },
+  "app.settings.game-options.setting.high-contrast.description": {
+    "message": "Make interface elements dey stand out well."
+  },
+  "app.settings.game-options.setting.high-contrast.label": {
+    "message": "High contrast"
+  },
+  "app.settings.game-options.setting.hostile-volume.label": {
+    "message": "Hostile creatures"
+  },
+  "app.settings.game-options.setting.improved-transparency.label": {
+    "message": "Improved transparency"
+  },
+  "app.settings.game-options.setting.in-game-notifications.label": {
+    "message": "In-game notifications"
+  },
+  "app.settings.game-options.setting.inactivity-framerate-limit.label": {
+    "message": "Reduced framerate"
+  },
+  "app.settings.game-options.setting.invert-horizontal-mouse.label": {
+    "message": "Invert horizontal mouse"
+  },
+  "app.settings.game-options.setting.invert-mouse.description": {
+    "message": "Invert vertical mouse movement."
+  },
+  "app.settings.game-options.setting.invert-mouse.label": {
+    "message": "Invert mouse"
+  },
+  "app.settings.game-options.setting.jacket.description": {
+    "message": "Show jacket skin layer."
+  },
+  "app.settings.game-options.setting.jacket.label": {
+    "message": "Jacket"
+  },
+  "app.settings.game-options.setting.japanese-glyph-variants.label": {
+    "message": "Japanese glyph variants"
+  },
+  "app.settings.game-options.setting.key-advancements.label": {
+    "message": "Advancements"
+  },
+  "app.settings.game-options.setting.key-attack.label": {
+    "message": "Attack"
+  },
+  "app.settings.game-options.setting.key-back.label": {
+    "message": "Move backward"
+  },
+  "app.settings.game-options.setting.key-chat.label": {
+    "message": "Open chat"
+  },
+  "app.settings.game-options.setting.key-command.label": {
+    "message": "Command"
+  },
+  "app.settings.game-options.setting.key-debug-advanced-tooltips.label": {
+    "message": "Show advanced tooltips"
+  },
+  "app.settings.game-options.setting.key-debug-chunk-borders.label": {
+    "message": "Show chunk borders"
+  },
+  "app.settings.game-options.setting.key-debug-clear-chat.label": {
+    "message": "Clear chat"
+  },
+  "app.settings.game-options.setting.key-debug-copy-location.label": {
+    "message": "Copy location"
+  },
+  "app.settings.game-options.setting.key-debug-copy-recreate-command.label": {
+    "message": "Copy recreate command"
+  },
+  "app.settings.game-options.setting.key-debug-crash.label": {
+    "message": "Trigger debug crash"
+  },
+  "app.settings.game-options.setting.key-debug-dump-dynamic-textures.label": {
+    "message": "Dump dynamic textures"
+  },
+  "app.settings.game-options.setting.key-debug-dump-version.label": {
+    "message": "Dump version"
+  },
+  "app.settings.game-options.setting.key-debug-focus-pause.label": {
+    "message": "Pause when focus dey lost"
+  },
+  "app.settings.game-options.setting.key-debug-fps-charts.label": {
+    "message": "FPS charts"
+  },
+  "app.settings.game-options.setting.key-debug-hitboxes.label": {
+    "message": "Show hitboxes"
+  },
+  "app.settings.game-options.setting.key-debug-improved-transparency.label": {
+    "message": "Improved transparency debug view"
+  },
+  "app.settings.game-options.setting.key-debug-lightmap-texture.label": {
+    "message": "Lightmap texture"
+  },
+  "app.settings.game-options.setting.key-debug-modifier.label": {
+    "message": "Debug modifier"
+  },
+  "app.settings.game-options.setting.key-debug-network-charts.label": {
+    "message": "Network charts"
+  },
+  "app.settings.game-options.setting.key-debug-options.label": {
+    "message": "Debug options"
+  },
+  "app.settings.game-options.setting.key-debug-overlay.label": {
+    "message": "Debug overlay"
+  },
+  "app.settings.game-options.setting.key-debug-profiling-chart.label": {
+    "message": "Profiling chart"
+  },
+  "app.settings.game-options.setting.key-debug-profiling.label": {
+    "message": "Start profiling"
+  },
+  "app.settings.game-options.setting.key-debug-reload-chunks.label": {
+    "message": "Reload chunks"
+  },
+  "app.settings.game-options.setting.key-debug-reload-resource-packs.label": {
+    "message": "Reload resource packs"
+  },
+  "app.settings.game-options.setting.key-debug-spectate.label": {
+    "message": "Spectate entity"
+  },
+  "app.settings.game-options.setting.key-debug-switch-game-mode.label": {
+    "message": "Switch game mode"
+  },
+  "app.settings.game-options.setting.key-drop.label": {
+    "message": "Drop item"
+  },
+  "app.settings.game-options.setting.key-forward.label": {
+    "message": "Move forward"
+  },
+  "app.settings.game-options.setting.key-friends.label": {
+    "message": "Friends"
+  },
+  "app.settings.game-options.setting.key-fullscreen.label": {
+    "message": "Toggle fullscreen"
+  },
+  "app.settings.game-options.setting.key-hotbar-1.label": {
+    "message": "Hotbar 1"
+  },
+  "app.settings.game-options.setting.key-hotbar-2.label": {
+    "message": "Hotbar 2"
+  },
+  "app.settings.game-options.setting.key-hotbar-3.label": {
+    "message": "Hotbar 3"
+  },
+  "app.settings.game-options.setting.key-hotbar-4.label": {
+    "message": "Hotbar 4"
+  },
+  "app.settings.game-options.setting.key-hotbar-5.label": {
+    "message": "Hotbar 5"
+  },
+  "app.settings.game-options.setting.key-hotbar-6.label": {
+    "message": "Hotbar 6"
+  },
+  "app.settings.game-options.setting.key-hotbar-7.label": {
+    "message": "Hotbar 7"
+  },
+  "app.settings.game-options.setting.key-hotbar-8.label": {
+    "message": "Hotbar 8"
+  },
+  "app.settings.game-options.setting.key-hotbar-9.label": {
+    "message": "Hotbar 9"
+  },
+  "app.settings.game-options.setting.key-inventory.label": {
+    "message": "Inventory"
+  },
+  "app.settings.game-options.setting.key-jump.label": {
+    "message": "Jump"
+  },
+  "app.settings.game-options.setting.key-left.label": {
+    "message": "Strafe left"
+  },
+  "app.settings.game-options.setting.key-load-toolbar.label": {
+    "message": "Load toolbar"
+  },
+  "app.settings.game-options.setting.key-perspective.label": {
+    "message": "Change perspective"
+  },
+  "app.settings.game-options.setting.key-pick-item.label": {
+    "message": "Pick block"
+  },
+  "app.settings.game-options.setting.key-player-list.label": {
+    "message": "Player list"
+  },
+  "app.settings.game-options.setting.key-quick-actions.label": {
+    "message": "Quick actions"
+  },
+  "app.settings.game-options.setting.key-right.label": {
+    "message": "Strafe right"
+  },
+  "app.settings.game-options.setting.key-save-toolbar.label": {
+    "message": "Save toolbar"
+  },
+  "app.settings.game-options.setting.key-screenshot.label": {
+    "message": "Screenshot"
+  },
+  "app.settings.game-options.setting.key-smooth-camera.label": {
+    "message": "Toggle cinematic camera"
+  },
+  "app.settings.game-options.setting.key-sneak.label": {
+    "message": "Sneak"
+  },
+  "app.settings.game-options.setting.key-social-interactions.label": {
+    "message": "Social interactions"
+  },
+  "app.settings.game-options.setting.key-spectator-hotbar.label": {
+    "message": "Spectator hotbar"
+  },
+  "app.settings.game-options.setting.key-spectator-outlines.label": {
+    "message": "Highlight spectators"
+  },
+  "app.settings.game-options.setting.key-sprint.label": {
+    "message": "Sprint"
+  },
+  "app.settings.game-options.setting.key-swap-offhand.label": {
+    "message": "Swap offhand"
+  },
+  "app.settings.game-options.setting.key-toggle-gui.label": {
+    "message": "Toggle HUD"
+  },
+  "app.settings.game-options.setting.key-toggle-spectator-shader.label": {
+    "message": "Toggle spectator shader"
+  },
+  "app.settings.game-options.setting.key-use.label": {
+    "message": "Use item"
+  },
+  "app.settings.game-options.setting.language.label": {
+    "message": "Language"
+  },
+  "app.settings.game-options.setting.left-pants-leg.label": {
+    "message": "Left pants leg"
+  },
+  "app.settings.game-options.setting.left-sleeve.label": {
+    "message": "Left sleeve"
+  },
+  "app.settings.game-options.setting.legacy-framerate-limit.label": {
+    "message": "Framerate limit"
+  },
+  "app.settings.game-options.setting.legacy-view-distance.label": {
+    "message": "View distance"
+  },
+  "app.settings.game-options.setting.mac-fullscreen-menu.label": {
+    "message": "Show macOS menu for fullscreen"
+  },
+  "app.settings.game-options.setting.main-hand.description": {
+    "message": "Choose if main hand dey left or right."
+  },
+  "app.settings.game-options.setting.main-hand.label": {
+    "message": "Main hand"
+  },
+  "app.settings.game-options.setting.master-volume.label": {
+    "message": "Master volume"
+  },
+  "app.settings.game-options.setting.max-framerate.label": {
+    "message": "Maximum framerate"
+  },
+  "app.settings.game-options.setting.menu-background-blur.label": {
+    "message": "Menu background blur"
+  },
+  "app.settings.game-options.setting.mipmap-levels.description": {
+    "message": "Texture smoothing for far distance."
+  },
+  "app.settings.game-options.setting.mipmap-levels.label": {
+    "message": "Mipmap levels"
+  },
+  "app.settings.game-options.setting.mouse-wheel-sensitivity.label": {
+    "message": "Mouse wheel sensitivity"
+  },
+  "app.settings.game-options.setting.music-frequency.label": {
+    "message": "Music frequency"
+  },
+  "app.settings.game-options.setting.music-toast.description": {
+    "message": "Choose if music titles dey show for pause menu and as toasts."
+  },
+  "app.settings.game-options.setting.music-toast.label": {
+    "message": "Music notification"
+  },
+  "app.settings.game-options.setting.music-volume.label": {
+    "message": "Music"
+  },
+  "app.settings.game-options.setting.narrator-hotkey.label": {
+    "message": "Narrator hotkey"
+  },
+  "app.settings.game-options.setting.narrator.description": {
+    "message": "Choose wetin narrator go read."
+  },
+  "app.settings.game-options.setting.narrator.label": {
+    "message": "Narrator"
+  },
+  "app.settings.game-options.setting.neutral-volume.label": {
+    "message": "Friendly creatures"
+  },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "How long toast notifications dey stay visible."
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "Notification time"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "Operator items tab"
+  },
+  "app.settings.game-options.setting.panorama-speed.label": {
+    "message": "Panorama speed"
+  },
+  "app.settings.game-options.setting.particles.label": {
+    "message": "Particles"
+  },
+  "app.settings.game-options.setting.players-volume.label": {
+    "message": "Players"
+  },
+  "app.settings.game-options.setting.prioritize-chunk-updates.label": {
+    "message": "Prioritize chunk updates"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "Quit shortcuts"
+  },
+  "app.settings.game-options.setting.raw-mouse-input.label": {
+    "message": "Raw mouse input"
+  },
+  "app.settings.game-options.setting.realms-notifications.label": {
+    "message": "Realms notifications"
+  },
+  "app.settings.game-options.setting.record-volume.label": {
+    "message": "Jukebox/Note Blocks"
+  },
+  "app.settings.game-options.setting.reduced-debug-info.label": {
+    "message": "Reduced debug information"
+  },
+  "app.settings.game-options.setting.render-distance.label": {
+    "message": "Render distance"
+  },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "Right pants leg"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "Right sleeve"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "Rotate with minecart"
+  },
+  "app.settings.game-options.setting.save-chat-drafts.label": {
+    "message": "Save chat drafts"
+  },
+  "app.settings.game-options.setting.screen-effects.label": {
+    "message": "Screen effects"
+  },
+  "app.settings.game-options.setting.secure-chat-only.label": {
+    "message": "Only show secure chat"
+  },
+  "app.settings.game-options.setting.sensitivity.label": {
+    "message": "Mouse sensitivity"
+  },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "Server textures"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "Share presence"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "How far entities dey update and blocks and fluids dey tick."
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "Simulation distance"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "Snooper"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "Sprint window"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "Show captions for sounds wey dey play inside game."
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "Subtitles"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "Text background opacity"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "Texture filtering"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "Toggle attack"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "Press once make you stay crouched."
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "Toggle crouch"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "Press once make you stay sprint."
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "Toggle sprint"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "Toggle use"
+  },
+  "app.settings.game-options.setting.touchscreen.label": {
+    "message": "Touchscreen mode"
+  },
+  "app.settings.game-options.setting.ui-volume.label": {
+    "message": "UI"
+  },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "Unfocused chat height"
+  },
+  "app.settings.game-options.setting.use-vbo.label": {
+    "message": "Use VBOs"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "Add bobbing movement to camera when you dey walk."
+  },
+  "app.settings.game-options.setting.view-bobbing.label": {
+    "message": "View bobbing"
+  },
+  "app.settings.game-options.setting.vignette.label": {
+    "message": "Vignette"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "Voice and speech"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "Limit framerate to display refresh rate to stop screen tearing."
+  },
+  "app.settings.game-options.setting.vsync.label": {
+    "message": "VSync"
+  },
+  "app.settings.game-options.setting.weather-radius.label": {
+    "message": "Weather radius"
+  },
+  "app.settings.game-options.setting.weather-volume.label": {
+    "message": "Weather"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "This setting change for another place. Check am and try again."
+  },
+  "app.settings.game-options.validation.invalid-value": {
+    "message": "Pick a value wey dey valid."
+  },
+  "app.settings.game-options.validation.missing-value": {
+    "message": "Pick a value first."
+  },
+  "app.settings.game-options.validation.no-compatible-instances": {
+    "message": "Some of your instances no fit use this setting"
+  },
+  "app.settings.java-installations.location.title": {
+    "message": "Where Java {version, number} dey"
+  },
+  "app.settings.operating-system.macos": {
+    "message": "macOS"
+  },
+  "app.settings.privacy.no-data-collection": {
+    "message": "We no dey collect any data. We get no server wey fit collect am."
+  },
+  "app.settings.resource-management.always-show-copy-details.description": {
+    "message": "Show Inspect details action while install dey queued or dey run. E dey always available for installs wey fail or stop halfway."
+  },
+  "app.settings.resource-management.always-show-copy-details.title": {
+    "message": "Always show inspect details"
+  },
+  "app.settings.resource-management.app-cache.confirm.description": {
+    "message": "App fit load slowly until dem rebuild cache."
+  },
+  "app.settings.resource-management.app-cache.description": {
+    "message": "Clear cached data and download am again from Panda Minecraft Launcher. App fit load slowly until dem rebuild cache."
+  },
+  "app.settings.resource-management.app-cache.title": {
+    "message": "App cache"
+  },
+  "app.settings.resource-management.app-database-backups.description": {
+    "message": "Dem dey keep backups of important app data here so you fit recover dem later."
+  },
+  "app.settings.resource-management.app-database-backups.open-folder": {
+    "message": "Open backups folder"
+  },
+  "app.settings.resource-management.app-database-backups.title": {
+    "message": "App database backups"
+  },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "Cancel move"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "Change directory"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "Change to default"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "Where Panda Minecraft Launcher dey keep instances and other files."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "You no go fit use Panda Minecraft Launcher while we dey move your data. E fit take time."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "All your files go dey moved"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "Pick a folder"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "Current"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "Pick folder, no be top of drive, so your files no go mix with every other thing wey dey there."
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "Change app directory"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "Close all instances wey dey run before you change app directory."
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "More move options"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "Move and restart"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "Move for next launch"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "New folder no fit dey inside current app directory, or contain am."
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "New"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "Pick new app directory"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "More directory options"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "Move and restart now"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "Open folder"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "Open in File Explorer"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "Open in Finder"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "App directory path don copy enter your clipboard."
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "Path don copy"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "Copy path fail"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "Your app directory go move to {path} next time Panda Minecraft Launcher open."
+  },
+  "app.settings.resource-management.app-directory.title": {
+    "message": "App directory"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "Export app logs and diagnostic data to ZIP file to share with Panda Minecraft Launcher support."
+  },
+  "app.settings.resource-management.debug-info.export": {
+    "message": "Export debug info"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "Need help? Open support issue."
+  },
+  "app.settings.resource-management.debug-info.title": {
+    "message": "Debug info"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.description": {
+    "message": "Number of files app fit download at same time. Lower am if downloads no dey steady for your connection. Need app restart."
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.title": {
+    "message": "Maximum concurrent downloads"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.description": {
+    "message": "Number of files app fit write to disk at same time. Lower am if you dey get I/O errors often. Need app restart."
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.title": {
+    "message": "Maximum concurrent writes"
+  },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "Keep up to this much unused content for future installs. Keeping more fit save download time."
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "Keep unused downloads"
+  },
+  "app.settings.resource-management.store.cache-limit.unit": {
+    "message": "GiB"
+  },
+  "app.settings.resource-management.store.calculating": {
+    "message": "Dey calculate"
+  },
+  "app.settings.resource-management.store.clear": {
+    "message": "Clear unused"
+  },
+  "app.settings.resource-management.store.clear.description": {
+    "message": "Delete downloaded content wey no dey used"
+  },
+  "app.settings.resource-management.store.cleared": {
+    "message": "Don free {size} disk space."
+  },
+  "app.settings.resource-management.store.clearing": {
+    "message": "Dey clear…"
+  },
+  "app.settings.resource-management.store.description": {
+    "message": "Save space by reuse game installs, mods and packs across instances."
+  },
+  "app.settings.resource-management.store.nothing-to-clear": {
+    "message": "No unused content dey to clear."
+  },
+  "app.settings.resource-management.store.shared.label": {
+    "message": "Shared"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "Content storage"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} dey stored"
+  },
+  "app.settings.resource-management.store.unique.label": {
+    "message": "Unique"
+  },
+  "app.settings.resource-management.store.unused.label": {
+    "message": "Orphaned"
+  },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "Instance defaults"
+  },
+  "app.settings.sidebar.label.system": {
+    "message": "System"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "Choose which instance to copy command history from. This history dey used only for initial sync, and you fit edit am from any instance afterward."
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "Choose command history source"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "Choose which instance to copy saved creative hotbars from. These hotbars dey used only for initial sync, and you fit edit dem from any instance afterward."
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "Choose creative hotbars source"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "Choose data packs source"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "Choose which instance to copy game settings from. These settings dey used only for initial sync, and you fit edit dem from any instance afterward."
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "Choose game settings source"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "You no fit choose this instance as sync source"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "E no fit load sync sources. Abeg try again."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "Choose which instance to copy multiplayer servers from. These servers dey used only for initial sync, and you fit edit dem from any instance afterward."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "Choose multiplayer servers source"
+  },
+  "app.settings.synced-options.choose-sync-source.no-instances-found": {
+    "message": "No instance dey found"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "Choose resource packs source"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "Try again"
+  },
+  "app.settings.synced-options.choose-sync-source.search-placeholder": {
+    "message": "Search instance"
+  },
+  "app.settings.synced-options.choose-sync-source.sync": {
+    "message": "Sync"
+  },
+  "app.settings.synced-options.command-history": {
+    "message": "Sync command history"
+  },
+  "app.settings.synced-options.command-history.description": {
+    "message": "Use same command history across your instances."
+  },
+  "app.settings.synced-options.command-history.editor-title": {
+    "message": "Edit command history"
+  },
+  "app.settings.synced-options.creative-hotbars": {
+    "message": "Sync saved creative hotbars"
+  },
+  "app.settings.synced-options.creative-hotbars.description": {
+    "message": "Use same saved creative hotbars across your instances."
+  },
+  "app.settings.synced-options.data-packs": {
+    "message": "Sync data packs"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "Use same datapacks across your instances"
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "You no sync any data pack yet"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "Add instance before you edit synced data."
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "Choose sync source before you edit this setting."
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "Sync game options"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "Edit game settings"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "We load latest settings. Check your changes, then save again."
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "These settings change for another place"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "Settings wey mods add go show here after Panda Minecraft Launcher find dem for one of your instances."
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "Use same game options across your instances."
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "Unsync all"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "Turn on game settings sync before you choose individual settings."
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "No setting match your search or filter."
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "Sync all"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "E no fit load your game settings."
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "Settings dey load..."
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "You get no options yet to edit"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "No dey sync am"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "Try again"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "Save settings"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "Search settings..."
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "Synced options dey apply to every instance and dey override values wey dey inside modpack."
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "Sync {setting} across instances"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "Sync game settings"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "Dey sync across instances"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "Game settings"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "You get changes wey you no save."
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "Stop syncing {setting} across instances"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "Different across instances"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "Off"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "On"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "Pick a value"
+  },
+  "app.settings.synced-options.multiplayer-servers": {
+    "message": "Sync multiplayer servers"
+  },
+  "app.settings.synced-options.multiplayer-servers.address": {
+    "message": "Server address"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "Copy address"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
+  },
+  "app.settings.synced-options.multiplayer-servers.description": {
+    "message": "Use same multiplayer servers across your instances."
+  },
+  "app.settings.synced-options.multiplayer-servers.editor-title": {
+    "message": "Edit synced servers"
+  },
+  "app.settings.synced-options.multiplayer-servers.empty": {
+    "message": "No user-added server dey synced now."
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "No network"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "Online"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "More server options"
+  },
+  "app.settings.synced-options.multiplayer-servers.name": {
+    "message": "Server name"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "No synced server match your search or filters."
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "You no sync any server yet"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "{count, number} dey online"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "Search {count, number} {count, plural, one {synced server} other {synced servers}}..."
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "Status"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "Turn on syncing before you edit shared packs."
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "Sync resource packs"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "Use same resource packs across your instances."
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "You no sync any resource pack yet"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "Appearance"
+  },
+  "app.settings.tabs.behavior": {
+    "message": "Behavior"
+  },
+  "app.settings.tabs.features": {
+    "message": "Features"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java and memory"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "Java installations"
+  },
+  "app.settings.tabs.language": {
+    "message": "Language"
+  },
+  "app.settings.tabs.launch-hooks": {
+    "message": "Launch hooks"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "Privacy"
+  },
+  "app.settings.tabs.resources": {
+    "message": "Resources"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "Syncing"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "Troubleshooting"
+  },
+  "app.settings.tabs.window": {
+    "message": "Window"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "Clear cache"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "Clear app cache?"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "Dey prepare update…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "Update don push"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "Dey push update…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "Delete instance"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "More instance actions"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "Reason"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "Shared instance don lock"
+  },
+  "app.skins.add-button": {
+    "message": "Add skin"
+  },
+  "app.skins.add-button.drag-and-drop": {
+    "message": "Drag and drop"
+  },
+  "app.skins.apply-button": {
+    "message": "Apply"
+  },
+  "app.skins.delete-button": {
+    "message": "Delete skin"
+  },
+  "app.skins.delete-modal.description": {
+    "message": "Dis go delete selected skin permanently. You no fit undo this action."
+  },
+  "app.skins.delete-modal.title": {
+    "message": "You sure say you want delete this skin?"
+  },
+  "app.skins.demo.apply-tooltip": {
+    "message": "Sign in before you fit apply skins."
+  },
+  "app.skins.dropped-file-error.text": {
+    "message": "E no fit read file wey you drop."
+  },
+  "app.skins.dropped-file-error.title": {
+    "message": "Error dey process file"
+  },
+  "app.skins.ears-feature-notice": {
+    "message": "This skin dey use features from {ears} mod"
+  },
+  "app.skins.edit-button": {
+    "message": "Edit skin"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "Change skin and cape for this account on ely.by. These settings dey read-only for launcher."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "Ely.by dey manage skins"
+  },
+  "app.skins.modal.add-skin-button": {
+    "message": "Add skin"
+  },
+  "app.skins.modal.add-title": {
+    "message": "Dey add skin"
+  },
+  "app.skins.modal.arm-style-section": {
+    "message": "Arm style"
+  },
+  "app.skins.modal.arm-style-slim": {
+    "message": "Slim"
+  },
+  "app.skins.modal.arm-style-wide": {
+    "message": "Wide"
+  },
+  "app.skins.modal.cape-fallback-name": {
+    "message": "Cape"
+  },
+  "app.skins.modal.cape-section": {
+    "message": "Cape"
+  },
+  "app.skins.modal.demo-save-tooltip": {
+    "message": "Sign in before you fit save skins."
+  },
+  "app.skins.modal.edit-title": {
+    "message": "Dey edit skin"
+  },
+  "app.skins.modal.make-edit-first-tooltip": {
+    "message": "Edit skin first!"
+  },
+  "app.skins.modal.no-cape-tooltip": {
+    "message": "No cape"
+  },
+  "app.skins.modal.none-cape-option": {
+    "message": "None"
+  },
+  "app.skins.modal.replace-texture-button": {
+    "message": "Replace texture"
+  },
+  "app.skins.modal.save-skin-button": {
+    "message": "Save skin"
+  },
+  "app.skins.modal.saving-tooltip": {
+    "message": "Dey save..."
+  },
+  "app.skins.modal.texture-section": {
+    "message": "Texture"
+  },
+  "app.skins.modal.upload-skin-first-tooltip": {
+    "message": "Upload skin first!"
+  },
+  "app.skins.preview.edit-button": {
+    "message": "Edit skin"
+  },
+  "app.skins.previewing-badge": {
+    "message": "Dey preview"
+  },
+  "app.skins.rate-limit.text": {
+    "message": "You dey change skin too fast. Mojang servers don block more requests for now. Abeg wait small before you try again."
+  },
+  "app.skins.rate-limit.title": {
+    "message": "Slow down!"
+  },
+  "app.skins.reorder-error.text": {
+    "message": "E no fit save skin order."
+  },
+  "app.skins.reorder-error.title": {
+    "message": "E no fit reorder skins"
+  },
+  "app.skins.section.builders-and-biomes": {
+    "message": "Builders & Biomes"
+  },
+  "app.skins.section.chaos-cubed": {
+    "message": "Chaos Cubed"
+  },
+  "app.skins.section.chase-the-skies": {
+    "message": "Chase the Skies"
+  },
+  "app.skins.section.default-skins": {
+    "message": "Default skins"
+  },
+  "app.skins.section.dungeons-hero": {
+    "message": "Dungeons Hero"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "Dungeons II Hero"
+  },
+  "app.skins.section.minecon-earth-2017": {
+    "message": "MINECON Earth 2017"
+  },
+  "app.skins.section.modrinth": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.skins.section.modrinth-pride": {
+    "message": "Panda Minecraft Launcher Pride"
+  },
+  "app.skins.section.modrinth-pride.tooltip": {
+    "message": "You receive these skins for donating to Panda Minecraft Launcher Pride fundraiser during Pride Month."
+  },
+  "app.skins.section.mounts-of-mayhem": {
+    "message": "Mounts of Mayhem"
+  },
+  "app.skins.section.saved-skins": {
+    "message": "Skins wey you save"
+  },
+  "app.skins.section.striding-hero": {
+    "message": "Striding Hero"
+  },
+  "app.skins.section.the-copper-age": {
+    "message": "The Copper Age"
+  },
+  "app.skins.section.the-garden-awakens": {
+    "message": "The Garden Awakens"
+  },
+  "app.skins.section.tiny-takeover": {
+    "message": "Tiny Takeover"
+  },
+  "app.skins.section.wilderness-bound": {
+    "message": "Wilderness Bound"
+  },
+  "app.skins.toggle-ears-features-off": {
+    "message": "Turn off"
+  },
+  "app.skins.toggle-ears-features-on": {
+    "message": "Turn on"
+  },
+  "app.splash.moving-app-directory": {
+    "message": "Your app directory dey move..."
+  },
+  "app.survey.body": {
+    "message": "You fit mind answer few questions about your experience with Panda Minecraft Launcher?"
+  },
+  "app.survey.footer": {
+    "message": "This feedback go reach Panda Minecraft Launcher team directly and help guide future updates!"
+  },
+  "app.survey.no-thanks": {
+    "message": "No thanks"
+  },
+  "app.survey.take-survey": {
+    "message": "Take survey"
+  },
+  "app.survey.title": {
+    "message": "How far, Panda Minecraft Launcher user!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "Choose which instance to copy your data packs from. These packs dey used only for initial sync, and you fit edit dem from any instance afterward."
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "Choose which instance to copy your resource packs from. These packs dey used only for initial sync, and you fit edit dem from any instance afterward."
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "Turn am off across all synced instances, or only for this instance. If you turn am off only here, overrides go turn on for this instance."
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "Turn off everywhere"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "Turn off this content across all synced instances."
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "Turn off here"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "Turn off content?"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "Turn am on across all synced instances, or only for this instance. If you turn am on only here, overrides go turn on for this instance."
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "Turn on everywhere"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "Turn on this content across all synced instances."
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "Turn on here"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "Turn on content?"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "Delete everywhere"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "Delete here"
+  },
+  "app.synced-content.delete.description": {
+    "message": "If you delete this content, e go delete across all your instances"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "Selected content wey no dey synced go dey deleted only from this instance."
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "You fit remove am from this instance only or from all synced instances. If you remove am from this instance only, overrides go turn on, and this instance no go receive synced changes for these content types again."
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "You fit remove {count, plural, one {it} other {them}} from this instance only or from all synced instances. Removing {count, plural, one {it} other {them}} from this instance only go turn on overrides, and this instance no go receive synced resource pack changes again."
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "This instance go keep its own copy. You want keep this content synced for other instances, or remove am from dem?"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "Keep"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "Remove"
+  },
+  "app.synced-content.desync.title": {
+    "message": "Desync content"
+  },
+  "app.synced-content.warning.title": {
+    "message": "This content dey synced"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "Synced data packs"
+  },
+  "app.synced-packs.empty": {
+    "message": "Add packs from an instance's content page to start syncing."
+  },
+  "app.synced-packs.load-failed": {
+    "message": "E no fit load packs. Try refresh."
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "Synced resource packs"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Minecraft"
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "Panda Minecraft Launcher v{version} don finish download. Reload make update happen now, or automatically when you close Panda Minecraft Launcher."
+  },
+  "app.update-popup.body.linux": {
+    "message": "Panda Minecraft Launcher v{version} dey available. Use your package manager to update for latest features and fixes!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Panda Minecraft Launcher v{version} dey available now! Since your network dey metered, we no download am automatically."
+  },
+  "app.update-popup.changelog": {
+    "message": "Changelog"
+  },
+  "app.update-popup.download": {
+    "message": "Download ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "Download don complete"
+  },
+  "app.update-popup.reload": {
+    "message": "Reload make update"
+  },
+  "app.update-popup.title": {
+    "message": "Update dey available"
+  },
+  "app.update.complete-toast.text": {
+    "message": "Click here see changelog."
+  },
+  "app.update.complete-toast.title": {
+    "message": "Version {version} don install well!"
+  },
+  "app.update.download-error.missing-version": {
+    "message": "Update download fail: no version dey available"
+  },
+  "app.user.project.install-to-instance": {
+    "message": "Install enter instance"
+  },
+  "app.welcome-screen.create-instance": {
+    "message": "Create instance"
+  },
+  "app.welcome-screen.description": {
+    "message": "You ready to start play?"
+  },
+  "app.welcome-screen.import-from-launcher": {
+    "message": "Import from launcher"
+  },
+  "app.welcome-screen.import-prompt": {
+    "message": "You dey run from another launcher?"
+  },
+  "app.welcome-screen.more-options": {
+    "message": "More options"
+  },
+  "app.welcome-screen.quick-create-hint": {
+    "message": "Press <shortcut>N</shortcut> to create instance quick quick"
+  },
+  "app.welcome-screen.skip": {
+    "message": "Skip"
+  },
+  "app.welcome-screen.title": {
+    "message": "Welcome to Panda Minecraft Launcher"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Pick option"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Version {version} no compatible"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "No play am yet"
+  },
+  "app.world.world-item.offline": {
+    "message": "No network"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} dey online"
+  },
+  "content.shared-instance.change-version-body": {
+    "message": "Changing version dey change only your local copy. Future shared instance updates fit restore am or change am again."
+  },
+  "content.shared-instance.delete-bulk-body": {
+    "message": "Some selected projects dey part of shared instance. Deleting dem dey change only your local copy, and future shared instance updates fit restore dem or change dem again."
+  },
+  "content.shared-instance.delete-button": {
+    "message": "Delete still"
+  },
+  "content.shared-instance.delete-many-button": {
+    "message": "Delete {count, number} projects still"
+  },
+  "content.shared-instance.delete-single-body": {
+    "message": "Deleting am dey change only your local copy. Future shared instance updates fit restore am or change am again."
+  },
+  "content.shared-instance.disable-bulk-body": {
+    "message": "Some selected projects dey part of shared instance. Turning dem off dey change only your local copy, and future shared instance updates fit turn dem on again, restore dem, or change dem again."
+  },
+  "content.shared-instance.disable-button": {
+    "message": "Turn off still"
+  },
+  "content.shared-instance.disable-many-button": {
+    "message": "Turn off {count, number} projects still"
+  },
+  "content.shared-instance.disable-single-body": {
+    "message": "Turning am off dey change only your local copy. Future shared instance updates fit turn am on again, restore am, or change am again."
+  },
+  "content.shared-instance.unlink-body": {
+    "message": "Unlinking dey change only your local copy. Future shared instance updates fit restore am or change am again."
+  },
+  "content.shared-instance.warning-header": {
+    "message": "Dis dey part of shared instance"
+  },
+  "friends.action.add-friend": {
+    "message": "Add friend"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} friend {count, plural, one {request} other {requests}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "Send friend request"
+  },
+  "friends.add-friend.title": {
+    "message": "Dey add friend"
+  },
+  "friends.add-friend.username.description": {
+    "message": "E fit differ from their Minecraft username!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "Enter Panda Minecraft Launcher username..."
+  },
+  "friends.add-friend.username.title": {
+    "message": "Wetin be your friend Panda Minecraft Launcher username?"
+  },
+  "friends.add-friends-to-share": {
+    "message": "<link>Add friends</link> make you see wetin dem dey play!"
+  },
+  "friends.friend.actions.label": {
+    "message": "Friend actions"
+  },
+  "friends.friend.cancel-request": {
+    "message": "Cancel request"
+  },
+  "friends.friend.remove-friend": {
+    "message": "Remove friend"
+  },
+  "friends.friend.request-sent": {
+    "message": "Friend request don send"
+  },
+  "friends.friend.view-profile": {
+    "message": "See profile"
+  },
+  "friends.heading": {
+    "message": "Friends"
+  },
+  "friends.heading.active": {
+    "message": "Active"
+  },
+  "friends.heading.offline": {
+    "message": "No network"
+  },
+  "friends.heading.online": {
+    "message": "Online"
+  },
+  "friends.heading.pending": {
+    "message": "Dey wait"
+  },
+  "friends.no-friends-match": {
+    "message": "No friend dey match ''{query}''"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "Search friends..."
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "<link>Sign in to a Panda Minecraft Launcher account</link> make you add friends and see wetin dem dey play!"
+  },
+  "hosting.play.account-changed": {
+    "message": "Your Panda Minecraft Launcher account change. Press Play server again to continue."
+  },
+  "hosting.play.no-address": {
+    "message": "This server no get connection address yet."
+  },
+  "hosting.play.not-ready": {
+    "message": "This instance no dey available to launch. Check its install status for your library."
+  },
+  "hosting.play.update-description": {
+    "message": "Update this instance to server latest shared content before you join."
+  },
+  "hosting.play.update-to-play": {
+    "message": "Update to play"
+  },
+  "hosting.play.world-changed": {
+    "message": "This world no dey active again or dem no share am. Open server panel and press Play server again."
+  },
+  "installation-settings.advanced.title": {
+    "message": "Advanced"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "Relink shared instance"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "Reconnect this instance to shared instance wey dem unlink am from, using invite link or ID."
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "Your instance \"{name}\" don link to this shared instance already."
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "You no fit relink this instance"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "This instance go become source of shared instance again. Members go get your changes when you publish update."
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "Reconnect this instance to shared instance wey you own."
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "Find shared instance"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "Relink shared instance"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "Invite link or shared instance ID"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "This instance dey use {localLoader} {localGameVersion}, but shared instance dey use {loader} {gameVersion}. Your next publish go change shared instance to match this instance."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "Different game or loader version"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "Only owner fit relink shared instance. To get its updates as member, install am again from your library."
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "Relink"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "Server dey manage this shared instance, so you no fit relink am."
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · Version {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "Relink shared instance"
+  },
+  "installation-settings.shared-instance.linked-title": {
+    "message": "Linked shared instance"
+  },
+  "installation-settings.shared-instance.unlink-button": {
+    "message": "Unlink shared instance"
+  },
+  "installation-settings.shared-instance.unlink-description": {
+    "message": "Disconnect this local instance from future shared updates."
+  },
+  "installation-settings.shared-instance.unlinking-button": {
+    "message": "Dey unlink..."
+  },
+  "installation-settings.shared-instance.unpublish-description": {
+    "message": "Remove this shared instance from Panda Minecraft Launcher and stop send updates to anybody wey dey use am. Your local instance no go dey affected."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-body": {
+    "message": "Dis dey affect only your local instance. Your installed content go stay for this device, and shared instance and other people wey dey use am no go dey affected."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-header": {
+    "message": "Dey unlink shared instance"
+  },
+  "installation-settings.unlink-shared-instance.modal.header": {
+    "message": "Unlink shared instance"
+  },
+  "installation-settings.unpublish-shared-instance.modal.admonition-body": {
+    "message": "Dis dey delete shared instance from Panda Minecraft Launcher servers. People wey dey use am for Panda Minecraft Launcher go stop receive updates, but your local instance and its content go stay for this device."
+  },
+  "instance.action.create-shortcut": {
+    "message": "Create shortcut"
+  },
+  "instance.action.export-modpack": {
+    "message": "Export modpack"
+  },
+  "instance.action.launch-instance": {
+    "message": "Launch instance"
+  },
+  "instance.action.more-actions": {
+    "message": "More actions"
+  },
+  "instance.action.open-folder": {
+    "message": "Open folder"
+  },
+  "instance.action.repair": {
+    "message": "Repair"
+  },
+  "instance.action.settings": {
+    "message": "Instance settings"
+  },
+  "instance.action.starting": {
+    "message": "Dey start..."
+  },
+  "instance.action.stopping": {
+    "message": "Dey stop..."
+  },
+  "instance.add-server.add-and-play": {
+    "message": "Add and play"
+  },
+  "instance.add-server.add-server": {
+    "message": "Add server"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "E no dey enabled"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "E dey enabled"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "Ask"
+  },
+  "instance.add-server.title": {
+    "message": "Add server"
+  },
+  "instance.edit-server.title": {
+    "message": "Edit server"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "Hide from Home page"
+  },
+  "instance.edit-world.name": {
+    "message": "Name"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "Minecraft World"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "Reset icon"
+  },
+  "instance.edit-world.title": {
+    "message": "Edit world"
+  },
+  "instance.files.adding-files": {
+    "message": "Dey add files ({completed}/{total})"
+  },
+  "instance.files.managed-content-read-only": {
+    "message": "Manage your installed content through Content tab"
+  },
+  "instance.files.save-as": {
+    "message": "Save as..."
+  },
+  "instance.last-played": {
+    "message": "Last time you play"
+  },
+  "instance.locked.delete-button": {
+    "message": "Delete instance"
+  },
+  "instance.locked.play-tooltip": {
+    "message": "Dem don lock this instance"
+  },
+  "instance.playtime.never-played": {
+    "message": "No play am ever"
+  },
+  "instance.server-modal.address": {
+    "message": "Address"
+  },
+  "instance.server-modal.name": {
+    "message": "Name"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "Minecraft Server"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "Resource pack"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "Manage default settings"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "Return {setting} to default"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "Return to default"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "Game"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "Instance"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "Turn off this override before you edit synced data."
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "Unsync data packs"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "Keep this instance's data packs separate from synced packs."
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "Dem turn off data pack syncing for app settings."
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "Edit synced packs"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "Turn off this override before you edit synced packs. You fit manage independent packs for content tab."
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "Unsync resource packs"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "Keep this instance's resource packs separate from synced packs."
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "Dem turn off resource pack syncing for app settings."
+  },
+  "instance.settings.tabs.behavior.description": {
+    "message": "Choose which tabs go show for this instance."
+  },
+  "instance.settings.tabs.behavior.files": {
+    "message": "Show Files tab"
+  },
+  "instance.settings.tabs.behavior.screenshots": {
+    "message": "Show Screenshots tab"
+  },
+  "instance.settings.tabs.behavior.screenshots.required": {
+    "message": "You no fit hide Screenshots tab while global Screenshots page dey turned off."
+  },
+  "instance.settings.tabs.behavior.worlds": {
+    "message": "Show Worlds tab"
+  },
+  "instance.settings.tabs.general": {
+    "message": "General"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "Delete instance"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "Delete instance"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "Dis dey delete instance permanently from your device, including worlds, configs, and all installed content. Abeg be careful, because once you delete instance, no way to recover am."
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "Dey delete..."
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "Duplicate"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "You no fit duplicate while e dey install."
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "You no fit duplicate instances wey dem lock."
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "Duplicate instance"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "E dey create copy of this instance, including worlds, configs, mods, etc."
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "Edit icon"
+  },
+  "instance.settings.tabs.general.edit-icon.create": {
+    "message": "Create icon"
+  },
+  "instance.settings.tabs.general.edit-icon.edit-created": {
+    "message": "Edit icon"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "Remove icon"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "Replace icon"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "Pick icon"
+  },
+  "instance.settings.tabs.general.icon": {
+    "message": "Icon"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "Name"
+  },
+  "instance.settings.tabs.general.update-channel": {
+    "message": "Update channel"
+  },
+  "instance.settings.tabs.general.update-channel.alpha": {
+    "message": "Alpha"
+  },
+  "instance.settings.tabs.general.update-channel.alpha.description": {
+    "message": "Release, beta, and alpha versions go show as available updates."
+  },
+  "instance.settings.tabs.general.update-channel.beta": {
+    "message": "Beta"
+  },
+  "instance.settings.tabs.general.update-channel.beta.description": {
+    "message": "Release and beta versions go show as available updates."
+  },
+  "instance.settings.tabs.general.update-channel.release": {
+    "message": "Release"
+  },
+  "instance.settings.tabs.general.update-channel.release.description": {
+    "message": "Only release versions go show as available updates."
+  },
+  "instance.settings.tabs.general.update-channel.select": {
+    "message": "Pick update channel"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "Your instance dey use default launch hooks unless you override dem here."
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "Launch hooks"
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "Post-exit"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "E dey run after game close."
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "Enter post-exit command..."
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "Pre-launch"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "E dey run before dem launch instance."
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "Enter pre-launch command..."
+  },
+  "instance.settings.tabs.hooks.variables.description": {
+    "message": "Hooks dey run for working directory of instance, with these variables:"
+  },
+  "instance.settings.tabs.hooks.variables.inst-dir.description": {
+    "message": "$INST_DIR: absolute path to instance folder"
+  },
+  "instance.settings.tabs.hooks.variables.inst-id.description": {
+    "message": "$INST_ID: name of instance folder"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java-args.description": {
+    "message": "$INST_JAVA_ARGS: JVM arguments wey dem give game"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java.description": {
+    "message": "$INST_JAVA: absolute path to java binary"
+  },
+  "instance.settings.tabs.hooks.variables.inst-mc-dir.description": {
+    "message": "$INST_MC_DIR: another name for $INST_DIR"
+  },
+  "instance.settings.tabs.hooks.variables.inst-name.description": {
+    "message": "$INST_NAME: name of instance"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "Wrapper"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "Wrapper command for launch Minecraft."
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "Enter wrapper command..."
+  },
+  "instance.settings.tabs.installation": {
+    "message": "Installation"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "{loader} version"
+  },
+  "instance.settings.tabs.installation.locked": {
+    "message": "Installation settings no dey available while this instance dey locked."
+  },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "Your instance dey use default Java and memory settings unless you override dem here."
+  },
+  "instance.settings.tabs.java.enter-environment-variables": {
+    "message": "Enter environmental variables..."
+  },
+  "instance.settings.tabs.java.enter-java-arguments": {
+    "message": "Enter Java arguments..."
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "Environment variables"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "Hooks"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Java arguments"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Java installation"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "Memory allocation"
+  },
+  "instance.settings.tabs.java.java-path-placeholder": {
+    "message": "/path/to/java"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java and memory"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "Dem recommend Java {version} for Minecraft version of this instance."
+  },
+  "instance.settings.tabs.sharing": {
+    "message": "Sharing"
+  },
+  "instance.settings.tabs.synced-options.command-history": {
+    "message": "Unsync command history"
+  },
+  "instance.settings.tabs.synced-options.command-history.disabled-in-app": {
+    "message": "Dem turn off command history syncing for app settings."
+  },
+  "instance.settings.tabs.synced-options.command-history.override-description": {
+    "message": "Keep this instance's command history separate from synced command history."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars": {
+    "message": "Unsync saved creative hotbars"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.disabled-in-app": {
+    "message": "Dem turn off saved creative hotbar syncing for app settings."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
+    "message": "Keep this instance's saved creative hotbars separate from synced hotbars."
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "Unsync game settings"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "Keep this instance's options.txt separate from synced copy."
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "Dem turn off game settings syncing for app settings."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
+    "message": "Dem go back up version wey dem dey replace before anything change."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.description": {
+    "message": "{instance} and your synced version get different creative hotbars. Pick which one to use across your instances."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.title": {
+    "message": "Pick creative hotbars"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-instance": {
+    "message": "Overwrite others"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-synced": {
+    "message": "Use synced"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers": {
+    "message": "Unsync multiplayer servers"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.disabled-in-app": {
+    "message": "Dem turn off multiplayer server syncing for app settings."
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.override-description": {
+    "message": "Keep this instance's multiplayer servers separate from synced servers."
+  },
+  "instance.settings.tabs.synced-options.open-app-settings": {
+    "message": "Manage synced settings"
+  },
+  "instance.settings.tabs.synced-options.shared-settings.description": {
+    "message": "Turn on override to keep synced setting separate for this instance."
+  },
+  "instance.settings.tabs.syncing": {
+    "message": "Syncing"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "Your instance dey use default window settings unless you override dem here."
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "Fullscreen"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "Make game start for full screen when e dey launch (using options.txt)."
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "Height"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "Height of game window when e dey launch."
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "Enter height..."
+  },
+  "instance.settings.tabs.window.label": {
+    "message": "Window"
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "Width"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "Width of game window when e dey launch."
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "Enter width..."
+  },
+  "instance.settings.using-defaults": {
+    "message": "Dey use defaults"
+  },
+  "instance.shared-instance.error.title": {
+    "message": "Something don go wrong"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "File type no dey allowed"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "You no fit share any instance again."
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "Shared instance limit don reach"
+  },
+  "instance.shared-instance.network-error.text": {
+    "message": "E no fit connect to shared instances API"
+  },
+  "instance.shared-instance.network-error.title": {
+    "message": "Network error"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "Dem push newer version from another Panda Minecraft Launcher installation. Download am, then try again."
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "E no fit push update"
+  },
+  "instance.shared-instance.owner-tooltip": {
+    "message": "Dis instance's content dey share to other users."
+  },
+  "instance.shared-instance.tooltip": {
+    "message": "Somebody else dey manage this instance's content."
+  },
+  "instance.shared-instance.unavailable.access-revoked-text": {
+    "message": "Dem revoke your access to shared instance. This instance dey available still, but e no dey linked again and go no receive updates again."
+  },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "Content Moderation team don lock shared instance. You no fit push updates or share this instance again."
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "You no fit share instance again"
+  },
+  "instance.shared-instance.unavailable.locked-text": {
+    "message": "Content Moderation team don lock this shared instance. E go no receive updates from primary instance again and you no fit play am."
+  },
+  "instance.shared-instance.unavailable.locked-title": {
+    "message": "Instance don lock"
+  },
+  "instance.shared-instance.unavailable.manager-fallback": {
+    "message": "person wey dey manage instance"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "We no fit find this shared instance. Your installed content dey for this device still."
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "Shared instance no dey available"
+  },
+  "instance.shared-instance.unavailable.text": {
+    "message": "Your local instance dey available still, but e no dey linked again and go no receive updates."
+  },
+  "instance.shared-instance.unavailable.title": {
+    "message": "Shared instance no dey available again"
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "A Minecraft Server"
+  },
+  "instance.worlds.actions.label": {
+    "message": "World actions"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "E no fit connect to server"
+  },
+  "instance.worlds.copy_address": {
+    "message": "Copy address"
+  },
+  "instance.worlds.create_shortcut": {
+    "message": "Create shortcut"
+  },
+  "instance.worlds.desync-server.description": {
+    "message": "You want keep this server for other synced instances, or remove am from dem?"
+  },
+  "instance.worlds.desync-server.keep": {
+    "message": "Keep"
+  },
+  "instance.worlds.desync-server.remove": {
+    "message": "Remove"
+  },
+  "instance.worlds.desync-server.title": {
+    "message": "Desync server"
+  },
+  "instance.worlds.desync_server": {
+    "message": "Desync"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "No show for Home"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "Instance don dey open"
+  },
+  "instance.worlds.hardcore": {
+    "message": "Hardcore mode"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "Server no compatible"
+  },
+  "instance.worlds.instance-locked": {
+    "message": "Dem don lock this instance"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Server project dey manage am"
+  },
+  "instance.worlds.more-options": {
+    "message": "More options"
+  },
+  "instance.worlds.no_contact": {
+    "message": "E no fit reach server"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "You fit jump straight enter servers only for Minecraft Alpha 1.0.5+"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "You fit jump straight enter singleplayer worlds only for Minecraft 1.20+"
+  },
+  "instance.worlds.play_instance": {
+    "message": "Play instance"
+  },
+  "instance.worlds.play_world": {
+    "message": "Play world"
+  },
+  "instance.worlds.shortcut-created": {
+    "message": "Shortcut don create"
+  },
+  "instance.worlds.shortcut-creation-failed": {
+    "message": "E no fit create shortcut"
+  },
+  "instance.worlds.synced_server": {
+    "message": "Dey sync across instances"
+  },
+  "instance.worlds.view_instance": {
+    "message": "See instance"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "World dey in use"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "Add ely.by account"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Add Microsoft account"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "We no fit sign you into your ely.by account. Check your ely.by account and try again."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "Sign in fail"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "We no fit sign you into your Microsoft account. E fit be account restrictions or regional limitations."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "Your code"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "E don copy"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "Copy"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "Sign in with ely.by"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "Open ely.by verification page and enter this code to authorize Panda Minecraft Launcher. Sign-in go continue automatically once you approve am."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "Open ely.by verification page"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "Dey wait for authorization…"
+  },
+  "minecraft-account.label": {
+    "message": "Minecraft account"
+  },
+  "minecraft-account.not-signed-in": {
+    "message": "You no sign in"
+  },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
+  "minecraft-account.remove-account": {
+    "message": "Remove account"
+  },
+  "minecraft-account.select-account": {
+    "message": "Pick account"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "Sign in with ely.by"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Sign in with Microsoft"
+  },
+  "minecraft-required.description": {
+    "message": "You need Minecraft account before you fit launch and play. You fit sign in with Microsoft or ely.by."
+  },
+  "minecraft-required.description-header": {
+    "message": "Sign in to Minecraft"
+  },
+  "minecraft-required.dont-have-account": {
+    "message": "You no get account?"
+  },
+  "minecraft-required.get-minecraft": {
+    "message": "Get Minecraft"
+  },
+  "minecraft-required.get-support": {
+    "message": "Get support"
+  },
+  "minecraft-required.header": {
+    "message": "Minecraft dey required"
+  },
+  "minecraft-required.sign-in": {
+    "message": "Sign in with Microsoft"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "Sign in with ely.by"
+  },
+  "modal.modrinth-account-required.browser-description": {
+    "message": "New tab open to sign in. Complete sign in there, then come back to app."
+  },
+  "modal.modrinth-account-required.continue-in-browser-heading": {
+    "message": "Continue for your browser"
+  },
+  "modal.modrinth-account-required.create-account-button": {
+    "message": "Create account"
+  },
+  "modal.modrinth-account-required.description": {
+    "message": "You need sign in to your Panda Minecraft Launcher account before you fit use this feature."
+  },
+  "modal.modrinth-account-required.header": {
+    "message": "Account dey required"
+  },
+  "modal.modrinth-account-required.open-browser-again-button": {
+    "message": "Open browser again"
+  },
+  "modal.modrinth-account-required.sign-in-button": {
+    "message": "Sign in to Panda Minecraft Launcher"
+  },
+  "modal.modrinth-account-required.sign-in-heading": {
+    "message": "Sign in to Panda Minecraft Launcher account"
+  },
+  "modal.modrinth-account-required.signing-in-header": {
+    "message": "Dey sign in"
+  },
+  "modal.modrinth-account-required.support-prompt": {
+    "message": "E dey give you trouble to sign in? <support>Get support</support>"
+  },
+  "modal.modrinth-account-required.waiting-for-browser": {
+    "message": "Dey wait for browser confirmation..."
+  },
+  "project.server.status.offline": {
+    "message": "No network"
+  },
+  "project.server.status.online": {
+    "message": "Online"
+  },
+  "search.filter.locked.instance": {
+    "message": "Instance dey provide am"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "Instance dey provide game version"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "Instance dey provide loader"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "Sync with instance"
+  },
+  "search.filter.locked.server": {
+    "message": "Server dey provide am"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "You fit add only client-side mods to server instance"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Server dey provide game version"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Server dey provide loader"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Sync with server"
+  },
+  "settings.sidebar.label.account": {
+    "message": "Account"
+  },
+  "settings.sidebar.label.display": {
+    "message": "Display"
+  }
+}

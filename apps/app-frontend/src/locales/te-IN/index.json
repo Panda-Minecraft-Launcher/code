@@ -1,0 +1,4685 @@
+{
+  "app.action-bar.changelog": {
+    "message": "వార్తలు"
+  },
+  "app.action-bar.downloading-java": {
+    "message": "డౌన్‌లోడ్ అవుతోంది Java {version}"
+  },
+  "app.action-bar.downloading-update": {
+    "message": "డౌన్‌లోడ్ అవుతోంది నవీకరణ"
+  },
+  "app.action-bar.downloads": {
+    "message": "డౌన్‌లోడ్‌లు"
+  },
+  "app.action-bar.hide-downloads": {
+    "message": "దాచు సక్రియం డౌన్‌లోడ్‌లు"
+  },
+  "app.action-bar.hide-more-running-instances": {
+    "message": "మరింత నడుస్తున్నట్లు దాచు ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.action-bar.install.copied-details": {
+    "message": "కాపీ చేయబడింది"
+  },
+  "app.action-bar.install.dismiss": {
+    "message": "తీసివేయండి"
+  },
+  "app.action-bar.install.inspect-details": {
+    "message": "వివరాలను తనిఖీ చేయండి"
+  },
+  "app.action-bar.install.open-instance": {
+    "message": "తెరవండి ఇన్‌స్టెన్స్"
+  },
+  "app.action-bar.install.retry": {
+    "message": "మళ్లీ ప్రయత్నించండి"
+  },
+  "app.action-bar.install.summary.app-closing": {
+    "message": "యాప్ మూసివేయడం వలన రద్దు చేయబడింది"
+  },
+  "app.action-bar.install.summary.bad-modpack-file": {
+    "message": "చదవడం సాధ్యపడలేదు మోడ్‌ప్యాక్"
+  },
+  "app.action-bar.install.summary.canceled": {
+    "message": "రద్దు చేయబడింది"
+  },
+  "app.action-bar.install.summary.cleanup-incomplete": {
+    "message": "క్లీనప్ పూర్తి కాలేదు"
+  },
+  "app.action-bar.install.summary.content-download-failed": {
+    "message": "సాధ్యపడలేదు డౌన్‌లోడ్ ఫైల్‌లు"
+  },
+  "app.action-bar.install.summary.corrupt-download": {
+    "message": "డౌన్‌లోడ్ చేయబడిన ఫైల్ పాడైంది"
+  },
+  "app.action-bar.install.summary.could-not-save-files": {
+    "message": "ఫైల్‌లను సేవ్ చేయడం సాధ్యపడలేదు"
+  },
+  "app.action-bar.install.summary.download-failed": {
+    "message": "డౌన్‌లోడ్ పూర్తి కాలేదు"
+  },
+  "app.action-bar.install.summary.instance-error": {
+    "message": "సిద్ధం చేయడం సాధ్యపడలేదు ఇన్‌స్టెన్స్"
+  },
+  "app.action-bar.install.summary.invalid-file-path": {
+    "message": "ఫైల్ పాత్ చెల్లదు"
+  },
+  "app.action-bar.install.summary.invalid-modpack": {
+    "message": "మోడ్‌ప్యాక్ డేటా చెల్లదు"
+  },
+  "app.action-bar.install.summary.invalid-modpack-files": {
+    "message": "మోడ్‌ప్యాక్ ఫైల్‌లు చెల్లని మెటాడేటాను కలిగి ఉన్నాయి"
+  },
+  "app.action-bar.install.summary.java-setup-failed": {
+    "message": "Java సెటప్ పూర్తి కాలేదు"
+  },
+  "app.action-bar.install.summary.loader-setup-failed": {
+    "message": "లోడర్ సెటప్ విఫలమైంది"
+  },
+  "app.action-bar.install.summary.local-data-error": {
+    "message": "సాధ్యపడలేదు నవీకరణ స్థానిక డేటా"
+  },
+  "app.action-bar.install.summary.minecraft-setup-failed": {
+    "message": "Minecraft సెటప్ విఫలమైంది"
+  },
+  "app.action-bar.install.summary.modrinth-unreachable": {
+    "message": "చేరుకోలేకపోయింది Panda Minecraft Launcher"
+  },
+  "app.action-bar.install.summary.no-write-permission": {
+    "message": "వ్రాయడానికి అనుమతి లేదు"
+  },
+  "app.action-bar.install.summary.pack-download-failed": {
+    "message": "సాధ్యపడలేదు డౌన్‌లోడ్ ప్యాక్"
+  },
+  "app.action-bar.install.summary.unexpected-error": {
+    "message": "ఏదో తప్పు జరిగింది"
+  },
+  "app.action-bar.install.unknown-instance": {
+    "message": "తెలియదు ఇన్‌స్టెన్స్"
+  },
+  "app.action-bar.install.updating-shared-content": {
+    "message": "నవీకరణ భాగస్వామ్యం చేయబడింది కంటెంట్"
+  },
+  "app.action-bar.offline": {
+    "message": "ఆఫ్‌లైన్"
+  },
+  "app.action-bar.reload-to-update": {
+    "message": "కి రీలోడ్ చేయండి నవీకరణ"
+  },
+  "app.action-bar.show-downloads": {
+    "message": "చూపు సక్రియంగా ఉంది డౌన్‌లోడ్‌లు"
+  },
+  "app.action-bar.show-more-running-instances": {
+    "message": "మరింత నడుస్తున్నట్లు చూపు ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.action-bar.stop-instance": {
+    "message": "స్టాప్ ఇన్‌స్టెన్స్"
+  },
+  "app.action-bar.update": {
+    "message": "నవీకరణ"
+  },
+  "app.action-bar.view-active-downloads": {
+    "message": "వీక్షణ సక్రియంగా ఉంది డౌన్‌లోడ్‌లు"
+  },
+  "app.action-bar.view-logs": {
+    "message": "లాగ్‌లను వీక్షించండి"
+  },
+  "app.appearance-settings.compact-mode.description": {
+    "message": "డిస్ప్లే లైబ్రరీ ఇన్‌స్టెన్స్‌లు కాంపాక్ట్ వరుస లేఅవుట్‌లో."
+  },
+  "app.appearance-settings.compact-mode.title": {
+    "message": "కాంపాక్ట్ మోడ్"
+  },
+  "app.appearance-settings.default-landing-page.home": {
+    "message": "హోమ్"
+  },
+  "app.appearance-settings.default-landing-page.library": {
+    "message": "లైబ్రరీ"
+  },
+  "app.appearance-settings.hide-nametag.description": {
+    "message": "మీ వినియోగదారు పేరును ప్లేయర్ ప్రివ్యూ పైన దాచండి స్కిన్ సెలెక్టర్ పేజీ."
+  },
+  "app.appearance-settings.hide-nametag.title": {
+    "message": "నేమ్‌ట్యాగ్‌ను దాచండి"
+  },
+  "app.appearance-settings.minimize-launcher.description": {
+    "message": "కనిష్టీకరించండి Panda Minecraft Launcher ఎప్పుడు Minecraft ప్రారంభమవుతుంది."
+  },
+  "app.appearance-settings.minimize-launcher.title": {
+    "message": "కనిష్టీకరించు అనువర్తనం"
+  },
+  "app.appearance-settings.show-play-time.description": {
+    "message": "మీరు ఒక్కొక్కటి ఎంతసేపు ఆడారో చూపండి ఇన్‌స్టెన్స్."
+  },
+  "app.appearance-settings.show-play-time.title": {
+    "message": "ఆట సమయాన్ని చూపించు"
+  },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "సైడ్‌బార్‌ను కుడి లేదా ఎడమవైపు చూపండి."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "ఎడమ"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "కుడి"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "సైడ్‌బార్ స్థానం"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.description": {
+    "message": "నకిలీ ఇన్‌స్టాల్‌లు, సాధారణం వంటి తక్కువ-ప్రమాద చర్యల కోసం నిర్ధారణలను దాటవేయి కంటెంట్ తొలగింపు, బల్క్ నవీకరణలు, అన్‌లింక్ చేయడం మరియు మరమ్మతులు.ప్రమాదకరమైన చర్యలకు సంబంధించిన హెచ్చరికలు ఎల్లప్పుడూ చూపబడతాయి."
+  },
+  "app.appearance-settings.skip-non-essential-warnings.title": {
+    "message": "అనవసరమైన హెచ్చరికలను దాటవేయండి"
+  },
+  "app.appearance-settings.unknown-pack-warning.description": {
+    "message": "ఇన్‌స్టాల్ చేసే ముందు భద్రతా హెచ్చరికను చూపించు a మోడ్‌ప్యాక్ హోస్ట్ చేయని (.mrpack). Panda Minecraft Launcher."
+  },
+  "app.appearance-settings.unknown-pack-warning.title": {
+    "message": "తెలియని ఇన్‌స్టాల్ చేసే ముందు నన్ను హెచ్చరించండి మోడ్‌ప్యాక్‌లు"
+  },
+  "app.auth-servers.unreachable.body": {
+    "message": "Minecraft ప్రమాణీకరణ సర్వర్‌లు ప్రస్తుతం డౌన్ కావచ్చు.మీ ఇంటర్నెట్ కనెక్షన్‌ని తనిఖీ చేసి, తర్వాత మళ్లీ ప్రయత్నించండి."
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "ప్రమాణీకరణను చేరుకోలేదు సర్వర్‌లు"
+  },
+  "app.behavior-settings.confirmations.title": {
+    "message": "నిర్ధారణలు"
+  },
+  "app.behavior-settings.content.title": {
+    "message": "హోమ్ మరియు కంటెంట్"
+  },
+  "app.behavior-settings.hidden-instances.description": {
+    "message": "ఇన్‌స్టెన్స్‌లు మీరు మీ నుండి దాచిన లైబ్రరీ ఈ పరికరంలో .దాచబడింది ఇన్‌స్టెన్స్‌లు మీతో సమకాలీకరించబడలేదు Panda Minecraft Launcher ఖాతా."
+  },
+  "app.behavior-settings.hidden-instances.empty": {
+    "message": "మీరు ఏదీ దాచలేదు ఇన్‌స్టెన్స్‌లు ఇంకా."
+  },
+  "app.behavior-settings.hidden-instances.more-options": {
+    "message": "మరిన్ని ఎంపికలు"
+  },
+  "app.behavior-settings.hidden-instances.not-installed": {
+    "message": "ఇన్‌స్టాల్ చేయబడలేదు"
+  },
+  "app.behavior-settings.hidden-instances.title": {
+    "message": "దాచబడింది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.behavior-settings.refocus-on-game-close.description": {
+    "message": "తీసుకురండి Panda Minecraft Launcher ముందుభాగంలో ఉన్నప్పుడు Minecraft నిష్క్రమిస్తుంది."
+  },
+  "app.behavior-settings.refocus-on-game-close.title": {
+    "message": "ఎప్పుడు రీఫోకస్ యాప్ Minecraft మూసివేయబడుతుంది"
+  },
+  "app.behavior-settings.startup-and-navigation.title": {
+    "message": "స్టార్టప్ మరియు నావిగేషన్"
+  },
+  "app.behavior-settings.sync-across-devices.description": {
+    "message": "ఈ ప్రవర్తనను ఉపయోగించండి సెట్టింగ్‌లు మీరు సైన్ ఇన్ చేసిన ప్రతిచోటా . వేరుగా ఉంచడానికి దీన్ని ఆఫ్ చేయండి సెట్టింగ్‌లు ఈ పరికరంలో ."
+  },
+  "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "a లోకి సైన్ ఇన్ చేయండి Panda Minecraft Launcher ఖాతా సమకాలీకరించడానికి సెట్టింగ్‌లు."
+  },
+  "app.behavior-settings.sync-across-devices.title": {
+    "message": "పరికరాల అంతటా సమకాలీకరణ ప్రవర్తన"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "కలుపుతోంది సర్వర్ వరకు ఇన్‌స్టెన్స్"
+  },
+  "app.browse.add-to-an-instance": {
+    "message": "anకి జోడించండి ఇన్‌స్టెన్స్"
+  },
+  "app.browse.add-to-instance": {
+    "message": "జోడించు ఇన్‌స్టెన్స్"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "జోడించు {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "జోడించబడింది"
+  },
+  "app.browse.already-added": {
+    "message": "ఇప్పటికే జోడించబడింది"
+  },
+  "app.browse.back-to-instance": {
+    "message": "కి తిరిగి వెళ్ళు ఇన్‌స్టెన్స్"
+  },
+  "app.browse.curseforge.checking": {
+    "message": "కి కనెక్ట్ చేస్తోంది CurseForge..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "CurseForge అభ్యర్థన విఫలమైంది: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "నుండి ఆమోదం కోసం వేచి ఉంది CurseForge"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge సిద్ధంగా ఉంది. {count} మోడ్‌లు కనుగొనబడింది."
+  },
+  "app.browse.discover-project-type": {
+    "message": "డిస్కవర్ {projectType}"
+  },
+  "app.browse.discover-servers": {
+    "message": "డిస్కవర్ సర్వర్‌లు"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "దాచు సర్వర్‌లు ఇప్పటికే జోడించబడింది"
+  },
+  "app.browse.hide-installed-modpacks": {
+    "message": "దాచు ఇప్పటికే ఇన్‌స్టాల్ చేయబడింది"
+  },
+  "app.browse.project-actions.label": {
+    "message": "ప్రాజెక్ట్ చర్యలు"
+  },
+  "app.browse.project-type.data-packs": {
+    "message": "డేటా ప్యాక్‌లు"
+  },
+  "app.browse.project-type.modpacks": {
+    "message": "మోడ్‌ప్యాక్‌లు"
+  },
+  "app.browse.project-type.mods": {
+    "message": "మోడ్‌లు"
+  },
+  "app.browse.project-type.plugins": {
+    "message": "ప్లగిన్‌లు"
+  },
+  "app.browse.project-type.resource-packs": {
+    "message": "రిసోర్స్ ప్యాక్‌లు"
+  },
+  "app.browse.project-type.servers": {
+    "message": "సర్వర్‌లు"
+  },
+  "app.browse.project-type.shaders": {
+    "message": "షేడర్‌లు"
+  },
+  "app.browse.server-instance-content-warning": {
+    "message": "కలుపుతోంది కంటెంట్ ఇందులో చేరకుండా మిమ్మల్ని నిరోధించవచ్చు సర్వర్.ఏదైనా కంటెంట్ మీరు జోడించిన నిర్వహించబడినప్పుడు తీసివేయబడుతుంది సర్వర్ కంటెంట్ నవీకరించబడింది."
+  },
+  "app.browse.server.installing": {
+    "message": "ఇన్‌స్టాల్ చేస్తోంది"
+  },
+  "app.changelog.current-version": {
+    "message": "ప్రస్తుత వెర్షన్: {version}"
+  },
+  "app.changelog.title": {
+    "message": "విడుదల గమనికలు"
+  },
+  "app.changelog.you-are-here": {
+    "message": "మీరు ఇక్కడ ఉన్నారు"
+  },
+  "app.content-install.no-compatible-versions": {
+    "message": "అందుబాటులో ఉన్న సంస్కరణలు ఏవీ సరిపోలలేదు {compatibilityLabel}.ఏమైనప్పటికీ ఇన్‌స్టాల్ చేయడానికి సంస్కరణను ఎంచుకోండి.డిపెండెన్సీలు స్వయంచాలకంగా ఇన్‌స్టాల్ చేయబడవు."
+  },
+  "app.content.desync-pack": {
+    "message": "డీసింక్"
+  },
+  "app.content.sync-data-packs-disabled": {
+    "message": "ఆన్ చేయండి డేటా ప్యాక్ యాప్‌లో సమకాలీకరణ సెట్టింగ్‌లు మొదట ."
+  },
+  "app.content.sync-pack": {
+    "message": "సమకాలీకరణ"
+  },
+  "app.content.sync-packs-override": {
+    "message": "దీనిలో ప్యాక్ సమకాలీకరణ ఓవర్‌రైడ్‌ను ఆఫ్ చేయండి ఇన్‌స్టెన్స్'లు సెట్టింగ్‌లు మొదట ."
+  },
+  "app.content.sync-resource-packs-disabled": {
+    "message": "ఆన్ చేయండి రిసోర్స్ ప్యాక్ యాప్‌లో సమకాలీకరణ సెట్టింగ్‌లు మొదట ."
+  },
+  "app.debug-export.canceling": {
+    "message": "ఎగుమతిని రద్దు చేస్తోంది…"
+  },
+  "app.debug-export.exporting": {
+    "message": "ఎగుమతి చేస్తోంది…"
+  },
+  "app.debug-export.finishing": {
+    "message": "పూర్తి అవుతోంది…"
+  },
+  "app.debug-export.preparing": {
+    "message": "ఫైల్‌లను సిద్ధం చేస్తోంది..."
+  },
+  "app.download-manager.active": {
+    "message": "యాక్టివ్"
+  },
+  "app.download-manager.attention": {
+    "message": "కి శ్రద్ధ అవసరం"
+  },
+  "app.download-manager.bulk-update-content": {
+    "message": "నవీకరిస్తోంది {count, plural, one {# item} other {# items}}"
+  },
+  "app.download-manager.cancel": {
+    "message": "ఇన్‌స్టాలేషన్‌ని రద్దు చేయండి"
+  },
+  "app.download-manager.canceling": {
+    "message": "ఇన్‌స్టాలేషన్‌ను రద్దు చేస్తోంది…"
+  },
+  "app.download-manager.clear-all": {
+    "message": "అన్నింటినీ క్లియర్ చేయండి"
+  },
+  "app.download-manager.clear-completed": {
+    "message": "పూర్తయిన అన్ని టాస్క్‌లను క్లియర్ చేయండి"
+  },
+  "app.download-manager.complete": {
+    "message": "పూర్తయింది"
+  },
+  "app.download-manager.duplicated-instance": {
+    "message": "నకిలీ ఇన్‌స్టెన్స్"
+  },
+  "app.download-manager.estimated-rate": {
+    "message": "అంచనా వేయబడింది డౌన్‌లోడ్ వేగం"
+  },
+  "app.download-manager.eta": {
+    "message": "దీని కోసం మిగిలి ఉన్న అంచనా సమయం డౌన్‌లోడ్"
+  },
+  "app.download-manager.hide-tasks": {
+    "message": "టాస్క్‌లను దాచండి"
+  },
+  "app.download-manager.imported-instance": {
+    "message": "దిగుమతి చేయబడింది ఇన్‌స్టెన్స్"
+  },
+  "app.download-manager.instance-installation": {
+    "message": "ఇన్‌స్టెన్స్ ఇన్‌స్టాలేషన్"
+  },
+  "app.download-manager.modpack": {
+    "message": "మోడ్‌ప్యాక్"
+  },
+  "app.download-manager.modpack-installation": {
+    "message": "మోడ్‌ప్యాక్ ఇన్‌స్టాలేషన్"
+  },
+  "app.download-manager.new-instance": {
+    "message": "కొత్తది ఇన్‌స్టెన్స్"
+  },
+  "app.download-manager.no-tasks": {
+    "message": "టాస్క్‌లు లేవు"
+  },
+  "app.download-manager.pause": {
+    "message": "పాజ్ ఇన్‌స్టాలేషన్"
+  },
+  "app.download-manager.paused": {
+    "message": "పాజ్ చేయబడింది"
+  },
+  "app.download-manager.remove": {
+    "message": "చరిత్ర నుండి తీసివేయండి"
+  },
+  "app.download-manager.resume": {
+    "message": "ఇన్‌స్టాలేషన్‌ను పునఃప్రారంభించండి"
+  },
+  "app.download-manager.shared-instance": {
+    "message": "భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్"
+  },
+  "app.download-manager.shared-instance-update": {
+    "message": "భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ నవీకరణ"
+  },
+  "app.download-manager.show-tasks": {
+    "message": "టాస్క్‌లను చూపించు"
+  },
+  "app.download-manager.tasks": {
+    "message": "పనులు"
+  },
+  "app.download-manager.title": {
+    "message": "డౌన్‌లోడ్ మేనేజర్"
+  },
+  "app.error.copied-debug-info": {
+    "message": "కాపీ చేయబడింది"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "డీబగ్ సమాచారాన్ని తనిఖీ చేయండి"
+  },
+  "app.error.state-init.open-backups-folder": {
+    "message": "తెరవండి బ్యాకప్‌లు ఫోల్డర్"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "నమోదు చేయండి మోడ్‌ప్యాక్ వివరణ..."
+  },
+  "app.export-modal.export-button": {
+    "message": "ఎగుమతి"
+  },
+  "app.export-modal.export-complete": {
+    "message": "ఎగుమతి పూర్తయింది"
+  },
+  "app.export-modal.export-complete-description": {
+    "message": "{name} విజయవంతంగా ఎగుమతి చేయబడింది."
+  },
+  "app.export-modal.header": {
+    "message": "ఎగుమతి మోడ్‌ప్యాక్"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "మోడ్‌ప్యాక్ పేరు"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "మోడ్‌ప్యాక్ పేరు"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "వెర్షన్ నంబర్"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.features-settings.instance-pages.title": {
+    "message": "ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.features-settings.play-page.title": {
+    "message": "ప్లే పేజీ"
+  },
+  "app.features-settings.quick-instances.description": {
+    "message": "ఇటీవలి గరిష్ట సంఖ్యను ఎంచుకోండి ఇన్‌స్టెన్స్‌లు ఎడమ సైడ్‌బార్‌లో చూపబడింది.మీరు డివైడర్‌ని లాగడం ద్వారా కూడా దీన్ని సర్దుబాటు చేయవచ్చు."
+  },
+  "app.features-settings.quick-instances.title": {
+    "message": "త్వరిత ఇన్‌స్టెన్స్‌లు సైడ్‌బార్‌లో"
+  },
+  "app.features-settings.show-all-screenshots.description": {
+    "message": "మీ అన్ని స్క్రీన్‌షాట్‌లను వీక్షించడానికి ఎడమ సైడ్‌బార్‌లో బటన్‌ను చూపండి ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.features-settings.show-all-screenshots.title": {
+    "message": "సైడ్‌బార్‌లో అన్ని స్క్రీన్‌షాట్‌లను చూపించు"
+  },
+  "app.features-settings.show-files-tab.title": {
+    "message": "ఫైల్‌ల ట్యాబ్‌ను చూపించు ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.features-settings.show-jump-in.description": {
+    "message": "షో ఇటీవల ప్లే చేయబడింది ప్రపంచాలు మరియు ఇన్‌స్టెన్స్‌లు ప్లే పేజీ ఎగువన ."
+  },
+  "app.features-settings.show-jump-in.title": {
+    "message": "విభాగంలో జంప్ చూపించు"
+  },
+  "app.features-settings.show-screenshots-tab.title": {
+    "message": "స్క్రీన్‌షాట్‌ల ట్యాబ్‌ను చూపించు ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.features-settings.show-skin-selector.description": {
+    "message": "తెరవడానికి సైడ్‌బార్‌లో బటన్‌ను చూపండి ఖాతా నిర్వహణ."
+  },
+  "app.features-settings.show-skin-selector.title": {
+    "message": "షో ఖాతా సైడ్‌బార్‌లో నిర్వహణ బటన్"
+  },
+  "app.features-settings.show-worlds-tab.title": {
+    "message": "షో ప్రపంచాలు ట్యాబ్ ఇన్ ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.features-settings.sidebar.title": {
+    "message": "సైడ్‌బార్"
+  },
+  "app.features-settings.sync-across-devices.description": {
+    "message": "ఈ ఫీచర్‌ని ఉపయోగించండి సెట్టింగ్‌లు మీరు సైన్ ఇన్ చేసిన ప్రతిచోటా . వేరుగా ఉంచడానికి దీన్ని ఆఫ్ చేయండి సెట్టింగ్‌లు ఈ పరికరంలో ."
+  },
+  "app.features-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "a లోకి సైన్ ఇన్ చేయండి Panda Minecraft Launcher ఖాతా సమకాలీకరించడానికి సెట్టింగ్‌లు."
+  },
+  "app.features-settings.sync-across-devices.title": {
+    "message": "పరికరాల అంతటా సమకాలీకరణ లక్షణాలు"
+  },
+  "app.file-download.canceling": {
+    "message": "రద్దు చేయబడుతోంది డౌన్‌లోడ్…"
+  },
+  "app.file-download.preparing": {
+    "message": "సిద్ధమవుతోంది డౌన్‌లోడ్…"
+  },
+  "app.file-download.waiting": {
+    "message": "కోసం వేచి ఉంది సర్వర్…"
+  },
+  "app.home.jump-back-in.actions.label": {
+    "message": "ఇన్‌స్టెన్స్ చర్యలు"
+  },
+  "app.home.jump-back-in.instance-locked": {
+    "message": "ఇది ఇన్‌స్టెన్స్ లాక్ చేయబడింది"
+  },
+  "app.home.jump-back-in.instance-open": {
+    "message": "ఇన్‌స్టెన్స్ ఇప్పటికే తెరిచి ఉంది"
+  },
+  "app.home.jump-back-in.more-options": {
+    "message": "మరిన్ని ఎంపికలు"
+  },
+  "app.home.jump-back-in.never-played": {
+    "message": "ఎప్పుడూ ఆడలేదు"
+  },
+  "app.home.jump-back-in.new-instance": {
+    "message": "కొత్తది ఇన్‌స్టెన్స్"
+  },
+  "app.home.jump-back-in.resize": {
+    "message": "పరిమాణం మార్చడానికి లాగండి"
+  },
+  "app.home.jump-back-in.title": {
+    "message": "జంప్ ఇన్"
+  },
+  "app.home.jump-back-in.view-instance": {
+    "message": "వీక్షణ ఇన్‌స్టెన్స్"
+  },
+  "app.hosting.update-required.description": {
+    "message": "మీరు అవసరం నవీకరణ ఉపయోగించడానికి Panda Minecraft Launcher"
+  },
+  "app.hosting.update-required.download": {
+    "message": "డౌన్‌లోడ్ వరకు నవీకరణ"
+  },
+  "app.hosting.update-required.rinthbot-alt": {
+    "message": "ఉత్సాహంగా ఉంది Panda Minecraft Launcher బాట్"
+  },
+  "app.hosting.update-required.title": {
+    "message": "Panda Minecraft Launcher నవీకరణ అవసరం"
+  },
+  "app.install.phase.downloading_content": {
+    "message": "డౌన్‌లోడ్ అవుతోంది కంటెంట్"
+  },
+  "app.install.phase.downloading_minecraft": {
+    "message": "డౌన్‌లోడ్ అవుతోంది Minecraft"
+  },
+  "app.install.phase.downloading_pack_file": {
+    "message": "ప్యాక్ ఫైల్‌ని డౌన్‌లోడ్ చేస్తోంది"
+  },
+  "app.install.phase.extracting_overrides": {
+    "message": "ఎక్స్‌ట్రాక్టింగ్ ఓవర్‌రైడ్‌లు"
+  },
+  "app.install.phase.finalizing": {
+    "message": "ఖరారు"
+  },
+  "app.install.phase.preparing_instance": {
+    "message": "ఇన్‌స్టాల్ చేయడానికి క్యూలో ఉంది"
+  },
+  "app.install.phase.preparing_java": {
+    "message": "సిద్ధమవుతోంది Java"
+  },
+  "app.install.phase.preparing_java.downloading": {
+    "message": "డౌన్‌లోడ్ అవుతోంది Java {version}"
+  },
+  "app.install.phase.preparing_java.extracting": {
+    "message": "సంగ్రహించడం Java {version}"
+  },
+  "app.install.phase.preparing_java.fetching-metadata": {
+    "message": "పొందడం Java {version}"
+  },
+  "app.install.phase.preparing_java.resolving": {
+    "message": "సిద్ధమవుతోంది Java {version}"
+  },
+  "app.install.phase.preparing_java.validating": {
+    "message": "ప్రమాణీకరణ Java {version}"
+  },
+  "app.install.phase.reading_pack_manifest": {
+    "message": "రీడింగ్ ప్యాక్ మానిఫెస్ట్"
+  },
+  "app.install.phase.resolving_loader": {
+    "message": "రిసోల్వింగ్ లోడర్"
+  },
+  "app.install.phase.resolving_minecraft": {
+    "message": "పరిష్కరిస్తోంది Minecraft"
+  },
+  "app.install.phase.resolving_pack": {
+    "message": "పరిష్కరిస్తోంది కంటెంట్"
+  },
+  "app.install.phase.rolling_back": {
+    "message": "రోలింగ్ బ్యాక్"
+  },
+  "app.install.phase.running_loader_processors": {
+    "message": "రన్నింగ్ లోడర్ ప్రాసెసర్‌లు"
+  },
+  "app.instance.action.add-content": {
+    "message": "జోడించండి కంటెంట్"
+  },
+  "app.instance.action.copy-path": {
+    "message": "కాపీ మార్గం"
+  },
+  "app.instance.action.edit": {
+    "message": "సవరించు"
+  },
+  "app.instance.action.open-folder": {
+    "message": "ఫోల్డర్‌ని తెరవండి"
+  },
+  "app.instance.action.play": {
+    "message": "ప్లే"
+  },
+  "app.instance.action.stop": {
+    "message": "స్టాప్"
+  },
+  "app.instance.actions.label": {
+    "message": "ఇన్‌స్టెన్స్ చర్యలు"
+  },
+  "app.instance.add-server.add": {
+    "message": "జోడించండి"
+  },
+  "app.instance.add-server.added": {
+    "message": "జోడించబడింది"
+  },
+  "app.instance.add-server.adding": {
+    "message": "జోడిస్తోంది..."
+  },
+  "app.instance.add-server.cancel": {
+    "message": "రద్దు"
+  },
+  "app.instance.add-server.compatibility-warning": {
+    "message": "ఇది సర్వర్ అన్నింటికి అనుకూలంగా ఉండకపోవచ్చు ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.instance.add-server.search-placeholder": {
+    "message": "కోసం శోధించండి ఇన్‌స్టెన్స్"
+  },
+  "app.instance.add-server.title": {
+    "message": "జోడించండి సర్వర్ వరకు ఇన్‌స్టెన్స్"
+  },
+  "app.instance.admonitions.shared-instance.added-label": {
+    "message": "జోడించబడింది"
+  },
+  "app.instance.admonitions.shared-instance.changes-body": {
+    "message": "మీ స్థానికం ఇన్‌స్టెన్స్ మీరు దీన్ని భాగస్వామ్యం చేసిన వినియోగదారుల కంటే ముందుంది."
+  },
+  "app.instance.admonitions.shared-instance.changes-header": {
+    "message": "మీ మార్పులు ఇంకా భాగస్వామ్యం చేయబడలేదు"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-body": {
+    "message": "మీరు ఒక పుష్ చేసారు నవీకరణ దీనికి భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ మరొకరి నుండి Panda Minecraft Launcher ఇన్‌స్టాలేషన్. డౌన్‌లోడ్ ఇక్కడ నుండి నిర్వహించడం కోసం తాజా మార్పులు."
+  },
+  "app.instance.admonitions.shared-instance.owner-update-button": {
+    "message": "డౌన్‌లోడ్ నవీకరణ"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-header": {
+    "message": "నవీకరణ అందుబాటులో ఉంది"
+  },
+  "app.instance.admonitions.shared-instance.publish-button": {
+    "message": "పుష్ నవీకరణ"
+  },
+  "app.instance.admonitions.shared-instance.publishing-button": {
+    "message": "పుషింగ్..."
+  },
+  "app.instance.admonitions.shared-instance.removed-label": {
+    "message": "తీసివేయబడింది"
+  },
+  "app.instance.admonitions.shared-instance.restored-body": {
+    "message": "ఇది ఇన్‌స్టెన్స్ మీరు పుష్ చేసిన చివరి వెర్షన్ నుండి పునరుద్ధరించబడింది.కాన్ఫిగరేషన్ మార్పులు లేదా మీరు ఇంకా పుష్ చేయని ఏదైనా కంటెంట్ మీ ఇతర ఇన్‌స్టాలేషన్‌లో చేర్చబడలేదు."
+  },
+  "app.instance.admonitions.shared-instance.restored-header": {
+    "message": "మాత్రమే నెట్టబడింది కంటెంట్ డౌన్‌లోడ్ చేయబడింది"
+  },
+  "app.instance.admonitions.shared-instance.review-admonition-header": {
+    "message": "పుష్ నవీకరణ"
+  },
+  "app.instance.admonitions.shared-instance.review-description": {
+    "message": "సమీక్షించండి కంటెంట్ మార్పులు దీన్ని ఉపయోగించే ప్రతి ఒక్కరితో భాగస్వామ్యం చేయబడతాయి ఇన్‌స్టెన్స్."
+  },
+  "app.instance.admonitions.shared-instance.review-header": {
+    "message": "సమీక్ష మార్పులు"
+  },
+  "app.instance.admonitions.shared-instance.reviewing-button": {
+    "message": "సమీక్షిస్తోంది..."
+  },
+  "app.instance.card.icon-alt": {
+    "message": "ఇన్‌స్టెన్స్ చిహ్నం"
+  },
+  "app.instance.card.installing": {
+    "message": "ఇన్‌స్టాల్ చేస్తోంది..."
+  },
+  "app.instance.card.loading": {
+    "message": "ఇన్‌స్టెన్స్ లోడ్ అవుతోంది..."
+  },
+  "app.instance.card.never-played": {
+    "message": "ఎప్పుడూ ఆడలేదు"
+  },
+  "app.instance.card.play": {
+    "message": "ప్లే"
+  },
+  "app.instance.card.played": {
+    "message": "ప్లే చేయబడింది {relativeTime}"
+  },
+  "app.instance.card.repair": {
+    "message": "మరమ్మతు"
+  },
+  "app.instance.card.stop": {
+    "message": "స్టాప్"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "మీ కోసం మొత్తం డేటా ఇన్‌స్టెన్స్ మీతో సహా శాశ్వతంగా తొలగించబడుతుంది ప్రపంచాలు, configs మరియు అన్నీ ఇన్‌స్టాల్ చేయబడ్డాయి కంటెంట్."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "ఈ చర్య రద్దు చేయబడదు"
+  },
+  "app.instance.confirm-delete.bulk-admonition-body": {
+    "message": "వీటి కోసం మొత్తం డేటా {count} ఇన్‌స్టెన్స్‌లు వాటితో సహా శాశ్వతంగా తొలగించబడుతుంది ప్రపంచాలు, configs మరియు అన్నీ ఇన్‌స్టాల్ చేయబడ్డాయి కంటెంట్."
+  },
+  "app.instance.confirm-delete.bulk-delete-button": {
+    "message": "తొలగించు {count} ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.instance.confirm-delete.bulk-header": {
+    "message": "తొలగించు {count} ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "తొలగించు ఇన్‌స్టెన్స్"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "తొలగించు ఇన్‌స్టెన్స్"
+  },
+  "app.instance.confirm-delete.instances-label": {
+    "message": "{count, plural, one {Instance} other {Instances ({count})}}"
+  },
+  "app.instance.content.managed-content.modpack-header": {
+    "message": "మోడ్‌ప్యాక్ కంటెంట్"
+  },
+  "app.instance.content.managed-content.shared-header": {
+    "message": "భాగస్వామ్యం చేయబడింది కంటెంట్"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "ఇది మోడ్‌ప్యాక్ ఇప్పటికే ఇన్‌స్టాల్ చేయబడింది <bold>{instanceName}</bold> ఇన్‌స్టెన్స్.మీరు దీన్ని ఖచ్చితంగా నకిలీ చేయాలనుకుంటున్నారా?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "సృష్టించు"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "మోడ్‌ప్యాక్ ఇప్పటికే ఇన్‌స్టాల్ చేయబడింది"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "ఇన్‌స్టెన్స్"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "ప్రాజెక్ట్"
+  },
+  "app.instance.mods.freeze-content": {
+    "message": "ఫ్రీజ్ వెర్షన్"
+  },
+  "app.instance.mods.locked-content": {
+    "message": "కంటెంట్ లాక్ చేయబడింది ఇన్‌స్టెన్స్‌లు మార్చబడదు."
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" జోడించబడింది"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} ప్రాజెక్ట్‌లు జోడించబడ్డాయి"
+  },
+  "app.instance.mods.share-text": {
+    "message": "తనిఖీ చేయండి ప్రాజెక్ట్‌లు నేను నాలో ఉపయోగిస్తున్నాను మోడ్‌ప్యాక్!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "భాగస్వామ్యం మోడ్‌ప్యాక్ కంటెంట్"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "విజయవంతంగా అప్‌లోడ్ చేయబడింది"
+  },
+  "app.instance.mods.unfreeze-content": {
+    "message": "అన్‌ఫ్రీజ్ వెర్షన్"
+  },
+  "app.instance.navigation.back-to-instance": {
+    "message": "కి తిరిగి వెళ్ళు ఇన్‌స్టెన్స్"
+  },
+  "app.instance.server.offline.description": {
+    "message": "ఇది సర్వర్ ప్రస్తుతం ఆఫ్‌లైన్‌లో ఉంది.మీరు ఇప్పటికీ ప్రారంభించవచ్చు Minecraft, కానీ మీరు కనెక్ట్ చేయలేకపోవచ్చు."
+  },
+  "app.instance.server.offline.launch-anyway": {
+    "message": "ఏమైనప్పటికీ ప్రారంభించండి"
+  },
+  "app.instance.server.offline.title": {
+    "message": "సర్వర్ ఆఫ్‌లైన్‌లో ఉంది"
+  },
+  "app.instance.server.status.unknown": {
+    "message": "స్థితి తెలియదు"
+  },
+  "app.instance.share.empty.description": {
+    "message": "మీరు దీన్ని భాగస్వామ్యం చేయవచ్చు ఇన్‌స్టెన్స్ మీతో స్నేహితులు!"
+  },
+  "app.instance.share.empty.heading": {
+    "message": "నం స్నేహితులు ఆహ్వానించబడింది"
+  },
+  "app.instance.share.empty.invite-friends-button": {
+    "message": "ఆహ్వానం స్నేహితులు"
+  },
+  "app.instance.share.invite-friends": {
+    "message": "ఆహ్వానం స్నేహితులు"
+  },
+  "app.instance.share.invite-modal.heading": {
+    "message": "షేర్ {name}"
+  },
+  "app.instance.share.invite-modal.user-limit-reached": {
+    "message": "ఇది ఇన్‌స్టెన్స్ చేరుకుంది {limit}-యూజర్ పరిమితి."
+  },
+  "app.instance.share.limit-reached.description": {
+    "message": "మీరు గరిష్టంగా షేర్ చేసారు {limit} ఇన్‌స్టెన్స్‌లు ఇప్పటికే ."
+  },
+  "app.instance.share.limit-reached.heading": {
+    "message": "భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ పరిమితిని చేరుకున్నారు"
+  },
+  "app.instance.share.limit-reached.manage-button": {
+    "message": "Manage భాగస్వామ్యం చేసారు ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.instance.share.locked.empty-description-prefix": {
+    "message": "మీరు ఇలా సైన్ ఇన్ చేయాలి"
+  },
+  "app.instance.share.locked.empty-description-suffix": {
+    "message": "ఈ పేజీని యాక్సెస్ చేయడానికి ."
+  },
+  "app.instance.share.locked.linked-account-fallback": {
+    "message": "లింక్ చేయబడింది ఖాతా"
+  },
+  "app.instance.share.locked.signed-out-heading": {
+    "message": "సైన్ ఇన్ చేయలేదు"
+  },
+  "app.instance.share.locked.switch-account-button": {
+    "message": "స్విచ్ ఖాతా"
+  },
+  "app.instance.share.locked.wrong-account-heading": {
+    "message": "తప్పు ఖాతా"
+  },
+  "app.instance.share.remove-user-modal.effect-access": {
+    "message": "వారు ఇకపై అందుకోరు నవీకరణలు ఈ భాగస్వామ్యం కోసం ఇన్‌స్టెన్స్"
+  },
+  "app.instance.share.remove-user-modal.effect-installed-copy": {
+    "message": "వారు ఇప్పటికే ఇన్‌స్టాల్ చేసిన ఏదైనా కాపీ వారి పరికరంలో అలాగే ఉంటుంది"
+  },
+  "app.instance.share.remove-user-modal.effect-invite-again": {
+    "message": "మీరు వారిని తర్వాత మళ్లీ ఆహ్వానించవచ్చు"
+  },
+  "app.instance.share.remove-user-modal.effect-last-user": {
+    "message": "ఇది చివరి వినియోగదారు, దీని కోసం భాగస్వామ్యం నిలిపివేయబడుతుంది ఇన్‌స్టెన్స్"
+  },
+  "app.instance.share.remove-user-modal.effects-label": {
+    "message": "ఏమి జరుగుతుంది?"
+  },
+  "app.instance.share.remove-user-modal.header": {
+    "message": "యాక్సెస్‌ని రద్దు చేయండి"
+  },
+  "app.instance.share.remove-user-modal.remove-button": {
+    "message": "యాక్సెస్‌ని రద్దు చేయండి"
+  },
+  "app.instance.share.remove-user-modal.user-avatar-alt": {
+    "message": "{username}అవతార్"
+  },
+  "app.instance.share.remove-user-modal.warning-body": {
+    "message": "మీరు ఉపసంహరించుకుంటే {username}దీనికి యొక్క యాక్సెస్ భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్, వారు స్వీకరించడానికి ముందు మీరు వారిని మళ్లీ ఆహ్వానించాలి నవీకరణలు."
+  },
+  "app.instance.share.sign-in.button": {
+    "message": "సైన్ ఇన్ చేయండి"
+  },
+  "app.instance.share.unable-to-connect.description": {
+    "message": "The భాగస్వామ్యం చేసారు ఇన్‌స్టెన్స్‌లు ప్రస్తుతం సేవ అందుబాటులో లేదు, దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి"
+  },
+  "app.instance.share.unable-to-connect.heading": {
+    "message": "కనెక్ట్ చేయడం సాధ్యపడలేదు"
+  },
+  "app.instance.share.unlink.body": {
+    "message": "మీరు దీన్ని తప్పనిసరిగా అన్‌లింక్ చేయాలి మోడ్‌ప్యాక్ మీ భాగస్వామ్యం చేయడానికి ఇన్‌స్టెన్స్"
+  },
+  "app.instance.share.unlink.header": {
+    "message": "భాగస్వామ్యానికి అన్‌లింక్ చేయడం అవసరం"
+  },
+  "app.instance.shared-instance-already-installed.body": {
+    "message": "ఇది భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ ఇప్పటికే ఇన్‌స్టాల్ చేయబడింది <bold>{instanceName}</bold>.మీరు ఖచ్చితంగా మరొక కాపీని ఇన్‌స్టాల్ చేయాలనుకుంటున్నారా?"
+  },
+  "app.instance.shared-instance-already-installed.header": {
+    "message": "భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ ఇప్పటికే ఇన్‌స్టాల్ చేయబడింది"
+  },
+  "app.instance.shared-instance-already-installed.install-anyway": {
+    "message": "ఏమైనప్పటికీ ఇన్‌స్టాల్ చేయండి"
+  },
+  "app.instance.shared-instance-already-installed.instance": {
+    "message": "ఇన్‌స్టెన్స్"
+  },
+  "app.instance.shared-instance-wrong-account.fallback-username": {
+    "message": "లింక్ చేయబడింది ఖాతా"
+  },
+  "app.instance.shared-instance-wrong-account.owner-admonition-body-v2": {
+    "message": "భాగస్వామ్యం చేయబడిన దీన్ని నిర్వహించడానికి ఇన్‌స్టెన్స్.మీరు పుష్ చేయలేరు నవీకరణలు వినియోగదారులకు ."
+  },
+  "app.instance.shared-instance-wrong-account.sign-in-as-label": {
+    "message": "ఇలా సైన్ ఇన్ చేయండి"
+  },
+  "app.instance.shared-instance-wrong-account.signed-out-header": {
+    "message": "మీరు దీనికి సైన్ ఇన్ చేయాలి Panda Minecraft Launcher"
+  },
+  "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
+    "message": "స్వీకరించడానికి నవీకరణలు ఈ భాగస్వామ్యం కోసం ఇన్‌స్టెన్స్."
+  },
+  "app.instance.shared-instance-wrong-account.warning-header": {
+    "message": "మీరు తప్పుగా ఉపయోగిస్తున్నారు Panda Minecraft Launcher ఖాతా"
+  },
+  "app.instance.shortcut.created": {
+    "message": "సత్వరమార్గం సృష్టించబడింది"
+  },
+  "app.instance.shortcut.creation-error": {
+    "message": "సత్వరమార్గాన్ని సృష్టించడంలో లోపం"
+  },
+  "app.instance.tab.content": {
+    "message": "కంటెంట్"
+  },
+  "app.instance.tab.files": {
+    "message": "ఫైల్‌లు"
+  },
+  "app.instance.tab.logs": {
+    "message": "లాగ్‌లు"
+  },
+  "app.instance.tab.screenshots": {
+    "message": "స్క్రీన్‌షాట్‌లు"
+  },
+  "app.instance.tab.share": {
+    "message": "షేర్"
+  },
+  "app.instance.tab.worlds": {
+    "message": "ప్రపంచాలు"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "జోడించండి సర్వర్"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "బ్రౌజ్ చేయండి సర్వర్‌లు"
+  },
+  "app.instance.worlds.delete-world-modal.delete-button": {
+    "message": "తొలగించు ప్రపంచం"
+  },
+  "app.instance.worlds.delete-world-modal.title": {
+    "message": "తొలగించు ప్రపంచం"
+  },
+  "app.instance.worlds.delete-world-modal.warning-body": {
+    "message": "ఇది ప్రపంచం దీని నుండి శాశ్వతంగా తొలగించబడుతుంది ఇన్‌స్టెన్స్.ఈ చర్య రద్దు చేయబడదు."
+  },
+  "app.instance.worlds.delete-world-modal.warning-header": {
+    "message": "తొలగిస్తోంది {name}"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "మోడ్ చేయబడింది"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "ఆఫ్‌లైన్"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "ఆన్‌లైన్"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "వనిల్లా"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "జోడించండి a సర్వర్ లేదా ప్రారంభించడానికి బ్రౌజ్ చేయండి"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "నం సర్వర్‌లు లేదా ప్రపంచాలు జోడించబడింది"
+  },
+  "app.instance.worlds.refreshing": {
+    "message": "రిఫ్రెష్ అవుతోంది..."
+  },
+  "app.instance.worlds.remove-server-modal.remove-button": {
+    "message": "తీసివేయి సర్వర్"
+  },
+  "app.instance.worlds.remove-server-modal.remove-everywhere": {
+    "message": "ప్రతిచోటా తీసివేయండి"
+  },
+  "app.instance.worlds.remove-server-modal.remove-here": {
+    "message": "ఇక్కడ తీసివేయండి"
+  },
+  "app.instance.worlds.remove-server-modal.synced-description": {
+    "message": "మీరు దీన్ని కేవలం దీని నుండి తీసివేయవచ్చు ఇన్‌స్టెన్స్ లేదా సమకాలీకరించబడిన అన్నింటి నుండి ఇన్‌స్టెన్స్‌లు.దీని నుండి మాత్రమే తీసివేయడం ఇన్‌స్టెన్స్ ఓవర్‌రైడ్‌లను ఎనేబుల్ చేస్తుంది మరియు ఇది ఇన్‌స్టెన్స్ ఇకపై సమకాలీకరించబడదు సర్వర్ మార్పులు."
+  },
+  "app.instance.worlds.remove-server-modal.synced-header": {
+    "message": "ఇది సర్వర్ సమకాలీకరించబడింది"
+  },
+  "app.instance.worlds.remove-server-modal.title": {
+    "message": "తీసివేయి సర్వర్"
+  },
+  "app.instance.worlds.remove-server-modal.warning-body": {
+    "message": "ఇది సర్వర్ మీ నుండి తీసివేయబడుతుంది సర్వర్ జాబితా మరియు గేమ్ నుండి సర్వర్ జాబితా.మీకు అడ్రస్ తెలిస్తే తర్వాత మళ్లీ జోడించవచ్చు."
+  },
+  "app.instance.worlds.remove-server-modal.warning-header": {
+    "message": "తొలగిస్తోంది {name}"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "శోధన {count} ప్రపంచాలు..."
+  },
+  "app.java-detection.cancel": {
+    "message": "రద్దు"
+  },
+  "app.java-detection.columns.actions": {
+    "message": "చర్యలు"
+  },
+  "app.java-detection.columns.path": {
+    "message": "మార్గం"
+  },
+  "app.java-detection.columns.version": {
+    "message": "వెర్షన్"
+  },
+  "app.java-detection.no-installations-found": {
+    "message": "నం Java ఇన్‌స్టాలేషన్‌లు కనుగొనబడ్డాయి."
+  },
+  "app.java-detection.select": {
+    "message": "ఎంచుకోండి"
+  },
+  "app.java-detection.selected": {
+    "message": "ఎంచుకోబడింది"
+  },
+  "app.java-detection.title": {
+    "message": "ఎంచుకోండి Java ఇన్‌స్టాలేషన్"
+  },
+  "app.java-selector.browse": {
+    "message": "బ్రౌజ్ చేయండి"
+  },
+  "app.java-selector.copy-failed-title": {
+    "message": "మార్గాన్ని కాపీ చేయడంలో విఫలమైంది"
+  },
+  "app.java-selector.copy-path": {
+    "message": "కాపీ మార్గం"
+  },
+  "app.java-selector.detect": {
+    "message": "గుర్తించండి"
+  },
+  "app.java-selector.edit-path": {
+    "message": "మార్గాన్ని సవరించండి"
+  },
+  "app.java-selector.install-java": {
+    "message": "ఇన్‌స్టాల్ చేయండి Java {version}"
+  },
+  "app.java-selector.installing": {
+    "message": "ఇన్‌స్టాల్ చేస్తోంది..."
+  },
+  "app.java-selector.invalid": {
+    "message": "చెల్లదు"
+  },
+  "app.java-selector.more-options": {
+    "message": "మరిన్ని Java ఎంపికలు"
+  },
+  "app.java-selector.not-set": {
+    "message": "నం Java ఎంచుకోబడింది"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "ది Java పాత్ మీ క్లిప్‌బోర్డ్‌కి కాపీ చేయబడింది."
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "మార్గం కాపీ చేయబడింది"
+  },
+  "app.java-selector.path.placeholder": {
+    "message": "/path/to/java"
+  },
+  "app.java-selector.valid": {
+    "message": "చెల్లుతుంది"
+  },
+  "app.library.actions.label": {
+    "message": "లైబ్రరీ చర్యలు"
+  },
+  "app.library.context-menu.create-instance": {
+    "message": "కొత్తది ఇన్‌స్టెన్స్"
+  },
+  "app.library.filter.add": {
+    "message": "ఫిల్టర్‌ని జోడించండి"
+  },
+  "app.library.filter.clear": {
+    "message": "ఫిల్టర్‌లను క్లియర్ చేయండి"
+  },
+  "app.library.filter.game-version": {
+    "message": "గేమ్ వెర్షన్"
+  },
+  "app.library.filter.install-state": {
+    "message": "ఇన్‌స్టాల్ స్థితి"
+  },
+  "app.library.filter.install-state.installed": {
+    "message": "ఇన్‌స్టాల్ చేయబడింది"
+  },
+  "app.library.filter.install-state.not-installed": {
+    "message": "ఇన్‌స్టాల్ చేయబడలేదు"
+  },
+  "app.library.filter.instance-type": {
+    "message": "ఇన్‌స్టెన్స్ రకం"
+  },
+  "app.library.filter.instance-type.custom": {
+    "message": "కస్టమ్"
+  },
+  "app.library.filter.instance-type.modpack": {
+    "message": "మోడ్‌ప్యాక్"
+  },
+  "app.library.filter.instance-type.server": {
+    "message": "సర్వర్"
+  },
+  "app.library.filter.label": {
+    "message": "ద్వారా ఫిల్టర్ చేయండి"
+  },
+  "app.library.filter.loader": {
+    "message": "లోడర్"
+  },
+  "app.library.filter.owner": {
+    "message": "యజమాని"
+  },
+  "app.library.filter.owner.me": {
+    "message": "మీరు"
+  },
+  "app.library.filter.owner.others": {
+    "message": "ఇతరులు"
+  },
+  "app.library.filter.sharing": {
+    "message": "భాగస్వామ్యం"
+  },
+  "app.library.filter.sharing.not-shared": {
+    "message": "భాగస్వామ్యం చేయబడలేదు"
+  },
+  "app.library.filter.sharing.shared": {
+    "message": "భాగస్వామ్యం చేయబడింది"
+  },
+  "app.library.group-by.custom-group": {
+    "message": "అనుకూల సమూహం"
+  },
+  "app.library.group-by.game-version": {
+    "message": "గేమ్ వెర్షన్"
+  },
+  "app.library.group-by.instance-type": {
+    "message": "ఇన్‌స్టెన్స్ రకం"
+  },
+  "app.library.group-by.label": {
+    "message": "గ్రూప్ ద్వారా"
+  },
+  "app.library.group-by.loader": {
+    "message": "లోడర్"
+  },
+  "app.library.group-by.none": {
+    "message": "గ్రూపింగ్ లేదు"
+  },
+  "app.library.group.actions.label": {
+    "message": "గ్రూప్ చర్యలు"
+  },
+  "app.library.group.collapse": {
+    "message": "సమూహాన్ని కుదించు"
+  },
+  "app.library.group.context-menu.add-to-group": {
+    "message": "సమూహానికి జోడించండి"
+  },
+  "app.library.group.create": {
+    "message": "సమూహాన్ని సృష్టించండి"
+  },
+  "app.library.group.create.cancel": {
+    "message": "రద్దు"
+  },
+  "app.library.group.delete": {
+    "message": "సమూహాన్ని తొలగించండి"
+  },
+  "app.library.group.delete-description": {
+    "message": "ఇన్‌స్టెన్స్‌లు ఈ సమూహంలోని సమూహం తీసివేయబడుతుంది."
+  },
+  "app.library.group.edit-name": {
+    "message": "సమూహం పేరును సవరించండి"
+  },
+  "app.library.group.empty": {
+    "message": "జోడించడానికి లాగి వదలండి ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.library.group.expand": {
+    "message": "సమూహాన్ని విస్తరించండి"
+  },
+  "app.library.group.favorites": {
+    "message": "ఇష్టమైనవి"
+  },
+  "app.library.group.instance.add": {
+    "message": "జోడించండి"
+  },
+  "app.library.group.instance.added": {
+    "message": "జోడించబడింది"
+  },
+  "app.library.group.instances-modal.add": {
+    "message": "జోడించండి"
+  },
+  "app.library.group.instances-modal.added": {
+    "message": "జోడించబడింది"
+  },
+  "app.library.group.instances-modal.no-instances-found": {
+    "message": "నం ఇన్‌స్టెన్స్‌లు కనుగొనబడింది"
+  },
+  "app.library.group.instances-modal.search-placeholder": {
+    "message": "శోధన ఇన్‌స్టెన్స్"
+  },
+  "app.library.group.instances-modal.title": {
+    "message": "జోడించండి ఇన్‌స్టెన్స్‌లు నుండి \"{groupName}\""
+  },
+  "app.library.group.move-down": {
+    "message": "సమూహాన్ని క్రిందికి తరలించండి"
+  },
+  "app.library.group.move-up": {
+    "message": "సమూహాన్ని పైకి తరలించండి"
+  },
+  "app.library.group.name": {
+    "message": "గ్రూప్ పేరు"
+  },
+  "app.library.group.name-empty": {
+    "message": "గ్రూప్ పేర్లు ఖాళీగా ఉండకూడదు."
+  },
+  "app.library.group.name-placeholder": {
+    "message": "సమూహం పేరును నమోదు చేయండి"
+  },
+  "app.library.group.name-reserved": {
+    "message": "\"ఏదీ లేదు\" రిజర్వ్ చేయబడింది మరియు సమూహం పేరుగా ఉపయోగించబడదు."
+  },
+  "app.library.group.name-too-long": {
+    "message": "గ్రూప్ పేర్లు కంటే ఎక్కువ పొడవు ఉండకూడదు {maxLength} అక్షరాలు."
+  },
+  "app.library.group.new": {
+    "message": "కొత్త సమూహం"
+  },
+  "app.library.group.no-instances-found": {
+    "message": "నం ఇన్‌స్టెన్స్‌లు కనుగొనబడింది"
+  },
+  "app.library.group.rename-failed": {
+    "message": "సమూహం పేరు మార్చడం సాధ్యం కాలేదు"
+  },
+  "app.library.group.search-instance": {
+    "message": "శోధన ఇన్‌స్టెన్స్"
+  },
+  "app.library.group.ungrouped": {
+    "message": "సమూహం చేయబడలేదు"
+  },
+  "app.library.group.unknown": {
+    "message": "తెలియని సమూహం"
+  },
+  "app.library.instance-hidden.text": {
+    "message": "మీరు దీన్ని మళ్లీ దీనిలో చూపవచ్చు సెట్టింగ్‌లు > ప్రవర్తన."
+  },
+  "app.library.instance-hidden.title": {
+    "message": "నుండి దాచబడింది లైబ్రరీ"
+  },
+  "app.library.instance.action.add-content": {
+    "message": "జోడించండి కంటెంట్"
+  },
+  "app.library.instance.action.add-to-favorites": {
+    "message": "ఇష్టమైన వాటికి జోడించండి"
+  },
+  "app.library.instance.action.copy-path": {
+    "message": "కాపీ మార్గం"
+  },
+  "app.library.instance.action.delete": {
+    "message": "తొలగించు"
+  },
+  "app.library.instance.action.duplicate": {
+    "message": "నకిలీ ఇన్‌స్టెన్స్"
+  },
+  "app.library.instance.action.hide-from-library": {
+    "message": "నుండి దాచు లైబ్రరీ"
+  },
+  "app.library.instance.action.leave": {
+    "message": "వదిలివేయండి"
+  },
+  "app.library.instance.action.open-folder": {
+    "message": "ఫోల్డర్‌ను తెరవండి"
+  },
+  "app.library.instance.action.play": {
+    "message": "ప్లే"
+  },
+  "app.library.instance.action.remove-from-favorites": {
+    "message": "ఇష్టమైన వాటి నుండి తీసివేయండి"
+  },
+  "app.library.instance.action.remove-from-group": {
+    "message": "సమూహం నుండి తీసివేయండి"
+  },
+  "app.library.instance.action.show-in-library": {
+    "message": "షో ఇన్ లైబ్రరీ"
+  },
+  "app.library.instance.action.stop": {
+    "message": "స్టాప్"
+  },
+  "app.library.instance.action.unpublish": {
+    "message": "ప్రచురణను తీసివేయండి"
+  },
+  "app.library.instance.action.unpublish-and-leave": {
+    "message": "ప్రచురణను రద్దు చేసి వదిలివేయండి"
+  },
+  "app.library.instance.action.view-instance": {
+    "message": "వీక్షణ ఇన్‌స్టెన్స్"
+  },
+  "app.library.instance.actions.label": {
+    "message": "ఇన్‌స్టెన్స్ చర్యలు"
+  },
+  "app.library.instance.deselect": {
+    "message": "ఎంపికను తీసివేయండి ఇన్‌స్టెన్స్"
+  },
+  "app.library.instance.deselect-with-name": {
+    "message": "ఎంపికను తీసివేయండి {name}"
+  },
+  "app.library.instance.install": {
+    "message": "ఇన్‌స్టాల్ చేయండి"
+  },
+  "app.library.instance.install-with-name": {
+    "message": "ఇన్‌స్టాల్ చేయండి {name}"
+  },
+  "app.library.instance.installing": {
+    "message": "ఇన్‌స్టాల్ చేస్తోంది..."
+  },
+  "app.library.instance.loading": {
+    "message": "ఇన్‌స్టెన్స్ లోడ్ అవుతోంది..."
+  },
+  "app.library.instance.new": {
+    "message": "కొత్తది ఇన్‌స్టెన్స్"
+  },
+  "app.library.instance.open-with-name": {
+    "message": "ఓపెన్ {name}"
+  },
+  "app.library.instance.play": {
+    "message": "ప్లే"
+  },
+  "app.library.instance.repair": {
+    "message": "మరమ్మతు"
+  },
+  "app.library.instance.select": {
+    "message": "ఎంచుకోండి ఇన్‌స్టెన్స్"
+  },
+  "app.library.instance.select-with-name": {
+    "message": "ఎంచుకోండి {name}"
+  },
+  "app.library.instance.shared-by": {
+    "message": "భాగస్వామ్యం చేయబడింది {name}"
+  },
+  "app.library.instance.shared-by-owner": {
+    "message": "భాగస్వామ్యం చేయబడింది <owner>{name}</owner>"
+  },
+  "app.library.instance.shared-by-you": {
+    "message": "మీరు భాగస్వామ్యం చేసారు"
+  },
+  "app.library.instance.stop": {
+    "message": "స్టాప్"
+  },
+  "app.library.leave-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {You'll lose access to this shared instance and it will be removed from your library. You'll need a new invite to join it again.} other {You'll lose access to these shared instances and they will be removed from your library. You'll need a new invite to join them again.}}"
+  },
+  "app.library.leave-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Leaving shared instance} other {Leaving # shared instances}}"
+  },
+  "app.library.leave-shared-instance.modal.header": {
+    "message": "{count, plural, one {Leave shared instance} other {Leave # shared instances}}"
+  },
+  "app.library.search.no-results.title": {
+    "message": "నం ఇన్‌స్టెన్స్‌లు మీ శోధనకు సరిపోలుతుంది."
+  },
+  "app.library.search.placeholder": {
+    "message": "శోధన"
+  },
+  "app.library.selection.aria-label": {
+    "message": "ఎంచుకోబడింది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.library.selection.deleting": {
+    "message": "తొలగింపు ఎంచుకోబడింది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.library.selection.new-group": {
+    "message": "కొత్త సమూహం"
+  },
+  "app.library.selection.remove-from-group": {
+    "message": "సమూహం నుండి తీసివేయండి"
+  },
+  "app.library.selection.removing-shared-instances": {
+    "message": "తీసివేయడం ఎంచుకోబడింది భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.library.selection.selected-count": {
+    "message": "{count} ఎంచుకోబడింది"
+  },
+  "app.library.sort.date-created": {
+    "message": "తేదీ సృష్టించబడింది"
+  },
+  "app.library.sort.date-modified": {
+    "message": "తేదీ సవరించబడింది"
+  },
+  "app.library.sort.game-version": {
+    "message": "గేమ్ వెర్షన్"
+  },
+  "app.library.sort.hours-played": {
+    "message": "గంటలు ఆడారు"
+  },
+  "app.library.sort.label": {
+    "message": "ద్వారా క్రమబద్ధీకరించండి"
+  },
+  "app.library.sort.last-played": {
+    "message": "చివరిగా ఆడింది"
+  },
+  "app.library.sort.loader": {
+    "message": "లోడర్"
+  },
+  "app.library.sort.name": {
+    "message": "పేరు"
+  },
+  "app.library.title": {
+    "message": "లైబ్రరీ"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
+    "message": "{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} స్వీకరించడం ఆగిపోతుంది నవీకరణలు. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} అవన్నీ మీ నుండి తీసివేయబడతాయి లైబ్రరీ."
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
+    "message": "ప్రచురణను తీసివేయడం మరియు వదిలివేయడం భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.header": {
+    "message": "ప్రచురణను తీసివేయండి మరియు వదిలివేయండి {count} భాగస్వామ్యం చేసారు ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
+  },
+  "app.library.unpublish-shared-instance.modal.header": {
+    "message": "{count, plural, one {Unpublish shared instance} other {Unpublish # shared instances}}"
+  },
+  "app.modal.install-to-play.additional-context": {
+    "message": "అదనపు సందర్భం"
+  },
+  "app.modal.install-to-play.additional-context-placeholder": {
+    "message": "వీలైతే మరియు సంబంధితంగా ఉంటే లింక్‌లు మరియు చిత్రాలను చేర్చండి"
+  },
+  "app.modal.install-to-play.block-user": {
+    "message": "బ్లాక్ యూజర్"
+  },
+  "app.modal.install-to-play.content-you-are-reporting": {
+    "message": "ఇన్‌స్టెన్స్ మీరు నివేదిస్తున్నారు"
+  },
+  "app.modal.install-to-play.delete-instance": {
+    "message": "తొలగించు ఇన్‌స్టెన్స్"
+  },
+  "app.modal.install-to-play.external-files-dont-install": {
+    "message": "ఇన్‌స్టాల్ చేయవద్దు"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "ఆడటానికి ఇన్‌స్టాల్ చేయండి"
+  },
+  "app.modal.install-to-play.install-anyway": {
+    "message": "ఏమైనప్పటికీ ఇన్‌స్టాల్ చేయండి"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "ఇన్‌స్టాల్ చేయండి"
+  },
+  "app.modal.install-to-play.invite-warning": {
+    "message": "ఈ ఆహ్వానం మరొకరి ద్వారా సృష్టించబడింది Panda Minecraft Launcher వినియోగదారు, కాదు Panda Minecraft Launcher.మీరు విశ్వసించే వ్యక్తుల నుండి మాత్రమే ఆహ్వానాలను అంగీకరించండి."
+  },
+  "app.modal.install-to-play.invite-warning-with-creator": {
+    "message": "ఈ ఆహ్వానం వీరిచే సృష్టించబడింది <creator>{username}</creator>, కాదు Panda Minecraft Launcher.మీరు విశ్వసించే వ్యక్తుల నుండి మాత్రమే ఆహ్వానాలను అంగీకరించండి."
+  },
+  "app.modal.install-to-play.managed-content.modpack-header": {
+    "message": "మోడ్‌ప్యాక్ కంటెంట్"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# mods}}"
+  },
+  "app.modal.install-to-play.owner-install-note": {
+    "message": "ఇది డౌన్‌లోడ్‌లు మీరు అందించిన తాజా వెర్షన్ .మీరు పుష్ చేయని ఇతర ఇన్‌స్టాలేషన్‌లలో మార్పులు చేర్చబడవు."
+  },
+  "app.modal.install-to-play.report-description": {
+    "message": "నివేదించడానికి ఈ ఫారమ్‌ని ఉపయోగించండి ఇన్‌స్టెన్స్‌లు మాని ఉల్లంఘించవచ్చు <rules-link>నియమాలు</rules-link> లేదా <terms-link>ఉపయోగ నిబంధనలు</terms-link>."
+  },
+  "app.modal.install-to-play.report-image-invalid-type": {
+    "message": "ఫైల్ ఆమోదించబడిన చిత్రం రకం కాదు"
+  },
+  "app.modal.install-to-play.report-image-too-large": {
+    "message": "ఫైల్ 1 MiB పరిమాణ పరిమితిని మించిపోయింది"
+  },
+  "app.modal.install-to-play.report-legal-claims": {
+    "message": "కోసం DMCA నోటీసులు లేదా ఇతర చట్టపరమైన దావాలు, మా చూడండి <copyright-link>కాపీరైట్ విధానం</copyright-link>."
+  },
+  "app.modal.install-to-play.report-reason": {
+    "message": "ఏ నియమం దీన్ని చేస్తుంది ఇన్‌స్టెన్స్ ఉల్లంఘించాలా?"
+  },
+  "app.modal.install-to-play.report-shared-instance-header": {
+    "message": "నివేదిక భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్"
+  },
+  "app.modal.install-to-play.report-submitted": {
+    "message": "నివేదిక సమర్పించబడింది"
+  },
+  "app.modal.install-to-play.report-support-and-bugs": {
+    "message": "మద్దతు అభ్యర్థనల కోసం, మమ్మల్ని సంప్రదించండి <support-link>మద్దతు బృందం</support-link>.బగ్ నివేదికల కోసం, aని తెరవండి <github-link>GitHub సంచిక</github-link>."
+  },
+  "app.modal.install-to-play.reviewed-files": {
+    "message": "ప్రచురించబడని ఫైల్‌లు Panda Minecraft Launcher సమీక్షించబడలేదు."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్"
+  },
+  "app.modal.install-to-play.shared-instance-content": {
+    "message": "భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ కంటెంట్"
+  },
+  "app.modal.install-to-play.shared-instance-unknown-files-description": {
+    "message": "ఇది భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ ప్రచురించబడని ఫైల్‌లను కలిగి ఉంది Panda Minecraft Launcher.మీరు విశ్వసించే మూలాధారాల నుండి మాత్రమే ఫైల్‌లను ఇన్‌స్టాల్ చేయాలని మేము గట్టిగా సిఫార్సు చేస్తున్నాము."
+  },
+  "app.modal.install-to-play.unavailable-description": {
+    "message": "ది మోడ్‌ప్యాక్ వెర్షన్ ఇది సర్వర్ ఉపయోగాలు ప్రస్తుతం డౌన్‌లోడ్ చేయబడవు.ఇది ప్రచురించబడకపోవచ్చు లేదా సమీక్షలో ఉండవచ్చు.తర్వాత మళ్లీ ప్రయత్నించండి లేదా సంప్రదించండి సర్వర్ యజమాని."
+  },
+  "app.modal.install-to-play.unavailable-header": {
+    "message": "ఇది సర్వర్'లు మోడ్‌ప్యాక్ అందుబాటులో లేదు"
+  },
+  "app.modal.install-to-play.unknown-files-description": {
+    "message": "ఇది సర్వర్ మోడ్‌ప్యాక్ ప్రచురించబడని ఫైల్‌లను కలిగి ఉంది Panda Minecraft Launcher.మీరు విశ్వసించే మూలాధారాల నుండి మాత్రమే ఫైల్‌లను ఇన్‌స్టాల్ చేయాలని మేము గట్టిగా సిఫార్సు చేస్తున్నాము."
+  },
+  "app.modal.install-to-play.unknown-files-warning": {
+    "message": "తెలియని ఫైళ్ల హెచ్చరిక"
+  },
+  "app.modal.install-to-play.unrecognized-files": {
+    "message": "గుర్తించబడని ఫైల్‌లు"
+  },
+  "app.modal.install-to-play.user-blocked": {
+    "message": "వినియోగదారు బ్లాక్ చేయబడ్డారు"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "కంటెంట్‌లను వీక్షించండి"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "నవీకరణ ఆడటానికి"
+  },
+  "app.modal.update-to-play.owner-admonition-header": {
+    "message": "మరొక ఇన్‌స్టాలేషన్ నుండి నెట్టబడింది"
+  },
+  "app.modal.update-to-play.owner-description": {
+    "message": "ఈ మార్పులు మరొకదాని నుండి నెట్టబడ్డాయి Panda Minecraft Launcher ఇన్‌స్టాలేషన్.భాగస్వామ్యానికి పుష్ చేయని మార్పులు కంటెంట్ ఈ ఇన్‌స్టాలేషన్‌లో భర్తీ చేయబడుతుంది."
+  },
+  "app.modal.update-to-play.owner-header": {
+    "message": "నవీకరణ అందుబాటులో ఉంది"
+  },
+  "app.modal.update-to-play.removed": {
+    "message": "తీసివేయబడింది"
+  },
+  "app.modal.update-to-play.server-modpack-unknown-files-description": {
+    "message": "ఇది సర్వర్ మోడ్‌ప్యాక్ నవీకరణ ప్రచురించబడని ఫైల్‌లను కలిగి ఉంది Panda Minecraft Launcher.మీరు విశ్వసించే మూలాధారాల నుండి మాత్రమే ఫైల్‌లను ఇన్‌స్టాల్ చేయాలని మేము గట్టిగా సిఫార్సు చేస్తున్నాము."
+  },
+  "app.modal.update-to-play.shared-instance-added-label": {
+    "message": "జోడించబడింది"
+  },
+  "app.modal.update-to-play.shared-instance-removed-label": {
+    "message": "తీసివేయబడింది"
+  },
+  "app.modal.update-to-play.shared-instance-unknown-files-description": {
+    "message": "ఇది భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ నవీకరణ ప్రచురించబడని ఫైల్‌లను కలిగి ఉంది Panda Minecraft Launcher.మీరు విశ్వసించే మూలాధారాల నుండి మాత్రమే ఫైల్‌లను ఇన్‌స్టాల్ చేయాలని మేము గట్టిగా సిఫార్సు చేస్తున్నాము."
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "నవీకరణ అవసరం"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "An నవీకరణ ఆడటానికి అవసరం {name}.దయచేసి నవీకరణ గేమ్‌ని ప్రారంభించడానికి తాజా వెర్షన్‌కి."
+  },
+  "app.nav.account-management": {
+    "message": "ఖాతా నిర్వహణ"
+  },
+  "app.nav.add-account": {
+    "message": "జోడించండి ఖాతా"
+  },
+  "app.nav.create-new-instance": {
+    "message": "కొత్తదాన్ని సృష్టించండి ఇన్‌స్టెన్స్"
+  },
+  "app.nav.home": {
+    "message": "హోమ్"
+  },
+  "app.nav.loading-profile": {
+    "message": "లోడ్ అవుతోంది ప్రొఫైల్..."
+  },
+  "app.nav.modrinth-account": {
+    "message": "Panda Minecraft Launcher ఖాతా"
+  },
+  "app.nav.modrinth-hosting": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.nav.remove-account": {
+    "message": "తీసివేయి ఖాతా"
+  },
+  "app.nav.screenshots": {
+    "message": "స్క్రీన్‌షాట్‌లు"
+  },
+  "app.nav.sign-in-to-modrinth-account": {
+    "message": "సైన్ ఇన్ చేయండి Panda Minecraft Launcher"
+  },
+  "app.nav.switch-account": {
+    "message": "స్విచ్ ఖాతా"
+  },
+  "app.nav.upgrade-to-modrinth-plus": {
+    "message": "కు అప్‌గ్రేడ్ చేయండి Panda Minecraft Launcher"
+  },
+  "app.nav.view-profile": {
+    "message": "వీక్షణ ప్రొఫైల్"
+  },
+  "app.navigation.go-back": {
+    "message": "వెనక్కి వెళ్ళు"
+  },
+  "app.navigation.go-forward": {
+    "message": "ముందుకు వెళ్లండి"
+  },
+  "app.navigation.home": {
+    "message": "హోమ్"
+  },
+  "app.news.title": {
+    "message": "వార్తలు"
+  },
+  "app.news.view-all": {
+    "message": "అన్ని వార్తలను వీక్షించండి"
+  },
+  "app.notification.warning": {
+    "message": "హెచ్చరిక"
+  },
+  "app.project.actions.label": {
+    "message": "ప్రాజెక్ట్ చర్యలు"
+  },
+  "app.project.coming-soon": {
+    "message": "త్వరలో వస్తుంది"
+  },
+  "app.project.install-button.already-installed": {
+    "message": "ఇది ప్రాజెక్ట్ ఇప్పటికే ఇన్‌స్టాల్ చేయబడింది"
+  },
+  "app.project.install-button.switch-version": {
+    "message": "స్విచ్ వెర్షన్"
+  },
+  "app.project.install-context.back-to-browse": {
+    "message": "కనుగొనడానికి తిరిగి వెళ్ళు"
+  },
+  "app.project.install-context.back-to-instance": {
+    "message": "కి తిరిగి వెళ్ళు ఇన్‌స్టెన్స్"
+  },
+  "app.project.load-error": {
+    "message": "ప్రాజెక్ట్ డేటా లోడ్ చేయబడలేదు."
+  },
+  "app.project.more-options": {
+    "message": "మరిన్ని ఎంపికలు"
+  },
+  "app.project.tab.description": {
+    "message": "వివరణ"
+  },
+  "app.project.tab.gallery": {
+    "message": "గ్యాలరీ"
+  },
+  "app.project.tab.versions": {
+    "message": "సంస్కరణలు"
+  },
+  "app.project.version.all-versions": {
+    "message": "అన్ని వెర్షన్లు"
+  },
+  "app.project.version.download-in-browser": {
+    "message": "డౌన్‌లోడ్ బ్రౌజర్‌లో"
+  },
+  "app.project.version.installing": {
+    "message": "ఇన్‌స్టాల్ చేస్తోంది"
+  },
+  "app.project.versions.already-installed": {
+    "message": "ఇప్పటికే ఇన్‌స్టాల్ చేయబడింది"
+  },
+  "app.quick-instance-switcher.actions.label": {
+    "message": "ఇన్‌స్టెన్స్ చర్యలు"
+  },
+  "app.quick-instance-switcher.drag-show-tooltip": {
+    "message": "ఇటీవలి చూపడానికి లాగండి ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.quick-instance-switcher.drag-tooltip": {
+    "message": "పరిమాణాన్ని మార్చడానికి లాగండి"
+  },
+  "app.quick-instance-switcher.instance-locked": {
+    "message": "ఇది ఇన్‌స్టెన్స్ లాక్ చేయబడింది"
+  },
+  "app.quick-instance-switcher.title": {
+    "message": "ఇటీవలిది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.quick-instance-switcher.view-instance": {
+    "message": "వీక్షణ ఇన్‌స్టెన్స్"
+  },
+  "app.restarting": {
+    "message": "పునఃప్రారంభిస్తోంది..."
+  },
+  "app.screenshots.copied": {
+    "message": "కాపీ చేయబడింది"
+  },
+  "app.screenshots.copy": {
+    "message": "చిత్రాన్ని కాపీ చేయండి"
+  },
+  "app.screenshots.delete-description": {
+    "message": "శాశ్వతంగా తొలగించండి {name}?ఈ చర్య రద్దు చేయబడదు."
+  },
+  "app.screenshots.delete-success": {
+    "message": "స్క్రీన్‌షాట్ తొలగించబడింది"
+  },
+  "app.screenshots.delete-title": {
+    "message": "స్క్రీన్‌షాట్‌ను తొలగించండి"
+  },
+  "app.screenshots.deselect": {
+    "message": "ఎంపికను తీసివేయండి {name}"
+  },
+  "app.screenshots.edit": {
+    "message": "స్క్రీన్‌షాట్‌ని సవరించండి"
+  },
+  "app.screenshots.empty-description": {
+    "message": "మీరు గేమ్‌లో తీసుకునే స్క్రీన్‌షాట్‌లు ఇక్కడ కనిపిస్తాయి."
+  },
+  "app.screenshots.empty-heading": {
+    "message": "ఇంకా స్క్రీన్‌షాట్‌లు లేవు"
+  },
+  "app.screenshots.error-heading": {
+    "message": "స్క్రీన్‌షాట్‌లను లోడ్ చేయడంలో విఫలమైంది"
+  },
+  "app.screenshots.go-to-instance": {
+    "message": "కి వెళ్లండి ఇన్‌స్టెన్స్"
+  },
+  "app.screenshots.group-by": {
+    "message": "గ్రూప్ ద్వారా"
+  },
+  "app.screenshots.group.all-screenshots": {
+    "message": "అన్ని స్క్రీన్‌షాట్‌లు"
+  },
+  "app.screenshots.group.collapse": {
+    "message": "సమూహాన్ని కుదించు"
+  },
+  "app.screenshots.group.custom": {
+    "message": "అనుకూల సమూహం"
+  },
+  "app.screenshots.group.date": {
+    "message": "తేదీ"
+  },
+  "app.screenshots.group.delete": {
+    "message": "సమూహాన్ని తొలగించండి"
+  },
+  "app.screenshots.group.delete-description": {
+    "message": "ఈ సమూహంలోని స్క్రీన్‌షాట్‌లు సమూహం చేయబడవు."
+  },
+  "app.screenshots.group.edit": {
+    "message": "సమూహం పేరును సవరించండి"
+  },
+  "app.screenshots.group.empty": {
+    "message": "స్క్రీన్‌షాట్‌లను జోడించడానికి లాగండి మరియు వదలండి."
+  },
+  "app.screenshots.group.expand": {
+    "message": "సమూహాన్ని విస్తరించండి"
+  },
+  "app.screenshots.group.instance": {
+    "message": "ఇన్‌స్టెన్స్"
+  },
+  "app.screenshots.group.new": {
+    "message": "కొత్త సమూహం"
+  },
+  "app.screenshots.group.none": {
+    "message": "సమూహం లేదు"
+  },
+  "app.screenshots.group.this-month": {
+    "message": "ఈ నెల"
+  },
+  "app.screenshots.group.this-week": {
+    "message": "ఈ వారం"
+  },
+  "app.screenshots.group.today": {
+    "message": "నేడు"
+  },
+  "app.screenshots.group.ungrouped": {
+    "message": "సమూహం చేయబడలేదు"
+  },
+  "app.screenshots.group.yesterday": {
+    "message": "నిన్న"
+  },
+  "app.screenshots.heading": {
+    "message": "స్క్రీన్‌షాట్‌లు"
+  },
+  "app.screenshots.more-actions": {
+    "message": "మరిన్ని చర్యలు"
+  },
+  "app.screenshots.no-results-description": {
+    "message": "వేరే శోధన లేదా ఫిల్టర్‌ని ప్రయత్నించండి."
+  },
+  "app.screenshots.no-results-heading": {
+    "message": "సరిపోలే స్క్రీన్‌షాట్‌లు లేవు"
+  },
+  "app.screenshots.preview.instance-and-date": {
+    "message": "{instance} · {date}"
+  },
+  "app.screenshots.search": {
+    "message": "శోధన"
+  },
+  "app.screenshots.select": {
+    "message": "ఎంచుకోండి {name}"
+  },
+  "app.screenshots.selection.aria-label": {
+    "message": "ఎంచుకున్న స్క్రీన్‌షాట్‌లు"
+  },
+  "app.screenshots.selection.delete-description": {
+    "message": "తొలగించు {count, plural, one {# screenshot} other {# screenshots}}?ఈ చర్య రద్దు చేయబడదు."
+  },
+  "app.screenshots.selection.delete-success": {
+    "message": "{count, plural, one {# screenshot deleted} other {# screenshots deleted}}"
+  },
+  "app.screenshots.selection.delete-title": {
+    "message": "ఎంచుకున్న స్క్రీన్‌షాట్‌లను తొలగించండి"
+  },
+  "app.screenshots.selection.export-zip": {
+    "message": "ఎగుమతి జిప్"
+  },
+  "app.screenshots.selection.global-export-filename": {
+    "message": "Panda Minecraft Launcher screenshots.zip"
+  },
+  "app.screenshots.selection.instance-export-filename": {
+    "message": "{instance} screenshots.zip"
+  },
+  "app.screenshots.selection.remove-from-group": {
+    "message": "సమూహం నుండి తీసివేయండి"
+  },
+  "app.screenshots.selection.selected-count": {
+    "message": "{count} ఎంచుకోబడింది"
+  },
+  "app.screenshots.selection.zip-archive": {
+    "message": "జిప్ ఆర్కైవ్"
+  },
+  "app.screenshots.show-in-folder": {
+    "message": "ఫోల్డర్‌లో చూపించు"
+  },
+  "app.screenshots.sort-by": {
+    "message": "ద్వారా క్రమబద్ధీకరించండి"
+  },
+  "app.screenshots.sort.name": {
+    "message": "పేరు"
+  },
+  "app.screenshots.sort.newest": {
+    "message": "సరికొత్త"
+  },
+  "app.screenshots.sort.oldest": {
+    "message": "పురాతనమైనది"
+  },
+  "app.server-sharing-update.notification.description": {
+    "message": "ఆహ్వానం స్నేహితులు ఒక తో ఆడటానికి ఇన్‌స్టెన్స్ మీ ద్వారా నిర్వహించబడుతుంది సర్వర్."
+  },
+  "app.server-sharing-update.notification.dismiss": {
+    "message": "తీసివేయండి"
+  },
+  "app.server-sharing-update.notification.purchase-description": {
+    "message": "పొందండి a సర్వర్ మరియు ఆహ్వానించండి స్నేహితులు ఒక తో ఆడటానికి ఇన్‌స్టెన్స్ దీని ద్వారా నిర్వహించబడుతుంది."
+  },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "వీక్షణ నవీకరణ"
+  },
+  "app.server-sharing-update.title": {
+    "message": "షేర్ సర్వర్‌లు తో స్నేహితులు"
+  },
+  "app.settings.app-version": {
+    "message": "Panda Minecraft Launcher {version}"
+  },
+  "app.settings.default-instance-options.environment-variables.description": {
+    "message": "ప్రారంభించేటప్పుడు ఎన్విరాన్‌మెంట్ వేరియబుల్స్ సెట్ చేయబడతాయి ఇన్‌స్టెన్స్."
+  },
+  "app.settings.default-instance-options.environment-variables.placeholder": {
+    "message": "ఎన్విరాన్మెంట్ వేరియబుల్స్‌ని నమోదు చేయండి..."
+  },
+  "app.settings.default-instance-options.environment-variables.title": {
+    "message": "ఎన్విరాన్‌మెంట్ వేరియబుల్స్"
+  },
+  "app.settings.default-instance-options.fullscreen.description": {
+    "message": "ప్రారంభం ఇన్‌స్టెన్స్‌లు ని పూర్తి స్క్రీన్‌లో అప్‌డేట్ చేయడం ద్వారా options.txt ఫైల్."
+  },
+  "app.settings.default-instance-options.fullscreen.title": {
+    "message": "పూర్తి స్క్రీన్"
+  },
+  "app.settings.default-instance-options.height.description": {
+    "message": "ప్రారంభించినప్పుడు గేమ్ విండో ఎత్తు."
+  },
+  "app.settings.default-instance-options.height.placeholder": {
+    "message": "ఎత్తును నమోదు చేయండి..."
+  },
+  "app.settings.default-instance-options.height.title": {
+    "message": "ఎత్తు"
+  },
+  "app.settings.default-instance-options.java-arguments.description": {
+    "message": "వాదనలు ఆమోదించబడ్డాయి Java ప్రారంభించేటప్పుడు ఇన్‌స్టెన్స్."
+  },
+  "app.settings.default-instance-options.java-arguments.placeholder": {
+    "message": "నమోదు చేయండి Java వాదనలు..."
+  },
+  "app.settings.default-instance-options.java-arguments.title": {
+    "message": "Java వాదనలు"
+  },
+  "app.settings.default-instance-options.memory-allocation.description": {
+    "message": "ప్రతిదానికి గరిష్ట మెమరీ అందుబాటులో ఉంది ఇన్‌స్టెన్స్."
+  },
+  "app.settings.default-instance-options.memory-allocation.title": {
+    "message": "మెమరీ కేటాయింపు"
+  },
+  "app.settings.default-instance-options.post-exit-hook.description": {
+    "message": "గేమ్ ముగిసిన తర్వాత నడుస్తుంది."
+  },
+  "app.settings.default-instance-options.post-exit-hook.placeholder": {
+    "message": "పోస్ట్-ఎగ్జిట్ ఆదేశాన్ని నమోదు చేయండి..."
+  },
+  "app.settings.default-instance-options.post-exit-hook.title": {
+    "message": "పోస్ట్-ఎగ్జిట్ హుక్"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.description": {
+    "message": "ముందు నడుస్తుంది ఇన్‌స్టెన్స్ ప్రారంభమవుతుంది."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.placeholder": {
+    "message": "ప్రీ-లాంచ్ ఆదేశాన్ని నమోదు చేయండి..."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.title": {
+    "message": "ప్రీ-లాంచ్ హుక్"
+  },
+  "app.settings.default-instance-options.width.description": {
+    "message": "ప్రారంభించినప్పుడు గేమ్ విండో వెడల్పు."
+  },
+  "app.settings.default-instance-options.width.placeholder": {
+    "message": "వెడల్పును నమోదు చేయండి..."
+  },
+  "app.settings.default-instance-options.width.title": {
+    "message": "వెడల్పు"
+  },
+  "app.settings.default-instance-options.wrapper-hook.description": {
+    "message": "కమాండ్ చుట్టడానికి ఉపయోగిస్తారు Minecraft ప్రయోగ ప్రక్రియ."
+  },
+  "app.settings.default-instance-options.wrapper-hook.placeholder": {
+    "message": "రేపర్ ఆదేశాన్ని నమోదు చేయండి..."
+  },
+  "app.settings.default-instance-options.wrapper-hook.title": {
+    "message": "రేపర్ హుక్"
+  },
+  "app.settings.developer-mode-button.label": {
+    "message": "డెవలపర్ మోడ్‌ని టోగుల్ చేయండి"
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "డెవలపర్ మోడ్ ప్రారంభించబడింది."
+  },
+  "app.settings.downloading": {
+    "message": "డౌన్‌లోడ్ v{version}"
+  },
+  "app.settings.game-options.category.accessibility.description": {
+    "message": "యాక్సెసిబిలిటీ ప్రాధాన్యతలు"
+  },
+  "app.settings.game-options.category.accessibility.label": {
+    "message": "ప్రాప్యత"
+  },
+  "app.settings.game-options.category.chat.description": {
+    "message": "చాట్ దృశ్యమానత మరియు ప్రదర్శన"
+  },
+  "app.settings.game-options.category.chat.label": {
+    "message": "చాట్"
+  },
+  "app.settings.game-options.category.controls.description": {
+    "message": "మౌస్, కదలిక మరియు కీ బైండింగ్‌లు"
+  },
+  "app.settings.game-options.category.controls.label": {
+    "message": "నియంత్రణలు"
+  },
+  "app.settings.game-options.category.custom.description": {
+    "message": "సెట్టింగ్‌లు ద్వారా జోడించబడింది మోడ్‌లు"
+  },
+  "app.settings.game-options.category.custom.label": {
+    "message": "కస్టమ్ సెట్టింగ్‌లు"
+  },
+  "app.settings.game-options.category.language.description": {
+    "message": "గేమ్ భాష"
+  },
+  "app.settings.game-options.category.language.label": {
+    "message": "భాష"
+  },
+  "app.settings.game-options.category.music-and-sound.description": {
+    "message": "వాల్యూమ్ మరియు ఆడియో ప్రాధాన్యతలు"
+  },
+  "app.settings.game-options.category.music-and-sound.label": {
+    "message": "సంగీతం మరియు ధ్వని"
+  },
+  "app.settings.game-options.category.online.description": {
+    "message": "ఆన్‌లైన్ మరియు రియల్మ్స్ ప్రాధాన్యతలు"
+  },
+  "app.settings.game-options.category.online.label": {
+    "message": "ఆన్‌లైన్"
+  },
+  "app.settings.game-options.category.skin-customization.description": {
+    "message": "స్కిన్ లేయర్‌లు మరియు ప్రధాన చేతి"
+  },
+  "app.settings.game-options.category.skin-customization.label": {
+    "message": "స్కిన్ అనుకూలీకరణ"
+  },
+  "app.settings.game-options.category.video.description": {
+    "message": "కెమెరా మరియు ప్రదర్శన సెట్టింగ్‌లు"
+  },
+  "app.settings.game-options.category.video.label": {
+    "message": "వీడియో"
+  },
+  "app.settings.game-options.choice.all": {
+    "message": "అన్నీ"
+  },
+  "app.settings.game-options.choice.balanced": {
+    "message": "సమతుల్యం"
+  },
+  "app.settings.game-options.choice.by-player": {
+    "message": "ప్లేయర్ ద్వారా"
+  },
+  "app.settings.game-options.choice.chat": {
+    "message": "చాట్"
+  },
+  "app.settings.game-options.choice.commands-only": {
+    "message": "ఆదేశాలు మాత్రమే"
+  },
+  "app.settings.game-options.choice.constant": {
+    "message": "స్థిరం"
+  },
+  "app.settings.game-options.choice.crosshair": {
+    "message": "క్రాస్‌షైర్"
+  },
+  "app.settings.game-options.choice.custom": {
+    "message": "కస్టమ్"
+  },
+  "app.settings.game-options.choice.decreased": {
+    "message": "తగ్గింది"
+  },
+  "app.settings.game-options.choice.default": {
+    "message": "డిఫాల్ట్"
+  },
+  "app.settings.game-options.choice.fabulous": {
+    "message": "అద్భుతం"
+  },
+  "app.settings.game-options.choice.fancy": {
+    "message": "ఫ్యాన్సీ"
+  },
+  "app.settings.game-options.choice.far": {
+    "message": "దూరం"
+  },
+  "app.settings.game-options.choice.fast": {
+    "message": "ఫాస్ట్"
+  },
+  "app.settings.game-options.choice.frequent": {
+    "message": "తరచుగా"
+  },
+  "app.settings.game-options.choice.hidden": {
+    "message": "దాచబడింది"
+  },
+  "app.settings.game-options.choice.hotbar": {
+    "message": "హాట్‌బార్"
+  },
+  "app.settings.game-options.choice.left": {
+    "message": "ఎడమ"
+  },
+  "app.settings.game-options.choice.limited": {
+    "message": "లిమిటెడ్"
+  },
+  "app.settings.game-options.choice.max-fps": {
+    "message": "మాక్స్ FPS"
+  },
+  "app.settings.game-options.choice.maximum": {
+    "message": "గరిష్టం"
+  },
+  "app.settings.game-options.choice.minimal": {
+    "message": "కనిష్ట"
+  },
+  "app.settings.game-options.choice.minimum": {
+    "message": "కనిష్ట"
+  },
+  "app.settings.game-options.choice.nearby": {
+    "message": "సమీపంలో"
+  },
+  "app.settings.game-options.choice.never": {
+    "message": "ఎప్పుడూ"
+  },
+  "app.settings.game-options.choice.none": {
+    "message": "ఏదీ కాదు"
+  },
+  "app.settings.game-options.choice.normal": {
+    "message": "సాధారణం"
+  },
+  "app.settings.game-options.choice.off": {
+    "message": "ఆఫ్"
+  },
+  "app.settings.game-options.choice.on": {
+    "message": "ఆన్"
+  },
+  "app.settings.game-options.choice.opengl": {
+    "message": "OpenGL"
+  },
+  "app.settings.game-options.choice.pause": {
+    "message": "పాజ్ మెను"
+  },
+  "app.settings.game-options.choice.pause-and-toast": {
+    "message": "పాజ్ మెను మరియు టోస్ట్"
+  },
+  "app.settings.game-options.choice.power-saver": {
+    "message": "పవర్ సేవర్"
+  },
+  "app.settings.game-options.choice.right": {
+    "message": "కుడి"
+  },
+  "app.settings.game-options.choice.short": {
+    "message": "షార్ట్"
+  },
+  "app.settings.game-options.choice.shown": {
+    "message": "చూపబడింది"
+  },
+  "app.settings.game-options.choice.system": {
+    "message": "సిస్టమ్"
+  },
+  "app.settings.game-options.choice.tiny": {
+    "message": "చిన్నది"
+  },
+  "app.settings.game-options.choice.vulkan": {
+    "message": "వల్కాన్"
+  },
+  "app.settings.game-options.choice.when-minimized": {
+    "message": "కనిష్టీకరించబడినప్పుడు"
+  },
+  "app.settings.game-options.choice.while-afk": {
+    "message": "అయితే AFK"
+  },
+  "app.settings.game-options.compatibility.none": {
+    "message": "మీలో కొన్ని ఇన్‌స్టెన్స్‌లు దీన్ని ఉపయోగించలేరు సెట్టింగ్"
+  },
+  "app.settings.game-options.compatibility.reason.launcher-controlled": {
+    "message": "ఇది సెట్టింగ్ ద్వారా నిర్వహించబడుతుంది Panda Minecraft Launcherలాంచ్ సెట్టింగ్‌లు."
+  },
+  "app.settings.game-options.custom-value.placeholder": {
+    "message": "విలువను నమోదు చేయండి"
+  },
+  "app.settings.game-options.keybind.assigned-status": {
+    "message": "{setting} ఇప్పుడు కట్టుబడి ఉంది {binding}."
+  },
+  "app.settings.game-options.keybind.cancelled-status": {
+    "message": "కీ బైండింగ్ మార్పు రద్దు చేయబడింది."
+  },
+  "app.settings.game-options.keybind.change": {
+    "message": "{setting}: {binding}.బైండింగ్‌ని మార్చడానికి సక్రియం చేయండి."
+  },
+  "app.settings.game-options.keybind.choose": {
+    "message": "కీని ఎంచుకోండి"
+  },
+  "app.settings.game-options.keybind.conflict-description": {
+    "message": "ఇది ఇప్పటికే ఉపయోగించబడింది {settings}."
+  },
+  "app.settings.game-options.keybind.key.arrow-down": {
+    "message": "క్రింది బాణం"
+  },
+  "app.settings.game-options.keybind.key.arrow-left": {
+    "message": "ఎడమ బాణం"
+  },
+  "app.settings.game-options.keybind.key.arrow-right": {
+    "message": "కుడి బాణం"
+  },
+  "app.settings.game-options.keybind.key.arrow-up": {
+    "message": "పైకి బాణం"
+  },
+  "app.settings.game-options.keybind.key.backspace": {
+    "message": "బ్యాక్‌స్పేస్"
+  },
+  "app.settings.game-options.keybind.key.caps-lock": {
+    "message": "క్యాప్స్ లాక్"
+  },
+  "app.settings.game-options.keybind.key.delete": {
+    "message": "తొలగించు"
+  },
+  "app.settings.game-options.keybind.key.end": {
+    "message": "ముగింపు"
+  },
+  "app.settings.game-options.keybind.key.enter": {
+    "message": "నమోదు చేయండి"
+  },
+  "app.settings.game-options.keybind.key.escape": {
+    "message": "ఎస్కేప్"
+  },
+  "app.settings.game-options.keybind.key.home": {
+    "message": "హోమ్"
+  },
+  "app.settings.game-options.keybind.key.insert": {
+    "message": "చొప్పించు"
+  },
+  "app.settings.game-options.keybind.key.keypad-key": {
+    "message": "నమ్‌పాడ్ {key}"
+  },
+  "app.settings.game-options.keybind.key.left-alt": {
+    "message": "ఎడమ ఆల్ట్"
+  },
+  "app.settings.game-options.keybind.key.left-command": {
+    "message": "ఎడమ కమాండ్"
+  },
+  "app.settings.game-options.keybind.key.left-control": {
+    "message": "ఎడమ Ctrl"
+  },
+  "app.settings.game-options.keybind.key.left-shift": {
+    "message": "ఎడమ షిఫ్ట్"
+  },
+  "app.settings.game-options.keybind.key.left-super": {
+    "message": "ఎడమ సూపర్"
+  },
+  "app.settings.game-options.keybind.key.menu": {
+    "message": "మెను"
+  },
+  "app.settings.game-options.keybind.key.num-lock": {
+    "message": "నంబర్ లాక్"
+  },
+  "app.settings.game-options.keybind.key.page-down": {
+    "message": "పేజీ డౌన్"
+  },
+  "app.settings.game-options.keybind.key.page-up": {
+    "message": "పేజీ పైకి"
+  },
+  "app.settings.game-options.keybind.key.pause": {
+    "message": "పాజ్"
+  },
+  "app.settings.game-options.keybind.key.print-screen": {
+    "message": "ప్రింట్ స్క్రీన్"
+  },
+  "app.settings.game-options.keybind.key.right-alt": {
+    "message": "కుడి ఆల్ట్"
+  },
+  "app.settings.game-options.keybind.key.right-command": {
+    "message": "రైట్ కమాండ్"
+  },
+  "app.settings.game-options.keybind.key.right-control": {
+    "message": "కుడి Ctrl"
+  },
+  "app.settings.game-options.keybind.key.right-shift": {
+    "message": "కుడి షిఫ్ట్"
+  },
+  "app.settings.game-options.keybind.key.right-super": {
+    "message": "రైట్ సూపర్"
+  },
+  "app.settings.game-options.keybind.key.scroll-lock": {
+    "message": "స్క్రోల్ లాక్"
+  },
+  "app.settings.game-options.keybind.key.space": {
+    "message": "స్పేస్"
+  },
+  "app.settings.game-options.keybind.key.tab": {
+    "message": "ట్యాబ్"
+  },
+  "app.settings.game-options.keybind.key.unbound": {
+    "message": "అన్‌బౌండ్"
+  },
+  "app.settings.game-options.keybind.key.unknown": {
+    "message": "తెలియని కీ"
+  },
+  "app.settings.game-options.keybind.listen": {
+    "message": "ఒక కీని నొక్కండి..."
+  },
+  "app.settings.game-options.keybind.listening-status": {
+    "message": "కీ లేదా మౌస్ బటన్ కోసం వినడం.ఈ బైండింగ్‌ను క్లియర్ చేయడానికి ఎస్కేప్ నొక్కండి."
+  },
+  "app.settings.game-options.keybind.mixed": {
+    "message": "అంతటా భిన్నమైనది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.settings.game-options.keybind.modifier.alt": {
+    "message": "ఆల్ట్"
+  },
+  "app.settings.game-options.keybind.modifier.command": {
+    "message": "కమాండ్"
+  },
+  "app.settings.game-options.keybind.modifier.control": {
+    "message": "Ctrl"
+  },
+  "app.settings.game-options.keybind.modifier.shift": {
+    "message": "షిఫ్ట్"
+  },
+  "app.settings.game-options.keybind.modifier.super": {
+    "message": "సూపర్"
+  },
+  "app.settings.game-options.keybind.mouse.button": {
+    "message": "మౌస్ {button}"
+  },
+  "app.settings.game-options.keybind.mouse.left": {
+    "message": "ఎడమ మౌస్"
+  },
+  "app.settings.game-options.keybind.mouse.middle": {
+    "message": "మధ్య మౌస్"
+  },
+  "app.settings.game-options.keybind.mouse.right": {
+    "message": "కుడి మౌస్"
+  },
+  "app.settings.game-options.keybind.recording-label": {
+    "message": "{setting}: కీ లేదా మౌస్ బటన్ కోసం వినడం.ఈ బైండింగ్‌ను క్లియర్ చేయడానికి ఎస్కేప్ నొక్కండి."
+  },
+  "app.settings.game-options.keybind.scancode": {
+    "message": "స్కాన్‌కోడ్ {code}"
+  },
+  "app.settings.game-options.keybind.unsupported-status": {
+    "message": "ఆ ఇన్‌పుట్‌ని ఉపయోగించలేరు Minecraft.మరొక కీని నొక్కండి."
+  },
+  "app.settings.game-options.setting.advanced-opengl.label": {
+    "message": "అధునాతన OpenGL"
+  },
+  "app.settings.game-options.setting.allow-cursor-changes.label": {
+    "message": "కర్సర్ మార్పులను అనుమతించండి"
+  },
+  "app.settings.game-options.setting.allow-server-listing.description": {
+    "message": "ప్లేయర్ పేరు కనిపించడానికి అనుమతించండి సర్వర్ జాబితాలు."
+  },
+  "app.settings.game-options.setting.allow-server-listing.label": {
+    "message": "సర్వర్ జాబితాలు"
+  },
+  "app.settings.game-options.setting.alternate-blocks.label": {
+    "message": "ప్రత్యామ్నాయ బ్లాక్‌లు"
+  },
+  "app.settings.game-options.setting.ambient-occlusion.label": {
+    "message": "స్మూత్ లైటింగ్"
+  },
+  "app.settings.game-options.setting.ambient-volume.label": {
+    "message": "పరిసర/పర్యావరణం"
+  },
+  "app.settings.game-options.setting.anaglyph-3d.label": {
+    "message": "3D అనాగ్లిఫ్"
+  },
+  "app.settings.game-options.setting.anisotropic-filtering.label": {
+    "message": "అనిసోట్రోపిక్ ఫిల్టరింగ్"
+  },
+  "app.settings.game-options.setting.anisotropy.label": {
+    "message": "అనిసోట్రోపి"
+  },
+  "app.settings.game-options.setting.attack-indicator.label": {
+    "message": "దాడి సూచిక"
+  },
+  "app.settings.game-options.setting.auto-jump.description": {
+    "message": "స్వయంచాలకంగా వన్-బ్లాక్-హై అడ్డంకులను దూకుతుంది."
+  },
+  "app.settings.game-options.setting.auto-jump.label": {
+    "message": "ఆటో-జంప్"
+  },
+  "app.settings.game-options.setting.auto-suggestions.label": {
+    "message": "కమాండ్ సూచనలు"
+  },
+  "app.settings.game-options.setting.autosave-indicator.label": {
+    "message": "ఆటోసేవ్ సూచిక"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.description": {
+    "message": "బయోమ్ రంగులు మారే దూరం."
+  },
+  "app.settings.game-options.setting.biome-blend-radius.label": {
+    "message": "బయోమ్ మిశ్రమం"
+  },
+  "app.settings.game-options.setting.blocks-volume.label": {
+    "message": "బ్లాక్‌లు"
+  },
+  "app.settings.game-options.setting.brightness.label": {
+    "message": "ప్రకాశం"
+  },
+  "app.settings.game-options.setting.cape.description": {
+    "message": "ప్లేయర్ కేప్‌ను దాని ఎలిట్రా ఆకృతితో సహా చూపించు."
+  },
+  "app.settings.game-options.setting.cape.label": {
+    "message": "కేప్"
+  },
+  "app.settings.game-options.setting.chat-background-only.label": {
+    "message": "చాట్ నేపథ్యం మాత్రమే"
+  },
+  "app.settings.game-options.setting.chat-colors.label": {
+    "message": "చాట్ రంగులు"
+  },
+  "app.settings.game-options.setting.chat-delay.label": {
+    "message": "చాట్ ఆలస్యం"
+  },
+  "app.settings.game-options.setting.chat-line-spacing.label": {
+    "message": "చాట్ లైన్ అంతరం"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.description": {
+    "message": "చాట్ నుండి లింక్‌లను తెరవడానికి ముందు అడగండి."
+  },
+  "app.settings.game-options.setting.chat-links-prompt.label": {
+    "message": "లింక్‌లపై ప్రాంప్ట్"
+  },
+  "app.settings.game-options.setting.chat-links.description": {
+    "message": "చాట్‌లోని వెబ్ లింక్‌లను తెరవడానికి అనుమతించండి."
+  },
+  "app.settings.game-options.setting.chat-links.label": {
+    "message": "వెబ్ లింక్‌లు"
+  },
+  "app.settings.game-options.setting.chat-opacity.description": {
+    "message": "చాట్ టెక్స్ట్ యొక్క అస్పష్టత."
+  },
+  "app.settings.game-options.setting.chat-opacity.label": {
+    "message": "చాట్ అస్పష్టత"
+  },
+  "app.settings.game-options.setting.chat-preview.label": {
+    "message": "చాట్ ప్రివ్యూ"
+  },
+  "app.settings.game-options.setting.chat-scale.label": {
+    "message": "చాట్ స్కేల్"
+  },
+  "app.settings.game-options.setting.chat-visibility.label": {
+    "message": "చాట్ విజిబిలిటీ"
+  },
+  "app.settings.game-options.setting.chat-width.label": {
+    "message": "చాట్ వెడల్పు"
+  },
+  "app.settings.game-options.setting.chunk-fade-time.label": {
+    "message": "చంక్ ఫేడ్ సమయం"
+  },
+  "app.settings.game-options.setting.cloud-range.label": {
+    "message": "క్లౌడ్ దూరం"
+  },
+  "app.settings.game-options.setting.clouds.label": {
+    "message": "మేఘాలు"
+  },
+  "app.settings.game-options.setting.ctrl-click-right-click.label": {
+    "message": "కంట్రోల్ కుడి-క్లిక్‌గా క్లిక్ చేయండి"
+  },
+  "app.settings.game-options.setting.cutout-leaves.label": {
+    "message": "కటౌట్ ఆకులు"
+  },
+  "app.settings.game-options.setting.damage-tilt.label": {
+    "message": "నష్టం వంపు"
+  },
+  "app.settings.game-options.setting.dark-splash.description": {
+    "message": "మార్చండి Mojang స్టూడియోస్ స్క్రీన్ ఎరుపు నుండి నలుపు వరకు లోడ్ అవుతోంది."
+  },
+  "app.settings.game-options.setting.dark-splash.label": {
+    "message": "మోనోక్రోమ్ లోగో"
+  },
+  "app.settings.game-options.setting.darkness-pulsing.label": {
+    "message": "డార్క్నెస్ పల్సింగ్"
+  },
+  "app.settings.game-options.setting.debug-gui-scale.label": {
+    "message": "డీబగ్ GUI స్కేల్"
+  },
+  "app.settings.game-options.setting.directional-audio.label": {
+    "message": "డైరెక్షనల్ ఆడియో"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.description": {
+    "message": "ప్రతి మౌస్-వీల్ ఇన్‌పుట్‌ను ఒకే స్క్రోల్ దశగా పరిగణించండి."
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.label": {
+    "message": "వివిక్త స్క్రోలింగ్"
+  },
+  "app.settings.game-options.setting.entity-distance.label": {
+    "message": "ఎంటిటీ దూరం"
+  },
+  "app.settings.game-options.setting.entity-shadows.label": {
+    "message": "ఎంటిటీ షాడోస్"
+  },
+  "app.settings.game-options.setting.exclusive-fullscreen.label": {
+    "message": "ప్రత్యేక పూర్తి స్క్రీన్"
+  },
+  "app.settings.game-options.setting.extra-telemetry.label": {
+    "message": "ఐచ్ఛిక టెలిమెట్రీ"
+  },
+  "app.settings.game-options.setting.focused-chat-height.label": {
+    "message": "ఫోకస్డ్ చాట్ ఎత్తు"
+  },
+  "app.settings.game-options.setting.force-unicode-font.label": {
+    "message": "ఫోర్స్ యూనికోడ్ ఫాంట్"
+  },
+  "app.settings.game-options.setting.fov-effects.label": {
+    "message": "FOV ప్రభావాలు"
+  },
+  "app.settings.game-options.setting.fov.label": {
+    "message": "ఫీల్డ్ ఆఫ్ వ్యూ"
+  },
+  "app.settings.game-options.setting.fullscreen.label": {
+    "message": "పూర్తి స్క్రీన్"
+  },
+  "app.settings.game-options.setting.glint-speed.label": {
+    "message": "గ్లింట్ వేగం"
+  },
+  "app.settings.game-options.setting.glint-strength.label": {
+    "message": "గ్లింట్ బలం"
+  },
+  "app.settings.game-options.setting.graphics-backend.label": {
+    "message": "గ్రాఫిక్స్ బ్యాకెండ్"
+  },
+  "app.settings.game-options.setting.graphics.description": {
+    "message": "దృశ్య నాణ్యత మరియు పనితీరును నియంత్రిస్తుంది."
+  },
+  "app.settings.game-options.setting.graphics.label": {
+    "message": "గ్రాఫిక్స్"
+  },
+  "app.settings.game-options.setting.gui-scale.description": {
+    "message": "గేమ్ ఇంటర్‌ఫేస్ మరియు HUD పరిమాణం."
+  },
+  "app.settings.game-options.setting.gui-scale.label": {
+    "message": "GUI స్కేల్"
+  },
+  "app.settings.game-options.setting.hat.description": {
+    "message": "టోపీని చూపించు స్కిన్ పొర."
+  },
+  "app.settings.game-options.setting.hat.label": {
+    "message": "టోపీ"
+  },
+  "app.settings.game-options.setting.held-item-tooltips.label": {
+    "message": "హోల్డ్ ఐటెమ్ టూల్‌టిప్‌లు"
+  },
+  "app.settings.game-options.setting.hide-lightning-flashes.label": {
+    "message": "మెరుపు ఫ్లాష్‌లను దాచండి"
+  },
+  "app.settings.game-options.setting.hide-matched-names.label": {
+    "message": "సరిపోలిన పేర్లను దాచండి"
+  },
+  "app.settings.game-options.setting.hide-server-address.label": {
+    "message": "దాచు సర్వర్ చిరునామా"
+  },
+  "app.settings.game-options.setting.hide-splash-texts.label": {
+    "message": "స్ప్లాష్ టెక్స్ట్‌లను దాచండి"
+  },
+  "app.settings.game-options.setting.high-contrast-outline.label": {
+    "message": "హై కాంట్రాస్ట్ బ్లాక్ అవుట్‌లైన్"
+  },
+  "app.settings.game-options.setting.high-contrast.description": {
+    "message": "ఇంటర్‌ఫేస్ ఎలిమెంట్‌ల కాంట్రాస్ట్‌ను మెరుగుపరచండి."
+  },
+  "app.settings.game-options.setting.high-contrast.label": {
+    "message": "అధిక కాంట్రాస్ట్"
+  },
+  "app.settings.game-options.setting.hostile-volume.label": {
+    "message": "శత్రు జీవులు"
+  },
+  "app.settings.game-options.setting.improved-transparency.label": {
+    "message": "మెరుగైన పారదర్శకత"
+  },
+  "app.settings.game-options.setting.in-game-notifications.label": {
+    "message": "గేమ్ నోటిఫికేషన్‌లు"
+  },
+  "app.settings.game-options.setting.inactivity-framerate-limit.label": {
+    "message": "ఫ్రేమ్‌రేట్ తగ్గించబడింది"
+  },
+  "app.settings.game-options.setting.invert-horizontal-mouse.label": {
+    "message": "క్షితిజ సమాంతర మౌస్ విలోమం"
+  },
+  "app.settings.game-options.setting.invert-mouse.description": {
+    "message": "నిలువు మౌస్ కదలికను విలోమం చేయండి."
+  },
+  "app.settings.game-options.setting.invert-mouse.label": {
+    "message": "విలోమ మౌస్"
+  },
+  "app.settings.game-options.setting.jacket.description": {
+    "message": "జాకెట్‌ను చూపించు స్కిన్ పొర."
+  },
+  "app.settings.game-options.setting.jacket.label": {
+    "message": "జాకెట్"
+  },
+  "app.settings.game-options.setting.japanese-glyph-variants.label": {
+    "message": "జపనీస్ గ్లిఫ్ వేరియంట్‌లు"
+  },
+  "app.settings.game-options.setting.key-advancements.label": {
+    "message": "పురోగతి"
+  },
+  "app.settings.game-options.setting.key-attack.label": {
+    "message": "దాడి"
+  },
+  "app.settings.game-options.setting.key-back.label": {
+    "message": "వెనుకకు తరలించు"
+  },
+  "app.settings.game-options.setting.key-chat.label": {
+    "message": "ఓపెన్ చాట్"
+  },
+  "app.settings.game-options.setting.key-command.label": {
+    "message": "కమాండ్"
+  },
+  "app.settings.game-options.setting.key-debug-advanced-tooltips.label": {
+    "message": "అధునాతన టూల్‌టిప్‌లను చూపించు"
+  },
+  "app.settings.game-options.setting.key-debug-chunk-borders.label": {
+    "message": "భాగం అంచులను చూపు"
+  },
+  "app.settings.game-options.setting.key-debug-clear-chat.label": {
+    "message": "క్లియర్ చాట్"
+  },
+  "app.settings.game-options.setting.key-debug-copy-location.label": {
+    "message": "స్థానాన్ని కాపీ చేయండి"
+  },
+  "app.settings.game-options.setting.key-debug-copy-recreate-command.label": {
+    "message": "కాపీ పునఃసృష్టి కమాండ్"
+  },
+  "app.settings.game-options.setting.key-debug-crash.label": {
+    "message": "ట్రిగ్గర్ డీబగ్ క్రాష్"
+  },
+  "app.settings.game-options.setting.key-debug-dump-dynamic-textures.label": {
+    "message": "డంప్ డైనమిక్ అల్లికలు"
+  },
+  "app.settings.game-options.setting.key-debug-dump-version.label": {
+    "message": "డంప్ వెర్షన్"
+  },
+  "app.settings.game-options.setting.key-debug-focus-pause.label": {
+    "message": "కోల్పోయిన ఫోకస్‌పై పాజ్ చేయండి"
+  },
+  "app.settings.game-options.setting.key-debug-fps-charts.label": {
+    "message": "FPS చార్ట్‌లు"
+  },
+  "app.settings.game-options.setting.key-debug-hitboxes.label": {
+    "message": "హిట్‌బాక్స్‌లను చూపించు"
+  },
+  "app.settings.game-options.setting.key-debug-improved-transparency.label": {
+    "message": "మెరుగైన పారదర్శకత డీబగ్ వీక్షణ"
+  },
+  "app.settings.game-options.setting.key-debug-lightmap-texture.label": {
+    "message": "లైట్‌మ్యాప్ ఆకృతి"
+  },
+  "app.settings.game-options.setting.key-debug-modifier.label": {
+    "message": "డీబగ్ మాడిఫైయర్"
+  },
+  "app.settings.game-options.setting.key-debug-network-charts.label": {
+    "message": "నెట్‌వర్క్ చార్ట్‌లు"
+  },
+  "app.settings.game-options.setting.key-debug-options.label": {
+    "message": "డీబగ్ ఎంపికలు"
+  },
+  "app.settings.game-options.setting.key-debug-overlay.label": {
+    "message": "డీబగ్ ఓవర్‌లే"
+  },
+  "app.settings.game-options.setting.key-debug-profiling-chart.label": {
+    "message": "ప్రొఫైలింగ్ చార్ట్"
+  },
+  "app.settings.game-options.setting.key-debug-profiling.label": {
+    "message": "ప్రొఫైలింగ్ ప్రారంభించండి"
+  },
+  "app.settings.game-options.setting.key-debug-reload-chunks.label": {
+    "message": "భాగాలను రీలోడ్ చేయండి"
+  },
+  "app.settings.game-options.setting.key-debug-reload-resource-packs.label": {
+    "message": "రీలోడ్ రిసోర్స్ ప్యాక్‌లు"
+  },
+  "app.settings.game-options.setting.key-debug-spectate.label": {
+    "message": "స్పెక్టేట్ ఎంటిటీ"
+  },
+  "app.settings.game-options.setting.key-debug-switch-game-mode.label": {
+    "message": "గేమ్ మోడ్‌ని మార్చండి"
+  },
+  "app.settings.game-options.setting.key-drop.label": {
+    "message": "డ్రాప్ అంశం"
+  },
+  "app.settings.game-options.setting.key-forward.label": {
+    "message": "ముందుకు కదలండి"
+  },
+  "app.settings.game-options.setting.key-friends.label": {
+    "message": "స్నేహితులు"
+  },
+  "app.settings.game-options.setting.key-fullscreen.label": {
+    "message": "పూర్తి స్క్రీన్‌ను టోగుల్ చేయండి"
+  },
+  "app.settings.game-options.setting.key-hotbar-1.label": {
+    "message": "హాట్‌బార్ 1"
+  },
+  "app.settings.game-options.setting.key-hotbar-2.label": {
+    "message": "హాట్‌బార్ 2"
+  },
+  "app.settings.game-options.setting.key-hotbar-3.label": {
+    "message": "హాట్‌బార్ 3"
+  },
+  "app.settings.game-options.setting.key-hotbar-4.label": {
+    "message": "హాట్‌బార్ 4"
+  },
+  "app.settings.game-options.setting.key-hotbar-5.label": {
+    "message": "హాట్‌బార్ 5"
+  },
+  "app.settings.game-options.setting.key-hotbar-6.label": {
+    "message": "హాట్‌బార్ 6"
+  },
+  "app.settings.game-options.setting.key-hotbar-7.label": {
+    "message": "హాట్‌బార్ 7"
+  },
+  "app.settings.game-options.setting.key-hotbar-8.label": {
+    "message": "హాట్‌బార్ 8"
+  },
+  "app.settings.game-options.setting.key-hotbar-9.label": {
+    "message": "హాట్‌బార్ 9"
+  },
+  "app.settings.game-options.setting.key-inventory.label": {
+    "message": "ఇన్వెంటరీ"
+  },
+  "app.settings.game-options.setting.key-jump.label": {
+    "message": "జంప్"
+  },
+  "app.settings.game-options.setting.key-left.label": {
+    "message": "స్ట్రాఫ్ మిగిలి ఉంది"
+  },
+  "app.settings.game-options.setting.key-load-toolbar.label": {
+    "message": "లోడ్ టూల్‌బార్"
+  },
+  "app.settings.game-options.setting.key-perspective.label": {
+    "message": "దృక్పథాన్ని మార్చండి"
+  },
+  "app.settings.game-options.setting.key-pick-item.label": {
+    "message": "పిక్ బ్లాక్"
+  },
+  "app.settings.game-options.setting.key-player-list.label": {
+    "message": "ప్లేయర్ జాబితా"
+  },
+  "app.settings.game-options.setting.key-quick-actions.label": {
+    "message": "త్వరిత చర్యలు"
+  },
+  "app.settings.game-options.setting.key-right.label": {
+    "message": "స్ట్రాఫ్ కుడి"
+  },
+  "app.settings.game-options.setting.key-save-toolbar.label": {
+    "message": "సేవ్ టూల్‌బార్"
+  },
+  "app.settings.game-options.setting.key-screenshot.label": {
+    "message": "స్క్రీన్‌షాట్"
+  },
+  "app.settings.game-options.setting.key-smooth-camera.label": {
+    "message": "సినిమాటిక్ కెమెరాను టోగుల్ చేయండి"
+  },
+  "app.settings.game-options.setting.key-sneak.label": {
+    "message": "స్నీక్"
+  },
+  "app.settings.game-options.setting.key-social-interactions.label": {
+    "message": "సామాజిక పరస్పర చర్యలు"
+  },
+  "app.settings.game-options.setting.key-spectator-hotbar.label": {
+    "message": "స్పెక్టేటర్ హాట్‌బార్"
+  },
+  "app.settings.game-options.setting.key-spectator-outlines.label": {
+    "message": "ప్రేక్షకులను హైలైట్ చేయండి"
+  },
+  "app.settings.game-options.setting.key-sprint.label": {
+    "message": "స్ప్రింట్"
+  },
+  "app.settings.game-options.setting.key-swap-offhand.label": {
+    "message": "ఆఫ్‌హ్యాండ్‌ను మార్చుకోండి"
+  },
+  "app.settings.game-options.setting.key-toggle-gui.label": {
+    "message": "HUDని టోగుల్ చేయండి"
+  },
+  "app.settings.game-options.setting.key-toggle-spectator-shader.label": {
+    "message": "ప్రేక్షకుడిని టోగుల్ చేయండి షేడర్"
+  },
+  "app.settings.game-options.setting.key-use.label": {
+    "message": "అంశాన్ని ఉపయోగించండి"
+  },
+  "app.settings.game-options.setting.language.label": {
+    "message": "భాష"
+  },
+  "app.settings.game-options.setting.left-pants-leg.label": {
+    "message": "ఎడమ ప్యాంటు కాలు"
+  },
+  "app.settings.game-options.setting.left-sleeve.label": {
+    "message": "ఎడమ స్లీవ్"
+  },
+  "app.settings.game-options.setting.legacy-framerate-limit.label": {
+    "message": "ఫ్రేమ్‌రేట్ పరిమితి"
+  },
+  "app.settings.game-options.setting.legacy-view-distance.label": {
+    "message": "వీక్షణ దూరం"
+  },
+  "app.settings.game-options.setting.mac-fullscreen-menu.label": {
+    "message": "మాకోస్ మెనుని పూర్తి స్క్రీన్‌లో చూపించు"
+  },
+  "app.settings.game-options.setting.main-hand.description": {
+    "message": "మెయిన్ హ్యాండ్ ఎడమ లేదా కుడివైపు ఉందో లేదో ఎంచుకోండి."
+  },
+  "app.settings.game-options.setting.main-hand.label": {
+    "message": "ప్రధాన చేతి"
+  },
+  "app.settings.game-options.setting.master-volume.label": {
+    "message": "మాస్టర్ వాల్యూమ్"
+  },
+  "app.settings.game-options.setting.max-framerate.label": {
+    "message": "గరిష్ట ఫ్రేమ్‌రేట్"
+  },
+  "app.settings.game-options.setting.menu-background-blur.label": {
+    "message": "మెనూ బ్యాక్‌గ్రౌండ్ బ్లర్"
+  },
+  "app.settings.game-options.setting.mipmap-levels.description": {
+    "message": "టెక్స్చర్ దూరం వద్ద సున్నితంగా ఉంటుంది."
+  },
+  "app.settings.game-options.setting.mipmap-levels.label": {
+    "message": "మిప్‌మ్యాప్ స్థాయిలు"
+  },
+  "app.settings.game-options.setting.mouse-wheel-sensitivity.label": {
+    "message": "మౌస్ వీల్ సెన్సిటివిటీ"
+  },
+  "app.settings.game-options.setting.music-frequency.label": {
+    "message": "మ్యూజిక్ ఫ్రీక్వెన్సీ"
+  },
+  "app.settings.game-options.setting.music-toast.description": {
+    "message": "పాజ్ మెనులో మరియు టోస్ట్‌ల వలె సంగీత శీర్షికలు కనిపిస్తాయో లేదో ఎంచుకోండి."
+  },
+  "app.settings.game-options.setting.music-toast.label": {
+    "message": "సంగీత నోటిఫికేషన్"
+  },
+  "app.settings.game-options.setting.music-volume.label": {
+    "message": "సంగీతం"
+  },
+  "app.settings.game-options.setting.narrator-hotkey.label": {
+    "message": "వ్యాఖ్యాత హాట్‌కీ"
+  },
+  "app.settings.game-options.setting.narrator.description": {
+    "message": "కథకుడు ఏమి చదవాలో ఎంచుకోండి."
+  },
+  "app.settings.game-options.setting.narrator.label": {
+    "message": "వ్యాఖ్యాత"
+  },
+  "app.settings.game-options.setting.neutral-volume.label": {
+    "message": "స్నేహపూర్వక జీవులు"
+  },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "టోస్ట్ నోటిఫికేషన్‌లు ఎంతసేపు కనిపిస్తాయి."
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "నోటిఫికేషన్ సమయం"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "ఆపరేటర్ అంశాల ట్యాబ్"
+  },
+  "app.settings.game-options.setting.panorama-speed.label": {
+    "message": "పనోరమా వేగం"
+  },
+  "app.settings.game-options.setting.particles.label": {
+    "message": "కణాలు"
+  },
+  "app.settings.game-options.setting.players-volume.label": {
+    "message": "ప్లేయర్స్"
+  },
+  "app.settings.game-options.setting.prioritize-chunk-updates.label": {
+    "message": "భాగం ప్రాధాన్యత ఇవ్వండి నవీకరణలు"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "క్విట్ షార్ట్‌కట్‌లు"
+  },
+  "app.settings.game-options.setting.raw-mouse-input.label": {
+    "message": "రా మౌస్ ఇన్‌పుట్"
+  },
+  "app.settings.game-options.setting.realms-notifications.label": {
+    "message": "రాజ్యాల నోటిఫికేషన్‌లు"
+  },
+  "app.settings.game-options.setting.record-volume.label": {
+    "message": "జ్యూక్‌బాక్స్/నోట్ బ్లాక్‌లు"
+  },
+  "app.settings.game-options.setting.reduced-debug-info.label": {
+    "message": "తగ్గించబడిన డీబగ్ సమాచారం"
+  },
+  "app.settings.game-options.setting.render-distance.label": {
+    "message": "రెండర్ దూరం"
+  },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "కుడి ప్యాంటు కాలు"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "కుడి స్లీవ్"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "మైన్‌కార్ట్‌తో తిప్పండి"
+  },
+  "app.settings.game-options.setting.save-chat-drafts.label": {
+    "message": "చాట్ డ్రాఫ్ట్‌లను సేవ్ చేయండి"
+  },
+  "app.settings.game-options.setting.screen-effects.label": {
+    "message": "స్క్రీన్ ప్రభావాలు"
+  },
+  "app.settings.game-options.setting.secure-chat-only.label": {
+    "message": "సురక్షిత చాట్‌ను మాత్రమే చూపుతుంది"
+  },
+  "app.settings.game-options.setting.sensitivity.label": {
+    "message": "మౌస్ సున్నితత్వం"
+  },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "సర్వర్ అల్లికలు"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "షేర్ ఉనికి"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "ఎంత దూరంలో ఉన్న ఎంటిటీలు నవీకరణ మరియు బ్లాక్స్ మరియు ఫ్లూయిడ్స్ టిక్."
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "అనుకరణ దూరం"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "స్నూపర్"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "స్ప్రింట్ విండో"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "గేమ్‌లో ఆడిన శబ్దాల కోసం శీర్షికలను చూపండి."
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "ఉపశీర్షికలు"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "వచన నేపథ్య అస్పష్టత"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "ఆకృతి ఫిల్టరింగ్"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "టోగుల్ దాడి"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "వంకరగా ఉండటానికి ఒకసారి నొక్కండి."
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "టోగుల్ క్రౌచ్"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "స్ప్రింటింగ్‌గా ఉండటానికి ఒకసారి నొక్కండి."
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "టోగుల్ స్ప్రింట్"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "టోగుల్ వినియోగాన్ని"
+  },
+  "app.settings.game-options.setting.touchscreen.label": {
+    "message": "టచ్‌స్క్రీన్ మోడ్"
+  },
+  "app.settings.game-options.setting.ui-volume.label": {
+    "message": "UI"
+  },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "ఫోకస్ చేయని చాట్ ఎత్తు"
+  },
+  "app.settings.game-options.setting.use-vbo.label": {
+    "message": "VBOలను ఉపయోగించండి"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "నడుస్తున్నప్పుడు కెమెరాకు బాబింగ్ మోషన్‌ను జోడించండి."
+  },
+  "app.settings.game-options.setting.view-bobbing.label": {
+    "message": "బాబింగ్‌ని వీక్షించండి"
+  },
+  "app.settings.game-options.setting.vignette.label": {
+    "message": "విగ్నేట్"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "వాయిస్ మరియు ప్రసంగం"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "స్క్రీన్ చిరిగిపోకుండా నిరోధించడానికి ఫ్రేమ్ రేట్‌ను డిస్‌ప్లే రిఫ్రెష్ రేట్‌కు పరిమితం చేయండి."
+  },
+  "app.settings.game-options.setting.vsync.label": {
+    "message": "VSync"
+  },
+  "app.settings.game-options.setting.weather-radius.label": {
+    "message": "వాతావరణ వ్యాసార్థం"
+  },
+  "app.settings.game-options.setting.weather-volume.label": {
+    "message": "వాతావరణం"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "ఇది సెట్టింగ్ మరెక్కడా మార్చబడింది.దాన్ని తనిఖీ చేసి, మళ్లీ ప్రయత్నించండి."
+  },
+  "app.settings.game-options.validation.invalid-value": {
+    "message": "చెల్లుబాటు అయ్యే విలువను ఎంచుకోండి."
+  },
+  "app.settings.game-options.validation.missing-value": {
+    "message": "ముందుగా విలువను ఎంచుకోండి."
+  },
+  "app.settings.game-options.validation.no-compatible-instances": {
+    "message": "మీలో కొన్ని ఇన్‌స్టెన్స్‌లు దీన్ని ఉపయోగించలేరు సెట్టింగ్"
+  },
+  "app.settings.java-installations.location.title": {
+    "message": "Java {version, number} స్థానం"
+  },
+  "app.settings.operating-system.macos": {
+    "message": "మాకోస్"
+  },
+  "app.settings.privacy.no-data-collection": {
+    "message": "మేము ఏ డేటాను సేకరించము.మన దగ్గర లేదు సర్వర్ దానిని సేకరించగలిగే ."
+  },
+  "app.settings.resource-management.always-show-copy-details.description": {
+    "message": "ఇన్‌స్టాల్ క్యూలో ఉన్నప్పుడు లేదా రన్ అవుతున్నప్పుడు తనిఖీ వివరాల చర్యను చూపుతుంది.విఫలమైన లేదా అంతరాయం కలిగిన ఇన్‌స్టాల్‌లకు ఇది ఎల్లప్పుడూ అందుబాటులో ఉంటుంది."
+  },
+  "app.settings.resource-management.always-show-copy-details.title": {
+    "message": "ఎల్లప్పుడూ తనిఖీ వివరాలను చూపించు"
+  },
+  "app.settings.resource-management.app-cache.confirm.description": {
+    "message": "కాష్ పునర్నిర్మించే వరకు యాప్ మరింత నెమ్మదిగా లోడ్ కావచ్చు."
+  },
+  "app.settings.resource-management.app-cache.description": {
+    "message": "కాష్ చేసిన డేటాను క్లియర్ చేయండి మరియు డౌన్‌లోడ్ నుండి మళ్లీ Panda Minecraft Launcher.కాష్ పునర్నిర్మించే వరకు యాప్ మరింత నెమ్మదిగా లోడ్ కావచ్చు."
+  },
+  "app.settings.resource-management.app-cache.title": {
+    "message": "యాప్ కాష్"
+  },
+  "app.settings.resource-management.app-database-backups.description": {
+    "message": "బ్యాకప్‌లు ముఖ్యమైన యాప్ డేటా యొక్క మీరు వాటిని తర్వాత రికవర్ చేయవలసి వస్తే ఇక్కడ నిల్వ చేయబడుతుంది."
+  },
+  "app.settings.resource-management.app-database-backups.open-folder": {
+    "message": "తెరవండి బ్యాకప్‌లు ఫోల్డర్"
+  },
+  "app.settings.resource-management.app-database-backups.title": {
+    "message": "యాప్ డేటాబేస్ బ్యాకప్‌లు"
+  },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "తరలింపు రద్దు"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "డైరెక్టరీని మార్చండి"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "డిఫాల్ట్‌కి మార్చండి"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "ఎక్కడ Panda Minecraft Launcher దుకాణాలు ఇన్‌స్టెన్స్‌లు మరియు ఇతర ఫైల్‌లు."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "మీరు ఉపయోగించలేరు Panda Minecraft Launcher మేము మీ డేటాను తరలిస్తున్నప్పుడు .దీనికి కొంత సమయం పట్టవచ్చు."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "మీ అన్ని ఫైల్‌లు తరలించబడతాయి"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "ఫోల్డర్‌ను ఎంచుకోండి"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "కరెంట్"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "డ్రైవ్ పైభాగంలో కాకుండా ఫోల్డర్‌ని ఎంచుకోండి, కాబట్టి మీ ఫైల్‌లు దానిలోని అన్నింటితో కలపవు."
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "యాప్ డైరెక్టరీని మార్చండి"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "నడుస్తున్న అన్నింటినీ మూసివేయండి ఇన్‌స్టెన్స్‌లు యాప్ డైరెక్టరీని మార్చడానికి ముందు ."
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "మరిన్ని తరలింపు ఎంపికలు"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "తరలించి మరియు పునఃప్రారంభించండి"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "తదుపరి ప్రయోగానికి తరలించు"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "కొత్త ఫోల్డర్ మీ ప్రస్తుత యాప్ డైరెక్టరీలో ఉండకూడదు లేదా దానిని కలిగి ఉండదు."
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "కొత్తది"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "కొత్త యాప్ డైరెక్టరీని ఎంచుకోండి"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "మరిన్ని డైరెక్టరీ ఎంపికలు"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "తరలించి, ఇప్పుడే పునఃప్రారంభించండి"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "ఫోల్డర్‌ను తెరవండి"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "ఫైల్ ఎక్స్‌ప్లోరర్‌లో తెరవండి"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "ఫైండర్‌లో తెరవండి"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "యాప్ డైరెక్టరీ పాత్ మీ క్లిప్‌బోర్డ్‌కి కాపీ చేయబడింది."
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "మార్గం కాపీ చేయబడింది"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "మార్గాన్ని కాపీ చేయడంలో విఫలమైంది"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "మీ యాప్ డైరెక్టరీ దీనికి తరలించబడుతుంది {path} తదుపరిసారి Panda Minecraft Launcher తెరవబడుతుంది."
+  },
+  "app.settings.resource-management.app-directory.title": {
+    "message": "యాప్ డైరెక్టరీ"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "యాప్ లాగ్‌లు మరియు డయాగ్నస్టిక్ డేటాను భాగస్వామ్యం చేయడానికి జిప్ ఫైల్‌కి ఎగుమతి చేయండి Panda Minecraft Launcher మద్దతు."
+  },
+  "app.settings.resource-management.debug-info.export": {
+    "message": "డీబగ్ సమాచారాన్ని ఎగుమతి చేయండి"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "సహాయం కావాలా?మద్దతు సమస్యను తెరవండి."
+  },
+  "app.settings.resource-management.debug-info.title": {
+    "message": "డీబగ్ సమాచారం"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.description": {
+    "message": "యాప్ చేయగల ఫైల్‌ల సంఖ్య డౌన్‌లోడ్ ఒకేసారి.అయితే దీన్ని తగ్గించండి డౌన్‌లోడ్‌లు మీ కనెక్షన్‌పై నమ్మదగనివి.యాప్ పునఃప్రారంభం అవసరం."
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.title": {
+    "message": "గరిష్ట ఏకకాలిక డౌన్‌లోడ్‌లు"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.description": {
+    "message": "యాప్ ఒకేసారి డిస్క్‌కి వ్రాయగల ఫైల్‌ల సంఖ్య.మీరు తరచుగా I/O ఎర్రర్‌లను ఎదుర్కొంటే దీన్ని తగ్గించండి.యాప్ పునఃప్రారంభం అవసరం."
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.title": {
+    "message": "గరిష్ట ఏకకాలిక వ్రాతలు"
+  },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "ఇంత వరకు ఉపయోగించని వరకు ఉంచండి కంటెంట్ భవిష్యత్ ఇన్‌స్టాల్‌ల కోసం .ఎక్కువ ఉంచుకోవడం వల్ల ఆదా చేసుకోవచ్చు డౌన్‌లోడ్ సమయం."
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "ఉపయోగించకుండా ఉంచండి డౌన్‌లోడ్‌లు"
+  },
+  "app.settings.resource-management.store.cache-limit.unit": {
+    "message": "GiB"
+  },
+  "app.settings.resource-management.store.calculating": {
+    "message": "గణిస్తోంది"
+  },
+  "app.settings.resource-management.store.clear": {
+    "message": "ఉపయోగించని క్లియర్"
+  },
+  "app.settings.resource-management.store.clear.description": {
+    "message": "ఉపయోగించని తొలగించు డౌన్‌లోడ్ చేయబడింది కంటెంట్"
+  },
+  "app.settings.resource-management.store.cleared": {
+    "message": "ఫ్రీడ్ {size} డిస్క్ స్థలం."
+  },
+  "app.settings.resource-management.store.clearing": {
+    "message": "క్లియరింగ్…"
+  },
+  "app.settings.resource-management.store.description": {
+    "message": "గేమ్ ఇన్‌స్టాల్‌లను మళ్లీ ఉపయోగించడం ద్వారా స్థలాన్ని ఆదా చేయండి, మోడ్‌లు మీ అంతటా మరియు ప్యాక్‌లు ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.settings.resource-management.store.nothing-to-clear": {
+    "message": "ఉపయోగించబడలేదు కంటెంట్ క్లియర్ చేయడానికి ."
+  },
+  "app.settings.resource-management.store.shared.label": {
+    "message": "భాగస్వామ్యం చేయబడింది"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "కంటెంట్ నిల్వ"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} నిల్వ చేయబడింది"
+  },
+  "app.settings.resource-management.store.unique.label": {
+    "message": "ప్రత్యేకం"
+  },
+  "app.settings.resource-management.store.unused.label": {
+    "message": "అనాథ"
+  },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "ఇన్‌స్టెన్స్ డిఫాల్ట్‌లు"
+  },
+  "app.settings.sidebar.label.system": {
+    "message": "సిస్టమ్"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "ఏది ఎంచుకోండి ఇన్‌స్టెన్స్ మీ కమాండ్ హిస్టరీని కాపీ చేయడానికి .ఈ చరిత్ర ప్రారంభ సమకాలీకరణ కోసం మాత్రమే ఉపయోగించబడుతుంది మరియు మీరు దీన్ని దేని నుండి అయినా సవరించవచ్చు ఇన్‌స్టెన్స్ తర్వాత."
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "కమాండ్ చరిత్ర మూలాన్ని ఎంచుకోండి"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "ఏది ఎంచుకోండి ఇన్‌స్టెన్స్ నుండి మీ సేవ్ చేయబడిన సృజనాత్మక హాట్‌బార్‌లను కాపీ చేయడానికి.ఈ హాట్‌బార్‌లు ప్రారంభ సమకాలీకరణ కోసం మాత్రమే ఉపయోగించబడతాయి మరియు మీరు వాటిని దేని నుండి అయినా సవరించవచ్చు ఇన్‌స్టెన్స్ తర్వాత."
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "సృజనాత్మక హాట్‌బార్‌ల మూలాన్ని ఎంచుకోండి"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "ఎంచుకోండి డేటా ప్యాక్‌లు మూలం"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "ఏది ఎంచుకోండి ఇన్‌స్టెన్స్ మీ గేమ్‌ను కాపీ చేయడానికి సెట్టింగ్‌లు నుండి.ఇవి సెట్టింగ్‌లు ప్రారంభ సమకాలీకరణ కోసం మాత్రమే ఉపయోగించబడుతుంది మరియు మీరు వాటిని దేని నుండి అయినా సవరించవచ్చు ఇన్‌స్టెన్స్ తర్వాత."
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "గేమ్‌ని ఎంచుకోండి సెట్టింగ్‌లు మూలం"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "మీరు దీన్ని ఎంచుకోలేరు ఇన్‌స్టెన్స్ సమకాలీకరణ మూలంగా"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "సమకాలీకరణ మూలాలను లోడ్ చేయడం సాధ్యపడలేదు.దయచేసి మళ్లీ ప్రయత్నించండి."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "ఏది ఎంచుకోండి ఇన్‌స్టెన్స్ మీ మల్టీప్లేయర్‌ని కాపీ చేయడానికి సర్వర్‌లు నుండి.ఇవి సర్వర్‌లు ప్రారంభ సమకాలీకరణ కోసం మాత్రమే ఉపయోగించబడుతుంది మరియు మీరు వాటిని దేని నుండి అయినా సవరించవచ్చు ఇన్‌స్టెన్స్ తర్వాత."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "మల్టీప్లేయర్‌ని ఎంచుకోండి సర్వర్‌లు మూలం"
+  },
+  "app.settings.synced-options.choose-sync-source.no-instances-found": {
+    "message": "నం ఇన్‌స్టెన్స్‌లు కనుగొనబడింది"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "ఎంచుకోండి రిసోర్స్ ప్యాక్‌లు మూలం"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "మళ్లీ ప్రయత్నించండి"
+  },
+  "app.settings.synced-options.choose-sync-source.search-placeholder": {
+    "message": "శోధన ఇన్‌స్టెన్స్"
+  },
+  "app.settings.synced-options.choose-sync-source.sync": {
+    "message": "సమకాలీకరణ"
+  },
+  "app.settings.synced-options.command-history": {
+    "message": "సమకాలీకరణ కమాండ్ చరిత్ర"
+  },
+  "app.settings.synced-options.command-history.description": {
+    "message": "మీ అంతటా ఒకే కమాండ్ చరిత్రను ఉపయోగించండి ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.settings.synced-options.command-history.editor-title": {
+    "message": "కమాండ్ చరిత్రను సవరించండి"
+  },
+  "app.settings.synced-options.creative-hotbars": {
+    "message": "సమకాలీకరణ సృజనాత్మక హాట్‌బార్‌లను సేవ్ చేసింది"
+  },
+  "app.settings.synced-options.creative-hotbars.description": {
+    "message": "మీ అంతటా అదే సేవ్ చేయబడిన సృజనాత్మక హాట్‌బార్‌లను ఉపయోగించండి ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.settings.synced-options.data-packs": {
+    "message": "సమకాలీకరణ డేటా ప్యాక్‌లు"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "మీ అంతటా ఒకే డేటాప్యాక్‌లను ఉపయోగించండి ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "మీరు ఏదీ సమకాలీకరించలేదు డేటా ప్యాక్‌లు ఇంకా"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "ఒక జోడించండి ఇన్‌స్టెన్స్ సమకాలీకరించబడిన డేటాను సవరించడానికి ముందు ."
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "దీన్ని సవరించడానికి ముందు సమకాలీకరణ మూలాన్ని ఎంచుకోండి సెట్టింగ్."
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "సమకాలీకరణ గేమ్ ఎంపికలు"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "గేమ్‌ని సవరించండి సెట్టింగ్‌లు"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "మేము సరికొత్తగా లోడ్ చేసాము సెట్టింగ్‌లు.మీ మార్పులను తనిఖీ చేసి, ఆపై మళ్లీ సేవ్ చేయండి."
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "ఇవి సెట్టింగ్‌లు మరెక్కడా మార్చబడింది"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "సెట్టింగ్‌లు జోడించబడింది మోడ్‌లు తర్వాత ఇక్కడ కనిపిస్తుంది Panda Minecraft Launcher వాటిని మీలో ఒకదానిలో కనుగొంటుంది ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "మీ అంతటా ఒకే గేమ్ ఎంపికలను ఉపయోగించండి ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "అన్నింటినీ అన్‌సింక్ చేయండి"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "గేమ్‌ని ప్రారంభించండి సెట్టింగ్‌లు వ్యక్తిని ఎంచుకునే ముందు సమకాలీకరణ సెట్టింగ్‌లు."
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "నం సెట్టింగ్‌లు మీ శోధన లేదా ఫిల్టర్‌తో సరిపోలుతుంది."
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "అన్నింటినీ సమకాలీకరించండి"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "మేము మీ గేమ్‌ని లోడ్ చేయలేకపోయాము సెట్టింగ్‌లు."
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "లోడ్ అవుతోంది సెట్టింగ్‌లు..."
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "మీరు సవరించడానికి ఇంకా ఏ ఎంపికలను పొందలేదు"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "సమకాలీకరించబడలేదు"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "మళ్లీ ప్రయత్నించండి"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "సేవ్ చేయండి సెట్టింగ్‌లు"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "శోధన సెట్టింగ్‌లు..."
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "సమకాలీకరించబడిన ఎంపికలు ప్రతిదానికి వర్తించబడతాయి ఇన్‌స్టెన్స్ మరియు aతో చేర్చబడిన విలువలను భర్తీ చేయండి మోడ్‌ప్యాక్."
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "సమకాలీకరణ {setting} అంతటా ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "సమకాలీకరణ గేమ్ సెట్టింగ్‌లు"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "అంతటా సమకాలీకరించబడింది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "గేమ్ సెట్టింగ్‌లు"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "మీరు సేవ్ చేయని మార్పులను కలిగి ఉన్నారు."
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "సమకాలీకరించడాన్ని ఆపివేయండి {setting} అంతటా ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "అంతటా భిన్నమైనది ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "ఆఫ్"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "ఆన్"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "విలువను ఎంచుకోండి"
+  },
+  "app.settings.synced-options.multiplayer-servers": {
+    "message": "సమకాలీకరణ మల్టీప్లేయర్ సర్వర్‌లు"
+  },
+  "app.settings.synced-options.multiplayer-servers.address": {
+    "message": "సర్వర్ చిరునామా"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "కాపీ చిరునామా"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
+  },
+  "app.settings.synced-options.multiplayer-servers.description": {
+    "message": "అదే మల్టీప్లేయర్‌ని ఉపయోగించండి సర్వర్‌లు మీ అంతటా ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.settings.synced-options.multiplayer-servers.editor-title": {
+    "message": "సవరణ సమకాలీకరించబడింది సర్వర్‌లు"
+  },
+  "app.settings.synced-options.multiplayer-servers.empty": {
+    "message": "వినియోగదారు జోడించబడలేదు సర్వర్‌లు ప్రస్తుతం సమకాలీకరించబడింది."
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "ఆఫ్‌లైన్"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "ఆన్‌లైన్"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "మరిన్ని సర్వర్ ఎంపికలు"
+  },
+  "app.settings.synced-options.multiplayer-servers.name": {
+    "message": "సర్వర్ పేరు"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "ఏ సమకాలీకరించబడలేదు సర్వర్‌లు మీ శోధన లేదా ఫిల్టర్‌లతో సరిపోలుతుంది."
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "మీరు ఏదీ సమకాలీకరించలేదు సర్వర్‌లు ఇంకా"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "{count, number} ఆన్‌లైన్"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "శోధన {count, number} {count, plural, one {synced server} other {synced servers}}..."
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "స్థితి"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "భాగస్వామ్య ప్యాక్‌లను సవరించడానికి ముందు సమకాలీకరణను ప్రారంభించండి."
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "సమకాలీకరణ రిసోర్స్ ప్యాక్‌లు"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "అదే ఉపయోగించండి రిసోర్స్ ప్యాక్‌లు మీ అంతటా ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "మీరు ఏదీ సమకాలీకరించలేదు రిసోర్స్ ప్యాక్‌లు ఇంకా"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "స్వరూపం"
+  },
+  "app.settings.tabs.behavior": {
+    "message": "ప్రవర్తన"
+  },
+  "app.settings.tabs.features": {
+    "message": "ఫీచర్లు"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java మరియు మెమరీ"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "Java ఇన్‌స్టాలేషన్‌లు"
+  },
+  "app.settings.tabs.language": {
+    "message": "భాష"
+  },
+  "app.settings.tabs.launch-hooks": {
+    "message": "లాంచ్ హుక్స్"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "గోప్యత"
+  },
+  "app.settings.tabs.resources": {
+    "message": "వనరులు"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "సమకాలీకరణ"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "ట్రబుల్షూటింగ్"
+  },
+  "app.settings.tabs.window": {
+    "message": "విండో"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "కాష్‌ను క్లియర్ చేయండి"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "యాప్ కాష్‌ని క్లియర్ చేయాలా?"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "సిద్ధమవుతోంది నవీకరణ…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "నవీకరణ నెట్టబడింది"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "పుషింగ్ నవీకరణ…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "తొలగించు ఇన్‌స్టెన్స్"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "మరిన్ని ఇన్‌స్టెన్స్ చర్యలు"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "కారణం"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "భాగస్వామ్యం చేయబడింది ఇన్‌స్టెన్స్ లాక్ చేయబడింది"
+  },
+  "app.skins.add-button": {
+    "message": "జోడించండి స్కిన్"
+  },
+  "app.skins.add-button.drag-and-drop": {
+    "message": "లాగి వదలండి"
+  },
+  "app.skins.apply-button": {
+    "message": "వర్తించు"
+  },
+  "app.skins.delete-button": {
+    "message": "తొలగించు స్కిన్"
+  },
+  "app.skins.delete-modal.description": {
+    "message": "ఇది ఎంచుకున్న వాటిని శాశ్వతంగా తొలగిస్తుంది స్కిన్.ఈ చర్య రద్దు చేయబడదు."
+  },
+  "app.skins.delete-modal.title": {
+    "message": "మీరు దీన్ని ఖచ్చితంగా తొలగించాలనుకుంటున్నారా స్కిన్?"
+  },
+  "app.skins.demo.apply-tooltip": {
+    "message": "దరఖాస్తు చేయడానికి సైన్ ఇన్ చేయండి స్కిన్‌లు."
+  },
+  "app.skins.dropped-file-error.text": {
+    "message": "డ్రాప్ చేయబడిన ఫైల్‌ను చదవడంలో విఫలమైంది."
+  },
+  "app.skins.dropped-file-error.title": {
+    "message": "ఫైల్‌ను ప్రాసెస్ చేయడంలో లోపం"
+  },
+  "app.skins.ears-feature-notice": {
+    "message": "ఇది స్కిన్ నుండి లక్షణాలను ఉపయోగిస్తుంది {ears} మోడ్"
+  },
+  "app.skins.edit-button": {
+    "message": "సవరించు స్కిన్"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "మార్చండి స్కిన్ దీని కోసం మరియు కేప్ ఖాతా ఆన్ ely.by.ఇవి సెట్టింగ్‌లు లాంచర్‌లో చదవడానికి మాత్రమే."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "స్కిన్‌లు ద్వారా నిర్వహించబడుతుంది Ely.by"
+  },
+  "app.skins.modal.add-skin-button": {
+    "message": "జోడించండి స్కిన్"
+  },
+  "app.skins.modal.add-title": {
+    "message": "కలుపుతోంది a స్కిన్"
+  },
+  "app.skins.modal.arm-style-section": {
+    "message": "ఆర్మ్ స్టైల్"
+  },
+  "app.skins.modal.arm-style-slim": {
+    "message": "స్లిమ్"
+  },
+  "app.skins.modal.arm-style-wide": {
+    "message": "వెడల్పు"
+  },
+  "app.skins.modal.cape-fallback-name": {
+    "message": "కేప్"
+  },
+  "app.skins.modal.cape-section": {
+    "message": "కేప్"
+  },
+  "app.skins.modal.demo-save-tooltip": {
+    "message": "సేవ్ చేయడానికి సైన్ ఇన్ చేయండి స్కిన్‌లు."
+  },
+  "app.skins.modal.edit-title": {
+    "message": "ఎడిటింగ్ స్కిన్"
+  },
+  "app.skins.modal.make-edit-first-tooltip": {
+    "message": "కి సవరణ చేయండి స్కిన్ మొదట !"
+  },
+  "app.skins.modal.no-cape-tooltip": {
+    "message": "కేప్ లేదు"
+  },
+  "app.skins.modal.none-cape-option": {
+    "message": "ఏదీ కాదు"
+  },
+  "app.skins.modal.replace-texture-button": {
+    "message": "ఆకృతిని భర్తీ చేయండి"
+  },
+  "app.skins.modal.save-skin-button": {
+    "message": "సేవ్ చేయండి స్కిన్"
+  },
+  "app.skins.modal.saving-tooltip": {
+    "message": "ఆదా అవుతోంది..."
+  },
+  "app.skins.modal.texture-section": {
+    "message": "ఆకృతి"
+  },
+  "app.skins.modal.upload-skin-first-tooltip": {
+    "message": "అప్‌లోడ్ a స్కిన్ మొదట !"
+  },
+  "app.skins.preview.edit-button": {
+    "message": "సవరించు స్కిన్"
+  },
+  "app.skins.previewing-badge": {
+    "message": "పరిదృశ్యం"
+  },
+  "app.skins.rate-limit.text": {
+    "message": "మీరు మార్చుకుంటున్నారు స్కిన్ చాలా తరచుగా. Mojang'లు సర్వర్‌లు తదుపరి అభ్యర్థనలను తాత్కాలికంగా బ్లాక్ చేసింది.దయచేసి మళ్లీ ప్రయత్నించే ముందు ఒక్క క్షణం వేచి ఉండండి."
+  },
+  "app.skins.rate-limit.title": {
+    "message": "నెమ్మదించండి!"
+  },
+  "app.skins.reorder-error.text": {
+    "message": "మీ స్కిన్ ఆర్డర్ సేవ్ చేయబడలేదు."
+  },
+  "app.skins.reorder-error.title": {
+    "message": "క్రమాన్ని మార్చడంలో విఫలమైంది స్కిన్‌లు"
+  },
+  "app.skins.section.builders-and-biomes": {
+    "message": "బిల్డర్లు & బయోమ్‌లు"
+  },
+  "app.skins.section.chaos-cubed": {
+    "message": "ఖోస్ క్యూబ్డ్"
+  },
+  "app.skins.section.chase-the-skies": {
+    "message": "స్కైస్ ఛేజ్"
+  },
+  "app.skins.section.default-skins": {
+    "message": "డిఫాల్ట్ స్కిన్‌లు"
+  },
+  "app.skins.section.dungeons-hero": {
+    "message": "డన్జియన్స్ హీరో"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "డన్జియన్స్ II హీరో"
+  },
+  "app.skins.section.minecon-earth-2017": {
+    "message": "MINECON Earth 2017"
+  },
+  "app.skins.section.modrinth": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.skins.section.modrinth-pride": {
+    "message": "Panda Minecraft Launcher ప్రైడ్"
+  },
+  "app.skins.section.modrinth-pride.tooltip": {
+    "message": "మీరు వీటిని స్వీకరించారు స్కిన్‌లు విరాళం కోసం a Panda Minecraft Launcher ప్రైడ్ నెలలో ప్రైడ్ నిధుల సమీకరణ."
+  },
+  "app.skins.section.mounts-of-mayhem": {
+    "message": "మేహెమ్ పర్వతాలు"
+  },
+  "app.skins.section.saved-skins": {
+    "message": "సేవ్ చేయబడింది స్కిన్‌లు"
+  },
+  "app.skins.section.striding-hero": {
+    "message": "స్ట్రైడింగ్ హీరో"
+  },
+  "app.skins.section.the-copper-age": {
+    "message": "రాగి యుగం"
+  },
+  "app.skins.section.the-garden-awakens": {
+    "message": "తోట మేల్కొంటుంది"
+  },
+  "app.skins.section.tiny-takeover": {
+    "message": "చిన్న స్వాధీనం"
+  },
+  "app.skins.section.wilderness-bound": {
+    "message": "అడవితో బంధం"
+  },
+  "app.skins.toggle-ears-features-off": {
+    "message": "ఆఫ్ చేయండి"
+  },
+  "app.skins.toggle-ears-features-on": {
+    "message": "ఆన్ చేయండి"
+  },
+  "app.splash.moving-app-directory": {
+    "message": "మీ యాప్ డైరెక్టరీని తరలిస్తోంది..."
+  },
+  "app.survey.body": {
+    "message": "Panda Minecraft Launcher తో మీ అనుభవం గురించి కొన్ని ప్రశ్నలకు సమాధానం ఇస్తారా?"
+  },
+  "app.survey.footer": {
+    "message": "This feedback will go directly to the Panda Minecraft Launcher team and help guide future నవీకరణలు!"
+  },
+  "app.survey.no-thanks": {
+    "message": "వద్దు, ధన్యవాదాలు"
+  },
+  "app.survey.take-survey": {
+    "message": "సర్వేలో పాల్గొనండి"
+  },
+  "app.survey.title": {
+    "message": "Panda Minecraft Launcher వినియోగదారులారా, నమస్కారం!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "Choose which ఇన్‌స్టెన్స్ to copy your డేటా ప్యాక్‌లు from. These packs are only used for the initial sync, and you can edit them from any ఇన్‌స్టెన్స్ afterward."
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "Choose which ఇన్‌స్టెన్స్ to copy your రిసోర్స్ ప్యాక్‌లు from. These packs are only used for the initial sync, and you can edit them from any ఇన్‌స్టెన్స్ afterward."
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "Disable it across all synced ఇన్‌స్టెన్స్‌లు, or only in this ఇన్‌స్టెన్స్. Disabling it only here will turn on overrides for this ఇన్‌స్టెన్స్."
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "అన్ని చోట్ల నిలిపివేయండి"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "Disable this కంటెంట్ across all synced ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "ఇక్కడ నిలిపివేయండి"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "Disable కంటెంట్?"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "Enable it across all synced ఇన్‌స్టెన్స్‌లు, or only in this ఇన్‌స్టెన్స్. Enabling it only here will turn on overrides for this ఇన్‌స్టెన్స్."
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "అన్ని చోట్ల ప్రారంభించండి"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "Enable this కంటెంట్ across all synced ఇన్‌స్టెన్స్‌లు."
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "ఇక్కడ ప్రారంభించండి"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "Enable కంటెంట్?"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "అన్ని చోట్ల తొలగించండి"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "ఇక్కడ తొలగించండి"
+  },
+  "app.synced-content.delete.description": {
+    "message": "Deleting this కంటెంట్ will delete it across all your ఇన్‌స్టెన్స్‌లు"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "Selected కంటెంట్ that is not synced will only be deleted from this ఇన్‌స్టెన్స్."
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "You can remove it from just this ఇన్‌స్టెన్స్ or from all synced ఇన్‌స్టెన్స్‌లు. Removing it from only this ఇన్‌స్టెన్స్ will enable overrides, and this ఇన్‌స్టెన్స్ will no longer receive synced changes for these కంటెంట్ types."
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "You can remove {count, plural, one {it} other {them}} from just this ఇన్‌స్టెన్స్ or from all synced ఇన్‌స్టెన్స్‌లు. Removing {count, plural, one {it} other {them}} from only this ఇన్‌స్టెన్స్ will enable overrides, and this ఇన్‌స్టెన్స్ will no longer receive synced రిసోర్స్ ప్యాక్ changes."
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "This ఇన్‌స్టెన్స్ will keep its own copy. Do you want to keep this కంటెంట్ synced in other ఇన్‌స్టెన్స్‌లు, or remove it from them?"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "ఉంచండి"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "తొలగించండి"
+  },
+  "app.synced-content.desync.title": {
+    "message": "Desync కంటెంట్"
+  },
+  "app.synced-content.warning.title": {
+    "message": "This కంటెంట్ is synced"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "Synced డేటా ప్యాక్‌లు"
+  },
+  "app.synced-packs.empty": {
+    "message": "Add packs from an ఇన్‌స్టెన్స్’s కంటెంట్ page to start syncing."
+  },
+  "app.synced-packs.load-failed": {
+    "message": "ప్యాక్‌లను లోడ్ చేయడం సాధ్యపడలేదు. రిఫ్రెష్ చేయడానికి ప్రయత్నించండి."
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "Synced రిసోర్స్ ప్యాక్‌లు"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Minecraft"
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "Panda Minecraft Launcher v{version} has finished downloading. Reload to నవీకరణ now, or automatically when you close Panda Minecraft Launcher."
+  },
+  "app.update-popup.body.linux": {
+    "message": "Panda Minecraft Launcher v{version} is available. Use your package manager to నవీకరణ for the latest features and fixes!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Panda Minecraft Launcher v{version} is available now! Since you're on a metered network, we didn't automatically డౌన్‌లోడ్ it."
+  },
+  "app.update-popup.changelog": {
+    "message": "మార్పుల జాబితా"
+  },
+  "app.update-popup.download": {
+    "message": "డౌన్‌లోడ్ ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "డౌన్‌లోడ్ complete"
+  },
+  "app.update-popup.reload": {
+    "message": "Reload to నవీకరణ"
+  },
+  "app.update-popup.title": {
+    "message": "నవీకరణ available"
+  },
+  "app.update.complete-toast.text": {
+    "message": "మార్పుల జాబితాను చూడటానికి ఇక్కడ క్లిక్ చేయండి."
+  },
+  "app.update.complete-toast.title": {
+    "message": "{version} సంస్కరణ విజయవంతంగా ఇన్‌స్టాల్ అయింది!"
+  },
+  "app.update.download-error.missing-version": {
+    "message": "Failed to డౌన్‌లోడ్ నవీకరణ: no version available"
+  },
+  "app.user.project.install-to-instance": {
+    "message": "Install to ఇన్‌స్టెన్స్"
+  },
+  "app.welcome-screen.create-instance": {
+    "message": "Create an ఇన్‌స్టెన్స్"
+  },
+  "app.welcome-screen.description": {
+    "message": "ఆడటం ప్రారంభించడానికి సిద్ధంగా ఉన్నారా?"
+  },
+  "app.welcome-screen.import-from-launcher": {
+    "message": "లాంచర్ నుండి దిగుమతి చేయండి"
+  },
+  "app.welcome-screen.import-prompt": {
+    "message": "మరో లాంచర్ నుండి వస్తున్నారా?"
+  },
+  "app.welcome-screen.more-options": {
+    "message": "మరిన్ని ఎంపికలు"
+  },
+  "app.welcome-screen.quick-create-hint": {
+    "message": "Press <shortcut>N</shortcut> to quick create an ఇన్‌స్టెన్స్"
+  },
+  "app.welcome-screen.skip": {
+    "message": "దాటవేయండి"
+  },
+  "app.welcome-screen.title": {
+    "message": "Panda Minecraft Launcher కు స్వాగతం"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "ఒక ఎంపికను ఎంచుకోండి"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "{version} సంస్కరణకు అనుకూలం కాదు"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "ఇంకా ఆడలేదు"
+  },
+  "app.world.world-item.offline": {
+    "message": "ఆఫ్‌లైన్"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} ఆన్‌లైన్"
+  },
+  "content.shared-instance.change-version-body": {
+    "message": "Changing the version only changes your local copy. Future shared ఇన్‌స్టెన్స్ నవీకరణలు may restore or change it again."
+  },
+  "content.shared-instance.delete-bulk-body": {
+    "message": "Some selected ప్రాజెక్ట్‌లు are part of the shared ఇన్‌స్టెన్స్. Deleting them only changes your local copy, and future shared ఇన్‌స్టెన్స్ నవీకరణలు may restore or change them again."
+  },
+  "content.shared-instance.delete-button": {
+    "message": "అయినా తొలగించండి"
+  },
+  "content.shared-instance.delete-many-button": {
+    "message": "Delete {count, number} ప్రాజెక్ట్‌లు anyway"
+  },
+  "content.shared-instance.delete-single-body": {
+    "message": "Deleting it only changes your local copy. Future shared ఇన్‌స్టెన్స్ నవీకరణలు may restore or change it again."
+  },
+  "content.shared-instance.disable-bulk-body": {
+    "message": "Some selected ప్రాజెక్ట్‌లు are part of the shared ఇన్‌స్టెన్స్. Disabling them only changes your local copy, and future shared ఇన్‌స్టెన్స్ నవీకరణలు may re-enable, restore, or change them again."
+  },
+  "content.shared-instance.disable-button": {
+    "message": "అయినా నిలిపివేయండి"
+  },
+  "content.shared-instance.disable-many-button": {
+    "message": "Disable {count, number} ప్రాజెక్ట్‌లు anyway"
+  },
+  "content.shared-instance.disable-single-body": {
+    "message": "Disabling it only changes your local copy. Future shared ఇన్‌స్టెన్స్ నవీకరణలు may re-enable, restore, or change it again."
+  },
+  "content.shared-instance.unlink-body": {
+    "message": "Unlinking only changes your local copy. Future shared ఇన్‌స్టెన్స్ నవీకరణలు may restore or change it again."
+  },
+  "content.shared-instance.warning-header": {
+    "message": "This is part of the shared ఇన్‌స్టెన్స్"
+  },
+  "friends.action.add-friend": {
+    "message": "Add a స్నేహితుడు"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} స్నేహితుడు {count, plural, one {request} other {requests}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "Send స్నేహితుడు request"
+  },
+  "friends.add-friend.title": {
+    "message": "Adding a స్నేహితుడు"
+  },
+  "friends.add-friend.username.description": {
+    "message": "ఇది వారి Minecraft యూజర్‌నేమ్ కన్నా వేరుగా ఉండవచ్చు!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "Panda Minecraft Launcher యూజర్‌నేమ్‌ని నమోదు చేయండి..."
+  },
+  "friends.add-friend.username.title": {
+    "message": "What's your స్నేహితుడు's Panda Minecraft Launcher username?"
+  },
+  "friends.add-friends-to-share": {
+    "message": "<link>Add స్నేహితులు</link> to see what they're playing!"
+  },
+  "friends.friend.actions.label": {
+    "message": "స్నేహితుడు actions"
+  },
+  "friends.friend.cancel-request": {
+    "message": "అభ్యర్థనను రద్దు చేయండి"
+  },
+  "friends.friend.remove-friend": {
+    "message": "Remove స్నేహితుడు"
+  },
+  "friends.friend.request-sent": {
+    "message": "స్నేహితుడు request sent"
+  },
+  "friends.friend.view-profile": {
+    "message": "View ప్రొఫైల్"
+  },
+  "friends.heading": {
+    "message": "స్నేహితులు"
+  },
+  "friends.heading.active": {
+    "message": "సక్రియ"
+  },
+  "friends.heading.offline": {
+    "message": "ఆఫ్‌లైన్"
+  },
+  "friends.heading.online": {
+    "message": "ఆన్‌లైన్"
+  },
+  "friends.heading.pending": {
+    "message": "వేచి ఉంది"
+  },
+  "friends.no-friends-match": {
+    "message": "No స్నేహితులు matching ''{query}''"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "Search స్నేహితులు..."
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "<link>Sign in to a Panda Minecraft Launcher ఖాతా</link> to add స్నేహితులు and see what they're playing!"
+  },
+  "hosting.play.account-changed": {
+    "message": "Your Panda Minecraft Launcher ఖాతా changed. Press Play సర్వర్ again to continue."
+  },
+  "hosting.play.no-address": {
+    "message": "This సర్వర్ does not have a connection address yet."
+  },
+  "hosting.play.not-ready": {
+    "message": "This ఇన్‌స్టెన్స్ is not available to launch. Check its installation status in your లైబ్రరీ."
+  },
+  "hosting.play.update-description": {
+    "message": "నవీకరణ this ఇన్‌స్టెన్స్ to the సర్వర్’s latest shared కంటెంట్ before joining."
+  },
+  "hosting.play.update-to-play": {
+    "message": "నవీకరణ to play"
+  },
+  "hosting.play.world-changed": {
+    "message": "This ప్రపంచం is no longer active or has not been shared. Open the సర్వర్ panel and press Play సర్వర్ again."
+  },
+  "installation-settings.advanced.title": {
+    "message": "అధునాతన"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "Relink shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "Reconnect this ఇన్‌స్టెన్స్ to a shared ఇన్‌స్టెన్స్ it was unlinked from, using an invite link or ID."
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "Your ఇన్‌స్టెన్స్ \"{name}\" is already linked to this shared ఇన్‌స్టెన్స్."
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "This ఇన్‌స్టెన్స్ can't be relinked"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "This ఇన్‌స్టెన్స్ becomes the source of the shared ఇన్‌స్టెన్స్ again. Members get your changes when you publish an నవీకరణ."
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "Reconnect this ఇన్‌స్టెన్స్ to a shared ఇన్‌స్టెన్స్ you own."
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "Find shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "Relink shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "Invite link or shared ఇన్‌స్టెన్స్ ID"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "This ఇన్‌స్టెన్స్ uses {localLoader} {localGameVersion}, but the shared ఇన్‌స్టెన్స్ uses {loader} {gameVersion}. Your next publish will change the shared ఇన్‌స్టెన్స్ to match this ఇన్‌స్టెన్స్."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "వేరే గేమ్ లేదా లోడర్ సంస్కరణ"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "Only the owner can relink a shared ఇన్‌స్టెన్స్. To get its నవీకరణలు as a member, install it again from your లైబ్రరీ."
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "మళ్లీ లింక్ చేయండి"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "This shared ఇన్‌స్టెన్స్ is managed by a సర్వర్, so it can't be relinked."
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · సంస్కరణ {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "Relink shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.shared-instance.linked-title": {
+    "message": "Linked shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.shared-instance.unlink-button": {
+    "message": "Unlink shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.shared-instance.unlink-description": {
+    "message": "Disconnect this local ఇన్‌స్టెన్స్ from future shared నవీకరణలు."
+  },
+  "installation-settings.shared-instance.unlinking-button": {
+    "message": "లింక్ తీసివేస్తోంది..."
+  },
+  "installation-settings.shared-instance.unpublish-description": {
+    "message": "Remove this shared ఇన్‌స్టెన్స్ from Panda Minecraft Launcher and stop sending నవీకరణలు to anyone using it. Your local ఇన్‌స్టెన్స్ will not be affected."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-body": {
+    "message": "This only affects your local ఇన్‌స్టెన్స్. Your installed కంటెంట్ will stay on this device, and the shared ఇన్‌స్టెన్స్ and other people using it will not be affected."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-header": {
+    "message": "Unlinking shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.unlink-shared-instance.modal.header": {
+    "message": "Unlink shared ఇన్‌స్టెన్స్"
+  },
+  "installation-settings.unpublish-shared-instance.modal.admonition-body": {
+    "message": "This deletes the shared ఇన్‌స్టెన్స్ from Panda Minecraft Launcher's సర్వర్‌లు. People using it in the Panda Minecraft Launcher will stop receiving నవీకరణలు, but your local ఇన్‌స్టెన్స్ and its కంటెంట్ will stay on this device."
+  },
+  "instance.action.create-shortcut": {
+    "message": "షార్ట్‌కట్‌ను సృష్టించండి"
+  },
+  "instance.action.export-modpack": {
+    "message": "Export మోడ్‌ప్యాక్"
+  },
+  "instance.action.launch-instance": {
+    "message": "Launch ఇన్‌స్టెన్స్"
+  },
+  "instance.action.more-actions": {
+    "message": "మరిన్ని చర్యలు"
+  },
+  "instance.action.open-folder": {
+    "message": "ఫోల్డర్‌ను తెరవండి"
+  },
+  "instance.action.repair": {
+    "message": "రిపేర్ చేయండి"
+  },
+  "instance.action.settings": {
+    "message": "ఇన్‌స్టెన్స్ సెట్టింగ్‌లు"
+  },
+  "instance.action.starting": {
+    "message": "ప్రారంభిస్తోంది..."
+  },
+  "instance.action.stopping": {
+    "message": "ఆపుతోంది..."
+  },
+  "instance.add-server.add-and-play": {
+    "message": "జోడించి ఆడండి"
+  },
+  "instance.add-server.add-server": {
+    "message": "Add సర్వర్"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "నిలిపివేయబడింది"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "ప్రారంభించబడింది"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "అడగండి"
+  },
+  "instance.add-server.title": {
+    "message": "Add a సర్వర్"
+  },
+  "instance.edit-server.title": {
+    "message": "Edit సర్వర్"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "హోమ్ పేజీ నుండి దాచండి"
+  },
+  "instance.edit-world.name": {
+    "message": "పేరు"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "Minecraft ప్రపంచం"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "ఐకాన్‌ను రీసెట్ చేయండి"
+  },
+  "instance.edit-world.title": {
+    "message": "Edit ప్రపంచం"
+  },
+  "instance.files.adding-files": {
+    "message": "ఫైల్‌లను జోడిస్తోంది ({completed}/{total})"
+  },
+  "instance.files.managed-content-read-only": {
+    "message": "Manage your installed కంటెంట్ via the కంటెంట్ tab"
+  },
+  "instance.files.save-as": {
+    "message": "ఇలా భద్రపరచండి..."
+  },
+  "instance.last-played": {
+    "message": "చివరిగా ఆడినది"
+  },
+  "instance.locked.delete-button": {
+    "message": "Delete ఇన్‌స్టెన్స్"
+  },
+  "instance.locked.play-tooltip": {
+    "message": "This ఇన్‌స్టెన్స్ has been locked"
+  },
+  "instance.playtime.never-played": {
+    "message": "ఎప్పుడూ ఆడలేదు"
+  },
+  "instance.server-modal.address": {
+    "message": "చిరునామా"
+  },
+  "instance.server-modal.name": {
+    "message": "పేరు"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "Minecraft సర్వర్"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "రిసోర్స్ ప్యాక్"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "Manage default సెట్టింగ్‌లు"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "{setting} ని డిఫాల్ట్‌కు రీసెట్ చేయండి"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "డిఫాల్ట్‌కు రీసెట్ చేయండి"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "గేమ్"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "ఇన్‌స్టెన్స్"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "సింక్ చేసిన డేటాను సవరించడానికి ఈ ఓవర్‌రైడ్‌ను ఆఫ్ చేయండి."
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "Unsync డేటా ప్యాక్‌లు"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "Keep this ఇన్‌స్టెన్స్'s డేటా ప్యాక్‌లు separate from synced packs."
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "డేటా ప్యాక్ syncing is turned off in app సెట్టింగ్‌లు."
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "సింక్ చేసిన ప్యాక్‌లను సవరించండి"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "Turn off this override to edit synced packs. Independent packs can be managed in the కంటెంట్ tab."
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "Unsync రిసోర్స్ ప్యాక్‌లు"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "Keep this ఇన్‌స్టెన్స్'s రిసోర్స్ ప్యాక్‌లు separate from synced packs."
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "రిసోర్స్ ప్యాక్ syncing is turned off in app సెట్టింగ్‌లు."
+  },
+  "instance.settings.tabs.behavior.description": {
+    "message": "Choose which tabs appear on this ఇన్‌స్టెన్స్."
+  },
+  "instance.settings.tabs.behavior.files": {
+    "message": "ఫైల్స్ ట్యాబ్‌ను చూపించండి"
+  },
+  "instance.settings.tabs.behavior.screenshots": {
+    "message": "స్క్రీన్‌షాట్‌ల ట్యాబ్‌ను చూపించండి"
+  },
+  "instance.settings.tabs.behavior.screenshots.required": {
+    "message": "గ్లోబల్ స్క్రీన్‌షాట్‌ల పేజీ ఆఫ్‌లో ఉండగా స్క్రీన్‌షాట్‌ల ట్యాబ్‌ను దాచడం సాధ్యపడదు."
+  },
+  "instance.settings.tabs.behavior.worlds": {
+    "message": "Show ప్రపంచాలు tab"
+  },
+  "instance.settings.tabs.general": {
+    "message": "సాధారణ"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "Delete ఇన్‌స్టెన్స్"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "Delete ఇన్‌స్టెన్స్"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "Permanently deletes an ఇన్‌స్టెన్స్ from your device, including your ప్రపంచాలు, configs, and all installed కంటెంట్. Be careful, as once you delete a ఇన్‌స్టెన్స్ there is no way to recover it."
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "తొలగిస్తోంది..."
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "నకలు చేయండి"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "ఇన్‌స్టాల్ చేస్తున్నప్పుడు నకలు చేయడం సాధ్యపడదు."
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "Locked ఇన్‌స్టెన్స్‌లు cannot be duplicated."
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "Duplicate ఇన్‌స్టెన్స్"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "Creates a copy of this ఇన్‌స్టెన్స్, including ప్రపంచాలు, configs, మోడ్‌లు, etc."
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "ఐకాన్‌ను సవరించండి"
+  },
+  "instance.settings.tabs.general.edit-icon.create": {
+    "message": "ఐకాన్‌ను సృష్టించండి"
+  },
+  "instance.settings.tabs.general.edit-icon.edit-created": {
+    "message": "ఐకాన్‌ను సవరించండి"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "ఐకాన్‌ను తొలగించండి"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "ఐకాన్‌ను మార్చండి"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "ఐకాన్‌ను ఎంచుకోండి"
+  },
+  "instance.settings.tabs.general.icon": {
+    "message": "ఐకాన్"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "పేరు"
+  },
+  "instance.settings.tabs.general.update-channel": {
+    "message": "నవీకరణ channel"
+  },
+  "instance.settings.tabs.general.update-channel.alpha": {
+    "message": "ఆల్ఫా"
+  },
+  "instance.settings.tabs.general.update-channel.alpha.description": {
+    "message": "Release, beta, and alpha versions will be shown as available నవీకరణలు."
+  },
+  "instance.settings.tabs.general.update-channel.beta": {
+    "message": "బీటా"
+  },
+  "instance.settings.tabs.general.update-channel.beta.description": {
+    "message": "Release and beta versions will be shown as available నవీకరణలు."
+  },
+  "instance.settings.tabs.general.update-channel.release": {
+    "message": "రిలీజ్"
+  },
+  "instance.settings.tabs.general.update-channel.release.description": {
+    "message": "Only release versions will be shown as available నవీకరణలు."
+  },
+  "instance.settings.tabs.general.update-channel.select": {
+    "message": "Select నవీకరణ channel"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "Your ఇన్‌స్టెన్స్ uses the default launch hooks unless you override them here."
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "లాంచ్ హుక్స్"
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "నిష్క్రమణ తర్వాత"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "గేమ్ మూసివేయబడిన తర్వాత అమలు చేయబడింది."
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "నిష్క్రమణ తర్వాతి కమాండ్‌ను నమోదు చేయండి..."
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "లాంచ్ కు ముందు"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "Ran before the ఇన్‌స్టెన్స్ is launched."
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "లాంచ్ కు ముందున్న కమాండ్‌ను నమోదు చేయండి..."
+  },
+  "instance.settings.tabs.hooks.variables.description": {
+    "message": "Hooks run in the working directory of the ఇన్‌స్టెన్స్, with the following variables:"
+  },
+  "instance.settings.tabs.hooks.variables.inst-dir.description": {
+    "message": "$INST_DIR: The absolute path to the ఇన్‌స్టెన్స్'s folder"
+  },
+  "instance.settings.tabs.hooks.variables.inst-id.description": {
+    "message": "$INST_ID: The name of the ఇన్‌స్టెన్స్'s folder"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java-args.description": {
+    "message": "$INST_JAVA_ARGS: గేమ్‌కు అందించే JVM ఆర్గ్యుమెంట్లు"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java.description": {
+    "message": "$INST_JAVA: java బైనరీకి సంపూర్ణ పాథ్"
+  },
+  "instance.settings.tabs.hooks.variables.inst-mc-dir.description": {
+    "message": "$INST_MC_DIR: $INST_DIR కు ప్రత్యామ్నాయం"
+  },
+  "instance.settings.tabs.hooks.variables.inst-name.description": {
+    "message": "$INST_NAME: The name of the ఇన్‌స్టెన్స్"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "ర్యాపర్"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "Minecraft ని లాంచ్ చేయడానికి ర్యాపర్ కమాండ్."
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "ర్యాపర్ కమాండ్‌ను నమోదు చేయండి..."
+  },
+  "instance.settings.tabs.installation": {
+    "message": "ఇన్‌స్టాలేషన్"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "{loader} సంస్కరణ"
+  },
+  "instance.settings.tabs.installation.locked": {
+    "message": "Installation సెట్టింగ్‌లు are unavailable while this ఇన్‌స్టెన్స్ is locked."
+  },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "Your ఇన్‌స్టెన్స్ uses the default Java and memory సెట్టింగ్‌లు unless you override them here."
+  },
+  "instance.settings.tabs.java.enter-environment-variables": {
+    "message": "పర్యావరణ వేరియబుల్స్‌ను నమోదు చేయండి..."
+  },
+  "instance.settings.tabs.java.enter-java-arguments": {
+    "message": "Java ఆర్గ్యుమెంట్లను నమోదు చేయండి..."
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "పర్యావరణ వేరియబుల్స్"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "హుక్స్"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Java ఆర్గ్యుమెంట్లు"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Java ఇన్‌స్టాలేషన్"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "మెమరీ కేటాయింపు"
+  },
+  "instance.settings.tabs.java.java-path-placeholder": {
+    "message": "/path/to/java"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java మరియు మెమరీ"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "Java {version} is recommended for the Minecraft version of this ఇన్‌స్టెన్స్."
+  },
+  "instance.settings.tabs.sharing": {
+    "message": "భాగస్వామ్యం"
+  },
+  "instance.settings.tabs.synced-options.command-history": {
+    "message": "కమాండ్ చరిత్రను సింక్ నుండి తీసివేయండి"
+  },
+  "instance.settings.tabs.synced-options.command-history.disabled-in-app": {
+    "message": "Command history syncing is turned off in app సెట్టింగ్‌లు."
+  },
+  "instance.settings.tabs.synced-options.command-history.override-description": {
+    "message": "Keep this ఇన్‌స్టెన్స్'s command history separate from synced command history."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars": {
+    "message": "భద్రపరచిన క్రియేటివ్ హాట్‌బార్‌లను సింక్ నుండి తీసివేయండి"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.disabled-in-app": {
+    "message": "Saved creative hotbar syncing is turned off in app సెట్టింగ్‌లు."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
+    "message": "Keep this ఇన్‌స్టెన్స్'s saved creative hotbars separate from synced hotbars."
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "Unsync game సెట్టింగ్‌లు"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "Keep this ఇన్‌స్టెన్స్'s options.txt separate from the synced copy."
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "Game సెట్టింగ్‌లు syncing is turned off in app సెట్టింగ్‌లు."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
+    "message": "మార్పులకు ముందు భర్తీ చేయబడుతున్న సంస్కరణ బ్యాకప్ చేయబడుతుంది."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.description": {
+    "message": "{instance} and your synced version have different creative hotbars. Choose which one to use across your ఇన్‌స్టెన్స్‌లు."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.title": {
+    "message": "క్రియేటివ్ హాట్‌బార్‌లను ఎంచుకోండి"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-instance": {
+    "message": "మిగిలిన వాటిని భర్తీ చేయండి"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-synced": {
+    "message": "సింక్ చేసిన వాటిని ఉపయోగించండి"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers": {
+    "message": "Unsync multiplayer సర్వర్‌లు"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.disabled-in-app": {
+    "message": "Multiplayer సర్వర్ syncing is turned off in app సెట్టింగ్‌లు."
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.override-description": {
+    "message": "Keep this ఇన్‌స్టెన్స్'s multiplayer సర్వర్‌లు separate from synced సర్వర్‌లు."
+  },
+  "instance.settings.tabs.synced-options.open-app-settings": {
+    "message": "Manage synced సెట్టింగ్‌లు"
+  },
+  "instance.settings.tabs.synced-options.shared-settings.description": {
+    "message": "Enable an override to keep a synced సెట్టింగ్ separate for this ఇన్‌స్టెన్స్."
+  },
+  "instance.settings.tabs.syncing": {
+    "message": "సింక్ చేస్తోంది"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "Your ఇన్‌స్టెన్స్ uses the default window సెట్టింగ్‌లు unless you override them here."
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "పూర్తి తెర"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "లాంచ్ చేసినప్పుడు గేమ్ పూర్తి తెరలో ప్రారంభమయ్యేలా చేయండి (options.txt ఉపయోగించి)."
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "ఎత్తు"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "లాంచ్ చేసినప్పుడు గేమ్ విండో ఎత్తు."
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "ఎత్తును నమోదు చేయండి..."
+  },
+  "instance.settings.tabs.window.label": {
+    "message": "విండో"
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "వెడల్పు"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "లాంచ్ చేసినప్పుడు గేమ్ విండో వెడల్పు."
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "వెడల్పును నమోదు చేయండి..."
+  },
+  "instance.settings.using-defaults": {
+    "message": "డిఫాల్ట్‌లను ఉపయోగిస్తోంది"
+  },
+  "instance.shared-instance.error.title": {
+    "message": "ఏదో తప్పు జరిగింది"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "ఈ ఫైల్ రకం అనుమతించబడదు"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "You can't share any more ఇన్‌స్టెన్స్‌లు."
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "Shared ఇన్‌స్టెన్స్ limit reached"
+  },
+  "instance.shared-instance.network-error.text": {
+    "message": "Unable to connect to shared ఇన్‌స్టెన్స్‌లు API"
+  },
+  "instance.shared-instance.network-error.title": {
+    "message": "నెట్‌వర్క్ లోపం"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "A newer version was pushed from another Panda Minecraft Launcher installation. డౌన్‌లోడ్ it, then try again."
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "Couldn't push నవీకరణ"
+  },
+  "instance.shared-instance.owner-tooltip": {
+    "message": "This ఇన్‌స్టెన్స్'s కంటెంట్ is being shared to other users."
+  },
+  "instance.shared-instance.tooltip": {
+    "message": "This ఇన్‌స్టెన్స్'s కంటెంట్ is being managed by someone else."
+  },
+  "instance.shared-instance.unavailable.access-revoked-text": {
+    "message": "Your access to the shared ఇన్‌స్టెన్స్ was revoked. This ఇన్‌స్టెన్స్ is still available, but it is no longer linked and will no longer receive నవీకరణలు."
+  },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "The shared ఇన్‌స్టెన్స్ was locked by the కంటెంట్ Moderation team. You are no longer allowed to push నవీకరణలు or re-share this ఇన్‌స్టెన్స్."
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "ఇన్‌స్టెన్స్ no longer sharable"
+  },
+  "instance.shared-instance.unavailable.locked-text": {
+    "message": "This shared ఇన్‌స్టెన్స్ was locked by the కంటెంట్ Moderation team. It will no longer receive నవీకరణలు from the primary ఇన్‌స్టెన్స్ and cannot be played."
+  },
+  "instance.shared-instance.unavailable.locked-title": {
+    "message": "ఇన్‌స్టెన్స్ locked"
+  },
+  "instance.shared-instance.unavailable.manager-fallback": {
+    "message": "the ఇన్‌స్టెన్స్ manager"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "We couldn’t find this shared ఇన్‌స్టెన్స్. Your installed కంటెంట్ is still on this device."
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "Shared ఇన్‌స్టెన్స్ unavailable"
+  },
+  "instance.shared-instance.unavailable.text": {
+    "message": "Your local ఇన్‌స్టెన్స్ is still available, but it is no longer linked and won't receive నవీకరణలు."
+  },
+  "instance.shared-instance.unavailable.title": {
+    "message": "Shared ఇన్‌స్టెన్స్ no longer available"
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "A Minecraft సర్వర్"
+  },
+  "instance.worlds.actions.label": {
+    "message": "ప్రపంచం actions"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "Can't connect to సర్వర్"
+  },
+  "instance.worlds.copy_address": {
+    "message": "చిరునామాను కాపీ చేయండి"
+  },
+  "instance.worlds.create_shortcut": {
+    "message": "షార్ట్‌కట్‌ను సృష్టించండి"
+  },
+  "instance.worlds.desync-server.description": {
+    "message": "Do you want to keep this సర్వర్ in other synced ఇన్‌స్టెన్స్‌లు, or remove it from them?"
+  },
+  "instance.worlds.desync-server.keep": {
+    "message": "ఉంచండి"
+  },
+  "instance.worlds.desync-server.remove": {
+    "message": "తొలగించండి"
+  },
+  "instance.worlds.desync-server.title": {
+    "message": "Desync సర్వర్"
+  },
+  "instance.worlds.desync_server": {
+    "message": "సింక్ తీసివేయండి"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "హోమ్‌లో చూపించవద్దు"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "ఇన్‌స్టెన్స్ is already open"
+  },
+  "instance.worlds.hardcore": {
+    "message": "హార్డ్‌కోర్ మోడ్"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "సర్వర్ is incompatible"
+  },
+  "instance.worlds.instance-locked": {
+    "message": "This ఇన్‌స్టెన్స్ has been locked"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Managed by సర్వర్ ప్రాజెక్ట్"
+  },
+  "instance.worlds.more-options": {
+    "message": "మరిన్ని ఎంపికలు"
+  },
+  "instance.worlds.no_contact": {
+    "message": "సర్వర్ couldn't be contacted"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "You can only jump straight into సర్వర్‌లు on Minecraft Alpha 1.0.5+"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "You can only jump straight into singleplayer ప్రపంచాలు on Minecraft 1.20+"
+  },
+  "instance.worlds.play_instance": {
+    "message": "Play ఇన్‌స్టెన్స్"
+  },
+  "instance.worlds.play_world": {
+    "message": "Play ప్రపంచం"
+  },
+  "instance.worlds.shortcut-created": {
+    "message": "షార్ట్‌కట్ సృష్టించబడింది"
+  },
+  "instance.worlds.shortcut-creation-failed": {
+    "message": "షార్ట్‌కట్ సృష్టించడం విఫలమైంది"
+  },
+  "instance.worlds.synced_server": {
+    "message": "Synced across ఇన్‌స్టెన్స్‌లు"
+  },
+  "instance.worlds.view_instance": {
+    "message": "View ఇన్‌స్టెన్స్"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "ప్రపంచం is in use"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "Add ely.by ఖాతా"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Add Microsoft ఖాతా"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "We couldn't sign you into your ely.by ఖాతా. Check your ely.by ఖాతా and try again."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "సైన్ ఇన్ విఫలమైంది"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "We couldn't sign you into your Microsoft ఖాతా. This may be due to ఖాతా restrictions or regional limitations."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "మీ కోడ్"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "కాపీ అయింది"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "కాపీ చేయండి"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "ely.by తో సైన్ ఇన్ చేయండి"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "ely.by ధృవీకరణ పేజీని తెరిచి, Panda Minecraft Launcher ను అనుమతించడానికి ఈ కోడ్‌ను నమోదు చేయండి. మీరు ఆమోదించగానే సైన్ ఇన్ స్వయంచాలకంగా కొనసాగుతుంది."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "ely.by ధృవీకరణ పేజీని తెరవండి"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "అనుమతి కోసం వేచి ఉంది…"
+  },
+  "minecraft-account.label": {
+    "message": "Minecraft ఖాతా"
+  },
+  "minecraft-account.not-signed-in": {
+    "message": "సైన్ ఇన్ చేయలేదు"
+  },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
+  "minecraft-account.remove-account": {
+    "message": "Remove ఖాతా"
+  },
+  "minecraft-account.select-account": {
+    "message": "Select ఖాతా"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "ely.by తో సైన్ ఇన్ చేయండి"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Microsoft తో సైన్ ఇన్ చేయండి"
+  },
+  "minecraft-required.description": {
+    "message": "You need a Minecraft ఖాతా before you can launch and play. You can sign in with Microsoft or ely.by."
+  },
+  "minecraft-required.description-header": {
+    "message": "Minecraft లో సైన్ ఇన్ చేయండి"
+  },
+  "minecraft-required.dont-have-account": {
+    "message": "Don’t have an ఖాతా?"
+  },
+  "minecraft-required.get-minecraft": {
+    "message": "Minecraft ను పొందండి"
+  },
+  "minecraft-required.get-support": {
+    "message": "సహాయం పొందండి"
+  },
+  "minecraft-required.header": {
+    "message": "Minecraft అవసరం"
+  },
+  "minecraft-required.sign-in": {
+    "message": "Microsoft తో సైన్ ఇన్ చేయండి"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "ely.by తో సైన్ ఇన్ చేయండి"
+  },
+  "modal.modrinth-account-required.browser-description": {
+    "message": "సైన్ ఇన్ చేయడానికి కొత్త ట్యాబ్ తెరుచుకుంది. అక్కడ సైన్ ఇన్ పూర్తి చేసి, తిరిగి యాప్‌కు రండి."
+  },
+  "modal.modrinth-account-required.continue-in-browser-heading": {
+    "message": "మీ బ్రౌజర్‌లో కొనసాగండి"
+  },
+  "modal.modrinth-account-required.create-account-button": {
+    "message": "Create an ఖాతా"
+  },
+  "modal.modrinth-account-required.description": {
+    "message": "You'll need to sign into your Panda Minecraft Launcher ఖాతా before you can use this feature."
+  },
+  "modal.modrinth-account-required.header": {
+    "message": "ఖాతా required"
+  },
+  "modal.modrinth-account-required.open-browser-again-button": {
+    "message": "బ్రౌజర్‌ను మళ్లీ తెరవండి"
+  },
+  "modal.modrinth-account-required.sign-in-button": {
+    "message": "Panda Minecraft Launcher లో సైన్ ఇన్ చేయండి"
+  },
+  "modal.modrinth-account-required.sign-in-heading": {
+    "message": "Sign in to a Panda Minecraft Launcher ఖాతా"
+  },
+  "modal.modrinth-account-required.signing-in-header": {
+    "message": "సైన్ ఇన్ చేస్తోంది"
+  },
+  "modal.modrinth-account-required.support-prompt": {
+    "message": "సైన్ ఇన్‌లో సమస్య ఉందా? <support>సహాయం పొందండి</support>"
+  },
+  "modal.modrinth-account-required.waiting-for-browser": {
+    "message": "బ్రౌజర్ ధృవీకరణ కోసం వేచి ఉంది..."
+  },
+  "project.server.status.offline": {
+    "message": "ఆఫ్‌లైన్"
+  },
+  "project.server.status.online": {
+    "message": "ఆన్‌లైన్"
+  },
+  "search.filter.locked.instance": {
+    "message": "Provided by the ఇన్‌స్టెన్స్"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "Game version is provided by the ఇన్‌స్టెన్స్"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "Loader is provided by the ఇన్‌స్టెన్స్"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "Sync with ఇన్‌స్టెన్స్"
+  },
+  "search.filter.locked.server": {
+    "message": "Provided by the సర్వర్"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Only client-side మోడ్‌లు can be added to the సర్వర్ ఇన్‌స్టెన్స్"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Game version is provided by the సర్వర్"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Loader is provided by the సర్వర్"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Sync with సర్వర్"
+  },
+  "settings.sidebar.label.account": {
+    "message": "ఖాతా"
+  },
+  "settings.sidebar.label.display": {
+    "message": "డిస్‌ప్లే"
+  }
+}

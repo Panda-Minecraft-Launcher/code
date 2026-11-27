@@ -1,0 +1,4685 @@
+{
+  "app.action-bar.changelog": {
+    "message": "बातम्या"
+  },
+  "app.action-bar.downloading-java": {
+    "message": "Java {version} डाउनलोड करत आहे"
+  },
+  "app.action-bar.downloading-update": {
+    "message": "अपडेट डाउनलोड करत आहे"
+  },
+  "app.action-bar.downloads": {
+    "message": "डाउनलोड"
+  },
+  "app.action-bar.hide-downloads": {
+    "message": "सक्रिय डाउनलोड लपवा"
+  },
+  "app.action-bar.hide-more-running-instances": {
+    "message": "चालू असलेली इतर इन्स्टन्स लपवा"
+  },
+  "app.action-bar.install.copied-details": {
+    "message": "कॉपी केले"
+  },
+  "app.action-bar.install.dismiss": {
+    "message": "बंद करा"
+  },
+  "app.action-bar.install.inspect-details": {
+    "message": "तपशील पहा"
+  },
+  "app.action-bar.install.open-instance": {
+    "message": "इन्स्टन्स उघडा"
+  },
+  "app.action-bar.install.retry": {
+    "message": "पुन्हा प्रयत्न करा"
+  },
+  "app.action-bar.install.summary.app-closing": {
+    "message": "अॅप बंद झाल्यामुळे रद्द केले"
+  },
+  "app.action-bar.install.summary.bad-modpack-file": {
+    "message": "मोडपॅक वाचता आला नाही"
+  },
+  "app.action-bar.install.summary.canceled": {
+    "message": "रद्द केले"
+  },
+  "app.action-bar.install.summary.cleanup-incomplete": {
+    "message": "स्वच्छता पूर्ण झाली नाही"
+  },
+  "app.action-bar.install.summary.content-download-failed": {
+    "message": "फायली डाउनलोड करता आल्या नाहीत"
+  },
+  "app.action-bar.install.summary.corrupt-download": {
+    "message": "डाउनलोड केलेली फाइल खराब आहे"
+  },
+  "app.action-bar.install.summary.could-not-save-files": {
+    "message": "फायली जतन करता आल्या नाहीत"
+  },
+  "app.action-bar.install.summary.download-failed": {
+    "message": "डाउनलोड पूर्ण होऊ शकला नाही"
+  },
+  "app.action-bar.install.summary.instance-error": {
+    "message": "इन्स्टन्स तयार करता आला नाही"
+  },
+  "app.action-bar.install.summary.invalid-file-path": {
+    "message": "फाइलचा मार्ग अवैध आहे"
+  },
+  "app.action-bar.install.summary.invalid-modpack": {
+    "message": "मोडपॅक डेटा अवैध आहे"
+  },
+  "app.action-bar.install.summary.invalid-modpack-files": {
+    "message": "मोडपॅक फायलींमध्ये अवैध माहिती आहे"
+  },
+  "app.action-bar.install.summary.java-setup-failed": {
+    "message": "Java सेटअप पूर्ण होऊ शकला नाही"
+  },
+  "app.action-bar.install.summary.loader-setup-failed": {
+    "message": "लोडर सेटअप अयशस्वी झाला"
+  },
+  "app.action-bar.install.summary.local-data-error": {
+    "message": "स्थानिक डेटा अपडेट करता आला नाही"
+  },
+  "app.action-bar.install.summary.minecraft-setup-failed": {
+    "message": "Minecraft सेटअप अयशस्वी झाला"
+  },
+  "app.action-bar.install.summary.modrinth-unreachable": {
+    "message": "Panda Minecraft Launcher पर्यंत पोहोचता आले नाही"
+  },
+  "app.action-bar.install.summary.no-write-permission": {
+    "message": "लिहिण्याची परवानगी नाही"
+  },
+  "app.action-bar.install.summary.pack-download-failed": {
+    "message": "पॅक डाउनलोड करता आला नाही"
+  },
+  "app.action-bar.install.summary.unexpected-error": {
+    "message": "काहीतरी चूक झाली"
+  },
+  "app.action-bar.install.unknown-instance": {
+    "message": "अज्ञात इन्स्टन्स"
+  },
+  "app.action-bar.install.updating-shared-content": {
+    "message": "शेयर केलेली सामग्री अपडेट करत आहे"
+  },
+  "app.action-bar.offline": {
+    "message": "ऑफलाइन"
+  },
+  "app.action-bar.reload-to-update": {
+    "message": "अपडेट करण्यासाठी पुन्हा लोड करा"
+  },
+  "app.action-bar.show-downloads": {
+    "message": "सक्रिय डाउनलोड दाखवा"
+  },
+  "app.action-bar.show-more-running-instances": {
+    "message": "चालू असलेली इतर इन्स्टन्स दाखवा"
+  },
+  "app.action-bar.stop-instance": {
+    "message": "इन्स्टन्स थांबवा"
+  },
+  "app.action-bar.update": {
+    "message": "अपडेट"
+  },
+  "app.action-bar.view-active-downloads": {
+    "message": "सक्रिय डाउनलोड पहा"
+  },
+  "app.action-bar.view-logs": {
+    "message": "लॉग पहा"
+  },
+  "app.appearance-settings.compact-mode.description": {
+    "message": "लायब्ररीतील इन्स्टन्स आटोक्यातील ओळींमध्ये दाखवा."
+  },
+  "app.appearance-settings.compact-mode.title": {
+    "message": "कॉम्पॅक्ट मोड"
+  },
+  "app.appearance-settings.default-landing-page.home": {
+    "message": "मुख्यपृष्ठ"
+  },
+  "app.appearance-settings.default-landing-page.library": {
+    "message": "लायब्ररी"
+  },
+  "app.appearance-settings.hide-nametag.description": {
+    "message": "स्किन निवडीच्या पानावर प्लेयरच्या पूर्वावलोकनावरील तुमचे वापरकर्तानाव लपवा."
+  },
+  "app.appearance-settings.hide-nametag.title": {
+    "message": "नावाचा लेबल लपवा"
+  },
+  "app.appearance-settings.minimize-launcher.description": {
+    "message": "Minecraft सुरू झाल्यावर Panda Minecraft Launcher लहान करा."
+  },
+  "app.appearance-settings.minimize-launcher.title": {
+    "message": "अॅप लहान करा"
+  },
+  "app.appearance-settings.show-play-time.description": {
+    "message": "प्रत्येक इन्स्टन्समध्ये तुम्ही किती वेळ खेळलात ते दाखवा."
+  },
+  "app.appearance-settings.show-play-time.title": {
+    "message": "खेळण्याचा वेळ दाखवा"
+  },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "साइडबार उजवीकडे किंवा डावीकडे ठेवा."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "डावीकडे"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "उजवीकडे"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "साइडबारची स्थिती"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.description": {
+    "message": "डुप्लिकेट इन्स्टॉलेशन, सामान्य सामग्री हटवणे, मोठ्या प्रमाणातील अपडेट, अनलिंक करणे व दुरुस्ती यांसारख्या कमी जोखीम असलेल्या कृतींसाठी पुष्टीकरण वगळा. धोकादायक कृतींचे इशारे नेहमी दाखवले जातात."
+  },
+  "app.appearance-settings.skip-non-essential-warnings.title": {
+    "message": "अनावश्यक इशारे वगळा"
+  },
+  "app.appearance-settings.unknown-pack-warning.description": {
+    "message": "Panda Minecraft Launcher वर होस्ट न केलेला मोडपॅक (.mrpack) इन्स्टॉल करण्यापूर्वी सुरक्षिततेचा इशारा दाखवा."
+  },
+  "app.appearance-settings.unknown-pack-warning.title": {
+    "message": "अज्ञात मोडपॅक इन्स्टॉल करण्यापूर्वी सावध करा"
+  },
+  "app.auth-servers.unreachable.body": {
+    "message": "Minecraft प्रमाणीकरण सर्व्हर सध्या बंद असू शकतात. तुमचे इंटरनेट कनेक्शन तपासा व नंतर पुन्हा प्रयत्न करा."
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "प्रमाणीकरण सर्व्हरपर्यंत पोहोचता येत नाही"
+  },
+  "app.behavior-settings.confirmations.title": {
+    "message": "पुष्टीकरणे"
+  },
+  "app.behavior-settings.content.title": {
+    "message": "मुख्यपृष्ठ व सामग्री"
+  },
+  "app.behavior-settings.hidden-instances.description": {
+    "message": "तुम्ही या डिव्हाइसवरील लायब्ररीतून लपवलेले इन्स्टन्स. लपवलेले इन्स्टन्स तुमच्या Panda Minecraft Launcher खात्याशी सिंक होत नाहीत."
+  },
+  "app.behavior-settings.hidden-instances.empty": {
+    "message": "तुम्ही अद्याप एकही इन्स्टन्स लपवलेला नाही."
+  },
+  "app.behavior-settings.hidden-instances.more-options": {
+    "message": "अधिक पर्याय"
+  },
+  "app.behavior-settings.hidden-instances.not-installed": {
+    "message": "इन्स्टॉल केलेला नाही"
+  },
+  "app.behavior-settings.hidden-instances.title": {
+    "message": "लपवलेले इन्स्टन्स"
+  },
+  "app.behavior-settings.refocus-on-game-close.description": {
+    "message": "Minecraft बंद झाल्यावर Panda Minecraft Launcher पुन्हा समोर आणा."
+  },
+  "app.behavior-settings.refocus-on-game-close.title": {
+    "message": "Minecraft बंद झाल्यावर अॅपसमोर जा"
+  },
+  "app.behavior-settings.startup-and-navigation.title": {
+    "message": "सुरुवात व नेव्हिगेशन"
+  },
+  "app.behavior-settings.sync-across-devices.description": {
+    "message": "ही वर्तणूक सेटिंग्ज तुम्ही साइन इन केलेल्या सर्व ठिकाणी लागू होतात. या डिव्हाइसवर वेगळ्या सेटिंग्ज ठेवण्यासाठी हे बंद करा."
+  },
+  "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "सेटिंग्ज सिंक करण्यासाठी Panda Minecraft Launcher खात्यात साइन इन करा."
+  },
+  "app.behavior-settings.sync-across-devices.title": {
+    "message": "वर्तणूक डिव्हाइसशी सिंक करा"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "इन्स्टन्समध्ये सर्व्हर जोडत आहे"
+  },
+  "app.browse.add-to-an-instance": {
+    "message": "इन्स्टन्समध्ये जोडा"
+  },
+  "app.browse.add-to-instance": {
+    "message": "इन्स्टन्समध्ये जोडा"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "{instanceName} मध्ये जोडा"
+  },
+  "app.browse.added": {
+    "message": "जोडले"
+  },
+  "app.browse.already-added": {
+    "message": "आधीच जोडलेले आहे"
+  },
+  "app.browse.back-to-instance": {
+    "message": "इन्स्टन्सकडे परत"
+  },
+  "app.browse.curseforge.checking": {
+    "message": "CurseForge शी जोडत आहे..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "CurseForge विनंती अयशस्वी: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "CurseForge कडून मंजुरीची वाट पाहत आहे"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge तयार आहे. {count} मोड आढळले."
+  },
+  "app.browse.discover-project-type": {
+    "message": "{projectType} शोधा"
+  },
+  "app.browse.discover-servers": {
+    "message": "सर्व्हर शोधा"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "आधीच जोडलेले सर्व्हर लपवा"
+  },
+  "app.browse.hide-installed-modpacks": {
+    "message": "आधीच इन्स्टॉल केलेले लपवा"
+  },
+  "app.browse.project-actions.label": {
+    "message": "प्रकल्प कृती"
+  },
+  "app.browse.project-type.data-packs": {
+    "message": "डेटा पॅक"
+  },
+  "app.browse.project-type.modpacks": {
+    "message": "मोडपॅक"
+  },
+  "app.browse.project-type.mods": {
+    "message": "मोड"
+  },
+  "app.browse.project-type.plugins": {
+    "message": "प्लगइन"
+  },
+  "app.browse.project-type.resource-packs": {
+    "message": "रिसोर्स पॅक"
+  },
+  "app.browse.project-type.servers": {
+    "message": "सर्व्हर"
+  },
+  "app.browse.project-type.shaders": {
+    "message": "शेडर"
+  },
+  "app.browse.server-instance-content-warning": {
+    "message": "सामग्री जोडल्यास तुम्ही या सर्व्हरमध्ये सामील होऊ शकणार नाही. तुम्ही जोडलेली कोणतीही सामग्री व्यवस्थापित सर्व्हर सामग्री अपडेट झाल्यावर काढून टाकली जाईल."
+  },
+  "app.browse.server.installing": {
+    "message": "इन्स्टॉल करत आहे"
+  },
+  "app.changelog.current-version": {
+    "message": "सध्याची आवृत्ती: {version}"
+  },
+  "app.changelog.title": {
+    "message": "प्रकाशन नोंदी"
+  },
+  "app.changelog.you-are-here": {
+    "message": "तुम्ही येथे आहात"
+  },
+  "app.content-install.no-compatible-versions": {
+    "message": "{compatibilityLabel} शी जुळणारी उपलब्ध आवृत्ती नाही. तरीही इन्स्टॉल करण्यासाठी आवृत्ती निवडा. अवलंबितांक आपोआप इन्स्टॉल होणार नाहीत."
+  },
+  "app.content.desync-pack": {
+    "message": "सिंक काढा"
+  },
+  "app.content.sync-data-packs-disabled": {
+    "message": "आधी अॅप सेटिंग्जमध्ये डेटा पॅक सिंक चालू करा."
+  },
+  "app.content.sync-pack": {
+    "message": "सिंक करा"
+  },
+  "app.content.sync-packs-override": {
+    "message": "आधी या इन्स्टन्सच्या सेटिंग्जमध्ये पॅक सिंकचा ओव्हरराइड बंद करा."
+  },
+  "app.content.sync-resource-packs-disabled": {
+    "message": "आधी अॅप सेटिंग्जमध्ये रिसोर्स पॅक सिंक चालू करा."
+  },
+  "app.debug-export.canceling": {
+    "message": "निर्यात रद्द करत आहे…"
+  },
+  "app.debug-export.exporting": {
+    "message": "निर्यात करत आहे…"
+  },
+  "app.debug-export.finishing": {
+    "message": "पूर्ण करत आहे…"
+  },
+  "app.debug-export.preparing": {
+    "message": "फायली तयार करत आहे…"
+  },
+  "app.download-manager.active": {
+    "message": "सक्रिय"
+  },
+  "app.download-manager.attention": {
+    "message": "लक्ष आवश्यक"
+  },
+  "app.download-manager.bulk-update-content": {
+    "message": "{count, plural, one {# item} other {# items}} अपडेट करत आहे"
+  },
+  "app.download-manager.cancel": {
+    "message": "इन्स्टॉलेशन रद्द करा"
+  },
+  "app.download-manager.canceling": {
+    "message": "इन्स्टॉलेशन रद्द करत आहे…"
+  },
+  "app.download-manager.clear-all": {
+    "message": "सर्व साफ करा"
+  },
+  "app.download-manager.clear-completed": {
+    "message": "पूर्ण झालेली सर्व कामे साफ करा"
+  },
+  "app.download-manager.complete": {
+    "message": "पूर्ण"
+  },
+  "app.download-manager.duplicated-instance": {
+    "message": "डुप्लिकेट इन्स्टन्स"
+  },
+  "app.download-manager.estimated-rate": {
+    "message": "अंदाजे डाउनलोड वेग"
+  },
+  "app.download-manager.eta": {
+    "message": "या डाउनलोडसाठी उरलेला अंदाजे वेळ"
+  },
+  "app.download-manager.hide-tasks": {
+    "message": "कामे लपवा"
+  },
+  "app.download-manager.imported-instance": {
+    "message": "आयात केलेला इन्स्टन्स"
+  },
+  "app.download-manager.instance-installation": {
+    "message": "इन्स्टन्स इन्स्टॉलेशन"
+  },
+  "app.download-manager.modpack": {
+    "message": "मोडपॅक"
+  },
+  "app.download-manager.modpack-installation": {
+    "message": "मोडपॅक इन्स्टॉलेशन"
+  },
+  "app.download-manager.new-instance": {
+    "message": "नवीन इन्स्टन्स"
+  },
+  "app.download-manager.no-tasks": {
+    "message": "कोणतीही कामे नाहीत"
+  },
+  "app.download-manager.pause": {
+    "message": "इन्स्टॉलेशन थांबवा"
+  },
+  "app.download-manager.paused": {
+    "message": "थांबवलेले"
+  },
+  "app.download-manager.remove": {
+    "message": "इतिहासातून काढा"
+  },
+  "app.download-manager.resume": {
+    "message": "इन्स्टॉलेशन पुन्हा सुरू करा"
+  },
+  "app.download-manager.shared-instance": {
+    "message": "शेयर केलेला इन्स्टन्स"
+  },
+  "app.download-manager.shared-instance-update": {
+    "message": "शेयर केलेल्या इन्स्टन्सचे अपडेट"
+  },
+  "app.download-manager.show-tasks": {
+    "message": "कामे दाखवा"
+  },
+  "app.download-manager.tasks": {
+    "message": "कामे"
+  },
+  "app.download-manager.title": {
+    "message": "डाउनलोड व्यवस्थापक"
+  },
+  "app.error.copied-debug-info": {
+    "message": "कॉपी केले"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "डीबग माहिती पहा"
+  },
+  "app.error.state-init.open-backups-folder": {
+    "message": "बॅकअप फोल्डर उघडा"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "मोडपॅकचे वर्णन लिहा..."
+  },
+  "app.export-modal.export-button": {
+    "message": "निर्यात करा"
+  },
+  "app.export-modal.export-complete": {
+    "message": "निर्यात पूर्ण"
+  },
+  "app.export-modal.export-complete-description": {
+    "message": "{name} यशस्वीरित्या निर्यात केला गेला."
+  },
+  "app.export-modal.header": {
+    "message": "मोडपॅक निर्यात करा"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "मोडपॅकचे नाव"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "मोडपॅकचे नाव"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "आवृत्ती क्रमांक"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.features-settings.instance-pages.title": {
+    "message": "इन्स्टन्स"
+  },
+  "app.features-settings.play-page.title": {
+    "message": "खेळ पान"
+  },
+  "app.features-settings.quick-instances.description": {
+    "message": "डाव्या साइडबारमध्ये दाखवल्या जाणाऱ्या नवीन इन्स्टन्सची कमाल संख्या निवडा. विभाजक ओढूनही तुम्ही हे समायोजित करू शकता."
+  },
+  "app.features-settings.quick-instances.title": {
+    "message": "साइडबारमध्ये जलद इन्स्टन्स"
+  },
+  "app.features-settings.show-all-screenshots.description": {
+    "message": "सर्व इन्स्टन्सचे स्क्रीनशॉट पाहण्यासाठी डाव्या साइडबारमध्ये बटण दाखवा."
+  },
+  "app.features-settings.show-all-screenshots.title": {
+    "message": "साइडबारमध्ये सर्व स्क्रीनशॉट"
+  },
+  "app.features-settings.show-files-tab.title": {
+    "message": "इन्स्टन्समध्ये फाइल्स टॅब दाखवा"
+  },
+  "app.features-settings.show-jump-in.description": {
+    "message": "खेळ पानाच्या वर नुकतेच खेळलेले वर्ल्ड व इन्स्टन्स दाखवा."
+  },
+  "app.features-settings.show-jump-in.title": {
+    "message": "लगेच खेळा विभाग दाखवा"
+  },
+  "app.features-settings.show-screenshots-tab.title": {
+    "message": "इन्स्टन्समध्ये स्क्रीनशॉट टॅब दाखवा"
+  },
+  "app.features-settings.show-skin-selector.description": {
+    "message": "खाते व्यवस्थापन उघडण्यासाठी साइडबारमध्ये बटण दाखवा."
+  },
+  "app.features-settings.show-skin-selector.title": {
+    "message": "साइडबारमध्ये खाते व्यवस्थापन बटण"
+  },
+  "app.features-settings.show-worlds-tab.title": {
+    "message": "इन्स्टन्समध्ये वर्ल्ड्स टॅब दाखवा"
+  },
+  "app.features-settings.sidebar.title": {
+    "message": "साइडबार"
+  },
+  "app.features-settings.sync-across-devices.description": {
+    "message": "ही फीचर सेटिंग्ज तुम्ही साइन इन केलेल्या सर्व ठिकाणी वापरा. या डिव्हाइसवर वेगळ्या सेटिंग्ज ठेवण्यासाठी हे बंद करा."
+  },
+  "app.features-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "सेटिंग्ज सिंक करण्यासाठी Panda Minecraft Launcher खात्यात साइन इन करा."
+  },
+  "app.features-settings.sync-across-devices.title": {
+    "message": "फीचर डिव्हाइसशी सिंक करा"
+  },
+  "app.file-download.canceling": {
+    "message": "डाउनलोड रद्द करत आहे…"
+  },
+  "app.file-download.preparing": {
+    "message": "डाउनलोड तयार करत आहे…"
+  },
+  "app.file-download.waiting": {
+    "message": "सर्व्हरची वाट पाहत आहे…"
+  },
+  "app.home.jump-back-in.actions.label": {
+    "message": "इन्स्टन्स कृती"
+  },
+  "app.home.jump-back-in.instance-locked": {
+    "message": "हा इन्स्टन्स लॉक केलेला आहे"
+  },
+  "app.home.jump-back-in.instance-open": {
+    "message": "इन्स्टन्स आधीच उघडा आहे"
+  },
+  "app.home.jump-back-in.more-options": {
+    "message": "अधिक पर्याय"
+  },
+  "app.home.jump-back-in.never-played": {
+    "message": "कधीच खेळलेला नाही"
+  },
+  "app.home.jump-back-in.new-instance": {
+    "message": "नवीन इन्स्टन्स"
+  },
+  "app.home.jump-back-in.resize": {
+    "message": "आकार बदलण्यासाठी ओढा"
+  },
+  "app.home.jump-back-in.title": {
+    "message": "लगेच खेळा"
+  },
+  "app.home.jump-back-in.view-instance": {
+    "message": "इन्स्टन्स पहा"
+  },
+  "app.hosting.update-required.description": {
+    "message": "Panda Minecraft Launcher वापरण्यासाठी अपडेट करणे आवश्यक आहे"
+  },
+  "app.hosting.update-required.download": {
+    "message": "अपडेट करण्यासाठी डाउनलोड करा"
+  },
+  "app.hosting.update-required.rinthbot-alt": {
+    "message": "उत्साही Panda Minecraft Launcher बॉट"
+  },
+  "app.hosting.update-required.title": {
+    "message": "Panda Minecraft Launcher अपडेट आवश्यक"
+  },
+  "app.install.phase.downloading_content": {
+    "message": "सामग्री डाउनलोड करत आहे"
+  },
+  "app.install.phase.downloading_minecraft": {
+    "message": "Minecraft डाउनलोड करत आहे"
+  },
+  "app.install.phase.downloading_pack_file": {
+    "message": "पॅक फाइल डाउनलोड करत आहे"
+  },
+  "app.install.phase.extracting_overrides": {
+    "message": "ओव्हरराइड बाहेर काढत आहे"
+  },
+  "app.install.phase.finalizing": {
+    "message": "अंतिम रूप देत आहे"
+  },
+  "app.install.phase.preparing_instance": {
+    "message": "इन्स्टॉलसाठी रांगेत आहे"
+  },
+  "app.install.phase.preparing_java": {
+    "message": "Java तयार करत आहे"
+  },
+  "app.install.phase.preparing_java.downloading": {
+    "message": "Java {version} डाउनलोड करत आहे"
+  },
+  "app.install.phase.preparing_java.extracting": {
+    "message": "Java {version} बाहेर काढत आहे"
+  },
+  "app.install.phase.preparing_java.fetching-metadata": {
+    "message": "Java {version} मिळवत आहे"
+  },
+  "app.install.phase.preparing_java.resolving": {
+    "message": "Java {version} तयार करत आहे"
+  },
+  "app.install.phase.preparing_java.validating": {
+    "message": "Java {version} तपासत आहे"
+  },
+  "app.install.phase.reading_pack_manifest": {
+    "message": "पॅक मॅनिफेस्ट वाचत आहे"
+  },
+  "app.install.phase.resolving_loader": {
+    "message": "लोडर ठरवत आहे"
+  },
+  "app.install.phase.resolving_minecraft": {
+    "message": "Minecraft ठरवत आहे"
+  },
+  "app.install.phase.resolving_pack": {
+    "message": "सामग्री ठरवत आहे"
+  },
+  "app.install.phase.rolling_back": {
+    "message": "मागे फिरवत आहे"
+  },
+  "app.install.phase.running_loader_processors": {
+    "message": "लोडर प्रोसेसर चालवत आहे"
+  },
+  "app.instance.action.add-content": {
+    "message": "सामग्री जोडा"
+  },
+  "app.instance.action.copy-path": {
+    "message": "मार्ग कॉपी करा"
+  },
+  "app.instance.action.edit": {
+    "message": "संपादन करा"
+  },
+  "app.instance.action.open-folder": {
+    "message": "फोल्डर उघडा"
+  },
+  "app.instance.action.play": {
+    "message": "खेळा"
+  },
+  "app.instance.action.stop": {
+    "message": "थांबवा"
+  },
+  "app.instance.actions.label": {
+    "message": "इन्स्टन्स कृती"
+  },
+  "app.instance.add-server.add": {
+    "message": "जोडा"
+  },
+  "app.instance.add-server.added": {
+    "message": "जोडले"
+  },
+  "app.instance.add-server.adding": {
+    "message": "जोडत आहे..."
+  },
+  "app.instance.add-server.cancel": {
+    "message": "रद्द करा"
+  },
+  "app.instance.add-server.compatibility-warning": {
+    "message": "हा सर्व्हर सर्व इन्स्टन्सशी सुसंगत नसावा."
+  },
+  "app.instance.add-server.search-placeholder": {
+    "message": "इन्स्टन्स शोधा"
+  },
+  "app.instance.add-server.title": {
+    "message": "इन्स्टन्समध्ये सर्व्हर जोडा"
+  },
+  "app.instance.admonitions.shared-instance.added-label": {
+    "message": "जोडले"
+  },
+  "app.instance.admonitions.shared-instance.changes-body": {
+    "message": "तुमचा स्थानिक इन्स्टन्स तुम्ही शेयर केलेल्या वापरकर्त्यांपेक्षा पुढे आहे."
+  },
+  "app.instance.admonitions.shared-instance.changes-header": {
+    "message": "तुमचे बदल अद्याप शेयर केलेले नाहीत"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-body": {
+    "message": "तुम्ही दुसऱ्या Panda Minecraft Launcher संस्थापनातून या शेयर केलेल्या इन्स्टन्सला अपडेट पुश केला. येथून व्यवस्थापन चालू ठेवण्यासाठी नवीनतम बदल डाउनलोड करा."
+  },
+  "app.instance.admonitions.shared-instance.owner-update-button": {
+    "message": "अपडेट डाउनलोड करा"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-header": {
+    "message": "अपडेट उपलब्ध"
+  },
+  "app.instance.admonitions.shared-instance.publish-button": {
+    "message": "अपडेट पुश करा"
+  },
+  "app.instance.admonitions.shared-instance.publishing-button": {
+    "message": "पुश करत आहे..."
+  },
+  "app.instance.admonitions.shared-instance.removed-label": {
+    "message": "काढले"
+  },
+  "app.instance.admonitions.shared-instance.restored-body": {
+    "message": "हा इन्स्टन्स तुम्ही पुश केलेल्या शेवटच्या आवृत्तीवरून पुनर्संचयित केला. तुम्ही अद्याप पुश न केलेले कॉन्फिग बदल किंवा दुसऱ्या संस्थापनातील सामग्री यात नाही."
+  },
+  "app.instance.admonitions.shared-instance.restored-header": {
+    "message": "फक्त पुश केलेली सामग्री डाउनलोड केली"
+  },
+  "app.instance.admonitions.shared-instance.review-admonition-header": {
+    "message": "अपडेट पुश करा"
+  },
+  "app.instance.admonitions.shared-instance.review-description": {
+    "message": "या इन्स्टन्स वापरणाऱ्या सर्वांशी शेयर होणारे सामग्रीतील बदल तपासा."
+  },
+  "app.instance.admonitions.shared-instance.review-header": {
+    "message": "बदल तपासा"
+  },
+  "app.instance.admonitions.shared-instance.reviewing-button": {
+    "message": "तपासत आहे..."
+  },
+  "app.instance.card.icon-alt": {
+    "message": "इन्स्टन्स आयकन"
+  },
+  "app.instance.card.installing": {
+    "message": "इन्स्टॉल करत आहे..."
+  },
+  "app.instance.card.loading": {
+    "message": "इन्स्टन्स लोड होत आहे..."
+  },
+  "app.instance.card.never-played": {
+    "message": "कधीच खेळलेला नाही"
+  },
+  "app.instance.card.play": {
+    "message": "खेळा"
+  },
+  "app.instance.card.played": {
+    "message": "{relativeTime} खेळला"
+  },
+  "app.instance.card.repair": {
+    "message": "दुरुस्त करा"
+  },
+  "app.instance.card.stop": {
+    "message": "थांबवा"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "तुमच्या इन्स्टन्सचा संपूर्ण डेटा कायमचा हटवला जाईल, यात वर्ल्ड, कॉन्फिग व सर्व इन्स्टॉल केलेली सामग्री समाविष्ट आहे."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "ही कृती पूर्ववत करता येणार नाही"
+  },
+  "app.instance.confirm-delete.bulk-admonition-body": {
+    "message": "या {count} इन्स्टन्सचा संपूर्ण डेटा कायमचा हटवला जाईल, यात त्यांचे वर्ल्ड, कॉन्फिग व सर्व इन्स्टॉल केलेली सामग्री समाविष्ट आहे."
+  },
+  "app.instance.confirm-delete.bulk-delete-button": {
+    "message": "{count} इन्स्टन्स हटवा"
+  },
+  "app.instance.confirm-delete.bulk-header": {
+    "message": "{count} इन्स्टन्स हटवा"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "इन्स्टन्स हटवा"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "इन्स्टन्स हटवा"
+  },
+  "app.instance.confirm-delete.instances-label": {
+    "message": "{count, plural, one {Instance} other {Instances ({count})}}"
+  },
+  "app.instance.content.managed-content.modpack-header": {
+    "message": "मोडपॅक सामग्री"
+  },
+  "app.instance.content.managed-content.shared-header": {
+    "message": "शेयर केलेली सामग्री"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "हा मोडपॅक <bold>{instanceName}</bold> इन्स्टन्समध्ये आधीच इन्स्टॉल केला आहे. तुम्हाला नक्कीच त्याची प्रत तयार करायची आहे का?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "तयार करा"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "मोडपॅक आधीच इन्स्टॉल केला आहे"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "इन्स्टन्स"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "प्रकल्प"
+  },
+  "app.instance.mods.freeze-content": {
+    "message": "आवृत्ती गोठवा"
+  },
+  "app.instance.mods.locked-content": {
+    "message": "लॉक केलेल्या इन्स्टन्समधील सामग्री बदलता येत नाही."
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" जोडले गेले"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} प्रकल्प जोडले गेले"
+  },
+  "app.instance.mods.share-text": {
+    "message": "माझ्या मोडपॅकमध्ये मी वापरत असलेले प्रकल्प पहा!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "मोडपॅक सामग्री शेयर करत आहे"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "यशस्वीरित्या अपलोड केले"
+  },
+  "app.instance.mods.unfreeze-content": {
+    "message": "आवृत्ती गोठवणे रद्द करा"
+  },
+  "app.instance.navigation.back-to-instance": {
+    "message": "इन्स्टन्सकडे परत"
+  },
+  "app.instance.server.offline.description": {
+    "message": "हा सर्व्हर सध्या ऑफलाइन आहे. तुम्ही Minecraft सुरू करू शकता, पण कनेक्ट होऊ शकणार नाही."
+  },
+  "app.instance.server.offline.launch-anyway": {
+    "message": "तरीही सुरू करा"
+  },
+  "app.instance.server.offline.title": {
+    "message": "सर्व्हर ऑफलाइन आहे"
+  },
+  "app.instance.server.status.unknown": {
+    "message": "स्थिती अज्ञात"
+  },
+  "app.instance.share.empty.description": {
+    "message": "तुम्ही हा इन्स्टन्स मित्रांसोबत शेयर करू शकता!"
+  },
+  "app.instance.share.empty.heading": {
+    "message": "कोणालाही आमंत्रित केलेले नाही"
+  },
+  "app.instance.share.empty.invite-friends-button": {
+    "message": "मित्रांना आमंत्रित करा"
+  },
+  "app.instance.share.invite-friends": {
+    "message": "मित्रांना आमंत्रित करा"
+  },
+  "app.instance.share.invite-modal.heading": {
+    "message": "{name} शेयर करा"
+  },
+  "app.instance.share.invite-modal.user-limit-reached": {
+    "message": "या इन्स्टन्सने {limit}-वापरकर्ता मर्यादेपर्यंत पोहोचले आहे."
+  },
+  "app.instance.share.limit-reached.description": {
+    "message": "तुम्ही आधीच जास्तीत जास्त {limit} इन्स्टन्स शेयर केलेले आहेत."
+  },
+  "app.instance.share.limit-reached.heading": {
+    "message": "शेयर इन्स्टन्सची मर्यादा पूर्ण"
+  },
+  "app.instance.share.limit-reached.manage-button": {
+    "message": "शेयर इन्स्टन्स व्यवस्थापित करा"
+  },
+  "app.instance.share.locked.empty-description-prefix": {
+    "message": "तुम्हाला याच्या रूपात साइन इन करावे लागेल"
+  },
+  "app.instance.share.locked.empty-description-suffix": {
+    "message": "या पानात प्रवेश करण्यासाठी."
+  },
+  "app.instance.share.locked.linked-account-fallback": {
+    "message": "जोडलेले खाते"
+  },
+  "app.instance.share.locked.signed-out-heading": {
+    "message": "साइन इन केलेले नाही"
+  },
+  "app.instance.share.locked.switch-account-button": {
+    "message": "खाते बदला"
+  },
+  "app.instance.share.locked.wrong-account-heading": {
+    "message": "चुकीचे खाते"
+  },
+  "app.instance.share.remove-user-modal.effect-access": {
+    "message": "त्यांना या शेयर इन्स्टन्सचे अपडेट मिळणार नाहीत"
+  },
+  "app.instance.share.remove-user-modal.effect-installed-copy": {
+    "message": "त्यांनी आधीच इन्स्टॉल केलेली प्रत त्यांच्या डिव्हाइसवर राहील"
+  },
+  "app.instance.share.remove-user-modal.effect-invite-again": {
+    "message": "तुम्ही त्यांना नंतर पुन्हा आमंत्रित करू शकता"
+  },
+  "app.instance.share.remove-user-modal.effect-last-user": {
+    "message": "हा शेवटचा वापरकर्ता आहे; या इन्स्टन्ससाठी शेयरिंग बंद होईल"
+  },
+  "app.instance.share.remove-user-modal.effects-label": {
+    "message": "काय होईल?"
+  },
+  "app.instance.share.remove-user-modal.header": {
+    "message": "प्रवेश रद्द करा"
+  },
+  "app.instance.share.remove-user-modal.remove-button": {
+    "message": "प्रवेश रद्द करा"
+  },
+  "app.instance.share.remove-user-modal.user-avatar-alt": {
+    "message": "{username} चा अवतार"
+  },
+  "app.instance.share.remove-user-modal.warning-body": {
+    "message": "तुम्ही {username} चा या शेयर इन्स्टन्सवरील प्रवेश रद्द केल्यास, अपडेट मिळण्यापूर्वी तुम्हाला त्यांना पुन्हा आमंत्रित करावे लागेल."
+  },
+  "app.instance.share.sign-in.button": {
+    "message": "साइन इन करा"
+  },
+  "app.instance.share.unable-to-connect.description": {
+    "message": "शेयर इन्स्टन्स सेवा सध्या उपलब्ध नाही, कृपया नंतर पुन्हा प्रयत्न करा"
+  },
+  "app.instance.share.unable-to-connect.heading": {
+    "message": "जोडता येत नाही"
+  },
+  "app.instance.share.unlink.body": {
+    "message": "इन्स्टन्स शेयर करण्यासाठी तुम्हाला हा मोडपॅक अनलिंक करणे आवश्यक आहे"
+  },
+  "app.instance.share.unlink.header": {
+    "message": "शेयरिंगसाठी अनलिंक आवश्यक"
+  },
+  "app.instance.shared-instance-already-installed.body": {
+    "message": "हा शेयर इन्स्टन्स <bold>{instanceName}</bold> म्हणून आधीच इन्स्टॉल केला आहे. तुम्हाला नक्कीच दुसरी प्रत इन्स्टॉल करायची आहे का?"
+  },
+  "app.instance.shared-instance-already-installed.header": {
+    "message": "शेयर इन्स्टन्स आधीच इन्स्टॉल केला आहे"
+  },
+  "app.instance.shared-instance-already-installed.install-anyway": {
+    "message": "तरीही इन्स्टॉल करा"
+  },
+  "app.instance.shared-instance-already-installed.instance": {
+    "message": "इन्स्टन्स"
+  },
+  "app.instance.shared-instance-wrong-account.fallback-username": {
+    "message": "जोडलेले खाते"
+  },
+  "app.instance.shared-instance-wrong-account.owner-admonition-body-v2": {
+    "message": "या शेयर इन्स्टन्सचे व्यवस्थापन करण्यासाठी. तुम्ही वापरकर्त्यांना अपडेट पुश करू शकणार नाही."
+  },
+  "app.instance.shared-instance-wrong-account.sign-in-as-label": {
+    "message": "याच्या रूपात साइन इन करा"
+  },
+  "app.instance.shared-instance-wrong-account.signed-out-header": {
+    "message": "तुम्हाला Panda Minecraft Launcher मध्ये साइन इन करणे आवश्यक आहे"
+  },
+  "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
+    "message": "या शेयर इन्स्टन्सचे अपडेट मिळवण्यासाठी."
+  },
+  "app.instance.shared-instance-wrong-account.warning-header": {
+    "message": "तुम्ही चुकीच्या Panda Minecraft Launcher खात्याचा वापर करत आहात"
+  },
+  "app.instance.shortcut.created": {
+    "message": "शॉर्टकट तयार केला"
+  },
+  "app.instance.shortcut.creation-error": {
+    "message": "शॉर्टकट तयार करता आला नाही"
+  },
+  "app.instance.tab.content": {
+    "message": "सामग्री"
+  },
+  "app.instance.tab.files": {
+    "message": "फायली"
+  },
+  "app.instance.tab.logs": {
+    "message": "लॉग"
+  },
+  "app.instance.tab.screenshots": {
+    "message": "स्क्रीनशॉट"
+  },
+  "app.instance.tab.share": {
+    "message": "शेयर करा"
+  },
+  "app.instance.tab.worlds": {
+    "message": "वर्ल्ड्स"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "सर्व्हर जोडा"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "सर्व्हर ब्राउज करा"
+  },
+  "app.instance.worlds.delete-world-modal.delete-button": {
+    "message": "वर्ल्ड हटवा"
+  },
+  "app.instance.worlds.delete-world-modal.title": {
+    "message": "वर्ल्ड हटवा"
+  },
+  "app.instance.worlds.delete-world-modal.warning-body": {
+    "message": "हा वर्ल्ड या इन्स्टन्समधून कायमचा हटवला जाईल. ही कृती पूर्ववत करता येणार नाही."
+  },
+  "app.instance.worlds.delete-world-modal.warning-header": {
+    "message": "{name} हटवत आहे"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "मोडसह"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "ऑफलाइन"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "ऑनलाइन"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "व्हॅनिला"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "सुरुवात करण्यासाठी सर्व्हर जोडा किंवा ब्राउज करा"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "कोणतेही सर्व्हर किंवा वर्ल्ड जोडलेले नाहीत"
+  },
+  "app.instance.worlds.refreshing": {
+    "message": "रीफ्रेश करत आहे..."
+  },
+  "app.instance.worlds.remove-server-modal.remove-button": {
+    "message": "सर्व्हर काढा"
+  },
+  "app.instance.worlds.remove-server-modal.remove-everywhere": {
+    "message": "सर्वत्र काढा"
+  },
+  "app.instance.worlds.remove-server-modal.remove-here": {
+    "message": "येथून काढा"
+  },
+  "app.instance.worlds.remove-server-modal.synced-description": {
+    "message": "तुम्ही हा फक्त या इन्स्टन्समधून किंवा सर्व सिंक केलेल्या इन्स्टन्समधून काढू शकता. फक्त येथून काढल्यास ओव्हरराइड सुरू होतील व या इन्स्टन्सला सिंक केलेले सर्व्हर बदल मिळणार नाहीत."
+  },
+  "app.instance.worlds.remove-server-modal.synced-header": {
+    "message": "हा सर्व्हर सिंक केलेला आहे"
+  },
+  "app.instance.worlds.remove-server-modal.title": {
+    "message": "सर्व्हर काढा"
+  },
+  "app.instance.worlds.remove-server-modal.warning-body": {
+    "message": "हा सर्व्हर तुमच्या सर्व्हर सूचीतून व गेममधील सर्व्हर सूचीतून काढला जाईल. पत्ता माहीत असल्यास तुम्ही तो नंतर पुन्हा जोडू शकता."
+  },
+  "app.instance.worlds.remove-server-modal.warning-header": {
+    "message": "{name} काढत आहे"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "{count} वर्ल्ड शोधा..."
+  },
+  "app.java-detection.cancel": {
+    "message": "रद्द करा"
+  },
+  "app.java-detection.columns.actions": {
+    "message": "कृती"
+  },
+  "app.java-detection.columns.path": {
+    "message": "मार्ग"
+  },
+  "app.java-detection.columns.version": {
+    "message": "आवृत्ती"
+  },
+  "app.java-detection.no-installations-found": {
+    "message": "कोणतेही Java संस्थापन आढळले नाही."
+  },
+  "app.java-detection.select": {
+    "message": "निवडा"
+  },
+  "app.java-detection.selected": {
+    "message": "निवडलेले"
+  },
+  "app.java-detection.title": {
+    "message": "Java संस्थापन निवडा"
+  },
+  "app.java-selector.browse": {
+    "message": "ब्राउज करा"
+  },
+  "app.java-selector.copy-failed-title": {
+    "message": "मार्ग कॉपी करता आला नाही"
+  },
+  "app.java-selector.copy-path": {
+    "message": "मार्ग कॉपी करा"
+  },
+  "app.java-selector.detect": {
+    "message": "शोधा"
+  },
+  "app.java-selector.edit-path": {
+    "message": "मार्ग संपादित करा"
+  },
+  "app.java-selector.install-java": {
+    "message": "Java {version} इन्स्टॉल करा"
+  },
+  "app.java-selector.installing": {
+    "message": "इन्स्टॉल करत आहे..."
+  },
+  "app.java-selector.invalid": {
+    "message": "अवैध"
+  },
+  "app.java-selector.more-options": {
+    "message": "अधिक Java पर्याय"
+  },
+  "app.java-selector.not-set": {
+    "message": "कोणतेही Java निवडलेले नाही"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "Java मार्ग तुमच्या क्लिपबोर्डवर कॉपी केला गेला."
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "मार्ग कॉपी केला"
+  },
+  "app.java-selector.path.placeholder": {
+    "message": "/path/to/java"
+  },
+  "app.java-selector.valid": {
+    "message": "वैध"
+  },
+  "app.library.actions.label": {
+    "message": "लायब्ररी कृती"
+  },
+  "app.library.context-menu.create-instance": {
+    "message": "नवीन इन्स्टन्स"
+  },
+  "app.library.filter.add": {
+    "message": "फिल्टर जोडा"
+  },
+  "app.library.filter.clear": {
+    "message": "फिल्टर साफ करा"
+  },
+  "app.library.filter.game-version": {
+    "message": "गेम आवृत्ती"
+  },
+  "app.library.filter.install-state": {
+    "message": "इन्स्टॉल स्थिती"
+  },
+  "app.library.filter.install-state.installed": {
+    "message": "इन्स्टॉल केलेले"
+  },
+  "app.library.filter.install-state.not-installed": {
+    "message": "इन्स्टॉल केलेले नाही"
+  },
+  "app.library.filter.instance-type": {
+    "message": "इन्स्टन्स प्रकार"
+  },
+  "app.library.filter.instance-type.custom": {
+    "message": "सानुकूल"
+  },
+  "app.library.filter.instance-type.modpack": {
+    "message": "मोडपॅक"
+  },
+  "app.library.filter.instance-type.server": {
+    "message": "सर्व्हर"
+  },
+  "app.library.filter.label": {
+    "message": "यानुसार फिल्टर करा"
+  },
+  "app.library.filter.loader": {
+    "message": "लोडर"
+  },
+  "app.library.filter.owner": {
+    "message": "मालक"
+  },
+  "app.library.filter.owner.me": {
+    "message": "तुम्ही"
+  },
+  "app.library.filter.owner.others": {
+    "message": "इतर"
+  },
+  "app.library.filter.sharing": {
+    "message": "शेयरिंग"
+  },
+  "app.library.filter.sharing.not-shared": {
+    "message": "शेयर केलेले नाही"
+  },
+  "app.library.filter.sharing.shared": {
+    "message": "शेयर केलेले"
+  },
+  "app.library.group-by.custom-group": {
+    "message": "सानुकूल गट"
+  },
+  "app.library.group-by.game-version": {
+    "message": "गेम आवृत्ती"
+  },
+  "app.library.group-by.instance-type": {
+    "message": "इन्स्टन्स प्रकार"
+  },
+  "app.library.group-by.label": {
+    "message": "यानुसार गट करा"
+  },
+  "app.library.group-by.loader": {
+    "message": "लोडर"
+  },
+  "app.library.group-by.none": {
+    "message": "गटवारी नाही"
+  },
+  "app.library.group.actions.label": {
+    "message": "गट कृती"
+  },
+  "app.library.group.collapse": {
+    "message": "गट संकुचित करा"
+  },
+  "app.library.group.context-menu.add-to-group": {
+    "message": "गटात जोडा"
+  },
+  "app.library.group.create": {
+    "message": "गट तयार करा"
+  },
+  "app.library.group.create.cancel": {
+    "message": "रद्द करा"
+  },
+  "app.library.group.delete": {
+    "message": "गट हटवा"
+  },
+  "app.library.group.delete-description": {
+    "message": "या गटातील इन्स्टन्स गटवारीतून बाहेर काढले जातील."
+  },
+  "app.library.group.edit-name": {
+    "message": "गटाचे नाव संपादित करा"
+  },
+  "app.library.group.empty": {
+    "message": "इन्स्टन्स जोडण्यासाठी ओढा व सोडा."
+  },
+  "app.library.group.expand": {
+    "message": "गट प्रसारित करा"
+  },
+  "app.library.group.favorites": {
+    "message": "आवडीचे"
+  },
+  "app.library.group.instance.add": {
+    "message": "जोडा"
+  },
+  "app.library.group.instance.added": {
+    "message": "जोडले"
+  },
+  "app.library.group.instances-modal.add": {
+    "message": "जोडा"
+  },
+  "app.library.group.instances-modal.added": {
+    "message": "जोडले"
+  },
+  "app.library.group.instances-modal.no-instances-found": {
+    "message": "कोणतेही इन्स्टन्स आढळले नाहीत"
+  },
+  "app.library.group.instances-modal.search-placeholder": {
+    "message": "इन्स्टन्स शोधा"
+  },
+  "app.library.group.instances-modal.title": {
+    "message": "\"{groupName}\" मध्ये इन्स्टन्स जोडा"
+  },
+  "app.library.group.move-down": {
+    "message": "गट खाली हलवा"
+  },
+  "app.library.group.move-up": {
+    "message": "गट वर हलवा"
+  },
+  "app.library.group.name": {
+    "message": "गटाचे नाव"
+  },
+  "app.library.group.name-empty": {
+    "message": "गटाचे नाव रिकामे असू शकत नाही."
+  },
+  "app.library.group.name-placeholder": {
+    "message": "गटाचे नाव लिहा"
+  },
+  "app.library.group.name-reserved": {
+    "message": "\"None\" हे आरक्षित आहे व गटाच्या नावासाठी वापरता येत नाही."
+  },
+  "app.library.group.name-too-long": {
+    "message": "गटाचे नाव {maxLength} अक्षरांपेक्षा जास्त असू शकत नाही."
+  },
+  "app.library.group.new": {
+    "message": "नवीन गट"
+  },
+  "app.library.group.no-instances-found": {
+    "message": "कोणतेही इन्स्टन्स आढळले नाहीत"
+  },
+  "app.library.group.rename-failed": {
+    "message": "गटाचे नाव बदलता आले नाही"
+  },
+  "app.library.group.search-instance": {
+    "message": "इन्स्टन्स शोधा"
+  },
+  "app.library.group.ungrouped": {
+    "message": "गटवारी न केलेले"
+  },
+  "app.library.group.unknown": {
+    "message": "अज्ञात गट"
+  },
+  "app.library.instance-hidden.text": {
+    "message": "तुम्ही हे सेटिंग्ज > वर्तणूक मध्ये पुन्हा दाखवू शकता."
+  },
+  "app.library.instance-hidden.title": {
+    "message": "लायब्ररीतून लपवलेले"
+  },
+  "app.library.instance.action.add-content": {
+    "message": "सामग्री जोडा"
+  },
+  "app.library.instance.action.add-to-favorites": {
+    "message": "आवडीच्यामध्ये जोडा"
+  },
+  "app.library.instance.action.copy-path": {
+    "message": "मार्ग कॉपी करा"
+  },
+  "app.library.instance.action.delete": {
+    "message": "हटवा"
+  },
+  "app.library.instance.action.duplicate": {
+    "message": "इन्स्टन्स डुप्लिकेट करा"
+  },
+  "app.library.instance.action.hide-from-library": {
+    "message": "लायब्ररीतून लपवा"
+  },
+  "app.library.instance.action.leave": {
+    "message": "बाहेर पडा"
+  },
+  "app.library.instance.action.open-folder": {
+    "message": "फोल्डर उघडा"
+  },
+  "app.library.instance.action.play": {
+    "message": "खेळा"
+  },
+  "app.library.instance.action.remove-from-favorites": {
+    "message": "आवडीच्यामधून काढा"
+  },
+  "app.library.instance.action.remove-from-group": {
+    "message": "गटातून काढा"
+  },
+  "app.library.instance.action.show-in-library": {
+    "message": "लायब्ररीत दाखवा"
+  },
+  "app.library.instance.action.stop": {
+    "message": "थांबवा"
+  },
+  "app.library.instance.action.unpublish": {
+    "message": "प्रकाशन रद्द करा"
+  },
+  "app.library.instance.action.unpublish-and-leave": {
+    "message": "प्रकाशन रद्द करा व बाहेर पडा"
+  },
+  "app.library.instance.action.view-instance": {
+    "message": "इन्स्टन्स पहा"
+  },
+  "app.library.instance.actions.label": {
+    "message": "इन्स्टन्स कृती"
+  },
+  "app.library.instance.deselect": {
+    "message": "इन्स्टन्सची निवड रद्द करा"
+  },
+  "app.library.instance.deselect-with-name": {
+    "message": "{name} ची निवड रद्द करा"
+  },
+  "app.library.instance.install": {
+    "message": "इन्स्टॉल करा"
+  },
+  "app.library.instance.install-with-name": {
+    "message": "{name} इन्स्टॉल करा"
+  },
+  "app.library.instance.installing": {
+    "message": "इन्स्टॉल करत आहे..."
+  },
+  "app.library.instance.loading": {
+    "message": "इन्स्टन्स लोड होत आहे..."
+  },
+  "app.library.instance.new": {
+    "message": "नवीन इन्स्टन्स"
+  },
+  "app.library.instance.open-with-name": {
+    "message": "{name} उघडा"
+  },
+  "app.library.instance.play": {
+    "message": "खेळा"
+  },
+  "app.library.instance.repair": {
+    "message": "दुरुस्त करा"
+  },
+  "app.library.instance.select": {
+    "message": "इन्स्टन्स निवडा"
+  },
+  "app.library.instance.select-with-name": {
+    "message": "{name} निवडा"
+  },
+  "app.library.instance.shared-by": {
+    "message": "{name} कडून शेयर केले"
+  },
+  "app.library.instance.shared-by-owner": {
+    "message": "<owner>{name}</owner> कडून शेयर केले"
+  },
+  "app.library.instance.shared-by-you": {
+    "message": "तुम्ही शेयर केले"
+  },
+  "app.library.instance.stop": {
+    "message": "थांबवा"
+  },
+  "app.library.leave-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {You'll lose access to this shared instance and it will be removed from your library. You'll need a new invite to join it again.} other {You'll lose access to these shared instances and they will be removed from your library. You'll need a new invite to join them again.}}"
+  },
+  "app.library.leave-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Leaving shared instance} other {Leaving # shared instances}}"
+  },
+  "app.library.leave-shared-instance.modal.header": {
+    "message": "{count, plural, one {Leave shared instance} other {Leave # shared instances}}"
+  },
+  "app.library.search.no-results.title": {
+    "message": "तुमच्या शोधाशी जुळणारा कोणताही इन्स्टन्स नाही."
+  },
+  "app.library.search.placeholder": {
+    "message": "शोधा"
+  },
+  "app.library.selection.aria-label": {
+    "message": "निवडलेले इन्स्टन्स"
+  },
+  "app.library.selection.deleting": {
+    "message": "निवडलेले इन्स्टन्स हटवत आहे"
+  },
+  "app.library.selection.new-group": {
+    "message": "नवीन गट"
+  },
+  "app.library.selection.remove-from-group": {
+    "message": "गटातून काढा"
+  },
+  "app.library.selection.removing-shared-instances": {
+    "message": "निवडलेले शेयर इन्स्टन्स काढत आहे"
+  },
+  "app.library.selection.selected-count": {
+    "message": "{count} निवडले"
+  },
+  "app.library.sort.date-created": {
+    "message": "तयार केल्याची तारीख"
+  },
+  "app.library.sort.date-modified": {
+    "message": "बदल केल्याची तारीख"
+  },
+  "app.library.sort.game-version": {
+    "message": "गेम आवृत्ती"
+  },
+  "app.library.sort.hours-played": {
+    "message": "खेळलेले तास"
+  },
+  "app.library.sort.label": {
+    "message": "यानुसार क्रमवारी लावा"
+  },
+  "app.library.sort.last-played": {
+    "message": "शेवटचे खेळले"
+  },
+  "app.library.sort.loader": {
+    "message": "लोडर"
+  },
+  "app.library.sort.name": {
+    "message": "नाव"
+  },
+  "app.library.title": {
+    "message": "लायब्ररी"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
+    "message": "{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} अपडेट मिळणे बंद होईल. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} ते सर्व तुमच्या लायब्ररीतून काढले जातील."
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
+    "message": "शेयर इन्स्टन्सचे प्रकाशन रद्द करून बाहेर पडत आहे"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.header": {
+    "message": "{count} शेयर इन्स्टन्सचे प्रकाशन रद्द करा व बाहेर पडा"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
+  },
+  "app.library.unpublish-shared-instance.modal.header": {
+    "message": "{count, plural, one {Unpublish shared instance} other {Unpublish # shared instances}}"
+  },
+  "app.modal.install-to-play.additional-context": {
+    "message": "अधिक माहिती"
+  },
+  "app.modal.install-to-play.additional-context-placeholder": {
+    "message": "शक्य व संबंधित असल्यास दुवे व चित्रे जोडा"
+  },
+  "app.modal.install-to-play.block-user": {
+    "message": "वापरकर्ता ब्लॉक करा"
+  },
+  "app.modal.install-to-play.content-you-are-reporting": {
+    "message": "तुम्ही ज्या इन्स्टन्सची तक्रार करत आहात"
+  },
+  "app.modal.install-to-play.delete-instance": {
+    "message": "इन्स्टन्स हटवा"
+  },
+  "app.modal.install-to-play.external-files-dont-install": {
+    "message": "इन्स्टॉल करू नका"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "खेळण्यासाठी इन्स्टॉल करा"
+  },
+  "app.modal.install-to-play.install-anyway": {
+    "message": "तरीही इन्स्टॉल करा"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "इन्स्टॉल करा"
+  },
+  "app.modal.install-to-play.invite-warning": {
+    "message": "हे आमंत्रण दुसऱ्या Panda Minecraft Launcher वापरकर्त्याने तयार केले आहे, Panda Minecraft Launcher ने नाही. फक्त विश्वासू लोकांकडून आलेली आमंत्रणे स्वीकारा."
+  },
+  "app.modal.install-to-play.invite-warning-with-creator": {
+    "message": "हे आमंत्रण <creator>{username}</creator> यांनी तयार केले आहे, Panda Minecraft Launcher ने नाही. फक्त विश्वासू लोकांकडून आलेली आमंत्रणे स्वीकारा."
+  },
+  "app.modal.install-to-play.managed-content.modpack-header": {
+    "message": "मोडपॅक सामग्री"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# mods}}"
+  },
+  "app.modal.install-to-play.owner-install-note": {
+    "message": "हे तुम्ही पुश केलेली नवीनतम आवृत्ती डाउनलोड करते. दुसऱ्या संस्थापनावरील तुम्ही अद्याप पुश न केलेले बदल समाविष्ट होणार नाहीत."
+  },
+  "app.modal.install-to-play.report-description": {
+    "message": "आमचे <rules-link>नियम</rules-link> किंवा <terms-link>वापराच्या अटी</terms-link> मोडू शकणाऱ्या इन्स्टन्सची तक्रार करण्यासाठी हा फॉर्म वापरा."
+  },
+  "app.modal.install-to-play.report-image-invalid-type": {
+    "message": "फाइल स्वीकार्य प्रतिमा प्रकाराची नाही"
+  },
+  "app.modal.install-to-play.report-image-too-large": {
+    "message": "फाइल 1 MiB च्या मर्यादेपेक्षा मोठी आहे"
+  },
+  "app.modal.install-to-play.report-legal-claims": {
+    "message": "DMCA सूचना किंवा इतर कायदेशीर दाव्यांसाठी आमचे <copyright-link>कॉपीराइट धोरण</copyright-link> पहा."
+  },
+  "app.modal.install-to-play.report-reason": {
+    "message": "हा इन्स्टन्स कोणता नियम मोडतो?"
+  },
+  "app.modal.install-to-play.report-shared-instance-header": {
+    "message": "शेयर इन्स्टन्सची तक्रार करा"
+  },
+  "app.modal.install-to-play.report-submitted": {
+    "message": "तक्रार सबमिट केली"
+  },
+  "app.modal.install-to-play.report-support-and-bugs": {
+    "message": "मदतीसाठी आमच्या <support-link>सपोर्ट टीमशी</support-link> संपर्क करा. बगची माहिती देण्यासाठी <github-link>GitHub issue</github-link> उघडा."
+  },
+  "app.modal.install-to-play.reviewed-files": {
+    "message": "ज्या फायली Panda Minecraft Launcher वर प्रकाशित केल्या नाहीत त्यांचे पुनरावलोकन केले जात नाही."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "शेयर इन्स्टन्स"
+  },
+  "app.modal.install-to-play.shared-instance-content": {
+    "message": "शेयर इन्स्टन्स सामग्री"
+  },
+  "app.modal.install-to-play.shared-instance-unknown-files-description": {
+    "message": "या शेयर इन्स्टन्समध्ये Panda Minecraft Launcher वर प्रकाशित न केलेल्या फायली आहेत. तुम्हाला विश्वास असलेल्या स्रोतांकडूनच फायली इन्स्टॉल करण्याची आम्ही जोरदार शिफारस करतो."
+  },
+  "app.modal.install-to-play.unavailable-description": {
+    "message": "हा सर्व्हर वापरत असलेली मोडपॅक आवृत्ती सध्या डाउनलोड करता येत नाही. ती अप्रकाशित असू शकते किंवा पुनरावलोकनाखाली असू शकते. नंतर पुन्हा प्रयत्न करा किंवा सर्व्हर मालकाशी संपर्क करा."
+  },
+  "app.modal.install-to-play.unavailable-header": {
+    "message": "या सर्व्हरचा मोडपॅक उपलब्ध नाही"
+  },
+  "app.modal.install-to-play.unknown-files-description": {
+    "message": "या सर्व्हर मोडपॅकमध्ये Panda Minecraft Launcher वर प्रकाशित न केलेल्या फायली आहेत. तुम्हाला विश्वास असलेल्या स्रोतांकडूनच फायली इन्स्टॉल करण्याची आम्ही जोरदार शिफारस करतो."
+  },
+  "app.modal.install-to-play.unknown-files-warning": {
+    "message": "अज्ञात फायलींचा इशारा"
+  },
+  "app.modal.install-to-play.unrecognized-files": {
+    "message": "अनोंळखीच्या फायली"
+  },
+  "app.modal.install-to-play.user-blocked": {
+    "message": "वापरकर्ता ब्लॉक केला"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "सामग्री पहा"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "खेळण्यासाठी अपडेट करा"
+  },
+  "app.modal.update-to-play.owner-admonition-header": {
+    "message": "दुसऱ्या संस्थापनातून पुश केले"
+  },
+  "app.modal.update-to-play.owner-description": {
+    "message": "हे बदल दुसऱ्या Panda Minecraft Launcher संस्थापनातून पुश केले गेले. या संस्थापनावरील शेयर सामग्रीतील अद्याप न पुश केलेले बदल बदलले जातील."
+  },
+  "app.modal.update-to-play.owner-header": {
+    "message": "अपडेट उपलब्ध"
+  },
+  "app.modal.update-to-play.removed": {
+    "message": "काढले"
+  },
+  "app.modal.update-to-play.server-modpack-unknown-files-description": {
+    "message": "या सर्व्हर मोडपॅक अपडेटमध्ये Panda Minecraft Launcher वर प्रकाशित न केलेल्या फायली आहेत. तुम्हाला विश्वास असलेल्या स्रोतांकडूनच फायली इन्स्टॉल करण्याची आम्ही जोरदार शिफारस करतो."
+  },
+  "app.modal.update-to-play.shared-instance-added-label": {
+    "message": "जोडले"
+  },
+  "app.modal.update-to-play.shared-instance-removed-label": {
+    "message": "काढले"
+  },
+  "app.modal.update-to-play.shared-instance-unknown-files-description": {
+    "message": "या शेयर इन्स्टन्स अपडेटमध्ये Panda Minecraft Launcher वर प्रकाशित न केलेल्या फायली आहेत. तुम्हाला विश्वास असलेल्या स्रोतांकडूनच फायली इन्स्टॉल करण्याची आम्ही जोरदार शिफारस करतो."
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "अपडेट आवश्यक"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "{name} खेळण्यासाठी अपडेट आवश्यक आहे. गेम सुरू करण्यासाठी कृपया नवीनतम आवृत्तीवर अपडेट करा."
+  },
+  "app.nav.account-management": {
+    "message": "खाते व्यवस्थापन"
+  },
+  "app.nav.add-account": {
+    "message": "खाते जोडा"
+  },
+  "app.nav.create-new-instance": {
+    "message": "नवीन इन्स्टन्स तयार करा"
+  },
+  "app.nav.home": {
+    "message": "मुख्यपृष्ठ"
+  },
+  "app.nav.loading-profile": {
+    "message": "प्रोफाइल लोड करत आहे..."
+  },
+  "app.nav.modrinth-account": {
+    "message": "Panda Minecraft Launcher खाते"
+  },
+  "app.nav.modrinth-hosting": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.nav.remove-account": {
+    "message": "खाते काढा"
+  },
+  "app.nav.screenshots": {
+    "message": "स्क्रीनशॉट"
+  },
+  "app.nav.sign-in-to-modrinth-account": {
+    "message": "Panda Minecraft Launcher मध्ये साइन इन करा"
+  },
+  "app.nav.switch-account": {
+    "message": "खाते बदला"
+  },
+  "app.nav.upgrade-to-modrinth-plus": {
+    "message": "Panda Minecraft Launcher वर अपग्रेड करा"
+  },
+  "app.nav.view-profile": {
+    "message": "प्रोफाइल पहा"
+  },
+  "app.navigation.go-back": {
+    "message": "मागे जा"
+  },
+  "app.navigation.go-forward": {
+    "message": "पुढे जा"
+  },
+  "app.navigation.home": {
+    "message": "मुख्यपृष्ठ"
+  },
+  "app.news.title": {
+    "message": "बातम्या"
+  },
+  "app.news.view-all": {
+    "message": "सर्व बातम्या पहा"
+  },
+  "app.notification.warning": {
+    "message": "इशारा"
+  },
+  "app.project.actions.label": {
+    "message": "प्रकल्प कृती"
+  },
+  "app.project.coming-soon": {
+    "message": "लवकरच येणार"
+  },
+  "app.project.install-button.already-installed": {
+    "message": "हा प्रकल्प आधीच इन्स्टॉल केला आहे"
+  },
+  "app.project.install-button.switch-version": {
+    "message": "आवृत्ती बदला"
+  },
+  "app.project.install-context.back-to-browse": {
+    "message": "शोधकडे परत"
+  },
+  "app.project.install-context.back-to-instance": {
+    "message": "इन्स्टन्सकडे परत"
+  },
+  "app.project.load-error": {
+    "message": "प्रकल्प डेटा लोड करता आला नाही."
+  },
+  "app.project.more-options": {
+    "message": "अधिक पर्याय"
+  },
+  "app.project.tab.description": {
+    "message": "वर्णन"
+  },
+  "app.project.tab.gallery": {
+    "message": "गॅलरी"
+  },
+  "app.project.tab.versions": {
+    "message": "आवृत्त्या"
+  },
+  "app.project.version.all-versions": {
+    "message": "सर्व आवृत्त्या"
+  },
+  "app.project.version.download-in-browser": {
+    "message": "ब्राउजरमध्ये डाउनलोड करा"
+  },
+  "app.project.version.installing": {
+    "message": "इन्स्टॉल करत आहे"
+  },
+  "app.project.versions.already-installed": {
+    "message": "आधीच इन्स्टॉल केले"
+  },
+  "app.quick-instance-switcher.actions.label": {
+    "message": "इन्स्टन्स कृती"
+  },
+  "app.quick-instance-switcher.drag-show-tooltip": {
+    "message": "नवीन इन्स्टन्स दाखवण्यासाठी ओढा"
+  },
+  "app.quick-instance-switcher.drag-tooltip": {
+    "message": "आकार बदलण्यासाठी ओढा"
+  },
+  "app.quick-instance-switcher.instance-locked": {
+    "message": "हा इन्स्टन्स लॉक केलेला आहे"
+  },
+  "app.quick-instance-switcher.title": {
+    "message": "नवीन इन्स्टन्स"
+  },
+  "app.quick-instance-switcher.view-instance": {
+    "message": "इन्स्टन्स पहा"
+  },
+  "app.restarting": {
+    "message": "पुन्हा सुरू करत आहे..."
+  },
+  "app.screenshots.copied": {
+    "message": "कॉपी केले"
+  },
+  "app.screenshots.copy": {
+    "message": "प्रतिमा कॉपी करा"
+  },
+  "app.screenshots.delete-description": {
+    "message": "{name} कायमचा हटवायचा? ही कृती पूर्ववत करता येणार नाही."
+  },
+  "app.screenshots.delete-success": {
+    "message": "स्क्रीनशॉट हटवला"
+  },
+  "app.screenshots.delete-title": {
+    "message": "स्क्रीनशॉट हटवा"
+  },
+  "app.screenshots.deselect": {
+    "message": "{name} ची निवड रद्द करा"
+  },
+  "app.screenshots.edit": {
+    "message": "स्क्रीनशॉट संपादित करा"
+  },
+  "app.screenshots.empty-description": {
+    "message": "गेममध्ये तुम्ही घेतलेले स्क्रीनशॉट येथे दिसतील."
+  },
+  "app.screenshots.empty-heading": {
+    "message": "अद्याप कोणतेही स्क्रीनशॉट नाहीत"
+  },
+  "app.screenshots.error-heading": {
+    "message": "स्क्रीनशॉट लोड करता आले नाहीत"
+  },
+  "app.screenshots.go-to-instance": {
+    "message": "इन्स्टन्सकडे जा"
+  },
+  "app.screenshots.group-by": {
+    "message": "यानुसार गट करा"
+  },
+  "app.screenshots.group.all-screenshots": {
+    "message": "सर्व स्क्रीनशॉट"
+  },
+  "app.screenshots.group.collapse": {
+    "message": "गट संकुचित करा"
+  },
+  "app.screenshots.group.custom": {
+    "message": "सानुकूल गट"
+  },
+  "app.screenshots.group.date": {
+    "message": "तारीख"
+  },
+  "app.screenshots.group.delete": {
+    "message": "गट हटवा"
+  },
+  "app.screenshots.group.delete-description": {
+    "message": "या गटातील स्क्रीनशॉट गटवारीतून बाहेर काढले जातील."
+  },
+  "app.screenshots.group.edit": {
+    "message": "गटाचे नाव संपादित करा"
+  },
+  "app.screenshots.group.empty": {
+    "message": "स्क्रीनशॉट जोडण्यासाठी ओढा व सोडा."
+  },
+  "app.screenshots.group.expand": {
+    "message": "गट प्रसारित करा"
+  },
+  "app.screenshots.group.instance": {
+    "message": "इन्स्टन्स"
+  },
+  "app.screenshots.group.new": {
+    "message": "नवीन गट"
+  },
+  "app.screenshots.group.none": {
+    "message": "गटवारी नाही"
+  },
+  "app.screenshots.group.this-month": {
+    "message": "या महिन्यात"
+  },
+  "app.screenshots.group.this-week": {
+    "message": "या आठवड्यात"
+  },
+  "app.screenshots.group.today": {
+    "message": "आज"
+  },
+  "app.screenshots.group.ungrouped": {
+    "message": "गटवारी न केलेले"
+  },
+  "app.screenshots.group.yesterday": {
+    "message": "काल"
+  },
+  "app.screenshots.heading": {
+    "message": "स्क्रीनशॉट"
+  },
+  "app.screenshots.more-actions": {
+    "message": "अधिक कृती"
+  },
+  "app.screenshots.no-results-description": {
+    "message": "वेगळा शोध किंवा फिल्टर वापरून पहा."
+  },
+  "app.screenshots.no-results-heading": {
+    "message": "जुळणारे कोणतेही स्क्रीनशॉट नाहीत"
+  },
+  "app.screenshots.preview.instance-and-date": {
+    "message": "{instance} · {date}"
+  },
+  "app.screenshots.search": {
+    "message": "शोधा"
+  },
+  "app.screenshots.select": {
+    "message": "{name} निवडा"
+  },
+  "app.screenshots.selection.aria-label": {
+    "message": "निवडलेले स्क्रीनशॉट"
+  },
+  "app.screenshots.selection.delete-description": {
+    "message": "{count, plural, one {# screenshot} other {# screenshots}} हटवायचे? ही कृती पूर्ववत करता येणार नाही."
+  },
+  "app.screenshots.selection.delete-success": {
+    "message": "{count, plural, one {# screenshot deleted} other {# screenshots deleted}}"
+  },
+  "app.screenshots.selection.delete-title": {
+    "message": "निवडलेले स्क्रीनशॉट हटवा"
+  },
+  "app.screenshots.selection.export-zip": {
+    "message": "ZIP निर्यात करा"
+  },
+  "app.screenshots.selection.global-export-filename": {
+    "message": "Panda Minecraft Launcher screenshots.zip"
+  },
+  "app.screenshots.selection.instance-export-filename": {
+    "message": "{instance} screenshots.zip"
+  },
+  "app.screenshots.selection.remove-from-group": {
+    "message": "गटातून काढा"
+  },
+  "app.screenshots.selection.selected-count": {
+    "message": "{count} निवडले"
+  },
+  "app.screenshots.selection.zip-archive": {
+    "message": "ZIP संग्रह"
+  },
+  "app.screenshots.show-in-folder": {
+    "message": "फोल्डरमध्ये दाखवा"
+  },
+  "app.screenshots.sort-by": {
+    "message": "यानुसार क्रमवारी लावा"
+  },
+  "app.screenshots.sort.name": {
+    "message": "नाव"
+  },
+  "app.screenshots.sort.newest": {
+    "message": "नवीनतम"
+  },
+  "app.screenshots.sort.oldest": {
+    "message": "सर्वात जुने"
+  },
+  "app.server-sharing-update.notification.description": {
+    "message": "तुमच्या सर्व्हरद्वारे व्यवस्थापित इन्स्टन्ससह खेळण्यासाठी मित्रांना आमंत्रित करा."
+  },
+  "app.server-sharing-update.notification.dismiss": {
+    "message": "बंद करा"
+  },
+  "app.server-sharing-update.notification.purchase-description": {
+    "message": "सर्व्हर मिळवा आणि त्याद्वारे व्यवस्थापित इन्स्टन्ससह खेळण्यासाठी मित्रांना आमंत्रित करा."
+  },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "अपडेट पहा"
+  },
+  "app.server-sharing-update.title": {
+    "message": "मित्रांसोबत सर्व्हर शेयर करा"
+  },
+  "app.settings.app-version": {
+    "message": "Panda Minecraft Launcher {version}"
+  },
+  "app.settings.default-instance-options.environment-variables.description": {
+    "message": "इन्स्टन्स सुरू करताना सेट केल्या जाणाऱ्या पर्यावरण चलें."
+  },
+  "app.settings.default-instance-options.environment-variables.placeholder": {
+    "message": "पर्यावरण चलें लिहा..."
+  },
+  "app.settings.default-instance-options.environment-variables.title": {
+    "message": "पर्यावरण चलें"
+  },
+  "app.settings.default-instance-options.fullscreen.description": {
+    "message": "इन्स्टन्सच्या options.txt फाइल अपडेट करून पूर्णस्क्रीनमध्ये सुरू करा."
+  },
+  "app.settings.default-instance-options.fullscreen.title": {
+    "message": "पूर्णस्क्रीन"
+  },
+  "app.settings.default-instance-options.height.description": {
+    "message": "सुरू केल्यावर गेम विंडोची उंची."
+  },
+  "app.settings.default-instance-options.height.placeholder": {
+    "message": "उंची लिहा..."
+  },
+  "app.settings.default-instance-options.height.title": {
+    "message": "उंची"
+  },
+  "app.settings.default-instance-options.java-arguments.description": {
+    "message": "इन्स्टन्स सुरू करताना Java ला दिले जाणारे आर्ग्युमेंट."
+  },
+  "app.settings.default-instance-options.java-arguments.placeholder": {
+    "message": "Java आर्ग्युमेंट लिहा..."
+  },
+  "app.settings.default-instance-options.java-arguments.title": {
+    "message": "Java आर्ग्युमेंट"
+  },
+  "app.settings.default-instance-options.memory-allocation.description": {
+    "message": "प्रत्येक इन्स्टन्ससाठी उपलब्ध जास्तीत जास्त मेमरी."
+  },
+  "app.settings.default-instance-options.memory-allocation.title": {
+    "message": "मेमरी वाटप"
+  },
+  "app.settings.default-instance-options.post-exit-hook.description": {
+    "message": "गेम बंद झाल्यावर चालते."
+  },
+  "app.settings.default-instance-options.post-exit-hook.placeholder": {
+    "message": "बंद केल्यावरची कमांड लिहा..."
+  },
+  "app.settings.default-instance-options.post-exit-hook.title": {
+    "message": "बंद केल्यावरचे हुक"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.description": {
+    "message": "इन्स्टन्स सुरू होण्यापूर्वी चालते."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.placeholder": {
+    "message": "सुरुवातीपूर्वीची कमांड लिहा..."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.title": {
+    "message": "सुरुवातीपूर्वीचे हुक"
+  },
+  "app.settings.default-instance-options.width.description": {
+    "message": "सुरू केल्यावर गेम विंडोची रुंदी."
+  },
+  "app.settings.default-instance-options.width.placeholder": {
+    "message": "रुंदी लिहा..."
+  },
+  "app.settings.default-instance-options.width.title": {
+    "message": "रुंदी"
+  },
+  "app.settings.default-instance-options.wrapper-hook.description": {
+    "message": "Minecraft लॉन्च प्रक्रिया वेष्टित करण्यासाठी वापरली जाणारी कमांड."
+  },
+  "app.settings.default-instance-options.wrapper-hook.placeholder": {
+    "message": "वेपर कमांड लिहा..."
+  },
+  "app.settings.default-instance-options.wrapper-hook.title": {
+    "message": "वेपर हुक"
+  },
+  "app.settings.developer-mode-button.label": {
+    "message": "डेव्हलपर मोड बदला"
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "डेव्हलपर मोड सुरू आहे."
+  },
+  "app.settings.downloading": {
+    "message": "v{version} डाउनलोड करत आहे"
+  },
+  "app.settings.game-options.category.accessibility.description": {
+    "message": "प्रवेशयोग्यतेच्या पसंती"
+  },
+  "app.settings.game-options.category.accessibility.label": {
+    "message": "प्रवेशयोग्यता"
+  },
+  "app.settings.game-options.category.chat.description": {
+    "message": "चॅटची दृश्यता व स्वरूप"
+  },
+  "app.settings.game-options.category.chat.label": {
+    "message": "चॅट"
+  },
+  "app.settings.game-options.category.controls.description": {
+    "message": "माउस, हालचाल व की बाइंडिंग"
+  },
+  "app.settings.game-options.category.controls.label": {
+    "message": "नियंत्रणे"
+  },
+  "app.settings.game-options.category.custom.description": {
+    "message": "मोड्सद्वारे जोडलेल्या सेटिंग्ज"
+  },
+  "app.settings.game-options.category.custom.label": {
+    "message": "सानुकूल सेटिंग्ज"
+  },
+  "app.settings.game-options.category.language.description": {
+    "message": "गेमची भाषा"
+  },
+  "app.settings.game-options.category.language.label": {
+    "message": "भाषा"
+  },
+  "app.settings.game-options.category.music-and-sound.description": {
+    "message": "व्हॉल्यूम व ऑडिओ पसंती"
+  },
+  "app.settings.game-options.category.music-and-sound.label": {
+    "message": "संगीत व आवाज"
+  },
+  "app.settings.game-options.category.online.description": {
+    "message": "ऑनलाइन व Realms पसंती"
+  },
+  "app.settings.game-options.category.online.label": {
+    "message": "ऑनलाइन"
+  },
+  "app.settings.game-options.category.skin-customization.description": {
+    "message": "स्किन लेयर व मुख्य हात"
+  },
+  "app.settings.game-options.category.skin-customization.label": {
+    "message": "स्किन सानुकूलन"
+  },
+  "app.settings.game-options.category.video.description": {
+    "message": "कॅमेरा व डिस्प्ले सेटिंग्ज"
+  },
+  "app.settings.game-options.category.video.label": {
+    "message": "व्हिडिओ"
+  },
+  "app.settings.game-options.choice.all": {
+    "message": "सर्व"
+  },
+  "app.settings.game-options.choice.balanced": {
+    "message": "संतुलित"
+  },
+  "app.settings.game-options.choice.by-player": {
+    "message": "खेळाडूनुसार"
+  },
+  "app.settings.game-options.choice.chat": {
+    "message": "चॅट"
+  },
+  "app.settings.game-options.choice.commands-only": {
+    "message": "फक्त कमांड"
+  },
+  "app.settings.game-options.choice.constant": {
+    "message": "स्थिर"
+  },
+  "app.settings.game-options.choice.crosshair": {
+    "message": "क्रॉसहेयर"
+  },
+  "app.settings.game-options.choice.custom": {
+    "message": "सानुकूल"
+  },
+  "app.settings.game-options.choice.decreased": {
+    "message": "कमी"
+  },
+  "app.settings.game-options.choice.default": {
+    "message": "डिफॉल्ट"
+  },
+  "app.settings.game-options.choice.fabulous": {
+    "message": "अत्युत्तम"
+  },
+  "app.settings.game-options.choice.fancy": {
+    "message": "शानदार"
+  },
+  "app.settings.game-options.choice.far": {
+    "message": "दूर"
+  },
+  "app.settings.game-options.choice.fast": {
+    "message": "जलद"
+  },
+  "app.settings.game-options.choice.frequent": {
+    "message": "वारंवार"
+  },
+  "app.settings.game-options.choice.hidden": {
+    "message": "लपवलेले"
+  },
+  "app.settings.game-options.choice.hotbar": {
+    "message": "हॉटबार"
+  },
+  "app.settings.game-options.choice.left": {
+    "message": "डावे"
+  },
+  "app.settings.game-options.choice.limited": {
+    "message": "मर्यादित"
+  },
+  "app.settings.game-options.choice.max-fps": {
+    "message": "जास्तीत जास्त FPS"
+  },
+  "app.settings.game-options.choice.maximum": {
+    "message": "जास्तीत जास्त"
+  },
+  "app.settings.game-options.choice.minimal": {
+    "message": "अत्यल्प"
+  },
+  "app.settings.game-options.choice.minimum": {
+    "message": "किमान"
+  },
+  "app.settings.game-options.choice.nearby": {
+    "message": "जवळचे"
+  },
+  "app.settings.game-options.choice.never": {
+    "message": "कधीच नाही"
+  },
+  "app.settings.game-options.choice.none": {
+    "message": "काहीही नाही"
+  },
+  "app.settings.game-options.choice.normal": {
+    "message": "सामान्य"
+  },
+  "app.settings.game-options.choice.off": {
+    "message": "बंद"
+  },
+  "app.settings.game-options.choice.on": {
+    "message": "चालू"
+  },
+  "app.settings.game-options.choice.opengl": {
+    "message": "OpenGL"
+  },
+  "app.settings.game-options.choice.pause": {
+    "message": "विराम मेन्यू"
+  },
+  "app.settings.game-options.choice.pause-and-toast": {
+    "message": "विराम मेन्यू व सूचना"
+  },
+  "app.settings.game-options.choice.power-saver": {
+    "message": "पॉवर सेव्हर"
+  },
+  "app.settings.game-options.choice.right": {
+    "message": "उजवे"
+  },
+  "app.settings.game-options.choice.short": {
+    "message": "लहान"
+  },
+  "app.settings.game-options.choice.shown": {
+    "message": "दाखवलेले"
+  },
+  "app.settings.game-options.choice.system": {
+    "message": "सिस्टम"
+  },
+  "app.settings.game-options.choice.tiny": {
+    "message": "अतिलहान"
+  },
+  "app.settings.game-options.choice.vulkan": {
+    "message": "Vulkan"
+  },
+  "app.settings.game-options.choice.when-minimized": {
+    "message": "लहान केल्यावर"
+  },
+  "app.settings.game-options.choice.while-afk": {
+    "message": "AFK असताना"
+  },
+  "app.settings.game-options.compatibility.none": {
+    "message": "तुमच्या काही इन्स्टन्स ही सेटिंग वापरू शकत नाहीत"
+  },
+  "app.settings.game-options.compatibility.reason.launcher-controlled": {
+    "message": "ही सेटिंग Panda Minecraft Launcher च्या लॉन्च सेटिंग्जद्वारे व्यवस्थापित केली जाते."
+  },
+  "app.settings.game-options.custom-value.placeholder": {
+    "message": "मूल्य लिहा"
+  },
+  "app.settings.game-options.keybind.assigned-status": {
+    "message": "{setting} आता {binding} शी बांधले आहे."
+  },
+  "app.settings.game-options.keybind.cancelled-status": {
+    "message": "की बाइंडिंग बदल रद्द केला."
+  },
+  "app.settings.game-options.keybind.change": {
+    "message": "{setting}: {binding}. बदल करण्यासाठी दाबा."
+  },
+  "app.settings.game-options.keybind.choose": {
+    "message": "की निवडा"
+  },
+  "app.settings.game-options.keybind.conflict-description": {
+    "message": "हे आधीच {settings} द्वारे वापरले जाते."
+  },
+  "app.settings.game-options.keybind.key.arrow-down": {
+    "message": "Down Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-left": {
+    "message": "Left Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-right": {
+    "message": "Right Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-up": {
+    "message": "Up Arrow"
+  },
+  "app.settings.game-options.keybind.key.backspace": {
+    "message": "Backspace"
+  },
+  "app.settings.game-options.keybind.key.caps-lock": {
+    "message": "Caps Lock"
+  },
+  "app.settings.game-options.keybind.key.delete": {
+    "message": "Delete"
+  },
+  "app.settings.game-options.keybind.key.end": {
+    "message": "End"
+  },
+  "app.settings.game-options.keybind.key.enter": {
+    "message": "Enter"
+  },
+  "app.settings.game-options.keybind.key.escape": {
+    "message": "Escape"
+  },
+  "app.settings.game-options.keybind.key.home": {
+    "message": "Home"
+  },
+  "app.settings.game-options.keybind.key.insert": {
+    "message": "Insert"
+  },
+  "app.settings.game-options.keybind.key.keypad-key": {
+    "message": "Numpad {key}"
+  },
+  "app.settings.game-options.keybind.key.left-alt": {
+    "message": "Left Alt"
+  },
+  "app.settings.game-options.keybind.key.left-command": {
+    "message": "Left Command"
+  },
+  "app.settings.game-options.keybind.key.left-control": {
+    "message": "Left Ctrl"
+  },
+  "app.settings.game-options.keybind.key.left-shift": {
+    "message": "Left Shift"
+  },
+  "app.settings.game-options.keybind.key.left-super": {
+    "message": "Left Super"
+  },
+  "app.settings.game-options.keybind.key.menu": {
+    "message": "Menu"
+  },
+  "app.settings.game-options.keybind.key.num-lock": {
+    "message": "Num Lock"
+  },
+  "app.settings.game-options.keybind.key.page-down": {
+    "message": "Page Down"
+  },
+  "app.settings.game-options.keybind.key.page-up": {
+    "message": "Page Up"
+  },
+  "app.settings.game-options.keybind.key.pause": {
+    "message": "Pause"
+  },
+  "app.settings.game-options.keybind.key.print-screen": {
+    "message": "Print Screen"
+  },
+  "app.settings.game-options.keybind.key.right-alt": {
+    "message": "Right Alt"
+  },
+  "app.settings.game-options.keybind.key.right-command": {
+    "message": "Right Command"
+  },
+  "app.settings.game-options.keybind.key.right-control": {
+    "message": "Right Ctrl"
+  },
+  "app.settings.game-options.keybind.key.right-shift": {
+    "message": "Right Shift"
+  },
+  "app.settings.game-options.keybind.key.right-super": {
+    "message": "Right Super"
+  },
+  "app.settings.game-options.keybind.key.scroll-lock": {
+    "message": "Scroll Lock"
+  },
+  "app.settings.game-options.keybind.key.space": {
+    "message": "Space"
+  },
+  "app.settings.game-options.keybind.key.tab": {
+    "message": "Tab"
+  },
+  "app.settings.game-options.keybind.key.unbound": {
+    "message": "बांधलेले नाही"
+  },
+  "app.settings.game-options.keybind.key.unknown": {
+    "message": "अज्ञात की"
+  },
+  "app.settings.game-options.keybind.listen": {
+    "message": "की दाबा…"
+  },
+  "app.settings.game-options.keybind.listening-status": {
+    "message": "की किंवा माउस बटण ऐकत आहे. हे बाइंडिंग काढण्यासाठी Escape दाबा."
+  },
+  "app.settings.game-options.keybind.mixed": {
+    "message": "इन्स्टन्समध्ये वेगळे"
+  },
+  "app.settings.game-options.keybind.modifier.alt": {
+    "message": "Alt"
+  },
+  "app.settings.game-options.keybind.modifier.command": {
+    "message": "Command"
+  },
+  "app.settings.game-options.keybind.modifier.control": {
+    "message": "Ctrl"
+  },
+  "app.settings.game-options.keybind.modifier.shift": {
+    "message": "Shift"
+  },
+  "app.settings.game-options.keybind.modifier.super": {
+    "message": "Super"
+  },
+  "app.settings.game-options.keybind.mouse.button": {
+    "message": "माउस {button}"
+  },
+  "app.settings.game-options.keybind.mouse.left": {
+    "message": "डावा माउस"
+  },
+  "app.settings.game-options.keybind.mouse.middle": {
+    "message": "मधला माउस"
+  },
+  "app.settings.game-options.keybind.mouse.right": {
+    "message": "उजवा माउस"
+  },
+  "app.settings.game-options.keybind.recording-label": {
+    "message": "{setting}: की किंवा माउस बटण ऐकत आहे. हे बाइंडिंग काढण्यासाठी Escape दाबा."
+  },
+  "app.settings.game-options.keybind.scancode": {
+    "message": "स्कॅनकोड {code}"
+  },
+  "app.settings.game-options.keybind.unsupported-status": {
+    "message": "हे इनपुट Minecraft वापरू शकत नाही. दुसरी की दाबा."
+  },
+  "app.settings.game-options.setting.advanced-opengl.label": {
+    "message": "प्रगत OpenGL"
+  },
+  "app.settings.game-options.setting.allow-cursor-changes.label": {
+    "message": "कर्सर बदलण्याची अनुमती द्या"
+  },
+  "app.settings.game-options.setting.allow-server-listing.description": {
+    "message": "खेळाडूचे नाव सर्व्हर यादीत दिसण्याची अनुमती द्या."
+  },
+  "app.settings.game-options.setting.allow-server-listing.label": {
+    "message": "सर्व्हर यादी"
+  },
+  "app.settings.game-options.setting.alternate-blocks.label": {
+    "message": "पर्यायी ब्लॉक"
+  },
+  "app.settings.game-options.setting.ambient-occlusion.label": {
+    "message": "गुळगुळीत प्रकाश"
+  },
+  "app.settings.game-options.setting.ambient-volume.label": {
+    "message": "परिसर/वातावरण"
+  },
+  "app.settings.game-options.setting.anaglyph-3d.label": {
+    "message": "3D ॲनाग्लिफ"
+  },
+  "app.settings.game-options.setting.anisotropic-filtering.label": {
+    "message": "अनआयसोट्रॉपिक फिल्टरिंग"
+  },
+  "app.settings.game-options.setting.anisotropy.label": {
+    "message": "अनआयसोट्रॉपी"
+  },
+  "app.settings.game-options.setting.attack-indicator.label": {
+    "message": "हल्ला सूचक"
+  },
+  "app.settings.game-options.setting.auto-jump.description": {
+    "message": "एक ब्लॉक उंचीच्या अडथळ्यांवर आपोआप उडी मारा."
+  },
+  "app.settings.game-options.setting.auto-jump.label": {
+    "message": "स्वयं-उडी"
+  },
+  "app.settings.game-options.setting.auto-suggestions.label": {
+    "message": "कमांड सूचना"
+  },
+  "app.settings.game-options.setting.autosave-indicator.label": {
+    "message": "स्वयं-जतन सूचक"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.description": {
+    "message": "बायोमचे रंग बदलण्यास लागणारे अंतर."
+  },
+  "app.settings.game-options.setting.biome-blend-radius.label": {
+    "message": "बायोम मिश्रण"
+  },
+  "app.settings.game-options.setting.blocks-volume.label": {
+    "message": "ब्लॉक"
+  },
+  "app.settings.game-options.setting.brightness.label": {
+    "message": "तेजस्विता"
+  },
+  "app.settings.game-options.setting.cape.description": {
+    "message": "खेळाडूचा केप दाखवा, त्यातील elytra टेक्स्चरसह."
+  },
+  "app.settings.game-options.setting.cape.label": {
+    "message": "केप"
+  },
+  "app.settings.game-options.setting.chat-background-only.label": {
+    "message": "फक्त चॅट पार्श्वभूमी"
+  },
+  "app.settings.game-options.setting.chat-colors.label": {
+    "message": "चॅट रंग"
+  },
+  "app.settings.game-options.setting.chat-delay.label": {
+    "message": "चॅट विलंब"
+  },
+  "app.settings.game-options.setting.chat-line-spacing.label": {
+    "message": "चॅट ओळींमधील अंतर"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.description": {
+    "message": "चॅटमधील दुवे उघडण्यापूर्वी विचारा."
+  },
+  "app.settings.game-options.setting.chat-links-prompt.label": {
+    "message": "दुव्यांवर प्रॉम्प्ट"
+  },
+  "app.settings.game-options.setting.chat-links.description": {
+    "message": "चॅटमधील वेब दुवे उघडण्याची अनुमती द्या."
+  },
+  "app.settings.game-options.setting.chat-links.label": {
+    "message": "वेब दुवे"
+  },
+  "app.settings.game-options.setting.chat-opacity.description": {
+    "message": "चॅट मजकुराची अपारदर्शिता."
+  },
+  "app.settings.game-options.setting.chat-opacity.label": {
+    "message": "चॅट अपारदर्शिता"
+  },
+  "app.settings.game-options.setting.chat-preview.label": {
+    "message": "चॅट पूर्वावलोकन"
+  },
+  "app.settings.game-options.setting.chat-scale.label": {
+    "message": "चॅट आकार"
+  },
+  "app.settings.game-options.setting.chat-visibility.label": {
+    "message": "चॅट दृश्यता"
+  },
+  "app.settings.game-options.setting.chat-width.label": {
+    "message": "चॅट रुंदी"
+  },
+  "app.settings.game-options.setting.chunk-fade-time.label": {
+    "message": "चंक फेड वेळ"
+  },
+  "app.settings.game-options.setting.cloud-range.label": {
+    "message": "ढगांचे अंतर"
+  },
+  "app.settings.game-options.setting.clouds.label": {
+    "message": "ढग"
+  },
+  "app.settings.game-options.setting.ctrl-click-right-click.label": {
+    "message": "Ctrl-क्लिकला राइट-क्लिक माना"
+  },
+  "app.settings.game-options.setting.cutout-leaves.label": {
+    "message": "कापलेली पाने"
+  },
+  "app.settings.game-options.setting.damage-tilt.label": {
+    "message": "नुकसान झुकणे"
+  },
+  "app.settings.game-options.setting.dark-splash.description": {
+    "message": "Mojang Studios लोडिंग स्क्रीन लालाची बदलून काळी करा."
+  },
+  "app.settings.game-options.setting.dark-splash.label": {
+    "message": "एकरंगी लोगो"
+  },
+  "app.settings.game-options.setting.darkness-pulsing.label": {
+    "message": "अंधार ठोके"
+  },
+  "app.settings.game-options.setting.debug-gui-scale.label": {
+    "message": "डीबग GUI आकार"
+  },
+  "app.settings.game-options.setting.directional-audio.label": {
+    "message": "दिशात्मक ऑडिओ"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.description": {
+    "message": "माउस व्हीलच्या प्रत्येक इनपुटला एक स्क्रॉल पायरी माना."
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.label": {
+    "message": "वेगळे स्क्रॉलिंग"
+  },
+  "app.settings.game-options.setting.entity-distance.label": {
+    "message": "एंटिटी अंतर"
+  },
+  "app.settings.game-options.setting.entity-shadows.label": {
+    "message": "एंटिटी सावल्या"
+  },
+  "app.settings.game-options.setting.exclusive-fullscreen.label": {
+    "message": "विशेष पूर्णस्क्रीन"
+  },
+  "app.settings.game-options.setting.extra-telemetry.label": {
+    "message": "ऐच्छिक टेलीमेट्री"
+  },
+  "app.settings.game-options.setting.focused-chat-height.label": {
+    "message": "केंद्रित चॅट उंची"
+  },
+  "app.settings.game-options.setting.force-unicode-font.label": {
+    "message": "Unicode फॉन्ट वापरा"
+  },
+  "app.settings.game-options.setting.fov-effects.label": {
+    "message": "FOV प्रभाव"
+  },
+  "app.settings.game-options.setting.fov.label": {
+    "message": "दृश्यक्षेत्र"
+  },
+  "app.settings.game-options.setting.fullscreen.label": {
+    "message": "पूर्णस्क्रीन"
+  },
+  "app.settings.game-options.setting.glint-speed.label": {
+    "message": "चमक गती"
+  },
+  "app.settings.game-options.setting.glint-strength.label": {
+    "message": "चमक तीव्रता"
+  },
+  "app.settings.game-options.setting.graphics-backend.label": {
+    "message": "ग्राफिक्स बॅकएंड"
+  },
+  "app.settings.game-options.setting.graphics.description": {
+    "message": "दृश्य गुणवत्ता व कामगिरी नियंत्रित करते."
+  },
+  "app.settings.game-options.setting.graphics.label": {
+    "message": "ग्राफिक्स"
+  },
+  "app.settings.game-options.setting.gui-scale.description": {
+    "message": "गेम इंटरफेस व HUD चा आकार."
+  },
+  "app.settings.game-options.setting.gui-scale.label": {
+    "message": "GUI आकार"
+  },
+  "app.settings.game-options.setting.hat.description": {
+    "message": "टोपीचा स्किन लेयर दाखवा."
+  },
+  "app.settings.game-options.setting.hat.label": {
+    "message": "टोपी"
+  },
+  "app.settings.game-options.setting.held-item-tooltips.label": {
+    "message": "हातातील वस्तूची माहिती"
+  },
+  "app.settings.game-options.setting.hide-lightning-flashes.label": {
+    "message": "वीज चमक लपवा"
+  },
+  "app.settings.game-options.setting.hide-matched-names.label": {
+    "message": "जुळणारी नावे लपवा"
+  },
+  "app.settings.game-options.setting.hide-server-address.label": {
+    "message": "सर्व्हर पत्ता लपवा"
+  },
+  "app.settings.game-options.setting.hide-splash-texts.label": {
+    "message": "स्प्लॅश मजकूर लपवा"
+  },
+  "app.settings.game-options.setting.high-contrast-outline.label": {
+    "message": "उच्च कॉन्ट्रास्ट ब्लॉक बाह्यरेखा"
+  },
+  "app.settings.game-options.setting.high-contrast.description": {
+    "message": "इंटरफेस घटकांचा कॉन्ट्रास्ट वाढवा."
+  },
+  "app.settings.game-options.setting.high-contrast.label": {
+    "message": "उच्च कॉन्ट्रास्ट"
+  },
+  "app.settings.game-options.setting.hostile-volume.label": {
+    "message": "शत्रू प्राणी"
+  },
+  "app.settings.game-options.setting.improved-transparency.label": {
+    "message": "सुधारित पारदर्शिता"
+  },
+  "app.settings.game-options.setting.in-game-notifications.label": {
+    "message": "गेममधील सूचना"
+  },
+  "app.settings.game-options.setting.inactivity-framerate-limit.label": {
+    "message": "कमी फ्रेमरेट"
+  },
+  "app.settings.game-options.setting.invert-horizontal-mouse.label": {
+    "message": "क्षैतिज माउस उलटा"
+  },
+  "app.settings.game-options.setting.invert-mouse.description": {
+    "message": "अनुलंब माउस हालचाल उलटी करा."
+  },
+  "app.settings.game-options.setting.invert-mouse.label": {
+    "message": "माउस उलटा"
+  },
+  "app.settings.game-options.setting.jacket.description": {
+    "message": "जाकीट स्किन लेयर दाखवा."
+  },
+  "app.settings.game-options.setting.jacket.label": {
+    "message": "जाकीट"
+  },
+  "app.settings.game-options.setting.japanese-glyph-variants.label": {
+    "message": "जपानी अक्षर प्रकार"
+  },
+  "app.settings.game-options.setting.key-advancements.label": {
+    "message": "उपलब्धी"
+  },
+  "app.settings.game-options.setting.key-attack.label": {
+    "message": "हल्ला"
+  },
+  "app.settings.game-options.setting.key-back.label": {
+    "message": "मागे जा"
+  },
+  "app.settings.game-options.setting.key-chat.label": {
+    "message": "चॅट उघडा"
+  },
+  "app.settings.game-options.setting.key-command.label": {
+    "message": "कमांड"
+  },
+  "app.settings.game-options.setting.key-debug-advanced-tooltips.label": {
+    "message": "प्रगत माहिती दाखवा"
+  },
+  "app.settings.game-options.setting.key-debug-chunk-borders.label": {
+    "message": "चंक सीमा दाखवा"
+  },
+  "app.settings.game-options.setting.key-debug-clear-chat.label": {
+    "message": "चॅट साफ करा"
+  },
+  "app.settings.game-options.setting.key-debug-copy-location.label": {
+    "message": "स्थान कॉपी करा"
+  },
+  "app.settings.game-options.setting.key-debug-copy-recreate-command.label": {
+    "message": "पुनर्रचना कमांड कॉपी करा"
+  },
+  "app.settings.game-options.setting.key-debug-crash.label": {
+    "message": "डीबग क्रॅश ट्रिगर करा"
+  },
+  "app.settings.game-options.setting.key-debug-dump-dynamic-textures.label": {
+    "message": "गतिशील टेक्स्चर डंप करा"
+  },
+  "app.settings.game-options.setting.key-debug-dump-version.label": {
+    "message": "आवृत्ती डंप करा"
+  },
+  "app.settings.game-options.setting.key-debug-focus-pause.label": {
+    "message": "फोकस गेल्यावर विराम"
+  },
+  "app.settings.game-options.setting.key-debug-fps-charts.label": {
+    "message": "FPS चार्ट"
+  },
+  "app.settings.game-options.setting.key-debug-hitboxes.label": {
+    "message": "हिटबॉक्स दाखवा"
+  },
+  "app.settings.game-options.setting.key-debug-improved-transparency.label": {
+    "message": "सुधारित पारदर्शिता डीबग दृश्य"
+  },
+  "app.settings.game-options.setting.key-debug-lightmap-texture.label": {
+    "message": "लाइटमॅप टेक्स्चर"
+  },
+  "app.settings.game-options.setting.key-debug-modifier.label": {
+    "message": "डीबग सुधारक"
+  },
+  "app.settings.game-options.setting.key-debug-network-charts.label": {
+    "message": "नेटवर्क चार्ट"
+  },
+  "app.settings.game-options.setting.key-debug-options.label": {
+    "message": "डीबग पर्याय"
+  },
+  "app.settings.game-options.setting.key-debug-overlay.label": {
+    "message": "डीबग ओव्हरले"
+  },
+  "app.settings.game-options.setting.key-debug-profiling-chart.label": {
+    "message": "प्रोफाइलिंग चार्ट"
+  },
+  "app.settings.game-options.setting.key-debug-profiling.label": {
+    "message": "प्रोफाइलिंग सुरू करा"
+  },
+  "app.settings.game-options.setting.key-debug-reload-chunks.label": {
+    "message": "चंक रीलोड करा"
+  },
+  "app.settings.game-options.setting.key-debug-reload-resource-packs.label": {
+    "message": "रिसोर्स पॅक रीलोड करा"
+  },
+  "app.settings.game-options.setting.key-debug-spectate.label": {
+    "message": "एंटिटी पहा"
+  },
+  "app.settings.game-options.setting.key-debug-switch-game-mode.label": {
+    "message": "गेम मोड बदला"
+  },
+  "app.settings.game-options.setting.key-drop.label": {
+    "message": "वस्तू टाका"
+  },
+  "app.settings.game-options.setting.key-forward.label": {
+    "message": "पुढे जा"
+  },
+  "app.settings.game-options.setting.key-friends.label": {
+    "message": "मित्र"
+  },
+  "app.settings.game-options.setting.key-fullscreen.label": {
+    "message": "पूर्णस्क्रीन बदला"
+  },
+  "app.settings.game-options.setting.key-hotbar-1.label": {
+    "message": "हॉटबार 1"
+  },
+  "app.settings.game-options.setting.key-hotbar-2.label": {
+    "message": "हॉटबार 2"
+  },
+  "app.settings.game-options.setting.key-hotbar-3.label": {
+    "message": "हॉटबार 3"
+  },
+  "app.settings.game-options.setting.key-hotbar-4.label": {
+    "message": "हॉटबार 4"
+  },
+  "app.settings.game-options.setting.key-hotbar-5.label": {
+    "message": "हॉटबार 5"
+  },
+  "app.settings.game-options.setting.key-hotbar-6.label": {
+    "message": "हॉटबार 6"
+  },
+  "app.settings.game-options.setting.key-hotbar-7.label": {
+    "message": "हॉटबार 7"
+  },
+  "app.settings.game-options.setting.key-hotbar-8.label": {
+    "message": "हॉटबार 8"
+  },
+  "app.settings.game-options.setting.key-hotbar-9.label": {
+    "message": "हॉटबार 9"
+  },
+  "app.settings.game-options.setting.key-inventory.label": {
+    "message": "इन्व्हेंटरी"
+  },
+  "app.settings.game-options.setting.key-jump.label": {
+    "message": "उडी"
+  },
+  "app.settings.game-options.setting.key-left.label": {
+    "message": "डावीकडे जा"
+  },
+  "app.settings.game-options.setting.key-load-toolbar.label": {
+    "message": "टूलबार लोड करा"
+  },
+  "app.settings.game-options.setting.key-perspective.label": {
+    "message": "दृष्टीकोन बदला"
+  },
+  "app.settings.game-options.setting.key-pick-item.label": {
+    "message": "ब्लॉक निवडा"
+  },
+  "app.settings.game-options.setting.key-player-list.label": {
+    "message": "खेळाडू यादी"
+  },
+  "app.settings.game-options.setting.key-quick-actions.label": {
+    "message": "जलद कृती"
+  },
+  "app.settings.game-options.setting.key-right.label": {
+    "message": "उजवीकडे जा"
+  },
+  "app.settings.game-options.setting.key-save-toolbar.label": {
+    "message": "टूलबार जतन करा"
+  },
+  "app.settings.game-options.setting.key-screenshot.label": {
+    "message": "स्क्रीनशॉट"
+  },
+  "app.settings.game-options.setting.key-smooth-camera.label": {
+    "message": "सिनेमॅटिक कॅमेरा बदला"
+  },
+  "app.settings.game-options.setting.key-sneak.label": {
+    "message": "गुप्तपणे जा"
+  },
+  "app.settings.game-options.setting.key-social-interactions.label": {
+    "message": "सामाजिक परस्परक्रिया"
+  },
+  "app.settings.game-options.setting.key-spectator-hotbar.label": {
+    "message": "प्रेक्षक हॉटबार"
+  },
+  "app.settings.game-options.setting.key-spectator-outlines.label": {
+    "message": "प्रेक्षक हायलाइट करा"
+  },
+  "app.settings.game-options.setting.key-sprint.label": {
+    "message": "वेगाने धावा"
+  },
+  "app.settings.game-options.setting.key-swap-offhand.label": {
+    "message": "द्वितीय हात बदला"
+  },
+  "app.settings.game-options.setting.key-toggle-gui.label": {
+    "message": "HUD बदला"
+  },
+  "app.settings.game-options.setting.key-toggle-spectator-shader.label": {
+    "message": "प्रेक्षक शेडर बदला"
+  },
+  "app.settings.game-options.setting.key-use.label": {
+    "message": "वस्तू वापरा"
+  },
+  "app.settings.game-options.setting.language.label": {
+    "message": "भाषा"
+  },
+  "app.settings.game-options.setting.left-pants-leg.label": {
+    "message": "डावा पायंटचा पाय"
+  },
+  "app.settings.game-options.setting.left-sleeve.label": {
+    "message": "डावी बाही"
+  },
+  "app.settings.game-options.setting.legacy-framerate-limit.label": {
+    "message": "फ्रेमरेट मर्यादा"
+  },
+  "app.settings.game-options.setting.legacy-view-distance.label": {
+    "message": "दृश्य अंतर"
+  },
+  "app.settings.game-options.setting.mac-fullscreen-menu.label": {
+    "message": "पूर्णस्क्रीनमध्ये macOS मेन्यू दाखवा"
+  },
+  "app.settings.game-options.setting.main-hand.description": {
+    "message": "मुख्य हात डावा की उजवा हे निवडा."
+  },
+  "app.settings.game-options.setting.main-hand.label": {
+    "message": "मुख्य हात"
+  },
+  "app.settings.game-options.setting.master-volume.label": {
+    "message": "मुख्य व्हॉल्यूम"
+  },
+  "app.settings.game-options.setting.max-framerate.label": {
+    "message": "जास्तीत जास्त फ्रेमरेट"
+  },
+  "app.settings.game-options.setting.menu-background-blur.label": {
+    "message": "मेन्यू पार्श्वभूमी अस्पष्टता"
+  },
+  "app.settings.game-options.setting.mipmap-levels.description": {
+    "message": "दूरवरील टेक्स्चर गुळगुळीत करणे."
+  },
+  "app.settings.game-options.setting.mipmap-levels.label": {
+    "message": "Mipmap स्तर"
+  },
+  "app.settings.game-options.setting.mouse-wheel-sensitivity.label": {
+    "message": "माउस व्हील संवेदनशीलता"
+  },
+  "app.settings.game-options.setting.music-frequency.label": {
+    "message": "संगीत वारंवारता"
+  },
+  "app.settings.game-options.setting.music-toast.description": {
+    "message": "संगीताची नावे विराम मेन्यूमध्ये व सूचनांस्वरूपात दाखवायची की नाही ते निवडा."
+  },
+  "app.settings.game-options.setting.music-toast.label": {
+    "message": "संगीत सूचना"
+  },
+  "app.settings.game-options.setting.music-volume.label": {
+    "message": "संगीत"
+  },
+  "app.settings.game-options.setting.narrator-hotkey.label": {
+    "message": "वर्णनकर्त्याची हॉटकी"
+  },
+  "app.settings.game-options.setting.narrator.description": {
+    "message": "वर्णनकर्त्याने काय वाचायचे ते निवडा."
+  },
+  "app.settings.game-options.setting.narrator.label": {
+    "message": "वर्णनकर्ता"
+  },
+  "app.settings.game-options.setting.neutral-volume.label": {
+    "message": "मैत्रीपूर्ण प्राणी"
+  },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "सूचना किती वेळ दिसतात."
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "सूचनेचा वेळ"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "ऑपरेटर वस्तू टॅब"
+  },
+  "app.settings.game-options.setting.panorama-speed.label": {
+    "message": "पॅनोरमा गती"
+  },
+  "app.settings.game-options.setting.particles.label": {
+    "message": "कण"
+  },
+  "app.settings.game-options.setting.players-volume.label": {
+    "message": "खेळाडू"
+  },
+  "app.settings.game-options.setting.prioritize-chunk-updates.label": {
+    "message": "चंक अपडेटना प्राधान्य द्या"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "बाहेर पडण्याचे शॉर्टकट"
+  },
+  "app.settings.game-options.setting.raw-mouse-input.label": {
+    "message": "कच्चा माउस इनपुट"
+  },
+  "app.settings.game-options.setting.realms-notifications.label": {
+    "message": "Realms सूचना"
+  },
+  "app.settings.game-options.setting.record-volume.label": {
+    "message": "ज्युकबॉक्स/नोट ब्लॉक"
+  },
+  "app.settings.game-options.setting.reduced-debug-info.label": {
+    "message": "कमी डीबग माहिती"
+  },
+  "app.settings.game-options.setting.render-distance.label": {
+    "message": "रेंडर अंतर"
+  },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "उजवा पायंटचा पाय"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "उजवी बाही"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "माइनकार्टसह फिरा"
+  },
+  "app.settings.game-options.setting.save-chat-drafts.label": {
+    "message": "चॅट मसुदे जतन करा"
+  },
+  "app.settings.game-options.setting.screen-effects.label": {
+    "message": "स्क्रीन प्रभाव"
+  },
+  "app.settings.game-options.setting.secure-chat-only.label": {
+    "message": "फक्त सुरक्षित चॅट दाखवा"
+  },
+  "app.settings.game-options.setting.sensitivity.label": {
+    "message": "माउस संवेदनशीलता"
+  },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "सर्व्हर टेक्स्चर"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "उपस्थिती शेयर करा"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "एंटिटी, ब्लॉक व द्रव किती अंतरापर्यंत अपडेट होतात."
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "सिम्युलेशन अंतर"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "स्नूपर"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "स्प्रिंट विंडो"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "गेममध्ये वाजणाऱ्या आवाजांसाठी उपशीर्षके दाखवा."
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "उपशीर्षके"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "मजकूर पार्श्वभूमी अपारदर्शिता"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "टेक्स्चर फिल्टरिंग"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "हल्ला बदला"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "एकदा दाबल्यावर वाकून राहाल."
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "वाकणे बदला"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "एकदा दाबल्यावर वेगाने धावत राहाल."
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "स्प्रिंट बदला"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "वापर बदला"
+  },
+  "app.settings.game-options.setting.touchscreen.label": {
+    "message": "टचस्क्रीन मोड"
+  },
+  "app.settings.game-options.setting.ui-volume.label": {
+    "message": "UI"
+  },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "अनिर्दिष्ट चॅट उंची"
+  },
+  "app.settings.game-options.setting.use-vbo.label": {
+    "message": "VBO वापरा"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "चालताना कॅमेर्याला डुलणारी हालचाल जोडा."
+  },
+  "app.settings.game-options.setting.view-bobbing.label": {
+    "message": "दृश्य डुलणे"
+  },
+  "app.settings.game-options.setting.vignette.label": {
+    "message": "विनेट"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "आवाज व भाषण"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "स्क्रीन फाडणे टाळण्यासाठी फ्रेमरेट डिस्प्ले रिफ्रेश रेटपर्यंत मर्यादित करा."
+  },
+  "app.settings.game-options.setting.vsync.label": {
+    "message": "VSync"
+  },
+  "app.settings.game-options.setting.weather-radius.label": {
+    "message": "हवामान त्रिज्या"
+  },
+  "app.settings.game-options.setting.weather-volume.label": {
+    "message": "हवामान"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "ही सेटिंग दुसरीकडे बदलली गेली. ती तपासून पुन्हा प्रयत्न करा."
+  },
+  "app.settings.game-options.validation.invalid-value": {
+    "message": "वैध मूल्य निवडा."
+  },
+  "app.settings.game-options.validation.missing-value": {
+    "message": "आधी मूल्य निवडा."
+  },
+  "app.settings.game-options.validation.no-compatible-instances": {
+    "message": "तुमच्या काही इन्स्टन्स ही सेटिंग वापरू शकत नाहीत"
+  },
+  "app.settings.java-installations.location.title": {
+    "message": "Java {version, number} चे स्थान"
+  },
+  "app.settings.operating-system.macos": {
+    "message": "macOS"
+  },
+  "app.settings.privacy.no-data-collection": {
+    "message": "आम्ही कोणताही डेटा गोळा करत नाही. तो गोळा करण्यासाठी आमच्याकडे कोणताही सर्व्हर नाही."
+  },
+  "app.settings.resource-management.always-show-copy-details.description": {
+    "message": "इन्स्टॉलेशन रांगेत किंवा चालू असताना 'तपशील पहा' कृती दाखवा. अयशस्वी किंवा खंडित इन्स्टॉलेशनसाठी ती नेहमी उपलब्ध असते."
+  },
+  "app.settings.resource-management.always-show-copy-details.title": {
+    "message": "तपशील नेहमी दाखवा"
+  },
+  "app.settings.resource-management.app-cache.confirm.description": {
+    "message": "कॅशे पुन्हा तयार होईपर्यंत अॅप हळू लोड होऊ शकते."
+  },
+  "app.settings.resource-management.app-cache.description": {
+    "message": "कॅशे केलेला डेटा साफ करा व Panda Minecraft Launcher कडून पुन्हा डाउनलोड करा. कॅशे पुन्हा तयार होईपर्यंत अॅप हळू लोड होऊ शकते."
+  },
+  "app.settings.resource-management.app-cache.title": {
+    "message": "अॅप कॅशे"
+  },
+  "app.settings.resource-management.app-database-backups.description": {
+    "message": "महत्त्वाच्या अॅप डेटाचे बॅकअप येथे ठेवले जातात, जेणेकरून तुम्हाला नंतर ते परत मिळवता येतील."
+  },
+  "app.settings.resource-management.app-database-backups.open-folder": {
+    "message": "बॅकअप फोल्डर उघडा"
+  },
+  "app.settings.resource-management.app-database-backups.title": {
+    "message": "अॅप डेटाबेस बॅकअप"
+  },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "स्थानांतरण रद्द करा"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "डिरेक्टरी बदला"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "डिफॉल्टवर बदला"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "Panda Minecraft Launcher इन्स्टन्स व इतर फायली जिथे जतन करतो."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "तुमचा डेटा स्थानांतरित करत असताना तुम्हाला Panda Minecraft Launcher वापरता येणार नाही. याला काही वेळ लागू शकतो."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "तुमच्या सर्व फायली स्थानांतरित केल्या जातील"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "फोल्डर निवडा"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "सध्याचे"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "ड्राइव्हच्या शीर्षाऐवजी एक फोल्डर निवडा, जेणेकरून तुमच्या फायली त्या ड्राइव्हवरील इतर गोष्टींशी मिसळणार नाहीत."
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "अॅप डिरेक्टरी बदला"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "अॅप डिरेक्टरी बदलण्यापूर्वी सर्व चालू इन्स्टन्स बंद करा."
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "अधिक स्थानांतरण पर्याय"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "स्थानांतरित करा व पुन्हा सुरू करा"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "पुढील लॉन्चवर स्थानांतरित करा"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "नवीन फोल्डर सध्याच्या अॅप डिरेक्टरीत असू शकत नाही किंवा तिला समाविष्ट करू शकत नाही."
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "नवीन"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "नवीन अॅप डिरेक्टरी निवडा"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "अधिक डिरेक्टरी पर्याय"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "आता स्थानांतरित करा व पुन्हा सुरू करा"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "फोल्डर उघडा"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "File Explorer मध्ये उघडा"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "Finder मध्ये उघडा"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "अॅप डिरेक्टरीचा मार्ग क्लिपबोर्डवर कॉपी केला गेला."
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "मार्ग कॉपी केला"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "मार्ग कॉपी करता आला नाही"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "Panda Minecraft Launcher पुढील वेळी उघडल्यावर तुमची अॅप डिरेक्टरी {path} वर जाईल."
+  },
+  "app.settings.resource-management.app-directory.title": {
+    "message": "अॅप डिरेक्टरी"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "अॅप लॉग व डायग्नोस्टिक डेटा ZIP फाइलमध्ये निर्यात करा व Panda Minecraft Launcher सपोर्टसोबत शेयर करा."
+  },
+  "app.settings.resource-management.debug-info.export": {
+    "message": "डीबग माहिती निर्यात करा"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "मदत हवी आहे? सपोर्ट issue उघडा."
+  },
+  "app.settings.resource-management.debug-info.title": {
+    "message": "डीबग माहिती"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.description": {
+    "message": "अॅप एकावेळी किती फायली डाउनलोड करू शकतो. तुमच्या कनेक्शनवर डाउनलोड विश्वासार्ह नसल्यास हे कमी करा. अॅप रीस्टार्ट करणे आवश्यक."
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.title": {
+    "message": "जास्तीत जास्त एकाचवेळचे डाउनलोड"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.description": {
+    "message": "अॅप एकावेळी डिस्कवर किती फायली लिहू शकतो. तुम्हाला वारंवार I/O त्रुटी येत असल्यास हे कमी करा. अॅप रीस्टार्ट करणे आवश्यक."
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.title": {
+    "message": "जास्तीत जास्त एकाचवेळच्या लिखाण कृती"
+  },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "भविष्यातील इन्स्टॉलसाठी इतकी न वापरलेली सामग्री ठेवा. जास्त ठेवल्यास डाउनलोडचा वेळ वाचू शकतो."
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "न वापरलेले डाउनलोड ठेवा"
+  },
+  "app.settings.resource-management.store.cache-limit.unit": {
+    "message": "GiB"
+  },
+  "app.settings.resource-management.store.calculating": {
+    "message": "मोजत आहे"
+  },
+  "app.settings.resource-management.store.clear": {
+    "message": "न वापरलेले साफ करा"
+  },
+  "app.settings.resource-management.store.clear.description": {
+    "message": "न वापरलेली डाउनलोड केलेली सामग्री हटवा"
+  },
+  "app.settings.resource-management.store.cleared": {
+    "message": "{size} डिस्क जागा मोकळी केली."
+  },
+  "app.settings.resource-management.store.clearing": {
+    "message": "साफ करत आहे…"
+  },
+  "app.settings.resource-management.store.description": {
+    "message": "तुमच्या इन्स्टन्समध्ये गेम इन्स्टॉल, मोड व पॅक पुन्हा वापरून जागा वाचवा."
+  },
+  "app.settings.resource-management.store.nothing-to-clear": {
+    "message": "साफ करण्यासाठी कोणतीही न वापरलेली सामग्री नाही."
+  },
+  "app.settings.resource-management.store.shared.label": {
+    "message": "शेयर केलेली"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "सामग्री साठवण"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} जतन केले"
+  },
+  "app.settings.resource-management.store.unique.label": {
+    "message": "अद्वितीय"
+  },
+  "app.settings.resource-management.store.unused.label": {
+    "message": "अनाथ"
+  },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "इन्स्टन्स डिफॉल्ट"
+  },
+  "app.settings.sidebar.label.system": {
+    "message": "सिस्टम"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "तुमचा कमांड इतिहास कोणत्या इन्स्टन्समधून कॉपी करायचा ते निवडा. हा इतिहास फक्त प्रारंभिक सिंकसाठी वापरला जातो व नंतर तुम्ही कोणत्याही इन्स्टन्समधून तो संपादित करू शकता."
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "कमांड इतिहासाचा स्रोत निवडा"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "तुमचे जतन केलेले क्रिएटिव्ह हॉटबार कोणत्या इन्स्टन्समधून कॉपी करायचे ते निवडा. हे हॉटबार फक्त प्रारंभिक सिंकसाठी वापरले जातात व नंतर तुम्ही कोणत्याही इन्स्टन्समधून ते संपादित करू शकता."
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "क्रिएटिव्ह हॉटबारचा स्रोत निवडा"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "डेटा पॅकचा स्रोत निवडा"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "गेम सेटिंग्ज कोणत्या इन्स्टन्समधून कॉपी करायच्या ते निवडा. या सेटिंग्ज फक्त प्रारंभिक सिंकसाठी वापरल्या जातात व नंतर तुम्ही कोणत्याही इन्स्टन्समधून त्या संपादित करू शकता."
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "गेम सेटिंग्जचा स्रोत निवडा"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "हा इन्स्टन्स सिंक स्रोत म्हणून निवडू शकत नाही"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "सिंक स्रोत लोड करता आले नाहीत. कृपया पुन्हा प्रयत्न करा."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "मल्टीप्लेयर सर्व्हर कोणत्या इन्स्टन्समधून कॉपी करायचे ते निवडा. हे सर्व्हर फक्त प्रारंभिक सिंकसाठी वापरले जातात व नंतर तुम्ही कोणत्याही इन्स्टन्समधून ते संपादित करू शकता."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "मल्टीप्लेयर सर्व्हरचा स्रोत निवडा"
+  },
+  "app.settings.synced-options.choose-sync-source.no-instances-found": {
+    "message": "कोणतेही इन्स्टन्स आढळले नाहीत"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "रिसोर्स पॅकचा स्रोत निवडा"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "पुन्हा प्रयत्न करा"
+  },
+  "app.settings.synced-options.choose-sync-source.search-placeholder": {
+    "message": "इन्स्टन्स शोधा"
+  },
+  "app.settings.synced-options.choose-sync-source.sync": {
+    "message": "सिंक करा"
+  },
+  "app.settings.synced-options.command-history": {
+    "message": "कमांड इतिहास सिंक करा"
+  },
+  "app.settings.synced-options.command-history.description": {
+    "message": "तुमच्या सर्व इन्स्टन्समध्ये एकाच कमांड इतिहासाचा वापर करा."
+  },
+  "app.settings.synced-options.command-history.editor-title": {
+    "message": "कमांड इतिहास संपादित करा"
+  },
+  "app.settings.synced-options.creative-hotbars": {
+    "message": "जतन केलेले क्रिएटिव्ह हॉटबार सिंक करा"
+  },
+  "app.settings.synced-options.creative-hotbars.description": {
+    "message": "तुमच्या सर्व इन्स्टन्समध्ये जतन केलेल्या क्रिएटिव्ह हॉटबारचा वापर करा."
+  },
+  "app.settings.synced-options.data-packs": {
+    "message": "डेटा पॅक सिंक करा"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "तुमच्या सर्व इन्स्टन्समध्ये एकाच डेटा पॅकचा वापर करा."
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "तुम्ही अद्याप कोणतेही डेटा पॅक सिंक केलेले नाहीत"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "सिंक केलेला डेटा संपादित करण्यापूर्वी एक इन्स्टन्स जोडा."
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "ही सेटिंग संपादित करण्यापूर्वी सिंक स्रोत निवडा."
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "गेम पर्याय सिंक करा"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "गेम सेटिंग्ज संपादित करा"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "आम्ही नवीनतम सेटिंग्ज लोड केल्या आहेत. तुमचे बदल तपासा, नंतर पुन्हा जतन करा."
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "या सेटिंग्ज दुसरीकडे बदलल्या गेल्या"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "मोड्सने जोडलेली सेटिंग्ज Panda Minecraft Launcher ला तुमच्या कोणत्याही इन्स्टन्समध्ये आढळल्यावर येथे दिसतील."
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "तुमच्या सर्व इन्स्टन्समध्ये एकाच गेम पर्यायांचा वापर करा."
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "सर्व सिंक रद्द करा"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "वैयक्तिक सेटिंग्ज निवडण्यापूर्वी गेम सेटिंग्ज सिंक चालू करा."
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "तुमच्या शोधाशी किंवा फिल्टरशी कोणतीही सेटिंग जुळत नाही."
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "सर्व सिंक करा"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "तुमच्या गेम सेटिंग्ज लोड करता आल्या नाहीत."
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "सेटिंग्ज लोड करत आहे…"
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "संपादित करण्यासाठी अद्याप कोणतेही पर्याय नाहीत"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "सिंक केले जात नाही"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "पुन्हा प्रयत्न करा"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "सेटिंग्ज जतन करा"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "सेटिंग्ज शोधा…"
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "सिंक केलेले पर्याय प्रत्येक इन्स्टन्सवर लागू केले जातात व मोडपॅकमधील मूल्ये ओव्हरराइट करतात."
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "{setting} इन्स्टन्समध्ये सिंक करा"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "गेम सेटिंग्ज सिंक करा"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "इन्स्टन्समध्ये सिंक केलेले"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "गेम सेटिंग्ज"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "तुमचे जतन न केलेले बदल आहेत."
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "{setting} इन्स्टन्समध्ये सिंक करणे थांबवा"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "इन्स्टन्समध्ये वेगवेगळे"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "बंद"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "चालू"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "मूल्य निवडा"
+  },
+  "app.settings.synced-options.multiplayer-servers": {
+    "message": "मल्टीप्लेयर सर्व्हर सिंक करा"
+  },
+  "app.settings.synced-options.multiplayer-servers.address": {
+    "message": "सर्व्हर पत्ता"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "पत्ता कॉपी करा"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
+  },
+  "app.settings.synced-options.multiplayer-servers.description": {
+    "message": "तुमच्या सर्व इन्स्टन्समध्ये एकाच मल्टीप्लेयर सर्व्हरचा वापर करा."
+  },
+  "app.settings.synced-options.multiplayer-servers.editor-title": {
+    "message": "सिंक केलेले सर्व्हर संपादित करा"
+  },
+  "app.settings.synced-options.multiplayer-servers.empty": {
+    "message": "सध्या कोणतेही वापरकर्ता-जोडलेले सर्व्हर सिंक केलेले नाहीत."
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "ऑफलाइन"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "ऑनलाइन"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "अधिक सर्व्हर पर्याय"
+  },
+  "app.settings.synced-options.multiplayer-servers.name": {
+    "message": "सर्व्हरचे नाव"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "तुमच्या शोधाशी किंवा फिल्टरशी कोणताही सिंक केलेला सर्व्हर जुळत नाही."
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "तुम्ही अद्याप कोणतेही सर्व्हर सिंक केलेले नाहीत"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "ऑनलाइन {count, number}"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "शोधा {count, number} {count, plural, one {synced server} other {synced servers}}…"
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "स्थिती"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "शेयर केलेले पॅक संपादित करण्यापूर्वी सिंक चालू करा."
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "रिसोर्स पॅक सिंक करा"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "तुमच्या सर्व इन्स्टन्समध्ये एकाच रिसोर्स पॅकचा वापर करा."
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "तुम्ही अद्याप कोणतेही रिसोर्स पॅक सिंक केलेले नाहीत"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "स्वरूप"
+  },
+  "app.settings.tabs.behavior": {
+    "message": "वागणूक"
+  },
+  "app.settings.tabs.features": {
+    "message": "वैशिष्ट्ये"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java व मेमरी"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "Java स्थापना"
+  },
+  "app.settings.tabs.language": {
+    "message": "भाषा"
+  },
+  "app.settings.tabs.launch-hooks": {
+    "message": "लॉन्च हुक"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "गोपनीयता"
+  },
+  "app.settings.tabs.resources": {
+    "message": "संसाधने"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "सिंक"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "समस्यानिवारण"
+  },
+  "app.settings.tabs.window": {
+    "message": "विंडो"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "कॅशे साफ करा"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "अॅप कॅशे साफ करायचा?"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "अपडेट तयार करत आहे…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "अपडेट पुश केला"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "अपडेट पुश करत आहे…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "इन्स्टन्स हटवा"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "अधिक इन्स्टन्स कृती"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "कारण"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "शेयर केलेला इन्स्टन्स लॉक केलेला आहे"
+  },
+  "app.skins.add-button": {
+    "message": "स्किन जोडा"
+  },
+  "app.skins.add-button.drag-and-drop": {
+    "message": "ड्रॅग व ड्रॉप"
+  },
+  "app.skins.apply-button": {
+    "message": "लागू करा"
+  },
+  "app.skins.delete-button": {
+    "message": "स्किन हटवा"
+  },
+  "app.skins.delete-modal.description": {
+    "message": "हे निवडलेली स्किन कायमस्वरूपी हटवेल. ही कृती पूर्ववत करता येणार नाही."
+  },
+  "app.skins.delete-modal.title": {
+    "message": "ही स्किन हटवायची तुम्हाला खात्री आहे का?"
+  },
+  "app.skins.demo.apply-tooltip": {
+    "message": "स्किन लागू करण्यासाठी साइन इन करा."
+  },
+  "app.skins.dropped-file-error.text": {
+    "message": "टाकलेली फाइल वाचता आली नाही."
+  },
+  "app.skins.dropped-file-error.title": {
+    "message": "फाइल प्रक्रिया करताना त्रुटी"
+  },
+  "app.skins.ears-feature-notice": {
+    "message": "ही स्किन {ears} मोडमधील वैशिष्ट्ये वापरते"
+  },
+  "app.skins.edit-button": {
+    "message": "स्किन संपादित करा"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "ely.by वर या खात्याची स्किन व केप बदला. लॉन्चरमध्ये या सेटिंग्ज केवळ वाचनासाठी आहेत."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "स्किन Ely.by द्वारे व्यवस्थापित केल्या जातात"
+  },
+  "app.skins.modal.add-skin-button": {
+    "message": "स्किन जोडा"
+  },
+  "app.skins.modal.add-title": {
+    "message": "स्किन जोडत आहे"
+  },
+  "app.skins.modal.arm-style-section": {
+    "message": "हाताची शैली"
+  },
+  "app.skins.modal.arm-style-slim": {
+    "message": "स्लिम"
+  },
+  "app.skins.modal.arm-style-wide": {
+    "message": "रुंद"
+  },
+  "app.skins.modal.cape-fallback-name": {
+    "message": "केप"
+  },
+  "app.skins.modal.cape-section": {
+    "message": "केप"
+  },
+  "app.skins.modal.demo-save-tooltip": {
+    "message": "स्किन जतन करण्यासाठी साइन इन करा."
+  },
+  "app.skins.modal.edit-title": {
+    "message": "स्किन संपादित करत आहे"
+  },
+  "app.skins.modal.make-edit-first-tooltip": {
+    "message": "आधी स्किनमध्ये एक बदल करा!"
+  },
+  "app.skins.modal.no-cape-tooltip": {
+    "message": "केप नाही"
+  },
+  "app.skins.modal.none-cape-option": {
+    "message": "काहीही नाही"
+  },
+  "app.skins.modal.replace-texture-button": {
+    "message": "टेक्स्चर बदला"
+  },
+  "app.skins.modal.save-skin-button": {
+    "message": "स्किन जतन करा"
+  },
+  "app.skins.modal.saving-tooltip": {
+    "message": "जतन करत आहे…"
+  },
+  "app.skins.modal.texture-section": {
+    "message": "टेक्स्चर"
+  },
+  "app.skins.modal.upload-skin-first-tooltip": {
+    "message": "आधी स्किन अपलोड करा!"
+  },
+  "app.skins.preview.edit-button": {
+    "message": "स्किन संपादित करा"
+  },
+  "app.skins.previewing-badge": {
+    "message": "पूर्वावलोकन करत आहे"
+  },
+  "app.skins.rate-limit.text": {
+    "message": "तुम्ही खूप वारंवार स्किन बदलत आहात. Mojang च्या सर्व्हरने पुढील विनंत्या तात्पुरत्या ब्लॉक केल्या आहेत. पुन्हा प्रयत्न करण्यापूर्वी थोडा वेळ थांबा."
+  },
+  "app.skins.rate-limit.title": {
+    "message": "थोडा थांबा!"
+  },
+  "app.skins.reorder-error.text": {
+    "message": "स्किनचा क्रम जतन करता आला नाही."
+  },
+  "app.skins.reorder-error.title": {
+    "message": "स्किन पुन्हा क्रमात लावता आल्या नाहीत"
+  },
+  "app.skins.section.builders-and-biomes": {
+    "message": "Builders & Biomes"
+  },
+  "app.skins.section.chaos-cubed": {
+    "message": "Chaos Cubed"
+  },
+  "app.skins.section.chase-the-skies": {
+    "message": "Chase the Skies"
+  },
+  "app.skins.section.default-skins": {
+    "message": "डिफॉल्ट स्किन"
+  },
+  "app.skins.section.dungeons-hero": {
+    "message": "Dungeons Hero"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "Dungeons II Hero"
+  },
+  "app.skins.section.minecon-earth-2017": {
+    "message": "MINECON Earth 2017"
+  },
+  "app.skins.section.modrinth": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.skins.section.modrinth-pride": {
+    "message": "Panda Minecraft Launcher Pride"
+  },
+  "app.skins.section.modrinth-pride.tooltip": {
+    "message": "Pride Month दरम्यान Panda Minecraft Launcher Pride फंडरेझरला देणगी दिल्याबद्दल तुम्हाला या स्किन मिळाल्या."
+  },
+  "app.skins.section.mounts-of-mayhem": {
+    "message": "Mounts of Mayhem"
+  },
+  "app.skins.section.saved-skins": {
+    "message": "जतन केलेल्या स्किन"
+  },
+  "app.skins.section.striding-hero": {
+    "message": "Striding Hero"
+  },
+  "app.skins.section.the-copper-age": {
+    "message": "The Copper Age"
+  },
+  "app.skins.section.the-garden-awakens": {
+    "message": "The Garden Awakens"
+  },
+  "app.skins.section.tiny-takeover": {
+    "message": "Tiny Takeover"
+  },
+  "app.skins.section.wilderness-bound": {
+    "message": "Wilderness Bound"
+  },
+  "app.skins.toggle-ears-features-off": {
+    "message": "बंद करा"
+  },
+  "app.skins.toggle-ears-features-on": {
+    "message": "चालू करा"
+  },
+  "app.splash.moving-app-directory": {
+    "message": "तुमची अॅप डिरेक्टरी स्थानांतरित करत आहे…"
+  },
+  "app.survey.body": {
+    "message": "Panda Minecraft Launcher बद्दलच्या तुमच्या अनुभवाविषयी काही प्रश्नांची उत्तरं द्याल का?"
+  },
+  "app.survey.footer": {
+    "message": "हा अभिप्राय थेट Panda Minecraft Launcher टीमकडे जाईल व भविष्यातील अपडेट्सना मार्गदर्शन करेल!"
+  },
+  "app.survey.no-thanks": {
+    "message": "नको, धन्यवाद"
+  },
+  "app.survey.take-survey": {
+    "message": "सर्व्हे घ्या"
+  },
+  "app.survey.title": {
+    "message": "नमस्कार Panda Minecraft Launcher वापरकर्त्या!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "डेटा पॅक कोणत्या इन्स्टन्समधून कॉपी करायचे ते निवडा. हे पॅक फक्त प्रारंभिक सिंकसाठी वापरले जातात व नंतर तुम्ही कोणत्याही इन्स्टन्समधून ते संपादित करू शकता."
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "रिसोर्स पॅक कोणत्या इन्स्टन्समधून कॉपी करायचे ते निवडा. हे पॅक फक्त प्रारंभिक सिंकसाठी वापरले जातात व नंतर तुम्ही कोणत्याही इन्स्टन्समधून ते संपादित करू शकता."
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "ते सर्व सिंक केलेल्या इन्स्टन्समध्ये किंवा फक्त या इन्स्टन्समध्ये बंद करा. फक्त येथे बंद केल्यास या इन्स्टन्ससाठी ओव्हरराइट्स चालू होतील."
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "सर्वत्र बंद करा"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "ही सामग्री सर्व सिंक केलेल्या इन्स्टन्समध्ये बंद करा."
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "येथे बंद करा"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "सामग्री बंद करायची?"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "ते सर्व सिंक केलेल्या इन्स्टन्समध्ये किंवा फक्त या इन्स्टन्समध्ये चालू करा. फक्त येथे चालू केल्यास या इन्स्टन्ससाठी ओव्हरराइट्स चालू होतील."
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "सर्वत्र चालू करा"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "ही सामग्री सर्व सिंक केलेल्या इन्स्टन्समध्ये चालू करा."
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "येथे चालू करा"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "सामग्री चालू करायची?"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "सर्वत्र हटवा"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "येथे हटवा"
+  },
+  "app.synced-content.delete.description": {
+    "message": "ही सामग्री हटवल्यास ती तुमच्या सर्व इन्स्टन्समधून हटवली जाईल"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "सिंक न केलेली निवडलेली सामग्री फक्त या इन्स्टन्समधून हटवली जाईल."
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "तुम्ही ती फक्त या इन्स्टन्समधून किंवा सर्व सिंक केलेल्या इन्स्टन्समधून काढू शकता. फक्त या इन्स्टन्समधून काढल्यास ओव्हरराइट्स चालू होतील व या इन्स्टन्सला या सामग्री प्रकारांसाठी सिंक केलेले बदल मिळणार नाहीत."
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "तुम्ही {count, plural, one {it} other {them}} फक्त या इन्स्टन्समधून किंवा सर्व सिंक केलेल्या इन्स्टन्समधून काढू शकता. फक्त या इन्स्टन्समधून {count, plural, one {it} other {them}} काढल्यास ओव्हरराइट्स चालू होतील व हा इन्स्टन्स सिंक केलेले रिसोर्स पॅक बदल प्राप्त करणार नाही."
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "या इन्स्टन्सकडे स्वतःची प्रत राहील. ही सामग्री इतर इन्स्टन्समध्ये सिंक ठेवायची की त्यातून काढायची?"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "ठेवा"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "काढा"
+  },
+  "app.synced-content.desync.title": {
+    "message": "सामग्री सिंक रद्द करा"
+  },
+  "app.synced-content.warning.title": {
+    "message": "ही सामग्री सिंक केलेली आहे"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "सिंक केलेले डेटा पॅक"
+  },
+  "app.synced-packs.empty": {
+    "message": "सिंक सुरू करण्यासाठी इन्स्टन्सच्या सामग्री पृष्ठावरून पॅक जोडा."
+  },
+  "app.synced-packs.load-failed": {
+    "message": "पॅक लोड करता आले नाहीत. रीफ्रेश करून पहा."
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "सिंक केलेले रिसोर्स पॅक"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Minecraft"
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "Panda Minecraft Launcher v{version} डाउनलोड झाला आहे. आता अपडेट करण्यासाठी रीलोड करा किंवा Panda Minecraft Launcher बंद करताना आपोआप अपडेट होऊ द्या."
+  },
+  "app.update-popup.body.linux": {
+    "message": "Panda Minecraft Launcher v{version} उपलब्ध आहे. नवीनतम वैशिष्ट्ये व सुधारणांसाठी तुमच्या पॅकेज मॅनेजरने अपडेट करा!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Panda Minecraft Launcher v{version} आता उपलब्ध आहे! तुम्ही मीटर्ड नेटवर्कवर असल्यामुळे आम्ही ते आपोआप डाउनलोड केले नाही."
+  },
+  "app.update-popup.changelog": {
+    "message": "बातम्या"
+  },
+  "app.update-popup.download": {
+    "message": "डाउनलोड करा ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "डाउनलोड पूर्ण"
+  },
+  "app.update-popup.reload": {
+    "message": "अपडेट करण्यासाठी रीलोड करा"
+  },
+  "app.update-popup.title": {
+    "message": "अपडेट उपलब्ध"
+  },
+  "app.update.complete-toast.text": {
+    "message": "बातम्या पाहण्यासाठी येथे क्लिक करा."
+  },
+  "app.update.complete-toast.title": {
+    "message": "आवृत्ती {version} यशस्वीरित्या इन्स्टॉल झाली!"
+  },
+  "app.update.download-error.missing-version": {
+    "message": "अपडेट डाउनलोड करता आला नाही: कोणतीही आवृत्ती उपलब्ध नाही"
+  },
+  "app.user.project.install-to-instance": {
+    "message": "इन्स्टन्समध्ये इन्स्टॉल करा"
+  },
+  "app.welcome-screen.create-instance": {
+    "message": "इन्स्टन्स तयार करा"
+  },
+  "app.welcome-screen.description": {
+    "message": "खेळायला सुरुवात करायची?"
+  },
+  "app.welcome-screen.import-from-launcher": {
+    "message": "लॉन्चरमधून आयात करा"
+  },
+  "app.welcome-screen.import-prompt": {
+    "message": "दुसऱ्या लॉन्चरमधून येत आहात?"
+  },
+  "app.welcome-screen.more-options": {
+    "message": "अधिक पर्याय"
+  },
+  "app.welcome-screen.quick-create-hint": {
+    "message": "त्वरित इन्स्टन्स तयार करण्यासाठी <shortcut>N</shortcut> दाबा"
+  },
+  "app.welcome-screen.skip": {
+    "message": "वगळा"
+  },
+  "app.welcome-screen.title": {
+    "message": "Panda Minecraft Launcher मध्ये स्वागत आहे"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "एक पर्याय निवडा"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "असंगत आवृत्ती {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "अद्याप खेळलेले नाही"
+  },
+  "app.world.world-item.offline": {
+    "message": "ऑफलाइन"
+  },
+  "app.world.world-item.players-online": {
+    "message": "ऑनलाइन {count}"
+  },
+  "content.shared-instance.change-version-body": {
+    "message": "आवृत्ती बदलल्यास फक्त तुमची स्थानिक प्रत बदलते. भविष्यातील शेयर इन्स्टन्स अपडेटमुळे ती पुन्हा बहाल किंवा बदलली जाऊ शकते."
+  },
+  "content.shared-instance.delete-bulk-body": {
+    "message": "निवडलेल्या काही प्रकल्प शेयर इन्स्टन्सचा भाग आहेत. त्यांना हटवल्यास फक्त तुमची स्थानिक प्रत बदलते आणि भविष्यातील शेयर इन्स्टन्स अपडेटमुळे ते पुन्हा बहाल किंवा बदलले जाऊ शकतात."
+  },
+  "content.shared-instance.delete-button": {
+    "message": "तरीही हटवा"
+  },
+  "content.shared-instance.delete-many-button": {
+    "message": "{count, number} प्रकल्प तरीही हटवा"
+  },
+  "content.shared-instance.delete-single-body": {
+    "message": "ते हटवल्यास फक्त तुमची स्थानिक प्रत बदलते. भविष्यातील शेयर इन्स्टन्स अपडेटमुळे ते पुन्हा बहाल किंवा बदलले जाऊ शकते."
+  },
+  "content.shared-instance.disable-bulk-body": {
+    "message": "निवडलेल्या काही प्रकल्प शेयर इन्स्टन्सचा भाग आहेत. त्यांना बंद केल्यास फक्त तुमची स्थानिक प्रत बदलते आणि भविष्यातील शेयर इन्स्टन्स अपडेटमुळे ते पुन्हा चालू, बहाल किंवा बदलले जाऊ शकतात."
+  },
+  "content.shared-instance.disable-button": {
+    "message": "तरीही बंद करा"
+  },
+  "content.shared-instance.disable-many-button": {
+    "message": "{count, number} प्रकल्प तरीही बंद करा"
+  },
+  "content.shared-instance.disable-single-body": {
+    "message": "ते बंद केल्यास फक्त तुमची स्थानिक प्रत बदलते. भविष्यातील शेयर इन्स्टन्स अपडेटमुळे ते पुन्हा चालू, बहाल किंवा बदलले जाऊ शकते."
+  },
+  "content.shared-instance.unlink-body": {
+    "message": "अनलिंक केल्यास फक्त तुमची स्थानिक प्रत बदलते. भविष्यातील शेयर इन्स्टन्स अपडेटमुळे ती पुन्हा बहाल किंवा बदलली जाऊ शकते."
+  },
+  "content.shared-instance.warning-header": {
+    "message": "हे शेयर इन्स्टन्सचा भाग आहे"
+  },
+  "friends.action.add-friend": {
+    "message": "मित्र जोडा"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} मित्र {count, plural, one {request} other {requests}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "मैत्री विनंती पाठवा"
+  },
+  "friends.add-friend.title": {
+    "message": "मित्र जोडत आहे"
+  },
+  "friends.add-friend.username.description": {
+    "message": "ते तुमच्या Minecraft वापरकर्तानावापेक्षा वेगळे असू शकते!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "Panda Minecraft Launcher वापरकर्तानाव प्रविष्ट करा…"
+  },
+  "friends.add-friend.username.title": {
+    "message": "तुमच्या मित्राचे Panda Minecraft Launcher वापरकर्तानाव काय आहे?"
+  },
+  "friends.add-friends-to-share": {
+    "message": "<link>मित्र जोडा</link> आणि ते काय खेळत आहेत ते पहा!"
+  },
+  "friends.friend.actions.label": {
+    "message": "मित्र कृती"
+  },
+  "friends.friend.cancel-request": {
+    "message": "विनंती रद्द करा"
+  },
+  "friends.friend.remove-friend": {
+    "message": "मित्र काढा"
+  },
+  "friends.friend.request-sent": {
+    "message": "मैत्री विनंती पाठवली"
+  },
+  "friends.friend.view-profile": {
+    "message": "प्रोफाइल पहा"
+  },
+  "friends.heading": {
+    "message": "मित्र"
+  },
+  "friends.heading.active": {
+    "message": "सक्रिय"
+  },
+  "friends.heading.offline": {
+    "message": "ऑफलाइन"
+  },
+  "friends.heading.online": {
+    "message": "ऑनलाइन"
+  },
+  "friends.heading.pending": {
+    "message": "प्रलंबित"
+  },
+  "friends.no-friends-match": {
+    "message": "''{query}'' शी जुळणारे कोणतेही मित्र नाहीत"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "मित्र शोधा…"
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "<link>Panda Minecraft Launcher खात्यात साइन इन करा</link> आणि मित्र जोडून ते काय खेळत आहेत ते पहा!"
+  },
+  "hosting.play.account-changed": {
+    "message": "तुमचे Panda Minecraft Launcher खाते बदलले आहे. सुरू ठेवण्यासाठी पुन्हा Play server दाबा."
+  },
+  "hosting.play.no-address": {
+    "message": "या सर्व्हरकडे अद्याप कनेक्शन पत्ता नाही."
+  },
+  "hosting.play.not-ready": {
+    "message": "हा इन्स्टन्स लॉन्च करण्यासाठी उपलब्ध नाही. तुमच्या लायब्ररीमध्ये त्याची इन्स्टॉलेशन स्थिती तपासा."
+  },
+  "hosting.play.update-description": {
+    "message": "सामील होण्यापूर्वी या इन्स्टन्सला सर्व्हरच्या नवीनतम शेयर केलेल्या सामग्रीवर अपडेट करा."
+  },
+  "hosting.play.update-to-play": {
+    "message": "खेळण्यासाठी अपडेट करा"
+  },
+  "hosting.play.world-changed": {
+    "message": "हा वर्ल्ड आता सक्रिय नाही किंवा शेयर केलेला नाही. सर्व्हर पॅनल उघडा व पुन्हा Play server दाबा."
+  },
+  "installation-settings.advanced.title": {
+    "message": "प्रगत"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "शेयर इन्स्टन्स रिलिंक करा"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "आमंत्रण लिंक किंवा ID वापरून हा इन्स्टन्स त्यातून अनलिंक केलेल्या शेयर इन्स्टन्सशी पुन्हा जोडा."
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "तुमचा इन्स्टन्स \"{name}\" आधीच या शेयर इन्स्टन्सशी जोडलेला आहे."
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "हा इन्स्टन्स रिलिंक करता येणार नाही"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "हा इन्स्टन्स पुन्हा शेयर इन्स्टन्सचा स्रोत होतो. तुम्ही अपडेट प्रकाशित केल्यावर सदस्यांना तुमचे बदल मिळतील."
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "तुमच्या मालकीच्या शेयर इन्स्टन्सशी हा इन्स्टन्स पुन्हा जोडा."
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "शेयर इन्स्टन्स शोधा"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "शेयर इन्स्टन्स रिलिंक करा"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "आमंत्रण लिंक किंवा शेयर इन्स्टन्स ID"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "हा इन्स्टन्स {localLoader} {localGameVersion} वापरतो, पण शेयर इन्स्टन्स {loader} {gameVersion} वापरतो. तुमचे पुढील प्रकाशन शेयर इन्स्टन्सला या इन्स्टन्सशी जुळवेल."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "वेगळी गेम किंवा लोडर आवृत्ती"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "शेयर इन्स्टन्स फक्त मालकच रिलिंक करू शकतो. सदस्य म्हणून त्याचे अपडेट मिळवण्यासाठी तो लायब्ररीतून पुन्हा इन्स्टॉल करा."
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "रिलिंक करा"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "हा शेयर इन्स्टन्स सर्व्हरद्वारे व्यवस्थापित केला जातो, म्हणून तो रिलिंक करता येणार नाही."
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · आवृत्ती {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "शेयर इन्स्टन्स रिलिंक करा"
+  },
+  "installation-settings.shared-instance.linked-title": {
+    "message": "जोडलेला शेयर इन्स्टन्स"
+  },
+  "installation-settings.shared-instance.unlink-button": {
+    "message": "शेयर इन्स्टन्स अनलिंक करा"
+  },
+  "installation-settings.shared-instance.unlink-description": {
+    "message": "या स्थानिक इन्स्टन्सला भविष्यातील शेयर अपडेटमधून वेगळे करा."
+  },
+  "installation-settings.shared-instance.unlinking-button": {
+    "message": "अनलिंक करत आहे…"
+  },
+  "installation-settings.shared-instance.unpublish-description": {
+    "message": "हा शेयर इन्स्टन्स Panda Minecraft Launcher मधून काढा व तो वापरणाऱ्या कोणालाही अपडेट पाठवणे बंद करा. तुमच्या स्थानिक इन्स्टन्सवर परिणाम होणार नाही."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-body": {
+    "message": "याचा परिणाम फक्त तुमच्या स्थानिक इन्स्टन्सवर होतो. इन्स्टॉल केली सामग्री या डिव्हाइसवर राहील व शेयर इन्स्टन्स आणि तो वापरणाऱ्यांवर परिणाम होणार नाही."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-header": {
+    "message": "शेयर इन्स्टन्स अनलिंक करत आहे"
+  },
+  "installation-settings.unlink-shared-instance.modal.header": {
+    "message": "शेयर इन्स्टन्स अनलिंक करा"
+  },
+  "installation-settings.unpublish-shared-instance.modal.admonition-body": {
+    "message": "हे शेयर इन्स्टन्स Panda Minecraft Launcher च्या सर्व्हरवरून हटवते. Panda Minecraft Launcher मध्ये ते वापरणाऱ्यांना अपडेट मिळणे बंद होईल, परंतु तुमचा स्थानिक इन्स्टन्स व त्याची सामग्री या डिव्हाइसवर राहील."
+  },
+  "instance.action.create-shortcut": {
+    "message": "शॉर्टकट तयार करा"
+  },
+  "instance.action.export-modpack": {
+    "message": "मोडपॅक निर्यात करा"
+  },
+  "instance.action.launch-instance": {
+    "message": "इन्स्टन्स लॉन्च करा"
+  },
+  "instance.action.more-actions": {
+    "message": "अधिक कृती"
+  },
+  "instance.action.open-folder": {
+    "message": "फोल्डर उघडा"
+  },
+  "instance.action.repair": {
+    "message": "दुरुस्त करा"
+  },
+  "instance.action.settings": {
+    "message": "इन्स्टन्स सेटिंग्ज"
+  },
+  "instance.action.starting": {
+    "message": "सुरू करत आहे…"
+  },
+  "instance.action.stopping": {
+    "message": "थांबवत आहे…"
+  },
+  "instance.add-server.add-and-play": {
+    "message": "जोडा व खेळा"
+  },
+  "instance.add-server.add-server": {
+    "message": "सर्व्हर जोडा"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "बंद"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "चालू"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "विनंती"
+  },
+  "instance.add-server.title": {
+    "message": "सर्व्हर जोडा"
+  },
+  "instance.edit-server.title": {
+    "message": "सर्व्हर संपादित करा"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "मुख्यपृष्ठावरून लपवा"
+  },
+  "instance.edit-world.name": {
+    "message": "नाव"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "Minecraft वर्ल्ड"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "आयकॉन रीसेट करा"
+  },
+  "instance.edit-world.title": {
+    "message": "वर्ल्ड संपादित करा"
+  },
+  "instance.files.adding-files": {
+    "message": "फायली जोडत आहे ({completed}/{total})"
+  },
+  "instance.files.managed-content-read-only": {
+    "message": "इन्स्टॉल केलेली सामग्री 'सामग्री' टॅबमधून व्यवस्थापित करा."
+  },
+  "instance.files.save-as": {
+    "message": "वेगळ्या नावाने जतन करा…"
+  },
+  "instance.last-played": {
+    "message": "शेवटचे खेळले"
+  },
+  "instance.locked.delete-button": {
+    "message": "इन्स्टन्स हटवा"
+  },
+  "instance.locked.play-tooltip": {
+    "message": "हा इन्स्टन्स लॉक केलेला आहे"
+  },
+  "instance.playtime.never-played": {
+    "message": "कधीच खेळलेला नाही"
+  },
+  "instance.server-modal.address": {
+    "message": "पत्ता"
+  },
+  "instance.server-modal.name": {
+    "message": "नाव"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "Minecraft सर्व्हर"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "रिसोर्स पॅक"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "डिफॉल्ट सेटिंग्ज व्यवस्थापित करा"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "{setting} डिफॉल्टवर रीसेट करा"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "डिफॉल्टवर रीसेट करा"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "गेम"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "इन्स्टन्स"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "सिंक केलेला डेटा संपादित करण्यासाठी हा ओव्हरराइट बंद करा."
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "डेटा पॅक सिंक रद्द करा"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "या इन्स्टन्सचे डेटा पॅक सिंक केलेल्या पॅकपासून वेगळे ठेवा."
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "अॅप सेटिंग्जमध्ये डेटा पॅक सिंक बंद केला आहे."
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "सिंक केलेले पॅक संपादित करा"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "सिंक केलेले पॅक संपादित करण्यासाठी हा ओव्हरराइट बंद करा. स्वतंत्र पॅक सामग्री टॅबमध्ये व्यवस्थापित करता येतील."
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "रिसोर्स पॅक सिंक रद्द करा"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "या इन्स्टन्सचे रिसोर्स पॅक सिंक केलेल्या पॅकपासून वेगळे ठेवा."
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "अॅप सेटिंग्जमध्ये रिसोर्स पॅक सिंक बंद केला आहे."
+  },
+  "instance.settings.tabs.behavior.description": {
+    "message": "या इन्स्टन्सवर कोणते टॅब दाखवायचे ते निवडा."
+  },
+  "instance.settings.tabs.behavior.files": {
+    "message": "फाइल टॅब दाखवा"
+  },
+  "instance.settings.tabs.behavior.screenshots": {
+    "message": "स्क्रीनशॉट टॅब दाखवा"
+  },
+  "instance.settings.tabs.behavior.screenshots.required": {
+    "message": "मुख्य स्क्रीनशॉट पृष्ठ बंद असताना स्क्रीनशॉट टॅब लपवता येत नाही."
+  },
+  "instance.settings.tabs.behavior.worlds": {
+    "message": "वर्ल्ड्स टॅब दाखवा"
+  },
+  "instance.settings.tabs.general": {
+    "message": "सामान्य"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "इन्स्टन्स हटवा"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "इन्स्टन्स हटवा"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "हे तुमच्या डिव्हाइसवरून इन्स्टन्स कायमस्वरूपी हटवते, त्यातील वर्ल्ड्स, कॉन्फिग व सर्व इन्स्टॉल केली सामग्रीही हटते. काळजी घ्या, कारण इन्स्टन्स हटवल्यावर तो परत मिळवता येत नाही."
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "हटवत आहे…"
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "डुप्लिकेट करा"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "इन्स्टॉल करताना डुप्लिकेट करता येत नाही."
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "लॉक केलेले इन्स्टन्स डुप्लिकेट करता येत नाहीत."
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "इन्स्टन्स डुप्लिकेट करा"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "वर्ल्ड्स, कॉन्फिग, मोड्स इत्यादींसह या इन्स्टन्सची प्रत तयार करते."
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "आयकॉन संपादित करा"
+  },
+  "instance.settings.tabs.general.edit-icon.create": {
+    "message": "आयकॉन तयार करा"
+  },
+  "instance.settings.tabs.general.edit-icon.edit-created": {
+    "message": "आयकॉन संपादित करा"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "आयकॉन काढा"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "आयकॉन बदला"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "आयकॉन निवडा"
+  },
+  "instance.settings.tabs.general.icon": {
+    "message": "आयकॉन"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "नाव"
+  },
+  "instance.settings.tabs.general.update-channel": {
+    "message": "अपडेट चॅनेल"
+  },
+  "instance.settings.tabs.general.update-channel.alpha": {
+    "message": "Alpha"
+  },
+  "instance.settings.tabs.general.update-channel.alpha.description": {
+    "message": "Release, beta व alpha आवृत्त्या उपलब्ध अपडेट म्हणून दाखवल्या जातील."
+  },
+  "instance.settings.tabs.general.update-channel.beta": {
+    "message": "Beta"
+  },
+  "instance.settings.tabs.general.update-channel.beta.description": {
+    "message": "Release व beta आवृत्त्या उपलब्ध अपडेट म्हणून दाखवल्या जातील."
+  },
+  "instance.settings.tabs.general.update-channel.release": {
+    "message": "Release"
+  },
+  "instance.settings.tabs.general.update-channel.release.description": {
+    "message": "फक्त Release आवृत्त्या उपलब्ध अपडेट म्हणून दाखवल्या जातील."
+  },
+  "instance.settings.tabs.general.update-channel.select": {
+    "message": "अपडेट चॅनेल निवडा"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "तुम्ही येथे बदल केल्याशिवाय इन्स्टन्स डिफॉल्ट लॉन्च हुक वापरतो."
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "लॉन्च हुक"
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "बाहेर पडल्यानंतर"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "गेम बंद झाल्यावर चालते."
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "बाहेर पडल्यानंतरची कमांड प्रविष्ट करा…"
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "लॉन्चपूर्व"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "इन्स्टन्स लॉन्च होण्यापूर्वी चालते."
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "लॉन्चपूर्व कमांड प्रविष्ट करा…"
+  },
+  "instance.settings.tabs.hooks.variables.description": {
+    "message": "हुक इन्स्टन्सच्या कार्यरत डिरेक्टरीत खालील व्हेरिएबल्ससह चालतात:"
+  },
+  "instance.settings.tabs.hooks.variables.inst-dir.description": {
+    "message": "$INST_DIR: इन्स्टन्सच्या फोल्डरचा संपूर्ण मार्ग"
+  },
+  "instance.settings.tabs.hooks.variables.inst-id.description": {
+    "message": "$INST_ID: इन्स्टन्सच्या फोल्डरचे नाव"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java-args.description": {
+    "message": "$INST_JAVA_ARGS: गेमला दिलेले JVM आर्ग्युमेंट्स"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java.description": {
+    "message": "$INST_JAVA: java बायनरीचा संपूर्ण मार्ग"
+  },
+  "instance.settings.tabs.hooks.variables.inst-mc-dir.description": {
+    "message": "$INST_MC_DIR: $INST_DIR चा पर्यायी नाव"
+  },
+  "instance.settings.tabs.hooks.variables.inst-name.description": {
+    "message": "$INST_NAME: इन्स्टन्सचे नाव"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "रॅपर"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "Minecraft लॉन्च करण्यासाठीची रॅपर कमांड."
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "रॅपर कमांड प्रविष्ट करा…"
+  },
+  "instance.settings.tabs.installation": {
+    "message": "इन्स्टॉलेशन"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "{loader} आवृत्ती"
+  },
+  "instance.settings.tabs.installation.locked": {
+    "message": "हा इन्स्टन्स लॉक असताना इन्स्टॉलेशन सेटिंग्ज उपलब्ध नाहीत."
+  },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "तुम्ही येथे बदल केल्याशिवाय इन्स्टन्स डिफॉल्ट Java व मेमरी सेटिंग्ज वापरतो."
+  },
+  "instance.settings.tabs.java.enter-environment-variables": {
+    "message": "एन्व्हायर्नमेंट व्हेरिएबल्स प्रविष्ट करा…"
+  },
+  "instance.settings.tabs.java.enter-java-arguments": {
+    "message": "Java आर्ग्युमेंट्स प्रविष्ट करा…"
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "एन्व्हायर्नमेंट व्हेरिएबल्स"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "हुक"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Java आर्ग्युमेंट्स"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Java इन्स्टॉलेशन"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "मेमरी वाटप"
+  },
+  "instance.settings.tabs.java.java-path-placeholder": {
+    "message": "/path/to/java"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java व मेमरी"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "या इन्स्टन्सच्या Minecraft आवृत्तीसाठी Java {version} शिफारस केली जाते."
+  },
+  "instance.settings.tabs.sharing": {
+    "message": "शेयरिंग"
+  },
+  "instance.settings.tabs.synced-options.command-history": {
+    "message": "कमांड इतिहास सिंक रद्द करा"
+  },
+  "instance.settings.tabs.synced-options.command-history.disabled-in-app": {
+    "message": "अॅप सेटिंग्जमध्ये कमांड इतिहास सिंक बंद केला आहे."
+  },
+  "instance.settings.tabs.synced-options.command-history.override-description": {
+    "message": "या इन्स्टन्सचा कमांड इतिहास सिंक केलेल्या इतिहासापासून वेगळा ठेवा."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars": {
+    "message": "जतन केलेले क्रिएटिव्ह हॉटबार सिंक रद्द करा"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.disabled-in-app": {
+    "message": "अॅप सेटिंग्जमध्ये जतन केलेल्या क्रिएटिव्ह हॉटबारचा सिंक बंद केला आहे."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
+    "message": "या इन्स्टन्सचे जतन केलेले क्रिएटिव्ह हॉटबार सिंक केलेल्या हॉटबारपासून वेगळे ठेवा."
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "गेम सेटिंग्ज सिंक रद्द करा"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "या इन्स्टन्सचा options.txt सिंक केलेल्या प्रतीपासून वेगळा ठेवा."
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "अॅप सेटिंग्जमध्ये गेम सेटिंग्ज सिंक बंद केला आहे."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
+    "message": "काहीही बदलण्यापूर्वी ज्या आवृत्तीची जागा घेतली जाईल तिचा बॅकअप घेतला जाईल."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.description": {
+    "message": "{instance} व तुमच्या सिंक केलेल्या आवृत्तीत वेगवेगळे क्रिएटिव्ह हॉटबार आहेत. तुमच्या सर्व इन्स्टन्समध्ये कोणता वापरायचा ते निवडा."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.title": {
+    "message": "क्रिएटिव्ह हॉटबार निवडा"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-instance": {
+    "message": "इतरांवर ओव्हरराइट करा"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-synced": {
+    "message": "सिंक केलेला वापरा"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers": {
+    "message": "मल्टीप्लेयर सर्व्हर सिंक रद्द करा"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.disabled-in-app": {
+    "message": "अॅप सेटिंग्जमध्ये मल्टीप्लेयर सर्व्हर सिंक बंद केला आहे."
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.override-description": {
+    "message": "या इन्स्टन्सचे मल्टीप्लेयर सर्व्हर सिंक केलेल्या सर्व्हरपासून वेगळे ठेवा."
+  },
+  "instance.settings.tabs.synced-options.open-app-settings": {
+    "message": "सिंक केलेल्या सेटिंग्ज व्यवस्थापित करा"
+  },
+  "instance.settings.tabs.synced-options.shared-settings.description": {
+    "message": "सिंक केलेली सेटिंग या इन्स्टन्ससाठी वेगळी ठेवण्यासाठी ओव्हरराइट चालू करा."
+  },
+  "instance.settings.tabs.syncing": {
+    "message": "सिंक"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "तुम्ही येथे बदल केल्याशिवाय इन्स्टन्स डिफॉल्ट विंडो सेटिंग्ज वापरतो."
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "पूर्णस्क्रीन"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "लॉन्च करताना गेम पूर्णस्क्रीनमध्ये सुरू करा (options.txt वापरून)."
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "उंची"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "लॉन्च करताना गेम विंडोची उंची."
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "उंची प्रविष्ट करा…"
+  },
+  "instance.settings.tabs.window.label": {
+    "message": "विंडो"
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "रुंदी"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "लॉन्च करताना गेम विंडोची रुंदी."
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "रुंदी प्रविष्ट करा…"
+  },
+  "instance.settings.using-defaults": {
+    "message": "डिफॉल्ट वापरत आहे"
+  },
+  "instance.shared-instance.error.title": {
+    "message": "काहीतरी चूक झाली आहे"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "या फाइल प्रकाराला परवानगी नाही"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "तुम्ही आणखी इन्स्टन्स शेयर करू शकत नाही."
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "शेयर इन्स्टन्सची मर्यादा गाठली"
+  },
+  "instance.shared-instance.network-error.text": {
+    "message": "शेयर इन्स्टन्स API शी कनेक्ट करता आले नाही"
+  },
+  "instance.shared-instance.network-error.title": {
+    "message": "नेटवर्क त्रुटी"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "दुसऱ्या Panda Minecraft Launcher इन्स्टॉलेशनमधून नवीन आवृत्ती पुश केली गेली. ती डाउनलोड करा, नंतर पुन्हा प्रयत्न करा."
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "अपडेट पुश करता आला नाही"
+  },
+  "instance.shared-instance.owner-tooltip": {
+    "message": "या इन्स्टन्सची सामग्री इतर वापरकर्त्यांशी शेयर केली जात आहे."
+  },
+  "instance.shared-instance.tooltip": {
+    "message": "या इन्स्टन्सची सामग्री दुसऱ्या कोणीतरी व्यवस्थापित करत आहे."
+  },
+  "instance.shared-instance.unavailable.access-revoked-text": {
+    "message": "शेयर इन्स्टन्समधील तुमचा प्रवेश रद्द केला गेला. हा इन्स्टन्स अद्याप उपलब्ध आहे, परंतु तो आता जोडलेला नाही व अपडेट मिळणार नाही."
+  },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "शेयर इन्स्टन्स सामग्री मॉडरेशन टीमने लॉक केला होता. तुम्हाला आता अपडेट पुश करण्याची किंवा हा इन्स्टन्स पुन्हा शेयर करण्याची परवानगी नाही."
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "इन्स्टन्स आता शेयर करता येत नाही"
+  },
+  "instance.shared-instance.unavailable.locked-text": {
+    "message": "हा शेयर इन्स्टन्स सामग्री मॉडरेशन टीमने लॉक केला होता. त्याला आता मुख्य इन्स्टन्सकडून अपडेट मिळणार नाहीत व तो खेळता येणार नाही."
+  },
+  "instance.shared-instance.unavailable.locked-title": {
+    "message": "इन्स्टन्स लॉक केलेला आहे"
+  },
+  "instance.shared-instance.unavailable.manager-fallback": {
+    "message": "इन्स्टन्स व्यवस्थापक"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "आम्हाला हा शेयर इन्स्टन्स सापडला नाही. इन्स्टॉल केलेली सामग्री या डिव्हाइसवर अद्याप आहे."
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "शेयर इन्स्टन्स उपलब्ध नाही"
+  },
+  "instance.shared-instance.unavailable.text": {
+    "message": "तुमचा स्थानिक इन्स्टन्स अद्याप उपलब्ध आहे, परंतु तो आता जोडलेला नाही व अपडेट मिळणार नाही."
+  },
+  "instance.shared-instance.unavailable.title": {
+    "message": "शेयर इन्स्टन्स आता उपलब्ध नाही"
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "एक Minecraft सर्व्हर"
+  },
+  "instance.worlds.actions.label": {
+    "message": "वर्ल्ड कृती"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "सर्व्हरशी कनेक्ट करता आले नाही"
+  },
+  "instance.worlds.copy_address": {
+    "message": "पत्ता कॉपी करा"
+  },
+  "instance.worlds.create_shortcut": {
+    "message": "शॉर्टकट तयार करा"
+  },
+  "instance.worlds.desync-server.description": {
+    "message": "हा सर्व्हर इतर सिंक केलेल्या इन्स्टन्समध्ये ठेवायचा की त्यातून काढायचा?"
+  },
+  "instance.worlds.desync-server.keep": {
+    "message": "ठेवा"
+  },
+  "instance.worlds.desync-server.remove": {
+    "message": "काढा"
+  },
+  "instance.worlds.desync-server.title": {
+    "message": "सर्व्हर सिंक रद्द करा"
+  },
+  "instance.worlds.desync_server": {
+    "message": "सिंक रद्द करा"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "मुख्यपृष्ठावर दाखवू नका"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "इन्स्टन्स आधीच उघडा आहे"
+  },
+  "instance.worlds.hardcore": {
+    "message": "हार्डकोर मोड"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "सर्व्हर असंगत आहे"
+  },
+  "instance.worlds.instance-locked": {
+    "message": "हा इन्स्टन्स लॉक केलेला आहे"
+  },
+  "instance.worlds.linked_server": {
+    "message": "सर्व्हर प्रकल्पाद्वारे व्यवSYSTEMापित"
+  },
+  "instance.worlds.more-options": {
+    "message": "अधिक पर्याय"
+  },
+  "instance.worlds.no_contact": {
+    "message": "सर्व्हरशी संपर्क करता आला नाही"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "Minecraft Alpha 1.0.5+ वरूनच तुम्ही थेट सर्व्हरमध्ये प्रवेश करू शकता"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "Minecraft 1.20+ वरूनच तुम्ही थेट सिंगलप्लेयर वर्ल्डमध्ये प्रवेश करू शकता"
+  },
+  "instance.worlds.play_instance": {
+    "message": "इन्स्टन्स खेळा"
+  },
+  "instance.worlds.play_world": {
+    "message": "वर्ल्ड खेळा"
+  },
+  "instance.worlds.shortcut-created": {
+    "message": "शॉर्टकट तयार केला"
+  },
+  "instance.worlds.shortcut-creation-failed": {
+    "message": "शॉर्टकट तयार करता आला नाही"
+  },
+  "instance.worlds.synced_server": {
+    "message": "इन्स्टन्समध्ये सिंक केलेले"
+  },
+  "instance.worlds.view_instance": {
+    "message": "इन्स्टन्स पहा"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "वर्ल्ड वापरात आहे"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "ely.by खाते जोडा"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Microsoft खाते जोडा"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "आम्हाला तुमच्या ely.by खात्यात साइन इन करता आले नाही. तुमचे ely.by खाते तपासा व पुन्हा प्रयत्न करा."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "साइन इन अयशस्वी"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "आम्हाला तुमच्या Microsoft खात्यात साइन इन करता आले नाही. हे खात्यावरील निर्बंध किंवा प्रादेशिक मर्यादांमुळे असू शकते."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "तुमचा कोड"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "कॉपी केला"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "कॉपी करा"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "ely.by वरून साइन इन करा"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "ely.by पडताळणी पृष्ठ उघडा व Panda Minecraft Launcher ला अधिकृत करण्यासाठी हा कोड प्रविष्ट करा. तुम्ही मंजुरी दिल्यावर साइन इन आपोआप सुरू राहील."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "ely.by पडताळणी पृष्ठ उघडा"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "अधिकृततेची वाट पाहत आहे…"
+  },
+  "minecraft-account.label": {
+    "message": "Minecraft खाते"
+  },
+  "minecraft-account.not-signed-in": {
+    "message": "साइन इन केलेले नाही"
+  },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
+  "minecraft-account.remove-account": {
+    "message": "खाते काढा"
+  },
+  "minecraft-account.select-account": {
+    "message": "खाते निवडा"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "ely.by वरून साइन इन करा"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Microsoft वरून साइन इन करा"
+  },
+  "minecraft-required.description": {
+    "message": "लॉन्च व खेळ करण्यापूर्वी तुम्हाला Minecraft खाते हवे. तुम्ही Microsoft किंवा ely.by वरून साइन इन करू शकता."
+  },
+  "minecraft-required.description-header": {
+    "message": "Minecraft मध्ये साइन इन करा"
+  },
+  "minecraft-required.dont-have-account": {
+    "message": "खाते नाही?"
+  },
+  "minecraft-required.get-minecraft": {
+    "message": "Minecraft मिळवा"
+  },
+  "minecraft-required.get-support": {
+    "message": "मदत मिळवा"
+  },
+  "minecraft-required.header": {
+    "message": "Minecraft आवश्यक"
+  },
+  "minecraft-required.sign-in": {
+    "message": "Microsoft वरून साइन इन करा"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "ely.by वरून साइन इन करा"
+  },
+  "modal.modrinth-account-required.browser-description": {
+    "message": "साइन इन करण्यासाठी एक नवीन टॅब उघडली. तेथे साइन इन पूर्ण करा, नंतर अॅपकडे परता."
+  },
+  "modal.modrinth-account-required.continue-in-browser-heading": {
+    "message": "तुमच्या ब्राउझरमध्ये सुरू ठेवा"
+  },
+  "modal.modrinth-account-required.create-account-button": {
+    "message": "खाते तयार करा"
+  },
+  "modal.modrinth-account-required.description": {
+    "message": "या वैशिष्ट्याचा वापर करण्यापूर्वी तुम्हाला Panda Minecraft Launcher खात्यात साइन इन करणे आवश्यक आहे."
+  },
+  "modal.modrinth-account-required.header": {
+    "message": "खाते आवश्यक"
+  },
+  "modal.modrinth-account-required.open-browser-again-button": {
+    "message": "ब्राउझर पुन्हा उघडा"
+  },
+  "modal.modrinth-account-required.sign-in-button": {
+    "message": "Panda Minecraft Launcher मध्ये साइन इन करा"
+  },
+  "modal.modrinth-account-required.sign-in-heading": {
+    "message": "Panda Minecraft Launcher खात्यात साइन इन करा"
+  },
+  "modal.modrinth-account-required.signing-in-header": {
+    "message": "साइन इन करत आहे"
+  },
+  "modal.modrinth-account-required.support-prompt": {
+    "message": "साइन इन करताना अडचण येत आहे? <support>मदत मिळवा</support>"
+  },
+  "modal.modrinth-account-required.waiting-for-browser": {
+    "message": "ब्राउझरच्या पुष्टीची वाट पाहत आहे…"
+  },
+  "project.server.status.offline": {
+    "message": "ऑफलाइन"
+  },
+  "project.server.status.online": {
+    "message": "ऑनलाइन"
+  },
+  "search.filter.locked.instance": {
+    "message": "इन्स्टन्सद्वारे प्रदान केलेले"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "गेम आवृत्ती इन्स्टन्सद्वारे प्रदान केली जाते"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "लोडर इन्स्टन्सद्वारे प्रदान केला जातो"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "इन्स्टन्सशी सिंक करा"
+  },
+  "search.filter.locked.server": {
+    "message": "सर्व्हरद्वारे प्रदान केलेले"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "सर्व्हर इन्स्टन्समध्ये फक्त क्लायंट-साइड मोड्स जोडता येतील"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "गेम आवृत्ती सर्व्हरद्वारे प्रदान केली जाते"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "लोडर सर्व्हरद्वारे प्रदान केला जातो"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "सर्व्हरशी सिंक करा"
+  },
+  "settings.sidebar.label.account": {
+    "message": "खाते"
+  },
+  "settings.sidebar.label.display": {
+    "message": "डिस्प्ले"
+  }
+}

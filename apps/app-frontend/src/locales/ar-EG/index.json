@@ -1,0 +1,4685 @@
+{
+  "app.action-bar.changelog": {
+    "message": "الأخبار"
+  },
+  "app.action-bar.downloading-java": {
+    "message": "جاري تنزيل Java {version}"
+  },
+  "app.action-bar.downloading-update": {
+    "message": "جاري تنزيل التحديث"
+  },
+  "app.action-bar.downloads": {
+    "message": "التنزيلات"
+  },
+  "app.action-bar.hide-downloads": {
+    "message": "إخفاء التنزيلات النشطة"
+  },
+  "app.action-bar.hide-more-running-instances": {
+    "message": "إخفاء باقي النسخ قيد التشغيل"
+  },
+  "app.action-bar.install.copied-details": {
+    "message": "تم النسخ"
+  },
+  "app.action-bar.install.dismiss": {
+    "message": "تجاهل"
+  },
+  "app.action-bar.install.inspect-details": {
+    "message": "فحص التفاصيل"
+  },
+  "app.action-bar.install.open-instance": {
+    "message": "فتح النسخة"
+  },
+  "app.action-bar.install.retry": {
+    "message": "إعادة المحاولة"
+  },
+  "app.action-bar.install.summary.app-closing": {
+    "message": "أُلغي بسبب إغلاق التطبيق"
+  },
+  "app.action-bar.install.summary.bad-modpack-file": {
+    "message": "تعذّر قراءة المودباك"
+  },
+  "app.action-bar.install.summary.canceled": {
+    "message": "أُلغي"
+  },
+  "app.action-bar.install.summary.cleanup-incomplete": {
+    "message": "لم تكتمل عملية التنظيف"
+  },
+  "app.action-bar.install.summary.content-download-failed": {
+    "message": "تعذّر تنزيل الملفات"
+  },
+  "app.action-bar.install.summary.corrupt-download": {
+    "message": "الملف الذي تم تنزيله تالف"
+  },
+  "app.action-bar.install.summary.could-not-save-files": {
+    "message": "تعذّر حفظ الملفات"
+  },
+  "app.action-bar.install.summary.download-failed": {
+    "message": "لم يكتمل التنزيل"
+  },
+  "app.action-bar.install.summary.instance-error": {
+    "message": "تعذّر تجهيز النسخة"
+  },
+  "app.action-bar.install.summary.invalid-file-path": {
+    "message": "مسار الملف غير صالح"
+  },
+  "app.action-bar.install.summary.invalid-modpack": {
+    "message": "بيانات المودباك غير صالحة"
+  },
+  "app.action-bar.install.summary.invalid-modpack-files": {
+    "message": "ملفات المودباك تحتوي على بيانات وصفية غير صالحة"
+  },
+  "app.action-bar.install.summary.java-setup-failed": {
+    "message": "لم يكتمل إعداد Java"
+  },
+  "app.action-bar.install.summary.loader-setup-failed": {
+    "message": "فشل إعداد أداة التحميل"
+  },
+  "app.action-bar.install.summary.local-data-error": {
+    "message": "تعذّر تحديث البيانات المحلية"
+  },
+  "app.action-bar.install.summary.minecraft-setup-failed": {
+    "message": "فشل إعداد Minecraft"
+  },
+  "app.action-bar.install.summary.modrinth-unreachable": {
+    "message": "تعذّر الوصول إلى Panda Minecraft Launcher"
+  },
+  "app.action-bar.install.summary.no-write-permission": {
+    "message": "لا توجد صلاحية للكتابة"
+  },
+  "app.action-bar.install.summary.pack-download-failed": {
+    "message": "تعذّر تنزيل المودباك"
+  },
+  "app.action-bar.install.summary.unexpected-error": {
+    "message": "حدث خطأ ما"
+  },
+  "app.action-bar.install.unknown-instance": {
+    "message": "نسخة غير معروفة"
+  },
+  "app.action-bar.install.updating-shared-content": {
+    "message": "جاري تحديث المحتوى المشترك"
+  },
+  "app.action-bar.offline": {
+    "message": "غير متصل"
+  },
+  "app.action-bar.reload-to-update": {
+    "message": "أعد التحميل للتحديث"
+  },
+  "app.action-bar.show-downloads": {
+    "message": "عرض التنزيلات النشطة"
+  },
+  "app.action-bar.show-more-running-instances": {
+    "message": "عرض باقي النسخ قيد التشغيل"
+  },
+  "app.action-bar.stop-instance": {
+    "message": "إيقاف النسخة"
+  },
+  "app.action-bar.update": {
+    "message": "تحديث"
+  },
+  "app.action-bar.view-active-downloads": {
+    "message": "عرض التنزيلات النشطة"
+  },
+  "app.action-bar.view-logs": {
+    "message": "عرض السجلات"
+  },
+  "app.appearance-settings.compact-mode.description": {
+    "message": "عرض نسخ المكتبة في تخطيط صفوف مضغوط."
+  },
+  "app.appearance-settings.compact-mode.title": {
+    "message": "الوضع المضغوط"
+  },
+  "app.appearance-settings.default-landing-page.home": {
+    "message": "الصفحة الرئيسية"
+  },
+  "app.appearance-settings.default-landing-page.library": {
+    "message": "المكتبة"
+  },
+  "app.appearance-settings.hide-nametag.description": {
+    "message": "إخفاء اسم المستخدم أعلى معاينة اللاعب في صفحة اختيار السكين."
+  },
+  "app.appearance-settings.hide-nametag.title": {
+    "message": "إخفاء الاسم"
+  },
+  "app.appearance-settings.minimize-launcher.description": {
+    "message": "تصغير Panda Minecraft Launcher عند بدء تشغيل Minecraft."
+  },
+  "app.appearance-settings.minimize-launcher.title": {
+    "message": "تصغير التطبيق"
+  },
+  "app.appearance-settings.show-play-time.description": {
+    "message": "إظهار مدة لعبك لكل نسخة."
+  },
+  "app.appearance-settings.show-play-time.title": {
+    "message": "إظهار مدة اللعب"
+  },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "إظهار الشريط الجانبي على اليمين أو اليسار."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "اليسار"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "اليمين"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "موضع الشريط الجانبي"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.description": {
+    "message": "تخطي التأكيدات للإجراءات منخفضة الخطورة مثل التثبيت المكرر، والحذف العادي للمحتوى، والتحديثات الجماعية، وفك الارتباط، والإصلاح. تظهر تحذيرات الإجراءات الخطيرة دائمًا."
+  },
+  "app.appearance-settings.skip-non-essential-warnings.title": {
+    "message": "تخطي التحذيرات غير الضرورية"
+  },
+  "app.appearance-settings.unknown-pack-warning.description": {
+    "message": "إظهار تحذير أمان قبل تثبيت مودباك (.mrpack) غير مستضاف على Panda Minecraft Launcher."
+  },
+  "app.appearance-settings.unknown-pack-warning.title": {
+    "message": "حذّرني قبل تثبيت مودباكات غير معروفة"
+  },
+  "app.auth-servers.unreachable.body": {
+    "message": "قد تكون خوادم مصادقة Minecraft معطلة حاليًا. تحقّق من اتصالك بالإنترنت وحاول مرة أخرى لاحقًا."
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "تعذّر الوصول إلى خوادم المصادقة"
+  },
+  "app.behavior-settings.confirmations.title": {
+    "message": "التأكيدات"
+  },
+  "app.behavior-settings.content.title": {
+    "message": "الصفحة الرئيسية والمحتوى"
+  },
+  "app.behavior-settings.hidden-instances.description": {
+    "message": "النسخ التي أخفيتها من مكتبتك على هذا الجهاز. لا تتم مزامنة النسخ المخفية مع حسابك في Panda Minecraft Launcher."
+  },
+  "app.behavior-settings.hidden-instances.empty": {
+    "message": "لم تُخفِ أي نسخة بعد."
+  },
+  "app.behavior-settings.hidden-instances.more-options": {
+    "message": "المزيد من الخيارات"
+  },
+  "app.behavior-settings.hidden-instances.not-installed": {
+    "message": "غير مثبّتة"
+  },
+  "app.behavior-settings.hidden-instances.title": {
+    "message": "النسخ المخفية"
+  },
+  "app.behavior-settings.refocus-on-game-close.description": {
+    "message": "إحضار Panda Minecraft Launcher إلى المقدمة عند خروج Minecraft."
+  },
+  "app.behavior-settings.refocus-on-game-close.title": {
+    "message": "إعادة التركيز إلى التطبيق عند إغلاق Minecraft"
+  },
+  "app.behavior-settings.startup-and-navigation.title": {
+    "message": "بدء التشغيل والتنقّل"
+  },
+  "app.behavior-settings.sync-across-devices.description": {
+    "message": "استخدام إعدادات السلوك هذه في كل مكان سجّلت الدخول منه. أوقف هذا الخيار للاحتفاظ بإعدادات منفصلة على هذا الجهاز."
+  },
+  "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "سجّل الدخول إلى حساب Panda Minecraft Launcher لمزامنة الإعدادات."
+  },
+  "app.behavior-settings.sync-across-devices.title": {
+    "message": "مزامنة السلوك بين الأجهزة"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "جاري إضافة سيرفر إلى النسخة"
+  },
+  "app.browse.add-to-an-instance": {
+    "message": "إضافة إلى نسخة"
+  },
+  "app.browse.add-to-instance": {
+    "message": "إضافة إلى النسخة"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "إضافة إلى {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "أُضيف"
+  },
+  "app.browse.already-added": {
+    "message": "مضافة بالفعل"
+  },
+  "app.browse.back-to-instance": {
+    "message": "العودة إلى النسخة"
+  },
+  "app.browse.curseforge.checking": {
+    "message": "جاري الاتصال بـ CurseForge..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "فشل طلب CurseForge: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "في انتظار الموافقة من CurseForge"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge جاهز. تم العثور على {count} مود."
+  },
+  "app.browse.discover-project-type": {
+    "message": "اكتشف {projectType}"
+  },
+  "app.browse.discover-servers": {
+    "message": "اكتشف السيرفرات"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "إخفاء السيرفرات المضافة"
+  },
+  "app.browse.hide-installed-modpacks": {
+    "message": "إخفاء المثبّتة بالفعل"
+  },
+  "app.browse.project-actions.label": {
+    "message": "إجراءات المشروع"
+  },
+  "app.browse.project-type.data-packs": {
+    "message": "حزم البيانات"
+  },
+  "app.browse.project-type.modpacks": {
+    "message": "المودباكات"
+  },
+  "app.browse.project-type.mods": {
+    "message": "المودات"
+  },
+  "app.browse.project-type.plugins": {
+    "message": "الإضافات"
+  },
+  "app.browse.project-type.resource-packs": {
+    "message": "حزم الموارد"
+  },
+  "app.browse.project-type.servers": {
+    "message": "السيرفرات"
+  },
+  "app.browse.project-type.shaders": {
+    "message": "الشادرز"
+  },
+  "app.browse.server-instance-content-warning": {
+    "message": "قد تمنع إضافة المحتوى انضمامك إلى هذا السيرفر. سيُزال أي محتوى تضيفه عند تحديث محتوى السيرفر المُدار."
+  },
+  "app.browse.server.installing": {
+    "message": "جاري التثبيت"
+  },
+  "app.changelog.current-version": {
+    "message": "الإصدار الحالي: {version}"
+  },
+  "app.changelog.title": {
+    "message": "ملاحظات الإصدار"
+  },
+  "app.changelog.you-are-here": {
+    "message": "أنت هنا"
+  },
+  "app.content-install.no-compatible-versions": {
+    "message": "لا توجد إصدارات متاحة تطابق {compatibilityLabel}. اختر إصدارًا للتثبيت على أي حال. لن تُثبّت التبعيات تلقائيًا."
+  },
+  "app.content.desync-pack": {
+    "message": "إلغاء المزامنة"
+  },
+  "app.content.sync-data-packs-disabled": {
+    "message": "فعّل مزامنة حزم البيانات في إعدادات التطبيق أولًا."
+  },
+  "app.content.sync-pack": {
+    "message": "مزامنة"
+  },
+  "app.content.sync-packs-override": {
+    "message": "أوقف تجاوز مزامنة الحزم في إعدادات هذه النسخة أولًا."
+  },
+  "app.content.sync-resource-packs-disabled": {
+    "message": "فعّل مزامنة حزم الموارد في إعدادات التطبيق أولًا."
+  },
+  "app.debug-export.canceling": {
+    "message": "جاري إلغاء التصدير…"
+  },
+  "app.debug-export.exporting": {
+    "message": "جاري التصدير…"
+  },
+  "app.debug-export.finishing": {
+    "message": "جاري الإنهاء…"
+  },
+  "app.debug-export.preparing": {
+    "message": "جاري تجهيز الملفات…"
+  },
+  "app.download-manager.active": {
+    "message": "نشط"
+  },
+  "app.download-manager.attention": {
+    "message": "يحتاج إلى انتباه"
+  },
+  "app.download-manager.bulk-update-content": {
+    "message": "جاري تحديث {count, plural, one {# item} other {# items}}"
+  },
+  "app.download-manager.cancel": {
+    "message": "إلغاء التثبيت"
+  },
+  "app.download-manager.canceling": {
+    "message": "جاري إلغاء التثبيت…"
+  },
+  "app.download-manager.clear-all": {
+    "message": "مسح الكل"
+  },
+  "app.download-manager.clear-completed": {
+    "message": "مسح جميع المهام المكتملة"
+  },
+  "app.download-manager.complete": {
+    "message": "مكتمل"
+  },
+  "app.download-manager.duplicated-instance": {
+    "message": "نسخة مكرَّرة"
+  },
+  "app.download-manager.estimated-rate": {
+    "message": "سرعة التنزيل المقدَّرة"
+  },
+  "app.download-manager.eta": {
+    "message": "الوقت التقديري المتبقي لهذا التنزيل"
+  },
+  "app.download-manager.hide-tasks": {
+    "message": "إخفاء المهام"
+  },
+  "app.download-manager.imported-instance": {
+    "message": "نسخة مستوردة"
+  },
+  "app.download-manager.instance-installation": {
+    "message": "تثبيت النسخة"
+  },
+  "app.download-manager.modpack": {
+    "message": "مودباك"
+  },
+  "app.download-manager.modpack-installation": {
+    "message": "تثبيت المودباك"
+  },
+  "app.download-manager.new-instance": {
+    "message": "نسخة جديدة"
+  },
+  "app.download-manager.no-tasks": {
+    "message": "لا توجد مهام"
+  },
+  "app.download-manager.pause": {
+    "message": "إيقاف التثبيت مؤقتًا"
+  },
+  "app.download-manager.paused": {
+    "message": "موقوفة مؤقتًا"
+  },
+  "app.download-manager.remove": {
+    "message": "إزالة من السجل"
+  },
+  "app.download-manager.resume": {
+    "message": "استئناف التثبيت"
+  },
+  "app.download-manager.shared-instance": {
+    "message": "نسخة مشتركة"
+  },
+  "app.download-manager.shared-instance-update": {
+    "message": "تحديث نسخة مشتركة"
+  },
+  "app.download-manager.show-tasks": {
+    "message": "عرض المهام"
+  },
+  "app.download-manager.tasks": {
+    "message": "المهام"
+  },
+  "app.download-manager.title": {
+    "message": "مدير التنزيلات"
+  },
+  "app.error.copied-debug-info": {
+    "message": "تم النسخ"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "فحص معلومات التشخيص"
+  },
+  "app.error.state-init.open-backups-folder": {
+    "message": "فتح مجلد النسخ الاحتياطية"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "أدخل وصف المودباك..."
+  },
+  "app.export-modal.export-button": {
+    "message": "تصدير"
+  },
+  "app.export-modal.export-complete": {
+    "message": "اكتمل التصدير"
+  },
+  "app.export-modal.export-complete-description": {
+    "message": "تم تصدير {name} بنجاح."
+  },
+  "app.export-modal.header": {
+    "message": "تصدير المودباك"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "اسم المودباك"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "اسم المودباك"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "رقم الإصدار"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.features-settings.instance-pages.title": {
+    "message": "النسخ"
+  },
+  "app.features-settings.play-page.title": {
+    "message": "صفحة التشغيل"
+  },
+  "app.features-settings.quick-instances.description": {
+    "message": "اختر الحد الأقصى لعدد النسخ الأخيرة المعروضة في الشريط الجانبي الأيسر. يمكنك أيضًا ضبطه بسحب الفاصل."
+  },
+  "app.features-settings.quick-instances.title": {
+    "message": "نسخ سريعة في الشريط الجانبي"
+  },
+  "app.features-settings.show-all-screenshots.description": {
+    "message": "إظهار زر في الشريط الجانبي الأيسر لعرض لقطات الشاشة من كل نسخك."
+  },
+  "app.features-settings.show-all-screenshots.title": {
+    "message": "عرض كل لقطات الشاشة في الشريط الجانبي"
+  },
+  "app.features-settings.show-files-tab.title": {
+    "message": "إظهار تبويب الملفات في النسخ"
+  },
+  "app.features-settings.show-jump-in.description": {
+    "message": "إظهار العوالم والنسخ التي لعبتها مؤخرًا في أعلى صفحة التشغيل."
+  },
+  "app.features-settings.show-jump-in.title": {
+    "message": "إظهار قسم ابدأ اللعب"
+  },
+  "app.features-settings.show-screenshots-tab.title": {
+    "message": "إظهار تبويب لقطات الشاشة في النسخ"
+  },
+  "app.features-settings.show-skin-selector.description": {
+    "message": "إظهار زر في الشريط الجانبي لفتح إدارة الحساب."
+  },
+  "app.features-settings.show-skin-selector.title": {
+    "message": "إظهار زر إدارة الحساب في الشريط الجانبي"
+  },
+  "app.features-settings.show-worlds-tab.title": {
+    "message": "إظهار تبويب العوالم في النسخ"
+  },
+  "app.features-settings.sidebar.title": {
+    "message": "الشريط الجانبي"
+  },
+  "app.features-settings.sync-across-devices.description": {
+    "message": "استخدام إعدادات الميزات هذه في كل مكان سجّلت الدخول منه. أوقف هذا الخيار للاحتفاظ بإعدادات منفصلة على هذا الجهاز."
+  },
+  "app.features-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "سجّل الدخول إلى حساب Panda Minecraft Launcher لمزامنة الإعدادات."
+  },
+  "app.features-settings.sync-across-devices.title": {
+    "message": "مزامنة الميزات بين الأجهزة"
+  },
+  "app.file-download.canceling": {
+    "message": "جاري إلغاء التنزيل…"
+  },
+  "app.file-download.preparing": {
+    "message": "جاري تجهيز التنزيل…"
+  },
+  "app.file-download.waiting": {
+    "message": "في انتظار السيرفر…"
+  },
+  "app.home.jump-back-in.actions.label": {
+    "message": "إجراءات النسخة"
+  },
+  "app.home.jump-back-in.instance-locked": {
+    "message": "هذه النسخة مقفولة"
+  },
+  "app.home.jump-back-in.instance-open": {
+    "message": "النسخة مفتوحة بالفعل"
+  },
+  "app.home.jump-back-in.more-options": {
+    "message": "المزيد من الخيارات"
+  },
+  "app.home.jump-back-in.never-played": {
+    "message": "لم تُلعب من قبل"
+  },
+  "app.home.jump-back-in.new-instance": {
+    "message": "نسخة جديدة"
+  },
+  "app.home.jump-back-in.resize": {
+    "message": "اسحب لتغيير الحجم"
+  },
+  "app.home.jump-back-in.title": {
+    "message": "ابدأ اللعب"
+  },
+  "app.home.jump-back-in.view-instance": {
+    "message": "عرض النسخة"
+  },
+  "app.hosting.update-required.description": {
+    "message": "تحتاج إلى التحديث لاستخدام Panda Minecraft Launcher"
+  },
+  "app.hosting.update-required.download": {
+    "message": "نزّل للتحديث"
+  },
+  "app.hosting.update-required.rinthbot-alt": {
+    "message": "بوت Panda Minecraft Launcher المتحمّس"
+  },
+  "app.hosting.update-required.title": {
+    "message": "يلزم تحديث Panda Minecraft Launcher"
+  },
+  "app.install.phase.downloading_content": {
+    "message": "جاري تنزيل المحتوى"
+  },
+  "app.install.phase.downloading_minecraft": {
+    "message": "جاري تنزيل Minecraft"
+  },
+  "app.install.phase.downloading_pack_file": {
+    "message": "جاري تنزيل ملف المودباك"
+  },
+  "app.install.phase.extracting_overrides": {
+    "message": "جاري استخراج الملفات المخصصة"
+  },
+  "app.install.phase.finalizing": {
+    "message": "جاري الإنهاء"
+  },
+  "app.install.phase.preparing_instance": {
+    "message": "في قائمة الانتظار للتثبيت"
+  },
+  "app.install.phase.preparing_java": {
+    "message": "جاري تجهيز Java"
+  },
+  "app.install.phase.preparing_java.downloading": {
+    "message": "جاري تنزيل Java {version}"
+  },
+  "app.install.phase.preparing_java.extracting": {
+    "message": "جاري استخراج Java {version}"
+  },
+  "app.install.phase.preparing_java.fetching-metadata": {
+    "message": "جاري جلب Java {version}"
+  },
+  "app.install.phase.preparing_java.resolving": {
+    "message": "جاري تجهيز Java {version}"
+  },
+  "app.install.phase.preparing_java.validating": {
+    "message": "جاري التحقق من Java {version}"
+  },
+  "app.install.phase.reading_pack_manifest": {
+    "message": "جاري قراءة ملف تعريف المودباك"
+  },
+  "app.install.phase.resolving_loader": {
+    "message": "جاري تجهيز أداة التحميل"
+  },
+  "app.install.phase.resolving_minecraft": {
+    "message": "جاري تجهيز Minecraft"
+  },
+  "app.install.phase.resolving_pack": {
+    "message": "جاري تجهيز المحتوى"
+  },
+  "app.install.phase.rolling_back": {
+    "message": "جاري التراجع"
+  },
+  "app.install.phase.running_loader_processors": {
+    "message": "جاري تشغيل معالجات أداة التحميل"
+  },
+  "app.instance.action.add-content": {
+    "message": "إضافة محتوى"
+  },
+  "app.instance.action.copy-path": {
+    "message": "نسخ المسار"
+  },
+  "app.instance.action.edit": {
+    "message": "تعديل"
+  },
+  "app.instance.action.open-folder": {
+    "message": "فتح المجلد"
+  },
+  "app.instance.action.play": {
+    "message": "تشغيل"
+  },
+  "app.instance.action.stop": {
+    "message": "إيقاف"
+  },
+  "app.instance.actions.label": {
+    "message": "إجراءات النسخة"
+  },
+  "app.instance.add-server.add": {
+    "message": "إضافة"
+  },
+  "app.instance.add-server.added": {
+    "message": "أُضيف"
+  },
+  "app.instance.add-server.adding": {
+    "message": "جاري الإضافة..."
+  },
+  "app.instance.add-server.cancel": {
+    "message": "إلغاء"
+  },
+  "app.instance.add-server.compatibility-warning": {
+    "message": "قد لا يكون هذا السيرفر متوافقًا مع كل النسخ."
+  },
+  "app.instance.add-server.search-placeholder": {
+    "message": "ابحث عن نسخة"
+  },
+  "app.instance.add-server.title": {
+    "message": "إضافة سيرفر إلى النسخة"
+  },
+  "app.instance.admonitions.shared-instance.added-label": {
+    "message": "مُضافة"
+  },
+  "app.instance.admonitions.shared-instance.changes-body": {
+    "message": "نسختك المحلية أحدث من نسخ المستخدمين الذين شاركتها معهم."
+  },
+  "app.instance.admonitions.shared-instance.changes-header": {
+    "message": "لم تتم مشاركة تغييراتك بعد"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-body": {
+    "message": "دفعت تحديثًا لهذه النسخة المشتركة من تثبيت آخر لـ Panda Minecraft Launcher. نزّل أحدث التغييرات لتتابع إدارتها من هنا."
+  },
+  "app.instance.admonitions.shared-instance.owner-update-button": {
+    "message": "تنزيل التحديث"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-header": {
+    "message": "يوجد تحديث متاح"
+  },
+  "app.instance.admonitions.shared-instance.publish-button": {
+    "message": "رفع التحديث"
+  },
+  "app.instance.admonitions.shared-instance.publishing-button": {
+    "message": "جاري الرفع..."
+  },
+  "app.instance.admonitions.shared-instance.removed-label": {
+    "message": "أُزيل"
+  },
+  "app.instance.admonitions.shared-instance.restored-body": {
+    "message": "استُعيدت هذه النسخة من آخر إصدار رفعته. أي شيء لم ترفعه بعد، مثل تغييرات الإعدادات أو المحتوى على تثبيتك الآخر، غير مدرج."
+  },
+  "app.instance.admonitions.shared-instance.restored-header": {
+    "message": "تم تنزيل المحتوى المرفوع فقط"
+  },
+  "app.instance.admonitions.shared-instance.review-admonition-header": {
+    "message": "رفع التحديث"
+  },
+  "app.instance.admonitions.shared-instance.review-description": {
+    "message": "راجع تغييرات المحتوى التي ستُشارك مع الجميع المستخدمين لهذه النسخة."
+  },
+  "app.instance.admonitions.shared-instance.review-header": {
+    "message": "مراجعة التغييرات"
+  },
+  "app.instance.admonitions.shared-instance.reviewing-button": {
+    "message": "جاري المراجعة..."
+  },
+  "app.instance.card.icon-alt": {
+    "message": "أيقونة النسخة"
+  },
+  "app.instance.card.installing": {
+    "message": "جاري التثبيت..."
+  },
+  "app.instance.card.loading": {
+    "message": "جاري تحميل النسخة..."
+  },
+  "app.instance.card.never-played": {
+    "message": "لم تُلعب من قبل"
+  },
+  "app.instance.card.play": {
+    "message": "تشغيل"
+  },
+  "app.instance.card.played": {
+    "message": "لُعبت {relativeTime}"
+  },
+  "app.instance.card.repair": {
+    "message": "إصلاح"
+  },
+  "app.instance.card.stop": {
+    "message": "إيقاف"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "سيُحذف كل بيانات النسخة نهائيًا، بما فيها عوالمك وإعداداتك وكل المحتوى المثبّت."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "لا يمكن التراجع عن هذا الإجراء"
+  },
+  "app.instance.confirm-delete.bulk-admonition-body": {
+    "message": "سيُحذف كل بيانات هذه النسخ ({count}) نهائيًا، بما فيها عوالمها وإعداداتها وكل المحتوى المثبّت."
+  },
+  "app.instance.confirm-delete.bulk-delete-button": {
+    "message": "حذف {count} نسخة"
+  },
+  "app.instance.confirm-delete.bulk-header": {
+    "message": "حذف {count} نسخة"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "حذف النسخة"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "حذف النسخة"
+  },
+  "app.instance.confirm-delete.instances-label": {
+    "message": "{count, plural, one {Instance} other {Instances ({count})}}"
+  },
+  "app.instance.content.managed-content.modpack-header": {
+    "message": "محتوى المودباك"
+  },
+  "app.instance.content.managed-content.shared-header": {
+    "message": "المحتوى المشترك"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "هذا المودباك مثبّت بالفعل في النسخة <bold>{instanceName}</bold>. هل تريد إنشاء نسخة منه؟"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "إنشاء"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "المودباك مثبّت بالفعل"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "النسخة"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "مشروع"
+  },
+  "app.instance.mods.freeze-content": {
+    "message": "تثبيت الإصدار"
+  },
+  "app.instance.mods.locked-content": {
+    "message": "لا يمكن تغيير المحتوى في النسخ المقفولة."
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "أُضيف \"{name}\""
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "أُضيف {count} مشروع"
+  },
+  "app.instance.mods.share-text": {
+    "message": "اطّلع على المشاريع التي أستخدمها في مودباكي!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "مشاركة محتوى المودباك"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "تم الرفع بنجاح"
+  },
+  "app.instance.mods.unfreeze-content": {
+    "message": "إلغاء تثبيت الإصدار"
+  },
+  "app.instance.navigation.back-to-instance": {
+    "message": "العودة إلى النسخة"
+  },
+  "app.instance.server.offline.description": {
+    "message": "هذا السيرفر غير متصل حاليًا. لا يزال يمكنك تشغيل Minecraft، لكن قد لا تتمكن من الاتصال."
+  },
+  "app.instance.server.offline.launch-anyway": {
+    "message": "تشغيل على أي حال"
+  },
+  "app.instance.server.offline.title": {
+    "message": "السيرفر غير متصل"
+  },
+  "app.instance.server.status.unknown": {
+    "message": "الحالة غير معروفة"
+  },
+  "app.instance.share.empty.description": {
+    "message": "يمكنك مشاركة هذه النسخة مع أصدقائك!"
+  },
+  "app.instance.share.empty.heading": {
+    "message": "لا يوجد أصدقاء مدعوون"
+  },
+  "app.instance.share.empty.invite-friends-button": {
+    "message": "دعوة الأصدقاء"
+  },
+  "app.instance.share.invite-friends": {
+    "message": "دعوة الأصدقاء"
+  },
+  "app.instance.share.invite-modal.heading": {
+    "message": "مشاركة {name}"
+  },
+  "app.instance.share.invite-modal.user-limit-reached": {
+    "message": "بلغت هذه النسخة الحد الأقصى {limit} مستخدم."
+  },
+  "app.instance.share.limit-reached.description": {
+    "message": "لقد شاركت بالفعل العدد الأقصى {limit} من النسخ."
+  },
+  "app.instance.share.limit-reached.heading": {
+    "message": "تم بلوغ حد النسخ المشتركة"
+  },
+  "app.instance.share.limit-reached.manage-button": {
+    "message": "إدارة النسخ المشتركة"
+  },
+  "app.instance.share.locked.empty-description-prefix": {
+    "message": "تحتاج إلى تسجيل الدخول بصفة"
+  },
+  "app.instance.share.locked.empty-description-suffix": {
+    "message": "للوصول إلى هذه الصفحة."
+  },
+  "app.instance.share.locked.linked-account-fallback": {
+    "message": "الحساب المرتبط"
+  },
+  "app.instance.share.locked.signed-out-heading": {
+    "message": "غير مسجّل الدخول"
+  },
+  "app.instance.share.locked.switch-account-button": {
+    "message": "تبديل الحساب"
+  },
+  "app.instance.share.locked.wrong-account-heading": {
+    "message": "حساب غير صحيح"
+  },
+  "app.instance.share.remove-user-modal.effect-access": {
+    "message": "لن يتلقوا تحديثات لهذه النسخة المشتركة بعد الآن"
+  },
+  "app.instance.share.remove-user-modal.effect-installed-copy": {
+    "message": "أي نسخة مثبّتة لديهم ستبقى على جهازهم"
+  },
+  "app.instance.share.remove-user-modal.effect-invite-again": {
+    "message": "يمكنك دعوتهم مرة أخرى لاحقًا"
+  },
+  "app.instance.share.remove-user-modal.effect-last-user": {
+    "message": "هذا آخر مستخدم، وسيُوقف المشاركة لهذه النسخة"
+  },
+  "app.instance.share.remove-user-modal.effects-label": {
+    "message": "ماذا سيحدث؟"
+  },
+  "app.instance.share.remove-user-modal.header": {
+    "message": "سحب الصلاحية"
+  },
+  "app.instance.share.remove-user-modal.remove-button": {
+    "message": "سحب الصلاحية"
+  },
+  "app.instance.share.remove-user-modal.user-avatar-alt": {
+    "message": "صورة {username}'s"
+  },
+  "app.instance.share.remove-user-modal.warning-body": {
+    "message": "إذا سحبت صلاحية {username}'s للوصول إلى هذه النسخة المشتركة، فستحتاج إلى دعوته مجددًا قبل أن يتلقى التحديثات."
+  },
+  "app.instance.share.sign-in.button": {
+    "message": "تسجيل الدخول"
+  },
+  "app.instance.share.unable-to-connect.description": {
+    "message": "خدمة النسخ المشتركة غير متاحة حاليًا، يُرجى المحاولة لاحقًا."
+  },
+  "app.instance.share.unable-to-connect.heading": {
+    "message": "تعذّر الاتصال"
+  },
+  "app.instance.share.unlink.body": {
+    "message": "يجب فك ربط هذا المودباك لمشاركة نسختك"
+  },
+  "app.instance.share.unlink.header": {
+    "message": "المشاركة تتطلب فك الربط"
+  },
+  "app.instance.shared-instance-already-installed.body": {
+    "message": "هذه النسخة المشتركة مثبّتة بالفعل باسم <bold>{instanceName}</bold>. هل تريد تثبيت نسخة أخرى؟"
+  },
+  "app.instance.shared-instance-already-installed.header": {
+    "message": "النسخة المشتركة مثبّتة بالفعل"
+  },
+  "app.instance.shared-instance-already-installed.install-anyway": {
+    "message": "تثبيت على أي حال"
+  },
+  "app.instance.shared-instance-already-installed.instance": {
+    "message": "النسخة"
+  },
+  "app.instance.shared-instance-wrong-account.fallback-username": {
+    "message": "الحساب المرتبط"
+  },
+  "app.instance.shared-instance-wrong-account.owner-admonition-body-v2": {
+    "message": "لإدارة هذه النسخة المشتركة. لن تتمكن من رفع التحديثات إلى المستخدمين."
+  },
+  "app.instance.shared-instance-wrong-account.sign-in-as-label": {
+    "message": "تسجيل الدخول بصفة"
+  },
+  "app.instance.shared-instance-wrong-account.signed-out-header": {
+    "message": "تحتاج إلى تسجيل الدخول إلى Panda Minecraft Launcher"
+  },
+  "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
+    "message": "لتلقي تحديثات هذه النسخة المشتركة."
+  },
+  "app.instance.shared-instance-wrong-account.warning-header": {
+    "message": "أنت تستخدم حساب Panda Minecraft Launcher خاطئًا"
+  },
+  "app.instance.shortcut.created": {
+    "message": "تم إنشاء الاختصار"
+  },
+  "app.instance.shortcut.creation-error": {
+    "message": "خطأ في إنشاء الاختصار"
+  },
+  "app.instance.tab.content": {
+    "message": "المحتوى"
+  },
+  "app.instance.tab.files": {
+    "message": "الملفات"
+  },
+  "app.instance.tab.logs": {
+    "message": "السجلات"
+  },
+  "app.instance.tab.screenshots": {
+    "message": "لقطات الشاشة"
+  },
+  "app.instance.tab.share": {
+    "message": "مشاركة"
+  },
+  "app.instance.tab.worlds": {
+    "message": "العوالم"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "إضافة سيرفر"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "تصفح السيرفرات"
+  },
+  "app.instance.worlds.delete-world-modal.delete-button": {
+    "message": "حذف العالم"
+  },
+  "app.instance.worlds.delete-world-modal.title": {
+    "message": "حذف العالم"
+  },
+  "app.instance.worlds.delete-world-modal.warning-body": {
+    "message": "سيُحذف هذا العالم نهائيًا من النسخة. لا يمكن التراجع عن هذا الإجراء."
+  },
+  "app.instance.worlds.delete-world-modal.warning-header": {
+    "message": "جاري حذف {name}"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "معدّل"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "غير متصل"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "متصل"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "فانيليا"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "أضف سيرفرًا أو تصفّح للبدء"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "لم تُضف أي سيرفرات أو عوالم"
+  },
+  "app.instance.worlds.refreshing": {
+    "message": "جاري التحديث..."
+  },
+  "app.instance.worlds.remove-server-modal.remove-button": {
+    "message": "إزالة السيرفر"
+  },
+  "app.instance.worlds.remove-server-modal.remove-everywhere": {
+    "message": "إزالة من كل مكان"
+  },
+  "app.instance.worlds.remove-server-modal.remove-here": {
+    "message": "إزالة من هنا"
+  },
+  "app.instance.worlds.remove-server-modal.synced-description": {
+    "message": "يمكنك إزالته من هذه النسخة فقط أو من كل النسخ المتزامنة. إزالته من هذه النسخة فقط ستفعّل التجاوزات، ولن تتلقى هذه النسخة تغييرات السيرفر المتزامنة."
+  },
+  "app.instance.worlds.remove-server-modal.synced-header": {
+    "message": "هذا السيرفر متزامن"
+  },
+  "app.instance.worlds.remove-server-modal.title": {
+    "message": "إزالة السيرفر"
+  },
+  "app.instance.worlds.remove-server-modal.warning-body": {
+    "message": "سيُزال هذا السيرفر من قائمتك ومن قائمة السيرفرات داخل اللعبة. يمكنك إضافته مجددًا لاحقًا إذا كنت تعرف العنوان."
+  },
+  "app.instance.worlds.remove-server-modal.warning-header": {
+    "message": "جاري إزالة {name}"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "ابحث في {count} عالم..."
+  },
+  "app.java-detection.cancel": {
+    "message": "إلغاء"
+  },
+  "app.java-detection.columns.actions": {
+    "message": "الإجراءات"
+  },
+  "app.java-detection.columns.path": {
+    "message": "المسار"
+  },
+  "app.java-detection.columns.version": {
+    "message": "الإصدار"
+  },
+  "app.java-detection.no-installations-found": {
+    "message": "لم يتم العثور على تثبيتات Java."
+  },
+  "app.java-detection.select": {
+    "message": "اختيار"
+  },
+  "app.java-detection.selected": {
+    "message": "مُختار"
+  },
+  "app.java-detection.title": {
+    "message": "اختر تثبيت Java"
+  },
+  "app.java-selector.browse": {
+    "message": "تصفّح"
+  },
+  "app.java-selector.copy-failed-title": {
+    "message": "فشل نسخ المسار"
+  },
+  "app.java-selector.copy-path": {
+    "message": "نسخ المسار"
+  },
+  "app.java-selector.detect": {
+    "message": "اكتشاف"
+  },
+  "app.java-selector.edit-path": {
+    "message": "تعديل المسار"
+  },
+  "app.java-selector.install-java": {
+    "message": "تثبيت Java {version}"
+  },
+  "app.java-selector.installing": {
+    "message": "جاري التثبيت..."
+  },
+  "app.java-selector.invalid": {
+    "message": "غير صالح"
+  },
+  "app.java-selector.more-options": {
+    "message": "خيارات Java إضافية"
+  },
+  "app.java-selector.not-set": {
+    "message": "لم يتم اختيار Java"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "تم نسخ مسار Java إلى الحافظة."
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "تم نسخ المسار"
+  },
+  "app.java-selector.path.placeholder": {
+    "message": "/path/to/java"
+  },
+  "app.java-selector.valid": {
+    "message": "صالح"
+  },
+  "app.library.actions.label": {
+    "message": "إجراءات المكتبة"
+  },
+  "app.library.context-menu.create-instance": {
+    "message": "نسخة جديدة"
+  },
+  "app.library.filter.add": {
+    "message": "إضافة فلتر"
+  },
+  "app.library.filter.clear": {
+    "message": "مسح الفلاتر"
+  },
+  "app.library.filter.game-version": {
+    "message": "إصدار اللعبة"
+  },
+  "app.library.filter.install-state": {
+    "message": "حالة التثبيت"
+  },
+  "app.library.filter.install-state.installed": {
+    "message": "مثبّتة"
+  },
+  "app.library.filter.install-state.not-installed": {
+    "message": "غير مثبّتة"
+  },
+  "app.library.filter.instance-type": {
+    "message": "نوع النسخة"
+  },
+  "app.library.filter.instance-type.custom": {
+    "message": "مخصصة"
+  },
+  "app.library.filter.instance-type.modpack": {
+    "message": "مودباك"
+  },
+  "app.library.filter.instance-type.server": {
+    "message": "سيرفر"
+  },
+  "app.library.filter.label": {
+    "message": "تصفية حسب"
+  },
+  "app.library.filter.loader": {
+    "message": "أداة التحميل"
+  },
+  "app.library.filter.owner": {
+    "message": "المالك"
+  },
+  "app.library.filter.owner.me": {
+    "message": "أنت"
+  },
+  "app.library.filter.owner.others": {
+    "message": "الآخرون"
+  },
+  "app.library.filter.sharing": {
+    "message": "المشاركة"
+  },
+  "app.library.filter.sharing.not-shared": {
+    "message": "غير مشتركة"
+  },
+  "app.library.filter.sharing.shared": {
+    "message": "مشتركة"
+  },
+  "app.library.group-by.custom-group": {
+    "message": "مجموعة مخصصة"
+  },
+  "app.library.group-by.game-version": {
+    "message": "إصدار اللعبة"
+  },
+  "app.library.group-by.instance-type": {
+    "message": "نوع النسخة"
+  },
+  "app.library.group-by.label": {
+    "message": "تجميع حسب"
+  },
+  "app.library.group-by.loader": {
+    "message": "أداة التحميل"
+  },
+  "app.library.group-by.none": {
+    "message": "بدون تجميع"
+  },
+  "app.library.group.actions.label": {
+    "message": "إجراءات المجموعة"
+  },
+  "app.library.group.collapse": {
+    "message": "طي المجموعة"
+  },
+  "app.library.group.context-menu.add-to-group": {
+    "message": "إضافة إلى مجموعة"
+  },
+  "app.library.group.create": {
+    "message": "إنشاء مجموعة"
+  },
+  "app.library.group.create.cancel": {
+    "message": "إلغاء"
+  },
+  "app.library.group.delete": {
+    "message": "حذف المجموعة"
+  },
+  "app.library.group.delete-description": {
+    "message": "ستُخرج النسخ الموجودة في هذه المجموعة من التجميع."
+  },
+  "app.library.group.edit-name": {
+    "message": "تعديل اسم المجموعة"
+  },
+  "app.library.group.empty": {
+    "message": "اسحب وأفلت لإضافة نسخ."
+  },
+  "app.library.group.expand": {
+    "message": "توسيع المجموعة"
+  },
+  "app.library.group.favorites": {
+    "message": "المفضلة"
+  },
+  "app.library.group.instance.add": {
+    "message": "إضافة"
+  },
+  "app.library.group.instance.added": {
+    "message": "أُضيف"
+  },
+  "app.library.group.instances-modal.add": {
+    "message": "إضافة"
+  },
+  "app.library.group.instances-modal.added": {
+    "message": "أُضيف"
+  },
+  "app.library.group.instances-modal.no-instances-found": {
+    "message": "لم يتم العثور على نسخ"
+  },
+  "app.library.group.instances-modal.search-placeholder": {
+    "message": "ابحث عن نسخة"
+  },
+  "app.library.group.instances-modal.title": {
+    "message": "إضافة نسخ إلى \"{groupName}\""
+  },
+  "app.library.group.move-down": {
+    "message": "تحريك المجموعة إلى الأسفل"
+  },
+  "app.library.group.move-up": {
+    "message": "تحريك المجموعة إلى الأعلى"
+  },
+  "app.library.group.name": {
+    "message": "اسم المجموعة"
+  },
+  "app.library.group.name-empty": {
+    "message": "لا يمكن أن يكون اسم المجموعة فارغًا."
+  },
+  "app.library.group.name-placeholder": {
+    "message": "أدخل اسم المجموعة"
+  },
+  "app.library.group.name-reserved": {
+    "message": "\"None\" اسم محجوز ولا يمكن استخدامه."
+  },
+  "app.library.group.name-too-long": {
+    "message": "لا يمكن أن يتجاوز اسم المجموعة {maxLength} حرفًا."
+  },
+  "app.library.group.new": {
+    "message": "مجموعة جديدة"
+  },
+  "app.library.group.no-instances-found": {
+    "message": "لم يتم العثور على نسخ"
+  },
+  "app.library.group.rename-failed": {
+    "message": "تعذّر تغيير اسم المجموعة"
+  },
+  "app.library.group.search-instance": {
+    "message": "ابحث عن نسخة"
+  },
+  "app.library.group.ungrouped": {
+    "message": "بدون مجموعة"
+  },
+  "app.library.group.unknown": {
+    "message": "مجموعة غير معروفة"
+  },
+  "app.library.instance-hidden.text": {
+    "message": "يمكنك إظهارها مجددًا من الإعدادات > السلوك."
+  },
+  "app.library.instance-hidden.title": {
+    "message": "مخفية من المكتبة"
+  },
+  "app.library.instance.action.add-content": {
+    "message": "إضافة محتوى"
+  },
+  "app.library.instance.action.add-to-favorites": {
+    "message": "إضافة إلى المفضلة"
+  },
+  "app.library.instance.action.copy-path": {
+    "message": "نسخ المسار"
+  },
+  "app.library.instance.action.delete": {
+    "message": "حذف"
+  },
+  "app.library.instance.action.duplicate": {
+    "message": "إنشاء نسخة"
+  },
+  "app.library.instance.action.hide-from-library": {
+    "message": "إخفاء من المكتبة"
+  },
+  "app.library.instance.action.leave": {
+    "message": "مغادرة"
+  },
+  "app.library.instance.action.open-folder": {
+    "message": "فتح المجلد"
+  },
+  "app.library.instance.action.play": {
+    "message": "تشغيل"
+  },
+  "app.library.instance.action.remove-from-favorites": {
+    "message": "إزالة من المفضلة"
+  },
+  "app.library.instance.action.remove-from-group": {
+    "message": "إزالة من المجموعة"
+  },
+  "app.library.instance.action.show-in-library": {
+    "message": "إظهار في المكتبة"
+  },
+  "app.library.instance.action.stop": {
+    "message": "إيقاف"
+  },
+  "app.library.instance.action.unpublish": {
+    "message": "إلغاء النشر"
+  },
+  "app.library.instance.action.unpublish-and-leave": {
+    "message": "إلغاء النشر والمغادرة"
+  },
+  "app.library.instance.action.view-instance": {
+    "message": "عرض النسخة"
+  },
+  "app.library.instance.actions.label": {
+    "message": "إجراءات النسخة"
+  },
+  "app.library.instance.deselect": {
+    "message": "إلغاء تحديد النسخة"
+  },
+  "app.library.instance.deselect-with-name": {
+    "message": "إلغاء تحديد {name}"
+  },
+  "app.library.instance.install": {
+    "message": "تثبيت"
+  },
+  "app.library.instance.install-with-name": {
+    "message": "تثبيت {name}"
+  },
+  "app.library.instance.installing": {
+    "message": "جاري التثبيت..."
+  },
+  "app.library.instance.loading": {
+    "message": "جاري تحميل النسخة..."
+  },
+  "app.library.instance.new": {
+    "message": "نسخة جديدة"
+  },
+  "app.library.instance.open-with-name": {
+    "message": "فتح {name}"
+  },
+  "app.library.instance.play": {
+    "message": "تشغيل"
+  },
+  "app.library.instance.repair": {
+    "message": "إصلاح"
+  },
+  "app.library.instance.select": {
+    "message": "اختيار نسخة"
+  },
+  "app.library.instance.select-with-name": {
+    "message": "اختيار {name}"
+  },
+  "app.library.instance.shared-by": {
+    "message": "مشاركة من {name}"
+  },
+  "app.library.instance.shared-by-owner": {
+    "message": "مشاركة من <owner>{name}</owner>"
+  },
+  "app.library.instance.shared-by-you": {
+    "message": "مشاركة منك"
+  },
+  "app.library.instance.stop": {
+    "message": "إيقاف"
+  },
+  "app.library.leave-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {You'll lose access to this shared instance and it will be removed from your library. You'll need a new invite to join it again.} other {You'll lose access to these shared instances and they will be removed from your library. You'll need a new invite to join them again.}}"
+  },
+  "app.library.leave-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Leaving shared instance} other {Leaving # shared instances}}"
+  },
+  "app.library.leave-shared-instance.modal.header": {
+    "message": "{count, plural, one {Leave shared instance} other {Leave # shared instances}}"
+  },
+  "app.library.search.no-results.title": {
+    "message": "لا توجد نسخ تطابق بحثك."
+  },
+  "app.library.search.placeholder": {
+    "message": "بحث"
+  },
+  "app.library.selection.aria-label": {
+    "message": "النسخ المحددة"
+  },
+  "app.library.selection.deleting": {
+    "message": "جاري حذف النسخ المحددة"
+  },
+  "app.library.selection.new-group": {
+    "message": "مجموعة جديدة"
+  },
+  "app.library.selection.remove-from-group": {
+    "message": "إزالة من المجموعة"
+  },
+  "app.library.selection.removing-shared-instances": {
+    "message": "جاري إزالة النسخ المشتركة المحددة"
+  },
+  "app.library.selection.selected-count": {
+    "message": "تم تحديد {count}"
+  },
+  "app.library.sort.date-created": {
+    "message": "تاريخ الإنشاء"
+  },
+  "app.library.sort.date-modified": {
+    "message": "تاريخ التعديل"
+  },
+  "app.library.sort.game-version": {
+    "message": "إصدار اللعبة"
+  },
+  "app.library.sort.hours-played": {
+    "message": "ساعات اللعب"
+  },
+  "app.library.sort.label": {
+    "message": "ترتيب حسب"
+  },
+  "app.library.sort.last-played": {
+    "message": "آخر تشغيل"
+  },
+  "app.library.sort.loader": {
+    "message": "أداة التحميل"
+  },
+  "app.library.sort.name": {
+    "message": "الاسم"
+  },
+  "app.library.title": {
+    "message": "المكتبة"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
+    "message": "{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} سيتوقفون عن استلام التحديثات. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} ستُزال كلها من مكتبتك."
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
+    "message": "جاري إلغاء نشر النسخ المشتركة ومغادرتها"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.header": {
+    "message": "إلغاء نشر ومغادرة {count} نسخة مشتركة"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
+  },
+  "app.library.unpublish-shared-instance.modal.header": {
+    "message": "{count, plural, one {Unpublish shared instance} other {Unpublish # shared instances}}"
+  },
+  "app.modal.install-to-play.additional-context": {
+    "message": "معلومات إضافية"
+  },
+  "app.modal.install-to-play.additional-context-placeholder": {
+    "message": "أدرج الروابط والصور إن أمكن وذات صلة"
+  },
+  "app.modal.install-to-play.block-user": {
+    "message": "حظر المستخدم"
+  },
+  "app.modal.install-to-play.content-you-are-reporting": {
+    "message": "النسخة التي تُبلّغ عنها"
+  },
+  "app.modal.install-to-play.delete-instance": {
+    "message": "حذف النسخة"
+  },
+  "app.modal.install-to-play.external-files-dont-install": {
+    "message": "عدم التثبيت"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "تثبيت للعب"
+  },
+  "app.modal.install-to-play.install-anyway": {
+    "message": "تثبيت على أي حال"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "تثبيت"
+  },
+  "app.modal.install-to-play.invite-warning": {
+    "message": "أنشأ هذه الدعوة مستخدم آخر في Panda Minecraft Launcher، لا Panda Minecraft Launcher نفسه. اقبل الدعوات من أشخاص تثق بهم فقط."
+  },
+  "app.modal.install-to-play.invite-warning-with-creator": {
+    "message": "أنشأ هذه الدعوة <creator>{username}</creator>، لا Panda Minecraft Launcher. اقبل الدعوات من أشخاص تثق بهم فقط."
+  },
+  "app.modal.install-to-play.managed-content.modpack-header": {
+    "message": "محتوى المودباك"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# mods}}"
+  },
+  "app.modal.install-to-play.owner-install-note": {
+    "message": "ينزّل هذا أحدث إصدار رفعته. لن تُدرج التغييرات التي لم ترفعها من تثبيتات أخرى."
+  },
+  "app.modal.install-to-play.report-description": {
+    "message": "استخدم هذا النموذج للإبلاغ عن النسخ التي قد تنتهك <rules-link>القواعد</rules-link> أو <terms-link>شروط الاستخدام</terms-link>."
+  },
+  "app.modal.install-to-play.report-image-invalid-type": {
+    "message": "الملف ليس من أنواع الصور المقبولة"
+  },
+  "app.modal.install-to-play.report-image-too-large": {
+    "message": "حجم الملف يتجاوز الحد المسموح 1 MiB"
+  },
+  "app.modal.install-to-play.report-legal-claims": {
+    "message": "لإشعارات DMCA أو غيرها من المطالبات القانونية، راجع <copyright-link>سياسة حقوق الطبع والنشر</copyright-link>."
+  },
+  "app.modal.install-to-play.report-reason": {
+    "message": "أي قاعدة تنتهكها هذه النسخة؟"
+  },
+  "app.modal.install-to-play.report-shared-instance-header": {
+    "message": "الإبلاغ عن نسخة مشتركة"
+  },
+  "app.modal.install-to-play.report-submitted": {
+    "message": "تم إرسال البلاغ"
+  },
+  "app.modal.install-to-play.report-support-and-bugs": {
+    "message": "لطلبات الدعم، تواصل مع <support-link>فريق الدعم</support-link>. وللإبلاغ عن الأخطاء، افتح <github-link>بلاغًا على GitHub</github-link>."
+  },
+  "app.modal.install-to-play.reviewed-files": {
+    "message": "الملفات غير المنشورة على Panda Minecraft Launcher لا تُراجع."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "نسخة مشتركة"
+  },
+  "app.modal.install-to-play.shared-instance-content": {
+    "message": "محتوى النسخة المشتركة"
+  },
+  "app.modal.install-to-play.shared-instance-unknown-files-description": {
+    "message": "تحتوي هذه النسخة المشتركة على ملفات غير منشورة على Panda Minecraft Launcher. ننصح بشدة بتثبيت الملفات من مصادر تثق بها فقط."
+  },
+  "app.modal.install-to-play.unavailable-description": {
+    "message": "لا يمكن تنزيل إصدار المودباك الذي يستخدمه هذا السيرفر حاليًا. قد يكون غير منشور أو قيد المراجعة. حاول لاحقًا أو تواصل مع مالك السيرفر."
+  },
+  "app.modal.install-to-play.unavailable-header": {
+    "message": "مودباك هذا السيرفر غير متاح"
+  },
+  "app.modal.install-to-play.unknown-files-description": {
+    "message": "يحتوي مودباك هذا السيرفر على ملفات غير منشورة على Panda Minecraft Launcher. ننصح بشدة بتثبيت الملفات من مصادر تثق بها فقط."
+  },
+  "app.modal.install-to-play.unknown-files-warning": {
+    "message": "تحذير: ملفات غير معروفة"
+  },
+  "app.modal.install-to-play.unrecognized-files": {
+    "message": "ملفات غير معرّفة"
+  },
+  "app.modal.install-to-play.user-blocked": {
+    "message": "المستخدم محظور"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "عرض المحتويات"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "حدّث للعب"
+  },
+  "app.modal.update-to-play.owner-admonition-header": {
+    "message": "رُفع من تثبيت آخر"
+  },
+  "app.modal.update-to-play.owner-description": {
+    "message": "رُفعت هذه التغييرات من تثبيت آخر لـ Panda Minecraft Launcher. ستُستبدل التغييرات غير المرفوعة على المحتوى المشترك في هذا التثبيت."
+  },
+  "app.modal.update-to-play.owner-header": {
+    "message": "يوجد تحديث متاح"
+  },
+  "app.modal.update-to-play.removed": {
+    "message": "أُزيل"
+  },
+  "app.modal.update-to-play.server-modpack-unknown-files-description": {
+    "message": "يحتوي تحديث مودباك هذا السيرفر على ملفات غير منشورة على Panda Minecraft Launcher. ننصح بشدة بتثبيت الملفات من مصادر تثق بها فقط."
+  },
+  "app.modal.update-to-play.shared-instance-added-label": {
+    "message": "أُضيف"
+  },
+  "app.modal.update-to-play.shared-instance-removed-label": {
+    "message": "أُزيل"
+  },
+  "app.modal.update-to-play.shared-instance-unknown-files-description": {
+    "message": "يحتوي تحديث هذه النسخة المشتركة على ملفات غير منشورة على Panda Minecraft Launcher. ننصح بشدة بتثبيت الملفات من مصادر تثق بها فقط."
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "التحديث مطلوب"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "يلزم تحديث لتشغيل {name}. حدّث إلى أحدث إصدار لتشغيل اللعبة."
+  },
+  "app.nav.account-management": {
+    "message": "إدارة الحساب"
+  },
+  "app.nav.add-account": {
+    "message": "إضافة حساب"
+  },
+  "app.nav.create-new-instance": {
+    "message": "إنشاء نسخة جديدة"
+  },
+  "app.nav.home": {
+    "message": "الصفحة الرئيسية"
+  },
+  "app.nav.loading-profile": {
+    "message": "جاري تحميل الملف الشخصي..."
+  },
+  "app.nav.modrinth-account": {
+    "message": "حساب Panda Minecraft Launcher"
+  },
+  "app.nav.modrinth-hosting": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.nav.remove-account": {
+    "message": "إزالة الحساب"
+  },
+  "app.nav.screenshots": {
+    "message": "لقطات الشاشة"
+  },
+  "app.nav.sign-in-to-modrinth-account": {
+    "message": "تسجيل الدخول إلى Panda Minecraft Launcher"
+  },
+  "app.nav.switch-account": {
+    "message": "تبديل الحساب"
+  },
+  "app.nav.upgrade-to-modrinth-plus": {
+    "message": "الترقية إلى Panda Minecraft Launcher"
+  },
+  "app.nav.view-profile": {
+    "message": "عرض الملف الشخصي"
+  },
+  "app.navigation.go-back": {
+    "message": "رجوع"
+  },
+  "app.navigation.go-forward": {
+    "message": "تقدم"
+  },
+  "app.navigation.home": {
+    "message": "الصفحة الرئيسية"
+  },
+  "app.news.title": {
+    "message": "الأخبار"
+  },
+  "app.news.view-all": {
+    "message": "عرض كل الأخبار"
+  },
+  "app.notification.warning": {
+    "message": "تحذير"
+  },
+  "app.project.actions.label": {
+    "message": "إجراءات المشروع"
+  },
+  "app.project.coming-soon": {
+    "message": "قريبًا"
+  },
+  "app.project.install-button.already-installed": {
+    "message": "هذا المشروع مثبّت بالفعل"
+  },
+  "app.project.install-button.switch-version": {
+    "message": "تبديل الإصدار"
+  },
+  "app.project.install-context.back-to-browse": {
+    "message": "العودة إلى الاستكشاف"
+  },
+  "app.project.install-context.back-to-instance": {
+    "message": "العودة إلى النسخة"
+  },
+  "app.project.load-error": {
+    "message": "تعذّر تحميل بيانات المشروع."
+  },
+  "app.project.more-options": {
+    "message": "المزيد من الخيارات"
+  },
+  "app.project.tab.description": {
+    "message": "الوصف"
+  },
+  "app.project.tab.gallery": {
+    "message": "المعرض"
+  },
+  "app.project.tab.versions": {
+    "message": "الإصدارات"
+  },
+  "app.project.version.all-versions": {
+    "message": "كل الإصدارات"
+  },
+  "app.project.version.download-in-browser": {
+    "message": "تنزيل في المتصفح"
+  },
+  "app.project.version.installing": {
+    "message": "جاري التثبيت"
+  },
+  "app.project.versions.already-installed": {
+    "message": "مثبّت بالفعل"
+  },
+  "app.quick-instance-switcher.actions.label": {
+    "message": "إجراءات النسخة"
+  },
+  "app.quick-instance-switcher.drag-show-tooltip": {
+    "message": "اسحب لإظهار النسخ الأخيرة"
+  },
+  "app.quick-instance-switcher.drag-tooltip": {
+    "message": "اسحب لتغيير الحجم"
+  },
+  "app.quick-instance-switcher.instance-locked": {
+    "message": "هذه النسخة مقفولة"
+  },
+  "app.quick-instance-switcher.title": {
+    "message": "النسخ الأخيرة"
+  },
+  "app.quick-instance-switcher.view-instance": {
+    "message": "عرض النسخة"
+  },
+  "app.restarting": {
+    "message": "جاري إعادة التشغيل..."
+  },
+  "app.screenshots.copied": {
+    "message": "تم النسخ"
+  },
+  "app.screenshots.copy": {
+    "message": "نسخ الصورة"
+  },
+  "app.screenshots.delete-description": {
+    "message": "حذف {name} نهائيًا؟ لا يمكن التراجع عن هذا الإجراء."
+  },
+  "app.screenshots.delete-success": {
+    "message": "تم حذف لقطة الشاشة"
+  },
+  "app.screenshots.delete-title": {
+    "message": "حذف لقطة الشاشة"
+  },
+  "app.screenshots.deselect": {
+    "message": "إلغاء تحديد {name}"
+  },
+  "app.screenshots.edit": {
+    "message": "تعديل لقطة الشاشة"
+  },
+  "app.screenshots.empty-description": {
+    "message": "ستظهر هنا لقطات الشاشة التي تلتقطها داخل اللعبة."
+  },
+  "app.screenshots.empty-heading": {
+    "message": "لا توجد لقطات شاشة بعد"
+  },
+  "app.screenshots.error-heading": {
+    "message": "فشل تحميل لقطات الشاشة"
+  },
+  "app.screenshots.go-to-instance": {
+    "message": "الانتقال إلى النسخة"
+  },
+  "app.screenshots.group-by": {
+    "message": "تجميع حسب"
+  },
+  "app.screenshots.group.all-screenshots": {
+    "message": "كل لقطات الشاشة"
+  },
+  "app.screenshots.group.collapse": {
+    "message": "طي المجموعة"
+  },
+  "app.screenshots.group.custom": {
+    "message": "مجموعة مخصصة"
+  },
+  "app.screenshots.group.date": {
+    "message": "التاريخ"
+  },
+  "app.screenshots.group.delete": {
+    "message": "حذف المجموعة"
+  },
+  "app.screenshots.group.delete-description": {
+    "message": "ستُخرج لقطات الشاشة في هذه المجموعة من التجميع."
+  },
+  "app.screenshots.group.edit": {
+    "message": "تعديل اسم المجموعة"
+  },
+  "app.screenshots.group.empty": {
+    "message": "اسحب وأفلت لإضافة لقطات شاشة."
+  },
+  "app.screenshots.group.expand": {
+    "message": "توسيع المجموعة"
+  },
+  "app.screenshots.group.instance": {
+    "message": "النسخة"
+  },
+  "app.screenshots.group.new": {
+    "message": "مجموعة جديدة"
+  },
+  "app.screenshots.group.none": {
+    "message": "بدون تجميع"
+  },
+  "app.screenshots.group.this-month": {
+    "message": "هذا الشهر"
+  },
+  "app.screenshots.group.this-week": {
+    "message": "هذا الأسبوع"
+  },
+  "app.screenshots.group.today": {
+    "message": "اليوم"
+  },
+  "app.screenshots.group.ungrouped": {
+    "message": "بدون مجموعة"
+  },
+  "app.screenshots.group.yesterday": {
+    "message": "أمس"
+  },
+  "app.screenshots.heading": {
+    "message": "لقطات الشاشة"
+  },
+  "app.screenshots.more-actions": {
+    "message": "خيارات إضافية"
+  },
+  "app.screenshots.no-results-description": {
+    "message": "جرّب بحثًا أو فلترًا مختلفًا."
+  },
+  "app.screenshots.no-results-heading": {
+    "message": "لا توجد لقطات شاشة مطابقة"
+  },
+  "app.screenshots.preview.instance-and-date": {
+    "message": "{instance} · {date}"
+  },
+  "app.screenshots.search": {
+    "message": "بحث"
+  },
+  "app.screenshots.select": {
+    "message": "اختيار {name}"
+  },
+  "app.screenshots.selection.aria-label": {
+    "message": "لقطات الشاشة المحددة"
+  },
+  "app.screenshots.selection.delete-description": {
+    "message": "حذف {count, plural, one {# screenshot} other {# screenshots}}؟ لا يمكن التراجع عن هذا الإجراء."
+  },
+  "app.screenshots.selection.delete-success": {
+    "message": "{count, plural, one {# screenshot deleted} other {# screenshots deleted}}"
+  },
+  "app.screenshots.selection.delete-title": {
+    "message": "حذف لقطات الشاشة المحددة"
+  },
+  "app.screenshots.selection.export-zip": {
+    "message": "تصدير ZIP"
+  },
+  "app.screenshots.selection.global-export-filename": {
+    "message": "Panda Minecraft Launcher screenshots.zip"
+  },
+  "app.screenshots.selection.instance-export-filename": {
+    "message": "{instance} screenshots.zip"
+  },
+  "app.screenshots.selection.remove-from-group": {
+    "message": "إزالة من المجموعة"
+  },
+  "app.screenshots.selection.selected-count": {
+    "message": "تم تحديد {count}"
+  },
+  "app.screenshots.selection.zip-archive": {
+    "message": "أرشيف ZIP"
+  },
+  "app.screenshots.show-in-folder": {
+    "message": "إظهار في المجلد"
+  },
+  "app.screenshots.sort-by": {
+    "message": "ترتيب حسب"
+  },
+  "app.screenshots.sort.name": {
+    "message": "الاسم"
+  },
+  "app.screenshots.sort.newest": {
+    "message": "الأحدث"
+  },
+  "app.screenshots.sort.oldest": {
+    "message": "الأقدم"
+  },
+  "app.server-sharing-update.notification.description": {
+    "message": "ادعُ أصدقاءك للعب بنسخة يديرها سيرفر خاص بك."
+  },
+  "app.server-sharing-update.notification.dismiss": {
+    "message": "تجاهل"
+  },
+  "app.server-sharing-update.notification.purchase-description": {
+    "message": "احصل على سيرفر وادعُ أصدقاءك للعب بنسخة يديرها."
+  },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "عرض التحديث"
+  },
+  "app.server-sharing-update.title": {
+    "message": "مشاركة السيرفرات مع الأصدقاء"
+  },
+  "app.settings.app-version": {
+    "message": "Panda Minecraft Launcher {version}"
+  },
+  "app.settings.default-instance-options.environment-variables.description": {
+    "message": "متغيرات البيئة التي تُضبط عند تشغيل نسخة."
+  },
+  "app.settings.default-instance-options.environment-variables.placeholder": {
+    "message": "أدخل متغيرات البيئة..."
+  },
+  "app.settings.default-instance-options.environment-variables.title": {
+    "message": "متغيرات البيئة"
+  },
+  "app.settings.default-instance-options.fullscreen.description": {
+    "message": "تشغيل النسخ في وضع ملء الشاشة عبر تعديل ملف options.txt الخاص بها."
+  },
+  "app.settings.default-instance-options.fullscreen.title": {
+    "message": "ملء الشاشة"
+  },
+  "app.settings.default-instance-options.height.description": {
+    "message": "ارتفاع نافذة اللعبة عند التشغيل."
+  },
+  "app.settings.default-instance-options.height.placeholder": {
+    "message": "أدخل الارتفاع..."
+  },
+  "app.settings.default-instance-options.height.title": {
+    "message": "الارتفاع"
+  },
+  "app.settings.default-instance-options.java-arguments.description": {
+    "message": "الوسائط المُرسلة إلى Java عند تشغيل نسخة."
+  },
+  "app.settings.default-instance-options.java-arguments.placeholder": {
+    "message": "أدخل وسائط Java..."
+  },
+  "app.settings.default-instance-options.java-arguments.title": {
+    "message": "وسائط Java"
+  },
+  "app.settings.default-instance-options.memory-allocation.description": {
+    "message": "الحد الأقصى للذاكرة المتاحة لكل نسخة."
+  },
+  "app.settings.default-instance-options.memory-allocation.title": {
+    "message": "الذاكرة المخصصة"
+  },
+  "app.settings.default-instance-options.post-exit-hook.description": {
+    "message": "يُشغّل بعد إغلاق اللعبة."
+  },
+  "app.settings.default-instance-options.post-exit-hook.placeholder": {
+    "message": "أدخل أمرًا بعد الخروج..."
+  },
+  "app.settings.default-instance-options.post-exit-hook.title": {
+    "message": "أمر بعد الخروج"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.description": {
+    "message": "يُشغّل قبل بدء النسخة."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.placeholder": {
+    "message": "أدخل أمرًا قبل التشغيل..."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.title": {
+    "message": "أمر قبل التشغيل"
+  },
+  "app.settings.default-instance-options.width.description": {
+    "message": "عرض نافذة اللعبة عند التشغيل."
+  },
+  "app.settings.default-instance-options.width.placeholder": {
+    "message": "أدخل العرض..."
+  },
+  "app.settings.default-instance-options.width.title": {
+    "message": "العرض"
+  },
+  "app.settings.default-instance-options.wrapper-hook.description": {
+    "message": "الأمر المستخدم لتغليف عملية تشغيل Minecraft."
+  },
+  "app.settings.default-instance-options.wrapper-hook.placeholder": {
+    "message": "أدخل أمر التغليف..."
+  },
+  "app.settings.default-instance-options.wrapper-hook.title": {
+    "message": "أمر التغليف"
+  },
+  "app.settings.developer-mode-button.label": {
+    "message": "تبديل وضع المطوّر"
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "وضع المطوّر مُفعّل."
+  },
+  "app.settings.downloading": {
+    "message": "جاري تنزيل v{version}"
+  },
+  "app.settings.game-options.category.accessibility.description": {
+    "message": "تفضيلات إمكانية الوصول"
+  },
+  "app.settings.game-options.category.accessibility.label": {
+    "message": "إمكانية الوصول"
+  },
+  "app.settings.game-options.category.chat.description": {
+    "message": "ظهور المحادثة ومظهرها"
+  },
+  "app.settings.game-options.category.chat.label": {
+    "message": "المحادثة"
+  },
+  "app.settings.game-options.category.controls.description": {
+    "message": "الماوس والحركة وربطات المفاتيح"
+  },
+  "app.settings.game-options.category.controls.label": {
+    "message": "أدوات التحكم"
+  },
+  "app.settings.game-options.category.custom.description": {
+    "message": "إعدادات أضافتها المودات"
+  },
+  "app.settings.game-options.category.custom.label": {
+    "message": "إعدادات مخصصة"
+  },
+  "app.settings.game-options.category.language.description": {
+    "message": "لغة اللعبة"
+  },
+  "app.settings.game-options.category.language.label": {
+    "message": "اللغة"
+  },
+  "app.settings.game-options.category.music-and-sound.description": {
+    "message": "تفضيلات مستوى الصوت والصوت"
+  },
+  "app.settings.game-options.category.music-and-sound.label": {
+    "message": "الموسيقى والصوت"
+  },
+  "app.settings.game-options.category.online.description": {
+    "message": "تفضيلات أونلاين و Realms"
+  },
+  "app.settings.game-options.category.online.label": {
+    "message": "أونلاين"
+  },
+  "app.settings.game-options.category.skin-customization.description": {
+    "message": "طبقات السكين واليد الرئيسية"
+  },
+  "app.settings.game-options.category.skin-customization.label": {
+    "message": "تخصيص السكين"
+  },
+  "app.settings.game-options.category.video.description": {
+    "message": "إعدادات الكاميرا والعرض"
+  },
+  "app.settings.game-options.category.video.label": {
+    "message": "الفيديو"
+  },
+  "app.settings.game-options.choice.all": {
+    "message": "الكل"
+  },
+  "app.settings.game-options.choice.balanced": {
+    "message": "متوازن"
+  },
+  "app.settings.game-options.choice.by-player": {
+    "message": "حسب اللاعب"
+  },
+  "app.settings.game-options.choice.chat": {
+    "message": "المحادثة"
+  },
+  "app.settings.game-options.choice.commands-only": {
+    "message": "الأوامر فقط"
+  },
+  "app.settings.game-options.choice.constant": {
+    "message": "ثابت"
+  },
+  "app.settings.game-options.choice.crosshair": {
+    "message": "نقطة التصويب"
+  },
+  "app.settings.game-options.choice.custom": {
+    "message": "مخصص"
+  },
+  "app.settings.game-options.choice.decreased": {
+    "message": "مخفّض"
+  },
+  "app.settings.game-options.choice.default": {
+    "message": "الافتراضي"
+  },
+  "app.settings.game-options.choice.fabulous": {
+    "message": "مبهِر"
+  },
+  "app.settings.game-options.choice.fancy": {
+    "message": "أنيق"
+  },
+  "app.settings.game-options.choice.far": {
+    "message": "بعيد"
+  },
+  "app.settings.game-options.choice.fast": {
+    "message": "سريع"
+  },
+  "app.settings.game-options.choice.frequent": {
+    "message": "متكرر"
+  },
+  "app.settings.game-options.choice.hidden": {
+    "message": "مخفي"
+  },
+  "app.settings.game-options.choice.hotbar": {
+    "message": "شريط الأدوات"
+  },
+  "app.settings.game-options.choice.left": {
+    "message": "اليسار"
+  },
+  "app.settings.game-options.choice.limited": {
+    "message": "محدود"
+  },
+  "app.settings.game-options.choice.max-fps": {
+    "message": "أقصى FPS"
+  },
+  "app.settings.game-options.choice.maximum": {
+    "message": "الأقصى"
+  },
+  "app.settings.game-options.choice.minimal": {
+    "message": "الأدنى"
+  },
+  "app.settings.game-options.choice.minimum": {
+    "message": "الحد الأدنى"
+  },
+  "app.settings.game-options.choice.nearby": {
+    "message": "قريب"
+  },
+  "app.settings.game-options.choice.never": {
+    "message": "أبدًا"
+  },
+  "app.settings.game-options.choice.none": {
+    "message": "لا شيء"
+  },
+  "app.settings.game-options.choice.normal": {
+    "message": "عادي"
+  },
+  "app.settings.game-options.choice.off": {
+    "message": "مغلق"
+  },
+  "app.settings.game-options.choice.on": {
+    "message": "مفتوح"
+  },
+  "app.settings.game-options.choice.opengl": {
+    "message": "OpenGL"
+  },
+  "app.settings.game-options.choice.pause": {
+    "message": "قائمة الإيقاف"
+  },
+  "app.settings.game-options.choice.pause-and-toast": {
+    "message": "قائمة الإيقاف والإشعارات"
+  },
+  "app.settings.game-options.choice.power-saver": {
+    "message": "توفير الطاقة"
+  },
+  "app.settings.game-options.choice.right": {
+    "message": "اليمين"
+  },
+  "app.settings.game-options.choice.short": {
+    "message": "قصير"
+  },
+  "app.settings.game-options.choice.shown": {
+    "message": "ظاهر"
+  },
+  "app.settings.game-options.choice.system": {
+    "message": "النظام"
+  },
+  "app.settings.game-options.choice.tiny": {
+    "message": "صغير جدًا"
+  },
+  "app.settings.game-options.choice.vulkan": {
+    "message": "Vulkan"
+  },
+  "app.settings.game-options.choice.when-minimized": {
+    "message": "عند التصغير"
+  },
+  "app.settings.game-options.choice.while-afk": {
+    "message": "أثناء AFK"
+  },
+  "app.settings.game-options.compatibility.none": {
+    "message": "بعض نسخك لا يمكنها استخدام هذا الإعداد"
+  },
+  "app.settings.game-options.compatibility.reason.launcher-controlled": {
+    "message": "هذا الإعداد تديره إعدادات التشغيل في Panda Minecraft Launcher."
+  },
+  "app.settings.game-options.custom-value.placeholder": {
+    "message": "أدخل قيمة"
+  },
+  "app.settings.game-options.keybind.assigned-status": {
+    "message": "{setting} مرتبط الآن بـ {binding}."
+  },
+  "app.settings.game-options.keybind.cancelled-status": {
+    "message": "أُلغي تغيير ربط المفتاح."
+  },
+  "app.settings.game-options.keybind.change": {
+    "message": "{setting}: {binding}. فعّل لتغيير الربط."
+  },
+  "app.settings.game-options.keybind.choose": {
+    "message": "اختر مفتاحًا"
+  },
+  "app.settings.game-options.keybind.conflict-description": {
+    "message": "هذا مستخدم بالفعل بواسطة {settings}."
+  },
+  "app.settings.game-options.keybind.key.arrow-down": {
+    "message": "Down Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-left": {
+    "message": "Left Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-right": {
+    "message": "Right Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-up": {
+    "message": "Up Arrow"
+  },
+  "app.settings.game-options.keybind.key.backspace": {
+    "message": "Backspace"
+  },
+  "app.settings.game-options.keybind.key.caps-lock": {
+    "message": "Caps Lock"
+  },
+  "app.settings.game-options.keybind.key.delete": {
+    "message": "Delete"
+  },
+  "app.settings.game-options.keybind.key.end": {
+    "message": "End"
+  },
+  "app.settings.game-options.keybind.key.enter": {
+    "message": "Enter"
+  },
+  "app.settings.game-options.keybind.key.escape": {
+    "message": "Escape"
+  },
+  "app.settings.game-options.keybind.key.home": {
+    "message": "Home"
+  },
+  "app.settings.game-options.keybind.key.insert": {
+    "message": "Insert"
+  },
+  "app.settings.game-options.keybind.key.keypad-key": {
+    "message": "Numpad {key}"
+  },
+  "app.settings.game-options.keybind.key.left-alt": {
+    "message": "Left Alt"
+  },
+  "app.settings.game-options.keybind.key.left-command": {
+    "message": "Left Command"
+  },
+  "app.settings.game-options.keybind.key.left-control": {
+    "message": "Left Ctrl"
+  },
+  "app.settings.game-options.keybind.key.left-shift": {
+    "message": "Left Shift"
+  },
+  "app.settings.game-options.keybind.key.left-super": {
+    "message": "Left Super"
+  },
+  "app.settings.game-options.keybind.key.menu": {
+    "message": "Menu"
+  },
+  "app.settings.game-options.keybind.key.num-lock": {
+    "message": "Num Lock"
+  },
+  "app.settings.game-options.keybind.key.page-down": {
+    "message": "Page Down"
+  },
+  "app.settings.game-options.keybind.key.page-up": {
+    "message": "Page Up"
+  },
+  "app.settings.game-options.keybind.key.pause": {
+    "message": "Pause"
+  },
+  "app.settings.game-options.keybind.key.print-screen": {
+    "message": "Print Screen"
+  },
+  "app.settings.game-options.keybind.key.right-alt": {
+    "message": "Right Alt"
+  },
+  "app.settings.game-options.keybind.key.right-command": {
+    "message": "Right Command"
+  },
+  "app.settings.game-options.keybind.key.right-control": {
+    "message": "Right Ctrl"
+  },
+  "app.settings.game-options.keybind.key.right-shift": {
+    "message": "Right Shift"
+  },
+  "app.settings.game-options.keybind.key.right-super": {
+    "message": "Right Super"
+  },
+  "app.settings.game-options.keybind.key.scroll-lock": {
+    "message": "Scroll Lock"
+  },
+  "app.settings.game-options.keybind.key.space": {
+    "message": "Space"
+  },
+  "app.settings.game-options.keybind.key.tab": {
+    "message": "Tab"
+  },
+  "app.settings.game-options.keybind.key.unbound": {
+    "message": "غير مربوط"
+  },
+  "app.settings.game-options.keybind.key.unknown": {
+    "message": "مفتاح غير معروف"
+  },
+  "app.settings.game-options.keybind.listen": {
+    "message": "اضغط مفتاحًا…"
+  },
+  "app.settings.game-options.keybind.listening-status": {
+    "message": "في انتظار مفتاح أو زر ماوس. اضغط Escape لمسح الربط."
+  },
+  "app.settings.game-options.keybind.mixed": {
+    "message": "مختلفة بين النسخ"
+  },
+  "app.settings.game-options.keybind.modifier.alt": {
+    "message": "Alt"
+  },
+  "app.settings.game-options.keybind.modifier.command": {
+    "message": "Command"
+  },
+  "app.settings.game-options.keybind.modifier.control": {
+    "message": "Ctrl"
+  },
+  "app.settings.game-options.keybind.modifier.shift": {
+    "message": "Shift"
+  },
+  "app.settings.game-options.keybind.modifier.super": {
+    "message": "Super"
+  },
+  "app.settings.game-options.keybind.mouse.button": {
+    "message": "Mouse {button}"
+  },
+  "app.settings.game-options.keybind.mouse.left": {
+    "message": "Left Mouse"
+  },
+  "app.settings.game-options.keybind.mouse.middle": {
+    "message": "Middle Mouse"
+  },
+  "app.settings.game-options.keybind.mouse.right": {
+    "message": "Right Mouse"
+  },
+  "app.settings.game-options.keybind.recording-label": {
+    "message": "{setting}: في انتظار مفتاح أو زر ماوس. اضغط Escape لمسح الربط."
+  },
+  "app.settings.game-options.keybind.scancode": {
+    "message": "Scancode {code}"
+  },
+  "app.settings.game-options.keybind.unsupported-status": {
+    "message": "لا يمكن لـ Minecraft استخدام هذا الإدخال. اضغط مفتاحًا آخر."
+  },
+  "app.settings.game-options.setting.advanced-opengl.label": {
+    "message": "OpenGL متقدم"
+  },
+  "app.settings.game-options.setting.allow-cursor-changes.label": {
+    "message": "السماح بتغيير المؤشر"
+  },
+  "app.settings.game-options.setting.allow-server-listing.description": {
+    "message": "السماح بظهور اسم اللاعب في قوائم السيرفرات."
+  },
+  "app.settings.game-options.setting.allow-server-listing.label": {
+    "message": "قوائم السيرفرات"
+  },
+  "app.settings.game-options.setting.alternate-blocks.label": {
+    "message": "كتل بديلة"
+  },
+  "app.settings.game-options.setting.ambient-occlusion.label": {
+    "message": "إضاءة ناعمة"
+  },
+  "app.settings.game-options.setting.ambient-volume.label": {
+    "message": "محيط/بيئة"
+  },
+  "app.settings.game-options.setting.anaglyph-3d.label": {
+    "message": "مجسم ثلاثي الأبعاد"
+  },
+  "app.settings.game-options.setting.anisotropic-filtering.label": {
+    "message": "تصفية متباينة الخواص"
+  },
+  "app.settings.game-options.setting.anisotropy.label": {
+    "message": "تباين الخواص"
+  },
+  "app.settings.game-options.setting.attack-indicator.label": {
+    "message": "مؤشر الهجوم"
+  },
+  "app.settings.game-options.setting.auto-jump.description": {
+    "message": "القفز تلقائيًا فوق العوائق التي يبلغ ارتفاعها كتلة واحدة."
+  },
+  "app.settings.game-options.setting.auto-jump.label": {
+    "message": "قفز تلقائي"
+  },
+  "app.settings.game-options.setting.auto-suggestions.label": {
+    "message": "اقتراحات الأوامر"
+  },
+  "app.settings.game-options.setting.autosave-indicator.label": {
+    "message": "مؤشر الحفظ التلقائي"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.description": {
+    "message": "المسافة التي تتدرّج فيها ألوان البيوم."
+  },
+  "app.settings.game-options.setting.biome-blend-radius.label": {
+    "message": "مزج البيوم"
+  },
+  "app.settings.game-options.setting.blocks-volume.label": {
+    "message": "الكتل"
+  },
+  "app.settings.game-options.setting.brightness.label": {
+    "message": "السطوع"
+  },
+  "app.settings.game-options.setting.cape.description": {
+    "message": "إظهار عباءة اللاعب، بما في ذلك نسيج الإليترا."
+  },
+  "app.settings.game-options.setting.cape.label": {
+    "message": "العباءة"
+  },
+  "app.settings.game-options.setting.chat-background-only.label": {
+    "message": "خلفية المحادثة فقط"
+  },
+  "app.settings.game-options.setting.chat-colors.label": {
+    "message": "ألوان المحادثة"
+  },
+  "app.settings.game-options.setting.chat-delay.label": {
+    "message": "تأخير المحادثة"
+  },
+  "app.settings.game-options.setting.chat-line-spacing.label": {
+    "message": "تباعد أسطر المحادثة"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.description": {
+    "message": "السؤال قبل فتح الروابط من المحادثة."
+  },
+  "app.settings.game-options.setting.chat-links-prompt.label": {
+    "message": "سؤال عند الروابط"
+  },
+  "app.settings.game-options.setting.chat-links.description": {
+    "message": "السماح بفتح روابط الويب في المحادثة."
+  },
+  "app.settings.game-options.setting.chat-links.label": {
+    "message": "روابط الويب"
+  },
+  "app.settings.game-options.setting.chat-opacity.description": {
+    "message": "شفافية نص المحادثة."
+  },
+  "app.settings.game-options.setting.chat-opacity.label": {
+    "message": "شفافية المحادثة"
+  },
+  "app.settings.game-options.setting.chat-preview.label": {
+    "message": "معاينة المحادثة"
+  },
+  "app.settings.game-options.setting.chat-scale.label": {
+    "message": "حجم المحادثة"
+  },
+  "app.settings.game-options.setting.chat-visibility.label": {
+    "message": "ظهور المحادثة"
+  },
+  "app.settings.game-options.setting.chat-width.label": {
+    "message": "عرض المحادثة"
+  },
+  "app.settings.game-options.setting.chunk-fade-time.label": {
+    "message": "زمن تلاشي القطعة"
+  },
+  "app.settings.game-options.setting.cloud-range.label": {
+    "message": "مسافة السحاب"
+  },
+  "app.settings.game-options.setting.clouds.label": {
+    "message": "السحاب"
+  },
+  "app.settings.game-options.setting.ctrl-click-right-click.label": {
+    "message": "Ctrl + نقرة بدل النقرة اليمنى"
+  },
+  "app.settings.game-options.setting.cutout-leaves.label": {
+    "message": "أوراق مقطوعة"
+  },
+  "app.settings.game-options.setting.damage-tilt.label": {
+    "message": "ميلان عند التعرض للضرر"
+  },
+  "app.settings.game-options.setting.dark-splash.description": {
+    "message": "تغيير شاشة تحميل Mojang Studios من الأحمر إلى الأسود."
+  },
+  "app.settings.game-options.setting.dark-splash.label": {
+    "message": "شعار أحادي اللون"
+  },
+  "app.settings.game-options.setting.darkness-pulsing.label": {
+    "message": "نبض الظلام"
+  },
+  "app.settings.game-options.setting.debug-gui-scale.label": {
+    "message": "حجم واجهة التشخيص"
+  },
+  "app.settings.game-options.setting.directional-audio.label": {
+    "message": "صوت اتجاهي"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.description": {
+    "message": "اعتبار كل حركة لعجلة الفأرة خطوة تمرير واحدة."
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.label": {
+    "message": "تمرير متقطع"
+  },
+  "app.settings.game-options.setting.entity-distance.label": {
+    "message": "مسافة الكيانات"
+  },
+  "app.settings.game-options.setting.entity-shadows.label": {
+    "message": "ظلال الكيانات"
+  },
+  "app.settings.game-options.setting.exclusive-fullscreen.label": {
+    "message": "ملء شاشة حصري"
+  },
+  "app.settings.game-options.setting.extra-telemetry.label": {
+    "message": "قياس اختياري"
+  },
+  "app.settings.game-options.setting.focused-chat-height.label": {
+    "message": "ارتفاع المحادثة المركّزة"
+  },
+  "app.settings.game-options.setting.force-unicode-font.label": {
+    "message": "فرض خط Unicode"
+  },
+  "app.settings.game-options.setting.fov-effects.label": {
+    "message": "تأثيرات مجال الرؤية"
+  },
+  "app.settings.game-options.setting.fov.label": {
+    "message": "مجال الرؤية"
+  },
+  "app.settings.game-options.setting.fullscreen.label": {
+    "message": "ملء الشاشة"
+  },
+  "app.settings.game-options.setting.glint-speed.label": {
+    "message": "سرعة اللمعان"
+  },
+  "app.settings.game-options.setting.glint-strength.label": {
+    "message": "شدة اللمعان"
+  },
+  "app.settings.game-options.setting.graphics-backend.label": {
+    "message": "محرك الرسوميات"
+  },
+  "app.settings.game-options.setting.graphics.description": {
+    "message": "يتحكم في جودة الشكل والأداء."
+  },
+  "app.settings.game-options.setting.graphics.label": {
+    "message": "الجرافيك"
+  },
+  "app.settings.game-options.setting.gui-scale.description": {
+    "message": "حجم واجهة اللعبة و HUD."
+  },
+  "app.settings.game-options.setting.gui-scale.label": {
+    "message": "حجم الواجهة"
+  },
+  "app.settings.game-options.setting.hat.description": {
+    "message": "إظهار طبقة سكين القبعة."
+  },
+  "app.settings.game-options.setting.hat.label": {
+    "message": "قبعة"
+  },
+  "app.settings.game-options.setting.held-item-tooltips.label": {
+    "message": "تلميحات العناصر الممسوكة"
+  },
+  "app.settings.game-options.setting.hide-lightning-flashes.label": {
+    "message": "إخفاء وميض البرق"
+  },
+  "app.settings.game-options.setting.hide-matched-names.label": {
+    "message": "إخفاء الأسماء المطابقة"
+  },
+  "app.settings.game-options.setting.hide-server-address.label": {
+    "message": "إخفاء عنوان السيرفر"
+  },
+  "app.settings.game-options.setting.hide-splash-texts.label": {
+    "message": "إخفاء نصوص التحميل"
+  },
+  "app.settings.game-options.setting.high-contrast-outline.label": {
+    "message": "حدود كتل عالية التباين"
+  },
+  "app.settings.game-options.setting.high-contrast.description": {
+    "message": "زيادة تباين عناصر الواجهة."
+  },
+  "app.settings.game-options.setting.high-contrast.label": {
+    "message": "تباين عالٍ"
+  },
+  "app.settings.game-options.setting.hostile-volume.label": {
+    "message": "المخلوقات العدائية"
+  },
+  "app.settings.game-options.setting.improved-transparency.label": {
+    "message": "شفافية محسّنة"
+  },
+  "app.settings.game-options.setting.in-game-notifications.label": {
+    "message": "إشعارات داخل اللعبة"
+  },
+  "app.settings.game-options.setting.inactivity-framerate-limit.label": {
+    "message": "معدل إطارات مخفّض"
+  },
+  "app.settings.game-options.setting.invert-horizontal-mouse.label": {
+    "message": "عكس حركة الماوس الأفقية"
+  },
+  "app.settings.game-options.setting.invert-mouse.description": {
+    "message": "عكس حركة الماوس الرأسية."
+  },
+  "app.settings.game-options.setting.invert-mouse.label": {
+    "message": "عكس حركة الماوس"
+  },
+  "app.settings.game-options.setting.jacket.description": {
+    "message": "إظهار طبقة سكين الجاكت."
+  },
+  "app.settings.game-options.setting.jacket.label": {
+    "message": "جاكت"
+  },
+  "app.settings.game-options.setting.japanese-glyph-variants.label": {
+    "message": "متغيرات الحروف اليابانية"
+  },
+  "app.settings.game-options.setting.key-advancements.label": {
+    "message": "الإنجازات"
+  },
+  "app.settings.game-options.setting.key-attack.label": {
+    "message": "هجوم"
+  },
+  "app.settings.game-options.setting.key-back.label": {
+    "message": "تحرك للخلف"
+  },
+  "app.settings.game-options.setting.key-chat.label": {
+    "message": "فتح المحادثة"
+  },
+  "app.settings.game-options.setting.key-command.label": {
+    "message": "أمر"
+  },
+  "app.settings.game-options.setting.key-debug-advanced-tooltips.label": {
+    "message": "إظهار تلميحات متقدمة"
+  },
+  "app.settings.game-options.setting.key-debug-chunk-borders.label": {
+    "message": "إظهار حدود القطع"
+  },
+  "app.settings.game-options.setting.key-debug-clear-chat.label": {
+    "message": "مسح المحادثة"
+  },
+  "app.settings.game-options.setting.key-debug-copy-location.label": {
+    "message": "نسخ الموقع"
+  },
+  "app.settings.game-options.setting.key-debug-copy-recreate-command.label": {
+    "message": "نسخ أمر إعادة الإنشاء"
+  },
+  "app.settings.game-options.setting.key-debug-crash.label": {
+    "message": "إحداث تعطل تشخيصي"
+  },
+  "app.settings.game-options.setting.key-debug-dump-dynamic-textures.label": {
+    "message": "تفريغ النسيج الديناميكي"
+  },
+  "app.settings.game-options.setting.key-debug-dump-version.label": {
+    "message": "تفريغ الإصدار"
+  },
+  "app.settings.game-options.setting.key-debug-focus-pause.label": {
+    "message": "إيقاف عند فقدان التركيز"
+  },
+  "app.settings.game-options.setting.key-debug-fps-charts.label": {
+    "message": "مخططات FPS"
+  },
+  "app.settings.game-options.setting.key-debug-hitboxes.label": {
+    "message": "إظهار صناديق الإصابة"
+  },
+  "app.settings.game-options.setting.key-debug-improved-transparency.label": {
+    "message": "عرض شفافية محسّن"
+  },
+  "app.settings.game-options.setting.key-debug-lightmap-texture.label": {
+    "message": "نسيج خريطة الإضاءة"
+  },
+  "app.settings.game-options.setting.key-debug-modifier.label": {
+    "message": "مفتاح التشخيص"
+  },
+  "app.settings.game-options.setting.key-debug-network-charts.label": {
+    "message": "مخططات الشبكة"
+  },
+  "app.settings.game-options.setting.key-debug-options.label": {
+    "message": "خيارات التشخيص"
+  },
+  "app.settings.game-options.setting.key-debug-overlay.label": {
+    "message": "طبقة التشخيص"
+  },
+  "app.settings.game-options.setting.key-debug-profiling-chart.label": {
+    "message": "مخطط قياس الأداء"
+  },
+  "app.settings.game-options.setting.key-debug-profiling.label": {
+    "message": "بدء قياس الأداء"
+  },
+  "app.settings.game-options.setting.key-debug-reload-chunks.label": {
+    "message": "إعادة تحميل القطع"
+  },
+  "app.settings.game-options.setting.key-debug-reload-resource-packs.label": {
+    "message": "إعادة تحميل حزم الموارد"
+  },
+  "app.settings.game-options.setting.key-debug-spectate.label": {
+    "message": "مراقبة كيان"
+  },
+  "app.settings.game-options.setting.key-debug-switch-game-mode.label": {
+    "message": "تبديل نمط اللعبة"
+  },
+  "app.settings.game-options.setting.key-drop.label": {
+    "message": "إسقاط عنصر"
+  },
+  "app.settings.game-options.setting.key-forward.label": {
+    "message": "تحرك للأمام"
+  },
+  "app.settings.game-options.setting.key-friends.label": {
+    "message": "الأصدقاء"
+  },
+  "app.settings.game-options.setting.key-fullscreen.label": {
+    "message": "تبديل ملء الشاشة"
+  },
+  "app.settings.game-options.setting.key-hotbar-1.label": {
+    "message": "شريط الأدوات 1"
+  },
+  "app.settings.game-options.setting.key-hotbar-2.label": {
+    "message": "شريط الأدوات 2"
+  },
+  "app.settings.game-options.setting.key-hotbar-3.label": {
+    "message": "شريط الأدوات 3"
+  },
+  "app.settings.game-options.setting.key-hotbar-4.label": {
+    "message": "شريط الأدوات 4"
+  },
+  "app.settings.game-options.setting.key-hotbar-5.label": {
+    "message": "شريط الأدوات 5"
+  },
+  "app.settings.game-options.setting.key-hotbar-6.label": {
+    "message": "شريط الأدوات 6"
+  },
+  "app.settings.game-options.setting.key-hotbar-7.label": {
+    "message": "شريط الأدوات 7"
+  },
+  "app.settings.game-options.setting.key-hotbar-8.label": {
+    "message": "شريط الأدوات 8"
+  },
+  "app.settings.game-options.setting.key-hotbar-9.label": {
+    "message": "شريط الأدوات 9"
+  },
+  "app.settings.game-options.setting.key-inventory.label": {
+    "message": "الحقيبة"
+  },
+  "app.settings.game-options.setting.key-jump.label": {
+    "message": "قفز"
+  },
+  "app.settings.game-options.setting.key-left.label": {
+    "message": "تحرك لليسار"
+  },
+  "app.settings.game-options.setting.key-load-toolbar.label": {
+    "message": "تحميل شريط الأدوات"
+  },
+  "app.settings.game-options.setting.key-perspective.label": {
+    "message": "تغيير زاوية الرؤية"
+  },
+  "app.settings.game-options.setting.key-pick-item.label": {
+    "message": "التقاط كتلة"
+  },
+  "app.settings.game-options.setting.key-player-list.label": {
+    "message": "قائمة اللاعبين"
+  },
+  "app.settings.game-options.setting.key-quick-actions.label": {
+    "message": "إجراءات سريعة"
+  },
+  "app.settings.game-options.setting.key-right.label": {
+    "message": "تحرك لليمين"
+  },
+  "app.settings.game-options.setting.key-save-toolbar.label": {
+    "message": "حفظ شريط الأدوات"
+  },
+  "app.settings.game-options.setting.key-screenshot.label": {
+    "message": "لقطة شاشة"
+  },
+  "app.settings.game-options.setting.key-smooth-camera.label": {
+    "message": "تبديل الكاميرا السينمائية"
+  },
+  "app.settings.game-options.setting.key-sneak.label": {
+    "message": "تسلل"
+  },
+  "app.settings.game-options.setting.key-social-interactions.label": {
+    "message": "التفاعلات الاجتماعية"
+  },
+  "app.settings.game-options.setting.key-spectator-hotbar.label": {
+    "message": "شريط أدوات المتفرج"
+  },
+  "app.settings.game-options.setting.key-spectator-outlines.label": {
+    "message": "إبراز المتفرجين"
+  },
+  "app.settings.game-options.setting.key-sprint.label": {
+    "message": "ركض"
+  },
+  "app.settings.game-options.setting.key-swap-offhand.label": {
+    "message": "تبديل اليد الأخرى"
+  },
+  "app.settings.game-options.setting.key-toggle-gui.label": {
+    "message": "تبديل HUD"
+  },
+  "app.settings.game-options.setting.key-toggle-spectator-shader.label": {
+    "message": "تبديل شيدر المتفرج"
+  },
+  "app.settings.game-options.setting.key-use.label": {
+    "message": "استخدام عنصر"
+  },
+  "app.settings.game-options.setting.language.label": {
+    "message": "اللغة"
+  },
+  "app.settings.game-options.setting.left-pants-leg.label": {
+    "message": "ساق البنطال اليسرى"
+  },
+  "app.settings.game-options.setting.left-sleeve.label": {
+    "message": "الكم الأيسر"
+  },
+  "app.settings.game-options.setting.legacy-framerate-limit.label": {
+    "message": "حد معدل الإطارات"
+  },
+  "app.settings.game-options.setting.legacy-view-distance.label": {
+    "message": "مسافة الرؤية"
+  },
+  "app.settings.game-options.setting.mac-fullscreen-menu.label": {
+    "message": "إظهار قائمة macOS في ملء الشاشة"
+  },
+  "app.settings.game-options.setting.main-hand.description": {
+    "message": "اختر ما إذا كانت اليد الرئيسية هي اليسرى أم اليمنى."
+  },
+  "app.settings.game-options.setting.main-hand.label": {
+    "message": "اليد الرئيسية"
+  },
+  "app.settings.game-options.setting.master-volume.label": {
+    "message": "الصوت الرئيسي"
+  },
+  "app.settings.game-options.setting.max-framerate.label": {
+    "message": "أقصى معدل إطارات"
+  },
+  "app.settings.game-options.setting.menu-background-blur.label": {
+    "message": "تمويه خلفية القائمة"
+  },
+  "app.settings.game-options.setting.mipmap-levels.description": {
+    "message": "تنعيم القوام على البُعد."
+  },
+  "app.settings.game-options.setting.mipmap-levels.label": {
+    "message": "مستويات Mipmap"
+  },
+  "app.settings.game-options.setting.mouse-wheel-sensitivity.label": {
+    "message": "حساسية عجلة الماوس"
+  },
+  "app.settings.game-options.setting.music-frequency.label": {
+    "message": "تكرار الموسيقى"
+  },
+  "app.settings.game-options.setting.music-toast.description": {
+    "message": "اختر ما إذا كانت أسماء الموسيقى تظهر في قائمة الإيقاف كإشعارات."
+  },
+  "app.settings.game-options.setting.music-toast.label": {
+    "message": "إشعار الموسيقى"
+  },
+  "app.settings.game-options.setting.music-volume.label": {
+    "message": "الموسيقى"
+  },
+  "app.settings.game-options.setting.narrator-hotkey.label": {
+    "message": "اختصار الراوي"
+  },
+  "app.settings.game-options.setting.narrator.description": {
+    "message": "اختر ما يقرأه الراوي."
+  },
+  "app.settings.game-options.setting.narrator.label": {
+    "message": "الراوي"
+  },
+  "app.settings.game-options.setting.neutral-volume.label": {
+    "message": "المخلوقات الودية"
+  },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "مدة بقاء إشعارات التنبيه ظاهرة."
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "مدة الإشعار"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "تبويب عناصر المشغّل"
+  },
+  "app.settings.game-options.setting.panorama-speed.label": {
+    "message": "سرعة البانوراما"
+  },
+  "app.settings.game-options.setting.particles.label": {
+    "message": "الجسيمات"
+  },
+  "app.settings.game-options.setting.players-volume.label": {
+    "message": "اللاعبون"
+  },
+  "app.settings.game-options.setting.prioritize-chunk-updates.label": {
+    "message": "إعطاء أولوية لتحديث القطع"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "اختصارات الخروج"
+  },
+  "app.settings.game-options.setting.raw-mouse-input.label": {
+    "message": "إدخال الماوس الخام"
+  },
+  "app.settings.game-options.setting.realms-notifications.label": {
+    "message": "إشعارات Realms"
+  },
+  "app.settings.game-options.setting.record-volume.label": {
+    "message": "جوك بوكس/كتل النوتة"
+  },
+  "app.settings.game-options.setting.reduced-debug-info.label": {
+    "message": "معلومات تشخيص مختصرة"
+  },
+  "app.settings.game-options.setting.render-distance.label": {
+    "message": "مسافة العرض"
+  },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "ساق البنطال اليمنى"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "الكم الأيمن"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "الدوران مع العربة"
+  },
+  "app.settings.game-options.setting.save-chat-drafts.label": {
+    "message": "حفظ مسودات المحادثة"
+  },
+  "app.settings.game-options.setting.screen-effects.label": {
+    "message": "تأثيرات الشاشة"
+  },
+  "app.settings.game-options.setting.secure-chat-only.label": {
+    "message": "إظهار المحادثة الآمنة فقط"
+  },
+  "app.settings.game-options.setting.sensitivity.label": {
+    "message": "حساسية الماوس"
+  },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "قوام السيرفر"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "مشاركة الحضور"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "مدى بُعد تحديث الكيانات وتحديث الكتل والسوائل."
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "مسافة المحاكاة"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "المتتبّع"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "نافذة الركض"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "إظهار ترجمة الأصوات التي تُشغّل في اللعبة."
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "الترجمة"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "شفافية خلفية النص"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "تصفية القوام"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "تبديل الهجوم"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "اضغط مرة واحدة للبقاء في حالة انحناء."
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "تبديل الانحناء"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "اضغط مرة واحدة للبقاء في حالة ركض."
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "تبديل الركض"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "تبديل الاستخدام"
+  },
+  "app.settings.game-options.setting.touchscreen.label": {
+    "message": "وضع شاشة اللمس"
+  },
+  "app.settings.game-options.setting.ui-volume.label": {
+    "message": "الواجهة"
+  },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "ارتفاع المحادثة غير المركّزة"
+  },
+  "app.settings.game-options.setting.use-vbo.label": {
+    "message": "استخدام VBOs"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "إضافة حركة اهتزاز للكاميرا أثناء المشي."
+  },
+  "app.settings.game-options.setting.view-bobbing.label": {
+    "message": "اهتزاز الرؤية"
+  },
+  "app.settings.game-options.setting.vignette.label": {
+    "message": "تعتيق الأطراف"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "الصوت والكلام"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "تحديد معدل الإطارات بمعدل تحديث الشاشة لتجنب تمزق الصورة."
+  },
+  "app.settings.game-options.setting.vsync.label": {
+    "message": "VSync"
+  },
+  "app.settings.game-options.setting.weather-radius.label": {
+    "message": "نطاق الطقس"
+  },
+  "app.settings.game-options.setting.weather-volume.label": {
+    "message": "الطقس"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "تغيّر هذا الإعداد في مكان آخر. تحقّق منه وحاول مجددًا."
+  },
+  "app.settings.game-options.validation.invalid-value": {
+    "message": "اختر قيمة صحيحة."
+  },
+  "app.settings.game-options.validation.missing-value": {
+    "message": "اختر قيمة أولًا."
+  },
+  "app.settings.game-options.validation.no-compatible-instances": {
+    "message": "بعض نسخك لا يمكنها استخدام هذا الإعداد"
+  },
+  "app.settings.java-installations.location.title": {
+    "message": "موقع Java {version, number}"
+  },
+  "app.settings.operating-system.macos": {
+    "message": "macOS"
+  },
+  "app.settings.privacy.no-data-collection": {
+    "message": "لا نجمع أي بيانات، ولا نملك سيرفرًا يمكنه جمعها."
+  },
+  "app.settings.resource-management.always-show-copy-details.description": {
+    "message": "إظهار إجراء فحص التفاصيل أثناء انتظار التثبيت أو أثناء تنفيذه. يظل متاحًا دائمًا للتثبيتات الفاشلة أو المتوقفة."
+  },
+  "app.settings.resource-management.always-show-copy-details.title": {
+    "message": "إظهار فحص التفاصيل دائمًا"
+  },
+  "app.settings.resource-management.app-cache.confirm.description": {
+    "message": "قد يحمل التطبيق بشكل أبطأ حتى يُعاد بناء الذاكرة المؤقتة."
+  },
+  "app.settings.resource-management.app-cache.description": {
+    "message": "مسح البيانات المخزنة مؤقتًا وتنزيلها مجددًا من Panda Minecraft Launcher. قد يحمل التطبيق بشكل أبطأ حتى تُعاد بناء الذاكرة المؤقتة."
+  },
+  "app.settings.resource-management.app-cache.title": {
+    "message": "ذاكرة التطبيق المؤقتة"
+  },
+  "app.settings.resource-management.app-database-backups.description": {
+    "message": "تُحفظ نسخ احتياطية من بيانات التطبيق المهمة هنا لاستعادتها عند الحاجة."
+  },
+  "app.settings.resource-management.app-database-backups.open-folder": {
+    "message": "فتح مجلد النسخ الاحتياطية"
+  },
+  "app.settings.resource-management.app-database-backups.title": {
+    "message": "نسخ قاعدة بيانات التطبيق الاحتياطية"
+  },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "إلغاء النقل"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "تغيير المجلد"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "العودة إلى الافتراضي"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "المكان الذي يخزّن فيه Panda Minecraft Launcher النسخ والملفات الأخرى."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "لن تتمكن من استخدام Panda Minecraft Launcher أثناء نقل بياناتك. قد يستغرق ذلك بعض الوقت."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "ستُنقل كل ملفاتك"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "اختر مجلدًا"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "الحالي"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "اختر مجلدًا بدل جذر القرص حتى لا تختلط ملفاتك بباقي محتواه."
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "تغيير مجلد التطبيق"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "أغلق كل النسخ قيد التشغيل قبل تغيير مجلد التطبيق."
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "خيارات نقل إضافية"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "نقل وإعادة تشغيل"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "نقل عند التشغيل التالي"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "لا يمكن أن يكون المجلد الجديد داخل مجلد التطبيق الحالي، ولا أن يحتوي عليه."
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "جديد"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "اختر مجلدًا جديدًا للتطبيق"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "خيارات مجلد إضافية"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "نقل وإعادة تشغيل الآن"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "فتح المجلد"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "فتح في مستكشف الملفات"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "فتح في Finder"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "تم نسخ مسار مجلد التطبيق إلى الحافظة."
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "تم نسخ المسار"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "فشل نسخ المسار"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "سيُنتقل مجلد التطبيق إلى {path} عند فتح Panda Minecraft Launcher التالي."
+  },
+  "app.settings.resource-management.app-directory.title": {
+    "message": "مجلد التطبيق"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "صدّر سجلات التطبيق وبيانات التشخيص إلى ملف ZIP لمشاركتها مع دعم Panda Minecraft Launcher."
+  },
+  "app.settings.resource-management.debug-info.export": {
+    "message": "تصدير معلومات التشخيص"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "تحتاج مساعدة؟ افتح بلاغ دعم."
+  },
+  "app.settings.resource-management.debug-info.title": {
+    "message": "معلومات التشخيص"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.description": {
+    "message": "عدد الملفات التي يمكن للتطبيق تنزيلها في وقت واحد. قلّل هذا إذا كانت التنزيلات غير موثوقة على اتصالك. يتطلب إعادة تشغيل التطبيق."
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.title": {
+    "message": "أقصى عدد تنزيلات متزامنة"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.description": {
+    "message": "عدد الملفات التي يمكن للتطبيق كتابتها على القرص في وقت واحد. قلّل هذا إذا كنت تواجه أخطاء إدخال/إخراج كثيرة. يتطلب إعادة تشغيل التطبيق."
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.title": {
+    "message": "أقصى عدد كتابات متزامنة"
+  },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "الاحتفاظ بمحتوى غير مستخدم بقدر هذا الحجم للاستخدام في التثبيتات القادمة. الاحتفاظ بالأكثر يوفّر وقت التنزيل."
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "الاحتفاظ بالتنزيلات غير المستخدمة"
+  },
+  "app.settings.resource-management.store.cache-limit.unit": {
+    "message": "GiB"
+  },
+  "app.settings.resource-management.store.calculating": {
+    "message": "جاري الحساب"
+  },
+  "app.settings.resource-management.store.clear": {
+    "message": "مسح غير المستخدم"
+  },
+  "app.settings.resource-management.store.clear.description": {
+    "message": "حذف المحتوى التنزّل غير المستخدم"
+  },
+  "app.settings.resource-management.store.cleared": {
+    "message": "تم تحرير {size} من مساحة القرص."
+  },
+  "app.settings.resource-management.store.clearing": {
+    "message": "جاري المسح…"
+  },
+  "app.settings.resource-management.store.description": {
+    "message": "وفّر المساحة بإعادة استخدام تثبيتات اللعبة والمودات والحزم بين نسخك."
+  },
+  "app.settings.resource-management.store.nothing-to-clear": {
+    "message": "لا يوجد محتوى غير مستخدم لمسحه."
+  },
+  "app.settings.resource-management.store.shared.label": {
+    "message": "مشترك"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "تخزين المحتوى"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} مخزنة"
+  },
+  "app.settings.resource-management.store.unique.label": {
+    "message": "فريد"
+  },
+  "app.settings.resource-management.store.unused.label": {
+    "message": "يتيم"
+  },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "إعدادات النسخ الافتراضية"
+  },
+  "app.settings.sidebar.label.system": {
+    "message": "النظام"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "اختر النسخة التي تريد نسخ سجل الأوامر منها. يُستخدم هذا السجل للمزامنة الأولى فقط، ويمكنك تعديله من أي نسخة بعد ذلك."
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "اختر مصدر سجل الأوامر"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "اختر النسخة التي تريد نسخ أشرطة الأدوات الإبداعية المحفوظة منها. تُستخدم هذه الأشرطة للمزامنة الأولى فقط، ويمكنك تعديلها من أي نسخة بعد ذلك."
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "اختر مصدر أشرطة الأدوات الإبداعية"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "اختر مصدر حزم البيانات"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "اختر النسخة التي تريد نسخ إعدادات اللعبة منها. تُستخدم هذه الإعدادات للمزامنة الأولى فقط، ويمكنك تعديلها من أي نسخة بعد ذلك."
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "اختر مصدر إعدادات اللعبة"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "لا يمكنك اختيار هذه النسخة كمصدر مزامنة"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "تعذّر تحميل مصادر المزامنة. حاول مجددًا."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "اختر النسخة التي تريد نسخ سيرفرات تعدد اللاعبين منها. تُستخدم هذه السيرفرات للمزامنة الأولى فقط، ويمكنك تعديلها من أي نسخة بعد ذلك."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "اختر مصدر سيرفرات تعدد اللاعبين"
+  },
+  "app.settings.synced-options.choose-sync-source.no-instances-found": {
+    "message": "لم يتم العثور على نسخ"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "اختر مصدر حزم الموارد"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "حاول مجددًا"
+  },
+  "app.settings.synced-options.choose-sync-source.search-placeholder": {
+    "message": "ابحث عن نسخة"
+  },
+  "app.settings.synced-options.choose-sync-source.sync": {
+    "message": "مزامنة"
+  },
+  "app.settings.synced-options.command-history": {
+    "message": "مزامنة سجل الأوامر"
+  },
+  "app.settings.synced-options.command-history.description": {
+    "message": "استخدام سجل أوامر واحد عبر كل نسخك."
+  },
+  "app.settings.synced-options.command-history.editor-title": {
+    "message": "تعديل سجل الأوامر"
+  },
+  "app.settings.synced-options.creative-hotbars": {
+    "message": "مزامنة أشرطة الأدوات الإبداعية المحفوظة"
+  },
+  "app.settings.synced-options.creative-hotbars.description": {
+    "message": "استخدام نفس أشرطة الأدوات الإبداعية المحفوظة في كل نسخك."
+  },
+  "app.settings.synced-options.data-packs": {
+    "message": "مزامنة حزم البيانات"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "استخدام نفس حزم البيانات عبر كل نسخك"
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "لم تزامن أي حزم بيانات بعد"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "أضف نسخة قبل تعديل البيانات المتزامنة."
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "اختر مصدر مزامنة قبل تعديل هذا الإعداد."
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "مزامنة خيارات اللعبة"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "تعديل إعدادات اللعبة"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "حمّلنا أحدث الإعدادات. راجع تغييراتك ثم احفظ مجددًا."
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "تغيّرت هذه الإعدادات في مكان آخر"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "ستظهر الإعدادات التي أضافتها المودات هنا بعد أن يعثر عليها Panda Minecraft Launcher في إحدى نسخك."
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "استخدام نفس خيارات اللعبة عبر كل نسخك."
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "إلغاء مزامنة الكل"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "فعّل مزامنة إعدادات اللعبة قبل اختيار الإعدادات الفردية."
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "لا توجد إعدادات تطابق بحثك أو فلترك."
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "مزامنة الكل"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "تعذّر تحميل إعدادات اللعبة."
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "جاري تحميل الإعدادات..."
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "لا توجد خيارات لتعديلها بعد"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "غير متزامن"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "إعادة المحاولة"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "حفظ الإعدادات"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "ابحث في الإعدادات..."
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "تُطبَّق الخيارات المتزامنة على كل نسخة وتتجاوز القيم الموجودة في المودباك."
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "مزامنة {setting} عبر النسخ"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "مزامنة إعدادات اللعبة"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "متزامن عبر النسخ"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "إعدادات اللعبة"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "لديك تغييرات غير محفوظة."
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "إيقاف مزامنة {setting} عبر النسخ"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "مختلفة بين النسخ"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "مغلق"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "مفتوح"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "اختر قيمة"
+  },
+  "app.settings.synced-options.multiplayer-servers": {
+    "message": "مزامنة سيرفرات تعدد اللاعبين"
+  },
+  "app.settings.synced-options.multiplayer-servers.address": {
+    "message": "عنوان السيرفر"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "نسخ العنوان"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
+  },
+  "app.settings.synced-options.multiplayer-servers.description": {
+    "message": "استخدام نفس سيرفرات تعدد اللاعبين عبر كل نسخك."
+  },
+  "app.settings.synced-options.multiplayer-servers.editor-title": {
+    "message": "تعديل السيرفرات المتزامنة"
+  },
+  "app.settings.synced-options.multiplayer-servers.empty": {
+    "message": "لا توجد سيرفرات أضافها المستخدم متزامنة حاليًا."
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "غير متصل"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "متصل"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "خيارات سيرفر إضافية"
+  },
+  "app.settings.synced-options.multiplayer-servers.name": {
+    "message": "اسم السيرفر"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "لا توجد سيرفرات متزامنة تطابق بحثك أو فلترك."
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "لم تزامن أي سيرفرات بعد"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "{count, number} متصل"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "ابحث في {count, number} {count, plural, one {synced server} other {synced servers}}..."
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "الحالة"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "فعّل المزامنة قبل تعديل الحزم المشتركة."
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "مزامنة حزم الموارد"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "استخدام نفس حزم الموارد عبر كل نسخك."
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "لم تزامن أي حزم موارد بعد"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "المظهر"
+  },
+  "app.settings.tabs.behavior": {
+    "message": "السلوك"
+  },
+  "app.settings.tabs.features": {
+    "message": "الميزات"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java والذاكرة"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "تثبيتات Java"
+  },
+  "app.settings.tabs.language": {
+    "message": "اللغة"
+  },
+  "app.settings.tabs.launch-hooks": {
+    "message": "أوامر التشغيل"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "الخصوصية"
+  },
+  "app.settings.tabs.resources": {
+    "message": "الموارد"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "المزامنة"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "استكشاف الأخطاء"
+  },
+  "app.settings.tabs.window": {
+    "message": "النافذة"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "مسح الذاكرة المؤقتة"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "مسح ذاكرة التطبيق المؤقتة؟"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "جاري تجهيز التحديث…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "تم رفع التحديث"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "جاري رفع التحديث…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "حذف النسخة"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "إجراءات نسخة إضافية"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "السبب"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "النسخة المشتركة مقفولة"
+  },
+  "app.skins.add-button": {
+    "message": "إضافة سكين"
+  },
+  "app.skins.add-button.drag-and-drop": {
+    "message": "اسحب وأفلت"
+  },
+  "app.skins.apply-button": {
+    "message": "تطبيق"
+  },
+  "app.skins.delete-button": {
+    "message": "حذف السكين"
+  },
+  "app.skins.delete-modal.description": {
+    "message": "سيُحذف السكين المحدد نهائيًا. لا يمكن التراجع عن هذا الإجراء."
+  },
+  "app.skins.delete-modal.title": {
+    "message": "هل تريد حذف هذا السكين؟"
+  },
+  "app.skins.demo.apply-tooltip": {
+    "message": "سجّل الدخول لتطبيق السكينات."
+  },
+  "app.skins.dropped-file-error.text": {
+    "message": "فشل قراءة الملف الذي أفلته."
+  },
+  "app.skins.dropped-file-error.title": {
+    "message": "خطأ في معالجة الملف"
+  },
+  "app.skins.ears-feature-notice": {
+    "message": "يستخدم هذا السكين ميزات من مود {ears}"
+  },
+  "app.skins.edit-button": {
+    "message": "تعديل السكين"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "غيّر السكين والعباءة لهذا الحساب على ely.by. هذه الإعدادات للقراءة فقط في المشغّل."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "السكينات مُدارة بواسطة Ely.by"
+  },
+  "app.skins.modal.add-skin-button": {
+    "message": "إضافة سكين"
+  },
+  "app.skins.modal.add-title": {
+    "message": "إضافة سكين"
+  },
+  "app.skins.modal.arm-style-section": {
+    "message": "شكل الذراع"
+  },
+  "app.skins.modal.arm-style-slim": {
+    "message": "نحيف"
+  },
+  "app.skins.modal.arm-style-wide": {
+    "message": "عريض"
+  },
+  "app.skins.modal.cape-fallback-name": {
+    "message": "عباءة"
+  },
+  "app.skins.modal.cape-section": {
+    "message": "عباءة"
+  },
+  "app.skins.modal.demo-save-tooltip": {
+    "message": "سجّل الدخول لحفظ السكينات."
+  },
+  "app.skins.modal.edit-title": {
+    "message": "تعديل السكين"
+  },
+  "app.skins.modal.make-edit-first-tooltip": {
+    "message": "عدّل السكين أولًا!"
+  },
+  "app.skins.modal.no-cape-tooltip": {
+    "message": "لا توجد عباءة"
+  },
+  "app.skins.modal.none-cape-option": {
+    "message": "لا شيء"
+  },
+  "app.skins.modal.replace-texture-button": {
+    "message": "استبدال النسيج"
+  },
+  "app.skins.modal.save-skin-button": {
+    "message": "حفظ السكين"
+  },
+  "app.skins.modal.saving-tooltip": {
+    "message": "جاري الحفظ..."
+  },
+  "app.skins.modal.texture-section": {
+    "message": "النسيج"
+  },
+  "app.skins.modal.upload-skin-first-tooltip": {
+    "message": "ارفع سكينًا أولًا!"
+  },
+  "app.skins.preview.edit-button": {
+    "message": "تعديل السكين"
+  },
+  "app.skins.previewing-badge": {
+    "message": "معاينة"
+  },
+  "app.skins.rate-limit.text": {
+    "message": "أنت تغيّر سكينك بسرعة كبيرة. حجبت خوادم Mojang الطلبات الإضافية مؤقتًا. انتظر قليلًا قبل المحاولة مجددًا."
+  },
+  "app.skins.rate-limit.title": {
+    "message": "تمهّل!"
+  },
+  "app.skins.reorder-error.text": {
+    "message": "تعذّر حفظ ترتيب السكينات."
+  },
+  "app.skins.reorder-error.title": {
+    "message": "فشل إعادة ترتيب السكينات"
+  },
+  "app.skins.section.builders-and-biomes": {
+    "message": "Builders & Biomes"
+  },
+  "app.skins.section.chaos-cubed": {
+    "message": "Chaos Cubed"
+  },
+  "app.skins.section.chase-the-skies": {
+    "message": "Chase the Skies"
+  },
+  "app.skins.section.default-skins": {
+    "message": "السكينات الافتراضية"
+  },
+  "app.skins.section.dungeons-hero": {
+    "message": "Dungeons Hero"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "Dungeons II Hero"
+  },
+  "app.skins.section.minecon-earth-2017": {
+    "message": "MINECON Earth 2017"
+  },
+  "app.skins.section.modrinth": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.skins.section.modrinth-pride": {
+    "message": "Panda Minecraft Launcher Pride"
+  },
+  "app.skins.section.modrinth-pride.tooltip": {
+    "message": "حصلت على هذه السكينات لتبرّعك في حملة Panda Minecraft Launcher Pride خلال شهر الفخر."
+  },
+  "app.skins.section.mounts-of-mayhem": {
+    "message": "Mounts of Mayhem"
+  },
+  "app.skins.section.saved-skins": {
+    "message": "السكينات المحفوظة"
+  },
+  "app.skins.section.striding-hero": {
+    "message": "Striding Hero"
+  },
+  "app.skins.section.the-copper-age": {
+    "message": "The Copper Age"
+  },
+  "app.skins.section.the-garden-awakens": {
+    "message": "The Garden Awakens"
+  },
+  "app.skins.section.tiny-takeover": {
+    "message": "Tiny Takeover"
+  },
+  "app.skins.section.wilderness-bound": {
+    "message": "Wilderness Bound"
+  },
+  "app.skins.toggle-ears-features-off": {
+    "message": "إيقاف"
+  },
+  "app.skins.toggle-ears-features-on": {
+    "message": "تشغيل"
+  },
+  "app.splash.moving-app-directory": {
+    "message": "جاري نقل مجلد التطبيق..."
+  },
+  "app.survey.body": {
+    "message": "هل تمانع في الإجابة عن بضعة أسئلة حول تجربتك مع Panda Minecraft Launcher؟"
+  },
+  "app.survey.footer": {
+    "message": "ستصل هذه الملاحظات مباشرة إلى فريق Panda Minecraft Launcher وتساعد في توجيه التحديثات القادمة!"
+  },
+  "app.survey.no-thanks": {
+    "message": "لا، شكرًا"
+  },
+  "app.survey.take-survey": {
+    "message": "المشاركة في الاستبيان"
+  },
+  "app.survey.title": {
+    "message": "مرحبًا يا مستخدم Panda Minecraft Launcher!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "اختر النسخة التي تريد نسخ حزم البيانات منها. تُستخدم هذه الحزم للمزامنة الأولى فقط، ويمكنك تعديلها من أي نسخة بعد ذلك."
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "اختر النسخة التي تريد نسخ حزم الموارد منها. تُستخدم هذه الحزم للمزامنة الأولى فقط، ويمكنك تعديلها من أي نسخة بعد ذلك."
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "عطّلها في كل النسخ المتزامنة أو في هذه النسخة فقط. تعطيلها هنا فقط سيفعّل التجاوزات لهذه النسخة."
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "تعطيل في كل مكان"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "تعطيل هذا المحتوى في كل النسخ المتزامنة."
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "تعطيل هنا"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "تعطيل المحتوى؟"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "فعّلها في كل النسخ المتزامنة أو في هذه النسخة فقط. تفعيلها هنا فقط سيفعّل التجاوزات لهذه النسخة."
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "تفعيل في كل مكان"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "تفعيل هذا المحتوى في كل النسخ المتزامنة."
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "تفعيل هنا"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "تفعيل المحتوى؟"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "حذف من كل مكان"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "حذف من هنا"
+  },
+  "app.synced-content.delete.description": {
+    "message": "حذف هذا المحتوى سيحذفه من كل نسخك"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "المحتوى المحدد غير المتزامن سيُحذف من هذه النسخة فقط."
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "يمكنك إزالته من هذه النسخة فقط أو من كل النسخ المتزامنة. إزالته من هذه النسخة فقط ستفعّل التجاوزات، ولن تتلقى هذه النسخة تغييرات متزامنة لأنواع المحتوى هذه."
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "يمكنك إزالة {count, plural, one {it} other {them}} من هذه النسخة فقط أو من كل النسخ المتزامنة. إزالة {count, plural, one {it} other {them}} من هذه النسخة فقط ستفعّل التجاوزات، ولن تتلقى هذه النسخة تغييرات حزم الموارد المتزامنة."
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "ستحتفظ هذه النسخة بنسختها الخاصة. هل تريد إبقاء هذا المحتوى متزامنًا في النسخ الأخرى أم إزالته منها؟"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "الاحتفاظ"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "إزالة"
+  },
+  "app.synced-content.desync.title": {
+    "message": "إلغاء مزامنة المحتوى"
+  },
+  "app.synced-content.warning.title": {
+    "message": "هذا المحتوى متزامن"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "حزم البيانات المتزامنة"
+  },
+  "app.synced-packs.empty": {
+    "message": "أضف حزمًا من صفحة محتوى إحدى النسخ لبدء المزامنة."
+  },
+  "app.synced-packs.load-failed": {
+    "message": "تعذّر تحميل الحزم. جرّب التحديث."
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "حزم الموارد المتزامنة"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Minecraft"
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "اكتمل تنزيل Panda Minecraft Launcher v{version}. أعد التحميل للتحديث الآن، أو تلقائيًا عند إغلاق Panda Minecraft Launcher."
+  },
+  "app.update-popup.body.linux": {
+    "message": "Panda Minecraft Launcher v{version} متاح. استخدم مدير الحزم لديك للحصول على أحدث الميزات والإصلاحات!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Panda Minecraft Launcher v{version} متاح الآن! بما أنك على شبكة محدودة البيانات، لم ننزّله تلقائيًا."
+  },
+  "app.update-popup.changelog": {
+    "message": "سجل التغييرات"
+  },
+  "app.update-popup.download": {
+    "message": "تنزيل ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "اكتمل التنزيل"
+  },
+  "app.update-popup.reload": {
+    "message": "إعادة التحميل للتحديث"
+  },
+  "app.update-popup.title": {
+    "message": "يوجد تحديث متاح"
+  },
+  "app.update.complete-toast.text": {
+    "message": "اضغط هنا لعرض سجل التغييرات."
+  },
+  "app.update.complete-toast.title": {
+    "message": "تم تثبيت الإصدار {version} بنجاح!"
+  },
+  "app.update.download-error.missing-version": {
+    "message": "فشل تنزيل التحديث: لا يوجد إصدار متاح"
+  },
+  "app.user.project.install-to-instance": {
+    "message": "تثبيت إلى نسخة"
+  },
+  "app.welcome-screen.create-instance": {
+    "message": "إنشاء نسخة"
+  },
+  "app.welcome-screen.description": {
+    "message": "مستعد للبدء في اللعب؟"
+  },
+  "app.welcome-screen.import-from-launcher": {
+    "message": "استيراد من مشغّل آخر"
+  },
+  "app.welcome-screen.import-prompt": {
+    "message": "قادم من مشغّل آخر؟"
+  },
+  "app.welcome-screen.more-options": {
+    "message": "المزيد من الخيارات"
+  },
+  "app.welcome-screen.quick-create-hint": {
+    "message": "اضغط <shortcut>N</shortcut> لإنشاء نسخة سريعة"
+  },
+  "app.welcome-screen.skip": {
+    "message": "تخطي"
+  },
+  "app.welcome-screen.title": {
+    "message": "مرحبًا بك في Panda Minecraft Launcher"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "اختر خيارًا"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "إصدار غير متوافق {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "لم يُلعب بعد"
+  },
+  "app.world.world-item.offline": {
+    "message": "غير متصل"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} متصل"
+  },
+  "content.shared-instance.change-version-body": {
+    "message": "تغيير الإصدار يغيّر نسختك المحلية فقط. قد تُعيد تحديثات النسخة المشتركة القادمة إياه أو تغيّره مجددًا."
+  },
+  "content.shared-instance.delete-bulk-body": {
+    "message": "بعض المشاريع المحددة جزء من النسخة المشتركة. حذفها يغيّر نسختك المحلية فقط، وقد تُعيد تحديثات النسخة المشتركة القادمة إياها أو تغيّرها."
+  },
+  "content.shared-instance.delete-button": {
+    "message": "حذف على أي حال"
+  },
+  "content.shared-instance.delete-many-button": {
+    "message": "حذف {count, number} مشروع على أي حال"
+  },
+  "content.shared-instance.delete-single-body": {
+    "message": "حذفه يغيّر نسختك المحلية فقط. قد تُعيد تحديثات النسخة المشتركة القادمة إياه أو تغيّره."
+  },
+  "content.shared-instance.disable-bulk-body": {
+    "message": "بعض المشاريع المحددة جزء من النسخة المشتركة. تعطيلها يغيّر نسختك المحلية فقط، وقد تُعيد تحديثات النسخة المشتركة القادمة تفعيلها أو استعادتها أو تغييرها."
+  },
+  "content.shared-instance.disable-button": {
+    "message": "تعطيل على أي حال"
+  },
+  "content.shared-instance.disable-many-button": {
+    "message": "تعطيل {count, number} مشروع على أي حال"
+  },
+  "content.shared-instance.disable-single-body": {
+    "message": "تعطيله يغيّر نسختك المحلية فقط. قد تُعيد تحديثات النسخة المشتركة القادمة تفعيله أو استعادته أو تغييره."
+  },
+  "content.shared-instance.unlink-body": {
+    "message": "فك الارتباط يغيّر نسختك المحلية فقط. قد تُعيد تحديثات النسخة المشتركة القادمة استعادته أو تغييره."
+  },
+  "content.shared-instance.warning-header": {
+    "message": "هذا جزء من النسخة المشتركة"
+  },
+  "friends.action.add-friend": {
+    "message": "إضافة صديق"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} صديق {count, plural, one {request} other {requests}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "إرسال طلب صداقة"
+  },
+  "friends.add-friend.title": {
+    "message": "إضافة صديق"
+  },
+  "friends.add-friend.username.description": {
+    "message": "قد يختلف عن اسم المستخدم في Minecraft!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "أدخل اسم مستخدم Panda Minecraft Launcher..."
+  },
+  "friends.add-friend.username.title": {
+    "message": "ما اسم مستخدم صديقك في Panda Minecraft Launcher؟"
+  },
+  "friends.add-friends-to-share": {
+    "message": "<link>أضف أصدقاء</link> لمعرفة ما يلعبونه!"
+  },
+  "friends.friend.actions.label": {
+    "message": "إجراءات الصديق"
+  },
+  "friends.friend.cancel-request": {
+    "message": "إلغاء الطلب"
+  },
+  "friends.friend.remove-friend": {
+    "message": "إزالة الصديق"
+  },
+  "friends.friend.request-sent": {
+    "message": "تم إرسال طلب الصداقة"
+  },
+  "friends.friend.view-profile": {
+    "message": "عرض الملف الشخصي"
+  },
+  "friends.heading": {
+    "message": "الأصدقاء"
+  },
+  "friends.heading.active": {
+    "message": "نشط"
+  },
+  "friends.heading.offline": {
+    "message": "غير متصل"
+  },
+  "friends.heading.online": {
+    "message": "متصل"
+  },
+  "friends.heading.pending": {
+    "message": "قيد الانتظار"
+  },
+  "friends.no-friends-match": {
+    "message": "لا يوجد أصدقاء يطابقون ''{query}''"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "ابحث عن أصدقاء..."
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "<link>سجّل الدخول إلى حساب Panda Minecraft Launcher</link> لتضيف أصدقاء وتعرف ما يلعبونه!"
+  },
+  "hosting.play.account-changed": {
+    "message": "تغيّر حسابك في Panda Minecraft Launcher. اضغط تشغيل السيرفر مجددًا للمتابعة."
+  },
+  "hosting.play.no-address": {
+    "message": "لا يوجد عنوان اتصال لهذا السيرفر بعد."
+  },
+  "hosting.play.not-ready": {
+    "message": "هذه النسخة غير متاحة للتشغيل. تحقق من حالة تثبيتها في مكتبتك."
+  },
+  "hosting.play.update-description": {
+    "message": "حدّث هذه النسخة إلى أحدث محتوى مشترك في السيرفر قبل الانضمام."
+  },
+  "hosting.play.update-to-play": {
+    "message": "حدّث للعب"
+  },
+  "hosting.play.world-changed": {
+    "message": "هذا العالم لم يعد نشطًا أو لم تتم مشاركته. افتح لوحة السيرفر واضغط تشغيل السيرفر مجددًا."
+  },
+  "installation-settings.advanced.title": {
+    "message": "متقدم"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "إعادة ربط نسخة مشتركة"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "أعد ربط هذه النسخة بنسخة مشتركة فُكّ ربطها عنها، باستخدام رابط دعوة أو معرّف."
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "نسختك \"{name}\" مرتبطة بهذه النسخة المشتركة بالفعل."
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "لا يمكن إعادة ربط هذه النسخة"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "ستصبح هذه النسخة مصدر النسخة المشتركة مجددًا. يحصل الأعضاء على تغييراتك عند نشر تحديث."
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "أعد ربط هذه النسخة بنسخة مشتركة تملكها."
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "البحث عن نسخة مشتركة"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "إعادة ربط نسخة مشتركة"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "رابط الدعوة أو معرّف النسخة المشتركة"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "تستخدم هذه النسخة {localLoader} {localGameVersion}، بينما تستخدم النسخة المشتركة {loader} {gameVersion}. سيغيّر نشرك القادم النسخة المشتركة لتطابق هذه النسخة."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "إصدار لعبة أو أداة تحميل مختلف"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "المالك فقط هو من يمكنه إعادة ربط نسخة مشتركة. للحصول على تحديثاتها كعضو، ثبّتها مجددًا من مكتبتك."
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "إعادة الربط"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "هذه النسخة المشتركة يديرها سيرفر، لذا لا يمكن إعادة ربطها."
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · الإصدار {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "إعادة ربط نسخة مشتركة"
+  },
+  "installation-settings.shared-instance.linked-title": {
+    "message": "نسخة مشتركة مرتبطة"
+  },
+  "installation-settings.shared-instance.unlink-button": {
+    "message": "فك ربط النسخة المشتركة"
+  },
+  "installation-settings.shared-instance.unlink-description": {
+    "message": "افصل هذه النسخة المحلية عن تحديثات النسخة المشتركة القادمة."
+  },
+  "installation-settings.shared-instance.unlinking-button": {
+    "message": "جاري فك الربط..."
+  },
+  "installation-settings.shared-instance.unpublish-description": {
+    "message": "أزل هذه النسخة المشتركة من Panda Minecraft Launcher وتوقف إرسال التحديثات لمن يستخدمها. نسختك المحلية لن تتأثر."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-body": {
+    "message": "هذا يؤثر على نسختك المحلية فقط. سيبقى المحتوى المثبّت على هذا الجهاز، ولن تتأثر النسخة المشتركة أو المستخدمون الآخرون."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-header": {
+    "message": "جاري فك ربط نسخة مشتركة"
+  },
+  "installation-settings.unlink-shared-instance.modal.header": {
+    "message": "فك ربط النسخة المشتركة"
+  },
+  "installation-settings.unpublish-shared-instance.modal.admonition-body": {
+    "message": "يحذف هذا النسخة المشتركة من خوادم Panda Minecraft Launcher. سيتوقف المستخدمون لها في Panda Minecraft Launcher عن استلام التحديثات، لكن نسختك المحلية ومحتواها سيبقيان على هذا الجهاز."
+  },
+  "instance.action.create-shortcut": {
+    "message": "إنشاء اختصار"
+  },
+  "instance.action.export-modpack": {
+    "message": "تصدير المودباك"
+  },
+  "instance.action.launch-instance": {
+    "message": "تشغيل النسخة"
+  },
+  "instance.action.more-actions": {
+    "message": "خيارات إضافية"
+  },
+  "instance.action.open-folder": {
+    "message": "فتح المجلد"
+  },
+  "instance.action.repair": {
+    "message": "إصلاح"
+  },
+  "instance.action.settings": {
+    "message": "إعدادات النسخة"
+  },
+  "instance.action.starting": {
+    "message": "جاري التشغيل..."
+  },
+  "instance.action.stopping": {
+    "message": "جاري الإيقاف..."
+  },
+  "instance.add-server.add-and-play": {
+    "message": "إضافة وتشغيل"
+  },
+  "instance.add-server.add-server": {
+    "message": "إضافة سيرفر"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "معطّل"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "مفعّل"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "سؤال"
+  },
+  "instance.add-server.title": {
+    "message": "إضافة سيرفر"
+  },
+  "instance.edit-server.title": {
+    "message": "تعديل السيرفر"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "إخفاء من الصفحة الرئيسية"
+  },
+  "instance.edit-world.name": {
+    "message": "الاسم"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "عالم Minecraft"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "إعادة ضبط الأيقونة"
+  },
+  "instance.edit-world.title": {
+    "message": "تعديل العالم"
+  },
+  "instance.files.adding-files": {
+    "message": "جاري إضافة الملفات ({completed}/{total})"
+  },
+  "instance.files.managed-content-read-only": {
+    "message": "أدر محتوى المثبّت من تبويب المحتوى"
+  },
+  "instance.files.save-as": {
+    "message": "حفظ باسم..."
+  },
+  "instance.last-played": {
+    "message": "آخر تشغيل"
+  },
+  "instance.locked.delete-button": {
+    "message": "حذف النسخة"
+  },
+  "instance.locked.play-tooltip": {
+    "message": "هذه النسخة مقفولة"
+  },
+  "instance.playtime.never-played": {
+    "message": "لم تُلعب من قبل"
+  },
+  "instance.server-modal.address": {
+    "message": "العنوان"
+  },
+  "instance.server-modal.name": {
+    "message": "الاسم"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "سيرفر Minecraft"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "حزمة موارد"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "إدارة الإعدادات الافتراضية"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "إعادة {setting} إلى الافتراضي"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "إعادة ضبط إلى الافتراضي"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "اللعبة"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "النسخة"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "أوقف هذا التجاوز لتعديل البيانات المتزامنة."
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "إلغاء مزامنة حزم البيانات"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "الاحتفاظ بحزم بيانات هذه النسخة منفصلة عن الحزم المتزامنة."
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "مزامنة حزم البيانات موقوفة في إعدادات التطبيق."
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "تعديل الحزم المتزامنة"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "أوقف هذا التجاوز لتعديل الحزم المتزامنة. يمكن إدارة الحزم المستقلة من تبويب المحتوى."
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "إلغاء مزامنة حزم الموارد"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "الاحتفاظ بحزم موارد هذه النسخة منفصلة عن الحزم المتزامنة."
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "مزامنة حزم الموارد موقوفة في إعدادات التطبيق."
+  },
+  "instance.settings.tabs.behavior.description": {
+    "message": "اختر التبويبات التي تظهر في هذه النسخة."
+  },
+  "instance.settings.tabs.behavior.files": {
+    "message": "إظهار تبويب الملفات"
+  },
+  "instance.settings.tabs.behavior.screenshots": {
+    "message": "إظهار تبويب لقطات الشاشة"
+  },
+  "instance.settings.tabs.behavior.screenshots.required": {
+    "message": "لا يمكن إخفاء تبويب لقطات الشاشة بينما صفحة لقطات الشاشة العامة موقوفة."
+  },
+  "instance.settings.tabs.behavior.worlds": {
+    "message": "إظهار تبويب العوالم"
+  },
+  "instance.settings.tabs.general": {
+    "message": "عام"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "حذف النسخة"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "حذف النسخة"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "يحذف النسخة نهائيًا من جهازك، بما فيها عوالمك وإعداداتك وكل المحتوى المثبّت. كن حذرًا، فبعد حذف النسخة لا يمكن استعادتها."
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "جاري الحذف..."
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "إنشاء نسخة"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "لا يمكن إنشاء نسخة أثناء التثبيت."
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "لا يمكن نسخ النسخ المقفولة."
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "نسخ النسخة"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "ينشئ نسخة من هذه النسخة تشمل العوالم والإعدادات والمودات وغيرها."
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "تعديل الأيقونة"
+  },
+  "instance.settings.tabs.general.edit-icon.create": {
+    "message": "إنشاء أيقونة"
+  },
+  "instance.settings.tabs.general.edit-icon.edit-created": {
+    "message": "تعديل الأيقونة"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "إزالة الأيقونة"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "استبدال الأيقونة"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "اختيار أيقونة"
+  },
+  "instance.settings.tabs.general.icon": {
+    "message": "الأيقونة"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "الاسم"
+  },
+  "instance.settings.tabs.general.update-channel": {
+    "message": "قناة التحديث"
+  },
+  "instance.settings.tabs.general.update-channel.alpha": {
+    "message": "Alpha"
+  },
+  "instance.settings.tabs.general.update-channel.alpha.description": {
+    "message": "ستظهر إصدارات Release و Beta و Alpha كتحديثات متاحة."
+  },
+  "instance.settings.tabs.general.update-channel.beta": {
+    "message": "Beta"
+  },
+  "instance.settings.tabs.general.update-channel.beta.description": {
+    "message": "ستظهر إصدارات Release و Beta كتحديثات متاحة."
+  },
+  "instance.settings.tabs.general.update-channel.release": {
+    "message": "Release"
+  },
+  "instance.settings.tabs.general.update-channel.release.description": {
+    "message": "ستظهر إصدارات Release فقط كتحديثات متاحة."
+  },
+  "instance.settings.tabs.general.update-channel.select": {
+    "message": "اختر قناة التحديث"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "تستخدم نسختك أوامر التشغيل الافتراضية ما لم تتجاوزها هنا."
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "أوامر التشغيل"
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "بعد الخروج"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "يُشغّل بعد إغلاق اللعبة."
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "أدخل أمرًا بعد الخروج..."
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "قبل التشغيل"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "يُشغّل قبل تشغيل النسخة."
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "أدخل أمرًا قبل التشغيل..."
+  },
+  "instance.settings.tabs.hooks.variables.description": {
+    "message": "تُشغّل الأوامر في دليل عمل النسخة، مع المتغيرات التالية:"
+  },
+  "instance.settings.tabs.hooks.variables.inst-dir.description": {
+    "message": "$INST_DIR: المسار المطلق لمجلد النسخة"
+  },
+  "instance.settings.tabs.hooks.variables.inst-id.description": {
+    "message": "$INST_ID: اسم مجلد النسخة"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java-args.description": {
+    "message": "$INST_JAVA_ARGS: وسائط JVM المُرسلة إلى اللعبة"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java.description": {
+    "message": "$INST_JAVA: المسار المطلق لملف java التنفيذي"
+  },
+  "instance.settings.tabs.hooks.variables.inst-mc-dir.description": {
+    "message": "$INST_MC_DIR: اسم مستعار لـ $INST_DIR"
+  },
+  "instance.settings.tabs.hooks.variables.inst-name.description": {
+    "message": "$INST_NAME: اسم النسخة"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "غلاف"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "أمر الغلاف لتشغيل Minecraft."
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "أدخل أمر الغلاف..."
+  },
+  "instance.settings.tabs.installation": {
+    "message": "التثبيت"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "إصدار {loader}"
+  },
+  "instance.settings.tabs.installation.locked": {
+    "message": "إعدادات التثبيت غير متاحة بينما هذه النسخة مقفولة."
+  },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "تستخدم نسختك إعدادات Java والذاكرة الافتراضية ما لم تتجاوزها هنا."
+  },
+  "instance.settings.tabs.java.enter-environment-variables": {
+    "message": "أدخل متغيرات البيئة..."
+  },
+  "instance.settings.tabs.java.enter-java-arguments": {
+    "message": "أدخل وسائط Java..."
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "متغيرات البيئة"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "الأوامر"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "وسائط Java"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "تثبيت Java"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "الذاكرة المخصصة"
+  },
+  "instance.settings.tabs.java.java-path-placeholder": {
+    "message": "/path/to/java"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java والذاكرة"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "يُنصح بـ Java {version} لإصدار Minecraft الخاص بهذه النسخة."
+  },
+  "instance.settings.tabs.sharing": {
+    "message": "المشاركة"
+  },
+  "instance.settings.tabs.synced-options.command-history": {
+    "message": "إلغاء مزامنة سجل الأوامر"
+  },
+  "instance.settings.tabs.synced-options.command-history.disabled-in-app": {
+    "message": "مزامنة سجل الأوامر موقوفة في إعدادات التطبيق."
+  },
+  "instance.settings.tabs.synced-options.command-history.override-description": {
+    "message": "الاحتفاظ بسجل أوامر هذه النسخة منفصلًا عن السجل المتزامن."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars": {
+    "message": "إلغاء مزامنة أشرطة الأدوات الإبداعية المحفوظة"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.disabled-in-app": {
+    "message": "مزامنة أشرطة الأدوات الإبداعية المحفوظة موقوفة في إعدادات التطبيق."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
+    "message": "الاحتفاظ بأشرطة الأدوات الإبداعية المحفوظة لهذه النسخة منفصلة عن الأشرطة المتزامنة."
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "إلغاء مزامنة إعدادات اللعبة"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "الاحتفاظ بملف options.txt لهذه النسخة منفصلًا عن النسخة المتزامنة."
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "مزامنة إعدادات اللعبة موقوفة في إعدادات التطبيق."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
+    "message": "سيُحفظ الإصدار الذي سيُستبدل بنسخة احتياطية قبل أي تغيير."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.description": {
+    "message": "تختلف أشرطة الأدوات الإبداعية بين {instance} والنسخة المتزامنة لديك. اختر أيّهما تريد استخدامه عبر نسخك."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.title": {
+    "message": "اختر أشرطة الأدوات الإبداعية"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-instance": {
+    "message": "الكتابة فوق الباقي"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-synced": {
+    "message": "استخدام المتزامن"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers": {
+    "message": "إلغاء مزامنة سيرفرات تعدد اللاعبين"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.disabled-in-app": {
+    "message": "مزامنة سيرفرات تعدد اللاعبين موقوفة في إعدادات التطبيق."
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.override-description": {
+    "message": "الاحتفاظ بسيرفرات تعدد اللاعبين لهذه النسخة منفصلة عن السيرفرات المتزامنة."
+  },
+  "instance.settings.tabs.synced-options.open-app-settings": {
+    "message": "إدارة الإعدادات المتزامنة"
+  },
+  "instance.settings.tabs.synced-options.shared-settings.description": {
+    "message": "فعّل تجاوزًا لإبقاء إعداد متزامن منفصلًا لهذه النسخة."
+  },
+  "instance.settings.tabs.syncing": {
+    "message": "المزامنة"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "تستخدم نسختك إعدادات النافذة الافتراضية ما لم تتجاوزها هنا."
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "ملء الشاشة"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "جعل اللعبة تبدأ في وضع ملء الشاشة عند التشغيل (باستخدام options.txt)."
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "الارتفاع"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "ارتفاع نافذة اللعبة عند التشغيل."
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "أدخل الارتفاع..."
+  },
+  "instance.settings.tabs.window.label": {
+    "message": "النافذة"
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "العرض"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "عرض نافذة اللعبة عند التشغيل."
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "أدخل العرض..."
+  },
+  "instance.settings.using-defaults": {
+    "message": "باستخدام الإعدادات الافتراضية"
+  },
+  "instance.shared-instance.error.title": {
+    "message": "حدث خطأ ما"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "نوع الملف غير مسموح"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "لا يمكنك مشاركة نسخ أخرى."
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "تم بلوغ حد النسخ المشتركة"
+  },
+  "instance.shared-instance.network-error.text": {
+    "message": "تعذّر الاتصال بواجهة النسخ المشتركة"
+  },
+  "instance.shared-instance.network-error.title": {
+    "message": "خطأ في الشبكة"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "دُفع إصدار أحدث من تثبيت آخر لـ Panda Minecraft Launcher. نزّله ثم حاول مجددًا."
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "تعذّر دفع التحديث"
+  },
+  "instance.shared-instance.owner-tooltip": {
+    "message": "يتم مشاركة محتوى هذه النسخة مع مستخدمين آخرين."
+  },
+  "instance.shared-instance.tooltip": {
+    "message": "يتم إدارة محتوى هذه النسخة بواسطة شخص آخر."
+  },
+  "instance.shared-instance.unavailable.access-revoked-text": {
+    "message": "سُحب وصولك إلى النسخة المشتركة. لا تزال هذه النسخة متاحة، لكنها لم تعد مرتبطة ولن تتلقى تحديثات."
+  },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "قفل فريق إعتدال المحتوى النسخة المشتركة. لم تعد مسموحًا لك بدفع التحديثات أو إعادة مشاركتها."
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "النسخة لم تعد قابلة للمشاركة"
+  },
+  "instance.shared-instance.unavailable.locked-text": {
+    "message": "قفل فريق إعتدال المحتوى هذه النسخة المشتركة. لن تتلقى تحديثات من النسخة الرئيسية ولا يمكن تشغيلها."
+  },
+  "instance.shared-instance.unavailable.locked-title": {
+    "message": "النسخة مقفولة"
+  },
+  "instance.shared-instance.unavailable.manager-fallback": {
+    "message": "مدير النسخة"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "لم نتمكن من العثور على هذه النسخة المشتركة. لا يزال المحتوى المثبّت لديك على هذا الجهاز."
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "النسخة المشتركة غير متاحة"
+  },
+  "instance.shared-instance.unavailable.text": {
+    "message": "لا تزال نسختك المحلية متاحة، لكنها لم تعد مرتبطة ولن تتلقى تحديثات."
+  },
+  "instance.shared-instance.unavailable.title": {
+    "message": "النسخة المشتركة لم تعد متاحة"
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "سيرفر Minecraft"
+  },
+  "instance.worlds.actions.label": {
+    "message": "إجراءات العالم"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "تعذّر الاتصال بالسيرفر"
+  },
+  "instance.worlds.copy_address": {
+    "message": "نسخ العنوان"
+  },
+  "instance.worlds.create_shortcut": {
+    "message": "إنشاء اختصار"
+  },
+  "instance.worlds.desync-server.description": {
+    "message": "هل تريد إبقاء هذا السيرفر في النسخ المتزامنة الأخرى أم إزالته منها؟"
+  },
+  "instance.worlds.desync-server.keep": {
+    "message": "الاحتفاظ"
+  },
+  "instance.worlds.desync-server.remove": {
+    "message": "إزالة"
+  },
+  "instance.worlds.desync-server.title": {
+    "message": "إلغاء مزامنة السيرفر"
+  },
+  "instance.worlds.desync_server": {
+    "message": "إلغاء المزامنة"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "عدم الإظهار في الرئيسية"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "النسخة مفتوحة بالفعل"
+  },
+  "instance.worlds.hardcore": {
+    "message": "وضع الـ Hardcore"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "السيرفر غير متوافق"
+  },
+  "instance.worlds.instance-locked": {
+    "message": "هذه النسخة مقفولة"
+  },
+  "instance.worlds.linked_server": {
+    "message": "تتم إدارتها بواسطة مشروع السيرفر"
+  },
+  "instance.worlds.more-options": {
+    "message": "خيارات إضافية"
+  },
+  "instance.worlds.no_contact": {
+    "message": "تعذّر الاتصال بالسيرفر"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "يمكنك الانضمام مباشرة إلى السيرفرات في Minecraft Alpha 1.0.5 والإصدارات الأحدث فقط"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "يمكنك الدخول مباشرة إلى عوالم اللعب الفردي في Minecraft 1.20 والإصدارات الأحدث فقط"
+  },
+  "instance.worlds.play_instance": {
+    "message": "تشغيل النسخة"
+  },
+  "instance.worlds.play_world": {
+    "message": "تشغيل العالم"
+  },
+  "instance.worlds.shortcut-created": {
+    "message": "تم إنشاء الاختصار"
+  },
+  "instance.worlds.shortcut-creation-failed": {
+    "message": "فشل إنشاء الاختصار"
+  },
+  "instance.worlds.synced_server": {
+    "message": "متزامن عبر النسخ"
+  },
+  "instance.worlds.view_instance": {
+    "message": "عرض النسخة"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "العالم قيد الاستخدام"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "إضافة حساب ely.by"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "إضافة حساب Microsoft"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "تعذّر تسجيل الدخول إلى حساب ely.by. تحقق من حساب ely.by وحاول مجددًا."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "فشل تسجيل الدخول"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "تعذّر تسجيل الدخول إلى حساب Microsoft. قد يكون السبب قيودًا على الحساب أو حدودًا إقليمية."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "الرمز الخاص بك"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "تم النسخ"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "نسخ"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "تسجيل الدخول باستخدام ely.by"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "افتح صفحة تحقق ely.by وأدخل هذا الرمز لتفويض Panda Minecraft Launcher. سيكتمل تسجيل الدخول تلقائيًا بعد الموافقة."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "فتح صفحة تحقق ely.by"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "في انتظار التفويض…"
+  },
+  "minecraft-account.label": {
+    "message": "حساب Minecraft"
+  },
+  "minecraft-account.not-signed-in": {
+    "message": "غير مسجّل الدخول"
+  },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
+  "minecraft-account.remove-account": {
+    "message": "إزالة الحساب"
+  },
+  "minecraft-account.select-account": {
+    "message": "اختيار حساب"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "تسجيل الدخول باستخدام ely.by"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "تسجيل الدخول باستخدام Microsoft"
+  },
+  "minecraft-required.description": {
+    "message": "تحتاج إلى حساب Minecraft قبل أن تتمكن من تشغيل اللعبة. يمكنك تسجيل الدخول باستخدام Microsoft أو ely.by."
+  },
+  "minecraft-required.description-header": {
+    "message": "تسجيل الدخول إلى Minecraft"
+  },
+  "minecraft-required.dont-have-account": {
+    "message": "ليس لديك حساب؟"
+  },
+  "minecraft-required.get-minecraft": {
+    "message": "الحصول على Minecraft"
+  },
+  "minecraft-required.get-support": {
+    "message": "الحصول على الدعم"
+  },
+  "minecraft-required.header": {
+    "message": "Minecraft مطلوب"
+  },
+  "minecraft-required.sign-in": {
+    "message": "تسجيل الدخول باستخدام Microsoft"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "تسجيل الدخول باستخدام ely.by"
+  },
+  "modal.modrinth-account-required.browser-description": {
+    "message": "فُتحت علامة تبويب جديدة لتسجيل الدخول. أكمل تسجيل الدخول هناك ثم عد إلى التطبيق."
+  },
+  "modal.modrinth-account-required.continue-in-browser-heading": {
+    "message": "المتابعة في المتصفح"
+  },
+  "modal.modrinth-account-required.create-account-button": {
+    "message": "إنشاء حساب"
+  },
+  "modal.modrinth-account-required.description": {
+    "message": "ستحتاج إلى تسجيل الدخول إلى حساب Panda Minecraft Launcher قبل استخدام هذه الميزة."
+  },
+  "modal.modrinth-account-required.header": {
+    "message": "حساب مطلوب"
+  },
+  "modal.modrinth-account-required.open-browser-again-button": {
+    "message": "إعادة فتح المتصفح"
+  },
+  "modal.modrinth-account-required.sign-in-button": {
+    "message": "تسجيل الدخول إلى Panda Minecraft Launcher"
+  },
+  "modal.modrinth-account-required.sign-in-heading": {
+    "message": "تسجيل الدخول إلى حساب Panda Minecraft Launcher"
+  },
+  "modal.modrinth-account-required.signing-in-header": {
+    "message": "جاري تسجيل الدخول"
+  },
+  "modal.modrinth-account-required.support-prompt": {
+    "message": "تواجه مشكلة في تسجيل الدخول؟ <support>احصل على الدعم</support>"
+  },
+  "modal.modrinth-account-required.waiting-for-browser": {
+    "message": "في انتظار تأكيد المتصفح..."
+  },
+  "project.server.status.offline": {
+    "message": "غير متصل"
+  },
+  "project.server.status.online": {
+    "message": "متصل"
+  },
+  "search.filter.locked.instance": {
+    "message": "مقدَّم من النسخة"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "إصدار اللعبة مقدَّم من النسخة"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "أداة التحميل مقدَّمة من النسخة"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "المزامنة مع النسخة"
+  },
+  "search.filter.locked.server": {
+    "message": "مقدَّم من السيرفر"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "يمكن إضافة مودات العميل فقط إلى نسخة السيرفر"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "إصدار اللعبة مقدَّم من السيرفر"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "أداة التحميل مقدَّمة من السيرفر"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "المزامنة مع السيرفر"
+  },
+  "settings.sidebar.label.account": {
+    "message": "الحساب"
+  },
+  "settings.sidebar.label.display": {
+    "message": "العرض"
+  }
+}

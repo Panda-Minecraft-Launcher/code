@@ -1,0 +1,4685 @@
+{
+  "app.action-bar.changelog": {
+    "message": "খবর"
+  },
+  "app.action-bar.downloading-java": {
+    "message": "{version} ডাউনলোড হচ্ছে"
+  },
+  "app.action-bar.downloading-update": {
+    "message": "আপডেট ডাউনলোড হচ্ছে"
+  },
+  "app.action-bar.downloads": {
+    "message": "ডাউনলোড"
+  },
+  "app.action-bar.hide-downloads": {
+    "message": "সক্রিয় ডাউনলোড লুকান"
+  },
+  "app.action-bar.hide-more-running-instances": {
+    "message": "আরও চলমান ইনস্ট্যান্স লুকান"
+  },
+  "app.action-bar.install.copied-details": {
+    "message": "কপি করা হয়েছে"
+  },
+  "app.action-bar.install.dismiss": {
+    "message": "বাতিল"
+  },
+  "app.action-bar.install.inspect-details": {
+    "message": "বিবরণ দেখুন"
+  },
+  "app.action-bar.install.open-instance": {
+    "message": "ইনস্ট্যান্স খুলুন"
+  },
+  "app.action-bar.install.retry": {
+    "message": "আবার চেষ্টা করুন"
+  },
+  "app.action-bar.install.summary.app-closing": {
+    "message": "অ্যাপ বন্ধ হওয়ায় বাতিল হয়েছে"
+  },
+  "app.action-bar.install.summary.bad-modpack-file": {
+    "message": "মডপ্যাক পড়া যায়নি"
+  },
+  "app.action-bar.install.summary.canceled": {
+    "message": "বাতিল হয়েছে"
+  },
+  "app.action-bar.install.summary.cleanup-incomplete": {
+    "message": "পরিষ্কারকাজ শেষ হয়নি"
+  },
+  "app.action-bar.install.summary.content-download-failed": {
+    "message": "ফাইল ডাউনলোড করা যায়নি"
+  },
+  "app.action-bar.install.summary.corrupt-download": {
+    "message": "ডাউনলোড করা ফাইল ক্ষতিগ্রস্ত"
+  },
+  "app.action-bar.install.summary.could-not-save-files": {
+    "message": "ফাইল সংরক্ষণ করা যায়নি"
+  },
+  "app.action-bar.install.summary.download-failed": {
+    "message": "ডাউনলোড শেষ হয়নি"
+  },
+  "app.action-bar.install.summary.instance-error": {
+    "message": "ইনস্ট্যান্স প্রস্তুত করা যায়নি"
+  },
+  "app.action-bar.install.summary.invalid-file-path": {
+    "message": "ফাইলের পথ অবৈধ"
+  },
+  "app.action-bar.install.summary.invalid-modpack": {
+    "message": "মডপ্যাকের তথ্য অবৈধ"
+  },
+  "app.action-bar.install.summary.invalid-modpack-files": {
+    "message": "মডপ্যাকের ফাইলে অবৈধ মেটাডেটা আছে"
+  },
+  "app.action-bar.install.summary.java-setup-failed": {
+    "message": "Java সেটআপ শেষ হয়নি"
+  },
+  "app.action-bar.install.summary.loader-setup-failed": {
+    "message": "লোডার সেটআপ ব্যর্থ হয়েছে"
+  },
+  "app.action-bar.install.summary.local-data-error": {
+    "message": "স্থানীয় তথ্য আপডেট করা যায়নি"
+  },
+  "app.action-bar.install.summary.minecraft-setup-failed": {
+    "message": "Minecraft সেটআপ ব্যর্থ হয়েছে"
+  },
+  "app.action-bar.install.summary.modrinth-unreachable": {
+    "message": "Panda Minecraft Launcher-এ পৌঁছানো যায়নি"
+  },
+  "app.action-bar.install.summary.no-write-permission": {
+    "message": "লেখার অনুমতি নেই"
+  },
+  "app.action-bar.install.summary.pack-download-failed": {
+    "message": "প্যাক ডাউনলোড করা যায়নি"
+  },
+  "app.action-bar.install.summary.unexpected-error": {
+    "message": "কিছু ভুল হয়েছে"
+  },
+  "app.action-bar.install.unknown-instance": {
+    "message": "অজানা ইনস্ট্যান্স"
+  },
+  "app.action-bar.install.updating-shared-content": {
+    "message": "শেয়ার করা কনটেন্ট আপডেট হচ্ছে"
+  },
+  "app.action-bar.offline": {
+    "message": "অফলাইন"
+  },
+  "app.action-bar.reload-to-update": {
+    "message": "আপডেটের জন্য পুনরায় লোড করুন"
+  },
+  "app.action-bar.show-downloads": {
+    "message": "সক্রিয় ডাউনলোড দেখান"
+  },
+  "app.action-bar.show-more-running-instances": {
+    "message": "আরও চলমান ইনস্ট্যান্স দেখান"
+  },
+  "app.action-bar.stop-instance": {
+    "message": "ইনস্ট্যান্স বন্ধ করুন"
+  },
+  "app.action-bar.update": {
+    "message": "আপডেট"
+  },
+  "app.action-bar.view-active-downloads": {
+    "message": "সক্রিয় ডাউনলোড দেখুন"
+  },
+  "app.action-bar.view-logs": {
+    "message": "লগ দেখুন"
+  },
+  "app.appearance-settings.compact-mode.description": {
+    "message": "লাইব্রেরির ইনস্ট্যান্সগুলো সংক্ষিপ্ত সারি বিন্যাসে দেখান।"
+  },
+  "app.appearance-settings.compact-mode.title": {
+    "message": "সংক্ষিপ্ত মোড"
+  },
+  "app.appearance-settings.default-landing-page.home": {
+    "message": "হোম"
+  },
+  "app.appearance-settings.default-landing-page.library": {
+    "message": "লাইব্রেরি"
+  },
+  "app.appearance-settings.hide-nametag.description": {
+    "message": "স্কিন নির্বাচক পৃষ্ঠায় খেলোয়াড়ের প্রিভিউয়ের ওপরে আপনার ব্যবহারকারী নাম লুকান।"
+  },
+  "app.appearance-settings.hide-nametag.title": {
+    "message": "নামের ট্যাগ লুকান"
+  },
+  "app.appearance-settings.minimize-launcher.description": {
+    "message": "Minecraft শুরু হলে Panda Minecraft Launcher ছোট করুন।"
+  },
+  "app.appearance-settings.minimize-launcher.title": {
+    "message": "অ্যাপ ছোট করুন"
+  },
+  "app.appearance-settings.show-play-time.description": {
+    "message": "প্রতিটি ইনস্ট্যান্সে আপনি কতক্ষণ খেলেছেন তা দেখান।"
+  },
+  "app.appearance-settings.show-play-time.title": {
+    "message": "খেলার সময় দেখান"
+  },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "সাইডবার ডানে বা বাঁয়ে দেখান।"
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "বাঁয়ে"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "ডানে"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "সাইডবারের অবস্থান"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.description": {
+    "message": "ডুপ্লিকেট ইনস্টল, সাধারণ কনটেন্ট মুছে ফেলা, একসাথে আপডেট, লিংক খোলা এবং মেরামতির মতো কম ঝুঁকির কাজে নিশ্চিতকরণ এড়িয়ে চলুন। বিপজ্জনক কাজের সতর্কতা সবসময় দেখানো হবে।"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.title": {
+    "message": "অপ্রয়োজনীয় সতর্কতা এড়িয়ে চলুন"
+  },
+  "app.appearance-settings.unknown-pack-warning.description": {
+    "message": "Panda Minecraft Launcher-এ উপলব্ধ নয় এমন মডপ্যাক (.mrpack) ইনস্টল করার আগে নিরাপত্তা সতর্কতা দেখান।"
+  },
+  "app.appearance-settings.unknown-pack-warning.title": {
+    "message": "অজানা মডপ্যাক ইনস্টল করার আগে আমাকে সতর্ক করুন"
+  },
+  "app.auth-servers.unreachable.body": {
+    "message": "Minecraft প্রমাণীকরণ সার্ভার এখন বন্ধ থাকতে পারে। ইন্টারনেট সংযোগ দেখে পরে আবার চেষ্টা করুন।"
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "প্রমাণীকরণ সার্ভারে পৌঁছানো যাচ্ছে না"
+  },
+  "app.behavior-settings.confirmations.title": {
+    "message": "নিশ্চিতকরণ"
+  },
+  "app.behavior-settings.content.title": {
+    "message": "হোম ও কনটেন্ট"
+  },
+  "app.behavior-settings.hidden-instances.description": {
+    "message": "এই ডিভাইসে আপনি লাইব্রেরি থেকে লুকানো ইনস্ট্যান্স। লুকানো ইনস্ট্যান্স আপনার Panda Minecraft Launcher অ্যাকাউন্টের সাথে সিঙ্ক হয় না।"
+  },
+  "app.behavior-settings.hidden-instances.empty": {
+    "message": "আপনি এখনো কোনো ইনস্ট্যান্স লুকাননি।"
+  },
+  "app.behavior-settings.hidden-instances.more-options": {
+    "message": "আরও বিকল্প"
+  },
+  "app.behavior-settings.hidden-instances.not-installed": {
+    "message": "ইনস্টল করা নেই"
+  },
+  "app.behavior-settings.hidden-instances.title": {
+    "message": "লুকানো ইনস্ট্যান্স"
+  },
+  "app.behavior-settings.refocus-on-game-close.description": {
+    "message": "Minecraft বন্ধ হলে Panda Minecraft Launcher-কে সামনে আনুন।"
+  },
+  "app.behavior-settings.refocus-on-game-close.title": {
+    "message": "Minecraft বন্ধ হলে অ্যাপে ফিরে আসুন"
+  },
+  "app.behavior-settings.startup-and-navigation.title": {
+    "message": "চালু করা ও নেভিগেশন"
+  },
+  "app.behavior-settings.sync-across-devices.description": {
+    "message": "আপনি যেখানে সাইন ইন করেছেন সব জায়গায় এই আচরণ-সেটিংস ব্যবহার করুন। এই ডিভাইসে আলাদা সেটিংস রাখতে এটি বন্ধ করুন।"
+  },
+  "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "সেটিংস সিঙ্ক করতে Panda Minecraft Launcher অ্যাকাউন্টে সাইন ইন করুন।"
+  },
+  "app.behavior-settings.sync-across-devices.title": {
+    "message": "ডিভাইসজুড়ে আচরণ সিঙ্ক করুন"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "ইনস্ট্যান্সে সার্ভার যোগ করা হচ্ছে"
+  },
+  "app.browse.add-to-an-instance": {
+    "message": "একটি ইনস্ট্যান্সে যোগ করুন"
+  },
+  "app.browse.add-to-instance": {
+    "message": "ইনস্ট্যান্সে যোগ করুন"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "{instanceName}-এ যোগ করুন"
+  },
+  "app.browse.added": {
+    "message": "যোগ করা হয়েছে"
+  },
+  "app.browse.already-added": {
+    "message": "আগে থেকেই যোগ করা আছে"
+  },
+  "app.browse.back-to-instance": {
+    "message": "ইনস্ট্যান্সে ফিরে যান"
+  },
+  "app.browse.curseforge.checking": {
+    "message": "CurseForge-এ সংযোগ করা হচ্ছে..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "CurseForge অনুরোধ ব্যর্থ: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "CurseForge-এর অনুমোদনের অপেক্ষায়"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge প্রস্তুত। {count} টি মড পাওয়া গেছে।"
+  },
+  "app.browse.discover-project-type": {
+    "message": "{projectType} আবিষ্কার করুন"
+  },
+  "app.browse.discover-servers": {
+    "message": "সার্ভার আবিষ্কার করুন"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "পূর্বে যোগ করা সার্ভার লুকান"
+  },
+  "app.browse.hide-installed-modpacks": {
+    "message": "ইতিমধ্যে ইনস্টল করা লুকান"
+  },
+  "app.browse.project-actions.label": {
+    "message": "প্রকল্পের কাজ"
+  },
+  "app.browse.project-type.data-packs": {
+    "message": "ডেটা প্যাক"
+  },
+  "app.browse.project-type.modpacks": {
+    "message": "মডপ্যাক"
+  },
+  "app.browse.project-type.mods": {
+    "message": "মড"
+  },
+  "app.browse.project-type.plugins": {
+    "message": "প্লাগইন"
+  },
+  "app.browse.project-type.resource-packs": {
+    "message": "রিসোর্স প্যাক"
+  },
+  "app.browse.project-type.servers": {
+    "message": "সার্ভার"
+  },
+  "app.browse.project-type.shaders": {
+    "message": "শেডার"
+  },
+  "app.browse.server-instance-content-warning": {
+    "message": "কনটেন্ট যোগ করলে এই সার্ভারে যোগ দিতে না পারতে পারেন। আপনি যোগ করা কনটেন্ট পরিচালিত সার্ভার কনটেন্ট আপডেট হলে মুছে ফেলা হবে।"
+  },
+  "app.browse.server.installing": {
+    "message": "ইনস্টল হচ্ছে"
+  },
+  "app.changelog.current-version": {
+    "message": "বর্তমান সংস্করণ: {version}"
+  },
+  "app.changelog.title": {
+    "message": "রিলিজ নোট"
+  },
+  "app.changelog.you-are-here": {
+    "message": "আপনি এখানে আছেন"
+  },
+  "app.content-install.no-compatible-versions": {
+    "message": "{compatibilityLabel}-এর সাথে মেলে এমন কোনো সংস্করণ নেই। যেকোনো সংস্করণ ইনস্টল করতে বেছে নিন। নির্ভরতা স্বয়ংক্রিয়ভাবে ইনস্টল হবে না।"
+  },
+  "app.content.desync-pack": {
+    "message": "ডেসিঙ্ক"
+  },
+  "app.content.sync-data-packs-disabled": {
+    "message": "প্রথমে অ্যাপ সেটিংসে ডেটা প্যাক সিঙ্কিং চালু করুন।"
+  },
+  "app.content.sync-pack": {
+    "message": "সিঙ্ক"
+  },
+  "app.content.sync-packs-override": {
+    "message": "প্রথমে এই ইনস্ট্যান্সের সেটিংসে প্যাক সিঙ্কিং ওভাররাইড বন্ধ করুন।"
+  },
+  "app.content.sync-resource-packs-disabled": {
+    "message": "প্রথমে অ্যাপ সেটিংসে রিসোর্স প্যাক সিঙ্কিং চালু করুন।"
+  },
+  "app.debug-export.canceling": {
+    "message": "এক্সপোর্ট বাতিল হচ্ছে…"
+  },
+  "app.debug-export.exporting": {
+    "message": "এক্সপোর্ট হচ্ছে…"
+  },
+  "app.debug-export.finishing": {
+    "message": "শেষ করা হচ্ছে…"
+  },
+  "app.debug-export.preparing": {
+    "message": "ফাইল প্রস্তুত হচ্ছে…"
+  },
+  "app.download-manager.active": {
+    "message": "সক্রিয়"
+  },
+  "app.download-manager.attention": {
+    "message": "মনোযোগ প্রয়োজন"
+  },
+  "app.download-manager.bulk-update-content": {
+    "message": "{count, plural, one {# item} other {# items}} আপডেট হচ্ছে"
+  },
+  "app.download-manager.cancel": {
+    "message": "ইনস্টলেশন বাতিল করুন"
+  },
+  "app.download-manager.canceling": {
+    "message": "ইনস্টলেশন বাতিল হচ্ছে…"
+  },
+  "app.download-manager.clear-all": {
+    "message": "সব মুছুন"
+  },
+  "app.download-manager.clear-completed": {
+    "message": "সমাপ্ত সব কাজ মুছুন"
+  },
+  "app.download-manager.complete": {
+    "message": "সম্পন্ন"
+  },
+  "app.download-manager.duplicated-instance": {
+    "message": "ডুপ্লিকেট ইনস্ট্যান্স"
+  },
+  "app.download-manager.estimated-rate": {
+    "message": "আনুমানিক ডাউনলোড গতি"
+  },
+  "app.download-manager.eta": {
+    "message": "এই ডাউনলোডের অবশিষ্ট আনুমানিক সময়"
+  },
+  "app.download-manager.hide-tasks": {
+    "message": "কাজ লুকান"
+  },
+  "app.download-manager.imported-instance": {
+    "message": "আমদানি করা ইনস্ট্যান্স"
+  },
+  "app.download-manager.instance-installation": {
+    "message": "ইনস্ট্যান্স ইনস্টলেশন"
+  },
+  "app.download-manager.modpack": {
+    "message": "মডপ্যাক"
+  },
+  "app.download-manager.modpack-installation": {
+    "message": "মডপ্যাক ইনস্টলেশন"
+  },
+  "app.download-manager.new-instance": {
+    "message": "নতুন ইনস্ট্যান্স"
+  },
+  "app.download-manager.no-tasks": {
+    "message": "কোনো কাজ নেই"
+  },
+  "app.download-manager.pause": {
+    "message": "ইনস্টলেশন থামান"
+  },
+  "app.download-manager.paused": {
+    "message": "থামানো হয়েছে"
+  },
+  "app.download-manager.remove": {
+    "message": "ইতিহাস থেকে সরান"
+  },
+  "app.download-manager.resume": {
+    "message": "ইনস্টলেশন আবার শুরু করুন"
+  },
+  "app.download-manager.shared-instance": {
+    "message": "শেয়ার করা ইনস্ট্যান্স"
+  },
+  "app.download-manager.shared-instance-update": {
+    "message": "শেয়ার করা ইনস্ট্যান্স আপডেট"
+  },
+  "app.download-manager.show-tasks": {
+    "message": "কাজ দেখান"
+  },
+  "app.download-manager.tasks": {
+    "message": "কাজ"
+  },
+  "app.download-manager.title": {
+    "message": "ডাউনলোড ম্যানেজার"
+  },
+  "app.error.copied-debug-info": {
+    "message": "কপি করা হয়েছে"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "ডিবাগ তথ্য দেখুন"
+  },
+  "app.error.state-init.open-backups-folder": {
+    "message": "ব্যাকআপ ফোল্ডার খুলুন"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "মডপ্যাকের বিবরণ লিখুন..."
+  },
+  "app.export-modal.export-button": {
+    "message": "এক্সপোর্ট করুন"
+  },
+  "app.export-modal.export-complete": {
+    "message": "এক্সপোর্ট সম্পন্ন"
+  },
+  "app.export-modal.export-complete-description": {
+    "message": "{name} সফলভাবে এক্সপোর্ট হয়েছে।"
+  },
+  "app.export-modal.header": {
+    "message": "মডপ্যাক এক্সপোর্ট করুন"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "মডপ্যাকের নাম"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "মডপ্যাকের নাম"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "সংস্করণ নম্বর"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.features-settings.instance-pages.title": {
+    "message": "ইনস্ট্যান্স"
+  },
+  "app.features-settings.play-page.title": {
+    "message": "খেলার পৃষ্ঠা"
+  },
+  "app.features-settings.quick-instances.description": {
+    "message": "বাঁ সাইডবারে দেখানো সাম্প্রতিক ইনস্ট্যান্সের সর্বোচ্চ সংখ্যা বেছে নিন। বিভাজক টেনেও এটি সমন্বয় করা যায়।"
+  },
+  "app.features-settings.quick-instances.title": {
+    "message": "সাইডবারে দ্রুত ইনস্ট্যান্স"
+  },
+  "app.features-settings.show-all-screenshots.description": {
+    "message": "আপনার সব ইনস্ট্যান্সের স্ক্রিনশট দেখতে বাঁ সাইডবারে একটি বোতাম দেখান।"
+  },
+  "app.features-settings.show-all-screenshots.title": {
+    "message": "সাইডবারে সব স্ক্রিনশট দেখান"
+  },
+  "app.features-settings.show-files-tab.title": {
+    "message": "ইনস্ট্যান্সে ফাইল ট্যাব দেখান"
+  },
+  "app.features-settings.show-jump-in.description": {
+    "message": "খেলার পৃষ্ঠার ওপরে সম্প্রতি খেলা ওয়ার্ল্ড ও ইনস্ট্যান্স দেখান।"
+  },
+  "app.features-settings.show-jump-in.title": {
+    "message": "জাম্প ইন বিভাগ দেখান"
+  },
+  "app.features-settings.show-screenshots-tab.title": {
+    "message": "ইনস্ট্যান্সে স্ক্রিনশট ট্যাব দেখান"
+  },
+  "app.features-settings.show-skin-selector.description": {
+    "message": "অ্যাকাউন্ট ব্যবস্থাপনা খুলতে সাইডবারে একটি বোতাম দেখান।"
+  },
+  "app.features-settings.show-skin-selector.title": {
+    "message": "সাইডবারে অ্যাকাউন্ট ব্যবস্থাপনা বোতাম দেখান"
+  },
+  "app.features-settings.show-worlds-tab.title": {
+    "message": "ইনস্ট্যান্সে ওয়ার্ল্ড ট্যাব দেখান"
+  },
+  "app.features-settings.sidebar.title": {
+    "message": "সাইডবার"
+  },
+  "app.features-settings.sync-across-devices.description": {
+    "message": "আপনি যেখানে সাইন ইন করেছেন সব জায়গায় এই ফিচার-সেটিংস ব্যবহার করুন। এই ডিভাইসে আলাদা সেটিংস রাখতে এটি বন্ধ করুন।"
+  },
+  "app.features-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "সেটিংস সিঙ্ক করতে Panda Minecraft Launcher অ্যাকাউন্টে সাইন ইন করুন।"
+  },
+  "app.features-settings.sync-across-devices.title": {
+    "message": "ডিভাইসজুড়ে ফিচার সিঙ্ক করুন"
+  },
+  "app.file-download.canceling": {
+    "message": "ডাউনলোড বাতিল হচ্ছে…"
+  },
+  "app.file-download.preparing": {
+    "message": "ডাউনলোড প্রস্তুত হচ্ছে…"
+  },
+  "app.file-download.waiting": {
+    "message": "সার্ভারের অপেক্ষায়…"
+  },
+  "app.home.jump-back-in.actions.label": {
+    "message": "ইনস্ট্যান্সের কাজ"
+  },
+  "app.home.jump-back-in.instance-locked": {
+    "message": "এই ইনস্ট্যান্স লক করা হয়েছে"
+  },
+  "app.home.jump-back-in.instance-open": {
+    "message": "ইনস্ট্যান্স আগেই খোলা আছে"
+  },
+  "app.home.jump-back-in.more-options": {
+    "message": "আরও বিকল্প"
+  },
+  "app.home.jump-back-in.never-played": {
+    "message": "কখনো খেলা হয়নি"
+  },
+  "app.home.jump-back-in.new-instance": {
+    "message": "নতুন ইনস্ট্যান্স"
+  },
+  "app.home.jump-back-in.resize": {
+    "message": "আকার বদলাতে টানুন"
+  },
+  "app.home.jump-back-in.title": {
+    "message": "জাম্প ইন"
+  },
+  "app.home.jump-back-in.view-instance": {
+    "message": "ইনস্ট্যান্স দেখুন"
+  },
+  "app.hosting.update-required.description": {
+    "message": "Panda Minecraft Launcher ব্যবহার করতে আপনাকে আপডেট করতে হবে"
+  },
+  "app.hosting.update-required.download": {
+    "message": "আপডেটের জন্য ডাউনলোড করুন"
+  },
+  "app.hosting.update-required.rinthbot-alt": {
+    "message": "উৎসাহিত Panda Minecraft Launcher বট"
+  },
+  "app.hosting.update-required.title": {
+    "message": "Panda Minecraft Launcher আপডেট প্রয়োজন"
+  },
+  "app.install.phase.downloading_content": {
+    "message": "কনটেন্ট ডাউনলোড হচ্ছে"
+  },
+  "app.install.phase.downloading_minecraft": {
+    "message": "Minecraft ডাউনলোড হচ্ছে"
+  },
+  "app.install.phase.downloading_pack_file": {
+    "message": "প্যাক ফাইল ডাউনলোড হচ্ছে"
+  },
+  "app.install.phase.extracting_overrides": {
+    "message": "ওভাররাইড বের করা হচ্ছে"
+  },
+  "app.install.phase.finalizing": {
+    "message": "চূড়ান্ত করা হচ্ছে"
+  },
+  "app.install.phase.preparing_instance": {
+    "message": "ইনস্টলেশনের অপেক্ষায় আছে"
+  },
+  "app.install.phase.preparing_java": {
+    "message": "Java প্রস্তুত হচ্ছে"
+  },
+  "app.install.phase.preparing_java.downloading": {
+    "message": "Java {version} ডাউনলোড হচ্ছে"
+  },
+  "app.install.phase.preparing_java.extracting": {
+    "message": "Java {version} বের করা হচ্ছে"
+  },
+  "app.install.phase.preparing_java.fetching-metadata": {
+    "message": "Java {version} সংগ্রহ করা হচ্ছে"
+  },
+  "app.install.phase.preparing_java.resolving": {
+    "message": "Java {version} প্রস্তুত হচ্ছে"
+  },
+  "app.install.phase.preparing_java.validating": {
+    "message": "Java {version} যাচাই হচ্ছে"
+  },
+  "app.install.phase.reading_pack_manifest": {
+    "message": "প্যাক ম্যানিফেস্ট পড়া হচ্ছে"
+  },
+  "app.install.phase.resolving_loader": {
+    "message": "লোডার ঠিক করা হচ্ছে"
+  },
+  "app.install.phase.resolving_minecraft": {
+    "message": "Minecraft ঠিক করা হচ্ছে"
+  },
+  "app.install.phase.resolving_pack": {
+    "message": "কনটেন্ট ঠিক করা হচ্ছে"
+  },
+  "app.install.phase.rolling_back": {
+    "message": "পূর্বের অবস্থায় ফেরানো হচ্ছে"
+  },
+  "app.install.phase.running_loader_processors": {
+    "message": "লোডার প্রসেসর চালানো হচ্ছে"
+  },
+  "app.instance.action.add-content": {
+    "message": "কনটেন্ট যোগ করুন"
+  },
+  "app.instance.action.copy-path": {
+    "message": "পথ কপি করুন"
+  },
+  "app.instance.action.edit": {
+    "message": "সম্পাদনা করুন"
+  },
+  "app.instance.action.open-folder": {
+    "message": "ফোল্ডার খুলুন"
+  },
+  "app.instance.action.play": {
+    "message": "খেলুন"
+  },
+  "app.instance.action.stop": {
+    "message": "বন্ধ করুন"
+  },
+  "app.instance.actions.label": {
+    "message": "ইনস্ট্যান্সের কাজ"
+  },
+  "app.instance.add-server.add": {
+    "message": "যোগ করুন"
+  },
+  "app.instance.add-server.added": {
+    "message": "যোগ করা হয়েছে"
+  },
+  "app.instance.add-server.adding": {
+    "message": "যোগ করা হচ্ছে..."
+  },
+  "app.instance.add-server.cancel": {
+    "message": "বাতিল"
+  },
+  "app.instance.add-server.compatibility-warning": {
+    "message": "এই সার্ভারটি সব ইনস্ট্যান্সের সাথে মানানসই নাও হতে পারে।"
+  },
+  "app.instance.add-server.search-placeholder": {
+    "message": "একটি ইনস্ট্যান্স খুঁজুন"
+  },
+  "app.instance.add-server.title": {
+    "message": "ইনস্ট্যান্সে সার্ভার যোগ করুন"
+  },
+  "app.instance.admonitions.shared-instance.added-label": {
+    "message": "যোগ করা হয়েছে"
+  },
+  "app.instance.admonitions.shared-instance.changes-body": {
+    "message": "আপনার স্থানীয় ইনস্ট্যান্স যাদের সাথে শেয়ার করেছেন তাদের চেয়ে এগিয়ে আছে।"
+  },
+  "app.instance.admonitions.shared-instance.changes-header": {
+    "message": "আপনার পরিবর্তনগুলো এখনো শেয়ার হয়নি"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-body": {
+    "message": "আপনি অন্য Panda Minecraft Launcher ইনস্টলেশন থেকে এই শেয়ার করা ইনস্ট্যান্সে আপডেট পুশ করেছেন। এখান থেকে পরিচালনা চালিয়ে যেতে সর্বশেষ পরিবর্তনগুলো ডাউনলোড করুন।"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-button": {
+    "message": "আপডেট ডাউনলোড করুন"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-header": {
+    "message": "আপডেট পাওয়া গেছে"
+  },
+  "app.instance.admonitions.shared-instance.publish-button": {
+    "message": "আপডেট পুশ করুন"
+  },
+  "app.instance.admonitions.shared-instance.publishing-button": {
+    "message": "পুশ হচ্ছে..."
+  },
+  "app.instance.admonitions.shared-instance.removed-label": {
+    "message": "সরানো হয়েছে"
+  },
+  "app.instance.admonitions.shared-instance.restored-body": {
+    "message": "এই ইনস্ট্যান্স আপনি পুশ করা শেষ সংস্করণ থেকে ফিরিয়ে আনা হয়েছে। আপনি এখনো পুশ নি করা কনফিগ পরিবর্তন বা অন্য ইনস্টলেশনের কনটেন্ট এতে নেই।"
+  },
+  "app.instance.admonitions.shared-instance.restored-header": {
+    "message": "শুধু পুশ করা কনটেন্ট ডাউনলোড হয়েছে"
+  },
+  "app.instance.admonitions.shared-instance.review-admonition-header": {
+    "message": "আপডেট পুশ করুন"
+  },
+  "app.instance.admonitions.shared-instance.review-description": {
+    "message": "এই ইনস্ট্যান্স ব্যবহারকারী সবার সাথে শেয়ার হতে যাওয়া কনটেন্টের পরিবর্তনগুলো দেখে নিন।"
+  },
+  "app.instance.admonitions.shared-instance.review-header": {
+    "message": "পরিবর্তন দেখে নিন"
+  },
+  "app.instance.admonitions.shared-instance.reviewing-button": {
+    "message": "দেখে নেওয়া হচ্ছে..."
+  },
+  "app.instance.card.icon-alt": {
+    "message": "ইনস্ট্যান্স আইকন"
+  },
+  "app.instance.card.installing": {
+    "message": "ইনস্টল হচ্ছে..."
+  },
+  "app.instance.card.loading": {
+    "message": "ইনস্ট্যান্স লোড হচ্ছে..."
+  },
+  "app.instance.card.never-played": {
+    "message": "কখনো খেলা হয়নি"
+  },
+  "app.instance.card.play": {
+    "message": "খেলুন"
+  },
+  "app.instance.card.played": {
+    "message": "{relativeTime} খেলা হয়েছে"
+  },
+  "app.instance.card.repair": {
+    "message": "মেরামত করুন"
+  },
+  "app.instance.card.stop": {
+    "message": "বন্ধ করুন"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "আপনার ইনস্ট্যান্সের সমস্ত ডেটা স্থায়ীভাবে মুছে ফেলা হবে, যার মধ্যে ওয়ার্ল্ড, কনফিগ এবং সব ইনস্টল করা কনটেন্ট রয়েছে।"
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "এই কাজ পূর্বের অবস্থায় ফেরানো যাবে না"
+  },
+  "app.instance.confirm-delete.bulk-admonition-body": {
+    "message": "এই {count} টি ইনস্ট্যান্সের সব ডেটা স্থায়ীভাবে মুছে ফেলা হবে, যার মধ্যে তাদের ওয়ার্ল্ড, কনফিগ ও ইনস্টল করা কনটেন্ট রয়েছে।"
+  },
+  "app.instance.confirm-delete.bulk-delete-button": {
+    "message": "{count} টি ইনস্ট্যান্স মুছুন"
+  },
+  "app.instance.confirm-delete.bulk-header": {
+    "message": "{count} টি ইনস্ট্যান্স মুছুন"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "ইনস্ট্যান্স মুছুন"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "ইনস্ট্যান্স মুছুন"
+  },
+  "app.instance.confirm-delete.instances-label": {
+    "message": "{count, plural, one {Instance} other {Instances ({count})}}"
+  },
+  "app.instance.content.managed-content.modpack-header": {
+    "message": "মডপ্যাক কনটেন্ট"
+  },
+  "app.instance.content.managed-content.shared-header": {
+    "message": "শেয়ার করা কনটেন্ট"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "এই মডপ্যাকটি <bold>{instanceName}</bold> ইনস্ট্যান্সে আগেই ইনস্টল করা আছে। আপনি কি নিশ্চিত যে এটি ডুপ্লিকেট করতে চান?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "তৈরি করুন"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "মডপ্যাক আগেই ইনস্টল করা আছে"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "ইনস্ট্যান্স"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "প্রকল্প"
+  },
+  "app.instance.mods.freeze-content": {
+    "message": "সংস্করণ স্থির করুন"
+  },
+  "app.instance.mods.locked-content": {
+    "message": "লক করা ইনস্ট্যান্সের কনটেন্ট বদলানো যাবে না।"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" যোগ করা হয়েছে"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} টি প্রকল্প যোগ করা হয়েছে"
+  },
+  "app.instance.mods.share-text": {
+    "message": "আমার মডপ্যাকে আমি যে প্রকল্পগুলো ব্যবহার করছি দেখুন!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "মডপ্যাক কনটেন্ট শেয়ার করা হচ্ছে"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "সফলভাবে আপলোড হয়েছে"
+  },
+  "app.instance.mods.unfreeze-content": {
+    "message": "সংস্করণের স্থিরতা তুলুন"
+  },
+  "app.instance.navigation.back-to-instance": {
+    "message": "ইনস্ট্যান্সে ফিরে যান"
+  },
+  "app.instance.server.offline.description": {
+    "message": "এই সার্ভারটি এখন অফলাইন। আপনি Minecraft চালু করতে পারেন, কিন্তু সংযোগ করতে না পারতে পারেন।"
+  },
+  "app.instance.server.offline.launch-anyway": {
+    "message": "যেকোনোভাবে চালু করুন"
+  },
+  "app.instance.server.offline.title": {
+    "message": "সার্ভার অফলাইন আছে"
+  },
+  "app.instance.server.status.unknown": {
+    "message": "অবস্থা অজানা"
+  },
+  "app.instance.share.empty.description": {
+    "message": "আপনি এই ইনস্ট্যান্সটি বন্ধুদের সাথে শেয়ার করতে পারেন!"
+  },
+  "app.instance.share.empty.heading": {
+    "message": "কোনো বন্ধু আমন্ত্রিত নেই"
+  },
+  "app.instance.share.empty.invite-friends-button": {
+    "message": "বন্ধু আমন্ত্রণ করুন"
+  },
+  "app.instance.share.invite-friends": {
+    "message": "বন্ধু আমন্ত্রণ করুন"
+  },
+  "app.instance.share.invite-modal.heading": {
+    "message": "{name} শেয়ার করুন"
+  },
+  "app.instance.share.invite-modal.user-limit-reached": {
+    "message": "এই ইনস্ট্যান্সে {limit} ব্যবহারকারীর সীমায় পৌঁছে গেছে।"
+  },
+  "app.instance.share.limit-reached.description": {
+    "message": "আপনি আগেই সর্বোচ্চ {limit} টি ইনস্ট্যান্স শেয়ার করেছেন।"
+  },
+  "app.instance.share.limit-reached.heading": {
+    "message": "শেয়ার করা ইনস্ট্যান্সের সীমায় পৌঁছে গেছে"
+  },
+  "app.instance.share.limit-reached.manage-button": {
+    "message": "শেয়ার করা ইনস্ট্যান্স পরিচালনা করুন"
+  },
+  "app.instance.share.locked.empty-description-prefix": {
+    "message": "এই হিসেবে সাইন ইন করতে হবে"
+  },
+  "app.instance.share.locked.empty-description-suffix": {
+    "message": "এই পৃষ্ঠায় প্রবেশ করতে।"
+  },
+  "app.instance.share.locked.linked-account-fallback": {
+    "message": "লিংক করা অ্যাকাউন্ট"
+  },
+  "app.instance.share.locked.signed-out-heading": {
+    "message": "সাইন ইন করা নেই"
+  },
+  "app.instance.share.locked.switch-account-button": {
+    "message": "অ্যাকাউন্ট বদলান"
+  },
+  "app.instance.share.locked.wrong-account-heading": {
+    "message": "ভুল অ্যাকাউন্ট"
+  },
+  "app.instance.share.remove-user-modal.effect-access": {
+    "message": "তারা এই শেয়ার করা ইনস্ট্যান্সের আপডেট আর পাবেন না"
+  },
+  "app.instance.share.remove-user-modal.effect-installed-copy": {
+    "message": "তারা আগে ইনস্টল করা কপি ডিভাইসে রেখে দিতে পারবেন"
+  },
+  "app.instance.share.remove-user-modal.effect-invite-again": {
+    "message": "আপনি পরে তাদের আবার আমন্ত্রণ করতে পারেন"
+  },
+  "app.instance.share.remove-user-modal.effect-last-user": {
+    "message": "এটি শেষ ব্যবহারকারী; এই ইনস্ট্যান্সের শেয়ারিং বন্ধ হয়ে যাবে"
+  },
+  "app.instance.share.remove-user-modal.effects-label": {
+    "message": "কী ঘটবে?"
+  },
+  "app.instance.share.remove-user-modal.header": {
+    "message": "প্রবেশ প্রত্যাহার করুন"
+  },
+  "app.instance.share.remove-user-modal.remove-button": {
+    "message": "প্রবেশ প্রত্যাহার করুন"
+  },
+  "app.instance.share.remove-user-modal.user-avatar-alt": {
+    "message": "{username}-এর অ্যাভাটার"
+  },
+  "app.instance.share.remove-user-modal.warning-body": {
+    "message": "আপনি {username}-এর এই শেয়ার করা ইনস্ট্যান্সের প্রবেশ প্রত্যাহার করলে আপডেট পেতে তাকে আবার আমন্ত্রণ করতে হবে।"
+  },
+  "app.instance.share.sign-in.button": {
+    "message": "সাইন ইন করুন"
+  },
+  "app.instance.share.unable-to-connect.description": {
+    "message": "শেয়ার করা ইনস্ট্যান্স পরিষেবা এখন প্রবেশযোগ্য নেই, অনুগ্রহ করে পরে আবার চেষ্টা করুন"
+  },
+  "app.instance.share.unable-to-connect.heading": {
+    "message": "সংযোগ করা যাচ্ছে না"
+  },
+  "app.instance.share.unlink.body": {
+    "message": "আপনার ইনস্ট্যান্স শেয়ার করতে এই মডপ্যাকের লিংক তুলে দিতে হবে"
+  },
+  "app.instance.share.unlink.header": {
+    "message": "শেয়ার করতে লিংক তুলে দিতে হবে"
+  },
+  "app.instance.shared-instance-already-installed.body": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্সটি <bold>{instanceName}</bold> হিসেবে আগেই ইনস্টল করা আছে। আপনি কি নিশ্চিত যে আরেকটি কপি ইনস্টল করতে চান?"
+  },
+  "app.instance.shared-instance-already-installed.header": {
+    "message": "শেয়ার করা ইনস্ট্যান্স আগেই ইনস্টল করা আছে"
+  },
+  "app.instance.shared-instance-already-installed.install-anyway": {
+    "message": "যেকোনোভাবে ইনস্টল করুন"
+  },
+  "app.instance.shared-instance-already-installed.instance": {
+    "message": "ইনস্ট্যান্স"
+  },
+  "app.instance.shared-instance-wrong-account.fallback-username": {
+    "message": "লিংক করা অ্যাকাউন্ট"
+  },
+  "app.instance.shared-instance-wrong-account.owner-admonition-body-v2": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্স পরিচালনা করতে। আপনি ব্যবহারকারীদের কাছে আপডেট পুশ করতে পারবেন না।"
+  },
+  "app.instance.shared-instance-wrong-account.sign-in-as-label": {
+    "message": "এই হিসেবে সাইন ইন করুন"
+  },
+  "app.instance.shared-instance-wrong-account.signed-out-header": {
+    "message": "আপনাকে Panda Minecraft Launcher-এ সাইন ইন করতে হবে"
+  },
+  "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্সের আপডেট পেতে।"
+  },
+  "app.instance.shared-instance-wrong-account.warning-header": {
+    "message": "আপনি ভুল Panda Minecraft Launcher অ্যাকাউন্ট ব্যবহার করছেন"
+  },
+  "app.instance.shortcut.created": {
+    "message": "শর্টকাট তৈরি হয়েছে"
+  },
+  "app.instance.shortcut.creation-error": {
+    "message": "শর্টকাট তৈরিতে ত্রুটি"
+  },
+  "app.instance.tab.content": {
+    "message": "কনটেন্ট"
+  },
+  "app.instance.tab.files": {
+    "message": "ফাইল"
+  },
+  "app.instance.tab.logs": {
+    "message": "লগ"
+  },
+  "app.instance.tab.screenshots": {
+    "message": "স্ক্রিনশট"
+  },
+  "app.instance.tab.share": {
+    "message": "শেয়ার"
+  },
+  "app.instance.tab.worlds": {
+    "message": "ওয়ার্ল্ড"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "সার্ভার যোগ করুন"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "সার্ভার ব্রাউজ করুন"
+  },
+  "app.instance.worlds.delete-world-modal.delete-button": {
+    "message": "ওয়ার্ল্ড মুছুন"
+  },
+  "app.instance.worlds.delete-world-modal.title": {
+    "message": "ওয়ার্ল্ড মুছুন"
+  },
+  "app.instance.worlds.delete-world-modal.warning-body": {
+    "message": "এই ওয়ার্ল্ডটি ইনস্ট্যান্স থেকে স্থায়ীভাবে মুছে ফেলা হবে। এই কাজ পূর্বের অবস্থায় ফেরানো যাবে না।"
+  },
+  "app.instance.worlds.delete-world-modal.warning-header": {
+    "message": "{name} মুছে ফেলা হচ্ছে"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "মডসহ"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "অফলাইন"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "অনলাইন"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "ভ্যানিলা"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "শুরু করতে একটি সার্ভার যোগ করুন বা ব্রাউজ করুন"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "কোনো সার্ভার বা ওয়ার্ল্ড যোগ করা নেই"
+  },
+  "app.instance.worlds.refreshing": {
+    "message": "রিফ্রেশ হচ্ছে..."
+  },
+  "app.instance.worlds.remove-server-modal.remove-button": {
+    "message": "সার্ভার সরান"
+  },
+  "app.instance.worlds.remove-server-modal.remove-everywhere": {
+    "message": "সব জায়গা থেকে সরান"
+  },
+  "app.instance.worlds.remove-server-modal.remove-here": {
+    "message": "এখান থেকে সরান"
+  },
+  "app.instance.worlds.remove-server-modal.synced-description": {
+    "message": "আপনি এটি শুধু এই ইনস্ট্যান্স থেকে বা সব সিঙ্ক করা ইনস্ট্যান্স থেকে সরাতে পারেন। শুধু এখান থেকে সরালে ওভাররাইড চালু হবে এবং এই ইনস্ট্যান্সে সিঙ্ক করা সার্ভারের পরিবর্তন আর পৌঁছাবে না।"
+  },
+  "app.instance.worlds.remove-server-modal.synced-header": {
+    "message": "এই সার্ভার সিঙ্ক করা আছে"
+  },
+  "app.instance.worlds.remove-server-modal.title": {
+    "message": "সার্ভার সরান"
+  },
+  "app.instance.worlds.remove-server-modal.warning-body": {
+    "message": "এই সার্ভারটি আপনার তালিকা এবং গেমের সার্ভার তালিকা থেকে সরানো হবে। ঠিকানা জানলে পরে আবার যোগ করতে পারেন।"
+  },
+  "app.instance.worlds.remove-server-modal.warning-header": {
+    "message": "{name} সরানো হচ্ছে"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "{count} টি ওয়ার্ল্ড খুঁজুন..."
+  },
+  "app.java-detection.cancel": {
+    "message": "বাতিল"
+  },
+  "app.java-detection.columns.actions": {
+    "message": "কাজ"
+  },
+  "app.java-detection.columns.path": {
+    "message": "পথ"
+  },
+  "app.java-detection.columns.version": {
+    "message": "সংস্করণ"
+  },
+  "app.java-detection.no-installations-found": {
+    "message": "কোনো Java ইনস্টলেশন পাওয়া যায়নি।"
+  },
+  "app.java-detection.select": {
+    "message": "নির্বাচন করুন"
+  },
+  "app.java-detection.selected": {
+    "message": "নির্বাচিত"
+  },
+  "app.java-detection.title": {
+    "message": "Java ইনস্টলেশন বেছে নিন"
+  },
+  "app.java-selector.browse": {
+    "message": "ব্রাউজ করুন"
+  },
+  "app.java-selector.copy-failed-title": {
+    "message": "পথ কপি করতে ব্যর্থ"
+  },
+  "app.java-selector.copy-path": {
+    "message": "পথ কপি করুন"
+  },
+  "app.java-selector.detect": {
+    "message": "শনাক্ত করুন"
+  },
+  "app.java-selector.edit-path": {
+    "message": "পথ সম্পাদনা করুন"
+  },
+  "app.java-selector.install-java": {
+    "message": "Java {version} ইনস্টল করুন"
+  },
+  "app.java-selector.installing": {
+    "message": "ইনস্টল হচ্ছে..."
+  },
+  "app.java-selector.invalid": {
+    "message": "অবৈধ"
+  },
+  "app.java-selector.more-options": {
+    "message": "আরও Java বিকল্প"
+  },
+  "app.java-selector.not-set": {
+    "message": "কোনো Java বেছে নেওয়া নেই"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "Java পথ ক্লিপবোর্ডে কপি করা হয়েছে।"
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "পথ কপি করা হয়েছে"
+  },
+  "app.java-selector.path.placeholder": {
+    "message": "/path/to/java"
+  },
+  "app.java-selector.valid": {
+    "message": "বৈধ"
+  },
+  "app.library.actions.label": {
+    "message": "লাইব্রেরির কাজ"
+  },
+  "app.library.context-menu.create-instance": {
+    "message": "নতুন ইনস্ট্যান্স"
+  },
+  "app.library.filter.add": {
+    "message": "ফিল্টার যোগ করুন"
+  },
+  "app.library.filter.clear": {
+    "message": "ফিল্টার মুছুন"
+  },
+  "app.library.filter.game-version": {
+    "message": "গেমের সংস্করণ"
+  },
+  "app.library.filter.install-state": {
+    "message": "ইনস্টল অবস্থা"
+  },
+  "app.library.filter.install-state.installed": {
+    "message": "ইনস্টল করা"
+  },
+  "app.library.filter.install-state.not-installed": {
+    "message": "ইনস্টল করা নেই"
+  },
+  "app.library.filter.instance-type": {
+    "message": "ইনস্ট্যান্সের ধরন"
+  },
+  "app.library.filter.instance-type.custom": {
+    "message": "কাস্টম"
+  },
+  "app.library.filter.instance-type.modpack": {
+    "message": "মডপ্যাক"
+  },
+  "app.library.filter.instance-type.server": {
+    "message": "সার্ভার"
+  },
+  "app.library.filter.label": {
+    "message": "এই অনুযায়ী ফিল্টার করুন"
+  },
+  "app.library.filter.loader": {
+    "message": "লোডার"
+  },
+  "app.library.filter.owner": {
+    "message": "মালিক"
+  },
+  "app.library.filter.owner.me": {
+    "message": "আপনি"
+  },
+  "app.library.filter.owner.others": {
+    "message": "অন্যরা"
+  },
+  "app.library.filter.sharing": {
+    "message": "শেয়ারিং"
+  },
+  "app.library.filter.sharing.not-shared": {
+    "message": "শেয়ার করা নেই"
+  },
+  "app.library.filter.sharing.shared": {
+    "message": "শেয়ার করা"
+  },
+  "app.library.group-by.custom-group": {
+    "message": "কাস্টম গ্রুপ"
+  },
+  "app.library.group-by.game-version": {
+    "message": "গেমের সংস্করণ"
+  },
+  "app.library.group-by.instance-type": {
+    "message": "ইনস্ট্যান্সের ধরন"
+  },
+  "app.library.group-by.label": {
+    "message": "এই অনুযায়ী গ্রুপ করুন"
+  },
+  "app.library.group-by.loader": {
+    "message": "লোডার"
+  },
+  "app.library.group-by.none": {
+    "message": "কোনো গ্রুপ নেই"
+  },
+  "app.library.group.actions.label": {
+    "message": "গ্রুপের কাজ"
+  },
+  "app.library.group.collapse": {
+    "message": "গ্রুপ সংকুচিত করুন"
+  },
+  "app.library.group.context-menu.add-to-group": {
+    "message": "গ্রুপে যোগ করুন"
+  },
+  "app.library.group.create": {
+    "message": "গ্রুপ তৈরি করুন"
+  },
+  "app.library.group.create.cancel": {
+    "message": "বাতিল"
+  },
+  "app.library.group.delete": {
+    "message": "গ্রুপ মুছুন"
+  },
+  "app.library.group.delete-description": {
+    "message": "এই গ্রুপের ইনস্ট্যান্সগুলোর গ্রুপ বাতিল হবে।"
+  },
+  "app.library.group.edit-name": {
+    "message": "গ্রুপের নাম সম্পাদনা করুন"
+  },
+  "app.library.group.empty": {
+    "message": "ইনস্ট্যান্স যোগ করতে টেনে ছেড়ে দিন।"
+  },
+  "app.library.group.expand": {
+    "message": "গ্রুপ প্রসারিত করুন"
+  },
+  "app.library.group.favorites": {
+    "message": "পছন্দ"
+  },
+  "app.library.group.instance.add": {
+    "message": "যোগ করুন"
+  },
+  "app.library.group.instance.added": {
+    "message": "যোগ করা হয়েছে"
+  },
+  "app.library.group.instances-modal.add": {
+    "message": "যোগ করুন"
+  },
+  "app.library.group.instances-modal.added": {
+    "message": "যোগ করা হয়েছে"
+  },
+  "app.library.group.instances-modal.no-instances-found": {
+    "message": "কোনো ইনস্ট্যান্স পাওয়া যায়নি"
+  },
+  "app.library.group.instances-modal.search-placeholder": {
+    "message": "ইনস্ট্যান্স খুঁজুন"
+  },
+  "app.library.group.instances-modal.title": {
+    "message": "\"{groupName}\"-এ ইনস্ট্যান্স যোগ করুন"
+  },
+  "app.library.group.move-down": {
+    "message": "গ্রুপ নিচে সরান"
+  },
+  "app.library.group.move-up": {
+    "message": "গ্রুপ ওপরে সরান"
+  },
+  "app.library.group.name": {
+    "message": "গ্রুপের নাম"
+  },
+  "app.library.group.name-empty": {
+    "message": "গ্রুপের নাম খালি রাখা যাবে না।"
+  },
+  "app.library.group.name-placeholder": {
+    "message": "গ্রুপের নাম লিখুন"
+  },
+  "app.library.group.name-reserved": {
+    "message": "\"None\" সংরক্ষিত; গ্রুপের নাম হিসেবে ব্যবহার করা যাবে না।"
+  },
+  "app.library.group.name-too-long": {
+    "message": "গ্রুপের নাম {maxLength} অক্ষরের বেশি হতে পারে না।"
+  },
+  "app.library.group.new": {
+    "message": "নতুন গ্রুপ"
+  },
+  "app.library.group.no-instances-found": {
+    "message": "কোনো ইনস্ট্যান্স পাওয়া যায়নি"
+  },
+  "app.library.group.rename-failed": {
+    "message": "গ্রুপের নাম বদলানো যাচ্ছে না"
+  },
+  "app.library.group.search-instance": {
+    "message": "ইনস্ট্যান্স খুঁজুন"
+  },
+  "app.library.group.ungrouped": {
+    "message": "গ্রুপভুক্ত নয়"
+  },
+  "app.library.group.unknown": {
+    "message": "অজানা গ্রুপ"
+  },
+  "app.library.instance-hidden.text": {
+    "message": "আপনি সেটিংস > আচরণ-এ আবার দেখাতে পারেন।"
+  },
+  "app.library.instance-hidden.title": {
+    "message": "লাইব্রেরি থেকে লুকানো"
+  },
+  "app.library.instance.action.add-content": {
+    "message": "কনটেন্ট যোগ করুন"
+  },
+  "app.library.instance.action.add-to-favorites": {
+    "message": "পছন্দে যোগ করুন"
+  },
+  "app.library.instance.action.copy-path": {
+    "message": "পথ কপি করুন"
+  },
+  "app.library.instance.action.delete": {
+    "message": "মুছুন"
+  },
+  "app.library.instance.action.duplicate": {
+    "message": "ইনস্ট্যান্স ডুপ্লিকেট করুন"
+  },
+  "app.library.instance.action.hide-from-library": {
+    "message": "লাইব্রেরি থেকে লুকান"
+  },
+  "app.library.instance.action.leave": {
+    "message": "চলে যান"
+  },
+  "app.library.instance.action.open-folder": {
+    "message": "ফোল্ডার খুলুন"
+  },
+  "app.library.instance.action.play": {
+    "message": "খেলুন"
+  },
+  "app.library.instance.action.remove-from-favorites": {
+    "message": "পছন্দ থেকে সরান"
+  },
+  "app.library.instance.action.remove-from-group": {
+    "message": "গ্রুপ থেকে সরান"
+  },
+  "app.library.instance.action.show-in-library": {
+    "message": "লাইব্রেরিতে দেখান"
+  },
+  "app.library.instance.action.stop": {
+    "message": "বন্ধ করুন"
+  },
+  "app.library.instance.action.unpublish": {
+    "message": "প্রকাশনা বাতিল"
+  },
+  "app.library.instance.action.unpublish-and-leave": {
+    "message": "প্রকাশনা বাতিল করে চলে যান"
+  },
+  "app.library.instance.action.view-instance": {
+    "message": "ইনস্ট্যান্স দেখুন"
+  },
+  "app.library.instance.actions.label": {
+    "message": "ইনস্ট্যান্সের কাজ"
+  },
+  "app.library.instance.deselect": {
+    "message": "ইনস্ট্যান্সের নির্বাচন বাতিল"
+  },
+  "app.library.instance.deselect-with-name": {
+    "message": "{name}-এর নির্বাচন বাতিল করুন"
+  },
+  "app.library.instance.install": {
+    "message": "ইনস্টল করুন"
+  },
+  "app.library.instance.install-with-name": {
+    "message": "{name} ইনস্টল করুন"
+  },
+  "app.library.instance.installing": {
+    "message": "ইনস্টল হচ্ছে..."
+  },
+  "app.library.instance.loading": {
+    "message": "ইনস্ট্যান্স লোড হচ্ছে..."
+  },
+  "app.library.instance.new": {
+    "message": "নতুন ইনস্ট্যান্স"
+  },
+  "app.library.instance.open-with-name": {
+    "message": "{name} খুলুন"
+  },
+  "app.library.instance.play": {
+    "message": "খেলুন"
+  },
+  "app.library.instance.repair": {
+    "message": "মেরামত করুন"
+  },
+  "app.library.instance.select": {
+    "message": "ইনস্ট্যান্স বেছে নিন"
+  },
+  "app.library.instance.select-with-name": {
+    "message": "{name} বেছে নিন"
+  },
+  "app.library.instance.shared-by": {
+    "message": "{name} শেয়ার করেছেন"
+  },
+  "app.library.instance.shared-by-owner": {
+    "message": "<owner>{name}</owner> শেয়ার করেছেন"
+  },
+  "app.library.instance.shared-by-you": {
+    "message": "আপনি শেয়ার করেছেন"
+  },
+  "app.library.instance.stop": {
+    "message": "বন্ধ করুন"
+  },
+  "app.library.leave-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {You'll lose access to this shared instance and it will be removed from your library. You'll need a new invite to join it again.} other {You'll lose access to these shared instances and they will be removed from your library. You'll need a new invite to join them again.}}"
+  },
+  "app.library.leave-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Leaving shared instance} other {Leaving # shared instances}}"
+  },
+  "app.library.leave-shared-instance.modal.header": {
+    "message": "{count, plural, one {Leave shared instance} other {Leave # shared instances}}"
+  },
+  "app.library.search.no-results.title": {
+    "message": "আপনার খোঁজার সাথে কোনো ইনস্ট্যান্স মেলেনি।"
+  },
+  "app.library.search.placeholder": {
+    "message": "খুঁজুন"
+  },
+  "app.library.selection.aria-label": {
+    "message": "নির্বাচিত ইনস্ট্যান্স"
+  },
+  "app.library.selection.deleting": {
+    "message": "নির্বাচিত ইনস্ট্যান্স মুছে ফেলা হচ্ছে"
+  },
+  "app.library.selection.new-group": {
+    "message": "নতুন গ্রুপ"
+  },
+  "app.library.selection.remove-from-group": {
+    "message": "গ্রুপ থেকে সরান"
+  },
+  "app.library.selection.removing-shared-instances": {
+    "message": "নির্বাচিত শেয়ার করা ইনস্ট্যান্স সরানো হচ্ছে"
+  },
+  "app.library.selection.selected-count": {
+    "message": "{count} টি নির্বাচিত"
+  },
+  "app.library.sort.date-created": {
+    "message": "তৈরির তারিখ"
+  },
+  "app.library.sort.date-modified": {
+    "message": "সংশোধনের তারিখ"
+  },
+  "app.library.sort.game-version": {
+    "message": "গেমের সংস্করণ"
+  },
+  "app.library.sort.hours-played": {
+    "message": "খেলার ঘণ্টা"
+  },
+  "app.library.sort.label": {
+    "message": "এই অনুযায়ী সাজান"
+  },
+  "app.library.sort.last-played": {
+    "message": "সর্বশেষ খেলা"
+  },
+  "app.library.sort.loader": {
+    "message": "লোডার"
+  },
+  "app.library.sort.name": {
+    "message": "নাম"
+  },
+  "app.library.title": {
+    "message": "লাইব্রেরি"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
+    "message": "{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} will stop receiving updates. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} All of them will be removed from your library."
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
+    "message": "শেয়ার করা ইনস্ট্যান্সের প্রকাশনা বাতিল ও চলে যাওয়া"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.header": {
+    "message": "{count} টি শেয়ার করা ইনস্ট্যান্সের প্রকাশনা বাতিল করে চলে যান"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
+  },
+  "app.library.unpublish-shared-instance.modal.header": {
+    "message": "{count, plural, one {Unpublish shared instance} other {Unpublish # shared instances}}"
+  },
+  "app.modal.install-to-play.additional-context": {
+    "message": "অতিরিক্ত তথ্য"
+  },
+  "app.modal.install-to-play.additional-context-placeholder": {
+    "message": "সম্ভব হলে প্রাসঙ্গিক লিংক ও ছবি যোগ করুন"
+  },
+  "app.modal.install-to-play.block-user": {
+    "message": "ব্যবহারকারী ব্লক করুন"
+  },
+  "app.modal.install-to-play.content-you-are-reporting": {
+    "message": "আপনি যে ইনস্ট্যান্সের রিপোর্ট করছেন"
+  },
+  "app.modal.install-to-play.delete-instance": {
+    "message": "ইনস্ট্যান্স মুছুন"
+  },
+  "app.modal.install-to-play.external-files-dont-install": {
+    "message": "ইনস্টল করবেন না"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "খেলার জন্য ইনস্টল করুন"
+  },
+  "app.modal.install-to-play.install-anyway": {
+    "message": "যেকোনোভাবে ইনস্টল করুন"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "ইনস্টল করুন"
+  },
+  "app.modal.install-to-play.invite-warning": {
+    "message": "এই আমন্ত্রণটি Panda Minecraft Launcher নয়, অন্য কোনো Panda Minecraft Launcher ব্যবহারকারী তৈরি করেছেন। শুধু বিশ্বস্ত ব্যক্তিদের আমন্ত্রণ গ্রহণ করুন।"
+  },
+  "app.modal.install-to-play.invite-warning-with-creator": {
+    "message": "এই আমন্ত্রণটি <creator>{username}</creator> তৈরি করেছেন, Panda Minecraft Launcher নয়। শুধু বিশ্বস্ত ব্যক্তিদের আমন্ত্রণ গ্রহণ করুন।"
+  },
+  "app.modal.install-to-play.managed-content.modpack-header": {
+    "message": "মডপ্যাক কনটেন্ট"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# mods}}"
+  },
+  "app.modal.install-to-play.owner-install-note": {
+    "message": "এটি আপনি পুশ করা সর্বশেষ সংস্করণ ডাউনলোড করে। অন্য ইনস্টলেশনে আপনার পুশ নি করা পরিবর্তনগুলো যোগ হবে না।"
+  },
+  "app.modal.install-to-play.report-description": {
+    "message": "এই ফর্ম ব্যবহার করে এমন ইনস্ট্যান্সের রিপোর্ট দিন যেগুলো আমাদের <rules-link>নিয়ম</rules-link> বা <terms-link>ব্যবহারের শর্ত</terms-link> ভঙ্গ করতে পারে।"
+  },
+  "app.modal.install-to-play.report-image-invalid-type": {
+    "message": "ফাইলটি গ্রহণযোগ্য ছবির ধরন নয়"
+  },
+  "app.modal.install-to-play.report-image-too-large": {
+    "message": "ফাইল 1 MiB আকারের সীমা অতিক্রম করেছে"
+  },
+  "app.modal.install-to-play.report-legal-claims": {
+    "message": "DMCA নোটিশ বা অন্য আইনি দাবির জন্য আমাদের <copyright-link>কপিরাইট নীতি</copyright-link> দেখুন।"
+  },
+  "app.modal.install-to-play.report-reason": {
+    "message": "এই ইনস্ট্যান্সটি কোন নিয়ম ভঙ্গ করেছে?"
+  },
+  "app.modal.install-to-play.report-shared-instance-header": {
+    "message": "শেয়ার করা ইনস্ট্যান্স রিপোর্ট করুন"
+  },
+  "app.modal.install-to-play.report-submitted": {
+    "message": "রিপোর্ট জমা দেওয়া হয়েছে"
+  },
+  "app.modal.install-to-play.report-support-and-bugs": {
+    "message": "সাহায্য চাইলে আমাদের <support-link>সহায়তা দল</support-link>-এ যোগাযোগ করুন। বাগ রিপোর্টের জন্য একটি <github-link>GitHub issue</github-link> খুলুন।"
+  },
+  "app.modal.install-to-play.reviewed-files": {
+    "message": "Panda Minecraft Launcher-এ প্রকাশিত নয় এমন ফাইল পর্যালোচনা করা হয় না।"
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "শেয়ার করা ইনস্ট্যান্স"
+  },
+  "app.modal.install-to-play.shared-instance-content": {
+    "message": "শেয়ার করা ইনস্ট্যান্সের কনটেন্ট"
+  },
+  "app.modal.install-to-play.shared-instance-unknown-files-description": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্সে Panda Minecraft Launcher-এ প্রকাশিত নয় এমন ফাইল আছে। শুধু বিশ্বস্ত উৎস থেকে ইনস্টল করুন—আমরা এটি দৃঢ়ভাবে সুপারিশ করি।"
+  },
+  "app.modal.install-to-play.unavailable-description": {
+    "message": "এই সার্ভারের ব্যবহৃত মডপ্যাক সংস্করণ এখন ডাউনলোড করা যাচ্ছে না। এটি প্রকাশিত নাও হতে পারে বা পর্যালোচনাধীন থাকতে পারে। পরে চেষ্টা করুন অথবা সার্ভারের মালিকের সাথে যোগাযোগ করুন।"
+  },
+  "app.modal.install-to-play.unavailable-header": {
+    "message": "এই সার্ভারের মডপ্যাক পাওয়া যাচ্ছে না"
+  },
+  "app.modal.install-to-play.unknown-files-description": {
+    "message": "এই সার্ভারের মডপ্যাকে Panda Minecraft Launcher-এ প্রকাশিত নয় এমন ফাইল আছে। শুধু বিশ্বস্ত উৎস থেকে ইনস্টল করুন—আমরা এটি দৃঢ়ভাবে সুপারিশ করি।"
+  },
+  "app.modal.install-to-play.unknown-files-warning": {
+    "message": "অজানা ফাইলের সতর্কতা"
+  },
+  "app.modal.install-to-play.unrecognized-files": {
+    "message": "অচেনা ফাইল"
+  },
+  "app.modal.install-to-play.user-blocked": {
+    "message": "ব্যবহারকারী ব্লক করা হয়েছে"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "কনটেন্ট দেখুন"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "খেলার জন্য আপডেট করুন"
+  },
+  "app.modal.update-to-play.owner-admonition-header": {
+    "message": "অন্য ইনস্টলেশন থেকে পুশ করা"
+  },
+  "app.modal.update-to-play.owner-description": {
+    "message": "এই পরিবর্তনগুলো অন্য Panda Minecraft Launcher ইনস্টলেশন থেকে পুশ করা হয়েছে। এই ইনস্টলেশনে শেয়ার করা কনটেন্টের পুশ নি করা পরিবর্তন বদলে যাবে।"
+  },
+  "app.modal.update-to-play.owner-header": {
+    "message": "আপডেট পাওয়া গেছে"
+  },
+  "app.modal.update-to-play.removed": {
+    "message": "সরানো হয়েছে"
+  },
+  "app.modal.update-to-play.server-modpack-unknown-files-description": {
+    "message": "এই সার্ভারের মডপ্যাক আপডেটে Panda Minecraft Launcher-এ প্রকাশিত নয় এমন ফাইল আছে। শুধু বিশ্বস্ত উৎস থেকে ইনস্টল করুন—আমরা এটি দৃঢ়ভাবে সুপারিশ করি।"
+  },
+  "app.modal.update-to-play.shared-instance-added-label": {
+    "message": "যোগ করা হয়েছে"
+  },
+  "app.modal.update-to-play.shared-instance-removed-label": {
+    "message": "সরানো হয়েছে"
+  },
+  "app.modal.update-to-play.shared-instance-unknown-files-description": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্সের আপডেটে Panda Minecraft Launcher-এ প্রকাশিত নয় এমন ফাইল আছে। শুধু বিশ্বস্ত উৎস থেকে ইনস্টল করুন—আমরা এটি দৃঢ়ভাবে সুপারিশ করি।"
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "আপডেট প্রয়োজন"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "{name} খেলার জন্য আপডেট প্রয়োজন। গেম চালু করতে সর্বশেষ সংস্করণে আপডেট করুন।"
+  },
+  "app.nav.account-management": {
+    "message": "অ্যাকাউন্ট ব্যবস্থাপনা"
+  },
+  "app.nav.add-account": {
+    "message": "অ্যাকাউন্ট যোগ করুন"
+  },
+  "app.nav.create-new-instance": {
+    "message": "নতুন ইনস্ট্যান্স তৈরি করুন"
+  },
+  "app.nav.home": {
+    "message": "হোম"
+  },
+  "app.nav.loading-profile": {
+    "message": "প্রোফাইল লোড হচ্ছে..."
+  },
+  "app.nav.modrinth-account": {
+    "message": "Panda Minecraft Launcher অ্যাকাউন্ট"
+  },
+  "app.nav.modrinth-hosting": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.nav.remove-account": {
+    "message": "অ্যাকাউন্ট সরান"
+  },
+  "app.nav.screenshots": {
+    "message": "স্ক্রিনশট"
+  },
+  "app.nav.sign-in-to-modrinth-account": {
+    "message": "Panda Minecraft Launcher-এ সাইন ইন করুন"
+  },
+  "app.nav.switch-account": {
+    "message": "অ্যাকাউন্ট বদলান"
+  },
+  "app.nav.upgrade-to-modrinth-plus": {
+    "message": "Panda Minecraft Launcher-এ আপগ্রেড করুন"
+  },
+  "app.nav.view-profile": {
+    "message": "প্রোফাইল দেখুন"
+  },
+  "app.navigation.go-back": {
+    "message": "ফিরে যান"
+  },
+  "app.navigation.go-forward": {
+    "message": "এগিয়ে যান"
+  },
+  "app.navigation.home": {
+    "message": "হোম"
+  },
+  "app.news.title": {
+    "message": "খবর"
+  },
+  "app.news.view-all": {
+    "message": "সব খবর দেখুন"
+  },
+  "app.notification.warning": {
+    "message": "সতর্কতা"
+  },
+  "app.project.actions.label": {
+    "message": "প্রকল্পের কাজ"
+  },
+  "app.project.coming-soon": {
+    "message": "শীঘ্রই আসছে"
+  },
+  "app.project.install-button.already-installed": {
+    "message": "এই প্রকল্পটি আগেই ইনস্টল করা আছে"
+  },
+  "app.project.install-button.switch-version": {
+    "message": "সংস্করণ বদলান"
+  },
+  "app.project.install-context.back-to-browse": {
+    "message": "আবিষ্কারে ফিরে যান"
+  },
+  "app.project.install-context.back-to-instance": {
+    "message": "ইনস্ট্যান্সে ফিরে যান"
+  },
+  "app.project.load-error": {
+    "message": "প্রকল্পের তথ্য লোড করা যায়নি।"
+  },
+  "app.project.more-options": {
+    "message": "আরও বিকল্প"
+  },
+  "app.project.tab.description": {
+    "message": "বিবরণ"
+  },
+  "app.project.tab.gallery": {
+    "message": "গ্যালারি"
+  },
+  "app.project.tab.versions": {
+    "message": "সংস্করণ"
+  },
+  "app.project.version.all-versions": {
+    "message": "সব সংস্করণ"
+  },
+  "app.project.version.download-in-browser": {
+    "message": "ব্রাউজারে ডাউনলোড করুন"
+  },
+  "app.project.version.installing": {
+    "message": "ইনস্টল হচ্ছে"
+  },
+  "app.project.versions.already-installed": {
+    "message": "আগেই ইনস্টল করা আছে"
+  },
+  "app.quick-instance-switcher.actions.label": {
+    "message": "ইনস্ট্যান্সের কাজ"
+  },
+  "app.quick-instance-switcher.drag-show-tooltip": {
+    "message": "সাম্প্রতিক ইনস্ট্যান্স দেখতে টানুন"
+  },
+  "app.quick-instance-switcher.drag-tooltip": {
+    "message": "আকার বদলাতে টানুন"
+  },
+  "app.quick-instance-switcher.instance-locked": {
+    "message": "এই ইনস্ট্যান্স লক করা হয়েছে"
+  },
+  "app.quick-instance-switcher.title": {
+    "message": "সাম্প্রতিক ইনস্ট্যান্স"
+  },
+  "app.quick-instance-switcher.view-instance": {
+    "message": "ইনস্ট্যান্স দেখুন"
+  },
+  "app.restarting": {
+    "message": "পুনরায় চালু হচ্ছে..."
+  },
+  "app.screenshots.copied": {
+    "message": "কপি করা হয়েছে"
+  },
+  "app.screenshots.copy": {
+    "message": "ছবি কপি করুন"
+  },
+  "app.screenshots.delete-description": {
+    "message": "{name} স্থায়ীভাবে মুছে ফেলবেন? এই কাজ পূর্বের অবস্থায় ফেরানো যাবে না।"
+  },
+  "app.screenshots.delete-success": {
+    "message": "স্ক্রিনশট মুছে ফেলা হয়েছে"
+  },
+  "app.screenshots.delete-title": {
+    "message": "স্ক্রিনশট মুছুন"
+  },
+  "app.screenshots.deselect": {
+    "message": "{name}-এর নির্বাচন বাতিল করুন"
+  },
+  "app.screenshots.edit": {
+    "message": "স্ক্রিনশট সম্পাদনা করুন"
+  },
+  "app.screenshots.empty-description": {
+    "message": "গেমে আপনি যে স্ক্রিনশট নেবেন এখানে দেখা যাবে।"
+  },
+  "app.screenshots.empty-heading": {
+    "message": "এখনো কোনো স্ক্রিনশট নেই"
+  },
+  "app.screenshots.error-heading": {
+    "message": "স্ক্রিনশট লোড করতে ব্যর্থ"
+  },
+  "app.screenshots.go-to-instance": {
+    "message": "ইনস্ট্যান্সে যান"
+  },
+  "app.screenshots.group-by": {
+    "message": "এই অনুযায়ী গ্রুপ করুন"
+  },
+  "app.screenshots.group.all-screenshots": {
+    "message": "সব স্ক্রিনশট"
+  },
+  "app.screenshots.group.collapse": {
+    "message": "গ্রুপ সংকুচিত করুন"
+  },
+  "app.screenshots.group.custom": {
+    "message": "কাস্টম গ্রুপ"
+  },
+  "app.screenshots.group.date": {
+    "message": "তারিখ"
+  },
+  "app.screenshots.group.delete": {
+    "message": "গ্রুপ মুছুন"
+  },
+  "app.screenshots.group.delete-description": {
+    "message": "এই গ্রুপের স্ক্রিনশটের গ্রুপ বাতিল হবে।"
+  },
+  "app.screenshots.group.edit": {
+    "message": "গ্রুপের নাম সম্পাদনা করুন"
+  },
+  "app.screenshots.group.empty": {
+    "message": "স্ক্রিনশট যোগ করতে টেনে ছেড়ে দিন।"
+  },
+  "app.screenshots.group.expand": {
+    "message": "গ্রুপ প্রসারিত করুন"
+  },
+  "app.screenshots.group.instance": {
+    "message": "ইনস্ট্যান্স"
+  },
+  "app.screenshots.group.new": {
+    "message": "নতুন গ্রুপ"
+  },
+  "app.screenshots.group.none": {
+    "message": "কোনো গ্রুপ নেই"
+  },
+  "app.screenshots.group.this-month": {
+    "message": "এই মাস"
+  },
+  "app.screenshots.group.this-week": {
+    "message": "এই সপ্তাহ"
+  },
+  "app.screenshots.group.today": {
+    "message": "আজ"
+  },
+  "app.screenshots.group.ungrouped": {
+    "message": "গ্রুপভুক্ত নয়"
+  },
+  "app.screenshots.group.yesterday": {
+    "message": "গতকাল"
+  },
+  "app.screenshots.heading": {
+    "message": "স্ক্রিনশট"
+  },
+  "app.screenshots.more-actions": {
+    "message": "আরও কাজ"
+  },
+  "app.screenshots.no-results-description": {
+    "message": "অন্য খোঁজা বা ফিল্টার চেষ্টা করুন।"
+  },
+  "app.screenshots.no-results-heading": {
+    "message": "মেলে এমন কোনো স্ক্রিনশট নেই"
+  },
+  "app.screenshots.preview.instance-and-date": {
+    "message": "{instance} · {date}"
+  },
+  "app.screenshots.search": {
+    "message": "খুঁজুন"
+  },
+  "app.screenshots.select": {
+    "message": "{name} বেছে নিন"
+  },
+  "app.screenshots.selection.aria-label": {
+    "message": "নির্বাচিত স্ক্রিনশট"
+  },
+  "app.screenshots.selection.delete-description": {
+    "message": "{count, plural, one {# screenshot} other {# screenshots}} মুছে ফেলবেন? এই কাজ পূর্বের অবস্থায় ফেরানো যাবে না।"
+  },
+  "app.screenshots.selection.delete-success": {
+    "message": "{count, plural, one {# screenshot deleted} other {# screenshots deleted}}"
+  },
+  "app.screenshots.selection.delete-title": {
+    "message": "নির্বাচিত স্ক্রিনশট মুছুন"
+  },
+  "app.screenshots.selection.export-zip": {
+    "message": "ZIP এক্সপোর্ট করুন"
+  },
+  "app.screenshots.selection.global-export-filename": {
+    "message": "Panda Minecraft Launcher screenshots.zip"
+  },
+  "app.screenshots.selection.instance-export-filename": {
+    "message": "{instance} screenshots.zip"
+  },
+  "app.screenshots.selection.remove-from-group": {
+    "message": "গ্রুপ থেকে সরান"
+  },
+  "app.screenshots.selection.selected-count": {
+    "message": "{count} টি নির্বাচিত"
+  },
+  "app.screenshots.selection.zip-archive": {
+    "message": "ZIP আর্কাইভ"
+  },
+  "app.screenshots.show-in-folder": {
+    "message": "ফোল্ডারে দেখান"
+  },
+  "app.screenshots.sort-by": {
+    "message": "এই অনুযায়ী সাজান"
+  },
+  "app.screenshots.sort.name": {
+    "message": "নাম"
+  },
+  "app.screenshots.sort.newest": {
+    "message": "নতুনতম"
+  },
+  "app.screenshots.sort.oldest": {
+    "message": "পুরনোতম"
+  },
+  "app.server-sharing-update.notification.description": {
+    "message": "আপনার সার্ভার দ্বারা পরিচালিত ইনস্ট্যান্সে খেলতে বন্ধুদের আমন্ত্রণ করুন।"
+  },
+  "app.server-sharing-update.notification.dismiss": {
+    "message": "খারিজ করুন"
+  },
+  "app.server-sharing-update.notification.purchase-description": {
+    "message": "একটি সার্ভার নিন এবং তার পরিচালিত ইনস্ট্যান্সে খেলতে বন্ধুদের আমন্ত্রণ করুন।"
+  },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "আপডেট দেখুন"
+  },
+  "app.server-sharing-update.title": {
+    "message": "বন্ধুদের সাথে সার্ভার শেয়ার করুন"
+  },
+  "app.settings.app-version": {
+    "message": "Panda Minecraft Launcher {version}"
+  },
+  "app.settings.default-instance-options.environment-variables.description": {
+    "message": "ইনস্ট্যান্স চালু করার সময় সেট করা পরিবেশগত ভেরিয়েবল।"
+  },
+  "app.settings.default-instance-options.environment-variables.placeholder": {
+    "message": "পরিবেশগত ভেরিয়েবল লিখুন..."
+  },
+  "app.settings.default-instance-options.environment-variables.title": {
+    "message": "পরিবেশগত ভেরিয়েবল"
+  },
+  "app.settings.default-instance-options.fullscreen.description": {
+    "message": "options.txt ফাইল সম্পাদনা করে ইনস্ট্যান্স পূর্ণ পর্দায় শুরু করুন।"
+  },
+  "app.settings.default-instance-options.fullscreen.title": {
+    "message": "পূর্ণ পর্দা"
+  },
+  "app.settings.default-instance-options.height.description": {
+    "message": "চালু হওয়ার সময় গেম উইন্ডোর উচ্চতা।"
+  },
+  "app.settings.default-instance-options.height.placeholder": {
+    "message": "উচ্চতা লিখুন..."
+  },
+  "app.settings.default-instance-options.height.title": {
+    "message": "উচ্চতা"
+  },
+  "app.settings.default-instance-options.java-arguments.description": {
+    "message": "ইনস্ট্যান্স চালু করার সময় Java-তে পাঠানো আর্গুমেন্ট।"
+  },
+  "app.settings.default-instance-options.java-arguments.placeholder": {
+    "message": "Java আর্গুমেন্ট লিখুন..."
+  },
+  "app.settings.default-instance-options.java-arguments.title": {
+    "message": "Java আর্গুমেন্ট"
+  },
+  "app.settings.default-instance-options.memory-allocation.description": {
+    "message": "প্রতিটি ইনস্ট্যান্সের জন্য সর্বোচ্চ মেমরি।"
+  },
+  "app.settings.default-instance-options.memory-allocation.title": {
+    "message": "মেমরি বরাদ্দ"
+  },
+  "app.settings.default-instance-options.post-exit-hook.description": {
+    "message": "গেম বন্ধ হওয়ার পরে চলে।"
+  },
+  "app.settings.default-instance-options.post-exit-hook.placeholder": {
+    "message": "প্রস্থান-পর কমান্ড লিখুন..."
+  },
+  "app.settings.default-instance-options.post-exit-hook.title": {
+    "message": "প্রস্থান-পর হুক"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.description": {
+    "message": "ইনস্ট্যান্স শুরু হওয়ার আগে চলে।"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.placeholder": {
+    "message": "চালুর আগের কমান্ড লিখুন..."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.title": {
+    "message": "চালুর আগের হুক"
+  },
+  "app.settings.default-instance-options.width.description": {
+    "message": "চালু হওয়ার সময় গেম উইন্ডোর প্রস্থ।"
+  },
+  "app.settings.default-instance-options.width.placeholder": {
+    "message": "প্রস্থ লিখুন..."
+  },
+  "app.settings.default-instance-options.width.title": {
+    "message": "প্রস্থ"
+  },
+  "app.settings.default-instance-options.wrapper-hook.description": {
+    "message": "Minecraft চালু প্রক্রিয়া মোড়ানোর কমান্ড।"
+  },
+  "app.settings.default-instance-options.wrapper-hook.placeholder": {
+    "message": "ওয়ার্পার কমান্ড লিখুন..."
+  },
+  "app.settings.default-instance-options.wrapper-hook.title": {
+    "message": "ওয়ার্পার হুক"
+  },
+  "app.settings.developer-mode-button.label": {
+    "message": "ডেভেলপার মোদ চালু/বন্ধ করুন"
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "ডেভেলপার মোদ চালু আছে।"
+  },
+  "app.settings.downloading": {
+    "message": "v{version} ডাউনলোড হচ্ছে"
+  },
+  "app.settings.game-options.category.accessibility.description": {
+    "message": "অ্যাক্সেসিবিলিটি পছন্দ"
+  },
+  "app.settings.game-options.category.accessibility.label": {
+    "message": "অ্যাক্সেসিবিলিটি"
+  },
+  "app.settings.game-options.category.chat.description": {
+    "message": "চ্যাটের দৃশ্যমানতা ও রূপ"
+  },
+  "app.settings.game-options.category.chat.label": {
+    "message": "চ্যাট"
+  },
+  "app.settings.game-options.category.controls.description": {
+    "message": "মাউস, চলাচল ও কী বাইন্ডিং"
+  },
+  "app.settings.game-options.category.controls.label": {
+    "message": "নিয়ন্ত্রণ"
+  },
+  "app.settings.game-options.category.custom.description": {
+    "message": "মড দ্বারা যোগ করা সেটিংস"
+  },
+  "app.settings.game-options.category.custom.label": {
+    "message": "কাস্টম সেটিংস"
+  },
+  "app.settings.game-options.category.language.description": {
+    "message": "গেমের ভাষা"
+  },
+  "app.settings.game-options.category.language.label": {
+    "message": "ভাষা"
+  },
+  "app.settings.game-options.category.music-and-sound.description": {
+    "message": "ভলিউম ও অডিও পছন্দ"
+  },
+  "app.settings.game-options.category.music-and-sound.label": {
+    "message": "সঙ্গীত ও শব্দ"
+  },
+  "app.settings.game-options.category.online.description": {
+    "message": "অনলাইন ও Realms পছন্দ"
+  },
+  "app.settings.game-options.category.online.label": {
+    "message": "অনলাইন"
+  },
+  "app.settings.game-options.category.skin-customization.description": {
+    "message": "স্কিন স্তর ও প্রধান হাত"
+  },
+  "app.settings.game-options.category.skin-customization.label": {
+    "message": "স্কিন কাস্টমাইজেশন"
+  },
+  "app.settings.game-options.category.video.description": {
+    "message": "ক্যামেরা ও প্রদর্শন সেটিংস"
+  },
+  "app.settings.game-options.category.video.label": {
+    "message": "ভিডিও"
+  },
+  "app.settings.game-options.choice.all": {
+    "message": "সব"
+  },
+  "app.settings.game-options.choice.balanced": {
+    "message": "সন্তুলিত"
+  },
+  "app.settings.game-options.choice.by-player": {
+    "message": "খেলোয়াড় অনুযায়ী"
+  },
+  "app.settings.game-options.choice.chat": {
+    "message": "চ্যাট"
+  },
+  "app.settings.game-options.choice.commands-only": {
+    "message": "শুধু কমান্ড"
+  },
+  "app.settings.game-options.choice.constant": {
+    "message": "ধ্রুবক"
+  },
+  "app.settings.game-options.choice.crosshair": {
+    "message": "ক্রসহেয়ার"
+  },
+  "app.settings.game-options.choice.custom": {
+    "message": "কাস্টম"
+  },
+  "app.settings.game-options.choice.decreased": {
+    "message": "কমিয়ে আনা"
+  },
+  "app.settings.game-options.choice.default": {
+    "message": "ডিফল্ট"
+  },
+  "app.settings.game-options.choice.fabulous": {
+    "message": "দারুণ"
+  },
+  "app.settings.game-options.choice.fancy": {
+    "message": "আকর্ষণীয়"
+  },
+  "app.settings.game-options.choice.far": {
+    "message": "দূর"
+  },
+  "app.settings.game-options.choice.fast": {
+    "message": "দ্রুত"
+  },
+  "app.settings.game-options.choice.frequent": {
+    "message": "ঘন ঘন"
+  },
+  "app.settings.game-options.choice.hidden": {
+    "message": "লুকানো"
+  },
+  "app.settings.game-options.choice.hotbar": {
+    "message": "হটবার"
+  },
+  "app.settings.game-options.choice.left": {
+    "message": "বাঁ"
+  },
+  "app.settings.game-options.choice.limited": {
+    "message": "সীমিত"
+  },
+  "app.settings.game-options.choice.max-fps": {
+    "message": "সর্বোচ্চ FPS"
+  },
+  "app.settings.game-options.choice.maximum": {
+    "message": "সর্বোচ্চ"
+  },
+  "app.settings.game-options.choice.minimal": {
+    "message": "ন্যূনতম"
+  },
+  "app.settings.game-options.choice.minimum": {
+    "message": "ন্যূনতম"
+  },
+  "app.settings.game-options.choice.nearby": {
+    "message": "কাছাকাছি"
+  },
+  "app.settings.game-options.choice.never": {
+    "message": "কখনো না"
+  },
+  "app.settings.game-options.choice.none": {
+    "message": "কিছু নয়"
+  },
+  "app.settings.game-options.choice.normal": {
+    "message": "স্বাভাবিক"
+  },
+  "app.settings.game-options.choice.off": {
+    "message": "বন্ধ"
+  },
+  "app.settings.game-options.choice.on": {
+    "message": "চালু"
+  },
+  "app.settings.game-options.choice.opengl": {
+    "message": "OpenGL"
+  },
+  "app.settings.game-options.choice.pause": {
+    "message": "পজ মেনু"
+  },
+  "app.settings.game-options.choice.pause-and-toast": {
+    "message": "পজ মেনু ও টোস্ট"
+  },
+  "app.settings.game-options.choice.power-saver": {
+    "message": "পাওয়ার সেভার"
+  },
+  "app.settings.game-options.choice.right": {
+    "message": "ডান"
+  },
+  "app.settings.game-options.choice.short": {
+    "message": "সংক্ষিপ্ত"
+  },
+  "app.settings.game-options.choice.shown": {
+    "message": "দেখানো"
+  },
+  "app.settings.game-options.choice.system": {
+    "message": "সিস্টেম"
+  },
+  "app.settings.game-options.choice.tiny": {
+    "message": "অতি ছোট"
+  },
+  "app.settings.game-options.choice.vulkan": {
+    "message": "Vulkan"
+  },
+  "app.settings.game-options.choice.when-minimized": {
+    "message": "ছোট করা হলে"
+  },
+  "app.settings.game-options.choice.while-afk": {
+    "message": "AFK থাকাকালীন"
+  },
+  "app.settings.game-options.compatibility.none": {
+    "message": "আপনার কয়েকটি ইনস্ট্যান্স এই সেটিং ব্যবহার করতে পারবে না"
+  },
+  "app.settings.game-options.compatibility.reason.launcher-controlled": {
+    "message": "এই সেটিং Panda Minecraft Launcher-এর চালু সেটিংস দ্বারা পরিচালিত।"
+  },
+  "app.settings.game-options.custom-value.placeholder": {
+    "message": "একটি মান লিখুন"
+  },
+  "app.settings.game-options.keybind.assigned-status": {
+    "message": "{setting} এখন {binding}-এ বাঁধা আছে।"
+  },
+  "app.settings.game-options.keybind.cancelled-status": {
+    "message": "কী বাইন্ডিং পরিবর্তন বাতিল হয়েছে।"
+  },
+  "app.settings.game-options.keybind.change": {
+    "message": "{setting}: {binding}। বদলাতে সক্রিয় করুন।"
+  },
+  "app.settings.game-options.keybind.choose": {
+    "message": "একটি কী বেছে নিন"
+  },
+  "app.settings.game-options.keybind.conflict-description": {
+    "message": "এটি আগেই {settings} দ্বারা ব্যবহৃত হচ্ছে।"
+  },
+  "app.settings.game-options.keybind.key.arrow-down": {
+    "message": "Down Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-left": {
+    "message": "Left Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-right": {
+    "message": "Right Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-up": {
+    "message": "Up Arrow"
+  },
+  "app.settings.game-options.keybind.key.backspace": {
+    "message": "Backspace"
+  },
+  "app.settings.game-options.keybind.key.caps-lock": {
+    "message": "Caps Lock"
+  },
+  "app.settings.game-options.keybind.key.delete": {
+    "message": "Delete"
+  },
+  "app.settings.game-options.keybind.key.end": {
+    "message": "End"
+  },
+  "app.settings.game-options.keybind.key.enter": {
+    "message": "Enter"
+  },
+  "app.settings.game-options.keybind.key.escape": {
+    "message": "Escape"
+  },
+  "app.settings.game-options.keybind.key.home": {
+    "message": "Home"
+  },
+  "app.settings.game-options.keybind.key.insert": {
+    "message": "Insert"
+  },
+  "app.settings.game-options.keybind.key.keypad-key": {
+    "message": "Numpad {key}"
+  },
+  "app.settings.game-options.keybind.key.left-alt": {
+    "message": "Left Alt"
+  },
+  "app.settings.game-options.keybind.key.left-command": {
+    "message": "Left Command"
+  },
+  "app.settings.game-options.keybind.key.left-control": {
+    "message": "Left Ctrl"
+  },
+  "app.settings.game-options.keybind.key.left-shift": {
+    "message": "Left Shift"
+  },
+  "app.settings.game-options.keybind.key.left-super": {
+    "message": "Left Super"
+  },
+  "app.settings.game-options.keybind.key.menu": {
+    "message": "Menu"
+  },
+  "app.settings.game-options.keybind.key.num-lock": {
+    "message": "Num Lock"
+  },
+  "app.settings.game-options.keybind.key.page-down": {
+    "message": "Page Down"
+  },
+  "app.settings.game-options.keybind.key.page-up": {
+    "message": "Page Up"
+  },
+  "app.settings.game-options.keybind.key.pause": {
+    "message": "Pause"
+  },
+  "app.settings.game-options.keybind.key.print-screen": {
+    "message": "Print Screen"
+  },
+  "app.settings.game-options.keybind.key.right-alt": {
+    "message": "Right Alt"
+  },
+  "app.settings.game-options.keybind.key.right-command": {
+    "message": "Right Command"
+  },
+  "app.settings.game-options.keybind.key.right-control": {
+    "message": "Right Ctrl"
+  },
+  "app.settings.game-options.keybind.key.right-shift": {
+    "message": "Right Shift"
+  },
+  "app.settings.game-options.keybind.key.right-super": {
+    "message": "Right Super"
+  },
+  "app.settings.game-options.keybind.key.scroll-lock": {
+    "message": "Scroll Lock"
+  },
+  "app.settings.game-options.keybind.key.space": {
+    "message": "Space"
+  },
+  "app.settings.game-options.keybind.key.tab": {
+    "message": "Tab"
+  },
+  "app.settings.game-options.keybind.key.unbound": {
+    "message": "বাঁধা নেই"
+  },
+  "app.settings.game-options.keybind.key.unknown": {
+    "message": "অজানা কী"
+  },
+  "app.settings.game-options.keybind.listen": {
+    "message": "একটি কী টিপুন…"
+  },
+  "app.settings.game-options.keybind.listening-status": {
+    "message": "কী বা মাউস বোতামের অপেক্ষায়। বাঁধা তুলে দিতে Escape টিপুন।"
+  },
+  "app.settings.game-options.keybind.mixed": {
+    "message": "ইনস্ট্যান্সভেদে আলাদা"
+  },
+  "app.settings.game-options.keybind.modifier.alt": {
+    "message": "Alt"
+  },
+  "app.settings.game-options.keybind.modifier.command": {
+    "message": "Command"
+  },
+  "app.settings.game-options.keybind.modifier.control": {
+    "message": "Ctrl"
+  },
+  "app.settings.game-options.keybind.modifier.shift": {
+    "message": "Shift"
+  },
+  "app.settings.game-options.keybind.modifier.super": {
+    "message": "Super"
+  },
+  "app.settings.game-options.keybind.mouse.button": {
+    "message": "মাউস {button}"
+  },
+  "app.settings.game-options.keybind.mouse.left": {
+    "message": "বাঁ মাউস"
+  },
+  "app.settings.game-options.keybind.mouse.middle": {
+    "message": "মাঝের মাউস"
+  },
+  "app.settings.game-options.keybind.mouse.right": {
+    "message": "ডান মাউস"
+  },
+  "app.settings.game-options.keybind.recording-label": {
+    "message": "{setting}: কী বা মাউস বোতামের অপেক্ষায়। বাঁধা তুলে দিতে Escape টিপুন।"
+  },
+  "app.settings.game-options.keybind.scancode": {
+    "message": "Scancode {code}"
+  },
+  "app.settings.game-options.keybind.unsupported-status": {
+    "message": "এই ইনপুট Minecraft ব্যবহার করতে পারবে না। অন্য কী টিপুন।"
+  },
+  "app.settings.game-options.setting.advanced-opengl.label": {
+    "message": "উন্নত OpenGL"
+  },
+  "app.settings.game-options.setting.allow-cursor-changes.label": {
+    "message": "কার্সর পরিবর্তনের অনুমতি দিন"
+  },
+  "app.settings.game-options.setting.allow-server-listing.description": {
+    "message": "খেলোয়াড়ের নাম সার্ভার তালিকায় দেখানোর অনুমতি দিন।"
+  },
+  "app.settings.game-options.setting.allow-server-listing.label": {
+    "message": "সার্ভার তালিকা"
+  },
+  "app.settings.game-options.setting.alternate-blocks.label": {
+    "message": "বিকল্প ব্লক"
+  },
+  "app.settings.game-options.setting.ambient-occlusion.label": {
+    "message": "মসৃণ আলো"
+  },
+  "app.settings.game-options.setting.ambient-volume.label": {
+    "message": "পরিবেশের শব্দ"
+  },
+  "app.settings.game-options.setting.anaglyph-3d.label": {
+    "message": "3D অ্যানাগ্লিফ"
+  },
+  "app.settings.game-options.setting.anisotropic-filtering.label": {
+    "message": "অ্যানাইসোট্রপিক ফিল্টারিং"
+  },
+  "app.settings.game-options.setting.anisotropy.label": {
+    "message": "অ্যানাইসোট্রপি"
+  },
+  "app.settings.game-options.setting.attack-indicator.label": {
+    "message": "আক্রমণ নির্দেশক"
+  },
+  "app.settings.game-options.setting.auto-jump.description": {
+    "message": "এক ব্লক উঁচু বাধা স্বয়ংক্রিয়ভাবে অতিক্রম করুন।"
+  },
+  "app.settings.game-options.setting.auto-jump.label": {
+    "message": "স্বয়ংক্রিয় লাফ"
+  },
+  "app.settings.game-options.setting.auto-suggestions.label": {
+    "message": "কমান্ড পরামর্শ"
+  },
+  "app.settings.game-options.setting.autosave-indicator.label": {
+    "message": "স্বয়ংক্রিয় সংরক্ষণ নির্দেশক"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.description": {
+    "message": "বায়োমের রং কত দূরে রূপান্তরিত হয়।"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.label": {
+    "message": "বায়োম মিশ্রণ"
+  },
+  "app.settings.game-options.setting.blocks-volume.label": {
+    "message": "ব্লক"
+  },
+  "app.settings.game-options.setting.brightness.label": {
+    "message": "উজ্জ্বলতা"
+  },
+  "app.settings.game-options.setting.cape.description": {
+    "message": "খেলোয়াড়ের কেপ দেখান, তার elytra টেক্সচারসহ।"
+  },
+  "app.settings.game-options.setting.cape.label": {
+    "message": "কেপ"
+  },
+  "app.settings.game-options.setting.chat-background-only.label": {
+    "message": "শুধু চ্যাটের পেছন"
+  },
+  "app.settings.game-options.setting.chat-colors.label": {
+    "message": "চ্যাটের রং"
+  },
+  "app.settings.game-options.setting.chat-delay.label": {
+    "message": "চ্যাট বিলম্ব"
+  },
+  "app.settings.game-options.setting.chat-line-spacing.label": {
+    "message": "চ্যাট লাইনের ফাঁকা"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.description": {
+    "message": "চ্যাট থেকে লিংক খোলার আগে জিজ্ঞেস করুন।"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.label": {
+    "message": "লিংকে প্রম্পট"
+  },
+  "app.settings.game-options.setting.chat-links.description": {
+    "message": "চ্যাটে ওয়েব লিংক খোলার অনুমতি দিন।"
+  },
+  "app.settings.game-options.setting.chat-links.label": {
+    "message": "ওয়েব লিংক"
+  },
+  "app.settings.game-options.setting.chat-opacity.description": {
+    "message": "চ্যাটের লেখার স্বচ্ছতা।"
+  },
+  "app.settings.game-options.setting.chat-opacity.label": {
+    "message": "চ্যাটের স্বচ্ছতা"
+  },
+  "app.settings.game-options.setting.chat-preview.label": {
+    "message": "চ্যাট প্রিভিউ"
+  },
+  "app.settings.game-options.setting.chat-scale.label": {
+    "message": "চ্যাটের আকার"
+  },
+  "app.settings.game-options.setting.chat-visibility.label": {
+    "message": "চ্যাটের দৃশ্যমানতা"
+  },
+  "app.settings.game-options.setting.chat-width.label": {
+    "message": "চ্যাটের প্রস্থ"
+  },
+  "app.settings.game-options.setting.chunk-fade-time.label": {
+    "message": "চঙ্ক ম্লান হওয়ার সময়"
+  },
+  "app.settings.game-options.setting.cloud-range.label": {
+    "message": "মেঘের দূরত্ব"
+  },
+  "app.settings.game-options.setting.clouds.label": {
+    "message": "মেঘ"
+  },
+  "app.settings.game-options.setting.ctrl-click-right-click.label": {
+    "message": "Control-click কে right-click হিসেবে ব্যবহার করুন"
+  },
+  "app.settings.game-options.setting.cutout-leaves.label": {
+    "message": "কাটআউট পাতা"
+  },
+  "app.settings.game-options.setting.damage-tilt.label": {
+    "message": "ক্ষতির ঢাল"
+  },
+  "app.settings.game-options.setting.dark-splash.description": {
+    "message": "Mojang Studios-এর লোডিং স্ক্রিন লাল থেকে কালো করুন।"
+  },
+  "app.settings.game-options.setting.dark-splash.label": {
+    "message": "একরঙা লোগো"
+  },
+  "app.settings.game-options.setting.darkness-pulsing.label": {
+    "message": "অন্ধকার স্পন্দন"
+  },
+  "app.settings.game-options.setting.debug-gui-scale.label": {
+    "message": "ডিবাগ GUI স্কেল"
+  },
+  "app.settings.game-options.setting.directional-audio.label": {
+    "message": "দিকনির্দেশক অডিও"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.description": {
+    "message": "মাউস হুইলের প্রতিটি ইনপুট আলাদা স্ক্রোল ধাপ হিসেবে গণ্য করুন।"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.label": {
+    "message": "পৃথক স্ক্রোলিং"
+  },
+  "app.settings.game-options.setting.entity-distance.label": {
+    "message": "এন্টিটির দূরত্ব"
+  },
+  "app.settings.game-options.setting.entity-shadows.label": {
+    "message": "এন্টিটির ছায়া"
+  },
+  "app.settings.game-options.setting.exclusive-fullscreen.label": {
+    "message": "একচেটিয়া পূর্ণ পর্দা"
+  },
+  "app.settings.game-options.setting.extra-telemetry.label": {
+    "message": "ঐচ্ছিক টেলিমেট্রি"
+  },
+  "app.settings.game-options.setting.focused-chat-height.label": {
+    "message": "ফোকাস করা চ্যাটের উচ্চতা"
+  },
+  "app.settings.game-options.setting.force-unicode-font.label": {
+    "message": "Unicode ফন্ট বাধ্য করুন"
+  },
+  "app.settings.game-options.setting.fov-effects.label": {
+    "message": "FOV প্রভাব"
+  },
+  "app.settings.game-options.setting.fov.label": {
+    "message": "দৃশ্যক্ষেত্র"
+  },
+  "app.settings.game-options.setting.fullscreen.label": {
+    "message": "পূর্ণ পর্দা"
+  },
+  "app.settings.game-options.setting.glint-speed.label": {
+    "message": "গ্লিন্টের গতি"
+  },
+  "app.settings.game-options.setting.glint-strength.label": {
+    "message": "গ্লিন্টের তীব্রতা"
+  },
+  "app.settings.game-options.setting.graphics-backend.label": {
+    "message": "গ্রাফিক্স ব্যাকএন্ড"
+  },
+  "app.settings.game-options.setting.graphics.description": {
+    "message": "দৃশ্যমান মান ও কর্মক্ষমতা নিয়ন্ত্রণ করে।"
+  },
+  "app.settings.game-options.setting.graphics.label": {
+    "message": "গ্রাফিক্স"
+  },
+  "app.settings.game-options.setting.gui-scale.description": {
+    "message": "গেম ইন্টারফেস ও HUD-এর আকার।"
+  },
+  "app.settings.game-options.setting.gui-scale.label": {
+    "message": "GUI স্কেল"
+  },
+  "app.settings.game-options.setting.hat.description": {
+    "message": "হ্যাট স্কিন স্তর দেখান।"
+  },
+  "app.settings.game-options.setting.hat.label": {
+    "message": "হ্যাট"
+  },
+  "app.settings.game-options.setting.held-item-tooltips.label": {
+    "message": "হাতে থাকা আইটেমের টুলটিপ"
+  },
+  "app.settings.game-options.setting.hide-lightning-flashes.label": {
+    "message": "বিদ্যুতের ঝলকানি লুকান"
+  },
+  "app.settings.game-options.setting.hide-matched-names.label": {
+    "message": "মিলে যাওয়া নাম লুকান"
+  },
+  "app.settings.game-options.setting.hide-server-address.label": {
+    "message": "সার্ভারের ঠিকানা লুকান"
+  },
+  "app.settings.game-options.setting.hide-splash-texts.label": {
+    "message": "স্প্ল্যাশ লেখা লুকান"
+  },
+  "app.settings.game-options.setting.high-contrast-outline.label": {
+    "message": "উচ্চ বৈসাদৃশ্য ব্লক রূপরেখা"
+  },
+  "app.settings.game-options.setting.high-contrast.description": {
+    "message": "ইন্টারফেস উপাদানদের বৈসাদৃশ্য বাড়ান।"
+  },
+  "app.settings.game-options.setting.high-contrast.label": {
+    "message": "উচ্চ বৈসাদৃশ্য"
+  },
+  "app.settings.game-options.setting.hostile-volume.label": {
+    "message": "শত্রু প্রাণী"
+  },
+  "app.settings.game-options.setting.improved-transparency.label": {
+    "message": "উন্নত স্বচ্ছতা"
+  },
+  "app.settings.game-options.setting.in-game-notifications.label": {
+    "message": "গেমের মধ্যে বিজ্ঞপ্তি"
+  },
+  "app.settings.game-options.setting.inactivity-framerate-limit.label": {
+    "message": "কম framerate"
+  },
+  "app.settings.game-options.setting.invert-horizontal-mouse.label": {
+    "message": "অনুভূমিক মাউস উল্টান"
+  },
+  "app.settings.game-options.setting.invert-mouse.description": {
+    "message": "উল্লম্ব মাউস চলাচল উল্টান।"
+  },
+  "app.settings.game-options.setting.invert-mouse.label": {
+    "message": "মাউস উল্টান"
+  },
+  "app.settings.game-options.setting.jacket.description": {
+    "message": "জ্যাকেট স্কিন স্তর দেখান।"
+  },
+  "app.settings.game-options.setting.jacket.label": {
+    "message": "জ্যাকেট"
+  },
+  "app.settings.game-options.setting.japanese-glyph-variants.label": {
+    "message": "জাপানি গ্লাইফের রূপভেদ"
+  },
+  "app.settings.game-options.setting.key-advancements.label": {
+    "message": "অর্জন"
+  },
+  "app.settings.game-options.setting.key-attack.label": {
+    "message": "আক্রমণ"
+  },
+  "app.settings.game-options.setting.key-back.label": {
+    "message": "পেছনে যান"
+  },
+  "app.settings.game-options.setting.key-chat.label": {
+    "message": "চ্যাট খুলুন"
+  },
+  "app.settings.game-options.setting.key-command.label": {
+    "message": "কমান্ড"
+  },
+  "app.settings.game-options.setting.key-debug-advanced-tooltips.label": {
+    "message": "উন্নত টুলটিপ দেখান"
+  },
+  "app.settings.game-options.setting.key-debug-chunk-borders.label": {
+    "message": "চঙ্কের সীমানা দেখান"
+  },
+  "app.settings.game-options.setting.key-debug-clear-chat.label": {
+    "message": "চ্যাট পরিষ্কার করুন"
+  },
+  "app.settings.game-options.setting.key-debug-copy-location.label": {
+    "message": "অবস্থান কপি করুন"
+  },
+  "app.settings.game-options.setting.key-debug-copy-recreate-command.label": {
+    "message": "পুনরায় তৈরির কমান্ড কপি করুন"
+  },
+  "app.settings.game-options.setting.key-debug-crash.label": {
+    "message": "ডিবাগ ক্র্যাশ ট্রিগার করুন"
+  },
+  "app.settings.game-options.setting.key-debug-dump-dynamic-textures.label": {
+    "message": "গতিশীল টেক্সচার ডাম্প করুন"
+  },
+  "app.settings.game-options.setting.key-debug-dump-version.label": {
+    "message": "সংস্করণ ডাম্প করুন"
+  },
+  "app.settings.game-options.setting.key-debug-focus-pause.label": {
+    "message": "ফোকাস হারালে থামান"
+  },
+  "app.settings.game-options.setting.key-debug-fps-charts.label": {
+    "message": "FPS চার্ট"
+  },
+  "app.settings.game-options.setting.key-debug-hitboxes.label": {
+    "message": "হিটবক্স দেখান"
+  },
+  "app.settings.game-options.setting.key-debug-improved-transparency.label": {
+    "message": "উন্নত স্বচ্ছতা ডিবাগ ভিউ"
+  },
+  "app.settings.game-options.setting.key-debug-lightmap-texture.label": {
+    "message": "লাইটম্যাপ টেক্সচার"
+  },
+  "app.settings.game-options.setting.key-debug-modifier.label": {
+    "message": "ডিবাগ মডিফায়ার"
+  },
+  "app.settings.game-options.setting.key-debug-network-charts.label": {
+    "message": "নেটওয়ার্ক চার্ট"
+  },
+  "app.settings.game-options.setting.key-debug-options.label": {
+    "message": "ডিবাগ বিকল্প"
+  },
+  "app.settings.game-options.setting.key-debug-overlay.label": {
+    "message": "ডিবাগ ওভারলে"
+  },
+  "app.settings.game-options.setting.key-debug-profiling-chart.label": {
+    "message": "প্রফাইলিং চার্ট"
+  },
+  "app.settings.game-options.setting.key-debug-profiling.label": {
+    "message": "প্রফাইলিং শুরু করুন"
+  },
+  "app.settings.game-options.setting.key-debug-reload-chunks.label": {
+    "message": "চঙ্ক রিলোড করুন"
+  },
+  "app.settings.game-options.setting.key-debug-reload-resource-packs.label": {
+    "message": "রিসোর্স প্যাক রিলোড করুন"
+  },
+  "app.settings.game-options.setting.key-debug-spectate.label": {
+    "message": "এন্টিটি দেখুন"
+  },
+  "app.settings.game-options.setting.key-debug-switch-game-mode.label": {
+    "message": "গেম মোদ বদলান"
+  },
+  "app.settings.game-options.setting.key-drop.label": {
+    "message": "আইটেম ফেলে দিন"
+  },
+  "app.settings.game-options.setting.key-forward.label": {
+    "message": "সামনে যান"
+  },
+  "app.settings.game-options.setting.key-friends.label": {
+    "message": "বন্ধু"
+  },
+  "app.settings.game-options.setting.key-fullscreen.label": {
+    "message": "পূর্ণ পর্দা চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.key-hotbar-1.label": {
+    "message": "হটবার 1"
+  },
+  "app.settings.game-options.setting.key-hotbar-2.label": {
+    "message": "হটবার 2"
+  },
+  "app.settings.game-options.setting.key-hotbar-3.label": {
+    "message": "হটবার 3"
+  },
+  "app.settings.game-options.setting.key-hotbar-4.label": {
+    "message": "হটবার 4"
+  },
+  "app.settings.game-options.setting.key-hotbar-5.label": {
+    "message": "হটবার 5"
+  },
+  "app.settings.game-options.setting.key-hotbar-6.label": {
+    "message": "হটবার 6"
+  },
+  "app.settings.game-options.setting.key-hotbar-7.label": {
+    "message": "হটবার 7"
+  },
+  "app.settings.game-options.setting.key-hotbar-8.label": {
+    "message": "হটবার 8"
+  },
+  "app.settings.game-options.setting.key-hotbar-9.label": {
+    "message": "হটবার 9"
+  },
+  "app.settings.game-options.setting.key-inventory.label": {
+    "message": "ইনভেন্টরি"
+  },
+  "app.settings.game-options.setting.key-jump.label": {
+    "message": "লাফ"
+  },
+  "app.settings.game-options.setting.key-left.label": {
+    "message": "বাঁয়ে সরে যান"
+  },
+  "app.settings.game-options.setting.key-load-toolbar.label": {
+    "message": "টুলবার লোড করুন"
+  },
+  "app.settings.game-options.setting.key-perspective.label": {
+    "message": "দৃশ্যকোণ বদলান"
+  },
+  "app.settings.game-options.setting.key-pick-item.label": {
+    "message": "ব্লক তুলে নিন"
+  },
+  "app.settings.game-options.setting.key-player-list.label": {
+    "message": "খেলোয়াড় তালিকা"
+  },
+  "app.settings.game-options.setting.key-quick-actions.label": {
+    "message": "দ্রুত কাজ"
+  },
+  "app.settings.game-options.setting.key-right.label": {
+    "message": "ডানে সরে যান"
+  },
+  "app.settings.game-options.setting.key-save-toolbar.label": {
+    "message": "টুলবার সংরক্ষণ করুন"
+  },
+  "app.settings.game-options.setting.key-screenshot.label": {
+    "message": "স্ক্রিনশট"
+  },
+  "app.settings.game-options.setting.key-smooth-camera.label": {
+    "message": "সিনেম্যাটিক ক্যামেরা চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.key-sneak.label": {
+    "message": "নিচু হয়ে চলুন"
+  },
+  "app.settings.game-options.setting.key-social-interactions.label": {
+    "message": "সামাজিক মিথস্ক্রিয়া"
+  },
+  "app.settings.game-options.setting.key-spectator-hotbar.label": {
+    "message": "দর্শকের হটবার"
+  },
+  "app.settings.game-options.setting.key-spectator-outlines.label": {
+    "message": "দর্শকদের হাইলাইট করুন"
+  },
+  "app.settings.game-options.setting.key-sprint.label": {
+    "message": "দৌড়ানো"
+  },
+  "app.settings.game-options.setting.key-swap-offhand.label": {
+    "message": "অন্য হাত বদলান"
+  },
+  "app.settings.game-options.setting.key-toggle-gui.label": {
+    "message": "HUD চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.key-toggle-spectator-shader.label": {
+    "message": "দর্শক শেডার চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.key-use.label": {
+    "message": "আইটেম ব্যবহার করুন"
+  },
+  "app.settings.game-options.setting.language.label": {
+    "message": "ভাষা"
+  },
+  "app.settings.game-options.setting.left-pants-leg.label": {
+    "message": "বাঁ প্যাঁটের পা"
+  },
+  "app.settings.game-options.setting.left-sleeve.label": {
+    "message": "বাঁ হাতা"
+  },
+  "app.settings.game-options.setting.legacy-framerate-limit.label": {
+    "message": "Framerate সীমা"
+  },
+  "app.settings.game-options.setting.legacy-view-distance.label": {
+    "message": "দৃশ্যের দূরত্ব"
+  },
+  "app.settings.game-options.setting.mac-fullscreen-menu.label": {
+    "message": "পূর্ণ পর্দায় macOS মেনু দেখান"
+  },
+  "app.settings.game-options.setting.main-hand.description": {
+    "message": "প্রধান হাত বাঁ বা ডান—তা বেছে নিন।"
+  },
+  "app.settings.game-options.setting.main-hand.label": {
+    "message": "প্রধান হাত"
+  },
+  "app.settings.game-options.setting.master-volume.label": {
+    "message": "মূল ভলিউম"
+  },
+  "app.settings.game-options.setting.max-framerate.label": {
+    "message": "সর্বোচ্চ framerate"
+  },
+  "app.settings.game-options.setting.menu-background-blur.label": {
+    "message": "মেনু পেছনে ঝাপসা"
+  },
+  "app.settings.game-options.setting.mipmap-levels.description": {
+    "message": "দূরে টেক্সচার মসৃণ করা।"
+  },
+  "app.settings.game-options.setting.mipmap-levels.label": {
+    "message": "Mipmap স্তর"
+  },
+  "app.settings.game-options.setting.mouse-wheel-sensitivity.label": {
+    "message": "মাউস হুইলের সংবেদনশীলতা"
+  },
+  "app.settings.game-options.setting.music-frequency.label": {
+    "message": "সঙ্গীতের ফ্রিকোয়েন্সি"
+  },
+  "app.settings.game-options.setting.music-toast.description": {
+    "message": "সঙ্গীতের শিরোনাম পজ মেনুতে ও টোস্ট হিসেবে দেখানোর ব্যাপারে বেছে নিন।"
+  },
+  "app.settings.game-options.setting.music-toast.label": {
+    "message": "সঙ্গীত বিজ্ঞপ্তি"
+  },
+  "app.settings.game-options.setting.music-volume.label": {
+    "message": "সঙ্গীত"
+  },
+  "app.settings.game-options.setting.narrator-hotkey.label": {
+    "message": "ন্যারেটরের হটকী"
+  },
+  "app.settings.game-options.setting.narrator.description": {
+    "message": "ন্যারেটর কী পড়বে তা বেছে নিন।"
+  },
+  "app.settings.game-options.setting.narrator.label": {
+    "message": "ন্যারেটর"
+  },
+  "app.settings.game-options.setting.neutral-volume.label": {
+    "message": "বন্ধু প্রাণী"
+  },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "টোস্ট বিজ্ঞপ্তি কতক্ষণ দৃশ্যমান থাকবে।"
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "বিজ্ঞপ্তির সময়"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "অপারেটর আইটেম ট্যাব"
+  },
+  "app.settings.game-options.setting.panorama-speed.label": {
+    "message": "প্যানোরামার গতি"
+  },
+  "app.settings.game-options.setting.particles.label": {
+    "message": "কণা"
+  },
+  "app.settings.game-options.setting.players-volume.label": {
+    "message": "খেলোয়াড়"
+  },
+  "app.settings.game-options.setting.prioritize-chunk-updates.label": {
+    "message": "চঙ্ক আপডেট অগ্রাধিকার দিন"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "শর্টকাট বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.raw-mouse-input.label": {
+    "message": "কাঁচা মাউস ইনপুট"
+  },
+  "app.settings.game-options.setting.realms-notifications.label": {
+    "message": "Realms বিজ্ঞপ্তি"
+  },
+  "app.settings.game-options.setting.record-volume.label": {
+    "message": "Jukebox/Note Block"
+  },
+  "app.settings.game-options.setting.reduced-debug-info.label": {
+    "message": "কম ডিবাগ তথ্য"
+  },
+  "app.settings.game-options.setting.render-distance.label": {
+    "message": "রেন্ডার দূরত্ব"
+  },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "ডান প্যাঁটের পা"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "ডান হাতা"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "মাইনকার্টের সাথে ঘোরান"
+  },
+  "app.settings.game-options.setting.save-chat-drafts.label": {
+    "message": "চ্যাটের খসড়া সংরক্ষণ করুন"
+  },
+  "app.settings.game-options.setting.screen-effects.label": {
+    "message": "পর্দার প্রভাব"
+  },
+  "app.settings.game-options.setting.secure-chat-only.label": {
+    "message": "শুধু নিরাপদ চ্যাট দেখান"
+  },
+  "app.settings.game-options.setting.sensitivity.label": {
+    "message": "মাউসের সংবেদনশীলতা"
+  },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "সার্ভার টেক্সচার"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "উপস্থিতি শেয়ার করুন"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "এন্টিটি কত দূর থেকে আপডেট হবে এবং ব্লক ও তরল কত দূর থেকে চলবে।"
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "সিমুলেশন দূরত্ব"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "Snooper"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "দৌড়ানোর সময়কাল"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "গেমে চলা শব্দের ক্যাপশন দেখান।"
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "সাবটাইটেল"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "টেক্সট পেছনের স্বচ্ছতা"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "টেক্সচার ফিল্টারিং"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "আক্রমণ চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "একবার টিপলে কুঁকড়ে থাকবেন।"
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "কুঁকড়ানো চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "একবার টিপলে দৌড়াতে থাকবেন।"
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "দৌড়ানো চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "ব্যবহার চালু/বন্ধ করুন"
+  },
+  "app.settings.game-options.setting.touchscreen.label": {
+    "message": "টাচস্ক্রিন মোড"
+  },
+  "app.settings.game-options.setting.ui-volume.label": {
+    "message": "UI"
+  },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "অফোকাস করা চ্যাটের উচ্চতা"
+  },
+  "app.settings.game-options.setting.use-vbo.label": {
+    "message": "VBOs ব্যবহার করুন"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "হাঁটার সময় ক্যামেরায় নাড়া যোগ করুন।"
+  },
+  "app.settings.game-options.setting.view-bobbing.label": {
+    "message": "ক্যামেরা নাড়া"
+  },
+  "app.settings.game-options.setting.vignette.label": {
+    "message": "ভিনিট"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "কণ্ঠ ও বক্তৃতা"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "পর্দা ছেঁড়া রোধ করতে framerate কে ডিসপ্লের refresh rate-এ সীমাবদ্ধ করুন।"
+  },
+  "app.settings.game-options.setting.vsync.label": {
+    "message": "VSync"
+  },
+  "app.settings.game-options.setting.weather-radius.label": {
+    "message": "আবহাওয়ার ব্যাসার্ধ"
+  },
+  "app.settings.game-options.setting.weather-volume.label": {
+    "message": "আবহাওয়া"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "এই সেটিং অন্যত্র বদলানো হয়েছে। দেখে আবার চেষ্টা করুন।"
+  },
+  "app.settings.game-options.validation.invalid-value": {
+    "message": "একটি বৈধ মান বেছে নিন।"
+  },
+  "app.settings.game-options.validation.missing-value": {
+    "message": "প্রথমে একটি মান বেছে নিন।"
+  },
+  "app.settings.game-options.validation.no-compatible-instances": {
+    "message": "আপনার কয়েকটি ইনস্ট্যান্স এই সেটিং ব্যবহার করতে পারবে না"
+  },
+  "app.settings.java-installations.location.title": {
+    "message": "Java {version, number}-এর অবস্থান"
+  },
+  "app.settings.operating-system.macos": {
+    "message": "macOS"
+  },
+  "app.settings.privacy.no-data-collection": {
+    "message": "আমরা কোনো তথ্য সংগ্রহ করি না। সংগ্রহ করার মতো আমাদের কোনো সার্ভারও নেই।"
+  },
+  "app.settings.resource-management.always-show-copy-details.description": {
+    "message": "ইনস্টলেশন অপেক্ষায় বা চলমান থাকা অবস্থায় \"বিবরণ দেখুন\" কাজটি দেখান। ব্যর্থ বা বাধাগ্রস্ত ইনস্টলেশনে এটি সবসময় পাওয়া যায়।"
+  },
+  "app.settings.resource-management.always-show-copy-details.title": {
+    "message": "সবসময় বিবরণ দেখান"
+  },
+  "app.settings.resource-management.app-cache.confirm.description": {
+    "message": "ক্যাশে পুনরায় তৈরি না হওয়া পর্যন্ত অ্যাপ ধীরে চলতে পারে।"
+  },
+  "app.settings.resource-management.app-cache.description": {
+    "message": "ক্যাশে করা তথ্য মুছুন এবং Panda Minecraft Launcher থেকে আবার ডাউনলোড করুন। ক্যাশে পুনরায় তৈরি না হওয়া পর্যন্ত অ্যাপ ধীরে চলতে পারে।"
+  },
+  "app.settings.resource-management.app-cache.title": {
+    "message": "অ্যাপ ক্যাশে"
+  },
+  "app.settings.resource-management.app-database-backups.description": {
+    "message": "আপনি পরে তা ফিরিয়ে আনতে পারেন—এজন্য গুরুত্বপূর্ণ অ্যাপ তথ্যের ব্যাকআপ এখানে রাখা হয়।"
+  },
+  "app.settings.resource-management.app-database-backups.open-folder": {
+    "message": "ব্যাকআপ ফোল্ডার খুলুন"
+  },
+  "app.settings.resource-management.app-database-backups.title": {
+    "message": "অ্যাপ ডাটাবেসের ব্যাকআপ"
+  },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "সরানো বাতিল করুন"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "ডাইরেক্টরি বদলান"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "ডিফল্টে ফেরত যান"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "Panda Minecraft Launcher ইনস্ট্যান্স ও অন্য ফাইল কোথায় রাখে।"
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "আপনার তথ্য সরানোর সময় আপনি Panda Minecraft Launcher ব্যবহার করতে পারবেন না। একটু সময় লাগতে পারে।"
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "আপনার সব ফাইল সরানো হবে"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "একটি ফোল্ডার বেছে নিন"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "বর্তমান"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "ড্রাইভের একদম উপরের অংশ নয়, একটি ফোল্ডার বেছে নিন—তাহলে আপনার ফাইল অন্য জিনিসের সাথে মিশবে না।"
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "অ্যাপ ডাইরেক্টরি বদলান"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "অ্যাপ ডাইরেক্টরি বদলানোর আগে চলমান সব ইনস্ট্যান্স বন্ধ করুন।"
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "আরও সরানোর বিকল্প"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "সরানোর পর পুনরায় চালু করুন"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "পরবর্তী চালুতে সরানো হবে"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "নতুন ফোল্ডারটি বর্তমান অ্যাপ ডাইরেক্টরির ভেতরে হতে পারবে না কিংবা তাকে ধারণ করতে পারবে না।"
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "নতুন"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "নতুন অ্যাপ ডাইরেক্টরি বেছে নিন"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "আরও ডাইরেক্টরি বিকল্প"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "এখন সরানোর পর পুনরায় চালু করুন"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "ফোল্ডার খুলুন"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "ফাইল এক্সপ্লোরারে খুলুন"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "Finder-এ খুলুন"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "অ্যাপ ডাইরেক্টরির পথ ক্লিপবোর্ডে কপি করা হয়েছে।"
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "পথ কপি করা হয়েছে"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "পথ কপি করতে ব্যর্থ"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "পরবর্তী বার Panda Minecraft Launcher খোলা হলে অ্যাপ ডাইরেক্টরি {path}-এ সরানো হবে।"
+  },
+  "app.settings.resource-management.app-directory.title": {
+    "message": "অ্যাপ ডাইরেক্টরি"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "Panda Minecraft Launcher সাপোর্টের সাথে শেয়ার করতে অ্যাপের লগ ও ডায়াগনোস্টিক তথ্য ZIP ফাইলে এক্সপোর্ট করুন।"
+  },
+  "app.settings.resource-management.debug-info.export": {
+    "message": "ডিবাগ তথ্য এক্সপোর্ট করুন"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "সাহায্য দরকার? একটি সাপোর্ট ইস্যু খুলুন।"
+  },
+  "app.settings.resource-management.debug-info.title": {
+    "message": "ডিবাগ তথ্য"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.description": {
+    "message": "অ্যাপ একসাথে যে সংখ্যক ফাইল ডাউনলোড করতে পারে। আপনার সংযোগে ডাউনলোড অবিশ্বস্ত হলে কমান। অ্যাপ পুনরায় চালু করতে হবে।"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.title": {
+    "message": "সর্বোচ্চ একযোগ ডাউনলোড"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.description": {
+    "message": "অ্যাপ একসাথে যে সংখ্যক ফাইল ডিস্কে লিখতে পারে। ঘন ঘন I/O ত্রুটি দেখা দিলে কমান। অ্যাপ পুনরায় চালু করতে হবে।"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.title": {
+    "message": "সর্বোচ্চ একযোগ লেখা"
+  },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "ভবিষ্যতের ইনস্টলেশনের জন্য এই পরিমাণ অব্যবহৃত কনটেন্ট রাখুন। বেশি রাখলে ডাউনলোডের সময় বেঁচে যায়।"
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "অব্যবহৃত ডাউনলোড রাখুন"
+  },
+  "app.settings.resource-management.store.cache-limit.unit": {
+    "message": "GiB"
+  },
+  "app.settings.resource-management.store.calculating": {
+    "message": "হিসাব করা হচ্ছে"
+  },
+  "app.settings.resource-management.store.clear": {
+    "message": "অব্যবহৃত মুছুন"
+  },
+  "app.settings.resource-management.store.clear.description": {
+    "message": "অব্যবহৃত ডাউনলোড করা কনটেন্ট মুছুন"
+  },
+  "app.settings.resource-management.store.cleared": {
+    "message": "{size} ডিস্কের জায়গা মুক্ত হয়েছে।"
+  },
+  "app.settings.resource-management.store.clearing": {
+    "message": "মুছে ফেলা হচ্ছে…"
+  },
+  "app.settings.resource-management.store.description": {
+    "message": "আপনার ইনস্ট্যান্সে গেম ইনস্টল, মড ও প্যাক পুনরায় ব্যবহার করে জায়গা বাঁচান।"
+  },
+  "app.settings.resource-management.store.nothing-to-clear": {
+    "message": "মুছে ফেলার মতো অব্যবহৃত কনটেন্ট নেই।"
+  },
+  "app.settings.resource-management.store.shared.label": {
+    "message": "শেয়ার করা"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "কনটেন্ট সংরক্ষণ"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} সংরক্ষিত"
+  },
+  "app.settings.resource-management.store.unique.label": {
+    "message": "অনন্য"
+  },
+  "app.settings.resource-management.store.unused.label": {
+    "message": "অপ্রয়োজনীয়"
+  },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "ইনস্ট্যান্সের ডিফল্ট"
+  },
+  "app.settings.sidebar.label.system": {
+    "message": "সিস্টেম"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "কমান্ড ইতিহাস কোন ইনস্ট্যান্স থেকে কপি করবে তা বেছে নিন। এই ইতিহাস শুধু প্রথম সিঙ্কের জন্য ব্যবহৃত হয়; পরে যেকোনো ইনস্ট্যান্স থেকে সম্পাদনা করতে পারেন।"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "কমান্ড ইতিহাসের উৎস বেছে নিন"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "সংরক্ষিত ক্রিয়েটিভ হটবার কোন ইনস্ট্যান্স থেকে কপি করবে তা বেছে নিন। এই হটবার শুধু প্রথম সিঙ্কের জন্য ব্যবহৃত হয়; পরে যেকোনো ইনস্ট্যান্স থেকে সম্পাদনা করতে পারেন।"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "ক্রিয়েটিভ হটবারের উৎস বেছে নিন"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "ডেটা প্যাকের উৎস বেছে নিন"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "গেমের সেটিংস কোন ইনস্ট্যান্স থেকে কপি করবে তা বেছে নিন। এই সেটিংস শুধু প্রথম সিঙ্কের জন্য ব্যবহৃত হয়; পরে যেকোনো ইনস্ট্যান্স থেকে সম্পাদনা করতে পারেন।"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "গেমের সেটিংসের উৎস বেছে নিন"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "এই ইনস্ট্যান্সকে সিঙ্ক উৎস হিসেবে বেছে নেওয়া যাবে না"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "সিঙ্ক উৎস লোড করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।"
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "মাল্টিপ্লেয়ার সার্ভার কোন ইনস্ট্যান্স থেকে কপি করবে তা বেছে নিন। এই সার্ভার শুধু প্রথম সিঙ্কের জন্য ব্যবহৃত হয়; পরে যেকোনো ইনস্ট্যান্স থেকে সম্পাদনা করতে পারেন।"
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "মাল্টিপ্লেয়ার সার্ভারের উৎস বেছে নিন"
+  },
+  "app.settings.synced-options.choose-sync-source.no-instances-found": {
+    "message": "কোনো ইনস্ট্যান্স পাওয়া যায়নি"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "রিসোর্স প্যাকের উৎস বেছে নিন"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "আবার চেষ্টা করুন"
+  },
+  "app.settings.synced-options.choose-sync-source.search-placeholder": {
+    "message": "ইনস্ট্যান্স খুঁজুন"
+  },
+  "app.settings.synced-options.choose-sync-source.sync": {
+    "message": "সিঙ্ক"
+  },
+  "app.settings.synced-options.command-history": {
+    "message": "কমান্ড ইতিহাস সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.command-history.description": {
+    "message": "আপনার ইনস্ট্যান্সে একই কমান্ড ইতিহাস ব্যবহার করুন।"
+  },
+  "app.settings.synced-options.command-history.editor-title": {
+    "message": "কমান্ড ইতিহাস সম্পাদনা করুন"
+  },
+  "app.settings.synced-options.creative-hotbars": {
+    "message": "সংরক্ষিত ক্রিয়েটিভ হটবার সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.creative-hotbars.description": {
+    "message": "আপনার ইনস্ট্যান্সে একই সংরক্ষিত ক্রিয়েটিভ হটবার ব্যবহার করুন।"
+  },
+  "app.settings.synced-options.data-packs": {
+    "message": "ডেটা প্যাক সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "আপনার ইনস্ট্যান্সে একই ডেটা প্যাক ব্যবহার করুন।"
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "আপনি এখনো কোনো ডেটা প্যাক সিঙ্ক করেননি"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "সিঙ্ক করা তথ্য সম্পাদনা করার আগে একটি ইনস্ট্যান্স যোগ করুন।"
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "এই সেটিং সম্পাদনা করার আগে একটি সিঙ্ক উৎস বেছে নিন।"
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "গেমের বিকল্প সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "গেমের সেটিংস সম্পাদনা করুন"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "আমরা সর্বশেষ সেটিংস লোড করেছি। আপনার পরিবর্তন দেখে আবার সংরক্ষণ করুন।"
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "এই সেটিংস অন্যত্র বদলানো হয়েছে"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "Panda Minecraft Launcher আপনার কোনো ইনস্ট্যান্সে মডের সেটিংস খুঁজে পেলে সেগুলো এখানে দেখা যাবে।"
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "আপনার ইনস্ট্যান্সে একই গেমের বিকল্প ব্যবহার করুন।"
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "সবের সিঙ্ক তুলে দিন"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "আলাদা সেটিংস বেছে নেওয়ার আগে গেমের সেটিংস সিঙ্কিং চালু করুন।"
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "আপনার খোঁজা বা ফিল্টারের সাথে কোনো সেটিং মেলেনি।"
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "সব সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "আপনার গেমের সেটিংস লোড করতে পারিনি।"
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "সেটিংস লোড হচ্ছে..."
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "সম্পাদনা করার মতো কোনো বিকল্প আপনার নেই"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "সিঙ্ক করা হচ্ছে না"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "আবার চেষ্টা করুন"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "সেটিংস সংরক্ষণ করুন"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "সেটিংস খুঁজুন..."
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "সিঙ্ক করা বিকল্প সব ইনস্ট্যান্সে প্রয়োগ হয় এবং মডপ্যাকের মানকে ওভাররাইড করে।"
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "{setting} ইনস্ট্যান্সজুড়ে সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "গেমের সেটিংস সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "ইনস্ট্যান্সজুড়ে সিঙ্ক করা"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "গেমের সেটিংস"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "আপনার অসংরক্ষিত পরিবর্তন আছে।"
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "{setting} ইনস্ট্যান্সজুড়ে সিঙ্ক করা বন্ধ করুন"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "ইনস্ট্যান্সভেদে আলাদা"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "বন্ধ"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "চালু"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "একটি মান বেছে নিন"
+  },
+  "app.settings.synced-options.multiplayer-servers": {
+    "message": "মাল্টিপ্লেয়ার সার্ভার সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.multiplayer-servers.address": {
+    "message": "সার্ভারের ঠিকানা"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "ঠিকানা কপি করুন"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
+  },
+  "app.settings.synced-options.multiplayer-servers.description": {
+    "message": "আপনার ইনস্ট্যান্সে একই মাল্টিপ্লেয়ার সার্ভার ব্যবহার করুন।"
+  },
+  "app.settings.synced-options.multiplayer-servers.editor-title": {
+    "message": "সিঙ্ক করা সার্ভার সম্পাদনা করুন"
+  },
+  "app.settings.synced-options.multiplayer-servers.empty": {
+    "message": "বর্তমানে ব্যবহারকারী-যোগ করা কোনো সার্ভার সিঙ্ক করা নেই।"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "অফলাইন"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "অনলাইন"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "আরও সার্ভার বিকল্প"
+  },
+  "app.settings.synced-options.multiplayer-servers.name": {
+    "message": "সার্ভারের নাম"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "আপনার খোঁজা বা ফিল্টারের সাথে মেলে এমন কোনো সিঙ্ক করা সার্ভার নেই।"
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "আপনি এখনো কোনো সার্ভার সিঙ্ক করেননি"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "{count, number} অনলাইন"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "{count, number} {count, plural, one {synced server} other {synced servers}} খুঁজুন..."
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "অবস্থা"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "প্যাক সম্পাদনা করার আগে সিঙ্কিং চালু করুন।"
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "রিসোর্স প্যাক সিঙ্ক করুন"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "আপনার ইনস্ট্যান্সে একই রিসোর্স প্যাক ব্যবহার করুন।"
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "আপনি এখনো কোনো রিসোর্স প্যাক সিঙ্ক করেননি"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "চেহারা"
+  },
+  "app.settings.tabs.behavior": {
+    "message": "আচরণ"
+  },
+  "app.settings.tabs.features": {
+    "message": "বৈশিষ্ট্য"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java ও মেমরি"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "Java ইনস্টলেশন"
+  },
+  "app.settings.tabs.language": {
+    "message": "ভাষা"
+  },
+  "app.settings.tabs.launch-hooks": {
+    "message": "চালুর হুক"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "গোপনীয়তা"
+  },
+  "app.settings.tabs.resources": {
+    "message": "সংস্থান"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "সিঙ্কিং"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "সমস্যা সমাধান"
+  },
+  "app.settings.tabs.window": {
+    "message": "উইন্ডো"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "ক্যাশে মুছুন"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "অ্যাপের ক্যাশে মুছবেন?"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "আপডেট প্রস্তুত হচ্ছে…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "আপডেট পুশ করা হয়েছে"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "আপডেট পুশ হচ্ছে…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "ইনস্ট্যান্স মুছুন"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "আরও ইনস্ট্যান্সের কাজ"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "কারণ"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "শেয়ার করা ইনস্ট্যান্স লক করা আছে"
+  },
+  "app.skins.add-button": {
+    "message": "স্কিন যোগ করুন"
+  },
+  "app.skins.add-button.drag-and-drop": {
+    "message": "টেনে এনে ছেড়ে দিন"
+  },
+  "app.skins.apply-button": {
+    "message": "প্রয়োগ করুন"
+  },
+  "app.skins.delete-button": {
+    "message": "স্কিন মুছুন"
+  },
+  "app.skins.delete-modal.description": {
+    "message": "নির্বাচিত স্কিন স্থায়ীভাবে মুছে ফেলা হবে। এই কাজ পূর্বের অবস্থায় ফেরানো যাবে না।"
+  },
+  "app.skins.delete-modal.title": {
+    "message": "আপনি কি নিশ্চিত যে এই স্কিন মুছতে চান?"
+  },
+  "app.skins.demo.apply-tooltip": {
+    "message": "স্কিন প্রয়োগ করতে সাইন ইন করুন।"
+  },
+  "app.skins.dropped-file-error.text": {
+    "message": "ফেলে দেওয়া ফাইল পড়তে ব্যর্থ।"
+  },
+  "app.skins.dropped-file-error.title": {
+    "message": "ফাইল প্রক্রিয়াকরণে ত্রুটি"
+  },
+  "app.skins.ears-feature-notice": {
+    "message": "এই স্কিনে {ears} মডের বৈশিষ্ট্য রয়েছে"
+  },
+  "app.skins.edit-button": {
+    "message": "স্কিন সম্পাদনা করুন"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "ely.by-তে এই অ্যাকাউন্টের স্কিন ও কেপ বদলান। লঞ্চারে এই সেটিংস শুধু পড়ার জন্য।"
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "স্কিন Ely.by দ্বারা পরিচালিত হয়"
+  },
+  "app.skins.modal.add-skin-button": {
+    "message": "স্কিন যোগ করুন"
+  },
+  "app.skins.modal.add-title": {
+    "message": "স্কিন যোগ করা হচ্ছে"
+  },
+  "app.skins.modal.arm-style-section": {
+    "message": "হাতের স্টাইল"
+  },
+  "app.skins.modal.arm-style-slim": {
+    "message": "সরু"
+  },
+  "app.skins.modal.arm-style-wide": {
+    "message": "চওড়া"
+  },
+  "app.skins.modal.cape-fallback-name": {
+    "message": "কেপ"
+  },
+  "app.skins.modal.cape-section": {
+    "message": "কেপ"
+  },
+  "app.skins.modal.demo-save-tooltip": {
+    "message": "স্কিন সংরক্ষণ করতে সাইন ইন করুন।"
+  },
+  "app.skins.modal.edit-title": {
+    "message": "স্কিন সম্পাদনা হচ্ছে"
+  },
+  "app.skins.modal.make-edit-first-tooltip": {
+    "message": "প্রথমে স্কিনে কিছু পরিবর্তন করুন!"
+  },
+  "app.skins.modal.no-cape-tooltip": {
+    "message": "কোনো কেপ নেই"
+  },
+  "app.skins.modal.none-cape-option": {
+    "message": "কিছু নয়"
+  },
+  "app.skins.modal.replace-texture-button": {
+    "message": "টেক্সচার বদলান"
+  },
+  "app.skins.modal.save-skin-button": {
+    "message": "স্কিন সংরক্ষণ করুন"
+  },
+  "app.skins.modal.saving-tooltip": {
+    "message": "সংরক্ষণ হচ্ছে..."
+  },
+  "app.skins.modal.texture-section": {
+    "message": "টেক্সচার"
+  },
+  "app.skins.modal.upload-skin-first-tooltip": {
+    "message": "প্রথমে একটি স্কিন আপলোড করুন!"
+  },
+  "app.skins.preview.edit-button": {
+    "message": "স্কিন সম্পাদনা করুন"
+  },
+  "app.skins.previewing-badge": {
+    "message": "প্রিভিউ হচ্ছে"
+  },
+  "app.skins.rate-limit.text": {
+    "message": "আপনি খুব ঘন ঘন স্কিন বদলাচ্ছেন। Mojang-এর সার্ভার কিছুক্ষণের জন্য আরও অনুরোধ ব্লক করেছে। আবার চেষ্টা করার আগে একটু অপেক্ষা করুন।"
+  },
+  "app.skins.rate-limit.title": {
+    "message": "ধীরে চলুন!"
+  },
+  "app.skins.reorder-error.text": {
+    "message": "আপনার স্কিনের ক্রম সংরক্ষণ করা যায়নি।"
+  },
+  "app.skins.reorder-error.title": {
+    "message": "স্কিনের ক্রম বদলাতে ব্যর্থ"
+  },
+  "app.skins.section.builders-and-biomes": {
+    "message": "Builders & Biomes"
+  },
+  "app.skins.section.chaos-cubed": {
+    "message": "Chaos Cubed"
+  },
+  "app.skins.section.chase-the-skies": {
+    "message": "Chase the Skies"
+  },
+  "app.skins.section.default-skins": {
+    "message": "ডিফল্ট স্কিন"
+  },
+  "app.skins.section.dungeons-hero": {
+    "message": "Dungeons Hero"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "Dungeons II Hero"
+  },
+  "app.skins.section.minecon-earth-2017": {
+    "message": "MINECON Earth 2017"
+  },
+  "app.skins.section.modrinth": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.skins.section.modrinth-pride": {
+    "message": "Panda Minecraft Launcher Pride"
+  },
+  "app.skins.section.modrinth-pride.tooltip": {
+    "message": "Pride মাসে Panda Minecraft Launcher Pride তহবিলে অনুদান দেওয়ায় আপনি এই স্কিনগুলো পেয়েছেন।"
+  },
+  "app.skins.section.mounts-of-mayhem": {
+    "message": "Mounts of Mayhem"
+  },
+  "app.skins.section.saved-skins": {
+    "message": "সংরক্ষিত স্কিন"
+  },
+  "app.skins.section.striding-hero": {
+    "message": "Striding Hero"
+  },
+  "app.skins.section.the-copper-age": {
+    "message": "The Copper Age"
+  },
+  "app.skins.section.the-garden-awakens": {
+    "message": "The Garden Awakens"
+  },
+  "app.skins.section.tiny-takeover": {
+    "message": "Tiny Takeover"
+  },
+  "app.skins.section.wilderness-bound": {
+    "message": "Wilderness Bound"
+  },
+  "app.skins.toggle-ears-features-off": {
+    "message": "বন্ধ করুন"
+  },
+  "app.skins.toggle-ears-features-on": {
+    "message": "চালু করুন"
+  },
+  "app.splash.moving-app-directory": {
+    "message": "অ্যাপ ডাইরেক্টরি সরানো হচ্ছে..."
+  },
+  "app.survey.body": {
+    "message": "Panda Minecraft Launcher-এর সাথে আপনার অভিজ্ঞতা সম্পর্কে কয়েকটি প্রশ্নের উত্তর দিতে পারবেন কি?"
+  },
+  "app.survey.footer": {
+    "message": "এই মতামত সরাসরি Panda Minecraft Launcher দলের কাছে যাবে এবং ভবিষ্যতের আপডেটে সাহায্য করবে!"
+  },
+  "app.survey.no-thanks": {
+    "message": "না, ধন্যবাদ"
+  },
+  "app.survey.take-survey": {
+    "message": "জরিপে অংশ নিন"
+  },
+  "app.survey.title": {
+    "message": "নমস্কার Panda Minecraft Launcher ব্যবহারকারী!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "ডেটা প্যাক কোন ইনস্ট্যান্স থেকে কপি করবে তা বেছে নিন। এই প্যাক শুধু প্রথম সিঙ্কের জন্য ব্যবহৃত হয়; পরে যেকোনো ইনস্ট্যান্স থেকে সম্পাদনা করতে পারেন।"
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "রিসোর্স প্যাক কোন ইনস্ট্যান্স থেকে কপি করবে তা বেছে নিন। এই প্যাক শুধু প্রথম সিঙ্কের জন্য ব্যবহৃত হয়; পরে যেকোনো ইনস্ট্যান্স থেকে সম্পাদনা করতে পারেন।"
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "সব সিঙ্ক করা ইনস্ট্যান্সে বা শুধু এই ইনস্ট্যান্সে বন্ধ করুন। শুধু এখানে বন্ধ করলে এই ইনস্ট্যান্সে ওভাররাইড চালু হবে।"
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "সব জায়গায় বন্ধ করুন"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "সব সিঙ্ক করা ইনস্ট্যান্সে এই কনটেন্ট বন্ধ করুন।"
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "এখানে বন্ধ করুন"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "কনটেন্ট বন্ধ করবেন?"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "সব সিঙ্ক করা ইনস্ট্যান্সে বা শুধু এই ইনস্ট্যান্সে চালু করুন। শুধু এখানে চালু করলে এই ইনস্ট্যান্সে ওভাররাইড চালু হবে।"
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "সব জায়গায় চালু করুন"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "সব সিঙ্ক করা ইনস্ট্যান্সে এই কনটেন্ট চালু করুন।"
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "এখানে চালু করুন"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "কনটেন্ট চালু করবেন?"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "সব জায়গায় মুছুন"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "এখানে মুছুন"
+  },
+  "app.synced-content.delete.description": {
+    "message": "এই কনটেন্ট মুছে ফেললে আপনার সব ইনস্ট্যান্স থেকে মুছে যাবে"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "নির্বাচিত অ-সিঙ্ক করা কনটেন্ট শুধু এই ইনস্ট্যান্স থেকে মুছে ফেলা হবে।"
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "আপনি এটি শুধু এই ইনস্ট্যান্স থেকে বা সব সিঙ্ক করা ইনস্ট্যান্স থেকে সরাতে পারেন। শুধু এখান থেকে সরালে ওভাররাইড চালু হবে এবং এই ইনস্ট্যান্সে ওই কনটেন্টের সিঙ্ক করা পরিবর্তন আর পৌঁছাবে না।"
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "আপনি {count, plural, one {it} other {them}} শুধু এই ইনস্ট্যান্স বা সব সিঙ্ক করা ইনস্ট্যান্স থেকে সরাতে পারেন। {count, plural, one {it} other {them}} শুধু এই ইনস্ট্যান্স থেকে সরালে ওভাররাইড চালু হবে এবং এই ইনস্ট্যান্সে সিঙ্ক করা রিসোর্স প্যাকের পরিবর্তন আর পৌঁছাবে না।"
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "এই ইনস্ট্যান্স নিজের কপি রাখবে। আপনি কি এই কনটেন্ট অন্য ইনস্ট্যান্সে সিঙ্ক রাখতে চান, নাকি সেগুলো থেকে সরাতে চান?"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "রাখুন"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "সরান"
+  },
+  "app.synced-content.desync.title": {
+    "message": "কনটেন্টের সিঙ্ক তুলে দিন"
+  },
+  "app.synced-content.warning.title": {
+    "message": "এই কনটেন্ট সিঙ্ক করা আছে"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "সিঙ্ক করা ডেটা প্যাক"
+  },
+  "app.synced-packs.empty": {
+    "message": "সিঙ্কিং শুরু করতে কোনো ইনস্ট্যান্সের কনটেন্ট পৃষ্ঠা থেকে প্যাক যোগ করুন।"
+  },
+  "app.synced-packs.load-failed": {
+    "message": "প্যাক লোড করা যায়নি। রিফ্রেশ করে চেষ্টা করুন।"
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "সিঙ্ক করা রিসোর্স প্যাক"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Minecraft"
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "Panda Minecraft Launcher v{version} ডাউনলোড সম্পন্ন হয়েছে। এখন রিলোড করে আপডেট করুন, অথবা Panda Minecraft Launcher বন্ধ হলে স্বয়ংক্রিয়ভাবে আপডেট হবে।"
+  },
+  "app.update-popup.body.linux": {
+    "message": "Panda Minecraft Launcher v{version} পাওয়া যাচ্ছে। নতুন বৈশিষ্ট্য ও সমাধানের জন্য আপনার প্যাকেজ ম্যানেজার ব্যবহার করে আপডেট করুন!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Panda Minecraft Launcher v{version} এখন পাওয়া যাচ্ছে! আপনি মিটারড নেটওয়ার্কে থাকায় আমরা স্বয়ংক্রিয়ভাবে ডাউনলোড করিনি।"
+  },
+  "app.update-popup.changelog": {
+    "message": "পরিবর্তনসূচি"
+  },
+  "app.update-popup.download": {
+    "message": "ডাউনলোড করুন ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "ডাউনলোড সম্পন্ন"
+  },
+  "app.update-popup.reload": {
+    "message": "আপডেটের জন্য রিলোড করুন"
+  },
+  "app.update-popup.title": {
+    "message": "আপডেট পাওয়া যাচ্ছে"
+  },
+  "app.update.complete-toast.text": {
+    "message": "পরিবর্তনসূচি দেখতে এখানে ক্লিক করুন।"
+  },
+  "app.update.complete-toast.title": {
+    "message": "{version} সংস্করণ সফলভাবে ইনস্টল হয়েছে!"
+  },
+  "app.update.download-error.missing-version": {
+    "message": "আপডেট ডাউনলোড করতে ব্যর্থ: কোনো সংস্করণ পাওয়া যায়নি"
+  },
+  "app.user.project.install-to-instance": {
+    "message": "ইনস্ট্যান্সে ইনস্টল করুন"
+  },
+  "app.welcome-screen.create-instance": {
+    "message": "একটি ইনস্ট্যান্স তৈরি করুন"
+  },
+  "app.welcome-screen.description": {
+    "message": "খেলা শুরু করতে প্রস্তুত?"
+  },
+  "app.welcome-screen.import-from-launcher": {
+    "message": "অন্য লঞ্চার থেকে আমদানি করুন"
+  },
+  "app.welcome-screen.import-prompt": {
+    "message": "অন্য লঞ্চার থেকে আসছেন?"
+  },
+  "app.welcome-screen.more-options": {
+    "message": "আরও বিকল্প"
+  },
+  "app.welcome-screen.quick-create-hint": {
+    "message": "দ্রুত ইনস্ট্যান্স তৈরি করতে <shortcut>N</shortcut> টিপুন"
+  },
+  "app.welcome-screen.skip": {
+    "message": "এড়িয়ে যান"
+  },
+  "app.welcome-screen.title": {
+    "message": "Panda Minecraft Launcher-এ স্বাগতম"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "একটি বিকল্প বেছে নিন"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "অসামঞ্জস্যপূর্ণ সংস্করণ {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "এখনো খেলা হয়নি"
+  },
+  "app.world.world-item.offline": {
+    "message": "অফলাইন"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} অনলাইন"
+  },
+  "content.shared-instance.change-version-body": {
+    "message": "সংস্করণ বদলালে শুধু আপনার স্থানীয় কপি বদলায়। ভবিষ্যতে শেয়ার করা ইনস্ট্যান্স আপডেটে তা আবার ফিরে বা বদলে যেতে পারে।"
+  },
+  "content.shared-instance.delete-bulk-body": {
+    "message": "কয়েকটি নির্বাচিত প্রকল্প শেয়ার করা ইনস্ট্যান্সের অংশ। সেগুলো মুছলে শুধু আপনার স্থানীয় কপি বদলায়, এবং ভবিষ্যতের আপডেটে সেগুলো ফিরে বা বদলে যেতে পারে।"
+  },
+  "content.shared-instance.delete-button": {
+    "message": "যেকোনোভাবে মুছুন"
+  },
+  "content.shared-instance.delete-many-button": {
+    "message": "{count, number} টি প্রকল্প যেকোনোভাবে মুছুন"
+  },
+  "content.shared-instance.delete-single-body": {
+    "message": "এটি মুছলে শুধু আপনার স্থানীয় কপি বদলায়। ভবিষ্যতে শেয়ার করা ইনস্ট্যান্স আপডেটে তা আবার ফিরে বা বদলে যেতে পারে।"
+  },
+  "content.shared-instance.disable-bulk-body": {
+    "message": "কয়েকটি নির্বাচিত প্রকল্প শেয়ার করা ইনস্ট্যান্সের অংশ। সেগুলো বন্ধ করলে শুধু আপনার স্থানীয় কপি বদলায়, এবং ভবিষ্যতের আপডেটে সেগুলো আবার চালু, ফিরে বা বদলে যেতে পারে।"
+  },
+  "content.shared-instance.disable-button": {
+    "message": "যেকোনোভাবে বন্ধ করুন"
+  },
+  "content.shared-instance.disable-many-button": {
+    "message": "{count, number} টি প্রকল্প যেকোনোভাবে বন্ধ করুন"
+  },
+  "content.shared-instance.disable-single-body": {
+    "message": "এটি বন্ধ করলে শুধু আপনার স্থানীয় কপি বদলায়। ভবিষ্যতে শেয়ার করা ইনস্ট্যান্স আপডেটে তা আবার চালু, ফিরে বা বদলে যেতে পারে।"
+  },
+  "content.shared-instance.unlink-body": {
+    "message": "লিংক তুলে দিলে শুধু আপনার স্থানীয় কপি বদলায়। ভবিষ্যতে শেয়ার করা ইনস্ট্যান্স আপডেটে তা আবার ফিরে বা বদলে যেতে পারে।"
+  },
+  "content.shared-instance.warning-header": {
+    "message": "এটি শেয়ার করা ইনস্ট্যান্সের অংশ"
+  },
+  "friends.action.add-friend": {
+    "message": "বন্ধু যোগ করুন"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} টি বন্ধু {count, plural, one {request} other {requests}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "বন্ধু অনুরোধ পাঠান"
+  },
+  "friends.add-friend.title": {
+    "message": "বন্ধু যোগ করা হচ্ছে"
+  },
+  "friends.add-friend.username.description": {
+    "message": "এটি তাদের Minecraft ব্যবহারকারী নাম থেকে আলাদা হতে পারে!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "Panda Minecraft Launcher ব্যবহারকারী নাম লিখুন..."
+  },
+  "friends.add-friend.username.title": {
+    "message": "আপনার বন্ধুর Panda Minecraft Launcher ব্যবহারকারী নাম কী?"
+  },
+  "friends.add-friends-to-share": {
+    "message": "তারা কী খেলছেন দেখতে <link>বন্ধু যোগ করুন</link>!"
+  },
+  "friends.friend.actions.label": {
+    "message": "বন্ধুর কাজ"
+  },
+  "friends.friend.cancel-request": {
+    "message": "অনুরোধ বাতিল করুন"
+  },
+  "friends.friend.remove-friend": {
+    "message": "বন্ধু সরান"
+  },
+  "friends.friend.request-sent": {
+    "message": "বন্ধু অনুরোধ পাঠানো হয়েছে"
+  },
+  "friends.friend.view-profile": {
+    "message": "প্রোফাইল দেখুন"
+  },
+  "friends.heading": {
+    "message": "বন্ধু"
+  },
+  "friends.heading.active": {
+    "message": "সক্রিয়"
+  },
+  "friends.heading.offline": {
+    "message": "অফলাইন"
+  },
+  "friends.heading.online": {
+    "message": "অনলাইন"
+  },
+  "friends.heading.pending": {
+    "message": "অপেক্ষমাণ"
+  },
+  "friends.no-friends-match": {
+    "message": "''{query}''-এর সাথে মেলে এমন কোনো বন্ধু নেই"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "বন্ধু খুঁজুন..."
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "বন্ধু যোগ করতে ও তারা কী খেলছেন দেখতে <link>Panda Minecraft Launcher অ্যাকাউন্টে সাইন ইন করুন</link>!"
+  },
+  "hosting.play.account-changed": {
+    "message": "আপনার Panda Minecraft Launcher অ্যাকাউন্ট বদলেছে। চালিয়ে যেতে আবার \"Play server\" টিপুন।"
+  },
+  "hosting.play.no-address": {
+    "message": "এই সার্ভারের এখনো সংযোগের ঠিকানা নেই।"
+  },
+  "hosting.play.not-ready": {
+    "message": "এই ইনস্ট্যান্স চালু করা যাবে না। লাইব্রেরিতে ইনস্টল অবস্থা দেখুন।"
+  },
+  "hosting.play.update-description": {
+    "message": "যোগ দেওয়ার আগে এই ইনস্ট্যান্সকে সার্ভারের সর্বশেষ শেয়ার করা কনটেন্টে আপডেট করুন।"
+  },
+  "hosting.play.update-to-play": {
+    "message": "খেলার জন্য আপডেট করুন"
+  },
+  "hosting.play.world-changed": {
+    "message": "এই ওয়ার্ল্ড আর সক্রিয় নেই বা শেয়ার করা হয়নি। সার্ভার প্যানেল খুলে আবার \"Play server\" টিপুন।"
+  },
+  "installation-settings.advanced.title": {
+    "message": "উন্নত"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "শেয়ার করা ইনস্ট্যান্স আবার লিংক করুন"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "আমন্ত্রণ লিংক বা ID ব্যবহার করে এই ইনস্ট্যান্সটিকে আগের শেয়ার করা ইনস্ট্যান্সের সাথে আবার যুক্ত করুন।"
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "আপনার ইনস্ট্যান্স \"{name}\" ইতিমধ্যে এই শেয়ার করা ইনস্ট্যান্সের সাথে লিংক করা আছে।"
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "এই ইনস্ট্যান্স আবার লিংক করা যাবে না"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "এই ইনস্ট্যান্স আবার শেয়ার করা ইনস্ট্যান্সের উৎস হবে। আপনি আপডেট প্রকাশ করলে সদস্যরা আপনার পরিবর্তন পাবেন।"
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "আপনার মালিকানাধীন শেয়ার করা ইনস্ট্যান্সের সাথে এই ইনস্ট্যান্স আবার যুক্ত করুন।"
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "শেয়ার করা ইনস্ট্যান্স খুঁজুন"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "শেয়ার করা ইনস্ট্যান্স আবার লিংক করুন"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "আমন্ত্রণ লিংক বা শেয়ার করা ইনস্ট্যান্স ID"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "এই ইনস্ট্যান্স {localLoader} {localGameVersion} ব্যবহার করে, কিন্তু শেয়ার করা ইনস্ট্যান্স {loader} {gameVersion} ব্যবহার করে। পরবর্তী প্রকাশে শেয়ার করা ইনস্ট্যান্সটি এই ইনস্ট্যান্সের সাথে মিলানো হবে।"
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "গেম বা লোডারের সংস্করণ আলাদা"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "শেয়ার করা ইনস্ট্যান্স শুধু মালিকই আবার লিংক করতে পারেন। সদস্য হিসেবে আপডেট পেতে লাইব্রেরি থেকে আবার ইনস্টল করুন।"
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "আবার লিংক করুন"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্স একটি সার্ভার দ্বারা পরিচালিত, তাই আবার লিংক করা যাবে না।"
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · সংস্করণ {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "শেয়ার করা ইনস্ট্যান্স আবার লিংক করুন"
+  },
+  "installation-settings.shared-instance.linked-title": {
+    "message": "লিংক করা শেয়ার করা ইনস্ট্যান্স"
+  },
+  "installation-settings.shared-instance.unlink-button": {
+    "message": "শেয়ার করা ইনস্ট্যান্সের লিংক তুলে দিন"
+  },
+  "installation-settings.shared-instance.unlink-description": {
+    "message": "এই স্থানীয় ইনস্ট্যান্সকে ভবিষ্যতের শেয়ার করা আপডেট থেকে বিচ্ছিন্ন করুন।"
+  },
+  "installation-settings.shared-instance.unlinking-button": {
+    "message": "লিংক তুলে দেওয়া হচ্ছে..."
+  },
+  "installation-settings.shared-instance.unpublish-description": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্স Panda Minecraft Launcher থেকে সরান এবং ব্যবহারকারীদের কাছে আপডেট পাঠানো বন্ধ করুন। আপনার স্থানীয় ইনস্ট্যান্সের কোনো ক্ষতি হবে না।"
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-body": {
+    "message": "এটি শুধু আপনার স্থানীয় ইনস্ট্যান্সকে প্রভাবিত করে। ইনস্টল করা কনটেন্ট ডিভাইসে থাকবে, শেয়ার করা ইনস্ট্যান্স ও অন্য ব্যবহারকারীদের কোনো ক্ষতি হবে না।"
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-header": {
+    "message": "শেয়ার করা ইনস্ট্যান্সের লিংক তুলে দেওয়া হচ্ছে"
+  },
+  "installation-settings.unlink-shared-instance.modal.header": {
+    "message": "শেয়ার করা ইনস্ট্যান্সের লিংক তুলে দিন"
+  },
+  "installation-settings.unpublish-shared-instance.modal.admonition-body": {
+    "message": "এটি Panda Minecraft Launcher-এর সার্ভার থেকে শেয়ার করা ইনস্ট্যান্স মুছে ফেলে। এটি ব্যবহারকারীরা আর আপডেট পাবেন না, কিন্তু আপনার স্থানীয় ইনস্ট্যান্স ও তার কনটেন্ট ডিভাইসে থাকবে।"
+  },
+  "instance.action.create-shortcut": {
+    "message": "শর্টকাট তৈরি করুন"
+  },
+  "instance.action.export-modpack": {
+    "message": "মডপ্যাক এক্সপোর্ট করুন"
+  },
+  "instance.action.launch-instance": {
+    "message": "ইনস্ট্যান্স চালু করুন"
+  },
+  "instance.action.more-actions": {
+    "message": "আরও কাজ"
+  },
+  "instance.action.open-folder": {
+    "message": "ফোল্ডার খুলুন"
+  },
+  "instance.action.repair": {
+    "message": "মেরামত করুন"
+  },
+  "instance.action.settings": {
+    "message": "ইনস্ট্যান্সের সেটিংস"
+  },
+  "instance.action.starting": {
+    "message": "শুরু হচ্ছে..."
+  },
+  "instance.action.stopping": {
+    "message": "বন্ধ হচ্ছে..."
+  },
+  "instance.add-server.add-and-play": {
+    "message": "যোগ করে খেলুন"
+  },
+  "instance.add-server.add-server": {
+    "message": "সার্ভার যোগ করুন"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "বন্ধ"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "চালু"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "জিজ্ঞেস করুন"
+  },
+  "instance.add-server.title": {
+    "message": "একটি সার্ভার যোগ করুন"
+  },
+  "instance.edit-server.title": {
+    "message": "সার্ভার সম্পাদনা করুন"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "হোম পৃষ্ঠা থেকে লুকান"
+  },
+  "instance.edit-world.name": {
+    "message": "নাম"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "Minecraft World"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "আইকন রিসেট করুন"
+  },
+  "instance.edit-world.title": {
+    "message": "ওয়ার্ল্ড সম্পাদনা করুন"
+  },
+  "instance.files.adding-files": {
+    "message": "ফাইল যোগ করা হচ্ছে ({completed}/{total})"
+  },
+  "instance.files.managed-content-read-only": {
+    "message": "কনটেন্ট ট্যাব থেকে ইনস্টল করা কনটেন্ট পরিচালনা করুন"
+  },
+  "instance.files.save-as": {
+    "message": "Save as..."
+  },
+  "instance.last-played": {
+    "message": "সর্বশেষ খেলা"
+  },
+  "instance.locked.delete-button": {
+    "message": "ইনস্ট্যান্স মুছুন"
+  },
+  "instance.locked.play-tooltip": {
+    "message": "এই ইনস্ট্যান্স লক করা হয়েছে"
+  },
+  "instance.playtime.never-played": {
+    "message": "কখনো খেলা হয়নি"
+  },
+  "instance.server-modal.address": {
+    "message": "ঠিকানা"
+  },
+  "instance.server-modal.name": {
+    "message": "নাম"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "Minecraft Server"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "রিসোর্স প্যাক"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "ডিফল্ট সেটিংস পরিচালনা করুন"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "{setting} ডিফল্টে ফিরিয়ে আনুন"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "ডিফল্টে ফিরিয়ে আনুন"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "গেম"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "ইনস্ট্যান্স"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "সিঙ্ক করা তথ্য সম্পাদনা করতে এই ওভাররাইড বন্ধ করুন।"
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "ডেটা প্যাকের সিঙ্ক তুলে দিন"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "এই ইনস্ট্যান্সের ডেটা প্যাককে সিঙ্ক করা প্যাক থেকে আলাদা রাখুন।"
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "অ্যাপ সেটিংসে ডেটা প্যাক সিঙ্কিং বন্ধ করা আছে।"
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "সিঙ্ক করা প্যাক সম্পাদনা করুন"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "সিঙ্ক করা প্যাক সম্পাদনা করতে এই ওভাররাইড বন্ধ করুন। স্বাধীন প্যাক কনটেন্ট ট্যাব থেকে পরিচালনা করা যায়।"
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "রিসোর্স প্যাকের সিঙ্ক তুলে দিন"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "এই ইনস্ট্যান্সের রিসোর্স প্যাককে সিঙ্ক করা প্যাক থেকে আলাদা রাখুন।"
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "অ্যাপ সেটিংসে রিসোর্স প্যাক সিঙ্কিং বন্ধ করা আছে।"
+  },
+  "instance.settings.tabs.behavior.description": {
+    "message": "এই ইনস্ট্যান্সে কোন ট্যাব দেখা যাবে তা বেছে নিন।"
+  },
+  "instance.settings.tabs.behavior.files": {
+    "message": "ফাইল ট্যাব দেখান"
+  },
+  "instance.settings.tabs.behavior.screenshots": {
+    "message": "স্ক্রিনশট ট্যাব দেখান"
+  },
+  "instance.settings.tabs.behavior.screenshots.required": {
+    "message": "গ্লোবাল স্ক্রিনশট পৃষ্ঠা বন্ধ থাকা অবস্থায় স্ক্রিনশট ট্যাব লুকানো যাবে না।"
+  },
+  "instance.settings.tabs.behavior.worlds": {
+    "message": "ওয়ার্ল্ড ট্যাব দেখান"
+  },
+  "instance.settings.tabs.general": {
+    "message": "সাধারণ"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "ইনস্ট্যান্স মুছুন"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "ইনস্ট্যান্স মুছুন"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "এই ডিভাইস থেকে ইনস্ট্যান্স স্থায়ীভাবে মুছে ফেলা হয়, যার মধ্যে ওয়ার্ল্ড, কনফিগ ও সব ইনস্টল করা কনটেন্ট রয়েছে। সতর্ক থাকুন—একবার মুছে ফেললে আর ফেরানো যাবে না।"
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "মুছে ফেলা হচ্ছে..."
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "ডুপ্লিকেট"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "ইনস্টল করার সময় ডুপ্লিকেট করা যাবে না।"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "লক করা ইনস্ট্যান্স ডুপ্লিকেট করা যাবে না।"
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "ইনস্ট্যান্স ডুপ্লিকেট করুন"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "ওয়ার্ল্ড, কনফিগ, মড প্রভৃতিসহ এই ইনস্ট্যান্সের একটি কপি তৈরি করে।"
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "আইকন সম্পাদনা করুন"
+  },
+  "instance.settings.tabs.general.edit-icon.create": {
+    "message": "একটি আইকন তৈরি করুন"
+  },
+  "instance.settings.tabs.general.edit-icon.edit-created": {
+    "message": "আইকন সম্পাদনা করুন"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "আইকন সরান"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "আইকন বদলান"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "আইকন বেছে নিন"
+  },
+  "instance.settings.tabs.general.icon": {
+    "message": "আইকন"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "নাম"
+  },
+  "instance.settings.tabs.general.update-channel": {
+    "message": "আপডেট চ্যানেল"
+  },
+  "instance.settings.tabs.general.update-channel.alpha": {
+    "message": "Alpha"
+  },
+  "instance.settings.tabs.general.update-channel.alpha.description": {
+    "message": "Release, beta ও alpha সংস্করণ আপডেট হিসেবে দেখানো হবে।"
+  },
+  "instance.settings.tabs.general.update-channel.beta": {
+    "message": "Beta"
+  },
+  "instance.settings.tabs.general.update-channel.beta.description": {
+    "message": "Release ও beta সংস্করণ আপডেট হিসেবে দেখানো হবে।"
+  },
+  "instance.settings.tabs.general.update-channel.release": {
+    "message": "Release"
+  },
+  "instance.settings.tabs.general.update-channel.release.description": {
+    "message": "শুধু release সংস্করণ আপডেট হিসেবে দেখানো হবে।"
+  },
+  "instance.settings.tabs.general.update-channel.select": {
+    "message": "আপডেট চ্যানেল বেছে নিন"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "আপনি এখানে বদল না করলে ইনস্ট্যান্স ডিফল্ট চালুর হুক ব্যবহার করে।"
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "চালুর হুক"
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "প্রস্থান-পর"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "গেম বন্ধ হওয়ার পরে চলে।"
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "প্রস্থান-পর কমান্ড লিখুন..."
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "চালুর আগে"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "ইনস্ট্যান্স চালু হওয়ার আগে চলে।"
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "চালুর আগের কমান্ড লিখুন..."
+  },
+  "instance.settings.tabs.hooks.variables.description": {
+    "message": "হুকগুলো ইনস্ট্যান্সের কর্ম ডাইরেক্টরিতে চলে, নিচের ভেরিয়েবলগুলো সহ:"
+  },
+  "instance.settings.tabs.hooks.variables.inst-dir.description": {
+    "message": "$INST_DIR: ইনস্ট্যান্স ফোল্ডারের সম্পূর্ণ পথ"
+  },
+  "instance.settings.tabs.hooks.variables.inst-id.description": {
+    "message": "$INST_ID: ইনস্ট্যান্স ফোল্ডারের নাম"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java-args.description": {
+    "message": "$INST_JAVA_ARGS: গেমে দেওয়া JVM আর্গুমেন্ট"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java.description": {
+    "message": "$INST_JAVA: java বাইনারির সম্পূর্ণ পথ"
+  },
+  "instance.settings.tabs.hooks.variables.inst-mc-dir.description": {
+    "message": "$INST_MC_DIR: $INST_DIR-এর অন্য নাম"
+  },
+  "instance.settings.tabs.hooks.variables.inst-name.description": {
+    "message": "$INST_NAME: ইনস্ট্যান্সের নাম"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "ওয়ার্পার"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "Minecraft চালুর ওয়ার্পার কমান্ড।"
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "ওয়ার্পার কমান্ড লিখুন..."
+  },
+  "instance.settings.tabs.installation": {
+    "message": "ইনস্টলেশন"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "{loader} সংস্করণ"
+  },
+  "instance.settings.tabs.installation.locked": {
+    "message": "এই ইনস্ট্যান্স লক থাকা অবস্থায় ইনস্টলেশন সেটিংস পাওয়া যাবে না।"
+  },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "আপনি এখানে বদল না করলে ইনস্ট্যান্স ডিফল্ট Java ও মেমরি সেটিংস ব্যবহার করে।"
+  },
+  "instance.settings.tabs.java.enter-environment-variables": {
+    "message": "পরিবেশগত ভেরিয়েবল লিখুন..."
+  },
+  "instance.settings.tabs.java.enter-java-arguments": {
+    "message": "Java আর্গুমেন্ট লিখুন..."
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "পরিবেশগত ভেরিয়েবল"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "হুক"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Java আর্গুমেন্ট"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Java ইনস্টলেশন"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "মেমরি বরাদ্দ"
+  },
+  "instance.settings.tabs.java.java-path-placeholder": {
+    "message": "/path/to/java"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java ও মেমরি"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "এই ইনস্ট্যান্সের Minecraft সংস্করণের জন্য {version} সুপারিশকৃত।"
+  },
+  "instance.settings.tabs.sharing": {
+    "message": "শেয়ারিং"
+  },
+  "instance.settings.tabs.synced-options.command-history": {
+    "message": "কমান্ড ইতিহাসের সিঙ্ক তুলে দিন"
+  },
+  "instance.settings.tabs.synced-options.command-history.disabled-in-app": {
+    "message": "অ্যাপ সেটিংসে কমান্ড ইতিহাস সিঙ্কিং বন্ধ করা আছে।"
+  },
+  "instance.settings.tabs.synced-options.command-history.override-description": {
+    "message": "এই ইনস্ট্যান্সের কমান্ড ইতিহাস সিঙ্ক করা ইতিহাস থেকে আলাদা রাখুন।"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars": {
+    "message": "সংরক্ষিত ক্রিয়েটিভ হটবারের সিঙ্ক তুলে দিন"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.disabled-in-app": {
+    "message": "অ্যাপ সেটিংসে সংরক্ষিত ক্রিয়েটিভ হটবার সিঙ্কিং বন্ধ করা আছে।"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
+    "message": "এই ইনস্ট্যান্সের সংরক্ষিত ক্রিয়েটিভ হটবার সিঙ্ক করা হটবার থেকে আলাদা রাখুন।"
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "গেমের সেটিংসের সিঙ্ক তুলে দিন"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "এই ইনস্ট্যান্সের options.txt সিঙ্ক করা কপি থেকে আলাদা রাখুন।"
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "অ্যাপ সেটিংসে গেমের সেটিংস সিঙ্কিং বন্ধ করা আছে।"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
+    "message": "কোনো পরিবর্তনের আগে যে সংস্করণ বদলানো হচ্ছে তার একটি ব্যাকআপ নেওয়া হবে।"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.description": {
+    "message": "{instance} ও আপনার সিঙ্ক করা সংস্করণে আলাদা ক্রিয়েটিভ হটবার আছে। ইনস্ট্যান্সজুড়ে কোনটি ব্যবহার করবে তা বেছে নিন।"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.title": {
+    "message": "ক্রিয়েটিভ হটবার বেছে নিন"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-instance": {
+    "message": "অন্যগুলো ওভাররাইট করুন"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-synced": {
+    "message": "সিঙ্ক করা ব্যবহার করুন"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers": {
+    "message": "মাল্টিপ্লেয়ার সার্ভারের সিঙ্ক তুলে দিন"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.disabled-in-app": {
+    "message": "অ্যাপ সেটিংসে মাল্টিপ্লেয়ার সার্ভার সিঙ্কিং বন্ধ করা আছে।"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.override-description": {
+    "message": "এই ইনস্ট্যান্সের মাল্টিপ্লেয়ার সার্ভার সিঙ্ক করা সার্ভার থেকে আলাদা রাখুন।"
+  },
+  "instance.settings.tabs.synced-options.open-app-settings": {
+    "message": "সিঙ্ক করা সেটিংস পরিচালনা করুন"
+  },
+  "instance.settings.tabs.synced-options.shared-settings.description": {
+    "message": "এই ইনস্ট্যান্সে কোনো সিঙ্ক করা সেটিং আলাদা রাখতে একটি ওভাররাইড চালু করুন।"
+  },
+  "instance.settings.tabs.syncing": {
+    "message": "সিঙ্কিং"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "আপনি এখানে বদল না করলে ইনস্ট্যান্স ডিফল্ট উইন্ডো সেটিংস ব্যবহার করে।"
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "পূর্ণ পর্দা"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "চালু করার সময় গেম পূর্ণ পর্দায় শুরু করুন (options.txt ব্যবহার করে)।"
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "উচ্চতা"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "চালু হওয়ার সময় গেম উইন্ডোর উচ্চতা।"
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "উচ্চতা লিখুন..."
+  },
+  "instance.settings.tabs.window.label": {
+    "message": "উইন্ডো"
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "প্রস্থ"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "চালু হওয়ার সময় গেম উইন্ডোর প্রস্থ।"
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "প্রস্থ লিখুন..."
+  },
+  "instance.settings.using-defaults": {
+    "message": "ডিফল্ট ব্যবহার হচ্ছে"
+  },
+  "instance.shared-instance.error.title": {
+    "message": "কিছু ভুল হয়েছে"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "ফাইলের ধরন অনুমোদিত নেই"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "আপনি আর কোনো ইনস্ট্যান্স শেয়ার করতে পারবেন না।"
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "শেয়ার করা ইনস্ট্যান্সের সীমায় পৌঁছে গেছে"
+  },
+  "instance.shared-instance.network-error.text": {
+    "message": "শেয়ার করা ইনস্ট্যান্স API-তে সংযোগ করা যাচ্ছে না"
+  },
+  "instance.shared-instance.network-error.title": {
+    "message": "নেটওয়ার্ক ত্রুটি"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "অন্য Panda Minecraft Launcher ইনস্টলেশন থেকে একটি নতুন সংস্করণ পুশ করা হয়েছে। ডাউনলোড করে আবার চেষ্টা করুন।"
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "আপডেট পুশ করা যায়নি"
+  },
+  "instance.shared-instance.owner-tooltip": {
+    "message": "এই ইনস্ট্যান্সের কনটেন্ট অন্য ব্যবহারকারীদের সাথে শেয়ার করা হচ্ছে।"
+  },
+  "instance.shared-instance.tooltip": {
+    "message": "এই ইনস্ট্যান্সের কনটেন্ট অন্য কেউ পরিচালনা করছে।"
+  },
+  "instance.shared-instance.unavailable.access-revoked-text": {
+    "message": "আপনার প্রবেশ প্রত্যাহার করা হয়েছে। এই ইনস্ট্যান্স এখনো পাওয়া যাচ্ছে, কিন্তু আর লিংক করা নেই এবং আপডেট পাবে না।"
+  },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "Content Moderation দল এই শেয়ার করা ইনস্ট্যান্স লক করেছে। আপনি আর আপডেট পুশ বা পুনরায় শেয়ার করতে পারবেন না।"
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "ইনস্ট্যান্স আর শেয়ার করা যাবে না"
+  },
+  "instance.shared-instance.unavailable.locked-text": {
+    "message": "Content Moderation দল এই শেয়ার করা ইনস্ট্যান্স লক করেছে। এটি আর প্রধান ইনস্ট্যান্স থেকে আপডেট পাবে না এবং খেলা যাবে না।"
+  },
+  "instance.shared-instance.unavailable.locked-title": {
+    "message": "ইনস্ট্যান্স লক করা আছে"
+  },
+  "instance.shared-instance.unavailable.manager-fallback": {
+    "message": "ইনস্ট্যান্সের পরিচালক"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "এই শেয়ার করা ইনস্ট্যান্স খুঁজে পাওয়া যায়নি। আপনার ইনস্টল করা কনটেন্ট ডিভাইসে আছে।"
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "শেয়ার করা ইনস্ট্যান্স পাওয়া যাচ্ছে না"
+  },
+  "instance.shared-instance.unavailable.text": {
+    "message": "আপনার স্থানীয় ইনস্ট্যান্স এখনো পাওয়া যাচ্ছে, কিন্তু আর লিংক করা নেই এবং আপডেট পাবে না।"
+  },
+  "instance.shared-instance.unavailable.title": {
+    "message": "শেয়ার করা ইনস্ট্যান্স আর পাওয়া যাচ্ছে না"
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "A Minecraft Server"
+  },
+  "instance.worlds.actions.label": {
+    "message": "ওয়ার্ল্ডের কাজ"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "সার্ভারে সংযোগ করা যাচ্ছে না"
+  },
+  "instance.worlds.copy_address": {
+    "message": "ঠিকানা কপি করুন"
+  },
+  "instance.worlds.create_shortcut": {
+    "message": "শর্টকাট তৈরি করুন"
+  },
+  "instance.worlds.desync-server.description": {
+    "message": "আপনি কি এই সার্ভার অন্য সিঙ্ক করা ইনস্ট্যান্সে রাখতে চান, নাকি সেগুলো থেকে সরাতে চান?"
+  },
+  "instance.worlds.desync-server.keep": {
+    "message": "রাখুন"
+  },
+  "instance.worlds.desync-server.remove": {
+    "message": "সরান"
+  },
+  "instance.worlds.desync-server.title": {
+    "message": "সার্ভারের সিঙ্ক তুলে দিন"
+  },
+  "instance.worlds.desync_server": {
+    "message": "ডেসিঙ্ক"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "হোমে দেখাবেন না"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "ইনস্ট্যান্স আগেই খোলা আছে"
+  },
+  "instance.worlds.hardcore": {
+    "message": "হার্ডকোর মোড"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "সার্ভার অসামঞ্জস্যপূর্ণ"
+  },
+  "instance.worlds.instance-locked": {
+    "message": "এই ইনস্ট্যান্স লক করা হয়েছে"
+  },
+  "instance.worlds.linked_server": {
+    "message": "সার্ভার প্রকল্প দ্বারা পরিচালিত"
+  },
+  "instance.worlds.more-options": {
+    "message": "আরও বিকল্প"
+  },
+  "instance.worlds.no_contact": {
+    "message": "সার্ভারের সাথে যোগাযোগ করা যায়নি"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "Minecraft Alpha 1.0.5+ থেকেই শুধু সার্ভারে সরাসরি ঝাঁপ দেওয়া যায়"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "Minecraft 1.20+ থেকেই শুধু সিঙ্গলপ্লেয়ার ওয়ার্ল্ডে সরাসরি ঝাঁপ দেওয়া যায়"
+  },
+  "instance.worlds.play_instance": {
+    "message": "ইনস্ট্যান্স খেলুন"
+  },
+  "instance.worlds.play_world": {
+    "message": "ওয়ার্ল্ড খেলুন"
+  },
+  "instance.worlds.shortcut-created": {
+    "message": "শর্টকাট তৈরি হয়েছে"
+  },
+  "instance.worlds.shortcut-creation-failed": {
+    "message": "শর্টকাট তৈরি করতে ব্যর্থ"
+  },
+  "instance.worlds.synced_server": {
+    "message": "ইনস্ট্যান্সজুড়ে সিঙ্ক করা"
+  },
+  "instance.worlds.view_instance": {
+    "message": "ইনস্ট্যান্স দেখুন"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "ওয়ার্ল্ড ব্যবহার হচ্ছে"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "ely.by অ্যাকাউন্ট যোগ করুন"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Microsoft অ্যাকাউন্ট যোগ করুন"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "আপনার ely.by অ্যাকাউন্টে সাইন ইন করতে পারিনি। ely.by অ্যাকাউন্ট দেখে আবার চেষ্টা করুন।"
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "সাইন ইন ব্যর্থ"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "আপনার Microsoft অ্যাকাউন্টে সাইন ইন করতে পারিনি। অ্যাকাউন্টের নিষেধাজ্ঞা বা আঞ্চলিক সীমাবদ্ধতার কারণে হতে পারে।"
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "আপনার কোড"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "কপি করা হয়েছে"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "কপি করুন"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "ely.by দিয়ে সাইন ইন করুন"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "ely.by যাচাইকরণ পৃষ্ঠা খুলে Panda Minecraft Launcher-এ অনুমোদন দিতে এই কোডটি লিখুন। অনুমোদন দিলে সাইন ইন স্বয়ংক্রিয়ভাবে চলবে।"
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "ely.by যাচাইকরণ পৃষ্ঠা খুলুন"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "অনুমোদনের অপেক্ষায়…"
+  },
+  "minecraft-account.label": {
+    "message": "Minecraft অ্যাকাউন্ট"
+  },
+  "minecraft-account.not-signed-in": {
+    "message": "সাইন ইন করা নেই"
+  },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
+  "minecraft-account.remove-account": {
+    "message": "অ্যাকাউন্ট সরান"
+  },
+  "minecraft-account.select-account": {
+    "message": "অ্যাকাউন্ট বেছে নিন"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "ely.by দিয়ে সাইন ইন করুন"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Microsoft দিয়ে সাইন ইন করুন"
+  },
+  "minecraft-required.description": {
+    "message": "খেলা চালু ও খেলার আগে আপনার একটি Minecraft অ্যাকাউন্ট দরকার। Microsoft বা ely.by দিয়ে সাইন ইন করতে পারেন।"
+  },
+  "minecraft-required.description-header": {
+    "message": "Minecraft-এ সাইন ইন করুন"
+  },
+  "minecraft-required.dont-have-account": {
+    "message": "একটি অ্যাকাউন্ট নেই?"
+  },
+  "minecraft-required.get-minecraft": {
+    "message": "Minecraft নিন"
+  },
+  "minecraft-required.get-support": {
+    "message": "সাহায্য নিন"
+  },
+  "minecraft-required.header": {
+    "message": "Minecraft প্রয়োজন"
+  },
+  "minecraft-required.sign-in": {
+    "message": "Microsoft দিয়ে সাইন ইন করুন"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "ely.by দিয়ে সাইন ইন করুন"
+  },
+  "modal.modrinth-account-required.browser-description": {
+    "message": "সাইন ইন করতে একটি নতুন ট্যাব খোলা হয়েছে। সেখানে সাইন ইন সম্পন্ন করে অ্যাপে ফিরে আসুন।"
+  },
+  "modal.modrinth-account-required.continue-in-browser-heading": {
+    "message": "ব্রাউজারে চালিয়ে যান"
+  },
+  "modal.modrinth-account-required.create-account-button": {
+    "message": "একটি অ্যাকাউন্ট তৈরি করুন"
+  },
+  "modal.modrinth-account-required.description": {
+    "message": "এই বৈশিষ্ট্য ব্যবহার করতে Panda Minecraft Launcher অ্যাকাউন্টে সাইন ইন করতে হবে।"
+  },
+  "modal.modrinth-account-required.header": {
+    "message": "অ্যাকাউন্ট প্রয়োজন"
+  },
+  "modal.modrinth-account-required.open-browser-again-button": {
+    "message": "ব্রাউজার আবার খুলুন"
+  },
+  "modal.modrinth-account-required.sign-in-button": {
+    "message": "Panda Minecraft Launcher-এ সাইন ইন করুন"
+  },
+  "modal.modrinth-account-required.sign-in-heading": {
+    "message": "Panda Minecraft Launcher অ্যাকাউন্টে সাইন ইন করুন"
+  },
+  "modal.modrinth-account-required.signing-in-header": {
+    "message": "সাইন ইন হচ্ছে"
+  },
+  "modal.modrinth-account-required.support-prompt": {
+    "message": "সাইন ইনে সমস্যা? <support>সাহায্য নিন</support>"
+  },
+  "modal.modrinth-account-required.waiting-for-browser": {
+    "message": "ব্রাউজারের নিশ্চিতকরণের অপেক্ষায়..."
+  },
+  "project.server.status.offline": {
+    "message": "অফলাইন"
+  },
+  "project.server.status.online": {
+    "message": "অনলাইন"
+  },
+  "search.filter.locked.instance": {
+    "message": "ইনস্ট্যান্স দ্বারা প্রদত্ত"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "গেমের সংস্করণ ইনস্ট্যান্স দ্বারা প্রদত্ত"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "লোডার ইনস্ট্যান্স দ্বারা প্রদত্ত"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "ইনস্ট্যান্সের সাথে সিঙ্ক করুন"
+  },
+  "search.filter.locked.server": {
+    "message": "সার্ভার দ্বারা প্রদত্ত"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "সার্ভার ইনস্ট্যান্সে শুধু ক্লায়েন্ট-সাইড মড যোগ করা যায়"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "গেমের সংস্করণ সার্ভার দ্বারা প্রদত্ত"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "লোডার সার্ভার দ্বারা প্রদত্ত"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "সার্ভারের সাথে সিঙ্ক করুন"
+  },
+  "settings.sidebar.label.account": {
+    "message": "অ্যাকাউন্ট"
+  },
+  "settings.sidebar.label.display": {
+    "message": "প্রদর্শন"
+  }
+}

@@ -11,6 +11,26 @@ export type VersionEntry = {
 
 const VERSIONS: VersionEntry[] = [
 	{
+		date: `2026-11-28T00:00:00+00:00`,
+		product: 'app',
+		version: '0.0.13',
+		body: `## Panda Minecraft Launcher 0.0.13
+
+**Türkçe**
+- Uygulama artık 19 dilde: Arapça (Mısır ve Suudi), Bengalce, Almanca, İspanyolca, Fransızca, Hausa, Endonezce, Japonca, Marathice, Nijerya Pidgini, Portekizce (Brezilya), Rusça, Svahili, Teluguca, Türkçe, Urduca, Vietnamca ve Çince. Dili **Ayarlar > Görünüm > Dil** üzerinden değiştirebilirsin; Arapça ve Urduca sağdan sola yazımıyla gösterilir.
+- Vurgu rengi artık hesabına uyum sağlıyor: Microsoft hesabında dört renk arasında gezinen bir palet, Ely.by hesabında yeşil kullanılıyor. Hesap eklenmemişse nötr gri gösterilir ve üst çubuktaki hesap simgesi soluklaşır.
+- Hata ayıklama raporunun ZIP dosyası artık \`pml-debug-<tarih>.zip\` adıyla kaydediliyor; eski gizli ad kaldırıldı.
+
+**English**
+- The launcher is now available in 19 languages: Arabic (Egypt and Saudi Arabia), Bengali, German, Spanish, French, Hausa, Indonesian, Japanese, Marathi, Nigerian Pidgin, Brazilian Portuguese, Russian, Swahili, Telugu, Turkish, Urdu, Vietnamese and Chinese. Change it under **Settings > Display > Language**; Arabic and Urdu use right-to-left layout.
+- The accent color now follows your account: a rotating four-color palette for Microsoft accounts, green for Ely.by accounts. Without an account the neutral gray is used and the account icon in the title bar is dimmed.
+- Debug reports are now saved as \`pml-debug-<date>.zip\`; the old internal file name is gone.
+
+**İndirme / Download**
+- Windows: "Panda.Minecraft.Launcher_0.0.13_x64-setup.exe"
+- Linux AppImage: "Panda.Minecraft.Launcher_0.0.13_amd64.AppImage"`,
+	},
+	{
 		date: `2026-11-25T00:00:00+00:00`,
 		product: 'app',
 		version: '0.0.12',

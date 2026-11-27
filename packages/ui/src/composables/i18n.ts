@@ -36,13 +36,23 @@ export interface LocaleDefinition {
 }
 
 export const LOCALES: LocaleDefinition[] = [
-	// Commented out as it's RTL - will enable when we have better RTL support
-	// {
-	// 	code: 'ar-SA',
-	// 	name: 'العربية (السعودية)',
-	// 	translatedName: defineMessage({ id: 'locale.ar-SA', defaultMessage: 'Arabic' }),
-	// 	dir: 'rtl',
-	// },
+	{
+		code: 'ar-EG',
+		name: 'العربية (مصر)',
+		translatedName: defineMessage({ id: 'locale.ar-EG', defaultMessage: 'Egyptian Arabic' }),
+		dir: 'rtl',
+	},
+	{
+		code: 'ar-SA',
+		name: 'العربية (السعودية)',
+		translatedName: defineMessage({ id: 'locale.ar-SA', defaultMessage: 'Arabic' }),
+		dir: 'rtl',
+	},
+	{
+		code: 'bn-BD',
+		name: 'বাংলা (বাংলাদেশ)',
+		translatedName: defineMessage({ id: 'locale.bn-BD', defaultMessage: 'Bengali' }),
+	},
 	{
 		code: 'cs-CZ',
 		name: 'Čeština',
@@ -102,6 +112,11 @@ export const LOCALES: LocaleDefinition[] = [
 		translatedName: defineMessage({ id: 'locale.fr-FR', defaultMessage: 'French' }),
 	},
 	{
+		code: 'ha-NG',
+		name: 'Hausa',
+		translatedName: defineMessage({ id: 'locale.ha-NG', defaultMessage: 'Hausa' }),
+	},
+	{
 		code: 'he-IL',
 		name: 'עברית',
 		translatedName: defineMessage({ id: 'locale.he-IL', defaultMessage: 'Hebrew' }),
@@ -134,6 +149,11 @@ export const LOCALES: LocaleDefinition[] = [
 		translatedName: defineMessage({ id: 'locale.ko-KR', defaultMessage: 'Korean' }),
 	},
 	{
+		code: 'mr-IN',
+		name: 'मराठी',
+		translatedName: defineMessage({ id: 'locale.mr-IN', defaultMessage: 'Marathi' }),
+	},
+	{
 		code: 'ms-MY',
 		name: 'Bahasa Melayu',
 		translatedName: defineMessage({ id: 'locale.ms-MY', defaultMessage: 'Malay' }),
@@ -147,6 +167,11 @@ export const LOCALES: LocaleDefinition[] = [
 		code: 'no-NO',
 		name: 'Norsk (Bokmål)',
 		translatedName: defineMessage({ id: 'locale.no-NO', defaultMessage: 'Norwegian Bokmål' }),
+	},
+	{
+		code: 'pcm-NG',
+		name: 'Nigerian Pidgin',
+		translatedName: defineMessage({ id: 'locale.pcm-NG', defaultMessage: 'Nigerian Pidgin' }),
 	},
 	{
 		code: 'pl-PL',
@@ -185,6 +210,16 @@ export const LOCALES: LocaleDefinition[] = [
 		translatedName: defineMessage({ id: 'locale.sv-SE', defaultMessage: 'Swedish' }),
 	},
 	{
+		code: 'sw-KE',
+		name: 'Kiswahili',
+		translatedName: defineMessage({ id: 'locale.sw-KE', defaultMessage: 'Swahili' }),
+	},
+	{
+		code: 'te-IN',
+		name: 'తెలుగు',
+		translatedName: defineMessage({ id: 'locale.te-IN', defaultMessage: 'Telugu' }),
+	},
+	{
 		code: 'th-TH',
 		name: 'ไทย',
 		translatedName: defineMessage({ id: 'locale.th-TH', defaultMessage: 'Thai' }),
@@ -198,6 +233,12 @@ export const LOCALES: LocaleDefinition[] = [
 		code: 'uk-UA',
 		name: 'Українська',
 		translatedName: defineMessage({ id: 'locale.uk-UA', defaultMessage: 'Ukrainian' }),
+	},
+	{
+		code: 'ur-PK',
+		name: 'اردو',
+		translatedName: defineMessage({ id: 'locale.ur-PK', defaultMessage: 'Urdu' }),
+		dir: 'rtl',
 	},
 	{
 		code: 'vi-VN',

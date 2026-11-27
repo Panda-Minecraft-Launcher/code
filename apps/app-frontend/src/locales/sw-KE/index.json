@@ -1,0 +1,4685 @@
+{
+  "app.action-bar.changelog": {
+    "message": "Habari"
+  },
+  "app.action-bar.downloading-java": {
+    "message": "Inapakua Java {version}"
+  },
+  "app.action-bar.downloading-update": {
+    "message": "Inapakua sasisho"
+  },
+  "app.action-bar.downloads": {
+    "message": "Vipakuliwa"
+  },
+  "app.action-bar.hide-downloads": {
+    "message": "Ficha vipakuliwa vinavyoendelea"
+  },
+  "app.action-bar.hide-more-running-instances": {
+    "message": "Ficha instansi zinazoendelea zaidi"
+  },
+  "app.action-bar.install.copied-details": {
+    "message": "Ilinakiliwa"
+  },
+  "app.action-bar.install.dismiss": {
+    "message": "Futa"
+  },
+  "app.action-bar.install.inspect-details": {
+    "message": "Angalia maelezo"
+  },
+  "app.action-bar.install.open-instance": {
+    "message": "Fungua instansi"
+  },
+  "app.action-bar.install.retry": {
+    "message": "Jaribu tena"
+  },
+  "app.action-bar.install.summary.app-closing": {
+    "message": "Imeghairiwa kwa sababu programu inafungwa"
+  },
+  "app.action-bar.install.summary.bad-modpack-file": {
+    "message": "Haikuweza kusoma modpack"
+  },
+  "app.action-bar.install.summary.canceled": {
+    "message": "Imeghairiwa"
+  },
+  "app.action-bar.install.summary.cleanup-incomplete": {
+    "message": "Usafishaji haukukamilika"
+  },
+  "app.action-bar.install.summary.content-download-failed": {
+    "message": "Haikuweza kupakua faili"
+  },
+  "app.action-bar.install.summary.corrupt-download": {
+    "message": "Faili iliyopakuliwa imeharibika"
+  },
+  "app.action-bar.install.summary.could-not-save-files": {
+    "message": "Haikuweza kuhifadhi faili"
+  },
+  "app.action-bar.install.summary.download-failed": {
+    "message": "Upakuaji haukukamilika"
+  },
+  "app.action-bar.install.summary.instance-error": {
+    "message": "Haikuweza kuandaa instansi"
+  },
+  "app.action-bar.install.summary.invalid-file-path": {
+    "message": "Njia ya faili si halali"
+  },
+  "app.action-bar.install.summary.invalid-modpack": {
+    "message": "Data ya modpack si halali"
+  },
+  "app.action-bar.install.summary.invalid-modpack-files": {
+    "message": "Faili za modpack zina metadata isiyo halali"
+  },
+  "app.action-bar.install.summary.java-setup-failed": {
+    "message": "Usanidi wa Java haukufaulu"
+  },
+  "app.action-bar.install.summary.loader-setup-failed": {
+    "message": "Usanidi wa loader haukufaulu"
+  },
+  "app.action-bar.install.summary.local-data-error": {
+    "message": "Haikuweza kusasisha data ya ndani"
+  },
+  "app.action-bar.install.summary.minecraft-setup-failed": {
+    "message": "Usanidi wa Minecraft haukufaulu"
+  },
+  "app.action-bar.install.summary.modrinth-unreachable": {
+    "message": "Haikuweza kufikia Panda Minecraft Launcher"
+  },
+  "app.action-bar.install.summary.no-write-permission": {
+    "message": "Hakuna ruhusa ya kuandika"
+  },
+  "app.action-bar.install.summary.pack-download-failed": {
+    "message": "Haikuweza kupakua kifurushi"
+  },
+  "app.action-bar.install.summary.unexpected-error": {
+    "message": "Hitilafu isiyotarajiwa"
+  },
+  "app.action-bar.install.unknown-instance": {
+    "message": "Instansi isiyojulikana"
+  },
+  "app.action-bar.install.updating-shared-content": {
+    "message": "Inasasisha maudhui yanayoshirikiwa"
+  },
+  "app.action-bar.offline": {
+    "message": "Nje ya mtandao"
+  },
+  "app.action-bar.reload-to-update": {
+    "message": "Pakia upya ili kusasisha"
+  },
+  "app.action-bar.show-downloads": {
+    "message": "Onyesha vipakuliwa vinavyoendelea"
+  },
+  "app.action-bar.show-more-running-instances": {
+    "message": "Onyesha instansi zinazoendelea zaidi"
+  },
+  "app.action-bar.stop-instance": {
+    "message": "Simamisha instansi"
+  },
+  "app.action-bar.update": {
+    "message": "Sasisha"
+  },
+  "app.action-bar.view-active-downloads": {
+    "message": "Tazama vipakuliwa vinavyoendelea"
+  },
+  "app.action-bar.view-logs": {
+    "message": "Tazama logu"
+  },
+  "app.appearance-settings.compact-mode.description": {
+    "message": "Onyesha instansi za maktaba katika mpangilio wa safu zilizoshikana."
+  },
+  "app.appearance-settings.compact-mode.title": {
+    "message": "Hali ya kompakt"
+  },
+  "app.appearance-settings.default-landing-page.home": {
+    "message": "Nyumbani"
+  },
+  "app.appearance-settings.default-landing-page.library": {
+    "message": "Maktaba"
+  },
+  "app.appearance-settings.hide-nametag.description": {
+    "message": "Ficha jina lako juu ya onyesho la mchezaji katika ukurasa wa kuchagua skin."
+  },
+  "app.appearance-settings.hide-nametag.title": {
+    "message": "Ficha jina"
+  },
+  "app.appearance-settings.minimize-launcher.description": {
+    "message": "Punguza Panda Minecraft Launcher wakati Minecraft inaanza."
+  },
+  "app.appearance-settings.minimize-launcher.title": {
+    "message": "Punguza programu"
+  },
+  "app.appearance-settings.show-play-time.description": {
+    "message": "Onyesha muda uliocheza kwa kila instansi."
+  },
+  "app.appearance-settings.show-play-time.title": {
+    "message": "Onyesha muda wa kucheza"
+  },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "Onyesha upau wa kando upande wa kulia au kushoto."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "Kushoto"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "Kulia"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "Nafasi ya upau wa kando"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.description": {
+    "message": "Ruka uthibitisho wa vitendo visivyo na hatari kubwa kama vile usakinishaji unaorudiwa, ufutaji wa maudhui ya kawaida, masasisho ya wingi, kutenganisha akaunti, na ukarabati. Onyo la vitendo hatari litaonyeshwa kila wakati."
+  },
+  "app.appearance-settings.skip-non-essential-warnings.title": {
+    "message": "Ruka maonyo yasiyo muhimu"
+  },
+  "app.appearance-settings.unknown-pack-warning.description": {
+    "message": "Onyesha onyo la usalama kabla ya kusakinisha modpack (.mrpack) ambao haupo kwenye Panda Minecraft Launcher."
+  },
+  "app.appearance-settings.unknown-pack-warning.title": {
+    "message": "Nionyeshe onyo kabla ya kusakinisha modpack zisizojulikana"
+  },
+  "app.auth-servers.unreachable.body": {
+    "message": "Seva za uthibitishaji wa Minecraft zinaweza kuwa chini kwa sasa. Angalia muunganisho wako wa intaneti ujaribu tena baadaye."
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "Haiwezi kufikia seva za uthibitishaji"
+  },
+  "app.behavior-settings.confirmations.title": {
+    "message": "Uthibitisho"
+  },
+  "app.behavior-settings.content.title": {
+    "message": "Nyumbani na maudhui"
+  },
+  "app.behavior-settings.hidden-instances.description": {
+    "message": "Instansi ulizoficha kutoka kwenye maktaba kwenye kifaa hiki. Instansi zilizoficha hazisawazishwi na akaunti yako ya Panda Minecraft Launcher."
+  },
+  "app.behavior-settings.hidden-instances.empty": {
+    "message": "Hujaficha instansi yoyote bado."
+  },
+  "app.behavior-settings.hidden-instances.more-options": {
+    "message": "Chaguo zaidi"
+  },
+  "app.behavior-settings.hidden-instances.not-installed": {
+    "message": "Haijasakinishwa"
+  },
+  "app.behavior-settings.hidden-instances.title": {
+    "message": "Instansi zilizofichwa"
+  },
+  "app.behavior-settings.refocus-on-game-close.description": {
+    "message": "Leta Panda Minecraft Launcher mbele wakati Minecraft inafungwa."
+  },
+  "app.behavior-settings.refocus-on-game-close.title": {
+    "message": "Rudisha programu mbele wakati Minecraft inafungwa"
+  },
+  "app.behavior-settings.startup-and-navigation.title": {
+    "message": "Kuanza na kusogeza"
+  },
+  "app.behavior-settings.sync-across-devices.description": {
+    "message": "Tumia mipangilio hii ya tabia kila unapoingia. Izima ili kuweka mipangilio tofauti kwenye kifaa hiki."
+  },
+  "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "Ingia katika akaunti ya Panda Minecraft Launcher ili kusawazisha mipangilio."
+  },
+  "app.behavior-settings.sync-across-devices.title": {
+    "message": "Sawazisha tabia kwenye vifaa"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Inaongeza seva kwenye instansi"
+  },
+  "app.browse.add-to-an-instance": {
+    "message": "Ongeza kwenye instansi"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Ongeza kwenye instansi"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Ongeza kwenye {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "Imeongezwa"
+  },
+  "app.browse.already-added": {
+    "message": "Imeongezwa tayari"
+  },
+  "app.browse.back-to-instance": {
+    "message": "Rudi kwenye instansi"
+  },
+  "app.browse.curseforge.checking": {
+    "message": "Inaungana na CurseForge..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "Ombi la CurseForge limeshindwa: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "Inasubiri idhini kutoka CurseForge"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge iko tayari. Mod {count} zimepatikana."
+  },
+  "app.browse.discover-project-type": {
+    "message": "Gundua {projectType}"
+  },
+  "app.browse.discover-servers": {
+    "message": "Gundua seva"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Ficha seva zilizoongezwa tayari"
+  },
+  "app.browse.hide-installed-modpacks": {
+    "message": "Ficha zilizosakinishwa tayari"
+  },
+  "app.browse.project-actions.label": {
+    "message": "Vitendo vya mradi"
+  },
+  "app.browse.project-type.data-packs": {
+    "message": "Vifurushi vya data"
+  },
+  "app.browse.project-type.modpacks": {
+    "message": "Modpacks"
+  },
+  "app.browse.project-type.mods": {
+    "message": "Mods"
+  },
+  "app.browse.project-type.plugins": {
+    "message": "Plagi"
+  },
+  "app.browse.project-type.resource-packs": {
+    "message": "Vifurushi vya rasilimali"
+  },
+  "app.browse.project-type.servers": {
+    "message": "Seva"
+  },
+  "app.browse.project-type.shaders": {
+    "message": "Shaders"
+  },
+  "app.browse.server-instance-content-warning": {
+    "message": "Kuongeza maudhui kunaweza kufanya usiweze kujiunga na seva hii. Maudhui unayoongeza yataondolewa wakati maudhui yanayosimamiwa ya seva yanasasishwa."
+  },
+  "app.browse.server.installing": {
+    "message": "Inasakinisha"
+  },
+  "app.changelog.current-version": {
+    "message": "Toleo la sasa: {version}"
+  },
+  "app.changelog.title": {
+    "message": "Maelezo ya toleo"
+  },
+  "app.changelog.you-are-here": {
+    "message": "Uko hapa"
+  },
+  "app.content-install.no-compatible-versions": {
+    "message": "Hakuna matoleo yanayopatikana yanayolingana na {compatibilityLabel}. Chagua toleo ili usakinishe hata hivyo. Vitegemezi havitasakinishwa kiotomatiki."
+  },
+  "app.content.desync-pack": {
+    "message": "Ondoa usawazishaji"
+  },
+  "app.content.sync-data-packs-disabled": {
+    "message": "Washa usawazishaji wa vifurushi vya data kwenye mipangilio ya programu kwanza."
+  },
+  "app.content.sync-pack": {
+    "message": "Sawazisha"
+  },
+  "app.content.sync-packs-override": {
+    "message": "Zima kipengele maalum cha usawazishaji wa vifurushi katika mipangilio ya instansi hii kwanza."
+  },
+  "app.content.sync-resource-packs-disabled": {
+    "message": "Washa usawazishaji wa vifurushi vya rasilimali kwenye mipangilio ya programu kwanza."
+  },
+  "app.debug-export.canceling": {
+    "message": "Inaghairi usafirishaji…"
+  },
+  "app.debug-export.exporting": {
+    "message": "Inasafirisha…"
+  },
+  "app.debug-export.finishing": {
+    "message": "Inakamilisha…"
+  },
+  "app.debug-export.preparing": {
+    "message": "Inaandaa faili…"
+  },
+  "app.download-manager.active": {
+    "message": "Inayoendelea"
+  },
+  "app.download-manager.attention": {
+    "message": "Inahitaji umakini"
+  },
+  "app.download-manager.bulk-update-content": {
+    "message": "Inasasisha {count, plural, one {# item} other {# items}}"
+  },
+  "app.download-manager.cancel": {
+    "message": "Ghairi usakinishaji"
+  },
+  "app.download-manager.canceling": {
+    "message": "Inaghairi usakinishaji…"
+  },
+  "app.download-manager.clear-all": {
+    "message": "Futa zote"
+  },
+  "app.download-manager.clear-completed": {
+    "message": "Futa kazi zote zilizokamilika"
+  },
+  "app.download-manager.complete": {
+    "message": "Imekamilika"
+  },
+  "app.download-manager.duplicated-instance": {
+    "message": "Instansi iliyonakiliwa"
+  },
+  "app.download-manager.estimated-rate": {
+    "message": "Kasi inayokadiriwa ya upakuaji"
+  },
+  "app.download-manager.eta": {
+    "message": "Muda unaokadiriwa kubaki kwa upakuaji huu"
+  },
+  "app.download-manager.hide-tasks": {
+    "message": "Ficha kazi"
+  },
+  "app.download-manager.imported-instance": {
+    "message": "Instansi iliyoagizwa"
+  },
+  "app.download-manager.instance-installation": {
+    "message": "Usakinishaji wa instansi"
+  },
+  "app.download-manager.modpack": {
+    "message": "Modpack"
+  },
+  "app.download-manager.modpack-installation": {
+    "message": "Usakinishaji wa modpack"
+  },
+  "app.download-manager.new-instance": {
+    "message": "Instansi mpya"
+  },
+  "app.download-manager.no-tasks": {
+    "message": "Hakuna kazi"
+  },
+  "app.download-manager.pause": {
+    "message": "Sitisha usakinishaji"
+  },
+  "app.download-manager.paused": {
+    "message": "Imesitishwa"
+  },
+  "app.download-manager.remove": {
+    "message": "Ondoa kutoka kwenye historia"
+  },
+  "app.download-manager.resume": {
+    "message": "Endelea na usakinishaji"
+  },
+  "app.download-manager.shared-instance": {
+    "message": "Instansi inayoshirikiwa"
+  },
+  "app.download-manager.shared-instance-update": {
+    "message": "Sasisho la instansi inayoshirikiwa"
+  },
+  "app.download-manager.show-tasks": {
+    "message": "Onyesha kazi"
+  },
+  "app.download-manager.tasks": {
+    "message": "Kazi"
+  },
+  "app.download-manager.title": {
+    "message": "Kidhibiti cha upakuaji"
+  },
+  "app.error.copied-debug-info": {
+    "message": "Ilinakiliwa"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "Angalia maelezo ya utatuzi"
+  },
+  "app.error.state-init.open-backups-folder": {
+    "message": "Fungua folda ya nakala rudufu"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Ingiza maelezo ya modpack..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Safirisha"
+  },
+  "app.export-modal.export-complete": {
+    "message": "Usafirishaji ukamilika"
+  },
+  "app.export-modal.export-complete-description": {
+    "message": "{name} imesafirishwa kwa mafanikio."
+  },
+  "app.export-modal.header": {
+    "message": "Safirisha modpack"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Jina la modpack"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Jina la modpack"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Namba ya toleo"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.features-settings.instance-pages.title": {
+    "message": "Instansi"
+  },
+  "app.features-settings.play-page.title": {
+    "message": "Ukurasa wa kucheza"
+  },
+  "app.features-settings.quick-instances.description": {
+    "message": "Chagua idadi ya juu ya instansi za hivi karibuni zinazonyeshwa kwenye upau wa kando wa kushoto. Unaweza pia kurekebisha hii kwa kuvuta kigawanyo."
+  },
+  "app.features-settings.quick-instances.title": {
+    "message": "Instansi za haraka kwenye upau wa kando"
+  },
+  "app.features-settings.show-all-screenshots.description": {
+    "message": "Onyesha kitufe kwenye upau wa kando wa kushoto ili kutazama picha za skrini kutoka kwa instansi zako zote."
+  },
+  "app.features-settings.show-all-screenshots.title": {
+    "message": "Onyesha picha zote za skrini kwenye upau wa kando"
+  },
+  "app.features-settings.show-files-tab.title": {
+    "message": "Onyesha kichupo cha Faili kwenye instansi"
+  },
+  "app.features-settings.show-jump-in.description": {
+    "message": "Onyesha ulimwengu na instansi zilizochezwa hivi karibuni juu ya ukurasa wa Kucheza."
+  },
+  "app.features-settings.show-jump-in.title": {
+    "message": "Onyesha sehemu ya Endelea kucheza"
+  },
+  "app.features-settings.show-screenshots-tab.title": {
+    "message": "Onyesha kichupo cha Picha za skrini kwenye instansi"
+  },
+  "app.features-settings.show-skin-selector.description": {
+    "message": "Onyesha kitufe kwenye upau wa kando ili kufungua usimamizi wa akaunti."
+  },
+  "app.features-settings.show-skin-selector.title": {
+    "message": "Onyesha kitufe cha usimamizi wa akaunti kwenye upau wa kando"
+  },
+  "app.features-settings.show-worlds-tab.title": {
+    "message": "Onyesha kichupo cha Ulimwengu kwenye instansi"
+  },
+  "app.features-settings.sidebar.title": {
+    "message": "Upau wa kando"
+  },
+  "app.features-settings.sync-across-devices.description": {
+    "message": "Tumia mipangilio hii ya vipengele kila unapoingia. Izima ili kuweka mipangilio tofauti kwenye kifaa hiki."
+  },
+  "app.features-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "Ingia katika akaunti ya Panda Minecraft Launcher ili kusawazisha mipangilio."
+  },
+  "app.features-settings.sync-across-devices.title": {
+    "message": "Sawazisha vipengele kwenye vifaa"
+  },
+  "app.file-download.canceling": {
+    "message": "Inaghairi upakuaji…"
+  },
+  "app.file-download.preparing": {
+    "message": "Inaandaa upakuaji…"
+  },
+  "app.file-download.waiting": {
+    "message": "Inasubiri seva…"
+  },
+  "app.home.jump-back-in.actions.label": {
+    "message": "Vitendo vya instansi"
+  },
+  "app.home.jump-back-in.instance-locked": {
+    "message": "Instansi hii imefungwa"
+  },
+  "app.home.jump-back-in.instance-open": {
+    "message": "Instansi tayari iko wazi"
+  },
+  "app.home.jump-back-in.more-options": {
+    "message": "Chaguo zaidi"
+  },
+  "app.home.jump-back-in.never-played": {
+    "message": "Haijawahi kuchezwa"
+  },
+  "app.home.jump-back-in.new-instance": {
+    "message": "Instansi mpya"
+  },
+  "app.home.jump-back-in.resize": {
+    "message": "Vuta ili kubadilisha ukubwa"
+  },
+  "app.home.jump-back-in.title": {
+    "message": "Endelea kucheza"
+  },
+  "app.home.jump-back-in.view-instance": {
+    "message": "Tazama instansi"
+  },
+  "app.hosting.update-required.description": {
+    "message": "Unahitaji kusasisha ili kutumia Panda Minecraft Launcher"
+  },
+  "app.hosting.update-required.download": {
+    "message": "Pakua ili kusasisha"
+  },
+  "app.hosting.update-required.rinthbot-alt": {
+    "message": "Bot wa Panda Minecraft Launcher Mwenye Hamasa"
+  },
+  "app.hosting.update-required.title": {
+    "message": "Sasisho la Panda Minecraft Launcher linahitajika"
+  },
+  "app.install.phase.downloading_content": {
+    "message": "Inapakua maudhui"
+  },
+  "app.install.phase.downloading_minecraft": {
+    "message": "Inapakua Minecraft"
+  },
+  "app.install.phase.downloading_pack_file": {
+    "message": "Inapakua faili ya kifurushi"
+  },
+  "app.install.phase.extracting_overrides": {
+    "message": "Inatoa faili za kubadilisha (overrides)"
+  },
+  "app.install.phase.finalizing": {
+    "message": "Inakamilisha"
+  },
+  "app.install.phase.preparing_instance": {
+    "message": "Iko kwenye foleni ya kusakinishwa"
+  },
+  "app.install.phase.preparing_java": {
+    "message": "Inaandaa Java"
+  },
+  "app.install.phase.preparing_java.downloading": {
+    "message": "Inapakua Java {version}"
+  },
+  "app.install.phase.preparing_java.extracting": {
+    "message": "Inatoa Java {version}"
+  },
+  "app.install.phase.preparing_java.fetching-metadata": {
+    "message": "Inapata metadata ya Java {version}"
+  },
+  "app.install.phase.preparing_java.resolving": {
+    "message": "Inaandaa Java {version}"
+  },
+  "app.install.phase.preparing_java.validating": {
+    "message": "Inathibitisha Java {version}"
+  },
+  "app.install.phase.reading_pack_manifest": {
+    "message": "Inasoma orodha ya kifurushi"
+  },
+  "app.install.phase.resolving_loader": {
+    "message": "Inatambua loader"
+  },
+  "app.install.phase.resolving_minecraft": {
+    "message": "Inatambua Minecraft"
+  },
+  "app.install.phase.resolving_pack": {
+    "message": "Inatambua maudhui"
+  },
+  "app.install.phase.rolling_back": {
+    "message": "Inarudisha nyuma"
+  },
+  "app.install.phase.running_loader_processors": {
+    "message": "Inaendesha vichakataji vya loader"
+  },
+  "app.instance.action.add-content": {
+    "message": "Ongeza maudhui"
+  },
+  "app.instance.action.copy-path": {
+    "message": "Nakili njia"
+  },
+  "app.instance.action.edit": {
+    "message": "Hariri"
+  },
+  "app.instance.action.open-folder": {
+    "message": "Fungua folda"
+  },
+  "app.instance.action.play": {
+    "message": "Cheza"
+  },
+  "app.instance.action.stop": {
+    "message": "Simamisha"
+  },
+  "app.instance.actions.label": {
+    "message": "Vitendo vya instansi"
+  },
+  "app.instance.add-server.add": {
+    "message": "Ongeza"
+  },
+  "app.instance.add-server.added": {
+    "message": "Imeongezwa"
+  },
+  "app.instance.add-server.adding": {
+    "message": "Inaongeza..."
+  },
+  "app.instance.add-server.cancel": {
+    "message": "Ghairi"
+  },
+  "app.instance.add-server.compatibility-warning": {
+    "message": "Seva hii inaweza isilingane na instansi zote."
+  },
+  "app.instance.add-server.search-placeholder": {
+    "message": "Tafuta instansi"
+  },
+  "app.instance.add-server.title": {
+    "message": "Ongeza seva kwenye instansi"
+  },
+  "app.instance.admonitions.shared-instance.added-label": {
+    "message": "Imeongezwa"
+  },
+  "app.instance.admonitions.shared-instance.changes-body": {
+    "message": "Instansi yako ya ndani iko mbele ya watumiaji uliowashirikisha nayo."
+  },
+  "app.instance.admonitions.shared-instance.changes-header": {
+    "message": "Mabadiliko yako bado hayajashirikiwa"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-body": {
+    "message": "Umetuma sasisho la instansi hii inayoshirikiwa kutoka usakinishaji mwingine wa Panda Minecraft Launcher. Pakua mabadiliko ya hivi karibuni ili kuendelea kuisimamia kutoka hapa."
+  },
+  "app.instance.admonitions.shared-instance.owner-update-button": {
+    "message": "Pakua sasisho"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-header": {
+    "message": "Sasisho linapatikana"
+  },
+  "app.instance.admonitions.shared-instance.publish-button": {
+    "message": "Tuma sasisho"
+  },
+  "app.instance.admonitions.shared-instance.publishing-button": {
+    "message": "Inatuma..."
+  },
+  "app.instance.admonitions.shared-instance.removed-label": {
+    "message": "Imeondolewa"
+  },
+  "app.instance.admonitions.shared-instance.restored-body": {
+    "message": "Instansi hii ilirejeshwa kutoka toleo la mwisho ulilotuma. Kitu chochote ambacho hukutuma bado, kama mabadiliko ya usanidi au maudhui kwenye usakinishaji wako mwingine, hakijajumuishwa."
+  },
+  "app.instance.admonitions.shared-instance.restored-header": {
+    "message": "Maudhui yaliyotumwa tu yalipakuliwa"
+  },
+  "app.instance.admonitions.shared-instance.review-admonition-header": {
+    "message": "Tuma sasisho"
+  },
+  "app.instance.admonitions.shared-instance.review-description": {
+    "message": "Kagua mabadiliko ya maudhui yatakayoshirikiwa na kila mtu anayetumia instansi hii."
+  },
+  "app.instance.admonitions.shared-instance.review-header": {
+    "message": "Kagua mabadiliko"
+  },
+  "app.instance.admonitions.shared-instance.reviewing-button": {
+    "message": "Inakagua..."
+  },
+  "app.instance.card.icon-alt": {
+    "message": "Aikoni ya instansi"
+  },
+  "app.instance.card.installing": {
+    "message": "Inasakinisha..."
+  },
+  "app.instance.card.loading": {
+    "message": "Instansi inapakia..."
+  },
+  "app.instance.card.never-played": {
+    "message": "Haijawahi kuchezwa"
+  },
+  "app.instance.card.play": {
+    "message": "Cheza"
+  },
+  "app.instance.card.played": {
+    "message": "Ichezwa {relativeTime}"
+  },
+  "app.instance.card.repair": {
+    "message": "Rekebisha"
+  },
+  "app.instance.card.stop": {
+    "message": "Simamisha"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Data yote ya instansi yako itafutwa kabisa, ikijumuisha ulimwengu wako, usanidi, na maudhui yote yaliyosakinishwa."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Kitendo hiki hakiwezi kutenduliwa"
+  },
+  "app.instance.confirm-delete.bulk-admonition-body": {
+    "message": "Data yote ya instansi hizi {count} itafutwa kabisa, ikijumuisha ulimwengu wao, usanidi, na maudhui yote yaliyosakinishwa."
+  },
+  "app.instance.confirm-delete.bulk-delete-button": {
+    "message": "Futa instansi {count}"
+  },
+  "app.instance.confirm-delete.bulk-header": {
+    "message": "Futa instansi {count}"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Futa instansi"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Futa instansi"
+  },
+  "app.instance.confirm-delete.instances-label": {
+    "message": "{count, plural, one {Instance} other {Instances ({count})}}"
+  },
+  "app.instance.content.managed-content.modpack-header": {
+    "message": "Maudhui ya modpack"
+  },
+  "app.instance.content.managed-content.shared-header": {
+    "message": "Maudhui yanayoshirikiwa"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "Modpack hii tayari imesakinishwa kwenye instansi <bold>{instanceName}</bold>. Una uhakika unataka kuinakili?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Unda"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Modpack imesakinishwa tayari"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Instansi"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "mradi"
+  },
+  "app.instance.mods.freeze-content": {
+    "message": "Gandisha toleo"
+  },
+  "app.instance.mods.locked-content": {
+    "message": "Maudhui katika instansi zilizofungwa hayawezi kubadilishwa."
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" imeongezwa"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "Miradi {count} imeongezwa"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Angalia miradi ninayotumia kwenye modpack yangu!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Kushiriki maudhui ya modpack"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Imepakiwa kwa mafanikio"
+  },
+  "app.instance.mods.unfreeze-content": {
+    "message": "Ondoa kugandisha toleo"
+  },
+  "app.instance.navigation.back-to-instance": {
+    "message": "Rudi kwenye instansi"
+  },
+  "app.instance.server.offline.description": {
+    "message": "Seva hii iko nje ya mtandao kwa sasa. Bado unaweza kuzindua Minecraft, lakini huenda usiweze kuungana."
+  },
+  "app.instance.server.offline.launch-anyway": {
+    "message": "Zindua hata hivyo"
+  },
+  "app.instance.server.offline.title": {
+    "message": "Seva iko nje ya mtandao"
+  },
+  "app.instance.server.status.unknown": {
+    "message": "Hali haijulikani"
+  },
+  "app.instance.share.empty.description": {
+    "message": "Unaweza kushiriki instansi hii na marafiki zako!"
+  },
+  "app.instance.share.empty.heading": {
+    "message": "Hakuna marafiki walioalikwa"
+  },
+  "app.instance.share.empty.invite-friends-button": {
+    "message": "Alika marafiki"
+  },
+  "app.instance.share.invite-friends": {
+    "message": "Alika marafiki"
+  },
+  "app.instance.share.invite-modal.heading": {
+    "message": "Shiriki {name}"
+  },
+  "app.instance.share.invite-modal.user-limit-reached": {
+    "message": "Instansi hii imefikia kikomo cha watumiaji {limit}."
+  },
+  "app.instance.share.limit-reached.description": {
+    "message": "Umeshiriki instansi {limit} tayari."
+  },
+  "app.instance.share.limit-reached.heading": {
+    "message": "Kikomo cha instansi zinazoshirikiwa kimefikiwa"
+  },
+  "app.instance.share.limit-reached.manage-button": {
+    "message": "Simamia instansi zinazoshirikiwa"
+  },
+  "app.instance.share.locked.empty-description-prefix": {
+    "message": "Unahitaji kuingia kama"
+  },
+  "app.instance.share.locked.empty-description-suffix": {
+    "message": "ili kufikia ukurasa huu."
+  },
+  "app.instance.share.locked.linked-account-fallback": {
+    "message": "akaunti iliyounganishwa"
+  },
+  "app.instance.share.locked.signed-out-heading": {
+    "message": "Hujaingia"
+  },
+  "app.instance.share.locked.switch-account-button": {
+    "message": "Badilisha akaunti"
+  },
+  "app.instance.share.locked.wrong-account-heading": {
+    "message": "Akaunti isiyo sahihi"
+  },
+  "app.instance.share.remove-user-modal.effect-access": {
+    "message": "Hawapokei tena sasisho za instansi hii inayoshirikiwa"
+  },
+  "app.instance.share.remove-user-modal.effect-installed-copy": {
+    "message": "Nakala yoyote waliyosakinisha itabaki kwenye kifaa chao"
+  },
+  "app.instance.share.remove-user-modal.effect-invite-again": {
+    "message": "Unaweza kuwalika tena baadaye"
+  },
+  "app.instance.share.remove-user-modal.effect-last-user": {
+    "message": "Huyu ndiye mtumiaji wa mwisho, kushiriki kutazimwa kwa instansi hii"
+  },
+  "app.instance.share.remove-user-modal.effects-label": {
+    "message": "Nini kitatokea?"
+  },
+  "app.instance.share.remove-user-modal.header": {
+    "message": "Ondoa ufikiaji"
+  },
+  "app.instance.share.remove-user-modal.remove-button": {
+    "message": "Ondoa ufikiaji"
+  },
+  "app.instance.share.remove-user-modal.user-avatar-alt": {
+    "message": "Aikoni ya {username}"
+  },
+  "app.instance.share.remove-user-modal.warning-body": {
+    "message": "Ukiondoa ufikiaji wa {username} kwenye instansi hii inayoshirikiwa, utahitaji kumwalika tena kabla ya kupokea sasisho."
+  },
+  "app.instance.share.sign-in.button": {
+    "message": "Ingia"
+  },
+  "app.instance.share.unable-to-connect.description": {
+    "message": "Huduma ya instansi zinazoshirikiwa haipatikani kwa sasa, tafadhali jaribu tena baadaye"
+  },
+  "app.instance.share.unable-to-connect.heading": {
+    "message": "Haiwezi kuungana"
+  },
+  "app.instance.share.unlink.body": {
+    "message": "Lazima uondoe uhusiano wa modpack hii ili kushiriki instansi yako"
+  },
+  "app.instance.share.unlink.header": {
+    "message": "Kushiriki kunahitaji kuondoa uhusiano"
+  },
+  "app.instance.shared-instance-already-installed.body": {
+    "message": "Instansi hii inayoshirikiwa tayari imesakinishwa kama <bold>{instanceName}</bold>. Una uhakika unataka kusakinisha nakala nyingine?"
+  },
+  "app.instance.shared-instance-already-installed.header": {
+    "message": "Instansi inayoshirikiwa imesakinishwa tayari"
+  },
+  "app.instance.shared-instance-already-installed.install-anyway": {
+    "message": "Sakinisha hata hivyo"
+  },
+  "app.instance.shared-instance-already-installed.instance": {
+    "message": "Instansi"
+  },
+  "app.instance.shared-instance-wrong-account.fallback-username": {
+    "message": "akaunti iliyounganishwa"
+  },
+  "app.instance.shared-instance-wrong-account.owner-admonition-body-v2": {
+    "message": "ili kusimamia instansi hii inayoshirikiwa. Hutauweza kutuma sasisho kwa watumiaji."
+  },
+  "app.instance.shared-instance-wrong-account.sign-in-as-label": {
+    "message": "Ingia kama"
+  },
+  "app.instance.shared-instance-wrong-account.signed-out-header": {
+    "message": "Unahitaji kuingia kwenye Panda Minecraft Launcher"
+  },
+  "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
+    "message": "ili kupokea sasisho za instansi hii inayoshirikiwa."
+  },
+  "app.instance.shared-instance-wrong-account.warning-header": {
+    "message": "Unatumia akaunti isiyo sahihi ya Panda Minecraft Launcher"
+  },
+  "app.instance.shortcut.created": {
+    "message": "Njia ya mkato imeundwa"
+  },
+  "app.instance.shortcut.creation-error": {
+    "message": "Hitilafu wakati wa kuunda njia ya mkato"
+  },
+  "app.instance.tab.content": {
+    "message": "Maudhui"
+  },
+  "app.instance.tab.files": {
+    "message": "Faili"
+  },
+  "app.instance.tab.logs": {
+    "message": "Logu"
+  },
+  "app.instance.tab.screenshots": {
+    "message": "Picha za skrini"
+  },
+  "app.instance.tab.share": {
+    "message": "Shiriki"
+  },
+  "app.instance.tab.worlds": {
+    "message": "Ulimwengu"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Ongeza seva"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Vinjari seva"
+  },
+  "app.instance.worlds.delete-world-modal.delete-button": {
+    "message": "Futa ulimwengu"
+  },
+  "app.instance.worlds.delete-world-modal.title": {
+    "message": "Futa ulimwengu"
+  },
+  "app.instance.worlds.delete-world-modal.warning-body": {
+    "message": "Ulimwengu huu utafutwa kabisa kutoka kwenye instansi hii. Kitendo hiki hakiwezi kutenduliwa."
+  },
+  "app.instance.worlds.delete-world-modal.warning-header": {
+    "message": "Inafuta {name}"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Iliyobadilishwa (modded)"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Nje ya mtandao"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Mtandaoni"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Ongeza seva au vinjari ili kuanza"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Hakuna seva au ulimwengu ulioongezwa"
+  },
+  "app.instance.worlds.refreshing": {
+    "message": "Inapakia upya..."
+  },
+  "app.instance.worlds.remove-server-modal.remove-button": {
+    "message": "Ondoa seva"
+  },
+  "app.instance.worlds.remove-server-modal.remove-everywhere": {
+    "message": "Ondoa kila mahali"
+  },
+  "app.instance.worlds.remove-server-modal.remove-here": {
+    "message": "Ondoa hapa"
+  },
+  "app.instance.worlds.remove-server-modal.synced-description": {
+    "message": "Unaweza kuiondoa kwenye instansi hii tu au kwenye instansi zote zilizosawazishwa. Ukiiondoa kwenye instansi hii tu, vipengele vya kubadilisha vitawezeshwa, na instansi hii haitapokea tena mabadiliko ya seva yaliyosawazishwa."
+  },
+  "app.instance.worlds.remove-server-modal.synced-header": {
+    "message": "Seva hii imesawazishwa"
+  },
+  "app.instance.worlds.remove-server-modal.title": {
+    "message": "Ondoa seva"
+  },
+  "app.instance.worlds.remove-server-modal.warning-body": {
+    "message": "Seva hii itaondolewa kwenye orodha yako ya seva na kwenye orodha ya seva ya ndani ya mchezo. Unaweza kuiongeza tena baadaye ukijua anwani."
+  },
+  "app.instance.worlds.remove-server-modal.warning-header": {
+    "message": "Inaondoa {name}"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Tafuta ulimwengu {count}..."
+  },
+  "app.java-detection.cancel": {
+    "message": "Ghairi"
+  },
+  "app.java-detection.columns.actions": {
+    "message": "Vitendo"
+  },
+  "app.java-detection.columns.path": {
+    "message": "Njia"
+  },
+  "app.java-detection.columns.version": {
+    "message": "Toleo"
+  },
+  "app.java-detection.no-installations-found": {
+    "message": "Hakuna usakinishaji wa Java uliopatikana."
+  },
+  "app.java-detection.select": {
+    "message": "Chagua"
+  },
+  "app.java-detection.selected": {
+    "message": "Imechaguliwa"
+  },
+  "app.java-detection.title": {
+    "message": "Chagua usakinishaji wa Java"
+  },
+  "app.java-selector.browse": {
+    "message": "Vinjari"
+  },
+  "app.java-selector.copy-failed-title": {
+    "message": "Imeshindwa kunakili njia"
+  },
+  "app.java-selector.copy-path": {
+    "message": "Nakili njia"
+  },
+  "app.java-selector.detect": {
+    "message": "Gundua"
+  },
+  "app.java-selector.edit-path": {
+    "message": "Hariri njia"
+  },
+  "app.java-selector.install-java": {
+    "message": "Sakinisha Java {version}"
+  },
+  "app.java-selector.installing": {
+    "message": "Inasakinisha..."
+  },
+  "app.java-selector.invalid": {
+    "message": "Si halali"
+  },
+  "app.java-selector.more-options": {
+    "message": "Chaguo zaidi za Java"
+  },
+  "app.java-selector.not-set": {
+    "message": "Hakuna Java iliyochaguliwa"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "Njia ya Java imenakiliwa kwenye ubao wako wa kunakilia."
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "Njia imenakiliwa"
+  },
+  "app.java-selector.path.placeholder": {
+    "message": "/path/to/java"
+  },
+  "app.java-selector.valid": {
+    "message": "Halali"
+  },
+  "app.library.actions.label": {
+    "message": "Vitendo vya maktaba"
+  },
+  "app.library.context-menu.create-instance": {
+    "message": "Instansi mpya"
+  },
+  "app.library.filter.add": {
+    "message": "Ongeza kichujio"
+  },
+  "app.library.filter.clear": {
+    "message": "Futa vichujio"
+  },
+  "app.library.filter.game-version": {
+    "message": "Toleo la mchezo"
+  },
+  "app.library.filter.install-state": {
+    "message": "Hali ya usakinishaji"
+  },
+  "app.library.filter.install-state.installed": {
+    "message": "Imesakinishwa"
+  },
+  "app.library.filter.install-state.not-installed": {
+    "message": "Haijasakinishwa"
+  },
+  "app.library.filter.instance-type": {
+    "message": "Aina ya instansi"
+  },
+  "app.library.filter.instance-type.custom": {
+    "message": "Maalum"
+  },
+  "app.library.filter.instance-type.modpack": {
+    "message": "Modpack"
+  },
+  "app.library.filter.instance-type.server": {
+    "message": "Seva"
+  },
+  "app.library.filter.label": {
+    "message": "Chuja kwa"
+  },
+  "app.library.filter.loader": {
+    "message": "Loader"
+  },
+  "app.library.filter.owner": {
+    "message": "Mmiliki"
+  },
+  "app.library.filter.owner.me": {
+    "message": "Wewe"
+  },
+  "app.library.filter.owner.others": {
+    "message": "Wengine"
+  },
+  "app.library.filter.sharing": {
+    "message": "Kushiriki"
+  },
+  "app.library.filter.sharing.not-shared": {
+    "message": "Haishirikiwi"
+  },
+  "app.library.filter.sharing.shared": {
+    "message": "Inashirikiwa"
+  },
+  "app.library.group-by.custom-group": {
+    "message": "Kikundi maalum"
+  },
+  "app.library.group-by.game-version": {
+    "message": "Toleo la mchezo"
+  },
+  "app.library.group-by.instance-type": {
+    "message": "Aina ya instansi"
+  },
+  "app.library.group-by.label": {
+    "message": "Panga kwa"
+  },
+  "app.library.group-by.loader": {
+    "message": "Loader"
+  },
+  "app.library.group-by.none": {
+    "message": "Hakuna upangaji"
+  },
+  "app.library.group.actions.label": {
+    "message": "Vitendo vya kikundi"
+  },
+  "app.library.group.collapse": {
+    "message": "Kunja kikundi"
+  },
+  "app.library.group.context-menu.add-to-group": {
+    "message": "Ongeza kwenye kikundi"
+  },
+  "app.library.group.create": {
+    "message": "Unda kikundi"
+  },
+  "app.library.group.create.cancel": {
+    "message": "Ghairi"
+  },
+  "app.library.group.delete": {
+    "message": "Futa kikundi"
+  },
+  "app.library.group.delete-description": {
+    "message": "Instansi zilizo kwenye kikundi hiki zitaondolewa kwenye kikundi."
+  },
+  "app.library.group.edit-name": {
+    "message": "Hariri jina la kikundi"
+  },
+  "app.library.group.empty": {
+    "message": "Buruta na uachie ili kuongeza instansi."
+  },
+  "app.library.group.expand": {
+    "message": "Panua kikundi"
+  },
+  "app.library.group.favorites": {
+    "message": "Vipendwa"
+  },
+  "app.library.group.instance.add": {
+    "message": "Ongeza"
+  },
+  "app.library.group.instance.added": {
+    "message": "Imeongezwa"
+  },
+  "app.library.group.instances-modal.add": {
+    "message": "Ongeza"
+  },
+  "app.library.group.instances-modal.added": {
+    "message": "Imeongezwa"
+  },
+  "app.library.group.instances-modal.no-instances-found": {
+    "message": "Hakuna instansi zilizopatikana"
+  },
+  "app.library.group.instances-modal.search-placeholder": {
+    "message": "Tafuta instansi"
+  },
+  "app.library.group.instances-modal.title": {
+    "message": "Ongeza instansi kwenye \"{groupName}\""
+  },
+  "app.library.group.move-down": {
+    "message": "Sogeza kikundi chini"
+  },
+  "app.library.group.move-up": {
+    "message": "Sogeza kikundi juu"
+  },
+  "app.library.group.name": {
+    "message": "Jina la kikundi"
+  },
+  "app.library.group.name-empty": {
+    "message": "Majina ya vikundi hayawezi kuwa tupu."
+  },
+  "app.library.group.name-placeholder": {
+    "message": "Ingiza jina la kikundi"
+  },
+  "app.library.group.name-reserved": {
+    "message": "\"None\" imehifadhiwa na haiwezi kutumika kama jina la kikundi."
+  },
+  "app.library.group.name-too-long": {
+    "message": "Majina ya vikundi hayawezi kuzidi herufi {maxLength}."
+  },
+  "app.library.group.new": {
+    "message": "Kikundi kipya"
+  },
+  "app.library.group.no-instances-found": {
+    "message": "Hakuna instansi zilizopatikana"
+  },
+  "app.library.group.rename-failed": {
+    "message": "Imeshindwa kubadilisha jina la kikundi"
+  },
+  "app.library.group.search-instance": {
+    "message": "Tafuta instansi"
+  },
+  "app.library.group.ungrouped": {
+    "message": "Hazijawekwa kwenye kikundi"
+  },
+  "app.library.group.unknown": {
+    "message": "Kikundi kisichojulikana"
+  },
+  "app.library.instance-hidden.text": {
+    "message": "Unaweza kuionyesha tena katika Settings > Behavior."
+  },
+  "app.library.instance-hidden.title": {
+    "message": "Imefichwa kutoka kwenye maktaba"
+  },
+  "app.library.instance.action.add-content": {
+    "message": "Ongeza maudhui"
+  },
+  "app.library.instance.action.add-to-favorites": {
+    "message": "Ongeza kwenye vipendwa"
+  },
+  "app.library.instance.action.copy-path": {
+    "message": "Nakili njia"
+  },
+  "app.library.instance.action.delete": {
+    "message": "Futa"
+  },
+  "app.library.instance.action.duplicate": {
+    "message": "Nakili instansi"
+  },
+  "app.library.instance.action.hide-from-library": {
+    "message": "Ficha kwenye maktaba"
+  },
+  "app.library.instance.action.leave": {
+    "message": "Ondoka"
+  },
+  "app.library.instance.action.open-folder": {
+    "message": "Fungua folda"
+  },
+  "app.library.instance.action.play": {
+    "message": "Cheza"
+  },
+  "app.library.instance.action.remove-from-favorites": {
+    "message": "Ondoa kwenye vipendwa"
+  },
+  "app.library.instance.action.remove-from-group": {
+    "message": "Ondoa kwenye kikundi"
+  },
+  "app.library.instance.action.show-in-library": {
+    "message": "Onyesha kwenye maktaba"
+  },
+  "app.library.instance.action.stop": {
+    "message": "Simamisha"
+  },
+  "app.library.instance.action.unpublish": {
+    "message": "Ondoa ushapishaji"
+  },
+  "app.library.instance.action.unpublish-and-leave": {
+    "message": "Ondoa ushapishaji na uondoke"
+  },
+  "app.library.instance.action.view-instance": {
+    "message": "Tazama instansi"
+  },
+  "app.library.instance.actions.label": {
+    "message": "Vitendo vya instansi"
+  },
+  "app.library.instance.deselect": {
+    "message": "Ondoa uteuzi wa instansi"
+  },
+  "app.library.instance.deselect-with-name": {
+    "message": "Ondoa uteuzi wa {name}"
+  },
+  "app.library.instance.install": {
+    "message": "Sakinisha"
+  },
+  "app.library.instance.install-with-name": {
+    "message": "Sakinisha {name}"
+  },
+  "app.library.instance.installing": {
+    "message": "Inasakinisha..."
+  },
+  "app.library.instance.loading": {
+    "message": "Instansi inapakia..."
+  },
+  "app.library.instance.new": {
+    "message": "Instansi mpya"
+  },
+  "app.library.instance.open-with-name": {
+    "message": "Fungua {name}"
+  },
+  "app.library.instance.play": {
+    "message": "Cheza"
+  },
+  "app.library.instance.repair": {
+    "message": "Rekebisha"
+  },
+  "app.library.instance.select": {
+    "message": "Chagua instansi"
+  },
+  "app.library.instance.select-with-name": {
+    "message": "Chagua {name}"
+  },
+  "app.library.instance.shared-by": {
+    "message": "Imeshirikiwa na {name}"
+  },
+  "app.library.instance.shared-by-owner": {
+    "message": "Imeshirikiwa na <owner>{name}</owner>"
+  },
+  "app.library.instance.shared-by-you": {
+    "message": "Imeshirikiwa na wewe"
+  },
+  "app.library.instance.stop": {
+    "message": "Simamisha"
+  },
+  "app.library.leave-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {You'll lose access to this shared instance and it will be removed from your library. You'll need a new invite to join it again.} other {You'll lose access to these shared instances and they will be removed from your library. You'll need a new invite to join them again.}}"
+  },
+  "app.library.leave-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Leaving shared instance} other {Leaving # shared instances}}"
+  },
+  "app.library.leave-shared-instance.modal.header": {
+    "message": "{count, plural, one {Leave shared instance} other {Leave # shared instances}}"
+  },
+  "app.library.search.no-results.title": {
+    "message": "Hakuna instansi zinazolingana na utafutaji wako."
+  },
+  "app.library.search.placeholder": {
+    "message": "Tafuta"
+  },
+  "app.library.selection.aria-label": {
+    "message": "Instansi zilizochaguliwa"
+  },
+  "app.library.selection.deleting": {
+    "message": "Inafuta instansi zilizochaguliwa"
+  },
+  "app.library.selection.new-group": {
+    "message": "Kikundi kipya"
+  },
+  "app.library.selection.remove-from-group": {
+    "message": "Ondoa kwenye kikundi"
+  },
+  "app.library.selection.removing-shared-instances": {
+    "message": "Inaondoa instansi zinazoshirikiwa zilizochaguliwa"
+  },
+  "app.library.selection.selected-count": {
+    "message": "{count} imechaguliwa"
+  },
+  "app.library.sort.date-created": {
+    "message": "Tarehe ya kuundwa"
+  },
+  "app.library.sort.date-modified": {
+    "message": "Tarehe ya kurekebishwa"
+  },
+  "app.library.sort.game-version": {
+    "message": "Toleo la mchezo"
+  },
+  "app.library.sort.hours-played": {
+    "message": "Saa zilizochezwa"
+  },
+  "app.library.sort.label": {
+    "message": "Panga kwa"
+  },
+  "app.library.sort.last-played": {
+    "message": "Iliyochezwa mwisho"
+  },
+  "app.library.sort.loader": {
+    "message": "Loader"
+  },
+  "app.library.sort.name": {
+    "message": "Jina"
+  },
+  "app.library.title": {
+    "message": "Maktaba"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
+    "message": "{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} zitakoma kupokea sasisho. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} Zote zitaondolewa kwenye maktaba yako."
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
+    "message": "Ondoa ushapishaji na kuondoka kwenye instansi zinazoshirikiwa"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.header": {
+    "message": "Ondoa ushapishaji na uondoke kwenye instansi {count} zinazoshirikiwa"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
+  },
+  "app.library.unpublish-shared-instance.modal.header": {
+    "message": "{count, plural, one {Unpublish shared instance} other {Unpublish # shared instances}}"
+  },
+  "app.modal.install-to-play.additional-context": {
+    "message": "Maelezo ya ziada"
+  },
+  "app.modal.install-to-play.additional-context-placeholder": {
+    "message": "Jumuisha viungo na picha iwezekanavyo na inavyofaa"
+  },
+  "app.modal.install-to-play.block-user": {
+    "message": "Zuia mtumiaji"
+  },
+  "app.modal.install-to-play.content-you-are-reporting": {
+    "message": "Instansi unayoripoti"
+  },
+  "app.modal.install-to-play.delete-instance": {
+    "message": "Futa instansi"
+  },
+  "app.modal.install-to-play.external-files-dont-install": {
+    "message": "Usisakinishe"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Sakinisha ili kucheza"
+  },
+  "app.modal.install-to-play.install-anyway": {
+    "message": "Sakinisha hata hivyo"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "Sakinisha"
+  },
+  "app.modal.install-to-play.invite-warning": {
+    "message": "Mwaliko huu uliundwa na mtumiaji mwingine wa Panda Minecraft Launcher, si Panda Minecraft Launcher. Kubali tu mialiko kutoka kwa watu unaowaamini."
+  },
+  "app.modal.install-to-play.invite-warning-with-creator": {
+    "message": "Mwaliko huu uliundwa na <creator>{username}</creator>, si Panda Minecraft Launcher. Kubali tu mialiko kutoka kwa watu unaowaamini."
+  },
+  "app.modal.install-to-play.managed-content.modpack-header": {
+    "message": "Maudhui ya modpack"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# mods}}"
+  },
+  "app.modal.install-to-play.owner-install-note": {
+    "message": "Hii inapakua toleo la hivi karibuni ulilotuma. Mabadiliko kwenye usakinishaji mwingine ambayo hujayatuma hayatajumuishwa."
+  },
+  "app.modal.install-to-play.report-description": {
+    "message": "Tumia fomu hii kuripoti instansi zinazokiuka <rules-link>Kanuni</rules-link> zetu au <terms-link>Masharti ya Matumizi</terms-link>."
+  },
+  "app.modal.install-to-play.report-image-invalid-type": {
+    "message": "Faili si aina ya picha inayokubalika"
+  },
+  "app.modal.install-to-play.report-image-too-large": {
+    "message": "Faili imezidi kikomo cha ukubwa wa 1 MiB"
+  },
+  "app.modal.install-to-play.report-legal-claims": {
+    "message": "Kwa arifa za DMCA au madai mengine ya kisheria, angalia <copyright-link>Sera ya Hakimiliki</copyright-link> yetu."
+  },
+  "app.modal.install-to-play.report-reason": {
+    "message": "Instansi hii inakiuka kanuni gani?"
+  },
+  "app.modal.install-to-play.report-shared-instance-header": {
+    "message": "Ripoti instansi inayoshirikiwa"
+  },
+  "app.modal.install-to-play.report-submitted": {
+    "message": "Ripoti imetumwa"
+  },
+  "app.modal.install-to-play.report-support-and-bugs": {
+    "message": "Kwa maombi ya usaidizi, wasiliana na <support-link>timu yetu ya usaidizi</support-link>. Kwa kuripoti hitilafu, fungua <github-link>tatizo la GitHub</github-link>."
+  },
+  "app.modal.install-to-play.reviewed-files": {
+    "message": "Faili ambazo hazijachapishwa kwenye Panda Minecraft Launcher hazikaguliwa."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "Instansi inayoshirikiwa"
+  },
+  "app.modal.install-to-play.shared-instance-content": {
+    "message": "Maudhui ya instansi inayoshirikiwa"
+  },
+  "app.modal.install-to-play.shared-instance-unknown-files-description": {
+    "message": "Instansi hii inayoshirikiwa ina faili ambazo hazijachapishwa kwenye Panda Minecraft Launcher. Tunapendekeza sana usakinisha faili kutoka kwa vyanzo unavyoviamini tu."
+  },
+  "app.modal.install-to-play.unavailable-description": {
+    "message": "Toleo la modpack linalotumika na seva hii haliwezi kupakuliwa kwa sasa. Huenda halijachapishwa au linakaguliwa. Jaribu tena baadaye, au wasiliana na mmiliki wa seva."
+  },
+  "app.modal.install-to-play.unavailable-header": {
+    "message": "Modpack ya seva hii haipatikani"
+  },
+  "app.modal.install-to-play.unknown-files-description": {
+    "message": "Modpack ya seva hii ina faili ambazo hazijachapishwa kwenye Panda Minecraft Launcher. Tunapendekeza sana usakinisha faili kutoka kwa vyanzo unavyoviamini tu."
+  },
+  "app.modal.install-to-play.unknown-files-warning": {
+    "message": "Onyo la faili zisizojulikana"
+  },
+  "app.modal.install-to-play.unrecognized-files": {
+    "message": "Faili zisizotambuliwa"
+  },
+  "app.modal.install-to-play.user-blocked": {
+    "message": "Mtumiaji amezuiwa"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "Tazama maudhui"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "Sasisha ili kucheza"
+  },
+  "app.modal.update-to-play.owner-admonition-header": {
+    "message": "Iliyotumwa kutoka usakinishaji mwingine"
+  },
+  "app.modal.update-to-play.owner-description": {
+    "message": "Mabadiliko haya yalitumwa kutoka usakinishaji mwingine wa Panda Minecraft Launcher. Mabadiliko ambayo hayajatumwa kwenye maudhui yanayoshirikiwa kwenye usakinishaji huu yatabadilishwa."
+  },
+  "app.modal.update-to-play.owner-header": {
+    "message": "Sasisho linapatikana"
+  },
+  "app.modal.update-to-play.removed": {
+    "message": "Imeondolewa"
+  },
+  "app.modal.update-to-play.server-modpack-unknown-files-description": {
+    "message": "Sasisho hili la modpack ya seva lina faili ambazo hazijachapishwa kwenye Panda Minecraft Launcher. Tunapendekeza sana usakinisha faili kutoka kwa vyanzo unavyoviamini tu."
+  },
+  "app.modal.update-to-play.shared-instance-added-label": {
+    "message": "Imeongezwa"
+  },
+  "app.modal.update-to-play.shared-instance-removed-label": {
+    "message": "Imeondolewa"
+  },
+  "app.modal.update-to-play.shared-instance-unknown-files-description": {
+    "message": "Sasisho hili la instansi inayoshirikiwa lina faili ambazo hazijachapishwa kwenye Panda Minecraft Launcher. Tunapendekeza sana usakinisha faili kutoka kwa vyanzo unavyoviamini tu."
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "Sasisho linahitajika"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "Sasisho linahitajika ili kucheza {name}. Tafadhali sasisha hadi toleo la hivi karibuni ili kuzindua mchezo."
+  },
+  "app.nav.account-management": {
+    "message": "Usimamizi wa akaunti"
+  },
+  "app.nav.add-account": {
+    "message": "Ongeza akaunti"
+  },
+  "app.nav.create-new-instance": {
+    "message": "Unda instansi mpya"
+  },
+  "app.nav.home": {
+    "message": "Nyumbani"
+  },
+  "app.nav.loading-profile": {
+    "message": "Inapakia wasifu..."
+  },
+  "app.nav.modrinth-account": {
+    "message": "Akaunti ya Panda Minecraft Launcher"
+  },
+  "app.nav.modrinth-hosting": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.nav.remove-account": {
+    "message": "Ondoa akaunti"
+  },
+  "app.nav.screenshots": {
+    "message": "Picha za skrini"
+  },
+  "app.nav.sign-in-to-modrinth-account": {
+    "message": "Ingia kwenye Panda Minecraft Launcher"
+  },
+  "app.nav.switch-account": {
+    "message": "Badilisha akaunti"
+  },
+  "app.nav.upgrade-to-modrinth-plus": {
+    "message": "Boresha hadi Panda Minecraft Launcher"
+  },
+  "app.nav.view-profile": {
+    "message": "Tazama wasifu"
+  },
+  "app.navigation.go-back": {
+    "message": "Rudi nyuma"
+  },
+  "app.navigation.go-forward": {
+    "message": "Sogeza mbele"
+  },
+  "app.navigation.home": {
+    "message": "Nyumbani"
+  },
+  "app.news.title": {
+    "message": "Habari"
+  },
+  "app.news.view-all": {
+    "message": "Tazama habari zote"
+  },
+  "app.notification.warning": {
+    "message": "Onyo"
+  },
+  "app.project.actions.label": {
+    "message": "Vitendo vya mradi"
+  },
+  "app.project.coming-soon": {
+    "message": "Hivi karibuni"
+  },
+  "app.project.install-button.already-installed": {
+    "message": "Mradi huu umesakinishwa tayari"
+  },
+  "app.project.install-button.switch-version": {
+    "message": "Badilisha toleo"
+  },
+  "app.project.install-context.back-to-browse": {
+    "message": "Rudi kwenye kugundua"
+  },
+  "app.project.install-context.back-to-instance": {
+    "message": "Rudi kwenye instansi"
+  },
+  "app.project.load-error": {
+    "message": "Data ya mradi haikuweza kupakiwa."
+  },
+  "app.project.more-options": {
+    "message": "Chaguo zaidi"
+  },
+  "app.project.tab.description": {
+    "message": "Maelezo"
+  },
+  "app.project.tab.gallery": {
+    "message": "Matunzio"
+  },
+  "app.project.tab.versions": {
+    "message": "Matoleo"
+  },
+  "app.project.version.all-versions": {
+    "message": "Matoleo yote"
+  },
+  "app.project.version.download-in-browser": {
+    "message": "Pakua kwenye kivinjari"
+  },
+  "app.project.version.installing": {
+    "message": "Inasakinisha"
+  },
+  "app.project.versions.already-installed": {
+    "message": "Imesakinishwa tayari"
+  },
+  "app.quick-instance-switcher.actions.label": {
+    "message": "Vitendo vya instansi"
+  },
+  "app.quick-instance-switcher.drag-show-tooltip": {
+    "message": "Buruta ili kuonyesha instansi za hivi karibuni"
+  },
+  "app.quick-instance-switcher.drag-tooltip": {
+    "message": "Vuta ili kubadilisha ukubwa"
+  },
+  "app.quick-instance-switcher.instance-locked": {
+    "message": "Instansi hii imefungwa"
+  },
+  "app.quick-instance-switcher.title": {
+    "message": "Instansi za hivi karibuni"
+  },
+  "app.quick-instance-switcher.view-instance": {
+    "message": "Tazama instansi"
+  },
+  "app.restarting": {
+    "message": "Inaanzisha upya..."
+  },
+  "app.screenshots.copied": {
+    "message": "Ilinakiliwa"
+  },
+  "app.screenshots.copy": {
+    "message": "Nakili picha"
+  },
+  "app.screenshots.delete-description": {
+    "message": "Futa {name} kabisa? Kitendo hiki hakiwezi kutenduliwa."
+  },
+  "app.screenshots.delete-success": {
+    "message": "Picha ya skrini imefutwa"
+  },
+  "app.screenshots.delete-title": {
+    "message": "Futa picha ya skrini"
+  },
+  "app.screenshots.deselect": {
+    "message": "Ondoa uteuzi wa {name}"
+  },
+  "app.screenshots.edit": {
+    "message": "Hariri picha ya skrini"
+  },
+  "app.screenshots.empty-description": {
+    "message": "Picha za skrini unazopiga ndani ya mchezo zitaonekana hapa."
+  },
+  "app.screenshots.empty-heading": {
+    "message": "Hakuna picha za skrini bado"
+  },
+  "app.screenshots.error-heading": {
+    "message": "Imeshindwa kupakia picha za skrini"
+  },
+  "app.screenshots.go-to-instance": {
+    "message": "Nenda kwenye instansi"
+  },
+  "app.screenshots.group-by": {
+    "message": "Panga kwa"
+  },
+  "app.screenshots.group.all-screenshots": {
+    "message": "Picha zote za skrini"
+  },
+  "app.screenshots.group.collapse": {
+    "message": "Kunja kikundi"
+  },
+  "app.screenshots.group.custom": {
+    "message": "Kikundi maalum"
+  },
+  "app.screenshots.group.date": {
+    "message": "Tarehe"
+  },
+  "app.screenshots.group.delete": {
+    "message": "Futa kikundi"
+  },
+  "app.screenshots.group.delete-description": {
+    "message": "Picha za skrini katika kikundi hiki hazitawekwa kwenye kikundi."
+  },
+  "app.screenshots.group.edit": {
+    "message": "Hariri jina la kikundi"
+  },
+  "app.screenshots.group.empty": {
+    "message": "Buruta na uachie ili kuongeza picha za skrini."
+  },
+  "app.screenshots.group.expand": {
+    "message": "Panua kikundi"
+  },
+  "app.screenshots.group.instance": {
+    "message": "Instansi"
+  },
+  "app.screenshots.group.new": {
+    "message": "Kikundi kipya"
+  },
+  "app.screenshots.group.none": {
+    "message": "Hakuna upangaji"
+  },
+  "app.screenshots.group.this-month": {
+    "message": "Mwezi huu"
+  },
+  "app.screenshots.group.this-week": {
+    "message": "Wiki hii"
+  },
+  "app.screenshots.group.today": {
+    "message": "Leo"
+  },
+  "app.screenshots.group.ungrouped": {
+    "message": "Hazijawekwa kwenye kikundi"
+  },
+  "app.screenshots.group.yesterday": {
+    "message": "Jana"
+  },
+  "app.screenshots.heading": {
+    "message": "Picha za skrini"
+  },
+  "app.screenshots.more-actions": {
+    "message": "Vitendo zaidi"
+  },
+  "app.screenshots.no-results-description": {
+    "message": "Jaribu utafutaji au kichujio kingine."
+  },
+  "app.screenshots.no-results-heading": {
+    "message": "Hakuna picha za skrini zinazolingana"
+  },
+  "app.screenshots.preview.instance-and-date": {
+    "message": "{instance} · {date}"
+  },
+  "app.screenshots.search": {
+    "message": "Tafuta"
+  },
+  "app.screenshots.select": {
+    "message": "Chagua {name}"
+  },
+  "app.screenshots.selection.aria-label": {
+    "message": "Picha za skrini zilizochaguliwa"
+  },
+  "app.screenshots.selection.delete-description": {
+    "message": "Inafuta {count, plural, one {# screenshot} other {# screenshots}}? Kitendo hiki hakiwezi kutenduliwa."
+  },
+  "app.screenshots.selection.delete-success": {
+    "message": "{count, plural, one {# screenshot deleted} other {# screenshots deleted}}"
+  },
+  "app.screenshots.selection.delete-title": {
+    "message": "Futa picha za skrini zilizochaguliwa"
+  },
+  "app.screenshots.selection.export-zip": {
+    "message": "Safirisha ZIP"
+  },
+  "app.screenshots.selection.global-export-filename": {
+    "message": "Panda Minecraft Launcher screenshots.zip"
+  },
+  "app.screenshots.selection.instance-export-filename": {
+    "message": "{instance} screenshots.zip"
+  },
+  "app.screenshots.selection.remove-from-group": {
+    "message": "Ondoa kwenye kikundi"
+  },
+  "app.screenshots.selection.selected-count": {
+    "message": "{count} imechaguliwa"
+  },
+  "app.screenshots.selection.zip-archive": {
+    "message": "Kumbukumbu ya ZIP"
+  },
+  "app.screenshots.show-in-folder": {
+    "message": "Onyesha kwenye folda"
+  },
+  "app.screenshots.sort-by": {
+    "message": "Panga kwa"
+  },
+  "app.screenshots.sort.name": {
+    "message": "Jina"
+  },
+  "app.screenshots.sort.newest": {
+    "message": "Ya hivi karibuni"
+  },
+  "app.screenshots.sort.oldest": {
+    "message": "Ya zamani zaidi"
+  },
+  "app.server-sharing-update.notification.description": {
+    "message": "Alika marafiki kucheza na instansi inayosimamiwa na seva yako."
+  },
+  "app.server-sharing-update.notification.dismiss": {
+    "message": "Futa"
+  },
+  "app.server-sharing-update.notification.purchase-description": {
+    "message": "Pata seva na ualike marafiki kucheza na instansi inayosimamiwa nayo."
+  },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "Tazama sasisho"
+  },
+  "app.server-sharing-update.title": {
+    "message": "Shiriki seva na marafiki"
+  },
+  "app.settings.app-version": {
+    "message": "Panda Minecraft Launcher {version}"
+  },
+  "app.settings.default-instance-options.environment-variables.description": {
+    "message": "Vigezo vya mazingira vinavyowekwa wakati instansi inazinduliwa."
+  },
+  "app.settings.default-instance-options.environment-variables.placeholder": {
+    "message": "Ingiza vigezo vya mazingira..."
+  },
+  "app.settings.default-instance-options.environment-variables.title": {
+    "message": "Vigezo vya mazingira"
+  },
+  "app.settings.default-instance-options.fullscreen.description": {
+    "message": "Anzisha instansi katika hali ya skrini nzima kwa kusasisha faili yake ya options.txt."
+  },
+  "app.settings.default-instance-options.fullscreen.title": {
+    "message": "Skrini nzima"
+  },
+  "app.settings.default-instance-options.height.description": {
+    "message": "Urefu wa dirisha la mchezo unapozinduliwa."
+  },
+  "app.settings.default-instance-options.height.placeholder": {
+    "message": "Ingiza urefu..."
+  },
+  "app.settings.default-instance-options.height.title": {
+    "message": "Urefu"
+  },
+  "app.settings.default-instance-options.java-arguments.description": {
+    "message": "Hoja zinazopitishwa kwa Java wakati instansi inazinduliwa."
+  },
+  "app.settings.default-instance-options.java-arguments.placeholder": {
+    "message": "Ingiza hoja za Java..."
+  },
+  "app.settings.default-instance-options.java-arguments.title": {
+    "message": "Hoja za Java"
+  },
+  "app.settings.default-instance-options.memory-allocation.description": {
+    "message": "Kumbukumbu ya juu inayopatikana kwa kila instansi."
+  },
+  "app.settings.default-instance-options.memory-allocation.title": {
+    "message": "Ugawaji wa kumbukumbu"
+  },
+  "app.settings.default-instance-options.post-exit-hook.description": {
+    "message": "Inaendeshwa baada ya mchezo kufungwa."
+  },
+  "app.settings.default-instance-options.post-exit-hook.placeholder": {
+    "message": "Ingiza amri ya baada ya kufungwa..."
+  },
+  "app.settings.default-instance-options.post-exit-hook.title": {
+    "message": "Kitendo cha baada ya kufungwa"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.description": {
+    "message": "Inaendeshwa kabla ya instansi kuanza."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.placeholder": {
+    "message": "Ingiza amri ya kabla ya kuzindua..."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.title": {
+    "message": "Kitendo cha kabla ya kuzindua"
+  },
+  "app.settings.default-instance-options.width.description": {
+    "message": "Upana wa dirisha la mchezo unapozinduliwa."
+  },
+  "app.settings.default-instance-options.width.placeholder": {
+    "message": "Ingiza upana..."
+  },
+  "app.settings.default-instance-options.width.title": {
+    "message": "Upana"
+  },
+  "app.settings.default-instance-options.wrapper-hook.description": {
+    "message": "Amri inayotumika kufunika mchakato wa kuzindua Minecraft."
+  },
+  "app.settings.default-instance-options.wrapper-hook.placeholder": {
+    "message": "Ingiza amri ya kufunika..."
+  },
+  "app.settings.default-instance-options.wrapper-hook.title": {
+    "message": "Kitendo cha kufunika"
+  },
+  "app.settings.developer-mode-button.label": {
+    "message": "Washa au zima hali ya msanidi"
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "Hali ya msanidi imewezeshwa."
+  },
+  "app.settings.downloading": {
+    "message": "Inapakua v{version}"
+  },
+  "app.settings.game-options.category.accessibility.description": {
+    "message": "Mapendeleo ya ufikivu"
+  },
+  "app.settings.game-options.category.accessibility.label": {
+    "message": "Ufikivu"
+  },
+  "app.settings.game-options.category.chat.description": {
+    "message": "Mwonekano na muonekano wa soga"
+  },
+  "app.settings.game-options.category.chat.label": {
+    "message": "Soga"
+  },
+  "app.settings.game-options.category.controls.description": {
+    "message": "Kipanya, mwendo, na vifungo vya vitufe"
+  },
+  "app.settings.game-options.category.controls.label": {
+    "message": "Vidhibiti"
+  },
+  "app.settings.game-options.category.custom.description": {
+    "message": "Mipangilio iliyoongezwa na mods"
+  },
+  "app.settings.game-options.category.custom.label": {
+    "message": "Mipangilio maalum"
+  },
+  "app.settings.game-options.category.language.description": {
+    "message": "Lugha ya mchezo"
+  },
+  "app.settings.game-options.category.language.label": {
+    "message": "Lugha"
+  },
+  "app.settings.game-options.category.music-and-sound.description": {
+    "message": "Muziki na mapendeleo ya sauti"
+  },
+  "app.settings.game-options.category.music-and-sound.label": {
+    "message": "Muziki na sauti"
+  },
+  "app.settings.game-options.category.online.description": {
+    "message": "Mapendeleo ya mtandao na Realms"
+  },
+  "app.settings.game-options.category.online.label": {
+    "message": "Mtandaoni"
+  },
+  "app.settings.game-options.category.skin-customization.description": {
+    "message": "Tabaka za skin na mkono mkuu"
+  },
+  "app.settings.game-options.category.skin-customization.label": {
+    "message": "Ubinafsishaji wa skin"
+  },
+  "app.settings.game-options.category.video.description": {
+    "message": "Mipangilio ya kamera na onyesho"
+  },
+  "app.settings.game-options.category.video.label": {
+    "message": "Video"
+  },
+  "app.settings.game-options.choice.all": {
+    "message": "Zote"
+  },
+  "app.settings.game-options.choice.balanced": {
+    "message": "Iliyosawazishwa"
+  },
+  "app.settings.game-options.choice.by-player": {
+    "message": "Kwa mchezaji"
+  },
+  "app.settings.game-options.choice.chat": {
+    "message": "Soga"
+  },
+  "app.settings.game-options.choice.commands-only": {
+    "message": "Amri tu"
+  },
+  "app.settings.game-options.choice.constant": {
+    "message": "Isiyobadilika"
+  },
+  "app.settings.game-options.choice.crosshair": {
+    "message": "Kilengo"
+  },
+  "app.settings.game-options.choice.custom": {
+    "message": "Maalum"
+  },
+  "app.settings.game-options.choice.decreased": {
+    "message": "Iliyopunguzwa"
+  },
+  "app.settings.game-options.choice.default": {
+    "message": "Chaguo-msingi"
+  },
+  "app.settings.game-options.choice.fabulous": {
+    "message": "Ya ajabu"
+  },
+  "app.settings.game-options.choice.fancy": {
+    "message": "Ya kifahari"
+  },
+  "app.settings.game-options.choice.far": {
+    "message": "Mbali"
+  },
+  "app.settings.game-options.choice.fast": {
+    "message": "Haraka"
+  },
+  "app.settings.game-options.choice.frequent": {
+    "message": "Mara nyingi"
+  },
+  "app.settings.game-options.choice.hidden": {
+    "message": "Imefichwa"
+  },
+  "app.settings.game-options.choice.hotbar": {
+    "message": "Hotbar"
+  },
+  "app.settings.game-options.choice.left": {
+    "message": "Kushoto"
+  },
+  "app.settings.game-options.choice.limited": {
+    "message": "Ndogo"
+  },
+  "app.settings.game-options.choice.max-fps": {
+    "message": "FPS ya juu"
+  },
+  "app.settings.game-options.choice.maximum": {
+    "message": "Juu zaidi"
+  },
+  "app.settings.game-options.choice.minimal": {
+    "message": "Ndogo sana"
+  },
+  "app.settings.game-options.choice.minimum": {
+    "message": "Chini zaidi"
+  },
+  "app.settings.game-options.choice.nearby": {
+    "message": "Karibu"
+  },
+  "app.settings.game-options.choice.never": {
+    "message": "Kamwe"
+  },
+  "app.settings.game-options.choice.none": {
+    "message": "Hakuna"
+  },
+  "app.settings.game-options.choice.normal": {
+    "message": "Kawaida"
+  },
+  "app.settings.game-options.choice.off": {
+    "message": "Zima"
+  },
+  "app.settings.game-options.choice.on": {
+    "message": "Washa"
+  },
+  "app.settings.game-options.choice.opengl": {
+    "message": "OpenGL"
+  },
+  "app.settings.game-options.choice.pause": {
+    "message": "Menyu ya kusitisha"
+  },
+  "app.settings.game-options.choice.pause-and-toast": {
+    "message": "Menyu ya kusitisha na arifa"
+  },
+  "app.settings.game-options.choice.power-saver": {
+    "message": "Kihifadhi nishati"
+  },
+  "app.settings.game-options.choice.right": {
+    "message": "Kulia"
+  },
+  "app.settings.game-options.choice.short": {
+    "message": "Fupi"
+  },
+  "app.settings.game-options.choice.shown": {
+    "message": "Imeonyeshwa"
+  },
+  "app.settings.game-options.choice.system": {
+    "message": "Mfumo"
+  },
+  "app.settings.game-options.choice.tiny": {
+    "message": "Ndogo sana"
+  },
+  "app.settings.game-options.choice.vulkan": {
+    "message": "Vulkan"
+  },
+  "app.settings.game-options.choice.when-minimized": {
+    "message": "Wakati imepunguzwa"
+  },
+  "app.settings.game-options.choice.while-afk": {
+    "message": "Wakati AFK"
+  },
+  "app.settings.game-options.compatibility.none": {
+    "message": "Baadhi ya instansi haziwezi kutumia mpangilio huu"
+  },
+  "app.settings.game-options.compatibility.reason.launcher-controlled": {
+    "message": "Mpangilio huu unasimamiwa na mipangilio ya kuzindua ya Panda Minecraft Launcher."
+  },
+  "app.settings.game-options.custom-value.placeholder": {
+    "message": "Ingiza thamani"
+  },
+  "app.settings.game-options.keybind.assigned-status": {
+    "message": "{setting} sasa imefungwa kwa {binding}."
+  },
+  "app.settings.game-options.keybind.cancelled-status": {
+    "message": "Mabadiliko ya ufungaji wa kitufe yameghairiwa."
+  },
+  "app.settings.game-options.keybind.change": {
+    "message": "{setting}: {binding}. Bonyeza ili kubadilisha ufungaji."
+  },
+  "app.settings.game-options.keybind.choose": {
+    "message": "Chagua kitufe"
+  },
+  "app.settings.game-options.keybind.conflict-description": {
+    "message": "Hii tayari inatumiwa na {settings}."
+  },
+  "app.settings.game-options.keybind.key.arrow-down": {
+    "message": "Mshale wa Chini"
+  },
+  "app.settings.game-options.keybind.key.arrow-left": {
+    "message": "Mshale wa Kushoto"
+  },
+  "app.settings.game-options.keybind.key.arrow-right": {
+    "message": "Mshale wa Kulia"
+  },
+  "app.settings.game-options.keybind.key.arrow-up": {
+    "message": "Mshale wa Juu"
+  },
+  "app.settings.game-options.keybind.key.backspace": {
+    "message": "Backspace"
+  },
+  "app.settings.game-options.keybind.key.caps-lock": {
+    "message": "Caps Lock"
+  },
+  "app.settings.game-options.keybind.key.delete": {
+    "message": "Delete"
+  },
+  "app.settings.game-options.keybind.key.end": {
+    "message": "End"
+  },
+  "app.settings.game-options.keybind.key.enter": {
+    "message": "Enter"
+  },
+  "app.settings.game-options.keybind.key.escape": {
+    "message": "Escape"
+  },
+  "app.settings.game-options.keybind.key.home": {
+    "message": "Home"
+  },
+  "app.settings.game-options.keybind.key.insert": {
+    "message": "Insert"
+  },
+  "app.settings.game-options.keybind.key.keypad-key": {
+    "message": "Numpad {key}"
+  },
+  "app.settings.game-options.keybind.key.left-alt": {
+    "message": "Alt ya Kushoto"
+  },
+  "app.settings.game-options.keybind.key.left-command": {
+    "message": "Command ya Kushoto"
+  },
+  "app.settings.game-options.keybind.key.left-control": {
+    "message": "Ctrl ya Kushoto"
+  },
+  "app.settings.game-options.keybind.key.left-shift": {
+    "message": "Shift ya Kushoto"
+  },
+  "app.settings.game-options.keybind.key.left-super": {
+    "message": "Super ya Kushoto"
+  },
+  "app.settings.game-options.keybind.key.menu": {
+    "message": "Menu"
+  },
+  "app.settings.game-options.keybind.key.num-lock": {
+    "message": "Num Lock"
+  },
+  "app.settings.game-options.keybind.key.page-down": {
+    "message": "Page Down"
+  },
+  "app.settings.game-options.keybind.key.page-up": {
+    "message": "Page Up"
+  },
+  "app.settings.game-options.keybind.key.pause": {
+    "message": "Pause"
+  },
+  "app.settings.game-options.keybind.key.print-screen": {
+    "message": "Print Screen"
+  },
+  "app.settings.game-options.keybind.key.right-alt": {
+    "message": "Alt ya Kulia"
+  },
+  "app.settings.game-options.keybind.key.right-command": {
+    "message": "Command ya Kulia"
+  },
+  "app.settings.game-options.keybind.key.right-control": {
+    "message": "Ctrl ya Kulia"
+  },
+  "app.settings.game-options.keybind.key.right-shift": {
+    "message": "Shift ya Kulia"
+  },
+  "app.settings.game-options.keybind.key.right-super": {
+    "message": "Super ya Kulia"
+  },
+  "app.settings.game-options.keybind.key.scroll-lock": {
+    "message": "Scroll Lock"
+  },
+  "app.settings.game-options.keybind.key.space": {
+    "message": "Space"
+  },
+  "app.settings.game-options.keybind.key.tab": {
+    "message": "Tab"
+  },
+  "app.settings.game-options.keybind.key.unbound": {
+    "message": "Haijafungwa"
+  },
+  "app.settings.game-options.keybind.key.unknown": {
+    "message": "Kitufe kisichojulikana"
+  },
+  "app.settings.game-options.keybind.listen": {
+    "message": "Bonyeza kitufe…"
+  },
+  "app.settings.game-options.keybind.listening-status": {
+    "message": "Inasikiliza kitufe au kitufe cha kipanya. Bonyeza Escape ili kuondoa ufungaji huu."
+  },
+  "app.settings.game-options.keybind.mixed": {
+    "message": "Tofauti kati ya instansi"
+  },
+  "app.settings.game-options.keybind.modifier.alt": {
+    "message": "Alt"
+  },
+  "app.settings.game-options.keybind.modifier.command": {
+    "message": "Command"
+  },
+  "app.settings.game-options.keybind.modifier.control": {
+    "message": "Ctrl"
+  },
+  "app.settings.game-options.keybind.modifier.shift": {
+    "message": "Shift"
+  },
+  "app.settings.game-options.keybind.modifier.super": {
+    "message": "Super"
+  },
+  "app.settings.game-options.keybind.mouse.button": {
+    "message": "Kipanya {button}"
+  },
+  "app.settings.game-options.keybind.mouse.left": {
+    "message": "Kitufe cha Kushoto cha Kipanya"
+  },
+  "app.settings.game-options.keybind.mouse.middle": {
+    "message": "Kitufe cha Kati cha Kipanya"
+  },
+  "app.settings.game-options.keybind.mouse.right": {
+    "message": "Kitufe cha Kulia cha Kipanya"
+  },
+  "app.settings.game-options.keybind.recording-label": {
+    "message": "{setting}: inasikiliza kitufe au kitufe cha kipanya. Bonyeza Escape ili kuondoa ufungaji huu."
+  },
+  "app.settings.game-options.keybind.scancode": {
+    "message": "Scancode {code}"
+  },
+  "app.settings.game-options.keybind.unsupported-status": {
+    "message": "Ingizo hili haliwezi kutumika na Minecraft. Bonyeza kitufe kingine."
+  },
+  "app.settings.game-options.setting.advanced-opengl.label": {
+    "message": "OpenGL ya hali ya juu"
+  },
+  "app.settings.game-options.setting.allow-cursor-changes.label": {
+    "message": "Ruhusu mabadiliko ya kisorge"
+  },
+  "app.settings.game-options.setting.allow-server-listing.description": {
+    "message": "Ruhusu jina la mchezaji kuonekana kwenye orodha za seva."
+  },
+  "app.settings.game-options.setting.allow-server-listing.label": {
+    "message": "Orodha za seva"
+  },
+  "app.settings.game-options.setting.alternate-blocks.label": {
+    "message": "Vitalu mbadala"
+  },
+  "app.settings.game-options.setting.ambient-occlusion.label": {
+    "message": "Mwangaza laini"
+  },
+  "app.settings.game-options.setting.ambient-volume.label": {
+    "message": "Sauti ya mazingira"
+  },
+  "app.settings.game-options.setting.anaglyph-3d.label": {
+    "message": "3D ya anaglyph"
+  },
+  "app.settings.game-options.setting.anisotropic-filtering.label": {
+    "message": "Kichujio cha anisotropic"
+  },
+  "app.settings.game-options.setting.anisotropy.label": {
+    "message": "Anisotropy"
+  },
+  "app.settings.game-options.setting.attack-indicator.label": {
+    "message": "Kiashiria cha mashambulizi"
+  },
+  "app.settings.game-options.setting.auto-jump.description": {
+    "message": "Ruka kiotomatiki vizuizi vyenye urefu wa kipande kimoja."
+  },
+  "app.settings.game-options.setting.auto-jump.label": {
+    "message": "Kuruka kiotomatiki"
+  },
+  "app.settings.game-options.setting.auto-suggestions.label": {
+    "message": "Mapendekezo ya amri"
+  },
+  "app.settings.game-options.setting.autosave-indicator.label": {
+    "message": "Kiashiria cha kuhifadhi kiotomatiki"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.description": {
+    "message": "Umbali ambao rangi za biome hubadilika."
+  },
+  "app.settings.game-options.setting.biome-blend-radius.label": {
+    "message": "Mchanganyiko wa biome"
+  },
+  "app.settings.game-options.setting.blocks-volume.label": {
+    "message": "Vitalu"
+  },
+  "app.settings.game-options.setting.brightness.label": {
+    "message": "Mwangaza"
+  },
+  "app.settings.game-options.setting.cape.description": {
+    "message": "Onyesha kanzu ya mchezaji, ikiwa ni pamoja na muundo wake wa elytra."
+  },
+  "app.settings.game-options.setting.cape.label": {
+    "message": "Kanzu"
+  },
+  "app.settings.game-options.setting.chat-background-only.label": {
+    "message": "Mandharinyuma ya soga tu"
+  },
+  "app.settings.game-options.setting.chat-colors.label": {
+    "message": "Rangi za soga"
+  },
+  "app.settings.game-options.setting.chat-delay.label": {
+    "message": "Kuchelewa kwa soga"
+  },
+  "app.settings.game-options.setting.chat-line-spacing.label": {
+    "message": "Nafasi ya mistari ya soga"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.description": {
+    "message": "Uliza kabla ya kufungua viungo kutoka kwenye soga."
+  },
+  "app.settings.game-options.setting.chat-links-prompt.label": {
+    "message": "Uliza kwa viungo"
+  },
+  "app.settings.game-options.setting.chat-links.description": {
+    "message": "Ruhusu viungo vya mtandao kwenye soga kufunguliwa."
+  },
+  "app.settings.game-options.setting.chat-links.label": {
+    "message": "Viungo vya mtandao"
+  },
+  "app.settings.game-options.setting.chat-opacity.description": {
+    "message": "Uwazi wa maandishi ya soga."
+  },
+  "app.settings.game-options.setting.chat-opacity.label": {
+    "message": "Uwazi wa soga"
+  },
+  "app.settings.game-options.setting.chat-preview.label": {
+    "message": "Onyesho la soga"
+  },
+  "app.settings.game-options.setting.chat-scale.label": {
+    "message": "Ukubwa wa soga"
+  },
+  "app.settings.game-options.setting.chat-visibility.label": {
+    "message": "Mwonekano wa soga"
+  },
+  "app.settings.game-options.setting.chat-width.label": {
+    "message": "Upana wa soga"
+  },
+  "app.settings.game-options.setting.chunk-fade-time.label": {
+    "message": "Muda wa kufifia wa chunk"
+  },
+  "app.settings.game-options.setting.cloud-range.label": {
+    "message": "Umbali wa mawingu"
+  },
+  "app.settings.game-options.setting.clouds.label": {
+    "message": "Mawingu"
+  },
+  "app.settings.game-options.setting.ctrl-click-right-click.label": {
+    "message": "Ctrl-click kama kubofya kulia"
+  },
+  "app.settings.game-options.setting.cutout-leaves.label": {
+    "message": "Majani yaliyokatwa"
+  },
+  "app.settings.game-options.setting.damage-tilt.label": {
+    "message": "Inamika wakati wa uharibifu"
+  },
+  "app.settings.game-options.setting.dark-splash.description": {
+    "message": "Badilisha skrini ya kupakia ya Mojang Studios kutoka nyekundu hadi nyeusi."
+  },
+  "app.settings.game-options.setting.dark-splash.label": {
+    "message": "Nembo ya monokromu"
+  },
+  "app.settings.game-options.setting.darkness-pulsing.label": {
+    "message": "Mapigo ya giza"
+  },
+  "app.settings.game-options.setting.debug-gui-scale.label": {
+    "message": "Ukubwa wa GUI ya utatuzi"
+  },
+  "app.settings.game-options.setting.directional-audio.label": {
+    "message": "Sauti ya mwelekeo"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.description": {
+    "message": "Chukua kila mwendo wa gurudumu la kipanya kama hatua moja ya kusogeza."
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.label": {
+    "message": "Kusogeza kwa hatua"
+  },
+  "app.settings.game-options.setting.entity-distance.label": {
+    "message": "Umbali wa viumbe"
+  },
+  "app.settings.game-options.setting.entity-shadows.label": {
+    "message": "Vivuli vya viumbe"
+  },
+  "app.settings.game-options.setting.exclusive-fullscreen.label": {
+    "message": "Skrini nzima ya kipekee"
+  },
+  "app.settings.game-options.setting.extra-telemetry.label": {
+    "message": "Telemetry ya hiari"
+  },
+  "app.settings.game-options.setting.focused-chat-height.label": {
+    "message": "Urefu wa soga iliyolenga"
+  },
+  "app.settings.game-options.setting.force-unicode-font.label": {
+    "message": "Lazimisha fonti ya Unicode"
+  },
+  "app.settings.game-options.setting.fov-effects.label": {
+    "message": "Athari za FOV"
+  },
+  "app.settings.game-options.setting.fov.label": {
+    "message": "Sehemu ya maono"
+  },
+  "app.settings.game-options.setting.fullscreen.label": {
+    "message": "Skrini nzima"
+  },
+  "app.settings.game-options.setting.glint-speed.label": {
+    "message": "Kasi ya mng'ao"
+  },
+  "app.settings.game-options.setting.glint-strength.label": {
+    "message": "Nguvu ya mng'ao"
+  },
+  "app.settings.game-options.setting.graphics-backend.label": {
+    "message": "Msingi wa picha"
+  },
+  "app.settings.game-options.setting.graphics.description": {
+    "message": "Inadhibiti ubora wa picha na utendaji."
+  },
+  "app.settings.game-options.setting.graphics.label": {
+    "message": "Picha"
+  },
+  "app.settings.game-options.setting.gui-scale.description": {
+    "message": "Ukubwa wa kiolesura cha mchezo na HUD."
+  },
+  "app.settings.game-options.setting.gui-scale.label": {
+    "message": "Ukubwa wa GUI"
+  },
+  "app.settings.game-options.setting.hat.description": {
+    "message": "Onyesha tabaka la kofia la skin."
+  },
+  "app.settings.game-options.setting.hat.label": {
+    "message": "Kofia"
+  },
+  "app.settings.game-options.setting.held-item-tooltips.label": {
+    "message": "Vidokezo vya kitu kilichoshikiliwa"
+  },
+  "app.settings.game-options.setting.hide-lightning-flashes.label": {
+    "message": "Ficha mwanga wa umeme"
+  },
+  "app.settings.game-options.setting.hide-matched-names.label": {
+    "message": "Ficha majina yanayolingana"
+  },
+  "app.settings.game-options.setting.hide-server-address.label": {
+    "message": "Ficha anwani ya seva"
+  },
+  "app.settings.game-options.setting.hide-splash-texts.label": {
+    "message": "Ficha maandishi ya utangulizi"
+  },
+  "app.settings.game-options.setting.high-contrast-outline.label": {
+    "message": "Ufafanuzi wa kizuizi wenye utofauti mkubwa"
+  },
+  "app.settings.game-options.setting.high-contrast.description": {
+    "message": "Boresha utofauti wa vipengele vya kiolesura."
+  },
+  "app.settings.game-options.setting.high-contrast.label": {
+    "message": "Utofauti mkubwa"
+  },
+  "app.settings.game-options.setting.hostile-volume.label": {
+    "message": "Viumbe wenye uhasama"
+  },
+  "app.settings.game-options.setting.improved-transparency.label": {
+    "message": "Uwazi ulioboreshwa"
+  },
+  "app.settings.game-options.setting.in-game-notifications.label": {
+    "message": "Arifa ndani ya mchezo"
+  },
+  "app.settings.game-options.setting.inactivity-framerate-limit.label": {
+    "message": "Kiwango cha chini cha fremu"
+  },
+  "app.settings.game-options.setting.invert-horizontal-mouse.label": {
+    "message": "Geuza kipanya mlalo"
+  },
+  "app.settings.game-options.setting.invert-mouse.description": {
+    "message": "Geuza mwendo wa kipanya wima."
+  },
+  "app.settings.game-options.setting.invert-mouse.label": {
+    "message": "Geuza kipanya"
+  },
+  "app.settings.game-options.setting.jacket.description": {
+    "message": "Onyesha tabaka la koti la skin."
+  },
+  "app.settings.game-options.setting.jacket.label": {
+    "message": "Koti"
+  },
+  "app.settings.game-options.setting.japanese-glyph-variants.label": {
+    "message": "Aina za herufi za Kijapani"
+  },
+  "app.settings.game-options.setting.key-advancements.label": {
+    "message": "Mafanikio"
+  },
+  "app.settings.game-options.setting.key-attack.label": {
+    "message": "Shambulia"
+  },
+  "app.settings.game-options.setting.key-back.label": {
+    "message": "Sogeza nyuma"
+  },
+  "app.settings.game-options.setting.key-chat.label": {
+    "message": "Fungua soga"
+  },
+  "app.settings.game-options.setting.key-command.label": {
+    "message": "Command"
+  },
+  "app.settings.game-options.setting.key-debug-advanced-tooltips.label": {
+    "message": "Onyesha vidokezo vya hali ya juu"
+  },
+  "app.settings.game-options.setting.key-debug-chunk-borders.label": {
+    "message": "Onyesha mipaka ya chunk"
+  },
+  "app.settings.game-options.setting.key-debug-clear-chat.label": {
+    "message": "Futa soga"
+  },
+  "app.settings.game-options.setting.key-debug-copy-location.label": {
+    "message": "Nakili eneo"
+  },
+  "app.settings.game-options.setting.key-debug-copy-recreate-command.label": {
+    "message": "Nakili amri ya kuunda upya"
+  },
+  "app.settings.game-options.setting.key-debug-crash.label": {
+    "message": "Sababisha hitilafu ya utatuzi"
+  },
+  "app.settings.game-options.setting.key-debug-dump-dynamic-textures.label": {
+    "message": "Toa muundo wa textures zinazobadilika"
+  },
+  "app.settings.game-options.setting.key-debug-dump-version.label": {
+    "message": "Toa toleo"
+  },
+  "app.settings.game-options.setting.key-debug-focus-pause.label": {
+    "message": "Sitisha wakati umakini umepotea"
+  },
+  "app.settings.game-options.setting.key-debug-fps-charts.label": {
+    "message": "Grafu za FPS"
+  },
+  "app.settings.game-options.setting.key-debug-hitboxes.label": {
+    "message": "Onyesha maeneo ya mgongano"
+  },
+  "app.settings.game-options.setting.key-debug-improved-transparency.label": {
+    "message": "Mwonekano wa utatuzi wa uwazi ulioboreshwa"
+  },
+  "app.settings.game-options.setting.key-debug-lightmap-texture.label": {
+    "message": "Muundo wa ramani ya mwanga"
+  },
+  "app.settings.game-options.setting.key-debug-modifier.label": {
+    "message": "Kitufe cha utatuzi"
+  },
+  "app.settings.game-options.setting.key-debug-network-charts.label": {
+    "message": "Grafu za mtandao"
+  },
+  "app.settings.game-options.setting.key-debug-options.label": {
+    "message": "Chaguo za utatuzi"
+  },
+  "app.settings.game-options.setting.key-debug-overlay.label": {
+    "message": "Uwianisho wa utatuzi"
+  },
+  "app.settings.game-options.setting.key-debug-profiling-chart.label": {
+    "message": "Grafu ya uchambuzi"
+  },
+  "app.settings.game-options.setting.key-debug-profiling.label": {
+    "message": "Anza uchambuzi"
+  },
+  "app.settings.game-options.setting.key-debug-reload-chunks.label": {
+    "message": "Pakia upya chunks"
+  },
+  "app.settings.game-options.setting.key-debug-reload-resource-packs.label": {
+    "message": "Pakia upya vifurushi vya rasilimali"
+  },
+  "app.settings.game-options.setting.key-debug-spectate.label": {
+    "message": "Tazama kiumbe"
+  },
+  "app.settings.game-options.setting.key-debug-switch-game-mode.label": {
+    "message": "Badilisha hali ya mchezo"
+  },
+  "app.settings.game-options.setting.key-drop.label": {
+    "message": "Acha kitu"
+  },
+  "app.settings.game-options.setting.key-forward.label": {
+    "message": "Sogeza mbele"
+  },
+  "app.settings.game-options.setting.key-friends.label": {
+    "message": "Marafiki"
+  },
+  "app.settings.game-options.setting.key-fullscreen.label": {
+    "message": "Washa au zima skrini nzima"
+  },
+  "app.settings.game-options.setting.key-hotbar-1.label": {
+    "message": "Hotbar 1"
+  },
+  "app.settings.game-options.setting.key-hotbar-2.label": {
+    "message": "Hotbar 2"
+  },
+  "app.settings.game-options.setting.key-hotbar-3.label": {
+    "message": "Hotbar 3"
+  },
+  "app.settings.game-options.setting.key-hotbar-4.label": {
+    "message": "Hotbar 4"
+  },
+  "app.settings.game-options.setting.key-hotbar-5.label": {
+    "message": "Hotbar 5"
+  },
+  "app.settings.game-options.setting.key-hotbar-6.label": {
+    "message": "Hotbar 6"
+  },
+  "app.settings.game-options.setting.key-hotbar-7.label": {
+    "message": "Hotbar 7"
+  },
+  "app.settings.game-options.setting.key-hotbar-8.label": {
+    "message": "Hotbar 8"
+  },
+  "app.settings.game-options.setting.key-hotbar-9.label": {
+    "message": "Hotbar 9"
+  },
+  "app.settings.game-options.setting.key-inventory.label": {
+    "message": "Mizigo"
+  },
+  "app.settings.game-options.setting.key-jump.label": {
+    "message": "Ruka"
+  },
+  "app.settings.game-options.setting.key-left.label": {
+    "message": "Sogeza kushoto"
+  },
+  "app.settings.game-options.setting.key-load-toolbar.label": {
+    "message": "Pakia upau wa zana"
+  },
+  "app.settings.game-options.setting.key-perspective.label": {
+    "message": "Badilisha mtazamo"
+  },
+  "app.settings.game-options.setting.key-pick-item.label": {
+    "message": "Chukua kipande"
+  },
+  "app.settings.game-options.setting.key-player-list.label": {
+    "message": "Orodha ya wachezaji"
+  },
+  "app.settings.game-options.setting.key-quick-actions.label": {
+    "message": "Vitendo vya haraka"
+  },
+  "app.settings.game-options.setting.key-right.label": {
+    "message": "Sogeza kulia"
+  },
+  "app.settings.game-options.setting.key-save-toolbar.label": {
+    "message": "Hifadhi upau wa zana"
+  },
+  "app.settings.game-options.setting.key-screenshot.label": {
+    "message": "Picha ya skrini"
+  },
+  "app.settings.game-options.setting.key-smooth-camera.label": {
+    "message": "Washa au zima kamera ya sinema"
+  },
+  "app.settings.game-options.setting.key-sneak.label": {
+    "message": "Nyongeza"
+  },
+  "app.settings.game-options.setting.key-social-interactions.label": {
+    "message": "Mwingiliano wa kijamii"
+  },
+  "app.settings.game-options.setting.key-spectator-hotbar.label": {
+    "message": "Hotbar ya mtazamaji"
+  },
+  "app.settings.game-options.setting.key-spectator-outlines.label": {
+    "message": "Angazia watazamaji"
+  },
+  "app.settings.game-options.setting.key-sprint.label": {
+    "message": "Kimbia"
+  },
+  "app.settings.game-options.setting.key-swap-offhand.label": {
+    "message": "Badilisha mkono wa pili"
+  },
+  "app.settings.game-options.setting.key-toggle-gui.label": {
+    "message": "Washa au zima HUD"
+  },
+  "app.settings.game-options.setting.key-toggle-spectator-shader.label": {
+    "message": "Washa au zima shader ya mtazamaji"
+  },
+  "app.settings.game-options.setting.key-use.label": {
+    "message": "Tumia kitu"
+  },
+  "app.settings.game-options.setting.language.label": {
+    "message": "Lugha"
+  },
+  "app.settings.game-options.setting.left-pants-leg.label": {
+    "message": "Mguu wa kushoto wa suruali"
+  },
+  "app.settings.game-options.setting.left-sleeve.label": {
+    "message": "Mkono wa kushoto"
+  },
+  "app.settings.game-options.setting.legacy-framerate-limit.label": {
+    "message": "Kikomo cha kasi ya fremu"
+  },
+  "app.settings.game-options.setting.legacy-view-distance.label": {
+    "message": "Umbali wa mwonekano"
+  },
+  "app.settings.game-options.setting.mac-fullscreen-menu.label": {
+    "message": "Onyesha menyu ya macOS katika skrini nzima"
+  },
+  "app.settings.game-options.setting.main-hand.description": {
+    "message": "Chagua ikiwa mkono mkuu ni wa kushoto au wa kulia."
+  },
+  "app.settings.game-options.setting.main-hand.label": {
+    "message": "Mkono mkuu"
+  },
+  "app.settings.game-options.setting.master-volume.label": {
+    "message": "Sauti kuu"
+  },
+  "app.settings.game-options.setting.max-framerate.label": {
+    "message": "Kasi ya juu ya fremu"
+  },
+  "app.settings.game-options.setting.menu-background-blur.label": {
+    "message": "Ufifishaji wa mandharinyuma ya menyu"
+  },
+  "app.settings.game-options.setting.mipmap-levels.description": {
+    "message": "Ulainishaji wa muundo katika umbali."
+  },
+  "app.settings.game-options.setting.mipmap-levels.label": {
+    "message": "Viwango vya mipmap"
+  },
+  "app.settings.game-options.setting.mouse-wheel-sensitivity.label": {
+    "message": "Unyeti wa gurudumu la kipanya"
+  },
+  "app.settings.game-options.setting.music-frequency.label": {
+    "message": "Marudio ya muziki"
+  },
+  "app.settings.game-options.setting.music-toast.description": {
+    "message": "Chagua ikiwa majina ya nyimbo yanaonekana kwenye menyu ya kusitisha na kama arifa."
+  },
+  "app.settings.game-options.setting.music-toast.label": {
+    "message": "Arifa ya muziki"
+  },
+  "app.settings.game-options.setting.music-volume.label": {
+    "message": "Muziki"
+  },
+  "app.settings.game-options.setting.narrator-hotkey.label": {
+    "message": "Kitufe cha wasimulizi"
+  },
+  "app.settings.game-options.setting.narrator.description": {
+    "message": "Chagua kile wasimulizi anachosoma."
+  },
+  "app.settings.game-options.setting.narrator.label": {
+    "message": "Wasimulizi"
+  },
+  "app.settings.game-options.setting.neutral-volume.label": {
+    "message": "Viumbe rafiki"
+  },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "Muda ambao arifa zinaonekana."
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "Muda wa arifa"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "Kichupo cha vitu vya operator"
+  },
+  "app.settings.game-options.setting.panorama-speed.label": {
+    "message": "Kasi ya panorama"
+  },
+  "app.settings.game-options.setting.particles.label": {
+    "message": "Chembe"
+  },
+  "app.settings.game-options.setting.players-volume.label": {
+    "message": "Wachezaji"
+  },
+  "app.settings.game-options.setting.prioritize-chunk-updates.label": {
+    "message": "Tanguliza masasisho ya chunk"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "Njia za mkato za kutoka"
+  },
+  "app.settings.game-options.setting.raw-mouse-input.label": {
+    "message": "Ingizo ghafi la kipanya"
+  },
+  "app.settings.game-options.setting.realms-notifications.label": {
+    "message": "Arifa za Realms"
+  },
+  "app.settings.game-options.setting.record-volume.label": {
+    "message": "Jukebox/Note Blocks"
+  },
+  "app.settings.game-options.setting.reduced-debug-info.label": {
+    "message": "Maelezo machache ya utatuzi"
+  },
+  "app.settings.game-options.setting.render-distance.label": {
+    "message": "Umbali wa uonyeshaji"
+  },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "Mguu wa kulia wa suruali"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "Mkono wa kulia"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "Zunguka pamoja na minecart"
+  },
+  "app.settings.game-options.setting.save-chat-drafts.label": {
+    "message": "Hifadhi rasimu za soga"
+  },
+  "app.settings.game-options.setting.screen-effects.label": {
+    "message": "Athari za skrini"
+  },
+  "app.settings.game-options.setting.secure-chat-only.label": {
+    "message": "Onyesha soga salama tu"
+  },
+  "app.settings.game-options.setting.sensitivity.label": {
+    "message": "Unyeti wa kipanya"
+  },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "Muundo wa seva"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "Shiriki uwepo"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "Umbali ambao viumbe husasishwa na vitalu na vimimba kufanya kazi."
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "Umbali wa uigaji"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "Snooper"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "Dirisha la kukimbia"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "Onyesha maneno ya sauti zinazochezwa kwenye mchezo."
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "Maneno ya chini"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "Uwazi wa mandharinyuma ya maandishi"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "Kichujio cha muundo"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "Washa au zima shambulio"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "Bonyeza mara moja ili kubaki umetulia."
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "Washa au zima kutulia"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "Bonyeza mara moja ili kubaki unakimbia."
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "Washa au zima kukimbia"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "Washa au zima matumizi"
+  },
+  "app.settings.game-options.setting.touchscreen.label": {
+    "message": "Hali ya skrini ya kugusa"
+  },
+  "app.settings.game-options.setting.ui-volume.label": {
+    "message": "UI"
+  },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "Urefu wa soga isiyolenga"
+  },
+  "app.settings.game-options.setting.use-vbo.label": {
+    "message": "Tumia VBOs"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "Ongeza mwendo wa kutetemeka kwa kamera unapotembea."
+  },
+  "app.settings.game-options.setting.view-bobbing.label": {
+    "message": "Kutetemeka kwa mwonekano"
+  },
+  "app.settings.game-options.setting.vignette.label": {
+    "message": "Vignette"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "Sauti na hotuba"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "Weka kikomo cha kasi ya fremu kulingana na kasi ya kuonyesha ili kuzuia mpasuko wa skrini."
+  },
+  "app.settings.game-options.setting.vsync.label": {
+    "message": "VSync"
+  },
+  "app.settings.game-options.setting.weather-radius.label": {
+    "message": "Kipenyo cha hali ya hewa"
+  },
+  "app.settings.game-options.setting.weather-volume.label": {
+    "message": "Hali ya hewa"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "Mpangilio huu ulibadilishwa mahali pengine. Uangalie na ujaribu tena."
+  },
+  "app.settings.game-options.validation.invalid-value": {
+    "message": "Chagua thamani halali."
+  },
+  "app.settings.game-options.validation.missing-value": {
+    "message": "Chagua thamani kwanza."
+  },
+  "app.settings.game-options.validation.no-compatible-instances": {
+    "message": "Baadhi ya instansi haziwezi kutumia mpangilio huu"
+  },
+  "app.settings.java-installations.location.title": {
+    "message": "Eneo la Java {version, number}"
+  },
+  "app.settings.operating-system.macos": {
+    "message": "macOS"
+  },
+  "app.settings.privacy.no-data-collection": {
+    "message": "Hatusanyanyi data yoyote. Hatuna seva inayoweza kuisanya."
+  },
+  "app.settings.resource-management.always-show-copy-details.description": {
+    "message": "Onyesha kitendo cha Angalia maelezo wakati usakinishaji unasubiri au unaendelea. Kitendo hiki kinapatikana kila wakati kwa usakinishaji ulioshindwa au uliokatizwa."
+  },
+  "app.settings.resource-management.always-show-copy-details.title": {
+    "message": "Onyesha maelezo kila wakati"
+  },
+  "app.settings.resource-management.app-cache.confirm.description": {
+    "message": "Programu inaweza kupakia polepole hadi kache itakapojengwa upya."
+  },
+  "app.settings.resource-management.app-cache.description": {
+    "message": "Futa data iliyohifadhiwa kwenye kache na uipakue tena kutoka Panda Minecraft Launcher. Programu inaweza kupakia polepole hadi kache itakapojengwa upya."
+  },
+  "app.settings.resource-management.app-cache.title": {
+    "message": "Kache ya programu"
+  },
+  "app.settings.resource-management.app-database-backups.description": {
+    "message": "Nakala rudufu za data muhimu ya programu zimehifadhiwa hapa iwapo utahitaji kuzirejesha baadaye."
+  },
+  "app.settings.resource-management.app-database-backups.open-folder": {
+    "message": "Fungua folda ya nakala rudufu"
+  },
+  "app.settings.resource-management.app-database-backups.title": {
+    "message": "Nakala rudufu za hifadhidata ya programu"
+  },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "Ghairi kuhamisha"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "Badilisha saraka"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "Rudi kwenye chaguo-msingi"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "Mahali Panda Minecraft Launcher inapohifadhi instansi na faili zingine."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "Hutauweza kutumia Panda Minecraft Launcher tunapohamisha data yako. Hii inaweza kuchukua muda."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "Faili zako zote zitahamishwa"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "Chagua folda"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "Ya sasa"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "Chagua folda badala ya juu ya diski, ili faili zako zisichanganyike na vitu vingine vilivyoko juu yake."
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "Badilisha saraka ya programu"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "Funga instansi zote zinazoendelea kabla ya kubadilisha saraka ya programu."
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "Chaguo zaidi za uhamisho"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "Hamisha na uanzishe upya"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "Hamisha wakati ujao wa kuzindua"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "Folda mpya haiwezi kuwa ndani ya saraka ya sasa ya programu, wala kuizunguka."
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "Mpya"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "Chagua saraka mpya ya programu"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "Chaguo zaidi za saraka"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "Hamisha na uanzishe upya sasa"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "Fungua folda"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "Fungua katika File Explorer"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "Fungua katika Finder"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "Njia ya saraka ya programu imenakiliwa kwenye ubao wako wa kunakilia."
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "Njia imenakiliwa"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "Imeshindwa kunakili njia"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "Saraka ya programu itahamia {path} wakati Panda Minecraft Launcher itakapofunguliwa tena."
+  },
+  "app.settings.resource-management.app-directory.title": {
+    "message": "Saraka ya programu"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "Safirisha logu za programu na data ya utambuzi katika faili ya ZIP ili kushiriki na usaidizi wa Panda Minecraft Launcher."
+  },
+  "app.settings.resource-management.debug-info.export": {
+    "message": "Safirisha maelezo ya utatuzi"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "Unahitaji usaidizi? Fungua tatizo la usaidizi."
+  },
+  "app.settings.resource-management.debug-info.title": {
+    "message": "Maelezo ya utatuzi"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.description": {
+    "message": "Idadi ya faili ambazo programu inaweza kupakua kwa wakati mmoja. Ipunguze ikiwa upakuaji si wa kuaminika kwenye muunganisho wako. Inahitaji kuanzisha programu upya."
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.title": {
+    "message": "Upakuaji wa juu kwa wakati mmoja"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.description": {
+    "message": "Idadi ya faili ambazo programu inaweza kuandika kwenye diski kwa wakati mmoja. Ipunguze ikiwa unakutana mara kwa mara na hitilafu za I/O. Inahitaji kuanzisha programu upya."
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.title": {
+    "message": "Uandishi wa juu kwa wakati mmoja"
+  },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "Hifadhi hadi kiasi hiki cha maudhui yasiyotumika kwa usakinishaji wa baadaye. Kuhifadhi zaidi kunaweza kuokoa muda wa upakuaji."
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "Hifadhi upakuaji usiotumika"
+  },
+  "app.settings.resource-management.store.cache-limit.unit": {
+    "message": "GiB"
+  },
+  "app.settings.resource-management.store.calculating": {
+    "message": "Inakokotoa"
+  },
+  "app.settings.resource-management.store.clear": {
+    "message": "Futa yasiyotumika"
+  },
+  "app.settings.resource-management.store.clear.description": {
+    "message": "Futa maudhui yaliyopakuliwa ambayo hayatumiwa"
+  },
+  "app.settings.resource-management.store.cleared": {
+    "message": "Kumeachiliwa {size} ya nafasi ya diski."
+  },
+  "app.settings.resource-management.store.clearing": {
+    "message": "Inafuta…"
+  },
+  "app.settings.resource-management.store.description": {
+    "message": "Okoa nafasi kwa kutumia tena usakinishaji wa mchezo, mods na vifurushi kwenye instansi zako."
+  },
+  "app.settings.resource-management.store.nothing-to-clear": {
+    "message": "Hakuna maudhui yasiyotumika ya kufuta."
+  },
+  "app.settings.resource-management.store.shared.label": {
+    "message": "Yanayoshirikiwa"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "Hifadhi ya maudhui"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} imehifadhiwa"
+  },
+  "app.settings.resource-management.store.unique.label": {
+    "message": "Ya kipekee"
+  },
+  "app.settings.resource-management.store.unused.label": {
+    "message": "Yaliyotengwa"
+  },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "Chaguo-msingi za instansi"
+  },
+  "app.settings.sidebar.label.system": {
+    "message": "Mfumo"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "Chagua instansi ya kunakilia historia ya amri. Historia hii hutumiwa tu kwa usawazishaji wa awali, na unaweza kuihariri kutoka kwa instansi yoyote baadaye."
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "Chagua chanzo cha historia ya amri"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "Chagua instansi ya kunakilia Hotbar zako za ubunifu zilizohifadhiwa. Hotbar hizi hutumiwa tu kwa usawazishaji wa awali, na unaweza kuzihariri kutoka kwa instansi yoyote baadaye."
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "Chagua chanzo cha Hotbar za ubunifu"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "Chagua chanzo cha vifurushi vya data"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "Chagua instansi ya kunakilia mipangilio ya mchezo. Mipangilio hii hutumiwa tu kwa usawazishaji wa awali, na unaweza kuihariri kutoka kwa instansi yoyote baadaye."
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "Chagua chanzo cha mipangilio ya mchezo"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "Huwezi kuchagua instansi hii kama chanzo cha usawazishaji"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "Imeshindwa kupakia vyanzo vya usawazishaji. Tafadhali jaribu tena."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "Chagua instansi ya kunakilia seva za wachezaji wengi. Seva hizi hutumiwa tu kwa usawazishaji wa awali, na unaweza kuzihariri kutoka kwa instansi yoyote baadaye."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "Chagua chanzo cha seva za wachezaji wengi"
+  },
+  "app.settings.synced-options.choose-sync-source.no-instances-found": {
+    "message": "Hakuna instansi zilizopatikana"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "Chagua chanzo cha vifurushi vya rasilimali"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "Jaribu tena"
+  },
+  "app.settings.synced-options.choose-sync-source.search-placeholder": {
+    "message": "Tafuta instansi"
+  },
+  "app.settings.synced-options.choose-sync-source.sync": {
+    "message": "Sawazisha"
+  },
+  "app.settings.synced-options.command-history": {
+    "message": "Sawazisha historia ya amri"
+  },
+  "app.settings.synced-options.command-history.description": {
+    "message": "Tumia historia ya amri sawa kwenye instansi zako zote."
+  },
+  "app.settings.synced-options.command-history.editor-title": {
+    "message": "Hariri historia ya amri"
+  },
+  "app.settings.synced-options.creative-hotbars": {
+    "message": "Sawazisha Hotbar za ubunifu zilizohifadhiwa"
+  },
+  "app.settings.synced-options.creative-hotbars.description": {
+    "message": "Tumia Hotbar zako za ubunifu zilizohifadhiwa sawa kwenye instansi zako zote."
+  },
+  "app.settings.synced-options.data-packs": {
+    "message": "Sawazisha vifurushi vya data"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "Tumia vifurushi vya data sawa kwenye instansi zako zote"
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "Hujasawazisha vifurushi vyovyote vya data bado"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "Ongeza instansi kabla ya kuhariri data iliyosawazishwa."
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "Chagua chanzo cha usawazishaji kabla ya kuhariri mpangilio huu."
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "Sawazisha chaguo za mchezo"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "Hariri mipangilio ya mchezo"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "Tumepakia mipangilio ya hivi karibuni. Angalia mabadiliko yako, kisha uhifadhi tena."
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "Mipangilio hii ilibadilika mahali pengine"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "Mipangilio iliyoongezwa na mods itaonekana hapa Panda Minecraft Launcher itakapoipata kwenye mojawapo ya instansi zako."
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "Tumia chaguo za mchezo sawa kwenye instansi zako zote."
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "Ondoa usawazishaji wote"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "Washa usawazishaji wa mipangilio ya mchezo kabla ya kuchagua mipangilio ya kibinafsi."
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "Hakuna mipangilio inayolingana na utafutaji au kichujio chako."
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "Sawazisha zote"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "Imeshindwa kupakia mipangilio yako ya mchezo."
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "Inapakia mipangilio..."
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "Huna chaguo zozote za kuhariri bado"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "Haisawazishwi"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "Jaribu tena"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "Hifadhi mipangilio"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "Tafuta mipangilio..."
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "Chaguo zilizosawazishwa hutumika kwa kila instansi na huzidi thamani zilizojumuishwa kwenye modpack."
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "Sawazisha {setting} kwenye instansi zote"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "Sawazisha mipangilio ya mchezo"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "Imesawazishwa kwenye instansi zote"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "Mipangilio ya mchezo"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "Una mabadiliko ambayo hayajahifadhiwa."
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "Acha kusawazisha {setting} kwenye instansi zote"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "Tofauti kati ya instansi"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "Zima"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "Washa"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "Chagua thamani"
+  },
+  "app.settings.synced-options.multiplayer-servers": {
+    "message": "Sawazisha seva za wachezaji wengi"
+  },
+  "app.settings.synced-options.multiplayer-servers.address": {
+    "message": "Anwani ya seva"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "Nakili anwani"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
+  },
+  "app.settings.synced-options.multiplayer-servers.description": {
+    "message": "Tumia seva za wachezaji wengi sawa kwenye instansi zako zote."
+  },
+  "app.settings.synced-options.multiplayer-servers.editor-title": {
+    "message": "Hariri seva zilizosawazishwa"
+  },
+  "app.settings.synced-options.multiplayer-servers.empty": {
+    "message": "Hakuna seva zilizoongezwa na mtumiaji zilizosawazishwa kwa sasa."
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "Nje ya mtandao"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "Mtandaoni"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "Chaguo zaidi za seva"
+  },
+  "app.settings.synced-options.multiplayer-servers.name": {
+    "message": "Jina la seva"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "Hakuna seva zilizosawazishwa zinazolingana na utafutaji au vichujio vyako."
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "Hujasawazisha seva zozote bado"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "{count, number} mtandaoni"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "Tafuta {count, number} {count, plural, one {synced server} other {synced servers}}..."
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "Hali"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "Washa usawazishaji kabla ya kuhariri vifurushi vinavyoshirikiwa."
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "Sawazisha vifurushi vya rasilimali"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "Tumia vifurushi vya rasilimali sawa kwenye instansi zako zote."
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "Hujasawazisha vifurushi vyovyote vya rasilimali bado"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "Muonekano"
+  },
+  "app.settings.tabs.behavior": {
+    "message": "Tabia"
+  },
+  "app.settings.tabs.features": {
+    "message": "Vipengele"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java na kumbukumbu"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "Usakinishaji wa Java"
+  },
+  "app.settings.tabs.language": {
+    "message": "Lugha"
+  },
+  "app.settings.tabs.launch-hooks": {
+    "message": "Vitendo vya kuzindua"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "Faragha"
+  },
+  "app.settings.tabs.resources": {
+    "message": "Rasilimali"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "Usawazishaji"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "Utatuzi"
+  },
+  "app.settings.tabs.window": {
+    "message": "Dirisha"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "Futa kache"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "Futa kache ya programu?"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "Inaandaa sasisho…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "Sasisho limetumwa"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "Inatuma sasisho…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "Futa instansi"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "Vitendo zaidi vya instansi"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "Sababu"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "Instansi inayoshirikiwa imefungwa"
+  },
+  "app.skins.add-button": {
+    "message": "Ongeza skin"
+  },
+  "app.skins.add-button.drag-and-drop": {
+    "message": "Buruta na uachie"
+  },
+  "app.skins.apply-button": {
+    "message": "Tumika"
+  },
+  "app.skins.delete-button": {
+    "message": "Futa skin"
+  },
+  "app.skins.delete-modal.description": {
+    "message": "Hii itafuta skin iliyochaguliwa kabisa. Kitendo hiki hakiwezi kutenduliwa."
+  },
+  "app.skins.delete-modal.title": {
+    "message": "Una uhakika unataka kufuta skin hii?"
+  },
+  "app.skins.demo.apply-tooltip": {
+    "message": "Ingia ili kutumia skin."
+  },
+  "app.skins.dropped-file-error.text": {
+    "message": "Imeshindwa kusoma faili iliyoachwa."
+  },
+  "app.skins.dropped-file-error.title": {
+    "message": "Hitilafu wakati wa kusindika faili"
+  },
+  "app.skins.ears-feature-notice": {
+    "message": "Skin hii inatumia vipengele kutoka kwa mod ya {ears}"
+  },
+  "app.skins.edit-button": {
+    "message": "Hariri skin"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "Badilisha skin na kanzu ya akaunti hii kwenye ely.by. Mipangilio hii ni ya kusoma tu kwenye launcher."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "Skin zinasimamiwa na Ely.by"
+  },
+  "app.skins.modal.add-skin-button": {
+    "message": "Ongeza skin"
+  },
+  "app.skins.modal.add-title": {
+    "message": "Inaongeza skin"
+  },
+  "app.skins.modal.arm-style-section": {
+    "message": "Mtindo wa mkono"
+  },
+  "app.skins.modal.arm-style-slim": {
+    "message": "Mwembamba"
+  },
+  "app.skins.modal.arm-style-wide": {
+    "message": "Mpana"
+  },
+  "app.skins.modal.cape-fallback-name": {
+    "message": "Kanzu"
+  },
+  "app.skins.modal.cape-section": {
+    "message": "Kanzu"
+  },
+  "app.skins.modal.demo-save-tooltip": {
+    "message": "Ingia ili kuhifadhi skin."
+  },
+  "app.skins.modal.edit-title": {
+    "message": "Inahariri skin"
+  },
+  "app.skins.modal.make-edit-first-tooltip": {
+    "message": "Fanya mabadiliko kwenye skin kwanza!"
+  },
+  "app.skins.modal.no-cape-tooltip": {
+    "message": "Hakuna kanzu"
+  },
+  "app.skins.modal.none-cape-option": {
+    "message": "Hakuna"
+  },
+  "app.skins.modal.replace-texture-button": {
+    "message": "Badilisha muundo"
+  },
+  "app.skins.modal.save-skin-button": {
+    "message": "Hifadhi skin"
+  },
+  "app.skins.modal.saving-tooltip": {
+    "message": "Inahifadhi..."
+  },
+  "app.skins.modal.texture-section": {
+    "message": "Muundo"
+  },
+  "app.skins.modal.upload-skin-first-tooltip": {
+    "message": "Pakia skin kwanza!"
+  },
+  "app.skins.preview.edit-button": {
+    "message": "Hariri skin"
+  },
+  "app.skins.previewing-badge": {
+    "message": "Inaonyeshwa"
+  },
+  "app.skins.rate-limit.text": {
+    "message": "Unabadilisha skin mara nyingi sana. Seva za Mojang zimezuia maombi zaidi kwa muda. Tafadhali subiri kidogo kabla ya kujaribu tena."
+  },
+  "app.skins.rate-limit.title": {
+    "message": "Punguza kasi!"
+  },
+  "app.skins.reorder-error.text": {
+    "message": "Mpangilio wa skin zako haukuweza kuhifadhiwa."
+  },
+  "app.skins.reorder-error.title": {
+    "message": "Imeshindwa kupangia upya skin"
+  },
+  "app.skins.section.builders-and-biomes": {
+    "message": "Builders & Biomes"
+  },
+  "app.skins.section.chaos-cubed": {
+    "message": "Chaos Cubed"
+  },
+  "app.skins.section.chase-the-skies": {
+    "message": "Chase the Skies"
+  },
+  "app.skins.section.default-skins": {
+    "message": "Skin chaguo-msingi"
+  },
+  "app.skins.section.dungeons-hero": {
+    "message": "Dungeons Hero"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "Dungeons II Hero"
+  },
+  "app.skins.section.minecon-earth-2017": {
+    "message": "MINECON Earth 2017"
+  },
+  "app.skins.section.modrinth": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.skins.section.modrinth-pride": {
+    "message": "Panda Minecraft Launcher Pride"
+  },
+  "app.skins.section.modrinth-pride.tooltip": {
+    "message": "Ulipokeza skin hizi kwa kuchangia kampeni ya Panda Minecraft Launcher Pride wakati wa Mwezi wa Pride."
+  },
+  "app.skins.section.mounts-of-mayhem": {
+    "message": "Mounts of Mayhem"
+  },
+  "app.skins.section.saved-skins": {
+    "message": "Skin zilizohifadhiwa"
+  },
+  "app.skins.section.striding-hero": {
+    "message": "Striding Hero"
+  },
+  "app.skins.section.the-copper-age": {
+    "message": "The Copper Age"
+  },
+  "app.skins.section.the-garden-awakens": {
+    "message": "The Garden Awakens"
+  },
+  "app.skins.section.tiny-takeover": {
+    "message": "Tiny Takeover"
+  },
+  "app.skins.section.wilderness-bound": {
+    "message": "Wilderness Bound"
+  },
+  "app.skins.toggle-ears-features-off": {
+    "message": "Zima"
+  },
+  "app.skins.toggle-ears-features-on": {
+    "message": "Washa"
+  },
+  "app.splash.moving-app-directory": {
+    "message": "Inahamisha saraka ya programu..."
+  },
+  "app.survey.body": {
+    "message": "Tafadhali jibu maswali machache kuhusu uzoefu wako na Panda Minecraft Launcher?"
+  },
+  "app.survey.footer": {
+    "message": "Maoni haya yatafikia timu ya Panda Minecraft Launcher moja kwa moja na yatasaidia kuongoza masasisho ya baadaye!"
+  },
+  "app.survey.no-thanks": {
+    "message": "Hapana, asante"
+  },
+  "app.survey.take-survey": {
+    "message": "Fanya utafiti"
+  },
+  "app.survey.title": {
+    "message": "Habari, mtumiaji wa Panda Minecraft Launcher!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "Chagua instansi ya kunakilia vifurushi vyako vya data. Vifurushi hivi hutumiwa tu kwa usawazishaji wa awali, na unaweza kuvihariri kutoka kwa instansi yoyote baadaye."
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "Chagua instansi ya kunakilia vifurushi vyako vya rasilimali. Vifurushi hivi hutumiwa tu kwa usawazishaji wa awali, na unaweza kuvihariri kutoka kwa instansi yoyote baadaye."
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "Kizima kwenye instansi zote zilizosawazishwa, au kwenye hii tu. Kuzima hapa tu kutawezesha kubadilisha kwenye instansi hii."
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "Zima kila mahali"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "Zima maudhui haya kwenye instansi zote zilizosawazishwa."
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "Zima hapa"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "Zima maudhui?"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "Kiwezeshe kwenye instansi zote zilizosawazishwa, au kwenye hii tu. Kuwezesha hapa tu kutawezesha kubadilisha kwenye instansi hii."
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "Washa kila mahali"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "Washa maudhui haya kwenye instansi zote zilizosawazishwa."
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "Washa hapa"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "Washa maudhui?"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "Futa kila mahali"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "Futa hapa"
+  },
+  "app.synced-content.delete.description": {
+    "message": "Kufuta maudhui haya kutafuta kwenye instansi zako zote"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "Maudhui yaliyochaguliwa ambayo hayajasawazishwa yatafutwa kwenye instansi hii tu."
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "Unaweza kuiondoa kwenye instansi hii tu au kwenye zote zilizosawazishwa. Kuiondoa hapa tu kutawezesha kubadilisha, na instansi hii haitapokea tena mabadiliko yaliyosawazishwa ya aina hizi za maudhui."
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "Unaweza kuondoa {count, plural, one {it} other {them}} kwenye instansi hii tu au kwenye zote zilizosawazishwa. Kuondoa {count, plural, one {it} other {them}} kwenye instansi hii tu kutawezesha kubadilisha, na instansi hii haitapokea tena mabadiliko ya vifurushi vya rasilimali yaliyosawazishwa."
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "Instansi hii itaweka nakala yake yenyewe. Je, unataka kuweka maudhui haya yamesawazishwa kwenye instansi nyingine, au kuyatoa kwako?"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "Weka"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "Ondoa"
+  },
+  "app.synced-content.desync.title": {
+    "message": "Ondoa usawazishaji wa maudhui"
+  },
+  "app.synced-content.warning.title": {
+    "message": "Maudhui haya yamesawazishwa"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "Vifurushi vya data vilivyosawazishwa"
+  },
+  "app.synced-packs.empty": {
+    "message": "Ongeza vifurushi kutoka ukurasa wa maudhui wa instansi ili kuanza kusawazisha."
+  },
+  "app.synced-packs.load-failed": {
+    "message": "Vifurushi havikuweza kupakiwa. Jaribu kupakia upya."
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "Vifurushi vya rasilimali vilivyosawazishwa"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Minecraft"
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "Panda Minecraft Launcher v{version} imepakuliwa. Ipakie upya ili kusasisha sasa, au kiotomatiki unapofunga Panda Minecraft Launcher."
+  },
+  "app.update-popup.body.linux": {
+    "message": "Panda Minecraft Launcher v{version} inapatikana. Tumia kidhibiti cha vifurushi kusasisha ili kupata vipengele na marekebisho ya hivi karibuni!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Panda Minecraft Launcher v{version} inapatikana sasa! Kwa kuwa uko kwenye mtandao unaopimwa, hatukuipakua kiotomatiki."
+  },
+  "app.update-popup.changelog": {
+    "message": "Rekodi ya mabadiliko"
+  },
+  "app.update-popup.download": {
+    "message": "Pakua ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "Upakuaji umekamilika"
+  },
+  "app.update-popup.reload": {
+    "message": "Pakie upya ili kusasisha"
+  },
+  "app.update-popup.title": {
+    "message": "Sasisho linapatikana"
+  },
+  "app.update.complete-toast.text": {
+    "message": "Bonyeza hapa ili kuona rekodi ya mabadiliko."
+  },
+  "app.update.complete-toast.title": {
+    "message": "Toleo {version} limesakinishwa kwa mafanikio!"
+  },
+  "app.update.download-error.missing-version": {
+    "message": "Imeshindwa kupakua sasisho: hakuna toleo linalopatikana"
+  },
+  "app.user.project.install-to-instance": {
+    "message": "Sakinisha kwenye instansi"
+  },
+  "app.welcome-screen.create-instance": {
+    "message": "Unda instansi"
+  },
+  "app.welcome-screen.description": {
+    "message": "Uko tayari kuanza kucheza?"
+  },
+  "app.welcome-screen.import-from-launcher": {
+    "message": "Ingiza kutoka kwa launcher"
+  },
+  "app.welcome-screen.import-prompt": {
+    "message": "Unakimbia launcher nyingine?"
+  },
+  "app.welcome-screen.more-options": {
+    "message": "Chaguo zaidi"
+  },
+  "app.welcome-screen.quick-create-hint": {
+    "message": "Bonyeza <shortcut>N</shortcut> ili kuunda instansi haraka"
+  },
+  "app.welcome-screen.skip": {
+    "message": "Ruka"
+  },
+  "app.welcome-screen.title": {
+    "message": "Karibu kwenye Panda Minecraft Launcher"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Chagua chaguo"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Toleo halilingani {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Haijachezwa bado"
+  },
+  "app.world.world-item.offline": {
+    "message": "Nje ya mtandao"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} mtandaoni"
+  },
+  "content.shared-instance.change-version-body": {
+    "message": "Kubadilisha toleo hubadilisha tu nakala yako ya ndani. Masasisho ya baadaye ya instansi inayoshirikiwa yanaweza kuirudisha au kuibadilisha tena."
+  },
+  "content.shared-instance.delete-bulk-body": {
+    "message": "Baadhi ya miradi iliyochaguliwa ni sehemu ya instansi inayoshirikiwa. Kuyafuta hubadilisha tu nakala yako ya ndani, na masasisho ya baadaye ya instansi inayoshirikiwa yanaweza kuyarudisha au kuibadilisha tena."
+  },
+  "content.shared-instance.delete-button": {
+    "message": "Futa hata hivyo"
+  },
+  "content.shared-instance.delete-many-button": {
+    "message": "Futa {count, number} miradi hata hivyo"
+  },
+  "content.shared-instance.delete-single-body": {
+    "message": "Kuyafuta hubadilisha tu nakala yako ya ndani. Masasisho ya baadaye ya instansi inayoshirikiwa yanaweza kuirudisha au kuibadilisha tena."
+  },
+  "content.shared-instance.disable-bulk-body": {
+    "message": "Baadhi ya miradi iliyochaguliwa ni sehemu ya instansi inayoshirikiwa. Kuyazima hubadilisha tu nakala yako ya ndani, na masasisho ya baadaye ya instansi inayoshirikiwa yanaweza kuyawasha tena, kuyarudisha, au kuibadilisha tena."
+  },
+  "content.shared-instance.disable-button": {
+    "message": "Zima hata hivyo"
+  },
+  "content.shared-instance.disable-many-button": {
+    "message": "Zima {count, number} miradi hata hivyo"
+  },
+  "content.shared-instance.disable-single-body": {
+    "message": "Kuyazima hubadilisha tu nakala yako ya ndani. Masasisho ya baadaye ya instansi inayoshirikiwa yanaweza kuyawasha tena, kuirudisha, au kuibadilisha tena."
+  },
+  "content.shared-instance.unlink-body": {
+    "message": "Kuondoa uhusiano hubadilisha tu nakala yako ya ndani. Masasisho ya baadaye ya instansi inayoshirikiwa yanaweza kuirudisha au kuibadilisha tena."
+  },
+  "content.shared-instance.warning-header": {
+    "message": "Hii ni sehemu ya instansi inayoshirikiwa"
+  },
+  "friends.action.add-friend": {
+    "message": "Ongeza rafiki"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} ombi la urafiki {count, plural, one {request} other {requests}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "Tuma ombi la urafiki"
+  },
+  "friends.add-friend.title": {
+    "message": "Inaongeza rafiki"
+  },
+  "friends.add-friend.username.description": {
+    "message": "Linaweza kutofautiana na jina lao la mtumiaji la Minecraft!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "Ingiza jina la mtumiaji la Panda Minecraft Launcher..."
+  },
+  "friends.add-friend.username.title": {
+    "message": "Je, jina la mtumiaji la rafiki yako kwenye Panda Minecraft Launcher ni nani?"
+  },
+  "friends.add-friends-to-share": {
+    "message": "<link>Ongeza marafiki</link> ili kuona wanacheza nini!"
+  },
+  "friends.friend.actions.label": {
+    "message": "Vitendo vya rafiki"
+  },
+  "friends.friend.cancel-request": {
+    "message": "Ghairi ombi"
+  },
+  "friends.friend.remove-friend": {
+    "message": "Ondoa rafiki"
+  },
+  "friends.friend.request-sent": {
+    "message": "Ombi la urafiki limetumwa"
+  },
+  "friends.friend.view-profile": {
+    "message": "Tazama wasifu"
+  },
+  "friends.heading": {
+    "message": "Marafiki"
+  },
+  "friends.heading.active": {
+    "message": "Wanaofanya kazi"
+  },
+  "friends.heading.offline": {
+    "message": "Nje ya mtandao"
+  },
+  "friends.heading.online": {
+    "message": "Mtandaoni"
+  },
+  "friends.heading.pending": {
+    "message": "Wanasubiri"
+  },
+  "friends.no-friends-match": {
+    "message": "Hakuna marafiki wanaolingana na ''{query}''"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "Tafuta marafiki..."
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "<link>Ingia kwenye akaunti ya Panda Minecraft Launcher</link> ili kuongeza marafiki na kuona wanacheza nini!"
+  },
+  "hosting.play.account-changed": {
+    "message": "Akaunti yako ya Panda Minecraft Launcher imebadilika. Bonyeza Cheza seva tena ili kuendelea."
+  },
+  "hosting.play.no-address": {
+    "message": "Seva hii bado haina anwani ya muunganisho."
+  },
+  "hosting.play.not-ready": {
+    "message": "Instansi hii haipatikani kwa kuzinduliwa. Angalia hali ya usakinishaji wake kwenye maktaba yako."
+  },
+  "hosting.play.update-description": {
+    "message": "Sasisha instansi hii hadi maudhui ya hivi karibuni yaliyoshirikiwa ya seva kabla ya kujiunga."
+  },
+  "hosting.play.update-to-play": {
+    "message": "Sasisha ili kucheza"
+  },
+  "hosting.play.world-changed": {
+    "message": "Ulimwengu huu hauendi kazi tena au haujashirikiwa. Fungua kidirisha cha seva na ubonyeze Cheza seva tena."
+  },
+  "installation-settings.advanced.title": {
+    "message": "Hali ya juu"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "Unganisha tena instansi inayoshirikiwa"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "Unganisha tena instansi hii kwenye instansi inayoshirikiwa ambayo ilitenganishwa nayo, kwa kutumia kiungo cha mwaliko au kitambulisho."
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "Instansi yako \"{name}\" tayari imeunganishwa kwenye instansi hii inayoshirikiwa."
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "Instansi hii haiwezi kuunganishwa tena"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "Instansi hii itakuwa chanzo cha instansi inayoshirikiwa tena. Wanachama watapata mabadiliko yako unapotuma sasisho."
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "Unganisha tena instansi hii kwenye instansi inayoshirikiwa unayomiliki."
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "Tafuta instansi inayoshirikiwa"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "Unganisha tena instansi inayoshirikiwa"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "Kiungo cha mwaliko au kitambulisho cha instansi inayoshirikiwa"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "Instansi hii hutumia {localLoader} {localGameVersion}, lakini instansi inayoshirikiwa hutumia {loader} {gameVersion}. Uchapishaji wako wa kwanza utabadilisha instansi inayoshirikiwa ili ilingane na hii."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "Toleo la mchezo au loader tofauti"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "Mmiliki pekee ndiye anayeweza kuunganisha tena instansi inayoshirikiwa. Ili kupokea masasisho yake kama mwanachama, isakinishe tena kutoka kwenye maktaba yako."
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "Unganisha tena"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "Instansi hii inayoshirikiwa inasimamiwa na seva, kwa hiyo haiwezi kuunganishwa tena."
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · Toleo {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "Unganisha tena instansi inayoshirikiwa"
+  },
+  "installation-settings.shared-instance.linked-title": {
+    "message": "Instansi inayoshirikiwa iliyounganishwa"
+  },
+  "installation-settings.shared-instance.unlink-button": {
+    "message": "Tenganisha instansi inayoshirikiwa"
+  },
+  "installation-settings.shared-instance.unlink-description": {
+    "message": "Tenganisha instansi hii ya ndani kutoka kwa masasisho yajayo yaliyoshirikiwa."
+  },
+  "installation-settings.shared-instance.unlinking-button": {
+    "message": "Inatenganisha..."
+  },
+  "installation-settings.shared-instance.unpublish-description": {
+    "message": "Ondoa instansi hii inayoshirikiwa kwenye Panda Minecraft Launcher na uache kutuma masasisho kwa wanaoitumia. Instansi yako ya ndani haitaathiriwa."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-body": {
+    "message": "Hii inaathiri tu instansi yako ya ndani. Maudhui yako yaliyosakinishwa yatabaki kwenye kifaa hiki, na instansi inayoshirikiwa na watu wengine wanaoitumia hawatathiriwa."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-header": {
+    "message": "Inatenganisha instansi inayoshirikiwa"
+  },
+  "installation-settings.unlink-shared-instance.modal.header": {
+    "message": "Tenganisha instansi inayoshirikiwa"
+  },
+  "installation-settings.unpublish-shared-instance.modal.admonition-body": {
+    "message": "Hii inafuta instansi inayoshirikiwa kwenye seva za Panda Minecraft Launcher. Watu wanaoitumia kwenye Panda Minecraft Launcher wataacha kupokea masasisho, lakini instansi yako ya ndani na maudhui yake vitabaki kwenye kifaa hiki."
+  },
+  "instance.action.create-shortcut": {
+    "message": "Unda njia ya mkato"
+  },
+  "instance.action.export-modpack": {
+    "message": "Safirisha modpack"
+  },
+  "instance.action.launch-instance": {
+    "message": "Zindua instansi"
+  },
+  "instance.action.more-actions": {
+    "message": "Chaguo zaidi"
+  },
+  "instance.action.open-folder": {
+    "message": "Fungua folda"
+  },
+  "instance.action.repair": {
+    "message": "Rekebisha"
+  },
+  "instance.action.settings": {
+    "message": "Mipangilio ya instansi"
+  },
+  "instance.action.starting": {
+    "message": "Inaanzisha..."
+  },
+  "instance.action.stopping": {
+    "message": "Inasimamisha..."
+  },
+  "instance.add-server.add-and-play": {
+    "message": "Ongeza na ucheze"
+  },
+  "instance.add-server.add-server": {
+    "message": "Ongeza seva"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "Imezimwa"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "Imewezeshwa"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "Uliza"
+  },
+  "instance.add-server.title": {
+    "message": "Ongeza seva"
+  },
+  "instance.edit-server.title": {
+    "message": "Hariri seva"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "Ficha kwenye ukurasa wa Nyumbani"
+  },
+  "instance.edit-world.name": {
+    "message": "Jina"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "Ulimwengu wa Minecraft"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "Weka upya aikoni"
+  },
+  "instance.edit-world.title": {
+    "message": "Hariri ulimwengu"
+  },
+  "instance.files.adding-files": {
+    "message": "Inaongeza faili ({completed}/{total})"
+  },
+  "instance.files.managed-content-read-only": {
+    "message": "Simamia maudhui yako yaliyosakinishwa kupitia kichupo cha Maudhui"
+  },
+  "instance.files.save-as": {
+    "message": "Hifadhi kama..."
+  },
+  "instance.last-played": {
+    "message": "Iliyochezwa mwisho"
+  },
+  "instance.locked.delete-button": {
+    "message": "Futa instansi"
+  },
+  "instance.locked.play-tooltip": {
+    "message": "Instansi hii imefungwa"
+  },
+  "instance.playtime.never-played": {
+    "message": "Haijawahi kuchezwa"
+  },
+  "instance.server-modal.address": {
+    "message": "Anwani"
+  },
+  "instance.server-modal.name": {
+    "message": "Jina"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "Seva ya Minecraft"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "Kifurushi cha rasilimali"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "Simamia mipangilio chaguo-msingi"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "Weka upya {setting} kwa chaguo-msingi"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "Weka upya kwa chaguo-msingi"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "Mchezo"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "Instansi"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "Zima kibadilisha hiki ili kuhariri data iliyosawazishwa."
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "Ondoa usawazishaji wa vifurushi vya data"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "Weka vifurushi vya data vya instansi hii tofauti na vilivyosawazishwa."
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "Usawazishaji wa vifurushi vya data umezimwa kwenye mipangilio ya programu."
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "Hariri vifurushi vilivyosawazishwa"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "Zima kibadilisha hiki ili kuhariri vifurushi vilivyosawazishwa. Vifurushi vinavyojitegemea vinaweza kusimamiwa kwenye kichupo cha Maudhui."
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "Ondoa usawazishaji wa vifurushi vya rasilimali"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "Weka vifurushi vya rasilimali vya instansi hii tofauti na vilivyosawazishwa."
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "Usawazishaji wa vifurushi vya rasilimali umezimwa kwenye mipangilio ya programu."
+  },
+  "instance.settings.tabs.behavior.description": {
+    "message": "Chagua vichupo vinavyoonekana kwenye instansi hii."
+  },
+  "instance.settings.tabs.behavior.files": {
+    "message": "Onyesha kichupo cha Faili"
+  },
+  "instance.settings.tabs.behavior.screenshots": {
+    "message": "Onyesha kichupo cha Picha za skrini"
+  },
+  "instance.settings.tabs.behavior.screenshots.required": {
+    "message": "Kichupo cha Picha za skrini hakiwezi kufichwa wakati ukurasa wa jumla wa Picha za skrini umezimwa."
+  },
+  "instance.settings.tabs.behavior.worlds": {
+    "message": "Onyesha kichupo cha Ulimwengu"
+  },
+  "instance.settings.tabs.general": {
+    "message": "Jumla"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "Futa instansi"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "Futa instansi"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "Hufuta instansi kabisa kwenye kifaa chako, ikijumuisha ulimwengu wako, usanidi, na maudhui yote yaliyosakinishwa. Kuwa mwangalifu, kwa kuwa ukishafuta instansi hakuna njia ya kuirejesha."
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "Inafuta..."
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "Nakili"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "Hauwezi kunakili wakati usakinishaji unaendelea."
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "Instansi zilizofungwa haziwezi kunakiliwa."
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "Nakili instansi"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "Huunda nakala ya instansi hii, ikijumuisha ulimwengu, usanidi, mods, n.k."
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "Hariri aikoni"
+  },
+  "instance.settings.tabs.general.edit-icon.create": {
+    "message": "Unda aikoni"
+  },
+  "instance.settings.tabs.general.edit-icon.edit-created": {
+    "message": "Hariri aikoni"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "Ondoa aikoni"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "Badilisha aikoni"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "Chagua aikoni"
+  },
+  "instance.settings.tabs.general.icon": {
+    "message": "Aikoni"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "Jina"
+  },
+  "instance.settings.tabs.general.update-channel": {
+    "message": "Kituo cha sasisho"
+  },
+  "instance.settings.tabs.general.update-channel.alpha": {
+    "message": "Alpha"
+  },
+  "instance.settings.tabs.general.update-channel.alpha.description": {
+    "message": "Matoleo ya Release, beta, na alpha yataonyeshwa kama sasisho zinazopatikana."
+  },
+  "instance.settings.tabs.general.update-channel.beta": {
+    "message": "Beta"
+  },
+  "instance.settings.tabs.general.update-channel.beta.description": {
+    "message": "Matoleo ya Release na beta yataonyeshwa kama sasisho zinazopatikana."
+  },
+  "instance.settings.tabs.general.update-channel.release": {
+    "message": "Release"
+  },
+  "instance.settings.tabs.general.update-channel.release.description": {
+    "message": "Matoleo ya Release tu yataonyeshwa kama sasisho zinazopatikana."
+  },
+  "instance.settings.tabs.general.update-channel.select": {
+    "message": "Chagua kituo cha sasisho"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "Instansi yako hutumia vitendo vya kuzindua chaguo-msingi isipokuwa ukibadilisha hapa."
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "Vitendo vya kuzindua"
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "Baada ya kufungwa"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "Huendeshwa baada ya mchezo kufungwa."
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "Ingiza amri ya baada ya kufungwa..."
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "Kabla ya kuzindua"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "Huendeshwa kabla ya instansi kuzinduliwa."
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "Ingiza amri ya kabla ya kuzindua..."
+  },
+  "instance.settings.tabs.hooks.variables.description": {
+    "message": "Vitendo huendeshwa kwenye saraka ya kazi ya instansi, na vigezo vifuatavyo:"
+  },
+  "instance.settings.tabs.hooks.variables.inst-dir.description": {
+    "message": "$INST_DIR: Njia kamili ya folda ya instansi"
+  },
+  "instance.settings.tabs.hooks.variables.inst-id.description": {
+    "message": "$INST_ID: Jina la folda ya instansi"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java-args.description": {
+    "message": "$INST_JAVA_ARGS: Hoja za JVM zinazotolewa kwa mchezo"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java.description": {
+    "message": "$INST_JAVA: Njia kamili ya faili inayotekeleza java"
+  },
+  "instance.settings.tabs.hooks.variables.inst-mc-dir.description": {
+    "message": "$INST_MC_DIR: Jina lingine la $INST_DIR"
+  },
+  "instance.settings.tabs.hooks.variables.inst-name.description": {
+    "message": "$INST_NAME: Jina la instansi"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "Kitendo cha kufunika"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "Amri ya kufunika kwa kuzindua Minecraft."
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "Ingiza amri ya kufunika..."
+  },
+  "instance.settings.tabs.installation": {
+    "message": "Usakinishaji"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "Toleo la {loader}"
+  },
+  "instance.settings.tabs.installation.locked": {
+    "message": "Mipangilio ya usakinishaji haipatikani wakati instansi hii imefungwa."
+  },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "Instansi yako hutumia mipangilio chaguo-msingi ya Java na kumbukumbu isipokuwa ukibadilisha hapa."
+  },
+  "instance.settings.tabs.java.enter-environment-variables": {
+    "message": "Ingiza vigezo vya mazingira..."
+  },
+  "instance.settings.tabs.java.enter-java-arguments": {
+    "message": "Ingiza hoja za Java..."
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "Vigezo vya mazingira"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "Vitendo"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Hoja za Java"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Usakinishaji wa Java"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "Ugawaji wa kumbukumbu"
+  },
+  "instance.settings.tabs.java.java-path-placeholder": {
+    "message": "/path/to/java"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java na kumbukumbu"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "Java {version} inapendekezwa kwa toleo la Minecraft la instansi hii."
+  },
+  "instance.settings.tabs.sharing": {
+    "message": "Kushiriki"
+  },
+  "instance.settings.tabs.synced-options.command-history": {
+    "message": "Ondoa usawazishaji wa historia ya amri"
+  },
+  "instance.settings.tabs.synced-options.command-history.disabled-in-app": {
+    "message": "Usawazishaji wa historia ya amri umezimwa kwenye mipangilio ya programu."
+  },
+  "instance.settings.tabs.synced-options.command-history.override-description": {
+    "message": "Weka historia ya amri ya instansi hii tofauti na iliyosawazishwa."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars": {
+    "message": "Ondoa usawazishaji wa Hotbar za ubunifu zilizohifadhiwa"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.disabled-in-app": {
+    "message": "Usawazishaji wa Hotbar za ubunifu zilizohifadhiwa umezimwa kwenye mipangilio ya programu."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
+    "message": "Weka Hotbar za ubunifu zilizohifadhiwa za instansi hii tofauti na zilizosawazishwa."
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "Ondoa usawazishaji wa mipangilio ya mchezo"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "Weka options.txt ya instansi hii tofauti na nakala iliyosawazishwa."
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "Usawazishaji wa mipangilio ya mchezo umezimwa kwenye mipangilio ya programu."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
+    "message": "Toleo linalobadilishwa litahifadhiwa nakala rudufu kabla ya mabadiliko yoyote."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.description": {
+    "message": "{instance} na toleo lako lililosawazishwa zina Hotbar za ubunifu tofauti. Chagua la kutumia kwenye instansi zako zote."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.title": {
+    "message": "Chagua Hotbar za ubunifu"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-instance": {
+    "message": "Badilisha zingine"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-synced": {
+    "message": "Tumia iliyosawazishwa"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers": {
+    "message": "Ondoa usawazishaji wa seva za wachezaji wengi"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.disabled-in-app": {
+    "message": "Usawazishaji wa seva za wachezaji wengi umezimwa kwenye mipangilio ya programu."
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.override-description": {
+    "message": "Weka seva za wachezaji wengi za instansi hii tofauti na zilizosawazishwa."
+  },
+  "instance.settings.tabs.synced-options.open-app-settings": {
+    "message": "Simamia mipangilio iliyosawazishwa"
+  },
+  "instance.settings.tabs.synced-options.shared-settings.description": {
+    "message": "Washa kibadilisha ili kuweka mpangilio uliosawazishwa tofauti kwa instansi hii."
+  },
+  "instance.settings.tabs.syncing": {
+    "message": "Usawazishaji"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "Instansi yako hutumia mipangilio chaguo-msingi ya dirisha isipokuwa ukibadilisha hapa."
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "Skrini nzima"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "Fanya mchezo uanze katika skrini nzima unapozinduliwa (kwa kutumia options.txt)."
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "Urefu"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "Urefu wa dirisha la mchezo unapozinduliwa."
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "Ingiza urefu..."
+  },
+  "instance.settings.tabs.window.label": {
+    "message": "Dirisha"
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "Upana"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "Upana wa dirisha la mchezo unapozinduliwa."
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "Ingiza upana..."
+  },
+  "instance.settings.using-defaults": {
+    "message": "Inatumia chaguo-msingi"
+  },
+  "instance.shared-instance.error.title": {
+    "message": "Kuna kitu kimeenda vibaya"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "Aina ya faili hairuhusiwi"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "Huwezi kushiriki instansi zaidi."
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "Kikomo cha instansi zinazoshirikiwa kimefikiwa"
+  },
+  "instance.shared-instance.network-error.text": {
+    "message": "Haiwezi kuungana na API ya instansi zinazoshirikiwa"
+  },
+  "instance.shared-instance.network-error.title": {
+    "message": "Hitilafu ya mtandao"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "Toleo jipya lilitumwa kutoka usakinishaji mwingine wa Panda Minecraft Launcher. Lipakue, kisha ujaribu tena."
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "Imeshindwa kutuma sasisho"
+  },
+  "instance.shared-instance.owner-tooltip": {
+    "message": "Maudhui ya instansi hii yanashirikiwa na watumiaji wengine."
+  },
+  "instance.shared-instance.tooltip": {
+    "message": "Maudhui ya instansi hii yanasimamiwa na mtu mwingine."
+  },
+  "instance.shared-instance.unavailable.access-revoked-text": {
+    "message": "Ufikiaji wako wa instansi inayoshirikiwa ulifutwa. Instansi hii bado inapatikana, lakini sasa haijaunganishwa na haitapokea sasisho tena."
+  },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "Instansi inayoshirikiwa ilifungwa na Timu ya Kusimamia Maudhui. Huruhusiwi tena kutuma sasisho au kuishiriki tena."
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "Instansi haiwezi kushirikiwa tena"
+  },
+  "instance.shared-instance.unavailable.locked-text": {
+    "message": "Instansi hii inayoshirikiwa ilifungwa na Timu ya Kusimamia Maudhui. Haitapokea tena sasisho kutoka kwa instansi kuu na haiwezi kuchezwa."
+  },
+  "instance.shared-instance.unavailable.locked-title": {
+    "message": "Instansi imefungwa"
+  },
+  "instance.shared-instance.unavailable.manager-fallback": {
+    "message": "msimamizi wa instansi"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "Hatukuweza kupata instansi hii inayoshirikiwa. Maudhui yako yaliyosakinishwa bado yako kwenye kifaa hiki."
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "Instansi inayoshirikiwa haipatikani"
+  },
+  "instance.shared-instance.unavailable.text": {
+    "message": "Instansi yako ya ndani bado inapatikana, lakini sasa haijaunganishwa na haitapokea sasisho."
+  },
+  "instance.shared-instance.unavailable.title": {
+    "message": "Instansi inayoshirikiwa haipatikani tena"
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "Seva ya Minecraft"
+  },
+  "instance.worlds.actions.label": {
+    "message": "Vitendo vya ulimwengu"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "Haiwezi kuungana na seva"
+  },
+  "instance.worlds.copy_address": {
+    "message": "Nakili anwani"
+  },
+  "instance.worlds.create_shortcut": {
+    "message": "Unda njia ya mkato"
+  },
+  "instance.worlds.desync-server.description": {
+    "message": "Je, unataka kuweka seva hii kwenye instansi zingine zilizosawazishwa, au kuiondoa kwenye hizo?"
+  },
+  "instance.worlds.desync-server.keep": {
+    "message": "Weka"
+  },
+  "instance.worlds.desync-server.remove": {
+    "message": "Ondoa"
+  },
+  "instance.worlds.desync-server.title": {
+    "message": "Ondoa usawazishaji wa seva"
+  },
+  "instance.worlds.desync_server": {
+    "message": "Ondoa usawazishaji"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "Usionyeshe kwenye Nyumbani"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "Instansi tayari iko wazi"
+  },
+  "instance.worlds.hardcore": {
+    "message": "Hali ya ugumu mkubwa"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "Seva hailingani"
+  },
+  "instance.worlds.instance-locked": {
+    "message": "Instansi hii imefungwa"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Inasimamiwa na mradi wa seva"
+  },
+  "instance.worlds.more-options": {
+    "message": "Chaguo zaidi"
+  },
+  "instance.worlds.no_contact": {
+    "message": "Seva haikuweza kufikiwa"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "Unaweza kuingia moja kwa moja kwenye seva tu kwenye Minecraft Alpha 1.0.5+"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "Unaweza kuingia moja kwa moja kwenye ulimwengu wa mchezaji mmoja tu kwenye Minecraft 1.20+"
+  },
+  "instance.worlds.play_instance": {
+    "message": "Cheza instansi"
+  },
+  "instance.worlds.play_world": {
+    "message": "Cheza ulimwengu"
+  },
+  "instance.worlds.shortcut-created": {
+    "message": "Njia ya mkato imeundwa"
+  },
+  "instance.worlds.shortcut-creation-failed": {
+    "message": "Imeshindwa kuunda njia ya mkato"
+  },
+  "instance.worlds.synced_server": {
+    "message": "Imesawazishwa kwenye instansi zote"
+  },
+  "instance.worlds.view_instance": {
+    "message": "Tazama instansi"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "Ulimwengu unatumika"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "Ongeza akaunti ya ely.by"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Ongeza akaunti ya Microsoft"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "Hatukuweza kukuingiza kwenye akaunti yako ya ely.by. Angalia akaunti yako ya ely.by na ujaribu tena."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "Kuingia kulishindwa"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "Hatukuweza kukuingiza kwenye akaunti yako ya Microsoft. Huenda hii ni kwa sababu ya vizuizi vya akaunti au vikwazo vya kikanda."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "Kodi yako"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "Ilinakiliwa"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "Nakili"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "Ingia ukitumia ely.by"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "Fungua ukurasa wa uthibitishaji wa ely.by na uingize kodi hii ili kuidhinisha Panda Minecraft Launcher. Kuingia kutaendelea kiotomatiki mara tu utakapoidhinisha."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "Fungua ukurasa wa uthibitishaji wa ely.by"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "Inasubiri uidhinishaji…"
+  },
+  "minecraft-account.label": {
+    "message": "Akaunti ya Minecraft"
+  },
+  "minecraft-account.not-signed-in": {
+    "message": "Hujaingia"
+  },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
+  "minecraft-account.remove-account": {
+    "message": "Ondoa akaunti"
+  },
+  "minecraft-account.select-account": {
+    "message": "Chagua akaunti"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "Ingia ukitumia ely.by"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Ingia ukitumia Microsoft"
+  },
+  "minecraft-required.description": {
+    "message": "Unahitaji akaunti ya Minecraft kabla ya kuzindua na kucheza. Unaweza kuingia ukitumia Microsoft au ely.by."
+  },
+  "minecraft-required.description-header": {
+    "message": "Ingia kwenye Minecraft"
+  },
+  "minecraft-required.dont-have-account": {
+    "message": "Huna akaunti?"
+  },
+  "minecraft-required.get-minecraft": {
+    "message": "Pata Minecraft"
+  },
+  "minecraft-required.get-support": {
+    "message": "Pata usaidizi"
+  },
+  "minecraft-required.header": {
+    "message": "Minecraft inahitajika"
+  },
+  "minecraft-required.sign-in": {
+    "message": "Ingia ukitumia Microsoft"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "Ingia ukitumia ely.by"
+  },
+  "modal.modrinth-account-required.browser-description": {
+    "message": "Kichupo kipya kilifunguliwa kwa ajili ya kuingia. Kamilisha kuingia huko, kisha urudi kwenye programu."
+  },
+  "modal.modrinth-account-required.continue-in-browser-heading": {
+    "message": "Endelea kwenye kivinjari chako"
+  },
+  "modal.modrinth-account-required.create-account-button": {
+    "message": "Unda akaunti"
+  },
+  "modal.modrinth-account-required.description": {
+    "message": "Utahitaji kuingia kwenye akaunti yako ya Panda Minecraft Launcher kabla ya kutumia kipengele hiki."
+  },
+  "modal.modrinth-account-required.header": {
+    "message": "Akaunti inahitajika"
+  },
+  "modal.modrinth-account-required.open-browser-again-button": {
+    "message": "Fungua kivinjari tena"
+  },
+  "modal.modrinth-account-required.sign-in-button": {
+    "message": "Ingia kwenye Panda Minecraft Launcher"
+  },
+  "modal.modrinth-account-required.sign-in-heading": {
+    "message": "Ingia kwenye akaunti ya Panda Minecraft Launcher"
+  },
+  "modal.modrinth-account-required.signing-in-header": {
+    "message": "Inaingia"
+  },
+  "modal.modrinth-account-required.support-prompt": {
+    "message": "Unakumbwa na matatizo ya kuingia? <support>Pata usaidizi</support>"
+  },
+  "modal.modrinth-account-required.waiting-for-browser": {
+    "message": "Inasubiri uthibitisho kutoka kwenye kivinjari..."
+  },
+  "project.server.status.offline": {
+    "message": "Nje ya mtandao"
+  },
+  "project.server.status.online": {
+    "message": "Mtandaoni"
+  },
+  "search.filter.locked.instance": {
+    "message": "Imetolewa na instansi"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "Toleo la mchezo limetolewa na instansi"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "Loader imetolewa na instansi"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "Sawazisha na instansi"
+  },
+  "search.filter.locked.server": {
+    "message": "Imetolewa na seva"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Mods za upande wa mteja tu zinaweza kuongezwa kwenye instansi ya seva"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Toleo la mchezo limetolewa na seva"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Loader imetolewa na seva"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Sawazisha na seva"
+  },
+  "settings.sidebar.label.account": {
+    "message": "Akaunti"
+  },
+  "settings.sidebar.label.display": {
+    "message": "Onyesho"
+  }
+}

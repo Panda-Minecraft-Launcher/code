@@ -11,6 +11,21 @@ Bu depo Panda Minecraft Launcher'ın kaynak kod deposudur; web sitesi ayrı bir 
 - Minecraft sürümleri, Java kurulumları ve oyun ayarlarını yönetme
 - Oyunu masaüstü uygulamasından doğrudan başlatma
 - Windows ve Linux için yerel uygulama
+- 19 dilde arayüz
+
+## En çok konuşulan diller
+
+Uygulama şu dillerde kullanılabilir:
+
+| Dil | Kod |
+| --- | --- |
+| English (İngilizce) | `en-US` |
+| 简体中文 (Çince) | `zh-CN` |
+| Español (İspanyolca) | `es-419` |
+| العربية (Arapça) | `ar-SA` |
+| Türkçe | `tr-TR` |
+
+Tüm diller listesi için **Ayarlar > Görünüm > Dil** bölümüne bakın.
 
 ## İndirme
 

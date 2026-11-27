@@ -7470,7 +7470,7 @@
     "defaultMessage": "Circa {percentage}% del sito è disponibile in questa lingua."
   },
   "settings.language.description": {
-    "defaultMessage": "Scegli la lingua che preferisci per l'interfaccia {platform}. Le traduzioni sono contribuite da volontari su Crowdin."
+    "defaultMessage": "Scegli la lingua che preferisci per {platform}. Le traduzioni possono contenere errori; apri una issue per segnalarli."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Cerca una lingua..."

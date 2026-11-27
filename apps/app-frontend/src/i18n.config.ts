@@ -28,6 +28,29 @@ const i18n = createI18n({
 	}),
 })
 
+export const APP_LOCALES = [
+	'ar-EG',
+	'ar-SA',
+	'bn-BD',
+	'de-DE',
+	'en-US',
+	'es-419',
+	'fr-FR',
+	'ha-NG',
+	'id-ID',
+	'ja-JP',
+	'mr-IN',
+	'pcm-NG',
+	'pt-BR',
+	'ru-RU',
+	'sw-KE',
+	'te-IN',
+	'tr-TR',
+	'ur-PK',
+	'vi-VN',
+	'zh-CN',
+]
+
 const pendingLocales = new Map<string, Promise<Record<string, string>>>()
 let localeRequest = 0
 
@@ -39,7 +62,9 @@ async function fetchMessages(url: string): Promise<CrowdinMessages> {
 
 export async function setLocale(requestedLocale: string): Promise<void> {
 	const request = ++localeRequest
-	const locale = ['tr-TR', 'en-US'].includes(requestedLocale) ? requestedLocale : 'en-US'
+	const locale = APP_LOCALES.includes(requestedLocale as (typeof APP_LOCALES)[number])
+		? requestedLocale
+		: 'en-US'
 	if (locale !== 'en-US' && locale !== i18n.global.locale.value) {
 		let pending = pendingLocales.get(locale)
 		if (!pending) {

@@ -7470,7 +7470,7 @@
     "defaultMessage": "웹사이트의 약 {percentage}%가 이 언어로 제공됩니다."
   },
   "settings.language.description": {
-    "defaultMessage": "{platform}에서 사용할 언어를 선택해주세요. 번역은 자원 봉사자들이 Crowdin에서 기여합니다."
+    "defaultMessage": "{platform}에서 사용할 언어를 선택해주세요. 번역에 오류가 있을 수 있습니다. 제보하려면 이슈를 열어주세요."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "언어 검색..."

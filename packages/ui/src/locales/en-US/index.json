@@ -3314,6 +3314,15 @@
   "layout.account-switcher.switching": {
     "defaultMessage": "Switching accounts..."
   },
+  "locale.ar-EG": {
+    "defaultMessage": "Egyptian Arabic"
+  },
+  "locale.ar-SA": {
+    "defaultMessage": "Arabic"
+  },
+  "locale.bn-BD": {
+    "defaultMessage": "Bengali"
+  },
   "locale.cs-CZ": {
     "defaultMessage": "Czech"
   },
@@ -3344,6 +3353,9 @@
   "locale.fr-FR": {
     "defaultMessage": "French"
   },
+  "locale.ha-NG": {
+    "defaultMessage": "Hausa"
+  },
   "locale.he-IL": {
     "defaultMessage": "Hebrew"
   },
@@ -3362,6 +3374,9 @@
   "locale.ko-KR": {
     "defaultMessage": "Korean"
   },
+  "locale.mr-IN": {
+    "defaultMessage": "Marathi"
+  },
   "locale.ms-MY": {
     "defaultMessage": "Malay"
   },
@@ -3370,6 +3385,9 @@
   },
   "locale.no-NO": {
     "defaultMessage": "Norwegian Bokmål"
+  },
+  "locale.pcm-NG": {
+    "defaultMessage": "Nigerian Pidgin"
   },
   "locale.pl-PL": {
     "defaultMessage": "Polish"
@@ -3392,6 +3410,12 @@
   "locale.sv-SE": {
     "defaultMessage": "Swedish"
   },
+  "locale.sw-KE": {
+    "defaultMessage": "Swahili"
+  },
+  "locale.te-IN": {
+    "defaultMessage": "Telugu"
+  },
   "locale.th-TH": {
     "defaultMessage": "Thai"
   },
@@ -3400,6 +3424,9 @@
   },
   "locale.uk-UA": {
     "defaultMessage": "Ukrainian"
+  },
+  "locale.ur-PK": {
+    "defaultMessage": "Urdu"
   },
   "locale.vi-VN": {
     "defaultMessage": "Vietnamese"
@@ -7509,7 +7536,7 @@
     "defaultMessage": "About {percentage}% of the website is available in this language."
   },
   "settings.language.description": {
-    "defaultMessage": "Choose your preferred language for the {platform}. Translations are contributed by volunteers."
+    "defaultMessage": "Choose your preferred language for the {platform}. Translations may contain errors; open an issue to report them."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Search for a language..."

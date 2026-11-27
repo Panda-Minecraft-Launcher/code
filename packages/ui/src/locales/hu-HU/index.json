@@ -6450,7 +6450,7 @@
     "defaultMessage": "A weboldal körülbelül {percentage}%-a érhető el ezen a nyelven."
   },
   "settings.language.description": {
-    "defaultMessage": "Válaszd ki az {platform} nyelvét. A fordításokat önkéntesek készítik a Crowdinon."
+    "defaultMessage": "Válaszd ki az {platform} nyelvét. A fordítások tartalmazhatnak hibákat; jelentsd őket egy issue megnyitásával."
   },
   "settings.language.languages.search-field.placeholder": {
     "defaultMessage": "Nyelv keresése..."

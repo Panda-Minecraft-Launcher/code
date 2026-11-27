@@ -2,7 +2,7 @@
 	<SharedLanguageSettings
 		ref="languageSettings"
 		product="app"
-		:locale-codes="['tr-TR', 'en-US']"
+		:locale-codes="APP_LOCALES"
 		:persist-locale="persistLocale"
 	/>
 </template>
@@ -13,6 +13,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 import { injectAppSettingsModal } from '@/features/settings/app-settings-modal/context'
 import { get, set } from '@/helpers/settings.ts'
+import { APP_LOCALES } from '@/i18n.config'
 
 const settingsModal = injectAppSettingsModal()
 const languageSettings = ref<InstanceType<typeof SharedLanguageSettings> | null>(null)

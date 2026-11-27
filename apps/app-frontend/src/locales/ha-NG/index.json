@@ -1,0 +1,4685 @@
+{
+  "app.action-bar.changelog": {
+    "message": "Labarai"
+  },
+  "app.action-bar.downloading-java": {
+    "message": "Ana zazzage Java {version}"
+  },
+  "app.action-bar.downloading-update": {
+    "message": "Ana zazzage sabuntawa"
+  },
+  "app.action-bar.downloads": {
+    "message": "Zazzagewa"
+  },
+  "app.action-bar.hide-downloads": {
+    "message": "Boye zazzagewa masu gudana"
+  },
+  "app.action-bar.hide-more-running-instances": {
+    "message": "Boye ƙarin misalan wasa masu gudana"
+  },
+  "app.action-bar.install.copied-details": {
+    "message": "An kwafi"
+  },
+  "app.action-bar.install.dismiss": {
+    "message": "Watsar"
+  },
+  "app.action-bar.install.inspect-details": {
+    "message": "Duba cikakkun bayanai"
+  },
+  "app.action-bar.install.open-instance": {
+    "message": "Bude misalin wasa"
+  },
+  "app.action-bar.install.retry": {
+    "message": "Sake gwadawa"
+  },
+  "app.action-bar.install.summary.app-closing": {
+    "message": "An soke domin an rufe manhajar"
+  },
+  "app.action-bar.install.summary.bad-modpack-file": {
+    "message": "An kasa karanta fakitin mod"
+  },
+  "app.action-bar.install.summary.canceled": {
+    "message": "An soke"
+  },
+  "app.action-bar.install.summary.cleanup-incomplete": {
+    "message": "Tsaftacewa bai gama ba"
+  },
+  "app.action-bar.install.summary.content-download-failed": {
+    "message": "An kasa zazzage fayiloli"
+  },
+  "app.action-bar.install.summary.corrupt-download": {
+    "message": "Fayil ɗin da aka zazzage ya lalace"
+  },
+  "app.action-bar.install.summary.could-not-save-files": {
+    "message": "An kasa adana fayiloli"
+  },
+  "app.action-bar.install.summary.download-failed": {
+    "message": "Zazzagewa bai gama ba"
+  },
+  "app.action-bar.install.summary.instance-error": {
+    "message": "An kasa shirya misalin wasa"
+  },
+  "app.action-bar.install.summary.invalid-file-path": {
+    "message": "Hanyar fayil ɗin ba daidai ba ce"
+  },
+  "app.action-bar.install.summary.invalid-modpack": {
+    "message": "Bayanan fakitin mod ba su da inganci"
+  },
+  "app.action-bar.install.summary.invalid-modpack-files": {
+    "message": "Fayilolin fakitin mod suna da bayanan da ba su da inganci"
+  },
+  "app.action-bar.install.summary.java-setup-failed": {
+    "message": "Shirya Java bai gama ba"
+  },
+  "app.action-bar.install.summary.loader-setup-failed": {
+    "message": "Shirya loader bai yi nasara ba"
+  },
+  "app.action-bar.install.summary.local-data-error": {
+    "message": "An kasa sabunta bayanan gida"
+  },
+  "app.action-bar.install.summary.minecraft-setup-failed": {
+    "message": "Shirya Minecraft bai yi nasara ba"
+  },
+  "app.action-bar.install.summary.modrinth-unreachable": {
+    "message": "An kasa isa ga Panda Minecraft Launcher"
+  },
+  "app.action-bar.install.summary.no-write-permission": {
+    "message": "Babu izinin rubutawa"
+  },
+  "app.action-bar.install.summary.pack-download-failed": {
+    "message": "An kasa zazzage fakiti"
+  },
+  "app.action-bar.install.summary.unexpected-error": {
+    "message": "Akwai matsala"
+  },
+  "app.action-bar.install.unknown-instance": {
+    "message": "Misalin wasa da ba a sani ba"
+  },
+  "app.action-bar.install.updating-shared-content": {
+    "message": "Ana sabunta abun cikin da aka raba"
+  },
+  "app.action-bar.offline": {
+    "message": "Babu haɗin intanet"
+  },
+  "app.action-bar.reload-to-update": {
+    "message": "Sake loda don sabuntawa"
+  },
+  "app.action-bar.show-downloads": {
+    "message": "Nuna zazzagewa masu gudana"
+  },
+  "app.action-bar.show-more-running-instances": {
+    "message": "Nuna ƙarin misalan wasa masu gudana"
+  },
+  "app.action-bar.stop-instance": {
+    "message": "Dakatar da misalin wasa"
+  },
+  "app.action-bar.update": {
+    "message": "Sabunta"
+  },
+  "app.action-bar.view-active-downloads": {
+    "message": "Duba zazzagewa masu gudana"
+  },
+  "app.action-bar.view-logs": {
+    "message": "Duba rajistar aiki"
+  },
+  "app.appearance-settings.compact-mode.description": {
+    "message": "Nuna misalan wasa a ɗakin karatu cikin layi mai ƙanƙanta."
+  },
+  "app.appearance-settings.compact-mode.title": {
+    "message": "Yanayin ƙanƙanta"
+  },
+  "app.appearance-settings.default-landing-page.home": {
+    "message": "Gida"
+  },
+  "app.appearance-settings.default-landing-page.library": {
+    "message": "Dakin karatu"
+  },
+  "app.appearance-settings.hide-nametag.description": {
+    "message": "Boye sunan mai amfani da ke sama da samfurin ɗan wasa a shafin zaɓin fatar ɗan wasa."
+  },
+  "app.appearance-settings.hide-nametag.title": {
+    "message": "Boye sunan ɗan wasa"
+  },
+  "app.appearance-settings.minimize-launcher.description": {
+    "message": "Rage Panda Minecraft Launcher lokacin da Minecraft ya fara."
+  },
+  "app.appearance-settings.minimize-launcher.title": {
+    "message": "Rage manhajar"
+  },
+  "app.appearance-settings.show-play-time.description": {
+    "message": "Nuna tsawon lokacin da aka yi wasa a kowane misali."
+  },
+  "app.appearance-settings.show-play-time.title": {
+    "message": "Nuna lokacin wasa"
+  },
+  "app.appearance-settings.sidebar-position.description": {
+    "message": "Nuna bangaren gefe a hagu ko dama."
+  },
+  "app.appearance-settings.sidebar-position.left": {
+    "message": "Hagu"
+  },
+  "app.appearance-settings.sidebar-position.right": {
+    "message": "Dama"
+  },
+  "app.appearance-settings.sidebar-position.title": {
+    "message": "Matsayin bangaren gefe"
+  },
+  "app.appearance-settings.skip-non-essential-warnings.description": {
+    "message": "Tsallake tabbatarwa ga ayyuka masu ƙarancin haɗari kamar shigarwa na maimaitawa, share abun ciki na yau da kullun, sabuntawa da yawa, cire haɗi, da gyarawa. Koyaushe ana nuna gargadi ga ayyuka masu haɗari."
+  },
+  "app.appearance-settings.skip-non-essential-warnings.title": {
+    "message": "Tsallake gargadin da ba dole ba"
+  },
+  "app.appearance-settings.unknown-pack-warning.description": {
+    "message": "Nuna gargadin tsaro kafin shigar da fakitin mod (.mrpack) da ba a karɓar bakuncinsa a Panda Minecraft Launcher ba."
+  },
+  "app.appearance-settings.unknown-pack-warning.title": {
+    "message": "Gargadni kafin shigar da fakitin mod da ba a sani ba"
+  },
+  "app.auth-servers.unreachable.body": {
+    "message": "Sabar tantancewa ta Minecraft na iya zama a kashe a yanzu. Duba haɗin intanet ɗinka sannan ka sake gwadawa daga baya."
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "An kasa isa ga sabobin tantancewa"
+  },
+  "app.behavior-settings.confirmations.title": {
+    "message": "Tabbatarwa"
+  },
+  "app.behavior-settings.content.title": {
+    "message": "Gida da abun ciki"
+  },
+  "app.behavior-settings.hidden-instances.description": {
+    "message": "Misalan wasa da ka ɓoye daga ɗakin karatu a wannan na'urar. Ba a daidaita misalan da aka ɓoye da asusunka na Panda Minecraft Launcher ba."
+  },
+  "app.behavior-settings.hidden-instances.empty": {
+    "message": "Har yanzu ba ka ɓoye wani misalin wasa ba."
+  },
+  "app.behavior-settings.hidden-instances.more-options": {
+    "message": "Ƙarin zaɓuɓɓuka"
+  },
+  "app.behavior-settings.hidden-instances.not-installed": {
+    "message": "Ba a shigar ba"
+  },
+  "app.behavior-settings.hidden-instances.title": {
+    "message": "Misalan wasa da aka ɓoye"
+  },
+  "app.behavior-settings.refocus-on-game-close.description": {
+    "message": "Kawo Panda Minecraft Launcher gaba lokacin da Minecraft ya fita."
+  },
+  "app.behavior-settings.refocus-on-game-close.title": {
+    "message": "Mayar da hankali ga manhajar lokacin da Minecraft ya rufe"
+  },
+  "app.behavior-settings.startup-and-navigation.title": {
+    "message": "Farawa da kewayawa"
+  },
+  "app.behavior-settings.sync-across-devices.description": {
+    "message": "Yi amfani da waɗannan saitunan ɗabi'a a duk inda ka shiga. Kashe wannan don kiyaye saiti daban a wannan na'urar."
+  },
+  "app.behavior-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "Shiga asusun Panda Minecraft Launcher don daidaita saituna."
+  },
+  "app.behavior-settings.sync-across-devices.title": {
+    "message": "Daidaita ɗabi'a a na'urori daban-daban"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Ana ƙara sabar ga misalin wasa"
+  },
+  "app.browse.add-to-an-instance": {
+    "message": "Ƙara wa misalin wasa"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Ƙara wa misalin wasa"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Ƙara wa {instanceName}"
+  },
+  "app.browse.added": {
+    "message": "An ƙara"
+  },
+  "app.browse.already-added": {
+    "message": "An riga an ƙara"
+  },
+  "app.browse.back-to-instance": {
+    "message": "Komawa ga misalin wasa"
+  },
+  "app.browse.curseforge.checking": {
+    "message": "Ana haɗi da CurseForge..."
+  },
+  "app.browse.curseforge.error": {
+    "message": "Buƙatar CurseForge ta gaza: {error}"
+  },
+  "app.browse.curseforge.no-key": {
+    "message": "Ana jiran amincewar CurseForge"
+  },
+  "app.browse.curseforge.ready": {
+    "message": "CurseForge a shirye yake. An sami mods {count}."
+  },
+  "app.browse.discover-project-type": {
+    "message": "Gano {projectType}"
+  },
+  "app.browse.discover-servers": {
+    "message": "Gano sabobin"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Boye sabobin da aka riga aka ƙara"
+  },
+  "app.browse.hide-installed-modpacks": {
+    "message": "Boye waɗanda aka riga aka shigar"
+  },
+  "app.browse.project-actions.label": {
+    "message": "Ayyukan aikin"
+  },
+  "app.browse.project-type.data-packs": {
+    "message": "Fakitin bayanai"
+  },
+  "app.browse.project-type.modpacks": {
+    "message": "Fakitin mod"
+  },
+  "app.browse.project-type.mods": {
+    "message": "Mods"
+  },
+  "app.browse.project-type.plugins": {
+    "message": "Plugins"
+  },
+  "app.browse.project-type.resource-packs": {
+    "message": "Fakitin albarkatu"
+  },
+  "app.browse.project-type.servers": {
+    "message": "Sabobin"
+  },
+  "app.browse.project-type.shaders": {
+    "message": "Shaders"
+  },
+  "app.browse.server-instance-content-warning": {
+    "message": "Ƙara abun ciki na iya hana ka shiga wannan sabar. Duk abin da ka ƙara za a cire shi lokacin da aka sabunta abun cikin sabar da ake sarrafawa."
+  },
+  "app.browse.server.installing": {
+    "message": "Ana shigarwa"
+  },
+  "app.changelog.current-version": {
+    "message": "Sigar yanzu: {version}"
+  },
+  "app.changelog.title": {
+    "message": "Bayanan saki"
+  },
+  "app.changelog.you-are-here": {
+    "message": "Kana nan"
+  },
+  "app.content-install.no-compatible-versions": {
+    "message": "Babu sigar da ake da ita da ta dace da {compatibilityLabel}. Zaɓi sigar da za a shigar duk da haka. Ba za a shigar da abin dogaro ta atomatik ba."
+  },
+  "app.content.desync-pack": {
+    "message": "Cire daidaitawa"
+  },
+  "app.content.sync-data-packs-disabled": {
+    "message": "Da farko kunna daidaita fakitin bayanai a saitunan manhajar."
+  },
+  "app.content.sync-pack": {
+    "message": "Daidaita"
+  },
+  "app.content.sync-packs-override": {
+    "message": "Da farko kashe ƙetare daidaita fakiti a saitunan wannan misalin wasa."
+  },
+  "app.content.sync-resource-packs-disabled": {
+    "message": "Da farko kunna daidaita fakitin albarkatu a saitunan manhajar."
+  },
+  "app.debug-export.canceling": {
+    "message": "Ana soke fitarwa…"
+  },
+  "app.debug-export.exporting": {
+    "message": "Ana fitarwa…"
+  },
+  "app.debug-export.finishing": {
+    "message": "Ana kammalawa…"
+  },
+  "app.debug-export.preparing": {
+    "message": "Ana shirya fayiloli…"
+  },
+  "app.download-manager.active": {
+    "message": "Masu gudana"
+  },
+  "app.download-manager.attention": {
+    "message": "Yana buƙatar kulawa"
+  },
+  "app.download-manager.bulk-update-content": {
+    "message": "Ana sabunta {count, plural, one {# item} other {# items}}"
+  },
+  "app.download-manager.cancel": {
+    "message": "Soke shigarwa"
+  },
+  "app.download-manager.canceling": {
+    "message": "Ana soke shigarwa…"
+  },
+  "app.download-manager.clear-all": {
+    "message": "Share duka"
+  },
+  "app.download-manager.clear-completed": {
+    "message": "Share duk ayyukan da aka kammala"
+  },
+  "app.download-manager.complete": {
+    "message": "An kammala"
+  },
+  "app.download-manager.duplicated-instance": {
+    "message": "An kwafi misalin wasa"
+  },
+  "app.download-manager.estimated-rate": {
+    "message": "Kimanin saurin zazzagewa"
+  },
+  "app.download-manager.eta": {
+    "message": "Kimanin lokacin da ya rage don wannan zazzagewar"
+  },
+  "app.download-manager.hide-tasks": {
+    "message": "Boye ayyuka"
+  },
+  "app.download-manager.imported-instance": {
+    "message": "An shigo da misalin wasa"
+  },
+  "app.download-manager.instance-installation": {
+    "message": "Shigar da misalin wasa"
+  },
+  "app.download-manager.modpack": {
+    "message": "Fakitin mod"
+  },
+  "app.download-manager.modpack-installation": {
+    "message": "Shigar da fakitin mod"
+  },
+  "app.download-manager.new-instance": {
+    "message": "Sabon misalin wasa"
+  },
+  "app.download-manager.no-tasks": {
+    "message": "Babu ayyuka"
+  },
+  "app.download-manager.pause": {
+    "message": "Dakatar da shigarwa"
+  },
+  "app.download-manager.paused": {
+    "message": "An dakatar"
+  },
+  "app.download-manager.remove": {
+    "message": "Cire daga tarihi"
+  },
+  "app.download-manager.resume": {
+    "message": "Ci gaba da shigarwa"
+  },
+  "app.download-manager.shared-instance": {
+    "message": "Misalin wasa da aka raba"
+  },
+  "app.download-manager.shared-instance-update": {
+    "message": "Sabunta misalin wasa da aka raba"
+  },
+  "app.download-manager.show-tasks": {
+    "message": "Nuna ayyuka"
+  },
+  "app.download-manager.tasks": {
+    "message": "Ayyuka"
+  },
+  "app.download-manager.title": {
+    "message": "Manajan zazzagewa"
+  },
+  "app.error.copied-debug-info": {
+    "message": "An kwafi"
+  },
+  "app.error.inspect-debug-info": {
+    "message": "Duba bayanan gyara kurakurai"
+  },
+  "app.error.state-init.open-backups-folder": {
+    "message": "Bude babban fayil ɗin madadin"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Shigar da bayanin fakitin mod..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Fitar"
+  },
+  "app.export-modal.export-complete": {
+    "message": "An gama fitarwa"
+  },
+  "app.export-modal.export-complete-description": {
+    "message": "An fitar da {name} cikin nasara."
+  },
+  "app.export-modal.header": {
+    "message": "Fitar da fakitin mod"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Sunan fakitin mod"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Sunan fakitin mod"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Lambar sigar"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.features-settings.instance-pages.title": {
+    "message": "Misalan wasa"
+  },
+  "app.features-settings.play-page.title": {
+    "message": "Shafin wasa"
+  },
+  "app.features-settings.quick-instances.description": {
+    "message": "Zaɓi matsakaicin adadin misalan wasa na kwanan nan da ake nuna a bangaren gefe na hagu. Hakanan za ka iya daidaita hakan ta hanyar jawo layin raba."
+  },
+  "app.features-settings.quick-instances.title": {
+    "message": "Misalan wasa masu sauri a bangaren gefe"
+  },
+  "app.features-settings.show-all-screenshots.description": {
+    "message": "Nuna maɓalli a bangaren gefe na hagu don duba hotunan kariyar kwamfuta daga duk misalan wasa."
+  },
+  "app.features-settings.show-all-screenshots.title": {
+    "message": "Nuna duk hotunan kariyar kwamfuta a bangaren gefe"
+  },
+  "app.features-settings.show-files-tab.title": {
+    "message": "Nuna shafin Fayiloli a cikin misalan wasa"
+  },
+  "app.features-settings.show-jump-in.description": {
+    "message": "Nuna duniyoyi da misalan wasa da aka yi wasa kwanan nan a saman shafin Wasa."
+  },
+  "app.features-settings.show-jump-in.title": {
+    "message": "Nuna sashin Shiga wasa"
+  },
+  "app.features-settings.show-screenshots-tab.title": {
+    "message": "Nuna shafin Hotuna a cikin misalan wasa"
+  },
+  "app.features-settings.show-skin-selector.description": {
+    "message": "Nuna maɓalli a bangaren gefe don buɗe sarrafa asusu."
+  },
+  "app.features-settings.show-skin-selector.title": {
+    "message": "Nuna maɓallin sarrafa asusu a bangaren gefe"
+  },
+  "app.features-settings.show-worlds-tab.title": {
+    "message": "Nuna shafin Duniyoyi a cikin misalan wasa"
+  },
+  "app.features-settings.sidebar.title": {
+    "message": "Bangaren gefe"
+  },
+  "app.features-settings.sync-across-devices.description": {
+    "message": "Yi amfani da waɗannan saitunan fasali a duk inda ka shiga. Kashe wannan don kiyaye saiti daban a wannan na'urar."
+  },
+  "app.features-settings.sync-across-devices.signed-out-tooltip": {
+    "message": "Shiga asusun Panda Minecraft Launcher don daidaita saituna."
+  },
+  "app.features-settings.sync-across-devices.title": {
+    "message": "Daidaita fasali a na'urori daban-daban"
+  },
+  "app.file-download.canceling": {
+    "message": "Ana soke zazzagewa…"
+  },
+  "app.file-download.preparing": {
+    "message": "Ana shirya zazzagewa…"
+  },
+  "app.file-download.waiting": {
+    "message": "Ana jiran sabar…"
+  },
+  "app.home.jump-back-in.actions.label": {
+    "message": "Ayyukan misalin wasa"
+  },
+  "app.home.jump-back-in.instance-locked": {
+    "message": "An kulle wannan misalin wasa"
+  },
+  "app.home.jump-back-in.instance-open": {
+    "message": "Misalin wasa a buɗe yake"
+  },
+  "app.home.jump-back-in.more-options": {
+    "message": "Ƙarin zaɓuɓɓuka"
+  },
+  "app.home.jump-back-in.never-played": {
+    "message": "Ba a taɓa yin wasa ba"
+  },
+  "app.home.jump-back-in.new-instance": {
+    "message": "Sabon misalin wasa"
+  },
+  "app.home.jump-back-in.resize": {
+    "message": "Ja don canza girma"
+  },
+  "app.home.jump-back-in.title": {
+    "message": "Shiga wasa"
+  },
+  "app.home.jump-back-in.view-instance": {
+    "message": "Duba misalin wasa"
+  },
+  "app.hosting.update-required.description": {
+    "message": "Kana buƙatar sabuntawa don amfani da Panda Minecraft Launcher"
+  },
+  "app.hosting.update-required.download": {
+    "message": "Zazzage don sabuntawa"
+  },
+  "app.hosting.update-required.rinthbot-alt": {
+    "message": "Bot ɗin Panda Minecraft Launcher mai farin ciki"
+  },
+  "app.hosting.update-required.title": {
+    "message": "Ana buƙatar sabunta Panda Minecraft Launcher"
+  },
+  "app.install.phase.downloading_content": {
+    "message": "Ana zazzage abun ciki"
+  },
+  "app.install.phase.downloading_minecraft": {
+    "message": "Ana zazzage Minecraft"
+  },
+  "app.install.phase.downloading_pack_file": {
+    "message": "Ana zazzage fayilin fakiti"
+  },
+  "app.install.phase.extracting_overrides": {
+    "message": "Ana fitar da abubuwan da aka ƙetare"
+  },
+  "app.install.phase.finalizing": {
+    "message": "Ana kammalawa"
+  },
+  "app.install.phase.preparing_instance": {
+    "message": "A cikin jerin shigarwa"
+  },
+  "app.install.phase.preparing_java": {
+    "message": "Ana shirya Java"
+  },
+  "app.install.phase.preparing_java.downloading": {
+    "message": "Ana zazzage Java {version}"
+  },
+  "app.install.phase.preparing_java.extracting": {
+    "message": "Ana fitar da Java {version}"
+  },
+  "app.install.phase.preparing_java.fetching-metadata": {
+    "message": "Ana samo Java {version}"
+  },
+  "app.install.phase.preparing_java.resolving": {
+    "message": "Ana shirya Java {version}"
+  },
+  "app.install.phase.preparing_java.validating": {
+    "message": "Ana tantance Java {version}"
+  },
+  "app.install.phase.reading_pack_manifest": {
+    "message": "Ana karanta bayanan fakiti"
+  },
+  "app.install.phase.resolving_loader": {
+    "message": "Ana shirya loader"
+  },
+  "app.install.phase.resolving_minecraft": {
+    "message": "Ana shirya Minecraft"
+  },
+  "app.install.phase.resolving_pack": {
+    "message": "Ana shirya abun ciki"
+  },
+  "app.install.phase.rolling_back": {
+    "message": "Ana komawa baya"
+  },
+  "app.install.phase.running_loader_processors": {
+    "message": "Ana gudanar da masu sarrafa loader"
+  },
+  "app.instance.action.add-content": {
+    "message": "Ƙara abun ciki"
+  },
+  "app.instance.action.copy-path": {
+    "message": "Kwafi hanyar"
+  },
+  "app.instance.action.edit": {
+    "message": "Gyara"
+  },
+  "app.instance.action.open-folder": {
+    "message": "Bude babban fayil"
+  },
+  "app.instance.action.play": {
+    "message": "Wasa"
+  },
+  "app.instance.action.stop": {
+    "message": "Dakatar"
+  },
+  "app.instance.actions.label": {
+    "message": "Ayyukan misalin wasa"
+  },
+  "app.instance.add-server.add": {
+    "message": "Ƙara"
+  },
+  "app.instance.add-server.added": {
+    "message": "An ƙara"
+  },
+  "app.instance.add-server.adding": {
+    "message": "Ana ƙarawa..."
+  },
+  "app.instance.add-server.cancel": {
+    "message": "Soke"
+  },
+  "app.instance.add-server.compatibility-warning": {
+    "message": "Wannan sabar ƙila ba za ta dace da duk misalan wasa ba."
+  },
+  "app.instance.add-server.search-placeholder": {
+    "message": "Nemi misalin wasa"
+  },
+  "app.instance.add-server.title": {
+    "message": "Ƙara sabar ga misalin wasa"
+  },
+  "app.instance.admonitions.shared-instance.added-label": {
+    "message": "An ƙara"
+  },
+  "app.instance.admonitions.shared-instance.changes-body": {
+    "message": "Misalin wasa na gida ya ci gaba da masu amfani da ka raba shi da su."
+  },
+  "app.instance.admonitions.shared-instance.changes-header": {
+    "message": "Har yanzu ba a raba canje-canjenka ba"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-body": {
+    "message": "Ka tura sabuntawa ga wannan misalin da aka raba daga wani shigarwar Panda Minecraft Launcher. Zazzage sabbin canje-canje don ci gaba da sarrafa shi daga nan."
+  },
+  "app.instance.admonitions.shared-instance.owner-update-button": {
+    "message": "Zazzage sabuntawa"
+  },
+  "app.instance.admonitions.shared-instance.owner-update-header": {
+    "message": "Akwai sabuntawa"
+  },
+  "app.instance.admonitions.shared-instance.publish-button": {
+    "message": "Tura sabuntawa"
+  },
+  "app.instance.admonitions.shared-instance.publishing-button": {
+    "message": "Ana turawa..."
+  },
+  "app.instance.admonitions.shared-instance.removed-label": {
+    "message": "An cire"
+  },
+  "app.instance.admonitions.shared-instance.restored-body": {
+    "message": "An dawo da wannan misalin daga sigar ƙarshe da ka tura. Abubuwan da ba ka tura ba tukuna, kamar canje-canjen saiti ko abun ciki a wani shigarwarka, ba a haɗa su ba."
+  },
+  "app.instance.admonitions.shared-instance.restored-header": {
+    "message": "Abubuwan da aka tura kawai aka zazzage"
+  },
+  "app.instance.admonitions.shared-instance.review-admonition-header": {
+    "message": "Tura sabuntawa"
+  },
+  "app.instance.admonitions.shared-instance.review-description": {
+    "message": "Duba canje-canjen abun cikin da za a raba da duk masu amfani da wannan misalin."
+  },
+  "app.instance.admonitions.shared-instance.review-header": {
+    "message": "Duba canje-canje"
+  },
+  "app.instance.admonitions.shared-instance.reviewing-button": {
+    "message": "Ana dubawa..."
+  },
+  "app.instance.card.icon-alt": {
+    "message": "Alamar misalin wasa"
+  },
+  "app.instance.card.installing": {
+    "message": "Ana shigarwa..."
+  },
+  "app.instance.card.loading": {
+    "message": "Misalin wasa yana lodi..."
+  },
+  "app.instance.card.never-played": {
+    "message": "Ba a taɓa yin wasa ba"
+  },
+  "app.instance.card.play": {
+    "message": "Wasa"
+  },
+  "app.instance.card.played": {
+    "message": "An yi wasa {relativeTime}"
+  },
+  "app.instance.card.repair": {
+    "message": "Gyara"
+  },
+  "app.instance.card.stop": {
+    "message": "Dakatar"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Za a share duk bayanan misalin wasa ɗinka har abada, gami da duniyoyinka, saituna, da duk abubuwan da aka shigar."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Ba za a iya soke wannan aikin ba"
+  },
+  "app.instance.confirm-delete.bulk-admonition-body": {
+    "message": "Za a share duk bayanan waɗannan misalan wasa {count} har abada, gami da duniyoyinsu, saitunsu, da duk abubuwan da aka shigar."
+  },
+  "app.instance.confirm-delete.bulk-delete-button": {
+    "message": "Share misalan wasa {count}"
+  },
+  "app.instance.confirm-delete.bulk-header": {
+    "message": "Share misalan wasa {count}"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Share misalin wasa"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Share misalin wasa"
+  },
+  "app.instance.confirm-delete.instances-label": {
+    "message": "{count, plural, one {Instance} other {Instances ({count})}}"
+  },
+  "app.instance.content.managed-content.modpack-header": {
+    "message": "Abun cikin fakitin mod"
+  },
+  "app.instance.content.managed-content.shared-header": {
+    "message": "Abun cikin da aka raba"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "An riga an shigar da wannan fakitin mod a misalin <bold>{instanceName}</bold>. Tabbas kana son kwafa shi?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Ƙirƙira"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "An riga an shigar da fakitin mod"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Misalin wasa"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "aiki"
+  },
+  "app.instance.mods.freeze-content": {
+    "message": "Daskare sigar"
+  },
+  "app.instance.mods.locked-content": {
+    "message": "Ba za a iya canza abun ciki a misalan da aka kulle ba."
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "An ƙara \"{name}\""
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "An ƙara ayyuka {count}"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Duba ayyukan da nake amfani da su a cikin fakitin mod ɗina!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Raba abun cikin fakitin mod"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "An loda cikin nasara"
+  },
+  "app.instance.mods.unfreeze-content": {
+    "message": "Cire daskaren sigar"
+  },
+  "app.instance.navigation.back-to-instance": {
+    "message": "Komawa ga misalin wasa"
+  },
+  "app.instance.server.offline.description": {
+    "message": "Wannan sabar a halin yanzu babu haɗi. Za ka iya ƙaddamar da Minecraft ko ka iya kasa haɗi."
+  },
+  "app.instance.server.offline.launch-anyway": {
+    "message": "Ƙaddamar duk da haka"
+  },
+  "app.instance.server.offline.title": {
+    "message": "Sabar babu haɗi"
+  },
+  "app.instance.server.status.unknown": {
+    "message": "Ba a san matsayin ba"
+  },
+  "app.instance.share.empty.description": {
+    "message": "Za ka iya raba wannan misalin wasa da abokanka!"
+  },
+  "app.instance.share.empty.heading": {
+    "message": "Babu abokan da aka gayyata"
+  },
+  "app.instance.share.empty.invite-friends-button": {
+    "message": "Gayyaci abokai"
+  },
+  "app.instance.share.invite-friends": {
+    "message": "Gayyaci abokai"
+  },
+  "app.instance.share.invite-modal.heading": {
+    "message": "Raba {name}"
+  },
+  "app.instance.share.invite-modal.user-limit-reached": {
+    "message": "Wannan misalin ya kai iyakar masu amfani {limit}."
+  },
+  "app.instance.share.limit-reached.description": {
+    "message": "Ka riga ka raba matsakaicin misalai {limit}."
+  },
+  "app.instance.share.limit-reached.heading": {
+    "message": "An kai iyakar misalan da aka raba"
+  },
+  "app.instance.share.limit-reached.manage-button": {
+    "message": "Sarrafa misalan da aka raba"
+  },
+  "app.instance.share.locked.empty-description-prefix": {
+    "message": "Kana buƙatar shiga a matsayin"
+  },
+  "app.instance.share.locked.empty-description-suffix": {
+    "message": "don shiga wannan shafin."
+  },
+  "app.instance.share.locked.linked-account-fallback": {
+    "message": "asusun da aka haɗa"
+  },
+  "app.instance.share.locked.signed-out-heading": {
+    "message": "Ba ka shiga ba"
+  },
+  "app.instance.share.locked.switch-account-button": {
+    "message": "Canja asusu"
+  },
+  "app.instance.share.locked.wrong-account-heading": {
+    "message": "Asusu mara daidai"
+  },
+  "app.instance.share.remove-user-modal.effect-access": {
+    "message": "Ba za su ƙara samun sabuntawa ga wannan misalin da aka raba ba"
+  },
+  "app.instance.share.remove-user-modal.effect-installed-copy": {
+    "message": "Duk kwafin da suka riga aka shigar zai kasance a na'urarsu"
+  },
+  "app.instance.share.remove-user-modal.effect-invite-again": {
+    "message": "Za ka iya sake gayyatarsu daga baya"
+  },
+  "app.instance.share.remove-user-modal.effect-last-user": {
+    "message": "Wannan shine mai amfani na ƙarshe, za a kashe raba wannan misalin"
+  },
+  "app.instance.share.remove-user-modal.effects-label": {
+    "message": "Me ke faruwa?"
+  },
+  "app.instance.share.remove-user-modal.header": {
+    "message": "Soke damar shiga"
+  },
+  "app.instance.share.remove-user-modal.remove-button": {
+    "message": "Soke damar shiga"
+  },
+  "app.instance.share.remove-user-modal.user-avatar-alt": {
+    "message": "Hoton {username}"
+  },
+  "app.instance.share.remove-user-modal.warning-body": {
+    "message": "Idan ka soke damar {username} ga wannan misalin da aka raba, kana buƙatar sake gayyatarsu kafin su sami sabuntawa."
+  },
+  "app.instance.share.sign-in.button": {
+    "message": "Shiga"
+  },
+  "app.instance.share.unable-to-connect.description": {
+    "message": "Sabis ɗin misalan da aka raba ba ya samuwa a yanzu, da fatan za a sake gwadawa daga baya"
+  },
+  "app.instance.share.unable-to-connect.heading": {
+    "message": "An kasa haɗi"
+  },
+  "app.instance.share.unlink.body": {
+    "message": "Dole ka cire haɗin wannan fakitin mod domin raba misalin wasa ɗinka"
+  },
+  "app.instance.share.unlink.header": {
+    "message": "Raba yana buƙatar cire haɗi"
+  },
+  "app.instance.shared-instance-already-installed.body": {
+    "message": "An riga an shigar da wannan misalin da aka raba a matsayin <bold>{instanceName}</bold>. Tabbas kana son shigar da wani kwafin?"
+  },
+  "app.instance.shared-instance-already-installed.header": {
+    "message": "An riga an shigar da misalin da aka raba"
+  },
+  "app.instance.shared-instance-already-installed.install-anyway": {
+    "message": "Shigar duk da haka"
+  },
+  "app.instance.shared-instance-already-installed.instance": {
+    "message": "Misalin wasa"
+  },
+  "app.instance.shared-instance-wrong-account.fallback-username": {
+    "message": "asusun da aka haɗa"
+  },
+  "app.instance.shared-instance-wrong-account.owner-admonition-body-v2": {
+    "message": "don sarrafa wannan misalin da aka raba. Ba za ka iya tura sabuntawa ga masu amfani ba."
+  },
+  "app.instance.shared-instance-wrong-account.sign-in-as-label": {
+    "message": "Shiga a matsayin"
+  },
+  "app.instance.shared-instance-wrong-account.signed-out-header": {
+    "message": "Kana buƙatar shiga Panda Minecraft Launcher"
+  },
+  "app.instance.shared-instance-wrong-account.user-admonition-body-v2": {
+    "message": "don samun sabuntawa ga wannan misalin da aka raba."
+  },
+  "app.instance.shared-instance-wrong-account.warning-header": {
+    "message": "Kana amfani da asusun Panda Minecraft Launcher mara daidai"
+  },
+  "app.instance.shortcut.created": {
+    "message": "An ƙirƙiri gajeriyar hanya"
+  },
+  "app.instance.shortcut.creation-error": {
+    "message": "Kuskure wajen ƙirƙirar gajeriyar hanya"
+  },
+  "app.instance.tab.content": {
+    "message": "Abun ciki"
+  },
+  "app.instance.tab.files": {
+    "message": "Fayiloli"
+  },
+  "app.instance.tab.logs": {
+    "message": "Rajistar aiki"
+  },
+  "app.instance.tab.screenshots": {
+    "message": "Hotunan kariyar kwamfuta"
+  },
+  "app.instance.tab.share": {
+    "message": "Raba"
+  },
+  "app.instance.tab.worlds": {
+    "message": "Duniyoyi"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Ƙara sabar"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Bince sabobin"
+  },
+  "app.instance.worlds.delete-world-modal.delete-button": {
+    "message": "Share duniya"
+  },
+  "app.instance.worlds.delete-world-modal.title": {
+    "message": "Share duniya"
+  },
+  "app.instance.worlds.delete-world-modal.warning-body": {
+    "message": "Za a share wannan duniyar daga misalin har abada. Ba za a iya soke wannan aikin ba."
+  },
+  "app.instance.worlds.delete-world-modal.warning-header": {
+    "message": "Ana share {name}"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Tare da mods"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Babu haɗin intanet"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Kan layi"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Ƙara sabar ko bincika don farawa"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Babu sabobin ko duniyoyin da aka ƙara"
+  },
+  "app.instance.worlds.refreshing": {
+    "message": "Ana sabuntawa..."
+  },
+  "app.instance.worlds.remove-server-modal.remove-button": {
+    "message": "Cire sabar"
+  },
+  "app.instance.worlds.remove-server-modal.remove-everywhere": {
+    "message": "Cire a duk wurare"
+  },
+  "app.instance.worlds.remove-server-modal.remove-here": {
+    "message": "Cire a nan"
+  },
+  "app.instance.worlds.remove-server-modal.synced-description": {
+    "message": "Za ka iya cire shi daga wannan misalin kawai ko daga duk misalan da aka daidaita. Idan ka cire shi daga wannan misalin kawai, za a kunna ƙetarewa kuma misalin ba zai ƙara karɓar canje-canjen sabar da aka daidaita ba."
+  },
+  "app.instance.worlds.remove-server-modal.synced-header": {
+    "message": "An daidaita wannan sabar"
+  },
+  "app.instance.worlds.remove-server-modal.title": {
+    "message": "Cire sabar"
+  },
+  "app.instance.worlds.remove-server-modal.warning-body": {
+    "message": "Za a cire wannan sabar daga jerin sabobinka da kuma jerin sabobin da ke cikin wasan. Za ka iya sake ƙara ta daga baya idan ka san adireshin."
+  },
+  "app.instance.worlds.remove-server-modal.warning-header": {
+    "message": "Ana cire {name}"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Nemi duniyoyi {count}..."
+  },
+  "app.java-detection.cancel": {
+    "message": "Soke"
+  },
+  "app.java-detection.columns.actions": {
+    "message": "Ayyuka"
+  },
+  "app.java-detection.columns.path": {
+    "message": "Hanya"
+  },
+  "app.java-detection.columns.version": {
+    "message": "Sigar"
+  },
+  "app.java-detection.no-installations-found": {
+    "message": "Babu shigarwar Java da aka samu."
+  },
+  "app.java-detection.select": {
+    "message": "Zaɓa"
+  },
+  "app.java-detection.selected": {
+    "message": "An zaɓa"
+  },
+  "app.java-detection.title": {
+    "message": "Zaɓi shigarwar Java"
+  },
+  "app.java-selector.browse": {
+    "message": "Bincika"
+  },
+  "app.java-selector.copy-failed-title": {
+    "message": "An kasa kwafi hanyar"
+  },
+  "app.java-selector.copy-path": {
+    "message": "Kwafi hanyar"
+  },
+  "app.java-selector.detect": {
+    "message": "Gano"
+  },
+  "app.java-selector.edit-path": {
+    "message": "Gyara hanyar"
+  },
+  "app.java-selector.install-java": {
+    "message": "Shigar da Java {version}"
+  },
+  "app.java-selector.installing": {
+    "message": "Ana shigarwa..."
+  },
+  "app.java-selector.invalid": {
+    "message": "Mara inganci"
+  },
+  "app.java-selector.more-options": {
+    "message": "Ƙarin zaɓuɓɓukan Java"
+  },
+  "app.java-selector.not-set": {
+    "message": "Babu Java da aka zaɓa"
+  },
+  "app.java-selector.path-copied-text": {
+    "message": "An kwafi hanyar Java zuwa allon kwafin ka."
+  },
+  "app.java-selector.path-copied-title": {
+    "message": "An kwafi hanyar"
+  },
+  "app.java-selector.path.placeholder": {
+    "message": "/path/to/java"
+  },
+  "app.java-selector.valid": {
+    "message": "Mai inganci"
+  },
+  "app.library.actions.label": {
+    "message": "Ayyukan ɗakin karatu"
+  },
+  "app.library.context-menu.create-instance": {
+    "message": "Sabon misalin wasa"
+  },
+  "app.library.filter.add": {
+    "message": "Ƙara tacewa"
+  },
+  "app.library.filter.clear": {
+    "message": "Share tacewa"
+  },
+  "app.library.filter.game-version": {
+    "message": "Sigar wasan"
+  },
+  "app.library.filter.install-state": {
+    "message": "Matsayin shigarwa"
+  },
+  "app.library.filter.install-state.installed": {
+    "message": "An shigar"
+  },
+  "app.library.filter.install-state.not-installed": {
+    "message": "Ba a shigar ba"
+  },
+  "app.library.filter.instance-type": {
+    "message": "Nau'in misalin wasa"
+  },
+  "app.library.filter.instance-type.custom": {
+    "message": "Na musamman"
+  },
+  "app.library.filter.instance-type.modpack": {
+    "message": "Fakitin mod"
+  },
+  "app.library.filter.instance-type.server": {
+    "message": "Sabar"
+  },
+  "app.library.filter.label": {
+    "message": "Tace ta"
+  },
+  "app.library.filter.loader": {
+    "message": "Loader"
+  },
+  "app.library.filter.owner": {
+    "message": "Mai shi"
+  },
+  "app.library.filter.owner.me": {
+    "message": "Kai"
+  },
+  "app.library.filter.owner.others": {
+    "message": "Wasu"
+  },
+  "app.library.filter.sharing": {
+    "message": "Raba"
+  },
+  "app.library.filter.sharing.not-shared": {
+    "message": "Ba a raba ba"
+  },
+  "app.library.filter.sharing.shared": {
+    "message": "An raba"
+  },
+  "app.library.group-by.custom-group": {
+    "message": "Ƙungiya ta musamman"
+  },
+  "app.library.group-by.game-version": {
+    "message": "Sigar wasan"
+  },
+  "app.library.group-by.instance-type": {
+    "message": "Nau'in misalin wasa"
+  },
+  "app.library.group-by.label": {
+    "message": "Raba ta ƙungiya"
+  },
+  "app.library.group-by.loader": {
+    "message": "Loader"
+  },
+  "app.library.group-by.none": {
+    "message": "Babu ƙungiya"
+  },
+  "app.library.group.actions.label": {
+    "message": "Ayyukan ƙungiya"
+  },
+  "app.library.group.collapse": {
+    "message": "Rufe ƙungiya"
+  },
+  "app.library.group.context-menu.add-to-group": {
+    "message": "Ƙara wa ƙungiya"
+  },
+  "app.library.group.create": {
+    "message": "Ƙirƙiri ƙungiya"
+  },
+  "app.library.group.create.cancel": {
+    "message": "Soke"
+  },
+  "app.library.group.delete": {
+    "message": "Share ƙungiya"
+  },
+  "app.library.group.delete-description": {
+    "message": "Misalan wasa a cikin wannan ƙungiyar za su zama marasa ƙungiya."
+  },
+  "app.library.group.edit-name": {
+    "message": "Gyara sunan ƙungiya"
+  },
+  "app.library.group.empty": {
+    "message": "Ja kuma sauke don ƙara misalan wasa."
+  },
+  "app.library.group.expand": {
+    "message": "Buɗe ƙungiya"
+  },
+  "app.library.group.favorites": {
+    "message": "Waɗanda aka fi so"
+  },
+  "app.library.group.instance.add": {
+    "message": "Ƙara"
+  },
+  "app.library.group.instance.added": {
+    "message": "An ƙara"
+  },
+  "app.library.group.instances-modal.add": {
+    "message": "Ƙara"
+  },
+  "app.library.group.instances-modal.added": {
+    "message": "An ƙara"
+  },
+  "app.library.group.instances-modal.no-instances-found": {
+    "message": "Babu misalan wasa da aka samu"
+  },
+  "app.library.group.instances-modal.search-placeholder": {
+    "message": "Nemi misalin wasa"
+  },
+  "app.library.group.instances-modal.title": {
+    "message": "Ƙara misalan wasa ga \"{groupName}\""
+  },
+  "app.library.group.move-down": {
+    "message": "Matsar da ƙungiya ƙasa"
+  },
+  "app.library.group.move-up": {
+    "message": "Matsar da ƙungiya sama"
+  },
+  "app.library.group.name": {
+    "message": "Sunan ƙungiya"
+  },
+  "app.library.group.name-empty": {
+    "message": "Sunayen ƙungiyoyi ba za su iya zama fanko ba."
+  },
+  "app.library.group.name-placeholder": {
+    "message": "Shigar da sunan ƙungiya"
+  },
+  "app.library.group.name-reserved": {
+    "message": "\"None\" an keɓe shi kuma ba za a iya amfani da shi a matsayin sunan ƙungiya ba."
+  },
+  "app.library.group.name-too-long": {
+    "message": "Sunayen ƙungiyoyi ba za su iya wuce haruffa {maxLength} ba."
+  },
+  "app.library.group.new": {
+    "message": "Sabuwar ƙungiya"
+  },
+  "app.library.group.no-instances-found": {
+    "message": "Babu misalan wasa da aka samu"
+  },
+  "app.library.group.rename-failed": {
+    "message": "An kasa sake sunan ƙungiya"
+  },
+  "app.library.group.search-instance": {
+    "message": "Nemi misalin wasa"
+  },
+  "app.library.group.ungrouped": {
+    "message": "Mara ƙungiya"
+  },
+  "app.library.group.unknown": {
+    "message": "Ƙungiya da ba a sani ba"
+  },
+  "app.library.instance-hidden.text": {
+    "message": "Za ka iya sake nuna shi a Saituna > ɗabi'a."
+  },
+  "app.library.instance-hidden.title": {
+    "message": "An ɓoye daga ɗakin karatu"
+  },
+  "app.library.instance.action.add-content": {
+    "message": "Ƙara abun ciki"
+  },
+  "app.library.instance.action.add-to-favorites": {
+    "message": "Ƙara wa waɗanda aka fi so"
+  },
+  "app.library.instance.action.copy-path": {
+    "message": "Kwafi hanyar"
+  },
+  "app.library.instance.action.delete": {
+    "message": "Share"
+  },
+  "app.library.instance.action.duplicate": {
+    "message": "Kwafi misalin wasa"
+  },
+  "app.library.instance.action.hide-from-library": {
+    "message": "Boye daga ɗakin karatu"
+  },
+  "app.library.instance.action.leave": {
+    "message": "Fita"
+  },
+  "app.library.instance.action.open-folder": {
+    "message": "Bude babban fayil"
+  },
+  "app.library.instance.action.play": {
+    "message": "Wasa"
+  },
+  "app.library.instance.action.remove-from-favorites": {
+    "message": "Cire daga waɗanda aka fi so"
+  },
+  "app.library.instance.action.remove-from-group": {
+    "message": "Cire daga ƙungiya"
+  },
+  "app.library.instance.action.show-in-library": {
+    "message": "Nuna a ɗakin karatu"
+  },
+  "app.library.instance.action.stop": {
+    "message": "Dakatar"
+  },
+  "app.library.instance.action.unpublish": {
+    "message": "Cire bugawa"
+  },
+  "app.library.instance.action.unpublish-and-leave": {
+    "message": "Cire bugawa kuma fita"
+  },
+  "app.library.instance.action.view-instance": {
+    "message": "Duba misalin wasa"
+  },
+  "app.library.instance.actions.label": {
+    "message": "Ayyukan misalin wasa"
+  },
+  "app.library.instance.deselect": {
+    "message": "Cire zaɓin misalin wasa"
+  },
+  "app.library.instance.deselect-with-name": {
+    "message": "Cire zaɓin {name}"
+  },
+  "app.library.instance.install": {
+    "message": "Shigar"
+  },
+  "app.library.instance.install-with-name": {
+    "message": "Shigar da {name}"
+  },
+  "app.library.instance.installing": {
+    "message": "Ana shigarwa..."
+  },
+  "app.library.instance.loading": {
+    "message": "Misalin wasa yana lodi..."
+  },
+  "app.library.instance.new": {
+    "message": "Sabon misalin wasa"
+  },
+  "app.library.instance.open-with-name": {
+    "message": "Bude {name}"
+  },
+  "app.library.instance.play": {
+    "message": "Wasa"
+  },
+  "app.library.instance.repair": {
+    "message": "Gyara"
+  },
+  "app.library.instance.select": {
+    "message": "Zaɓi misalin wasa"
+  },
+  "app.library.instance.select-with-name": {
+    "message": "Zaɓi {name}"
+  },
+  "app.library.instance.shared-by": {
+    "message": "An raba ta {name}"
+  },
+  "app.library.instance.shared-by-owner": {
+    "message": "An raba ta <owner>{name}</owner>"
+  },
+  "app.library.instance.shared-by-you": {
+    "message": "Kai ka raba ta"
+  },
+  "app.library.instance.stop": {
+    "message": "Dakatar"
+  },
+  "app.library.leave-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {You'll lose access to this shared instance and it will be removed from your library. You'll need a new invite to join it again.} other {You'll lose access to these shared instances and they will be removed from your library. You'll need a new invite to join them again.}}"
+  },
+  "app.library.leave-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Leaving shared instance} other {Leaving # shared instances}}"
+  },
+  "app.library.leave-shared-instance.modal.header": {
+    "message": "{count, plural, one {Leave shared instance} other {Leave # shared instances}}"
+  },
+  "app.library.search.no-results.title": {
+    "message": "Babu misalan wasa da suka dace da bincinka."
+  },
+  "app.library.search.placeholder": {
+    "message": "Nema"
+  },
+  "app.library.selection.aria-label": {
+    "message": "Misalan wasa da aka zaɓa"
+  },
+  "app.library.selection.deleting": {
+    "message": "Ana share misalan wasa da aka zaɓa"
+  },
+  "app.library.selection.new-group": {
+    "message": "Sabuwar ƙungiya"
+  },
+  "app.library.selection.remove-from-group": {
+    "message": "Cire daga ƙungiya"
+  },
+  "app.library.selection.removing-shared-instances": {
+    "message": "Ana cire misalan da aka raba da aka zaɓa"
+  },
+  "app.library.selection.selected-count": {
+    "message": "An zaɓi {count}"
+  },
+  "app.library.sort.date-created": {
+    "message": "Ranar ƙirƙirawa"
+  },
+  "app.library.sort.date-modified": {
+    "message": "Ranar gyarawa"
+  },
+  "app.library.sort.game-version": {
+    "message": "Sigar wasan"
+  },
+  "app.library.sort.hours-played": {
+    "message": "Sa'o'in wasa"
+  },
+  "app.library.sort.label": {
+    "message": "Jera ta"
+  },
+  "app.library.sort.last-played": {
+    "message": "Wasa na ƙarshe"
+  },
+  "app.library.sort.loader": {
+    "message": "Loader"
+  },
+  "app.library.sort.name": {
+    "message": "Suna"
+  },
+  "app.library.title": {
+    "message": "Dakin karatu"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-body": {
+    "message": "{unpublishCount, plural, one {The # shared instance you own will be deleted from Panda Minecraft Launcher's servers, and people using it} other {The # shared instances you own will be deleted from Panda Minecraft Launcher's servers, and people using them}} za su daina samun sabuntawa. {leaveCount, plural, one {You'll lose access to the other shared instance and need a new invite to rejoin it.} other {You'll lose access to the other # shared instances and need a new invite to rejoin them.}} Dukansu za a cire su daga ɗakin karatunka."
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.admonition-header": {
+    "message": "Ana cire bugawa kuma ana fita daga misalan da aka raba"
+  },
+  "app.library.unpublish-and-leave-shared-instances.modal.header": {
+    "message": "Cire bugawa kuma fita daga misalai {count} da aka raba"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-body": {
+    "message": "{count, plural, one {This deletes the shared instance from Panda Minecraft Launcher's servers. People using it in the Panda Minecraft Launcher will stop receiving updates, and it will be removed from your library.} other {This deletes these shared instances from Panda Minecraft Launcher's servers. People using them in the Panda Minecraft Launcher will stop receiving updates, and they will be removed from your library.}}"
+  },
+  "app.library.unpublish-shared-instance.modal.admonition-header": {
+    "message": "{count, plural, one {Unpublishing shared instance} other {Unpublishing # shared instances}}"
+  },
+  "app.library.unpublish-shared-instance.modal.header": {
+    "message": "{count, plural, one {Unpublish shared instance} other {Unpublish # shared instances}}"
+  },
+  "app.modal.install-to-play.additional-context": {
+    "message": "Ƙarin mahallin bayani"
+  },
+  "app.modal.install-to-play.additional-context-placeholder": {
+    "message": "Haɗa hanyoyin haɗi da hotuna idan yana yiwuwa kuma ya dace"
+  },
+  "app.modal.install-to-play.block-user": {
+    "message": "Katange mai amfani"
+  },
+  "app.modal.install-to-play.content-you-are-reporting": {
+    "message": "Misalin da ake bayarwa"
+  },
+  "app.modal.install-to-play.delete-instance": {
+    "message": "Share misalin wasa"
+  },
+  "app.modal.install-to-play.external-files-dont-install": {
+    "message": "Kada a shigar"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Shigar don yin wasa"
+  },
+  "app.modal.install-to-play.install-anyway": {
+    "message": "Shigar duk da haka"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "Shigar"
+  },
+  "app.modal.install-to-play.invite-warning": {
+    "message": "Wani mai amfani da Panda Minecraft Launcher ne ya ƙirƙiri wannan gayyatar, ba Panda Minecraft Launcher ba. Karɓi gayyato daga mutanen da ka amince da su kawai."
+  },
+  "app.modal.install-to-play.invite-warning-with-creator": {
+    "message": "<creator>{username}</creator> ne ya ƙirƙiri wannan gayyatar, ba Panda Minecraft Launcher ba. Karɓi gayyato daga mutanen da ka amince da su kawai."
+  },
+  "app.modal.install-to-play.managed-content.modpack-header": {
+    "message": "Abun cikin fakitin mod"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# mod} other {# mods}}"
+  },
+  "app.modal.install-to-play.owner-install-note": {
+    "message": "Wannan yana zazzage sabuwar sigar da ka tura. Canje-canje a sauran shigarwar da ba ka tura ba ba za a haɗa su ba."
+  },
+  "app.modal.install-to-play.report-description": {
+    "message": "Yi amfani da wannan fom ɗin don bayar da rahoton misalan da za su iya keta <rules-link>Dokoki</rules-link> ko <terms-link>Sharuɗɗan Amfani</terms-link>."
+  },
+  "app.modal.install-to-play.report-image-invalid-type": {
+    "message": "Fayil ɗin ba nau'in hoto da ake karɓa ba ne"
+  },
+  "app.modal.install-to-play.report-image-too-large": {
+    "message": "Fayil ɗin ya wuce iyakar girman 1 MiB"
+  },
+  "app.modal.install-to-play.report-legal-claims": {
+    "message": "Don sanarwar DMCA ko wasu da'awar shari'a, duba <copyright-link>Manufar Haƙƙin Mallaka</copyright-link>."
+  },
+  "app.modal.install-to-play.report-reason": {
+    "message": "Wace doka ce wannan misalin ya keta?"
+  },
+  "app.modal.install-to-play.report-shared-instance-header": {
+    "message": "Bayar da rahoton misalin da aka raba"
+  },
+  "app.modal.install-to-play.report-submitted": {
+    "message": "An gabatar da rahoto"
+  },
+  "app.modal.install-to-play.report-support-and-bugs": {
+    "message": "Don neman taimako, tuntuɓi <support-link>ƙungiyar tallafi</support-link>. Don rahoton kurakurai, buɗe <github-link>batun GitHub</github-link>."
+  },
+  "app.modal.install-to-play.reviewed-files": {
+    "message": "Ba a duba fayilolin da ba a buga su a Panda Minecraft Launcher ba."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "Misalin wasa da aka raba"
+  },
+  "app.modal.install-to-play.shared-instance-content": {
+    "message": "Abun cikin misalin da aka raba"
+  },
+  "app.modal.install-to-play.shared-instance-unknown-files-description": {
+    "message": "Wannan misalin da aka raba yana ɗauke da fayilolin da ba a buga su a Panda Minecraft Launcher ba. Muna ƙarfafa shigar da fayiloli daga tushen da ka amince da su kawai."
+  },
+  "app.modal.install-to-play.unavailable-description": {
+    "message": "Ba za a iya zazzage sigar fakitin mod da wannan sabar ke amfani da ita a yanzu ba. Ƙila ba a buga ta ba ko tana ƙarƙashin dubawa. Sake gwadawa daga baya ko tuntuɓi mai sabar."
+  },
+  "app.modal.install-to-play.unavailable-header": {
+    "message": "Fakitin mod na wannan sabar ba ya samuwa"
+  },
+  "app.modal.install-to-play.unknown-files-description": {
+    "message": "Fakitin mod na wannan sabar yana ɗauke da fayilolin da ba a buga su a Panda Minecraft Launcher ba. Muna ƙarfafa shigar da fayiloli daga tushen da ka amince da su kawai."
+  },
+  "app.modal.install-to-play.unknown-files-warning": {
+    "message": "Gargadi game da fayilolin da ba a sani ba"
+  },
+  "app.modal.install-to-play.unrecognized-files": {
+    "message": "Fayilolin da ba a gane su ba"
+  },
+  "app.modal.install-to-play.user-blocked": {
+    "message": "An katange mai amfani"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "Duba abubuwan da ke ciki"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "Sabunta don yin wasa"
+  },
+  "app.modal.update-to-play.owner-admonition-header": {
+    "message": "An tura daga wani shigarwa"
+  },
+  "app.modal.update-to-play.owner-description": {
+    "message": "An tura waɗannan canje-canjen daga wani shigarwar Panda Minecraft Launcher. Canje-canjen abun cikin da aka raba a wannan shigarwar da ba a tura ba za a maye gurbinsu."
+  },
+  "app.modal.update-to-play.owner-header": {
+    "message": "Akwai sabuntawa"
+  },
+  "app.modal.update-to-play.removed": {
+    "message": "An cire"
+  },
+  "app.modal.update-to-play.server-modpack-unknown-files-description": {
+    "message": "Sabuntawar fakitin mod na wannan sabar yana ɗauke da fayilolin da ba a buga su a Panda Minecraft Launcher ba. Muna ƙarfafa shigar da fayiloli daga tushen da ka amince da su kawai."
+  },
+  "app.modal.update-to-play.shared-instance-added-label": {
+    "message": "An ƙara"
+  },
+  "app.modal.update-to-play.shared-instance-removed-label": {
+    "message": "An cire"
+  },
+  "app.modal.update-to-play.shared-instance-unknown-files-description": {
+    "message": "Sabuntawar misalin da aka raba yana ɗauke da fayilolin da ba a buga su a Panda Minecraft Launcher ba. Muna ƙarfafa shigar da fayiloli daga tushen da ka amince da su kawai."
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "Ana buƙatar sabuntawa"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "Ana buƙatar sabuntawa don yin wasa {name}. Da fatan za a sabunta zuwa sabuwar siga don ƙaddamar da wasan."
+  },
+  "app.nav.account-management": {
+    "message": "Sarrafa asusu"
+  },
+  "app.nav.add-account": {
+    "message": "Ƙara asusu"
+  },
+  "app.nav.create-new-instance": {
+    "message": "Ƙirƙiri sabon misalin wasa"
+  },
+  "app.nav.home": {
+    "message": "Gida"
+  },
+  "app.nav.loading-profile": {
+    "message": "Ana loda bayanan martaba..."
+  },
+  "app.nav.modrinth-account": {
+    "message": "Asusun Panda Minecraft Launcher"
+  },
+  "app.nav.modrinth-hosting": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.nav.remove-account": {
+    "message": "Cire asusu"
+  },
+  "app.nav.screenshots": {
+    "message": "Hotunan kariyar kwamfuta"
+  },
+  "app.nav.sign-in-to-modrinth-account": {
+    "message": "Shiga Panda Minecraft Launcher"
+  },
+  "app.nav.switch-account": {
+    "message": "Canja asusu"
+  },
+  "app.nav.upgrade-to-modrinth-plus": {
+    "message": "Haɓaka zuwa Panda Minecraft Launcher"
+  },
+  "app.nav.view-profile": {
+    "message": "Duba bayanan martaba"
+  },
+  "app.navigation.go-back": {
+    "message": "Komawa baya"
+  },
+  "app.navigation.go-forward": {
+    "message": "Gaba"
+  },
+  "app.navigation.home": {
+    "message": "Gida"
+  },
+  "app.news.title": {
+    "message": "Labarai"
+  },
+  "app.news.view-all": {
+    "message": "Duba duk labarai"
+  },
+  "app.notification.warning": {
+    "message": "Gargadi"
+  },
+  "app.project.actions.label": {
+    "message": "Ayyukan aikin"
+  },
+  "app.project.coming-soon": {
+    "message": "Nan ba da jimawa ba"
+  },
+  "app.project.install-button.already-installed": {
+    "message": "An riga an shigar da wannan aikin"
+  },
+  "app.project.install-button.switch-version": {
+    "message": "Canja sigar"
+  },
+  "app.project.install-context.back-to-browse": {
+    "message": "Komawa ga ganowa"
+  },
+  "app.project.install-context.back-to-instance": {
+    "message": "Komawa ga misalin wasa"
+  },
+  "app.project.load-error": {
+    "message": "An kasa loda bayanan aikin."
+  },
+  "app.project.more-options": {
+    "message": "Ƙarin zaɓuɓɓuka"
+  },
+  "app.project.tab.description": {
+    "message": "Bayani"
+  },
+  "app.project.tab.gallery": {
+    "message": "Hotuna"
+  },
+  "app.project.tab.versions": {
+    "message": "Siggogi"
+  },
+  "app.project.version.all-versions": {
+    "message": "Duk sigogi"
+  },
+  "app.project.version.download-in-browser": {
+    "message": "Zazzage a cikin burauzar"
+  },
+  "app.project.version.installing": {
+    "message": "Ana shigarwa"
+  },
+  "app.project.versions.already-installed": {
+    "message": "An riga an shigar"
+  },
+  "app.quick-instance-switcher.actions.label": {
+    "message": "Ayyukan misalin wasa"
+  },
+  "app.quick-instance-switcher.drag-show-tooltip": {
+    "message": "Ja don nuna misalan wasa na kwanan nan"
+  },
+  "app.quick-instance-switcher.drag-tooltip": {
+    "message": "Ja don canza girma"
+  },
+  "app.quick-instance-switcher.instance-locked": {
+    "message": "An kulle wannan misalin wasa"
+  },
+  "app.quick-instance-switcher.title": {
+    "message": "Misalan wasa na kwanan nan"
+  },
+  "app.quick-instance-switcher.view-instance": {
+    "message": "Duba misalin wasa"
+  },
+  "app.restarting": {
+    "message": "Ana sake farawa..."
+  },
+  "app.screenshots.copied": {
+    "message": "An kwafi"
+  },
+  "app.screenshots.copy": {
+    "message": "Kwafi hoton"
+  },
+  "app.screenshots.delete-description": {
+    "message": "Share {name} har abada? Ba za a iya soke wannan aikin ba."
+  },
+  "app.screenshots.delete-success": {
+    "message": "An share hoton kariyar kwamfuta"
+  },
+  "app.screenshots.delete-title": {
+    "message": "Share hoton kariyar kwamfuta"
+  },
+  "app.screenshots.deselect": {
+    "message": "Cire zaɓin {name}"
+  },
+  "app.screenshots.edit": {
+    "message": "Gyara hoton kariyar kwamfuta"
+  },
+  "app.screenshots.empty-description": {
+    "message": "Hotunan kariyar da ka ɗauka a cikin wasan za su bayyana nan."
+  },
+  "app.screenshots.empty-heading": {
+    "message": "Babu hotunan kariyar kwamfuta tukuna"
+  },
+  "app.screenshots.error-heading": {
+    "message": "An kasa loda hotunan kariyar kwamfuta"
+  },
+  "app.screenshots.go-to-instance": {
+    "message": "Je zuwa misalin wasa"
+  },
+  "app.screenshots.group-by": {
+    "message": "Raba ta ƙungiya"
+  },
+  "app.screenshots.group.all-screenshots": {
+    "message": "Duk hotunan kariyar kwamfuta"
+  },
+  "app.screenshots.group.collapse": {
+    "message": "Rufe ƙungiya"
+  },
+  "app.screenshots.group.custom": {
+    "message": "Ƙungiya ta musamman"
+  },
+  "app.screenshots.group.date": {
+    "message": "Kwanan wata"
+  },
+  "app.screenshots.group.delete": {
+    "message": "Share ƙungiya"
+  },
+  "app.screenshots.group.delete-description": {
+    "message": "Hotunan da ke cikin wannan ƙungiyar za su zama marasa ƙungiya."
+  },
+  "app.screenshots.group.edit": {
+    "message": "Gyara sunan ƙungiya"
+  },
+  "app.screenshots.group.empty": {
+    "message": "Ja kuma sauke don ƙara hotuna."
+  },
+  "app.screenshots.group.expand": {
+    "message": "Buɗe ƙungiya"
+  },
+  "app.screenshots.group.instance": {
+    "message": "Misalin wasa"
+  },
+  "app.screenshots.group.new": {
+    "message": "Sabuwar ƙungiya"
+  },
+  "app.screenshots.group.none": {
+    "message": "Babu ƙungiya"
+  },
+  "app.screenshots.group.this-month": {
+    "message": "Wannan watan"
+  },
+  "app.screenshots.group.this-week": {
+    "message": "Wannan makon"
+  },
+  "app.screenshots.group.today": {
+    "message": "Yau"
+  },
+  "app.screenshots.group.ungrouped": {
+    "message": "Mara ƙungiya"
+  },
+  "app.screenshots.group.yesterday": {
+    "message": "Jiya"
+  },
+  "app.screenshots.heading": {
+    "message": "Hotunan kariyar kwamfuta"
+  },
+  "app.screenshots.more-actions": {
+    "message": "Ƙarin ayyuka"
+  },
+  "app.screenshots.no-results-description": {
+    "message": "Gwada wani bincike ko tacewa daban."
+  },
+  "app.screenshots.no-results-heading": {
+    "message": "Babu hotunan da suka dace"
+  },
+  "app.screenshots.preview.instance-and-date": {
+    "message": "{instance} · {date}"
+  },
+  "app.screenshots.search": {
+    "message": "Nema"
+  },
+  "app.screenshots.select": {
+    "message": "Zaɓi {name}"
+  },
+  "app.screenshots.selection.aria-label": {
+    "message": "Hotunan da aka zaɓa"
+  },
+  "app.screenshots.selection.delete-description": {
+    "message": "Share {count, plural, one {# screenshot} other {# screenshots}}? Ba za a iya soke wannan aikin ba."
+  },
+  "app.screenshots.selection.delete-success": {
+    "message": "{count, plural, one {# screenshot deleted} other {# screenshots deleted}}"
+  },
+  "app.screenshots.selection.delete-title": {
+    "message": "Share hotunan da aka zaɓa"
+  },
+  "app.screenshots.selection.export-zip": {
+    "message": "Fitar da ZIP"
+  },
+  "app.screenshots.selection.global-export-filename": {
+    "message": "Panda Minecraft Launcher screenshots.zip"
+  },
+  "app.screenshots.selection.instance-export-filename": {
+    "message": "{instance} screenshots.zip"
+  },
+  "app.screenshots.selection.remove-from-group": {
+    "message": "Cire daga ƙungiya"
+  },
+  "app.screenshots.selection.selected-count": {
+    "message": "An zaɓi {count}"
+  },
+  "app.screenshots.selection.zip-archive": {
+    "message": "Fayil na ZIP"
+  },
+  "app.screenshots.show-in-folder": {
+    "message": "Nuna a babban fayil"
+  },
+  "app.screenshots.sort-by": {
+    "message": "Jera ta"
+  },
+  "app.screenshots.sort.name": {
+    "message": "Suna"
+  },
+  "app.screenshots.sort.newest": {
+    "message": "Mafi zamani"
+  },
+  "app.screenshots.sort.oldest": {
+    "message": "Mafi dā"
+  },
+  "app.server-sharing-update.notification.description": {
+    "message": "Gayyaci abokai su yi wasa da misalin da sabar kuke sarrafawa."
+  },
+  "app.server-sharing-update.notification.dismiss": {
+    "message": "Watsar"
+  },
+  "app.server-sharing-update.notification.purchase-description": {
+    "message": "Sami sabar kuma gayyaci abokai su yi wasa da misalin da take sarrafawa."
+  },
+  "app.server-sharing-update.notification.view-update": {
+    "message": "Duba sabuntawa"
+  },
+  "app.server-sharing-update.title": {
+    "message": "Raba sabobin da abokai"
+  },
+  "app.settings.app-version": {
+    "message": "Panda Minecraft Launcher {version}"
+  },
+  "app.settings.default-instance-options.environment-variables.description": {
+    "message": "Masu canjin muhalli da aka saita lokacin ƙaddamar da misali."
+  },
+  "app.settings.default-instance-options.environment-variables.placeholder": {
+    "message": "Shigar da masu canjin muhalli..."
+  },
+  "app.settings.default-instance-options.environment-variables.title": {
+    "message": "Masu canjin muhalli"
+  },
+  "app.settings.default-instance-options.fullscreen.description": {
+    "message": "Fara misalai a cikakken allon ta hanyar sabunta fayil ɗinsu na options.txt."
+  },
+  "app.settings.default-instance-options.fullscreen.title": {
+    "message": "Cikakken allo"
+  },
+  "app.settings.default-instance-options.height.description": {
+    "message": "Tsayin tagar wasan lokacin ƙaddamarwa."
+  },
+  "app.settings.default-instance-options.height.placeholder": {
+    "message": "Shigar da tsayi..."
+  },
+  "app.settings.default-instance-options.height.title": {
+    "message": "Tsayi"
+  },
+  "app.settings.default-instance-options.java-arguments.description": {
+    "message": "Hujjojin da ake watsawa ga Java lokacin ƙaddamar da misali."
+  },
+  "app.settings.default-instance-options.java-arguments.placeholder": {
+    "message": "Shigar da hujjojin Java..."
+  },
+  "app.settings.default-instance-options.java-arguments.title": {
+    "message": "Hujjojin Java"
+  },
+  "app.settings.default-instance-options.memory-allocation.description": {
+    "message": "Matsakaicin ƙwaƙwalwar da ke samuwa ga kowane misali."
+  },
+  "app.settings.default-instance-options.memory-allocation.title": {
+    "message": "Rabon ƙwaƙwalwa"
+  },
+  "app.settings.default-instance-options.post-exit-hook.description": {
+    "message": "Yana gudana bayan wasan ya rufe."
+  },
+  "app.settings.default-instance-options.post-exit-hook.placeholder": {
+    "message": "Shigar da umarnin bayan fita..."
+  },
+  "app.settings.default-instance-options.post-exit-hook.title": {
+    "message": "Aikin bayan fita"
+  },
+  "app.settings.default-instance-options.pre-launch-hook.description": {
+    "message": "Yana gudana kafin misalin ya fara."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.placeholder": {
+    "message": "Shigar da umarnin kafin ƙaddamarwa..."
+  },
+  "app.settings.default-instance-options.pre-launch-hook.title": {
+    "message": "Aikin kafin ƙaddamarwa"
+  },
+  "app.settings.default-instance-options.width.description": {
+    "message": "Faɗin tagar wasan lokacin ƙaddamarwa."
+  },
+  "app.settings.default-instance-options.width.placeholder": {
+    "message": "Shigar da faɗi..."
+  },
+  "app.settings.default-instance-options.width.title": {
+    "message": "Faɗi"
+  },
+  "app.settings.default-instance-options.wrapper-hook.description": {
+    "message": "Umarni da ake amfani da shi don nannade tsarin ƙaddamar da Minecraft."
+  },
+  "app.settings.default-instance-options.wrapper-hook.placeholder": {
+    "message": "Shigar da umarnin nannadewa..."
+  },
+  "app.settings.default-instance-options.wrapper-hook.title": {
+    "message": "Aikin nannadewa"
+  },
+  "app.settings.developer-mode-button.label": {
+    "message": "Kunna ko kashe yanayin haɓakawa"
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "An kunna yanayin haɓakawa."
+  },
+  "app.settings.downloading": {
+    "message": "Ana zazzage v{version}"
+  },
+  "app.settings.game-options.category.accessibility.description": {
+    "message": "Zaɓuɓɓukan samun dama"
+  },
+  "app.settings.game-options.category.accessibility.label": {
+    "message": "Samun dama"
+  },
+  "app.settings.game-options.category.chat.description": {
+    "message": "Ganin taɗi da kamanninsa"
+  },
+  "app.settings.game-options.category.chat.label": {
+    "message": "Taɗi"
+  },
+  "app.settings.game-options.category.controls.description": {
+    "message": "Linzamin kwamfuta, motsi, da maɓallan sarrafawa"
+  },
+  "app.settings.game-options.category.controls.label": {
+    "message": "Sarrafawa"
+  },
+  "app.settings.game-options.category.custom.description": {
+    "message": "Saitunan da mods suka ƙara"
+  },
+  "app.settings.game-options.category.custom.label": {
+    "message": "Saituna na musamman"
+  },
+  "app.settings.game-options.category.language.description": {
+    "message": "Harshen wasan"
+  },
+  "app.settings.game-options.category.language.label": {
+    "message": "Harshe"
+  },
+  "app.settings.game-options.category.music-and-sound.description": {
+    "message": "Zaɓuɓɓukan sauti da ƙarar sauti"
+  },
+  "app.settings.game-options.category.music-and-sound.label": {
+    "message": "Kiɗa da sauti"
+  },
+  "app.settings.game-options.category.online.description": {
+    "message": "Zaɓuɓɓukan kan layi da Realms"
+  },
+  "app.settings.game-options.category.online.label": {
+    "message": "Kan layi"
+  },
+  "app.settings.game-options.category.skin-customization.description": {
+    "message": "Yaduddukan fata da babban hannu"
+  },
+  "app.settings.game-options.category.skin-customization.label": {
+    "message": "Keɓance fata"
+  },
+  "app.settings.game-options.category.video.description": {
+    "message": "Saitunan kyamara da nunawa"
+  },
+  "app.settings.game-options.category.video.label": {
+    "message": "Bidiyo"
+  },
+  "app.settings.game-options.choice.all": {
+    "message": "Duka"
+  },
+  "app.settings.game-options.choice.balanced": {
+    "message": "Daidaitacce"
+  },
+  "app.settings.game-options.choice.by-player": {
+    "message": "Ta ɗan wasa"
+  },
+  "app.settings.game-options.choice.chat": {
+    "message": "Taɗi"
+  },
+  "app.settings.game-options.choice.commands-only": {
+    "message": "Umarni kawai"
+  },
+  "app.settings.game-options.choice.constant": {
+    "message": "Akwai"
+  },
+  "app.settings.game-options.choice.crosshair": {
+    "message": "Mallasto"
+  },
+  "app.settings.game-options.choice.custom": {
+    "message": "Na musamman"
+  },
+  "app.settings.game-options.choice.decreased": {
+    "message": "Rage"
+  },
+  "app.settings.game-options.choice.default": {
+    "message": "Asali"
+  },
+  "app.settings.game-options.choice.fabulous": {
+    "message": "Kyakkyawa sosai"
+  },
+  "app.settings.game-options.choice.fancy": {
+    "message": "Kyakkyawa"
+  },
+  "app.settings.game-options.choice.far": {
+    "message": "Nisa"
+  },
+  "app.settings.game-options.choice.fast": {
+    "message": "Sauri"
+  },
+  "app.settings.game-options.choice.frequent": {
+    "message": "Akai-akai"
+  },
+  "app.settings.game-options.choice.hidden": {
+    "message": "Boye"
+  },
+  "app.settings.game-options.choice.hotbar": {
+    "message": "Sashin gaggawa"
+  },
+  "app.settings.game-options.choice.left": {
+    "message": "Hagu"
+  },
+  "app.settings.game-options.choice.limited": {
+    "message": "Iyakatacce"
+  },
+  "app.settings.game-options.choice.max-fps": {
+    "message": "Matsakaicin FPS"
+  },
+  "app.settings.game-options.choice.maximum": {
+    "message": "Matsakaici"
+  },
+  "app.settings.game-options.choice.minimal": {
+    "message": "Mafi ƙanƙanta"
+  },
+  "app.settings.game-options.choice.minimum": {
+    "message": "Mafi ƙaranci"
+  },
+  "app.settings.game-options.choice.nearby": {
+    "message": "Kusa"
+  },
+  "app.settings.game-options.choice.never": {
+    "message": "Taba"
+  },
+  "app.settings.game-options.choice.none": {
+    "message": "Babu"
+  },
+  "app.settings.game-options.choice.normal": {
+    "message": "Na yau da kullun"
+  },
+  "app.settings.game-options.choice.off": {
+    "message": "Kashe"
+  },
+  "app.settings.game-options.choice.on": {
+    "message": "Kunna"
+  },
+  "app.settings.game-options.choice.opengl": {
+    "message": "OpenGL"
+  },
+  "app.settings.game-options.choice.pause": {
+    "message": "Menu na dakatarwa"
+  },
+  "app.settings.game-options.choice.pause-and-toast": {
+    "message": "Menu na dakatarwa da sanarwa"
+  },
+  "app.settings.game-options.choice.power-saver": {
+    "message": "Mai adana wuta"
+  },
+  "app.settings.game-options.choice.right": {
+    "message": "Dama"
+  },
+  "app.settings.game-options.choice.short": {
+    "message": "Gajere"
+  },
+  "app.settings.game-options.choice.shown": {
+    "message": "A bayyane"
+  },
+  "app.settings.game-options.choice.system": {
+    "message": "Tsarin"
+  },
+  "app.settings.game-options.choice.tiny": {
+    "message": "Ƙanƙanta sosai"
+  },
+  "app.settings.game-options.choice.vulkan": {
+    "message": "Vulkan"
+  },
+  "app.settings.game-options.choice.when-minimized": {
+    "message": "Lokacin rage girman"
+  },
+  "app.settings.game-options.choice.while-afk": {
+    "message": "Lokacin AFK"
+  },
+  "app.settings.game-options.compatibility.none": {
+    "message": "Wasu misalan wasa ba za su iya amfani da wannan saitin ba"
+  },
+  "app.settings.game-options.compatibility.reason.launcher-controlled": {
+    "message": "Panda Minecraft Launcher ne ke sarrafa wannan saitin ta saitunan ƙaddamarwa."
+  },
+  "app.settings.game-options.custom-value.placeholder": {
+    "message": "Shigar da ƙima"
+  },
+  "app.settings.game-options.keybind.assigned-status": {
+    "message": "An ɗaure {setting} da {binding} yanzu."
+  },
+  "app.settings.game-options.keybind.cancelled-status": {
+    "message": "An soke canjin ɗaurin maɓalli."
+  },
+  "app.settings.game-options.keybind.change": {
+    "message": "{setting}: {binding}. Kunna don canza ɗaurin."
+  },
+  "app.settings.game-options.keybind.choose": {
+    "message": "Zaɓi maɓalli"
+  },
+  "app.settings.game-options.keybind.conflict-description": {
+    "message": "An riga yin amfani da shi ga {settings}."
+  },
+  "app.settings.game-options.keybind.key.arrow-down": {
+    "message": "Down Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-left": {
+    "message": "Left Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-right": {
+    "message": "Right Arrow"
+  },
+  "app.settings.game-options.keybind.key.arrow-up": {
+    "message": "Up Arrow"
+  },
+  "app.settings.game-options.keybind.key.backspace": {
+    "message": "Backspace"
+  },
+  "app.settings.game-options.keybind.key.caps-lock": {
+    "message": "Caps Lock"
+  },
+  "app.settings.game-options.keybind.key.delete": {
+    "message": "Share"
+  },
+  "app.settings.game-options.keybind.key.end": {
+    "message": "End"
+  },
+  "app.settings.game-options.keybind.key.enter": {
+    "message": "Enter"
+  },
+  "app.settings.game-options.keybind.key.escape": {
+    "message": "Escape"
+  },
+  "app.settings.game-options.keybind.key.home": {
+    "message": "Gida"
+  },
+  "app.settings.game-options.keybind.key.insert": {
+    "message": "Insert"
+  },
+  "app.settings.game-options.keybind.key.keypad-key": {
+    "message": "Numpad {key}"
+  },
+  "app.settings.game-options.keybind.key.left-alt": {
+    "message": "Left Alt"
+  },
+  "app.settings.game-options.keybind.key.left-command": {
+    "message": "Left Command"
+  },
+  "app.settings.game-options.keybind.key.left-control": {
+    "message": "Left Ctrl"
+  },
+  "app.settings.game-options.keybind.key.left-shift": {
+    "message": "Left Shift"
+  },
+  "app.settings.game-options.keybind.key.left-super": {
+    "message": "Left Super"
+  },
+  "app.settings.game-options.keybind.key.menu": {
+    "message": "Menu"
+  },
+  "app.settings.game-options.keybind.key.num-lock": {
+    "message": "Num Lock"
+  },
+  "app.settings.game-options.keybind.key.page-down": {
+    "message": "Page Down"
+  },
+  "app.settings.game-options.keybind.key.page-up": {
+    "message": "Page Up"
+  },
+  "app.settings.game-options.keybind.key.pause": {
+    "message": "Pause"
+  },
+  "app.settings.game-options.keybind.key.print-screen": {
+    "message": "Print Screen"
+  },
+  "app.settings.game-options.keybind.key.right-alt": {
+    "message": "Right Alt"
+  },
+  "app.settings.game-options.keybind.key.right-command": {
+    "message": "Right Command"
+  },
+  "app.settings.game-options.keybind.key.right-control": {
+    "message": "Right Ctrl"
+  },
+  "app.settings.game-options.keybind.key.right-shift": {
+    "message": "Right Shift"
+  },
+  "app.settings.game-options.keybind.key.right-super": {
+    "message": "Right Super"
+  },
+  "app.settings.game-options.keybind.key.scroll-lock": {
+    "message": "Scroll Lock"
+  },
+  "app.settings.game-options.keybind.key.space": {
+    "message": "Space"
+  },
+  "app.settings.game-options.keybind.key.tab": {
+    "message": "Tab"
+  },
+  "app.settings.game-options.keybind.key.unbound": {
+    "message": "Ba a ɗaure ba"
+  },
+  "app.settings.game-options.keybind.key.unknown": {
+    "message": "Maɓalli da ba a sani ba"
+  },
+  "app.settings.game-options.keybind.listen": {
+    "message": "Danna maɓalli…"
+  },
+  "app.settings.game-options.keybind.listening-status": {
+    "message": "Ana jiran maɓalli ko maɓallin linzamin kwamfuta. Danna Escape don cire wannan ɗaurin."
+  },
+  "app.settings.game-options.keybind.mixed": {
+    "message": "Ya bambanta tsakanin misalai"
+  },
+  "app.settings.game-options.keybind.modifier.alt": {
+    "message": "Alt"
+  },
+  "app.settings.game-options.keybind.modifier.command": {
+    "message": "Command"
+  },
+  "app.settings.game-options.keybind.modifier.control": {
+    "message": "Ctrl"
+  },
+  "app.settings.game-options.keybind.modifier.shift": {
+    "message": "Shift"
+  },
+  "app.settings.game-options.keybind.modifier.super": {
+    "message": "Super"
+  },
+  "app.settings.game-options.keybind.mouse.button": {
+    "message": "Mouse {button}"
+  },
+  "app.settings.game-options.keybind.mouse.left": {
+    "message": "Left Mouse"
+  },
+  "app.settings.game-options.keybind.mouse.middle": {
+    "message": "Middle Mouse"
+  },
+  "app.settings.game-options.keybind.mouse.right": {
+    "message": "Right Mouse"
+  },
+  "app.settings.game-options.keybind.recording-label": {
+    "message": "{setting}: ana jiran maɓalli ko maɓallin linzamin kwamfuta. Danna Escape don cire wannan ɗaurin."
+  },
+  "app.settings.game-options.keybind.scancode": {
+    "message": "Scancode {code}"
+  },
+  "app.settings.game-options.keybind.unsupported-status": {
+    "message": "Minecraft ba zai iya amfani da wannan shigarwar ba. Danna wani maɓalli."
+  },
+  "app.settings.game-options.setting.advanced-opengl.label": {
+    "message": "OpenGL na ci gaba"
+  },
+  "app.settings.game-options.setting.allow-cursor-changes.label": {
+    "message": "Ba da damar canjin siginan linzamin kwamfuta"
+  },
+  "app.settings.game-options.setting.allow-server-listing.description": {
+    "message": "Ba da damar sunan ɗan wasa ya bayyana a jerin sabobin."
+  },
+  "app.settings.game-options.setting.allow-server-listing.label": {
+    "message": "Jerin sabobin"
+  },
+  "app.settings.game-options.setting.alternate-blocks.label": {
+    "message": "Toshe na madadin"
+  },
+  "app.settings.game-options.setting.ambient-occlusion.label": {
+    "message": "Haske mai laushi"
+  },
+  "app.settings.game-options.setting.ambient-volume.label": {
+    "message": "Yanayi/Muhalli"
+  },
+  "app.settings.game-options.setting.anaglyph-3d.label": {
+    "message": "Anaglyph na 3D"
+  },
+  "app.settings.game-options.setting.anisotropic-filtering.label": {
+    "message": "Tacewa ta anisotropic"
+  },
+  "app.settings.game-options.setting.anisotropy.label": {
+    "message": "Anisotropy"
+  },
+  "app.settings.game-options.setting.attack-indicator.label": {
+    "message": "Alamar hari"
+  },
+  "app.settings.game-options.setting.auto-jump.description": {
+    "message": "Yi tsalle ta atomatik a kan shingaye masu tsayin toshe ɗaya."
+  },
+  "app.settings.game-options.setting.auto-jump.label": {
+    "message": "Tsalle ta atomatik"
+  },
+  "app.settings.game-options.setting.auto-suggestions.label": {
+    "message": "Shawarwarin umarni"
+  },
+  "app.settings.game-options.setting.autosave-indicator.label": {
+    "message": "Alamar adanawa ta atomatik"
+  },
+  "app.settings.game-options.setting.biome-blend-radius.description": {
+    "message": "Nisan da launukan halittu ke canjewa a ciki."
+  },
+  "app.settings.game-options.setting.biome-blend-radius.label": {
+    "message": "Haɗin halittu"
+  },
+  "app.settings.game-options.setting.blocks-volume.label": {
+    "message": "Toshe"
+  },
+  "app.settings.game-options.setting.brightness.label": {
+    "message": "Haske"
+  },
+  "app.settings.game-options.setting.cape.description": {
+    "message": "Nuna rigar ɗan wasa, har da yanayin elytra."
+  },
+  "app.settings.game-options.setting.cape.label": {
+    "message": "Riga"
+  },
+  "app.settings.game-options.setting.chat-background-only.label": {
+    "message": "Fuskar taɗi kawai"
+  },
+  "app.settings.game-options.setting.chat-colors.label": {
+    "message": "Launukan taɗi"
+  },
+  "app.settings.game-options.setting.chat-delay.label": {
+    "message": "Jinkirin taɗi"
+  },
+  "app.settings.game-options.setting.chat-line-spacing.label": {
+    "message": "Tazara tsakanin layukan taɗi"
+  },
+  "app.settings.game-options.setting.chat-links-prompt.description": {
+    "message": "Tambaya kafin buɗe hanyoyin haɗi daga taɗi."
+  },
+  "app.settings.game-options.setting.chat-links-prompt.label": {
+    "message": "Tambaya game da hanyoyin haɗi"
+  },
+  "app.settings.game-options.setting.chat-links.description": {
+    "message": "Ba da damar buɗe hanyoyin haɗin yanar gizo a taɗi."
+  },
+  "app.settings.game-options.setting.chat-links.label": {
+    "message": "Hanyoyin haɗin yanar gizo"
+  },
+  "app.settings.game-options.setting.chat-opacity.description": {
+    "message": "Yawan bayyana rubutun taɗi."
+  },
+  "app.settings.game-options.setting.chat-opacity.label": {
+    "message": "Bayyana rubutun taɗi"
+  },
+  "app.settings.game-options.setting.chat-preview.label": {
+    "message": "Samfurin taɗi"
+  },
+  "app.settings.game-options.setting.chat-scale.label": {
+    "message": "Girman taɗi"
+  },
+  "app.settings.game-options.setting.chat-visibility.label": {
+    "message": "Ganin taɗi"
+  },
+  "app.settings.game-options.setting.chat-width.label": {
+    "message": "Faɗin taɗi"
+  },
+  "app.settings.game-options.setting.chunk-fade-time.label": {
+    "message": "Lokacin ɓacewar ɓangaren duniya"
+  },
+  "app.settings.game-options.setting.cloud-range.label": {
+    "message": "Nisan girgije"
+  },
+  "app.settings.game-options.setting.clouds.label": {
+    "message": "Girgije"
+  },
+  "app.settings.game-options.setting.ctrl-click-right-click.label": {
+    "message": "Ctrl + danna a matsayin danna dama"
+  },
+  "app.settings.game-options.setting.cutout-leaves.label": {
+    "message": "Ganye masu yankewa"
+  },
+  "app.settings.game-options.setting.damage-tilt.label": {
+    "message": "Jujjuyawar lalacewa"
+  },
+  "app.settings.game-options.setting.dark-splash.description": {
+    "message": "Canja allon lodi na Mojang Studios daga ja zuwa baƙar fata."
+  },
+  "app.settings.game-options.setting.dark-splash.label": {
+    "message": "Alamar mono-launi"
+  },
+  "app.settings.game-options.setting.darkness-pulsing.label": {
+    "message": "Kadawar duhu"
+  },
+  "app.settings.game-options.setting.debug-gui-scale.label": {
+    "message": "Girman GUI na gyara kurakurai"
+  },
+  "app.settings.game-options.setting.directional-audio.label": {
+    "message": "Sauti na shugabanci"
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.description": {
+    "message": "Bi da kowane jujjuyawar linzamin kwamfuta a matsayin mataki ɗaya na gungurawa."
+  },
+  "app.settings.game-options.setting.discrete-mouse-scroll.label": {
+    "message": "Gungurawa mataki-mataki"
+  },
+  "app.settings.game-options.setting.entity-distance.label": {
+    "message": "Nisan halittu"
+  },
+  "app.settings.game-options.setting.entity-shadows.label": {
+    "message": "Inuwan halittu"
+  },
+  "app.settings.game-options.setting.exclusive-fullscreen.label": {
+    "message": "Cikakken allo keɓantacce"
+  },
+  "app.settings.game-options.setting.extra-telemetry.label": {
+    "message": "Telemetry na zaɓi"
+  },
+  "app.settings.game-options.setting.focused-chat-height.label": {
+    "message": "Tsayin taɗi da aka mai da hankali"
+  },
+  "app.settings.game-options.setting.force-unicode-font.label": {
+    "message": "Tilasta rubutun Unicode"
+  },
+  "app.settings.game-options.setting.fov-effects.label": {
+    "message": "Tasirin FOV"
+  },
+  "app.settings.game-options.setting.fov.label": {
+    "message": "Filin gani"
+  },
+  "app.settings.game-options.setting.fullscreen.label": {
+    "message": "Cikakken allo"
+  },
+  "app.settings.game-options.setting.glint-speed.label": {
+    "message": "Saurin walƙiya"
+  },
+  "app.settings.game-options.setting.glint-strength.label": {
+    "message": "Ƙarfin walƙiya"
+  },
+  "app.settings.game-options.setting.graphics-backend.label": {
+    "message": "Tushen zane-zane"
+  },
+  "app.settings.game-options.setting.graphics.description": {
+    "message": "Yana sarrafa ingancin gani da aiki."
+  },
+  "app.settings.game-options.setting.graphics.label": {
+    "message": "Zane-zane"
+  },
+  "app.settings.game-options.setting.gui-scale.description": {
+    "message": "Girman fuskar wasan da HUD."
+  },
+  "app.settings.game-options.setting.gui-scale.label": {
+    "message": "Girman GUI"
+  },
+  "app.settings.game-options.setting.hat.description": {
+    "message": "Nuna yaduddukan fatar hula."
+  },
+  "app.settings.game-options.setting.hat.label": {
+    "message": "Hula"
+  },
+  "app.settings.game-options.setting.held-item-tooltips.label": {
+    "message": "Bayanan abin da ake riƙe"
+  },
+  "app.settings.game-options.setting.hide-lightning-flashes.label": {
+    "message": "Boye walƙiyar haske"
+  },
+  "app.settings.game-options.setting.hide-matched-names.label": {
+    "message": "Boye sunayen da suka dace"
+  },
+  "app.settings.game-options.setting.hide-server-address.label": {
+    "message": "Boye adireshin sabar"
+  },
+  "app.settings.game-options.setting.hide-splash-texts.label": {
+    "message": "Boye rubutun gabatarwa"
+  },
+  "app.settings.game-options.setting.high-contrast-outline.label": {
+    "message": "Babban bambancin layin toshe"
+  },
+  "app.settings.game-options.setting.high-contrast.description": {
+    "message": "Ƙara bambancin abubuwan dubawa."
+  },
+  "app.settings.game-options.setting.high-contrast.label": {
+    "message": "Babban bambanci"
+  },
+  "app.settings.game-options.setting.hostile-volume.label": {
+    "message": "Halittu masu tashin hankali"
+  },
+  "app.settings.game-options.setting.improved-transparency.label": {
+    "message": "Kyakkyawan bayyana"
+  },
+  "app.settings.game-options.setting.in-game-notifications.label": {
+    "message": "Sanarwa a cikin wasan"
+  },
+  "app.settings.game-options.setting.inactivity-framerate-limit.label": {
+    "message": "Rage yawan firam"
+  },
+  "app.settings.game-options.setting.invert-horizontal-mouse.label": {
+    "message": "Juyar da linzamin kwamfuta a kwance"
+  },
+  "app.settings.game-options.setting.invert-mouse.description": {
+    "message": "Juyar da motsin linzamin kwamfuta a tsaye."
+  },
+  "app.settings.game-options.setting.invert-mouse.label": {
+    "message": "Juyar da linzamin kwamfuta"
+  },
+  "app.settings.game-options.setting.jacket.description": {
+    "message": "Nuna yaduddukan fatar rigar sama."
+  },
+  "app.settings.game-options.setting.jacket.label": {
+    "message": "Rigar sama"
+  },
+  "app.settings.game-options.setting.japanese-glyph-variants.label": {
+    "message": "Bambancin haruffan Jafananci"
+  },
+  "app.settings.game-options.setting.key-advancements.label": {
+    "message": "Nasorin wasan"
+  },
+  "app.settings.game-options.setting.key-attack.label": {
+    "message": "Hari"
+  },
+  "app.settings.game-options.setting.key-back.label": {
+    "message": "Motsawa baya"
+  },
+  "app.settings.game-options.setting.key-chat.label": {
+    "message": "Bude taɗi"
+  },
+  "app.settings.game-options.setting.key-command.label": {
+    "message": "Command"
+  },
+  "app.settings.game-options.setting.key-debug-advanced-tooltips.label": {
+    "message": "Nuna bayanan ci gaba"
+  },
+  "app.settings.game-options.setting.key-debug-chunk-borders.label": {
+    "message": "Nuna iyakokin ɓangaren duniya"
+  },
+  "app.settings.game-options.setting.key-debug-clear-chat.label": {
+    "message": "Share taɗi"
+  },
+  "app.settings.game-options.setting.key-debug-copy-location.label": {
+    "message": "Kwafi wuri"
+  },
+  "app.settings.game-options.setting.key-debug-copy-recreate-command.label": {
+    "message": "Kwafi umarnin sake ƙirƙira"
+  },
+  "app.settings.game-options.setting.key-debug-crash.label": {
+    "message": "Jawo hatsarin gyara kurakurai"
+  },
+  "app.settings.game-options.setting.key-debug-dump-dynamic-textures.label": {
+    "message": "Fitar da rubutu masu canzawa"
+  },
+  "app.settings.game-options.setting.key-debug-dump-version.label": {
+    "message": "Fitar da sigar"
+  },
+  "app.settings.game-options.setting.key-debug-focus-pause.label": {
+    "message": "Dakatar idan an rasa mayar da hankali"
+  },
+  "app.settings.game-options.setting.key-debug-fps-charts.label": {
+    "message": "Grafikonin FPS"
+  },
+  "app.settings.game-options.setting.key-debug-hitboxes.label": {
+    "message": "Nuna akwatunan karo"
+  },
+  "app.settings.game-options.setting.key-debug-improved-transparency.label": {
+    "message": "Duba gyara kurakurai na bayyana mai inganci"
+  },
+  "app.settings.game-options.setting.key-debug-lightmap-texture.label": {
+    "message": "Rubutun taswirar haske"
+  },
+  "app.settings.game-options.setting.key-debug-modifier.label": {
+    "message": "Mai gyarawa na gyara kurakurai"
+  },
+  "app.settings.game-options.setting.key-debug-network-charts.label": {
+    "message": "Grafikonin cibiyar sadarwa"
+  },
+  "app.settings.game-options.setting.key-debug-options.label": {
+    "message": "Zaɓuɓɓukan gyara kurakurai"
+  },
+  "app.settings.game-options.setting.key-debug-overlay.label": {
+    "message": "Rufin gyara kurakurai"
+  },
+  "app.settings.game-options.setting.key-debug-profiling-chart.label": {
+    "message": "Grafikonin nazarin aiki"
+  },
+  "app.settings.game-options.setting.key-debug-profiling.label": {
+    "message": "Fara nazarin aiki"
+  },
+  "app.settings.game-options.setting.key-debug-reload-chunks.label": {
+    "message": "Sake loda ɓangarorin duniya"
+  },
+  "app.settings.game-options.setting.key-debug-reload-resource-packs.label": {
+    "message": "Sake loda fakitin albarkatu"
+  },
+  "app.settings.game-options.setting.key-debug-spectate.label": {
+    "message": "Kalli halitta"
+  },
+  "app.settings.game-options.setting.key-debug-switch-game-mode.label": {
+    "message": "Canja yanayin wasan"
+  },
+  "app.settings.game-options.setting.key-drop.label": {
+    "message": "Jefar da abu"
+  },
+  "app.settings.game-options.setting.key-forward.label": {
+    "message": "Motsawa gaba"
+  },
+  "app.settings.game-options.setting.key-friends.label": {
+    "message": "Abokai"
+  },
+  "app.settings.game-options.setting.key-fullscreen.label": {
+    "message": "Kunna ko kashe cikakken allo"
+  },
+  "app.settings.game-options.setting.key-hotbar-1.label": {
+    "message": "Sashin gaggawa 1"
+  },
+  "app.settings.game-options.setting.key-hotbar-2.label": {
+    "message": "Sashin gaggawa 2"
+  },
+  "app.settings.game-options.setting.key-hotbar-3.label": {
+    "message": "Sashin gaggawa 3"
+  },
+  "app.settings.game-options.setting.key-hotbar-4.label": {
+    "message": "Sashin gaggawa 4"
+  },
+  "app.settings.game-options.setting.key-hotbar-5.label": {
+    "message": "Sashin gaggawa 5"
+  },
+  "app.settings.game-options.setting.key-hotbar-6.label": {
+    "message": "Sashin gaggawa 6"
+  },
+  "app.settings.game-options.setting.key-hotbar-7.label": {
+    "message": "Sashin gaggawa 7"
+  },
+  "app.settings.game-options.setting.key-hotbar-8.label": {
+    "message": "Sashin gaggawa 8"
+  },
+  "app.settings.game-options.setting.key-hotbar-9.label": {
+    "message": "Sashin gaggawa 9"
+  },
+  "app.settings.game-options.setting.key-inventory.label": {
+    "message": "Kaya"
+  },
+  "app.settings.game-options.setting.key-jump.label": {
+    "message": "Tsalle"
+  },
+  "app.settings.game-options.setting.key-left.label": {
+    "message": "Motsawa hagu"
+  },
+  "app.settings.game-options.setting.key-load-toolbar.label": {
+    "message": "Loda kayan aiki"
+  },
+  "app.settings.game-options.setting.key-perspective.label": {
+    "message": "Canja hangen nesa"
+  },
+  "app.settings.game-options.setting.key-pick-item.label": {
+    "message": "Zaɓi toshe"
+  },
+  "app.settings.game-options.setting.key-player-list.label": {
+    "message": "Jerin 'yan wasa"
+  },
+  "app.settings.game-options.setting.key-quick-actions.label": {
+    "message": "Ayyuka masu sauri"
+  },
+  "app.settings.game-options.setting.key-right.label": {
+    "message": "Motsawa dama"
+  },
+  "app.settings.game-options.setting.key-save-toolbar.label": {
+    "message": "Adana kayan aiki"
+  },
+  "app.settings.game-options.setting.key-screenshot.label": {
+    "message": "Hoton kariyar kwamfuta"
+  },
+  "app.settings.game-options.setting.key-smooth-camera.label": {
+    "message": "Kunna ko kashe kyamarar sinima"
+  },
+  "app.settings.game-options.setting.key-sneak.label": {
+    "message": "Tafiya a ɓoye"
+  },
+  "app.settings.game-options.setting.key-social-interactions.label": {
+    "message": "Mu'amalar zamantakewa"
+  },
+  "app.settings.game-options.setting.key-spectator-hotbar.label": {
+    "message": "Sashin gaggawa na mai kallo"
+  },
+  "app.settings.game-options.setting.key-spectator-outlines.label": {
+    "message": "Haske masu kallo"
+  },
+  "app.settings.game-options.setting.key-sprint.label": {
+    "message": "Gudu"
+  },
+  "app.settings.game-options.setting.key-swap-offhand.label": {
+    "message": "Musanya hannu na biyu"
+  },
+  "app.settings.game-options.setting.key-toggle-gui.label": {
+    "message": "Kunna ko kashe HUD"
+  },
+  "app.settings.game-options.setting.key-toggle-spectator-shader.label": {
+    "message": "Kunna ko kashe shader na mai kallo"
+  },
+  "app.settings.game-options.setting.key-use.label": {
+    "message": "Amfani da abu"
+  },
+  "app.settings.game-options.setting.language.label": {
+    "message": "Harshe"
+  },
+  "app.settings.game-options.setting.left-pants-leg.label": {
+    "message": "Sashin wando na hagu"
+  },
+  "app.settings.game-options.setting.left-sleeve.label": {
+    "message": "Hannun riga na hagu"
+  },
+  "app.settings.game-options.setting.legacy-framerate-limit.label": {
+    "message": "Iyakar yawan firam"
+  },
+  "app.settings.game-options.setting.legacy-view-distance.label": {
+    "message": "Nisan gani"
+  },
+  "app.settings.game-options.setting.mac-fullscreen-menu.label": {
+    "message": "Nuna menu na macOS a cikakken allo"
+  },
+  "app.settings.game-options.setting.main-hand.description": {
+    "message": "Zaɓi ko babban hannu hagu ne ko dama."
+  },
+  "app.settings.game-options.setting.main-hand.label": {
+    "message": "Babban hannu"
+  },
+  "app.settings.game-options.setting.master-volume.label": {
+    "message": "Babban ƙarar sauti"
+  },
+  "app.settings.game-options.setting.max-framerate.label": {
+    "message": "Matsakaicin yawan firam"
+  },
+  "app.settings.game-options.setting.menu-background-blur.label": {
+    "message": "Batar da bayan menu"
+  },
+  "app.settings.game-options.setting.mipmap-levels.description": {
+    "message": "Lafin rubutu a nesa."
+  },
+  "app.settings.game-options.setting.mipmap-levels.label": {
+    "message": "Matakan mipmap"
+  },
+  "app.settings.game-options.setting.mouse-wheel-sensitivity.label": {
+    "message": "Hankalin linzamin kwamfuta"
+  },
+  "app.settings.game-options.setting.music-frequency.label": {
+    "message": "Yawan kiɗa"
+  },
+  "app.settings.game-options.setting.music-toast.description": {
+    "message": "Zaɓi ko sunayen kiɗa za su bayyana a menu na dakatarwa da kuma a matsayin sanarwa."
+  },
+  "app.settings.game-options.setting.music-toast.label": {
+    "message": "Sanarwar kiɗa"
+  },
+  "app.settings.game-options.setting.music-volume.label": {
+    "message": "Kiɗa"
+  },
+  "app.settings.game-options.setting.narrator-hotkey.label": {
+    "message": "Maɓallin gaggawa na mai ba da labari"
+  },
+  "app.settings.game-options.setting.narrator.description": {
+    "message": "Zaɓi abin da mai ba da labari yake karantawa."
+  },
+  "app.settings.game-options.setting.narrator.label": {
+    "message": "Mai ba da labari"
+  },
+  "app.settings.game-options.setting.neutral-volume.label": {
+    "message": "Halittu masu abota"
+  },
+  "app.settings.game-options.setting.notification-time.description": {
+    "message": "Tsawon lokacin da sanarwa ke kasancewa a bayyane."
+  },
+  "app.settings.game-options.setting.notification-time.label": {
+    "message": "Lokacin sanarwa"
+  },
+  "app.settings.game-options.setting.operator-items-tab.label": {
+    "message": "Shafin abubuwan mai gudanarwa"
+  },
+  "app.settings.game-options.setting.panorama-speed.label": {
+    "message": "Saurin hoton shimfidar wuri"
+  },
+  "app.settings.game-options.setting.particles.label": {
+    "message": "Barbashi"
+  },
+  "app.settings.game-options.setting.players-volume.label": {
+    "message": "'Yan wasa"
+  },
+  "app.settings.game-options.setting.prioritize-chunk-updates.label": {
+    "message": "Ba da fifiko ga sabunta ɓangarorin duniya"
+  },
+  "app.settings.game-options.setting.quit-shortcuts.label": {
+    "message": "Gajerun hanyoyin fita"
+  },
+  "app.settings.game-options.setting.raw-mouse-input.label": {
+    "message": "Shigar da linzamin kwamfuta na asali"
+  },
+  "app.settings.game-options.setting.realms-notifications.label": {
+    "message": "Sanarwar Realms"
+  },
+  "app.settings.game-options.setting.record-volume.label": {
+    "message": "Jukebox/Toshe na sauti"
+  },
+  "app.settings.game-options.setting.reduced-debug-info.label": {
+    "message": "Rage bayanan gyara kurakurai"
+  },
+  "app.settings.game-options.setting.render-distance.label": {
+    "message": "Nisan zanawa"
+  },
+  "app.settings.game-options.setting.right-pants-leg.label": {
+    "message": "Sashin wando na dama"
+  },
+  "app.settings.game-options.setting.right-sleeve.label": {
+    "message": "Hannun riga na dama"
+  },
+  "app.settings.game-options.setting.rotate-with-minecart.label": {
+    "message": "Juyawa tare da karusar hakar ma'adinai"
+  },
+  "app.settings.game-options.setting.save-chat-drafts.label": {
+    "message": "Ajiye rubutun taɗi da aka rubuta"
+  },
+  "app.settings.game-options.setting.screen-effects.label": {
+    "message": "Tasirin allo"
+  },
+  "app.settings.game-options.setting.secure-chat-only.label": {
+    "message": "Nuna amintaccen taɗi kawai"
+  },
+  "app.settings.game-options.setting.sensitivity.label": {
+    "message": "Hankalin linzamin kwamfuta"
+  },
+  "app.settings.game-options.setting.server-textures.label": {
+    "message": "Rubutun sabar"
+  },
+  "app.settings.game-options.setting.share-presence.label": {
+    "message": "Raba kasancewa"
+  },
+  "app.settings.game-options.setting.simulation-distance.description": {
+    "message": "Nisan da halittu ke sabuntawa da kuma nisan da toshe da ruwa ke aiki."
+  },
+  "app.settings.game-options.setting.simulation-distance.label": {
+    "message": "Nisan kwaikwayo"
+  },
+  "app.settings.game-options.setting.snooper.label": {
+    "message": "Snooper"
+  },
+  "app.settings.game-options.setting.sprint-window.label": {
+    "message": "Tagar gudu"
+  },
+  "app.settings.game-options.setting.subtitles.description": {
+    "message": "Nuna rubutun sautin da ake kunawa a wasan."
+  },
+  "app.settings.game-options.setting.subtitles.label": {
+    "message": "Rubutun sauti"
+  },
+  "app.settings.game-options.setting.text-background-opacity.label": {
+    "message": "Bayyana fuskar rubutu"
+  },
+  "app.settings.game-options.setting.texture-filtering.label": {
+    "message": "Tacewar rubutu"
+  },
+  "app.settings.game-options.setting.toggle-attack.label": {
+    "message": "Kunna ko kashe hari"
+  },
+  "app.settings.game-options.setting.toggle-crouch.description": {
+    "message": "Danna sau ɗaya don ci gaba da tsuguno."
+  },
+  "app.settings.game-options.setting.toggle-crouch.label": {
+    "message": "Kunna ko kashe tsugunowa"
+  },
+  "app.settings.game-options.setting.toggle-sprint.description": {
+    "message": "Danna sau ɗaya don ci gaba da gudu."
+  },
+  "app.settings.game-options.setting.toggle-sprint.label": {
+    "message": "Kunna ko kashe gudu"
+  },
+  "app.settings.game-options.setting.toggle-use.label": {
+    "message": "Kunna ko kashe amfani"
+  },
+  "app.settings.game-options.setting.touchscreen.label": {
+    "message": "Yanayin allon taɓawa"
+  },
+  "app.settings.game-options.setting.ui-volume.label": {
+    "message": "UI"
+  },
+  "app.settings.game-options.setting.unfocused-chat-height.label": {
+    "message": "Tsayin taɗi mara mayar da hankali"
+  },
+  "app.settings.game-options.setting.use-vbo.label": {
+    "message": "Amfani da VBOs"
+  },
+  "app.settings.game-options.setting.view-bobbing.description": {
+    "message": "Ƙara motsi na jijjiga ga kyamara yayin tafiya."
+  },
+  "app.settings.game-options.setting.view-bobbing.label": {
+    "message": "Jijjigar kallo"
+  },
+  "app.settings.game-options.setting.vignette.label": {
+    "message": "Vignette"
+  },
+  "app.settings.game-options.setting.voice-volume.label": {
+    "message": "Murya da magana"
+  },
+  "app.settings.game-options.setting.vsync.description": {
+    "message": "Iyakance yawan firam zuwa yawan sabunta allon don hana tsagewar allo."
+  },
+  "app.settings.game-options.setting.vsync.label": {
+    "message": "VSync"
+  },
+  "app.settings.game-options.setting.weather-radius.label": {
+    "message": "Radiyar yanayi"
+  },
+  "app.settings.game-options.setting.weather-volume.label": {
+    "message": "Yanayi"
+  },
+  "app.settings.game-options.validation.changed-since-opened": {
+    "message": "An canza wannan saitin a wani wuri. Duba shi sannan ka sake gwadawa."
+  },
+  "app.settings.game-options.validation.invalid-value": {
+    "message": "Zaɓi ƙima mai inganci."
+  },
+  "app.settings.game-options.validation.missing-value": {
+    "message": "Zaɓi ƙima da farko."
+  },
+  "app.settings.game-options.validation.no-compatible-instances": {
+    "message": "Wasu misalan wasa ba za su iya amfani da wannan saitin ba"
+  },
+  "app.settings.java-installations.location.title": {
+    "message": "Wurin Java {version, number}"
+  },
+  "app.settings.operating-system.macos": {
+    "message": "macOS"
+  },
+  "app.settings.privacy.no-data-collection": {
+    "message": "Ba mu tattara wani bayani ba. Babu sabar da za ta iya tattara su."
+  },
+  "app.settings.resource-management.always-show-copy-details.description": {
+    "message": "Nuna aikin Duba cikakkun bayanai yayin da shigarwa ke cikin jerin ko yana gudana. Koyaushe yana samuwa don shigarwar da ta gaza ko aka katse."
+  },
+  "app.settings.resource-management.always-show-copy-details.title": {
+    "message": "Koyaushe nuna duba cikakkun bayanai"
+  },
+  "app.settings.resource-management.app-cache.confirm.description": {
+    "message": "Manhajar na iya lodawa a hankali har sai an sake gina ma'ajiya."
+  },
+  "app.settings.resource-management.app-cache.description": {
+    "message": "Share bayanan da aka adana kuma zazzage su kuma daga Panda Minecraft Launcher. Manhajar na iya lodawa a hankali har sai an sake gina ma'ajiya."
+  },
+  "app.settings.resource-management.app-cache.title": {
+    "message": "Ma'ajiyar manhajar"
+  },
+  "app.settings.resource-management.app-database-backups.description": {
+    "message": "Ana adana madadin muhimman bayanan manhajar nan don ka dawo da su daga baya idan kana buƙata."
+  },
+  "app.settings.resource-management.app-database-backups.open-folder": {
+    "message": "Bude babban fayil ɗin madadin"
+  },
+  "app.settings.resource-management.app-database-backups.title": {
+    "message": "Madadin bayanan manhajar"
+  },
+  "app.settings.resource-management.app-directory.cancel-move": {
+    "message": "Soke matsarwa"
+  },
+  "app.settings.resource-management.app-directory.change": {
+    "message": "Canja babban fayil"
+  },
+  "app.settings.resource-management.app-directory.change-to-default": {
+    "message": "Mayar da tsoho"
+  },
+  "app.settings.resource-management.app-directory.description": {
+    "message": "Inda Panda Minecraft Launcher ke adana misalai da sauran fayiloli."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-body": {
+    "message": "Ba za ka iya amfani da Panda Minecraft Launcher ba yayin da ake matsar da bayananka. Hakan na iya ɗaukar lokaci."
+  },
+  "app.settings.resource-management.app-directory.modal.admonition-header": {
+    "message": "Za a matsar da duk fayilolin ka"
+  },
+  "app.settings.resource-management.app-directory.modal.choose": {
+    "message": "Zaɓi babban fayil"
+  },
+  "app.settings.resource-management.app-directory.modal.current": {
+    "message": "Yanzu"
+  },
+  "app.settings.resource-management.app-directory.modal.drive-root": {
+    "message": "Zaɓi babban fayil maimakon tushen faifan, don kada fayilolinka su gauraya da sauran abubuwan da ke cikinsa."
+  },
+  "app.settings.resource-management.app-directory.modal.header": {
+    "message": "Canja babban fayil ɗin manhajar"
+  },
+  "app.settings.resource-management.app-directory.modal.instances-running": {
+    "message": "Rufe duk misalan da ke gudana kafin canza babban fayil ɗin manhajar."
+  },
+  "app.settings.resource-management.app-directory.modal.more-options": {
+    "message": "Ƙarin zaɓuɓɓukan matsarwa"
+  },
+  "app.settings.resource-management.app-directory.modal.move-and-restart": {
+    "message": "Matsar kuma sake farawa"
+  },
+  "app.settings.resource-management.app-directory.modal.move-later": {
+    "message": "Matsar a ƙaddamarwa ta gaba"
+  },
+  "app.settings.resource-management.app-directory.modal.nested": {
+    "message": "Sabon babban fayil ba zai iya kasancewa cikin babban fayil ɗin manhajar na yanzu ba, ko kuma ya ƙunshi shi."
+  },
+  "app.settings.resource-management.app-directory.modal.new": {
+    "message": "Sabo"
+  },
+  "app.settings.resource-management.app-directory.modal.picker-title": {
+    "message": "Zaɓi sabon babban fayil ɗin manhajar"
+  },
+  "app.settings.resource-management.app-directory.more-change-options": {
+    "message": "Ƙarin zaɓuɓɓukan babban fayil"
+  },
+  "app.settings.resource-management.app-directory.move-now": {
+    "message": "Matsar kuma sake farawa yanzu"
+  },
+  "app.settings.resource-management.app-directory.open-folder": {
+    "message": "Bude babban fayil"
+  },
+  "app.settings.resource-management.app-directory.open-in-explorer": {
+    "message": "Bude a cikin File Explorer"
+  },
+  "app.settings.resource-management.app-directory.open-in-finder": {
+    "message": "Bude a cikin Finder"
+  },
+  "app.settings.resource-management.app-directory.path-copied-text": {
+    "message": "An kwafi hanyar babban fayil ɗin manhajar zuwa allon kwafin ka."
+  },
+  "app.settings.resource-management.app-directory.path-copied-title": {
+    "message": "An kwafi hanyar"
+  },
+  "app.settings.resource-management.app-directory.path-copy-failed-title": {
+    "message": "An kasa kwafi hanyar"
+  },
+  "app.settings.resource-management.app-directory.pending": {
+    "message": "Babban fayil ɗin manhajar zai matsar zuwa {path} lokacin da Panda Minecraft Launcher ya buɗe na gaba."
+  },
+  "app.settings.resource-management.app-directory.title": {
+    "message": "Babban fayil ɗin manhajar"
+  },
+  "app.settings.resource-management.debug-info.description": {
+    "message": "Fitar da rajistar aiki da bayanan bincike na manhajar zuwa fayil ZIP don raba shi da tallafin Panda Minecraft Launcher."
+  },
+  "app.settings.resource-management.debug-info.export": {
+    "message": "Fitar da bayanan gyara kurakurai"
+  },
+  "app.settings.resource-management.debug-info.support": {
+    "message": "Kana buƙatar taimako? Buɗe batun tallafi."
+  },
+  "app.settings.resource-management.debug-info.title": {
+    "message": "Bayanan gyara kurakurai"
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.description": {
+    "message": "Adadin fayilolin da manhajar za ta iya zazzagewa lokaci guda. Rage wannan idan zazzagewa ba ta da kyau a haɗinka. Yana buƙatar sake farawa manhajar."
+  },
+  "app.settings.resource-management.maximum-concurrent-downloads.title": {
+    "message": "Matsakaicin zazzagewa lokaci guda"
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.description": {
+    "message": "Adadin fayilolin da manhajar za ta iya rubutawa zuwa faifai lokaci guda. Rage wannan idan ka ci karo da kurakuran I/O akai-akai. Yana buƙatar sake farawa manhajar."
+  },
+  "app.settings.resource-management.maximum-concurrent-writes.title": {
+    "message": "Matsakaicin rubuce-rubuce lokaci guda"
+  },
+  "app.settings.resource-management.store.cache-limit.description": {
+    "message": "Ci gaba da adana abun ciki maras amfani har zuwa wannan girman don shigarwa na gaba. Riƙe ƙari na iya ceton lokacin zazzagewa."
+  },
+  "app.settings.resource-management.store.cache-limit.label": {
+    "message": "Ci gaba da zazzagewa marasa amfani"
+  },
+  "app.settings.resource-management.store.cache-limit.unit": {
+    "message": "GiB"
+  },
+  "app.settings.resource-management.store.calculating": {
+    "message": "Ana lissafawa"
+  },
+  "app.settings.resource-management.store.clear": {
+    "message": "Share marasa amfani"
+  },
+  "app.settings.resource-management.store.clear.description": {
+    "message": "Share abubuwan zazzage da ba a amfani da su"
+  },
+  "app.settings.resource-management.store.cleared": {
+    "message": "An 'yantar da {size} na sararin faifai."
+  },
+  "app.settings.resource-management.store.clearing": {
+    "message": "Ana sharewa…"
+  },
+  "app.settings.resource-management.store.description": {
+    "message": "Ajiye sarari ta hanyar amfani da shigarwar wasan, mods da fakiti a duk misalai."
+  },
+  "app.settings.resource-management.store.nothing-to-clear": {
+    "message": "Babu abun ciki maras amfani da za a share."
+  },
+  "app.settings.resource-management.store.shared.label": {
+    "message": "An raba"
+  },
+  "app.settings.resource-management.store.title": {
+    "message": "Ajiyar abun ciki"
+  },
+  "app.settings.resource-management.store.total": {
+    "message": "{size} da aka adana"
+  },
+  "app.settings.resource-management.store.unique.label": {
+    "message": "Na musamman"
+  },
+  "app.settings.resource-management.store.unused.label": {
+    "message": "Maras amfani"
+  },
+  "app.settings.sidebar.label.instance-defaults": {
+    "message": "Tsoffin misalai"
+  },
+  "app.settings.sidebar.label.system": {
+    "message": "Tsarin"
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-description": {
+    "message": "Zaɓi wane misali za a kwafi tarihin umarninka daga gare shi. Ana amfani da wannan tarihin ne kawai don daidaitawa ta farko, kuma za ka iya gyara shi daga kowane misali daga baya."
+  },
+  "app.settings.synced-options.choose-sync-source.command-history-title": {
+    "message": "Zaɓi tushen tarihin umarni"
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-description": {
+    "message": "Zaɓi wane misali za a kwafi madadin sashin gaggawa na ƙirƙira daga gare shi. Ana amfani da waɗannan sassan ne kawai don daidaitawa ta farko, kuma za ka iya gyara su daga kowane misali daga baya."
+  },
+  "app.settings.synced-options.choose-sync-source.creative-hotbars-title": {
+    "message": "Zaɓi tushen sashin gaggawa na ƙirƙira"
+  },
+  "app.settings.synced-options.choose-sync-source.data-packs-title": {
+    "message": "Zaɓi tushen fakitin bayanai"
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-description": {
+    "message": "Zaɓi wane misali za a kwafi saitunan wasanka daga gare shi. Ana amfani da waɗannan saitunan ne kawai don daidaitawa ta farko, kuma za ka iya gyara su daga kowane misali daga baya."
+  },
+  "app.settings.synced-options.choose-sync-source.game-settings-title": {
+    "message": "Zaɓi tushen saitunan wasan"
+  },
+  "app.settings.synced-options.choose-sync-source.ineligible": {
+    "message": "Ba za ka iya zaɓar wannan misalin a matsayin tushen daidaitawa ba"
+  },
+  "app.settings.synced-options.choose-sync-source.load-error": {
+    "message": "An kasa loda tushen daidaitawa. Da fatan za a sake gwadawa."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-description": {
+    "message": "Zaɓi wane misali za a kwafi sabobin wasa da yawa daga gare shi. Ana amfani da waɗannan sabobin ne kawai don daidaitawa ta farko, kuma za ka iya gyara su daga kowane misali daga baya."
+  },
+  "app.settings.synced-options.choose-sync-source.multiplayer-servers-title": {
+    "message": "Zaɓi tushen sabobin wasa da yawa"
+  },
+  "app.settings.synced-options.choose-sync-source.no-instances-found": {
+    "message": "Babu misalan wasa da aka samu"
+  },
+  "app.settings.synced-options.choose-sync-source.resource-packs-title": {
+    "message": "Zaɓi tushen fakitin albarkatu"
+  },
+  "app.settings.synced-options.choose-sync-source.retry": {
+    "message": "Sake gwadawa"
+  },
+  "app.settings.synced-options.choose-sync-source.search-placeholder": {
+    "message": "Nemi misalin wasa"
+  },
+  "app.settings.synced-options.choose-sync-source.sync": {
+    "message": "Daidaita"
+  },
+  "app.settings.synced-options.command-history": {
+    "message": "Daidaita tarihin umarni"
+  },
+  "app.settings.synced-options.command-history.description": {
+    "message": "Yi amfani da tarihin umarni iri ɗaya a duk misalinka."
+  },
+  "app.settings.synced-options.command-history.editor-title": {
+    "message": "Gyara tarihin umarni"
+  },
+  "app.settings.synced-options.creative-hotbars": {
+    "message": "Daidaita madadin sashin gaggawa na ƙirƙira"
+  },
+  "app.settings.synced-options.creative-hotbars.description": {
+    "message": "Yi amfani da madadin sashin gaggawa na ƙirƙira iri ɗaya a duk misalinka."
+  },
+  "app.settings.synced-options.data-packs": {
+    "message": "Daidaita fakitin bayanai"
+  },
+  "app.settings.synced-options.data-packs.description": {
+    "message": "Yi amfani da fakitin bayanai iri ɗaya a duk misalinka"
+  },
+  "app.settings.synced-options.data-packs.none-synced-yet": {
+    "message": "Har yanzu ba ka daidaita wani fakiti na bayanai ba"
+  },
+  "app.settings.synced-options.edit.no-instances": {
+    "message": "Ƙara misali kafin gyara bayanan da aka daidaita."
+  },
+  "app.settings.synced-options.edit.no-synced-data": {
+    "message": "Zaɓi tushen daidaitawa kafin gyara wannan saitin."
+  },
+  "app.settings.synced-options.game-settings": {
+    "message": "Daidaita zaɓuɓɓukan wasan"
+  },
+  "app.settings.synced-options.game-settings.button": {
+    "message": "Gyara saitunan wasan"
+  },
+  "app.settings.synced-options.game-settings.conflict-text": {
+    "message": "Mun loda sabbin saituna. Duba canje-canjenka, sannan ka adana kuma."
+  },
+  "app.settings.synced-options.game-settings.conflict-title": {
+    "message": "An canza waɗannan saitunan a wani wuri"
+  },
+  "app.settings.synced-options.game-settings.custom-empty": {
+    "message": "Saitunan da mods suka ƙara za su bayyana nan bayan Panda Minecraft Launcher ya same su a cikin ɗaya daga cikin misalinka."
+  },
+  "app.settings.synced-options.game-settings.description": {
+    "message": "Yi amfani da zaɓuɓɓukan wasa iri ɗaya a duk misalinka."
+  },
+  "app.settings.synced-options.game-settings.disable-all": {
+    "message": "Cire duk daidaitawa"
+  },
+  "app.settings.synced-options.game-settings.disabled-tooltip": {
+    "message": "Kunna daidaita saitunan wasan kafin zaɓar saiti ɗaya ta ɗaya."
+  },
+  "app.settings.synced-options.game-settings.empty": {
+    "message": "Babu saituna da suka dace da bincinka ko tacewarka."
+  },
+  "app.settings.synced-options.game-settings.enable-all": {
+    "message": "Daidaita duka"
+  },
+  "app.settings.synced-options.game-settings.load-failed": {
+    "message": "Ba mu iya loda saitunan wasanka ba."
+  },
+  "app.settings.synced-options.game-settings.loading": {
+    "message": "Ana loda saituna..."
+  },
+  "app.settings.synced-options.game-settings.no-options-to-edit": {
+    "message": "Babu zaɓuɓɓuka da za a gyara tukuna"
+  },
+  "app.settings.synced-options.game-settings.not-being-synced": {
+    "message": "Ba a daidaita ba"
+  },
+  "app.settings.synced-options.game-settings.retry": {
+    "message": "Sake gwadawa"
+  },
+  "app.settings.synced-options.game-settings.save": {
+    "message": "Adana saituna"
+  },
+  "app.settings.synced-options.game-settings.search": {
+    "message": "Nemi saituna..."
+  },
+  "app.settings.synced-options.game-settings.sync-description": {
+    "message": "Ana amfani da zaɓuɓɓukan da aka daidaita ga kowane misali kuma suna ƙetare ƙimomin da ke cikin fakitin mod."
+  },
+  "app.settings.synced-options.game-settings.sync-setting": {
+    "message": "Daidaita {setting} a duk misalai"
+  },
+  "app.settings.synced-options.game-settings.sync-title": {
+    "message": "Daidaita saitunan wasan"
+  },
+  "app.settings.synced-options.game-settings.synced-across-instances": {
+    "message": "An daidaita a duk misalai"
+  },
+  "app.settings.synced-options.game-settings.title": {
+    "message": "Saitunan wasan"
+  },
+  "app.settings.synced-options.game-settings.unsaved-changes": {
+    "message": "Kana da canje-canje da ba a adana ba."
+  },
+  "app.settings.synced-options.game-settings.unsync-setting": {
+    "message": "Dakatar da daidaita {setting} a duk misalai"
+  },
+  "app.settings.synced-options.game-settings.value-mixed": {
+    "message": "Ya bambanta tsakanin misalai"
+  },
+  "app.settings.synced-options.game-settings.value-off": {
+    "message": "Kashe"
+  },
+  "app.settings.synced-options.game-settings.value-on": {
+    "message": "Kunna"
+  },
+  "app.settings.synced-options.game-settings.value-unset": {
+    "message": "Zaɓi ƙima"
+  },
+  "app.settings.synced-options.multiplayer-servers": {
+    "message": "Daidaita sabobin wasa da yawa"
+  },
+  "app.settings.synced-options.multiplayer-servers.address": {
+    "message": "Adireshin sabar"
+  },
+  "app.settings.synced-options.multiplayer-servers.copy-address": {
+    "message": "Kwafi adireshi"
+  },
+  "app.settings.synced-options.multiplayer-servers.count": {
+    "message": "{count, plural, one {# server} other {# servers}}"
+  },
+  "app.settings.synced-options.multiplayer-servers.description": {
+    "message": "Yi amfani da sabobin wasa da yawa iri ɗaya a duk misalinka."
+  },
+  "app.settings.synced-options.multiplayer-servers.editor-title": {
+    "message": "Gyara sabobin da aka daidaita"
+  },
+  "app.settings.synced-options.multiplayer-servers.empty": {
+    "message": "Babu sabobin da mai amfani ya ƙara da aka daidaita a yanzu."
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-offline": {
+    "message": "Babu haɗin intanet"
+  },
+  "app.settings.synced-options.multiplayer-servers.filter-online": {
+    "message": "Kan layi"
+  },
+  "app.settings.synced-options.multiplayer-servers.more-options": {
+    "message": "Ƙarin zaɓuɓɓukan sabar"
+  },
+  "app.settings.synced-options.multiplayer-servers.name": {
+    "message": "Sunan sabar"
+  },
+  "app.settings.synced-options.multiplayer-servers.no-results": {
+    "message": "Babu sabobin da aka daidaita da suka dace da bincinka ko tacewarka."
+  },
+  "app.settings.synced-options.multiplayer-servers.none-synced-yet": {
+    "message": "Har yanzu ba ka daidaita wani sabar ba"
+  },
+  "app.settings.synced-options.multiplayer-servers.players-online": {
+    "message": "{count, number} kan layi"
+  },
+  "app.settings.synced-options.multiplayer-servers.search": {
+    "message": "Nemi {count, number} {count, plural, one {synced server} other {synced servers}}..."
+  },
+  "app.settings.synced-options.multiplayer-servers.status": {
+    "message": "Matsayi"
+  },
+  "app.settings.synced-options.packs.disabled": {
+    "message": "Kunna daidaitawa kafin gyara fakiti da aka raba."
+  },
+  "app.settings.synced-options.resource-packs": {
+    "message": "Daidaita fakitin albarkatu"
+  },
+  "app.settings.synced-options.resource-packs.description": {
+    "message": "Yi amfani da fakitin albarkatu iri ɗaya a duk misalinka."
+  },
+  "app.settings.synced-options.resource-packs.none-synced-yet": {
+    "message": "Har yanzu ba ka daidaita wani fakitin albarkatu ba"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "Kamanni"
+  },
+  "app.settings.tabs.behavior": {
+    "message": "ɗabi'a"
+  },
+  "app.settings.tabs.features": {
+    "message": "Fasali"
+  },
+  "app.settings.tabs.java-and-memory": {
+    "message": "Java da ƙwaƙwalwa"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "Shigarwar Java"
+  },
+  "app.settings.tabs.language": {
+    "message": "Harshe"
+  },
+  "app.settings.tabs.launch-hooks": {
+    "message": "Ƙugiar ƙaddamarwa"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "Keɓantawa"
+  },
+  "app.settings.tabs.resources": {
+    "message": "Albarkatu"
+  },
+  "app.settings.tabs.syncing": {
+    "message": "Daidaitawa"
+  },
+  "app.settings.tabs.troubleshooting": {
+    "message": "Gyara matsaloli"
+  },
+  "app.settings.tabs.window": {
+    "message": "Tagar manhajar"
+  },
+  "app.settings.troubleshooting.clear-cache": {
+    "message": "Share ma'ajiya"
+  },
+  "app.settings.troubleshooting.clear-cache.confirm.title": {
+    "message": "Share ma'ajiyar manhajar?"
+  },
+  "app.shared-instance-publish.preparing": {
+    "message": "Ana shirya sabuntawa…"
+  },
+  "app.shared-instance-publish.pushed": {
+    "message": "An tura sabuntawa"
+  },
+  "app.shared-instance-publish.uploading": {
+    "message": "Ana tura sabuntawa…"
+  },
+  "app.shared-instance.lock-notice.delete-instance": {
+    "message": "Share misalin wasa"
+  },
+  "app.shared-instance.lock-notice.more-actions": {
+    "message": "Ƙarin ayyukan misali"
+  },
+  "app.shared-instance.lock-notice.reason": {
+    "message": "Sababin da aka yi"
+  },
+  "app.shared-instance.lock-notice.title": {
+    "message": "An kulle misalin da aka raba"
+  },
+  "app.skins.add-button": {
+    "message": "Ƙara fata"
+  },
+  "app.skins.add-button.drag-and-drop": {
+    "message": "Ja kuma sauke"
+  },
+  "app.skins.apply-button": {
+    "message": "Aiwatar"
+  },
+  "app.skins.delete-button": {
+    "message": "Share fatar"
+  },
+  "app.skins.delete-modal.description": {
+    "message": "Wannan zai share fatar da aka zaɓa har abada. Ba za a iya soke wannan aikin ba."
+  },
+  "app.skins.delete-modal.title": {
+    "message": "Tabbas kana son share wannan fatar?"
+  },
+  "app.skins.demo.apply-tooltip": {
+    "message": "Shiga don amfani da fata."
+  },
+  "app.skins.dropped-file-error.text": {
+    "message": "An kasa karanta fayil ɗin da aka sauke."
+  },
+  "app.skins.dropped-file-error.title": {
+    "message": "Kuskure wajen sarrafa fayil"
+  },
+  "app.skins.ears-feature-notice": {
+    "message": "Wannan fatar tana amfani da fasali daga mod ɗin {ears}"
+  },
+  "app.skins.edit-button": {
+    "message": "Gyara fata"
+  },
+  "app.skins.ely-by-notice.text": {
+    "message": "Canja fata da riga ga wannan asusu a ely.by. Waɗannan saitunan karanta ne kawai a cikin manhajar."
+  },
+  "app.skins.ely-by-notice.title": {
+    "message": "Ely.by ne ke sarrafa fata"
+  },
+  "app.skins.modal.add-skin-button": {
+    "message": "Ƙara fata"
+  },
+  "app.skins.modal.add-title": {
+    "message": "Ana ƙara fata"
+  },
+  "app.skins.modal.arm-style-section": {
+    "message": "Salon hannu"
+  },
+  "app.skins.modal.arm-style-slim": {
+    "message": "Mai ƙanƙanta"
+  },
+  "app.skins.modal.arm-style-wide": {
+    "message": "Fadi"
+  },
+  "app.skins.modal.cape-fallback-name": {
+    "message": "Riga"
+  },
+  "app.skins.modal.cape-section": {
+    "message": "Riga"
+  },
+  "app.skins.modal.demo-save-tooltip": {
+    "message": "Shiga don adana fata."
+  },
+  "app.skins.modal.edit-title": {
+    "message": "Ana gyara fata"
+  },
+  "app.skins.modal.make-edit-first-tooltip": {
+    "message": "Gyara fatar da farko!"
+  },
+  "app.skins.modal.no-cape-tooltip": {
+    "message": "Babu riga"
+  },
+  "app.skins.modal.none-cape-option": {
+    "message": "Babu"
+  },
+  "app.skins.modal.replace-texture-button": {
+    "message": "Maye gurbin rubutu"
+  },
+  "app.skins.modal.save-skin-button": {
+    "message": "Adana fata"
+  },
+  "app.skins.modal.saving-tooltip": {
+    "message": "Ana adanawa..."
+  },
+  "app.skins.modal.texture-section": {
+    "message": "Rubutu"
+  },
+  "app.skins.modal.upload-skin-first-tooltip": {
+    "message": "Loda fata da farko!"
+  },
+  "app.skins.preview.edit-button": {
+    "message": "Gyara fata"
+  },
+  "app.skins.previewing-badge": {
+    "message": "Ana dubawa"
+  },
+  "app.skins.rate-limit.text": {
+    "message": "Kana canza fatar ka akai-akai. Sabobin Mojang sun dakatar da ƙarin buƙatu na ɗan lokaci. Da fatan za a jira kaɗan kafin sake gwadawa."
+  },
+  "app.skins.rate-limit.title": {
+    "message": "Rage gudu!"
+  },
+  "app.skins.reorder-error.text": {
+    "message": "An kasa adana tsarin fatarka."
+  },
+  "app.skins.reorder-error.title": {
+    "message": "An kasa sake tsara fata"
+  },
+  "app.skins.section.builders-and-biomes": {
+    "message": "Builders & Biomes"
+  },
+  "app.skins.section.chaos-cubed": {
+    "message": "Chaos Cubed"
+  },
+  "app.skins.section.chase-the-skies": {
+    "message": "Chase the Skies"
+  },
+  "app.skins.section.default-skins": {
+    "message": "Fata na asali"
+  },
+  "app.skins.section.dungeons-hero": {
+    "message": "Dungeons Hero"
+  },
+  "app.skins.section.dungeons-ii-hero": {
+    "message": "Dungeons II Hero"
+  },
+  "app.skins.section.minecon-earth-2017": {
+    "message": "MINECON Earth 2017"
+  },
+  "app.skins.section.modrinth": {
+    "message": "Panda Minecraft Launcher"
+  },
+  "app.skins.section.modrinth-pride": {
+    "message": "Panda Minecraft Launcher Pride"
+  },
+  "app.skins.section.modrinth-pride.tooltip": {
+    "message": "An ba ka waɗannan fata saboda gudummawar da ka bayar ga tarin kuɗi na Panda Minecraft Launcher Pride a watan Pride."
+  },
+  "app.skins.section.mounts-of-mayhem": {
+    "message": "Mounts of Mayhem"
+  },
+  "app.skins.section.saved-skins": {
+    "message": "Fata da aka adana"
+  },
+  "app.skins.section.striding-hero": {
+    "message": "Striding Hero"
+  },
+  "app.skins.section.the-copper-age": {
+    "message": "The Copper Age"
+  },
+  "app.skins.section.the-garden-awakens": {
+    "message": "The Garden Awakens"
+  },
+  "app.skins.section.tiny-takeover": {
+    "message": "Tiny Takeover"
+  },
+  "app.skins.section.wilderness-bound": {
+    "message": "Wilderness Bound"
+  },
+  "app.skins.toggle-ears-features-off": {
+    "message": "Kashe"
+  },
+  "app.skins.toggle-ears-features-on": {
+    "message": "Kunna"
+  },
+  "app.splash.moving-app-directory": {
+    "message": "Ana matsar da babban fayil ɗin manhajar..."
+  },
+  "app.survey.body": {
+    "message": "Za ka iya amsa wasu tambayoyi game da ƙwarewarka da Panda Minecraft Launcher?"
+  },
+  "app.survey.footer": {
+    "message": "Wannan ra'ayin zai isa kai tsaye ga ƙungiyar Panda Minecraft Launcher kuma zai taimaka wajen jagorantar sabuntawa na gaba!"
+  },
+  "app.survey.no-thanks": {
+    "message": "A'a, na gode"
+  },
+  "app.survey.take-survey": {
+    "message": "Shiga binciken"
+  },
+  "app.survey.title": {
+    "message": "Sannu mai amfani da Panda Minecraft Launcher!"
+  },
+  "app.sync-instances-update.choose-source.data-packs": {
+    "message": "Zaɓi wane misali za a kwafi fakitin bayananka daga gare shi. Ana amfani da waɗannan fakitin ne kawai don daidaitawa ta farko, kuma za ka iya gyara su daga kowane misali daga baya."
+  },
+  "app.sync-instances-update.choose-source.resource-packs": {
+    "message": "Zaɓi wane misali za a kwafi fakitin albarkatunka daga gare shi. Ana amfani da waɗannan fakitin ne kawai don daidaitawa ta farko, kuma za ka iya gyara su daga kowane misali daga baya."
+  },
+  "app.synced-content.change.disable-description": {
+    "message": "Kashe shi a duk misalan da aka daidaita, ko kuma a wannan misalin kawai. Kashe shi a nan kawai zai kunna ƙetarewa ga wannan misalin."
+  },
+  "app.synced-content.change.disable-everywhere": {
+    "message": "Kashe a duk wurare"
+  },
+  "app.synced-content.change.disable-everywhere-description": {
+    "message": "Kashe wannan abun ciki a duk misalan da aka daidaita."
+  },
+  "app.synced-content.change.disable-here": {
+    "message": "Kashe a nan"
+  },
+  "app.synced-content.change.disable-title": {
+    "message": "Kashe abun ciki?"
+  },
+  "app.synced-content.change.enable-description": {
+    "message": "Kunna shi a duk misalan da aka daidaita, ko kuma a wannan misalin kawai. Kunna shi a nan kawai zai kunna ƙetarewa ga wannan misalin."
+  },
+  "app.synced-content.change.enable-everywhere": {
+    "message": "Kunna a duk wurare"
+  },
+  "app.synced-content.change.enable-everywhere-description": {
+    "message": "Kunna wannan abun ciki a duk misalan da aka daidaita."
+  },
+  "app.synced-content.change.enable-here": {
+    "message": "Kunna a nan"
+  },
+  "app.synced-content.change.enable-title": {
+    "message": "Kunna abun ciki?"
+  },
+  "app.synced-content.delete.delete-everywhere": {
+    "message": "Share a duk wurare"
+  },
+  "app.synced-content.delete.delete-here": {
+    "message": "Share a nan"
+  },
+  "app.synced-content.delete.description": {
+    "message": "Share wannan abun ciki zai share shi a duk misalinka"
+  },
+  "app.synced-content.delete.mixed": {
+    "message": "Abun cikin da aka zaɓa wanda ba a daidaita ba za a share shi daga wannan misalin kawai."
+  },
+  "app.synced-content.delete.override-description": {
+    "message": "Za ka iya cire shi daga wannan misalin kawai ko daga duk misalan da aka daidaita. Cire shi daga wannan misalin kawai zai kunna ƙetarewa, kuma wannan misalin ba zai ƙara samun canje-canjen da aka daidaita ga waɗannan nau'ikan abun ciki ba."
+  },
+  "app.synced-content.delete.resource-pack-description": {
+    "message": "Za ka iya cire {count, plural, one {it} other {them}} daga wannan misalin kawai ko daga duk misalan da aka daidaita. Cire {count, plural, one {it} other {them}} daga wannan misalin kawai zai kunna ƙetarewa, kuma wannan misalin ba zai ƙara samun canje-canjen fakitin albarkatu da aka daidaita ba."
+  },
+  "app.synced-content.delete.resource-pack-header": {
+    "message": "{count, plural, one {This resource pack is synced} other {These resource packs are synced}}"
+  },
+  "app.synced-content.desync.description": {
+    "message": "Wannan misalin zai riƙe kwafinsa. Kana son ci gaba da daidaita wannan abun ciki a wasu misalai, ko cire shi daga gare su?"
+  },
+  "app.synced-content.desync.keep": {
+    "message": "Ci gaba da riƙewa"
+  },
+  "app.synced-content.desync.remove": {
+    "message": "Cire"
+  },
+  "app.synced-content.desync.title": {
+    "message": "Cire daidaitawar abun ciki"
+  },
+  "app.synced-content.warning.title": {
+    "message": "An daidaita wannan abun ciki"
+  },
+  "app.synced-packs.data-packs.title": {
+    "message": "Fakitin bayanai da aka daidaita"
+  },
+  "app.synced-packs.empty": {
+    "message": "Ƙara fakiti daga shafin abun ciki na misali don fara daidaitawa."
+  },
+  "app.synced-packs.load-failed": {
+    "message": "An kasa loda fakiti. Gwada sabuntawa."
+  },
+  "app.synced-packs.resource-packs.title": {
+    "message": "Fakitin albarkatu da aka daidaita"
+  },
+  "app.title-bar.wordmark": {
+    "message": "Minecraft"
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "An gama zazzage Panda Minecraft Launcher v{version}. Sake loda don sabuntawa yanzu, ko ta atomatik lokacin da ka rufe Panda Minecraft Launcher."
+  },
+  "app.update-popup.body.linux": {
+    "message": "Panda Minecraft Launcher v{version} yana samuwa. Yi amfani da mai sarrafa fakiti don sabuntawa zuwa sabbin fasali da gyare-gyare!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Panda Minecraft Launcher v{version} yana samuwa yanzu! Tunda kana kan hanyar sadarwa mai ƙididdige amfani, ba mu zazzage shi ta atomatik ba."
+  },
+  "app.update-popup.changelog": {
+    "message": "Labarin canje-canje"
+  },
+  "app.update-popup.download": {
+    "message": "Zazzage ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "An gama zazzagewa"
+  },
+  "app.update-popup.reload": {
+    "message": "Sake loda don sabuntawa"
+  },
+  "app.update-popup.title": {
+    "message": "Akwai sabuntawa"
+  },
+  "app.update.complete-toast.text": {
+    "message": "Danna nan don duba labarin canje-canje."
+  },
+  "app.update.complete-toast.title": {
+    "message": "An shigar da sigar {version} cikin nasara!"
+  },
+  "app.update.download-error.missing-version": {
+    "message": "An kasa zazzage sabuntawa: babu sigar da ake da ita"
+  },
+  "app.user.project.install-to-instance": {
+    "message": "Shigar ga misalin wasa"
+  },
+  "app.welcome-screen.create-instance": {
+    "message": "Ƙirƙiri misalin wasa"
+  },
+  "app.welcome-screen.description": {
+    "message": "A shirye ka fara wasa?"
+  },
+  "app.welcome-screen.import-from-launcher": {
+    "message": "Shigo da daga launcher"
+  },
+  "app.welcome-screen.import-prompt": {
+    "message": "Kana barin wani launcher?"
+  },
+  "app.welcome-screen.more-options": {
+    "message": "Ƙarin zaɓuɓɓuka"
+  },
+  "app.welcome-screen.quick-create-hint": {
+    "message": "Danna <shortcut>N</shortcut> don ƙirƙirar misalin wasa cikin sauri"
+  },
+  "app.welcome-screen.skip": {
+    "message": "Tsallake"
+  },
+  "app.welcome-screen.title": {
+    "message": "Barka da zuwa Panda Minecraft Launcher"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.modrinth.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Zaɓi zaɓi"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Sigar da ba ta dace ba {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Ba a yi wasa ba tukuna"
+  },
+  "app.world.world-item.offline": {
+    "message": "Babu haɗin intanet"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} kan layi"
+  },
+  "content.shared-instance.change-version-body": {
+    "message": "Canza sigar yana canza kwafinka ta gida kawai. Sabuntawa na gaba na misalin da aka raba na iya dawo da shi ko canza shi kuma."
+  },
+  "content.shared-instance.delete-bulk-body": {
+    "message": "Wasu ayyukan da aka zaɓa suna cikin misalin da aka raba. Share su yana canza kwafinka ta gida kawai, kuma sabuntawa na gaba na misalin da aka raba na iya dawo da su ko canza su kuma."
+  },
+  "content.shared-instance.delete-button": {
+    "message": "Share duk da haka"
+  },
+  "content.shared-instance.delete-many-button": {
+    "message": "Share {count, number} ayyuka duk da haka"
+  },
+  "content.shared-instance.delete-single-body": {
+    "message": "Share shi yana canza kwafinka ta gida kawai. Sabuntawa na gaba na misalin da aka raba na iya dawo da shi ko canza shi kuma."
+  },
+  "content.shared-instance.disable-bulk-body": {
+    "message": "Wasu ayyukan da aka zaɓa suna cikin misalin da aka raba. Kashe su yana canza kwafinka ta gida kawai, kuma sabuntawa na gaba na misalin da aka raba na iya kunna su, dawo da su, ko canza su kuma."
+  },
+  "content.shared-instance.disable-button": {
+    "message": "Kashe duk da haka"
+  },
+  "content.shared-instance.disable-many-button": {
+    "message": "Kashe {count, number} ayyuka duk da haka"
+  },
+  "content.shared-instance.disable-single-body": {
+    "message": "Kashe shi yana canza kwafinka ta gida kawai. Sabuntawa na gaba na misalin da aka raba na iya sake kunna shi, dawo da shi, ko canza shi kuma."
+  },
+  "content.shared-instance.unlink-body": {
+    "message": "Cire haɗi yana canza kwafinka ta gida kawai. Sabuntawa na gaba na misalin da aka raba na iya dawo da shi ko canza shi kuma."
+  },
+  "content.shared-instance.warning-header": {
+    "message": "Wannan yana cikin misalin da aka raba"
+  },
+  "friends.action.add-friend": {
+    "message": "Ƙara aboki"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} aboki {count, plural, one {request} other {requests}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "Aika buƙatar abota"
+  },
+  "friends.add-friend.title": {
+    "message": "Ana ƙara aboki"
+  },
+  "friends.add-friend.username.description": {
+    "message": "Ƙila ya bambanta da sunan mai amfani na Minecraft ɗinsu!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "Shigar da sunan mai amfani na Panda Minecraft Launcher..."
+  },
+  "friends.add-friend.username.title": {
+    "message": "Menene sunan mai amfani na abokinka a Panda Minecraft Launcher?"
+  },
+  "friends.add-friends-to-share": {
+    "message": "<link>Ƙara abokai</link> don ganin abin da suke yi!"
+  },
+  "friends.friend.actions.label": {
+    "message": "Ayyukan aboki"
+  },
+  "friends.friend.cancel-request": {
+    "message": "Soke buƙata"
+  },
+  "friends.friend.remove-friend": {
+    "message": "Cire aboki"
+  },
+  "friends.friend.request-sent": {
+    "message": "An aika buƙatar abota"
+  },
+  "friends.friend.view-profile": {
+    "message": "Duba bayanan martaba"
+  },
+  "friends.heading": {
+    "message": "Abokai"
+  },
+  "friends.heading.active": {
+    "message": "Masu gudana"
+  },
+  "friends.heading.offline": {
+    "message": "Babu haɗin intanet"
+  },
+  "friends.heading.online": {
+    "message": "Kan layi"
+  },
+  "friends.heading.pending": {
+    "message": "Masu jira"
+  },
+  "friends.no-friends-match": {
+    "message": "Babu abokan da suka dace da ''{query}''"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "Nemi abokai..."
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "<link>Shiga asusun Panda Minecraft Launcher</link> don ƙara abokai da ganin abin da suke yi!"
+  },
+  "hosting.play.account-changed": {
+    "message": "Asusunka na Panda Minecraft Launcher ya canza. Danna Kunna sabar kuma don ci gaba."
+  },
+  "hosting.play.no-address": {
+    "message": "Wannan sabar ba ta da adireshin haɗi tukuna."
+  },
+  "hosting.play.not-ready": {
+    "message": "Ba za a iya ƙaddamar da wannan misalin ba. Duba matsayin shigarwarsa a ɗakin karatu."
+  },
+  "hosting.play.update-description": {
+    "message": "Sabunta wannan misalin zuwa sabon abun cikin da aka raba na sabar kafin shiga."
+  },
+  "hosting.play.update-to-play": {
+    "message": "Sabunta don yin wasa"
+  },
+  "hosting.play.world-changed": {
+    "message": "Wannan duniyar ba ta da aiki kuma ko ba a raba ta ba. Buɗe kwamitin sabar kuma danna Kunna sabar kuma."
+  },
+  "installation-settings.advanced.title": {
+    "message": "Ci gaba"
+  },
+  "installation-settings.relink-shared-instance.button": {
+    "message": "Sake haɗa misalin da aka raba"
+  },
+  "installation-settings.relink-shared-instance.description": {
+    "message": "Sake haɗa wannan misalin da misalin da aka raba da aka cire haɗinsa, ta amfani da hanyar gayyata ko ID."
+  },
+  "installation-settings.relink-shared-instance.modal.already-linked": {
+    "message": "Misalinka \"{name}\" an riga an haɗa shi da wannan misalin da aka raba."
+  },
+  "installation-settings.relink-shared-instance.modal.blocked-header": {
+    "message": "Ba za a iya sake haɗa wannan misalin ba"
+  },
+  "installation-settings.relink-shared-instance.modal.confirm-body": {
+    "message": "Wannan misalin zai zama tushen misalin da aka raba kuma. Mambobi za su sami canje-canjenka lokacin da ka buga sabuntawa."
+  },
+  "installation-settings.relink-shared-instance.modal.description": {
+    "message": "Sake haɗa wannan misalin da misalin da aka raba da kake da shi."
+  },
+  "installation-settings.relink-shared-instance.modal.find-button": {
+    "message": "Nemi misalin da aka raba"
+  },
+  "installation-settings.relink-shared-instance.modal.header": {
+    "message": "Sake haɗa misalin da aka raba"
+  },
+  "installation-settings.relink-shared-instance.modal.input-label": {
+    "message": "Hanyar gayyata ko ID na misalin da aka raba"
+  },
+  "installation-settings.relink-shared-instance.modal.input-placeholder": {
+    "message": "https://modrinth.com/share/..."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-body": {
+    "message": "Wannan misalin yana amfani da {localLoader} {localGameVersion}, amma misalin da aka raba yana amfani da {loader} {gameVersion}. Bugawarka ta gaba za ta canza misalin da aka raba ya dace da wannan misalin."
+  },
+  "installation-settings.relink-shared-instance.modal.mismatch-header": {
+    "message": "Sigar wasan ko loader daban"
+  },
+  "installation-settings.relink-shared-instance.modal.not-owner": {
+    "message": "Mai shi kaɗai ne zai iya sake haɗa misalin da aka raba. Don samun sabuntawarsa a matsayin memba, sake shigar da shi daga ɗakin karatu."
+  },
+  "installation-settings.relink-shared-instance.modal.relink-button": {
+    "message": "Sake haɗawa"
+  },
+  "installation-settings.relink-shared-instance.modal.server-managed": {
+    "message": "Sabar ce ke sarrafa wannan misalin da aka raba, don haka ba za a iya sake haɗa shi ba."
+  },
+  "installation-settings.relink-shared-instance.modal.version-summary": {
+    "message": "{loader} {gameVersion} · Sigar {version}"
+  },
+  "installation-settings.relink-shared-instance.title": {
+    "message": "Sake haɗa misalin da aka raba"
+  },
+  "installation-settings.shared-instance.linked-title": {
+    "message": "Misalin da aka raba da aka haɗa"
+  },
+  "installation-settings.shared-instance.unlink-button": {
+    "message": "Cire haɗin misalin da aka raba"
+  },
+  "installation-settings.shared-instance.unlink-description": {
+    "message": "Cire wannan misalin na gida daga sabuntawa da aka raba na gaba."
+  },
+  "installation-settings.shared-instance.unlinking-button": {
+    "message": "Ana cire haɗi..."
+  },
+  "installation-settings.shared-instance.unpublish-description": {
+    "message": "Cire wannan misalin da aka raba daga Panda Minecraft Launcher kuma daina aika sabuntawa ga duk wanda ke amfani da shi. Misalinka na gida ba zai shafa ba."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-body": {
+    "message": "Wannan yana shafar misalinka na gida kawai. Abun cinka da aka shigar zai kasance a wannan na'urar, kuma misalin da aka raba da sauran masu amfani da shi ba za su shafa ba."
+  },
+  "installation-settings.unlink-shared-instance.modal.admonition-header": {
+    "message": "Ana cire haɗin misalin da aka raba"
+  },
+  "installation-settings.unlink-shared-instance.modal.header": {
+    "message": "Cire haɗin misalin da aka raba"
+  },
+  "installation-settings.unpublish-shared-instance.modal.admonition-body": {
+    "message": "Wannan yana share misalin da aka raba daga sabobin Panda Minecraft Launcher. Masu amfani da shi a Panda Minecraft Launcher za su daina samun sabuntawa, amma misalinka na gida da abun cikinsa za su kasance a wannan na'urar."
+  },
+  "instance.action.create-shortcut": {
+    "message": "Ƙirƙiri gajeriyar hanya"
+  },
+  "instance.action.export-modpack": {
+    "message": "Fitar da fakitin mod"
+  },
+  "instance.action.launch-instance": {
+    "message": "Ƙaddamar da misalin wasa"
+  },
+  "instance.action.more-actions": {
+    "message": "Ƙarin ayyuka"
+  },
+  "instance.action.open-folder": {
+    "message": "Bude babban fayil"
+  },
+  "instance.action.repair": {
+    "message": "Gyara"
+  },
+  "instance.action.settings": {
+    "message": "Saitunan misalin wasa"
+  },
+  "instance.action.starting": {
+    "message": "Ana farawa..."
+  },
+  "instance.action.stopping": {
+    "message": "Ana dakatarwa..."
+  },
+  "instance.add-server.add-and-play": {
+    "message": "Ƙara kuma yi wasa"
+  },
+  "instance.add-server.add-server": {
+    "message": "Ƙara sabar"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "An kashe"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "An kunna"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "Tambaya"
+  },
+  "instance.add-server.title": {
+    "message": "Ƙara sabar"
+  },
+  "instance.edit-server.title": {
+    "message": "Gyara sabar"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "Boye daga shafin Gida"
+  },
+  "instance.edit-world.name": {
+    "message": "Suna"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "Duniya ta Minecraft"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "Sake saitin alama"
+  },
+  "instance.edit-world.title": {
+    "message": "Gyara duniya"
+  },
+  "instance.files.adding-files": {
+    "message": "Ana ƙara fayiloli ({completed}/{total})"
+  },
+  "instance.files.managed-content-read-only": {
+    "message": "Sarrafa abun cinki da aka shigar ta shafin Abun ciki"
+  },
+  "instance.files.save-as": {
+    "message": "Adana a matsayin..."
+  },
+  "instance.last-played": {
+    "message": "Wasa na ƙarshe"
+  },
+  "instance.locked.delete-button": {
+    "message": "Share misalin wasa"
+  },
+  "instance.locked.play-tooltip": {
+    "message": "An kulle wannan misalin wasa"
+  },
+  "instance.playtime.never-played": {
+    "message": "Ba a taɓa yin wasa ba"
+  },
+  "instance.server-modal.address": {
+    "message": "Adireshi"
+  },
+  "instance.server-modal.name": {
+    "message": "Suna"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "Sabar Minecraft"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "Fakitin albarkatu"
+  },
+  "instance.settings.defaults.open-app-settings": {
+    "message": "Sarrafa tsoffin saituna"
+  },
+  "instance.settings.reset-setting-to-default": {
+    "message": "Mayar da {setting} zuwa tsoho"
+  },
+  "instance.settings.reset-to-default": {
+    "message": "Mayar da tsoho"
+  },
+  "instance.settings.sidebar.label.game": {
+    "message": "Wasa"
+  },
+  "instance.settings.sidebar.label.instance": {
+    "message": "Misalin wasa"
+  },
+  "instance.settings.synced-options.data-override": {
+    "message": "Kashe wannan ƙetarewar don gyara bayanan da aka daidaita."
+  },
+  "instance.settings.synced-options.data-packs": {
+    "message": "Cire daidaitawar fakitin bayanai"
+  },
+  "instance.settings.synced-options.data-packs.description": {
+    "message": "Ajiye fakitin bayanai na wannan misali daban da waɗanda aka daidaita."
+  },
+  "instance.settings.synced-options.data-packs.disabled": {
+    "message": "An kashe daidaita fakitin bayanai a saitunan manhajar."
+  },
+  "instance.settings.synced-options.edit-packs": {
+    "message": "Gyara fakitin da aka daidaita"
+  },
+  "instance.settings.synced-options.packs-override": {
+    "message": "Kashe wannan ƙetarewar don gyara fakitin da aka daidaita. Za a iya sarrafa fakiti masu zaman kansu a shafin Abun ciki."
+  },
+  "instance.settings.synced-options.resource-packs": {
+    "message": "Cire daidaitawar fakitin albarkatu"
+  },
+  "instance.settings.synced-options.resource-packs.description": {
+    "message": "Ajiye fakitin albarkatu na wannan misali daban da waɗanda aka daidaita."
+  },
+  "instance.settings.synced-options.resource-packs.disabled": {
+    "message": "An kashe daidaita fakitin albarkatu a saitunan manhajar."
+  },
+  "instance.settings.tabs.behavior.description": {
+    "message": "Zaɓi shafukan da za su bayyana a wannan misalin."
+  },
+  "instance.settings.tabs.behavior.files": {
+    "message": "Nuna shafin Fayiloli"
+  },
+  "instance.settings.tabs.behavior.screenshots": {
+    "message": "Nuna shafin Hotuna"
+  },
+  "instance.settings.tabs.behavior.screenshots.required": {
+    "message": "Ba za a iya ɓoye shafin Hotuna ba yayin da aka kashe shafin Hotuna na gama gari."
+  },
+  "instance.settings.tabs.behavior.worlds": {
+    "message": "Nuna shafin Duniyoyi"
+  },
+  "instance.settings.tabs.general": {
+    "message": "Gama gari"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "Share misalin wasa"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "Share misalin wasa"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "Yana share misali daga na'urarka har abada, gami da duniyoyinka, saituna, da duk abubuwan da aka shigar. Ka yi hankali, domin bayan an share misali ba za a iya dawo da shi ba."
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "Ana sharewa..."
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "Kwafi"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "Ba za a iya kwafawa yayin shigarwa ba."
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.locked": {
+    "message": "Ba za a iya kwafi misalan da aka kulle ba."
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "Kwafi misalin wasa"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "Yana ƙirƙirar kwafin wannan misalin, gami da duniyoyi, saituna, mods, da sauransu."
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "Gyara alama"
+  },
+  "instance.settings.tabs.general.edit-icon.create": {
+    "message": "Ƙirƙiri alama"
+  },
+  "instance.settings.tabs.general.edit-icon.edit-created": {
+    "message": "Gyara alama"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "Cire alama"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "Maye gurbin alama"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "Zaɓi alama"
+  },
+  "instance.settings.tabs.general.icon": {
+    "message": "Alama"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "Suna"
+  },
+  "instance.settings.tabs.general.update-channel": {
+    "message": "Tashar sabuntawa"
+  },
+  "instance.settings.tabs.general.update-channel.alpha": {
+    "message": "Alpha"
+  },
+  "instance.settings.tabs.general.update-channel.alpha.description": {
+    "message": "Za a nuna sigogin saki, beta, da alpha a matsayin sabuntawa da ake da su."
+  },
+  "instance.settings.tabs.general.update-channel.beta": {
+    "message": "Beta"
+  },
+  "instance.settings.tabs.general.update-channel.beta.description": {
+    "message": "Za a nuna sigogin saki da beta a matsayin sabuntawa da ake da su."
+  },
+  "instance.settings.tabs.general.update-channel.release": {
+    "message": "Saki"
+  },
+  "instance.settings.tabs.general.update-channel.release.description": {
+    "message": "Sigogin saki kawai za a nuna a matsayin sabuntawa da ake da su."
+  },
+  "instance.settings.tabs.general.update-channel.select": {
+    "message": "Zaɓi tashar sabuntawa"
+  },
+  "instance.settings.tabs.hooks.default-settings-description": {
+    "message": "Misalinka yana amfani da ƙugiyoyin ƙaddamarwa na asali sai ka ƙetare su a nan."
+  },
+  "instance.settings.tabs.hooks.label": {
+    "message": "Ƙugiar ƙaddamarwa"
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "Bayan fita"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "Ana gudanarwa bayan wasan ya rufe."
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "Shigar da umarnin bayan fita..."
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "Kafin ƙaddamarwa"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "Ana gudanarwa kafin a ƙaddamar da misalin."
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "Shigar da umarnin kafin ƙaddamarwa..."
+  },
+  "instance.settings.tabs.hooks.variables.description": {
+    "message": "Ƙugiyoyi suna gudana a cikin babban fayil ɗin aiki na misalin, tare da masu canji masu zuwa:"
+  },
+  "instance.settings.tabs.hooks.variables.inst-dir.description": {
+    "message": "$INST_DIR: Cikakkiyar hanyar zuwa babban fayil ɗin misalin"
+  },
+  "instance.settings.tabs.hooks.variables.inst-id.description": {
+    "message": "$INST_ID: Sunan babban fayil ɗin misalin"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java-args.description": {
+    "message": "$INST_JAVA_ARGS: Hujjojin JVM da aka bai wa wasan"
+  },
+  "instance.settings.tabs.hooks.variables.inst-java.description": {
+    "message": "$INST_JAVA: Cikakkiyar hanyar zuwa fayil ɗin java"
+  },
+  "instance.settings.tabs.hooks.variables.inst-mc-dir.description": {
+    "message": "$INST_MC_DIR: Sunan madadin na $INST_DIR"
+  },
+  "instance.settings.tabs.hooks.variables.inst-name.description": {
+    "message": "$INST_NAME: Sunan misalin"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "Mai nannadewa"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "Umarnin nannadewa don ƙaddamar da Minecraft."
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "Shigar da umarnin nannadewa..."
+  },
+  "instance.settings.tabs.installation": {
+    "message": "Shigarwa"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "Sigar {loader}"
+  },
+  "instance.settings.tabs.installation.locked": {
+    "message": "Saitunan shigarwa ba su samuwa yayin da wannan misalin yake kulle."
+  },
+  "instance.settings.tabs.java.default-settings-description": {
+    "message": "Misalinka yana amfani da saitunan Java da ƙwaƙwalwa na asali sai ka ƙetare su a nan."
+  },
+  "instance.settings.tabs.java.enter-environment-variables": {
+    "message": "Shigar da masu canjin muhalli..."
+  },
+  "instance.settings.tabs.java.enter-java-arguments": {
+    "message": "Shigar da hujjojin Java..."
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "Masu canjin muhalli"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "Ƙugiyoyi"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Hujjojin Java"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Shigarwar Java"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "Rabon ƙwaƙwalwa"
+  },
+  "instance.settings.tabs.java.java-path-placeholder": {
+    "message": "/path/to/java"
+  },
+  "instance.settings.tabs.java.label": {
+    "message": "Java da ƙwaƙwalwa"
+  },
+  "instance.settings.tabs.java.recommended-java-version": {
+    "message": "An ba da shawarar Java {version} don sigar Minecraft na wannan misalin."
+  },
+  "instance.settings.tabs.sharing": {
+    "message": "Raba"
+  },
+  "instance.settings.tabs.synced-options.command-history": {
+    "message": "Cire daidaitawar tarihin umarni"
+  },
+  "instance.settings.tabs.synced-options.command-history.disabled-in-app": {
+    "message": "An kashe daidaita tarihin umarni a saitunan manhajar."
+  },
+  "instance.settings.tabs.synced-options.command-history.override-description": {
+    "message": "Ajiye tarihin umarni na wannan misali daban da tarihin da aka daidaita."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars": {
+    "message": "Cire daidaitawar sashin gaggawa na ƙirƙira da aka adana"
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.disabled-in-app": {
+    "message": "An kashe daidaita sashin gaggawa na ƙirƙira da aka adana a saitunan manhajar."
+  },
+  "instance.settings.tabs.synced-options.creative-hotbars.override-description": {
+    "message": "Ajiye sashin gaggawa na ƙirƙira da aka adana na wannan misali daban da waɗanda aka daidaita."
+  },
+  "instance.settings.tabs.synced-options.game-settings": {
+    "message": "Cire daidaitawar saitunan wasan"
+  },
+  "instance.settings.tabs.synced-options.game-settings.description": {
+    "message": "Ajiye options.txt na wannan misali daban da kwafin da aka daidaita."
+  },
+  "instance.settings.tabs.synced-options.game-settings.disabled-in-app": {
+    "message": "An kashe daidaita saitunan wasan a saitunan manhajar."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.backup-description": {
+    "message": "Za a adana kwafin sigar da ake maye gurbin kafin wani canji ya faru."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.description": {
+    "message": "{instance} da sigarka da aka daidaita suna da sassan gaggawa na ƙirƙira daban-daban. Zaɓi wanda za a yi amfani da shi a duk misalinka."
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.title": {
+    "message": "Zaɓi sashin gaggawa na ƙirƙira"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-instance": {
+    "message": "Maye gurbin sauran"
+  },
+  "instance.settings.tabs.synced-options.hotbars-conflict.use-synced": {
+    "message": "Yi amfani da wanda aka daidaita"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers": {
+    "message": "Cire daidaitawar sabobin wasa da yawa"
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.disabled-in-app": {
+    "message": "An kashe daidaita sabobin wasa da yawa a saitunan manhajar."
+  },
+  "instance.settings.tabs.synced-options.multiplayer-servers.override-description": {
+    "message": "Ajiye sabobin wasa da yawa na wannan misali daban da waɗanda aka daidaita."
+  },
+  "instance.settings.tabs.synced-options.open-app-settings": {
+    "message": "Sarrafa saitunan da aka daidaita"
+  },
+  "instance.settings.tabs.synced-options.shared-settings.description": {
+    "message": "Kunna ƙetarewar don ajiye saitin da aka daidaita daban ga wannan misalin."
+  },
+  "instance.settings.tabs.syncing": {
+    "message": "Daidaitawa"
+  },
+  "instance.settings.tabs.window.default-settings-description": {
+    "message": "Misalinka yana amfani da saitunan taga na asali sai ka ƙetare su a nan."
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "Cikakken allo"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "Sa wasan ya fara a cikakken allo lokacin ƙaddamarwa (ta amfani da options.txt)."
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "Tsayi"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "Tsayin tagar wasan lokacin ƙaddamarwa."
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "Shigar da tsayi..."
+  },
+  "instance.settings.tabs.window.label": {
+    "message": "Tagar manhajar"
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "Faɗi"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "Faɗin tagar wasan lokacin ƙaddamarwa."
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "Shigar da faɗi..."
+  },
+  "instance.settings.using-defaults": {
+    "message": "Yin amfani da tsoffin saituna"
+  },
+  "instance.shared-instance.error.title": {
+    "message": "Wani abu ya ɓata"
+  },
+  "instance.shared-instance.file-not-allowed.title": {
+    "message": "Ba a ba da damar nau'in fayil ɗin ba"
+  },
+  "instance.shared-instance.limit-reached.text": {
+    "message": "Ba za ka iya raba ƙarin misalai ba."
+  },
+  "instance.shared-instance.limit-reached.title": {
+    "message": "An kai iyakar misalan da aka raba"
+  },
+  "instance.shared-instance.network-error.text": {
+    "message": "An kasa haɗi da API na misalan da aka raba"
+  },
+  "instance.shared-instance.network-error.title": {
+    "message": "Kuskuren cibiyar sadarwa"
+  },
+  "instance.shared-instance.owner-behind.text": {
+    "message": "An tura sigar da ta ci gaba daga wani shigarwar Panda Minecraft Launcher. Zazzage ta, sannan ka sake gwadawa."
+  },
+  "instance.shared-instance.owner-behind.title": {
+    "message": "An kasa tura sabuntawa"
+  },
+  "instance.shared-instance.owner-tooltip": {
+    "message": "Ana raba abun cikin wannan misalin ga sauran masu amfani."
+  },
+  "instance.shared-instance.tooltip": {
+    "message": "Wani mutum ne ke sarrafa abun cikin wannan misalin."
+  },
+  "instance.shared-instance.unavailable.access-revoked-text": {
+    "message": "An soke damarka ga misalin da aka raba. Wannan misalin yana nan, amma ba a sake haɗa shi ba kuma ba zai ƙara samun sabuntawa ba."
+  },
+  "instance.shared-instance.unavailable.locked-owner-text": {
+    "message": "Ƙungiyar daidaita abun ciki ta kulle misalin da aka raba. Ba ka da damar tura sabuntawa ko sake raba wannan misalin."
+  },
+  "instance.shared-instance.unavailable.locked-owner-title": {
+    "message": "Ba za a iya raba wannan misalin kuma"
+  },
+  "instance.shared-instance.unavailable.locked-text": {
+    "message": "Ƙungiyar daidaita abun ciki ta kulle wannan misalin da aka raba. Ba zai ƙara samun sabuntawa daga misalin asali ba kuma ba za a iya yi wasa da shi ba."
+  },
+  "instance.shared-instance.unavailable.locked-title": {
+    "message": "An kulle misalin wasa"
+  },
+  "instance.shared-instance.unavailable.manager-fallback": {
+    "message": "mai sarrafa misalin"
+  },
+  "instance.shared-instance.unavailable.not-found-text": {
+    "message": "Ba mu sami wannan misalin da aka raba ba. Abun cinka da aka shigar yana nan a wannan na'urar."
+  },
+  "instance.shared-instance.unavailable.not-found-title": {
+    "message": "Misalin da aka raba ba ya samuwa"
+  },
+  "instance.shared-instance.unavailable.text": {
+    "message": "Misalinka na gida yana nan, amma ba a sake haɗa shi ba kuma ba zai sami sabuntawa ba."
+  },
+  "instance.shared-instance.unavailable.title": {
+    "message": "Misalin da aka raba ba ya samuwa kuma"
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "Sabar Minecraft"
+  },
+  "instance.worlds.actions.label": {
+    "message": "Ayyukan duniya"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "An kasa haɗi da sabar"
+  },
+  "instance.worlds.copy_address": {
+    "message": "Kwafi adireshi"
+  },
+  "instance.worlds.create_shortcut": {
+    "message": "Ƙirƙiri gajeriyar hanya"
+  },
+  "instance.worlds.desync-server.description": {
+    "message": "Kana son ajiye wannan sabar a sauran misalan da aka daidaita, ko cire shi daga gare su?"
+  },
+  "instance.worlds.desync-server.keep": {
+    "message": "Ci gaba da riƙewa"
+  },
+  "instance.worlds.desync-server.remove": {
+    "message": "Cire"
+  },
+  "instance.worlds.desync-server.title": {
+    "message": "Cire daidaitawar sabar"
+  },
+  "instance.worlds.desync_server": {
+    "message": "Cire daidaitawa"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "Kada a nuna a Gida"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "Misalin wasa a buɗe yake"
+  },
+  "instance.worlds.hardcore": {
+    "message": "Yanayin Hardcore"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "Sabar ba ta dace ba"
+  },
+  "instance.worlds.instance-locked": {
+    "message": "An kulle wannan misalin wasa"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Aikin sabar ne ke sarrafawa"
+  },
+  "instance.worlds.more-options": {
+    "message": "Ƙarin zaɓuɓɓuka"
+  },
+  "instance.worlds.no_contact": {
+    "message": "An kasa tuntuɓar sabar"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "Za ka iya shiga sabobin kai tsaye kawai a Minecraft Alpha 1.0.5+"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "Za ka iya shiga duniyoyin wasa guda ɗaya kai tsaye kawai a Minecraft 1.20+"
+  },
+  "instance.worlds.play_instance": {
+    "message": "Yi wasa da misalin"
+  },
+  "instance.worlds.play_world": {
+    "message": "Yi wasa da duniyar"
+  },
+  "instance.worlds.shortcut-created": {
+    "message": "An ƙirƙiri gajeriyar hanya"
+  },
+  "instance.worlds.shortcut-creation-failed": {
+    "message": "An kasa ƙirƙirar gajeriyar hanya"
+  },
+  "instance.worlds.synced_server": {
+    "message": "An daidaita a duk misalai"
+  },
+  "instance.worlds.view_instance": {
+    "message": "Duba misalin wasa"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "Ana amfani da duniyar"
+  },
+  "minecraft-account.add-elyby-account": {
+    "message": "Ƙara asusun ely.by"
+  },
+  "minecraft-account.add-microsoft-account": {
+    "message": "Ƙara asusun Microsoft"
+  },
+  "minecraft-account.auth-error.elyby": {
+    "message": "Ba mu iya shiga asusunka na ely.by ba. Duba asusunka na ely.by sannan ka sake gwadawa."
+  },
+  "minecraft-account.auth-error.header": {
+    "message": "Shiga bai yi nasara ba"
+  },
+  "minecraft-account.auth-error.microsoft": {
+    "message": "Ba mu iya shiga asusunka na Microsoft ba. Ƙila saboda ƙuntatawa na asusu ko na yanki ne."
+  },
+  "minecraft-account.elyby.code-label": {
+    "message": "Lambarka"
+  },
+  "minecraft-account.elyby.copied": {
+    "message": "An kwafi"
+  },
+  "minecraft-account.elyby.copy": {
+    "message": "Kwafi"
+  },
+  "minecraft-account.elyby.header": {
+    "message": "Shiga da ely.by"
+  },
+  "minecraft-account.elyby.instructions": {
+    "message": "Buɗe shafin tabbatarwa na ely.by kuma shigar da wannan lambar don ba da izini ga Panda Minecraft Launcher. Shiga zai ci gaba ta atomatik bayan ka amince."
+  },
+  "minecraft-account.elyby.open-page": {
+    "message": "Buɗe shafin tabbatarwa na ely.by"
+  },
+  "minecraft-account.elyby.waiting": {
+    "message": "Ana jiran izini…"
+  },
+  "minecraft-account.label": {
+    "message": "Asusun Minecraft"
+  },
+  "minecraft-account.not-signed-in": {
+    "message": "Ba ka shiga ba"
+  },
+  "minecraft-account.provider-elyby": {
+    "message": "ely.by"
+  },
+  "minecraft-account.remove-account": {
+    "message": "Cire asusu"
+  },
+  "minecraft-account.select-account": {
+    "message": "Zaɓi asusu"
+  },
+  "minecraft-account.sign-in-elyby": {
+    "message": "Shiga da ely.by"
+  },
+  "minecraft-account.sign-in-microsoft": {
+    "message": "Shiga da Microsoft"
+  },
+  "minecraft-required.description": {
+    "message": "Kana buƙatar asusun Minecraft kafin ka iya ƙaddamarwa da yin wasa. Za ka iya shiga da Microsoft ko ely.by."
+  },
+  "minecraft-required.description-header": {
+    "message": "Shiga Minecraft"
+  },
+  "minecraft-required.dont-have-account": {
+    "message": "Ba ka da asusu?"
+  },
+  "minecraft-required.get-minecraft": {
+    "message": "Sami Minecraft"
+  },
+  "minecraft-required.get-support": {
+    "message": "Nemi taimako"
+  },
+  "minecraft-required.header": {
+    "message": "Ana buƙatar Minecraft"
+  },
+  "minecraft-required.sign-in": {
+    "message": "Shiga da Microsoft"
+  },
+  "minecraft-required.sign-in-elyby": {
+    "message": "Shiga da ely.by"
+  },
+  "modal.modrinth-account-required.browser-description": {
+    "message": "An buɗe sabon shafin don shiga. Kammala shiga a can, sannan ka koma manhajar."
+  },
+  "modal.modrinth-account-required.continue-in-browser-heading": {
+    "message": "Ci gaba a cikin burauzarka"
+  },
+  "modal.modrinth-account-required.create-account-button": {
+    "message": "Ƙirƙiri asusu"
+  },
+  "modal.modrinth-account-required.description": {
+    "message": "Kana buƙatar shiga asusunka na Panda Minecraft Launcher kafin ka yi amfani da wannan fasalin."
+  },
+  "modal.modrinth-account-required.header": {
+    "message": "Ana buƙatar asusu"
+  },
+  "modal.modrinth-account-required.open-browser-again-button": {
+    "message": "Buɗe burauzar kuma"
+  },
+  "modal.modrinth-account-required.sign-in-button": {
+    "message": "Shiga Panda Minecraft Launcher"
+  },
+  "modal.modrinth-account-required.sign-in-heading": {
+    "message": "Shiga asusun Panda Minecraft Launcher"
+  },
+  "modal.modrinth-account-required.signing-in-header": {
+    "message": "Ana shiga"
+  },
+  "modal.modrinth-account-required.support-prompt": {
+    "message": "Kana da matsalar shiga? <support>Nemi taimako</support>"
+  },
+  "modal.modrinth-account-required.waiting-for-browser": {
+    "message": "Ana jiran tabbatarwa daga burauzar..."
+  },
+  "project.server.status.offline": {
+    "message": "Babu haɗin intanet"
+  },
+  "project.server.status.online": {
+    "message": "Kan layi"
+  },
+  "search.filter.locked.instance": {
+    "message": "Misalin ne ke bayarwa"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "Misalin ne ke samar da sigar wasan"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "Misalin ne ke samar da loader"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "Daidaita da misalin"
+  },
+  "search.filter.locked.server": {
+    "message": "Sabar ce ke bayarwa"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Mods na ɓangaren abokin ciniki kawai za a iya ƙarawa ga misalin sabar"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Sabar ce ke samar da sigar wasan"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Sabar ce ke samar da loader"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Daidaita da sabar"
+  },
+  "settings.sidebar.label.account": {
+    "message": "Asusu"
+  },
+  "settings.sidebar.label.display": {
+    "message": "Nuni"
+  }
+}
